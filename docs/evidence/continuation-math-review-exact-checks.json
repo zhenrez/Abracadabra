@@ -1,0 +1,121 @@
+{
+  "source_hash": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+  "source_pointer_literal_matches": true,
+  "conditional_laws": 11,
+  "dependencies": [
+    [
+      "DISTINGUISH-ADDRESS-EXACT-PITCH",
+      "NATIVE-SCALAR-BASIS"
+    ],
+    [
+      "DISTINGUISH-VALUE-HISTORY",
+      "NATIVE-SCALAR-BASIS"
+    ],
+    [
+      "BRIDGE-DIRECTION-RESIDUAL",
+      "NATIVE-SCALAR-BASIS"
+    ],
+    [
+      "BRIDGE-DIRECTION-RESIDUAL",
+      "DISTINGUISH-ADDRESS-EXACT-PITCH"
+    ],
+    [
+      "CONDITIONAL-FAMILY-PHASE-PROBES",
+      "CONDITIONAL-FAMILY-CONSENSUS"
+    ],
+    [
+      "JOINT-OBSERVABLE-GENERATION-PERIOD",
+      "WITNESS-TIME-GENERATION-LATTICE"
+    ],
+    [
+      "DISTINGUISH-CLASS-ACOUSTIC-GRADE",
+      "NATIVE-SCALAR-BASIS"
+    ]
+  ],
+  "proof_hash_checks": [
+    {
+      "law": "NATIVE-SCALAR-BASIS",
+      "path": "state/reconstruction/native-derivations.json",
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "matches": true
+    },
+    {
+      "law": "NATIVE-SCALAR-BASIS",
+      "path": "state/reconstruction/tol-history-math.json",
+      "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+      "matches": true
+    },
+    {
+      "law": "DISTINGUISH-ADDRESS-EXACT-PITCH",
+      "path": "state/reconstruction/orientation-predictions.json",
+      "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "matches": true
+    },
+    {
+      "law": "DISTINGUISH-VALUE-HISTORY",
+      "path": "state/reconstruction/native-derivations.json",
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "matches": true
+    },
+    {
+      "law": "DISTINGUISH-VALUE-HISTORY",
+      "path": "state/reconstruction/tol-history-math.json",
+      "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+      "matches": true
+    },
+    {
+      "law": "BRIDGE-DIRECTION-RESIDUAL",
+      "path": "state/reconstruction/native-derivations.json",
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "matches": true
+    },
+    {
+      "law": "CONDITIONAL-FAMILY-CONSENSUS",
+      "path": "state/reconstruction/orientation-predictions.json",
+      "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "matches": true
+    },
+    {
+      "law": "CONDITIONAL-FAMILY-PHASE-PROBES",
+      "path": "state/reconstruction/orientation-predictions.json",
+      "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "matches": true
+    },
+    {
+      "law": "WITNESS-TIME-GENERATION-LATTICE",
+      "path": "state/reconstruction/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "matches": true
+    },
+    {
+      "law": "JOINT-OBSERVABLE-GENERATION-PERIOD",
+      "path": "state/reconstruction/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "matches": true
+    },
+    {
+      "law": "DISTINGUISH-GENEALOGY-INSTITUTIONAL-ADDRESS",
+      "path": "state/reconstruction/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "matches": true
+    },
+    {
+      "law": "OVERLAP-TIMING-NULLSPACE",
+      "path": "state/reconstruction/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "matches": true
+    },
+    {
+      "law": "DISTINGUISH-CLASS-ACOUSTIC-GRADE",
+      "path": "state/reconstruction/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "matches": true
+    }
+  ],
+  "graph_acyclic": true,
+  "finite_coordinate_kernel_cases": 5945,
+  "coordinate_kernel_scope": "finite checks supplement universal lattice/normal-form proof; no claim that examples prove group theorem",
+  "root_quotient_proof": "R,L valuation columns determinant -1 span integer lattice; adjoining (1/12,0) produces (1/12)Z x Z. H/G quotient map is (a/12,b)->a mod12 with kernel Z x Z. H/<2> map is (a/12,b)->(a mod12,b) with kernel Z x {0}. Prime monomial faithfulness follows by common-denominator power and unique integer prime factorizations.",
+  "delta_twelfth": "524288/531441",
+  "delta_nonidentity": true
+}

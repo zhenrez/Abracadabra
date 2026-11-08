@@ -1,0 +1,17 @@
+{
+  "state": {
+    "goal": "Finish faithful native name extraction for the actual hierarchy atlas without another source-access detour.",
+    "observed": "The atlas initially used Peterson URLanchorbaal as nativeName instead of paragraphnameBael; the new regression correctly failed. A quotedattribute regex extracted0names because actual HTML has uppercase P and unquoted IDs. The next correctedattribute regex extracted19instead of72because legacy HTML omits optional closing p tags, so matching whole paragraphs consumes multiple entries. The already-used Python BeautifulSoup DOM parser resolves all72IDparagraphs and all72explicit strongnames. Rawsource Windows1252bytes/hash are preserved; counts/relationships stillpass and the failing build stops before replacing the old atlas.",
+    "constraints": "Keep before-failure receipts and exact source spelling. Do not weaken72-name completeness, use URLanchors as native names, invent names, modify source bytes, add dependencies/services/browser or rerun the whole suite. Root awaits this bounded correction before merging musical views."
+  },
+  "questions": {
+    "parser_recovery": {
+      "type": "choice",
+      "instructions": "Choose the smallest reliable correction that respects the observed legacy HTML flow and retained source evidence.",
+      "criteria": {
+        "existing_dom_extraction_artifact": "Use the already-installed and demonstrated BeautifulSoup parser once to create a hash-bound72-row native-name extraction artifact from the pinned rawHTML; the Nodebuilder consumes/verifies that artifact and keeps source anchors separate. No ad hoc HTML whole-paragraph regex.",
+        "bounded_start_tag_segments": "In the Nodebuilder enumerate only72source p-ID start tags, then inspect the following segment's explicit strongname without requiring optional end tags. Verify72names and retain encoding/hash/source-reference checks."
+      }
+    }
+  }
+}

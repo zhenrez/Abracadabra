@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "request_sha256": "1f7410594650ae0a42a2ea3b3e2945e32dc7350018422d028a672fc55f4828d4",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "operating_mission": {
+      "type": "choice",
+      "probabilities": {
+        "continue_mature_alignment_parallel_forensic_repair": 1.0,
+        "global_inventory_gate": 0.0
+      },
+      "winner": "continue_mature_alignment_parallel_forensic_repair",
+      "top_probability": 1.0,
+      "margin": 1.0
+    },
+    "bridge_experiment_contract": {
+      "type": "choice",
+      "probabilities": {
+        "no_holdout_ever": 0.0,
+        "permanent_bridge_exclusion": 0.0,
+        "retained_full_stack_scoped_blind_holdout": 1.0
+      },
+      "winner": "retained_full_stack_scoped_blind_holdout",
+      "top_probability": 1.0,
+      "margin": 1.0
+    },
+    "outcome_semantics": {
+      "type": "choice",
+      "probabilities": {
+        "calendar_counterfactual_phonetic_and_nonsector_ophiuchus": 1.0,
+        "glyph_index_fixed_zodiac_sector": 0.0
+      },
+      "winner": "calendar_counterfactual_phonetic_and_nonsector_ophiuchus",
+      "top_probability": 1.0,
+      "margin": 1.0
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 3964,
+    "output_tokens": 196
+  },
+  "network_calls": 1,
+  "latency_ms": 249
+}

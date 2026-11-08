@@ -1,0 +1,4 @@
+{
+  "code": "q = 2^(1/12); delta = q^7/(3/2); <|\"RootRelation\"->FullSimplify[q^12==2],\"DeltaNormalForm\"->FullSimplify[delta==2^(19/12)/3],\"DeltaTwelfth\"->FullSimplify[delta^12],\"CommaCancellation\"->FullSimplify[delta^12*((3/2)^12/2^7)==1],\"PureFifthEqualsRootSeventh\"->FullSimplify[q^7==3/2],\"CosetStepTwelve\"->Table[Mod[k,12],{k,0,11}],\"NegativeOctaveRemainder\"->Mod[-1/12,1],\"GeneratorLatticeDeterminant\"->Det[{{1,-2},{-1,1}}]|>",
+  "timeConstraint": 20
+}

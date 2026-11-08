@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "method": "Independent successive-pair forest merges; exhaustive binary internal-state assignments, root fixed to 0, losses forbidden. Does not import tested generator.",
+  "counts": {
+    "all": 105,
+    "oneGain": 15,
+    "twoGains": 90
+  },
+  "checked": [
+    "Exact canonical tree-set equality",
+    "Every candidate minimum gain count",
+    "Every candidate one-gain acceptance flag",
+    "Source SHA256 binding",
+    "Existing judged Jev receipt"
+  ],
+  "rootStemAssessment": "Current mixed tip states force a 0 root under no-loss assumptions, so the implementation is correct for this dataset. Its gains helper would count an implicit stem gain for an all-derived input despite its root-state-0 docstring; it must not be reused for that case without explicit stem semantics.",
+  "scope": "Combinatorial correctness only. Historical character coding, chronology, common inheritance versus parallel innovation/contact, and original sound remain unverified. Counts are not probabilities.",
+  "jev": {
+    "newInferenceInvokedByReviewer": false,
+    "reusedReceipt": "qames-discrimination-jev.json",
+    "model": "jev-1.14.0"
+  },
+  "inputs": {
+    "docs\\reconstruction\\symbol-sound-census\\qames-topology-discrimination.json": "5935028848501a7c66fa41ec700307a9b58fdbf7c26bd20243e2eaca22c85c40",
+    "scripts\\execute_qames_discrimination.py": "ab36196c325ddcb35820afa440d3f814a28064107c3c59fd404e15f9f515fb32",
+    "docs\\reconstruction\\symbol-sound-census\\phyla-waves-assessment.json": "c64301e3db491f1978b490e0cfefaf7a4d6fd8ac484be58a031f79a49ff43bd3"
+  }
+}

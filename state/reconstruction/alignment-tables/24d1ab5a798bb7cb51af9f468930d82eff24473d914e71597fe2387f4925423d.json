@@ -1,0 +1,64 @@
+{
+  "id": "alignment-table-24d1ab5a798bb7cb",
+  "content_sha256": "24d1ab5a798bb7cb51af9f468930d82eff24473d914e71597fe2387f4925423d",
+  "headers": [
+    "Test",
+    "Method",
+    "What it can settle"
+  ],
+  "rows": [
+    [
+      "**1\\. SAT/SMT constraint solving**",
+      "Z3, theorem prover",
+      "Which mother, letter, pitch, and Tree assignments are possible or mathematically impossible"
+    ],
+    [
+      "**2\\. Exhaustive algebraic search**",
+      "SymPy, exact rational arithmetic",
+      "Which transformations can actually be generated from SUN, and which require additional structure"
+    ],
+    [
+      "**3\\. Graph isomorphism and embedding**",
+      "NetworkX, VF2",
+      "Whether Sefer's gates, TOL paths, and musical states have compatible structures rather than merely matching counts"
+    ],
+    [
+      "**4\\. Blind prediction**",
+      "Holdout testing",
+      "Whether one decoded relationship correctly predicts another that was not used to construct it"
+    ],
+    [
+      "**5\\. Null-model testing**",
+      "Permutation and Monte Carlo tests",
+      "Whether the observed agreement is exceptional or common under arbitrary assignments"
+    ],
+    [
+      "**6\\. Audio and signal analysis**",
+      "NumPy, SciPy, Fourier analysis",
+      "Whether the proposed intervals produce the predicted beating, convergence, and melodic behavior"
+    ],
+    [
+      "**7\\. Boundary and state-machine testing**",
+      "Exhaustive transition enumeration",
+      "Whether Mi→Fa→Mi, octave changes, and letter transformations obey consistent composition rules"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 26816,
+      "line_end": 26824,
+      "char_start": 1345328,
+      "char_end": 1346546,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Test | Method | What it can settle |\n|--------|--------|--------|\n| **1\\. SAT/SMT constraint solving** | Z3, theorem prover | Which mother, letter, pitch, and Tree assignments are possible or mathematically impossible |\n| **2\\. Exhaustive algebraic search** | SymPy, exact rational arithmetic | Which transformations can actually be generated from SUN, and which require additional structure |\n| **3\\. Graph isomorphism and embedding** | NetworkX, VF2 | Whether Sefer's gates, TOL paths, and musical states have compatible structures rather than merely matching counts |\n| **4\\. Blind prediction** | Holdout testing | Whether one decoded relationship correctly predicts another that was not used to construct it |\n| **5\\. Null-model testing** | Permutation and Monte Carlo tests | Whether the observed agreement is exceptional or common under arbitrary assignments |\n| **6\\. Audio and signal analysis** | NumPy, SciPy, Fourier analysis | Whether the proposed intervals produce the predicted beating, convergence, and melodic behavior |\n| **7\\. Boundary and state-machine testing** | Exhaustive transition enumeration | Whether Mi→Fa→Mi, octave changes, and letter transformations obey consistent composition rules |\n",
+      "quote_sha256": "95413490548bc084a1a38608211b8f935add50bfd24478793bc2899c4c4d38d4",
+      "message_id": "b8c131c4411e75ebac0eb9f0c1ace3a7f506c2b58e8c29b40107811373333bee",
+      "role": "assistant",
+      "locator": "lines:26816-26824"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

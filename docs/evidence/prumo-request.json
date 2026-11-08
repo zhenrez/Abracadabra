@@ -1,0 +1,18 @@
+{
+  "state": {
+    "arithmetic_expression": "720 / 360"
+  },
+  "questions": {
+    "turns_per_class": {
+      "type": "choice",
+      "instructions": "Which option equals the exact supplied arithmetic expression? This checks adapter arithmetic, not SUNNY geometry or theory.",
+      "criteria": {
+        "one": "1",
+        "two": "2"
+      }
+    }
+  },
+  "solvers": [
+    "arithmetic_exact"
+  ]
+}

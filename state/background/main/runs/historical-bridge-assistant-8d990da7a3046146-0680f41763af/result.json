@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-8d990da7a3046146",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:58:27.835689+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39/text.txt",
+        "sha256": "8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "77faa5c7db66172f1b856770924d218d06253dd786f1f8c911520618ad7e01eb",
+        "timestamp": "1788384537.949761",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "77faa5c7db66172f1b856770924d218d06253dd786f1f8c911520618ad7e01eb",
+          "native_id": "120d8e98-9262-4e2e-834c-c97113a35f55",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/120d8e98-9262-4e2e-834c-c97113a35f55/message",
+          "create_time": "1788384537.949761",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39/occurrences-51724f74de0376c7801d306d23cc3d6fbe956a4ba0e20e001fce7a422bbcd0e5.json",
+        "quote": "I’m treating the next pass as a **dynamic residual test**, not another number match: does the fifth-generated Chinese pitch order encode a genuinely special role for Earth/center/mediation, and do **Fludd** and **Kepler** independently help us distinguish “generator,” “center,” “harmonic mediator,” and “scale transition”?",
+        "quote_sha256": "8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39",
+        "original_bytes": 341,
+        "start_offset": 0,
+        "end_offset": 323
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "b1bd74044d948d77941db83f357a4f84ff0b899c8bbabf0966022e7a6c0f0e82",
+        "artifact_id": "ca23b744-dd8e-5e13-8fa0-dc503546b400",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.16,
+            "refines": 0.42,
+            "supports": 0.41
+          },
+          "winner": "refines",
+          "top_probability": 0.42,
+          "margin": 0.010000000000000009
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.36,
+            "refines": 0.41,
+            "supports": 0.23
+          },
+          "winner": "refines",
+          "top_probability": 0.41,
+          "margin": 0.04999999999999999
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.228,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

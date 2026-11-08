@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-31T21:21:36.766501+00:00",
+  "request_sha256": "831098355a6b0c37cbd07f4eb56a5db98765f50cfdcf2ef8880115edce55db0f",
+  "actual_result_request_digest_matches": true,
+  "result_semantics": "Complete persisted helper result from the earlier actual call, not a new inference or a fabricated provider HTTP body.",
+  "readable_utf8": true,
+  "protocol_headings": 5,
+  "current_model_record_bindings_checked": [
+    "MG-U-720",
+    "MG-U-GEOMETRY",
+    "MG-LATEST-13-BOUNDARY",
+    "MG-SOL-PITCH-LOCK",
+    "MG-SOL-SABAOTH-ADR",
+    "MG-LATEST-FOUNDATION",
+    "MG-LATEST-BRIDGE-ACK",
+    "MG-COMMA-DISTINCTIONS",
+    "MG-CN-PIPE-AXES",
+    "MG-LATEST-POLARITY",
+    "MG-SOL-TYPED-POLARITY-GEOMETRY"
+  ],
+  "snapshot_bindings": [
+    {
+      "path": "docs/reconstruction/CURRENT_MODEL.md",
+      "bytes": 16459,
+      "sha256": "8bbcb2e976bd7a1ec14af4c7cac2d60943a1740ac44f190e6393e2a063a101f6"
+    },
+    {
+      "path": "docs/reconstruction/MUSIC_GEOMETRY.md",
+      "bytes": 14214,
+      "sha256": "12f9b47eb7ec260bd75f3b3472e9bdd7e8d95c98c4551cd81cacee6de9b79b17"
+    },
+    {
+      "path": "state/reconstruction/music-geometry.json",
+      "bytes": 6543125,
+      "sha256": "8f8ab999441933e6cad3831762d1af231e96ef94a786e5e91c0e6aaa241747d3"
+    },
+    {
+      "path": "state/reconstruction/correspondences.json",
+      "bytes": 681486,
+      "sha256": "17235b6f11ff33450bcb0835a6f3ccf777cfe64099dbeb4f06b9e70f0aaa0cf3"
+    }
+  ],
+  "original_images_inspected": 0,
+  "network_calls_during_this_validation": 0,
+  "new_service_or_browser_processes": 0,
+  "scope_correction": "Latest80-100 account-wide uploaded images; historical Favorites filename and request retained for provenance."
+}

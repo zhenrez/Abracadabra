@@ -1,0 +1,64 @@
+test_equivalent_operator_fits_do_not_determine_register (test_comparisons.TypedComparisonTests.test_equivalent_operator_fits_do_not_determine_register) ... FAIL
+test_historical_correspondence_fails_closed (test_comparisons.TypedComparisonTests.test_historical_correspondence_fails_closed) ... FAIL
+test_incompatible_composites_produce_counterexample (test_comparisons.TypedComparisonTests.test_incompatible_composites_produce_counterexample) ... FAIL
+test_reciprocal_length_frequency_diagram (test_comparisons.TypedComparisonTests.test_reciprocal_length_frequency_diagram) ... FAIL
+test_type_mismatch_rejected (test_comparisons.TypedComparisonTests.test_type_mismatch_rejected) ... FAIL
+
+======================================================================
+FAIL: test_equivalent_operator_fits_do_not_determine_register (test_comparisons.TypedComparisonTests.test_equivalent_operator_fits_do_not_determine_register)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_comparisons.py", line 28, in test_equivalent_operator_fits_do_not_determine_register
+    self.assertEqual(result['identifiability'],'MULTIPLE_DISTINGUISHABLE')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'NOT_EVALUATED' != 'MULTIPLE_DISTINGUISHABLE'
+- NOT_EVALUATED
++ MULTIPLE_DISTINGUISHABLE
+
+
+======================================================================
+FAIL: test_historical_correspondence_fails_closed (test_comparisons.TypedComparisonTests.test_historical_correspondence_fails_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_comparisons.py", line 31, in test_historical_correspondence_fails_closed
+    with self.assertRaises(PermissionError):historical_reconstruct({'glyph':'\u05d0','pitch':'A'})
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: PermissionError not raised
+
+======================================================================
+FAIL: test_incompatible_composites_produce_counterexample (test_comparisons.TypedComparisonTests.test_incompatible_composites_produce_counterexample)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_comparisons.py", line 18, in test_incompatible_composites_produce_counterexample
+    self.assertEqual(result['status'],'COUNTEREXAMPLE')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'NOT_EVALUATED' != 'COUNTEREXAMPLE'
+- NOT_EVALUATED
++ COUNTEREXAMPLE
+
+
+======================================================================
+FAIL: test_reciprocal_length_frequency_diagram (test_comparisons.TypedComparisonTests.test_reciprocal_length_frequency_diagram)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_comparisons.py", line 11, in test_reciprocal_length_frequency_diagram
+    self.assertEqual(result['status'],'PRESERVED_UNDER_DECLARED_ADAPTER')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'NOT_EVALUATED' != 'PRESERVED_UNDER_DECLARED_ADAPTER'
+- NOT_EVALUATED
++ PRESERVED_UNDER_DECLARED_ADAPTER
+
+
+======================================================================
+FAIL: test_type_mismatch_rejected (test_comparisons.TypedComparisonTests.test_type_mismatch_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_comparisons.py", line 22, in test_type_mismatch_rejected
+    with self.assertRaises(ValueError):commutation(ScalarOperator('a','length_ratio',Q(2,3)),
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+FAILED (failures=5)

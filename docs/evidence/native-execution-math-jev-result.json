@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "request_sha256": "4556b03bc97ec06d708e33df492113be9512a79d65db98fe937cd02d485f70d8",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "euclidean_rule": {
+      "type": "choice",
+      "probabilities": {
+        "bjorklund_cyclic_orbit": 0.06,
+        "mechanical_cyclic_orbit": 0.94
+      },
+      "winner": "mechanical_cyclic_orbit",
+      "top_probability": 0.94,
+      "margin": 0.8799999999999999
+    },
+    "partial_native_maps": {
+      "type": "choice",
+      "probabilities": {
+        "identity_only": 0.01,
+        "unknown": 0.99
+      },
+      "winner": "unknown",
+      "top_probability": 0.99,
+      "margin": 0.98
+    },
+    "joint_arity": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.05,
+        "false": 0.95
+      },
+      "value": false
+    },
+    "conditional_kernel": {
+      "type": "choice",
+      "probabilities": {
+        "argmax_event": 0.0,
+        "full_distribution": 1.0
+      },
+      "winner": "full_distribution",
+      "top_probability": 1.0,
+      "margin": 1.0
+    },
+    "duration_semantics": {
+      "type": "choice",
+      "probabilities": {
+        "any_signed_delta": 0.0,
+        "positive_additions": 1.0
+      },
+      "winner": "positive_additions",
+      "top_probability": 1.0,
+      "margin": 1.0
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 946,
+    "output_tokens": 177
+  },
+  "network_calls": 1,
+  "latency_ms": 211
+}

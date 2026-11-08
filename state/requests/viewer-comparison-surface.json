@@ -1,0 +1,45 @@
+{
+  "state": {
+    "goal": "Integrate the already authorized real Jev-gated structural comparison into SUNNY's existing source-preserving UI, and make bounded conversation pagination practical. No canonical promotion or redesign.",
+    "facts": "Root live receipt000039 selected guarded_app. src/comparison.ts validates a bounded exact JSON kernel/candidate/constraint input, resolves literal source IDs and kernel-byte hash, prepares a real Jev eligibility request (not full-source truth adjudication), and executes only an explicit evaluate_conditional action. state/native-comparison.json contains12recovered Atlas assignments plus unknown independent selectors. Source conversations have at most1927current nodes; browser currently asks APIdefault2000so pagination is not exercised by actual current conversations.",
+    "constraints": "Preserve exact edited input, unknowns, full witnesses, model receipts and user source roles. No automatic canonical geometry placement. Existing visual shell should remain. Use shared guarded subprocess/body handling, fixed local script and explicit UTF8bytes."
+  },
+  "questions": [
+    {
+      "id": "comparison_surface",
+      "type": "choice",
+      "question": "Where should the authorized conditional structural comparison appear?",
+      "options": {
+        "dedicated_view": "Add one Structural comparison view in the existing sidebar, keeping source inspection, finite geometry, and explicit comparison results in the same existing shell.",
+        "geometry_section": "Add the comparison editor and results below the existing Geometry workspace, retaining the existing sidebar."
+      }
+    },
+    {
+      "id": "comparison_input",
+      "type": "choice",
+      "question": "Which initial input surface should preserve the exact declared kernel, source IDs, candidates and constraints?",
+      "options": {
+        "exact_json": "Use an editable exact JSON input, with a button to load the real recovered12-candidate example, visible input hash/source bindings, and exact result witnesses/unknowns.",
+        "guided_fields": "Build separate input controls for kernel fields, every source reference, candidate assignment and predicate; serialize those controls into the existing exact JSON contract."
+      }
+    },
+    {
+      "id": "conversation_page_size",
+      "type": "choice",
+      "question": "Which bounded initial conversation page should the browser request?",
+      "options": {
+        "two_hundred": "Request200nodes at a time and follow next_offset with Loadmore; keep APImaxlimitunchanged and preserve source order/roles.",
+        "two_thousand": "Keep the existing2000node initial page and follow next_offset only for future larger conversations."
+      }
+    },
+    {
+      "id": "shared_bridge_shape",
+      "type": "choice",
+      "question": "Which reuse should the server apply for the second authorized POST operation?",
+      "options": {
+        "shared_dispatcher": "Keep one guarded JSON-body dispatcher that prepares either a native Jev request or comparison eligibility request, calls the same fixed subprocess, and dispatches its completion by the fixed operation kind.",
+        "subprocess_helper": "Extract a fixed subprocess helper plus shared JSON-body reader; keep two small endpoint handlers calling those helpers and their respective pure validators."
+      }
+    }
+  ]
+}

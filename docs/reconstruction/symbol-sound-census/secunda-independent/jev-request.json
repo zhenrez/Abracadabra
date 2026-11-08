@@ -1,0 +1,29 @@
+{
+  "state": {
+    "goal": "Independently audit the restoration boundary and exact Psalm locus of -αυεω in Kantor's Cambridge March2019 presentation of T-S12.182, preserving source and physical-readability limits.",
+    "observed": [
+      "Fresh official Cambridge article bytes match the previously preserved HTML SHA256 a06dbe581becf9b6613cbc68987572c9393b838de27c45cd2e79e90643ff60bc.",
+      "The large official reconstruction image is visually inspected. The target third row reads ουαβσ]αυεω; the suffix αυεω lies right of the closing restoration boundary. Preceding rows similarly show restored prefixes before ] and remaining suffixes after it.",
+      "Article describes a tentative reconstruction of Psalm22.25-28 based on only several remaining letters per line. Its discussion pairs -αυεω with Hebrew ובשועו, not aleph.",
+      "A separately fetched Hebrew chapter labels the word ובשועו at Psalm22:25. The CUDL institutional manifest describes Psalm22 (21 in Greek tradition), columns2-5, few second-column letters, and supplies normal and multispectral image services.",
+      "The article reconstruction is not an independent letter-by-letter physical collation. Browser article/viewer returned403, but direct primary HTML, official reconstruction image and institutional IIIF manifest succeeded."
+    ],
+    "constraints": [
+      "Do not treat restored prefix letters as extant ink or call editorial unbracketed letters independently physically verified without original-image collation.",
+      "Keep editorial transcription, manuscript traces, modern Tiberian comparison and phonetic interpretation distinct.",
+      "Do not infer one exact ancient phone, frequency or musical mapping from Greek epsilon. The source retains alternatives about syllable structure/guttural approximation.",
+      "Save this bounded independent check without changing the original census control or central model."
+    ]
+  },
+  "questions": {
+    "next_evidence_step": {
+      "type": "choice",
+      "instructions": "Select the next bounded source-audit action. This is a workflow preference, not a paleographic or historical truth vote.",
+      "criteria": {
+        "inspect_bounded_official_images_then_scoped_report": "Inspect the institutional original/multispectral thumbnails for both sides, locate the surviving column edge if readable, and then report the edition boundary plus exact locus with physical-readability limits retained.",
+        "report_edition_boundary_with_physical_collation_pending": "Publish only the clearly inspected edition boundary and exact Hebrew verse now; keep physical ink collation explicitly pending despite available institutional image services.",
+        "seek_critical_print_edition_before_image_check": "Defer the boundary conclusion until the critical print edition and its diplomatic conventions are retrieved, using the Cambridge image only as a provisional lead."
+      }
+    }
+  }
+}

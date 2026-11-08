@@ -1,0 +1,169 @@
+{
+  "checked_utc": "2026-11-03T03:14:16.771470+00:00",
+  "status": "passed",
+  "proofline_runtime_sha256": "6969274e69ef803f431bdd67f3c9d372a50a93f97c1a050b8c1c3f2464e5a2b6",
+  "packages": [
+    {
+      "label": "A3-7-TEI-resh",
+      "package": "A3-7-TEI-resh-proofline-package.json",
+      "source": "sources\\elephantine_A3_7_tei.xml",
+      "source_bytes_sha256": "1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25",
+      "exact_span": [
+        26225,
+        26236
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "6a59a509ded2fc78c4b345e052d3486dcfd598f0032fdabb199b1d26dd5a491a",
+        "artifact_id": "cd30fbbc-cf56-5e66-ac0a-75fdfc606a8c",
+        "citation_count": 1
+      }
+    },
+    {
+      "label": "A3-7-CAL-dalet",
+      "package": "A3-7-CAL-dalet-proofline-package.json",
+      "source": "sources\\cal_A3_7.html",
+      "source_bytes_sha256": "4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f",
+      "exact_span": [
+        3467,
+        3472
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "f82a75ef8a449a8b9514b24ccd3730692ca0aee92da1af65099829341d6b804e",
+        "artifact_id": "5eacce49-7ca9-56ff-be1d-6633e48ce5bc",
+        "citation_count": 1
+      }
+    },
+    {
+      "label": "Cowley39-undated",
+      "package": "Cowley39-undated-proofline-package.json",
+      "source": "sources\\cowley1923-text.txt",
+      "source_bytes_sha256": "0428ac506249bfecb3389bac0b35241e758b5fdb3cbefa0425e6894a298d8dc6",
+      "exact_span": [
+        450389,
+        450402
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "c71a7f9398decd9e2c4515b19eea1ce6a7ddf68311b12b5d312e65f443a8a96a",
+        "artifact_id": "31e97a60-5b48-5a8f-b8b4-64090d125396",
+        "citation_count": 1
+      }
+    }
+  ],
+  "source_hash_checks": [
+    {
+      "id": "davies_excerpt",
+      "sha256": "cbf08de1b8e9a6ca52afb765694fdfc9c64f7bfaa8fa2824df376fbd3c724661",
+      "matches": true
+    },
+    {
+      "id": "elephantine_A3_7_tei",
+      "sha256": "1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25",
+      "matches": true
+    },
+    {
+      "id": "unicode16_ch10",
+      "sha256": "38aac5161711ac456f02f53a2dceb556908a535987c5000667b9517e2f2c9237",
+      "matches": true
+    },
+    {
+      "id": "khan2020",
+      "sha256": "bcab644037f62795041c3c6e6e37f1c1eb28f29d147b6d2c4409fd6bc3c0da24",
+      "matches": true
+    },
+    {
+      "id": "cmudict",
+      "sha256": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+      "matches": true
+    },
+    {
+      "id": "berlin_P23102",
+      "sha256": "da2ab9f4204ebe915adb0d77a9e24ebe7f4a7c4ce2db9c0cc975d9647345c0c9",
+      "matches": true
+    },
+    {
+      "id": "berlin2024_exhibition",
+      "sha256": "0654b45ce9c1f6ff1c931c0052a3e6a5cad846aee6e0cb7348c2feeb45c347b6",
+      "matches": true
+    },
+    {
+      "id": "hanson_A4_7",
+      "sha256": "f7ee3947852a9b6ef8b08f2a0258b4698a85a0c3789b5f54498fe6851a32dbc7",
+      "matches": true
+    },
+    {
+      "id": "praat_pitch",
+      "sha256": "f99c7b3cdd35cc7c0987bd2460e679e2be00c6678586e473ea5e24c916e4c123",
+      "matches": true
+    },
+    {
+      "id": "praat_formant",
+      "sha256": "908e46bf297472d2da874c0ebf184ec68917b5b8723d9e010710f973977a887a",
+      "matches": true
+    },
+    {
+      "id": "cmudict_readme",
+      "sha256": "00c34e7564f1f6a68de02e12c123d801471da92bc3091f7d89b605f238bf8554",
+      "matches": true
+    },
+    {
+      "id": "cal_guide",
+      "sha256": "0d0ff5bc36df16c3a6f6e99ac1692dff97982850638d0ca00b5eae48c5e6fa48",
+      "matches": true
+    },
+    {
+      "id": "cal_A3_7",
+      "sha256": "4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f",
+      "matches": true
+    },
+    {
+      "id": "cal_A3_7_info",
+      "sha256": "13d15b5bd136d91fdc9853d1940b69c9979df9b8c1e20ab849eb46c91d36e6b8",
+      "matches": true
+    },
+    {
+      "id": "cal_A4_7",
+      "sha256": "fe6cdca292fdb93f9649a54c24192a176c03d2cda6bad55765dc00ef96c8968c",
+      "matches": true
+    },
+    {
+      "id": "cal_A3_7_to",
+      "sha256": "abb5a8db20b5633ffb7f0afdd872c73afbb1f40422c8831af27ad705add9a963",
+      "matches": true
+    },
+    {
+      "id": "cal_A3_7_mistress",
+      "sha256": "4e05377f1935ed8ffe2bb67542a09bce5751d8985dc0a04af535cef295e32734",
+      "matches": true
+    },
+    {
+      "id": "cal_A3_7_lord",
+      "sha256": "d2b1fd64ffba13602ba62ae98ec363b40b1dcd2c9a2de1baeee8cc69877af72e",
+      "matches": true
+    },
+    {
+      "id": "cal_A4_7_to",
+      "sha256": "abb5a8db20b5633ffb7f0afdd872c73afbb1f40422c8831af27ad705add9a963",
+      "matches": true
+    },
+    {
+      "id": "cal_A4_7_god",
+      "sha256": "26d11c2acfe2dd326fa43c1122c81ebc719f244474c1a156f1f4d6474881b20e",
+      "matches": true
+    },
+    {
+      "id": "cal_scope",
+      "sha256": "b71e18dd6f5212b81d33701e99ab28f61da6a29bd4315cf9ef14bb4b7cbc600a",
+      "matches": true
+    }
+  ],
+  "original_facsimile_hash_matches": true,
+  "p0a_exact14_questions_match": true,
+  "scope": "Source integrity, actual Proofline package verification and exact questionnaire fidelity; no independent palaeographic/phonetic/historical verdict.",
+  "protected_path_access": "Installed plugin was read/executed; bytecode writes disabled. No plugin cache, credentials, user durable memory or shared task files were changed."
+}

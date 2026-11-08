@@ -1,0 +1,31 @@
+{
+  "schema": "sunny.secunda.acquisition.v1",
+  "objective_id": "SECUNDA-PS18-36-THEME-VOWEL",
+  "phase_status": "BOUNDED_ACQUISITION_ENDED_BY_COORDINATOR",
+  "scientific_status": "UNRESOLVED",
+  "question": "Can surviving manuscript ink independently distinguish omicron, alpha or unreadable at the theme vowel of Ps18:36?",
+  "selected_reading": null,
+  "branches": [
+    {"id": "omicron", "form": "θεσοδηνι", "reported_at": "Howard2026 printed233 footnote25", "attribution": ["Yuditsky", "Carrera Companioni2022:190"], "underlying_collation_inspected": false},
+    {"id": "alpha", "form": "θεσαδηνι", "reported_at": "Howard2026 printed233 footnote25", "attribution": ["Sperber1938:159"], "underlying_collation_inspected": false},
+    {"id": "unread", "form": null, "reported_at": "Howard2026 printed233 footnote25", "attribution": ["Mercati did not successfully read theme vowel"], "underlying_collation_inspected": false}
+  ],
+  "actual_plugin_use": {
+    "supermemory": {"operation": "search_memory", "status": "SUCCESS", "conversation_id": "01a1b7ef-ccb2-7de9-9308-cf4ce4c46128", "query": "SUNNY Secunda Mercati Sperber θεσοδηνι chronology symbol sound source variant", "result_scope": "General SUNNY continuity; no manuscript reading evidence"},
+    "installed_research_skill": {"name": "Prumo + Jev Research", "version": "0.1.1", "read": ["skills/research/SKILL.md", "skills/research/references/evidence-protocol.md"], "upstream_research_runtime_executed": false},
+    "existing_jev_receipt_inspected": {"path": "state/jev-receipts/000060-a1b30f75db7d.json", "status": "judged", "model": "AgentJev-0.6B", "checkpoint": "agentjev-v1", "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215", "selected": "qames_chronology_contact", "top_probability": 0.3912036418914795, "margin": 0.030246078968048096, "new_inference_in_this_subtask": false, "full_receipt_owner": "parent"}
+  },
+  "sources": [
+    {"id": "HOWARD2026", "kind": "original scholarly article", "url": "https://doi.org/10.1017/S0041977X25100992", "original_pdf_available": true, "local_pdf": "state/delivery-2026-11-07/symbol-contact/root/howard-2026-qames.pdf", "sha256": "a7d1fe74dd7025bf31fbbcaf704104df1b796e5728d4c326172507ba150c0335", "inspected_representation": "parent supplied original PDF page text extraction", "inspected_printed_pages": [229,231,232,233,238,239], "visual_manuscript_collation": false},
+    {"id": "AMBROSIANA-O39SUP", "kind": "manuscript witness", "repository": "Biblioteca Ambrosiana, Milano", "shelfmark": "O 039 sup.", "catalogue_alias": "Martini-Bassi587", "catalogue_url": "https://pinakes.irht.cnrs.fr/notices/cote/43063/", "accessed": "search-index catalogue metadata", "full_catalogue_fetch": "TIMEOUT", "folio": null, "side": null, "column": null, "line": null, "image_identifier": null, "image_acquired": false, "dating_original_argument_inspected": false},
+    {"id": "MERCATI1958", "kind": "facsimile and transcription edition", "author": "Giovanni Mercati", "title": "Psalterii Hexapli reliquiae. Pars prima: Codex rescriptus Bybliothecae Ambrosianae O39sup., phototypice expressus et transcriptus", "publication_year": 1958, "surrogate_id": "British LibraryMSFacsimile72/III/8", "surrogate_record_id": "040-002897907", "surrogate_url": "https://searcharchives.bl.uk/catalog/040-002897907", "accessed": "search-index catalogue metadata", "full_record_fetch": "CACHE_MISS", "original_edition_acquired": false, "relevant_printed_page": null, "relevant_plate": null},
+    {"id": "CARRERA2022", "kind": "doctoral dissertation edition", "author": "Roberto Adrian Carrera Companioni", "title_in_institutional_index": "The Mercati Fragments: A New Edition of Rahlfs1098", "institution": "The Southern Baptist Theological Seminary", "title_page_date_in_index": "December2022", "handle": "10392/6977", "pdf_url": "https://repository.sbts.edu/bitstream/handle/10392/6977/CarreraCompanioni_sbts_0207D_10773.pdf?isAllowed=y&sequence=1", "accessed": "institutional search-index title-page text only", "landing_page_fetch": "403_FORBIDDEN", "local_download_attempt": "DNS_RESOLUTION_FAILED", "escalated_download_attempt": "USER_ABORTED_APPROVAL_WAIT", "pdf_acquired": false, "sha256": null, "reported_relevant_page": 190, "page190_inspected": false},
+    {"id": "SPERBER1938", "kind": "original scholarly publication not acquired", "citation_from_Howard": "Alexander Sperber, Hebrew based upon Greek and Latin transliterations, HUCA12-13,103-274", "year_in_Howard": 1938, "other_catalogue_year_leads": ["1937", "1937-38"], "reported_relevant_page": 159, "original_page_inspected": false, "exact_copy_version_used_by_Howard": null},
+    {"id": "YUDITSKY2017", "kind": "grammar and edition not acquired", "title_lead": "A Grammar of the Hebrew of Origen's Transcriptions", "original_acquired": false, "exact_collation_basis_inspected": false}
+  ],
+  "bibliographic_discrepancies": [{"field": "Carrera dissertation Rahlfs number in title", "Howard_bibliography": "1908", "institutional_indexed_title_page": "1098", "resolution": "Preserve discrepancy; do not create a second witness from1908"}],
+  "dates": {"collection_date_established": false, "surviving_manuscript_date_original_argument_inspected": false, "surviving_manuscript_discovery_leads": "late ninth/tenth century; not adjudicated", "underlying_transcription_context_from_Howard": "first half of third centuryCE, Palestine", "modern_publication_dates": {"Mercati": 1958, "Carrera": 2022}, "ancient_recording_acquired": false},
+  "excluded": ["CambridgeT-S12.182 as evidence for this contested form", "reconstruction of missing strokes", "invented ancient phone or Hz", "selecting the reading by publication recency"],
+  "smallest_remaining_observation": "Acquire original Carrera190 and notation/notes to locate the exact O39sup folio/side/column/line; obtain that image or corresponding Mercati plate, then compare surviving disputed ink with same-hand alpha and omicron. Retain unreadable if non-discriminating. Inspect Sperber159 and Mercati transcription/commentary separately.",
+  "completion_claim": "Access accounting and rival-branch preservation only; no independent letter collation or sound-history adjudication"
+}

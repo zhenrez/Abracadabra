@@ -1,0 +1,100 @@
+{
+  "scope": "Bounded source and durable-receipt review, no new lifecycle execution or escalation",
+  "default_full_suite": {
+    "path": "work\\final-day-2026-11-07\\runtime\\project-checks.json",
+    "sha256": "018ce354caccb0b1c097ef0719d5da0422d1e2c2315be08995daf17ff8878221",
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "npm test"
+    ],
+    "exit_code": 1,
+    "counts": {
+      "tests": 99,
+      "pass": 98,
+      "fail": 1,
+      "cancelled": 0,
+      "skipped": 0
+    },
+    "worker_cases": [
+      {
+        "name": "fixed worker completion verifies launcher/interpreter exit and preserves fixture output",
+        "tap_result": "ok 94 - fixed worker completion verifies launcher/interpreter exit and preserves fixture output",
+        "duration_ms": 7865.6143
+      },
+      {
+        "name": "timeout reaps the venv launcher, interpreter and sleeping descendant",
+        "tap_result": "ok 95 - timeout reaps the venv launcher, interpreter and sleeping descendant",
+        "duration_ms": 15888.2489
+      },
+      {
+        "name": "output overflow reaps all owned worker processes",
+        "tap_result": "not ok 96 - output overflow reaps all owned worker processes",
+        "duration_ms": 22189.9252
+      },
+      {
+        "name": "explicit shutdown reaps an active fixed worker before resolving",
+        "tap_result": "ok 97 - explicit shutdown reaps an active fixed worker before resolving",
+        "duration_ms": 19049.251
+      },
+      {
+        "name": "HTTP two-worker limit stays reserved during timeout cleanup, then accepts work again",
+        "tap_result": "ok 98 - HTTP two-worker limit stays reserved during timeout cleanup, then accepts work again",
+        "duration_ms": 19788.9575
+      },
+      {
+        "name": "HTTP server close waits for active request-worker cleanup",
+        "tap_result": "ok 99 - HTTP server close waits for active request-worker cleanup",
+        "duration_ms": 9886.4595
+      }
+    ]
+  },
+  "verified_source_facts": [
+    "helper timeout is15000ms",
+    "each ownership identity validation performs a targeted Win32_Process CIM lookup",
+    "stop helper expands each captured process tree; Stop-SunnyOwnedTree expands root again",
+    "worker test overflow waits for fixture marker before examining worker result",
+    "other tests/*.test.mjs do not directly invoke ownership CIM helpers or startJevWorker; server tests exercise refused/absent fixed-tool paths"
+  ],
+  "failure_localization": "Observed overflow reached its fixture marker; ownership capture and input dispatch therefore succeeded. Failure is in stop/verification or post-cleanup handle closure, not the earlier restricted capture-denial path.",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "Ownership-helper deadline under variable host/CIM load",
+      "status": "CONSISTENT_NOT_PROVEN",
+      "missing": "actual result.error and per-helper timing"
+    },
+    {
+      "id": "H2",
+      "claim": "Cross-file test concurrency contributes indirect host load",
+      "status": "NOT_ESTABLISHED",
+      "missing": "same99tests in serial configuration; no other direct CIM test callers found"
+    },
+    {
+      "id": "H3",
+      "claim": "Identity mismatch, helper failure or delayed Node handle close",
+      "status": "NOT_EXCLUDED",
+      "missing": "actual result.error/cleanup outcome"
+    }
+  ],
+  "diagnostic_plan": "work\\final-day-2026-11-07\\runtime\\cleanup-diagnostic-plan.json",
+  "copy_syntax_check": {
+    "command": [
+      "node",
+      "--check",
+      "work\\final-day-2026-11-07\\runtime\\worker-lifecycle-diagnostic.test.mjs"
+    ],
+    "exit_code": 0
+  },
+  "recommendation": "Run one approved same-population serial control with a separately named durable receipt. If failure recurs, run the diagnostic copy in that same population to capture result.error before proposing a runtime change. Preserve default98/99 failure and focused6/6 success as distinct observations.",
+  "prohibited_shortcuts": [
+    "No identity-check weakening",
+    "No execution-policy bypass",
+    "No timeout increase without measured cause",
+    "No default-suite success inferred from serial success",
+    "No broad process termination"
+  ],
+  "runs_started_by_auditor": 0,
+  "original_file_edits": []
+}

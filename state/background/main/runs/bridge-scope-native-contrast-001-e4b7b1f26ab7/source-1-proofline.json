@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:44:59.451984+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "cb08abc1f7f25914b4476c37020b1160a9fc97b10603ea68d4085fe9d8b9d991"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "75b9c055-c0a1-56fd-a5f2-07920c1f2d6b",
+      "source_identity_sha256": "514070ea4db37c2528cdb4c7585159c0c6ae0dc59eb907db949033145989c451",
+      "source_version_id": "4b669237-b90f-5020-9bbf-f4ddc940dc5d",
+      "version_number": 1,
+      "content": "\n## Prompt:\n10/18/2026, 11:18:12 AM\n\nnnow apply the kepler fludd monochord logic on that. FROM THE COMPLETED HARMONY PAPER ASSHOLE\n\n",
+      "content_sha256": "999576401ccc9e3793160a499f1a69a3b6e7bccaa45b0e6f3392e98c21494f16",
+      "content_length": 132,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "1a274b3b1f580208333085085f8cbf33378a6e92495a688ced499c0e7167ea53"
+    },
+    "chunks": [
+      {
+        "id": "9cbb89e0-52bc-5146-aa26-abc8955a2cde",
+        "source_node_hash": "1a274b3b1f580208333085085f8cbf33378a6e92495a688ced499c0e7167ea53",
+        "source_id": "75b9c055-c0a1-56fd-a5f2-07920c1f2d6b",
+        "source_version_id": "4b669237-b90f-5020-9bbf-f4ddc940dc5d",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 132,
+        "start_line": 1,
+        "end_line": 6,
+        "content": "\n## Prompt:\n10/18/2026, 11:18:12 AM\n\nnnow apply the kepler fludd monochord logic on that. FROM THE COMPLETED HARMONY PAPER ASSHOLE\n\n",
+        "content_sha256": "999576401ccc9e3793160a499f1a69a3b6e7bccaa45b0e6f3392e98c21494f16",
+        "node_hash": "45aa40c651d618322347c7064b76445e540b0eda4679f0872be4ec5b30568f4a"
+      }
+    ],
+    "citations": [
+      {
+        "id": "8f17519a-a6aa-53d5-811e-650917ada27e",
+        "source_node_hash": "1a274b3b1f580208333085085f8cbf33378a6e92495a688ced499c0e7167ea53",
+        "chunk_node_hashes": [
+          "45aa40c651d618322347c7064b76445e540b0eda4679f0872be4ec5b30568f4a"
+        ],
+        "source_id": "75b9c055-c0a1-56fd-a5f2-07920c1f2d6b",
+        "source_version_id": "4b669237-b90f-5020-9bbf-f4ddc940dc5d",
+        "start_offset": 0,
+        "end_offset": 132,
+        "start_line": 1,
+        "end_line": 6,
+        "quote": "\n## Prompt:\n10/18/2026, 11:18:12 AM\n\nnnow apply the kepler fludd monochord logic on that. FROM THE COMPLETED HARMONY PAPER ASSHOLE\n\n",
+        "quote_sha256": "999576401ccc9e3793160a499f1a69a3b6e7bccaa45b0e6f3392e98c21494f16",
+        "node_hash": "25197416ea5a57196d90ecc14b47fa60e9ca0e0274836848b9453cf4255cba79"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "1a274b3b1f580208333085085f8cbf33378a6e92495a688ced499c0e7167ea53",
+        "45aa40c651d618322347c7064b76445e540b0eda4679f0872be4ec5b30568f4a",
+        "25197416ea5a57196d90ecc14b47fa60e9ca0e0274836848b9453cf4255cba79"
+      ],
+      "node_hash": "dd7d0292e56d2f979dd60a07a5008d3cce722a7898184012eba7c4eaefaee13f"
+    },
+    "artifact": {
+      "id": "847f7fb1-c7d3-53a3-9246-9789b0ff2452",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/reconstruction-recovered/11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707/ChatGPT-Articulate Musical Transitions-20261018-1252.md; original SHA256 11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707; physical source lines 25544..25549. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "dd7d0292e56d2f979dd60a07a5008d3cce722a7898184012eba7c4eaefaee13f",
+      "citation_node_hashes": [
+        "25197416ea5a57196d90ecc14b47fa60e9ca0e0274836848b9453cf4255cba79"
+      ],
+      "node_hash": "3ddf31914be6c5c499a5e417d6606c775a667967f7169d09fb7c67a9861a6ea2"
+    },
+    "review": {
+      "artifact_node_hash": "3ddf31914be6c5c499a5e417d6606c775a667967f7169d09fb7c67a9861a6ea2",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:44:59.451984+00:00",
+      "updated_at": "2026-11-02T01:44:59.451984+00:00",
+      "node_hash": "bbdf100b1356574aa02b99ca2668a8721b1133f1c08a2394ae689ebfc3e7198d"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-d555608aba8de407",
+  "content_sha256": "d555608aba8de40717b37f62a23e6cabb46c2a50f82b8ece4c794f00a22778de",
+  "headers": [
+    "Category",
+    "Pass",
+    "Conditional",
+    "Fail"
+  ],
+  "rows": [
+    [
+      "Arithmetic",
+      "28",
+      "0",
+      "0"
+    ],
+    [
+      "Relational",
+      "21",
+      "0",
+      "0"
+    ],
+    [
+      "Cross-system",
+      "0",
+      "12",
+      "0"
+    ],
+    [
+      "Provenance",
+      "13",
+      "2 (P14, P16)",
+      "0"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 5261,
+      "line_end": 5266,
+      "char_start": 269322,
+      "char_end": 269506,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Category | Pass | Conditional | Fail |\n|---|---|---|---|\n| Arithmetic | 28 | 0 | 0 |\n| Relational | 21 | 0 | 0 |\n| Cross-system | 0 | 12 | 0 |\n| Provenance | 13 | 2 (P14, P16) | 0 |\n",
+      "quote_sha256": "f59028c63bcc059ab509d386307fa9ad9daf6cf91c3c264d644afa7224e96c56",
+      "message_id": "4949dfe8dfc42bd17160a58898a68c72bd318906dac0a439b35ea69df9f955b5",
+      "role": "user",
+      "locator": "lines:5261-5266"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

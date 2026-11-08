@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-9b69324cbd80a011",
+  "content_sha256": "9b69324cbd80a01137d690b7ff246718186fa5026e5c40d7493758a6181e62ef",
+  "headers": [
+    "Domain",
+    "Signature",
+    "Positions",
+    "Gaps"
+  ],
+  "rows": [
+    [
+      "Time",
+      "/ai/",
+      "2, 3, 5",
+      "1, 2"
+    ],
+    [
+      "Memory",
+      "/mn/",
+      "1, 2, 5",
+      "1, 3"
+    ],
+    [
+      "Emotion",
+      "/er/",
+      "1, 2",
+      "1"
+    ],
+    [
+      "Light",
+      "none",
+      "—",
+      "—"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 1118,
+      "line_end": 1123,
+      "char_start": 64930,
+      "char_end": 65119,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Domain | Signature | Positions | Gaps |\r\n|---|---|---|---|\r\n| Time | /ai/ | 2, 3, 5 | 1, 2 |\r\n| Memory | /mn/ | 1, 2, 5 | 1, 3 |\r\n| Emotion | /er/ | 1, 2 | 1 |\r\n| Light | none | — | — |\r\n",
+      "quote_sha256": "f1f8b56a07e7e629073aa916f91c781e1c7c739a57aecf373266bf91ea4aa222",
+      "message_id": "40b22ea3af4e84e5543b59180b576816394c7f50956ac337e948d470f7bf5a91",
+      "role": "user",
+      "locator": "lines:1118-1123"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

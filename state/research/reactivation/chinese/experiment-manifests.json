@@ -1,0 +1,62 @@
+{
+  "schema": "sunny.chinese-experiment-manifests.v1",
+  "generated_utc": "2026-11-03T03:11:15.515413+00:00",
+  "experiments": [
+    {
+      "id": "CHN-ROLE-CONTEXT-01",
+      "question": "Does the selected received witness prescribe one role for each named pitch standard independent of ritual context?",
+      "included_inputs_rules": [
+        "ZhouLiZhuShu22 revision544441 exact3 prescription spans",
+        "Literal為宮/為角/為徴/為羽 relations and named contexts"
+      ],
+      "held_aside_relationships": [
+        "Modern equal-tempered/chromatic numerical concordance",
+        "Assumed identity of received ritual roles and one modern anhemitonic scale",
+        "CompletedHarmony",
+        "Fludd–Kepler/monochord",
+        "TOL AB/BA",
+        "Cross-language phonetic mapping",
+        "HistoricalHz calibration"
+      ],
+      "candidate_adapter_versions": [
+        "None admitted for cross-domain sound realization; retained bridges remain available for later declared trials"
+      ],
+      "conditional_result": "The selected source relation requires context: multiple named standards receive more than one role across prescriptions.",
+      "evaluation_evidence": [
+        "native-role-relation.json:5 exact checks",
+        "proofline-verification.json:3 citations, valid true"
+      ],
+      "exposure_status": "Source inspected before extraction; no blind evaluation.",
+      "discarded_information_if_projected": "Removing context merges distinct source assignments; physical realization is not supplied by the role labels."
+    },
+    {
+      "id": "CHN-REGISTER-LIFT-01",
+      "question": "Does a source-model pitch-class transposition determine the performed directed registral interval?",
+      "included_inputs_rules": [
+        "Lam2024 sections2.1–2.7 source model",
+        "Paragraph2.5 source-reported lowerE shawm and resultant lowD octave correction",
+        "Constructed input[0,2] relative semitones, down2 representative ofT10"
+      ],
+      "held_aside_relationships": [
+        "AncientZhouLi ritual-role semantics",
+        "AbsoluteE frequency/octave",
+        "Complete source melody and actual performance audio",
+        "CompletedHarmony",
+        "Fludd–Kepler/monochord",
+        "TOL AB/BA",
+        "Universal instrument-range orChinese tuning assumptions"
+      ],
+      "candidate_adapter_versions": [
+        "Source-scoped local octave lift p→p−2+12k(p); correction for the declared lowD only"
+      ],
+      "conditional_result": "[-2,0] and[10,0] project to the same modulo12 values while directed interval differs+2vs−10.",
+      "evaluation_evidence": [
+        "register-transfer-control.json",
+        "wolfram-register-control-receipt.json:actual evaluation"
+      ],
+      "exposure_status": "Exposed constructed control. Source already states the correction; prospective audio reproduction would not be a blind historical prediction.",
+      "discarded_information_if_projected": "Modulo12 retains pitch class and discards chosen octave/register and resulting contour."
+    }
+  ],
+  "bridge_policy": "Neither always apply nor permanently delete retained adapters. Each future experiment must declare included rules, held-aside relationships, version and evaluation scope."
+}

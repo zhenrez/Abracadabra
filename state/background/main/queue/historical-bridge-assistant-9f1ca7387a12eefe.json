@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-bridge-assistant-9f1ca7387a12eefe",
+  "kind": "source_forensics",
+  "track": "bridge",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/9f1ca7387a12eefea0a93d0aa7ba8f60789ab4e0ec60c897546f815db048a1db/text.txt",
+      "sha256": "9f1ca7387a12eefea0a93d0aa7ba8f60789ab4e0ec60c897546f815db048a1db",
+      "start_line": 1,
+      "end_line": 475,
+      "source_role": "assistant",
+      "source_id": "b9399147e0bf6028db966752a108371755a9e39622b03a076b70a1278d45e052",
+      "message_id": "af9e9ef19daa110ddcf824990a3f34b6d1d12f66de6866b04c3b88281bdd58a1",
+      "timestamp": null,
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "af9e9ef19daa110ddcf824990a3f34b6d1d12f66de6866b04c3b88281bdd58a1",
+        "native_id": "43",
+        "conversation_id": "7a7f5d79d331a3756aa05222906b518f936a0e18763bd89d8ee1bec074e05995",
+        "role": "assistant",
+        "content_sha256": "9f1ca7387a12eefea0a93d0aa7ba8f60789ab4e0ec60c897546f815db048a1db",
+        "source_id": "b9399147e0bf6028db966752a108371755a9e39622b03a076b70a1278d45e052",
+        "locator": "lines:18699-19176",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Compare Ophiuchus SUN V4",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\nested\\9ceba23e131826a244cda5db2b99aa0dd004cd5627f4acb3eca8cf0b9669207e\\supporting_records\\upload\\ChatGPT-Compare Ophiuchus SUN V4-20261002-1318.md",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Recovery_Results_Package_2026-10-02.zip!/SUN_Recovered_Material_Archive_2026-10-02.zip!/supporting_records/upload/ChatGPT-Compare Ophiuchus SUN V4-20261002-1318.md",
+        "source_sha256": "9bec8d7d5b1ef510b1bb0730fc974989a450e72387816082dda3384ba6c4723d",
+        "source_kind": "nested_library",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "9bec8d7d5b1ef510b1bb0730fc974989a450e72387816082dda3384ba6c4723d",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/9f1ca7387a12eefea0a93d0aa7ba8f60789ab4e0ec60c897546f815db048a1db/occurrences-1e9bfffad441760c4cb73be0f2c6d94a0d102a0db9706a298a249b2772fee8c5.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-bridge-operation",
+      "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+    },
+    {
+      "id": "native-carrier-relation",
+      "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

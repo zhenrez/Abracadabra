@@ -1,0 +1,12 @@
+{
+  "scope": "Independent phonological-context validation",
+  "firstRun": {
+    "exitCode": 1,
+    "passedTests": 2,
+    "failedTests": 1,
+    "failure": "SymPy structural equality compared 1 < g with g > 1. They encode the same solution set but are different expression trees.",
+    "classification": "Test assertion defect; not a counterexample to the chronology argument."
+  },
+  "correction": "Compare exact real solution sets against open intervals; retain the initial failure rather than call the first run passing.",
+  "recheck": "See fresh command outcome; no unrun check claimed here."
+}

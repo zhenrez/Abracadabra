@@ -1,0 +1,39 @@
+{
+  "id": "alignment-table-3d540f9c840f7f00",
+  "content_sha256": "3d540f9c840f7f000feb9ca476b974bdc6fbff36b84624c3b585cf8a845356ed",
+  "headers": [
+    "Candidate position for B",
+    "Position predicted for C",
+    "Comparison with C’s anchor"
+  ],
+  "rows": [
+    [
+      "F, address 5",
+      "$5+7=0\\pmod{12}$: C",
+      "Does not match D"
+    ],
+    [
+      "G, address 7",
+      "$7+7=2\\pmod{12}$: D",
+      "Matches"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 5735,
+      "line_end": 5738,
+      "char_start": 276731,
+      "char_end": 276937,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Candidate position for B | Position predicted for C | Comparison with C’s anchor |\n|---|---|---|\n| F, address 5 | $5+7=0\\pmod{12}$: C | Does not match D |\n| G, address 7 | $7+7=2\\pmod{12}$: D | Matches |\n",
+      "quote_sha256": "303d2bfe7d9ae1864c1ade0795cf0e1affedec6ea355751eec7c7820eaabfae8",
+      "message_id": "fa37091a14e41099c7af2ccd912e6b0a270d7b505f03a44f35939c5ea00eaf80",
+      "role": "assistant",
+      "locator": "lines:5735-5738"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

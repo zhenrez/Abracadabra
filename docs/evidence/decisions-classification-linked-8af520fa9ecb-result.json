@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "request_sha256": "4a6f5eae1387411650d32b87a133673c717655568ed1e6dc6cf1409aece21e55",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "DEC-music_not_change": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.17,
+        "explicit_user_direction": 0.51,
+        "supplied_formulation_or_result": 0.01,
+        "user_question_or_uncertainty": 0.21,
+        "user_research_position": 0.1
+      },
+      "winner": "explicit_user_direction",
+      "top_probability": 0.51,
+      "margin": 0.30000000000000004
+    },
+    "DEC-compatibility_parallel_bridge": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.12,
+        "explicit_user_direction": 0.16,
+        "supplied_formulation_or_result": 0.23,
+        "user_question_or_uncertainty": 0.01,
+        "user_research_position": 0.48
+      },
+      "winner": "user_research_position",
+      "top_probability": 0.48,
+      "margin": 0.24999999999999997
+    },
+    "DEC-earlier_generations_retained": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.08,
+        "explicit_user_direction": 0.8,
+        "supplied_formulation_or_result": 0.1,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.02
+      },
+      "winner": "explicit_user_direction",
+      "top_probability": 0.8,
+      "margin": 0.7000000000000001
+    },
+    "DEC-distinct_pitch_cosmology_authority": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.86,
+        "explicit_user_direction": 0.0,
+        "supplied_formulation_or_result": 0.14,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.0
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.86,
+      "margin": 0.72
+    },
+    "DEC-not_empty_thirteen_twentyone": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.71,
+        "explicit_user_direction": 0.0,
+        "supplied_formulation_or_result": 0.29,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.0
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.71,
+      "margin": 0.42
+    },
+    "DEC-all_lawful_versions": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.39,
+        "explicit_user_direction": 0.61,
+        "supplied_formulation_or_result": 0.0,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.0
+      },
+      "winner": "explicit_user_direction",
+      "top_probability": 0.61,
+      "margin": 0.21999999999999997
+    },
+    "DEC-extend_past_seventytwo": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.23,
+        "explicit_user_direction": 0.76,
+        "supplied_formulation_or_result": 0.0,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.01
+      },
+      "winner": "explicit_user_direction",
+      "top_probability": 0.76,
+      "margin": 0.53
+    },
+    "DEC-full_shem_and_locks": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.01,
+        "explicit_user_direction": 0.99,
+        "supplied_formulation_or_result": 0.0,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.0
+      },
+      "winner": "explicit_user_direction",
+      "top_probability": 0.99,
+      "margin": 0.98
+    },
+    "DEC-shem_letter_pattern": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.0,
+        "explicit_user_direction": 0.95,
+        "supplied_formulation_or_result": 0.0,
+        "user_question_or_uncertainty": 0.04,
+        "user_research_position": 0.01
+      },
+      "winner": "explicit_user_direction",
+      "top_probability": 0.95,
+      "margin": 0.9099999999999999
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 6314,
+    "output_tokens": 732
+  },
+  "network_calls": 1,
+  "latency_ms": 250
+}

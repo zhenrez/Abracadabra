@@ -1,0 +1,417 @@
+{
+  "schema": "sunny.progressive-law-register.v1",
+  "compiled_utc": "2026-10-31T22:03:52.464Z",
+  "selection": "docs/evidence/mandate-mathematics-superjev.json; docs/evidence/native-execution-expansion-superjev.json",
+  "law_proposals": [
+    {
+      "id": "NATIVE-SCALAR-BASIS",
+      "revision": "1",
+      "expression": {
+        "R": "2/3",
+        "L": "3/4",
+        "O": "1/2",
+        "carrier": "positive scalars in the recovered native profile"
+      },
+      "assumptions": [
+        "Use the source-defined operations and source-qualified carrier."
+      ],
+      "sourceRefs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "32709e8763ac228cadc7cf5ef11c73eca6ada4257030855cc343ed4279474097",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "dd5004b2224cfaa99969f817c12d758ea41d503d4c93e8c680f681b001db7a77",
+        "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+        "8ad7da0f6595b714fa87a52b5da6803200b6eee38cb09c7f81c6cf907624f756"
+      ],
+      "dependencies": [],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/native-derivations.json",
+          "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b"
+        },
+        {
+          "path": "state/reconstruction/tol-history-math.json",
+          "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "DISTINGUISH-ADDRESS-EXACT-PITCH",
+      "revision": "1",
+      "expression": {
+        "required_distinction": [
+          "finite address",
+          "exact pitch modulo integer octaves"
+        ],
+        "counterexample": "Address(R^12)=origin while2^7 R^12=524288/531441."
+      },
+      "assumptions": [
+        "Exact rational native scalar laws.",
+        "Finite source address action has R-order12.",
+        "Octave equivalence is multiplication by integer powers of2."
+      ],
+      "sourceRefs": [
+        "756f07b8874af89bc5f8ba247cb20b67e3d1b7da98eb35819bdd253247da75f2"
+      ],
+      "dependencies": [
+        {
+          "id": "NATIVE-SCALAR-BASIS",
+          "revision": "1"
+        }
+      ],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "DISTINGUISH-VALUE-HISTORY",
+      "revision": "1",
+      "expression": {
+        "required_distinction": [
+          "scalar or pitch value",
+          "ordered operation history"
+        ],
+        "witnesses": [
+          "RL and LR evaluate equally.",
+          "924six-R/six-L words share1/64.",
+          "Ten inverse Chinese words share the entire normalized pitch path."
+        ]
+      },
+      "assumptions": [
+        "Histories mean the declared ordered words.",
+        "No extra historical equivalence identifies these words."
+      ],
+      "sourceRefs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "32709e8763ac228cadc7cf5ef11c73eca6ada4257030855cc343ed4279474097",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "dd5004b2224cfaa99969f817c12d758ea41d503d4c93e8c680f681b001db7a77",
+        "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+        "8ad7da0f6595b714fa87a52b5da6803200b6eee38cb09c7f81c6cf907624f756"
+      ],
+      "dependencies": [
+        {
+          "id": "NATIVE-SCALAR-BASIS",
+          "revision": "1"
+        }
+      ],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/native-derivations.json",
+          "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b"
+        },
+        {
+          "path": "state/reconstruction/tol-history-math.json",
+          "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "BRIDGE-DIRECTION-RESIDUAL",
+      "revision": "1",
+      "expression": {
+        "reverse5": "256/243",
+        "forward7": "2187/2048",
+        "cycle_residual": "531441/524288",
+        "forward_bridge_for_Earth": "32768/32805"
+      },
+      "assumptions": [
+        "Retained Earth target16/15 and syntonic bridge81/80.",
+        "The source-defined inverse/forward generator realizations and octave normalization."
+      ],
+      "sourceRefs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "32709e8763ac228cadc7cf5ef11c73eca6ada4257030855cc343ed4279474097",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "dd5004b2224cfaa99969f817c12d758ea41d503d4c93e8c680f681b001db7a77",
+        "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+        "8ad7da0f6595b714fa87a52b5da6803200b6eee38cb09c7f81c6cf907624f756"
+      ],
+      "dependencies": [
+        {
+          "id": "NATIVE-SCALAR-BASIS",
+          "revision": "1"
+        },
+        {
+          "id": "DISTINGUISH-ADDRESS-EXACT-PITCH",
+          "revision": "1"
+        }
+      ],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/native-derivations.json",
+          "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "CONDITIONAL-FAMILY-CONSENSUS",
+      "revision": "1",
+      "expression": {
+        "word": "R^r L^l",
+        "common_iff": [
+          "r=l modulo6",
+          "l=0 modulo3"
+        ],
+        "shared_addresses": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      },
+      "assumptions": [
+        "Only the twelve source-recovered optional transitive completions.",
+        "Fixed source phase coordinates and origin."
+      ],
+      "sourceRefs": [
+        "756f07b8874af89bc5f8ba247cb20b67e3d1b7da98eb35819bdd253247da75f2"
+      ],
+      "dependencies": [],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "CONDITIONAL-FAMILY-PHASE-PROBES",
+      "revision": "1",
+      "expression": {
+        "minimum_one_word_observations": 2,
+        "sufficient_ordered_observations": [
+          "phase(R)",
+          "phase(O)"
+        ]
+      },
+      "assumptions": [
+        "Each observation is a one-word address in the declared fixed-coordinate family.",
+        "Independent source-to-phase observations remain to be recovered."
+      ],
+      "sourceRefs": [
+        "756f07b8874af89bc5f8ba247cb20b67e3d1b7da98eb35819bdd253247da75f2"
+      ],
+      "dependencies": [
+        {
+          "id": "CONDITIONAL-FAMILY-CONSENSUS",
+          "revision": "1"
+        }
+      ],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "WITNESS-TIME-GENERATION-LATTICE",
+      "revision": "1",
+      "expression": {
+        "lattice_basis": [
+          [
+            50,
+            0
+          ],
+          [
+            130,
+            1
+          ]
+        ],
+        "quotient": "Z/50",
+        "invariant": "I(t,g)=t-130g mod50",
+        "pure_time_projection": "t mod10"
+      },
+      "assumptions": [
+        "The fourteen recorded shared-figure MT/SP/Greek witness shifts.",
+        "Aligned common time and generation origins.",
+        "Across-witness transformation, not conservation along genealogy."
+      ],
+      "sourceRefs": [
+        "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "7f47af4d5b033081e5f640b3f3dc46082c362c25b4722e1025325eaf76ddad62"
+      ],
+      "dependencies": [],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "JOINT-OBSERVABLE-GENERATION-PERIOD",
+      "revision": "1",
+      "expression": {
+        "conditional_minimum_generation_period": 60,
+        "inputs": [
+          "fixed time modulo50",
+          "declared fifth address modulo12",
+          "joint witness character"
+        ]
+      },
+      "assumptions": [
+        "Generation is still retained as an integer, not replaced by this finite projection.",
+        "Only the stated fixed-time observables and source-qualified fifth assignment.",
+        "No identity with historical60pipes or other60-object populations is asserted."
+      ],
+      "sourceRefs": [
+        "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "7f47af4d5b033081e5f640b3f3dc46082c362c25b4722e1025325eaf76ddad62"
+      ],
+      "dependencies": [
+        {
+          "id": "WITNESS-TIME-GENERATION-LATTICE",
+          "revision": "1"
+        }
+      ],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "DISTINGUISH-GENEALOGY-INSTITUTIONAL-ADDRESS",
+      "revision": "1",
+      "expression": {
+        "incompatible_projection": "GEN-only -> all declared camp addresses",
+        "witness": "Same biological generation, distinct Ephraim/Manasseh camp addresses."
+      },
+      "assumptions": [
+        "Use the exact expanded genealogy and camp frame retained by the sources.",
+        "The witness rejects this single-variable map; it does not elect another map."
+      ],
+      "sourceRefs": [
+        "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "7f47af4d5b033081e5f640b3f3dc46082c362c25b4722e1025325eaf76ddad62"
+      ],
+      "dependencies": [],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "OVERLAP-TIMING-NULLSPACE",
+      "revision": "1",
+      "expression": {
+        "lifespan_constraints": 3,
+        "stage_durations": 5,
+        "independent_timing_conditions_still_needed": 2
+      },
+      "assumptions": [
+        "Declared five-stage, three-voice entrance/exit experiment.",
+        "Lifetime is not audible sustain by definition; no year-to-beat conversion."
+      ],
+      "sourceRefs": [
+        "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "7f47af4d5b033081e5f640b3f3dc46082c362c25b4722e1025325eaf76ddad62"
+      ],
+      "dependencies": [],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    },
+    {
+      "id": "DISTINGUISH-CLASS-ACOUSTIC-GRADE",
+      "revision": "1",
+      "expression": {
+        "conditional_grade_relation": "acoustic grade increment=2h+epsilon",
+        "class_cycle_degrees": 720,
+        "remaining_circuit_parity": "epsilon"
+      },
+      "assumptions": [
+        "One native RL circuit uses the same360degree wheel and halves the scalar center.",
+        "Two circuits define the720degree class cycle.",
+        "The counters are representation-specific; parity is not silently identified with W72beta."
+      ],
+      "sourceRefs": [
+        "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+        "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "7f47af4d5b033081e5f640b3f3dc46082c362c25b4722e1025325eaf76ddad62"
+      ],
+      "dependencies": [
+        {
+          "id": "NATIVE-SCALAR-BASIS",
+          "revision": "1"
+        }
+      ],
+      "status": "conditional",
+      "proofRefs": [
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+        }
+      ],
+      "authority": "Derived within stated source profile; not a universal or historical certification."
+    }
+  ],
+  "dependency_graph_check": {
+    "verdict": "pass",
+    "scope": "declared-revision-graph-only",
+    "unresolved": [],
+    "unsupported": [],
+    "cycles": [],
+    "canonicalPromotion": false
+  },
+  "basis": "The representation distinguishes quantities only where recovered definitions and executed counterexamples require it. This is not a predefined universal ontology.",
+  "source_and_proof_boundary": "References and declared revision graph are mechanically bound; the linked proofs establish only their stated conditions.",
+  "supersession": "Keep prior versions and dependencies when refining, merging, separating or retracting a proposal.",
+  "unknowns": [
+    "Complete global law taxonomy",
+    "Every native carrier/instance",
+    "Independent absolute orientation selection",
+    "Full class-growth and four-dimensional realization",
+    "Complete master-score timing/instrumentation",
+    "Independent blind predictions"
+  ],
+  "canonicalPromotion": false,
+  "globalCompleteness": false
+}

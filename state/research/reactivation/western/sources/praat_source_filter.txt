@@ -1,0 +1,37 @@
+Source-filter synthesis
+   td { padding-left: 5pt; padding-right: 5pt; }
+   th { padding-left: 5pt; padding-right: 5pt; }
+   code { white-space: pre-wrap; }
+   dd { white-space: pre-wrap; }
+Source-filter synthesis
+This tutorial describes how you can do acoustic synthesis with Praat. It assumes that you are familiar with the Intro.
+1. The source-filter theory of speech production
+The source-filter theory (Fant 1960) hypothesizes that an acoustic speech signal can be seen as a source signal (the glottal source, or noise generated at a constriction in the vocal tract), filtered with the resonances in the cavities of the vocal tract downstream from the glottis or the constriction. The Klatt synthesizer (Klatt & Klatt 1990), for instance, is based on this idea.
+In the Praat program, you can create a source signal from scratch of from an existing speech signal, and you can create a filter from scratch or extract it from an existing speech signal. You can manipulate (change, adapt) both the source and the filter before doing the actual synthesis, which combines the two.
+ Source-filter synthesis 1. Creating a source from pitch targets
+ Source-filter synthesis 2. Filtering a source
+ Source-filter synthesis 3. The ba-da continuum
+ Source-filter synthesis 4. Using existing sounds
+Links to this page
+Create FormantGrid...
+Create PitchTier...
+Filtering
+Formant: Formula (frequencies)...
+FormantGrid
+FormantGrid: Add bandwidth point...
+FormantGrid: Add formant point...
+IntensityTier
+Intro 8.4. Manipulation of formants
+LPC: To Formant
+Sound
+Sound & Formant: Filter
+Sound & Formant: Filter (no scale)
+Sound & FormantGrid: Filter
+Sound & FormantGrid: Filter (no scale)
+Sound: De-emphasize (in-place)...
+Sound: Filter (de-emphasis)...
+Sound: To Formant (burg)...
+Types of objects
+What was new in 3.7?
+	
+© Paul Boersma 2005-07-13

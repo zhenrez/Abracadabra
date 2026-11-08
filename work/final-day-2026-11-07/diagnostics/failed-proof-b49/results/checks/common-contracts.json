@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\integration",
+    "-p",
+    "test_common_models.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_all_orientations_return_common_encoding (test_common_models.CommonModelTests.test_all_orientations_return_common_encoding) ... ok\ntest_coding_is_explicit_measured_and_roundtrips (test_common_models.CommonModelTests.test_coding_is_explicit_measured_and_roundtrips) ... ok\ntest_forged_serialization_and_unknown_coding_rejected (test_common_models.CommonModelTests.test_forged_serialization_and_unknown_coding_rejected) ... ok\ntest_full_binding_rejects_unused_and_altered_records (test_common_models.CommonModelTests.test_full_binding_rejects_unused_and_altered_records) ... ok\ntest_reconstruction_keeps_historical_axis (test_common_models.CommonModelTests.test_reconstruction_keeps_historical_axis) ... ok\ntest_unknown_profile_cannot_be_admitted (test_common_models.CommonModelTests.test_unknown_profile_cannot_be_admitted) ... ok\ntest_western_exact_evidence_roundtrip (test_common_models.CommonModelTests.test_western_exact_evidence_roundtrip) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.083s\n\nOK\n"
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "request_sha256": "6638673641b1b59ac01bf6a06883a3a8ac12b38f958f58929fbb02bfbaf48a7c",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "next": {
+      "type": "choice",
+      "probabilities": {
+        "abstain": 0.0,
+        "clarify": 0.0,
+        "continue": 0.68,
+        "finish": 0.31,
+        "investigate": 0.0,
+        "repair": 0.0,
+        "verify": 0.01
+      },
+      "winner": "continue",
+      "top_probability": 0.68,
+      "margin": 0.37000000000000005
+    },
+    "off_track": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.05,
+        "false": 0.95
+      },
+      "value": false
+    },
+    "stuck": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.04,
+        "false": 0.96
+      },
+      "value": false
+    },
+    "requirements_met": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.95,
+        "false": 0.050000000000000044
+      },
+      "value": true
+    },
+    "risk": {
+      "type": "score",
+      "probabilities": {
+        "0": 0.57,
+        "1": 0.4,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "winner": "0",
+      "top_probability": 0.57,
+      "margin": 0.16999999999999993,
+      "expected_score": 0.47000000000000003,
+      "levels": [
+        "Read-only observation",
+        "Reversible scoped local change",
+        "External mutation or sensitive data exposure",
+        "Irreversible or broad change"
+      ]
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 1241,
+    "output_tokens": 137
+  },
+  "network_calls": 1,
+  "latency_ms": 238,
+  "completion_evidence": {
+    "supported_by_supplied_records": false,
+    "reasons": [
+      "unresolved work remains"
+    ],
+    "independently_verified": false
+  },
+  "action": "abstain",
+  "threshold_note": "Uncalibrated starting thresholds for advisory routing only; measure on held-out examples."
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "run_id": "79ea290cf0664c0e8b7ca7a7d1ef1e7b",
+  "contract_sha256": "7c226dbcf2e7cbde21ba4f453773efce5c8fe591976c97ff66dca8776579dcae",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "started_at_utc": "2026-11-06T19:57:02.678405+00:00",
+  "finished_at_utc": "2026-11-06T19:57:02.874766+00:00",
+  "inputs": {
+    "src/algebraic-scalar.ts": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4",
+    "src/comparison.ts": "2b01411c8647debcfb61273f7d0e97b594038026fb93c4176d97b1cfa88672a4",
+    "src/contextual-alignment.ts": "95518d6e7815842f75c944dff8d879a3e26953afb780de62826de29171f6d53d",
+    "src/geometry.ts": "9dcd15de5f6712182b69fd219c6e37ded6af736203138debe76082e95fc40514",
+    "src/hierarchy.ts": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+    "src/law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+    "src/native-operators.ts": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "src/score.ts": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+    "src/server.ts": "0d9e20d86afebdc28901e6bccbe9c2ef7996f86d8acadeb4fb104e857ae6c590",
+    "src/worker.ts": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+    "work/unit001/acquire_closeout.py": "6038167971d115966a99c8a8a19e42ceb5ecb8e12d235b5482f5439c2295ece1",
+    "work/unit001/checkpoint.py": "2c226540e82f2e0d13049d64afe6e032fd556c0cf95051935b7bd0fb7f173246",
+    "work/unit001/closeout_fixtures.py": "2aa7042096c792309891553986df7a49d2120c030ddf53cff80855f71919c81d",
+    "work/unit001/contracts.py": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c",
+    "work/unit001/evidence.py": "47192d0f5ac6bc8acf5a5c1f078251882f854b0b24bad0424e34d36938b31ae1",
+    "work/unit001/final-acceptance/acceptance-receipt.json": "c8a0790974ef2b867428c51909cbb8041474ada36526ef58edb65bff7d40a04d",
+    "work/unit001/final_acceptance.py": "95def9475d4debc4a74d7db8bf46822c34a07189522909409806183e656fb247",
+    "work/unit001/import_closeout_documents.py": "57b61ded1ae30b255aba016bd19c76d3c75b53dd3d10bd8460a45e1890ff9600",
+    "work/unit001/kernel.py": "9dcf8698eecf3d789e6f9ffa55ed752f40d20b309b5e12d64f64906ee50e3d09",
+    "work/unit001/reconcile_checkpoint.py": "bd9b0b4e80a4cf531eb01354fe8c760533c8dc3adb6ad6ca8b323d80eed6845a",
+    "work/unit001/reconcile_current_chat.py": "938a5620be2479a1238a0c8104983a6f24692479132b4083bdb297224194b4f2",
+    "work/unit001/sefer.py": "c3936a9f25835faaa59a75445255f70f735eba7a9d20fb77c503c6c528b928c7",
+    "work/unit001/source-manifest.json": "768ed19f89650b9a8d9450399a4ec957801bd28f67976a419702e5dddc8b7dd5",
+    "work/unit001/test_closeout.py": "4eb12cab16f89aa3121ecffa2b28eeb8693d8faf24a9cf3e23fba1f782af50ac",
+    "work/unit001/test_final_acceptance.py": "e97ce867cdbcde66194d9135e1f2f96b7e448879365e945310fd75133a333d95",
+    "work/unit001/test_g0.py": "a9783776ea5e3843b8fd3ceae549775a8f8830fb05366261eaefdad2d4582637",
+    "work/unit001/test_g1.py": "348556f62e142b992ea4091b3516b8173411f6ad08ed6f4ff40e5e0774ce2322",
+    "work/unit001/test_kernel.py": "0fd1844c5d34251406a53b3e0b499d050761468ba0fa30799e1c6a10dd0f8c7d",
+    "work/unit001/verify_closeout.py": "144caca78ca6931d953eccba856be3f4756cb5abdf0e92ef4261fbb59e151a0d",
+    "work/unit001/verify_reconciliation.py": "ba18e047a0f2ed2237937bf38ada930ede2c90a6562faa6d13c39010a6d15a0e",
+    "work/unit002/test_western.py": "87955fc76f36f38bfbcc1629552fa4d4912b47a8e258575e1f1e5a285813f5e4",
+    "work/unit002/verify_western.py": "225247d13b3bd0a03fce040e44ec29539ceae55416c309541676e978eb4a844a",
+    "work/unit002/western.py": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571"
+  },
+  "inputs_unchanged_during_checks": true,
+  "checks": [
+    {
+      "id": "western-tests",
+      "criteria": [
+        "native"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work/unit002",
+        "-p",
+        "test_western.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "launch_error": null,
+      "output_sha256": "835477b5cff43e2a72a461ed69471d60ecc6c07c99236640041744b261c5d078",
+      "output_file": "79ea290cf0664c0e8b7ca7a7d1ef1e7b-0.output",
+      "passed": true
+    },
+    {
+      "id": "preservation",
+      "criteria": [
+        "preservation"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/unit002/verify_western.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "launch_error": null,
+      "output_sha256": "8dc06bd1f347c02933b27112cf0e11b1d440f022e44829ab7215f1f9b68680bc",
+      "output_file": "79ea290cf0664c0e8b7ca7a7d1ef1e7b-1.output",
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "scope": "Listed commands and declared input files only; no model verification or native interception claim."
+}

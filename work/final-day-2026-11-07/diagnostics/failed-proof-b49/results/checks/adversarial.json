@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\independent-review",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_basis_search_keeps_feasible_model_when_literal_exceeds_budget (test_adversarial_controls.AdversarialControlTests.test_basis_search_keeps_feasible_model_when_literal_exceeds_budget) ... ok\ntest_dictionary_encoder_respects_its_decoder_budget (test_adversarial_controls.AdversarialControlTests.test_dictionary_encoder_respects_its_decoder_budget) ... ok\ntest_identical_adapters_do_not_create_distinguishable_solutions (test_adversarial_controls.AdversarialControlTests.test_identical_adapters_do_not_create_distinguishable_solutions) ... ok\ntest_literal_encoder_respects_its_decoder_budget (test_adversarial_controls.AdversarialControlTests.test_literal_encoder_respects_its_decoder_budget) ... ok\ntest_zero_collected_suite_cannot_count_as_passed_acceptance (test_delivery_acceptance.DeliveryAcceptanceTests.test_zero_collected_suite_cannot_count_as_passed_acceptance) ... ok\ntest_all_original_rows_preserved_verbatim (test_packaging.PackagingTests.test_all_original_rows_preserved_verbatim) ... ok\ntest_all_project_execution_variants_remain_visible (test_packaging.PackagingTests.test_all_project_execution_variants_remain_visible) ... ok\ntest_current_catalog_is_stable_and_has_no_browser_hash_cycle (test_packaging.PackagingTests.test_current_catalog_is_stable_and_has_no_browser_hash_cycle) ... ok\ntest_verifier_rejects_changed_output_and_path_escape (test_packaging.PackagingTests.test_verifier_rejects_changed_output_and_path_escape) ... ok\ntest_verifier_rejects_reclassified_original_requirement (test_packaging.PackagingTests.test_verifier_rejects_reclassified_original_requirement) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.094s\n\nOK\n"
+}

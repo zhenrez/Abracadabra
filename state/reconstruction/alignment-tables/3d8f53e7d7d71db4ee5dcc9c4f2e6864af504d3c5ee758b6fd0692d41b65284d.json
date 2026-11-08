@@ -1,0 +1,48 @@
+{
+  "id": "alignment-table-3d8f53e7d7d71db4",
+  "content_sha256": "3d8f53e7d7d71db4ee5dcc9c4f2e6864af504d3c5ee758b6fd0692d41b65284d",
+  "headers": [
+    "Passage",
+    "Required correction"
+  ],
+  "rows": [
+    [
+      "$\\dim H_d=d$",
+      "State $d\\mid48$. For arbitrary integer $d$, the dimension is $\\gcd(d,48)$."
+    ],
+    [
+      "“$U$ generates $H_{\\mathrm{lcm}(a,b)}$ … by pointwise product”",
+      "It is the generated **pointwise algebra**, not the shift alone: $\\operatorname{alg}_{\\mathbb Q}(H_a\\cup H_b)=H_{\\mathrm{lcm}(a,b)}$, for divisor periods."
+    ],
+    [
+      "$[\\mathcal T,U]=0$, “hence” commutation with $R,L,O$",
+      "Define the representations of $R,L,O$ on $\\mathcal K$. Commutation with one operator does not establish commutation with unspecified others. Scalar lifts commute trivially, but provide no new selection constraint."
+    ],
+    [
+      "“Four independently evolving quantities”",
+      "This is a proposed state decomposition. Independence and evolution laws have not been established."
+    ],
+    [
+      "“This is a finite algebraic question”",
+      "The minimum-production classification is finite. Entailment from ancestral conditions is not a specified finite decision problem until those conditions and permitted structures are formalized."
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 1715,
+      "line_end": 1721,
+      "char_start": 85605,
+      "char_end": 86622,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Passage | Required correction |\n|---|---|\n| $\\dim H_d=d$ | State $d\\mid48$. For arbitrary integer $d$, the dimension is $\\gcd(d,48)$. |\n| “$U$ generates $H_{\\mathrm{lcm}(a,b)}$ … by pointwise product” | It is the generated **pointwise algebra**, not the shift alone: $\\operatorname{alg}_{\\mathbb Q}(H_a\\cup H_b)=H_{\\mathrm{lcm}(a,b)}$, for divisor periods. |\n| $[\\mathcal T,U]=0$, “hence” commutation with $R,L,O$ | Define the representations of $R,L,O$ on $\\mathcal K$. Commutation with one operator does not establish commutation with unspecified others. Scalar lifts commute trivially, but provide no new selection constraint. |\n| “Four independently evolving quantities” | This is a proposed state decomposition. Independence and evolution laws have not been established. |\n| “This is a finite algebraic question” | The minimum-production classification is finite. Entailment from ancestral conditions is not a specified finite decision problem until those conditions and permitted structures are formalized. |\n",
+      "quote_sha256": "7867acc3e358170bafeac3b582daa8e681bd0858593141481bdcbfe523c7a912",
+      "message_id": "03fc09a24615716e734186f5d119dd05663b6f2b3be550577af8f27bb2f2873b",
+      "role": "assistant",
+      "locator": "lines:1715-1721"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

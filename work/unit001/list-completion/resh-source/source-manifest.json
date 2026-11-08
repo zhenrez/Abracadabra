@@ -1,0 +1,89 @@
+{
+  "source_id": "resh:khan2020:hidayat:long",
+  "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/45/29/58/2019452958/2019452958.pdf",
+  "publisher_url": "https://www.openbookpublishers.com/books/10.11647/obp.0194",
+  "doi": "10.11647/OBP.0194",
+  "author_editor_translator": "Geoffrey Khan",
+  "published": "2020-02-20",
+  "underlying_work": "Hidāyat al-Qāriʾ, long version",
+  "underlying_author": "ʾAbū al-Faraj Hārūn",
+  "underlying_author_period": "eleventh century; no manuscript-date inference",
+  "source_kind": "WEB_TOOL_EXTRACTION_OF_MODERN_CRITICAL_EDITION_AND_TRANSLATION",
+  "artifact_bytes_downloaded": false,
+  "retrieved_utc": "2026-11-07T11:50:51.647327+00:00",
+  "license": "CC BY 4.0",
+  "locators": {
+    "printed_pages": [
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    "pdf_zero_based_pages": [
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "sections": [
+      "II.L.1.9.3",
+      "II.L.1.9.4",
+      "II.L.1.9.5",
+      "II.L.1.9.6",
+      "II.L.1.9.7"
+    ]
+  },
+  "earliest_surviving_manuscript": "NOT ESTABLISHED",
+  "manuscript_shelfmark": "NOT RETRIEVED IN BOUNDED ACQUISITION",
+  "limitations": [
+    "Web extraction has visibly corrupted Hebrew/Judaeo-Arabic glyph order",
+    "Modern translation is not a medieval manuscript witness",
+    "No original sound recording or independently measured IPA",
+    "Source context categories do not identify Sefer r:1"
+  ],
+  "attempts": [
+    {
+      "url": "https://books.openbookpublishers.com/10.11647/obp.0194.pdf",
+      "status": "405 Method Not Allowed"
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/45/29/58/2019452958/2019452958.pdf",
+      "status": "Web-tool PDF extraction accessible; local full PDF not acquired"
+    }
+  ],
+  "claims": [
+    {
+      "id": "resh:light",
+      "status": "SOURCE_SPECIFIC_TRANSLATED_TEXT",
+      "value": "ordinary light grade",
+      "context_example": "Micah 1:13",
+      "locator": "II.L.1.9.5; printed p96",
+      "sefer_state_mapping": null,
+      "ipa": null
+    },
+    {
+      "id": "resh:major",
+      "status": "SOURCE_SPECIFIC_TRANSLATED_TEXT",
+      "value": "major grade",
+      "context_example": "2 Kings 6:32",
+      "locator": "II.L.1.9.6; printed p96",
+      "sefer_state_mapping": null,
+      "ipa": null
+    },
+    {
+      "id": "resh:intermediate",
+      "status": "SOURCE_SPECIFIC_TRANSLATED_TEXT",
+      "value": "intermediate grade conditioned by adjacency and shewa",
+      "context_example": "Lamentations 1:4",
+      "locator": "II.L.1.9.4 and II.L.1.9.7; printed pp94-98",
+      "sefer_state_mapping": null,
+      "ipa": null
+    }
+  ],
+  "files": {
+    "README.md": "31701f75910cedd08740e46ae3190e9fec8a481b5c55943b7b7a80fd59f8ef7e",
+    "loc-web-extraction.json": "d926c3190871223b1b9842f3cb7c353869eb63543b8b0a4744ebce2248738f2b"
+  }
+}

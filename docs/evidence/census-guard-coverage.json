@@ -1,0 +1,123 @@
+{
+  "verified_utc": "2026-11-03T02:17:15.012531+00:00",
+  "source": {
+    "path": "docs/reconstruction/symbol-sound-census/scholarly-first-pass.md",
+    "sha256": "1143e9e926e37db8106afa1bbc13fc54de5811f22194cf1888d2cdf20a46f5a8",
+    "start_line": 40,
+    "end_line": 40,
+    "quote": "**Q14. What obvious prior-art searches have produced nothing?** The three initial queries yielded relevant sources. No bounded negative search on ancient acoustic prescriptions yet. No conclusion of absence."
+  },
+  "proofline": {
+    "package": {
+      "manifest": {
+        "schema": "proofline-decision-evidence-package-v1",
+        "created_at": "2026-11-03T02:17:15.012052+00:00",
+        "app_version": "sunny-background-1",
+        "root_hash": "95aeeb2f088086acb7945d95aaa6aa81c744971cee6094ae4786431f68f94286"
+      },
+      "payload": {
+        "source_version": {
+          "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+          "source_id": "9ccf25f8-6e97-5dde-8d53-a6b3b6539b5e",
+          "source_identity_sha256": "2009ada1bab4be6f63ba914348edab4a2658c302ca683d7394de27442342f29a",
+          "source_version_id": "28ffd9d3-cce4-59cd-8146-8ed86759529c",
+          "version_number": 1,
+          "content": "**Q14. What obvious prior-art searches have produced nothing?** The three initial queries yielded relevant sources. No bounded negative search on ancient acoustic prescriptions yet. No conclusion of absence.",
+          "content_sha256": "be0fc371f872b6d36a9c13bda293466e9d51f4e94d7794f01ac2ee8abd754fb4",
+          "content_length": 207,
+          "parser_version": "sunny-bounded-lines-projection-v1",
+          "node_hash": "ed2024a035e593b7e8c624f63aeb81658e9183055aaa4972f7e68b5e1efa8106"
+        },
+        "chunks": [
+          {
+            "id": "3e1c32b9-5104-5fe1-b0da-5a31784c2efc",
+            "source_node_hash": "ed2024a035e593b7e8c624f63aeb81658e9183055aaa4972f7e68b5e1efa8106",
+            "source_id": "9ccf25f8-6e97-5dde-8d53-a6b3b6539b5e",
+            "source_version_id": "28ffd9d3-cce4-59cd-8146-8ed86759529c",
+            "ordinal": 0,
+            "start_offset": 0,
+            "end_offset": 207,
+            "start_line": 1,
+            "end_line": 1,
+            "content": "**Q14. What obvious prior-art searches have produced nothing?** The three initial queries yielded relevant sources. No bounded negative search on ancient acoustic prescriptions yet. No conclusion of absence.",
+            "content_sha256": "be0fc371f872b6d36a9c13bda293466e9d51f4e94d7794f01ac2ee8abd754fb4",
+            "node_hash": "62799f5f6fbbc69305dacc7afd76c16da26164e2872fcc78204359227a460a04"
+          }
+        ],
+        "citations": [
+          {
+            "id": "6d316cb3-75d3-55f9-b16c-c3fe1a8ff65e",
+            "source_node_hash": "ed2024a035e593b7e8c624f63aeb81658e9183055aaa4972f7e68b5e1efa8106",
+            "chunk_node_hashes": [
+              "62799f5f6fbbc69305dacc7afd76c16da26164e2872fcc78204359227a460a04"
+            ],
+            "source_id": "9ccf25f8-6e97-5dde-8d53-a6b3b6539b5e",
+            "source_version_id": "28ffd9d3-cce4-59cd-8146-8ed86759529c",
+            "start_offset": 0,
+            "end_offset": 207,
+            "start_line": 1,
+            "end_line": 1,
+            "quote": "**Q14. What obvious prior-art searches have produced nothing?** The three initial queries yielded relevant sources. No bounded negative search on ancient acoustic prescriptions yet. No conclusion of absence.",
+            "quote_sha256": "be0fc371f872b6d36a9c13bda293466e9d51f4e94d7794f01ac2ee8abd754fb4",
+            "node_hash": "7b1cd182314bb4618c5fe46b28a2236124c5427be951c3bcf3910a1de44fde2b"
+          }
+        ],
+        "transformation": {
+          "method": "deterministic",
+          "parser_version": "sunny-bounded-lines-projection-v1",
+          "model_runs": [],
+          "input_node_hashes": [
+            "ed2024a035e593b7e8c624f63aeb81658e9183055aaa4972f7e68b5e1efa8106",
+            "62799f5f6fbbc69305dacc7afd76c16da26164e2872fcc78204359227a460a04",
+            "7b1cd182314bb4618c5fe46b28a2236124c5427be951c3bcf3910a1de44fde2b"
+          ],
+          "node_hash": "e5e81a76268e3bae6388dbdd971d4965e0bd324b9be714d3854a24594824c183"
+        },
+        "artifact": {
+          "id": "60bc0c24-2967-5af8-adf1-9dd034b0e831",
+          "kind": "constraint",
+          "title": "Exact bounded source projection",
+          "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+          "rationale": "Original project-relative source docs/reconstruction/symbol-sound-census/scholarly-first-pass.md; original SHA256 1143e9e926e37db8106afa1bbc13fc54de5811f22194cf1888d2cdf20a46f5a8; physical source lines 40..40. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+          "confidence": 1.0,
+          "valid_from": null,
+          "valid_to": null,
+          "transformation_node_hash": "e5e81a76268e3bae6388dbdd971d4965e0bd324b9be714d3854a24594824c183",
+          "citation_node_hashes": [
+            "7b1cd182314bb4618c5fe46b28a2236124c5427be951c3bcf3910a1de44fde2b"
+          ],
+          "node_hash": "03b3816458bd25a2e2e62a16f838a6d26cbac0e505d717ef34b43fda888ab485"
+        },
+        "review": {
+          "artifact_node_hash": "03b3816458bd25a2e2e62a16f838a6d26cbac0e505d717ef34b43fda888ab485",
+          "status": "candidate",
+          "created_at": "2026-11-03T02:17:15.012052+00:00",
+          "updated_at": "2026-11-03T02:17:15.012052+00:00",
+          "node_hash": "0ebde165e00d27c6905878bf32018e6736e690693b6a380d89270064d589dc95"
+        }
+      }
+    },
+    "result": {
+      "valid": true,
+      "schema": "proofline-decision-evidence-package-v1",
+      "root_hash": "95aeeb2f088086acb7945d95aaa6aa81c744971cee6094ae4786431f68f94286",
+      "artifact_id": "60bc0c24-2967-5af8-adf1-9dd034b0e831",
+      "citation_count": 1
+    },
+    "scope": "fresh byte-span integrity of exposed Q14 only"
+  },
+  "agentproof": {
+    "prior_receipt_valid": true,
+    "checked_files": 0,
+    "fresh_census_capture": false
+  },
+  "mightshape": {
+    "prior_valid": true,
+    "prior_record_count": 3,
+    "fresh_census_validation": false
+  },
+  "supermemory": {
+    "last_attempt_error": true,
+    "source": "reactivation-supermemory-attempt.json"
+  }
+}

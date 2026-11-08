@@ -1,0 +1,101 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "historical-glyph-user-58cddde5f7352feb",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+              "message_id": "8abd381d31d205a75fe82e610e5f83f3e392f26b84e9ffd603fa69d2675a1ba1",
+              "exact_preview": "Conduct comprehensive research into The Testament of Solomon and its related Solomonic grimoires (including the Key of Solomon and Lesser Key), focusing on scholarly editions, manuscript variations, and modern analyses available through academic, digital, or archival sources. Extend the research to explore potential undiscovered or underexamined layers of meaning—textual, symbolic, or cryptographic—using current computational, linguistic, and image-analysis tools.\r\n\r\nThe research should identify, catalog, and cross-reference all credible resources (translations, studies, manuscript scans, critical editions, commentaries, and esoteric interpretations). For each dimension below, outline available data, relevant institutions, known manuscripts, analytical tools suited for deeper exploration, ",
+              "preview_characters": 800,
+              "full_passage_characters": 4221,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "historical-glyph-user-5e3d5f4fe6ae2fba",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+              "message_id": "9edfb3cfb517f28ea74e1efd3abe100ae7272194dca89e672c97f70c779a87ac",
+              "exact_preview": "Research Request: Comprehensive Deep Dive into Modular Naming Methodologies for AI-Driven Naming Tools\n\nObjective:\nDevelop a thorough, science-backed research report that:\n\nReorganizes, classifies, and distills the unstructured data and creative philosophies derived from all inputs and outputs in this conversation.\n\nIntegrates methodologies and best practices from diverse naming traditions—including child naming, business naming, and naming conventions for Git project components—along with linguistic studies on phonetics and etymology.\n\nOutlines explicit requirements for building a modular naming engine that transforms your multifaceted and often chaotic naming process into an efficient, user-friendly AI tool.\n\nScope & Context:\n\nUser's Naming Philosophies & Process:\n\nLayered Etymology & Cu",
+              "preview_characters": 800,
+              "full_passage_characters": 6988,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "historical-glyph-user-58cddde5f7352feb: source_forensics",
+          "1": "historical-glyph-user-5e3d5f4fe6ae2fba: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "c6ac204da200d91f1ebf6716772f1b08c8f436f1920820430abc60b6cc4bd38f",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.23,
+          "1": 0.17,
+          "defer": 0.6
+        },
+        "winner": "defer",
+        "top_probability": 0.6,
+        "margin": 0.37
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 1471,
+      "output_tokens": 41
+    },
+    "network_calls": 1,
+    "latency_ms": 186
+  },
+  "budget_ordinal": 203
+}

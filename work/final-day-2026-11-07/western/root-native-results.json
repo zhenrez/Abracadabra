@@ -1,0 +1,1382 @@
+{
+  "timestamp_utc": "2026-11-07T21:49:37.325370+00:00",
+  "namespace": "western:pythagorean-major:v1",
+  "native_gate": "PASSED_BOUNDED_G2_NATIVE",
+  "full_historical_profile_gate": "PARTIAL",
+  "checks": [
+    {
+      "label": "new_native_contracts",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\western",
+        "-p",
+        "test_western_model.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "test_count": 14,
+      "output": "test_actual_scale_error_is_rejected (test_western_model.WesternContractTests.test_actual_scale_error_is_rejected) ... ok\ntest_all_seven_actual_scale_profiles_validate (test_western_model.WesternContractTests.test_all_seven_actual_scale_profiles_validate) ... ok\ntest_ambiguous_and_contradictory_reconstruction (test_western_model.WesternContractTests.test_ambiguous_and_contradictory_reconstruction) ... ok\ntest_evidence_binding_and_identity_tamper (test_western_model.WesternContractTests.test_evidence_binding_and_identity_tamper) ... ok\ntest_exact_composition_and_nonclosure (test_western_model.WesternContractTests.test_exact_composition_and_nonclosure) ... ok\ntest_exact_fraction_input_survives_binding_and_receipt_serialization (test_western_model.WesternContractTests.test_exact_fraction_input_survives_binding_and_receipt_serialization) ... ok\ntest_float_inputs_and_unknown_profile_rejected (test_western_model.WesternContractTests.test_float_inputs_and_unknown_profile_rejected) ... ok\ntest_four_contract_methods_and_empty_input (test_western_model.WesternContractTests.test_four_contract_methods_and_empty_input) ... ok\ntest_no_foreign_native_model_import (test_western_model.WesternContractTests.test_no_foreign_native_model_import) ... ok\ntest_register_is_not_projected_away (test_western_model.WesternContractTests.test_register_is_not_projected_away) ... ok\ntest_rhythm_and_polyphony_preserve_voices (test_western_model.WesternContractTests.test_rhythm_and_polyphony_preserve_voices) ... ok\ntest_serialization_and_source_profiles (test_western_model.WesternContractTests.test_serialization_and_source_profiles) ... ok\ntest_tetrachord_residual_and_length_frequency_dual (test_western_model.WesternContractTests.test_tetrachord_residual_and_length_frequency_dual) ... ok\ntest_unique_missing_pitch_under_configured_mode (test_western_model.WesternContractTests.test_unique_missing_pitch_under_configured_mode) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.039s\n\nOK\n"
+    },
+    {
+      "label": "preserved_unit002_regressions",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit002",
+        "-p",
+        "test_western.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "test_count": 7,
+      "output": "test_interval_composition (test_western.WesternTests.test_interval_composition) ... ok\ntest_modes (test_western.WesternTests.test_modes) ... ok\ntest_no_foreign_model (test_western.WesternTests.test_no_foreign_model) ... ok\ntest_nonclosure (test_western.WesternTests.test_nonclosure) ... ok\ntest_projection_is_not_exact_tuning (test_western.WesternTests.test_projection_is_not_exact_tuning) ... ok\ntest_register_is_retained (test_western.WesternTests.test_register_is_retained) ... ok\ntest_transposition_and_inversion (test_western.WesternTests.test_transposition_and_inversion) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.007s\n\nOK\n"
+    }
+  ],
+  "exact_property_cases": 255,
+  "modes": {
+    "ionian": {
+      "ratios": [
+        "1",
+        "9/8",
+        "81/64",
+        "4/3",
+        "3/2",
+        "27/16",
+        "243/128"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    },
+    "dorian": {
+      "ratios": [
+        "1",
+        "9/8",
+        "32/27",
+        "4/3",
+        "3/2",
+        "27/16",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    },
+    "phrygian": {
+      "ratios": [
+        "1",
+        "256/243",
+        "32/27",
+        "4/3",
+        "3/2",
+        "128/81",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    },
+    "lydian": {
+      "ratios": [
+        "1",
+        "9/8",
+        "81/64",
+        "729/512",
+        "3/2",
+        "27/16",
+        "243/128"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    },
+    "mixolydian": {
+      "ratios": [
+        "1",
+        "9/8",
+        "81/64",
+        "4/3",
+        "3/2",
+        "27/16",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    },
+    "aeolian": {
+      "ratios": [
+        "1",
+        "9/8",
+        "32/27",
+        "4/3",
+        "3/2",
+        "128/81",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    },
+    "locrian": {
+      "ratios": [
+        "1",
+        "256/243",
+        "32/27",
+        "4/3",
+        "1024/729",
+        "128/81",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "status": "VALID",
+      "source_role": "configured engineering profile; historical tuning not inferred"
+    }
+  },
+  "encoded_profiles": {
+    "ionian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "fb10fa9a4c3930ed747bff7db8616eb1eb160e0d61074bb2f1f68a79f058a566",
+      "kind": "scale",
+      "mode": "ionian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "ionian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 8,
+            "numerator": 9
+          },
+          "record_id": "ionian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 64,
+            "numerator": 81
+          },
+          "record_id": "ionian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 4
+          },
+          "record_id": "ionian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "record_id": "ionian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 16,
+            "numerator": 27
+          },
+          "record_id": "ionian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 128,
+            "numerator": 243
+          },
+          "record_id": "ionian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"ionian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"ionian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"9/8\",\"record_id\":\"ionian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"81/64\",\"record_id\":\"ionian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"4/3\",\"record_id\":\"ionian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"3/2\",\"record_id\":\"ionian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"27/16\",\"record_id\":\"ionian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"243/128\",\"record_id\":\"ionian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    },
+    "dorian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "b35e97e28b4ab1730cbff9417dc101642fe7cacca1aa81d53e1aa39aeed77187",
+      "kind": "scale",
+      "mode": "dorian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "dorian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 8,
+            "numerator": 9
+          },
+          "record_id": "dorian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 27,
+            "numerator": 32
+          },
+          "record_id": "dorian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 4
+          },
+          "record_id": "dorian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "record_id": "dorian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 16,
+            "numerator": 27
+          },
+          "record_id": "dorian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 9,
+            "numerator": 16
+          },
+          "record_id": "dorian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"dorian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"dorian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"9/8\",\"record_id\":\"dorian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"32/27\",\"record_id\":\"dorian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"4/3\",\"record_id\":\"dorian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"3/2\",\"record_id\":\"dorian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"27/16\",\"record_id\":\"dorian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"16/9\",\"record_id\":\"dorian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    },
+    "phrygian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "a9153ac24d40f4e6f8698836731cf72a0ae68cbf212615851048502589a0a9a2",
+      "kind": "scale",
+      "mode": "phrygian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "phrygian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 243,
+            "numerator": 256
+          },
+          "record_id": "phrygian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 27,
+            "numerator": 32
+          },
+          "record_id": "phrygian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 4
+          },
+          "record_id": "phrygian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "record_id": "phrygian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 81,
+            "numerator": 128
+          },
+          "record_id": "phrygian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 9,
+            "numerator": 16
+          },
+          "record_id": "phrygian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"phrygian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"phrygian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"256/243\",\"record_id\":\"phrygian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"32/27\",\"record_id\":\"phrygian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"4/3\",\"record_id\":\"phrygian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"3/2\",\"record_id\":\"phrygian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"128/81\",\"record_id\":\"phrygian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"16/9\",\"record_id\":\"phrygian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    },
+    "lydian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "6918a48d3e2caef979d75ea289c178478d0ee56cb2d58b694d5baebf8953a612",
+      "kind": "scale",
+      "mode": "lydian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "lydian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 8,
+            "numerator": 9
+          },
+          "record_id": "lydian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 64,
+            "numerator": 81
+          },
+          "record_id": "lydian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 512,
+            "numerator": 729
+          },
+          "record_id": "lydian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "record_id": "lydian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 16,
+            "numerator": 27
+          },
+          "record_id": "lydian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 128,
+            "numerator": 243
+          },
+          "record_id": "lydian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"lydian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"lydian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"9/8\",\"record_id\":\"lydian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"81/64\",\"record_id\":\"lydian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"729/512\",\"record_id\":\"lydian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"3/2\",\"record_id\":\"lydian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"27/16\",\"record_id\":\"lydian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"243/128\",\"record_id\":\"lydian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    },
+    "mixolydian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "34f9399014502ef2c0c490479ac64d1a7ea4eec75528b70788dbb066c4647e18",
+      "kind": "scale",
+      "mode": "mixolydian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "mixolydian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 8,
+            "numerator": 9
+          },
+          "record_id": "mixolydian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 64,
+            "numerator": 81
+          },
+          "record_id": "mixolydian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 4
+          },
+          "record_id": "mixolydian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "record_id": "mixolydian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 16,
+            "numerator": 27
+          },
+          "record_id": "mixolydian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 9,
+            "numerator": 16
+          },
+          "record_id": "mixolydian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"mixolydian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"mixolydian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"9/8\",\"record_id\":\"mixolydian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"81/64\",\"record_id\":\"mixolydian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"4/3\",\"record_id\":\"mixolydian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"3/2\",\"record_id\":\"mixolydian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"27/16\",\"record_id\":\"mixolydian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"16/9\",\"record_id\":\"mixolydian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    },
+    "aeolian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "9bf06b259c9880cfe1f1bac119376949e9a385cf15cf53e5d78ebdee1ae06882",
+      "kind": "scale",
+      "mode": "aeolian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "aeolian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 8,
+            "numerator": 9
+          },
+          "record_id": "aeolian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 27,
+            "numerator": 32
+          },
+          "record_id": "aeolian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 4
+          },
+          "record_id": "aeolian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "record_id": "aeolian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 81,
+            "numerator": 128
+          },
+          "record_id": "aeolian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 9,
+            "numerator": 16
+          },
+          "record_id": "aeolian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"aeolian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"aeolian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"9/8\",\"record_id\":\"aeolian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"32/27\",\"record_id\":\"aeolian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"4/3\",\"record_id\":\"aeolian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"3/2\",\"record_id\":\"aeolian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"128/81\",\"record_id\":\"aeolian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"16/9\",\"record_id\":\"aeolian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    },
+    "locrian": {
+      "core_sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "evidence_sha256": "b94ea8350627611d600e8eed85711decdf0b32424c3a6f5d2188e49287387085",
+      "kind": "scale",
+      "mode": "locrian",
+      "namespace": "western:pythagorean-major:v1",
+      "observations": [
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "ratio": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "record_id": "locrian:0",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "ratio": {
+            "denominator": 243,
+            "numerator": 256
+          },
+          "record_id": "locrian:1",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "ratio": {
+            "denominator": 27,
+            "numerator": 32
+          },
+          "record_id": "locrian:2",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 4
+          },
+          "record_id": "locrian:3",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "ratio": {
+            "denominator": 729,
+            "numerator": 1024
+          },
+          "record_id": "locrian:4",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "ratio": {
+            "denominator": 81,
+            "numerator": 128
+          },
+          "record_id": "locrian:5",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        },
+        {
+          "duration": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "onset": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "ratio": {
+            "denominator": 9,
+            "numerator": 16
+          },
+          "record_id": "locrian:6",
+          "source_ref": "engineering:exact-Pythagorean-mode-profile",
+          "voice": "single"
+        }
+      ],
+      "raw_evidence": "{\"kind\":\"scale\",\"mode\":\"locrian\",\"observations\":[{\"onset\":\"0\",\"ratio\":\"1\",\"record_id\":\"locrian:0\",\"voice\":\"single\"},{\"onset\":\"1\",\"ratio\":\"256/243\",\"record_id\":\"locrian:1\",\"voice\":\"single\"},{\"onset\":\"2\",\"ratio\":\"32/27\",\"record_id\":\"locrian:2\",\"voice\":\"single\"},{\"onset\":\"3\",\"ratio\":\"4/3\",\"record_id\":\"locrian:3\",\"voice\":\"single\"},{\"onset\":\"4\",\"ratio\":\"1024/729\",\"record_id\":\"locrian:4\",\"voice\":\"single\"},{\"onset\":\"5\",\"ratio\":\"128/81\",\"record_id\":\"locrian:5\",\"voice\":\"single\"},{\"onset\":\"6\",\"ratio\":\"16/9\",\"record_id\":\"locrian:6\",\"voice\":\"single\"}],\"source_ref\":\"engineering:exact-Pythagorean-mode-profile\"}"
+    }
+  },
+  "nonclosure": {
+    "twelve_fifths": "531441/4096",
+    "seven_octaves": "128",
+    "comma": "531441/524288",
+    "chromatic_return": 0,
+    "exact_return": false
+  },
+  "tetrachord": {
+    "scope": "One tone-tone-limma division; not every ancient Greek genus or tuning",
+    "source_ref": "plato:timaeus:35b-36b",
+    "span": {
+      "denominator": 3,
+      "numerator": 4
+    },
+    "status": "PROFILE_SPECIFIC_DERIVATION",
+    "steps": [
+      {
+        "denominator": 8,
+        "numerator": 9
+      },
+      {
+        "denominator": 8,
+        "numerator": 9
+      },
+      {
+        "denominator": 243,
+        "numerator": 256
+      }
+    ]
+  },
+  "reconstruction": {
+    "missing_degree": {
+      "candidates": {
+        "complete": true,
+        "domain": [
+          "ionian"
+        ],
+        "equivalence": "Mode names and exact degree assignments remain distinguishable",
+        "solutions": [
+          {
+            "mode": "ionian",
+            "ratios": [
+              "1",
+              "9/8",
+              "81/64",
+              "4/3",
+              "3/2",
+              "27/16",
+              "243/128"
+            ]
+          }
+        ]
+      },
+      "execution": "EVALUATED",
+      "historical": {
+        "reason": "Native completion does not establish a historical reconstruction",
+        "status": "NOT_VERIFIED"
+      },
+      "identifiability": {
+        "candidate_count": 1,
+        "status": "UNIQUE_UNDER_MODEL"
+      },
+      "model_preference": {
+        "reason": "No evaluated coding scheme",
+        "status": "NOT_EVALUATED"
+      },
+      "outcome": "UNSUPPORTED",
+      "premises": {
+        "cross_orientation_used": false,
+        "finite_domain_exhausted": true,
+        "mode_constraint": "ionian",
+        "namespace": "western:pythagorean-major:v1",
+        "tonic": "1"
+      },
+      "structural": {
+        "known_positions": 6,
+        "required": 7,
+        "status": "INCOMPLETE"
+      }
+    },
+    "seven_mode_ambiguity": {
+      "candidates": {
+        "complete": true,
+        "domain": [
+          "ionian",
+          "dorian",
+          "phrygian",
+          "lydian",
+          "mixolydian",
+          "aeolian",
+          "locrian"
+        ],
+        "equivalence": "Mode names and exact degree assignments remain distinguishable",
+        "solutions": [
+          {
+            "mode": "ionian",
+            "ratios": [
+              "1",
+              "9/8",
+              "81/64",
+              "4/3",
+              "3/2",
+              "27/16",
+              "243/128"
+            ]
+          },
+          {
+            "mode": "dorian",
+            "ratios": [
+              "1",
+              "9/8",
+              "32/27",
+              "4/3",
+              "3/2",
+              "27/16",
+              "16/9"
+            ]
+          },
+          {
+            "mode": "phrygian",
+            "ratios": [
+              "1",
+              "256/243",
+              "32/27",
+              "4/3",
+              "3/2",
+              "128/81",
+              "16/9"
+            ]
+          },
+          {
+            "mode": "lydian",
+            "ratios": [
+              "1",
+              "9/8",
+              "81/64",
+              "729/512",
+              "3/2",
+              "27/16",
+              "243/128"
+            ]
+          },
+          {
+            "mode": "mixolydian",
+            "ratios": [
+              "1",
+              "9/8",
+              "81/64",
+              "4/3",
+              "3/2",
+              "27/16",
+              "16/9"
+            ]
+          },
+          {
+            "mode": "aeolian",
+            "ratios": [
+              "1",
+              "9/8",
+              "32/27",
+              "4/3",
+              "3/2",
+              "128/81",
+              "16/9"
+            ]
+          },
+          {
+            "mode": "locrian",
+            "ratios": [
+              "1",
+              "256/243",
+              "32/27",
+              "4/3",
+              "1024/729",
+              "128/81",
+              "16/9"
+            ]
+          }
+        ]
+      },
+      "execution": "EVALUATED",
+      "historical": {
+        "reason": "Native completion does not establish a historical reconstruction",
+        "status": "NOT_VERIFIED"
+      },
+      "identifiability": {
+        "candidate_count": 7,
+        "status": "MULTIPLE_DISTINGUISHABLE"
+      },
+      "model_preference": {
+        "reason": "No evaluated coding scheme",
+        "status": "NOT_EVALUATED"
+      },
+      "outcome": "AMBIGUOUS_UNDERDETERMINED",
+      "premises": {
+        "cross_orientation_used": false,
+        "finite_domain_exhausted": true,
+        "mode_constraint": null,
+        "namespace": "western:pythagorean-major:v1",
+        "tonic": "1"
+      },
+      "structural": {
+        "known_positions": 1,
+        "required": 7,
+        "status": "INCOMPLETE"
+      }
+    }
+  },
+  "source_profiles": {
+    "pythagorean_core": {
+      "status": "EXPLICIT_NATIVE_MATHEMATICAL_PROFILE",
+      "source_ref": "work/unit002/western.py",
+      "selection": "host-selected native exact profile already implemented in Unit002; not a universal historical tuning",
+      "equal_temperament_imposed": false
+    },
+    "greek_tetrachord": {
+      "status": "SOURCE_IDENTIFIED_TRANSLATION_WITH_PROFILE_SPECIFIC_DERIVATION",
+      "source_ref": "https://classics.mit.edu/Plato/timaeus.html",
+      "locator": "Timaeus35b-36b; MIT extraction lines150-152",
+      "edition": "Benjamin Jowett translation, digital edition; manuscript priority not established",
+      "derivation": "tone*tone*limma=4/3; contemporary mode labels not attributed to Plato",
+      "equal_temperament_imposed": false
+    },
+    "modern_modes": {
+      "status": "SOURCE_IDENTIFIED_MODERN_PEDAGOGICAL_PROFILE",
+      "source_ref": "https://viva.pressbooks.pub/openmusictheory/chapter/diatonic-modes/",
+      "locator": "Diatonic Modes, relative rotations and church-mode distinctions",
+      "scope": "mode labels/rotation only; source does not assert chosen exact Pythagorean ratios",
+      "equal_temperament_imposed": false
+    },
+    "fludd_monochord": {
+      "status": "RETRIEVED_LOCAL_IMAGE_WITHOUT_NEW_IMAGE_COLLATION",
+      "source_ref": "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Robert Fludd Philosophia Moyasaica 1638.jpg",
+      "bibliographic_control_url": "https://digital.library.cornell.edu/catalog/ss%3A18168108",
+      "new_online_retrieval": "403 Forbidden; search record is not full image verification",
+      "unresolved": "do not equate local1638image with Cornell1617artifact",
+      "equal_temperament_imposed": false
+    },
+    "kepler_harmony": {
+      "status": "PRESERVED_FROZEN_BRIDGE_HYPOTHESIS",
+      "source_ref": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.json",
+      "scope": "source-reported MI-FA-MI and separate register hypothesis; not newly verified Kepler manuscript",
+      "native_profile_execution": "NOT_EVALUATED",
+      "equal_temperament_imposed": false
+    },
+    "completed_harmony": {
+      "status": "LOCAL_SOURCE_BYTES_RETRIEVED_PROFILE_INTERPRETATION_NOT_EVALUATED",
+      "source_ref": "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Sherer_The_Completed_Harmony.pdf",
+      "scope": "modern comparison independently retained; no automatic ancient attribution or absolute-frequency calibration",
+      "equal_temperament_imposed": false
+    }
+  },
+  "reused_sources_unchanged": true,
+  "scope": "exact interval/modal/register/rhythm/polyphony contracts; not all historical Western witness interpretations",
+  "plugin_use": {
+    "Superpowers": "TDD applied; observed red and green tests retained",
+    "Mathbox": "actual bundled bounded computation runner and manifest validator invoked separately",
+    "Jev": "parent strategy receipt; no child inference claimed"
+  },
+  "source_gaps": [
+    "Greek genera beyond this tone-tone-limma profile not reconstructed",
+    "Fludd1638 local image and Cornell1617 record not equated or fully collated",
+    "Kepler dynamics and Completed Harmony preserved as source-specific unevaluated profiles",
+    "Earliest surviving manuscript priority not established for translated Plato source"
+  ],
+  "cross_orientation_used": false,
+  "MDL": {
+    "bits": null,
+    "reason": "No independently evaluated coding scheme or historical baseline supplied",
+    "status": "NOT_EVALUATED"
+  },
+  "files": {
+    "run_native.py": "42806fb3cc1bd970b4b6cd91ac990142881547114b12927d55bae29559bf420a",
+    "test_western_model.py": "43281d41a7ef88819eaeb6c50fa056e0ebaf7f3e7d93f8f4442b83c6e3cb4000",
+    "western_model.py": "e6f21237630566a24153a66d0ad7fb63b123d8353b074ff011f45604150923cb"
+  }
+}

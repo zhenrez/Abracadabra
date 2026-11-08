@@ -1,0 +1,33 @@
+{
+  "schema": "sunny.western-query-log.v1",
+  "created_utc": "2026-11-03T02:51:35.574Z",
+  "scope": "Targeted scholarly method retrieval only; reconstructed from actual browser calls and preserved fetch manifests. Exact browser-call timestamps were not separately surfaced.",
+  "queries": [
+    {
+      "query": "site.fon.hum.uva.nl praat manual Sound To Formant burg window length maximum formant pitch",
+      "result": "Official formant/LPC/formant-path/manual sources returned; selected original methods inspected; no negative-literature inference."
+    },
+    {
+      "query": "site.pages.ucsd.edu Garellek glottal stop acoustic analysis glottalization paper",
+      "result": "Original2013 dissertation returned and downloaded;27selectedpages extracted."
+    },
+    {
+      "query": "site.internationalphoneticassociation.org glottal plosive chart",
+      "result": "No source from this query used to support a new claim."
+    }
+  ],
+  "citation_chains": [
+    "Existing McAulay-Quatieri1986 PDF/page745 -> measured waveform and quasi-stationary track model.",
+    "Praat formant manual already recovered in symbol lane -> source-filter and spectrogram methods -> ba-da tutorial parameter audit.",
+    "Khan2020 already recovered source -> chapterI.5 sample transcriptions/renderedpp614–615 -> publisher-labelled DOI.06/.07 oral performances."
+  ],
+  "retrieval_limits": [
+    "Browser full-PDF follow-up/Find for Garellek repeatedly timed out; one original directHTTP retrieval succeeded and selected local text was inspected.",
+    "Fresh official formant browser open timed out; prior original HTML was already cached and reread.",
+    "Direct preservation of publisher HTML and chapterHTML returned429; no retry loop. Browser metadata, original recovered PDF and MP3HEAD metadata remain available.",
+    "No confirmed supported localMP3decoder from boundedPATH/module probe; no acoustic measurements."
+  ],
+  "reuse": "Existing P0-A14 question set, symbol baseline, native model dimension distinctions, harmonic control and source collection script retained. No adequate prior calculation/search restarted.",
+  "exposure": "Exposed source reading and known controls; no M1–M12 stage or blind test newly executed.",
+  "novelty": "No null-result or universal novelty claim."
+}

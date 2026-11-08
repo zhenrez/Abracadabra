@@ -1,0 +1,82 @@
+{
+  "checked_utc": "2026-11-03T04:07:30.222102+00:00",
+  "status": "passed",
+  "actual_proofline_packages": [
+    {
+      "label": "Cowley39-polite-address",
+      "source": "sources\\cowley1923-text.txt",
+      "span": [
+        451473,
+        451492
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "2c4f65f67f0fb3b08181554f4bdce6ce71fc2b1343d5bed41feaee0320118d5a",
+        "artifact_id": "2a4ff9aa-6179-5186-a137-4c3dc4bd3b13",
+        "citation_count": 1
+      }
+    },
+    {
+      "label": "Khan-alef-competing-reading",
+      "source": "sources\\khan-alef-operation-extract.txt",
+      "span": [
+        506,
+        528
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "e0baedc963469486315db99cd6715db6ffc30483f97bed6efec9a7d89aefc348",
+        "artifact_id": "f1ae4f99-d90f-5153-ac04-0dbb81f56dca",
+        "citation_count": 1
+      }
+    },
+    {
+      "label": "Khan-alef-manuscript-locus",
+      "source": "sources\\khan-alef-operation-extract.txt",
+      "span": [
+        1981,
+        2003
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "149250d1ab55dca91023b8bf278262e713a197c803e06eda3134b534fd0fab7e",
+        "artifact_id": "69267246-7754-5a35-81c3-1e8d5c408f10",
+        "citation_count": 1
+      }
+    },
+    {
+      "label": "Khan-alef-articulation-duration",
+      "source": "sources\\khan-alef-operation-extract.txt",
+      "span": [
+        3436,
+        3458
+      ],
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "95cac611d6a81f1a8f16155b30a1df29acdb38268607ff80e9cf995358ce6543",
+        "artifact_id": "719451e3-ca22-51f9-9400-cbfda7654096",
+        "citation_count": 1
+      }
+    }
+  ],
+  "original_source_hash_checks": [
+    {
+      "receipt": "cowley39-printed-page-receipt.json",
+      "member_sha256": "16e8f0eb04301ae6663a29905b4d393cc36bd7a3a3b57a5b893e4218ec534f8d",
+      "matches": true
+    },
+    {
+      "receipt": "sachau-facsimile-receipt.json",
+      "member_sha256": "b5fcad1af24774b9364b0df0e54a13e4f0f4906439c88c224696ac123baa0e88",
+      "matches": true
+    }
+  ],
+  "pdf_extraction_pages_exact": 4,
+  "pdf_sha256": "bcab644037f62795041c3c6e6e37f1c1eb28f29d147b6d2c4409fd6bc3c0da24",
+  "crop_pixel_bindings_exact": 5,
+  "scope": "Actual Proofline exact-span checks, source byte hashes and exact reading-crop pixels. No independent glyph identity, historical pronunciation, empirical duration result or global musical proof."
+}

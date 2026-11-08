@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-90d7d6ed67ea0e16",
+  "content_sha256": "90d7d6ed67ea0e165e56da65e7fd1a945135055b8655aa33b59b32c336faaea2",
+  "headers": [
+    "Transformation",
+    "What it does",
+    "Testable prediction"
+  ],
+  "rows": [
+    [
+      "**Generation**",
+      "Creates a new structure",
+      "Population increases; new entity"
+    ],
+    [
+      "**Activation**",
+      "Enables an existing structure",
+      "Population unchanged; operative state changes"
+    ],
+    [
+      "**Membership change**",
+      "Moves an entity between classes",
+      "Population redistributed; class changes"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 17005,
+      "line_end": 17009,
+      "char_start": 812291,
+      "char_end": 812642,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Transformation | What it does | Testable prediction |\n|---|---|---|\n| **Generation** | Creates a new structure | Population increases; new entity |\n| **Activation** | Enables an existing structure | Population unchanged; operative state changes |\n| **Membership change** | Moves an entity between classes | Population redistributed; class changes |\n",
+      "quote_sha256": "1c31593b669a00685b1b5120f44f2888f98bf58d763601bb122dac070683bf06",
+      "message_id": "c34639d39245367405fe21b7405035bc111da986a24174c3893844231fa3a248",
+      "role": "user",
+      "locator": "lines:17005-17009"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

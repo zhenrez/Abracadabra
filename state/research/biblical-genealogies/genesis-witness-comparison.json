@@ -1,0 +1,1522 @@
+{
+  "schema": "sunny.genesis-witness-comparison.v1",
+  "status": "finite source-qualified comparison, not exhaustive collation",
+  "MTsource": {
+    "repository": "https://github.com/openscriptures/morphhb",
+    "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+    "path": "MT-OSHB-Genesis.xml",
+    "sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+    "url": "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml",
+    "scope": "WLC transcription; text public domain, OSHB linguistic annotations separately licensed CC BY4.0",
+    "gitBlobSha": "09ac9cab0a47c5fae8d747c2868f1cf50d6d1131",
+    "commitFileBindingVerified": true
+  },
+  "SPsource": {
+    "repository": "https://github.com/DT-UCPH/sp",
+    "commit": "8842267d29e37bf786b95209c76852461c389144",
+    "version": "7.3.0",
+    "manuscriptBasis": "Dublin Chester Beatty Library751 for Genesis, as declared by dataset",
+    "scope": "Pentateuch only; consonantal transliteration, not rendered ancient ink or phonetics",
+    "license": "CC BY-NC4.0 in acquired source files; conflicting Zenodo discovery label retained in regions packet",
+    "sourceBindings": [
+      {
+        "path": "SP-7.3.0/book.tf",
+        "sha256": "14e4cc143d9d23f2b743f742ff102e97c890ceaf9e0e23d347c07358fac58095",
+        "gitBlobSha": "ef77ce6922f8147869d07f10201b1d167f48259b",
+        "bytes": 712
+      },
+      {
+        "path": "SP-7.3.0/chapter.tf",
+        "sha256": "ab924140edf2b64f018c215c7ee45c35bc30ee27440953fa683c8ad62109c166",
+        "gitBlobSha": "91e8f23fbd1ee4209c97cb6f59b4dcc87565ae71",
+        "bytes": 1187
+      },
+      {
+        "path": "SP-7.3.0/g_cons.tf",
+        "sha256": "5e483fc56424739517bacbe63cea8b044d617299d5630199a94b58b4bcd48376",
+        "gitBlobSha": "08a4a6d2e4ea3b6c595d58a9d727f91edf66350d",
+        "bytes": 432637
+      },
+      {
+        "path": "SP-7.3.0/oslots.tf",
+        "sha256": "1e13249acdcb3b34c91341659df043236ff4a63144dab4a42d1ddc1ce4dc01b8",
+        "gitBlobSha": "158d971e0b021dbcb50b9c3e155581a036d39c18",
+        "bytes": 3683221
+      },
+      {
+        "path": "SP-7.3.0/otype.tf",
+        "sha256": "ea66d31e86552a684d5999675d98ec72b4edcfb013754468c156dff4751a5d19",
+        "gitBlobSha": "4d97ddf3f9addbd6cca910ef4ed8d35a1fd406cb",
+        "bytes": 824
+      },
+      {
+        "path": "SP-7.3.0/trailer.tf",
+        "sha256": "ec70864c8c32471da2483bc42370b54c844ef2b62b727b04cc82d0693f01f55f",
+        "gitBlobSha": "21abb8a0aa86c20260e91b14c77024d1435d6ca5",
+        "bytes": 197901
+      },
+      {
+        "path": "SP-7.3.0/verse.tf",
+        "sha256": "0e35522ca99700e442f96ad30e813680436e772254a99b8e53b4bbc2172d84a2",
+        "gitBlobSha": "7959c20b553436acfc6ca5fbbe60b75049e68547",
+        "bytes": 16521
+      }
+    ]
+  },
+  "GreekSource": {
+    "title": "The Old Testament in Greek according to the Septuagint, vol.I, Genesis–IVKings",
+    "editor": "Henry Barclay Swete",
+    "publication": "Cambridge University Press,1887; actual PDF title page7, not aggregate Archive1905 metadata",
+    "url": "https://archive.org/download/theoldtestamenti03swetuoft_202003/oldtestamentingr01swet.pdf",
+    "sourceBindings": [
+      {
+        "path": "Greek-Swete-original-volume1.pdf",
+        "sha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "bytes": 49145251
+      },
+      {
+        "path": "Greek-Swete-pdfpage39.png",
+        "sha256": "d3aff5b32977eb633fadf17e4f50f14d1d0b27bcc661b36cd12e5f95a78115a1",
+        "pdfPageOneBased": 39,
+        "printedPage": 7,
+        "visuallyInspected": true
+      },
+      {
+        "path": "Greek-Swete-pdfpage40.png",
+        "sha256": "a9f69aa49522c9be22cb41939802e37bfa7ecc4c03601a7b8604b17162e1bf75",
+        "pdfPageOneBased": 40,
+        "printedPage": 8,
+        "visuallyInspected": true
+      },
+      {
+        "path": "Greek-Swete-pdfpage41.png",
+        "sha256": "a8c48889498d8667fd5dca0b800bbade30630dbd6be8c026409e8b2b57b241d4",
+        "pdfPageOneBased": 41,
+        "printedPage": 9,
+        "visuallyInspected": true
+      },
+      {
+        "path": "Greek-Swete-pdfpage49.png",
+        "sha256": "a34e5b0531933c0eba29164b6bdb6b7f1884aba12bd8e34291a0a7840d49be74",
+        "pdfPageOneBased": 49,
+        "printedPage": 17,
+        "visuallyInspected": true
+      },
+      {
+        "path": "Greek-Swete-pdfpage50.png",
+        "sha256": "c055d4d0fe5870f3db8dd446445138e11e5c9692b80f4ba22e2e6725495a372c",
+        "pdfPageOneBased": 50,
+        "printedPage": 18,
+        "visuallyInspected": true
+      },
+      {
+        "path": "Greek-Swete-pdfpage49-detail.png",
+        "sha256": "e39c1a369aeed7ae113c779a7f354a6b8f116f34927a87b26f705568fe291e03",
+        "pdfPageOneBased": 49,
+        "printedPage": 17,
+        "visuallyInspected": true,
+        "purpose": "Higher-resolution apparatus reading; supersedes earlier mistaken D=400 interpretation."
+      }
+    ],
+    "OCRBoundary": "Greek OCR is unreliable; numeric readings below were inspected in rendered printed pages.",
+    "apparatusGen11_13": {
+      "printedPage": 17,
+      "pdfPageOneBased": 49,
+      "mainYears": 430,
+      "literalApparatus": "τετρακοσια] τριακοσια E | ετη εκατον τριακοντα D",
+      "reportedVariants": [
+        {
+          "siglum": "E",
+          "years": 330
+        },
+        {
+          "siglum": "D",
+          "years": 130
+        }
+      ],
+      "siglumDDefinition": "Codex Cottonianus Geneseos (I, Holmes), from English preface PDFpage32",
+      "DDefinitionExtraction": "D=CodexCottonianusGeneseos(I,Holmes).",
+      "earlierLowResolutionInterpretation": "D=400 was a reading error, corrected by actual higher-resolution rendering.",
+      "receivedGreek400Status": "Retained inherited chronology branch, but not corroborated by this apparatus; requires its own edition/witness source."
+    }
+  },
+  "ageAtBegettingClaims": [
+    {
+      "id": "bible:primary-age:MT:Gen.5.3",
+      "family": "MT",
+      "reference": "Gen.5.3",
+      "parentRole": "Adam",
+      "descendantRole": "Seth",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.3",
+        "literalSourceText": "וַֽ/יְחִ֣י אָדָ֗ם שְׁלֹשִׁ֤ים וּ/מְאַת֙ שָׁנָ֔ה וַ/יּ֥וֹלֶד בִּ/דְמוּת֖/וֹ כְּ/צַלְמ֑/וֹ וַ/יִּקְרָ֥א אֶת שְׁמ֖/וֹ שֵֽׁת",
+        "wordOrNodeAddresses": [
+          "01Anx",
+          "01kWB",
+          "0126j",
+          "01ZiN",
+          "01NAb",
+          "01NJS",
+          "01S4e",
+          "01cZG",
+          "01Nqf",
+          "01tKV",
+          "01hpd",
+          "01CAC"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.3",
+      "family": "SP",
+      "reference": "Gen.5.3",
+      "parentRole": "Adam",
+      "descendantRole": "Seth",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.3",
+        "literalSourceText": "WJXJ >DM CLCJM WM>T CNH WJWLJD BDMWTW KYLMW WJQR> >T CMW CT ",
+        "wordOrNodeAddresses": [
+          407573,
+          407574,
+          407575,
+          407576,
+          407577,
+          407578,
+          407579,
+          407580,
+          407581,
+          407582,
+          407583,
+          407584,
+          407585,
+          407586,
+          407587,
+          407588,
+          407589,
+          407590
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.3",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.3",
+      "parentRole": "Adam",
+      "descendantRole": "Seth",
+      "reportedAgeAtNamedBegetting": 230,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 7,
+        "pdfPageOneBased": 39,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.6",
+      "family": "MT",
+      "reference": "Gen.5.6",
+      "parentRole": "Seth",
+      "descendantRole": "Enosh",
+      "reportedAgeAtNamedBegetting": 105,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.6",
+        "literalSourceText": "וַֽ/יְחִי שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּ/מְאַ֣ת שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת אֱנֽוֹשׁ",
+        "wordOrNodeAddresses": [
+          "01XSa",
+          "01bsA",
+          "01nnJ",
+          "01b2r",
+          "01Tzx",
+          "01fTQ",
+          "01nCu",
+          "01Gds",
+          "019cC"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.6",
+      "family": "SP",
+      "reference": "Gen.5.6",
+      "parentRole": "Seth",
+      "descendantRole": "Enosh",
+      "reportedAgeAtNamedBegetting": 105,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.6",
+        "literalSourceText": "WJXJ CT XMC CNJM WM>T CNH WJWLJD >T >NWC ",
+        "wordOrNodeAddresses": [
+          407622,
+          407623,
+          407624,
+          407625,
+          407626,
+          407627,
+          407628,
+          407629,
+          407630,
+          407631,
+          407632,
+          407633
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.6",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.6",
+      "parentRole": "Seth",
+      "descendantRole": "Enosh",
+      "reportedAgeAtNamedBegetting": 205,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 7,
+        "pdfPageOneBased": 39,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.9",
+      "family": "MT",
+      "reference": "Gen.5.9",
+      "parentRole": "Enosh",
+      "descendantRole": "Kenan I",
+      "reportedAgeAtNamedBegetting": 90,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.9",
+        "literalSourceText": "וַֽ/יְחִ֥י אֱנ֖וֹשׁ תִּשְׁעִ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת קֵינָֽן",
+        "wordOrNodeAddresses": [
+          "01xpP",
+          "01yvH",
+          "01456",
+          "01neV",
+          "01bEv",
+          "01yWa",
+          "01PL3"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.9",
+      "family": "SP",
+      "reference": "Gen.5.9",
+      "parentRole": "Enosh",
+      "descendantRole": "Kenan I",
+      "reportedAgeAtNamedBegetting": 90,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.9",
+        "literalSourceText": "WJXJ >NWC TC<JM CNH WJWLJD >T QJNN ",
+        "wordOrNodeAddresses": [
+          407666,
+          407667,
+          407668,
+          407669,
+          407670,
+          407671,
+          407672,
+          407673,
+          407674
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.9",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.9",
+      "parentRole": "Enosh",
+      "descendantRole": "Kenan I",
+      "reportedAgeAtNamedBegetting": 190,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 8,
+        "pdfPageOneBased": 40,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.12",
+      "family": "MT",
+      "reference": "Gen.5.12",
+      "parentRole": "Kenan I",
+      "descendantRole": "Mahalalel",
+      "reportedAgeAtNamedBegetting": 70,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.12",
+        "literalSourceText": "וַֽ/יְחִ֥י קֵינָ֖ן שִׁבְעִ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת מַֽהֲלַלְאֵֽל",
+        "wordOrNodeAddresses": [
+          "01o4f",
+          "01iaj",
+          "01BKq",
+          "01zK3",
+          "01rJJ",
+          "01uEK",
+          "0131Q"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.12",
+      "family": "SP",
+      "reference": "Gen.5.12",
+      "parentRole": "Kenan I",
+      "descendantRole": "Mahalalel",
+      "reportedAgeAtNamedBegetting": 70,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.12",
+        "literalSourceText": "WJXJ QJNN CB<JM CNH WJWLJD >T MHLL>L ",
+        "wordOrNodeAddresses": [
+          407707,
+          407708,
+          407709,
+          407710,
+          407711,
+          407712,
+          407713,
+          407714,
+          407715
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.12",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.12",
+      "parentRole": "Kenan I",
+      "descendantRole": "Mahalalel",
+      "reportedAgeAtNamedBegetting": 170,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 8,
+        "pdfPageOneBased": 40,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.15",
+      "family": "MT",
+      "reference": "Gen.5.15",
+      "parentRole": "Mahalalel",
+      "descendantRole": "Jared",
+      "reportedAgeAtNamedBegetting": 65,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.15",
+        "literalSourceText": "וַֽ/יְחִ֣י מַֽהֲלַלְאֵ֔ל חָמֵ֥שׁ שָׁנִ֖ים וְ/שִׁשִּׁ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת יָֽרֶד",
+        "wordOrNodeAddresses": [
+          "01mxT",
+          "01JFY",
+          "01tNW",
+          "01vVg",
+          "01GsN",
+          "01ESe",
+          "012xq",
+          "01Gta",
+          "01NA7"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.15",
+      "family": "SP",
+      "reference": "Gen.5.15",
+      "parentRole": "Mahalalel",
+      "descendantRole": "Jared",
+      "reportedAgeAtNamedBegetting": 65,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.15",
+        "literalSourceText": "WJXJ MHLL>L XMC CNJM WCCJM CNH WJWLJD >T JRD ",
+        "wordOrNodeAddresses": [
+          407747,
+          407748,
+          407749,
+          407750,
+          407751,
+          407752,
+          407753,
+          407754,
+          407755,
+          407756,
+          407757,
+          407758
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.15",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.15",
+      "parentRole": "Mahalalel",
+      "descendantRole": "Jared",
+      "reportedAgeAtNamedBegetting": 165,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 8,
+        "pdfPageOneBased": 40,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.18",
+      "family": "MT",
+      "reference": "Gen.5.18",
+      "parentRole": "Jared",
+      "descendantRole": "Enoch (son of Jared)",
+      "reportedAgeAtNamedBegetting": 162,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.18",
+        "literalSourceText": "וַֽ/יְחִי יֶ֕רֶד שְׁתַּ֧יִם וְ/שִׁשִּׁ֛ים שָׁנָ֖ה וּ/מְאַ֣ת שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת חֲנֽוֹךְ",
+        "wordOrNodeAddresses": [
+          "01R15",
+          "01fmL",
+          "01Vez",
+          "015sh",
+          "01Dmo",
+          "01S76",
+          "013U9",
+          "013iN",
+          "015vj",
+          "01iTL"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.18",
+      "family": "SP",
+      "reference": "Gen.5.18",
+      "parentRole": "Jared",
+      "descendantRole": "Enoch (son of Jared)",
+      "reportedAgeAtNamedBegetting": 62,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.18",
+        "literalSourceText": "WJXJ JRD CTJM WCCJM CNH WJWLJD >T XNWK ",
+        "wordOrNodeAddresses": [
+          407792,
+          407793,
+          407794,
+          407795,
+          407796,
+          407797,
+          407798,
+          407799,
+          407800,
+          407801,
+          407802
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.18",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.18",
+      "parentRole": "Jared",
+      "descendantRole": "Enoch (son of Jared)",
+      "reportedAgeAtNamedBegetting": 162,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 8,
+        "pdfPageOneBased": 40,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.21",
+      "family": "MT",
+      "reference": "Gen.5.21",
+      "parentRole": "Enoch (son of Jared)",
+      "descendantRole": "Methuselah",
+      "reportedAgeAtNamedBegetting": 65,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.21",
+        "literalSourceText": "וַֽ/יְחִ֣י חֲנ֔וֹךְ חָמֵ֥שׁ וְ/שִׁשִּׁ֖ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת מְתוּשָֽׁלַח",
+        "wordOrNodeAddresses": [
+          "01tJ1",
+          "01wT4",
+          "014QP",
+          "01esN",
+          "01tos",
+          "01YNQ",
+          "01H41",
+          "01uyq"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.21",
+      "family": "SP",
+      "reference": "Gen.5.21",
+      "parentRole": "Enoch (son of Jared)",
+      "descendantRole": "Methuselah",
+      "reportedAgeAtNamedBegetting": 65,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.21",
+        "literalSourceText": "WJXJ XNWK XMC WCCJM CNH WJWLJD >T MTWCLX ",
+        "wordOrNodeAddresses": [
+          407838,
+          407839,
+          407840,
+          407841,
+          407842,
+          407843,
+          407844,
+          407845,
+          407846,
+          407847,
+          407848
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.21",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.21",
+      "parentRole": "Enoch (son of Jared)",
+      "descendantRole": "Methuselah",
+      "reportedAgeAtNamedBegetting": 165,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 8,
+        "pdfPageOneBased": 40,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.25",
+      "family": "MT",
+      "reference": "Gen.5.25",
+      "parentRole": "Methuselah",
+      "descendantRole": "Lamech (father of Noah)",
+      "reportedAgeAtNamedBegetting": 187,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.25",
+        "literalSourceText": "וַ/יְחִ֣י מְתוּשֶׁ֔לַח שֶׁ֧בַע וּ/שְׁמֹנִ֛ים שָׁנָ֖ה וּ/מְאַ֣ת שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת לָֽמֶךְ",
+        "wordOrNodeAddresses": [
+          "01UxF",
+          "01u5M",
+          "01jQ2",
+          "0126m",
+          "01pu5",
+          "01eof",
+          "014Th",
+          "01x6W",
+          "01Dux",
+          "01txJ"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.25",
+      "family": "SP",
+      "reference": "Gen.5.25",
+      "parentRole": "Methuselah",
+      "descendantRole": "Lamech (father of Noah)",
+      "reportedAgeAtNamedBegetting": 67,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.25",
+        "literalSourceText": "WJXJ MTWCLX CB< WCCJM CNH WJWLJD >T LMK ",
+        "wordOrNodeAddresses": [
+          407892,
+          407893,
+          407894,
+          407895,
+          407896,
+          407897,
+          407898,
+          407899,
+          407900,
+          407901,
+          407902
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.25",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.25",
+      "parentRole": "Methuselah",
+      "descendantRole": "Lamech (father of Noah)",
+      "reportedAgeAtNamedBegetting": 187,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 8,
+        "pdfPageOneBased": 40,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.5.28",
+      "family": "MT",
+      "reference": "Gen.5.28",
+      "parentRole": "Lamech (father of Noah)",
+      "descendantRole": "Noah",
+      "reportedAgeAtNamedBegetting": 182,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.5.28",
+        "literalSourceText": "וַֽ/יְחִי לֶ֕מֶךְ שְׁתַּ֧יִם וּ/שְׁמֹנִ֛ים שָׁנָ֖ה וּ/מְאַ֣ת שָׁנָ֑ה וַ/יּ֖וֹלֶד בֵּֽן",
+        "wordOrNodeAddresses": [
+          "013PW",
+          "01ZDB",
+          "01Fr5",
+          "0131V",
+          "01iWv",
+          "01vzh",
+          "01G27",
+          "01Jbv",
+          "01oWA"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected",
+      "qualification": "Noah is named in the following verse; declared Gen5:28–29 context."
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.5.28",
+      "family": "SP",
+      "reference": "Gen.5.28",
+      "parentRole": "Lamech (father of Noah)",
+      "descendantRole": "Noah",
+      "reportedAgeAtNamedBegetting": 53,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.5.28",
+        "literalSourceText": "WJXJ LMK CLC WXMCJM CNH WJWLJD BN ",
+        "wordOrNodeAddresses": [
+          407936,
+          407937,
+          407938,
+          407939,
+          407940,
+          407941,
+          407942,
+          407943,
+          407944,
+          407945
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected",
+      "qualification": "Noah is named in the following verse; declared Gen5:28–29 context."
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.5.28",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.5.28",
+      "parentRole": "Lamech (father of Noah)",
+      "descendantRole": "Noah",
+      "reportedAgeAtNamedBegetting": 188,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 9,
+        "pdfPageOneBased": 41,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink",
+      "qualification": "Noah is named in the following verse; declared Gen5:28–29 context."
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.12",
+      "family": "MT",
+      "reference": "Gen.11.12",
+      "parentRole": "Arpachshad",
+      "descendantRole": "Shelah",
+      "reportedAgeAtNamedBegetting": 35,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.12",
+        "literalSourceText": "וְ/אַרְפַּכְשַׁ֣ד חַ֔י חָמֵ֥שׁ וּ/שְׁלֹשִׁ֖ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת שָֽׁלַח",
+        "wordOrNodeAddresses": [
+          "014pF",
+          "01uJp",
+          "01TaS",
+          "01LLF",
+          "01bDy",
+          "01iov",
+          "01sPA",
+          "01CJX"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.12",
+      "family": "SP",
+      "reference": "Gen.11.12",
+      "parentRole": "Arpachshad",
+      "descendantRole": "Shelah",
+      "reportedAgeAtNamedBegetting": 135,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.12",
+        "literalSourceText": "W>RPKCD XJ XMC WCLCJM WM>T CNH WJWLJD >T CLX ",
+        "wordOrNodeAddresses": [
+          410570,
+          410571,
+          410572,
+          410573,
+          410574,
+          410575,
+          410576,
+          410577,
+          410578,
+          410579,
+          410580,
+          410581,
+          410582
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.12",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.12",
+      "parentRole": "Arpachshad",
+      "descendantRole": "Cainan II",
+      "reportedAgeAtNamedBegetting": 135,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 17,
+        "pdfPageOneBased": 49,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.14",
+      "family": "MT",
+      "reference": "Gen.11.14",
+      "parentRole": "Shelah",
+      "descendantRole": "Eber",
+      "reportedAgeAtNamedBegetting": 30,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.14",
+        "literalSourceText": "וְ/שֶׁ֥לַח חַ֖י שְׁלֹשִׁ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת עֵֽבֶר",
+        "wordOrNodeAddresses": [
+          "01vnr",
+          "01SfR",
+          "01PA5",
+          "016gb",
+          "01or6",
+          "01Zed",
+          "01u6X"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.14",
+      "family": "SP",
+      "reference": "Gen.11.14",
+      "parentRole": "Shelah",
+      "descendantRole": "Eber",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.14",
+        "literalSourceText": "WJXJ CLX CLCJM CNH WM>T CNH WJWLJD >T <BR ",
+        "wordOrNodeAddresses": [
+          410616,
+          410617,
+          410618,
+          410619,
+          410620,
+          410621,
+          410622,
+          410623,
+          410624,
+          410625,
+          410626,
+          410627
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.14",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.14",
+      "parentRole": "Shelah",
+      "descendantRole": "Eber",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.16",
+      "family": "MT",
+      "reference": "Gen.11.16",
+      "parentRole": "Eber",
+      "descendantRole": "Peleg",
+      "reportedAgeAtNamedBegetting": 34,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.16",
+        "literalSourceText": "וַֽ/יְחִי עֵ֕בֶר אַרְבַּ֥ע וּ/שְׁלֹשִׁ֖ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת פָּֽלֶג",
+        "wordOrNodeAddresses": [
+          "01wep",
+          "01Uo7",
+          "01Y7e",
+          "01Hgx",
+          "01G3x",
+          "01s67",
+          "01YC8",
+          "01krY"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.16",
+      "family": "SP",
+      "reference": "Gen.11.16",
+      "parentRole": "Eber",
+      "descendantRole": "Peleg",
+      "reportedAgeAtNamedBegetting": 134,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.16",
+        "literalSourceText": "WJXJ <BR >RB< WCLCJM WM>T CNH WJWLJD >T PLG ",
+        "wordOrNodeAddresses": [
+          410661,
+          410662,
+          410663,
+          410664,
+          410665,
+          410666,
+          410667,
+          410668,
+          410669,
+          410670,
+          410671,
+          410672,
+          410673
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.16",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.16",
+      "parentRole": "Eber",
+      "descendantRole": "Peleg",
+      "reportedAgeAtNamedBegetting": 134,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.18",
+      "family": "MT",
+      "reference": "Gen.11.18",
+      "parentRole": "Peleg",
+      "descendantRole": "Reu",
+      "reportedAgeAtNamedBegetting": 30,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.18",
+        "literalSourceText": "וַֽ/יְחִי פֶ֖לֶג שְׁלֹשִׁ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת רְעֽוּ",
+        "wordOrNodeAddresses": [
+          "01FjR",
+          "01h6T",
+          "01wu9",
+          "014Gx",
+          "01Bj7",
+          "01sAN",
+          "01MhW"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.18",
+      "family": "SP",
+      "reference": "Gen.11.18",
+      "parentRole": "Peleg",
+      "descendantRole": "Reu",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.18",
+        "literalSourceText": "WJXJ PLG CLCJM CNH WM>T CNH WJWLJD >T R<W ",
+        "wordOrNodeAddresses": [
+          410704,
+          410705,
+          410706,
+          410707,
+          410708,
+          410709,
+          410710,
+          410711,
+          410712,
+          410713,
+          410714,
+          410715
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.18",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.18",
+      "parentRole": "Peleg",
+      "descendantRole": "Reu",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.20",
+      "family": "MT",
+      "reference": "Gen.11.20",
+      "parentRole": "Reu",
+      "descendantRole": "Serug",
+      "reportedAgeAtNamedBegetting": 32,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.20",
+        "literalSourceText": "וַ/יְחִ֣י רְע֔וּ שְׁתַּ֥יִם וּ/שְׁלֹשִׁ֖ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת שְׂרֽוּג",
+        "wordOrNodeAddresses": [
+          "01512",
+          "01MzY",
+          "01kXM",
+          "01Hj8",
+          "01zFY",
+          "01Rhm",
+          "01hnf",
+          "01eM1"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.20",
+      "family": "SP",
+      "reference": "Gen.11.20",
+      "parentRole": "Reu",
+      "descendantRole": "Serug",
+      "reportedAgeAtNamedBegetting": 132,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.20",
+        "literalSourceText": "WJXJ R<W CTJM WCLCJM WM>T CNH WJWLJD >T FRWG ",
+        "wordOrNodeAddresses": [
+          410746,
+          410747,
+          410748,
+          410749,
+          410750,
+          410751,
+          410752,
+          410753,
+          410754,
+          410755,
+          410756,
+          410757,
+          410758
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.20",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.20",
+      "parentRole": "Reu",
+      "descendantRole": "Serug",
+      "reportedAgeAtNamedBegetting": 132,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.22",
+      "family": "MT",
+      "reference": "Gen.11.22",
+      "parentRole": "Serug",
+      "descendantRole": "Nahor",
+      "reportedAgeAtNamedBegetting": 30,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.22",
+        "literalSourceText": "וַ/יְחִ֥י שְׂר֖וּג שְׁלֹשִׁ֣ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת נָחֽוֹר",
+        "wordOrNodeAddresses": [
+          "01gSB",
+          "01mv8",
+          "01xW5",
+          "01X8c",
+          "01Kyc",
+          "01MpC",
+          "01s71"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.22",
+      "family": "SP",
+      "reference": "Gen.11.22",
+      "parentRole": "Serug",
+      "descendantRole": "Nahor",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.22",
+        "literalSourceText": "WJXJ FRWG CLCJM CNH WM>T CNH WJWLJD >T NXWR ",
+        "wordOrNodeAddresses": [
+          410789,
+          410790,
+          410791,
+          410792,
+          410793,
+          410794,
+          410795,
+          410796,
+          410797,
+          410798,
+          410799,
+          410800
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.22",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.22",
+      "parentRole": "Serug",
+      "descendantRole": "Nahor",
+      "reportedAgeAtNamedBegetting": 130,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:MT:Gen.11.24",
+      "family": "MT",
+      "reference": "Gen.11.24",
+      "parentRole": "Nahor",
+      "descendantRole": "Terah",
+      "reportedAgeAtNamedBegetting": 29,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "MT",
+        "reference": "Gen.11.24",
+        "literalSourceText": "וַ/יְחִ֣י נָח֔וֹר תֵּ֥שַׁע וְ/עֶשְׂרִ֖ים שָׁנָ֑ה וַ/יּ֖וֹלֶד אֶת תָּֽרַח",
+        "wordOrNodeAddresses": [
+          "013i9",
+          "0186G",
+          "019x4",
+          "01FES",
+          "01f4y",
+          "01H8b",
+          "01C81",
+          "01G5J"
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:SP:Gen.11.24",
+      "family": "SP",
+      "reference": "Gen.11.24",
+      "parentRole": "Nahor",
+      "descendantRole": "Terah",
+      "reportedAgeAtNamedBegetting": 79,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "family": "SP",
+        "reference": "Gen.11.24",
+        "literalSourceText": "WJXJ NXWR TC< WCB<JM CNH WJWLJD >T TRX ",
+        "wordOrNodeAddresses": [
+          410827,
+          410828,
+          410829,
+          410830,
+          410831,
+          410832,
+          410833,
+          410834,
+          410835,
+          410836,
+          410837
+        ]
+      },
+      "sourceLayer": "digital scholarly transcription; original manuscript image not independently inspected"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.24",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.24",
+      "parentRole": "Nahor",
+      "descendantRole": "Terah",
+      "reportedAgeAtNamedBegetting": 79,
+      "unit": "reported-year",
+      "relationshipType": "textual-genealogical-begetting",
+      "biologicalImmediacyIndependentlyEstablished": false,
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50,
+        "visuallyReviewedPublishedText": true
+      },
+      "sourceLayer": "Swete1887 printed main text; editorial publication reading, not independent ancient ink"
+    },
+    {
+      "id": "bible:primary-age:Greek_Swete1887_main:Gen.11.13:Cainan",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.13:inserted-Cainan-clause",
+      "parentRole": "Cainan II",
+      "descendantRole": "Shelah",
+      "reportedAgeAtNamedBegetting": 130,
+      "reportedYearsAfterNamedBegetting": 330,
+      "unit": "reported-year",
+      "sourceLayer": "visually inspected printed edition; not independent ancient ink",
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 18,
+        "pdfPageOneBased": 50
+      },
+      "biologicalImmediacyIndependentlyEstablished": false
+    }
+  ],
+  "ArpachshadAfterBegettingClaims": [
+    {
+      "id": "bible:primary-after-age:MT:Gen.11.13",
+      "family": "MT",
+      "reference": "Gen.11.13",
+      "parentRole": "Arpachshad",
+      "descendantRole": "Shelah",
+      "reportedYearsAfterNamedBegetting": 403,
+      "totalByAddition": 438,
+      "unit": "reported-year",
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "reference": "Gen.11.13",
+        "literalSourceText": "וַֽ/יְחִ֣י אַרְפַּכְשַׁ֗ד אַֽחֲרֵי֙ הוֹלִיד֣/וֹ אֶת שֶׁ֔לַח שָׁלֹ֣שׁ שָׁנִ֔ים וְ/אַרְבַּ֥ע מֵא֖וֹת שָׁנָ֑ה וַ/יּ֥וֹלֶד בָּנִ֖ים וּ/בָנֽוֹת"
+      }
+    },
+    {
+      "id": "bible:primary-after-age:SP:Gen.11.13",
+      "family": "SP",
+      "reference": "Gen.11.13",
+      "parentRole": "Arpachshad",
+      "descendantRole": "Shelah",
+      "reportedYearsAfterNamedBegetting": 303,
+      "totalByAddition": 438,
+      "unit": "reported-year",
+      "sourceRegion": {
+        "packet": "genesis-primary-regions.json",
+        "packetSha256": "ba939125189d66575cf51ba5201df2051918ce0cb1d9f9c5f758c2d3a8c44eba",
+        "reference": "Gen.11.13",
+        "literalSourceText": "WJXJ >RPKCD >XRJ HWLJDW >T CLX CLC CNJM WCLC M>WT CNH WJWLJD BNJM WBNWT WJHJW KL JMJ >RPKCD CMNH WCLCJM CNH W>RB< M>WT CNH WJMT "
+      }
+    },
+    {
+      "id": "bible:primary-after-age:Greek_Swete1887_main:Gen.11.13",
+      "family": "Greek_Swete1887_main",
+      "reference": "Gen.11.13",
+      "parentRole": "Arpachshad",
+      "descendantRole": "Cainan II",
+      "reportedYearsAfterNamedBegetting": 430,
+      "totalByAddition": 565,
+      "unit": "reported-year",
+      "sourceRegion": {
+        "pdf": "Greek-Swete-original-volume1.pdf",
+        "pdfSha256": "ed4aeb80dcb83dffaffae8d36b3c8062f76f1cbe21e07583ad04e1526b8eed50",
+        "printedPage": 17,
+        "pdfPageOneBased": 49
+      }
+    }
+  ],
+  "interpretiveBoundaries": [
+    "A published text or scholarly transcription is evidence for that edition/transcription, not independent manuscript authenticity.",
+    "No fixed calendar epoch, acoustic value, musical phase, universal generation depth or historical orientation follows.",
+    "Gen5:32 and Gen11:26 list multiple sons; their collective age formula is not assigned as every son's exact birth year.",
+    "Greek apparatus variants are not collapsed into a single LXX chronology."
+  ],
+  "completeOriginalWitnessCollation": false
+}

@@ -1,0 +1,401 @@
+{
+  "scope": "Schema and selected metadata only; no message text or database export.",
+  "schema": {
+    "messages": {
+      "sql": "CREATE TABLE messages(id TEXT PRIMARY KEY,conversation_id TEXT REFERENCES conversations(id),native_id TEXT,parent_id TEXT,role TEXT,text TEXT,content_sha256 TEXT,source_id TEXT REFERENCES sources(id),locator TEXT,create_time TEXT,branch_status TEXT,raw_json TEXT)",
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "conversation_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "native_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "parent_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "role",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "text",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "content_sha256",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "locator",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 9,
+          "name": "create_time",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 10,
+          "name": "branch_status",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 11,
+          "name": "raw_json",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ]
+    },
+    "sources": {
+      "sql": "CREATE TABLE sources(id TEXT PRIMARY KEY,path TEXT NOT NULL,original_path TEXT,sha256 TEXT NOT NULL,bytes INTEGER NOT NULL,media_type TEXT,kind TEXT,status TEXT,detail TEXT)",
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "path",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "original_path",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "sha256",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "bytes",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "media_type",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "kind",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "status",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "detail",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ]
+    },
+    "conversations": {
+      "sql": "CREATE TABLE conversations(id TEXT PRIMARY KEY,native_id TEXT,title TEXT,source_id TEXT REFERENCES sources(id),locator TEXT,current_node TEXT,create_time TEXT,update_time TEXT,metadata_json TEXT)",
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "native_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "title",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "source_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "locator",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "current_node",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "create_time",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "update_time",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "metadata_json",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ]
+    }
+  },
+  "selection": [
+    {
+      "name": "master_score",
+      "message_id": "47d7a9f6cc9a98a17ff592a7c0062cfad491735ce1cc208c2d4583df5c41f03e",
+      "metadata": {
+        "id": "47d7a9f6cc9a98a17ff592a7c0062cfad491735ce1cc208c2d4583df5c41f03e",
+        "source_id": "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+        "conversation_id": "69b07388c7da72c1cc77e4b6bbd71803fe02940a4eff3ca56608215198273f5a",
+        "role": "user",
+        "content_sha256": "e1ee96a0782ad4a4cb556bbb419d430558d874f5f9cebc6f26daddb2869ce812",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\SUN_SOL_CORE\\ChatGPT-Comparative Research Protocol-20261023-0408.md",
+        "sha256": "2edd89761a571293c3a7ea62503d8488c33c61f16b01dd96a5b0c382d7fee82e"
+      },
+      "excluded_source": false
+    },
+    {
+      "name": "cainan_stage_witnesses",
+      "message_id": "e5ab0e305e8ceb3a77ec964ab8948ae7970ff38bd6fc217fc26c3a035f0af35a",
+      "metadata": {
+        "id": "e5ab0e305e8ceb3a77ec964ab8948ae7970ff38bd6fc217fc26c3a035f0af35a",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "assistant",
+        "content_sha256": "e1c5e35d651138b0403a57626a0d1a29eda1a2b875336ade45ec1e6338ec9026",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+      },
+      "excluded_source": false
+    },
+    {
+      "name": "cainan_macro_transport",
+      "message_id": "478d7777640329b833848daafd6825d3a03300b5f7e7943960d7fc02f8957aa8",
+      "metadata": {
+        "id": "478d7777640329b833848daafd6825d3a03300b5f7e7943960d7fc02f8957aa8",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "assistant",
+        "content_sha256": "37f496f5c3ea1b927418a6e2dfaf363822968685326e083e8162a94e64a2d1aa",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+      },
+      "excluded_source": false
+    },
+    {
+      "name": "generation_address_distinction",
+      "message_id": "7d17a770e67579e27609f9ad54813118fd0644e422d225ed0949ed18f805dab3",
+      "metadata": {
+        "id": "7d17a770e67579e27609f9ad54813118fd0644e422d225ed0949ed18f805dab3",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "assistant",
+        "content_sha256": "15c0339df136dcc5a7c8ca2076dea80e4c05fb7e33f8f568fa363ee4c743fcf0",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+      },
+      "excluded_source": false
+    },
+    {
+      "name": "age_year_time_limit",
+      "message_id": "047bd2839c8b7373e7a761f42de29fc9a1dfcc3540c9eb3bc7df95995a3f2f03",
+      "metadata": {
+        "id": "047bd2839c8b7373e7a761f42de29fc9a1dfcc3540c9eb3bc7df95995a3f2f03",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "assistant",
+        "content_sha256": "90a3791e789301bca3755396d1a7a462fda2735a8cd83574954d07c2437343cb",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+      },
+      "excluded_source": false
+    },
+    {
+      "name": "two_turn_class_hunch",
+      "message_id": "d39740a667f7d58443bcd8ba1784d40e8d8a83c9769c6725d57bb532c8fa1e50",
+      "metadata": {
+        "id": "d39740a667f7d58443bcd8ba1784d40e8d8a83c9769c6725d57bb532c8fa1e50",
+        "source_id": "7f47af4d5b033081e5f640b3f3dc46082c362c25b4722e1025325eaf76ddad62",
+        "conversation_id": "398fe0b816128e7263df3928484972f7baf6ef3c1259d788eae5a553b5d1349e",
+        "role": "user",
+        "content_sha256": "08d5fa5e2777c63a456f3bc28a8de5949b14ed20ab295181c25956cda1059c05",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\codex\\rollout-2026-10-24T05-42-14-01a16c77-8bbc-7713-836d-c4c930a173d9_01a16dee-e344-7cc3-81b0-08d7bdb65278-abf13baf72a4.jsonl",
+        "sha256": "abf13baf72a4dce2bc59ebf08e8996e683fca2b4f28ff80cbbaac4ed058a6e4a"
+      },
+      "excluded_source": true
+    },
+    {
+      "name": "sophia_boundary_aliases",
+      "message_id": "733cd9c16b68b2df504f05d4fefb8a7df84c22c83ac9a4963e79a8626cfd2041",
+      "metadata": {
+        "id": "733cd9c16b68b2df504f05d4fefb8a7df84c22c83ac9a4963e79a8626cfd2041",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "user",
+        "content_sha256": "476a60f3f44735fea1a31797d35eb50689792359d69e125fd9c291095e393329",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+      },
+      "excluded_source": false
+    },
+    {
+      "name": "insertion_fifth_spiral",
+      "message_id": "d281215afcf4aa5fc7ffaa0396dda5fa843359cd72d5ad1d523b392334ff114e",
+      "metadata": {
+        "id": "d281215afcf4aa5fc7ffaa0396dda5fa843359cd72d5ad1d523b392334ff114e",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "user",
+        "content_sha256": "15965c6a3767a050abc77da51aa40e5d5b52043537a9f6e1013e5b600985c9c1",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+      },
+      "excluded_source": false
+    }
+  ],
+  "needed_columns": {
+    "messages": [
+      "id",
+      "source_id",
+      "conversation_id",
+      "text",
+      "content_sha256",
+      "role",
+      "locator",
+      "create_time"
+    ],
+    "sources": [
+      "id",
+      "path",
+      "sha256",
+      "original_path"
+    ],
+    "conversations": [
+      "id",
+      "title"
+    ]
+  },
+  "limitations": [
+    "Generator also reads and hashes complete original source files; row-only export is insufficient.",
+    "verify_recovery.py audits all database rows and source files and writes its report; not executed.",
+    "Absolute source paths require explicit relocation mapping in cloud; originals must remain preserved."
+  ]
+}

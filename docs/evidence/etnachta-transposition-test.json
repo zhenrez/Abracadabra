@@ -1,0 +1,8 @@
+{
+  "input_sha256": "bc5d4fedf881f7f64cc23eebaa06cd97ff7ec4a71f1c3a47713a6c4a271e4a5d",
+  "observed_endpoint_ratio_of_rounded_estimates": "9412/8791",
+  "cents": 118.16884248035379,
+  "model": "Unrestricted uniform transposition, with correctly aligned frequency anchors. One pair of positive anchors always admits exactly one positive scale factor.",
+  "next_anchor_prediction": "For another independently aligned Torah anchor x Hz, predict Haftarah anchor k*x Hz under uniform transposition. Test cents residual 1200*log2((y/b)/(x/a)). Require independently checked octave assignment, landmark identity, performer variation and estimation uncertainty.",
+  "falsification_scope": "A supported nonzero residual excludes uniform transposition at the chosen landmarks. Zero residual at two landmarks leaves other parts of the melody unresolved. This is a conditional test design; the second aligned anchor is outstanding."
+}

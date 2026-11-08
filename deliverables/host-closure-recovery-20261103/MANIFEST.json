@@ -1,0 +1,901 @@
+{
+  "scope": "Host source recursive literal local imports and explicitly named code/config references; dynamic paths and source corpus recorded as boundaries, not exhaustive closure.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "original_bytes": 1626,
+      "original_sha256": "8d01e17a8d344cd1837ea23eeab0bca49e0843454af453f6f02ad4471cedeaa8",
+      "transfer_bytes": 1626,
+      "transfer_sha256": "8d01e17a8d344cd1837ea23eeab0bca49e0843454af453f6f02ad4471cedeaa8"
+    },
+    {
+      "path": "state/task.json",
+      "original_bytes": 23584,
+      "original_sha256": "6cea7411e5c5b59c411aa70de31518e0ef3746cf59211b4109e8afd35b19c165",
+      "transfer_bytes": 23584,
+      "transfer_sha256": "6cea7411e5c5b59c411aa70de31518e0ef3746cf59211b4109e8afd35b19c165"
+    },
+    {
+      "path": "docs/HUMMBL_PLAN.md",
+      "original_bytes": 18714,
+      "original_sha256": "588a8d7c107975d661d85e17192446ed4302c500ccaf88f6f9697cf7220110b0",
+      "transfer_bytes": 18714,
+      "transfer_sha256": "588a8d7c107975d661d85e17192446ed4302c500ccaf88f6f9697cf7220110b0"
+    },
+    {
+      "path": "src/server.ts",
+      "original_bytes": 29975,
+      "original_sha256": "0d9e20d86afebdc28901e6bccbe9c2ef7996f86d8acadeb4fb104e857ae6c590",
+      "transfer_bytes": 29975,
+      "transfer_sha256": "0d9e20d86afebdc28901e6bccbe9c2ef7996f86d8acadeb4fb104e857ae6c590"
+    },
+    {
+      "path": "scripts/quarterback.py",
+      "original_bytes": 8399,
+      "original_sha256": "75ff4584108d37a4433ebc884884d6be8b5c6f6128f7cc97b0bc85100128c1f4",
+      "transfer_bytes": 8399,
+      "transfer_sha256": "75ff4584108d37a4433ebc884884d6be8b5c6f6128f7cc97b0bc85100128c1f4"
+    },
+    {
+      "path": "scripts/verify_recovery.py",
+      "original_bytes": 1709,
+      "original_sha256": "39b173f491924c048fb1e4ca5925d475299c6fb6a02dc2184c75d496c47046cf",
+      "transfer_bytes": 1709,
+      "transfer_sha256": "39b173f491924c048fb1e4ca5925d475299c6fb6a02dc2184c75d496c47046cf"
+    },
+    {
+      "path": "scripts/jev_tool.py",
+      "original_bytes": 7871,
+      "original_sha256": "f92c309f994d4336aa2592ba7cdaf047bf4b1db59f443c8e886bb504f9b7c5dc",
+      "transfer_bytes": 7871,
+      "transfer_sha256": "f92c309f994d4336aa2592ba7cdaf047bf4b1db59f443c8e886bb504f9b7c5dc"
+    },
+    {
+      "path": "state/progress-audit.json",
+      "original_bytes": 6050,
+      "original_sha256": "37b76ab9d62286f6ac74e09967e8a4bd94fb9713751db7e97d6825187723517c",
+      "transfer_bytes": 6050,
+      "transfer_sha256": "37b76ab9d62286f6ac74e09967e8a4bd94fb9713751db7e97d6825187723517c"
+    },
+    {
+      "path": "docs/PLUGIN_CAPABILITIES.md",
+      "original_bytes": 34923,
+      "original_sha256": "fbfcb629736c08d576fb11df3c818ad337c379ec1f9a31b63c1d177044de743d",
+      "transfer_bytes": 34923,
+      "transfer_sha256": "fbfcb629736c08d576fb11df3c818ad337c379ec1f9a31b63c1d177044de743d"
+    },
+    {
+      "path": "docs/evidence/reactivation-local-jev-receipt.json",
+      "original_bytes": 866,
+      "original_sha256": "266cfd30356305dd14563c6f21246c9c03455f9ea8462ff235b2a4458d590b0a",
+      "transfer_bytes": 866,
+      "transfer_sha256": "266cfd30356305dd14563c6f21246c9c03455f9ea8462ff235b2a4458d590b0a"
+    },
+    {
+      "path": "scripts/render_hierarchy_atlas.mjs",
+      "original_bytes": 5834,
+      "original_sha256": "088e401323f9efae3ca98f319fe98b93923beb89d701f0f299ed76b446b73b6f",
+      "transfer_bytes": 5834,
+      "transfer_sha256": "088e401323f9efae3ca98f319fe98b93923beb89d701f0f299ed76b446b73b6f"
+    },
+    {
+      "path": "scripts/reconstruct_generational_constraints.py",
+      "original_bytes": 29047,
+      "original_sha256": "afe375d2a531d8708cffb1cfef059ae6633cb3b95d3a6083671df62a441534ff",
+      "transfer_bytes": 29047,
+      "transfer_sha256": "afe375d2a531d8708cffb1cfef059ae6633cb3b95d3a6083671df62a441534ff"
+    },
+    {
+      "path": "state/reconstruction/hierarchy-atlas-combined.json",
+      "original_bytes": 11879664,
+      "original_sha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7",
+      "transfer_bytes": 11879664,
+      "transfer_sha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7"
+    },
+    {
+      "path": "state/reconstruction/hierarchy-atlas.json",
+      "original_bytes": 10006172,
+      "original_sha256": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312",
+      "transfer_bytes": 10006172,
+      "transfer_sha256": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312"
+    },
+    {
+      "path": "docs/evidence/hierarchy-ui-design-superjev.json",
+      "original_bytes": 683,
+      "original_sha256": "6babd930fd6727292c4fa32796e5f582bf62fc992dea866ffbc85f2f029f40e5",
+      "transfer_bytes": 683,
+      "transfer_sha256": "6babd930fd6727292c4fa32796e5f582bf62fc992dea866ffbc85f2f029f40e5"
+    },
+    {
+      "path": "public/hierarchy-atlas.css",
+      "original_bytes": 5735,
+      "original_sha256": "4b2f8f8aa1186b68a2c28b296c51b6fe285896dea9e2caf6f5daa6bdb884bc0a",
+      "transfer_bytes": 5735,
+      "transfer_sha256": "4b2f8f8aa1186b68a2c28b296c51b6fe285896dea9e2caf6f5daa6bdb884bc0a"
+    },
+    {
+      "path": "public/hierarchy-atlas-client.js",
+      "original_bytes": 16240,
+      "original_sha256": "aa84260b0f71c58eda09c433597ea9c1ee0266c7aca1bf99d02fa4715224a012",
+      "transfer_bytes": 16240,
+      "transfer_sha256": "aa84260b0f71c58eda09c433597ea9c1ee0266c7aca1bf99d02fa4715224a012"
+    },
+    {
+      "path": "public/index.html",
+      "original_bytes": 17972,
+      "original_sha256": "f526cbd3d75990ec9c5c489d7680cb1161b717b221de41188dbc6280325fbe88",
+      "transfer_bytes": 17972,
+      "transfer_sha256": "f526cbd3d75990ec9c5c489d7680cb1161b717b221de41188dbc6280325fbe88"
+    },
+    {
+      "path": "public/app.js",
+      "original_bytes": 47473,
+      "original_sha256": "9f3419f998f739a0d153b3963442f94f86f4f9c7bbacff2e3e3309f41002ab55",
+      "transfer_bytes": 47473,
+      "transfer_sha256": "9f3419f998f739a0d153b3963442f94f86f4f9c7bbacff2e3e3309f41002ab55"
+    },
+    {
+      "path": "public/style.css",
+      "original_bytes": 23372,
+      "original_sha256": "0b9a6eb68072b9cca2daa1513e31ca6a76d23b8521e262f97cce73b83a37aaad",
+      "transfer_bytes": 23372,
+      "transfer_sha256": "0b9a6eb68072b9cca2daa1513e31ca6a76d23b8521e262f97cce73b83a37aaad"
+    },
+    {
+      "path": "package.json",
+      "original_bytes": 788,
+      "original_sha256": "6ba892d5af040ae0bc9c4cba79707a523bd456c210f2d0bedefe8df21ef90b0c",
+      "transfer_bytes": 788,
+      "transfer_sha256": "6ba892d5af040ae0bc9c4cba79707a523bd456c210f2d0bedefe8df21ef90b0c"
+    },
+    {
+      "path": "package-lock.json",
+      "original_bytes": 2686,
+      "original_sha256": "55aae857c782afa2701c650f7032ca57a1be5ce1e649aca1394c2396a0d6fc0d",
+      "transfer_bytes": 2686,
+      "transfer_sha256": "55aae857c782afa2701c650f7032ca57a1be5ce1e649aca1394c2396a0d6fc0d"
+    },
+    {
+      "path": "tsconfig.json",
+      "original_bytes": 351,
+      "original_sha256": "d3db030a87122c9c18a554f3a1cfa3b655e90b80b5223a34b62610f8db70fb1e",
+      "transfer_bytes": 351,
+      "transfer_sha256": "d3db030a87122c9c18a554f3a1cfa3b655e90b80b5223a34b62610f8db70fb1e"
+    },
+    {
+      "path": "state/work-queue.json",
+      "original_bytes": 26078,
+      "original_sha256": "291af3265a2becd90a4d560536af1c124cf279f80c15ba7184004e02c48b22a9",
+      "transfer_bytes": 26078,
+      "transfer_sha256": "291af3265a2becd90a4d560536af1c124cf279f80c15ba7184004e02c48b22a9"
+    },
+    {
+      "path": "state/superjev-checkpoint.json",
+      "original_bytes": 24416,
+      "original_sha256": "1d60bb5a0319ea86f3222937c01c6b8581352329c885c6b5e8f71647d8d1a718",
+      "transfer_bytes": 24416,
+      "transfer_sha256": "1d60bb5a0319ea86f3222937c01c6b8581352329c885c6b5e8f71647d8d1a718"
+    },
+    {
+      "path": "data/archive-manifest.json",
+      "original_bytes": 140105,
+      "original_sha256": "57799446b1712559dd38d2b4b476ec84254b2a735d4ad4b06d16439832d105ca",
+      "transfer_bytes": 140105,
+      "transfer_sha256": "57799446b1712559dd38d2b4b476ec84254b2a735d4ad4b06d16439832d105ca"
+    },
+    {
+      "path": "data/recovery-report.json",
+      "original_bytes": 5042,
+      "original_sha256": "7e469405093dbf8fc53cf0f7bfd7b82bfc318590fd3f2097442dccc646613c79",
+      "transfer_bytes": 5042,
+      "transfer_sha256": "7e469405093dbf8fc53cf0f7bfd7b82bfc318590fd3f2097442dccc646613c79"
+    },
+    {
+      "path": "state/native-comparison.json",
+      "original_bytes": 6575,
+      "original_sha256": "cf58b8a06ad35cde3c6beb0ddb96eaf4e762b4e6c9c9519df40b4b98fed89aea",
+      "transfer_bytes": 6575,
+      "transfer_sha256": "cf58b8a06ad35cde3c6beb0ddb96eaf4e762b4e6c9c9519df40b4b98fed89aea"
+    },
+    {
+      "path": "state/capabilities.json",
+      "original_bytes": 50549,
+      "original_sha256": "29ecbe3228e38dad58656ab400210f577acd891f1491ccafb2836182b17de919",
+      "transfer_bytes": 50549,
+      "transfer_sha256": "29ecbe3228e38dad58656ab400210f577acd891f1491ccafb2836182b17de919"
+    },
+    {
+      "path": "src/comparison.ts",
+      "original_bytes": 9131,
+      "original_sha256": "2b01411c8647debcfb61273f7d0e97b594038026fb93c4176d97b1cfa88672a4",
+      "transfer_bytes": 9131,
+      "transfer_sha256": "2b01411c8647debcfb61273f7d0e97b594038026fb93c4176d97b1cfa88672a4"
+    },
+    {
+      "path": "src/worker.ts",
+      "original_bytes": 5860,
+      "original_sha256": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+      "transfer_bytes": 5860,
+      "transfer_sha256": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6"
+    },
+    {
+      "path": "scripts/reconstruct_algebraic_extension.mjs",
+      "original_bytes": 10981,
+      "original_sha256": "270011bc81af42f039c70b5e587a170c41a28479d33b65921c9f4ad85b76de0c",
+      "transfer_bytes": 10981,
+      "transfer_sha256": "270011bc81af42f039c70b5e587a170c41a28479d33b65921c9f4ad85b76de0c"
+    },
+    {
+      "path": "scripts/reconstruct_native_execution.mjs",
+      "original_bytes": 11873,
+      "original_sha256": "ae4df1f1ef0fbcdd1f864eb62e9b6054df454ed53987035e4e1d853d113c2d8b",
+      "transfer_bytes": 11873,
+      "transfer_sha256": "ae4df1f1ef0fbcdd1f864eb62e9b6054df454ed53987035e4e1d853d113c2d8b"
+    },
+    {
+      "path": "scripts/reconstruct_native_derivations.py",
+      "original_bytes": 12043,
+      "original_sha256": "41f14388d97e78eb9d184c9ed39c022dc29f93f637fbd1122f33cad2d5866bd3",
+      "transfer_bytes": 12043,
+      "transfer_sha256": "41f14388d97e78eb9d184c9ed39c022dc29f93f637fbd1122f33cad2d5866bd3"
+    },
+    {
+      "path": "scripts/reconstruct_master_score.mjs",
+      "original_bytes": 14231,
+      "original_sha256": "e379e84ccd5d80f2493542f71e72ef1dc996594fb537075f069795e80a5c5848",
+      "transfer_bytes": 14231,
+      "transfer_sha256": "e379e84ccd5d80f2493542f71e72ef1dc996594fb537075f069795e80a5c5848"
+    },
+    {
+      "path": "scripts/reconstruct_orientation_predictions.mjs",
+      "original_bytes": 9318,
+      "original_sha256": "620cceec09c8eb6454c774f45e00114c72f79cf8b1f5a7b327266acbc6c3ea26",
+      "transfer_bytes": 9318,
+      "transfer_sha256": "620cceec09c8eb6454c774f45e00114c72f79cf8b1f5a7b327266acbc6c3ea26"
+    },
+    {
+      "path": "docs/evidence/hierarchy-ui-build.json",
+      "original_bytes": 9344,
+      "original_sha256": "3276129a19a970b63d832880e3ba513860b2cdb1335f3381e36d16518710c4ac",
+      "transfer_bytes": 9344,
+      "transfer_sha256": "3276129a19a970b63d832880e3ba513860b2cdb1335f3381e36d16518710c4ac"
+    },
+    {
+      "path": "src/hierarchy.ts",
+      "original_bytes": 13734,
+      "original_sha256": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+      "transfer_bytes": 13734,
+      "transfer_sha256": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd"
+    },
+    {
+      "path": "docs/evidence/generational-joint-wolfram-check.json",
+      "original_bytes": 555,
+      "original_sha256": "4bb19feedfd97a053659a86c2d28dda6589c8a5e0c65d7f140abfc8440b8837f",
+      "transfer_bytes": 555,
+      "transfer_sha256": "4bb19feedfd97a053659a86c2d28dda6589c8a5e0c65d7f140abfc8440b8837f"
+    },
+    {
+      "path": "docs/evidence/native-execution-expansion-superjev.json",
+      "original_bytes": 1008,
+      "original_sha256": "a4214017203dd25744652e130f1021cb3501b45709ba3f4a549f25f158534008",
+      "transfer_bytes": 1008,
+      "transfer_sha256": "a4214017203dd25744652e130f1021cb3501b45709ba3f4a549f25f158534008"
+    },
+    {
+      "path": "state/reconstruction/coverage.json",
+      "original_bytes": 5584166,
+      "original_sha256": "356621673765e4de32c4c4856f63e586686b3ce5463c4799a8b0c984b57b04f6",
+      "transfer_bytes": 5584166,
+      "transfer_sha256": "356621673765e4de32c4c4856f63e586686b3ce5463c4799a8b0c984b57b04f6"
+    },
+    {
+      "path": "docs/evidence/generational-hypotheses-superjev.json",
+      "original_bytes": 729,
+      "original_sha256": "a4ff3f758214021b554fce3f215dd23bc760c0d224a6b0df58948ac209300506",
+      "transfer_bytes": 729,
+      "transfer_sha256": "a4ff3f758214021b554fce3f215dd23bc760c0d224a6b0df58948ac209300506"
+    },
+    {
+      "path": "state/reconstruction/generational-constraints.json",
+      "original_bytes": 118364,
+      "original_sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "transfer_bytes": 118364,
+      "transfer_sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+    },
+    {
+      "path": "docs/evidence/generational-numerical-protocol.json",
+      "original_bytes": 1114,
+      "original_sha256": "9ec05e09aa068bdbe432c811eb128ca3c56fce51487ec8478490fd48417edc36",
+      "transfer_bytes": 1114,
+      "transfer_sha256": "9ec05e09aa068bdbe432c811eb128ca3c56fce51487ec8478490fd48417edc36"
+    },
+    {
+      "path": "docs/evidence/generational-wolfram-check.json",
+      "original_bytes": 589,
+      "original_sha256": "f986ad8a4f60cfb3477aad20e700adf31170d60b3393c0701ac382ef5f6efdd5",
+      "transfer_bytes": 589,
+      "transfer_sha256": "f986ad8a4f60cfb3477aad20e700adf31170d60b3393c0701ac382ef5f6efdd5"
+    },
+    {
+      "path": "docs/evidence/generational-numerical-vectors.json",
+      "original_bytes": 796,
+      "original_sha256": "14cb99152e5cf56c272ef935506d08f6b34ecb7fd45d310c224e82c9588851fd",
+      "transfer_bytes": 796,
+      "transfer_sha256": "14cb99152e5cf56c272ef935506d08f6b34ecb7fd45d310c224e82c9588851fd"
+    },
+    {
+      "path": "docs/evidence/generational-joint-lattice-superjev.json",
+      "original_bytes": 713,
+      "original_sha256": "0bc88749f60e147bd5ebeac488881462586c2ffd3e17eef3e9d27ea14e5d2b83",
+      "transfer_bytes": 713,
+      "transfer_sha256": "0bc88749f60e147bd5ebeac488881462586c2ffd3e17eef3e9d27ea14e5d2b83"
+    },
+    {
+      "path": "src/law.ts",
+      "original_bytes": 20669,
+      "original_sha256": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+      "transfer_bytes": 20669,
+      "transfer_sha256": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f"
+    },
+    {
+      "path": "scripts/stop-jev-worker.ps1",
+      "original_bytes": 3964,
+      "original_sha256": "4a2bd6595666636ea2e6a94a96ab4e4a7894c10d7c77ebd6737cc3b85fb31072",
+      "transfer_bytes": 3964,
+      "transfer_sha256": "4a2bd6595666636ea2e6a94a96ab4e4a7894c10d7c77ebd6737cc3b85fb31072"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "original_bytes": 729372,
+      "original_sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "transfer_bytes": 729372,
+      "transfer_sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-jev-request.json",
+      "original_bytes": 2605,
+      "original_sha256": "86f2682f2c9cced1fdea7b75e4545593dc225fc95cc0c11a8549918c1743d0db",
+      "transfer_bytes": 2605,
+      "transfer_sha256": "86f2682f2c9cced1fdea7b75e4545593dc225fc95cc0c11a8549918c1743d0db"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-wolfram-request.json",
+      "original_bytes": 474,
+      "original_sha256": "c4a8e79e7c00dc690c1652d47c641ed0ac20a12dffb24aef67e368117a51ec9d",
+      "transfer_bytes": 474,
+      "transfer_sha256": "c4a8e79e7c00dc690c1652d47c641ed0ac20a12dffb24aef67e368117a51ec9d"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-wolfram-result.json",
+      "original_bytes": 435,
+      "original_sha256": "e9c7a7fa5bfe0888a42366a40a63927f4a72791e7c91396f7e177574cf975754",
+      "transfer_bytes": 435,
+      "transfer_sha256": "e9c7a7fa5bfe0888a42366a40a63927f4a72791e7c91396f7e177574cf975754"
+    },
+    {
+      "path": "src/algebraic-scalar.ts",
+      "original_bytes": 6560,
+      "original_sha256": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4",
+      "transfer_bytes": 6560,
+      "transfer_sha256": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-jev-result.json",
+      "original_bytes": 1328,
+      "original_sha256": "0652484fd74ec68d4a6ba599a61afd41d5b281a8a6cdec31d0050887ca3f1b05",
+      "transfer_bytes": 1328,
+      "transfer_sha256": "0652484fd74ec68d4a6ba599a61afd41d5b281a8a6cdec31d0050887ca3f1b05"
+    },
+    {
+      "path": "state/reconstruction/algebraic-extension.json",
+      "original_bytes": 16503,
+      "original_sha256": "636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e",
+      "transfer_bytes": 16503,
+      "transfer_sha256": "636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e"
+    },
+    {
+      "path": "src/native-operators.ts",
+      "original_bytes": 18785,
+      "original_sha256": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+      "transfer_bytes": 18785,
+      "transfer_sha256": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b"
+    },
+    {
+      "path": "state/reconstruction/native-execution.json",
+      "original_bytes": 36639,
+      "original_sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+      "transfer_bytes": 36639,
+      "transfer_sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-result.json",
+      "original_bytes": 399,
+      "original_sha256": "78705e567de44e9893cd66f95ce604f910f94f6087a5b58d5d2ffd201ced77a4",
+      "transfer_bytes": 399,
+      "transfer_sha256": "78705e567de44e9893cd66f95ce604f910f94f6087a5b58d5d2ffd201ced77a4"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-result.json",
+      "original_bytes": 1605,
+      "original_sha256": "09add4ecfd3e42e29620bcd88c4a79263017c1b77804c1d1a3593e352c5478f9",
+      "transfer_bytes": 1605,
+      "transfer_sha256": "09add4ecfd3e42e29620bcd88c4a79263017c1b77804c1d1a3593e352c5478f9"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-request.json",
+      "original_bytes": 3124,
+      "original_sha256": "7ad8ef20117633bd0fef816bdd88e04dc3b5711144f253d7ef051bfcc18913e8",
+      "transfer_bytes": 3124,
+      "transfer_sha256": "7ad8ef20117633bd0fef816bdd88e04dc3b5711144f253d7ef051bfcc18913e8"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-request.json",
+      "original_bytes": 925,
+      "original_sha256": "58a0c408de8ce56574420a97fffca5c06b4c1a089f5285f296f40dd8227eb229",
+      "transfer_bytes": 925,
+      "transfer_sha256": "58a0c408de8ce56574420a97fffca5c06b4c1a089f5285f296f40dd8227eb229"
+    },
+    {
+      "path": "docs/evidence/native-derivations-source-bindings.json",
+      "original_bytes": 12770,
+      "original_sha256": "8b8dcf7274acae0f5225cbcc24b54fa92a1a56770b25802a3765c52a2588dfc7",
+      "transfer_bytes": 12770,
+      "transfer_sha256": "8b8dcf7274acae0f5225cbcc24b54fa92a1a56770b25802a3765c52a2588dfc7"
+    },
+    {
+      "path": "state/reconstruction/native-derivations.json",
+      "original_bytes": 39663,
+      "original_sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "transfer_bytes": 39663,
+      "transfer_sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b"
+    },
+    {
+      "path": "docs/evidence/native-derivations-wolfram-result.json",
+      "original_bytes": 526,
+      "original_sha256": "e90d0c287cac9322245b317bb47aced942ffd6c8c0a5e5a406bb624a70944ef3",
+      "transfer_bytes": 526,
+      "transfer_sha256": "e90d0c287cac9322245b317bb47aced942ffd6c8c0a5e5a406bb624a70944ef3"
+    },
+    {
+      "path": "docs/evidence/native-derivations-novelty.json",
+      "original_bytes": 27881,
+      "original_sha256": "4fc700e4b4354dbbd462da3f8d16709c6f23e95c9a787205422e839d63c3d72f",
+      "transfer_bytes": 27881,
+      "transfer_sha256": "4fc700e4b4354dbbd462da3f8d16709c6f23e95c9a787205422e839d63c3d72f"
+    },
+    {
+      "path": "docs/evidence/native-derivations-jev-result.json",
+      "original_bytes": 1657,
+      "original_sha256": "b30903095c0fa8b9ced1964aae252c2eccc7d1f2081d6d43785ab6bedfd8b727",
+      "transfer_bytes": 1657,
+      "transfer_sha256": "b30903095c0fa8b9ced1964aae252c2eccc7d1f2081d6d43785ab6bedfd8b727"
+    },
+    {
+      "path": "state/reconstruction/music-geometry.json",
+      "original_bytes": 6543917,
+      "original_sha256": "82729a117e01fdf62f5004a4e45a8151a81d1f6d9cef926f66527499ade0976e",
+      "transfer_bytes": 6543917,
+      "transfer_sha256": "82729a117e01fdf62f5004a4e45a8151a81d1f6d9cef926f66527499ade0976e"
+    },
+    {
+      "path": "docs/evidence/master-score-design-superjev.json",
+      "original_bytes": 713,
+      "original_sha256": "0678f6a0d54c84a74a9e9bd771259235fe69fd61cf15d0fe9694b48ba79ebff3",
+      "transfer_bytes": 713,
+      "transfer_sha256": "0678f6a0d54c84a74a9e9bd771259235fe69fd61cf15d0fe9694b48ba79ebff3"
+    },
+    {
+      "path": "docs/evidence/master-score-design-request.json",
+      "original_bytes": 2106,
+      "original_sha256": "6cb1856fa566430a5c6ac222c2db865a2a4aea5f3139e26a1ef2bb9a2639acab",
+      "transfer_bytes": 2106,
+      "transfer_sha256": "6cb1856fa566430a5c6ac222c2db865a2a4aea5f3139e26a1ef2bb9a2639acab"
+    },
+    {
+      "path": "state/reconstruction/master-score.json",
+      "original_bytes": 295012,
+      "original_sha256": "f6fcb3a8c3ab6bff94fcd2adacfce250e2b0bb7f90809eda4f92d00a66f34033",
+      "transfer_bytes": 295012,
+      "transfer_sha256": "f6fcb3a8c3ab6bff94fcd2adacfce250e2b0bb7f90809eda4f92d00a66f34033"
+    },
+    {
+      "path": "src/score.ts",
+      "original_bytes": 16018,
+      "original_sha256": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+      "transfer_bytes": 16018,
+      "transfer_sha256": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029"
+    },
+    {
+      "path": "docs/evidence/mandate-mathematics-superjev.json",
+      "original_bytes": 1313,
+      "original_sha256": "842ce8109c91a67be9e44fd54aec8326fbaedf9fe8553cb9c49809e259ff7a5c",
+      "transfer_bytes": 1313,
+      "transfer_sha256": "842ce8109c91a67be9e44fd54aec8326fbaedf9fe8553cb9c49809e259ff7a5c"
+    },
+    {
+      "path": "state/reconstruction/orientation-predictions.json",
+      "original_bytes": 219041,
+      "original_sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "transfer_bytes": 219041,
+      "transfer_sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc"
+    },
+    {
+      "path": "docs/evidence/orientation-wolfram-check.json",
+      "original_bytes": 1055,
+      "original_sha256": "fbdc43aaa15f6e0c1b776e8d969f5c4b6a464e36f6a0e78dfc9e573dcb4d217d",
+      "transfer_bytes": 1055,
+      "transfer_sha256": "fbdc43aaa15f6e0c1b776e8d969f5c4b6a464e36f6a0e78dfc9e573dcb4d217d"
+    },
+    {
+      "path": "state/mandate-mathematics-request.json",
+      "original_bytes": 2723,
+      "original_sha256": "3474c566c221f5f3e8e32aae672deef8420e3d6ad872e49606f73f4855972f5b",
+      "transfer_bytes": 2723,
+      "transfer_sha256": "3474c566c221f5f3e8e32aae672deef8420e3d6ad872e49606f73f4855972f5b"
+    },
+    {
+      "path": "docs/evidence/native-completions.json",
+      "original_bytes": 13720,
+      "original_sha256": "db136032571a2595ce3d092634d8f00b4c075c4031cb210b2fb085b294a9bee5",
+      "transfer_bytes": 13720,
+      "transfer_sha256": "db136032571a2595ce3d092634d8f00b4c075c4031cb210b2fb085b294a9bee5"
+    },
+    {
+      "path": "src/prediction.ts",
+      "original_bytes": 3308,
+      "original_sha256": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+      "transfer_bytes": 3308,
+      "transfer_sha256": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959"
+    },
+    {
+      "path": "RECOVERY/DB-SELECTION.json",
+      "original_bytes": 13798,
+      "original_sha256": "75250955872503b9788d032f6831feda7c6532c9d2502fe4ab30d43df8993155",
+      "transfer_bytes": 13798,
+      "transfer_sha256": "75250955872503b9788d032f6831feda7c6532c9d2502fe4ab30d43df8993155"
+    },
+    {
+      "path": "RECOVERY/HTML-INPUT-LEDGER.json",
+      "original_bytes": 14921,
+      "original_sha256": "3e1abd1b435326d94fab22f15162ca074d0aa064125d77eab899f02d5c93bec3",
+      "transfer_bytes": 14921,
+      "transfer_sha256": "3e1abd1b435326d94fab22f15162ca074d0aa064125d77eab899f02d5c93bec3"
+    }
+  ],
+  "missing": [],
+  "boundaries": [
+    ". (directory reference, not a missing file)",
+    "External installed SuperJev helper referenced by quarterback: not included; no external plugin code or runtime was launched."
+  ],
+  "edges": [
+    [
+      "src/server.ts",
+      "data/recovery-report.json"
+    ],
+    [
+      "src/server.ts",
+      "state/native-comparison.json"
+    ],
+    [
+      "src/server.ts",
+      "state/task.json"
+    ],
+    [
+      "src/server.ts",
+      "state/capabilities.json"
+    ],
+    [
+      "src/server.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\comparison.ts"
+    ],
+    [
+      "src/server.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\worker.ts"
+    ],
+    [
+      "scripts/quarterback.py",
+      "state/superjev-checkpoint.json"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/jev_tool.py"
+    ],
+    [
+      "scripts/quarterback.py",
+      "state/task.json"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/reconstruct_algebraic_extension.mjs"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/reconstruct_native_execution.mjs"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/reconstruct_native_derivations.py"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/verify_recovery.py"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/reconstruct_master_score.mjs"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/reconstruct_generational_constraints.py"
+    ],
+    [
+      "scripts/quarterback.py",
+      "scripts/reconstruct_orientation_predictions.mjs"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "docs/evidence/hierarchy-ui-design-superjev.json"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "docs/evidence/hierarchy-ui-build.json"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "state/reconstruction/hierarchy-atlas-combined.json"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "public/hierarchy-atlas-client.js"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "public/hierarchy-atlas.css"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "state/reconstruction/hierarchy-atlas.json"
+    ],
+    [
+      "scripts/render_hierarchy_atlas.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\hierarchy.ts"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/generational-joint-wolfram-check.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/native-execution-expansion-superjev.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "state/reconstruction/coverage.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/generational-hypotheses-superjev.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "state/reconstruction/generational-constraints.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/generational-numerical-protocol.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/generational-wolfram-check.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/generational-numerical-vectors.json"
+    ],
+    [
+      "scripts/reconstruct_generational_constraints.py",
+      "docs/evidence/generational-joint-lattice-superjev.json"
+    ],
+    [
+      "src/comparison.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\law.ts"
+    ],
+    [
+      "src/worker.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\scripts\\stop-jev-worker.ps1"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "docs/evidence/algebraic-extension-jev-request.json"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "docs/evidence/algebraic-extension-wolfram-request.json"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "docs/evidence/algebraic-extension-wolfram-result.json"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "src/algebraic-scalar.ts"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "scripts/reconstruct_algebraic_extension.mjs"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "docs/evidence/algebraic-extension-jev-result.json"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "state/reconstruction/algebraic-extension.json"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\algebraic-scalar.ts"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN"
+    ],
+    [
+      "scripts/reconstruct_algebraic_extension.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "src/native-operators.ts"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "state/reconstruction/native-execution.json"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "docs/evidence/native-execution-wolfram-result.json"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "scripts/reconstruct_native_execution.mjs"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "docs/evidence/native-execution-math-jev-result.json"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "docs/evidence/native-execution-math-jev-request.json"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "docs/evidence/native-execution-wolfram-request.json"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\native-operators.ts"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN"
+    ],
+    [
+      "scripts/reconstruct_native_execution.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN"
+    ],
+    [
+      "scripts/reconstruct_native_derivations.py",
+      "docs/evidence/native-derivations-source-bindings.json"
+    ],
+    [
+      "scripts/reconstruct_native_derivations.py",
+      "state/reconstruction/native-derivations.json"
+    ],
+    [
+      "scripts/reconstruct_native_derivations.py",
+      "docs/evidence/native-derivations-wolfram-result.json"
+    ],
+    [
+      "scripts/reconstruct_native_derivations.py",
+      "docs/evidence/native-derivations-novelty.json"
+    ],
+    [
+      "scripts/reconstruct_native_derivations.py",
+      "docs/evidence/native-derivations-jev-result.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "state/reconstruction/native-execution.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "state/reconstruction/music-geometry.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "docs/evidence/master-score-design-superjev.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "state/reconstruction/generational-constraints.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "docs/evidence/master-score-design-request.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "state/reconstruction/master-score.json"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\native-operators.ts"
+    ],
+    [
+      "scripts/reconstruct_master_score.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\score.ts"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "docs/evidence/mandate-mathematics-superjev.json"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "state/reconstruction/orientation-predictions.json"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "docs/evidence/orientation-wolfram-check.json"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "state/mandate-mathematics-request.json"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "state/native-comparison.json"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "docs/evidence/native-completions.json"
+    ],
+    [
+      "scripts/reconstruct_orientation_predictions.mjs",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\prediction.ts"
+    ],
+    [
+      "src/algebraic-scalar.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\native-operators.ts"
+    ],
+    [
+      "src/algebraic-scalar.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\law.ts"
+    ],
+    [
+      "src/native-operators.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\law.ts"
+    ],
+    [
+      "src/score.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\law.ts"
+    ],
+    [
+      "src/score.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\native-operators.ts"
+    ],
+    [
+      "src/prediction.ts",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\src\\law.ts"
+    ]
+  ],
+  "redactions": []
+}

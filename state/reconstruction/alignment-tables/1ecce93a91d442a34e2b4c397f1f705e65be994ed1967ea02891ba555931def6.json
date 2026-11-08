@@ -1,0 +1,59 @@
+{
+  "id": "alignment-table-1ecce93a91d442a3",
+  "content_sha256": "1ecce93a91d442a34e2b4c397f1f705e65be994ed1967ea02891ba555931def6",
+  "headers": [
+    "Count",
+    "Lawful derivation",
+    "What it counts"
+  ],
+  "rows": [
+    [
+      "**216**",
+      "$72 \\times 3$ (Shem) = $6^3$",
+      "Shem's 72 names × 3 letters = 216 letter positions"
+    ],
+    [
+      "**233**",
+      "$231 + 2 = F_{13}$",
+      "Sefer's weighted pairs (Aleph-mediated doubled)"
+    ],
+    [
+      "**288**",
+      "$24 \\times 12$ (1 Chr 25) = $4 \\times 72 = 2 \\times 144 = 2 \\times 12^2$",
+      "24 musical divisions × 12 musicians = 288; also 4 × Shem's 72"
+    ],
+    [
+      "**312**",
+      "$24 \\times 13$ = $288 + 24$",
+      "24 divisions × (12 + 1 leader) = 24 leaders + 288 musicians = 312"
+    ],
+    [
+      "**377**",
+      "$F_{14} = 233 + 144$",
+      "Next Fibonacci after the weighted Sefer count"
+    ],
+    [
+      "~~231~~",
+      "$\\binom{22}{2}$",
+      "Unweighted pairs — **wrong** because it ignores the Sefer's explicit mediation of Aleph"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 16137,
+      "line_end": 16144,
+      "char_start": 770592,
+      "char_end": 771296,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Count | Lawful derivation | What it counts |\n|---|---|---|\n| **216** | $72 \\times 3$ (Shem) = $6^3$ | Shem's 72 names × 3 letters = 216 letter positions |\n| **233** | $231 + 2 = F_{13}$ | Sefer's weighted pairs (Aleph-mediated doubled) |\n| **288** | $24 \\times 12$ (1 Chr 25) = $4 \\times 72 = 2 \\times 144 = 2 \\times 12^2$ | 24 musical divisions × 12 musicians = 288; also 4 × Shem's 72 |\n| **312** | $24 \\times 13$ = $288 + 24$ | 24 divisions × (12 + 1 leader) = 24 leaders + 288 musicians = 312 |\n| **377** | $F_{14} = 233 + 144$ | Next Fibonacci after the weighted Sefer count |\n| ~~231~~ | $\\binom{22}{2}$ | Unweighted pairs — **wrong** because it ignores the Sefer's explicit mediation of Aleph |\n",
+      "quote_sha256": "34dc35ee5be6c07976be1c39c102bd2ebf01e1737f2a669e3cd24f1a8b26c860",
+      "message_id": "1894fcf6ee2f7f53a048486b7ff45e700e54de204689aec4bb1668d061545ca8",
+      "role": "user",
+      "locator": "lines:16137-16144"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

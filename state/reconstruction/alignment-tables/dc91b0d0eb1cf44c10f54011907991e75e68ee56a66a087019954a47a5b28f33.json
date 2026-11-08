@@ -1,0 +1,59 @@
+{
+  "id": "alignment-table-dc91b0d0eb1cf44c",
+  "content_sha256": "dc91b0d0eb1cf44c10f54011907991e75e68ee56a66a087019954a47a5b28f33",
+  "headers": [
+    "Order",
+    "Intermediates",
+    "Endpoint"
+  ],
+  "rows": [
+    [
+      "A→M→S",
+      "$2/3,\\ 8/9$",
+      "$2/3$"
+    ],
+    [
+      "A→S→M",
+      "$2/3,\\ 1/2$",
+      "$2/3$"
+    ],
+    [
+      "M→A→S",
+      "$4/3,\\ 8/9$",
+      "$2/3$"
+    ],
+    [
+      "M→S→A",
+      "$4/3,\\ 1$",
+      "$2/3$"
+    ],
+    [
+      "S→A→M",
+      "$3/4,\\ 1/2$",
+      "$2/3$"
+    ],
+    [
+      "S→M→A",
+      "$3/4,\\ 1$",
+      "$2/3$"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 26912,
+      "line_end": 26919,
+      "char_start": 1350477,
+      "char_end": 1350716,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Order | Intermediates | Endpoint |\n|---|---|---|\n| A→M→S | $2/3,\\ 8/9$ | $2/3$ |\n| A→S→M | $2/3,\\ 1/2$ | $2/3$ |\n| M→A→S | $4/3,\\ 8/9$ | $2/3$ |\n| M→S→A | $4/3,\\ 1$ | $2/3$ |\n| S→A→M | $3/4,\\ 1/2$ | $2/3$ |\n| S→M→A | $3/4,\\ 1$ | $2/3$ |\n",
+      "quote_sha256": "d257c28ca01758d0300e46ed68792a933d7d971f0352953484ae1bc6cac8cb8e",
+      "message_id": "9790c8720d922af3d76a267d1b3da3d7ada74b39cde22efb3eb2194d75e2c362",
+      "role": "user",
+      "locator": "lines:26912-26919"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "W72 certification against frozen SUN_GG_v1",
+  "date": "2026-09-30",
+  "frozen_bindings": {
+    "graph_sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "alphabet_sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738"
+  },
+  "tests": [
+    {
+      "id": "W72-01",
+      "test": "reciprocal acoustic pair",
+      "result": "PASS_EXACT",
+      "receipt": "(3/2,4/3)=(2/3,3/4)^-1 componentwise; products 2 and 1/2"
+    },
+    {
+      "id": "W72-02",
+      "test": "72 product-state architecture",
+      "result": "PASS_EXACT_ON_ADDRESS_PROJECTION",
+      "receipt": "Z12 x Z6 \u2245 Z12 x Z3 x Z2 via phi -> (phi mod3,phi mod2)"
+    },
+    {
+      "id": "W72-03",
+      "test": "commuting ternary/binary actions",
+      "result": "PASS_EXACT",
+      "receipt": "T(phi)=phi+4 mod6 has order3; B(phi)=phi+3 mod6 has order2; TB=BT"
+    },
+    {
+      "id": "W72-04",
+      "test": "36 binary fibers",
+      "result": "PASS_EXACT",
+      "receipt": "B partitions 72 frozen addresses into 36 disjoint 2-element fibers"
+    },
+    {
+      "id": "W72-05",
+      "test": "70+2 decomposition existence",
+      "result": "PASS_EXACT_EXISTENCE",
+      "receipt": "removing any one complete B-fiber leaves 35 fibers=70 addresses"
+    },
+    {
+      "id": "W72-06",
+      "test": "specific native exceptional fiber / exact 70-of-72 selection",
+      "result": "NOT_EVALUABLE",
+      "receipt": "frozen SUN graph does not independently distinguish which of the 36 fibers is the exceptional pair"
+    },
+    {
+      "id": "W72-07",
+      "test": "historical 70/72 proof recovery",
+      "result": "NOT_RETRIEVED",
+      "receipt": "W72 remains downstream validation/re-expression, not the original proof"
+    }
+  ],
+  "overall": "PASS_STRUCTURAL_ARCHITECTURE; SPECIFIC_70_SELECTION_NOT_EVALUABLE"
+}

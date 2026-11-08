@@ -1,0 +1,36 @@
+{
+  "schema": "sunny.chinese-register-transfer-control.v1",
+  "generated_utc": "2026-11-03T03:02:03.503274+00:00",
+  "source": "Lam2024 paragraph2.5; exact source-qualified register correction reported for Hua-family shawm practice",
+  "provenance": "RESEARCH_SUPPORTED_INFERENCE",
+  "exposure": "Exposed synthetic two-event control; not transcribed performance or ancient measurement",
+  "premises": [
+    "Use Lam chromatic transposition T10 in pitch-class carrier.",
+    "Choose down-two-semitone representative T-2 before source-reported local octave correction.",
+    "Model shawm lower E as zero relative semitones; controlled input E_low,F-sharp has coordinates[0,2].",
+    "Raise transformed lowD by one octave, as reported in the specific source example."
+  ],
+  "input_relative_semitones": [
+    0,
+    2
+  ],
+  "unfolded_T_minus2": [
+    -2,
+    0
+  ],
+  "source_scoped_playable_lift": [
+    10,
+    0
+  ],
+  "pitch_classes_agree": true,
+  "input_directed_interval_semitones": 2,
+  "realized_directed_interval_semitones": -10,
+  "equation": "C_range(T_-2(p)) = p-2+12*k(p), with k=1 for the source-reported lowD and0 otherwise in this control. Projection modulo12 recovers T10; directed registral intervals can change.",
+  "reusable_constraint": "A pitch-class transposition must be lifted with instrument range and octave decisions before it predicts melodic contour, waveform timing or a performed sound.",
+  "not_claimed": [
+    "No global Chinese tuning or historical Hz calibration.",
+    "No source melody transcription or recording generated.",
+    "No claim that all register corrections or all instruments follow this local lift.",
+    "No statement that pentatonic positions alone determine phonemes or intentions."
+  ]
+}

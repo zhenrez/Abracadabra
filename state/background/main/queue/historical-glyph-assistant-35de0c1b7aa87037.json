@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-glyph-assistant-35de0c1b7aa87037",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/35de0c1b7aa87037a227f6da25c1bdb0591c4896a5f6936fa23520aa7157a961/text.txt",
+      "sha256": "35de0c1b7aa87037a227f6da25c1bdb0591c4896a5f6936fa23520aa7157a961",
+      "start_line": 1,
+      "end_line": 16,
+      "source_role": "assistant",
+      "source_id": "48980a19eb1b3fe9ee9380b3534cceb19da2198d3e2349d1db1f7761eab0790d",
+      "message_id": "769ba2217976439398e1951c5864df7bd89eed34147b94816c1e8682c5226127",
+      "timestamp": "1731956624.651671",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "769ba2217976439398e1951c5864df7bd89eed34147b94816c1e8682c5226127",
+        "native_id": "852b5775-dac4-470f-9014-7c97635528b0",
+        "conversation_id": "946bce72e33b2d6d5e14f9e48fbea552da48d70277721e6f13d29f9444084fff",
+        "role": "assistant",
+        "content_sha256": "35de0c1b7aa87037a227f6da25c1bdb0591c4896a5f6936fa23520aa7157a961",
+        "source_id": "48980a19eb1b3fe9ee9380b3534cceb19da2198d3e2349d1db1f7761eab0790d",
+        "locator": "/71/mapping/852b5775-dac4-470f-9014-7c97635528b0/message",
+        "create_time": "1731956624.651671",
+        "branch_status": "current",
+        "title": "4-Score Fitness App Writeup",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-002.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-002.json",
+        "source_sha256": "dce482bf36b1b9081a5ad914a7eee5b824d4faabb25a812303cb2cd585efc87f",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "dce482bf36b1b9081a5ad914a7eee5b824d4faabb25a812303cb2cd585efc87f",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/35de0c1b7aa87037a227f6da25c1bdb0591c4896a5f6936fa23520aa7157a961/occurrences-14d282d13d96a3f22d688615e9e0c2296f56fa2bd72132f91c8b62f24105e7bc.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

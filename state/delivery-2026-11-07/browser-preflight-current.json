@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-11-08T02:10:07.009845+00:00",
+  "syntax_checks": [
+    {
+      "path": "web\\delivery-2026-11-07\\app.js",
+      "exit_code": 0,
+      "sha256": "2c254fea68e76b1e550c3e8eaa9c98d89c4867dbde8f41d0b811306a02fb199a",
+      "error": ""
+    },
+    {
+      "path": "web\\delivery-2026-11-07\\data.js",
+      "exit_code": 0,
+      "sha256": "5786fcc1255cc7172199dcb0a5e78d4addb04818a0b137c497df2fdee8d84c5d",
+      "error": ""
+    },
+    {
+      "path": "web\\delivery-2026-11-07\\phonological-history.js",
+      "exit_code": 0,
+      "sha256": "749923299ea3e3512669e87e1dcb05f624e063a60d0e4f534b0ecdffddc879a6",
+      "error": ""
+    },
+    {
+      "path": "web\\delivery-2026-11-07\\reading-operations.js",
+      "exit_code": 0,
+      "sha256": "3c15c8c9c1f21c6bd812c4c0f077155d04b05e3efc79bd26ecfbe83c5ba92e46",
+      "error": ""
+    },
+    {
+      "path": "web\\delivery-2026-11-07\\score-anchors.js",
+      "exit_code": 0,
+      "sha256": "3dc63131488a4bef4ab6dc79695ae6c6e4737854d30c0cf9e472300658705a1f",
+      "error": ""
+    },
+    {
+      "path": "web\\delivery-2026-11-07\\symbol-context.js",
+      "exit_code": 0,
+      "sha256": "b093328c9de9be6f81c004f62492b34a2d61a4541b11f9201bf2de2db2b79163",
+      "error": ""
+    },
+    {
+      "path": "tests\\delivery-browser.mjs",
+      "exit_code": 0,
+      "sha256": "849e2d1dbdea95a5af3eb4b3ff254220ad5ac8aad5216136b397955cc33ab003",
+      "error": ""
+    }
+  ],
+  "python_ast": "passed",
+  "canonicalModules": 16,
+  "webModules": 15,
+  "webGraph": {
+    "entities": 9512,
+    "relationships": 10251,
+    "views": 23
+  },
+  "webReadingOperationsPresent": true,
+  "canonicalHistoricalOperatorSelected": false,
+  "browserReplayStarted": false,
+  "dependency": "Coordinator confirmation of rebuilt delivery data required before fresh browser replay",
+  "actualPluginUse": {
+    "Supermemory": "search_memory succeeded; old9493/11view memory treated as stale and checked against current files",
+    "specialist": "Installed agent-skills browser-testing-with-devtools0.6.10 workflow applied; existing isolated EdgeCDP harness is native equivalent, no DevToolsMCP execution claimed"
+  }
+}

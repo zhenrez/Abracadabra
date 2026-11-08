@@ -1,0 +1,26 @@
+{
+  "question_freeze_sha256": "8e78e45f127f47d1c39c9576a5664b5894e91b38e0469b18a64af96ccad5073e",
+  "scope": "Synthetic identifiability control for first scholarly question; no historical assignment or acoustic reconstruction.",
+  "inputs": "Four distinct graphic slots with fixed identity and order, four distinguishable abstract sound labels, arbitrary bijective assignment. Every candidate preserves the same graphic record. No sound evidence initially.",
+  "derivation": "After k independent fixed graphic-sound pairs there are (4-k)! bijections on the remaining labels. Exhaustive permutation counts below. With zero pairs every target slot admits every sound label. When actual systems allow null, multiple or context-dependent readings, this bijective control cannot be assumed as their ontology.",
+  "counts": [
+    {
+      "independent_fixed_pairs": 0,
+      "surviving_bijections": 24
+    },
+    {
+      "independent_fixed_pairs": 1,
+      "surviving_bijections": 6
+    },
+    {
+      "independent_fixed_pairs": 2,
+      "surviving_bijections": 2
+    },
+    {
+      "independent_fixed_pairs": 3,
+      "surviving_bijections": 1
+    }
+  ],
+  "consequence": "An alignment based only on shared graphic identity or position cannot discriminate competing sound assignments under these assumptions. Seek independently dated witnesses of pronunciation or contrast. A unique assignment of categorical labels still leaves acoustic realization unspecified.",
+  "exposure": "No withheld historical targets inspected by this control."
+}

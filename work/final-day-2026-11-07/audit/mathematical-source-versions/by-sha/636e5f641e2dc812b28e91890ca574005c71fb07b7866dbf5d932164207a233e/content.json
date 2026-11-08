@@ -1,0 +1,552 @@
+{
+  "schema": "sunny.algebraic-extension.v1",
+  "generatedAt": "2026-10-31T22:05:45.918Z",
+  "source": {
+    "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+    "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "pointer": "/generative_registry/0",
+    "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+    "literalDefinition": {
+      "id": "MEC-01",
+      "name": "SCALAR_MULTIPLICATIVE_ACTION",
+      "canonical": "S_c(x)=c x, c>0",
+      "members": [
+        {
+          "system": "SUN scalar kernel",
+          "objects": [
+            "R=2/3",
+            "L=3/4",
+            "O=RL=1/2"
+          ],
+          "relation": "NATIVE"
+        },
+        {
+          "system": "sanfen sunyi",
+          "objects": [
+            "D=2/3",
+            "U=4/3"
+          ],
+          "relation": "EXACT_GENERATOR_FAMILY_EQUIVALENCE to SUN on positive scalar carrier"
+        },
+        {
+          "system": "Zhu equal division",
+          "objects": [
+            "q=2^(1/12)"
+          ],
+          "relation": "ROOT_EXTENSION / SAME OPERATION FORM, NOT SAME SUBGROUP"
+        },
+        {
+          "system": "Messiaen augmentation/diminution",
+          "objects": [
+            "duration scaling c and c^-1"
+          ],
+          "relation": "SAME OPERATION FORM, DIFFERENT CARRIER/SEMANTICS"
+        }
+      ],
+      "proved_relations": [
+        "<R,L> = {2^a 3^b} ≅ Z^2",
+        "sanfen D=R and U=L^-1",
+        "q not in <R,L> but q^12=2",
+        "O=RL is constructible"
+      ],
+      "status": "FROZEN_EQUIVALENCE_CLASS"
+    }
+  },
+  "scope": {
+    "carrier": "positive finite prime monomials with rational exponents",
+    "primeMax": 1000000,
+    "termMax": 64,
+    "exponentIntegerStringMaxDigits": 128,
+    "rationalFactorizationInputMax": "1000000000000",
+    "rationalMaterializationBitBudget": 32768,
+    "octaveSection": "prime2exponent in[0,1); an algebraic representative, not frequency normalized into[1,2)",
+    "exclusions": [
+      "sums of radicals",
+      "arbitrary algebraic numbers",
+      "complex roots",
+      "ordering/approximate frequency evaluation",
+      "canonical historical orientation"
+    ]
+  },
+  "canonicalPromotion": false,
+  "jev": {
+    "request": "docs/evidence/algebraic-extension-jev-request.json",
+    "result": "docs/evidence/algebraic-extension-jev-result.json",
+    "resolvedModel": "jev-1.14.0",
+    "interpretation": "Actual Jev chose exact prime exponents1.0; quotient hypothesis true0.67, exact fifth equality false0.88, retain comma0.96. These are conditional model outputs, not proofs."
+  },
+  "proofs": [
+    {
+      "id": "ALG-FAITHFUL",
+      "status": "conditional exact proof",
+      "statement": "Positive prime-monomial normal form is faithful.",
+      "assumptions": "Finite products of positive prime bases with rational exponents; no sums and no complex branch choices.",
+      "argument": "If two products are equal, divide and raise to a common positive multiple N of every exponent denominator. Moving negative powers to the other side gives equality of positive integers with prime factorizations. Unique prime factorization forces every N*(alpha_p-beta_p)=0, hence alpha_p=beta_p. Conversely identical exponents give identical positive products.",
+      "source_refs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8"
+      ],
+      "source_pointer": "/generative_registry/0"
+    },
+    {
+      "id": "ALG-G",
+      "status": "derived from native generators",
+      "statement": "G=<R,L>={2^a3^b:a,b in Z}.",
+      "argument": "R,L have (nu2,nu3) columns(1,-1),(-2,1), determinant-1. Thus they span the complete integer lattice. Explicitly2=R^-1 L^-1 and3=R^-2 L^-1.",
+      "source_refs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8"
+      ],
+      "source_pointer": "/generative_registry/0/proved_relations/0"
+    },
+    {
+      "id": "ALG-H",
+      "status": "derived from native root extension",
+      "statement": "H=<G,q>={2^(a/12)3^b:a,b in Z}, H/G is C12.",
+      "argument": "Adding q adds(1/12,0) to the G lattice. Modulo G only a mod12 survives. Distinct residues0..11 cannot collapse because faithfulness would require their prime2exponent difference to be an integer.",
+      "source_refs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8"
+      ],
+      "source_pointer": "/generative_registry/0/proved_relations/2"
+    },
+    {
+      "id": "ALG-OCTAVE",
+      "status": "derived quotient distinction",
+      "statement": "H/<2> is C12 x Z and is infinite.",
+      "argument": "The homomorphism2^(a/12)3^b -> (a mod12,b) is surjective, with kernel{2^m:m in Z}. The second coordinate remains an arbitrary integer. This quotient differs from H/G, which also discards all integer prime3powers.",
+      "source_refs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8"
+      ],
+      "source_pointer": "/generative_registry/0"
+    },
+    {
+      "id": "ALG-FIFTH",
+      "status": "new connected consequence of retained native operators",
+      "statement": "delta=q^7/(3/2)=2^(19/12)/3 is nonidentity and delta^12=524288/531441=(531441/524288)^-1.",
+      "argument": "Subtract the pure-fifth exponent vector(-1,1) from q^7=(7/12,0). The result(19/12,-1) is nonzero. Multiplication by12 gives(19,-12); exact rational materialization gives2^19/3^12. The ordinary twelve-fifths/seven-octaves residual has vector(-19,12).",
+      "source_refs": [
+        "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8"
+      ],
+      "source_pointer": "/generative_registry/0",
+      "novelty": "source-conditional connected derivation; exposed definitions, not an independent blind prediction"
+    }
+  ],
+  "computations": {
+    "R": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        },
+        {
+          "prime": "3",
+          "exponent": {
+            "numerator": "-1",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    "L": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "-2",
+            "denominator": "1"
+          }
+        },
+        {
+          "prime": "3",
+          "exponent": {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    "q": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "1",
+            "denominator": "12"
+          }
+        }
+      ]
+    },
+    "qTwelfth": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    "qTwelfthEqualsTwo": true,
+    "qInG": false,
+    "qInH": true,
+    "sourceGeneratorsMakeTwo": true,
+    "sourceGeneratorsMakeThree": true,
+    "twelveDistinctCosets": [
+      {
+        "status": "represented",
+        "rootStepMod12": 0,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 0
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 0,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 1,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 1
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 1,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 2,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 2
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 2,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 3,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 3
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 3,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 4,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 4
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 4,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 5,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 5
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 5,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 6,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 6
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 6,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 7,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 7
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 7,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 8,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 8
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 8,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 9,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 9
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 9,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 10,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 10
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 10,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      {
+        "status": "represented",
+        "rootStepMod12": 11,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 11
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 11,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      }
+    ],
+    "pureFifth": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "-1",
+            "denominator": "1"
+          }
+        },
+        {
+          "prime": "3",
+          "exponent": {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    "qSeventh": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "7",
+            "denominator": "12"
+          }
+        }
+      ]
+    },
+    "exactFifthEquality": false,
+    "delta": {
+      "powers": [
+        {
+          "prime": "2",
+          "exponent": {
+            "numerator": "19",
+            "denominator": "12"
+          }
+        },
+        {
+          "prime": "3",
+          "exponent": {
+            "numerator": "-1",
+            "denominator": "1"
+          }
+        }
+      ]
+    },
+    "deltaTwelfth": {
+      "status": "rational",
+      "value": {
+        "numerator": "524288",
+        "denominator": "531441"
+      }
+    },
+    "twelveFifthsComma": {
+      "status": "rational",
+      "value": {
+        "numerator": "531441",
+        "denominator": "524288"
+      }
+    },
+    "commaCancellation": true,
+    "negativeFractionalOctave": {
+      "representative": {
+        "powers": [
+          {
+            "prime": "2",
+            "exponent": {
+              "numerator": "11",
+              "denominator": "12"
+            }
+          }
+        ]
+      },
+      "removedOctaves": "-1"
+    },
+    "exactPitchAddresses": {
+      "pureFifth": {
+        "status": "represented",
+        "rootStepMod12": 0,
+        "prime3Exponent": "1",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 0
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 0,
+          "prime3Exponent": "1",
+          "infiniteCoordinateRetained": true
+        }
+      },
+      "qSeventh": {
+        "status": "represented",
+        "rootStepMod12": 7,
+        "prime3Exponent": "0",
+        "quotientByG": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 7
+        },
+        "quotientByIntegerOctaves": {
+          "cyclicOrder": 12,
+          "rootStepMod12": 7,
+          "prime3Exponent": "0",
+          "infiniteCoordinateRetained": true
+        }
+      }
+    },
+    "priorBridgePreserved": {
+      "status": "rational",
+      "value": {
+        "numerator": "256",
+        "denominator": "243"
+      }
+    }
+  },
+  "discriminators": [
+    {
+      "incorrectRule": "Discard every prime2exponent when taking the octave quotient.",
+      "counterexample": "q=2^(1/12) would collapse to identity; correct integer-octave quotient retains residue1/12.",
+      "result": false
+    },
+    {
+      "conditionalCoarseDial": "If an independently declared twelve-dial convention labels both pure3/2 and q^7 with7, that shared label is a many-to-one representation and cannot establish their exact equality.",
+      "scope": "No universal dial map or W72 orientation is asserted. Exact exponent coordinates and delta above decide equality."
+    }
+  ],
+  "verification": {
+    "focusedTests": 7,
+    "exitCode": 0,
+    "signal": null,
+    "testOutput": "docs/evidence/algebraic-extension/focused-tests.tap",
+    "wolframResult": "docs/evidence/algebraic-extension-wolfram-result.json",
+    "finiteCosetsEnumerated": 12,
+    "retainedInteger3CoordinatesTested": [
+      -40,
+      40
+    ]
+  },
+  "inputs": [
+    {
+      "path": "src/algebraic-scalar.ts",
+      "sha256": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4"
+    },
+    {
+      "path": "tests/algebraic-scalar.test.mjs",
+      "sha256": "7d01804d6ed8d317f692ca0d7494d92b298a66d5f959cf610f430f3770abc7dd"
+    },
+    {
+      "path": "scripts/reconstruct_algebraic_extension.mjs",
+      "sha256": "270011bc81af42f039c70b5e587a170c41a28479d33b65921c9f4ad85b76de0c"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-jev-request.json",
+      "sha256": "86f2682f2c9cced1fdea7b75e4545593dc225fc95cc0c11a8549918c1743d0db"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-jev-result.json",
+      "sha256": "0652484fd74ec68d4a6ba599a61afd41d5b281a8a6cdec31d0050887ca3f1b05"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-wolfram-request.json",
+      "sha256": "c4a8e79e7c00dc690c1652d47c641ed0ac20a12dffb24aef67e368117a51ec9d"
+    },
+    {
+      "path": "docs/evidence/algebraic-extension-wolfram-result.json",
+      "sha256": "e9c7a7fa5bfe0888a42366a40a63927f4a72791e7c91396f7e177574cf975754"
+    }
+  ]
+}

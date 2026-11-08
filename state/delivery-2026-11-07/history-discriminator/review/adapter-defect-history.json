@@ -1,0 +1,20 @@
+{
+  "schema": "sunny.contact-adapter-defect-history.v1",
+  "observation": "Actual independent Node invocation before the root repair",
+  "input": {
+    "N": "10^100",
+    "donor": "unbounded",
+    "contact": "closed [1/(N+1),1/N]",
+    "recipient": "unbounded",
+    "strictDonor": true,
+    "maximumInputDenominatorDigits": 101
+  },
+  "observedError": "TypeError: exact bounded integer strings required",
+  "commandExit": 1,
+  "cause": "The external 128-digit size restriction was also applied to internally derived exact rationals.",
+  "rootRepair": "Separate external input size checks from internal exact arithmetic.",
+  "independentRegression": "Both strict/weak variants pass among the490SymPyLRAcomparisoncases in adapter-review.json",
+  "priorSourceHash": null,
+  "priorSourceHashBoundary": "The pre-repair reproduction did not capture a hash; no hash is retrospectively fabricated.",
+  "remainingScope": "Conditional interval feasibility only; no historical inference certified."
+}

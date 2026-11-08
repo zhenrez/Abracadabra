@@ -1,0 +1,266 @@
+{
+  "schema": "sunny.tol-history-mathematical-reconstruction.v1",
+  "created_utc": "2026-10-31T21:40:13.961720+00:00",
+  "selection_receipt": "docs/evidence/mandate-tol-unit-superjev.json",
+  "solver_receipt": "docs/evidence/mandate-tol-wolfram.json",
+  "unit_status": "bounded_conditional_derivation_executed; not a complete TOL type system or global orientation",
+  "source_spans": [
+    {
+      "id": "primitive_scalar_operations",
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "source_sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "source_role": "historical_recovered_research_archive",
+      "extracted_document_lines": [
+        198,
+        252
+      ],
+      "document_char_start": 5839,
+      "document_char_end": 6563,
+      "exact_quote": "## 5. Primitive transformations\n\nFor a carrier/reference state \\(C\\), the recovered operators were:\n\n\\[\n\\boxed{\nR(C)=\\frac23C\n}\n\\]\n\n\\[\n\\boxed{\nL(C)=\\frac34C\n}\n\\]\n\n\\[\n\\boxed{\nO(C)=\\frac12C\n}\n\\]\n\nwith the exact closure identity:\n\n\\[\n\\boxed{\nR\\circ L=L\\circ R=O\n}\n\\]\n\nbecause:\n\n\\[\n\\frac23\\cdot\\frac34=\\frac12.\n\\]\n\nThe recursion policy was written:\n\n\\[\n\\boxed{\nC_n\n\\xrightarrow{R,L}\n\\{R(C_n),L(C_n)\\}\n\\xrightarrow{\\text{closure}}\nC_{n+1}\n}\n\\]\n\nand in simplified form:\n\n\\[\nC_{n+1}=O(C_n).\n\\]\n\nAn important later correction was retained: this is a **compositional/transformation identity**, not automatically an acoustic claim that simultaneously sounding the branches physically produces the lower octave as a spectral component.",
+      "quote_sha256": "ed36007064aacf34b0808c608859bda271011b50567a2ae865abeea81a0b84e6",
+      "locator_boundary": "Lines and offsets address the stored extracted document; source file bytes are separately hash-verified."
+    },
+    {
+      "id": "history_and_observable_projection",
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "source_sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "source_role": "historical_recovered_research_archive",
+      "extracted_document_lines": [
+        258,
+        323
+      ],
+      "document_char_start": 6604,
+      "document_char_end": 7731,
+      "exact_quote": "## 6. Internal history versus observable value\n\nOne of the strongest pieces of the TOL formalization was the explicit refusal to collapse different causal histories merely because their outputs coincide.\n\nLet the history-bearing state space be:\n\n\\[\n\\widetilde{\\mathcal C}=(\\mathcal C,h).\n\\]\n\nThen it is permitted that:\n\n\\[\n\\boxed{\n\\widetilde L\\widetilde R(x)\n\\neq\n\\widetilde R\\widetilde L(x)\n}\n\\]\n\ninternally.\n\nAn observation/projection map:\n\n\\[\nq:\n\\widetilde{\\mathcal C}\n\\rightarrow\n\\mathcal C_{\\mathrm{observable}}\n\\]\n\ncan nevertheless satisfy:\n\n\\[\n\\boxed{\nq(\\widetilde L\\widetilde R(x))\n=\nq(\\widetilde R\\widetilde L(x))\n=\nq(\\widetilde O(x))\n}\n\\]\n\nThis was called **confluence modulo the observable quotient**.\n\nEquivalently, define:\n\n\\[\nx\\sim_q y\n\\iff\nq(x)=q(y).\n\\]\n\nThen different histories can be observationally equivalent without becoming the same derivation.\n\nCore rule:\n\n\\[\n\\boxed{\n\\text{equivalent observation}\n\\not\\Rightarrow\n\\text{identical derivation}\n}\n\\]\n\nThis became a provenance-preservation principle and later aligns directly with SUN V2's rule that equal relational effect does not imply equal path/address.",
+      "quote_sha256": "31a708145253eafb9e837e7197a0db8c89590b2e401dc7bf7a2ada2253d98da6",
+      "locator_boundary": "Lines and offsets address the stored extracted document; source file bytes are separately hash-verified."
+    },
+    {
+      "id": "prime_coordinates_and_evaluation",
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "source_sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "source_role": "historical_recovered_research_archive",
+      "extracted_document_lines": [
+        638,
+        742
+      ],
+      "document_char_start": 13190,
+      "document_char_end": 14367,
+      "exact_quote": "## 13. 3-limit multiplicative group\n\nThe most mature recovered algebraization defined:\n\n\\[\n\\boxed{\n\\mathcal H_3\n=\n\\{2^a3^b:a,b\\in\\mathbb Z\\}\n}\n\\]\n\nas a 3-limit multiplicative group.\n\nUnder the prime-exponent coordinate map:\n\n\\[\n\\boxed{\n\\nu_{2,3}(2^a3^b)=(a,b)\n}\n\\]\n\nmultiplication becomes vector addition.\n\nThe primitive operators map to:\n\n\\[\nR=\\frac23\n\\mapsto\n(1,-1)\n\\]\n\n\\[\nL=\\frac34\n\\mapsto\n(-2,1)\n\\]\n\n\\[\nO=\\frac12\n\\mapsto\n(-1,0).\n\\]\n\nTherefore:\n\n\\[\n\\boxed{\n\\nu(R)+\\nu(L)\n=\n(1,-1)+(-2,1)\n=\n(-1,0)\n=\n\\nu(O)\n}\n\\]\n\nThis gives an additive coordinate representation of the harmonic closure identity.\n\n## 14. Unevaluated versus evaluated harmonic spaces\n\nTo preserve operation order/history, the harmonic IR was split:\n\n\\[\n\\widetilde{\\mathcal H}\n\\quad\\text{and}\\quad\n\\mathcal H.\n\\]\n\nAn evaluation quotient:\n\n\\[\n\\boxed{\nq_H=\\operatorname{eval}:\n\\widetilde{\\mathcal H}\n\\rightarrow\n\\mathcal H\n}\n\\]\n\npermits:\n\n\\[\nRL\\neq LR\n\\quad\\text{in }\\widetilde{\\mathcal H}\n\\]\n\nwhile:\n\n\\[\n\\boxed{\n\\operatorname{eval}(RL)\n=\n\\operatorname{eval}(LR)\n=\n\\operatorname{eval}(O)\n=\n\\frac12\n}\n\\]\n\nin the evaluated harmonic space.\n\nThis is the harmonic-specific version of history-aware projected confluence.",
+      "quote_sha256": "ae7dd3e5c6c5e93b3c2374e1ba59c12f8a075e33c4d39b51e38c07a900527b72",
+      "locator_boundary": "Lines and offsets address the stored extracted document; source file bytes are separately hash-verified."
+    },
+    {
+      "id": "faithfulness_protected_distinctions",
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "source_sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "source_role": "historical_recovered_research_archive",
+      "extracted_document_lines": [
+        888,
+        927
+      ],
+      "document_char_start": 16234,
+      "document_char_end": 16840,
+      "exact_quote": "## 17. What a valid domain mapping must preserve\n\nA domain realization:\n\n\\[\n\\rho_D:\n\\mathcal G\n\\rightarrow\n\\mathcal S_D\n\\]\n\nis not considered faithful merely because objects can be named correspondingly.\n\nThe mature criterion requires preservation of declared:\n\n\\[\n\\boxed{\n\\{\n\\text{types},\n\\text{composition},\n\\text{equivalences},\n\\text{protected distinctions},\n\\text{history constraints}\n\\}\n}\n\\]\n\nand earlier versions expressed the test as:\n\n\\[\n\\rho_\\tau(RL(x))\n\\sim\n\\rho_\\tau(O(x)).\n\\]\n\nThe broader methodological rule was:\n\n\\[\n\\boxed{\n\\text{align operators and relations, not merely entities or labels.}",
+      "quote_sha256": "17816e65ea35e8b451e279ab6d86afff2ca4be2013f553e3b6b70515812651b1",
+      "locator_boundary": "Lines and offsets address the stored extracted document; source file bytes are separately hash-verified."
+    },
+    {
+      "id": "registered_partial_adapter",
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "source_sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "source_role": "historical_recovered_research_archive",
+      "extracted_document_lines": [
+        1238,
+        1321
+      ],
+      "document_char_start": 21157,
+      "document_char_end": 22453,
+      "exact_quote": "## 22. SUN V2 makes TOL's role explicit\n\nSUN V2 later imposed a much cleaner boundary around TOL.\n\nTOL remains **external to SUN's music-native derivation**.\n\nIts responsibility is to preserve:\n\n- native address;\n- path;\n- provenance;\n- relation type;\n- unitization;\n- class;\n- register;\n- source dependence;\n\nwhile enabling a registered relational projection into SUN.\n\nThe later formal expression is:\n\n\\[\n\\boxed{\n\\mathfrak N_v\n\\xrightarrow{A_v}\n\\widetilde{\\mathcal T}_v\n\\xrightarrow{P_\\Sigma}\nX_{\\rm SUN}\n}\n\\]\n\nFor an external/native system \\(v\\):\n\n\\[\nT_v:X_v\\rightarrow X_v\n\\]\n\nis its native transition law, while:\n\n\\[\nA_v:X_v\\rightharpoonup X_{\\rm SUN}\n\\]\n\nis the registered adapter.\n\nThe desired structural condition is:\n\n\\[\n\\boxed{\nA_v\\circ T_v\n=\nT_{\\rm SUN}\\circ A_v\n}\n\\]\n\nwhere established.\n\nIf \\(A_v\\) is non-invertible, this is semiconjugacy-like.\n\nIf invertible on the relevant region:\n\n\\[\n\\boxed{\nT_{\\rm SUN}\n=\nA_vT_vA_v^{-1}.\n}\n\\]\n\nThe critical authority boundary is:\n\n\\[\n\\boxed{\n\\text{TOL helps test/preserve/translate relational dynamics;}\n}\n\\]\n\n\\[\n\\boxed{\n\\text{TOL does NOT generate }T_{\\rm SUN}.\n}\n\\]\n\nSUN must derive its native transition grammar independently from music. TOL may then determine whether another native system preserves the same dynamics under a lawful adapter.",
+      "quote_sha256": "aeeaaf53c51f883e2c3a869cf0fcc141cb7b38a0a3bb271f2a5427a32cc2f36a",
+      "locator_boundary": "Lines and offsets address the stored extracted document; source file bytes are separately hash-verified."
+    },
+    {
+      "id": "unfinished_domains_and_type_system",
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "source_sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "source_role": "historical_recovered_research_archive",
+      "extracted_document_lines": [
+        1455,
+        1509
+      ],
+      "document_char_start": 26254,
+      "document_char_end": 28433,
+      "exact_quote": "# PART XX — WHAT WAS NOT FINISHED\n\n## 26. Unfinished formal work\n\nDespite substantial algebraization, the recovered archive does **not** establish a final locked standalone \"TOL Algebra v1.0\".\n\nOutstanding work includes:\n\n### A. Complete type system\n\nThe role vocabulary exists, but a complete formal type judgment system was not recovered, e.g.:\n\n\\[\n\\Gamma\\vdash f:A\\rightarrow B.\n\\]\n\n### B. Full domain/codomain specification\n\nEvery primitive and composite operator still needs explicit legal domains, codomains, partiality rules, and failure semantics.\n\n### C. Identity and associativity laws\n\nThe archive contains composition semantics but not a complete presentation proving all category/algebra axioms.\n\n### D. Closure theorem\n\nThe system still needs a proof specifying exactly under what operator vocabulary it is closed.\n\n### E. Complete address algebra\n\nTOL became an address/topology system, but the address transformations themselves were not fully axiomatized.\n\n### F. Unitization/class algebra\n\nLater SUN V2 introduces class, unitization, register, and address transitions more cleanly than the original TOL work. These need to be integrated without allowing TOL to manufacture SUN's native invariant.\n\n### G. Residual metric calibration\n\n\\(\\varepsilon\\) is defined structurally, and \\(\\|\\varepsilon\\|_w\\) was proposed, but the weights and comparison metric were not locked.\n\n### H. Faithfulness criteria\n\nThe preservation set is known conceptually, but exact mathematical conditions for faithful/partial/invalid realization remain to be formalized.\n\n### I. Boundary semantics\n\nMalkhut/boundary quotient is a strong candidate model, not a universally proved property of every Tree representation.\n\n### J. Historical versus structural evidence ledger\n\nThe project explicitly distinguishes historical descent from independent structural recurrence, but this distinction still needs a formal evidence schema if TOL becomes executable.\n\n### K. Standalone canonical specification\n\nMost importantly: the work evolved through several documents. It was never recovered as one frozen canonical TOL specification with versioning, axioms, proofs, test vectors, and lock status.",
+      "quote_sha256": "f4c51e09d74926d74349e08c1c02db0b7dcd9147f21ff7b2c2ff1204b4990449",
+      "locator_boundary": "Lines and offsets address the stored extracted document; source file bytes are separately hash-verified."
+    }
+  ],
+  "recovered": {
+    "scalar_operations": {
+      "R": "C -> 2C/3",
+      "L": "C -> 3C/4",
+      "O": "C -> C/2"
+    },
+    "history_boundary": "Distinct ordered histories may have the same scalar evaluation. The source explicitly preserves RL versus LR internally.",
+    "adapter": "A_v:X_v ⇀ X_SUN; A_v∘T_v = T_SUN∘A_v where established; TOL does not generate the SUN native law."
+  },
+  "derivation": {
+    "domain": "Finite ordered words in the recovered R,L,O scalar factors, with positive reference C. The statement concerns evaluation and separately retained histories, not a new physical sound-generation model.",
+    "evaluation": "q(w)/C = (2/3)^r (3/4)^l (1/2)^o = 2^(r-2l-o) 3^(l-r)",
+    "effective_counts": "N_R=r+o; N_L=l+o. If q(w)/C=2^a3^b, then N_R=-a-2b and N_L=-a-b.",
+    "proof": "Substitute a=r-2l-o and b=l-r. Then -a-2b=r+o and -a-b=l+o. Unique prime factorization makes (a,b) unique for a positive rational in the 3-limit group. Therefore two words have equal scalar evaluation exactly when their effective count pairs coincide.",
+    "normal_form_boundary": "R^N_R L^N_L represents the same scalar evaluation, not the same protected history. Replacing O by RL and commuting R/L is permissible only after evaluation.",
+    "consequence": "Scalar output cannot recover RL versus LR, or any exact ordered path in a fiber with multiple protected histories. A bridge claiming to preserve history must carry independent path information or a richer observable.",
+    "no_scalar_history_left_inverse": "If protected histories u=RL and v=LR are distinct but q(u)=q(v), no function s from scalar outputs back to histories can satisfy s∘q=id on a domain containing both: s(q(u))=s(q(v)) would force u=v. This follows from the recovered two-path example without assuming that every longer word is distinct.",
+    "path_information_example": "With six R and six L operations, 924 ordered word records share ratio 1/64. Distinguishing all requires at least 10 binary labels (ceil(log2(924))); this is an encoding lower bound under the stated full-word-history condition, not a source-supplied ontology or frequency measurement precision claim.",
+    "novelty_boundary": "The quotient/history distinction is recovered prior work. The explicit inverse-count formula and quantified fiber-information consequence were derived and executed in this unit. No corpus-wide novelty or blind prediction is certified."
+  },
+  "execution": {
+    "exact_word_cases": [
+      {
+        "word_length": 0,
+        "words_executed": 1,
+        "distinct_scalar_outputs": 1,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 1,
+        "words_executed": 3,
+        "distinct_scalar_outputs": 3,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 2,
+        "words_executed": 9,
+        "distinct_scalar_outputs": 6,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 3,
+        "words_executed": 27,
+        "distinct_scalar_outputs": 10,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 4,
+        "words_executed": 81,
+        "distinct_scalar_outputs": 15,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 5,
+        "words_executed": 243,
+        "distinct_scalar_outputs": 21,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 6,
+        "words_executed": 729,
+        "distinct_scalar_outputs": 28,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 7,
+        "words_executed": 2187,
+        "distinct_scalar_outputs": 36,
+        "all_evaluations_and_effective_count_inversions_match": true
+      },
+      {
+        "word_length": 8,
+        "words_executed": 6561,
+        "distinct_scalar_outputs": 45,
+        "all_evaluations_and_effective_count_inversions_match": true
+      }
+    ],
+    "total_words_executed": 9841,
+    "binary_fiber_counts": [
+      {
+        "R_count": 1,
+        "L_count": 1,
+        "common_ratio": "1/2",
+        "distinct_ordered_word_records": 2,
+        "minimum_additional_binary_labels_for_exact_path": 1,
+        "condition": "The retained history records the full ordered R/L word; scalar observation alone is retained."
+      },
+      {
+        "R_count": 2,
+        "L_count": 2,
+        "common_ratio": "1/4",
+        "distinct_ordered_word_records": 6,
+        "minimum_additional_binary_labels_for_exact_path": 3,
+        "condition": "The retained history records the full ordered R/L word; scalar observation alone is retained."
+      },
+      {
+        "R_count": 3,
+        "L_count": 3,
+        "common_ratio": "1/8",
+        "distinct_ordered_word_records": 20,
+        "minimum_additional_binary_labels_for_exact_path": 5,
+        "condition": "The retained history records the full ordered R/L word; scalar observation alone is retained."
+      },
+      {
+        "R_count": 4,
+        "L_count": 4,
+        "common_ratio": "1/16",
+        "distinct_ordered_word_records": 70,
+        "minimum_additional_binary_labels_for_exact_path": 7,
+        "condition": "The retained history records the full ordered R/L word; scalar observation alone is retained."
+      },
+      {
+        "R_count": 5,
+        "L_count": 5,
+        "common_ratio": "1/32",
+        "distinct_ordered_word_records": 252,
+        "minimum_additional_binary_labels_for_exact_path": 8,
+        "condition": "The retained history records the full ordered R/L word; scalar observation alone is retained."
+      },
+      {
+        "R_count": 6,
+        "L_count": 6,
+        "common_ratio": "1/64",
+        "distinct_ordered_word_records": 924,
+        "minimum_additional_binary_labels_for_exact_path": 10,
+        "condition": "The retained history records the full ordered R/L word; scalar observation alone is retained."
+      }
+    ],
+    "arithmetic": "Python fractions.Fraction; independent Wolfram symbolic/count calculations retained"
+  },
+  "partial_adapter_obligations": [
+    {
+      "condition": "For x in the declared comparison domain, A_v(x) and A_v(T_v(x)) must both be defined; state T_v(x) domain membership explicitly.",
+      "reason": "An undefined partial-map composition is not a failed equality or permission to invent an output."
+    },
+    {
+      "condition": "For n-step forward deductions, every required native iterate must remain in the adapter domain, or the deduction stops at the first undefined iterate.",
+      "reason": "A one-step diagram does not itself supply total domain invariance."
+    },
+    {
+      "condition": "Backward deduction needs native/target predecessor or invertibility conditions, plus the relevant image/domain bounds.",
+      "reason": "Forward semiconjugacy alone does not determine a unique past or recover protected histories lost by q."
+    }
+  ],
+  "unretrieved_literal_AB_BA": {
+    "status": "Operational A/B definitions and domains not retrieved in the inspected TOL archive or cited Sept11 source transcript.",
+    "positive_evidence": "Oct30 user message c6ed8ef0a10eb9e6df30f5f78876a0c1271a0c4a53cae792fb30057da7c2712a, source 7c5cd4c51ad9da8020d497ab449770e5dd38b3d334bf8ad612e1c9f8e747f125, lines1019-1041 mentions TOL AB/BA and possible bridges as an investigation.",
+    "search_boundary": "This is bounded source retrieval, not an account-wide nonexistence claim. Named A/B is not silently identified with R/L or with arbitrary matrices."
+  },
+  "source_fidelity_checks": {
+    "source_hash_matches": true,
+    "exact_quote_spans": 6
+  },
+  "continuation": "Recover the literal A/B native operators, types, domains and protected distinctions; test an explicit registered adapter against these obligations. Continue other native musical reconstruction in parallel.",
+  "database_mutation": false
+}

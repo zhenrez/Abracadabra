@@ -1,0 +1,79 @@
+test_cell_ordinal_cannot_readdress_source (test_list_completion.ListCompletionTests.test_cell_ordinal_cannot_readdress_source) ... FAIL
+test_derivation_provenance (test_list_completion.ListCompletionTests.test_derivation_provenance) ... FAIL
+test_migrated_claims_are_core_links (test_list_completion.ListCompletionTests.test_migrated_claims_are_core_links) ... FAIL
+test_source_encoding (test_list_completion.ListCompletionTests.test_source_encoding) ... FAIL
+test_source_lineage_provenance (test_list_completion.ListCompletionTests.test_source_lineage_provenance) ... FAIL
+test_unknown_mutable_container_rejected (test_list_completion.ListCompletionTests.test_unknown_mutable_container_rejected) ... FAIL
+
+======================================================================
+FAIL: test_cell_ordinal_cannot_readdress_source (test_list_completion.ListCompletionTests.test_cell_ordinal_cannot_readdress_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 31, in test_cell_ordinal_cannot_readdress_source
+    with self.assertRaises(ValueError):validate_graph(dataclasses.replace(graph,cells=tuple(cells)))
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_derivation_provenance (test_list_completion.ListCompletionTests.test_derivation_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 11, in test_derivation_provenance
+    self.assertEqual(set(KernelStore((s,o,d)).provenance('d')),{'s','o','d'})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the second set but not the first:
+'o'
+'s'
+
+======================================================================
+FAIL: test_migrated_claims_are_core_links (test_list_completion.ListCompletionTests.test_migrated_claims_are_core_links)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 25, in test_migrated_claims_are_core_links
+    self.assertEqual(record.claim_refs,w.claim_refs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: () != ('source:d76bee36607f67a72aad404dc98682f0e[181 chars]ion')
+
+Second tuple contains 2 additional elements.
+First extra element 0:
+'source:d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c:script:1:ordinal:1:witness:supplied'
+
+- ()
++ ('source:d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c:script:1:ordinal:1:witness:supplied',
++  'source:d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c:script:1:ordinal:1:witness:classification')
+
+======================================================================
+FAIL: test_source_encoding (test_list_completion.ListCompletionTests.test_source_encoding)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 20, in test_source_encoding
+    self.assertEqual(s.encoding,'binary')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'utf-8' != 'binary'
+- utf-8
++ binary
+
+
+======================================================================
+FAIL: test_source_lineage_provenance (test_list_completion.ListCompletionTests.test_source_lineage_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 15, in test_source_lineage_provenance
+    self.assertEqual(set(KernelStore((a,b)).provenance('b')),{'a','b'})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the second set but not the first:
+'a'
+
+======================================================================
+FAIL: test_unknown_mutable_container_rejected (test_list_completion.ListCompletionTests.test_unknown_mutable_container_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 17, in test_unknown_mutable_container_rejected
+    with self.assertRaises(TypeError):EvidenceObservation('o','s','test',bytearray(b'x'),{})
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.368s
+
+FAILED (failures=6)

@@ -1,0 +1,23 @@
+test_basis_search_keeps_feasible_model_when_literal_exceeds_budget (test_adversarial_controls.AdversarialControlTests.test_basis_search_keeps_feasible_model_when_literal_exceeds_budget) ... ERROR
+
+======================================================================
+ERROR: test_basis_search_keeps_feasible_model_when_literal_exceeds_budget (test_adversarial_controls.AdversarialControlTests.test_basis_search_keeps_feasible_model_when_literal_exceeds_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_adversarial_controls.py", line 43, in test_basis_search_keeps_feasible_model_when_literal_exceeds_budget
+    result=baseline.infer_basis(values)
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\baseline.py", line 120, in infer_basis
+    counts=Counter(values);literal=encode_literal(values)
+                                   ~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\baseline.py", line 33, in encode_literal
+    for value in values:size+=_pair_size(value);_budget(size)
+                                                ~~~~~~~^^^^^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\baseline.py", line 29, in _budget
+    if total>8000000:raise ValueError('Encoded bitstream exceeds decoder budget')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Encoded bitstream exceeds decoder budget
+
+----------------------------------------------------------------------
+Ran 1 test in 0.029s
+
+FAILED (errors=1)

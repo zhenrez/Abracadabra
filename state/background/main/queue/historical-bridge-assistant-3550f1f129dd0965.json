@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-bridge-assistant-3550f1f129dd0965",
+  "kind": "source_forensics",
+  "track": "bridge",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/3550f1f129dd0965dc059d24b8b80ca41596221f6b121730d31ecd47365c3f78/text.txt",
+      "sha256": "3550f1f129dd0965dc059d24b8b80ca41596221f6b121730d31ecd47365c3f78",
+      "start_line": 1,
+      "end_line": 284,
+      "source_role": "assistant",
+      "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+      "message_id": "78a3bab464585ca42eac489d9575250111166a1e2b630f53ef749ce7fb768fee",
+      "timestamp": "1787682957.42779",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "78a3bab464585ca42eac489d9575250111166a1e2b630f53ef749ce7fb768fee",
+        "native_id": "2fdcac3e-0a71-53ac-9f21-336649a13761",
+        "conversation_id": "6bb8fbffd580690075fb204c2892254265af4a37962310da2012abd9b0f2bb34",
+        "role": "assistant",
+        "content_sha256": "3550f1f129dd0965dc059d24b8b80ca41596221f6b121730d31ecd47365c3f78",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "locator": "/58/mapping/2fdcac3e-0a71-53ac-9f21-336649a13761/message",
+        "create_time": "1787682957.42779",
+        "branch_status": "current",
+        "title": "Design Reasoning Sequence",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+        "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/3550f1f129dd0965dc059d24b8b80ca41596221f6b121730d31ecd47365c3f78/occurrences-a23c1cdbb754484ace10293ff8a92f994611fa2af86a53b2ef0f8ddf15ae20df.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-bridge-operation",
+      "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+    },
+    {
+      "id": "native-carrier-relation",
+      "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

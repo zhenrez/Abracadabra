@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-user-6b1df5847cf2b767",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:50.965096+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a/text.txt",
+        "sha256": "6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a",
+        "start_line": 1,
+        "end_line": 9,
+        "source_role": "user",
+        "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+        "message_id": "c8c7488656858e52eaa1e54a6c933b0fe02fb9477d05da60b269bfcbd4cc50a7",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "c8c7488656858e52eaa1e54a6c933b0fe02fb9477d05da60b269bfcbd4cc50a7",
+          "native_id": "198",
+          "conversation_id": "5c05fe0d27da167148ee5393134fc9b54c0df48fbccacb896f20d7d267c0bece",
+          "role": "user",
+          "content_sha256": "6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a",
+          "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+          "locator": "lines:14565-14576",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Articulate Musical Transitions",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+          "source_kind": "recovered_current_research",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a/occurrences-3ac98c925421f9c68610ccb29ce12dffd54668e0c9eaddf060a0b5cd20d593dc.json",
+        "quote": "10/18/2026, 8:44:00 AM\n\nremember our topology discussion surrounding cubehedrons. \n\nfano = on af(off)? emet lol\n\nokay, so what is the new corrected sefer, and what is every change it forces everywhere in sun and sol? in shem? in tol? in chinese and western? in the monochord?\n\nalso remember, it's actually 20 then that would be the target in a way, if the move from 20 to 21 or 18 to 21 or 13 to 21 is the operation at a lift .... or nah?",
+        "quote_sha256": "6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a",
+        "original_bytes": 438,
+        "start_offset": 0,
+        "end_offset": 438
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "705d10809fa02f17af10cf5388103c5dda048db0ee453dc64cecebe85adf811c",
+        "artifact_id": "68b2b7cc-d73e-5950-8365-846db4c2d954",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.91,
+            "refines": 0.06,
+            "supports": 0.03
+          },
+          "winner": "insufficient",
+          "top_probability": 0.91,
+          "margin": 0.8500000000000001
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.97,
+            "refines": 0.02,
+            "supports": 0.01
+          },
+          "winner": "insufficient",
+          "top_probability": 0.97,
+          "margin": 0.95
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.183,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

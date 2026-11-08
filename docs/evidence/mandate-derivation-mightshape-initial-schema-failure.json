@@ -1,0 +1,43 @@
+{
+  "valid": false,
+  "record_count": 3,
+  "provenance_counts": {
+    "RESEARCH_SUPPORTED_INFERENCE": 3
+  },
+  "direct_human_participant_count": 0,
+  "repeated_source_refs": {
+    "docs/evidence/mandate-independent-review.json": 2
+  },
+  "errors": [
+    {
+      "record": "MATH-GUARD-001",
+      "code": "SCHEMA",
+      "message": "id: does not match required pattern '^E-[0-9]{3,}$'"
+    },
+    {
+      "record": "MATH-GUARD-002",
+      "code": "SCHEMA",
+      "message": "id: does not match required pattern '^E-[0-9]{3,}$'"
+    },
+    {
+      "record": "MATH-GUARD-003",
+      "code": "SCHEMA",
+      "message": "id: does not match required pattern '^E-[0-9]{3,}$'"
+    }
+  ],
+  "warnings": [
+    {
+      "record": "set",
+      "code": "SOURCE_INDEPENDENCE",
+      "message": "Repeated source references do not create independent corroboration: docs/evidence/mandate-independent-review.json"
+    }
+  ],
+  "evidence_debt": [
+    {
+      "type": "EVIDENCE_DEBT",
+      "claim": "No direct human evidence is present",
+      "mitigation": "Use a Reality Check or appropriately scoped human inquiry when behavior materially affects the decision."
+    }
+  ],
+  "firewall": "FAIL"
+}

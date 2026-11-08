@@ -1,0 +1,17 @@
+{
+  "state": {
+    "goal": "Retrieve original bytes for the newest80-100 images uploaded across the user's ChatGPT account without reuploading, rather than restricting acquisition to Favorites.",
+    "observed_capabilities": "Pages listing was already fully paginated and returned0spaces/3pages; no image library-file references were recovered. No enabled account-wide ChatGPT-upload list function was found. Pages read_page_reference reads raster pixels only for an exact observed authorized Page file reference. Official plugin runtime documents optional window.openai.selectFiles() for existing Library files and getFileDownloadUrl({fileId}) for plugin-authorized files. Official Library guidance documents Uploaded and Images filters and downloading selected existing files. Root already controls a live account browser; this subtask must not perform browser actions or start services.",
+    "constraints": "Use observed file IDs and references only. Do not invent library-file references, guess IDs, recycle expired signed URLs as proof of availability, upload to unrelated services, infer file absence from empty Favorites, or repeat the exhausted Pages listing. Preserve source-native content and exact original-byte hashes."
+  },
+  "questions": {
+    "acquisition_route": {
+      "type": "choice",
+      "instructions": "Which concrete supported route should be prioritized by the root agent for this state?",
+      "criteria": {
+        "library_original_download": "Use the existing authenticated Library or replacing Space UI, observe Uploaded+Images and actual newest ordering, select existing files and Download originals. Record exact observed IDs/order and retrieved bytes; reserve Pages reads for references genuinely found.",
+        "authorized_widget_file_bridge": "First feature-detect an already available ChatGPT plugin file bridge; use existing Library selection or host-authorized file references with getFileDownloadUrl, then download originals. If no such authorized bridge exists, continue through the existing Library UI without reuploading."
+      }
+    }
+  }
+}

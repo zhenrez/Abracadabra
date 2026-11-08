@@ -1,0 +1,70 @@
+{
+  "schema": "sunny.symbol-source-discrepancy.v1",
+  "checked_utc": "2026-11-03T02:27:29.621521+00:00",
+  "case": "TAD A3.7/Pap.Cairo EM JdE43473; normalized-text disagreement at recto address servant token",
+  "sources": [
+    {
+      "path": "sources\\elephantine_A3_7_tei.xml",
+      "bytes": 30710,
+      "sha256": "1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25"
+    },
+    {
+      "path": "sources\\cal_A3_7.html",
+      "bytes": 8394,
+      "sha256": "4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f"
+    }
+  ],
+  "tokens": {
+    "tei_recto": {
+      "text": "עברכי",
+      "codepoints": [
+        "U+05E2",
+        "U+05D1",
+        "U+05E8",
+        "U+05DB",
+        "U+05D9"
+      ]
+    },
+    "tei_verso": {
+      "text": "עבדכי",
+      "codepoints": [
+        "U+05E2",
+        "U+05D1",
+        "U+05D3",
+        "U+05DB",
+        "U+05D9"
+      ]
+    },
+    "cal_recto": {
+      "text": "עבדכי",
+      "codepoints": [
+        "U+05E2",
+        "U+05D1",
+        "U+05D3",
+        "U+05DB",
+        "U+05D9"
+      ]
+    }
+  },
+  "tei_recto_text": "אל מראתי שלוה עברכי הושע שלמ לי תנה",
+  "tei_verso_text": "אלמראתי שלוה עבדכיהושע בר",
+  "checks": {
+    "tei_recto_contains_reported_resh": true,
+    "tei_verso_contains_reported_dalet": true,
+    "cal_contains_dalet_token": true,
+    "cal_contains_resh_token": false,
+    "tei_recto_servant_tag": true
+  },
+  "observed_difference": "Third character: museum TEI recto U+05E8 HEBREW LETTER RESH; CAL and TEI verso U+05D3 HEBREW LETTER DALET. No source file changed.",
+  "source_report": "Museum TEI tags recto עבר as servant; CAL displays עבדכי; museum TEI verso displays עבדכי with עבד tagged servant.",
+  "inference": "This is an editorial/transcription disagreement requiring original-sign collation. A parser that normalizes both without recording the difference loses a distinction relevant to phonetic and lexical hypotheses.",
+  "not_established": [
+    "The actual ancient ink sign at the disputed position",
+    "That the historical scribe changed a sign",
+    "The original vowel realization or acoustic waveform",
+    "A hidden name or genealogical identity"
+  ],
+  "deduction_changed": "Carry two source-qualified transcription branches at the disputed token. Do not use the display discrepancy alone to infer a historical phonetic substitution, mistransmission, merged identity or mathematical operator.",
+  "exposure": "Existing project hypotheses, scholarly baseline and both editions already seen; not blind.",
+  "next_evidence": "Original papyrus image or original TAD/Sachau facsimile at the exact recto address position; identify the dalet/resh sign without silently following either normalized edition."
+}

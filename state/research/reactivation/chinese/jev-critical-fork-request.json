@@ -1,0 +1,28 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "unit": "Chinese critical commentary / role semantics continuation after checkpoint03",
+    "goal": "Find an exact source-conditioned compatibility constraint for symbol/sound/operator candidates; no global pitch or phonetic identification.",
+    "new_inspected_evidence": [
+      "ZhouLi22 Zheng/Jia commentary explicitly says generation order and use order differ: EarthNanlü is generated earlier but used later; Guxi generated later but used earlier; ancestralDalu generated later yet used asjue.",
+      "Received prescriptions haveTaicu aszhi in bothheaven andancestor contexts, while heaven hasHuanzhong asgong/Huangzhong asjue andancestor hasHuangzhong asgong.",
+      "Lam2024§2.2/2.5/2.6 has context+position and separateTn/tn. In its anhemitonic modeljue andzhi are distinct fixed positions; C=Huangzhong is only convention."
+    ],
+    "premises": [
+      "Previous role assignments alreadyexposed; no blind historicalprediction.",
+      "P0-A14 accounted but baselineopen; new unit remains scholarly, M1-M12 unopened.",
+      "No source-label toglobalHz orfixed ancientpitch-class identity admitted bydefault."
+    ]
+  },
+  "questions": {
+    "fork": {
+      "type": "choice",
+      "instructions": "Choose the first reproduced consequence for this bounded continuation; preserveothercandidate andsource limits.",
+      "criteria": {
+        "cycle": "Construct minimal conditional inconsistency certificate: ifstandard labels havecontext-invariant pitch values androles havefixed tonic-relative offsets, repeatedTaicu-zhi acrossdifferentgongs constrains thejue offset; testexactly againstLam. No absoluteC/Huangzhong lock assumed.",
+        "order": "Reproduce receivedcommentary's generation-versus-use reorder usingdeclaredselected tones androughness order; compare withLam's independenttransposition coordinates.",
+        "collation": "First retrieve asecondcritical/textualwitness before any numerical orrelational transfer test."
+      }
+    }
+  }
+}

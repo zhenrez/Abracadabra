@@ -1,0 +1,89 @@
+{
+  "scope": "Diagnostic preparation only. Same synthetic fixtures and assertions; imports/project root relocated, overflow result printed before assertion. No ownership policy or runtime timeout changes.",
+  "source": {
+    "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\tests\\worker-lifecycle.test.mjs",
+    "sha256": "26e635721d4e379387935873b9b658ea76e2738a39257d48becaa911194d08ed"
+  },
+  "copy": {
+    "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\runtime\\worker-lifecycle-diagnostic.test.mjs",
+    "sha256": "2304194598d31b9f2d30a3d50b75944d188dfbc5d6f681c74c1ad8629c907ad9"
+  },
+  "original_test_files": [
+    "tests/algebraic-scalar.test.mjs",
+    "tests/comparison.test.mjs",
+    "tests/contextual-alignment.test.mjs",
+    "tests/hierarchy.test.mjs",
+    "tests/law.test.mjs",
+    "tests/musical-hierarchies.test.mjs",
+    "tests/native-operators.test.mjs",
+    "tests/phonological-history.test.mjs",
+    "tests/prediction.test.mjs",
+    "tests/score.test.mjs",
+    "tests/server.test.mjs",
+    "tests/symbol-sound-constraints.test.mjs",
+    "tests/worker-lifecycle.test.mjs"
+  ],
+  "population_preserved": true,
+  "controlled_commands": {
+    "serial_original": [
+      "node",
+      "--test",
+      "--test-concurrency=1",
+      "tests/algebraic-scalar.test.mjs",
+      "tests/comparison.test.mjs",
+      "tests/contextual-alignment.test.mjs",
+      "tests/hierarchy.test.mjs",
+      "tests/law.test.mjs",
+      "tests/musical-hierarchies.test.mjs",
+      "tests/native-operators.test.mjs",
+      "tests/phonological-history.test.mjs",
+      "tests/prediction.test.mjs",
+      "tests/score.test.mjs",
+      "tests/server.test.mjs",
+      "tests/symbol-sound-constraints.test.mjs",
+      "tests/worker-lifecycle.test.mjs"
+    ],
+    "serial_diagnostic": [
+      "node",
+      "--test",
+      "--test-concurrency=1",
+      "tests/algebraic-scalar.test.mjs",
+      "tests/comparison.test.mjs",
+      "tests/contextual-alignment.test.mjs",
+      "tests/hierarchy.test.mjs",
+      "tests/law.test.mjs",
+      "tests/musical-hierarchies.test.mjs",
+      "tests/native-operators.test.mjs",
+      "tests/phonological-history.test.mjs",
+      "tests/prediction.test.mjs",
+      "tests/score.test.mjs",
+      "tests/server.test.mjs",
+      "tests/symbol-sound-constraints.test.mjs",
+      "work/final-day-2026-11-07/runtime/worker-lifecycle-diagnostic.test.mjs"
+    ],
+    "default_concurrency_diagnostic": [
+      "node",
+      "--test",
+      "tests/algebraic-scalar.test.mjs",
+      "tests/comparison.test.mjs",
+      "tests/contextual-alignment.test.mjs",
+      "tests/hierarchy.test.mjs",
+      "tests/law.test.mjs",
+      "tests/musical-hierarchies.test.mjs",
+      "tests/native-operators.test.mjs",
+      "tests/phonological-history.test.mjs",
+      "tests/prediction.test.mjs",
+      "tests/score.test.mjs",
+      "tests/server.test.mjs",
+      "tests/symbol-sound-constraints.test.mjs",
+      "work/final-day-2026-11-07/runtime/worker-lifecycle-diagnostic.test.mjs"
+    ]
+  },
+  "interpretation": {
+    "serial_pass": "Shows this run passed with one concurrent test file; does not erase the default npm failure or prove its cause.",
+    "helper_timeout_error": "Evidence of bounded cleanup-helper timeout, not permission to weaken ownership checks or blindly raise limits.",
+    "capture_or_identity_error": "Investigate its precise phase and identity record; do not relabel as load automatically.",
+    "intermittent_pass": "Retain both runs; no permanent fix inferred."
+  },
+  "execution_status": "NOT_RUN_BY_AUDITOR; root controls approved runtime and bounded commands."
+}

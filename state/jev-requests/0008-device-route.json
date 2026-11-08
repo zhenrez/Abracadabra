@@ -1,0 +1,15 @@
+{
+ "state":{
+  "goal":"Run SUNNY's actual Jev quarterback reliably with preserved pinned model identity and evidence.",
+  "facts":"CPU service8149 and isolated GPU service8150 bothREADY, same pinned weightsSHA8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215. CUDA torch2.9.1+cu128 on RTX3060 12GB, globalCPUtorchunchanged. Jev-selected one-frozen-request/two-question comparison completed: same selected values; max choice massdiff0.001903772, booleandiff0.001697481. CPUelapsed/GPUelapsed3.2693 in this ONE sample, not broad parity/performance evidence. Native MCP points8149. SUNNY new tool can be configured to local endpoint8150 without altering global plugin config.",
+  "constraints":"Retain both actual decision histories, model versions and low-margin changes. Do not claim exact numerical parity or general speed guarantee; no hosted costs, no source uploads."
+ },
+ "questions":[{
+  "id":"device_route","type":"choice","question":"Which verified local service route should SUNNY use now?",
+  "options":{
+   "sunny_gpu":"Route SUNNY's local decision tool to8150 GPU, keep nativeMCP8149 CPUavailable, record endpoint and modelhash on each receipt.",
+   "keep_cpu":"Keep SUNNY and nativeMCP on8149 CPU, preserve8150 GPU for later broader measurements.",
+   "switch_8149":"Stop CPU8149 and restart GPU on8149 so both tools use the GPU endpoint; verify readiness after restart."
+  }
+ }]
+}

@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-31T01:57:06.010Z",
+  "url": "http://127.0.0.1:4317",
+  "runtime": "Isolated native Microsoft Edge via CDP",
+  "checks": [
+    {
+      "name": "Actual source summary matches independent live DB count",
+      "observed_messages": "59,901",
+      "independent_db_messages": 59901
+    },
+    {
+      "name": "Second source page loads without duplicate records",
+      "shown": 80
+    },
+    {
+      "name": "Real search and full-source inspector",
+      "observed_text_characters": 10796,
+      "source_locator_visible": true
+    },
+    {
+      "name": "Conversation context opens",
+      "messages_shown": 18
+    },
+    {
+      "name": "All three finite geometry modes switch",
+      "canonical_assignments": "No inferred placements loaded"
+    },
+    {
+      "name": "Original twelve-record family passes actual Jev gate with replayable exact input",
+      "status": "evaluated",
+      "run_id": "547617a3-7cca-4724-85a8-f6638cfc8fab",
+      "canonical_promotion": false
+    },
+    {
+      "name": "Visible structured native Jev request and actual receipt history",
+      "history_rows": 2
+    },
+    {
+      "name": "Actual visible Unicode browser form submits to live Jev",
+      "selected_candidate": "verify_chain",
+      "receipt_sha256": "462cfb5e9caecf5f5e99b6c82147d60b19706c578d261266308334665e29ede8",
+      "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+      "exact_receipt_request_matches": true,
+      "unicode_marker": "Σοφία — Śrī ??? ䷀",
+      "receipt_chain": "intact"
+    },
+    {
+      "name": "Source decision list visibly preserves exact extracted candidate text",
+      "quote_rows": 200
+    },
+    {
+      "name": "No horizontal page overflow across all seven views",
+      "viewport_width": 320
+    },
+    {
+      "name": "No horizontal page overflow across all seven views",
+      "viewport_width": 768
+    },
+    {
+      "name": "No horizontal page overflow across all seven views",
+      "viewport_width": 1024
+    },
+    {
+      "name": "No horizontal page overflow across all seven views",
+      "viewport_width": 1440
+    },
+    {
+      "name": "Native accessibility tree includes labelled state textbox",
+      "ax_nodes": 11235
+    }
+  ],
+  "console_errors": [],
+  "exceptions": [],
+  "limitations": [
+    "No human screen-reader session or formal WCAG audit.",
+    "Visual screenshots require separate inspection.",
+    "Native source import completeness and mathematical truth are outside this UI check."
+  ],
+  "browser_ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-8LwztY",
+    "identities": 17
+  },
+  "status": "passed",
+  "browser_cleanup": {
+    "exit_code": 0,
+    "stdout": "{\"status\":\"reaped\",\"profile\":\"C:\\\\Users\\\\Brend\\\\AppData\\\\Local\\\\Temp\\\\sunny-edge-check-8LwztY\",\"captured_identities\":17,\"stopped_pids\":[],\"remaining_known_processes\":0,\"remaining_profile_processes\":0}",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "code": "Module[{words,paths,n,normPaths,checks,min},words=DeleteDuplicates[Permutations[{2/3,2/3,4/3,4/3,4/3}]];paths=FoldList[Times,1,#]&/@words;n[x_]:=x*2^(-Floor[Log[2,x]]);normPaths=(n/@#)&/@paths;checks=Table[{s,Length[DeleteDuplicates[(#[[s+1]]&)/@paths]]},{s,Subsets[Range[4]]}];min=Min[Length[#[[1]]]&/@Select[checks,#[[2]]==10&]];<|\"WordCount\"->Length[words],\"EndpointSet\"->DeleteDuplicates[Last/@paths],\"DistinctNormalizedPaths\"->Length[DeleteDuplicates[normPaths]],\"CommonNormalizedPath\"->First[normPaths],\"MinimumInteriorSamples\"->min,\"SampleSetCounts\"->checks|>]",
+  "timeConstraint": 20
+}

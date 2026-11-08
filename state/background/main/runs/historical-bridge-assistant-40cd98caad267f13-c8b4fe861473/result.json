@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-40cd98caad267f13",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:24.107199+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/40cd98caad267f13d53ef31258dfaf64b16c640dcb284a1257cf8b1e3b2434a8/text.txt",
+        "sha256": "40cd98caad267f13d53ef31258dfaf64b16c640dcb284a1257cf8b1e3b2434a8",
+        "start_line": 1,
+        "end_line": 207,
+        "source_role": "assistant",
+        "source_id": "7357d88c6b28ad4872442caba52696b2ebf5f5d1e363c52b179ce6c431f3b490",
+        "message_id": "285a197651133f0d06cb3589965af1181119ae9b5289984a0c869f2f580030b9",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "285a197651133f0d06cb3589965af1181119ae9b5289984a0c869f2f580030b9",
+          "native_id": "49",
+          "conversation_id": "fde57317335a687d50a850ca464bb37639f0e4c16e4a4b74d4458315926dc9fc",
+          "role": "assistant",
+          "content_sha256": "40cd98caad267f13d53ef31258dfaf64b16c640dcb284a1257cf8b1e3b2434a8",
+          "source_id": "7357d88c6b28ad4872442caba52696b2ebf5f5d1e363c52b179ce6c431f3b490",
+          "locator": "lines:10869-11078",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Mapping Primordials to Music",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\ChatGPT-Mapping Primordials to Music-20261018-0137.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Mapping Primordials to Music-20261018-0137.md",
+          "source_sha256": "e02e72b463519be836ac19b2221f31ba2390f2fecd603568d11cf362910501e1",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "e02e72b463519be836ac19b2221f31ba2390f2fecd603568d11cf362910501e1",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/40cd98caad267f13d53ef31258dfaf64b16c640dcb284a1257cf8b1e3b2434a8/occurrences-4c597923221983ee291e63a478bd50aa58e0ba2c3360afdc8e5a00da83bd529f.json",
+        "quote": "10/12/2026, 9:44:55 PM · gpt-6\n\n> **Counting state combinations by position**\n>\n>\n> **Counting state combinations by position**\n>\n> \n>\n> Worked for 9s\n\n## SUN expanded-state test: stage boundary and phase consistency\n\n**The specified rules predict no new $\\tau$\\- or $\\beta$\\-dependent path exclusions.** The $n=3$ Fludd–Kepler boundary is stage-dependent, while phase-lift consistency requires a continuous choice of phase history—not the rejection of either binary branch.\n\nThere is also an unresolved prerequisite: the recovered SUN carrier does not yet identify $\\beta$ with a physical divider's winding state, and it does not supply a phase-history interpretation of $\\tau$\\.\n\nI can therefore calculate the exact structural partition under the declared rules, but a physical phase-lock test would require additional initialized phase states and dynamics.\n\n### 1\\. Expanded state\n\nUse\n\n$$\ns=(n,g,p,\\tau,\\beta,\\rho)\n$$\n\nwith the September 19 ascending-positive register convention.\n\nLet\n\n$$\n\\delta=\\log_2(3/2)-\\frac7{12}.\n$$\n\nThe descending lifts are\\:\n\n$$\n\\widehat R(s)=\n\\left(\nn,\\,\ng+\\left\\lfloor\\frac{p-7}{12}\\right\\rfloor,\\,\n(p-7)\\bmod12,\\,\n\\tau,\\beta,\\rho-\\delta\n\\right),\n$$\n\n$$\n\\widehat L(s)=\n\\left(\nn,\\,\ng+\\left\\lfloor\\frac{p-5}{12}\\right\\rfloor,\\,\n(p-5)\\bmod12,\\,\n\\tau,\\beta,\\rho+\\delta\n\\right).\n$$\n\nApplying both branches and completing one ordinary generation gives\n\n$$\n\\boxed{\nD(s)=(n+1,g-1,p,\\tau,\\beta,\\rho).\n}\n$$\n\nThe three ordinary generations therefore produce\n\n$$\nD^3(s_0)=(3,g_0-3,p_0,\\tau_0,\\beta_0,\\rho_0).\n$$\n\nNo ternary or binary traversal occurs.\n\n### 2\\. Terminal boundary\n\nAt $n=3$, apply the recovered boundary\\:\n\n$$\n\\mathrm{MI}_3\n\\xrightarrow{16/15}\n\\mathrm{FA}_3\n\\xrightarrow{(15/16,\\,+1)}\n\\mathrm{MI}_4.\n$$\n\nIts complete multiplier is $1/2$\\.\n\nIn ascending-positive register coordinates, the terminal result is\n\n$$\n\\boxed{\nB_{\\mathrm{FK}}(s_3)\n=\n(4,g_3-1,p_3,\\tau_3,\\beta_3,\\rho_3).\n}\n$$\n\nThis describes the complete boundary path's endpoint. The intermediate FA state must remain in the execution trace; it is not identical to the starting MI state.\n\nThus, after three ordinary generations and the boundary,\n\n$$\n\\boxed{\ns_4=(4,g_0-4,p_0,\\tau_0,\\beta_0,\\rho_0).\n}\n$$\n\nThe complete frequency scale changes by $2^{-4}$, relative to the original center.\n\nThis endpoint is independent of the ternary and binary coordinates.\n\n### 3\\. Phase-lift admissibility\n\nFor a coherent divider, the physical condition is\n\n$$\n2\\psi_{\\mathrm{out}}-\\phi_{\\mathrm{in}}\n=\\delta_0\\pmod{2\\pi}.\n$$\n\nA continuous phase trajectory must retain the selected branch through subsequent windings.\n\nHowever, this condition does not impose\n\n$$\n\\beta=0\n$$\n\nor\n\n$$\n\\beta=1\n$$\n\nas the only admissible branch. Both are legitimate initial branches of a divided oscillator.\n\nNor does it constrain $\\tau$ unless a separate, independently specified phase-coordinate relationship exists.\n\nThe correct evaluation outcomes are\\:\n\n| Condition | Outcome |\n|--------|--------|\n| Initialized, continuous phase history satisfying the divider equation | Admissible |\n| Explicit phase history contradicting the equation | Inadmissible |\n| No initialized phase history supplied | `NOT_EVALUABLE` for physical phase consistency |\n| Only $(n,g,p,\\tau,\\beta,\\rho)$ supplied, without a phase-state binding | No physical phase-lock conclusion |\n\n**The register displacement alone cannot cause a phase-lock failure.** It changes the represented frequency scale, but supplies neither the actual input phase trajectory nor the output oscillator state.\n\n### 4\\. New path-signature partition\n\nFor the declared mathematical path family, the endpoint and accumulated operator history are independent of $\\tau,\\beta$\\.\n\nIf the signature retains $p$ and the common stage history, but does not include the unchanged $\\tau,\\beta$ labels as distinguishing data, the partition is\\:\n\nStructural equivalence classes (Derived)\n\n---\n\nClasses\n\n# 12\n\nStates per class\n\n# 6\n\nEqual-signature pairs\n\n# 180\n\nThe induced distribution is\n\n$$\n\\boxed{12\\times6}\n$$\n\nwith\n\n$$\n12\\binom62=180\n$$\n\nequal-signature pairs.\n\nThis is an exact consequence of the stated rules, **not a newly executed physical oscillator experiment**\\.\n\nIf the signature instead includes the unchanged $\\tau,\\beta$ identity labels, it produces 72 distinct labeled signatures. That would distinguish addresses by definition, not demonstrate a dynamical distinction.\n\nIf phase histories are required as measured inputs, the corresponding physical signature partition is currently **NOT\\_EVALUABLE**\\.\n\n### 5\\. Verification against the requested criterion\n\n| Test | Result |\n|--------|--------|\n| Three ordinary SUN generations | Pass, algebraically |\n| Stage-dependent $n=3$ FK boundary | Pass, algebraically |\n| Exact register conversion | Pass |\n| Preserve $\\tau,\\beta$ through acoustic descent | Pass |\n| Derive a $\\tau$\\-dependent phase restriction | Not established |\n| Derive a $\\beta$\\-dependent path exclusion | Not established |\n| Produce two exceptional collision orbits | No |\n| Physical phase-lock measurement | Not performed |\n\n**Conclusion\\:** The expanded stage model is coherent, but the phase-lift predicate does not generate the requested asymmetry. The mathematical path signature remains uniform across the ternary and binary fibers.\n\nThe next legitimate investigation is to recover the **native $T$ and $B$ phase actions and their composition rules with the acoustic operators**\\. That would establish whether SUN already contains a nontrivial coupling between the acoustic and phase sectors. Until then, introducing phase-dependent path exclusions would be a new hypothesis rather than a recovered SUN requirement.",
+        "quote_sha256": "40cd98caad267f13d53ef31258dfaf64b16c640dcb284a1257cf8b1e3b2434a8",
+        "original_bytes": 5660,
+        "start_offset": 0,
+        "end_offset": 5655
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "56f502551e75f6f1341d3219dc9f2cc50794ca9ac723d749d864ab449c8a0041",
+        "artifact_id": "b013ec32-bec5-5e95-8a7e-50083894d760",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.07,
+            "refines": 0.24,
+            "supports": 0.68
+          },
+          "winner": "supports",
+          "top_probability": 0.68,
+          "margin": 0.44000000000000006
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.99,
+            "refines": 0.0,
+            "supports": 0.01
+          },
+          "winner": "insufficient",
+          "top_probability": 0.99,
+          "margin": 0.98
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.277,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

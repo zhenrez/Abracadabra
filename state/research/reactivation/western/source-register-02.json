@@ -1,0 +1,163 @@
+{
+  "schema": "sunny.western-source-register.v2",
+  "created_utc": "2026-11-03T02:47:31.970Z",
+  "scope": "Bounded scholarly method packet, extending the already exposed Western acoustic control. Tiberian/Sefardi performance remains a separately labelled cross-domain target, not native Western repertoire. No all-domain or blind review.",
+  "sources": [
+    {
+      "id": "W01",
+      "title": "Harmonics and Pitch",
+      "author": "Tamara Smyth",
+      "date": "2020-04-02 per prior source inspection",
+      "type": "author teaching material",
+      "url": "https://musicweb.ucsd.edu/~trsmyth/spectrum175/Harmonics_Pitch.html",
+      "local_path": "sources/smyth2020.html",
+      "inspected": "Prior checkpoint-01 source record reused; not a new empirical source inspection",
+      "solves": "Separates fundamental-related pitch from harmonic-amplitude timbre.",
+      "reuse": "Retained exposed acoustic background.",
+      "transfer_limits": "Does not prescribe a historical glyph sound; no new perception test.",
+      "local_sha256": "e4044efb809acd76d8a5e9015cb329e19f665cc6645579aecfb495548b8a0669"
+    },
+    {
+      "id": "W02",
+      "title": "FMP notebook: Timbre",
+      "authors": [
+        "Meinard Müller",
+        "Tim Zunner"
+      ],
+      "date": "Undated current notebook; prior record references FMP2015",
+      "type": "official research-group method notebook",
+      "url": "https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html",
+      "local_path": "sources/fmp-timbre.html",
+      "inspected": "Prior checkpoint-01 inspected sections and harmonic-sum generator reused",
+      "solves": "Keeps timbre/envelope/partials separate from pitch, loudness and duration.",
+      "reuse": "Retain background and its stated model limits.",
+      "transfer_limits": "No fixed phoneme, historical operation or original waveform follows.",
+      "local_sha256": "d80bdf36b532b4fe7bace5ec612bf15479ccb322168fc9b48e1b9e5c1f3d9f6d"
+    },
+    {
+      "id": "W03",
+      "title": "Speech Analysis/Synthesis Based on a Sinusoidal Representation",
+      "authors": [
+        "Robert J. McAulay",
+        "Thomas F. Quatieri"
+      ],
+      "date": "1986-08",
+      "type": "original IEEE research article; institutional-hosted PDF reproduction",
+      "url": "https://www.csd.uoc.gr/~hy578/projects/P2/Sinusoidal_AS_Quat.pdf",
+      "local_path": "sources/mcaulay-quatieri1986.pdf",
+      "inspected": "Article first page extracted; printed745 rendered image visually checked, equations1–11 and sectionIII",
+      "solves": "Fits measured digitized speech using amplitude, frequency and phase tracks under local stationarity assumptions.",
+      "reuse": "Adopt measurement-conditioned track representation and parameter-estimation boundary.",
+      "transfer_limits": "Input is an actual waveform. Neither an unvocalized glyph nor scalar geometry provides those measurements. No perceptual result is reproduced here.",
+      "local_sha256": "c550ea603f5dad0ab3c58a09c3902e19334a603c53d931822e60f0927d85cc3a"
+    },
+    {
+      "id": "W04",
+      "title": "Praat: Source-filter synthesis",
+      "author": "Paul Boersma",
+      "date": "Page copyright2005-07-13",
+      "type": "original software/method documentation",
+      "url": "https://www.fon.hum.uva.nl/praat/manual/Source-filter_synthesis.html",
+      "local_path": "sources/praat_source_filter.html",
+      "inspected": "Whole short tutorial landing page",
+      "solves": "Separately constructs/estimates source excitation and vocal-tract filter, then combines them.",
+      "reuse": "Adopt as conditional analysis/synthesis framework.",
+      "transfer_limits": "Source/filter factorization is a model, not automatic historical or phoneme identification; implementation and signal acquisition still needed.",
+      "local_sha256": "4207959910f70bf26d49bbae9af9002b41630b096d82066371a7a8c42a1d8c5b"
+    },
+    {
+      "id": "W05",
+      "title": "Praat: Sound: To Spectrogram",
+      "author": "Paul Boersma / Praat manual",
+      "date": "Page copyright2021-10-15",
+      "type": "original software/method documentation",
+      "url": "https://www.fon.hum.uva.nl/praat/manual/Sound__To_Spectrogram___.html",
+      "local_path": "sources/praat_spectrogram.html",
+      "inspected": "Settings and Gaussian bandwidth formula, analysis-grid adjustments",
+      "solves": "Makes time-window, bandwidth, sample-rate/Nyquist and frame-grid conditions explicit.",
+      "reuse": "Adopt parameter contract and check actual returned grid.",
+      "transfer_limits": "Time step is not window duration or independent sample count; bin spacing is not physical resolving bandwidth.",
+      "local_sha256": "5bacf6d05d724cc7c269bbc0fb705d7bc5d12ea1b492afba87cffdd90dd1e139"
+    },
+    {
+      "id": "W06",
+      "title": "Praat: Sound: To Formant (burg)",
+      "author": "Praat manual",
+      "date": "Page copyright2020-06-08 in preserved source",
+      "type": "original software/method documentation",
+      "url": "https://praat.org/manual/Sound__To_Formant__burg____.html",
+      "local_path": "../symbols/sources/praat_formant.html",
+      "inspected": "Existing original HTML reused; all settings/algorithm reread; normalized copy sources/praat_formant.reused.txt",
+      "solves": "Estimates local spectral resonances with explicit speaker-sensitive ceiling, window, resampling and pre-emphasis.",
+      "reuse": "Adopt F0/formant distinction and sensitivity log; choose settings only for actual recording.",
+      "transfer_limits": "A ceiling is not an observed formant; defaults are not a universal speaker model. Estimation can generate artifacts; no measurement run.",
+      "local_sha256": "908e46bf297472d2da874c0ebf184ec68917b5b8723d9e010710f973977a887a"
+    },
+    {
+      "id": "W07",
+      "title": "Praat: Source-filter synthesis3: The ba-da continuum",
+      "author": "Paul Boersma",
+      "date": "Page copyright2014-04-21,2025",
+      "type": "original official synthesis tutorial",
+      "url": "https://www.fon.hum.uva.nl/praat/manual/Source-filter_synthesis_3__The_ba-da_continuum.html",
+      "local_path": "sources/praat_bada.html",
+      "inspected": "Whole prose and all code lines",
+      "solves": "Conceptually varies a formant-transition prescription with a shared pitch source.",
+      "reuse": "Adapt conceptual separation only; defer verbatim executable reproduction.",
+      "transfer_limits": "Prose/code disagree on step count/endpoints and duplicate second-formant point times. See method-audit.json. No Praat execution or repaired intended script claimed.",
+      "local_sha256": "71cfcf437c48ebfc00555806d66d9b60b8a2303fe6c16b5678bc5e6fd0dce3df"
+    },
+    {
+      "id": "W08",
+      "title": "Production and perception of glottal stops",
+      "author": "Marc Garellek",
+      "date": "2013",
+      "type": "original UCLA doctoral dissertation on English/Spanish production/perception and corpus analysis",
+      "url": "https://pages.ucsd.edu/~mgarellek/files/Garellek_dissertation.pdf",
+      "local_path": "sources/garellek2013.pdf",
+      "inspected": "27 selected PDF pages: abstract; printed4–6,9–11,25–31,57–62,85–90; selected text cached",
+      "solves": "Separates full stop, incomplete realization and creak; supplies a corpus-specific two-local-pulse silence plus release/resumption coding convention.",
+      "reuse": "Adapt this bounded observation rubric, retaining ambiguity and context.",
+      "transfer_limits": "English/Spanish findings do not validate ancient Hebrew. Glottalization can be prosodic; lack of full silence does not exclude a glottal target. No participant data or perceptual experiment reproduced.",
+      "local_sha256": "8b339fa453a0508d80d55f0b14b0184c29d796c487b91686fcbc9222446b2bb5"
+    },
+    {
+      "id": "W09",
+      "title": "The Tiberian Pronunciation Tradition of Biblical Hebrew1: chapterI.5",
+      "author": "Geoffrey Khan",
+      "date": "2020-02-20; medieval tradition reconstructed in modern scholarship",
+      "type": "scholarly reconstruction/edition, source-linked sample transcriptions",
+      "url": "https://www.openbookpublishers.com/books/10.11647/obp.0163/chapters/10.11647/obp.0163.05",
+      "local_path": "../symbols/sources/khan2020.pdf",
+      "inspected": "Existing PDF pp608–623 extracted; printed614–615/PDF631–632 rendered and visually checked",
+      "solves": "Specifies subtradition-qualified sample reading and links oral performances; Genesis1.1 includes both [ʔ]-marked and unmarked Alef locations.",
+      "reuse": "Adopt exact modern reconstructed-reading test target and explicit dagesh profile.",
+      "transfer_limits": "No Iron Age phonetic identity or musical prescription follows without a chronological/source bridge. Normalized Hebrew text labels are not original glyph collation.",
+      "local_sha256": "bcab644037f62795041c3c6e6e37f1c1eb28f29d147b6d2c4409fd6bc3c0da24"
+    },
+    {
+      "id": "W10",
+      "title": "Khan2020 publisher resources: Genesis1.1–13 oral performances",
+      "author": "Alex Foreman; resource attribution on Open Book Publishers",
+      "date": "Book2020-02-20; CDN Last-Modified2022-06-03 is delivery metadata",
+      "type": "publisher-labelled modern reconstructed oral performances, matched profile with/without Sefardi melody",
+      "url": "https://www.openbookpublishers.com/books/10.11647/obp.0163",
+      "local_path": "paired-reading-access.json",
+      "inspected": "Publisher page via browser and page614 PDF labels; both MP3 targets HEAD200; no body decoded or listened",
+      "solves": "Provides a concrete comparison separating a declared reading profile and melodic-performance condition.",
+      "reuse": "Bind DOI.06/.07 pair, exact passage and reader as a prospective observation target.",
+      "transfer_limits": "Two different performances are not a randomized matched acoustic experiment. Decoder, alignment, original audio hashes and measurements remain missing. Sefardi melody is not relabelled as native Western music. Direct HTML preservation returned429; source PDF and browser inspection remain available.",
+      "local_sha256": "98cecd29088b54df8cca338e7dd88ab099870db8e404d4c9c57bcc7dd2d4ca65",
+      "hash_scope": "Access metadata JSON only; audio bodies not retrieved/hashed."
+    }
+  ],
+  "independence": "W04–W07 share Praat source ancestry. W09–W10 share Khan/OBP/Foreman reconstruction ancestry. Repeated references are not independent corroboration.",
+  "exposure": "All packet sources openly inspected before any proposed target measurement. Existing SUN/W72 and harmonic-control material already known. No new heterodox exposure or blind evaluation.",
+  "unresolved": [
+    "Full native Western musical-source census and source-specific prescription remain incomplete.",
+    "Full source-native melody/phonation/time/instrument behavior is not reconstructed by this packet.",
+    "Ancient target phonetics and chronological transfer remain open.",
+    "Native Chinese lane remains separately owned and simultaneous."
+  ],
+  "novel_claim_boundary": "This packet reuses established methods and finds a bounded source-code discrepancy plus an actionable target/control. It claims no new acoustic law, ancient waveform, historical intention or universal symbol decoder."
+}

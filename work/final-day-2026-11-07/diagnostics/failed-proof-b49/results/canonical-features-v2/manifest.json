@@ -1,0 +1,59 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 1011,
+      "sha256": "7807dc4f4f95e758a65779aa8d069d53ee49357e48d6b582170e9fffa7453c69"
+    },
+    "matrix.npz": {
+      "bytes": 6269,
+      "sha256": "d8fa272ecb5697c46fa7d0c2710d7062e63731bbb5b7dd36b4afc699efbba602"
+    },
+    "source.tsv": {
+      "bytes": 4866,
+      "sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c"
+    },
+    "summary.json": {
+      "bytes": 697,
+      "sha256": "fb86562cefcc3d37ca407eecb6be74970122f07c3de837d1417426c8507a19c3"
+    },
+    "vectors.json": {
+      "bytes": 1377563,
+      "sha256": "92aeb68b7729eed75f07828cefbe168d424f997bcde4b30fb7e06b734c41ffa5"
+    }
+  },
+  "font_proxy": null,
+  "imports": [
+    {
+      "path": "work/unit001/evidence.py",
+      "role": "Accepted lossless G0 importer and typed source records",
+      "sha256": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec"
+    },
+    {
+      "path": "work/ariadne-inverse/features.py",
+      "role": "Existing dictionary, literal IPA parser and atomic15D articulatory features",
+      "sha256": "35541b1cb29ac49b68098ba19313b3f8360e0ff91a0a96b7da23b3410186063b"
+    },
+    {
+      "path": "work/ariadne-inverse/numpy_pipeline.py",
+      "role": "Existing normalization checks and optional explicit modern-font topology",
+      "sha256": "4dd474a74536409ea85f8a49915f4027d5d531d9b53619e4973c40a44deb15cc"
+    }
+  ],
+  "method": {
+    "bindings_sha256": "343e386253ab84f08a4f537dee66bbc4bf13b93e534efd295a15d7948af0b27a",
+    "bridge_sha256": "8767f99ca5999ddd18708708dce6538d2afc78317a07cfb9186cf0870b89f911",
+    "english": "Letter names excluded from phonemic vectors and segment parsing",
+    "normalization": "Existing normalize_vectors; zero norms remain zero",
+    "numpy_version": "2.2.5",
+    "segmentation": "Existing literal IPA parser; no new affricate/diphthong boundaries",
+    "unicode": "Raw strings unchanged; legacy NFC applies only to derived IPA parsing",
+    "version": "canonical-v2"
+  },
+  "schema": "ariadne.canonical-feature-artifacts.v1",
+  "source": {
+    "artifact_id": "source:d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+    "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\source\\matrix-message.txt",
+    "role": "USER_SUPPLIED_COMPARATIVE_DATASET",
+    "sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c"
+  }
+}

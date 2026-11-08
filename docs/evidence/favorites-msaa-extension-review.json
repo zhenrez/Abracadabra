@@ -1,0 +1,69 @@
+{
+  "schema": "sunny.favorites-msaa-extension-review.v1",
+  "scope": "All files in the user-designated Favorites folder. Filename text is an action identity check, never a source-eligibility filter; the earlier20-image discussion does not limit the collection.",
+  "reviewed_helper": "scripts/favorites_legacy_observe.ps1",
+  "changes_implemented_at_parent_request": [
+    "Observe now calls native AccessibleChildren in batches of at most64, using each returned IAccessible/IDispatch object or actual integer childID instead of assuming1..accChildCount are childIDs.",
+    "The observer reports LastObservation visited/returned counts, batch count, node/depth/per-node-child limits, corresponding cap-hit flags and COM/enumeration errors. folder_completeness_established remains false.",
+    "Observation name retains the complete provider name; name_preview is a separate180-character convenience field and name_clipped is false.",
+    "Observation includes raw accState and accDefaultAction plus read-error flags, so selected/loading/content state can be distinguished without executing the action.",
+    "The existing Observe list return shape was preserved. Parent-owned parameter, navigation and single-process snapshot changes were left intact."
+  ],
+  "validation": {
+    "powershell_parse": "passed after both focused class patches",
+    "runtime_evidence_read_back": "docs/evidence/favorites-single-process-observation.json",
+    "runtime_owner": "Parent performed the actual navigation/observation; reviewer only read the saved result.",
+    "observed_navigation_receipt": "docs/evidence/favorites-library-navigation-superjev.json: actualjev-1.14.0 selectedopen_library0.94; this alone is not a postcondition.",
+    "sample1_main_renderer": {"visited": 533, "returned_nodes": 243, "child_batches": 337, "node_limit_hit": false, "depth_limit_hit": true, "child_limit_hit": false, "errors": 0},
+    "samples2_and3_main_renderer": {"visited": 800, "returned_nodes": 306, "node_limit_hit": true, "depth_limit_hit": true, "errors": 0},
+    "favorites_sample1": {"role": 37, "state": 3145734, "default_action": "click", "interpretation": "Selected and focused tab with focusable/selectable flags. Later omission under a cap cannot prove the tab or overlay closed."},
+    "full_name_state_and_action_fields": "present in the saved runtime result",
+    "reviewer_gui_calls": 0,
+    "reviewer_navigation_invocations": 0,
+    "reviewer_background_workers_started": 0
+  },
+  "smallest_next_extensions": [
+    {
+      "priority": 1,
+      "extension": "Observe the actual Library/Favorites file-list container, not the entire conversation renderer",
+      "why": "The saved runtime reaches depth20 and node800; sidebar/chat content can consume the budget. Scope to a freshly observed collection container and reset relative depth. Keep caps and errors visible; raising whole-page limits does not establish complete collection coverage.",
+      "scope_boundary": "Find the collection by observed container/ancestry and selected Favorites state; do not filter individual source files by research keywords or expected filenames."
+    },
+    {
+      "priority": 2,
+      "extension": "Reuse real child enumeration for any future path-based action lookup",
+      "why": "Observer paths now distinguish /index:N for object children and /child:actualID for simple children. The retained legacy navigation traversal still uses sequential get_accChild indices and its old /1/2 paths. Do not feed a new observation path into that old resolver. Root can reuse the same AccessibleChildren traversal before adding a file-open operation.",
+      "action_boundary": "Validate one fresh renderer/window identity, current container, full name, role, state, location/defaultAction and globally unique observed target. Refuse disabled/offscreen/invisible/stale or ambiguous matches. Existing Library/Favorites names remain navigation controls, not a generic arbitrary-name click API."
+    },
+    {
+      "priority": 3,
+      "extension": "Open one observed file and verify the original-byte route before repeating the same bounded action over all files",
+      "why": "A file-row default action may open a preview, while a nearby star/menu action may mutate Favorites. Inspect the actual role, full name and defaultAction before the parent invokes it. Verify the resulting file title/reference/content view, then prefer a native exact-reference or observed Download Original action. A successful single-file route is a transport proof, not a one-file scope reduction.",
+      "action_boundary": "No guessed paths, file references or URLs; no clipboard/cookie/session-store extraction; no new authenticated browser or persistent crawler. The parent owns navigation and checks each postcondition."
+    },
+    {
+      "priority": 4,
+      "extension": "Handle virtualized/paginated continuation as an explicit observed read-navigation action",
+      "why": "AccessibleChildren enumerates exposed children, not necessarily every source item in a virtualized folder. Keep set counts, next/load-more/scroll availability and observed positions. When authorized, parent performs one bounded observed navigation/scroll action then re-observes, with a finite unchanged-state budget. Missing or clipped items remain a concrete coverage gap.",
+      "completion_boundary": "An empty accessibility result under a cap, a disappearance between snapshots, or a zero Pages API result cannot mean the Favorites folder is empty or fully processed."
+    }
+  ],
+  "source_quality_acceptance": [
+    "Every Favorites occurrence remains in the manifest regardless of filename, extension, apparent relevance or relationship to the20-image subset.",
+    "Preserve exact collection/breadcrumb provenance, native item/reference identity where available, displayed name/type/size/date, snapshot provenance and retrieval outcome; do not overwrite duplicate filenames.",
+    "Distinguish observed_in_favorites, original_bytes_acquired, content_extracted, unsupported_format and inaccessible. Filenames, preview text and thumbnails are not original bytes.",
+    "Hash originals before extraction. Preserve document page/sheet/cell/formula structure and image pixels, dimensions, orientation, diagrams, tables, arrows, colors, axes, overlaps and layer relationships. OCR is a derived text layer, not a substitute for geometry-bearing originals.",
+    "Keep ambiguities, native labels, source roles, original user corrections and extraction truncation. Do not invent shapes, operators, orientation locks or unseen text to fill a retrieval gap.",
+    "Reconcile observed folder counts and pagination/virtualization with per-item outcomes before claiming all intended sources were collected. A count of exposed accessibility nodes is not a file count or an account-completeness certificate."
+  ],
+  "official_sources": [
+    {"title": "AccessibleChildren — Microsoft Learn", "url": "https://learn.microsoft.com/en-us/windows/win32/api/oleacc/nf-oleacc-accessiblechildren", "supports": "The start parameter is a child index; returned variants carry the actual childID or IDispatch. Use returned identities rather than treating an index as a childID."},
+    {"title": "How Clients Obtain Child IDs — Microsoft Learn", "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/how-clients-obtain-child-ids", "supports": "Native enumeration yields childIDs/interface references; returned interface resources have a lifecycle and must not become a persistent unbounded collector."},
+    {"title": "Working with Virtualized Items — Microsoft Learn", "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-workingwithvirtualizeditems", "supports": "Only realized virtualized items may exist in accessibility trees, and realization can change scrolling; visible inventory alone is insufficient."}
+  ],
+  "unverified": [
+    "No original Favorites file bytes were opened or downloaded by this reviewer.",
+    "No complete file-list enumeration, virtualized tail, collection total or semantic extraction was certified.",
+    "The parent must verify any later mutated helper and navigation extension against fresh runtime evidence."
+  ]
+}

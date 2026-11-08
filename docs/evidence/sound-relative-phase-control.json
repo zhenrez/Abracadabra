@@ -1,0 +1,14 @@
+{
+  "signals": "x(t)=cos(t)+0.5 cos(2t+phi), one period each",
+  "phase_radians": [
+    0,
+    1.5707963267948966
+  ],
+  "DFT_samples": 64,
+  "observed_invariant": [
+    -5.898059818321149e-17,
+    1.5707963267948968
+  ],
+  "proof": "Translation by tau multiplies coefficient c_n by exp(i*n*tau), so c2/c1^2 is unchanged. Its arguments differ by pi/2, precluding translation equivalence even with identical duration, pitch and harmonic magnitudes.",
+  "boundary": "Synthetic periodic signals. This constrains claims of unique waveforms from magnitude-only musical evidence. No historical, phoneme, perceptual or ritual identity follows."
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "sunny.independent-reading-integration-review.v1",
+  "checkedAt": "2026-11-08T22:11:08.250Z",
+  "status": "passed",
+  "exit_code": 0,
+  "hashes": {
+    "state/reconstruction/hierarchy-atlas-combined.json": "a89ac6b2e327f2b9038d105c2d3625a15cf96c6f495704a901dbc61e29949e28",
+    "state/reconstruction/master-score.json": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c",
+    "state/reconstruction/reading-operations.json": "b211850b4167638f420f7171190ddd1bc92bd22da9470978840a7fd518d3793c",
+    "tests/reading-integration.test.mjs": "02a821c2044293c02e5771151939a15804824fb1a683aa28b976cb3d67560131",
+    "data/raw/reconstruction-integrations/715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7/hierarchy-atlas-combined.json": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7",
+    "data/raw/reconstruction-integrations/d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59/master-score.json": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59"
+  },
+  "preserved": {
+    "entities": 9493,
+    "relationships": 10233,
+    "hierarchyViews": 22,
+    "scoreViews": 11,
+    "priorScoreExecutions": 11
+  },
+  "baselineRecovery": {
+    "graph": [
+      {
+        "sourcePath": "state/reconstruction/hierarchy-atlas-combined.json",
+        "snapshotPath": "data/raw/reconstruction-integrations/0798369da155e16c3f88f27d44927d2bcaa6cded724eceb11bb9d9c7e885a7d2/hierarchy-atlas-combined.json",
+        "sha256": "0798369da155e16c3f88f27d44927d2bcaa6cded724eceb11bb9d9c7e885a7d2",
+        "bytes": 11910165,
+        "recordCount": 9512
+      },
+      {
+        "sourcePath": "state/reconstruction/hierarchy-atlas-combined.json",
+        "snapshotPath": "data/raw/reconstruction-integrations/715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7/hierarchy-atlas-combined.json",
+        "sha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7",
+        "bytes": 11879664,
+        "recordCount": 9493
+      }
+    ],
+    "score": [
+      {
+        "sourcePath": "state/reconstruction/master-score.json",
+        "snapshotPath": "data/raw/reconstruction-integrations/6bf27dffd9e7c1c6b039497ad63f8f3a73c357bb0d12ad4a354f2cd37ec48900/master-score.json",
+        "sha256": "6bf27dffd9e7c1c6b039497ad63f8f3a73c357bb0d12ad4a354f2cd37ec48900",
+        "bytes": 774471,
+        "recordCount": 15
+      },
+      {
+        "sourcePath": "state/reconstruction/master-score.json",
+        "snapshotPath": "data/raw/reconstruction-integrations/d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59/master-score.json",
+        "sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59",
+        "bytes": 620218,
+        "recordCount": 11
+      }
+    ],
+    "boundary": "Replay preserves a hash-linked prior-state chain. The immediate prior snapshot may already contain the extension; equality checks use the recovered original9493/11baseline."
+  },
+  "added": {
+    "entities": 19,
+    "relationships": 18,
+    "hierarchyViews": 1,
+    "untimedReadingViews": 4,
+    "individuallyAddressedSyllables": 12
+  },
+  "sharedSyllableIds": [
+    "molin:example7:contextual:syllable1",
+    "molin:example7:contextual:syllable2",
+    "molin:example7:contextual:syllable3",
+    "molin:example7:pausal:syllable1",
+    "molin:example7:pausal:syllable2",
+    "molin:example7:pausal:syllable3",
+    "molin:example8:contextual:syllable1",
+    "molin:example8:contextual:syllable2",
+    "molin:example8:contextual:syllable3",
+    "molin:example8:pausal:syllable1",
+    "molin:example8:pausal:syllable2",
+    "molin:example8:pausal:syllable3"
+  ],
+  "allNewNodesRootReachable": true,
+  "parentsAndScoreIdsMatch": true,
+  "unknownAcousticsAndTimingPreserved": true,
+  "sourceExtentReconciled": false,
+  "fullMissionComplete": false,
+  "guardUse": {
+    "plugin": "Supermemory",
+    "operation": "search_memory",
+    "success": true,
+    "scope": "Retrieved continuity during this independent review; not historical certification."
+  },
+  "boundary": "Snapshot/record equality, identified parentage and unknown preservation only. No original ink, phonetic intention, clock, musical assignment or global alignment certified."
+}

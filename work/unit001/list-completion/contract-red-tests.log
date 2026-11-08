@@ -1,0 +1,41 @@
+test_T04_two_partitions_share_all_22_identities (test_list_completion.ListCompletionTests.test_T04_two_partitions_share_all_22_identities) ... FAIL
+test_T06_alternative_has_separate_source (test_list_completion.ListCompletionTests.test_T06_alternative_has_separate_source) ... FAIL
+test_cell_ordinal_cannot_readdress_source (test_list_completion.ListCompletionTests.test_cell_ordinal_cannot_readdress_source) ... ok
+test_derivation_provenance (test_list_completion.ListCompletionTests.test_derivation_provenance) ... ok
+test_migrated_claims_are_core_links (test_list_completion.ListCompletionTests.test_migrated_claims_are_core_links) ... ok
+test_serialized_source_encoding_cannot_lie (test_list_completion.ListCompletionTests.test_serialized_source_encoding_cannot_lie) ... FAIL
+test_source_encoding (test_list_completion.ListCompletionTests.test_source_encoding) ... ok
+test_source_lineage_provenance (test_list_completion.ListCompletionTests.test_source_lineage_provenance) ... ok
+test_unknown_mutable_container_rejected (test_list_completion.ListCompletionTests.test_unknown_mutable_container_rejected) ... ok
+
+======================================================================
+FAIL: test_T04_two_partitions_share_all_22_identities (test_list_completion.ListCompletionTests.test_T04_two_partitions_share_all_22_identities)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 28, in test_T04_two_partitions_share_all_22_identities
+    self.assertEqual(len(identities),22)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3 != 22
+
+======================================================================
+FAIL: test_T06_alternative_has_separate_source (test_list_completion.ListCompletionTests.test_T06_alternative_has_separate_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 37, in test_T06_alternative_has_separate_source
+    self.assertEqual(len(sources),2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_serialized_source_encoding_cannot_lie (test_list_completion.ListCompletionTests.test_serialized_source_encoding_cannot_lie)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 23, in test_serialized_source_encoding_cannot_lie
+    with self.assertRaises(ValueError):KernelStore((dataclasses.replace(source,encoding='utf-8'),)).validate()
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.196s
+
+FAILED (failures=3)

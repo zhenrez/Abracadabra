@@ -1,0 +1,14 @@
+{
+  "state": "Expanded request: newest100 account uploaded images, including repeats, no reupload. Chrome Library All briefly yielded real file/folder rows (SUN archive and research exports) but changed during reads. Library Images tab was not observed immediately after a later Library invoke. Fullpage accessibility has caps; scoped Library lookup can stale with COMerror. Two children seek original bytes locally and exportrefs. Another existing native ChatGPT desktop mainwindow PID15856/handle196834 is the user's likely screenshot surface and has not been directly observed through legacyMSAA (only opaque UIA). No new browser or service needed. Need change approach rather than repeat failing Chrome sequence.",
+  "questions": {
+    "recovery": {
+      "type": "choice",
+      "instructions": "Choose the smallest read-only observation that can resolve the live source surface.",
+      "criteria": {
+        "desktop_main_observe": "Read bounded nativeMSAA at the existing ChatGPT desktop mainwindow and visible children to locate its library/image surface; root owns browser operations.",
+        "chrome_repeat": "Repeat the same Chrome Library/Images navigation unchanged.",
+        "local_only": "Abandon live collection observation and limit source acquisition to local copies and exportrefs."
+      }
+    }
+  }
+}

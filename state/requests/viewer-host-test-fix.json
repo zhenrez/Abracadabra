@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Verify the read-only SUNNY service against actual Host-header input without weakening validation.",
+    "observed": "Driver regression passes. Endpoint test expected403 for Host:evil.example but got200 because Node22 fetch does not transmit the requested Host override; native node:http.request does transmit it. This is a test-client mismatch, not observed validation bypass.",
+    "constraints": "Use real Jev for implementation forks; source service Host validation must remain; original failed test preserved in tool log."
+  },
+  "questions": [
+    {
+      "id": "host_test_fix",
+      "type": "choice",
+      "question": "How should the Host-header regression test reproduce a foreign Host request?",
+      "options": {
+        "native_http": "Replace only the test's Host-overridden fetch with node:http.request, which demonstrably transmits the foreign Host; keep service validation and assert403.",
+        "mock_header": "Replace the network test with a direct unit-only Host validation test; retain service validation but no end-to-end foreign Host request."
+      }
+    }
+  ]
+}

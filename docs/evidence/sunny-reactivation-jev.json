@@ -1,0 +1,44 @@
+{
+  "request": {
+    "state": "The user has explicitly resumed SUNNY, all 16 goals, scholarly census before heterodox exposure, symbols before calendar/zodiac. Three agents own P0-A witnesses, pre-terminology music/history and bounded worker. First frozen question is aleph/A graphic identity vs phonetic and acoustic function. Choose coordinator next substantive contribution.",
+    "questions": {
+      "next": {
+        "type": "choice",
+        "instructions": "Which complementary task best advances this question while keeping the freeze?",
+        "criteria": {
+          "control": "Develop an exact identifiability control separating graph/order resemblance from inferred phoneme or waveform, preserving independent evaluation.",
+          "duplication": "Independently collect the same primary witnesses already assigned to the census agent.",
+          "wait": "Only await all reports."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "7b7c7192df3695d8f09a94d87b1b3dd2a4fb1c73b618c910da66425ae4b265a2",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next": {
+        "type": "choice",
+        "probabilities": {
+          "control": 1.0,
+          "duplication": 0.0,
+          "wait": 0.0
+        },
+        "winner": "control",
+        "top_probability": 1.0,
+        "margin": 1.0
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 438,
+      "output_tokens": 40
+    },
+    "network_calls": 1,
+    "latency_ms": 301
+  }
+}

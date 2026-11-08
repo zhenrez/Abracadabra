@@ -1,0 +1,87 @@
+{
+  "schema": "sunny.current-source-recovery.v1",
+  "created_utc": "2026-10-31T19:17:54.950610+00:00",
+  "backup": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\backups\\current-reconstruction-before-20261031T191736387534Z.sqlite",
+  "before": {
+    "sources": 2042,
+    "conversations": 1032,
+    "messages": 59901,
+    "documents": 1934
+  },
+  "after": {
+    "sources": 2048,
+    "conversations": 1035,
+    "messages": 60398,
+    "documents": 1940
+  },
+  "sources": [
+    {
+      "original": "C:\\Users\\Brend\\Downloads\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "bytes": 739025,
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "status": "text_extracted",
+      "detail": null
+    },
+    {
+      "original": "C:\\Users\\Brend\\Downloads\\ChatGPT-Comparative Research Protocol-20261023-0408.md",
+      "sha256": "2edd89761a571293c3a7ea62503d8488c33c61f16b01dd96a5b0c382d7fee82e",
+      "status": "exact_bytes_already_indexed",
+      "existing_sources": [
+        [
+          "807b4346e95a5692a453a32819b867888c8aa98b9fca189b6b0abc00eccd73aa",
+          "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\SUN_SOL_CORE\\ChatGPT-Comparative Research Protocol-20261023-0408.md"
+        ]
+      ]
+    },
+    {
+      "original": "C:\\Users\\Brend\\Downloads\\ChatGPT-Branch · Comparative Research Protocol-20261023-2306.md",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3\\ChatGPT-Branch · Comparative Research Protocol-20261023-2306.md",
+      "sha256": "64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3",
+      "bytes": 321089,
+      "source_id": "6031887ade535990ea3e282114f6183fad43d33c5425e46f6022d5f558b38d20",
+      "status": "text_extracted",
+      "detail": null
+    },
+    {
+      "original": "C:\\Users\\Brend\\Downloads\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "bytes": 1429519,
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "status": "text_extracted",
+      "detail": null
+    },
+    {
+      "original": "C:\\Users\\Brend\\Downloads\\72_gates_00_to_12.csv",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\77f676a04e8fc8769e83e19445c49bf60889fbeecd8bf53f35f8cadbaacb75f2\\72_gates_00_to_12.csv",
+      "sha256": "77f676a04e8fc8769e83e19445c49bf60889fbeecd8bf53f35f8cadbaacb75f2",
+      "bytes": 7658,
+      "source_id": "db5f0a5687f19c44a5ef3c501a4491d405731e9224163936c69e89d5b3d5737d",
+      "status": "text_extracted",
+      "detail": null
+    },
+    {
+      "original": "C:\\Users\\Brend\\Downloads\\216_positions.csv",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\6371ebda3ee84a8b7e5d18e1c52edc8314908f600dfe01faf8aacdc17244693c\\216_positions.csv",
+      "sha256": "6371ebda3ee84a8b7e5d18e1c52edc8314908f600dfe01faf8aacdc17244693c",
+      "bytes": 7178,
+      "source_id": "c547bb5f34dcba672af188172d36a88db80390175e10921e39528e25d77acb3c",
+      "status": "text_extracted",
+      "detail": null
+    },
+    {
+      "original": "C:\\Users\\Brend\\.codex\\attachments\\04ad8370-1a63-4e0d-b2fb-63009edffd16\\Pasted text.txt",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\7923f3cebc5eca55c31f8d0b8d948cf6700d02296b2d117241c1b0e6f9b9a3b1\\Pasted text.txt",
+      "sha256": "7923f3cebc5eca55c31f8d0b8d948cf6700d02296b2d117241c1b0e6f9b9a3b1",
+      "bytes": 97797,
+      "source_id": "3edf63beabbe0c0e9c76b5a6255aa134a241d7fc43bfe938a12cb312f166d40d",
+      "status": "text_extracted",
+      "detail": null
+    }
+  ],
+  "extraction_errors": [],
+  "foreign_key_violations": [],
+  "boundary": "Original-byte snapshots and parsed source roles only. No historical prompt enacted, no source assertion promoted, no independent account completeness claimed."
+}

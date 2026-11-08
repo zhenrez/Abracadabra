@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-08T21:41:36.825327+00:00",
+    "app_version": "SUNNY-Chinese-native-range",
+    "root_hash": "7241031e02b5844fbafcbbd6d30a24c4814841983513238baf1b11a4bc7019f1"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "ff331d9c-3222-521f-944b-6fee68da53bb",
+      "source_identity_sha256": "c08bb31640664b1c6a2e226303aff36d88f1f9d7c361ea8f964d68d99ef04e4e",
+      "source_version_id": "72f47dc1-ccb8-541b-8c37-212b9334647d",
+      "version_number": 1,
+      "content": "每條定弦(音)可以移動琴碼，以上/下半度音高為基礎 (特殊定弦例外)；\n惟轉調時需預留時間給樂師移動琴碼。\nEach String (note) can be adjusted a half step higher / lower by moving the bridges prior to playing.\nAlthough changing keys is possible by moving the bridges, allow time for the player to move the bridges.\n",
+      "content_sha256": "2f7e736abb7aea2b298d257f1b79b09f435296f917445d573a225eeeba3f839b",
+      "content_length": 261,
+      "parser_version": "sunny-hkco-pdf-crop-v1",
+      "node_hash": "2bf438e08d436b692cee08b020b980b4b0fb82c42852e61f74ad9382f0ad1f60"
+    },
+    "chunks": [
+      {
+        "id": "9896f281-bf4d-55c7-a9e9-9b12788e4266",
+        "source_node_hash": "2bf438e08d436b692cee08b020b980b4b0fb82c42852e61f74ad9382f0ad1f60",
+        "source_id": "ff331d9c-3222-521f-944b-6fee68da53bb",
+        "source_version_id": "72f47dc1-ccb8-541b-8c37-212b9334647d",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 261,
+        "start_line": 1,
+        "end_line": 4,
+        "content": "每條定弦(音)可以移動琴碼，以上/下半度音高為基礎 (特殊定弦例外)；\n惟轉調時需預留時間給樂師移動琴碼。\nEach String (note) can be adjusted a half step higher / lower by moving the bridges prior to playing.\nAlthough changing keys is possible by moving the bridges, allow time for the player to move the bridges.\n",
+        "content_sha256": "2f7e736abb7aea2b298d257f1b79b09f435296f917445d573a225eeeba3f839b",
+        "node_hash": "403681f2d35f47e90997e42bbfe4487c248ce95efb2f37c10e98c79ba7a85629"
+      }
+    ],
+    "citations": [
+      {
+        "id": "a26ea361-38d7-5b9a-895c-b714c720edc8",
+        "source_node_hash": "2bf438e08d436b692cee08b020b980b4b0fb82c42852e61f74ad9382f0ad1f60",
+        "chunk_node_hashes": [
+          "403681f2d35f47e90997e42bbfe4487c248ce95efb2f37c10e98c79ba7a85629"
+        ],
+        "source_id": "ff331d9c-3222-521f-944b-6fee68da53bb",
+        "source_version_id": "72f47dc1-ccb8-541b-8c37-212b9334647d",
+        "start_offset": 54,
+        "end_offset": 155,
+        "start_line": 3,
+        "end_line": 3,
+        "quote": "Each String (note) can be adjusted a half step higher / lower by moving the bridges prior to playing.",
+        "quote_sha256": "5abf13b699b0564815783ac053562f2612fc4c2d953c767427524f9adbe812c9",
+        "node_hash": "7d7dec527a5994dda3dc2f1b2ab71fd25a092d8ba1578bb218fbfb817bd397ea"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-hkco-pdf-crop-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "2bf438e08d436b692cee08b020b980b4b0fb82c42852e61f74ad9382f0ad1f60",
+        "403681f2d35f47e90997e42bbfe4487c248ce95efb2f37c10e98c79ba7a85629",
+        "7d7dec527a5994dda3dc2f1b2ab71fd25a092d8ba1578bb218fbfb817bd397ea"
+      ],
+      "node_hash": "ecfab5ac0a1abf52268d478555cc5e19527a37f6d0c28ba80d6d1ada7d2e8e94"
+    },
+    "artifact": {
+      "id": "d1c9f815-ad36-5a3b-9704-8f4a3298aaef",
+      "kind": "constraint",
+      "title": "Zheng source-local bridge operation",
+      "statement": "The captured chart text licenses a half-step local adjustment before playing; the Chinese special-tuning exception and independent joint-tuning uncertainty remain explicit.",
+      "rationale": "Exact text integrity only, not manuscript authenticity, acoustic measurement, calibrated probability or overall completion.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "ecfab5ac0a1abf52268d478555cc5e19527a37f6d0c28ba80d6d1ada7d2e8e94",
+      "citation_node_hashes": [
+        "7d7dec527a5994dda3dc2f1b2ab71fd25a092d8ba1578bb218fbfb817bd397ea"
+      ],
+      "node_hash": "0216e2c654011bdb97875a868a664a1cd9a6e3d076e164c0c80626006ceef7c6"
+    },
+    "review": {
+      "artifact_node_hash": "0216e2c654011bdb97875a868a664a1cd9a6e3d076e164c0c80626006ceef7c6",
+      "status": "candidate",
+      "created_at": "2026-11-08T21:41:36.825327+00:00",
+      "updated_at": "2026-11-08T21:41:36.825327+00:00",
+      "node_hash": "36ba379109bb6c6e933a4c5b21cf63a52443e45e798f2dceea8801c40649ba25"
+    }
+  }
+}

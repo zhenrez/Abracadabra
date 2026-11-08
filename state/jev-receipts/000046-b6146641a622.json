@@ -1,0 +1,88 @@
+{
+  "status": "judged",
+  "sha256": "b6146641a6228217c0efca2b350c1d5c5c22d015c7733088a85ea1a5c2082147",
+  "sequence": 46,
+  "previous_sha256": "dcb092dc96f74e0a55100ae34b280e942868618b2ac5ce29fceaff687346e868",
+  "purpose": "IndependentAgentSkills/APIboundary review emphasis selected byactualJev",
+  "completed_at": "2026-10-31T01:29:19.180153+00:00",
+  "request_sha256": "d36df5ad0549c7b13f15e11bc818697d152bac10d4f62bec47e6ebc697dd8711",
+  "request": {
+    "state": {
+      "goal": "Independent code review of actualJev tool, fixed quarterbackCLI, sourcebound conditionalcomparison and currentservercontract; no edits to maincode.",
+      "user_constraints": "ActualJev dictates review emphasis; preserve unknowns and sourcebytes, no fabricatedJev fallback, no scientifictruth or finalontologyclaims. Review concretebugs with reproduction, proportional scope.",
+      "observed_code": "Jev tool validates choice labels/maxima, resulttypes, truncationcount and pinnedmodelSHA; booleanbranch onlychecks distributionlabels and scorebranchhas no label/valuevalidation. Quarterbackexecutesfixed read-onlyargvpool viasubprocess(shell=False), including npm.cmd onWindows. Comparison parser normalizes to null-prototypeassignmentobjects, requires sourceRefs arrays, permits emptyarrays/constraints, blocks evaluation if sourcebindingstatusunknown. HTTP comparisonintegrationcurrentlybeingwired byroot; serverread routesparameterized and sourcefilesnotserved arbitrarily.",
+      "available_checks": "Existingsynthetic tests cover choices/truncation/modelhash and basicJSON/unknownconstraints; concrete adversarial probes cancall validate_result with wrongboolean/score values, testprototype/emptyrefs comparisons, verify fixednpmcommand launch, and inspect receiptfile/DBconsistency inisolated tempROOT. Do notmutate mainDB or livetools configurations."
+    },
+    "questions": [
+      {
+        "id": "review_emphasis",
+        "type": "choice",
+        "question": "Which bounded review emphasis should run first to discriminate material contract defects?",
+        "options": {
+          "typed_response_and_cli": "Reproduce boolean/score responsevalidation and actualWindowsfixedCLI launch, thencheck sourcebound unknown/prototype boundaries againstcurrentcode.",
+          "prototype_and_refs": "First probe sourcebinding/unknown/emptyconstraints/prototype handling, thenresponseandCLI boundaries.",
+          "receipt_consistency": "First probe isolatedreceipt DB/fileagreement andstale/malformedrecords, then sourcecomparison andCLI boundaries."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "review_emphasis",
+            "type": "choice",
+            "distribution": {
+              "prototype_and_refs": 0.350693017244339,
+              "receipt_consistency": 0.32097548246383667,
+              "typed_response_and_cli": 0.32833147048950195
+            },
+            "value": "prototype_and_refs",
+            "description": "First probe sourcebinding/unknown/emptyconstraints/prototype handling, thenresponseandCLI boundaries.",
+            "top_probability": 0.350693017244339,
+            "margin": 0.022361546754837036
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 932,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 354,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 1456.0
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

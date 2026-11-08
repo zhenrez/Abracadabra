@@ -1,0 +1,14 @@
+{
+  "state": "Two native accessibility navigations succeeded but next independently launched PowerShell reader saw conversation again instead of Library. Library had Favorites tab role37 and Library files container52children before selecting. Root selected Favorites once successfully; immediate observation showed tabs but no file list (possible loading). A later reader saw conversation. Do not assume user action or collection empty. Current helper returns after navigation. Existing browser only, no remote session or credentials.",
+  "questions": {
+    "recovery": {
+      "instructions": "Select narrow diagnostic recovery.",
+      "criteria": {
+        "pause_input": "Stop source access and ask user for missing collection export now.",
+        "retry_independent": "Repeat separate navigation and reader processes unchanged.",
+        "single_process": "Perform Library then Favorites with one existing helper process, bounded short waits and fresh same-process observations including selected tab states. This avoids repeated executable activation and captures loaded collection before exit."
+      },
+      "type": "choice"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.secunda-restoration-independent-audit.v1",
+  "reviewedLocalDate": "2026-11-03",
+  "question": "Which letters in the -αυεω example are editorially restored versus presented as surviving, and what is its exact Psalm locus?",
+  "disposition": "The reconstruction image clearly places αυεω after the restoration boundary. Its full target row is ουαβσ]αυεω; ουαβσ is the restored prefix. The corresponding Hebrew word is ובשועו at Hebrew/MT Psalm22:25. These are edition/source-location checks; independent physical reading of every target letter remains pending.",
+  "sourceIdentity": {
+    "shelfmark": "T-S 12.182",
+    "author": "Benjamin Kantor",
+    "article": "The Oldest Fragment of Origen's Hexapla: T-S 12.182",
+    "publication": "Cambridge University Library, Fragment of the Month, March2019",
+    "url": "https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/fragment-month/fotm-2019/fragment-1",
+    "doi": "10.17863/CAM.45329",
+    "preservedOriginalHtml": "docs/reconstruction/symbol-sound-census/secunda-cambridge-2019.html",
+    "originalAndFreshHtmlSha256": "a06dbe581becf9b6613cbc68987572c9393b838de27c45cd2e79e90643ff60bc",
+    "institutionalManifest": "docs/reconstruction/symbol-sound-census/secunda-independent/cudl-manifest.json",
+    "dateScope": "Article describes sixth/seventh-century palimpsest undertext; current CUDL manifest proposes seventh century, with upper text ca.tenth century. This audit does not resolve the dating difference."
+  },
+  "charter": {
+    "type": "Bounded descriptive source/edition audit",
+    "knowledgeDepth": "Working: article and official reconstruction read; exact Hebrew verse independently located; institutional normal/MSI images inspected at bounded resolution",
+    "canon": ["Official Kantor2019 article and its large reconstruction image", "Cambridge Digital Library institutional IIIF manifest and normal/MSI images", "Mechon Mamre primary Hebrew-text presentation for exact verse numbering", "Existing local transcription control, preserved rather than overwritten"],
+    "scopeFilter": "Only the target fragment/example and its locus; no broad historical pronunciation reconstruction",
+    "objectFilter": "Editorially represented surviving letters are distinguished from restored prefix and from independent physical glyph verification"
+  },
+  "editionBoundary": {
+    "image": "docs/reconstruction/symbol-sound-census/secunda-independent/reconstructed-column.jpg",
+    "imageUrl": "https://www.lib.cam.ac.uk/files/reconstructed_second_column_big.jpg",
+    "imageSha256": "b3a1235321682fb8545ffaa55a3d8532879b09a1786570c84a76d6a2c035f131",
+    "locator": "Third row in the top three-line group of the printed transcription at left",
+    "literalDisplayedRow": "ουαβσ]αυεω",
+    "displayedBoundary": "]",
+    "restoredPrefix": "ουαβσ",
+    "restoredLetterCount": 5,
+    "editionSurvivingSuffix": "αυεω",
+    "editionSurvivingLetterCount": 4,
+    "manualPixelCitation": {"coordinateConvention": "x0,y0,x1,y1 from original image top-left", "targetRow": [166, 128, 331, 175], "prefix": [169, 131, 250, 167], "boundary": [249, 129, 261, 169], "suffix": [260, 131, 328, 168]},
+    "adjacentControls": [
+      {"displayedRow": "φανα]υ", "restoredPrefix": "φανα", "editionSurvivingSuffix": "υ", "correspondingHebrew": "פניו"},
+      {"displayedRow": "μεμμ]εννου", "restoredPrefix": "μεμμ", "editionSurvivingSuffix": "εννου", "correspondingHebrew": "ממנו"}
+    ],
+    "directionEvidence": "The article describes only the rightmost edge of columnII as remaining, then supplies a tentative reconstruction. In the image, reconstructed prefixes precede the closing bracket and the preserved suffixes follow it. The full reconstructed word must not be counted as nine directly attested letters.",
+    "readingMethod": "Manual visual reading of the official large image, not OCR output or a Jev truth classification"
+  },
+  "psalmLocus": {
+    "numberingSystem": "Hebrew/MT, with superscription numbered as verse1",
+    "psalm": 22,
+    "verse": 25,
+    "articleReconstructionRange": "Ps.22.25-28",
+    "unpointedHebrewTarget": "ובשועו",
+    "pointedHebrewInIndependentText": "וּבְשַׁוְּעוֹ",
+    "sourceUrl": "https://mechon-mamre.org/p/pt/pt2622.htm",
+    "preservedSource": "docs/reconstruction/symbol-sound-census/secunda-independent/psalm22-mt.html",
+    "locator": "Table row with Hebrew verse label כה and numeric label25; target follows ממנו and precedes אליו שמע",
+    "numberingBoundary": "CUDL identifies the psalm as22, or21 in the Greek tradition. A Greek verse-level correspondence and alternate English versifications were not separately collated; use the explicit Hebrew/MT22:25 address here.",
+    "notAFullVerseQuote": true
+  },
+  "physicalImageCheck": {
+    "receipt": "docs/reconstruction/symbol-sound-census/secunda-independent/image-retrieval.json",
+    "imagesInspected": ["1r", "1v", "MSI Triple1r", "MSI Triple1v"],
+    "boundedRequest": "Institutional IIIF image requests at1600px width; service returns bounded JPEG images. Actual dimensions are retained in validation.",
+    "observations": "Normal images show the overtext and faint Greek undertext; MSI views expose substantial Greek columns beneath the Hebrew. These inspected overview images do not independently certify every small target grapheme or establish a precise original-image target rectangle.",
+    "letterByLetterPhysicalVerification": "pending",
+    "editionVersusInkBoundary": "αυεω is presented as extant in Kantor's edition. That editorial status is independently checked against the edition image; it is not mislabeled as this reviewer's completed paleographic collation."
+  },
+  "phoneticScope": {
+    "letterDiscussedInArticle": "ayin, not aleph",
+    "retainedInterpretiveAlternatives": ["Greek transcription preserves syllable structure by an additional vowel", "Greek transcription approximates the guttural articulation"],
+    "epsilonRole": "The source discusses epsilon in this written transcription as part of those alternatives. Its appearance does not uniquely invert to an ancient phone, an absolute frequency or intended musical operation.",
+    "workingPremiseBoundary": "This preserves a concrete source constraint for SUNNY's symbol/sound investigation without adjudicating its broader working premises."
+  },
+  "guardrails": {
+    "actualJevRequest": "docs/reconstruction/symbol-sound-census/secunda-independent/jev-request.json",
+    "actualJevReceipt": "docs/reconstruction/symbol-sound-census/secunda-independent/superjev.json",
+    "model": "jev-1.14.0",
+    "selectedOperationalStep": "inspect_bounded_official_images_then_scoped_report",
+    "actualSupermemorySearch": "docs/reconstruction/symbol-sound-census/secunda-independent/supermemory.json",
+    "methodsApplied": ["SuperJev0.1.2 coordination/runtime, after resolving replaced0.1.0 path", "Research Methodology bounded descriptive/source strategy", "Evidence Review restoration-versus-attestation and source/claim checks"],
+    "runtimeBoundary": "Specialist skill methods are applied; no separate Proofline, AgentProof or Mathbox runtime certification is claimed for this audit."
+  },
+  "retainedFailures": [
+    "Browser article/viewer requests returned403; direct primary HTTP retrieval and institutional IIIF succeeded.",
+    "Old SuperJev0.1.0 helper path no longer existed: preview exited1 and an already queued live command exited2 before inference. No model result was obtained from either. Current installed0.1.2 helper then passed preview and returned one real judged request, preserved separately."
+  ],
+  "negativeControls": [
+    "Removing the restoration bracket and counting all nine Greek letters as surviving overstates this edition's attestation.",
+    "Treating the four-letter suffix as merely a restored invention contradicts its placement after the boundary in the inspected edition.",
+    "Treating the source's ayin discussion as direct aleph evidence changes the actual target letter.",
+    "Treating overview image retrieval or model preference as completed letter-by-letter ink collation exceeds the checks performed."
+  ],
+  "originalControlChanged": false,
+  "centralModelOrTaskChanged": false,
+  "persistentProcessesStarted": 0
+}

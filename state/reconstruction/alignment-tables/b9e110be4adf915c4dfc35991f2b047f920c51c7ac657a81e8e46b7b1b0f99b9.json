@@ -1,0 +1,91 @@
+{
+  "id": "alignment-table-b9e110be4adf915c",
+  "content_sha256": "b9e110be4adf915c4dfc35991f2b047f920c51c7ac657a81e8e46b7b1b0f99b9",
+  "headers": [
+    "Field",
+    "Required result"
+  ],
+  "rows": [
+    [
+      "Source",
+      "Original equations and provenance"
+    ],
+    [
+      "Native domain",
+      "What the model actually describes"
+    ],
+    [
+      "Ingredients",
+      "Variables, parameters, entities, states"
+    ],
+    [
+      "Operations",
+      "Exact transformations and composition rules"
+    ],
+    [
+      "Placement",
+      "Where it might belong in the generative hierarchy"
+    ],
+    [
+      "SUN relationship",
+      "Shared invariants, differences, dependencies"
+    ],
+    [
+      "Executed tests",
+      "Calculations and reproducible outcomes"
+    ],
+    [
+      "New contribution",
+      "What it explains that SUN alone does not"
+    ],
+    [
+      "Failures",
+      "Where and why the attempted integration breaks"
+    ],
+    [
+      "Alternatives",
+      "Other placements or interpretations to test"
+    ],
+    [
+      "Predictions",
+      "New consequences derived from the combination"
+    ],
+    [
+      "Retention",
+      "What remains useful even if other claims fail"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 1796,
+      "line_end": 1809,
+      "char_start": 89124,
+      "char_end": 89901,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Field | Required result |\n|--------|--------|\n| Source | Original equations and provenance |\n| Native domain | What the model actually describes |\n| Ingredients | Variables, parameters, entities, states |\n| Operations | Exact transformations and composition rules |\n| Placement | Where it might belong in the generative hierarchy |\n| SUN relationship | Shared invariants, differences, dependencies |\n| Executed tests | Calculations and reproducible outcomes |\n| New contribution | What it explains that SUN alone does not |\n| Failures | Where and why the attempted integration breaks |\n| Alternatives | Other placements or interpretations to test |\n| Predictions | New consequences derived from the combination |\n| Retention | What remains useful even if other claims fail |\n",
+      "quote_sha256": "827f94233a1293975ee10005c4c844065eb86077abfdaa45a7cbc7f565d9b0de",
+      "message_id": "7bdd581627228089cb2cbb0793400263c8eb347659ceba338baabd4213ac974b",
+      "role": "assistant",
+      "locator": "lines:1796-1809"
+    },
+    {
+      "source_id": "6031887ade535990ea3e282114f6183fad43d33c5425e46f6022d5f558b38d20",
+      "source_sha256": "64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3\\ChatGPT-Branch · Comparative Research Protocol-20261023-2306.md",
+      "line_start": 1787,
+      "line_end": 1800,
+      "char_start": 89029,
+      "char_end": 89806,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Field | Required result |\n|--------|--------|\n| Source | Original equations and provenance |\n| Native domain | What the model actually describes |\n| Ingredients | Variables, parameters, entities, states |\n| Operations | Exact transformations and composition rules |\n| Placement | Where it might belong in the generative hierarchy |\n| SUN relationship | Shared invariants, differences, dependencies |\n| Executed tests | Calculations and reproducible outcomes |\n| New contribution | What it explains that SUN alone does not |\n| Failures | Where and why the attempted integration breaks |\n| Alternatives | Other placements or interpretations to test |\n| Predictions | New consequences derived from the combination |\n| Retention | What remains useful even if other claims fail |\n",
+      "quote_sha256": "827f94233a1293975ee10005c4c844065eb86077abfdaa45a7cbc7f565d9b0de",
+      "message_id": "7fe6ddb9679755fca2ac532d5e92726987e84489b2a077d524bb9f53d746ef3e",
+      "role": "assistant",
+      "locator": "lines:1787-1800"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

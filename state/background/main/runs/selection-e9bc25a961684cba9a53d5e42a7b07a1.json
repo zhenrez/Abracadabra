@@ -1,0 +1,128 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "historical-glyph-user-144b6731b1dde40f",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "85981eca9e79fdeccfe7a6877b21983a440677a7cc44e7d82f8be53c0ce0ac67",
+              "exact_preview": "we should include some statistics for each saying. I'm thinking that we breakdown each saying, and detail everything from how many occurrences each number, letter, character, symbol, word, word pairing, word set, sentence, noun, verb, adjective, pronoun, etc., there are in each saying, along with detailing the perspective (who is speaking and to whom are they speaking), the tone, the classification (type), etc.. Then we note every bible passage (story, parable, biblical occurrence, book, chapter & verse) that has to deal with each datapoint (from symbol and word, on up)",
+              "preview_characters": 576,
+              "full_passage_characters": 576,
+              "preview_limited": false
+            }
+          ]
+        },
+        {
+          "id": "historical-glyph-user-19c942aa4d07958c",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+              "message_id": "7343b5d0a2d2e01923f54eeabf28af8a67afc29354c680126e2b908020893b25",
+              "exact_preview": "I will resubmit the concept minus the poor examples, and have you stay from there: \n\nAlbum Concept: \"The Verbal Alchemist\"\nCore Theme: The album explores the transformation of language into an potent, almost magical force. It delves into the internal struggles, external observations, and the sheer joy of manipulating words to create profound impact, humor, and visceral imagery. Each track is a 'transmutation' of thought into lyrical gold, showcasing the artist's command over the English language in ways rarely heard.\nArtistic Ethos: To push the boundaries of lyrical density and complexity, ensuring every line serves multiple purposes—phonetic, semantic, conceptual, and emotional. The album will weave personal narrative with broader societal commentary, all delivered through a lens of self-",
+              "preview_characters": 800,
+              "full_passage_characters": 4958,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "historical-glyph-user-1cc138d23499e62d",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+              "message_id": "82a2af5a8e034ec362e45b41b63980e69c3f8eec24e908cb753be676b3faa05d",
+              "exact_preview": "Suno AI Prompt for \"Genesis Grind\" (Structured per Platform-Agnostic Template)\nSong Description / Concept:\nThis track delves into the hard-fought, foundational struggle and relentless effort required to forge a new beginning, achieve unparalleled mastery, and establish a dominant, groundbreaking presence in the lyrical landscape. It's the origin story of a rap god.\nLyrics:\n(Note: This section will contain the structural tags and detailed instructions for Suno to generate the lyrical content within its interface, adhering to a 3000-character limit.)\n[Song Title: Genesis Grind]\n\n[Overall Directive]\nGenerate lyrics embodying the persona of a \"radical rapscallion white boy rap God,\" blending Eminem's intricate wordplay, Cal Scruby's cultural nuance, and Watsky's profound depth. Elevate the art",
+              "preview_characters": 800,
+              "full_passage_characters": 5229,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "historical-glyph-user-144b6731b1dde40f: source_forensics",
+          "1": "historical-glyph-user-19c942aa4d07958c: source_forensics",
+          "2": "historical-glyph-user-1cc138d23499e62d: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "1e5ca7dfe35ef658550521f3178f9b34a069a16f2dacf583c2ccef2f403d1768",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.22,
+          "1": 0.16,
+          "2": 0.15,
+          "defer": 0.47
+        },
+        "winner": "defer",
+        "top_probability": 0.47,
+        "margin": 0.24999999999999997
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 2022,
+      "output_tokens": 48
+    },
+    "network_calls": 1,
+    "latency_ms": 191
+  }
+}

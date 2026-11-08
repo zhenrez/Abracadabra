@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-31T01:58:19.4703376Z",
+  "status": "passed",
+  "checks": [
+    "Direct loopback guard detects an owned listener independently of enumeration",
+    "Stale child snapshot cannot enroll a reused PID",
+    "Launch records the service and its child worker",
+    "Repeated start reuses exactly the recorded process",
+    "Identity survives JSON serialization and date parsing",
+    "Changed creation identity cannot authorize termination",
+    "Scoped stop waits for the entire captured tree to exit",
+    "Scoped stop preserves an unrelated same-name process",
+    "Failed readiness cleans up its own service tree",
+    "Unrecognized-port fixture is listening before refusal check",
+    "Occupied unrecognized port is left untouched without launching a duplicate (rejected=True; live=True; record=False)",
+    "Concurrent Windows PowerShell starts launch one service and reuse its exact identity"
+  ],
+  "surviving_owned_processes": [],
+  "test_directory": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\lifecycle-test-6d391595e87842ecb5034523dbc2cf8f",
+  "scope": "Synthetic short-lived workers only; real app/model startup is verified separately."
+}

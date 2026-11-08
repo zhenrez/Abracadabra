@@ -1,0 +1,20 @@
+{
+  "state": {
+    "arithmetic_expression": "1*0-0*1",
+    "declaredInterpretation": "Determinant of the restrictions for duration anchors d1,d4 on the retained two-dimensional timing kernel; zero means this pair is redundant"
+  },
+  "questions": {
+    "determinant": {
+      "type": "choice",
+      "instructions": "Which option equals the exact supplied determinant?",
+      "criteria": {
+        "rank_deficient": "0",
+        "independent_positive": "1",
+        "independent_negative": "-1"
+      }
+    }
+  },
+  "solvers": [
+    "arithmetic_exact"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "namespace": "western:pythagorean-major:v1",
+  "modes": {
+    "ionian": {
+      "name": "ionian",
+      "ratios": [
+        "1",
+        "9/8",
+        "81/64",
+        "4/3",
+        "3/2",
+        "27/16",
+        "243/128"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    },
+    "dorian": {
+      "name": "dorian",
+      "ratios": [
+        "1",
+        "9/8",
+        "32/27",
+        "4/3",
+        "3/2",
+        "27/16",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    },
+    "phrygian": {
+      "name": "phrygian",
+      "ratios": [
+        "1",
+        "256/243",
+        "32/27",
+        "4/3",
+        "3/2",
+        "128/81",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    },
+    "lydian": {
+      "name": "lydian",
+      "ratios": [
+        "1",
+        "9/8",
+        "81/64",
+        "729/512",
+        "3/2",
+        "27/16",
+        "243/128"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    },
+    "mixolydian": {
+      "name": "mixolydian",
+      "ratios": [
+        "1",
+        "9/8",
+        "81/64",
+        "4/3",
+        "3/2",
+        "27/16",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    },
+    "aeolian": {
+      "name": "aeolian",
+      "ratios": [
+        "1",
+        "9/8",
+        "32/27",
+        "4/3",
+        "3/2",
+        "128/81",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    },
+    "locrian": {
+      "name": "locrian",
+      "ratios": [
+        "1",
+        "256/243",
+        "32/27",
+        "4/3",
+        "1024/729",
+        "128/81",
+        "16/9"
+      ],
+      "chromatic_steps": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "tuning": "Pythagorean, explicitly selected"
+    }
+  },
+  "fifth_cycle": {
+    "twelve_fifths": "531441/4096",
+    "seven_octaves": "128",
+    "comma": "531441/524288",
+    "chromatic_return": 0,
+    "exact_return": false
+  },
+  "fifth_plus_fourth": "2",
+  "scope": "Bounded Pythagorean interval/mode/register model; historical Western witness adapters not implemented",
+  "gates": {
+    "G0": "PRESERVED_ACCEPTED",
+    "G1": "PRESERVED_ACCEPTED",
+    "G2": "PARTIAL",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "preserved_unit001_hashes": true,
+  "preserved_SUN_source_hashes": true
+}

@@ -1,0 +1,89 @@
+{
+  "status": "judged",
+  "sha256": "6e58a4c2fb921090efa9bdc9be830dd8a86a5925ab9c44aa0772f5bf6cdf4ff2",
+  "sequence": 12,
+  "previous_sha256": "6ab9e3ec4d93c68ce14139fba16d5b944ba804ab9b7614fe646730e0c18d1bf8",
+  "purpose": "Next native musical research evidence unit",
+  "completed_at": "2026-10-31T01:06:16.322008+00:00",
+  "request_sha256": "8f0006ba7c38b37ccba6a76974bbaad7cf673a6dbaec35db0516db6cb72e61bc",
+  "request": {
+    "state": {
+      "goal": "SUNNY reconstructs all discoveries from source and derives musical generational structure under actual Jev control.",
+      "facts": "Recovered archive contains original native exports, frozen-labeled SUN_GG_v1_final.json, SUN_Scientific_Music_Alphabet_v1.json and lock files, W72_certification.json and W72_matched_nulls.json, SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY and exact-rational frozen36fiber execution report. These are original historical artifacts with claims, not newly independently verified conclusions. Existing source hashes match snapshots; no finalSUNNY ontology adopted. Prior memory said authoritative data not retrieved before this archive was supplied.",
+      "constraints": "Use research methodology, source roles, exact byte/hash bindings; preserve conflicting revisions, independent constraints and missing sources. Do not infer canonical authority from filenames or repeated assistant assertions."
+    },
+    "questions": [
+      {
+        "id": "source_audit",
+        "type": "choice",
+        "question": "What should the next source-focused research unit do after the live quarterback integration checks?",
+        "options": {
+          "bind_native": "Audit the recovered frozen artifacts' literal hash bindings and original source-role decisions, enumerate accessible candidate families and unresolved constraints, and retain inherited claims separately from new checks.",
+          "new_theory": "Generate a new universal musical taxonomy from scratch before tracing the existing records.",
+          "public_search": "Begin a broad public literature search without inspecting the available frozen artifacts.",
+          "final_layout": "Populate final entity positions in the torus using the illustrative geometry alone."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "source_audit",
+            "type": "choice",
+            "distribution": {
+              "bind_native": 0.35215163230895996,
+              "final_layout": 0.20474384725093842,
+              "new_theory": 0.21832051873207092,
+              "public_search": 0.2247840315103531
+            },
+            "value": "bind_native",
+            "description": "Audit the recovered frozen artifacts' literal hash bindings and original source-role decisions, enumerate accessible candidate families and unresolved constraints, and retain inherited claims separately from new checks.",
+            "top_probability": 0.35215163230895996,
+            "margin": 0.12736760079860687
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 4,
+      "input_path_tokens": 883,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 277,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 721.43
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

@@ -1,0 +1,42 @@
+{
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "4b998d09f21842b3bdc68d874d8d0f6cf204a861434423d20fdb688e2ee1aa71",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next": {
+        "type": "choice",
+        "probabilities": {
+          "enumerate": 0.95,
+          "summarize": 0.05
+        },
+        "winner": "enumerate",
+        "top_probability": 0.95,
+        "margin": 0.8999999999999999
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 422,
+      "output_tokens": 37
+    },
+    "network_calls": 1,
+    "latency_ms": 344
+  },
+  "request": {
+    "state": "SUNNY G16 symbol-sound baseline. Kantor2023 pp77-79 already extracted: rounded qames reported Tiberian/Babylonian vs Secunda/Jerome/Palestinian; chronology/contact caveats unverified. Existing artifact describes method but no executed discrimination. Need useful conditional execution without claiming historical genealogy.",
+    "questions": {
+      "next": {
+        "criteria": {
+          "enumerate": "Execute exhaustive five-labelled rooted binary tree comparison under single innovation/no losses; relax assumptions to show identifiability boundary. Independent review and source binding.",
+          "summarize": "Create another prose feature matrix without execution."
+        },
+        "type": "choice",
+        "instructions": "Select substantive next action"
+      }
+    }
+  }
+}

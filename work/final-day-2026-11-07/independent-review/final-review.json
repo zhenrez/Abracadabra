@@ -1,0 +1,207 @@
+{
+  "reviewer": "Independent agent /root/change_review",
+  "reviewed_utc": "2026-11-07T22:04:05.084550+00:00",
+  "verdict": "APPROVE_BOUNDED_CONTROLS_CODEC_MATH_ADAPTERS",
+  "open_required_findings": [],
+  "review_scope": [
+    "source-defined Katapayadi rules and Sanskrit stop features",
+    "literal/dictionary prefix-code decodability and measured model/data costs",
+    "declared source-cluster split boundary",
+    "exact scalar commutation argument and finite candidate identities",
+    "historical reconstruction authorization denial"
+  ],
+  "fixed_findings": [
+    {
+      "id": "literal_budget",
+      "reproduced": "16accepted65536characterstrings produced8390922bits beyond decoder8000000cap",
+      "resolution": "exactUTF8/gammacode preflight rejects unrepresentable budget before bitstring construction",
+      "test": "test_literal_encoder_respects_its_decoder_budget"
+    },
+    {
+      "id": "dictionary_budget",
+      "reproduced": "16accepted large vocabularyentries produced8389371bits beyond decoder cap",
+      "resolution": "same preflight accounts vocabulary and escaped/known record costs",
+      "test": "test_dictionary_encoder_respects_its_decoder_budget"
+    },
+    {
+      "id": "duplicate_adapter_identity",
+      "reproduced": "Identical adapter listed twice falsely labeled distinguishable solutions",
+      "resolution": "duplicate typed definitions rejected, different scales remain distinct",
+      "test": "test_identical_adapters_do_not_create_distinguishable_solutions"
+    },
+    {
+      "id": "basis_candidate_budget",
+      "reproduced": "literal budget failure aborted infer_basis while524361bitdictionary remainedfeasible",
+      "resolution": "per-candidate feasibility handling, rejection receipts and minimum over feasible codes",
+      "test": "test_basis_search_keeps_feasible_model_when_literal_exceeds_budget"
+    }
+  ],
+  "checks": [
+    {
+      "name": "adversarial",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07\\independent-review",
+        "-p",
+        "test_adversarial_controls.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "adversarial-green-tests.log",
+      "test_count": 3
+    },
+    {
+      "name": "controls",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07",
+        "-p",
+        "test_controls.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "controls-green-tests.log",
+      "test_count": 5
+    },
+    {
+      "name": "codec",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07",
+        "-p",
+        "test_baseline.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "codec-green-tests.log",
+      "test_count": 5
+    },
+    {
+      "name": "comparisons",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07",
+        "-p",
+        "test_comparisons.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "comparisons-green-tests.log",
+      "test_count": 5
+    }
+  ],
+  "final_source_policy_check": {
+    "command": [
+      "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "work\\final-day-2026-11-07",
+      "-p",
+      "test_controls.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "log": "controls-final-tests.log"
+  },
+  "primary_source_check": {
+    "url": "https://www.numdam.org/item/10.24033/rhm.167.pdf",
+    "status": "ACTUALLY_OPENED_WITH_WEB_TOOL",
+    "publication": "Sreeramula Rajeswara Sarma2012, The Katapayadi System of Numerical Notation and Its Spread Outside Kerala",
+    "locators": [
+      "printed38 (PDFp3): naṭanara2010",
+      "printed39 (PDFp4): Sadratnamala1819definition and consonant table"
+    ],
+    "supports": [
+      "units-firstdigits",
+      "standalonevowelszero",
+      "lastvowel-bearingconsonant",
+      "deadconsonantsignored"
+    ],
+    "limit": "Modern scholarly publication quotes1819definition; earliest source and optionalignore policy not independently certified"
+  },
+  "interpretation_boundaries": [
+    "Codec baseline is literal-vs-dictionary measured coding, not full musical model/adapter selection",
+    "Source cluster membership is a declared dependence-control partition; historical ancestry not verified",
+    "Uniform exact commutation follows c*x or c/x residual coefficient on positive rationals; register scale historical identity not determined",
+    "Katapayadi ignorevowels policy explicitly engineering sensitivity control; standalone zero is source-defined",
+    "Historical reconstruction remains fail-closed"
+  ],
+  "reviewed_file_hashes": {
+    "controls.py": "878d55c33c6893c83928aedcbf4c36d131d99ba09ec2d7eb0897a35edc7b2974",
+    "baseline.py": "9526c5a3d0675cc0ebe46d0ca686b0056a0bc0fbe628d2492723eeac956d0fa9",
+    "comparisons.py": "6029319cfdbe6104fe8d824ecfdf6016b1babeeb5be370866bcc886083505b64",
+    "test_controls.py": "efe9dbcb7f5da6bc3fda66a7c5844c7266e2f589121409f3151ec38d386f2727",
+    "test_baseline.py": "f8e773cff8b70189f6304bea4fe09ec5338283d2772a42d14cd04b1199678f4c",
+    "test_comparisons.py": "a35c3e34cc9dea5c52890cc78f819f9d6ac13a3d75e0515578ff253a5134fafc"
+  },
+  "independent_regression_file": "independent-review/test_adversarial_controls.py",
+  "capability_use": "Installed code-review guidance and exact rational reasoning; actual source web inspection; no child Jev inference or independent scientific certification",
+  "remaining_required_verification": "Root integrated full suite against these hashes and gate-specific receipts",
+  "additive_basis_search_review": {
+    "status": "APPROVED_BOUNDED_CODING_FAMILY",
+    "checks": [
+      {
+        "name": "basis_adversarial",
+        "command": [
+          "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "work\\final-day-2026-11-07\\independent-review",
+          "-p",
+          "test_adversarial_controls.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "log": "basis_adversarial-final.log",
+        "test_count": 4
+      },
+      {
+        "name": "basis_codec",
+        "command": [
+          "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "work\\final-day-2026-11-07",
+          "-p",
+          "test_baseline.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "log": "basis_codec-final.log",
+        "test_count": 7
+      }
+    ],
+    "new_finding": "literal overbudget previously aborted search despite feasible dictionary",
+    "resolution": "Each candidate evaluated independently; rejected code candidates/reasons preserved; feasible codes minimized; allminimum retained",
+    "scope": "literal plus observed-frequency-threshold dictionaries; not global optimality, historical prediction, sequence operators or hidden root proof"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": ".F...\n======================================================================\nFAIL: test_preview_is_read_only_and_excludes_recursive_inventories (__main__.CoverageReconciliationTest.test_preview_is_read_only_and_excludes_recursive_inventories)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\tests\\coverage_reconciliation_test.py\", line 88, in test_preview_is_read_only_and_excludes_recursive_inventories\n    self.assertEqual(len(plan[\"receipt\"][\"pending_math_units\"]), 7)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 11 != 7\n\n----------------------------------------------------------------------\nRan 5 tests in 0.220s\n\nFAILED (failures=1)\n",
+  "cause": "The declared module set grew from8to12; one isolated test still expected7pendingmodules instead of11. Live reconciliation succeeded independently; no failing result is treated as a pass."
+}

@@ -1,0 +1,742 @@
+{
+  "schema": "sunny.full-scope-acceptance.v1",
+  "checkedAt": "2026-11-08T02:26:41.580522+00:00",
+  "authority": {
+    "current_user_record": "docs/evidence/current-semantics-native-user.json",
+    "current_user_text_sha256": "092bdca107bbbdd19ea5c5121ec145c5bf76fbb1604331e772e37f0cb2e67c91",
+    "source_review": "docs/evidence/mission-semantics-source-review.json",
+    "source_reviewed_interpretation": "docs/reconstruction/MISSION_SEMANTICS.md",
+    "actual_jev_interpretation": "docs/evidence/mission-semantics-exact-source-superjev.json",
+    "precedence": "The latest direct user clarification governs the interpretation of earlier adopted requirements. Earlier instructions, results and disagreements remain preserved in their actual scopes.",
+    "latest_goals_transcription": "docs/reconstruction/SUNNY_GOALS.md",
+    "latest_goals_source": "Latest direct user messages in this conversation; this register is a faithful task transcription, not native chat serialization.",
+    "latest_prior_art_correction": {
+      "source": "Direct user message in the current conversation",
+      "goal": "G16",
+      "register": "docs/reconstruction/SUNNY_GOALS.md",
+      "native_serialization_available": false
+    }
+  },
+  "scopePreserved": true,
+  "status": "partial; full mission incomplete",
+  "items": [
+    {
+      "id": "G01",
+      "requirement": "Continue the mature SUNNY investigation. Test its several hypotheses from multiple directions, align hierarchies, investigate alternatives, and determine which configurations satisfy the combined relationships most completely.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Connected native execution and conditional comparison families exist.",
+      "notYetSatisfied": "Every participating lawful relationship and competing configuration must be reconstructed and tested; no unique global alignment is established.",
+      "evidence": [
+        "state/reconstruction/model.json",
+        "state/reconstruction/contextual-alignment.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G02",
+      "requirement": "Formalize every established and participating system's native hierarchy: Western and Chinese music; other candidate musical traditions; cosmologies and cosmogonies; biblical genealogies and timelines; zodiacal systems; mathematics and science; colors; DNA and biology; esoteric systems including Sefer Yetzirah, Shem HaMephorash, Trees of Life and Yggdrasil; alphabets and number systems. Prioritize the oldest recorded accounts while preserving distinctions between witnesses.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Twenty-three bounded hierarchy views and a shared graph retain source/native units, including a source-qualified reading-example hierarchy.",
+      "notYetSatisfied": "The native-system census is not exhaustive across all named musical, cultural, scientific, biological, symbolic and numerical systems.",
+      "evidence": [
+        "state/reconstruction/hierarchy-atlas-combined.json",
+        "state/reconstruction/reading-operations.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G03",
+      "requirement": "Compare these systems through the intended common geometry, exposing precise alignments, divergences and missing distinctions. Retain the systemic and generational wheels, two rotations before lift, intended four-dimensional oscillating toroidal construction and Sierpinski-tetrahedral Monad at infinitum as working premises whose exact realization remains to be derived.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Time/generation lattice, distinct axes and class/acoustic-counter restrictions are executed; candidate geometry is visualized.",
+      "notYetSatisfied": "Exact four-dimensional realization, growth/breadth, rebound, topology-to-acoustics mapping and global orientation remain to derive.",
+      "evidence": [
+        "state/reconstruction/generational-constraints.json",
+        "web/delivery-2026-11-07/app.js"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G04",
+      "requirement": "Reconstruct complete musical relationships. Preserve Western and Chinese constructions separately and simultaneously. Recover when Completed Harmony, Fludd-Kepler, monochord and TOL AB/BA adapters apply and when a bridge should be deliberately withheld. Do not replace full musical structure with the scalar SUN equation or finite W72 carrier.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Separate Western/Chinese mechanisms and context-dependent bridges have exact registered executions.",
+      "notYetSatisfied": "Complete source-native musical/compositional/orchestral structure, literal TOL AB/BA and every applicable/withheld adapter domain remain incomplete.",
+      "evidence": [
+        "state/reconstruction/native-execution.json",
+        "state/reconstruction/native-derivations.json",
+        "state/reconstruction/tol-history-math.json",
+        "state/reconstruction/contextual-alignment.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G05",
+      "requirement": "Rectify date and time across historical perspectives by comparing uninterrupted institutional calendar use with trajectories affected by selected calendar-system changes. Calendrical rectification follows the symbol/sound and source-reading dependencies; do not schedule it as an independent first investigation.",
+      "status": "open-dependent",
+      "completionProved": false,
+      "observedCoverage": "Received witness clocks are preserved in the score and shown separately.",
+      "notYetSatisfied": "Original symbol/grammar/readings must constrain uninterrupted and selected-calendar-change trajectories; no historical rectification is selected.",
+      "evidence": [
+        "state/reconstruction/master-score.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G06",
+      "requirement": "Recover intended sacred-symbol representation and coupled sounds, together with language, grammar and operational rules needed for consistent interpretation. Prioritize Paleo-Hebrew, Aramaic and English; retain Greek, Latin and other relevant systems. Test the hypothesized cascade from corrected readings into identities, actions, genealogies, chronology and instructions.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Dated Hebrew/Aramaic witnesses, English controls, contextual Alef alternatives, exact tokens and modern recordings are preserved. Two Molin spelled examples, four comparative IPA strings and twelve analysed syllable occurrences now support conditional finite reading relations; published contextual comparanda remain distinct from bowl attestations.",
+      "notYetSatisfied": "Original glyph-sound intentions, full inventories, operational grammar and consistent source decoding remain unresolved. The four comparative strings do not reconcile the source-stated four forms. Shaked page213, locator684.14, ink and specimen dating remain unretrieved.",
+      "evidence": [
+        "docs/reconstruction/symbol-sound-census/dated-witnesses.json",
+        "state/reconstruction/symbol-sound-constraints.json",
+        "state/reconstruction/phonological-context-constraints.json",
+        "state/reconstruction/reading-operations.json",
+        "docs/delivery-2026-11-07/READING_OPERATIONS.md",
+        "docs/delivery-2026-11-07/SHAKED_WITNESS.md",
+        "state/research/reactivation/matched-audio/measurements.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G07",
+      "requirement": "Investigate correct zodiacal positions, orientations, signs and attributions after the required symbol/sound and reading dependencies. Preserve explicit, implicit, symbolic and non-angular Ophiuchus participation and other supported roles; do not silently impose an extra equal sector.",
+      "status": "open-dependent",
+      "completionProved": false,
+      "observedCoverage": "Ophiuchus alternatives retain implicit, symbolic, non-angular and boundary roles; no thirteenth equal sector is imposed.",
+      "notYetSatisfied": "Historical positions, orientations, signs and attributions require the symbol/reading dependencies and discriminating source constraints.",
+      "evidence": [
+        "state/mission.json",
+        "web/delivery-2026-11-07/app.js"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G08",
+      "requirement": "Recover the reasoning history in parallel: crucial omissions, forgotten discoveries, misunderstood corrections, rejected alternatives and improperly retained assumptions, including before current nomenclature. Feed accountable dependency repairs into current work; exhaustive rereading is not its universal prerequisite.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Raw occurrences, corrections and selected original reasoning spans are linked to current calculations.",
+      "notYetSatisfied": "Every omitted/rejected/forgotten dependency and pre-nomenclature line has not been semantically reconstructed.",
+      "evidence": [
+        "state/reconstruction/coverage.json",
+        "state/reconstruction/generational-constraints.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G09",
+      "requirement": "Preserve the complete recoverable research record and reasoning genealogy. Distinguish inventory, inspection, semantic processing, extracted claims, reconstructed dependencies, reproduced mathematics and unavailable material. Preserve inputs, provenance, occurrence histories, corrections, contradictions, conditional implications and unanswered questions.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Accessible archive inventory, content hashes and occurrence references are retained.",
+      "notYetSatisfied": "Inventory/inspection is not semantic completion. Account-wide acquisition, the earlier image package and inaccessible original attachments retain scope gaps.",
+      "evidence": [
+        "data/recovery-report.json",
+        "state/reconstruction/coverage.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G10",
+      "requirement": "Build the comparative hierarchy atlas and census. Preserve A/B/C as alternative primordial configurations; reconstruct upper genealogies and lower organizational catalogues, including aeons, archons, angels, demons and legion organizations. Connect through identified relationship types. Include separate Western/Chinese hierarchies, individually addressable subordinate units, ancestry, affiliations and reconciliation of stated versus enumerated totals. Keep unnamed populations explicitly unnamed; distinguish unique entities from membership occurrences. Completion is against identified witnesses and their stated extents.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "A/B/C alternatives, three catalogue witnesses,23views,9512graph records and10251relations retain distinct units. The reading extension adds19source/analysis records and18edges; generated anonymous memberships remain distinguished from identified beings.",
+      "notYetSatisfied": "Upper-to-catalogue joins, global person/legion identity, complete subordinate native musical extents and all source-witness organizational links remain unresolved.",
+      "evidence": [
+        "state/reconstruction/hierarchy-atlas-combined.json",
+        "state/reconstruction/reading-operations.json",
+        "web/delivery-2026-11-07/app.js"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G11",
+      "requirement": "Produce all eight connected mathematical deliverables: native mathematical register; transformation register; generational reconstruction; global constraint system; proof and derivation ledger; discrepancy and missing-component register; representation-independent prediction mechanism; complete executable master score.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "All eight registers exist and contribute to the connected visual workbench.",
+      "notYetSatisfied": "Each original output requires its complete mathematical/source coverage; populated registers and passing local checks do not establish it.",
+      "evidence": [
+        "state/reconstruction/model.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G12",
+      "requirement": "Derive increasingly consequential predictions that resolve this formulation. Predict backward toward missing ancestral structure and forward through generations and time, both blind/constrained and gap-aware. Record predictions before inspecting withheld evidence, preserve independence and use failures to localize incompatible relationships. Report actual achieved capability, remaining alternatives and needed distinguishing constraints.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Conditional orientation consequences, timing anchors and finite reading controls execute. The exact two-probe criterion accounts for all 10,296 indexed word pairs in the optional twelve-completion family: 4,608 sufficient pairs and 5,688 explicit collision witnesses. The earlier phase-orbit result is reused.",
+      "notYetSatisfied": "No independent historical phase constraints are admitted. Source-defined bridges, shared frame/origin, alternative families, withheld-target preregistration and independent blind evaluation remain unresolved; full novelty is not established.",
+      "evidence": [
+        "state/reconstruction/orientation-predictions.json",
+        "state/delivery-2026-11-07/global-closure/phase-probe-designs.json",
+        "docs/delivery-2026-11-07/PHASE_PROBE_DESIGNS.md",
+        "state/delivery-2026-11-07/mathematics/score-anchors.json",
+        "state/reconstruction/reading-operations.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G13",
+      "requirement": "Have actual Jev construct and direct substantive investigative choices and remain integrated into ongoing operation. Examine local, intermediate and global perspectives; retain plausible component candidates and exact discrepancies; avoid repetitive debates and dead ends. Preserve inference receipts and model identity. Distinguish model preferences from mathematical results. Use applicable named plugins and report unavailable capabilities honestly.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Actual pinned local AgentJev-0.6B receipts 57–63 direct visual architecture, timing anchors, contextual history, Molin reading operations and the global constraint/dependency extension. Receipt 59 was submitted through the actual browser interface.",
+      "notYetSatisfied": "Hosted private-payload call was rejected; provider account/billing is unverified. Automatic observers cannot route or certify. Ongoing choices require their own exact receipts.",
+      "evidence": [
+        "state/jev-receipts/000057-95bc223acd84.json",
+        "state/jev-receipts/000058-bbb3ab44bbf5.json",
+        "state/jev-receipts/000059-6581ee8c1ffa.json",
+        "state/jev-receipts/000060-a1b30f75db7d.json",
+        "state/jev-receipts/000061-54b57b45fbcd.json",
+        "state/jev-receipts/000062-5fcc72f3ccd7.json",
+        "state/jev-receipts/000063-298ff24c136a.json",
+        "scripts/delivery_server.py"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G14",
+      "requirement": "Make the process fast, automated, continuous and cumulative. Reuse completed work; distribute genuinely independent work across plugin-supported agents where appropriate; automate repeatable extraction, calculation, comparison, dependency updates and checks; maintain resumable state and support real between-turn execution through an actual running mechanism. Reduce the user's supervision and recall burden.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Reproducible builders, exact calculations, source-preserving checks and local preview exist. Later initialized independent reviewers reproduced bounded calculations and source researchers saved acquisition checkpoints.",
+      "notYetSatisfied": "Initial workers failed to initialize. Local services stopped across a turn transition and a substantial cadence gap was recorded. Uninterrupted background research is not established by files, timers or a live service.",
+      "evidence": [
+        "scripts/build_delivery.py",
+        "scripts/derive_score_anchors.py",
+        "scripts/start-delivery.ps1",
+        "docs/delivery-2026-11-07/INDEPENDENT_REVIEW.md",
+        "state/delivery-2026-11-07/cadence-gap.json",
+        "CONTINUE.md"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G15",
+      "requirement": "Preserve the user's semantics and distinct project boundaries. Carry corrections forward without predetermining hypotheses, conflating SUNNY with SUN, SOL, SOFI, SATURN, COSMIC or adjacent projects, deleting inputs, or restarting solved work. Derive type laws progressively from the reconstructed full musical structure.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "The full goal register and source-native axes are retained; no date/zodiac rewrite bypasses symbol-first dependencies.",
+      "notYetSatisfied": "Full corpus semantic incorporation and all progressively derived type/adaptor laws remain incomplete; continuity must keep preserving corrections and counterexamples.",
+      "evidence": [
+        "state/mission.json",
+        "state/reconstruction/derived-laws.json",
+        "docs/reconstruction/SUNNY_GOALS.md"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    },
+    {
+      "id": "G16",
+      "requirement": "For every substantive SUNNY question, recover prior art, established positions, competing explanations, known solutions and counterexamples through first-order and First & 3/4 Order research. Determine what can be reused, what transfers under stated conditions and what remains to derive. Preserve the dated independent formulation and evidence exposure history.",
+      "status": "partial",
+      "completionProved": false,
+      "observedCoverage": "Bounded P0-A fourteen-question accounting, source-specific scholarly packets and reused exact linear-algebra prior art exist.",
+      "notYetSatisfied": "The complete recurring first-order/First &3/4 Order research program, competing positions, negative searches and transfer/reproduction checks remain to complete.",
+      "evidence": [
+        "state/research/reactivation/symbols/p0a-14-baseline.json",
+        "docs/reconstruction/symbol-sound-census/reading-tradition-prior-art.json",
+        "state/delivery-2026-11-07/mathematics/score-anchors.json"
+      ],
+      "completionEvidenceNeeded": "Source- and derivation-bound evidence covering the complete requirement, including independent acceptance at its stated scope."
+    }
+  ],
+  "mathematicalDeliverables": [
+    {
+      "id": "M01",
+      "requirement": "Native mathematical register",
+      "status": "partial_executable",
+      "completionProved": false,
+      "units": [
+        "native-execution",
+        "native-derivations",
+        "algebraic-extension",
+        "tol-history-math",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Every applicable native system and complete compositional/instrumental law."
+    },
+    {
+      "id": "M02",
+      "requirement": "Transformation register",
+      "status": "partial_executable",
+      "completionProved": false,
+      "units": [
+        "native-derivations",
+        "tol-history-math",
+        "algebraic-extension",
+        "generational-constraints",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Literal TOL A/B, all source adapters, domains, inverses and cross-system residuals."
+    },
+    {
+      "id": "M03",
+      "requirement": "Generational reconstruction",
+      "status": "conditional_constraints_executable",
+      "completionProved": false,
+      "units": [
+        "generational-constraints",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Complete class transitions, changing breadth, radius/rebound and four-dimensional realization."
+    },
+    {
+      "id": "M04",
+      "requirement": "Global constraint system",
+      "status": "partial_candidate_system",
+      "completionProved": false,
+      "units": [
+        "orientation-predictions",
+        "generational-constraints",
+        "derived-laws",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Independent global orientation selectors and all native interacting constraints."
+    },
+    {
+      "id": "M05",
+      "requirement": "Proof and derivation ledger",
+      "status": "source_conditional_proofs_and_experiments",
+      "completionProved": false,
+      "units": [
+        "native-derivations",
+        "orientation-predictions",
+        "tol-history-math",
+        "algebraic-extension",
+        "generational-constraints",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Proof or localization of every reconstructed mathematical claim; corpus-wide coverage."
+    },
+    {
+      "id": "M06",
+      "requirement": "Discrepancy and missing-component register",
+      "status": "partial_localized_counterexamples",
+      "completionProved": false,
+      "units": [
+        "native-derivations",
+        "tol-history-math",
+        "algebraic-extension",
+        "generational-constraints",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "All manuscript, language, calendar and representation discrepancies with discriminating consequences."
+    },
+    {
+      "id": "M07",
+      "requirement": "Representation-independent prediction mechanism",
+      "status": "conditional_linear_anchor_and_finite_family_engine",
+      "completionProved": false,
+      "units": [
+        "orientation-predictions",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Source-proved adapters for arbitrary anchors and independently preregistered withheld-target evaluation."
+    },
+    {
+      "id": "M08",
+      "requirement": "Complete executable master score",
+      "status": "partial_source_views_executable",
+      "completionProved": false,
+      "units": [
+        "master-score",
+        "native-execution",
+        "contextual-alignment",
+        "symbol-sound-constraints",
+        "phonological-context-constraints",
+        "phonological-history-constraints",
+        "reading-operations",
+        "score-anchor-constraints"
+      ],
+      "notYetSatisfied": "Complete orchestration, timing, instrumentation, succession and lawful global interactions."
+    }
+  ],
+  "visualDeliverables": [
+    {
+      "id": "V01",
+      "requirement": "Expandable census: source/native identity, units, position, direct links, distinct reachable IDs and stated extent",
+      "panel": "atlas",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V02",
+      "requirement": "A/B/C alternatives and separate catalogue witnesses without invented pairing",
+      "panel": "atlas",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V03",
+      "requirement": "Search all graph IDs/aliases; expand generated anonymous memberships and inspect complete records",
+      "panel": "atlas",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V04",
+      "requirement": "Separate Western and Chinese native musical trees and operator families",
+      "panel": "music",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V05",
+      "requirement": "Systemic collection wheel with identified members and explicit display-angle semantics",
+      "panel": "wheels",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V06",
+      "requirement": "Generational winding/class counters and candidate toroidal R4 projection",
+      "panel": "geometry",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V07",
+      "requirement": "Finite Sierpinski tetrahedron with explicit infinite-limit boundary",
+      "panel": "geometry",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V08",
+      "requirement": "Symbols, written-token comparisons, contextual alternatives, finite reading relations, real recordings and analytic phase control",
+      "panel": "symbols",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V09",
+      "requirement": "Score entrances, durations, overlaps, source clocks, untimed reading annotations and unknown assignments",
+      "panel": "score",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V10",
+      "requirement": "Bridge domains, exact residuals, candidate alternatives, timing anchors and phase-probe designs",
+      "panel": "bridges / constraints",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V11",
+      "requirement": "Calendar/zodiac dependencies and non-predetermined Ophiuchus roles",
+      "panel": "time",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V12",
+      "requirement": "Eight registers, provenance, discrepancy/missing-join records, data and image exports",
+      "panel": "proofs",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    },
+    {
+      "id": "V13",
+      "requirement": "Pinned local Jev metadata, substantive receipts and explicit decision interface",
+      "panel": "jev",
+      "status": "implemented; fresh integrated replay required",
+      "scientificCoverageInherited": true,
+      "completionBoundary": "Rendering is separate from source completeness and mathematical/historical truth."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "state/reconstruction/model.json",
+      "available": true,
+      "sha256": "d627b122605112c715343b85006e6e59b46f247e8a9577fedb1c53cdec8ec5ee"
+    },
+    {
+      "path": "state/reconstruction/contextual-alignment.json",
+      "available": true,
+      "sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c"
+    },
+    {
+      "path": "state/reconstruction/hierarchy-atlas-combined.json",
+      "available": true,
+      "sha256": "a2f2bfae2eb61611f73fb64147b2b96f976f47818f1514a3173118adda89c497"
+    },
+    {
+      "path": "state/reconstruction/reading-operations.json",
+      "available": true,
+      "sha256": "b211850b4167638f420f7171190ddd1bc92bd22da9470978840a7fd518d3793c"
+    },
+    {
+      "path": "state/reconstruction/generational-constraints.json",
+      "available": true,
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+    },
+    {
+      "path": "web/delivery-2026-11-07/app.js",
+      "available": true,
+      "sha256": "a0ec3932fdc98b3da00f38e4a49d2f029972a9e499e10dcfea9ab6de1c3afe6a"
+    },
+    {
+      "path": "state/reconstruction/native-execution.json",
+      "available": true,
+      "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7"
+    },
+    {
+      "path": "state/reconstruction/native-derivations.json",
+      "available": true,
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b"
+    },
+    {
+      "path": "state/reconstruction/tol-history-math.json",
+      "available": true,
+      "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126"
+    },
+    {
+      "path": "state/reconstruction/master-score.json",
+      "available": true,
+      "sha256": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c"
+    },
+    {
+      "path": "docs/reconstruction/symbol-sound-census/dated-witnesses.json",
+      "available": true,
+      "sha256": "55e0edb1b15f2c86367b88e932636bb650c678413d815f8707ea775d422fbd97"
+    },
+    {
+      "path": "state/reconstruction/symbol-sound-constraints.json",
+      "available": true,
+      "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940"
+    },
+    {
+      "path": "state/reconstruction/phonological-context-constraints.json",
+      "available": true,
+      "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0"
+    },
+    {
+      "path": "docs/delivery-2026-11-07/READING_OPERATIONS.md",
+      "available": true,
+      "sha256": "a543345fc66ca27912889e743e34d2d882c2f38093d45362df9332bedcfd1995"
+    },
+    {
+      "path": "docs/delivery-2026-11-07/SHAKED_WITNESS.md",
+      "available": true,
+      "sha256": "ef2abe6f4212383036c4ec601e1ed26a219a165186229aebd05fa4d3336ed482"
+    },
+    {
+      "path": "state/research/reactivation/matched-audio/measurements.json",
+      "available": true,
+      "sha256": "47895fd74356c82c655456fed94b3aa40a70140d58adabba88a549373f9db6a2"
+    },
+    {
+      "path": "state/mission.json",
+      "available": true,
+      "sha256": "358486f70ac715e4e43126c18660e6996d41600fb07f833cc6815679bc9c9f86"
+    },
+    {
+      "path": "state/reconstruction/coverage.json",
+      "available": true,
+      "sha256": "356621673765e4de32c4c4856f63e586686b3ce5463c4799a8b0c984b57b04f6"
+    },
+    {
+      "path": "data/recovery-report.json",
+      "available": true,
+      "sha256": "7e469405093dbf8fc53cf0f7bfd7b82bfc318590fd3f2097442dccc646613c79"
+    },
+    {
+      "path": "state/reconstruction/orientation-predictions.json",
+      "available": true,
+      "sha256": "6ce9ee6dd2b2caff239b3e78582216afed9038b63adaa9d5610919efcae721d8"
+    },
+    {
+      "path": "state/delivery-2026-11-07/global-closure/phase-probe-designs.json",
+      "available": true,
+      "sha256": "f2d275c7e516af9a88580494a4af9b05000be62fd22476656cb7ca302dda01b3"
+    },
+    {
+      "path": "docs/delivery-2026-11-07/PHASE_PROBE_DESIGNS.md",
+      "available": true,
+      "sha256": "61a5e9109cc217c3f1db01c75e724b132c57db5805511966824f6618bf387f19"
+    },
+    {
+      "path": "state/delivery-2026-11-07/mathematics/score-anchors.json",
+      "available": true,
+      "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab"
+    },
+    {
+      "path": "state/jev-receipts/000057-95bc223acd84.json",
+      "available": true,
+      "sha256": "15a7d15013f8b5d4a0ee3e4e7d97fa7aa72dc9f473b4929c0e943db91952622d"
+    },
+    {
+      "path": "state/jev-receipts/000058-bbb3ab44bbf5.json",
+      "available": true,
+      "sha256": "75e16a54e41749d4cd5f3a6b2b66ac8fafc04992dba38c4a9641451b196807f5"
+    },
+    {
+      "path": "state/jev-receipts/000059-6581ee8c1ffa.json",
+      "available": true,
+      "sha256": "45f7f6651703ec08bc383a51e0bef9c09a6e2a2f479ff7305ad3edf4e7cd3d8f"
+    },
+    {
+      "path": "state/jev-receipts/000060-a1b30f75db7d.json",
+      "available": true,
+      "sha256": "1ecf36869c3bbee45cf23c877d70b27bf9a102e53e667d06ec58d6f25b44fbf9"
+    },
+    {
+      "path": "state/jev-receipts/000061-54b57b45fbcd.json",
+      "available": true,
+      "sha256": "670d3becc18b61f812eb640971287d377df140d4396a46294ee9994187aba0ca"
+    },
+    {
+      "path": "state/jev-receipts/000062-5fcc72f3ccd7.json",
+      "available": true,
+      "sha256": "3142b00d2df4cc873504fc55a40436855905c0784b2f9c4952395825fa6a6588"
+    },
+    {
+      "path": "state/jev-receipts/000063-298ff24c136a.json",
+      "available": true,
+      "sha256": "5c3932d5aa61950023b56094dc9a75b5defbe01ce69131a96e3c77f9bfb1d28a"
+    },
+    {
+      "path": "scripts/delivery_server.py",
+      "available": true,
+      "sha256": "8a01638b12134668319847ab470d4750d087c4caeed3bcc7ae79ab62393ba52f"
+    },
+    {
+      "path": "scripts/build_delivery.py",
+      "available": true,
+      "sha256": "4b0b27cbbd56c95ed24610dd4e061408dc7279072a1be82d3529a0eee36c65cb"
+    },
+    {
+      "path": "scripts/derive_score_anchors.py",
+      "available": true,
+      "sha256": "dff667931a28fce7192c347c28f96814a4b62e7114c81315113ef829f8c321be"
+    },
+    {
+      "path": "scripts/start-delivery.ps1",
+      "available": true,
+      "sha256": "b56bf5c264053d720ddfbdfb61f33c726f3809cd51d0d9a883f2d68743bd22b0"
+    },
+    {
+      "path": "docs/delivery-2026-11-07/INDEPENDENT_REVIEW.md",
+      "available": true,
+      "sha256": "d846f6a76f8dd6b39904189c7ac2ed7e4505eed0c2f3c55a32ba0ef14339afe5"
+    },
+    {
+      "path": "state/delivery-2026-11-07/cadence-gap.json",
+      "available": true,
+      "sha256": "579e2149cdae1ef82d7c83d555190a1d816019c7ad74a952695c5c8e884c05b1"
+    },
+    {
+      "path": "CONTINUE.md",
+      "available": true,
+      "sha256": "be6e76e1f5f4b843cbf0f86c25c90191f7c324e6c7620cbbede53a297758d1c2"
+    },
+    {
+      "path": "state/reconstruction/derived-laws.json",
+      "available": true,
+      "sha256": "fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1"
+    },
+    {
+      "path": "docs/reconstruction/SUNNY_GOALS.md",
+      "available": true,
+      "sha256": "5f69369d52a9893a13e47fb769c867bcde077537596e1efee30586585451168c"
+    },
+    {
+      "path": "state/research/reactivation/symbols/p0a-14-baseline.json",
+      "available": true,
+      "sha256": "71c02e41acc8a5d1bbe8d96d4af477253d601dfca048dd87dc16c750229bf447"
+    },
+    {
+      "path": "docs/reconstruction/symbol-sound-census/reading-tradition-prior-art.json",
+      "available": true,
+      "sha256": "3bc396631953eeaec6e3b79857a1f3a4b78e83716da3f8a3053d8dd2f1657000"
+    }
+  ],
+  "priorBrowserCheck": {
+    "status": "failed",
+    "checks": 48,
+    "path": "docs/evidence/delivery-2026-11-07/browser-check.json",
+    "scope": "Previously rendered build; does not certify later edits"
+  },
+  "fullMissionComplete": false,
+  "historicalOrientationSelected": false,
+  "originalSoundsRecovered": false,
+  "blindPredictionEstablished": false,
+  "uninterruptedBackgroundExecutionVerified": false,
+  "currentExecution": {
+    "moduleCount": 16,
+    "graphRecords": 9512,
+    "relations": 10251,
+    "hierarchyViews": 23,
+    "scoreViews": 15,
+    "untimedReadingViews": 4,
+    "displayedBowlExamples": 2,
+    "comparativePronunciationForms": 4,
+    "analysedSyllableOccurrences": 12,
+    "sourceStatedForms": 4,
+    "fullStatedExtentReconciled": false,
+    "phaseProbeDesigns": {
+      "candidates": 12,
+      "wordOccurrences": 144,
+      "singleProbes": 144,
+      "unorderedDistinctProbePairs": 10296,
+      "minimalSufficientPairs": 4608,
+      "insufficientPairs": 5688,
+      "minimumProbes": 2
+    },
+    "newIndependentHistoricalPhaseConstraints": 0
+  },
+  "accountingBoundary": "This matrix accounts for the sixteen goals, eight outputs and identified visual requirements. It is not a claim that every archive proposition has been extracted or semantically processed."
+}

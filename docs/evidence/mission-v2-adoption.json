@@ -1,0 +1,24 @@
+{
+  "schema": "sunny.mission-semantics.v2",
+  "native_user_record": "docs/evidence/current-semantics-native-user.json",
+  "native_user_text": "data/raw/directions/semantics-2026-11-01/a1436d7d36068893d7f2825f7937d9a313a39cee830a8ef9c3946ddd928385b4/user-message.txt",
+  "native_user_text_sha256": "092bdca107bbbdd19ea5c5121ec145c5bf76fbb1604331e772e37f0cb2e67c91",
+  "mission_path": "state/mission.json",
+  "mission_sha256": "082c5d127cfeced45cfd01bed19f216431cd9857f24ec755f7ad1be1ebc32dec",
+  "adopted_utc": "2026-11-02T01:54:52.956617+00:00",
+  "prior": {
+    "state/task.json": {
+      "path": "state/checkpoint-history/before-mission-v2-task.json-09d09c9ad80cf09d7a5ba0eb6919936e8f24b00013d7c59f79a9beab8033aca4.snapshot",
+      "sha256": "09d09c9ad80cf09d7a5ba0eb6919936e8f24b00013d7c59f79a9beab8033aca4"
+    },
+    "PLAN.md": {
+      "path": "state/checkpoint-history/before-mission-v2-PLAN.md-74bb2ee006d6bfd37e4dda3628fae753799ed535d10c465b6e8ee11e42752667.snapshot",
+      "sha256": "74bb2ee006d6bfd37e4dda3628fae753799ed535d10c465b6e8ee11e42752667"
+    },
+    "CONTINUE.md": {
+      "path": "state/checkpoint-history/before-mission-v2-CONTINUE.md-0497800977c293e062cf95194a5095879e7e1e7a942d7946efebe71cc5594984.snapshot",
+      "sha256": "0497800977c293e062cf95194a5095879e7e1e7a942d7946efebe71cc5594984"
+    }
+  },
+  "boundary": "Latest clarification refines operational semantics; prior instructions/results survive within their scopes. No raw input, mathematical component or archived model is deleted or recanonicalized."
+}

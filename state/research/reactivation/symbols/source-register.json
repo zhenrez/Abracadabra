@@ -1,0 +1,128 @@
+{
+  "schema": "sunny.symbol-source-register.v1",
+  "created_utc": "2026-11-02T22:02:00.030Z",
+  "source_roles": "Source report, host inference, mathematical control and Jev research preference remain distinct; no arbitrary evidence weights.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Unicode16.0.0 Chapter10 §§10.3–10.4",
+      "url": "https://unicode.org/versions/Unicode16.0.0/core-spec/chapter-10/",
+      "date": "version16.0.0; exact release date not separately checked",
+      "type": "official character-encoding specification",
+      "inspected": "§10.3 lines116–133 and §10.4 lines134–143, plus locally preserved original HTML",
+      "result": "The Phoenician encoding covers multiple historic script varieties; Imperial Aramaic is separately encoded. Modern scholarly transliteration is distinguished from historic-script representation.",
+      "transfer": "Preserve source image and script metadata independently of codepoint and font; encoding is not ancient pronunciation evidence.",
+      "gap": "No sound prescription or original inventor intention is supplied."
+    },
+    {
+      "id": "S02",
+      "title": "Geoffrey Khan, The Tiberian Pronunciation Tradition of Biblical Hebrew1",
+      "url": "https://books.openbookpublishers.com/10.11647/obp.0163.pdf",
+      "date": "2020-02-20; historical domain: Tiberian Masoretic reading tradition",
+      "type": "scholarly reconstruction and edition of medieval pronunciation witnesses",
+      "inspected": "Printed135–148/PDF152–165, plus selected introduction pages35–36",
+      "result": "Alef can be consonantal[ʔ] or non-consonantal, with contextual and manuscript differences.",
+      "transfer": "Adopt contextual reading and witness separation. Phonetic classes can inform an operational candidate under an explicit chronology bridge.",
+      "gap": "No direct backward identification with Iron Age Paleo-Hebrew/Imperial Aramaic; no fixed modern Hz follows."
+    },
+    {
+      "id": "S03",
+      "title": "G.I.Davies, Ancient Hebrew Inscriptions: Corpus and Concordance, publisher excerpt",
+      "url": "https://assets.cambridge.org/97805214/02484/excerpt/9780521402484_excerpt.pdf",
+      "date": "Publication date not established from inspected excerpt; references Torczyner1938 and Diringer1953",
+      "type": "scholarly primary-text edition/corpus excerpt",
+      "inspected": "Printed1–2, PDF1–2 rendered and visually inspected; entry1.002 Lachish Letter2",
+      "result": "Letter2 is given as589/8 and preserves scholarly transliteration with uncertain/restored readings.",
+      "transfer": "Adopt line-addressable sign/word edition as a candidate transcription; keep uncertainty, edition date and ancient dating criterion.",
+      "gap": "Rendered excerpt has transliteration, not original inscribed Alef close-up; older cited plates not yet collated."
+    },
+    {
+      "id": "S04",
+      "title": "British Museum, Lachish LetterII, museum-authored Google Arts&Culture display",
+      "url": "https://artsandculture.google.com/asset/lachish-letter-ii/4QFvFeRkdihmAw?hl=en",
+      "date": "Display publication date unknown; reports destruction context586BC",
+      "type": "holding-institution object interpretation",
+      "inspected": "Full accessible object text, identifier1959,0711.2, translation and context",
+      "result": "Identifies an alphabetic Hebrew ostracon from Lachish and an epistolary context.",
+      "transfer": "Adopt object identity and context; report dating criteria beside S03 rather than silently reconcile.",
+      "gap": "British Museum direct record403; original photograph not collated in this packet."
+    },
+    {
+      "id": "S05",
+      "title": "Texts&Scripts from Elephantine, Pap.Cairo EM JdE43473/TAD A3.7, TEI",
+      "url": "https://p612399.webspaceconfig.de/xml/elephantine_erc_db_308140.tei.xml",
+      "date": "TEIv2.1,26.07.2022; origDate fields empty",
+      "type": "museum scholarly structured edition of a primary papyrus",
+      "inspected": "Header, manuscript description and complete edition/translation body; Hebrew codepoints verified",
+      "result": "Retains source-native title/name annotations and damaged/lost/editor-supplied distinctions. Actual first character is Hebrew U+05D0; metadata marks Imperial Aramaic.",
+      "transfer": "Adopt explicit restoration and contextual grammar; distinguish normalized transcription from original glyph evidence.",
+      "gap": "Catalogue HTTP500/timeout; exact ancient date absent; linked originals not inspected; no supplied phonetic recording."
+    },
+    {
+      "id": "S06",
+      "title": "K.C.Hanson, Petition to Authorize Elephantine Temple Reconstruction, P13495/TAD A4.7",
+      "url": "https://kchanson.com/ANCDOCS/westsem/templeauth.html",
+      "date": "Last Modified2November2011; native date20Marcheshwan, year17 of KingDarius; displayed conversion25November407BCE",
+      "type": "named scholarly editor's adaptation of earlier primary-text editions",
+      "inspected": "Description, transliteration lines1–30, translation and source bibliography",
+      "result": "Explicit transliteration key identifies apostrophe as Aleph; native date formula and textual context are addressable.",
+      "transfer": "Adopt dated contextual specimen; distinguish transliteration token from phonetic IPA and modern date conversion.",
+      "gap": "Hanson adaptation draws on Cowley1923/Porten1986/1996; not an independent collation of papyrus or full original edition."
+    },
+    {
+      "id": "S07",
+      "title": "Staatliche Museen zu Berlin, Elephantine exhibition object documentation",
+      "url": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2024/04/03_AEMP_240424_Elephantine_Exponate.pdf",
+      "date": "2024 exhibition object document",
+      "type": "holding-institution catalogue",
+      "inspected": "Official object documentation PDF page14, P13495 entry, text extracted and page rendered/visually inspected",
+      "result": "Holding institution associates P13495 with temple-rebuilding letter and25November407BCE.",
+      "transfer": "Object-ID/date cross-check only, with modern conversion retained as source report.",
+      "gap": "Does not itself supply a waveform or a phonetic reconstruction."
+    },
+    {
+      "id": "S08",
+      "title": "CMUdict dictionary and README",
+      "url": "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict",
+      "date": "Mutable master branch snapshot retrieved2026-11-02 and pinned bySHA256; README copyright1993–2014 is not snapshot publication date",
+      "type": "maintained pronunciation lexicon primary dataset",
+      "inspected": "One-based rows16–17: a AH0 and a(2) EY1; README purpose and accuracy caveat",
+      "result": "This written English word has multiple listed pronunciations; entries encode phoneme/stress categories.",
+      "transfer": "A word-level English control for one-to-many mapping; adopt only within dictionary's domain.",
+      "gap": "Not a letter-to-waveform table; no measured tokens; README warns of errors/omissions/inconsistencies."
+    },
+    {
+      "id": "S09",
+      "title": "Praat manual, Pitch object",
+      "url": "https://praat.org/manual/Pitch.html",
+      "date": "Page copyright/version date2024-07-22; retrieved2026-11-02",
+      "type": "original software/method documentation",
+      "inspected": "Object, frame and candidate definitions",
+      "result": "Stores time-varying periodicity candidates inHz; retains an unvoiced candidate.",
+      "transfer": "Candidate acoustic measurements must allow an unvoiced outcome and preserve settings/time units.",
+      "gap": "Periodicity is not a linguistic identity or historical sound prescription; no empirical recording measured here."
+    },
+    {
+      "id": "S10",
+      "title": "Praat manual, Sound:To Formant(burg)",
+      "url": "https://praat.org/manual/Sound__To_Formant__burg____.html",
+      "date": "Page copyright/version date2020-06-08; retrieved2026-11-02",
+      "type": "original software/method documentation",
+      "inspected": "Settings and algorithm",
+      "result": "Spectral-envelope resonance estimation depends on analysis settings and speaker characteristics.",
+      "transfer": "Keep F0, formants, timing and phonetic classification as separate measured variables; document settings and uncertainty.",
+      "gap": "Method output would be conditional on recording and settings; no ancient waveform or fixed letter-frequency relation follows."
+    },
+    {
+      "id": "S11",
+      "title": "Comprehensive Aramaic Lexicon, getting-started guide",
+      "url": "https://cal.huc.edu/cal_new_user_guide.html",
+      "date": "Continuously updated resource; page date not established",
+      "type": "scholarly corpus/lexicon provider documentation",
+      "inspected": "Guide corpus/dialect, lemma, morphology and citation workflows",
+      "result": "Provides witness/dialect-based lexical and bibliographic retrieval routes.",
+      "transfer": "Reuse cited attestations and morphology, then inspect original edition for each chosen token.",
+      "gap": "No A3.7 or A4.7 lexical entry checked in CAL in this packet; guide is a method lead."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "VERIFIED",
+  "schema": "public-large-restore-receipt-v1",
+  "files": [
+    {
+      "path": "state/checkpoint-history/before-math-model.json-0cd76aa39f015b3f4f2b1b400510461214a5a79084ba036d3e5b19c7bd7d377b.snapshot",
+      "bytes": 245338429,
+      "sha256": "0cd76aa39f015b3f4f2b1b400510461214a5a79084ba036d3e5b19c7bd7d377b",
+      "status": "RESTORED"
+    },
+    {
+      "path": "state/checkpoint-history/before-math-model.json-2e0677402fcdb160e600da54b38f05da1d5d83794fd6f797d2f6cd5c5a585bbc.snapshot",
+      "bytes": 255180420,
+      "sha256": "2e0677402fcdb160e600da54b38f05da1d5d83794fd6f797d2f6cd5c5a585bbc",
+      "status": "RESTORED"
+    },
+    {
+      "path": "state/reconstruction/model.json",
+      "bytes": 255180420,
+      "sha256": "b9206ccf6462860be0e26c5a98dcfbbb95f4bff1a359e1241b4eba9940700461",
+      "status": "RESTORED"
+    },
+    {
+      "path": "web/delivery-2026-11-07/data.json",
+      "bytes": 135137445,
+      "sha256": "ca05250ee65d76928131470c1a341bbc74e0071a62a164bbda7e65c74ec1cf3a",
+      "status": "RESTORED"
+    }
+  ],
+  "scope": "Actual reconstruction into an empty isolated directory from unchanged hard-linked verified part files; originals and part bytes not modified"
+}

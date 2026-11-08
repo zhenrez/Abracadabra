@@ -1,0 +1,82 @@
+{
+  "schema": "public-large-source-tool-verification-v2",
+  "status": "FOCUSED_TESTS_PASSED",
+  "scope": "Five explicit public project paths; selected subsets supported; synthetic tests only",
+  "executor": "signal_coverage child agent",
+  "runtime": "Python 3.13 on Windows",
+  "command": "python.exe -B -m unittest discover -s work/github-delivery-2026-11-07/export -p test_large_sources.py -v",
+  "tdd_history": [
+    {
+      "stage": "RED_11",
+      "tests": 11,
+      "passed": 9,
+      "failed": 1,
+      "errors": 1,
+      "exit_code": 1,
+      "unittest_seconds": 0.293,
+      "output_chunk": "9a4add",
+      "reason": "Two exact checkpoint snapshots not yet allowed"
+    },
+    {
+      "stage": "RED_12",
+      "tests": 12,
+      "passed": 9,
+      "failed": 2,
+      "errors": 1,
+      "exit_code": 1,
+      "unittest_seconds": 0.393,
+      "output_chunk": "a75671",
+      "reason": "Two exact checkpoint snapshots and CLI subset selector not yet implemented"
+    },
+    {
+      "stage": "GREEN_12",
+      "tests": 12,
+      "passed": 12,
+      "failed": 0,
+      "errors": 0,
+      "exit_code": 0,
+      "unittest_seconds": 0.695,
+      "output_chunk": "243ae1"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "work/github-delivery-2026-11-07/export/large_sources.py",
+      "sha256": "667ed1c76fc663bd2ba8c3010983de81427cdc1247b15ff4e00d60919c63ec0e"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/test_large_sources.py",
+      "sha256": "d175415760f689bb3a576f84ced7c32a0a1d6b1340643e8fee43ab66bab3d66a"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/PUBLIC_LARGE_FILES.md",
+      "sha256": "c1c6a039cd9222cae6bf1ee28a41ede573383e00a9917c6303f57593fa0906a8"
+    }
+  ],
+  "previous_version_snapshots": [
+    {
+      "path": "work/github-delivery-2026-11-07/export/versions/b78d6373b2f890a81e2143c097f79b0348259b8e2e45b7e0ce00eb12cc7eb6b1/large_sources.py",
+      "sha256": "b78d6373b2f890a81e2143c097f79b0348259b8e2e45b7e0ce00eb12cc7eb6b1"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/versions/99f7822062af9ad8fcb6b292348c7f437c9a68abef033ef9de5d13e0c75f1d37/test_large_sources.py",
+      "sha256": "99f7822062af9ad8fcb6b292348c7f437c9a68abef033ef9de5d13e0c75f1d37"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/versions/0ca1f3404637774fcb2d933e4cd39686da4280fd7e0820bde880f7ed944117d9/PUBLIC_LARGE_FILES.md",
+      "sha256": "0ca1f3404637774fcb2d933e4cd39686da4280fd7e0820bde880f7ed944117d9"
+    }
+  ],
+  "previous_receipt": "work/github-delivery-2026-11-07/export/LARGE_SOURCE_VERIFICATION.json",
+  "changes": [
+    "Allow only the two additional explicitly named checkpoint-history snapshots",
+    "Accept repeated --path selectors for an approved subset",
+    "Retain generic-path rejection and required production SHA binding"
+  ],
+  "not_verified": [
+    "No production splitting or restoration by this agent",
+    "No Git ignore changes, commits, uploads, or remote operations",
+    "No physical junction creation; injected reparse guard tests only",
+    "No concurrent writer stress or content-publication clearance"
+  ]
+}

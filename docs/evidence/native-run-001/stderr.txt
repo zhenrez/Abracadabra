@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\scripts\audit_native.py", line 265, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\scripts\audit_native.py", line 262, in main
+    else: check(args.catalog, args.output)
+          ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\scripts\audit_native.py", line 226, in check
+    user_passage = passage(user['source_id'], user_path, quote, 'NATIVE-USER-AUTHORITY', (qstart, qstart + len(quote)))
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\scripts\audit_native.py", line 102, in passage
+    snapshot = helper('init-source', {'source_id': source_id, 'locator': str(path), 'text': text})['source']
+               ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\scripts\audit_native.py", line 94, in helper
+    raise RuntimeError(f'Prumo {operation} failed: {run.stdout} {run.stderr}')
+RuntimeError: Prumo init-source failed:  Traceback (most recent call last):
+  File "C:\Users\Brend\.codex\plugins\cache\created-by-me-remote\prumo-jev-research\0.1.0\skills\evidence-audit\scripts\evidence_ledger.py", line 433, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\Brend\.codex\plugins\cache\created-by-me-remote\prumo-jev-research\0.1.0\skills\evidence-audit\scripts\evidence_ledger.py", line 428, in main
+    sys.stdout.write(json.dumps(result, ensure_ascii=False, allow_nan=False) + "\n")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Brend\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33025: character maps to <undefined>
+

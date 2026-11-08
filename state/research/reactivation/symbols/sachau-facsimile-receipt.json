@@ -1,0 +1,53 @@
+{
+  "schema": "sunny.original-facsimile-retrieval.v1",
+  "checked_utc": "2026-11-03T02:33:12.602570+00:00",
+  "url": "https://archive.org/download/aramischepapyr02sachuoft/aramischepapyr02sachuoft_jp2.zip",
+  "selection": "Sachau1911 volume2, OCR PAGE0039, expected plate13; verify caption visually",
+  "member": {
+    "name": "aramischepapyr02sachuoft_jp2/aramischepapyr02sachuoft_0039.jp2",
+    "compression": 0,
+    "crc32": 3413843809,
+    "compressed_size": 654950,
+    "uncompressed_size": 654950,
+    "local_offset": 15801908
+  },
+  "member_sha256": "b5fcad1af24774b9364b0df0e54a13e4f0f4906439c88c224696ac123baa0e88",
+  "crc_matches": true,
+  "range_calls": [
+    {
+      "request_range": "76761403-76827402",
+      "final_url": "https://dn710100.ca.archive.org/0/items/aramischepapyr02sachuoft/aramischepapyr02sachuoft_jp2.zip",
+      "content_range": "bytes 76761403-76827402/76827403",
+      "bytes": 66000,
+      "sha256": "52cc4fec7c2f1b8a429a23917e193250654d4892ee829ccbfbce33ea493e2d72"
+    },
+    {
+      "request_range": "76800431-76827380",
+      "final_url": "https://dn710100.ca.archive.org/0/items/aramischepapyr02sachuoft/aramischepapyr02sachuoft_jp2.zip",
+      "content_range": "bytes 76800431-76827380/76827403",
+      "bytes": 26950,
+      "sha256": "6a15ce1e1b01d3071124001e881524d1c0b3b3202284469334b5c50ab465380c"
+    },
+    {
+      "request_range": "15801908-15801937",
+      "final_url": "https://dn710100.ca.archive.org/0/items/aramischepapyr02sachuoft/aramischepapyr02sachuoft_jp2.zip",
+      "content_range": "bytes 15801908-15801937/76827403",
+      "bytes": 30,
+      "sha256": "981ba99c3c2bdc7632aa13ee3947bfa9361b3314b0214b3d246fda4f144646c9"
+    },
+    {
+      "request_range": "15802021-16456970",
+      "final_url": "https://dn710100.ca.archive.org/0/items/aramischepapyr02sachuoft/aramischepapyr02sachuoft_jp2.zip",
+      "content_range": "bytes 15802021-16456970/76827403",
+      "bytes": 654950,
+      "sha256": "b5fcad1af24774b9364b0df0e54a13e4f0f4906439c88c224696ac123baa0e88"
+    }
+  ],
+  "original_local_path": "sources/sachau1911-plate13.jp2",
+  "reading_rendition": "sources/sachau1911-plate13.png",
+  "dimensions": [
+    2653,
+    4004
+  ],
+  "scope": "Exact archive member extracted; only format conversion for document reading, no correction of original sign."
+}

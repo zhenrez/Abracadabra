@@ -1,0 +1,365 @@
+{
+  "schema": "sunny.matched-audio.validation.v1",
+  "created_utc": "2026-11-04T03:34:28.033505+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "checks_passed": 81,
+  "checks": [
+    {
+      "name": "Frozen method byte binding",
+      "status": "passed"
+    },
+    {
+      "name": "Acquisition byte binding",
+      "status": "passed"
+    },
+    {
+      "name": "Method predates GET attempt: publisher-book",
+      "status": "passed"
+    },
+    {
+      "name": "Method predates GET attempt: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Method predates GET attempt: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Exact publisher MP3 hash: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Actual successful DOI-to-publisher retrieval: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Publisher Content-Length matches source bytes: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.06.native-s16.wav",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.06.mono16k-s16.wav",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.06.opening15s.wav",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.06.opening-periodicity.csv",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.06.opening-rms.csv",
+      "status": "passed"
+    },
+    {
+      "name": "Native WAV header/sample count: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Analysis WAV header/sample count: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Opening is exact first15s of derived waveform: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Resampling duration differs by at most one analysis sample: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh native re-decode equals retained PCM: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh mono16k re-decode equals retained PCM: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Independent WAV RMS: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Independent WAV full-scale code count: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Independent energy-window activity mark: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "CSV candidate accounting: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "CSV candidate median: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame75",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame150",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame225",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame300",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame375",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame450",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame600",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame675",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame825",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame900",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame975",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame1050",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame1125",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame1275",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame1350",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.06 frame1425",
+      "status": "passed"
+    },
+    {
+      "name": "Direct periodicity frames checked: OBP.0163.06",
+      "status": "passed"
+    },
+    {
+      "name": "Exact publisher MP3 hash: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Actual successful DOI-to-publisher retrieval: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Publisher Content-Length matches source bytes: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.07.native-s16.wav",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.07.mono16k-s16.wav",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.07.opening15s.wav",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.07.opening-periodicity.csv",
+      "status": "passed"
+    },
+    {
+      "name": "Exact derived hash: OBP.0163.07.opening-rms.csv",
+      "status": "passed"
+    },
+    {
+      "name": "Native WAV header/sample count: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Analysis WAV header/sample count: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Opening is exact first15s of derived waveform: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Resampling duration differs by at most one analysis sample: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh native re-decode equals retained PCM: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh mono16k re-decode equals retained PCM: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Independent WAV RMS: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Independent WAV full-scale code count: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Independent energy-window activity mark: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "CSV candidate accounting: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "CSV candidate median: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame150",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame225",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame300",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame450",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame525",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame600",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame675",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame750",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame900",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame975",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame1050",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame1125",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame1200",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame1275",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame1350",
+      "status": "passed"
+    },
+    {
+      "name": "Direct dot-product periodicity check: OBP.0163.07 frame1425",
+      "status": "passed"
+    },
+    {
+      "name": "Direct periodicity frames checked: OBP.0163.07",
+      "status": "passed"
+    },
+    {
+      "name": "Three exposed token roles, zero asserted alignment",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown alignment and glottal outcomes preserved",
+      "status": "passed"
+    },
+    {
+      "name": "No new model requests, services or protected configuration writes declared",
+      "status": "passed"
+    },
+    {
+      "name": "Existing decoder reused",
+      "status": "passed"
+    }
+  ],
+  "bindings": {
+    "docs/research/MATCHED_AUDIO_CONTROL.md": "5af707d30854aed759f6eb2a6d94887f50c051bcdb4065b326c0bad99baf0f4b",
+    "state/research/reactivation/matched-audio/acquire.py": "d0ec1892f29926a1ac4697e6f59a5a7f44f4e3e2b898e8d9b534ef8a0eb2a99e",
+    "state/research/reactivation/matched-audio/acquisition.json": "ee0fb45518c39d861886f05fe5802ea0544316287fdc0caaed94458c2e2cf57c",
+    "state/research/reactivation/matched-audio/analyze.py": "9dc9dd327cffd8de1df5dac97da9e84ee7c61d36249c3d39fcd75628654d11e1",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.06.mono16k-s16.wav": "5a3620b744f96e25e5ede4ab5a1b0ef5568aaabd52f54de20ca6bf21acd185b5",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.06.native-s16.wav": "8240166313c15375e4bc0a44cf8650393b22c20a9ba4ea063f01257fd9c24815",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.06.opening-periodicity.csv": "a2c5fe297f8557c5d3e1abe8cb6fd3fd20df962204315b0b8ac90c64d92c2d31",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.06.opening-rms.csv": "926be0483d671cdb008d5e1daf41aa2219195982d9148f38078cfbc2629aa575",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.06.opening15s.wav": "27cbaab23b5057aabf5e469b860777b0d6063f628a1dec826c4028cd4d5e4269",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.07.mono16k-s16.wav": "b1ba818c93e50be05f4c9c10d16a09332b034be2edaa1f78fdaf2025939f796f",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.07.native-s16.wav": "31665eb6a3893247add43d79cf99a056b51ad0f81cf07f2e67d932665efbd231",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.07.opening-periodicity.csv": "7846102aef61df4f7151b305f588c5357e0fa107330db6dcc6f0c2a049f8d858",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.07.opening-rms.csv": "42bb0895b010cc24c8097112b7a6d473c05390175ec23de6011ccffceb1b9865",
+    "state/research/reactivation/matched-audio/derived/OBP.0163.07.opening15s.wav": "ebdbc8f51b17257be817e9977359f3779386b7131490dbb4110281a3ddf71412",
+    "state/research/reactivation/matched-audio/derived/opening-comparison.png": "76852cb5133e73954ec0980644bd9f32ea4ee5732b424208b9f5562b240cd519",
+    "state/research/reactivation/matched-audio/measurements.json": "47895fd74356c82c655456fed94b3aa40a70140d58adabba88a549373f9db6a2",
+    "state/research/reactivation/matched-audio/method-frozen.json": "d86bc218ad22d293b954fa3cb3efb7e181a5fd69d00e632e0d55c94715d2d04c",
+    "state/research/reactivation/matched-audio/source-bindings.json": "e01acf6e1c48a48956574ffc76bf9318cb78d732e940b810df11eb240f63617c",
+    "state/research/reactivation/matched-audio/sources/OBP.0163.06.mp3": "de4732cf81c83a98329207f414eba384d7ea8bfdc778505ead37dcafb258a17c",
+    "state/research/reactivation/matched-audio/sources/OBP.0163.07.mp3": "1d9667de1cf1bf242028c1d403994ce1f3899869ccd515de6c98ae4600731475",
+    "state/research/reactivation/matched-audio/validate.py": "8b3b1c484f8b03dc5be66db98f00e9ccce2970112f42f5ccf7a8f350fe56a6bd",
+    "state/research/reactivation/matched-audio/work-state.json": "9333918aaff90a12f4ae8577a490d8ebb37639a08bace148780e41bb962be18f"
+  },
+  "scope": "Fresh local source/re-decode, digital statistic and provenance checks. No listening or source-token timing validated.",
+  "not_verified": [
+    "Three Alef token timings/realizations",
+    "Inter-performance token correspondence",
+    "Ancient sound or global reconstruction"
+  ],
+  "persistent_processes_started": 0,
+  "protected_configuration_writes": 0
+}

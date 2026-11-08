@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "entityRecords": 4059,
+  "relationshipRecords": 6755,
+  "views": 4,
+  "checks": [
+    {
+      "name": "Source-image/PDF hashes and actual Jev64 selection verified",
+      "status": "passed"
+    },
+    {
+      "name": "All 875 existing Western records and 1059 internal relationships preserved exactly",
+      "status": "passed"
+    },
+    {
+      "name": "Four source forms produce 48 contexts and 336 distinct degree classes",
+      "status": "passed"
+    },
+    {
+      "name": "2464 unique registered addresses give every one of 88 keys seven roots per form",
+      "status": "passed"
+    },
+    {
+      "name": "Enharmonic notation roles round-trip to key addresses without collapsing spelling",
+      "status": "passed"
+    },
+    {
+      "name": "All 31 source profiles retain family counts 6/12/4/3/6 and unknown endpoints",
+      "status": "passed"
+    },
+    {
+      "name": "Complete GM1 tables retain 16 families, 128 programs, 47 percussion keys and two clipped labels",
+      "status": "passed"
+    },
+    {
+      "name": "All graph endpoints/parents resolve; new global GEN remains unknown and units remain separate",
+      "status": "passed"
+    }
+  ],
+  "lowerUnits": {
+    "registeredScaleDegreeOccurrences": 2464,
+    "rangeProfiles": 31,
+    "gm1Programs": 128,
+    "gm1PercussionAddresses": 47,
+    "sum": 2670
+  },
+  "outputSha256": "915917ab4ba7509d173686d29714de8ed2e2b5205edb6e5c2a1e2d0743923ba1",
+  "inputOriginalUnchanged": true
+}

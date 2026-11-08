@@ -1,0 +1,314 @@
+{
+  "schema": "sunny.delivery-browser.v1",
+  "checkedAt": "2026-11-08T02:21:19.048Z",
+  "inputs": {
+    "index.html": "7fdfcfb4a2b4db23459ca2488449283dfece8ea61cd6b470030aaec54565a773",
+    "app.js": "a0ec3932fdc98b3da00f38e4a49d2f029972a9e499e10dcfea9ab6de1c3afe6a",
+    "score-anchors.js": "3dc63131488a4bef4ab6dc79695ae6c6e4737854d30c0cf9e472300658705a1f",
+    "symbol-context.js": "b093328c9de9be6f81c004f62492b34a2d61a4541b11f9201bf2de2db2b79163",
+    "phonological-history.js": "749923299ea3e3512669e87e1dcb05f624e063a60d0e4f534b0ecdffddc879a6",
+    "reading-operations.js": "3c15c8c9c1f21c6bd812c4c0f077155d04b05e3efc79bd26ecfbe83c5ba92e46",
+    "phase-probes.js": "9bd2e9228cfe57b480ab083615e0d86b234869b429d0126f8621ed9d5f003228",
+    "style.css": "5ed8bb0d2a79118a13606d5f269dc597d42381c567443414b556d7725aea2979",
+    "data.js": "5f8f70f3f69e769766513fc6ba1371fc66166ecfa0e148c4498bdfc462bf9928"
+  },
+  "checks": [
+    {
+      "name": "All9512 graph records,16modules,16goals,8registers,12panels loaded",
+      "status": "passed"
+    },
+    {
+      "name": "Render atlas",
+      "status": "passed"
+    },
+    {
+      "name": "Render music",
+      "status": "passed"
+    },
+    {
+      "name": "Render wheels",
+      "status": "passed"
+    },
+    {
+      "name": "Render geometry",
+      "status": "passed"
+    },
+    {
+      "name": "Render symbols",
+      "status": "passed"
+    },
+    {
+      "name": "Render score",
+      "status": "passed"
+    },
+    {
+      "name": "Render bridges",
+      "status": "passed"
+    },
+    {
+      "name": "Render constraints",
+      "status": "passed"
+    },
+    {
+      "name": "Render time",
+      "status": "passed"
+    },
+    {
+      "name": "Render proofs",
+      "status": "passed"
+    },
+    {
+      "name": "Render jev",
+      "status": "passed"
+    },
+    {
+      "name": "A/B/C,global alias search,ancestry,and lazy100membership expansion",
+      "status": "passed"
+    },
+    {
+      "name": "Wheel preserves one native parent/unit and shared entity selection",
+      "status": "passed"
+    },
+    {
+      "name": "Candidate torus and tetrahedron respond at maximum phase/refinement",
+      "status": "passed"
+    },
+    {
+      "name": "Source-reading variants and conditional chronology displayed without selecting an original phone",
+      "status": "passed"
+    },
+    {
+      "name": "Two real matched15second audio assets served",
+      "status": "passed",
+      "audio": [
+        {
+          "status": 200,
+          "bytes": 480044
+        },
+        {
+          "status": 200,
+          "bytes": 480044
+        }
+      ]
+    },
+    {
+      "name": "All15source-clock score views render",
+      "status": "passed"
+    },
+    {
+      "name": "Exact8sufficient/2redundant source timing-anchor pairs exposed",
+      "status": "passed"
+    },
+    {
+      "name": "Conditional evidence filter retains2or3suppliedcandidates",
+      "status": "passed"
+    },
+    {
+      "name": "Five exact history controls retain unknown historical bounds",
+      "status": "passed"
+    },
+    {
+      "name": "Source-qualified reading queries and19native reading atlas records retain conditional outputs",
+      "status": "passed",
+      "readingQueries": {
+        "coarse": "ɔː|eː",
+        "qualifiedNum": "ɔː",
+        "qualifiedLev": "eː"
+      },
+      "atlasRecords": 19,
+      "analysedSyllables": 12
+    },
+    {
+      "name": "Minimal phase observation designs preserve historical uncertainty and explicit collisions",
+      "status": "passed",
+      "designPairs": 10296,
+      "sufficient": 4608,
+      "insufficient": 5688
+    },
+    {
+      "name": "Ophiuchus alternatives do not force13equal sectors",
+      "status": "passed"
+    },
+    {
+      "name": "Workbench reaches pinned actual local Jev metadata",
+      "status": "passed",
+      "model": "AgentJev-0.6B"
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "Native navigation and main landmarks",
+      "status": "passed"
+    },
+    {
+      "name": "All36provided occurrences retained across30distinct originals",
+      "status": "passed"
+    },
+    {
+      "name": "ActualPNG/SVG/sourceJSON exports downloaded and decoded",
+      "status": "passed",
+      "bytes": {
+        "png": 76585,
+        "svg": 787
+      }
+    },
+    {
+      "name": "OverflowingJSON rejected before any model inference",
+      "status": "passed"
+    },
+    {
+      "name": "Directofflinefile opens the same complete graph",
+      "status": "passed"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "screenshots": [
+    "docs/evidence/delivery-2026-11-07/overview-desktop.png",
+    "docs/evidence/delivery-2026-11-07/atlas-desktop.png",
+    "docs/evidence/delivery-2026-11-07/wheels-desktop.png",
+    "docs/evidence/delivery-2026-11-07/geometry-desktop.png",
+    "docs/evidence/delivery-2026-11-07/tetrahedron-desktop.png",
+    "docs/evidence/delivery-2026-11-07/symbols-desktop.png",
+    "docs/evidence/delivery-2026-11-07/score-desktop.png",
+    "docs/evidence/delivery-2026-11-07/constraints-desktop.png",
+    "docs/evidence/delivery-2026-11-07/symbol-history-desktop.png",
+    "docs/evidence/delivery-2026-11-07/reading-operations-coarse-desktop.png",
+    "docs/evidence/delivery-2026-11-07/reading-operations-desktop.png",
+    "docs/evidence/delivery-2026-11-07/reading-atlas-desktop.png",
+    "docs/evidence/delivery-2026-11-07/phase-probes-desktop.png",
+    "docs/evidence/delivery-2026-11-07/overview-mobile.png",
+    "docs/evidence/delivery-2026-11-07/source-gallery-desktop.png"
+  ],
+  "limitations": [
+    "Interface checks do not establish scientific completion or historical truth.",
+    "Accessibility is checked structurally; no human screen-reader audit.",
+    "Actual local inference is verified as execution; its choice is compared with exact mathematics separately."
+  ],
+  "ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-IFrinB",
+    "identities": 15
+  },
+  "exportDirectory": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\delivery-2026-11-07\\exports-0TJLjg",
+  "liveInferenceThisRun": false,
+  "previousLiveInferenceEvidence": "state/jev-receipts/000059-6581ee8c1ffa.json",
+  "status": "passed",
+  "cleanup": {
+    "status": "reaped",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-IFrinB",
+    "captured_identities": 15,
+    "stopped_pids": [
+      944
+    ],
+    "remaining_known_processes": 0,
+    "remaining_profile_processes": 0
+  }
+}

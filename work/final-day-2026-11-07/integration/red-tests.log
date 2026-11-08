@@ -1,0 +1,75 @@
+test_all_orientations_return_common_encoding (test_common_models.CommonModelTests.test_all_orientations_return_common_encoding) ... FAIL
+test_coding_is_explicit_measured_and_roundtrips (test_common_models.CommonModelTests.test_coding_is_explicit_measured_and_roundtrips) ... FAIL
+test_forged_serialization_and_unknown_coding_rejected (test_common_models.CommonModelTests.test_forged_serialization_and_unknown_coding_rejected) ... FAIL
+test_full_binding_rejects_unused_and_altered_records (test_common_models.CommonModelTests.test_full_binding_rejects_unused_and_altered_records) ... FAIL
+test_reconstruction_keeps_historical_axis (test_common_models.CommonModelTests.test_reconstruction_keeps_historical_axis) ... FAIL
+test_unknown_profile_cannot_be_admitted (test_common_models.CommonModelTests.test_unknown_profile_cannot_be_admitted) ... FAIL
+test_western_exact_evidence_roundtrip (test_common_models.CommonModelTests.test_western_exact_evidence_roundtrip) ... FAIL
+
+======================================================================
+FAIL: test_all_orientations_return_common_encoding (test_common_models.CommonModelTests.test_all_orientations_return_common_encoding)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+======================================================================
+FAIL: test_coding_is_explicit_measured_and_roundtrips (test_common_models.CommonModelTests.test_coding_is_explicit_measured_and_roundtrips)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+======================================================================
+FAIL: test_forged_serialization_and_unknown_coding_rejected (test_common_models.CommonModelTests.test_forged_serialization_and_unknown_coding_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+======================================================================
+FAIL: test_full_binding_rejects_unused_and_altered_records (test_common_models.CommonModelTests.test_full_binding_rejects_unused_and_altered_records)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+======================================================================
+FAIL: test_reconstruction_keeps_historical_axis (test_common_models.CommonModelTests.test_reconstruction_keeps_historical_axis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+======================================================================
+FAIL: test_unknown_profile_cannot_be_admitted (test_common_models.CommonModelTests.test_unknown_profile_cannot_be_admitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+======================================================================
+FAIL: test_western_exact_evidence_roundtrip (test_common_models.CommonModelTests.test_western_exact_evidence_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\integration\test_common_models.py", line 13, in setUp
+    self.assertTrue((ROOT/'common_models.py').exists(),'Common native contract wrapper is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Common native contract wrapper is absent
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.006s
+
+FAILED (failures=7)

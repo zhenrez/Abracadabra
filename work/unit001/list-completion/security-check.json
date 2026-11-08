@@ -1,0 +1,17 @@
+{
+  "check": "bounded changed-code security scan",
+  "files": [
+    "evidence.py",
+    "kernel.py",
+    "complete_lists.py",
+    "historical_extensions.py",
+    "test_list_completion.py",
+    "test_migration_conservation.py",
+    "test_historical_extensions.py"
+  ],
+  "credential_like_literals": false,
+  "dynamic_execution_or_shell_true": false,
+  "findings": [],
+  "scope": "Static patterns in changed/new Python source only; no package CVE or penetration-test claim",
+  "exit_code": 0
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "Actual BetterDesign text-only comprehension check of intro copy, not whole-page or visual approval",
+  "initialFindings": {
+    "serious": 2,
+    "words": 66,
+    "correction": "Reduced overview to a single next step; moved detailed boundaries into expandable explanation"
+  },
+  "finalReview": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# Comprehension check: Source-native system guide\n\nPass. Nothing blocking. Read the copy once more out loud before you present it.\n\n## Mom test: would someone outside the team understand this?\n\n- Passed.\n\n## 15 second test: can you explain the screen in 15 seconds?\n\n- Passed.\n\n## Screenshot test: with zero context, is it clear what this does?\n\n- Passed.\n\n## What the check measured\n\n- Visible copy: 23 words across 2 actions.\n- Insider words found: none.\n- Rough explain time: about 11 seconds. This is a heuristic budget from word count, insider words and choices, not a measurement of real users.\n- It read text only: the copy passed in, or the text in the markup. It cannot see screenshots, text inside images, or visual hierarchy.\n\n## Next step\n\nSay in one sentence what a first-time user can do on this screen. If that sentence needs a second sentence to make sense, simplify the screen.\n\nBefore you finish this review, call `find-design-system` with the product's description and list its top matches in your report, so the person can pick a style. Restyle the screen only with the one they pick."
+      }
+    ],
+    "structuredContent": {
+      "verdict": "pass",
+      "findingCount": 0,
+      "findings": [],
+      "words": 23,
+      "estimatedExplainSeconds": 11,
+      "nextStep": "Before you finish this review, call `find-design-system` with the product's description and list its top matches in your report, so the person can pick a style. Restyle the screen only with the one they pick."
+    },
+    "isError": false
+  },
+  "assetDownloads": 0,
+  "style": "Existing SUNNY style retained under user instruction"
+}

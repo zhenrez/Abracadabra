@@ -1,0 +1,66 @@
+{
+  "reviewer": "Independent child /root/change_review",
+  "scope": "Test-only Windows process birth-identity contract, not a production orphan repair",
+  "verdict": "APPROVE_TEST_CONTRACT",
+  "source_hashes": {
+    "preimage": "6acd79fe06723e26b67255788484096a30d77a5b0131678c481333e49764dbb0",
+    "fixture": "6289c2a729dcf7e5f1c87738d162ff2adc1d8886a39db2a191042899ff1d1ace",
+    "pure_helper": "c51dc3fce0405024f9771243095fe1f4c669958a9b5b5eb020d997b0afc8dcd0",
+    "unit_tests": "5cdceffda4e93073301d22438ab03f8212d58ec1be3bd1dc920975b967b46a75"
+  },
+  "assertions": {
+    "original_tests": 6,
+    "other_original_assertions_retained": 22,
+    "raw_pid_assertion_replaced": 1,
+    "identity_contract": "Original creation FILETIME must be absent, differ from current birth, or be verified exited. Live original or unverifiable query rejects."
+  },
+  "ctypes": "GetCurrentProcess HANDLE restype and GetProcessTimes HANDLE/FILETIME pointer argtypes explicitly preserve64bit handles; birthticks remain exact decimal strings",
+  "query": "Read-only PID/StartTime/HasExited. Only GetProcessById ArgumentException denotes absent. All other errors are unverifiable. No command line reads, process stops, helper policy changes or production edits.",
+  "tdd": {
+    "red": "Root observed4tests4FAILexit1 with absent helper",
+    "green": "Root observed4tests4PASSexit0 after implementation",
+    "execution_attribution": "Actual root Node tool returns, reported to reviewer; no fabricated standalone transcript"
+  },
+  "failure_cause_of_prior_PID26416": "UNRESOLVED",
+  "pid_reuse_observed": false,
+  "production_orphan_fixed_by_test_change": false,
+  "prior_failures_preserved": [
+    {
+      "path": "runtime/project-checks.json",
+      "sha256": "018ce354caccb0b1c097ef0719d5da0422d1e2c2315be08995daf17ff8878221",
+      "exit_code": 1,
+      "counts": {
+        "tests": 99,
+        "pass": 98,
+        "fail": 1,
+        "cancelled": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "path": "runtime/project-serial-checks.json",
+      "sha256": "f27e0323bff98d2429fbd7428b411d786604e1e87d75d3bba25c545b90d459f5",
+      "exit_code": 1,
+      "counts": {
+        "tests": 99,
+        "pass": 97,
+        "fail": 2,
+        "cancelled": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "path": "runtime/project-after-repair-checks.json",
+      "sha256": "8eb7f796165418a3c48fa063a080f7db863a7b779d40dc282861f64095ef9ce4",
+      "exit_code": 1,
+      "counts": {
+        "tests": 99,
+        "pass": 98,
+        "fail": 1,
+        "cancelled": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "pending": "Root full99test post-change execution and integrated proof remain separate checks"
+}

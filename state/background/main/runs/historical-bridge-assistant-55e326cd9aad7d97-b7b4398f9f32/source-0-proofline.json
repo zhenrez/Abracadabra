@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:39.826152+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "577c7f44ff971ee41083c872dc215efce567b000c8b77b5a8bb1dc2c9ce33fc5"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "1cd20d14-5311-5899-ae72-c92e25191cb7",
+      "source_identity_sha256": "82f48c87d6dab22fb3e0a5bfacfa77a60e80097d39c8c1c04184a588046dd174",
+      "source_version_id": "0f8d7e92-ae5d-5dbe-8f5b-bcaa89384314",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"13cf8bba-abd6-45e4-8145-939c660fd95d\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m gathering reliable details on Fludd’s monochord and comparing its descending and ascending movements with the Chinese generative cycle and Kepler’s orbital model.\",\"finished\":true,\"summary\":\"Comparing musical cosmologies\"},{\"chunks\":[],\"content\":\"I’m distinguishing generators, returns, mediators, oppositions, and scale-crossings, then testing how each tradition instantiates them. The key distinction is between algebraic transformations, symbolic correspondences, and physical cycles.\",\"finished\":true,\"summary\":\"Formalizing operator types\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Compared musical cosmologies\"}]}",
+      "content_sha256": "55e326cd9aad7d97e93623286bef33e98ff6664c9ca6e864fe2de02c540399ba",
+      "content_length": 761,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "c7eff9ea88a2d562abd2e99e8df514890e6830954e756a9a001add71172c32ef"
+    },
+    "chunks": [
+      {
+        "id": "0a8e91d2-6ffe-5588-b70d-068f914ba84a",
+        "source_node_hash": "c7eff9ea88a2d562abd2e99e8df514890e6830954e756a9a001add71172c32ef",
+        "source_id": "1cd20d14-5311-5899-ae72-c92e25191cb7",
+        "source_version_id": "0f8d7e92-ae5d-5dbe-8f5b-bcaa89384314",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 761,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"13cf8bba-abd6-45e4-8145-939c660fd95d\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m gathering reliable details on Fludd’s monochord and comparing its descending and ascending movements with the Chinese generative cycle and Kepler’s orbital model.\",\"finished\":true,\"summary\":\"Comparing musical cosmologies\"},{\"chunks\":[],\"content\":\"I’m distinguishing generators, returns, mediators, oppositions, and scale-crossings, then testing how each tradition instantiates them. The key distinction is between algebraic transformations, symbolic correspondences, and physical cycles.\",\"finished\":true,\"summary\":\"Formalizing operator types\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Compared musical cosmologies\"}]}",
+        "content_sha256": "55e326cd9aad7d97e93623286bef33e98ff6664c9ca6e864fe2de02c540399ba",
+        "node_hash": "a1f468875d894a8c7946148f36d7f6faf47bb814ab5dbf9d8a833d9c1c25dd61"
+      }
+    ],
+    "citations": [
+      {
+        "id": "1f4e45b6-e4d7-5f5d-b753-df2f202ef2a8",
+        "source_node_hash": "c7eff9ea88a2d562abd2e99e8df514890e6830954e756a9a001add71172c32ef",
+        "chunk_node_hashes": [
+          "a1f468875d894a8c7946148f36d7f6faf47bb814ab5dbf9d8a833d9c1c25dd61"
+        ],
+        "source_id": "1cd20d14-5311-5899-ae72-c92e25191cb7",
+        "source_version_id": "0f8d7e92-ae5d-5dbe-8f5b-bcaa89384314",
+        "start_offset": 0,
+        "end_offset": 761,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"13cf8bba-abd6-45e4-8145-939c660fd95d\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m gathering reliable details on Fludd’s monochord and comparing its descending and ascending movements with the Chinese generative cycle and Kepler’s orbital model.\",\"finished\":true,\"summary\":\"Comparing musical cosmologies\"},{\"chunks\":[],\"content\":\"I’m distinguishing generators, returns, mediators, oppositions, and scale-crossings, then testing how each tradition instantiates them. The key distinction is between algebraic transformations, symbolic correspondences, and physical cycles.\",\"finished\":true,\"summary\":\"Formalizing operator types\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Compared musical cosmologies\"}]}",
+        "quote_sha256": "55e326cd9aad7d97e93623286bef33e98ff6664c9ca6e864fe2de02c540399ba",
+        "node_hash": "e2f29c69437841d55a96bddf2bddfed200414feb001db4c7f08799b2d414916c"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "c7eff9ea88a2d562abd2e99e8df514890e6830954e756a9a001add71172c32ef",
+        "a1f468875d894a8c7946148f36d7f6faf47bb814ab5dbf9d8a833d9c1c25dd61",
+        "e2f29c69437841d55a96bddf2bddfed200414feb001db4c7f08799b2d414916c"
+      ],
+      "node_hash": "f811f4189ac231478e0f41d4f468258b10f126169b1374a3afe5e20b7a05c75f"
+    },
+    "artifact": {
+      "id": "736b49d8-3612-53c0-a71f-f1b73e937c7f",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/55e326cd9aad7d97e93623286bef33e98ff6664c9ca6e864fe2de02c540399ba/text.txt; original SHA256 55e326cd9aad7d97e93623286bef33e98ff6664c9ca6e864fe2de02c540399ba; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "f811f4189ac231478e0f41d4f468258b10f126169b1374a3afe5e20b7a05c75f",
+      "citation_node_hashes": [
+        "e2f29c69437841d55a96bddf2bddfed200414feb001db4c7f08799b2d414916c"
+      ],
+      "node_hash": "90ffa1fa3bfc5193a6a18f1f4e5520969f78256ba234b1c4c27887534592819c"
+    },
+    "review": {
+      "artifact_node_hash": "90ffa1fa3bfc5193a6a18f1f4e5520969f78256ba234b1c4c27887534592819c",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:39.826152+00:00",
+      "updated_at": "2026-11-02T01:57:39.826152+00:00",
+      "node_hash": "12458a91d11a26d3e4925357b6276543493701aa6b2495a91bc81da1dc25d56a"
+    }
+  }
+}

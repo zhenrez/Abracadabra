@@ -1,0 +1,30 @@
+{
+  "state": {
+    "goal": "Recover source-written pitches and relative intervals for Tipcha and Etnachta in the Levisson Shabbat Haftarah score, inspect associated tracks01-04, and preserve a reproducible witness-scoped result.",
+    "observed": [
+      "Levisson publisher links a two-page scanned score from LJG siddur pages714-717 and lists separate Haftarah tracks01-04, attributed on the page to chazzan Avery Tracht.",
+      "First staff visually inspected in a high-resolution original-PDF render: treble clef, no key signature/accidentals; Mercha E4 G4, Tipcha G4 A4, Munach E4 A4, Etnachta E4 E4 E4 G4 B4 A4.",
+      "First Tipcha note to final Etnachta note gives written G4 to A4; both accent-final notes are A4. No score tuning reference or historical absolute waveform is supplied.",
+      "Publisher track01 caption says Mercha Tipcha Munach Etnachta, but its MP3 filename says Mercha Tipcha Mercha Etnachta. Preserve this conflict; filenames are not a listening transcript.",
+      "All four linked MP3s and the score were freshly downloaded and hashed. Existing Poppler renderer works. The initial host-Python fitz rendering attempt exited1 after retrieval; no source was lost. Existing parent-supplied miniaudio decoder can inspect recordings without new packages."
+    ],
+    "constraints": [
+      "Do not transfer this witness's score pitches to Sinai Temple recordings or every tradition.",
+      "Written pitch names do not prescribe concert Hz, temperament, performed octave or one fixed note per accent.",
+      "Source-written motif, audio metadata, candidate acoustic contour and independently verified syllable alignment are different evidence levels.",
+      "Do not hide the track01 caption/filename discrepancy or use f0 to relabel the phrase to fit the score.",
+      "No central model/core edits or persistent services."
+    ]
+  },
+  "questions": {
+    "anchor_representation": {
+      "type": "choice",
+      "instructions": "Choose the most useful faithful representation for this bounded source recovery. This is a workflow decision, not acoustic or historical proof.",
+      "criteria": {
+        "full_motifs_and_distinct_score_anchors": "Preserve both complete written motifs and their starts/ends. Register first Tipcha G4 and final Etnachta A4 as independently identifiable score positions with a major-second interval, while retaining the terminal-unison fact. Decode four tracks for metadata/candidate contours, but claim exact audio agreement only where independently supported.",
+        "terminal_pair_only": "Preserve only the final notes A4 and A4 as the two accent landmarks, report unison, and defer all other notated contour and audio examination.",
+        "full_audio_syllable_transcription_before_score_publication": "Defer reporting the source-written anchor interval until an independent complete syllable-to-time transcription and acoustic octave audit is available for all four clips."
+      }
+    }
+  }
+}

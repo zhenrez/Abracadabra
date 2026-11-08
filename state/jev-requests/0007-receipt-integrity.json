@@ -1,0 +1,15 @@
+{
+ "state":{
+  "goal":"Jev-directed SUNNY construction with actual results and fail-closed source/receipt integrity.",
+  "facts":"Actual model decisions now log full requests/distributions/model identity. Validation currently checks answer count/labels/finite normalized probabilities, but not winner-is-argmax, response type or reported truncation. APIinfo records pinned modelhash but should not silently accept another model under same service. Browser can supply boundedJSON48kbytes; upstream rejects over2048path tokens. An unchanged, complete original state must not be cropped invisibly.",
+  "constraints":"User requires real Jev decisions and guardrail plugins. A malformed/unavailable decision must not trigger host fallback; unknown and failed states remain explicit. Test data must be labeled fixtures, not real inference."
+ },
+ "questions":[{
+  "id":"receipt_guards","type":"choice","question":"Which action should enforce the existing actual-decision integrity requirement?",
+  "options":{
+   "strict_guards":"Reject response type/label/winner inconsistencies, reported input truncation and unexpected modelhash; add regression tests then rerun a real bounded decision.",
+   "display_only":"Keep existing checks and display additional response metadata without rejecting inconsistent or truncated decisions.",
+   "manual_only":"Require manual inspection of every receipt without improving machine validation."
+  }
+ }]
+}

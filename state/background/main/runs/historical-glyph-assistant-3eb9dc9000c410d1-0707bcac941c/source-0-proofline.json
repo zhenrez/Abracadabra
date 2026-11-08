@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:55.694881+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "776d351f3935acadb91dae8ffc398e909f73ce69d13ea29ccf1554d4e4c1bd46"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "7af4e361-46c8-5864-83b2-d6174811a735",
+      "source_identity_sha256": "d5e87ad4570b84a0aa7c27c3ab792dfb826a35f2e2d5e84a614b5551c791026a",
+      "source_version_id": "bffd6021-fbe4-50dc-8beb-f51907dd27f7",
+      "version_number": 1,
+      "content": "I found the earlier **parallel-edition requirement**, but not a recoverable file containing Greek for all 114 sayings. That distinction matters: only parts of Thomas survive in Greek, so the revised page will mark each Greek field as **extant Oxyrhynchus Greek**, **fragmentary**, or **no Greek witness**, rather than presenting a modern back-translation as manuscript text.",
+      "content_sha256": "3eb9dc9000c410d101fc3b1fde4be1b6dd145b5c25f5fffce7414861baa1f63a",
+      "content_length": 374,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "ee5cbf51e540edf180d36730a7267ad57d4079ca12e440fcb7982f65cd5f2cc9"
+    },
+    "chunks": [
+      {
+        "id": "796b883a-5ce7-55e7-a669-b4dbe4261a1b",
+        "source_node_hash": "ee5cbf51e540edf180d36730a7267ad57d4079ca12e440fcb7982f65cd5f2cc9",
+        "source_id": "7af4e361-46c8-5864-83b2-d6174811a735",
+        "source_version_id": "bffd6021-fbe4-50dc-8beb-f51907dd27f7",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 374,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "I found the earlier **parallel-edition requirement**, but not a recoverable file containing Greek for all 114 sayings. That distinction matters: only parts of Thomas survive in Greek, so the revised page will mark each Greek field as **extant Oxyrhynchus Greek**, **fragmentary**, or **no Greek witness**, rather than presenting a modern back-translation as manuscript text.",
+        "content_sha256": "3eb9dc9000c410d101fc3b1fde4be1b6dd145b5c25f5fffce7414861baa1f63a",
+        "node_hash": "25ccec7d6f8064bf4e96f8524a1982e3335ef9aed6c699456c16d8c031f063b3"
+      }
+    ],
+    "citations": [
+      {
+        "id": "42d0adf9-b2ed-5b3d-800b-92a321f48ea5",
+        "source_node_hash": "ee5cbf51e540edf180d36730a7267ad57d4079ca12e440fcb7982f65cd5f2cc9",
+        "chunk_node_hashes": [
+          "25ccec7d6f8064bf4e96f8524a1982e3335ef9aed6c699456c16d8c031f063b3"
+        ],
+        "source_id": "7af4e361-46c8-5864-83b2-d6174811a735",
+        "source_version_id": "bffd6021-fbe4-50dc-8beb-f51907dd27f7",
+        "start_offset": 0,
+        "end_offset": 374,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "I found the earlier **parallel-edition requirement**, but not a recoverable file containing Greek for all 114 sayings. That distinction matters: only parts of Thomas survive in Greek, so the revised page will mark each Greek field as **extant Oxyrhynchus Greek**, **fragmentary**, or **no Greek witness**, rather than presenting a modern back-translation as manuscript text.",
+        "quote_sha256": "3eb9dc9000c410d101fc3b1fde4be1b6dd145b5c25f5fffce7414861baa1f63a",
+        "node_hash": "e6284b633a91a229d8761a80bb21b561f8bf8bdb140808d66a6f7ec0592aad5f"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "ee5cbf51e540edf180d36730a7267ad57d4079ca12e440fcb7982f65cd5f2cc9",
+        "25ccec7d6f8064bf4e96f8524a1982e3335ef9aed6c699456c16d8c031f063b3",
+        "e6284b633a91a229d8761a80bb21b561f8bf8bdb140808d66a6f7ec0592aad5f"
+      ],
+      "node_hash": "edb748f8fc5563086dc00c39d51defc8ea0de1963d2403997990d7771e2713d7"
+    },
+    "artifact": {
+      "id": "6dcb9cbc-a8fc-52d8-b4c0-9e2a5b5fa12c",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/3eb9dc9000c410d101fc3b1fde4be1b6dd145b5c25f5fffce7414861baa1f63a/text.txt; original SHA256 3eb9dc9000c410d101fc3b1fde4be1b6dd145b5c25f5fffce7414861baa1f63a; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "edb748f8fc5563086dc00c39d51defc8ea0de1963d2403997990d7771e2713d7",
+      "citation_node_hashes": [
+        "e6284b633a91a229d8761a80bb21b561f8bf8bdb140808d66a6f7ec0592aad5f"
+      ],
+      "node_hash": "46081679226ac0176ac7f9ad15568d9299c484769048f43cdaec2969892aba49"
+    },
+    "review": {
+      "artifact_node_hash": "46081679226ac0176ac7f9ad15568d9299c484769048f43cdaec2969892aba49",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:55.694881+00:00",
+      "updated_at": "2026-11-02T01:57:55.694881+00:00",
+      "node_hash": "8dc8252466b825a820cf948b2ecae2b3613670d980606cd1426269d441857f58"
+    }
+  }
+}

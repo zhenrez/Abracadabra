@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-0c2846dc0b7c463f80673d3f33bad8f8.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-bridge-assistant-42381ad777ed8923",
+    "kind": "source_forensics",
+    "track": "bridge",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/42381ad777ed892346aac3870a64e7f94263b438e5b5898385ba58b2e615a915/text.txt",
+        "sha256": "42381ad777ed892346aac3870a64e7f94263b438e5b5898385ba58b2e615a915",
+        "start_line": 1,
+        "end_line": 111,
+        "source_role": "assistant",
+        "source_id": "b68004bd02b2017a0728f80915c5a36ed1a3576ebcec13877dac7466a7f5451d",
+        "message_id": "e3283291f58d9e3ed060e6b358a575305c71e96b1c917af0c1a6a0963110772f",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "e3283291f58d9e3ed060e6b358a575305c71e96b1c917af0c1a6a0963110772f",
+          "native_id": "10",
+          "conversation_id": "76de4070b2bc6a6b3add3de3425a60a74366c248f3cec5a399b0973f5cbb651b",
+          "role": "assistant",
+          "content_sha256": "42381ad777ed892346aac3870a64e7f94263b438e5b5898385ba58b2e615a915",
+          "source_id": "b68004bd02b2017a0728f80915c5a36ed1a3576ebcec13877dac7466a7f5451d",
+          "locator": "lines:2179-2292",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Understand Recombination Atlas Request",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\nested\\e052122f15a01299c1e7f975dbd6903bf056814655b88be5ba213e1fcd6aba5d\\supporting_sources\\S03_ChatGPT-Understand Recombination Atlas Request-20260912-1636.txt",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Recovery_Full_Bundle.zip!/supporting_sources/S03_ChatGPT-Understand Recombination Atlas Request-20260912-1636.txt",
+          "source_sha256": "5df2a9fb29a1449544de3131bbd2f8a5f6c7db635e6a9a482ac9cf658ae14666",
+          "source_kind": "nested_library",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "5df2a9fb29a1449544de3131bbd2f8a5f6c7db635e6a9a482ac9cf658ae14666",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/42381ad777ed892346aac3870a64e7f94263b438e5b5898385ba58b2e615a915/occurrences-8509c5f1befd0b1b9408c8bcbab4917192f46c5f4a73703783f2e56160e33a57.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-bridge-operation",
+        "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+      },
+      {
+        "id": "native-carrier-relation",
+        "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:28.460706+00:00"
+}

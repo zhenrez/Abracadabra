@@ -1,0 +1,11 @@
+{
+  "cases": "j=0..4 additionaltwelve-fifths loops for a fixedfiniteaddress",
+  "unit": "dimensionlessfrequencyratio",
+  "baseline": "Erases the exactcycle residual, returningE eachtime",
+  "candidate": "Binary64evaluation of E*cycle_residual^j",
+  "reference": "Known exactFractionformula cast tobinary64; exposedbeforecomparison",
+  "blind": false,
+  "independent_validation": false,
+  "costs": "not measured",
+  "meaning": "Measures numerical errorfromdropping residual versus floating evaluationwithresidual. Not a calibratedstatisticaltest or evidenceof historicalgeneration."
+}

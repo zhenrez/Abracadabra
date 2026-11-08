@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-03T04:10:10.986977+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "11c853d682f3b607075a12475a9b5c2c455d602e7ef2cdf50dc600b743e89ba5"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "a2258848-b467-5be8-9870-896b2970b015",
+      "source_identity_sha256": "1890a826fe85ed9ff3d8f16d51fa08191b7e9192c53bf89238f30a3a06454824",
+      "source_version_id": "54f4e492-9760-5ef9-96a8-d6f240a61583",
+      "version_number": 1,
+      "content": "{\r\n  \"schema\": \"sunny.chinese-conditional-adapter-obstruction.v1\",\r\n  \"generated_utc\": \"2026-11-03T03:54:05.271264+00:00\",\r\n  \"question\": \"Can one context-invariant assignment ofnamed standards toZ12 satisfythe selectedZhouLi ritualroles ifeach role usesLamfixedtonic-relative offsets?\",\r\n  \"provenance\": \"RESEARCH_SUPPORTED_INFERENCE; elementary modular constraintcheck on exposed sources, not a historical verdict\",\r\n  \"sources\": {\r\n    \"received\": \"ZhouLiZhuShu22 revision544441; heaven andancestor prescriptions, exactspans in native-role-relation.json\",\r\n    \"modern\": \"Lam2024§2.2 plusFigure2.2(a):Dgong2,Eshang4,Fsharpjue6,Azhi9,Byu11. Offsetsfromgong are0,2,4,7,9; Figureconvention is notancientHz.\"\r\n  },\r\n  \"variables\": {\r\n    \"c\": \"pitchclass ofheaven gong named圜鍾\",\r\n    \"h\": \"context-invariantpitchclass assignednamed黄鍾; ancestors gong\",\r\n    \"t\": \"context-invariantpitchclass assignednamed大蔟; zhi inboth prescriptions\"\r\n  },\r\n  \"units_domain\": \"Integerchromatic semitone residue inZ/12, onlywithin the proposedmodernadapter. NoHz,physicaloctave ordating assumed.\",\r\n  \"hypotheses\": [\r\n    \"Namedstandard labels haveone pitch-class valueacross the two selected ritualcontexts.\",\r\n    \"Eachprescription hasoneLam-stylegong contextshared byits listedroles.\",\r\n    \"Received角 and徴 are transferred toLamjue andzhi fixedoffsets4and7.\",\r\n    \"Literalprescriptions retained; noemendation orcontext-specific offset introduced.\"\r\n  ],\r\n  \"equations\": [\r\n    {\r\n      \"id\": \"A\",\r\n      \"expression\": \"h-c-4=0 mod12\",\r\n      \"source_relation\": \"Heaven:黄鍾為角,圜鍾為宮\"\r\n    },\r\n    {\r\n      \"id\": \"B\",\r\n      \"expression\": \"t-c-7=0 mod12\",\r\n      \"source_relation\": \"Heaven:大蔟為徴,圜鍾為宮\"\r\n    },\r\n    {\r\n      \"id\": \"C\",\r\n      \"expression\": \"t-h-7=0 mod12\",\r\n      \"source_relation\": \"Ancestors:大蔟為徴,黄鍾為宮\"\r\n    }\r\n  ],\r\n  \"derivation\": {\r\n    \"linear_combination\": \"B-C-A=4\",\r\n    \"contradiction\": \"All3leftsideswouldbe0mod12, buttheircombinationis4mod12. Thereforeunsatisfiable.\",\r\n    \"orientation_reversal\": \"Oneglobalnegation changesresidue4to8mod12; stillnonzero.\",\r\n    \"origin_change\": \"Addingoneconstant toallpitchclasses cancels fromeachdifference.\",\r\n    \"register_lift\": \"Addinginteger multiplesof12 doesnot changethecontradiction.\",\r\n    \"general_form\": \"Foranyabeliangroupfixedoffset model, sharedzhi acrosscontextsforces theirgongvaluesequal; thecross-contextjue assignmentthen requiresjue offset=0. Lamjueoffset4isnonzero.\"\r\n  },\r\n  \"checks\": {\r\n    \"host_assignments_enumerated\": 1728,\r\n    \"all3_solutions\": 0,\r\n    \"drop_one_equation_solution_counts\": {\r\n      \"0\": 12,\r\n      \"1\": 12,\r\n      \"2\": 12\r\n    },\r\n    \"minimal_with_respect_to3_equations\": true,\r\n    \"independent_external\": \"ActualWolframLanguageEvaluator returned0solutions, residue4, reversedresidue8; complete receipt retained.\"\r\n  },\r\n  \"localized_alternatives\": [\r\n    \"Rolelabels inreceivedritualtext neednotdenoteLamfixedpentatonic scale-step functions.\",\r\n    \"Oneprescription maynotbeone simultaneousLamcontext; separate-modal/ritualusage requiresitsown source-qualified semantics.\",\r\n    \"Samewrittenstandardlabel maynotadmitonecontext-invariantacoustic valueunder thehypothesizedbridge.\",\r\n    \"Criticaltextualvariant/emendation couldchangethetestedrelations, butmustbe independently sourced.\",\r\n    \"Acontext-dependentornontranslationadaptercouldremainpossible; itmustdeclareits additionalobservable.\"\r\n  ],\r\n  \"not_claimed\": [\r\n    \"Noancientmusic, ritualeffect,manuscriptdate orphoneticintention falsified.\",\r\n    \"NoexistingChineseorWesterntradition rejectedwholesale.\",\r\n    \"NoC=Huangzhongglobalpitchlockneeded.\",\r\n    \"NoCompletedHarmony,TOL,Fludd–Keplerorintendedgeometrydeleted.\",\r\n    \"Nooriginaltheoremorblindpredictionclaimed.\"\r\n  ],\r\n  \"new_constraint_for_sunny\": \"Anycandidatecontext-free symbol/operator adapter claimingtopreserve these3relationsandLamfixedroleoffsets isexcludedbyexactcertificate. A survivingadaptermustlocalizewhichhypothesis changes, ratherthanrepairwithorigin,orientationorregister alone.\",\r\n  \"exposure\": \"BothsourceprescriptionsandLamfigurealreadyinspectedbeforetest. Exposedcompatibilitycontrol.\"\r\n}",
+      "content_sha256": "7e2bb65f0054a5cd5582b4a2c4afebaeecd330f1774e06183afe87120cac9931",
+      "content_length": 4124,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "bc9b64decf20090a99ec504182b33865afa55833f39abc75bb66eb9cc1348c4d"
+    },
+    "chunks": [
+      {
+        "id": "eac37a35-cd12-529d-9105-bf9b81b5985b",
+        "source_node_hash": "bc9b64decf20090a99ec504182b33865afa55833f39abc75bb66eb9cc1348c4d",
+        "source_id": "a2258848-b467-5be8-9870-896b2970b015",
+        "source_version_id": "54f4e492-9760-5ef9-96a8-d6f240a61583",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 4124,
+        "start_line": 1,
+        "end_line": 74,
+        "content": "{\r\n  \"schema\": \"sunny.chinese-conditional-adapter-obstruction.v1\",\r\n  \"generated_utc\": \"2026-11-03T03:54:05.271264+00:00\",\r\n  \"question\": \"Can one context-invariant assignment ofnamed standards toZ12 satisfythe selectedZhouLi ritualroles ifeach role usesLamfixedtonic-relative offsets?\",\r\n  \"provenance\": \"RESEARCH_SUPPORTED_INFERENCE; elementary modular constraintcheck on exposed sources, not a historical verdict\",\r\n  \"sources\": {\r\n    \"received\": \"ZhouLiZhuShu22 revision544441; heaven andancestor prescriptions, exactspans in native-role-relation.json\",\r\n    \"modern\": \"Lam2024§2.2 plusFigure2.2(a):Dgong2,Eshang4,Fsharpjue6,Azhi9,Byu11. Offsetsfromgong are0,2,4,7,9; Figureconvention is notancientHz.\"\r\n  },\r\n  \"variables\": {\r\n    \"c\": \"pitchclass ofheaven gong named圜鍾\",\r\n    \"h\": \"context-invariantpitchclass assignednamed黄鍾; ancestors gong\",\r\n    \"t\": \"context-invariantpitchclass assignednamed大蔟; zhi inboth prescriptions\"\r\n  },\r\n  \"units_domain\": \"Integerchromatic semitone residue inZ/12, onlywithin the proposedmodernadapter. NoHz,physicaloctave ordating assumed.\",\r\n  \"hypotheses\": [\r\n    \"Namedstandard labels haveone pitch-class valueacross the two selected ritualcontexts.\",\r\n    \"Eachprescription hasoneLam-stylegong contextshared byits listedroles.\",\r\n    \"Received角 and徴 are transferred toLamjue andzhi fixedoffsets4and7.\",\r\n    \"Literalprescriptions retained; noemendation orcontext-specific offset introduced.\"\r\n  ],\r\n  \"equations\": [\r\n    {\r\n      \"id\": \"A\",\r\n      \"expression\": \"h-c-4=0 mod12\",\r\n      \"source_relation\": \"Heaven:黄鍾為角,圜鍾為宮\"\r\n    },\r\n    {\r\n      \"id\": \"B\",\r\n      \"expression\": \"t-c-7=0 mod12\",\r\n      \"source_relation\": \"Heaven:大蔟為徴,圜鍾為宮\"\r\n    },\r\n    {\r\n      \"id\": \"C\",\r\n      \"expression\": \"t-h-7=0 mod12\",\r\n      \"source_relation\": \"Ancestors:大蔟為徴,黄鍾為宮\"\r\n    }\r\n  ],\r\n  \"derivation\": {\r\n    \"linear_combination\": \"B-C-A=4\",\r\n    \"contradiction\": \"All3leftsideswouldbe0mod12, buttheircombinationis4mod12. Thereforeunsatisfiable.\",\r\n    \"orientation_reversal\": \"Oneglobalnegation changesresidue4to8mod12; stillnonzero.\",\r\n    \"origin_change\": \"Addingoneconstant toallpitchclasses cancels fromeachdifference.\",\r\n    \"register_lift\": \"Addinginteger multiplesof12 doesnot changethecontradiction.\",\r\n    \"general_form\": \"Foranyabeliangroupfixedoffset model, sharedzhi acrosscontextsforces theirgongvaluesequal; thecross-contextjue assignmentthen requiresjue offset=0. Lamjueoffset4isnonzero.\"\r\n  },\r\n  \"checks\": {\r\n    \"host_assignments_enumerated\": 1728,\r\n    \"all3_solutions\": 0,\r\n    \"drop_one_equation_solution_counts\": {\r\n      \"0\": 12,\r\n      \"1\": 12,\r\n      \"2\": 12\r\n    },\r\n    \"minimal_with_respect_to3_equations\": true,\r\n    \"independent_external\": \"ActualWolframLanguageEvaluator returned0solutions, residue4, reversedresidue8; complete receipt retained.\"\r\n  },\r\n  \"localized_alternatives\": [\r\n    \"Rolelabels inreceivedritualtext neednotdenoteLamfixedpentatonic scale-step functions.\",\r\n    \"Oneprescription maynotbeone simultaneousLamcontext; separate-modal/ritualusage requiresitsown source-qualified semantics.\",\r\n    \"Samewrittenstandardlabel maynotadmitonecontext-invariantacoustic valueunder thehypothesizedbridge.\",\r\n    \"Criticaltextualvariant/emendation couldchangethetestedrelations, butmustbe independently sourced.\",\r\n    \"Acontext-dependentornontranslationadaptercouldremainpossible; itmustdeclareits additionalobservable.\"\r\n  ],\r\n  \"not_claimed\": [\r\n    \"Noancientmusic, ritualeffect,manuscriptdate orphoneticintention falsified.\",\r\n    \"NoexistingChineseorWesterntradition rejectedwholesale.\",\r\n    \"NoC=Huangzhongglobalpitchlockneeded.\",\r\n    \"NoCompletedHarmony,TOL,Fludd–Keplerorintendedgeometrydeleted.\",\r\n    \"Nooriginaltheoremorblindpredictionclaimed.\"\r\n  ],\r\n  \"new_constraint_for_sunny\": \"Anycandidatecontext-free symbol/operator adapter claimingtopreserve these3relationsandLamfixedroleoffsets isexcludedbyexactcertificate. A survivingadaptermustlocalizewhichhypothesis changes, ratherthanrepairwithorigin,orientationorregister alone.\",\r\n  \"exposure\": \"BothsourceprescriptionsandLamfigurealreadyinspectedbeforetest. Exposedcompatibilitycontrol.\"\r\n}",
+        "content_sha256": "7e2bb65f0054a5cd5582b4a2c4afebaeecd330f1774e06183afe87120cac9931",
+        "node_hash": "7b34518bfcceef78823516ebfd1c4ad5c4a7216a7c5bedddd51537b877fd84b2"
+      }
+    ],
+    "citations": [
+      {
+        "id": "c76553ae-d513-528b-9683-bb0800642dde",
+        "source_node_hash": "bc9b64decf20090a99ec504182b33865afa55833f39abc75bb66eb9cc1348c4d",
+        "chunk_node_hashes": [
+          "7b34518bfcceef78823516ebfd1c4ad5c4a7216a7c5bedddd51537b877fd84b2"
+        ],
+        "source_id": "a2258848-b467-5be8-9870-896b2970b015",
+        "source_version_id": "54f4e492-9760-5ef9-96a8-d6f240a61583",
+        "start_offset": 0,
+        "end_offset": 4124,
+        "start_line": 1,
+        "end_line": 74,
+        "quote": "{\r\n  \"schema\": \"sunny.chinese-conditional-adapter-obstruction.v1\",\r\n  \"generated_utc\": \"2026-11-03T03:54:05.271264+00:00\",\r\n  \"question\": \"Can one context-invariant assignment ofnamed standards toZ12 satisfythe selectedZhouLi ritualroles ifeach role usesLamfixedtonic-relative offsets?\",\r\n  \"provenance\": \"RESEARCH_SUPPORTED_INFERENCE; elementary modular constraintcheck on exposed sources, not a historical verdict\",\r\n  \"sources\": {\r\n    \"received\": \"ZhouLiZhuShu22 revision544441; heaven andancestor prescriptions, exactspans in native-role-relation.json\",\r\n    \"modern\": \"Lam2024§2.2 plusFigure2.2(a):Dgong2,Eshang4,Fsharpjue6,Azhi9,Byu11. Offsetsfromgong are0,2,4,7,9; Figureconvention is notancientHz.\"\r\n  },\r\n  \"variables\": {\r\n    \"c\": \"pitchclass ofheaven gong named圜鍾\",\r\n    \"h\": \"context-invariantpitchclass assignednamed黄鍾; ancestors gong\",\r\n    \"t\": \"context-invariantpitchclass assignednamed大蔟; zhi inboth prescriptions\"\r\n  },\r\n  \"units_domain\": \"Integerchromatic semitone residue inZ/12, onlywithin the proposedmodernadapter. NoHz,physicaloctave ordating assumed.\",\r\n  \"hypotheses\": [\r\n    \"Namedstandard labels haveone pitch-class valueacross the two selected ritualcontexts.\",\r\n    \"Eachprescription hasoneLam-stylegong contextshared byits listedroles.\",\r\n    \"Received角 and徴 are transferred toLamjue andzhi fixedoffsets4and7.\",\r\n    \"Literalprescriptions retained; noemendation orcontext-specific offset introduced.\"\r\n  ],\r\n  \"equations\": [\r\n    {\r\n      \"id\": \"A\",\r\n      \"expression\": \"h-c-4=0 mod12\",\r\n      \"source_relation\": \"Heaven:黄鍾為角,圜鍾為宮\"\r\n    },\r\n    {\r\n      \"id\": \"B\",\r\n      \"expression\": \"t-c-7=0 mod12\",\r\n      \"source_relation\": \"Heaven:大蔟為徴,圜鍾為宮\"\r\n    },\r\n    {\r\n      \"id\": \"C\",\r\n      \"expression\": \"t-h-7=0 mod12\",\r\n      \"source_relation\": \"Ancestors:大蔟為徴,黄鍾為宮\"\r\n    }\r\n  ],\r\n  \"derivation\": {\r\n    \"linear_combination\": \"B-C-A=4\",\r\n    \"contradiction\": \"All3leftsideswouldbe0mod12, buttheircombinationis4mod12. Thereforeunsatisfiable.\",\r\n    \"orientation_reversal\": \"Oneglobalnegation changesresidue4to8mod12; stillnonzero.\",\r\n    \"origin_change\": \"Addingoneconstant toallpitchclasses cancels fromeachdifference.\",\r\n    \"register_lift\": \"Addinginteger multiplesof12 doesnot changethecontradiction.\",\r\n    \"general_form\": \"Foranyabeliangroupfixedoffset model, sharedzhi acrosscontextsforces theirgongvaluesequal; thecross-contextjue assignmentthen requiresjue offset=0. Lamjueoffset4isnonzero.\"\r\n  },\r\n  \"checks\": {\r\n    \"host_assignments_enumerated\": 1728,\r\n    \"all3_solutions\": 0,\r\n    \"drop_one_equation_solution_counts\": {\r\n      \"0\": 12,\r\n      \"1\": 12,\r\n      \"2\": 12\r\n    },\r\n    \"minimal_with_respect_to3_equations\": true,\r\n    \"independent_external\": \"ActualWolframLanguageEvaluator returned0solutions, residue4, reversedresidue8; complete receipt retained.\"\r\n  },\r\n  \"localized_alternatives\": [\r\n    \"Rolelabels inreceivedritualtext neednotdenoteLamfixedpentatonic scale-step functions.\",\r\n    \"Oneprescription maynotbeone simultaneousLamcontext; separate-modal/ritualusage requiresitsown source-qualified semantics.\",\r\n    \"Samewrittenstandardlabel maynotadmitonecontext-invariantacoustic valueunder thehypothesizedbridge.\",\r\n    \"Criticaltextualvariant/emendation couldchangethetestedrelations, butmustbe independently sourced.\",\r\n    \"Acontext-dependentornontranslationadaptercouldremainpossible; itmustdeclareits additionalobservable.\"\r\n  ],\r\n  \"not_claimed\": [\r\n    \"Noancientmusic, ritualeffect,manuscriptdate orphoneticintention falsified.\",\r\n    \"NoexistingChineseorWesterntradition rejectedwholesale.\",\r\n    \"NoC=Huangzhongglobalpitchlockneeded.\",\r\n    \"NoCompletedHarmony,TOL,Fludd–Keplerorintendedgeometrydeleted.\",\r\n    \"Nooriginaltheoremorblindpredictionclaimed.\"\r\n  ],\r\n  \"new_constraint_for_sunny\": \"Anycandidatecontext-free symbol/operator adapter claimingtopreserve these3relationsandLamfixedroleoffsets isexcludedbyexactcertificate. A survivingadaptermustlocalizewhichhypothesis changes, ratherthanrepairwithorigin,orientationorregister alone.\",\r\n  \"exposure\": \"BothsourceprescriptionsandLamfigurealreadyinspectedbeforetest. Exposedcompatibilitycontrol.\"\r\n}",
+        "quote_sha256": "7e2bb65f0054a5cd5582b4a2c4afebaeecd330f1774e06183afe87120cac9931",
+        "node_hash": "2f6048a2e557d07083bc399872664c6c8871d5131415435cff68eb5c6a5c0868"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "bc9b64decf20090a99ec504182b33865afa55833f39abc75bb66eb9cc1348c4d",
+        "7b34518bfcceef78823516ebfd1c4ad5c4a7216a7c5bedddd51537b877fd84b2",
+        "2f6048a2e557d07083bc399872664c6c8871d5131415435cff68eb5c6a5c0868"
+      ],
+      "node_hash": "8fd84451f69f750af134c1efff5803092d02f34fcc8529cb249c89c7c3bfb2ae"
+    },
+    "artifact": {
+      "id": "4019d44e-dc58-51a7-8e2c-d6482c2ea87b",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source state/research/reactivation/chinese/conditional-adapter-obstruction.json; original SHA256 7e2bb65f0054a5cd5582b4a2c4afebaeecd330f1774e06183afe87120cac9931; physical source lines 1..74. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "8fd84451f69f750af134c1efff5803092d02f34fcc8529cb249c89c7c3bfb2ae",
+      "citation_node_hashes": [
+        "2f6048a2e557d07083bc399872664c6c8871d5131415435cff68eb5c6a5c0868"
+      ],
+      "node_hash": "e85cf16685ee07f27f2c86432171fe3ac9260c152d8d69f0d1def6da245dcd04"
+    },
+    "review": {
+      "artifact_node_hash": "e85cf16685ee07f27f2c86432171fe3ac9260c152d8d69f0d1def6da245dcd04",
+      "status": "candidate",
+      "created_at": "2026-11-03T04:10:10.986977+00:00",
+      "updated_at": "2026-11-03T04:10:10.986977+00:00",
+      "node_hash": "55b039cd68e44b944ccff16978564af3c474ad5e659b9e16b5d923523d788c07"
+    }
+  }
+}

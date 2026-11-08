@@ -1,0 +1,158 @@
+{
+  "schema": "sunny.strategy-finite-controls.v1",
+  "createdUtc": "2026-11-02T01:44:26.906Z",
+  "status": "passed",
+  "exitCode": 0,
+  "assertions": 19,
+  "scope": "Declared finite formal examples only; no historical alphabet, pronunciation, calendar restoration, identity claim or blind prediction.",
+  "sourceBinding": {
+    "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+    "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+    "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "mechanism": "MEC-03",
+    "sourceRole": "Existing musical finite-reversal operator reused as an abstract operation; no Hebrew letter identity inferred."
+  },
+  "artifactBindings": {
+    "docs/evidence/strategy-finite-controls.mjs": "4c189aeed7f407fa8388ca0806be0851d3e3575bf14184994386c34a58c4d6a7",
+    "src/native-operators.ts": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+    "dist/native-operators.js": "b31b157e365bced8670659447ee9c038ea939d65fffd7c6c09b2073d7212d3e5",
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959"
+  },
+  "noninjectiveEncoding": {
+    "weights": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 4
+    },
+    "distinctWords": [
+      "AC",
+      "BB"
+    ],
+    "sameValue": 4,
+    "orderCollision": [
+      "AB",
+      "BA"
+    ]
+  },
+  "orderedAlphabetSubstitution": {
+    "alphabet": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "substitution": {
+      "A": "D",
+      "B": "C",
+      "C": "B",
+      "D": "A"
+    },
+    "changedAlphabetOrder": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "changedSubstitution": {
+      "A": "B",
+      "C": "D",
+      "D": "C",
+      "B": "A"
+    },
+    "finiteDomainVerified": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "phoneticData": null
+  },
+  "observationPartitions": {
+    "candidates": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+    ],
+    "coarse": [
+      [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      [
+        "e",
+        "f",
+        "g",
+        "h"
+      ]
+    ],
+    "fine": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "d"
+      ],
+      [
+        "e",
+        "f"
+      ],
+      [
+        "g",
+        "h"
+      ]
+    ],
+    "largestClassSizes": {
+      "coarse": 4,
+      "fine": 2
+    },
+    "probabilityDistribution": null,
+    "comparisonCondition": "Supplied complete finite candidate family and equally feasible observations; no universal cost-optimality claim."
+  },
+  "syntheticCalendar": {
+    "rows": [
+      {
+        "instant": 0,
+        "oldLabel": 0,
+        "changedLabel": 0
+      },
+      {
+        "instant": 1,
+        "oldLabel": 1,
+        "changedLabel": 1
+      },
+      {
+        "instant": 2,
+        "oldLabel": 2,
+        "changedLabel": 2
+      },
+      {
+        "instant": 3,
+        "oldLabel": 3,
+        "changedLabel": 13
+      },
+      {
+        "instant": 4,
+        "oldLabel": 4,
+        "changedLabel": 14
+      },
+      {
+        "instant": 5,
+        "oldLabel": 5,
+        "changedLabel": 15
+      }
+    ],
+    "condition": "Label-coordinate change only; no behavioral or astronomical dynamics supplied."
+  },
+  "proofBoundary": "Additive encoding collision refutes injectivity in this declared example. Reversal substitution is involutive for any finite distinct ordered alphabet by index map i -> n-1-i; the finite checks illustrate that proof, not ancient source authenticity.",
+  "persistentProcessesStarted": 0
+}

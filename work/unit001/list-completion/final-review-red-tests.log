@@ -1,0 +1,77 @@
+test_T04_two_partitions_share_all_22_identities (test_list_completion.ListCompletionTests.test_T04_two_partitions_share_all_22_identities) ... ok
+test_T06_alternative_has_separate_source (test_list_completion.ListCompletionTests.test_T06_alternative_has_separate_source) ... ok
+test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) ... 
+  test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock='') ... FAIL
+  test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock='  ') ... FAIL
+  test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock=None) ... FAIL
+  test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock='UNSEALED') ... FAIL
+test_cell_ordinal_cannot_readdress_source (test_list_completion.ListCompletionTests.test_cell_ordinal_cannot_readdress_source) ... ok
+test_derivation_provenance (test_list_completion.ListCompletionTests.test_derivation_provenance) ... ok
+test_experiment_records_selection_and_candidates (test_list_completion.ListCompletionTests.test_experiment_records_selection_and_candidates) ... ok
+test_integer_and_reserved_mapping_keys_roundtrip (test_list_completion.ListCompletionTests.test_integer_and_reserved_mapping_keys_roundtrip) ... ERROR
+test_migrated_claims_are_core_links (test_list_completion.ListCompletionTests.test_migrated_claims_are_core_links) ... ok
+test_serialized_source_encoding_cannot_lie (test_list_completion.ListCompletionTests.test_serialized_source_encoding_cannot_lie) ... ok
+test_source_encoding (test_list_completion.ListCompletionTests.test_source_encoding) ... ok
+test_source_lineage_provenance (test_list_completion.ListCompletionTests.test_source_lineage_provenance) ... ok
+test_unknown_evaluation_group_rejected (test_list_completion.ListCompletionTests.test_unknown_evaluation_group_rejected) ... ok
+test_unknown_mutable_container_rejected (test_list_completion.ListCompletionTests.test_unknown_mutable_container_rejected) ... ok
+
+======================================================================
+ERROR: test_integer_and_reserved_mapping_keys_roundtrip (test_list_completion.ListCompletionTests.test_integer_and_reserved_mapping_keys_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 56, in test_integer_and_reserved_mapping_keys_roundtrip
+    self.assertEqual(KernelStore.from_json(store.to_json()),store)
+                                           ~~~~~~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\kernel.py", line 110, in to_json
+    def to_json(self):return json.dumps([primitive(r) for r in self.records],ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Brend\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\Brend\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Brend\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+======================================================================
+FAIL: test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 59, in test_absent_holdout_lock_rejected
+    with self.subTest(lock=lock),self.assertRaises(ValueError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock='  ')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 59, in test_absent_holdout_lock_rejected
+    with self.subTest(lock=lock),self.assertRaises(ValueError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 59, in test_absent_holdout_lock_rejected
+    with self.subTest(lock=lock),self.assertRaises(ValueError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_absent_holdout_lock_rejected (test_list_completion.ListCompletionTests.test_absent_holdout_lock_rejected) (lock='UNSEALED')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 59, in test_absent_holdout_lock_rejected
+    with self.subTest(lock=lock),self.assertRaises(ValueError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.208s
+
+FAILED (failures=4, errors=1)

@@ -1,0 +1,29 @@
+{
+  "state": {
+    "goal": "Prevent abandoned SUNNY processes and safely clean up completed task workers.",
+    "authority": "The user explicitly requires closing processes when finished and actual Jev decisions. Preserve other applications and live Codex connectors.",
+    "observed": "No old SUNNY or Edge test worker is running. Multiple live Codex-owned MCP plugin launch cohorts exist. One local pinned Jev service has just been started to perform this decision. Existing startup scripts hide windows and reuse healthy endpoints but do not record complete process identity, provide a stop control or clean up failed startup. Browser tests close via CDP on success but do not await full process-tree exit on failure.",
+    "acceptance": "Only stop processes whose SUNNY ownership and current identity are verified; no process-name-wide kills; repeated startup must not duplicate services; failed startup and browser test must reap workers; preserve exact action evidence."
+  },
+  "questions": [
+    {
+      "id": "lifecycle",
+      "type": "choice",
+      "question": "Which supported lifecycle change should be implemented first?",
+      "options": {
+        "tracked_services": "Record SUNNY service PID, creation time, executable and command identity; reuse verified service; add scoped stop/status controls and startup-failure cleanup; verify real startup/reuse/stop and browser cleanup.",
+        "foreground_session": "Replace the existing background app launcher with one foreground supervised session that starts and stops its own children; preserve unrelated endpoints and test cancellation.",
+        "manual_only": "Keep current launch design; document exact manual ownership checks and scoped PID shutdown without an automated stop control."
+      }
+    },
+    {
+      "id": "browser_cleanup",
+      "type": "choice",
+      "question": "Which cleanup scope should apply to the isolated test browser?",
+      "options": {
+        "owned_tree": "Always request browser close when connected, wait a bounded interval, then terminate and reap only the spawned browser tree after checking its identity.",
+        "parent_only": "Continue terminating only the spawned parent browser PID on failure and document the possibility of child survivors."
+      }
+    }
+  ]
+}

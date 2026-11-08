@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-10-31T00:50:32.141491+00:00",
+  "command": [
+    "python",
+    "C:\\Users\\Brend\\.codex\\plugins\\cache\\created-by-me-remote\\prumo-jev-research\\0.1.0\\skills\\decision-index\\scripts\\prumo_decide.py",
+    "--input",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\prumo-request.json"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"answers\": {\n    \"turns_per_class\": {\n      \"calibrated\": false,\n      \"choice\": \"two\",\n      \"evidence_basis\": {\n        \"computed_value\": \"2\",\n        \"expression\": \"720 / 360\",\n        \"kind\": \"arithmetic_exact\",\n        \"scope\": \"The whole supplied expression was parsed; the value follows from that expression only. Decision weights remain hand-set and uncalibrated.\",\n        \"source\": \"prumo_rules/arith.py::_eval\"\n      },\n      \"solver\": \"arithmetic_exact\",\n      \"status\": \"solved\",\n      \"type\": \"choice\",\n      \"weights\": {\n        \"one\": 0.050000000000000044,\n        \"two\": 0.95\n      }\n    }\n  },\n  \"calibrated\": false,\n  \"diagnostics\": [],\n  \"model\": \"prumo-host-adapter\",\n  \"schema_version\": 1,\n  \"solvers\": [\n    \"arithmetic_exact\"\n  ],\n  \"upstream_commit\": \"2dad76b82793e677d2f5a9e8e5c2baff304244d6\",\n  \"weight_semantics\": \"Normalized upstream decision weights, not posterior probabilities of truth; exact paths retain upstream hand-set confidence masses.\"\n}\n",
+  "stderr": ""
+}

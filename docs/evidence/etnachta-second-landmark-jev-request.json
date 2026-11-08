@@ -1,0 +1,29 @@
+{
+  "state": {
+    "goal": "Check whether the existing paired Torah/Haftarah Etnachta notation supplies an independently identified second landmark for a uniform-transposition pitch test.",
+    "observed": [
+      "Original paired render visually inspected. Both panels are identical four-row diagrams of named accent boxes and signs: Mercha Tipcha Munach Etnachta; Tipcha Munach Etnachta; Mercha Tipcha Etnachta; Tipcha Etnachta, read right-to-left.",
+      "The diagram has no musical staff, numeric pitch, note-frequency assignment, audio timestamp or syllable-to-time alignment. The two PDF URLs have the same recorded SHA256.",
+      "Tipcha occurs exactly once in every row; row4 has only Tipcha then Etnachta. This supplies a structural landmark identity chosen without fitting acoustic values, but not its timed acoustic interval.",
+      "Existing audio records are contemporary teaching performances. The terminal periodicity estimates are 175.82 and188.24Hz, with octave/endpoint alignment uncertainty. The four-group RMS segmentation is expressly candidate-only and unstable in the Haftarah recording across thresholds.",
+      "Existing transposition test states one positive paired anchor always fits one positive scale factor. An independent second pair and uncertainty/octave checks are still required to evaluate that model."
+    ],
+    "constraints": [
+      "Use actual sources; sheet identity, audio-event correspondence and an acoustic estimate are different evidence levels.",
+      "Do not select a second peak because it yields a desired cents residual, treat duplicate PDFs as independent witnesses, or call a new performer/tradition independent merely because there are four teaching rows.",
+      "Do not infer ancient intended pronunciation or one fixed note per accent from modern teaching material.",
+      "This unit may write source-grounded evidence, not edit existing endpoint/segmentation results or invent an alignment."
+    ]
+  },
+  "questions": {
+    "bounded_next_action": {
+      "type": "choice",
+      "instructions": "Select the useful next action for this source audit. This selects research work, not whether a historical or acoustic proposition is mathematically true.",
+      "criteria": {
+        "document_candidate_and_exact_alignment_obligation": "Document Tipcha row4 as the independently named structural candidate, explicitly withhold a measured second-anchor claim, preserve duplicate-source and segmentation limitations, and specify blinded label-to-audio alignment and pitch-window/uncertainty controls for the next experiment.",
+        "expand_to_full_syllable_alignment_now": "Extend this bounded review into fresh independent audio listening/transcription of all four rows in both recordings before writing the landmark evidence. Keep pitch values hidden until the labels and intervals are fixed.",
+        "seek_a_timed_or_staff_notated_edition_first": "Seek a different primary teaching edition supplying timed syllable landmarks or staff transcription, keep the current source comparison conditional, and transfer to these two recordings only after validating the edition's same-phrase correspondence."
+      }
+    }
+  }
+}

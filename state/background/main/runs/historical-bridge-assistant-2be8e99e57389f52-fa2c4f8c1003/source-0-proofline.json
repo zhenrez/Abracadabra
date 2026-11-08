@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:20.880946+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "d108a7ffc404ef4d0b4abd213bd12838dabd179fc0b909ba5cfdda0ea21548f6"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "26bf3e20-68e4-57f3-8264-427ad8946cf4",
+      "source_identity_sha256": "5558a3e827470d58df1eb10d29925b9f96b242674138bad34c6804d5b0ff53d2",
+      "source_version_id": "bd54abbc-c9d9-5426-86cb-1d07894550bd",
+      "version_number": 1,
+      "content": "The historical relationship is turning out to be almost exactly the useful version of your hypothesis: **Kepler accused Fludd of lacking measured motion; Fludd replied that Kepler had captured only the material/quantifiable half of harmony.** So “Fludd finished Kepler’s math” is too strong historically, but **Kepler supplies the metric that Fludd’s symbolic architecture lacks**—and that may be precisely the missing bridge for our Dee/music model.",
+      "content_sha256": "2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf",
+      "content_length": 450,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "f0f40bf11e4125d16b03e5441de8f8229e5b50fe1d169424d13df1464e126810"
+    },
+    "chunks": [
+      {
+        "id": "e370cc5d-5235-5d20-84be-e779880717e4",
+        "source_node_hash": "f0f40bf11e4125d16b03e5441de8f8229e5b50fe1d169424d13df1464e126810",
+        "source_id": "26bf3e20-68e4-57f3-8264-427ad8946cf4",
+        "source_version_id": "bd54abbc-c9d9-5426-86cb-1d07894550bd",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 450,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "The historical relationship is turning out to be almost exactly the useful version of your hypothesis: **Kepler accused Fludd of lacking measured motion; Fludd replied that Kepler had captured only the material/quantifiable half of harmony.** So “Fludd finished Kepler’s math” is too strong historically, but **Kepler supplies the metric that Fludd’s symbolic architecture lacks**—and that may be precisely the missing bridge for our Dee/music model.",
+        "content_sha256": "2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf",
+        "node_hash": "71aae40ed927f4ff0d07bb784f7e8caa0541088ca27bdea532727c44a6b193eb"
+      }
+    ],
+    "citations": [
+      {
+        "id": "82600258-7328-5a1b-9725-2c13a52186bb",
+        "source_node_hash": "f0f40bf11e4125d16b03e5441de8f8229e5b50fe1d169424d13df1464e126810",
+        "chunk_node_hashes": [
+          "71aae40ed927f4ff0d07bb784f7e8caa0541088ca27bdea532727c44a6b193eb"
+        ],
+        "source_id": "26bf3e20-68e4-57f3-8264-427ad8946cf4",
+        "source_version_id": "bd54abbc-c9d9-5426-86cb-1d07894550bd",
+        "start_offset": 0,
+        "end_offset": 450,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "The historical relationship is turning out to be almost exactly the useful version of your hypothesis: **Kepler accused Fludd of lacking measured motion; Fludd replied that Kepler had captured only the material/quantifiable half of harmony.** So “Fludd finished Kepler’s math” is too strong historically, but **Kepler supplies the metric that Fludd’s symbolic architecture lacks**—and that may be precisely the missing bridge for our Dee/music model.",
+        "quote_sha256": "2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf",
+        "node_hash": "86a323e3a5bd9036185df44a9bc5cfd035f37026d82698324042329a53a87873"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "f0f40bf11e4125d16b03e5441de8f8229e5b50fe1d169424d13df1464e126810",
+        "71aae40ed927f4ff0d07bb784f7e8caa0541088ca27bdea532727c44a6b193eb",
+        "86a323e3a5bd9036185df44a9bc5cfd035f37026d82698324042329a53a87873"
+      ],
+      "node_hash": "0b9c517d84bd16f254e59a06303fe8f74335d5ec090f86e269899eeed22ac253"
+    },
+    "artifact": {
+      "id": "416d6b45-55b5-5d8c-9337-922ac859518d",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf/text.txt; original SHA256 2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "0b9c517d84bd16f254e59a06303fe8f74335d5ec090f86e269899eeed22ac253",
+      "citation_node_hashes": [
+        "86a323e3a5bd9036185df44a9bc5cfd035f37026d82698324042329a53a87873"
+      ],
+      "node_hash": "505d5008e20002fccb0dc32670b6af92f3827b3bb0501e827187731a289cb931"
+    },
+    "review": {
+      "artifact_node_hash": "505d5008e20002fccb0dc32670b6af92f3827b3bb0501e827187731a289cb931",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:20.880946+00:00",
+      "updated_at": "2026-11-02T01:57:20.880946+00:00",
+      "node_hash": "49b945b38383f2bc02253048538a9e667a112730e5f020da686345cdd42ccd51"
+    }
+  }
+}

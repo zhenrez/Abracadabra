@@ -1,0 +1,192 @@
+{
+  "scope": "CURRENT CHAT, not a restart of prior SUN research",
+  "completed_stages": [
+    {
+      "id": "matrix_features",
+      "title": "Matrix and NumPy feature pipeline",
+      "status": "Implemented; 15x36 grid, P15/G5, availability masks, ordered alternatives and sequences. Font geometry is a proxy.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\features.py",
+          "sha256": "35541b1cb29ac49b68098ba19313b3f8360e0ff91a0a96b7da23b3410186063b"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\numpy_pipeline.py",
+          "sha256": "4dd474a74536409ea85f8a49915f4027d5d531d9b53619e4973c40a44deb15cc"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\build_dataset.py",
+          "sha256": "40f8e659bb8934627b0cae8c69540dcd0b98e999583a2dc9f4166619ec35aac7"
+        }
+      ]
+    },
+    {
+      "id": "carrier",
+      "title": "Six-script carrier extraction",
+      "status": "Executed on six rows, not fourteen. Ten zero-entropy columns and 18 literal differences; universal zero residual was not established.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\extract_carrier.py",
+          "sha256": "28d32433e1a0e7cfda745cd9dd811fbdc6be6ba93d7063968771920b72f4f556"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\carrier-statistics.json",
+          "sha256": "df6d84aa4fbaecdd3ee87d617ca07ce0043b61a5430c09b59c12b066545a327b"
+        }
+      ]
+    },
+    {
+      "id": "vowel",
+      "title": "Greek/Latin vowel drift",
+      "status": "Implemented lookup operator and optional glide conversion. This is the Greek/Latin linguistic operator completed in this conversation, not a Western musical orientation.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\vowel_drift.py",
+          "sha256": "71a0f22bc7c0ba08fe3dc3947056ce34753931c38a0cbf0bdf509be43e52e728"
+        }
+      ]
+    },
+    {
+      "id": "split",
+      "title": "Expansion and parity",
+      "status": "Implemented 28 tagged six-switch states plus explicit inventory extensions; separate from Sefer 29-state model.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\drift_engine.py",
+          "sha256": "64cf615af1fab5a801813687f1132c5095c07e919a107876b4e31348fa8a1b01"
+        }
+      ]
+    },
+    {
+      "id": "permutation",
+      "title": "Sabaic/Futhorc reindexing",
+      "status": "Implemented and tested. Full supplied targets fail a bijection with C22; partial incidence matrices retained. Negative finding is not a software failure.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\permutation.py",
+          "sha256": "053a08c9c56d1cc31aa43a290666392279f1491548a71be7e76cea16e54f62c3"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\permutation-results.json",
+          "sha256": "14911fa062aef7b5bb9c5d2919ec87def258a4674bf6938a048bf8e6ebf4c816"
+        }
+      ]
+    },
+    {
+      "id": "residual",
+      "title": "Residual extraction and heatmap",
+      "status": "Implemented, with 142 scored, 136 compatible, six residuals, 234 unmapped, four unknown, one unresolved; no historical TMI claim.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\residual_analysis.py",
+          "sha256": "61a433b1c62619373c93f9a648a0c64952e419698fdfff2009dc0bf9b9db3402"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\residual-results.json",
+          "sha256": "f81910727e5d71263120099bc949cff2741a49e44ed7be43f099d6e270186542"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\residual-heatmap.png",
+          "sha256": "d4fc910725c4136333e6848d83fef30df4d534933f6a7db4e724f281cc370def"
+        }
+      ]
+    },
+    {
+      "id": "sefer_original",
+      "title": "Original harmonic/Sefer model",
+      "status": "Implemented and frozen: 22 slots, 29 tagged states, matching ambiguity and unique-under-model restoration. No unique historical harmonic root established.",
+      "evidence": [
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\harmonic_verifier.py",
+          "sha256": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc"
+        },
+        {
+          "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse\\harmonic-demo.json",
+          "sha256": "ceb526c29fec5b4e94558e50b3e3134481366174f3f3a95937151430504777ea"
+        }
+      ]
+    }
+  ],
+  "consolidated_foundation": {
+    "status": "G0/G1 PASSED for bounded architecture and Sefer compatibility",
+    "evidence": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\closeout\\certification-closeout.json",
+    "sha256": "bed188c8a9b98b55a0c058a356e06f117b569e07f9a9f3282b27deccb0cf7486",
+    "implemented": [
+      "lossless source/grid/evidence layers",
+      "domain-independent provenance kernel",
+      "Sefer canonical-letter adapter",
+      "four source-identified representation controls",
+      "four-axis receipts",
+      "locked cross-orientation registry"
+    ]
+  },
+  "tests": [
+    {
+      "group": "earlier_pipeline",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "test_count": 40
+    },
+    {
+      "group": "consolidated_G0_G1",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "test_count": 47
+    }
+  ],
+  "gate_ledger": {
+    "G0": "PASSED",
+    "G1": "PASSED",
+    "G2": "LOCKED",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "residual_counts": {
+    "compatible": 136,
+    "missing": 159,
+    "unmapped": 234,
+    "unresolved_label": 1,
+    "unknown": 4,
+    "unpredicted_reading": 6
+  },
+  "corrections": [
+    "Duplicate conversation-log copies are not independent evidence requirements",
+    "Greek/Latin linguistic T_vowel was completed here; Western musical OrientationModel was not implemented here",
+    "Existing SUN exact-ratio/register/comma work predates the new common interface; reuse must be audited before new implementation",
+    "Conceptual proposals and raw ratios do not alone establish a completed native-model adapter",
+    "Earlier PARTIAL gate receipts are historical and superseded by the authority-corrected closeout receipt"
+  ],
+  "next_action": "G2 compatibility/gap audit: map existing Western/SUN code and tests to the common OrientationModel contract, identify only genuinely missing behaviors; no rebuild of the completed linguistic/Sefer pipeline.",
+  "next_action_status": "Eligible planning/audit target; no G2 implementation or unlock performed by this reconciliation",
+  "unverified": [
+    "Historical root or universal glyph-sound/music equivalence",
+    "Unique phoneme-to-frequency mapping",
+    "Historical topology independent of fonts",
+    "G2-G7 native/cross-model certification"
+  ]
+}

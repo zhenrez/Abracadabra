@@ -1,0 +1,36 @@
+{
+  "schema": "sunny.chinese-critical-checkpoint.v1",
+  "generated_utc": "2026-11-03T03:51:12.551267+00:00",
+  "new_source_linked_finding": "Jia commentary explicitly distinguishes generation order from use order: earlier/later generated tones are reordered for ritualrole placement; the selected role is not simply the generationindex.",
+  "source": "ZhouLiZhuShu22 revision544441, Jia疏 onZheng注",
+  "source_span": {
+    "start_offset": 18875,
+    "end_offset": 19532,
+    "quote_sha256": "7b89b97355cec975b91470b9e75a6bc6de90fa9f9a1a41d8eebb536a257228d2",
+    "quote": "云以此三者爲宮用聲類求之者若十二律相生終於六十卽以黄鍾爲首終於南事今此三者爲宮各於本宮上相生爲角徴羽麤細須品或先生後用或後生先用故云聲類求之也云天宮夾鍾陰聲其相生從陽數者其夾鍾與無射配合之物夾鍾是呂陰也無射是律陽也天是陽故宮後歴八相生還從陽數也云無射上生中呂中呂與地宮同位不用也者地宮是林鍾林鍾自與蕤賓合但中呂與林鍾同在南方位故云同位以天尊地卑故嫌其同位而不用之也中呂上生黄鍾黄鍾爲角也黄鍾下生林鍾林鍾地宮又不用亦嫌不用也林鍾上生大蔟大蔟爲徴也大蔟下生南呂與無射同位又不用南呂上生姑洗姑洗爲羽祭天四聲足矣地宮林鍾林鍾上生大蔟大蔟爲角大蔟下生南呂南呂爲羽先生後用也南呂上生姑洗姑洗爲徴後生先用四聲足矣人宮黄鍾黄鍾下生林鍾林鍾爲地宮又避之不取也林鍾上生大蔟大蔟爲徴先生後用也大蔟下生南呂南呂與天宮之陽同位又避之南呂上生姑洗姑洗南呂之合又避之姑洗下生應鍾應鍾爲羽應鍾上生蕤賓蕤賓地宮之陽以林鍾是地宮與蕤賓相配合故又避之蕤賓上生大呂大呂爲角以絲多後生先用也四聲足矣凡言不用者卑之凡言避之者尊之天宮既從陽數故於本宮之位人地皆不避之至於南呂姑洗合地於天雖有尊卑體敵之義故用姑洗天宫之陽所合但人於天尊卑隔絶故避姑洗天宮之陽所合也必知有避之及不用之義者以其天人所生有不取有不敢知天神不取者是嫌不用人鬼不敢者是尊而避之也云凡五聲宮之所生濁者爲角清者爲徵羽者此總三者宮之所生以其或先生後用謂若地宮所生姑洗爲徵後生先用南呂爲羽先生後用人宮所生大呂爲角後生先用大蔟爲徵先生後用以其後生絲多用角先生絲少用徵故云凡宮之所生濁者爲角清者爲徵羽也"
+  },
+  "specific_controls": [
+    "Earth:Taicu,Nanlü,Guxi generated; roleorderjue,zhi,yu usesTaicu,Guxi,Nanlü.",
+    "Ancestors:acceptedTaicu,Yingzhong,Dalu generation order; roleorder usesDalu,Taicu,Yingzhong."
+  ],
+  "pending_fork": "ActualJev chooses minimalcontextualcycle incompatibility versus order-reproduction versus anotherwitness.",
+  "exposure": "Allprescription outputs alreadyinspected; not a blindprediction.",
+  "plan": [
+    {
+      "step": "[100%] Recover commentary and existing source-conditioned results",
+      "status": "complete"
+    },
+    {
+      "step": "[20%] Reproduce Jev-selected compatibility or ordering consequence",
+      "status": "in_progress"
+    },
+    {
+      "step": "[0%] Verify source assumptions, prior-art delta and admissible bridges",
+      "status": "pending"
+    },
+    {
+      "step": "[0%] Deliver continuation and source-linked checkpoint",
+      "status": "pending"
+    }
+  ]
+}

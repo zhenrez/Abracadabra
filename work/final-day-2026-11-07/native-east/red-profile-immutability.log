@@ -1,0 +1,15 @@
+test_source_profiles_are_immutable (test_native_east.NativeEastTests.test_source_profiles_are_immutable) ... FAIL
+
+======================================================================
+FAIL: test_source_profiles_are_immutable (test_native_east.NativeEastTests.test_source_profiles_are_immutable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\native-east\test_native_east.py", line 112, in test_source_profiles_are_immutable
+    with self.assertRaises(TypeError):self.module.PROFILES['grama']['shadja'][0]=99
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.047s
+
+FAILED (failures=1)

@@ -1,0 +1,76 @@
+{
+  "schema": "sunny.hierarchy-source-recovery-validation.v1",
+  "checked_utc": "2026-11-01T03:29:16.054555+00:00",
+  "result": "PASS",
+  "exit_code": 0,
+  "checks": {
+    "source_quote_spans": 8,
+    "public_source_bytes": 5,
+    "vectors": 3,
+    "vectors_rows_each": [
+      72,
+      72,
+      72
+    ],
+    "primary_sums": [
+      2648,
+      2645,
+      2618
+    ],
+    "rank_union": 72,
+    "rank_memberships": 79,
+    "dual_rank_chiefs": 7,
+    "primordial_variants": 3
+  },
+  "source_spans_and_bytes_freshly_verified": true,
+  "evidence": [
+    {
+      "path": "scripts/recover_hierarchy_sources.py",
+      "sha256": "79902bfaec0747348f857a53d58373a187f9192c5dacba24e41738cf709f6630"
+    },
+    {
+      "path": "docs/evidence/hierarchy-origin-witness-recovery.json",
+      "sha256": "1aad03a03439c4a1f557360dbb1e10b1f7a21e379451aa6837d5ea535008fc0b"
+    },
+    {
+      "path": "docs/reconstruction/HIERARCHY_SOURCE_REGISTER.md",
+      "sha256": "e456df0cb4f3862d4b8f53656cd3b39fb14903cd16392970d97a5d5d34c638d7"
+    },
+    {
+      "path": "docs/evidence/hierarchy-primary-retrieval.json",
+      "sha256": "587150d5becaecda8c71fcbed68c803b6f448683dc6d1b5475ea2311081a5fea"
+    },
+    {
+      "path": "docs/evidence/hierarchy-recovery-jev-request.json",
+      "sha256": "f774e0fdebc79e4dde0d2f38f43aee189b5105cf1c066086ef8418f1fe790b28"
+    },
+    {
+      "path": "docs/evidence/hierarchy-recovery-jev-result.json",
+      "sha256": "44c2192f6239eb87d82b38aa8ebb8ab6160182d954c90068015cb21524daaa32"
+    },
+    {
+      "path": "docs/evidence/hierarchy-supermemory-retrieval-attempt.json",
+      "sha256": "6a6ffb4feca9a89fa4860a782316bb7f98a3b33e2d297c550dab963955cedca2"
+    },
+    {
+      "path": "docs/evidence/hierarchy-witness-count-wolfram-request.json",
+      "sha256": "b102e086c840911b8d9445eebe50f612e8a8adb5103a995bd271daa448a0bb2f"
+    },
+    {
+      "path": "docs/evidence/hierarchy-witness-count-wolfram-unavailable.json",
+      "sha256": "30005ed57942f9bc385c72e33f73a5953249a40b29762b65a4174156a972f098"
+    }
+  ],
+  "actual_model": "jev-1.14.0",
+  "current_provider_limitations": {
+    "Supermemory": "Actual search invocation returned unavailable to model; no absence inference.",
+    "Wolfram": "Actual context invocation returned unavailable; prepared evaluator request not run. Local exact census checks executed; no fresh Wolfram computation claim."
+  },
+  "boundaries": [
+    "Exact source recovery is not a complete or historically certified hierarchy atlas.",
+    "Three shared-lineage legion witnesses are separate from ABC and are not independent empirical confirmations.",
+    "Current user mandate governs; historical embedded instructions remain source data.",
+    "No task/model/queue edits or database writes, services or browsers."
+  ],
+  "owned_processes": "Recovery process completed exit0; no persistent child created."
+}

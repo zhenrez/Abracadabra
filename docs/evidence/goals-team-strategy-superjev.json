@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "request_sha256": "d8b71ea27e3f243394a06f51c99ee42434b75d889dadd7f4cb970c88b71e275f",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "future_initial_team": {
+      "type": "choice",
+      "probabilities": {
+        "sound_music_forensics": 0.2,
+        "sound_western_chinese": 0.62,
+        "two_independent_sound_paths_music": 0.18
+      },
+      "winner": "sound_western_chinese",
+      "top_probability": 0.62,
+      "margin": 0.42
+    },
+    "scope_fidelity": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.79,
+        "false": 0.20999999999999996
+      },
+      "value": true
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 932,
+    "output_tokens": 81
+  },
+  "network_calls": 1,
+  "latency_ms": 316
+}

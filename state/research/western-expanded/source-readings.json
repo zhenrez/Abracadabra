@@ -1,0 +1,167 @@
+{
+  "schema": "sunny.western-source-readings.v1",
+  "images": {
+    "scale": {
+      "path": "data/raw/hierarchy-inputs/bfe232625c4cae6e88672cb38d79d375ad49a699e2adfb916cc635c42dbc0659/original.jpg",
+      "sha256": "bfe232625c4cae6e88672cb38d79d375ad49a699e2adfb916cc635c42dbc0659",
+      "visuallyInspected": true,
+      "role": "User-supplied image assertion, not independent historical/acoustic validation"
+    },
+    "range": {
+      "path": "data/raw/hierarchy-inputs/74713030aa3b182bd1fde35bcd0ef1f8350f7084837514c81ebd881733650ed8/original.png",
+      "sha256": "74713030aa3b182bd1fde35bcd0ef1f8350f7084837514c81ebd881733650ed8",
+      "visuallyInspected": true,
+      "role": "User-supplied image assertion, not independent historical/acoustic validation"
+    }
+  },
+  "forms": [
+    {
+      "key": "major",
+      "name": "Major",
+      "observedCRowRootSpellings": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "offsets": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "direction": "source scale/chord row; no performed direction claimed"
+    },
+    {
+      "key": "natural-minor",
+      "name": "Natural Minor",
+      "observedCRowRootSpellings": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "Bb"
+      ],
+      "offsets": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "direction": "source scale/chord row; no performed direction claimed"
+    },
+    {
+      "key": "harmonic-minor",
+      "name": "Harmonic Minor",
+      "observedCRowRootSpellings": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "B"
+      ],
+      "offsets": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "direction": "source scale/chord row; no performed direction claimed"
+    },
+    {
+      "key": "melodic-minor-ascending",
+      "name": "Melodic Minor: ascending-form pitch collection",
+      "observedPrintedLabel": "Melodic Minor",
+      "observedCRowRootSpellings": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "offsets": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "direction": "Raised sixth/seventh source row modeled as ascending-form collection; descending rule not supplied by this row"
+    }
+  ],
+  "keyboard": {
+    "firstMidiKey": 21,
+    "lastMidiKey": 108,
+    "keyCount": 88,
+    "firstPrintedNote": "A0",
+    "lastPrintedNote": "C8",
+    "referenceA4Hz": 440,
+    "intonation": "Equal temperament explicitly stated by the caption",
+    "physicalInstrumentInstance": null
+  },
+  "rangeProfiles": {
+    "Voices": [
+      "Soprano",
+      "Mezzo-soprano",
+      "Contralto",
+      "Tenor",
+      "Baritone",
+      "Bass"
+    ],
+    "Woodwind": [
+      "Piccolo",
+      "Flute",
+      "Oboe",
+      "English Horn",
+      "B-flat Clarinet",
+      "Bass Clarinet",
+      "Soprano Sax",
+      "E-flat Alto Saxophone",
+      "B-flat Tenor Sax",
+      "Baritone Sax",
+      "Bassoon",
+      "Contrabassoon"
+    ],
+    "Brass": [
+      "B-flat Trumpet",
+      "French Horn",
+      "Tenor Trombone",
+      "Tuba"
+    ],
+    "Timpani": [
+      "Small timpani",
+      "Medium timpani",
+      "Large timpani"
+    ],
+    "Strings": [
+      "Harp",
+      "Guitar",
+      "Violin",
+      "Viola",
+      "Cello",
+      "Double Bass"
+    ]
+  },
+  "rangeEndpointPolicy": "All instrument/voice endpoints remain null; no pitch bounds reconstructed from blurred range-bar pixels. Profiles, timpani sizes, voices and sound programs are different units.",
+  "sourceReadingsAreNotWholeWesternMusic": true
+}

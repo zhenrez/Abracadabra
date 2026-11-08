@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Implement the latest recorded Jev-selected local_gpu route for SUNNY while preserving the live CPU service until GPU validation.",
+    "evidence": "RTX3060 12GB, NVIDIA driver610.88, Windows amd64, Python3.13. Existing CPU torch2.9.1 works. Official PyTorch previous-versions documentation lists CUDA12.6 and12.8 builds for torch2.9.1 on Windows. The official cu128 index explicitly provides torch-2.9.1+cu128-cp313-cp313-win_amd64.whl with SHA256 ad9183864acdd99fc5143d7ca9d3d2e7ddfc9a9600ff43217825d4e5e9855ccc. The pinned AgentJev upstream performance report used torch2.9.1+cu128.",
+    "constraints": "Install only into SUNNY runtime/.venv, leaving global CPU packages and service8149 unchanged. Retain the identical pinned Jev weights. Start GPU validation on loopback8150, compare real outputs before any route switch. Preserve low-margin choices rather than declaring consensus."
+  },
+  "questions": [
+    {
+      "id": "cuda_build",
+      "type": "choice",
+      "question": "Which official CUDA PyTorch build should the isolated local GPU validation use?",
+      "options": {
+        "torch291_cu128": "Install torch2.9.1+cu128 from the official PyTorch cu128 wheel index. Its exact Python3.13 Windows wheel was verified available; this torch/CUDA version matches the pinned AgentJev upstream benchmark environment.",
+        "torch291_cu126": "Install torch2.9.1+cu126 from the official PyTorch cu126 wheel index. Official Windows support is documented; it retains the torch version but uses the older CUDA12.6 build instead of the upstream benchmark's CUDA12.8."
+      }
+    }
+  ]
+}

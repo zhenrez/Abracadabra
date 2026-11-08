@@ -1,0 +1,92 @@
+{
+  "schema": "sunny.symbol-sound-integration-checks.v1",
+  "checked_utc": "2026-11-04T03:12:18.958019+00:00",
+  "goal_scope": "All16goals/8outputs remain active/incomplete. This is source-native symbolic/phonetic constraints and partial score integration.",
+  "root_observed_checks": {
+    "npm_run_build": {
+      "exit_code": 0
+    },
+    "focused_node_tests": {
+      "exit_code": 0,
+      "passed": 25,
+      "failed": 0
+    },
+    "frozen_symbol_execution": {
+      "exit_code": 0,
+      "source_contexts": 7,
+      "raw_canonical_tokens": 4,
+      "retained_grammars": 2,
+      "duration_Hz_waveform": "unknown"
+    },
+    "independent_review": {
+      "first_review_defects": 2,
+      "repaired": 2,
+      "rereview_focused_tests": 5,
+      "rereview_exit_code": 0,
+      "bindings_verified": {
+        "input_snapshots": 11,
+        "code_files": 5,
+        "score_reference_arrays": 110
+      },
+      "scope": "Reviewer messages independently inspected runtime bindings, nested references and exact XML spans; mathematical/source claims remain conditional."
+    }
+  },
+  "new_manual_model_inference_calls": 0,
+  "provider_account_attribution": "UNVERIFIED",
+  "historical_sound_restored": false,
+  "blind_prediction": false,
+  "changed_or_created_artifacts": [
+    {
+      "path": "scripts/reconstruct_symbol_sound_constraints.mjs",
+      "sha256": "11234ff22beaa523e3232c16b5f4b4433b13cc4236cc5c75afebef3cd3b31f37"
+    },
+    {
+      "path": "tests/symbol-sound-constraints.test.mjs",
+      "sha256": "27c8c13b7f66445e77d4b270dfced5bca55e1f53f6efa37ecbf345813e43c1af"
+    },
+    {
+      "path": "scripts/reconstruct_master_score.mjs",
+      "sha256": "f5c2eb697bc74fba31ada73c9307b1652f7be58b6f193c94fce6d04d122ade4a"
+    },
+    {
+      "path": "scripts/assemble_current_model.py",
+      "sha256": "56da6a35a04166e34c095e0e9afc957e56ee8bca0018df2ff3ae0947b5eb8531"
+    },
+    {
+      "path": "scripts/verify_reconstruction.py",
+      "sha256": "bd16480eaeadf1baea408af55541bf140b716da19cfbf37cfb8fc2bc61676eae"
+    },
+    {
+      "path": "state/reconstruction/symbol-sound-constraints.json",
+      "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940"
+    },
+    {
+      "path": "state/reconstruction/master-score.json",
+      "sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59"
+    },
+    {
+      "path": "state/reconstruction/model.json",
+      "sha256": "ef4554dd82076ca71b7e27e31abbe9d6fe2014373809f3bf5e79a5285449180d"
+    },
+    {
+      "path": "docs/reconstruction/SYMBOL_SOUND_CONSTRAINTS.md",
+      "sha256": "1a25f82ccbad0169b491e473074d44f964e21ecb13f1073de0de2dd20ef77def"
+    },
+    {
+      "path": "docs/reconstruction/MASTER_SCORE.md",
+      "sha256": "0641c8b2b129d255907cc31f118b20461513f582ebde2d6b27495cf1b8d29f39"
+    },
+    {
+      "path": "docs/reconstruction/CURRENT_MODEL.md",
+      "sha256": "5bb0c8732880d87d12a802babfe3c28e136ef29be9635619595a9ca7ecc8c645"
+    },
+    {
+      "path": "docs/research/ALEF_WITNESS_TEST.md",
+      "sha256": "d1ed71831ebea8fd4d09020763156d5d06422911324718bf8b6648b17d518b79"
+    },
+    {
+      "path": "state/research/reactivation/alef-witness/verification.json",
+      "sha256": "1269de5a45648bb1e794b1fea11d1fc83243aa5ecaf01710f630d9325f3a9be6"
+    }
+  ]
+}

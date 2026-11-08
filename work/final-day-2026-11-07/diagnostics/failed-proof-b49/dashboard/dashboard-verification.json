@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "builder_command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "work\\final-day-2026-11-07\\dashboard",
+    "-p",
+    "test_dashboard.py",
+    "-v"
+  ],
+  "builder_exit_code": 0,
+  "observed_tests": 5,
+  "builder_log_sha256": "4dd49ad36e149b400dd11c17ca2f850f6c755503fd9283ef20d840166f788679",
+  "browser_status": "PASSED",
+  "browser_checks": 7,
+  "page_errors": [],
+  "source_sha256": "ffe905172feae4bb8097ffcdf02d7a760cd461233233d92531a4033ea387a26d",
+  "html_sha256": "f81f8a3cd5be8d7d258e43e088c29b578c372077f0fae348dc29971a74ddcc4c",
+  "byte_roundtrip": "EXACT",
+  "requirements": 106,
+  "limitations": [
+    "UI verification does not establish historical truth",
+    "12uiCLI absent; no hosteddesignrun or approvedtargetimage claim"
+  ]
+}

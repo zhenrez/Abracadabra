@@ -1,0 +1,161 @@
+{
+  "sources": [
+    {
+      "path": "data/raw/nested/5bf6d43d840a62293da9bdf934b170d208de21f13210ce7732aa6cbc0572c16e/sep_ariadne_sources/libfile_3b346d2d6538819190343d4937d84629_Pasted markdown(20260915-165248).md",
+      "sha256": "a7aed0bf3a7e44b74143a9128048e33de9e7e1db894bd0ede685b8793ab066fc"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_SOL_CORE/SUN_P0A_Eight_Neighborhood_Census_2026-10-05.md",
+      "sha256": "65d3d027505c20c044c5e1e0065775ce44e33fea6b83670b3dbdf4a52c3e54f6"
+    }
+  ],
+  "source_hashes_verified": true,
+  "p0_a_questions": [
+    {
+      "id": "Q01",
+      "question": "Who has proposed this or something structurally equivalent before?"
+    },
+    {
+      "id": "Q02",
+      "question": "What fields study this problem?"
+    },
+    {
+      "id": "Q03",
+      "question": "What terminology do those fields use for it?"
+    },
+    {
+      "id": "Q04",
+      "question": "What are the closest established theories, models, equations, or frameworks?"
+    },
+    {
+      "id": "Q05",
+      "question": "What reviews, surveys, bibliographies, encyclopedias, dissertations, or meta-analyses map the space?"
+    },
+    {
+      "id": "Q06",
+      "question": "What are the canonical papers, books, and authors?"
+    },
+    {
+      "id": "Q07",
+      "question": "What are the competing explanations?"
+    },
+    {
+      "id": "Q08",
+      "question": "What has been falsified, criticized, or abandoned?"
+    },
+    {
+      "id": "Q09",
+      "question": "What are the unresolved questions?"
+    },
+    {
+      "id": "Q10",
+      "question": "What primary sources or datasets are important to the field?"
+    },
+    {
+      "id": "Q11",
+      "question": "What earlier historical traditions have scholars already connected to it?"
+    },
+    {
+      "id": "Q12",
+      "question": "Has terminology changed over time in ways that hide older versions?"
+    },
+    {
+      "id": "Q13",
+      "question": "Have adjacent disciplines rediscovered the same structure under another name?"
+    },
+    {
+      "id": "Q14",
+      "question": "What obvious prior-art searches have produced nothing?"
+    }
+  ],
+  "m_questions": [
+    {
+      "id": "M1",
+      "question": "What persistent heterodox, fringe, esoteric, rejected, alternative, or conspiratorial theories address this question or a structural equivalent?",
+      "function": "Find the alternative model space."
+    },
+    {
+      "id": "M2",
+      "question": "What exactly does each theory claim, and what are its earliest traceable proponents, sources, names, and major variants?",
+      "function": "Prevent vague \"people say…\" blobs."
+    },
+    {
+      "id": "M3",
+      "question": "What observation, anomaly, contradiction, absence, pattern, or unexplained phenomenon caused the theory to arise?",
+      "function": "Find the potentially valuable thing underneath the explanation."
+    },
+    {
+      "id": "M4",
+      "question": "What remains if we separate its observation from its interpretation, mechanism, and ontology?",
+      "function": "Core mud rule."
+    },
+    {
+      "id": "M5",
+      "question": "How persistent and independent is the theory — across time, communities, traditions, languages, rediscoveries — and which apparent lineages derive from one source?",
+      "function": "Separate recurrence from repetition."
+    },
+    {
+      "id": "M6",
+      "question": "What sources, evidence, artifacts, datasets, witnesses, or obscure materials do proponents rely on that the scholarly census did not surface?",
+      "function": "Generate source leads without granting authority."
+    },
+    {
+      "id": "M7",
+      "question": "What are the strongest criticisms, falsifications, failed predictions, exposed errors, hoaxes, mistranslations, or methodological failures?",
+      "function": "Understand why it is marginal."
+    },
+    {
+      "id": "M8",
+      "question": "After those failures are removed, what — if anything — survives?",
+      "function": "Extract useful residue; classify as SUPPORTED / UNRESOLVED / UNTESTED / REFUTED."
+    },
+    {
+      "id": "M9",
+      "question": "Has any part later appeared in mainstream scholarship, been independently rediscovered, or survived under different terminology?",
+      "function": "Detect premature rejection; vocabulary migration; no vindication-by-association."
+    },
+    {
+      "id": "M10",
+      "question": "What variables, relationships, scales, causal structures, or problem representations does this model introduce that P0-A does not?",
+      "function": "Primary \"new dimension\" question."
+    },
+    {
+      "id": "M11",
+      "question": "What predictions, falsifiers, negative controls, or discriminating tests follow, and what information must be quarantined to preserve independent testing?",
+      "function": "Convert weirdness into testable structure."
+    },
+    {
+      "id": "M12",
+      "question": "After comparing P0-A and First & 3/4 Order, what unresolved anomalies, neglected variables, source leads, alternative models, or new tests should ARIADNE carry forward?",
+      "function": "Produce the actual output."
+    }
+  ],
+  "preserved_drafts": {
+    "state/mission.json": {
+      "path": "state/checkpoint-history/before-prior-art-consolidation-mission.json-4ddc5c26834890598e5e0d11a300f26d0149fa2371216c6f6bafbfeb1c5d1247.snapshot",
+      "sha256": "4ddc5c26834890598e5e0d11a300f26d0149fa2371216c6f6bafbfeb1c5d1247"
+    },
+    "state/task.json": {
+      "path": "state/checkpoint-history/before-prior-art-consolidation-task.json-dc0c15a8c46ec0084aa9bb8c094122a0f8641312898e2abe8a0c0b46292896e2.snapshot",
+      "sha256": "dc0c15a8c46ec0084aa9bb8c094122a0f8641312898e2abe8a0c0b46292896e2"
+    },
+    "state/superjev-checkpoint.json": {
+      "path": "state/checkpoint-history/before-prior-art-consolidation-superjev-checkpoint.json-26e331d3329222687e66cc97e079a7107eeb6ac391cd771899ec88ecbdca444f.snapshot",
+      "sha256": "26e331d3329222687e66cc97e079a7107eeb6ac391cd771899ec88ecbdca444f"
+    },
+    "docs/reconstruction/SUNNY_GOALS.md": {
+      "path": "state/checkpoint-history/before-prior-art-consolidation-SUNNY_GOALS.md-224663ca6409cd57b65193a6b099404927ef4e2d75058505c3fe5a55c3b28240.snapshot",
+      "sha256": "224663ca6409cd57b65193a6b099404927ef4e2d75058505c3fe5a55c3b28240"
+    },
+    "CONTINUE.md": {
+      "path": "state/checkpoint-history/before-prior-art-consolidation-CONTINUE.md-ae4e0341447975f4c7507b3b55b4e938a0205cbd0152f1df304a490a455f3eb1.snapshot",
+      "sha256": "ae4e0341447975f4c7507b3b55b4e938a0205cbd0152f1df304a490a455f3eb1"
+    }
+  },
+  "canonical_goal": {
+    "id": "G16",
+    "text": "For every substantive SUNNY question, recover prior art, established positions, competing explanations, known solutions and counterexamples through first-order and First & 3/4 Order research. Determine what can be reused, what transfers under stated conditions and what remains to derive. Preserve the dated independent formulation and evidence exposure history.",
+    "status": "open"
+  },
+  "boundary": "Recovered protocol, not new validation of its historical/scientific claims."
+}

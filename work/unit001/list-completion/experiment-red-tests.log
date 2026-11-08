@@ -1,0 +1,36 @@
+test_T04_two_partitions_share_all_22_identities (test_list_completion.ListCompletionTests.test_T04_two_partitions_share_all_22_identities) ... ok
+test_T06_alternative_has_separate_source (test_list_completion.ListCompletionTests.test_T06_alternative_has_separate_source) ... ok
+test_cell_ordinal_cannot_readdress_source (test_list_completion.ListCompletionTests.test_cell_ordinal_cannot_readdress_source) ... ok
+test_derivation_provenance (test_list_completion.ListCompletionTests.test_derivation_provenance) ... ok
+test_experiment_records_selection_and_candidates (test_list_completion.ListCompletionTests.test_experiment_records_selection_and_candidates) ... ERROR
+test_migrated_claims_are_core_links (test_list_completion.ListCompletionTests.test_migrated_claims_are_core_links) ... ok
+test_serialized_source_encoding_cannot_lie (test_list_completion.ListCompletionTests.test_serialized_source_encoding_cannot_lie) ... ok
+test_source_encoding (test_list_completion.ListCompletionTests.test_source_encoding) ... ok
+test_source_lineage_provenance (test_list_completion.ListCompletionTests.test_source_lineage_provenance) ... ok
+test_unknown_evaluation_group_rejected (test_list_completion.ListCompletionTests.test_unknown_evaluation_group_rejected) ... FAIL
+test_unknown_mutable_container_rejected (test_list_completion.ListCompletionTests.test_unknown_mutable_container_rejected) ... ok
+
+======================================================================
+ERROR: test_experiment_records_selection_and_candidates (test_list_completion.ListCompletionTests.test_experiment_records_selection_and_candidates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 41, in test_experiment_records_selection_and_candidates
+    receipt=ExperimentReceipt('trial','target',(),('same-artifact-family',),('already-exposed',),'frozen-v1',
+        {},'unsealed',{'score':'exact'},('no advantage',),('unrelated control',),True,{'evaluated':False},(),
+        'KNOWN_ORIGINALS',selection_method='source-identified engineering control',
+        candidate_set_results={'status':'NOT_EVALUATED','candidates':[]})
+TypeError: ExperimentReceipt.__init__() got an unexpected keyword argument 'selection_method'
+
+======================================================================
+FAIL: test_unknown_evaluation_group_rejected (test_list_completion.ListCompletionTests.test_unknown_evaluation_group_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_list_completion.py", line 50, in test_unknown_evaluation_group_rejected
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.244s
+
+FAILED (failures=1, errors=1)

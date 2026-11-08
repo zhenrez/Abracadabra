@@ -1,0 +1,77 @@
+test_corrupt_or_trailing_bitstreams_rejected (test_baseline.CodingBaselineTests.test_corrupt_or_trailing_bitstreams_rejected) ... FAIL
+test_description_costs_are_measured_not_constants (test_baseline.CodingBaselineTests.test_description_costs_are_measured_not_constants) ... FAIL
+test_dictionary_and_escaped_unseen_values_roundtrip (test_baseline.CodingBaselineTests.test_dictionary_and_escaped_unseen_values_roundtrip) ... FAIL
+test_literal_exact_unicode_roundtrip (test_baseline.CodingBaselineTests.test_literal_exact_unicode_roundtrip) ... FAIL
+test_related_groups_never_split_between_train_and_test (test_baseline.CodingBaselineTests.test_related_groups_never_split_between_train_and_test) ... FAIL
+
+======================================================================
+FAIL: test_corrupt_or_trailing_bitstreams_rejected (test_baseline.CodingBaselineTests.test_corrupt_or_trailing_bitstreams_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_baseline.py", line 32, in test_corrupt_or_trailing_bitstreams_rejected
+    with self.assertRaises(ValueError):decode(encoded+'1')
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_description_costs_are_measured_not_constants (test_baseline.CodingBaselineTests.test_description_costs_are_measured_not_constants)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_baseline.py", line 19, in test_description_costs_are_measured_not_constants
+    self.assertGreater(result['model_bits'],0)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 not greater than 0
+
+======================================================================
+FAIL: test_dictionary_and_escaped_unseen_values_roundtrip (test_baseline.CodingBaselineTests.test_dictionary_and_escaped_unseen_values_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_baseline.py", line 13, in test_dictionary_and_escaped_unseen_values_roundtrip
+    self.assertEqual(decode(result['bits']),self.values)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: () != (('PHONEME_VALUE', '\u0294'), ('PHONEME_VALUE',[65 chars] ''))
+
+Second tuple contains 5 additional elements.
+First extra element 0:
+('PHONEME_VALUE', '\u0294')
+
+- ()
++ (('PHONEME_VALUE', '\u0294'),
++  ('PHONEME_VALUE', 'b/v'),
++  ('UNKNOWN_VALUE', '?'),
++  ('LETTER_NAME', 'e\u026a'),
++  ('BLANK', ''))
+
+======================================================================
+FAIL: test_literal_exact_unicode_roundtrip (test_baseline.CodingBaselineTests.test_literal_exact_unicode_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_baseline.py", line 8, in test_literal_exact_unicode_roundtrip
+    self.assertEqual(decode(result['bits']),self.values)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: () != (('PHONEME_VALUE', '\u0294'), ('PHONEME_VALUE',[65 chars] ''))
+
+Second tuple contains 5 additional elements.
+First extra element 0:
+('PHONEME_VALUE', '\u0294')
+
+- ()
++ (('PHONEME_VALUE', '\u0294'),
++  ('PHONEME_VALUE', 'b/v'),
++  ('UNKNOWN_VALUE', '?'),
++  ('LETTER_NAME', 'e\u026a'),
++  ('BLANK', ''))
+
+======================================================================
+FAIL: test_related_groups_never_split_between_train_and_test (test_baseline.CodingBaselineTests.test_related_groups_never_split_between_train_and_test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_baseline.py", line 25, in test_related_groups_never_split_between_train_and_test
+    self.assertEqual(len(folds),3)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 != 3
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=5)

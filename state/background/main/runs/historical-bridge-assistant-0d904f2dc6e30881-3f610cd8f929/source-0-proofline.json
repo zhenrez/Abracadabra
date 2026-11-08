@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:55:22.733326+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "caf243bddd0bd4aff96374ff112a439dcdd64b05c03394a2d30373cd3ef670d5"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "9f36d500-e142-505d-8017-5f4c5d2527a8",
+      "source_identity_sha256": "e50e167cd236e5442ff6da85f0ddfb2a3b9633b06bfd248d73945573fe66e6a0",
+      "source_version_id": "4543c9e5-fa25-5afd-a057-a95e683c6518",
+      "version_number": 1,
+      "content": "I pulled the actual *Completed Harmony* paper. You’re right about what we had established **inside this research program**: the proposed completion is not metaphorical. Kepler supplies the moving extrema/continuous planetary “melody”; Fludd supplies the fixed frequency/tuning scaffold—the paper literally summarizes it as **Kepler = Time/Motion, Fludd = State/Frequency**.  ",
+      "content_sha256": "0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f",
+      "content_length": 375,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "8a404b30e7b18136bb62a9a8af4307dfabf02f6b3bb6a74543619c5edd974991"
+    },
+    "chunks": [
+      {
+        "id": "164e7a08-ef87-514d-b302-eac59a3f5c24",
+        "source_node_hash": "8a404b30e7b18136bb62a9a8af4307dfabf02f6b3bb6a74543619c5edd974991",
+        "source_id": "9f36d500-e142-505d-8017-5f4c5d2527a8",
+        "source_version_id": "4543c9e5-fa25-5afd-a057-a95e683c6518",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 375,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "I pulled the actual *Completed Harmony* paper. You’re right about what we had established **inside this research program**: the proposed completion is not metaphorical. Kepler supplies the moving extrema/continuous planetary “melody”; Fludd supplies the fixed frequency/tuning scaffold—the paper literally summarizes it as **Kepler = Time/Motion, Fludd = State/Frequency**.  ",
+        "content_sha256": "0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f",
+        "node_hash": "93d2a7035323e7bb42966fb0236df1be6d1deff90b6c6777a59147f2618757e2"
+      }
+    ],
+    "citations": [
+      {
+        "id": "d45a155c-def2-59f0-9762-8626859773c4",
+        "source_node_hash": "8a404b30e7b18136bb62a9a8af4307dfabf02f6b3bb6a74543619c5edd974991",
+        "chunk_node_hashes": [
+          "93d2a7035323e7bb42966fb0236df1be6d1deff90b6c6777a59147f2618757e2"
+        ],
+        "source_id": "9f36d500-e142-505d-8017-5f4c5d2527a8",
+        "source_version_id": "4543c9e5-fa25-5afd-a057-a95e683c6518",
+        "start_offset": 0,
+        "end_offset": 375,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "I pulled the actual *Completed Harmony* paper. You’re right about what we had established **inside this research program**: the proposed completion is not metaphorical. Kepler supplies the moving extrema/continuous planetary “melody”; Fludd supplies the fixed frequency/tuning scaffold—the paper literally summarizes it as **Kepler = Time/Motion, Fludd = State/Frequency**.  ",
+        "quote_sha256": "0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f",
+        "node_hash": "df4295efff03d845ce50cdc78ea72ea1c2af9604f6afe78782bd447076dcacd6"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "8a404b30e7b18136bb62a9a8af4307dfabf02f6b3bb6a74543619c5edd974991",
+        "93d2a7035323e7bb42966fb0236df1be6d1deff90b6c6777a59147f2618757e2",
+        "df4295efff03d845ce50cdc78ea72ea1c2af9604f6afe78782bd447076dcacd6"
+      ],
+      "node_hash": "3415a72b76c432242413de5d956ad92ac71802dd0d9ac2c45fff3e59063ff7b0"
+    },
+    "artifact": {
+      "id": "a45b6b45-2828-53f7-801c-810f4a2c18e6",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f/text.txt; original SHA256 0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "3415a72b76c432242413de5d956ad92ac71802dd0d9ac2c45fff3e59063ff7b0",
+      "citation_node_hashes": [
+        "df4295efff03d845ce50cdc78ea72ea1c2af9604f6afe78782bd447076dcacd6"
+      ],
+      "node_hash": "6030271d5637aded4bbd0a29b8aafa5d4aa158790f43911645fba76ebd304fd9"
+    },
+    "review": {
+      "artifact_node_hash": "6030271d5637aded4bbd0a29b8aafa5d4aa158790f43911645fba76ebd304fd9",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:55:22.733326+00:00",
+      "updated_at": "2026-11-02T01:55:22.733326+00:00",
+      "node_hash": "f2dd7ceac5a6200d2de34d277964a56e405eb832de07493d3712606eef8fbe78"
+    }
+  }
+}

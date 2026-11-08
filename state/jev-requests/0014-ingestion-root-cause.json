@@ -1,0 +1,14 @@
+{
+ "state":{
+  "goal":"Prevent recurrence of the observed source-corruption/locator bug in future SUNNY imports.",
+  "facts":"A source-preservingrepairnowrestores7missingnativeCodexrecords and correctsphysicalLF/UTF8positionswithlegacyhistory. Rootcause: originalscripts/ingest.py stillusesstr.splitlines, splittinglegalU+2028insideJSONstrings. Newfutureimportsusingthatcodewouldreproducegaps. Sourcesnapshotsandoriginalpayloadsareintact. ExistingrepairedsourceIDs mustnotbechanged.",
+  "constraints":"Jevdirectseveryimplementationfork. PreserveexistingIDs/history, originalbytes andsource-order-not-causalparentage. Newimports needexactpositionsandUTF8withnoUnicodecontentnormalization."
+ },
+ "questions":[{
+  "id":"ingestion_root_cause","type":"choice","question":"Which permanent ingestion repair should be implemented and regression-tested?",
+  "options":{
+   "native_parser":"ChangeonlyfutureCodeximportstophysicalLFbyteswithnamespacedphysicalLFrecordIDsandexactbytepositions; retainexistingrepairedsources/historyunchanged. AddaU+2028multi-recordregressionusingtheactualimportpath.",
+   "repair_pipeline":"Keepthelegacyimportparserbutmakeeveryimportautomaticallyruntheprovenrepairpassbeforethecollectionisdeclaredready;testthecompletepipeline."
+  }
+ }]
+}

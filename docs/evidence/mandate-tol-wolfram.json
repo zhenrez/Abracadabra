@@ -1,0 +1,17 @@
+{
+  "tool": "Wolfram.wolframlanguageevaluator",
+  "request": {
+    "code": "With[{p = {{1,-2},{-1,1}}}, {Det[p], Solve[{a == r-2 l-o,b == -r+l},{r,l}], Table[Binomial[2n,n],{n,1,6}], Table[Sum[(2n-k)!/((n-k)! (n-k)! k!), {k,0,n}],{n,1,6}]}]"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Out[1]= {-1, {{r -> -a - 2*b - o, l -> -a - b - o}}, {2, 6, 20, 70, 252, 924}, {3, 13, 63, 321, 1683, 8989}}"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "scope": "Exact arithmetic and symbolic algebra for conditional history-evaluation derivation; no historical or global orientation authority."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alignment-table-c5ce90e0f067a402",
+  "content_sha256": "c5ce90e0f067a402fb23174cd64b14901e9d79dc3cc595bf9fe08358ee49f994",
+  "headers": [
+    "#",
+    "Component",
+    "Exact install",
+    "Role"
+  ],
+  "rows": [
+    [
+      "**1**",
+      "**Assertion store**",
+      "Hand-curated YAML (one file, ~200 lines)",
+      "Encodes every H/C/A/R/X/P item from Build Candidate 1 as typed records"
+    ],
+    [
+      "**2**",
+      "**Z3 solver**",
+      "`pip install z3-solver`",
+      "Encodes hard + conditional constraints as SMT; produces unsat cores for every rejection; enumerates surviving models"
+    ],
+    [
+      "**3**",
+      "**sympy**",
+      "`pip install sympy`",
+      "Verifies every arithmetic identity symbolically (A1–A28); exact rational arithmetic, no float"
+    ],
+    [
+      "**4**",
+      "**math-to-alpha protocol**",
+      "`pip install numpy scipy`; ~150 lines of code",
+      "Hurst on primordial axis; box-counting on Sierpinski/Sri Yantra; Poisson on 72/288/144,000 counts"
+    ],
+    [
+      "**5**",
+      "**Kepler bridge testbed**",
+      "`git clone https://github.com/evoluteur/music-of-the-spheres`",
+      "Extract Kepler's native intervals (Saturn 4:5, Jupiter 5:6, etc.); compare to SOL working commitments"
+    ],
+    [
+      "**6**",
+      "**Certificate generator**",
+      "Python script (~100 lines)",
+      "Assembles the output certificate from components 2–5; writes to a single file"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 5867,
+      "line_end": 5874,
+      "char_start": 309060,
+      "char_end": 310118,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| # | Component | Exact install | Role |\n|---|---|---|---|\n| **1** | **Assertion store** | Hand-curated YAML (one file, ~200 lines) | Encodes every H/C/A/R/X/P item from Build Candidate 1 as typed records |\n| **2** | **Z3 solver** | `pip install z3-solver` | Encodes hard + conditional constraints as SMT; produces unsat cores for every rejection; enumerates surviving models |\n| **3** | **sympy** | `pip install sympy` | Verifies every arithmetic identity symbolically (A1–A28); exact rational arithmetic, no float |\n| **4** | **math-to-alpha protocol** | `pip install numpy scipy`; ~150 lines of code | Hurst on primordial axis; box-counting on Sierpinski/Sri Yantra; Poisson on 72/288/144,000 counts |\n| **5** | **Kepler bridge testbed** | `git clone https://github.com/evoluteur/music-of-the-spheres` | Extract Kepler's native intervals (Saturn 4:5, Jupiter 5:6, etc.); compare to SOL working commitments |\n| **6** | **Certificate generator** | Python script (~100 lines) | Assembles the output certificate from components 2–5; writes to a single file |\n",
+      "quote_sha256": "a0e17b8533700fac2ca46465bd20cbd7d775da0899aaed7fca00e4192076d81a",
+      "message_id": "586d226b24b67710db504b484d31e938bd419e76e9097d9677cfc38b21a6df57",
+      "role": "user",
+      "locator": "lines:5867-5874"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

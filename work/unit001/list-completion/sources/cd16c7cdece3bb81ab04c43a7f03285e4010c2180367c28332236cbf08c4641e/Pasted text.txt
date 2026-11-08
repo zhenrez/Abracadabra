@@ -1,0 +1,863 @@
+# EU-001R — FOUNDATIONAL ARCHITECTURE RECONCILIATION
+## SUN / ARIADNE Multi-Orientation Typed Generative Compression Engine
+
+**Execution directive:** Recover actual state → reconcile authority and prior decisions → establish checkpoint → selectively migrate → verify G0/G1 → stop.
+
+**Authorized scope:** G0 and G1, including their necessary architectural dependencies and validation infrastructure.
+
+**Prohibited scope:** Implementation of G2–G7, cross-orientation reconstruction, historical root certification, unrestricted permutation searches, wholesale dataset ingestion, and speculative scientific validation.
+
+---
+
+# 1. OBJECTIVE
+
+Continue the existing engineering work from its actual current checkpoint.
+
+The goal is not to restart the research or accumulate additional experimental scripts.
+
+The goal is to establish a **stable, extensible, provenance-preserving architecture** that can accommodate the complete SUN/ARIADNE reconstruction program without requiring a major redesign when linguistic, epigraphic, musical, narrative, symbolic, theological, and normative evidence is introduced.
+
+Preserve completed work, including negative and inconclusive results.
+
+Implement only the smallest verified changes necessary to complete this engineering unit.
+
+## Governing requirements
+
+1. **Lossless evidence preservation.** Never overwrite source observations with normalization or interpretation.
+2. **Typed transformations.** Preserve the identity, domain, codomain, scope, direction, conditions, and mathematical properties of every operator.
+3. **Independent reconstruction.** Separate structural consistency, historical evidentiary support, model preference, and identifiability.
+4. **Historical source integrity.** Do not mistake a commentary, modern reconstruction, Unicode proxy, simulation, or derivative dataset for an independent ancient witness.
+5. **Scientific falsifiability.** Preserve contradictory evidence, null outcomes, irreducible ambiguities, and failed predictions.
+6. **Generational and mathematical continuity.** Do not alter established SUN equations, prior frozen research, or W72 orientation records.
+7. **Authorization discipline.** Do not advance beyond G0/G1 or unlock cross-orientation adapters.
+
+---
+
+# 2. REQUIRED SOURCE RECOVERY
+
+Begin by recovering the actual project files and comparing them with these two previous work-state logs:
+
+- `Pasted text(20261106-072010).txt`
+- `Pasted text (2)(20261106-072251).txt`
+
+Also consult the supplied architectural reviews and the previous G0/G1 master prompt.
+
+These logs are records of earlier activity, not substitutes for inspecting the current filesystem.
+
+## Known reported state
+
+The logs report:
+
+- A 15-script, 36-column comparison matrix.
+- The least-transformed table recovered as 46 rows with 37 fields each.
+- 381 populated glyph positions and 159 empty positions.
+- An existing NumPy phonetic/graphic-feature pipeline.
+- A six-script carrier experiment.
+- Split-state, vowel-drift, permutation and residual-analysis prototypes.
+- An original `harmonic_verifier.py`.
+- Six passing Sefer regression tests and three passing demonstrations.
+- An existing G0 importer with 20 passing focused tests.
+- Creation of a new `sefer.py`.
+- No demonstrated final G1 migration verification.
+- A named local SUN workspace reportedly lacking Git metadata.
+- A previous hosted Jev review blocked by authorization and local connection failure.
+
+**Do not infer that these reported states are still current.**
+
+Verify their existence, file contents, dependencies, test outcomes, and hashes.
+
+## Repository governance
+
+Before any GitHub operation, locate and follow:
+
+`GitHub_Engineering_Repository_Operating_Rules_v1.1.docx`
+
+Apply its requirements for repository inspection, preservation, test-driven changes, atomic commits, preflight verification, efficient CI, credential protection, branch isolation, and explicit handoff.
+
+Do not initialize a new repository over an unknown workspace, force-push, overwrite files, or merge a PR without authorization.
+
+## Mandatory initial checkpoint
+
+Produce a read-only inventory containing:
+
+- authoritative workspace path;
+- Git state, if present;
+- files and their SHA-256 hashes;
+- current test commands and outcomes;
+- original matrix source;
+- original Sefer reference engine;
+- new G0 and G1 implementations;
+- existing generated reports;
+- known source dependencies;
+- missing or unresolved authoritative material.
+
+If the original project cannot be located, do not fabricate it. Report the blocker and preserve any read-only research completed.
+
+---
+
+# 3. RECONCILE EXISTING EXPERIMENTAL RESULTS
+
+Do not silently supersede the earlier five-step investigations.
+
+Audit and classify them before migration.
+
+## Reported results to preserve
+
+**Matrix/features**
+
+- 381 populated positions.
+- Historical font-independent glyph geometry was not established.
+- Modern-font geometry was available for 307 positions.
+
+**Six-script carrier**
+
+- Ten literal zero-entropy columns.
+- Eighteen deviations across 132 positions.
+- Approximately 64.75% of specified feature variation explained by the first three PCA components.
+- Preliminary description lengths of 792 versus 321 bits, excluding relevant model costs.
+
+**Split states**
+
+- Six ordinary Begadkephat alternations yield a stipulated 22 + 6 = 28 tagged-state construction.
+- The separate Sefer seven-double expansion yields 22 + 7 = 29.
+- These are not interchangeable models.
+
+**Permutation**
+
+- Neither the 29-character Sabaic nor the 29-character Futhorc inventory is a bijective permutation of the 22-member carrier.
+
+**Residuals**
+
+- 142 cells reportedly scored.
+- 136 compatible.
+- Six unexplained readings.
+- 234 populated cells reportedly unscored.
+- Those figures total 376, not 381. Reconcile the remaining five positions explicitly.
+
+**Sefer**
+
+- The original engine preserves ambiguous candidates.
+- A missing Mem produces a model-specific restoration suggestion.
+- `r:1` remains a tagged state, without an invented fricative pronunciation.
+
+## Required epistemic classification
+
+For every prior finding, record:
+
+- CONFIRMED BY REEXECUTION;
+- REPORTED BUT NOT REEXECUTED;
+- SUPERSEDED;
+- INFERRED;
+- NOT RETRIEVED;
+- SEARCHED / NOT FOUND;
+- UNKNOWN;
+- UNRESOLVED.
+
+Never convert a failed historical hypothesis into an implementation failure if the software correctly demonstrated that the hypothesis is unsupported.
+
+In particular, quarantine—not delete—the claims concerning:
+
+- universal zero phonetic residual;
+- ninety-degree acoustic vowel rotation;
+- universal 22-to-28/30 isomorphism;
+- Sabaic/Futhorc as pure permutations;
+- intentional cryptographic transmission inferred from letter order;
+- Etruscan unknown values as proven silence;
+- universal 22/29 phoneme-to-music equivalence.
+
+---
+
+# 4. ARCHITECTURE DECISION: CONSOLIDATED CORE
+
+The old matrix-specific `WitnessRecord` must NOT become the universal ontology.
+
+Use a small, domain-independent evidence kernel, with specialized typed domain records.
+
+## Layer A — Immutable source vault
+
+Define a `SourceArtifact` or equivalent containing:
+
+- stable source ID;
+- original content or content-addressed reference;
+- content hash;
+- exact encoding;
+- source location;
+- version or revision;
+- retrieval context;
+- license and permitted use;
+- acquisition metadata;
+- source lineage;
+- supersession information.
+
+Store original input bytes where available.
+
+Never rewrite original content through Unicode normalization, transliteration, IPA correction, or editorial cleanup.
+
+## Layer B — Evidence and provenance kernel
+
+Define six stable conceptual contracts:
+
+1. `SourceArtifact`
+2. `EvidenceObservation`
+3. `EvidenceClaim`
+4. `DerivationRecord`
+5. `OperatorSpecification`
+6. `ExperimentReceipt`
+
+Provide deterministic serialization, stable identity, referential integrity, provenance traversal, and append-only history.
+
+Use W3C PROV's entity/activity/agent distinctions as conceptual guidance where useful.
+
+Do not require RDF infrastructure merely to satisfy this checkpoint.
+
+## Layer C — Specialized evidence domains
+
+Design extensible records for:
+
+**Epigraphy:** sign type, sign occurrence, artifact, image region, orientation, damage, actual writing surface, uncertain transcription, alternatives.
+
+**Phonetics and language:** phoneme, allophone, pronunciation tradition, dialect, IPA transcription, root, pattern, affix, cognate judgment, borrowing, inheritance.
+
+**Textual witnesses:** manuscript, edition, recension, written sequence, reading variant, translation, commentary, text-span alignment.
+
+**Rabbinic evidence:** Qere/Ketiv, pointing, dagesh, mappiq, Shin/Sin, Resh, articulatory classes, dialect observations, scribal anomalies, hermeneutic and legal interpretations.
+
+**Diagrammatic witnesses:** historical Tree-of-Life diagrams, visible nodes and edges, spatial geometry, inscriptions, different layouts, order, direction, containment, uncertainty.
+
+**Mathematics and music:** exact quantities, units, generators, state spaces, registers, projections, compositions, residuals.
+
+**Narratives and history:** agents, narrated events, manuscript attestations, chronology claims, source dependencies, competing transmission graphs.
+
+**Normative evidence:** actors, actions, obligations, permissions, prohibitions, conditions, exceptions, authority and period.
+
+These are representational contracts, not authorization to implement the downstream analytic engines.
+
+## Layer D — Typed operator registry
+
+Separate the mathematical definition of an operation from claims that it occurred historically.
+
+An `OperatorSpecification` must declare:
+
+- input and output types;
+- precise domain and codomain;
+- parameters;
+- preconditions;
+- transformation rule;
+- partiality;
+- reversibility or injectivity relative to its domain;
+- exact mathematical invariants where applicable;
+- validation method;
+- implementation/version.
+
+A separate `TransformationClaim` links a specific observed difference to a proposed operator with source evidence and uncertainty.
+
+For example, executing Atbash establishes the operation's result. It does not establish that a historical author intentionally used Atbash.
+
+Support registration of transformation definitions without enabling unrestricted search or cross-orientation inference.
+
+Do not store provisional MDL bit costs as factual properties of operators. Those costs depend on the later coding scheme.
+
+## Layer E — Validation infrastructure
+
+Define a common experiment contract for:
+
+- target data;
+- source dependencies;
+- train/test separation;
+- known-original controls;
+- model version;
+- sealed predictions;
+- evaluation metrics;
+- negative controls;
+- error and abstention;
+- final evidence receipts.
+
+Implement only the G0/G1 functionality needed to validate these contracts now.
+
+---
+
+# 5. MANDATORY DATA-DISTINCTION RULES
+
+Distinguish:
+
+- blank source field;
+- genuinely missing character;
+- damaged character;
+- illegible character;
+- unknown phonetic value;
+- known silence or non-use;
+- unattested value;
+- unavailable source;
+- researcher-inferred value;
+- superseded interpretation;
+- rejected hypothesis;
+- inapplicable field.
+
+Do not collapse these into `None`, `"?"`, or one generic `UNKNOWN`.
+
+Distinguish letter identity from a glyph occurrence.
+
+Distinguish phonemic identity from phonetic realization.
+
+Distinguish consonantal writing from a vocalized reading.
+
+Distinguish an interpretation's attestation from evidence that its proposed historical explanation is true.
+
+Distinguish linguistic inheritance, script borrowing, lexical borrowing, translation, copying, narrative correspondence, and numerical analogy.
+
+Distinguish original sources from derivative datasets and dependent scholarly editions.
+
+All source claims must remain attributable to a specific witness, edition, author, repository version, or dataset revision.
+
+---
+
+# 6. DATA ASSETS: REGISTER, DO NOT MASS-IMPORT
+
+The previous three asset reviews established several important resource families.
+
+Create a versioned asset registry with adoption categories:
+
+- `G0_SAMPLE`;
+- `G1_SOURCE`;
+- `FUTURE_NATIVE_MODEL`;
+- `FUTURE_BLIND_VALIDATION`;
+- `FUTURE_CROSS_ORIENTATION`;
+- `NEGATIVE_CONTROL`;
+- `BIBLIOGRAPHIC_LEAD`;
+- `RESTRICTED_OR_UNVERIFIED`.
+
+Initial high-priority candidates include:
+
+**Historical language and morphology**
+
+CACCHT, ETCBC BHSA/phono/Targum, Lexibank, UniMorph, etymology-db, documented Aramaic and Egyptian/Coptic datasets.
+
+**Actual inscription and graphic evidence**
+
+Paleo-Hebrew Seals v2, Arad ostraca, Dead Sea Scroll images, DASI, Karatepe, Tel Lachish, Proto-Sinaitic editions, historical Hebrew paleography datasets.
+
+**Textual and narrative evidence**
+
+BibleNLP/eBible, manuscript-specific textual editions, Sefaria Export, Theographic, Geniza manuscript collections.
+
+**Historical symbolic evidence**
+
+Sefer Yetzirah recensions, Exodus 14:19–21 and Ibn Ezra's orientation variants, Ilanot/Maps of God, manuscript-identified 72-name and seal witnesses, Zohar editions.
+
+**Later comparative systems**
+
+Open 777, Golden Dawn correspondences, Tarot mappings, Hermetic diagrams and modern numerical comparison datasets.
+
+Classify those as later traditions unless specific historical evidence establishes otherwise.
+
+## Acquisition rules
+
+For each candidate asset, record:
+
+- actual source URL;
+- exact revision;
+- responsible institution or maintainer;
+- original versus derivative status;
+- manuscript or textual ancestry;
+- license;
+- data quality;
+- candidate use;
+- known leakage;
+- chronological coverage;
+- permitted evidence role;
+- uncertainty.
+
+Do not bulk-download corpora, create embeddings, train models, or build comprehensive graphs during EU-001R.
+
+Use only small, source-identified samples needed to prove that the architecture can represent the different evidence types.
+
+The research asset registry is not an independent evidence validator.
+
+---
+
+# 7. PRIORITIZE HISTORICAL SOURCES CORRECTLY
+
+When investigating historical claims:
+
+1. Prefer the earliest relevant **surviving attestations**, not automatically the oldest surviving edition of a later work.
+2. Preserve alternative readings and different textual lineages.
+3. Record date of composition separately from date of surviving manuscript.
+4. Record editions, restorations, translations, and commentaries separately.
+5. Preserve later witnesses where they contain information absent from earlier witnesses.
+6. Do not count copied or derivative witnesses as independent confirmation.
+7. Do not treat a modern theological or occult reconstruction as an ancient source.
+8. Do not treat graphological similarity or numerical agreement as proof of transmission.
+
+A later source can be crucial evidence about a later tradition without being evidence that the same practice existed in an earlier period.
+
+---
+
+# 8. G0 CROSS-DOMAIN REPRESENTABILITY TESTS
+
+Before G0 is certified, prove the architecture can represent the following without schema changes or forced correspondences.
+
+**T01 — Original 15-script matrix**
+
+Preserve original 46-row text, all populated positions, all blanks, English approximations, IPA alternatives, script-local ordinals, and Unicode proxies.
+
+**T02 — Damaged ancient sign**
+
+Represent an image region, physical damage, alternative sign identities, competing readings, and uncertainty without choosing a forced transcription.
+
+**T03 — Qere/Ketiv and Al Tikrei**
+
+Represent written, read, realized, and interpreted forms independently, preserving source-specific authority.
+
+**T04 — Sefer dual partitions**
+
+Represent the 3/7/12 grouping and the five articulatory classes as distinct classifications of the same 22-letter carrier.
+
+**T05 — Historical phonetic/script reassignment**
+
+Represent a Greek or other cross-script sign adaptation without treating shared ordinal positions as genealogical proof.
+
+**T06 — Musical exact-ratio fixture**
+
+Represent an exact rational interval and an independently sourced alternative transformation without importing a musical engine.
+
+**T07 — Competing narrative counts**
+
+Represent Numbers 11, Sanhedrin 17a, Aristeas and Luke 10 as distinct textual/narrative witnesses whose numerical roles are not automatically identical.
+
+**T08 — Normative rule**
+
+Represent a command or prohibition, its conditions, exceptions, authority and textual witness.
+
+**T09 — W72 unresolved orientation**
+
+Represent candidate orientations and a finite equivalence class without choosing an unsupported unique completion.
+
+**T10 — Historical diagram**
+
+Represent two distinct Ilanot layouts with labeled graphical elements, image provenance, spatial relations and source-specific interpretations.
+
+**T11 — The 72-name derivation**
+
+Represent both source-described verse-orientation procedures separately, without choosing a SUN/W72 alignment.
+
+**T12 — Root-and-pattern morphology**
+
+Represent multiple candidate analyses of one Semitic form and source-specific phonological realization.
+
+All tests must establish **faithful representation and provenance**, not historical reconstruction success.
+
+If the actual historical source is not retrieved, use a clearly labeled synthetic schema fixture rather than fabricating an attested witness.
+
+---
+
+# 9. G0 MATRIX IMPORTER MIGRATION
+
+Audit the existing importer before replacing it.
+
+The importer reportedly passed twenty tests and preserved:
+
+- original text;
+- source spans;
+- Unicode scalars;
+- all three field types;
+- explicit blanks;
+- ambiguous values;
+- separate claims and derived features.
+
+Preserve those capabilities.
+
+Migrate it behind the new source, observation, and derivation contracts using adapters where practical.
+
+Avoid unnecessary rewrites.
+
+## Required reconciliation
+
+Expected from supplied table:
+
+- 15 script groups;
+- 36 positions per group;
+- 540 possible address positions;
+- 381 populated positions;
+- 159 blanks.
+
+Verify these against the recovered original artifact.
+
+Detect:
+
+- duplicate source positions;
+- invalid source offsets;
+- data lost during normalization;
+- incorrectly collapsed IPA alternatives;
+- false silent-letter classifications;
+- Unicode-proxy contamination;
+- historical claims introduced without a source.
+
+All original G0 focused tests must remain passing.
+
+Add the new representability, immutability, and round-trip tests.
+
+G0 cannot be certified merely because the importer reproduces the right count.
+
+---
+
+# 10. G1 SEFER COMPATIBILITY
+
+Keep the original `harmonic_verifier.py` unchanged as the legacy regression oracle.
+
+Audit the newly created `sefer.py` before rewriting it.
+
+Complete the typed compatibility layer using canonical letter identities while preserving legacy output behavior.
+
+## Native structures
+
+Maintain separately:
+
+- three mother letters;
+- seven double letters;
+- twelve simple letters;
+- twenty-two canonical letters;
+- twenty-nine stipulated tagged states;
+- 231 unordered distinct-letter pairs;
+- 462 ordered distinct-letter pairs.
+
+These counts describe different structures.
+
+Do not conflate the seven Sefer doubles with six ordinary Begadkephat stop/fricative pairs.
+
+Preserve `r:1` without inventing an unattested fricative counterpart.
+
+Preserve the ambiguity of the original sibilant fixture.
+
+Do not treat all 231 possible pairs as attested historical relationships.
+
+## Required compatibility evidence
+
+Run the original six regression tests and three demonstration checks.
+
+Compare:
+
+- original input;
+- expected legacy output;
+- actual legacy output;
+- migrated adapter output;
+- semantic/formatting differences;
+- pass/fail outcome.
+
+At minimum include:
+
+- full canonical carrier;
+- missing Mem;
+- ambiguous sibilant;
+- Resh alternate state;
+- duplicate occupancy;
+- overflow beyond 29;
+- empty or unrelated input;
+- unsatisfiable constraints;
+- multiple valid completions;
+- deterministic serialization;
+- source-dependent reading differences.
+
+Preserve the legacy missing-Mem status and suggestion fields through a compatibility serializer.
+
+The new receipt must identify any unique solution as **unique within the stipulated model**, unless independent historical evidence supports a stronger conclusion.
+
+Do not invent MDL bit counts. G6 remains locked.
+
+## Additional source-specific G1 controls
+
+Represent the five articulatory classes without changing the 3/7/12 partition.
+
+Preserve multiple Sefer Yetzirah recensions.
+
+Preserve independently sourced historical Resh pronunciation claims without automatically identifying them with `r:1`.
+
+Do not automatically import Golden Dawn planetary assignments, Tarot associations, or Crowley's correspondence tables as native early Sefer data.
+
+---
+
+# 11. BLIND-VALIDATION FOUNDATIONS
+
+Prepare infrastructure now, not a retrospective declaration of successful blind reconstruction.
+
+Support three distinct evaluation groups:
+
+**Known originals:** verified source material subjected to controlled damage, omission, copying, or transliteration changes.
+
+**Historical holdouts:** source-family-disjoint evidence unavailable during model development.
+
+**Adversarial controls:** unrelated or incompatible systems matched for relevant complexity and data characteristics.
+
+## Minimum evaluation metadata
+
+Every future trial must record:
+
+- target;
+- selection method;
+- source-family exclusions;
+- known model exposure;
+- frozen model version;
+- permitted data;
+- prediction lock;
+- scoring criteria;
+- null hypotheses;
+- negative controls;
+- candidate-set results;
+- abstention;
+- outcome;
+- post-reveal modifications.
+
+The original 15-script matrix and previously explored W72 examples cannot be labeled prospective blind evidence merely by hiding them again.
+
+For photographic training data, protect artifact-group independence.
+
+For manuscripts, protect source-family independence.
+
+For etymological databases, protect upstream dataset independence.
+
+For symbolic/cosmological comparisons, protect model-definition independence.
+
+Do not use later cross-orientation mathematical agreement to repair a failed supposedly blind historical prediction.
+
+## Error-channel representability
+
+Design records capable of distinguishing:
+
+- physical damage;
+- illegible copying;
+- misheard pronunciation;
+- conditioned sound change;
+- phonological merger/split;
+- translation approximation;
+- missing lexical category;
+- scribal substitution;
+- scribal transposition;
+- redaction;
+- intentional reinterpretation;
+- unknown mechanism.
+
+The architecture must allow competing mechanisms without forcing a single cause.
+
+Do not implement a full probabilistic transmission engine during G0/G1.
+
+---
+
+# 12. PRESERVE FROZEN SUN AND W72 STRUCTURES
+
+Do not alter the frozen SUN mathematical core.
+
+In particular, preserve the established relationships:
+
+\[
+R(C)=\frac23C,\qquad
+L(C)=\frac34C,\qquad
+O(C)=\frac12C
+\]
+
+and
+
+\[
+R\circ L=L\circ R=O.
+\]
+
+These must remain independent from Sefer's 3/7/12 partition and its phonetic labels.
+
+Preserve W72's address descriptions, candidate orientations, unresolved equivalence classes, and original experimental receipts.
+
+Preserve the distinction between:
+
+- SUN's scientific music-native 3+7+12 taxonomy;
+- Sefer's three mothers, seven doubles and twelve simples;
+- twelve musical pitch or reference classes;
+- twenty-two śruti allocations;
+- seventy-two names;
+- seventy-two mathematical addresses;
+- seventy/two narrative participant counts.
+
+Do not identify them based on cardinalities alone.
+
+The architecture may represent them; cross-orientation reconstruction remains prohibited.
+
+---
+
+# 13. ENFORCE THE G7 LOCK
+
+Create an empty cross-orientation adapter registry.
+
+The registry must reject:
+
+- unauthorized adapter registration;
+- unauthorized cross-orientation evaluation;
+- implicit model-output imports;
+- configuration bypasses;
+- serialized preloaded adapters.
+
+The registry remains empty until G7 is explicitly authorized after the required preceding gates.
+
+A Python `Protocol` or an informal instruction is insufficient. Enforce this in working code and tests.
+
+---
+
+# 14. IMPLEMENTATION PROCEDURE
+
+Execute in bounded checkpoints.
+
+## Checkpoint A — Recovery and audit
+
+Inspect actual files, tests, source artifacts, dependencies, version control and legacy outputs.
+
+Produce the authoritative before-state and dependency map.
+
+No mutation until the target and intended delta are established.
+
+## Checkpoint B — Architectural contract
+
+Implement or adapt the minimum common contracts for provenance, evidence, derivation, operators and experiment receipts.
+
+Add source-preserving and representability tests first.
+
+Prefer backward-compatible adapters over rewriting working algorithms.
+
+## Checkpoint C — G0 migration
+
+Integrate the existing importer with the consolidated evidence kernel.
+
+Run old and new tests.
+
+Confirm exact source conservation and distinguish all missing-data states.
+
+## Checkpoint D — G1 migration
+
+Complete `sefer.py` against the frozen legacy engine.
+
+Run original tests, demonstrations, boundary cases and uncertainty-preservation tests.
+
+Document any incompatibility.
+
+## Checkpoint E — Runtime isolation
+
+Implement and test the G7 lock.
+
+Ensure no downstream models are active.
+
+## Checkpoint F — Final verification
+
+Run applicable:
+
+- syntax/compile checks;
+- focused unit tests;
+- full regression tests;
+- deterministic serialization checks;
+- type/lint checks;
+- dependency consistency;
+- source-integrity checks;
+- basic secret/security checks;
+- relevant integration tests.
+
+Report exact commands, exit codes and actual results.
+
+Do not describe tests as passed without execution evidence.
+
+---
+
+# 15. COMPLETION AND STOP CONDITIONS
+
+## G0 passes only when
+
+- the original source is verified;
+- source conservation and round-trip tests pass;
+- the matrix reconciles;
+- provenance and claim distinctions are enforced;
+- uncertain/blank/damaged values remain distinct;
+- domain-specific evidence does not require changing the common kernel;
+- new representability fixtures pass;
+- source dependencies remain traceable;
+- unauthorized cross-orientation execution is blocked.
+
+## G1 passes only when
+
+- G0 has passed;
+- original Sefer tests reproduce exactly;
+- migrated compatibility output is verified;
+- native structural rules pass;
+- ambiguity and unsatisfiable constraints are handled correctly;
+- no unsupported historical determination is issued;
+- no fictional MDL scores are emitted;
+- G7 remains locked.
+
+## Failure handling
+
+When a required source, implementation, or dependency is missing:
+
+1. Preserve the current checkpoint.
+2. Report exactly what could not be retrieved or verified.
+3. Identify why the missing information changes the engineering decision.
+4. Continue safe read-only diagnosis where possible.
+5. Do not invent missing artifacts or substitute inferred behavior for regression evidence.
+6. Do not expand scope to compensate.
+
+Do not destroy the old implementation before proving the replacement is functionally compatible.
+
+---
+
+# 16. REQUIRED HANDOFF
+
+At the stopping point, produce:
+
+**A. Verified work-state checkpoint**
+
+Actual workspace, files, hashes, Git status and recovered sources.
+
+**B. Architecture decision record**
+
+Final G0 contracts, domain boundaries, alternatives rejected and reasons.
+
+**C. Source/data manifest**
+
+Imported and registered resources, original/derived status, licensing and dependencies.
+
+**D. G0 test evidence**
+
+Original twenty tests plus new conservation and representability tests, with observed results.
+
+**E. G1 regression evidence**
+
+Six original tests, three demonstrations, new cases and legacy-to-new output comparisons.
+
+**F. Migration report**
+
+Exact changed files, retained legacy files, refactored components, quarantined experimental files and unresolved incompatibilities.
+
+**G. Gate ledger**
+
+- G0: PASSED / FAILED / PARTIAL / BLOCKED
+- G1: PASSED / FAILED / PARTIAL / BLOCKED
+- G2: LOCKED
+- G3: LOCKED
+- G4: LOCKED
+- G5: LOCKED
+- G6: LOCKED
+- G7: LOCKED
+
+**H. Verification and handoff**
+
+Actual test commands and results, commit SHA if applicable, unverified integrations, blockers and precise next authorized checkpoint.
+
+Do not declare production readiness, historical reconstruction success, or independently validated scientific results on the basis of structural tests.
+
+---
+
+# 17. FINAL EXECUTION DIRECTIVE
+
+**Perform EU-001R now.**
+
+Do not begin another broad research collection.
+
+Do not rerun completed experiments merely to produce activity.
+
+Do not discard useful existing code or negative scientific results.
+
+Do not construct the Western, Chinese, Indian, historical-comparison, or cross-orientation engines.
+
+Establish the consolidated foundation using the actual current implementation, migrate G0, finish and verify G1, enforce the G7 lock, produce the acceptance evidence, and stop at the verified checkpoint.
+
+**Success is a reusable, evidence-preserving, test-proven foundation that will not require architectural reconstruction when the remaining scientific domains are integrated.**

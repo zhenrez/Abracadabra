@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-glyph-assistant-0a32318c546f8dcc",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/0a32318c546f8dccbad7c43f2d480244c41b49c3edde9423dc30fbd8c9e3ec53/text.txt",
+      "sha256": "0a32318c546f8dccbad7c43f2d480244c41b49c3edde9423dc30fbd8c9e3ec53",
+      "start_line": 1,
+      "end_line": 220,
+      "source_role": "assistant",
+      "source_id": "da533ab86ed0512c0e249de187155ea2abb8a1ecae2b8b706901d7524938b0af",
+      "message_id": "b720aaa9ae9f2c8379f75677e6d7a482b3e7ce6bc640af67e5454cab646442a0",
+      "timestamp": null,
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "b720aaa9ae9f2c8379f75677e6d7a482b3e7ce6bc640af67e5454cab646442a0",
+        "native_id": "81",
+        "conversation_id": "c8c2d0148dcbc524d5480e6117f76e0251aa4708a055fbe0ede567aa7620af4b",
+        "role": "assistant",
+        "content_sha256": "0a32318c546f8dccbad7c43f2d480244c41b49c3edde9423dc30fbd8c9e3ec53",
+        "source_id": "da533ab86ed0512c0e249de187155ea2abb8a1ecae2b8b706901d7524938b0af",
+        "locator": "lines:32006-32228",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Correct Zodiac Mapping",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\ChatGPT-Correct Zodiac Mapping-20260903-0828.txt",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Correct Zodiac Mapping-20260903-0828.txt",
+        "source_sha256": "7b1805b5c2dd7337be21b8980e20cd7cfd0abd4eb120e0fd88f49143e750bab0",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "7b1805b5c2dd7337be21b8980e20cd7cfd0abd4eb120e0fd88f49143e750bab0",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/0a32318c546f8dccbad7c43f2d480244c41b49c3edde9423dc30fbd8c9e3ec53/occurrences-588dbefd1ab40222187fdfa95042c8e8fb4c3a89c94847207ecaceff5e6293e1.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

@@ -1,0 +1,44 @@
+{
+  "request": {
+    "state": "G16 first scholarly census: English control has recovered two dictionary pronunciations, no audio. Other researchers own dated Hebrew and Aramaic. Choose a discriminating executable control complementary to existing four-label permutation count.",
+    "questions": {
+      "control": {
+        "type": "choice",
+        "instructions": "Choose between these distinct scholarly controls",
+        "criteria": {
+          "acoustic": "Construct two sinusoidal signals with identical fundamental, duration and harmonic magnitudes but different relative harmonic phase; test non-equivalence under time shifts. Clarify exactly which musical constraints a reconstructed reading would still require.",
+          "ordinal": "Repeat permutation count with a larger alphabet.",
+          "none": "Current evidence rules out meaningful conditional controls."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "1afca400d4223cb691a20e2bcc1676f66db3ae492716610991b53afbbbdc979e",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "control": {
+        "type": "choice",
+        "probabilities": {
+          "acoustic": 0.58,
+          "none": 0.11,
+          "ordinal": 0.31
+        },
+        "winner": "acoustic",
+        "top_probability": 0.58,
+        "margin": 0.26999999999999996
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 424,
+      "output_tokens": 42
+    },
+    "network_calls": 1,
+    "latency_ms": 406
+  }
+}

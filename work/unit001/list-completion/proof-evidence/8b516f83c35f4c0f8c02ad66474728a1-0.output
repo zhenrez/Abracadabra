@@ -1,0 +1,156 @@
+{
+  "tests": [
+    {
+      "name": "current_G0_G1",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 71
+    },
+    {
+      "name": "original_Sefer",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+        "-p",
+        "test_harmonic_verifier.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 6
+    },
+    {
+      "name": "preserved_pipeline",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 40
+    }
+  ],
+  "gates": {
+    "G0": "PASSED",
+    "G1": "PASSED",
+    "G2": "LOCKED",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "counts": {
+    "script_groups": 15,
+    "positions": 540,
+    "populated": 381,
+    "empty": 159
+  },
+  "frozen_integrity": true
+}
+{"documentation_files_checked": 6, "current_source_hashes_match": true, "exit_code": 0}
+{
+  "gates": {
+    "G0": "PASSED",
+    "G1": "PASSED",
+    "G2": "LOCKED",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "tests": [
+    {
+      "name": "current_G0_G1",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 71
+    },
+    {
+      "name": "original_Sefer",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+        "-p",
+        "test_harmonic_verifier.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 6
+    },
+    {
+      "name": "preserved_pipeline",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 40
+    }
+  ],
+  "assets": {
+    "preserved_original_entries": 153,
+    "named_candidates": 35,
+    "pinned_sources": 8,
+    "adoption_categories": [
+      "BIBLIOGRAPHIC_LEAD",
+      "FUTURE_BLIND_VALIDATION",
+      "FUTURE_CROSS_ORIENTATION",
+      "FUTURE_NATIVE_MODEL",
+      "G0_SAMPLE",
+      "G1_SOURCE",
+      "NEGATIVE_CONTROL",
+      "RESTRICTED_OR_UNVERIFIED"
+    ],
+    "additional_source_specific_control": "resh-source/source-manifest.json"
+  },
+  "exact_enriched_graph_roundtrip": true,
+  "exit_code": 0
+}

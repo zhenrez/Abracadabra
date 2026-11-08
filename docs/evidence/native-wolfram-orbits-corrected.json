@@ -1,0 +1,21 @@
+{
+  "tool": "Wolfram Language evaluator",
+  "failed_record": "docs/evidence/wolfram-orbit-input-error.json",
+  "assertion_tested": "W=Z12 x Z6, B(p,q)=(p,q+3 mod6), T(p,q)=(p,q+4 mod6): states72; ordered pairs72; unordered2element B-orbits36; disjoint exact partition; remove any orbit leaves70; not a unique selector.",
+  "request": {
+    "code": "a=Tuples[{Range[0,11],Range[0,5]}]; b[x_]:={x[[1]],Mod[x[[2]]+3,6]}; t[x_]:={x[[1]],Mod[x[[2]]+4,6]}; ordered=({#,b[#]}& /@ a); fibers=DeleteDuplicates[Sort /@ ordered]; <|\"states\"->Length[a],\"orderedPairs\"->Length[ordered],\"unorderedBOrbits\"->Length[fibers],\"eachOrbitSizeTwo\"->And@@(Length[Union[#]]==2& /@ fibers),\"partitionIsExact\"->(Sort[Flatten[fibers,1]]==Sort[a]),\"BOrderTwo\"->And@@(b[b[#]]==#&&b[#]!=#& /@ a),\"TOrderThree\"->And@@(t[t[t[#]]]==#&&t[#]!=#& /@ a),\"Commute\"->And@@(t[b[#]]==b[t[#]]& /@ a),\"removeOneOrbitRemainderSizes\"->Union[Length[Complement[a,#]]& /@ fibers]|>",
+    "timeConstraint": 15
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Out[1]= <|\"states\" -> 72, \"orderedPairs\" -> 72, \"unorderedBOrbits\" -> 36, \"eachOrbitSizeTwo\" -> True, \"partitionIsExact\" -> True, \"BOrderTwo\" -> True, \"TOrderThree\" -> True, \"Commute\" -> True, \"removeOneOrbitRemainderSizes\" -> {70}|>"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "status": "finite_assertion_computed",
+  "scope": "Generic finite public arithmetic; no private archive uploaded; conditional on declared group/action, not scientific orientation, exceptional fiber selector or originalproof."
+}

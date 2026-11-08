@@ -1,0 +1,78 @@
+MC AULAY 
+ 745 
+tation waveform e(t) through a linear time-varying filter 
+that models the characteristics of the vocal tract. If the 
+time-varying impulse response of the vocal tract filter is 
+h(7; t), then 
+s(t) = h(t - 7; t) e(r) dr. 
+As an alternative to the binary voiced/unvoiced excitation 
+model and to the more general multipulse model, it is proposed that the excitation signal be represented in terms of 
+a sum of sine waves of arbitrary amplitudes, frequencies, 
+and phases. This model is written as 
+s: (1) 
+where, for the Zth sinusoidal component, al(t) and y(t) 
+represent the amplitude and frequency and (61 represents a 
+fixed phase offset which accounts for the fact that the sine 
+waves will generally not be in phase. This model leads to 
+a particularly simple representation for the speech waveform. That this is so becomes apparent by letting 
+H(w; t) = M(w; t) exp [ j+(w; t)] (3) 
+represent the time-varying vocal tract transfer function, 
+and, assuming that the glottal excitation parameters in (2) 
+are constant over the duration of the impulse response of 
+the vocal tract filter in effect at time t, then using (2) and 
+(3) in (1) results in the speech model’ 
+s@> = al(OMCwl(0; tl 
+1=1 
+t 
+-, exp [j [ S, wl(0) + +MO; t1 + 41 . (4) 13 
+By combining the effects of the glottal and vocal tract amplitudes and phases, the representation can be written 
+more concisely as 
+Ut) 
+I= 1 s(t) = A1 (0 exp VII/Z(t)l (5) 
+where 
+AlM = a1 (t) tl (6) 
+II/m = s’ Wl(4 + +[Wl(O, tl + 91 (7) 0 
+represent the amplitude and phase of the Zth sine wave 
+along the frequency track wl(t). The next step is to develop a robust procedure for extracting the amplitudes, 
+frequencies, and phases of the component sine waves, a 
+subject which will be discussed in the next section. 
+111. ESTIMATION OF SPEECH PARAMETERS 
+The problem in analysis/synthesis is to take a speech 
+waveform, extract the parameters that represent a quasistationary portion of that waveform, and use those parameters or coded versions of them to reconstruct an approximation that is “as close as possible’’ to the original 
+speech. Furthermore, it is desirable to have a robust parameter extraction algorithm since the speech signal in 
+many cases is contaminated by additive acoustic noise. 
+The general identification problem in which the speech 
+signal is to be represented by multiple sine waves is a 
+difficult one to solve analytically. Therefore, the approach 
+taken here will be pragmatic, in the sense that an estimator will be derived based on a set of idealized assumptions; then, once the structure of the ideal estimator is 
+known, modifications will be made as the assumptions are 
+relaxed to better model practical speech waveforms. 
+As a first step, the time line will be broken down into 
+a contiguous sequence of frames, each of duration T. The 
+center of the analysis window for the kth frame occurs at 
+time tk. Assuming that the vocal tract and glottal parameters are constant over an interval of time that includes 
+the duration of the analysis window and the duration of 
+the vocal tract impulse response, then (7) can be written 
+as 
+II/l(O = w1 (t - tk) + 0: k (8) 
+where the superscript “k” is used to indicate that the parameters of the model may vary from frame to frame. As 
+a consequence of (8) the synthetic speech waveform over 
+frame k can be written as 
+Lk 
+s(n) = C y: exp (jnw:) (9) 1=1 
+where 7: = A; exp (jdf) represents the Zth complex amplitude for the Ith component of the Lk sine waves. Since 
+the measurements are made on,digitized speech, the sampled-data notation is used throughout this section. In this 
+respect, the time index n corresponds to the uniform samples of t - tk so that n ranges from -N/2 to N/2, with n 
+= 0 being reset to the center of the analysis window for 
+every frame and where N + 1 is the duration of the analysis window. The problem now is to fit the synthetic 
+speech waveform in (9) to the measured waveform, denoted by y(n). A useful criterion for judging the goodness 
+of fit is the mean-squared error, 
+Ek = c 1 y(n) - s(n) n 
+= (y(n)I2 - 2 Re y(n) s*(n) + Is(n) 12. (10) n n n 
+Substituting the speech modef of (9) into (10) leads to the 
+error expression 
+Lk 
+ek = c Iy(n) l2 - 2 Re (y:)* y(n) exp (-jnwf) n 1=1 n 
+Lk Lk 
++ (N + 1) C Z yf(yf)* sinc <w; - wf) (11) 1=1 i=l 
+‘The “real part” notation “Re” has been temporarily omitted. where sinc (x) = sin [(N + 1) x/2]/[(N + 1) sin (x/2)]. 

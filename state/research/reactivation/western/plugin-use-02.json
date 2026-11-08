@@ -1,0 +1,96 @@
+{
+  "schema": "sunny.western-plugin-use.v1",
+  "created_utc": "2026-11-03T02:55:50.787368+00:00",
+  "actual": [
+    {
+      "plugin": "SuperJev",
+      "role": "coordination/research route and handoff",
+      "status": "3actual live cloud calls",
+      "model": "jev-1.14.0",
+      "receipts": [
+        {
+          "request": "jev-operational-method-request.json",
+          "receipt": "jev-operational-method-receipt.json",
+          "canonical_request_sha256": "39e6bec124872b3f798dcdb46904663938c716358490f69f07fb6c503e8738e0",
+          "resolved_model": "jev-1.14.0",
+          "network_calls": 1
+        },
+        {
+          "request": "jev-observation-route-request.json",
+          "receipt": "jev-observation-route-receipt.json",
+          "canonical_request_sha256": "9734ad7ce9b9976943edbb9c36bb23e2184cc8784647a8a72f607b91b444c844",
+          "resolved_model": "jev-1.14.0",
+          "network_calls": 1
+        },
+        {
+          "request": "jev-handoff-request.json",
+          "receipt": "jev-handoff-receipt.json",
+          "canonical_request_sha256": "0ee4ca8360328341ee1cbd3794f4f8677584bdaf598d996ae22d4e4585eaa24e",
+          "resolved_model": "jev-1.14.0",
+          "network_calls": 1
+        }
+      ],
+      "boundary": "Directions are conditional preferences; no source-truth or completion probability."
+    },
+    {
+      "plugin": "Proofline2.0.2",
+      "role": "exact review-record/span/hash fidelity",
+      "status": "actual bundled verifier exit0,validtrue",
+      "result": "proofline-result-02.json",
+      "boundary": "Unsigned candidate. No authenticity, historical truth, signature, trusted timestamp or complete source review."
+    },
+    {
+      "plugin": "MightShape1.0.1",
+      "role": "supported evidence-provenance checker",
+      "status": "actual bundled checker exit0,PASS4records",
+      "result": "mightshape-result-02.json",
+      "boundary": "Repeated-source and zero direct-participant warnings retained. No synthetic Council or invented participants."
+    }
+  ],
+  "method_applied": [
+    {
+      "plugin": "HUMMBL Operations0.1.0",
+      "skill": "work-triage",
+      "role": "Now/Next/Later/Resolve with actual dependencies and owners",
+      "runtime": "No separate runtime or external task-system write."
+    },
+    {
+      "plugin": "Web Research Assistant0.1.0",
+      "role": "targeted primary-source search, claim/applicability register, direct citations",
+      "runtime": "Skill method and native web retrieval used; no separate scholarly-search backend claimed."
+    },
+    {
+      "plugin": "ScholarResearch1.1.0 find-sources",
+      "role": "concept blocks/terminology and backward source chaining",
+      "runtime": "Installed method read/applied; no standalone research backend invoked."
+    }
+  ],
+  "unavailable_or_not_executed": [
+    {
+      "plugin": "AgentJev Decisions",
+      "status": "Actual health/info returned connection refused127.0.0.1:8149",
+      "evidence": "plugin-attempts-02.json",
+      "boundary": "No service launched; cloud model kept distinct from local0.6B."
+    },
+    {
+      "plugin": "Supermemory",
+      "status": "Actual continuity search tool unavailable",
+      "evidence": "plugin-attempts-02.json",
+      "boundary": "Verified local source-bound continuity used; no remote save or local durable memory edit claimed."
+    },
+    {
+      "plugin": "Wolfram",
+      "status": "Actual Context and LanguageEvaluator both unavailable",
+      "evidence": "math-plugin-attempts-02.json",
+      "boundary": "Exact parameter arithmetic executed locally; no remote Wolfram verification claimed."
+    },
+    {
+      "plugin": "AgentProof",
+      "status": "Installed skill/contracts and original historical receipt inspected only; no fresh capture/verify",
+      "boundary": "Supported workflow requires a fixed request path outside this worker's assigned write scope. No child, installation, Git baseline or alternate capture route attempted. Historical2events both exit1;checkedfilecount0 is not a current source check."
+    }
+  ],
+  "native_plan": "No native plan tool exposed; scoped checkpoints carry validated percentage prefixes. SharedPLAN.md unchanged.",
+  "local_execution_note": "A handoff preview initially hit Windows stdout encoding; explicit PythonUTF8 yielded a zero-network preview then a successful live receipt. No probabilities invented on failure.",
+  "protected_path_validation": "Installed .codex skill/scripts were read or executed as instructed; no credential inspection, plugin source edit, memory edit or global setting change. Python-B used for guard/finalization imports."
+}

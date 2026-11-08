@@ -1,0 +1,9 @@
+{
+ "decision_receipt":"state/jev-receipts/000022-ce028aa59058.json",
+ "before":{"process_exit":0,"exact_match":false,"submitted":"Σοφία — Śrī ???","read_back":"Î£Î¿Ï†Î¯Î± â€” ÅšrÄ« ???","environment":"Node UTF-8 pipe; Python stdin CP1252"},
+ "failing_regression":{"tests":10,"errors":1,"reason":"No explicit byte-decoding request reader existed"},
+ "change":"Read stdin.buffer as bytes and explicitly decode UTF-8-sig before JSON parse; retain exact file-input UTF-8",
+ "changed_files":["scripts/jev_tool.py","tests/jev_tool_test.py"],
+ "after":{"tests":10,"failures":0,"errors":0,"fixture_cp1252_pipe_exact":true},
+ "live_unicode_browser_check":"delegated to UI worker; separate actual receipt required"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-07",
+  "reviewer": "independent child /root/spec_audit",
+  "scope": "Native PowerShell source/hash review; no real process suite or policy change",
+  "test_assertions_preserved": true,
+  "original_test_count": 6,
+  "helpers": [
+    {
+      "path": "scripts\\stop-jev-worker.ps1",
+      "sha256": "4a2bd6595666636ea2e6a94a96ab4e4a7894c10d7c77ebd6737cc3b85fb31072",
+      "unchanged": true
+    },
+    {
+      "path": "scripts\\process-lifecycle.ps1",
+      "sha256": "9b322a73008e00b3716d0ac988615f108e427a932c9d03698aa73de3f5644796",
+      "unchanged": true
+    }
+  ],
+  "capture_limit_ms": 15000,
+  "stop_limit_ms": 30000,
+  "finite_cleanup_allowance": true,
+  "source_hashes": {
+    "worker": "f73861293c98a9855680b44bc48c650d0021f396cda65f318cd2300ff5ef47b9",
+    "tests": "6acd79fe06723e26b67255788484096a30d77a5b0131678c481333e49764dbb0"
+  },
+  "observed_failure_cause": "Durable cleanup-diagnostic-checks.json: Worker identity helper timed out; code4294967295; marker proves stop phase reached",
+  "history": [
+    "Restricted capture denial retained",
+    "Original focused4PASS2FAIL retained",
+    "Timer race separately reproduced",
+    "Focused after timer fix6PASS retained",
+    "Default99tests98PASS1FAIL retained",
+    "Serial97PASS2FAIL retained",
+    "Verbose overflow identifies actual stop-helper15s timeout"
+  ],
+  "simulated_rerun": {
+    "status": "NOT_EXECUTED_BY_THIS_REVIEW",
+    "reason": "Host denied launch of explicit Python313 executable; no escalation retried",
+    "root_reported": "Coordinator reports4simulated tests passed exit0; separately attributable"
+  },
+  "verdict": "Source/test delta is coherent and preserves ownership guardrails.30s is a finite separate cleanup allowance, not a worst-case guarantee.",
+  "pending": "Root full default npm run after repair; no whole-suite success inferred",
+  "documentation_check": "No new documentation file changed by this command"
+}

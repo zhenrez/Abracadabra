@@ -1,0 +1,118 @@
+{
+  "schema": "sunny.background-reactivation-runtime.v1",
+  "checked_utc": "2026-11-03T04:09:58.169Z",
+  "scope": "Engineering repair and one actual guarded background support lifecycle; fullSUNNY remains active.",
+  "authorization_path": "state/background/reactivation-20261102/authorization.json",
+  "new_instance": "reactivation-20261102",
+  "old_main_budget": {
+    "path": "state/background/main/model-budget.json",
+    "unchanged_sha256": "788bd100f99f0dbe6588c4699792e36431de55c1c32957edec6c83d72c6118ad",
+    "reserved": 255,
+    "maximum": 256
+  },
+  "old_instance_handoff": {
+    "instance": "symbol-renewal-01",
+    "previous_pid": 17472,
+    "exit": "self-exited04:04:36UTC,eligible_queue_exhausted_see_cadence_alert",
+    "fresh_absence_checked_utc": "2026-11-03T04:04:47.0209295Z",
+    "final_reserved": 43,
+    "maximum": 256,
+    "stop_or_kill_performed": false,
+    "standalone_authorization_file": "notpresent;legacybudget/pace scope preserved;newlaunch uses explicit new allocation",
+    "migration": "No old jobs moved/deleted; oldqueue exhausted or parked. One separately checked unprocessed source-reading-origin passage queued."
+  },
+  "new_owned_process": {
+    "pid": 29660,
+    "creation_utc": "2026-11-03T04:06:08.5286040Z",
+    "executable": "C:/Users/Brend/AppData/Local/Programs/Python/Python313/pythonw.exe",
+    "command_sha256": "1bda41761f880d5625fc50116a475f6551dbe683cc36e395829af081cd4f2963",
+    "worker_code_sha256": "bdec4fe39cd8e6ee78c8b4c6fc4bf5324ebf298b76ae4ad7ad35b59fd6168e47",
+    "identity_verified": true,
+    "loaded_code_matches": true,
+    "owned_process_count": 1,
+    "children_started": 0,
+    "duplicate_start": "reused_owned;createdfalse;sameexactidentity"
+  },
+  "observed_new_budget": {
+    "reserved_or_completed_requests": 5,
+    "confirmed_network_calls": 4,
+    "maximum_requests": 256,
+    "difference": "One local guard-blocked request retained its conservative reservation and made0networkcalls.",
+    "authorization_sha256": "11beb54f1a802dd190f2087ad9ea79f2a43baec287356eeb80978a443fc09d9b",
+    "single_writer_after_launch": "Only the owned worker mutates its model budget; foreground engineering calls preceded launch."
+  },
+  "lease_deadline_utc": "2026-11-04T03:46:59.444895+00:00",
+  "scientific_support": {
+    "completed_jobs": 1,
+    "failed_jobs": 0,
+    "result": "state/background/reactivation-20261102/runs/source-reading-origin-ahh-aum-001-42b8a81aa056/result.json",
+    "completed_utc": "2026-11-03T04:06:09.535803+00:00",
+    "source_role": "historicaluser",
+    "source_content_sha256": "721c87d42e9e457beacfbbc39a4eb1912430ab41708705d72c59980d1c31fd23",
+    "scope": "Candidate reasoning-history repair about sound/letter questions and fiction/inquiry boundary; no ancient waveform or complete source-decoder claim."
+  },
+  "actual_guard_evidence": {
+    "jev_model": "jev-1.14.0",
+    "in_process_calls": true,
+    "proofline_projection_valid": true,
+    "independently_reread": "state/background/reactivation-20261102/completed-results-verification.json"
+  },
+  "regression_checks": {
+    "new_red_then_green": 6,
+    "focused_green_tests": 18,
+    "legacy_contracts_retained": true,
+    "readiness_test_scope": "Real production readiness branch executed with OS boundaries doubled; actual launch/reuse/identity/output separately observed.",
+    "unrelated_http_suite": "Not rerun; no all-application-green claim."
+  },
+  "current_blocker": "empty_eligible_queue",
+  "notification_delivery": "local_state_only_no_chat_wakeup",
+  "evidence_paths": [
+    "state/background/reactivation-20261102/red-checks.txt",
+    "state/background/reactivation-20261102/red-cadence-deadline.txt",
+    "state/background/reactivation-20261102/start-result.json",
+    "state/background/reactivation-20261102/reuse-result.json",
+    "state/background/reactivation-20261102/identity-verification.json",
+    "state/background/reactivation-20261102/observed-status-02.json",
+    "state/background/reactivation-20261102/completed-results-verification.json",
+    "state/background/reactivation-20261102/engineering-jev-receipt.json",
+    "state/background/reactivation-20261102/engineering-jev-receipt-02.json",
+    "state/background/reactivation-20261102/handoff-jev-receipt.json",
+    "docs/evidence/background-reactivation-tests.json",
+    "docs/evidence/background-reactivation-verification.json",
+    "docs/evidence/background-reactivation-proofline-result.json",
+    "docs/evidence/background-reactivation-mightshape.json"
+  ],
+  "limitations": [
+    "One bounded source classifier is supporting work, not a full autonomous research agent.",
+    "No generic repeated work or heartbeat is counted as progress.",
+    "No automatic budget/lease renewal; exact blockers remain visible.",
+    "No autonomous notification mechanism can be inferred from local alerts.",
+    "No shared scientific/task/mission/continuation/capability state was edited by this worker."
+  ],
+  "latest_snapshot": {
+    "checked_utc": "2026-11-03T04:13:57.222989+00:00",
+    "completed_results": 4,
+    "reserved": 11,
+    "confirmed_network_calls": 10,
+    "remaining_reservations": 245,
+    "blocker": "empty_eligible_queue",
+    "lease_deadline_utc": "2026-11-04T03:46:59.444895+00:00",
+    "notification_delivery": "local_state_only_no_chat_wakeup"
+  },
+  "fresh_supermemory": {
+    "status": "executed_success_search_and_document_readback",
+    "document_id": "S4fexFqVCH28D6H3T1XzEB",
+    "conversation_id": "01a19f9d-d1a3-704e-87b9-d9a8bc88f557",
+    "source_role": "historical runtime checkpoint, not current authority",
+    "evidence": "state/background/reactivation-20261102/supermemory-readback.json",
+    "summary_warning": "Generated summary contains repetition; original stored content retained."
+  },
+  "source_freshness_limit": {
+    "path": "state/research/reactivation/chinese/positive-modal-adapter.json",
+    "affected_completed_job": "separate-mode-family-scope",
+    "queued_sha256": "0f233a80d21abf415de8a7d5272ce71c5b65b22a3182f5044c18e812c363df8a",
+    "current_sha256": "d9729116567fb7e6da8fb85e013fea5c1f62b1611c1a2f11d22eee9de341d524",
+    "status": "changedaftercompletedprojection;freshjobneededforcurrentapplicability",
+    "evidence": "state/background/reactivation-20261102/source-freshness-addendum.json"
+  }
+}

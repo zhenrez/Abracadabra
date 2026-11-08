@@ -1,0 +1,53 @@
+{
+  "claim_id": "G2_WESTERN_NATIVE_CORE",
+  "mathematics": {
+    "assertion_tested": "All seven configured Pythagorean modes validate from actual source-bound degree observations; inverse exact transport, pitch-class/register recovery and rational nonclosure benchmarks hold on stated finite grid",
+    "coefficient_domain": "positive rational relative frequencies, rational time, integer diatonic/chromatic coordinates",
+    "conventions": "Ratios are relative frequency unless explicitly typed as string lengths; modern chromatic labels are not equal-tempered frequency values",
+    "inputs": [
+      "seven explicit Pythagorean mode fixtures",
+      "17 registers times5 within-octave ratios times3exactintervals"
+    ],
+    "bounds": {
+      "register_min": -8,
+      "register_max": 8,
+      "within_octave_ratios": 5,
+      "intervals": 3,
+      "finite_inverse_cases": 255,
+      "modes": 7
+    },
+    "non_claims": [
+      "Does not establish every historical Western tuning, Fludd/Kepler or manuscript interpretation",
+      "Does not infer cross-orientation mappings or a historical root",
+      "MDL not evaluated without actual coding scheme"
+    ]
+  },
+  "execution_artifacts": [
+    "work/final-day-2026-11-07/western/western_model.py",
+    "work/final-day-2026-11-07/western/test_western_model.py",
+    "work/final-day-2026-11-07/western/run_native.py",
+    "work/final-day-2026-11-07/western/source-profiles.json",
+    "work/final-day-2026-11-07/western/reuse-manifest.json",
+    "work/unit002/western.py",
+    "work/unit002/test_western.py",
+    "work/unit001/contracts.py",
+    "work/unit001/evidence.py",
+    "work/four-orientations/native_models.py",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Sherer_The_Completed_Harmony.pdf",
+    "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Robert Fludd Philosophia Moyasaica 1638.jpg",
+    "work/final-day-2026-11-07/western/sources/ratio-mode-extraction.json",
+    "work/final-day-2026-11-07/western/sources/web-source-check.json"
+  ],
+  "software": [
+    {
+      "name": "computation Python",
+      "version": "3.13.0"
+    }
+  ],
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  }
+}

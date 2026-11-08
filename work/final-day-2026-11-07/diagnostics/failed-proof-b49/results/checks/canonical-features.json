@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\canonical-features",
+    "-p",
+    "test_canonical_features.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_atomic_emphasis_and_ordered_alternatives_are_not_averaged (test_canonical_features.CanonicalFeatureTests.test_atomic_emphasis_and_ordered_alternatives_are_not_averaged) ... ok\ntest_blank_unknown_unresolved_and_native_types_stay_distinct (test_canonical_features.CanonicalFeatureTests.test_blank_unknown_unresolved_and_native_types_stay_distinct) ... ok\ntest_canonical_grid_keeps_all_three_fields_and_addresses (test_canonical_features.CanonicalFeatureTests.test_canonical_grid_keeps_all_three_fields_and_addresses) ... ok\ntest_derived_projection_tamper_is_rejected (test_canonical_features.CanonicalFeatureTests.test_derived_projection_tamper_is_rejected) ... ok\ntest_raw_sidecar_binding_tamper_is_rejected (test_canonical_features.CanonicalFeatureTests.test_raw_sidecar_binding_tamper_is_rejected) ... ok\ntest_source_or_dependency_binding_tamper_is_rejected (test_canonical_features.CanonicalFeatureTests.test_source_or_dependency_binding_tamper_is_rejected) ... ok\ntest_strict_geometry_and_normalized_outputs_are_deterministic (test_canonical_features.CanonicalFeatureTests.test_strict_geometry_and_normalized_outputs_are_deterministic) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 3.797s\n\nOK\n"
+}

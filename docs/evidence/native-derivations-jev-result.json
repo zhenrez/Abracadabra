@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "request_sha256": "03f447ce341bb116760c1f409e02a9c8a6bb58f7844241306db1d6b40a96b2fe",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "derive_first": {
+      "type": "choice",
+      "probabilities": {
+        "bridge_word_discriminator": 0.74,
+        "tol_composition_first": 0.26
+      },
+      "winner": "bridge_word_discriminator",
+      "top_probability": 0.74,
+      "margin": 0.48
+    },
+    "group_membership": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.28,
+        "false": 0.72
+      },
+      "value": false
+    },
+    "forward_semigroup": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.12,
+        "false": 0.88
+      },
+      "value": false
+    },
+    "same_normalized_ratio": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.15,
+        "false": 0.85
+      },
+      "value": false
+    },
+    "residual_hypothesis": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.88,
+        "false": 0.12
+      },
+      "value": true
+    },
+    "forward_bridge": {
+      "type": "choice",
+      "probabilities": {
+        "K_divided_by_cycle_residual": 0.81,
+        "pure_octave_change_only": 0.05,
+        "unchanged_K": 0.14
+      },
+      "winner": "K_divided_by_cycle_residual",
+      "top_probability": 0.81,
+      "margin": 0.67
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 1063,
+    "output_tokens": 186
+  },
+  "network_calls": 1,
+  "latency_ms": 204
+}

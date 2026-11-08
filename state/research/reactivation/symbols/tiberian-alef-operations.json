@@ -1,0 +1,64 @@
+{
+  "schema": "sunny.tiberian-alef-operation-case.v1",
+  "created_utc": "2026-11-03T04:05:11.209Z",
+  "question": "Within the specific Tiberian reading tradition and its cited witnesses, does the point in Alef mark consonantal realization alone or a distinct articulatory operation, and what can transfer to a symbol/sound model?",
+  "selection": "Actual jev-1.14.0 selected tiberian_context 0.61 over recitation_duration 0.36 and latin_phonetic 0.03. Full v2 request, preview and receipt retained. Selection is an operational preference.",
+  "source": {
+    "id": "S02 extension, not a new whole-source census",
+    "title": "Geoffrey Khan, The Tiberian Pronunciation Tradition of Biblical Hebrew, volume1 (2020), I.1.1, printed140–144",
+    "url": "https://books.openbookpublishers.com/10.11647/obp.0163.pdf",
+    "original_path": "sources/khan2020.pdf",
+    "sha256": "bcab644037f62795041c3c6e6e37f1c1eb28f29d147b6d2c4409fd6bc3c0da24",
+    "inspected": "Selected source text and actual rendered printed142 and144; other cited pages140/143 extracted and available as rendered pages."
+  },
+  "source_reports": [
+    {
+      "id": "T-ALEF-01",
+      "locus": "printed140",
+      "report": "Khan reports a competing interpretation, associated with Morag, that the point distinguishes consonantal Alef from non-consonantal Alef, analogous to mappiq, rather than marking gemination.",
+      "status": "Competing scholarly reading; retained without a source-weight vote."
+    },
+    {
+      "id": "T-ALEF-02",
+      "locus": "printed141–142",
+      "report": "Khan identifies a Karaite Arabic-script transcription, BL Or2552 fol51r line1, corresponding to Job33:21. He dates the manuscript to the tenth or eleventh century and argues from its restricted use of shadda elsewhere that the Alef was read as geminate.",
+      "status": "Author's manuscript-based argument. The manuscript excerpt is visibly reproduced on printed142; this packet has not independently inspected the complete manuscript or dated it."
+    },
+    {
+      "id": "T-ALEF-03",
+      "locus": "printed143–144",
+      "report": "Khan concludes that four canonical Standard Tiberian marked cases indicate gemination; he interprets the operation as additional articulatory effort and potentially longer laryngeal articulation, guarding against slurring.",
+      "canonical_targets": [
+        "Genesis43:26",
+        "Ezra8:18",
+        "Leviticus23:17",
+        "Job33:21"
+      ],
+      "status": "Source conclusion, not an original SUNNY proof or an Iron Age sound reconstruction."
+    }
+  ],
+  "host_inference": "This inspected case supplies a source-qualified candidate operation on pronunciation, such as reinforced/extended glottal articulation, instead of requiring that a written symbol name a sustained musical frequency. It is a reusable component only when reading tradition, textual location and marking conditions match.",
+  "transfer_limits": [
+    "A medieval Tiberian or Karaite witness does not automatically determine Paleo-Hebrew or Imperial Aramaic realization.",
+    "The source does not specify an absolute duration in seconds, a fixed two-to-one duration ratio, an F0, a musical interval, or an entire waveform.",
+    "Phonological gemination and visible doubled transcription are not by themselves an empirical timing measurement.",
+    "The four canonical loci are source-reported; raw codex token/mark verification remains a separate next check.",
+    "The competing mappiq-only interpretation is preserved, and Khan's argument from a witness's other shadda uses must be checked before broader transfer."
+  ],
+  "conditional_consequence": "If a SUNNY mapping for this bounded reading tradition uses Alef, then textual location and mark/reading context must be available to distinguish consonantal, non-consonantal and reinforced/geminate candidates. A glyph-only lookup cannot encode this contrast without losing source information. That constraint leaves the adopted full musical/geometric premises available for testing.",
+  "discriminating_test": {
+    "status": "Proposed, not performed; no audio outcome or blind prediction claimed.",
+    "contrast": "Within one declared modern reading/reconstruction tradition, compare canonical marked cases with matched unmarked consonantal controls and separately with non-consonantal cases.",
+    "required_controls": [
+      "Freeze source tokens and their manuscript/edition reading before audio inspection.",
+      "Use the same speaker and repeated readings with controlled speech rate, stress and melodic condition; words with different morphology/prosody are not interchangeable controls.",
+      "Annotate the presence and timing of glottal closure or glottalization. Keep duration, voicing, F0 and formants separate, and allow pitch to be undefined during closure.",
+      "Compare duration/articulatory contrasts under an explicit noise and annotation model; do not require an invented exact factor of2.",
+      "Treat modern reproduction as a performance/method control. It cannot alone establish the medieval or Iron Age realization."
+    ],
+    "predictions": "A gemination/strengthening interpretation predicts a systematic articulatory or timing distinction under an appropriate matched protocol. A consonantal-only marking interpretation does not by itself predict an additional duration category; stress and reading convention remain possible confounders.",
+    "minimum_next_observation": "A version-bound raw token pair and a recording or published acoustic analysis from a specified reading tradition, with enough context to distinguish closure from neighboring vowels."
+  },
+  "exposure": "Already exposed to the project, prior Alef census and Khan's chapter. This is source-led extension and reproduction planning, not independent rediscovery or a blind result.",
+  "unassessed_alternatives": "The Berakhot13b recitation-duration lead and classical Latin phonetic comparison remain ready alternatives from the retained Jev distribution; no new power/M1–M12 census was silently substituted."
+}

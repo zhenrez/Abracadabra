@@ -1,0 +1,128 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "glyph-user-d743179bfe6ec315",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "d03dd1e3a2f53eba05b59d54f76b7ef4aabb4d937fe4e70e31b0fc13a7f6da1c",
+              "exact_preview": "[i put the widow in the rillo, \nkush got me mellow, \nPutt the Ganja in the swisher, \nlike a Ninja in The Shell goe\n\n\nSmoke fill my chest got me wheezin like weirdo \nWant somethin crunchy \nso I'm munchin on these Cheetos \nI'm a cool cat, like I'm Chester the cheetah, \nBut it ain't easy being cheesy, when you tryna get your bread up \nSo never let a breezy\nmess with any of your cheddar, \n I stay chiefin reefer, \ncoppin bricks of cheeba\nOne hit off the Doobie \nget knocked the fuck out\nLike Craig did deebo\n\n\n\nTokin that old Toby like I'm Tolkien, \nmy eyes can barely focus when I smoke this,\n\n\nJordan on the Bulls, tongue to the side and I'm soarin / Flu game in effect, from smokin two blunts every mornin\n\nI'm so high, not even NASA reach my altitude / rotation to the left side, or you gon see my",
+              "preview_characters": 800,
+              "full_passage_characters": 11499,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-dd7d06e02b5842b9",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "ff55c080a8adcea9fcdc20b503737c4590a6198f56c274d44c099319a911aab5",
+              "exact_preview": "[Verse 1]\n[Beat 1: Kick]   I put the widow in the 'rillo, let the killa get heavy, steady-\n[Beat 2: Snare]  Smoke fill my chest, got me wheezin' like a weirdo\n[Beat 3: Kick]   Want somethin' crunchy so I'm munchin' on the Cheetos, **(rest)** cool cat\n[Beat 4: Snare]  Chester the cheetah, but it ain't easy being cheesy when you tryna get your bread up\n\n[Beat 1: Kick]   Never let a breezy mess with any of your cheddar, pressure-\n[Beat 2: Snare]  I stay chiefin' reefer, copping bricks of the cheeba\n[Beat 3: Kick]   One hit off the doobie get knocked the fuck out, **(rest)** Craiged out\n[Beat 4: Snare]  Like when Deebo took a brick to the temple, temple sleeper\n\n[Beat 1: Kick]   Wake up hella hungry, tummy rumblin' like C-Lo, zero-\n[Beat 2: Snare]   Tryna find some munchies, like you don't kno",
+              "preview_characters": 800,
+              "full_passage_characters": 11787,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-e221cbcd23afdf83",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+              "message_id": "96fb6399c651f1bb919bcea84a5ff1b2879cccbb06a17282808fe3d497082225",
+              "exact_preview": "Suno AI Prompt for \"Echoes in the Void\" (Structured per Platform-Agnostic Template)\nSong Description / Concept:\nThis track explores themes of profound isolation, the lingering impact of forgotten truths, and the existential weight of a voice resonating within an expansive, uncaring void. It's a journey into the silent spaces where deep insights reverberate.\nLyrics:\n(Note: This section will contain the structural tags and detailed instructions for Suno to generate the lyrical content within its interface, adhering to a 3000-character limit.)\n[Song Title: Echoes in the Void]\n\n[Overall Directive]\nGenerate lyrics from the persona of a \"radical rapscallion white boy rap God,\" masterfully blending Eminem's intricate wordplay, Cal Scruby's nuanced cultural observations, and Watsky's profound exis",
+              "preview_characters": 800,
+              "full_passage_characters": 6744,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "glyph-user-d743179bfe6ec315: source_forensics",
+          "1": "glyph-user-dd7d06e02b5842b9: source_forensics",
+          "2": "glyph-user-e221cbcd23afdf83: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "c30f0c0a20fca101768b60cdb567022b9d6c7adec5bc22414e4d69e196a22f04",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.21,
+          "1": 0.4,
+          "2": 0.21,
+          "defer": 0.18
+        },
+        "winner": "1",
+        "top_probability": 0.4,
+        "margin": 0.19000000000000003
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 2207,
+      "output_tokens": 47
+    },
+    "network_calls": 1,
+    "latency_ms": 548
+  }
+}

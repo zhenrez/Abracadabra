@@ -1,0 +1,36 @@
+{
+  "state": {
+    "goal": "Recover SUNNY's remaining local extraction gaps without rewriting original sources or inventing roles, decisions or domain meaning.",
+    "observed": "Read-only reproduction found three uint8 NPZ arrays, shapes16x32,32x24,24x8, safely loadable with allow_pickle=False. Two deferred ZIPs contain57members/4455029uncompressedbytes and32members/700348bytes at the immediate level. Sixteen reported malformed JSONL fragments came from str.splitlines splitting legal U+2028 inside quoted JSON. Physical LF parsing has zero JSON errors and finds seven missing exact native records across two already preserved snapshots.",
+    "guardrails": "Back up database before additions. Preserve old recovery report and all original hashes. Do not alter existing message IDs or reinterpret legacy locators. New native record additions must carry exact physical-LF line, UTF8byte range and original JSON. Binary array extraction must retain names,dtypes,shape and every value without arithmetic interpretation. Archive reads must preflight paths,size,membercount and depth, with aggregate limits64MiB,4096members,max16MiBmember,8additionallevels; reject unsafe targets and keep failed/deferred states. No source scripts execute. No research truth, mathematical alignment or account-completeness claim follows from extraction."
+  },
+  "questions": [
+    {
+      "id": "npz_method",
+      "type": "choice",
+      "question": "Which NPZ recovery method should be executed for the observed safe numeric arrays?",
+      "options": {
+        "typed_values": "Add source-linked typed documents containing every array name,dtype,shape and value using allow_pickle=False; retain the original NPZ bytes unchanged.",
+        "metadata_only": "Keep the NPZ preserved and add only array names,dtypes and shapes, leaving numeric values unindexed."
+      }
+    },
+    {
+      "id": "zip_method",
+      "type": "choice",
+      "question": "Which handling should recover the two inspected depth-limited archives?",
+      "options": {
+        "bounded_expand": "Expand and index inspected ZIP members within the declared aggregate limits, preserving source-parent hashes and explicit depth/unsupported-format boundaries; execute no embedded code.",
+        "inventory_only": "Add only source-linked archive member metadata and hashes; keep all member contents unindexed."
+      }
+    },
+    {
+      "id": "jsonl_method",
+      "type": "choice",
+      "question": "Which method should handle the seven exact native JSON records recovered by physical-LF parsing?",
+      "options": {
+        "native_byte_ranges": "Add the seven exact parsed records with their native metadata, physical-LF line and UTF8byte locators. Keep existing records untouched and document the original splitter's legacy locator issue.",
+        "raw_fragments": "Index the sixteen former raw fragments as unparsed text with no inferred author or turn, even though exact physical-LF native JSON parsing is now available."
+      }
+    }
+  ]
+}

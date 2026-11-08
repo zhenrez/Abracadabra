@@ -1,0 +1,280 @@
+{
+  "schema": "sunny.delivery-browser.v1",
+  "checkedAt": "2026-11-07T18:01:50.134Z",
+  "inputs": {
+    "index.html": "6778de1e989e6a8c04abe88238b65efe2bf0096a7f205b7c2db0f053afac851d",
+    "app.js": "61c5bbc2551a3012918897055953522c63289c3c3bc119adacbb88dae0f978b4",
+    "score-anchors.js": "3dc63131488a4bef4ab6dc79695ae6c6e4737854d30c0cf9e472300658705a1f",
+    "style.css": "5ed8bb0d2a79118a13606d5f269dc597d42381c567443414b556d7725aea2979",
+    "data.js": "ffce6ad659f2b931a566588d275e713e1f1185c36aebb426621445ab307a8b06"
+  },
+  "checks": [
+    {
+      "name": "All9493 graph records,16goals,8registers,12panels loaded",
+      "status": "passed"
+    },
+    {
+      "name": "Render atlas",
+      "status": "passed"
+    },
+    {
+      "name": "Render music",
+      "status": "passed"
+    },
+    {
+      "name": "Render wheels",
+      "status": "passed"
+    },
+    {
+      "name": "Render geometry",
+      "status": "passed"
+    },
+    {
+      "name": "Render symbols",
+      "status": "passed"
+    },
+    {
+      "name": "Render score",
+      "status": "passed"
+    },
+    {
+      "name": "Render bridges",
+      "status": "passed"
+    },
+    {
+      "name": "Render constraints",
+      "status": "passed"
+    },
+    {
+      "name": "Render time",
+      "status": "passed"
+    },
+    {
+      "name": "Render proofs",
+      "status": "passed"
+    },
+    {
+      "name": "Render jev",
+      "status": "passed"
+    },
+    {
+      "name": "A/B/C,global alias search,ancestry,and lazy100membership expansion",
+      "status": "passed"
+    },
+    {
+      "name": "Wheel preserves one native parent/unit and shared entity selection",
+      "status": "passed"
+    },
+    {
+      "name": "Candidate torus and tetrahedron respond at maximum phase/refinement",
+      "status": "passed"
+    },
+    {
+      "name": "Two real matched15second audio assets served",
+      "status": "passed",
+      "audio": [
+        {
+          "status": 200,
+          "bytes": 480044
+        },
+        {
+          "status": 200,
+          "bytes": 480044
+        }
+      ]
+    },
+    {
+      "name": "All11source-clock score views render",
+      "status": "passed"
+    },
+    {
+      "name": "Exact8sufficient/2redundant source timing-anchor pairs exposed",
+      "status": "passed"
+    },
+    {
+      "name": "Conditional evidence filter retains2or3suppliedcandidates",
+      "status": "passed"
+    },
+    {
+      "name": "Ophiuchus alternatives do not force13equal sectors",
+      "status": "passed"
+    },
+    {
+      "name": "Workbench reaches pinned actual local Jev metadata",
+      "status": "passed",
+      "model": "AgentJev-0.6B"
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "Native navigation and main landmarks",
+      "status": "passed"
+    },
+    {
+      "name": "All36provided occurrences retained across30distinct originals",
+      "status": "passed"
+    },
+    {
+      "name": "ActualPNG/SVG/sourceJSON exports downloaded and decoded",
+      "status": "passed",
+      "bytes": {
+        "png": 76585,
+        "svg": 787
+      }
+    },
+    {
+      "name": "OverflowingJSON rejected before any model inference",
+      "status": "passed"
+    },
+    {
+      "name": "Directofflinefile opens the same complete graph",
+      "status": "passed"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "screenshots": [
+    "docs/evidence/delivery-2026-11-07/overview-desktop.png",
+    "docs/evidence/delivery-2026-11-07/atlas-desktop.png",
+    "docs/evidence/delivery-2026-11-07/wheels-desktop.png",
+    "docs/evidence/delivery-2026-11-07/geometry-desktop.png",
+    "docs/evidence/delivery-2026-11-07/tetrahedron-desktop.png",
+    "docs/evidence/delivery-2026-11-07/symbols-desktop.png",
+    "docs/evidence/delivery-2026-11-07/score-desktop.png",
+    "docs/evidence/delivery-2026-11-07/constraints-desktop.png",
+    "docs/evidence/delivery-2026-11-07/overview-mobile.png",
+    "docs/evidence/delivery-2026-11-07/source-gallery-desktop.png"
+  ],
+  "limitations": [
+    "Interface checks do not establish scientific completion or historical truth.",
+    "Accessibility is checked structurally; no human screen-reader audit.",
+    "Actual local inference is verified as execution; its choice is compared with exact mathematics separately."
+  ],
+  "ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-MKFhXb",
+    "identities": 14
+  },
+  "exportDirectory": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\delivery-2026-11-07\\exports-1zXuPH",
+  "liveInferenceThisRun": false,
+  "previousLiveInferenceEvidence": "state/jev-receipts/000059-6581ee8c1ffa.json",
+  "status": "passed",
+  "cleanup": {
+    "status": "reaped",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-MKFhXb",
+    "captured_identities": 14,
+    "stopped_pids": [
+      21196,
+      27392
+    ],
+    "remaining_known_processes": 0,
+    "remaining_profile_processes": 0
+  }
+}

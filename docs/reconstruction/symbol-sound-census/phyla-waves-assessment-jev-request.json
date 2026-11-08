@@ -1,0 +1,29 @@
+{
+  "state": {
+    "goal": "Choose the bounded SUNNY reuse result to publish after inspecting actual Kantor2023 chapters2,4,5 pages.",
+    "actualSources": "Institutional Thoth-community Zenodo record19849982 supplied original10,074,294-byte PDF; repositoryMD5 verified; PDF SHA2569f1c5acc42bfcb1f6a6682e3b4e2868c57c71b44a17d93d79e5a3e04e2822c70. Printedp maps toPDFp+13. Actual page inspection and rendered tables retained.",
+    "inspected": "Chapter2 pp5-11,14-19; chapter4 pp60-64,76-80; chapter5 pp145-150,174-180. Three rendered pages8,77,178 visually inspected. Not all85pages of chapter4 or36pages of chapter5 audited.",
+    "findings": [
+      "Chapter2 distinguishes shared innovation from retention, parallel development and diffusion. Genealogical subgrouping uses innovations, with contact modeled separately. Reading-tradition vernacular susceptibility can be diagnostic but should be backed by genetic innovations.",
+      "Chapter4's concrete proposed rounded-qames character has historicala-long -> roundedopeno-long in Babylonian/Tiberian versus other named traditions; author explicitly discusses transcription ambiguity and chronology. External historical premises were inspected as his argument, not independently reproduced.",
+      "Chapter5 compares same Secunda readings across manuscripts; some changes toward Tiberian/standard forms can be scribal normalization, not changes in a living recitation tradition.",
+      "Book also cautions about inherited diversity in proto-reading traditions and about Palestinian notation imitating Tiberian, so script/notation, witness and pronunciation must stay distinct."
+    ],
+    "constraints": [
+      "No original manuscript collation or full tree reconstruction completed here.",
+      "No universal ancient phone, acousticHz, arbitrary feature weights or automatic mapping toSUNNYgeometry.",
+      "Preserve old prior-art card and central state; publish only source-bound method/character examples and proposed application conditions."
+    ]
+  },
+  "questions": {
+    "bounded_reuse": {
+      "type": "choice",
+      "instructions": "Select the useful bounded method result. This governs the work product and does not vote historical claims into truth.",
+      "criteria": {
+        "source_qualified_character_and_relation_gate": "Publish the concrete source examples plus a proposed reusable character record: exact context/state/witness/date, ancestral-versus-derived rationale, distribution with unknowns, competing contact/parallel explanations. Keep inheritance-candidate, contact and scribal-normalization edges distinct; no actual new global ancestry edge is admitted in this task.",
+        "source_examples_without_reuse_criterion": "Publish only the inspected examples and page references, leaving SUNNY's reuse conditions entirely unspecified until further manuscript collation.",
+        "additional_external_collation_before_any_method_packet": "Defer this bounded reuse packet and first retrieve every cited original witness underlying the selected examples, despite the method itself now being inspectable."
+      }
+    }
+  }
+}

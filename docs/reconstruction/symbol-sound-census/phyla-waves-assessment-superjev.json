@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "request_sha256": "f068ee532bf05ef30ee598080f548d3acafe77c013bb6ab4f900e9d002bc951a",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "bounded_reuse": {
+      "type": "choice",
+      "probabilities": {
+        "additional_external_collation_before_any_method_packet": 0.0,
+        "source_examples_without_reuse_criterion": 0.0,
+        "source_qualified_character_and_relation_gate": 1.0
+      },
+      "winner": "source_qualified_character_and_relation_gate",
+      "top_probability": 1.0,
+      "margin": 1.0
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 1008,
+    "output_tokens": 68
+  },
+  "network_calls": 1,
+  "latency_ms": 558
+}

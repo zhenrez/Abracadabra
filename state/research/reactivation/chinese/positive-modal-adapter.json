@@ -1,0 +1,438 @@
+{
+  "schema": "sunny.chinese-positive-modal-adapter.v1",
+  "generated_utc": "2026-11-03T04:00:46.261273+00:00",
+  "status": "Conditional reuse of a known interpretive alternative, not historical identification",
+  "primary_source": {
+    "url": "https://zh.wikisource.org/zh/朱子語類/092",
+    "revision": 1540612,
+    "source_role": "Later received interpretive witness; distinct fromZheng/Jia and originalZhou performance",
+    "span": {
+      "start_offset": 8015,
+      "end_offset": 8049,
+      "quote": "以大呂為角，則南呂為宮；太簇為徵，則林鍾為宮；應鍾為羽，則太簇為宮。",
+      "sha256": "e976e3b8e3fd32c7441153021aba6641152a513730db4422a20be916523deec1"
+    }
+  },
+  "prior_art": {
+    "author": "Noa Hegesh",
+    "title": "Old Music, New Times: Zhangsun Shaoyuan and the Ritual Music of the Northern Zhou",
+    "publication": "Monumenta Serica 73.1 (2025), 149–174; published online 28 May 2025",
+    "doi": "10.1080/02549948.2025.2488659",
+    "inspected": "pp163–164,especiallynotes60–61",
+    "reuse": "Same modal reading/ancestral tonic alternative is explicit prior art; no novelty claim."
+  },
+  "exact_source_conditions": [
+    "Read eachlisted standard+role as a separate musicalpiece/modal-final context, following the identified laterinterpretation.",
+    "Do not identify theprescription headinggong with everyother listed role context.",
+    "Keep each standardlabel context-invariant within the declared mathematicalprofile.",
+    "UseLam fixedrole offsets onlywithin eachpiece context; do not claim this establishesreceivedritualsemanticidentity.",
+    "RetainZheng/Jia competing generation/exclusion/coarseness interpretation andhistoricuncertainty."
+  ],
+  "operator": {
+    "input": "Declared final pitchclassp androle/modetype r",
+    "output": "Implicitgongg=p-d(r)mod12, and unchangedfinal/modetype r",
+    "inverse": "p=g+d(r)mod12",
+    "offsets": {
+      "gong": 0,
+      "shang": 2,
+      "jue": 4,
+      "zhi": 7,
+      "yu": 9
+    },
+    "scope": "Modern source-model semitone residues; commonrole subset is not allChinese music orancientHz."
+  },
+  "ancestral_family": {
+    "parameter": "alpha inZ/12 is arbitrary common origin; noabsoluteC/Huangzhongauthority",
+    "final_pitchclasses": "alpha+[0,1,2,11]mod12",
+    "implicit_gongs": "alpha+[0,9,7,2]mod12",
+    "mode_roles": [
+      "gong",
+      "jue",
+      "zhi",
+      "yu"
+    ],
+    "admissible_origin_count": 12,
+    "all12_checked": true,
+    "representatives": [
+      {
+        "alpha": 0,
+        "final_pcs": [
+          0,
+          1,
+          2,
+          11
+        ],
+        "implicit_gong_pcs": [
+          0,
+          9,
+          7,
+          2
+        ]
+      },
+      {
+        "alpha": 1,
+        "final_pcs": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "implicit_gong_pcs": [
+          1,
+          10,
+          8,
+          3
+        ]
+      },
+      {
+        "alpha": 2,
+        "final_pcs": [
+          2,
+          3,
+          4,
+          1
+        ],
+        "implicit_gong_pcs": [
+          2,
+          11,
+          9,
+          4
+        ]
+      },
+      {
+        "alpha": 3,
+        "final_pcs": [
+          3,
+          4,
+          5,
+          2
+        ],
+        "implicit_gong_pcs": [
+          3,
+          0,
+          10,
+          5
+        ]
+      },
+      {
+        "alpha": 4,
+        "final_pcs": [
+          4,
+          5,
+          6,
+          3
+        ],
+        "implicit_gong_pcs": [
+          4,
+          1,
+          11,
+          6
+        ]
+      },
+      {
+        "alpha": 5,
+        "final_pcs": [
+          5,
+          6,
+          7,
+          4
+        ],
+        "implicit_gong_pcs": [
+          5,
+          2,
+          0,
+          7
+        ]
+      },
+      {
+        "alpha": 6,
+        "final_pcs": [
+          6,
+          7,
+          8,
+          5
+        ],
+        "implicit_gong_pcs": [
+          6,
+          3,
+          1,
+          8
+        ]
+      },
+      {
+        "alpha": 7,
+        "final_pcs": [
+          7,
+          8,
+          9,
+          6
+        ],
+        "implicit_gong_pcs": [
+          7,
+          4,
+          2,
+          9
+        ]
+      },
+      {
+        "alpha": 8,
+        "final_pcs": [
+          8,
+          9,
+          10,
+          7
+        ],
+        "implicit_gong_pcs": [
+          8,
+          5,
+          3,
+          10
+        ]
+      },
+      {
+        "alpha": 9,
+        "final_pcs": [
+          9,
+          10,
+          11,
+          8
+        ],
+        "implicit_gong_pcs": [
+          9,
+          6,
+          4,
+          11
+        ]
+      },
+      {
+        "alpha": 10,
+        "final_pcs": [
+          10,
+          11,
+          0,
+          9
+        ],
+        "implicit_gong_pcs": [
+          10,
+          7,
+          5,
+          0
+        ]
+      },
+      {
+        "alpha": 11,
+        "final_pcs": [
+          11,
+          0,
+          1,
+          10
+        ],
+        "implicit_gong_pcs": [
+          11,
+          8,
+          6,
+          1
+        ]
+      }
+    ]
+  },
+  "cross_context_constraints": {
+    "removed": [
+      "Onegong context sharedbyallfour roleprescriptions within the ritualrow."
+    ],
+    "retained": [
+      "Same namedpitchstandard keepsitsvaluewithin declaredprofile.",
+      "Identical modalrole usesidentical declaredoffset within itsownpiececontext.",
+      "Source prescriptions andtheirritual ordering remain explicit."
+    ],
+    "example": "Taicu-zhi inheaven andancestors can retainoneimplicitgongLinzhong; this doesnotforce the separateHuanzhong-gongpiece tosharethatcontext."
+  },
+  "optional_exact_rational_profile": {
+    "scope": "Source-bounded idealrelativepitchprofile reused fromnative tuning assumptions. Not empiricalHz or anancientperformanceclaim.",
+    "scaling_family": "Multiply all final/gong frequencies byanyK>0; noabsolute reference recovered.",
+    "equation": "f_final=K*f_gong*r_role*2^octave_exponent",
+    "rows": [
+      {
+        "standard_label": "黃鍾",
+        "role_label": "宮",
+        "implicit_gong_label": "黃鍾",
+        "relative_final_frequency": "1",
+        "role_ratio": "1",
+        "relative_gong_frequency": "1",
+        "octave_exponent": 0
+      },
+      {
+        "standard_label": "大呂",
+        "role_label": "角",
+        "implicit_gong_label": "南呂",
+        "relative_final_frequency": "2187/2048",
+        "role_ratio": "81/64",
+        "relative_gong_frequency": "27/16",
+        "octave_exponent": -1
+      },
+      {
+        "standard_label": "太簇",
+        "role_label": "徵",
+        "implicit_gong_label": "林鍾",
+        "relative_final_frequency": "9/8",
+        "role_ratio": "3/2",
+        "relative_gong_frequency": "3/2",
+        "octave_exponent": -1
+      },
+      {
+        "standard_label": "應鍾",
+        "role_label": "羽",
+        "implicit_gong_label": "太簇",
+        "relative_final_frequency": "243/128",
+        "role_ratio": "27/16",
+        "relative_gong_frequency": "9/8",
+        "octave_exponent": 0
+      }
+    ],
+    "checks": "All4 exactFractionequalitiespassed;octaveexponentsretained.",
+    "discarded_by_pitchclass": "Register andexacttuningresiduals; nonearerased fromthisprofile.",
+    "source_profile": "critical-pipe-profile.json",
+    "unit_and_physics_boundary": "Lengths are declared in the received sourceunit寸(cun); no conversion tomodernmeters. Relativefrequency isdimensionless underoneideal proportionalityconstant andinverse-length model."
+  },
+  "optional_all_ritual_lift_limit": {
+    "scope": "Ifextendingthemodularmodalreadingtoall3ritualrows usingthe declarednative12pitchchain, twojuecontexts need acomma-sensitivealternative tonic ratherthanexactlyequatingenharmoniclabels.",
+    "huangzhong_as_jue": "Implicitnormalizedtonic128/81 versusdeclaredYize6561/4096; ratio524288/531441.",
+    "taicu_as_jue": "Implicitnormalizedtonic16/9 versusdeclaredWushe59049/32768; ratio524288/531441.",
+    "policy": "Carryresidualorwithholdtheexactextension; noautomatic12ETtempering orforcednativeclosure.",
+    "source_discrepancy": "Retrieved volume23 prints Yize denominator727; ideal generation profile uses729. Optionalresidual calculations use thedeclaredidealprofile, not anunemended literaltranscription of thatlength. Fourancestral assignments unaffected."
+  },
+  "held_aside": [
+    "Allhistoricaladoption/dating/efficacy claims",
+    "Linguisticglyph-to-phonetic/soundadapter",
+    "CompletedHarmony",
+    "Fludd–Kepler/monochord",
+    "TOL AB/BA",
+    "Automatic12ETorfullcircleclosure"
+  ],
+  "discriminating_observation": "A witness/performance that treats thefourlisted roles asfourpieces should supplyseparate mode/finalcontexts; aoneensemble/onescale readinginsteadneeds adifferent rolefunctionorotherpremise repair. Thetwo readingsalso differ onwhethermissingShangmeans missingmodeormissingtone.",
+  "exposure": "Bothsourcesandexpectedfourtonicsinspectedbeforecalculation. Reproduction ofknownsourceproposal; notblindprediction.",
+  "cross_witness_label_identifications": {
+    "黃鍾": "黄鍾 inreceivedZhouLi",
+    "太簇": "大蔟 inreceivedZhouLi; scoped traditionalconcordance for thisadapter, notphoneticproof"
+  },
+  "all_three_rows_modular_extension": {
+    "status": "Additionalconditionalmodern-profilefamily;exactancientacousticliftwithheld",
+    "source_condition": "Adoptlaterfour-modeinterpretationforeachritualrow, explicitlyattested inHuYansheng製調下; keepthisdistinctfromZheng/Jia andhistoricalfact.",
+    "interpretive_source_url": "https://www.shidianguji.com/zh/book/SK0610/chapter/1l9w1sn66801f",
+    "relative_standard_concordance": "Lamfigure2.1 traditionalnameconcordanceplusdeclaredZhengaliases圜鍾=夾鍾,函鍾=林鍾; allvalues shiftedbyarbitraryalpha. Thisisadeclaredadapter, notglobalpitchauthority.",
+    "rows": [
+      {
+        "ritual_context": "heaven",
+        "source_standard_label": "圜鍾",
+        "source_role_label": "宮",
+        "relative_final_pc": 3,
+        "role_offset": 0,
+        "relative_implicit_gong_pc": 3,
+        "model_context_id": "heaven/宮"
+      },
+      {
+        "ritual_context": "heaven",
+        "source_standard_label": "黄鍾",
+        "source_role_label": "角",
+        "relative_final_pc": 0,
+        "role_offset": 4,
+        "relative_implicit_gong_pc": 8,
+        "model_context_id": "heaven/角"
+      },
+      {
+        "ritual_context": "heaven",
+        "source_standard_label": "大蔟",
+        "source_role_label": "徴",
+        "relative_final_pc": 2,
+        "role_offset": 7,
+        "relative_implicit_gong_pc": 7,
+        "model_context_id": "heaven/徴"
+      },
+      {
+        "ritual_context": "heaven",
+        "source_standard_label": "姑洗",
+        "source_role_label": "羽",
+        "relative_final_pc": 4,
+        "role_offset": 9,
+        "relative_implicit_gong_pc": 7,
+        "model_context_id": "heaven/羽"
+      },
+      {
+        "ritual_context": "earth",
+        "source_standard_label": "函鍾",
+        "source_role_label": "宮",
+        "relative_final_pc": 7,
+        "role_offset": 0,
+        "relative_implicit_gong_pc": 7,
+        "model_context_id": "earth/宮"
+      },
+      {
+        "ritual_context": "earth",
+        "source_standard_label": "大蔟",
+        "source_role_label": "角",
+        "relative_final_pc": 2,
+        "role_offset": 4,
+        "relative_implicit_gong_pc": 10,
+        "model_context_id": "earth/角"
+      },
+      {
+        "ritual_context": "earth",
+        "source_standard_label": "姑洗",
+        "source_role_label": "徴",
+        "relative_final_pc": 4,
+        "role_offset": 7,
+        "relative_implicit_gong_pc": 9,
+        "model_context_id": "earth/徴"
+      },
+      {
+        "ritual_context": "earth",
+        "source_standard_label": "南呂",
+        "source_role_label": "羽",
+        "relative_final_pc": 9,
+        "role_offset": 9,
+        "relative_implicit_gong_pc": 0,
+        "model_context_id": "earth/羽"
+      },
+      {
+        "ritual_context": "ancestors",
+        "source_standard_label": "黄鍾",
+        "source_role_label": "宮",
+        "relative_final_pc": 0,
+        "role_offset": 0,
+        "relative_implicit_gong_pc": 0,
+        "model_context_id": "ancestors/宮"
+      },
+      {
+        "ritual_context": "ancestors",
+        "source_standard_label": "大呂",
+        "source_role_label": "角",
+        "relative_final_pc": 1,
+        "role_offset": 4,
+        "relative_implicit_gong_pc": 9,
+        "model_context_id": "ancestors/角"
+      },
+      {
+        "ritual_context": "ancestors",
+        "source_standard_label": "大蔟",
+        "source_role_label": "徴",
+        "relative_final_pc": 2,
+        "role_offset": 7,
+        "relative_implicit_gong_pc": 7,
+        "model_context_id": "ancestors/徴"
+      },
+      {
+        "ritual_context": "ancestors",
+        "source_standard_label": "應鍾",
+        "source_role_label": "羽",
+        "relative_final_pc": 11,
+        "role_offset": 9,
+        "relative_implicit_gong_pc": 2,
+        "model_context_id": "ancestors/羽"
+      }
+    ],
+    "origin_family_size": 12,
+    "all144_row_origin_checks_passed": true,
+    "constraint_removed": "Noequalityisassertedbetweenthe12piece-specificgongcontextsmerelybecausetheyshareoneritualheading. Equalstandards/fixedwithineachpieceoffsetsremainretained.",
+    "exact_lift_boundary": "Thefourancestralrowsretainverifiedrational/registerlift. Full12rowexactliftisnotpromoted;twoidealcommasandYizetextvariantremainexplicit."
+  }
+}

@@ -1,0 +1,2784 @@
+{
+  "schema": "sunny.large-source-manifest.v1",
+  "status": "complete",
+  "startedAt": "2026-11-08T02:40:17.379431+00:00",
+  "originalsModified": false,
+  "compression": "one deterministic gzip stream per original, split across bounded parts",
+  "compressionLevel": 1,
+  "maxPartBytes": 8388608,
+  "sourceRootConvention": "repository relative paths",
+  "payloadRepositoryPrefix": "archives/large-files",
+  "payloadWorkRoot": "work/publication/large",
+  "scope": "Raw byte preservation only; no publication or SQLite transaction-consistency claim",
+  "files": [
+    {
+      "sourcePath": "data/backups/current-reconstruction-before-20261031T191736387534Z.sqlite",
+      "originalBytes": 2404511744,
+      "originalSha256": "36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb",
+      "sourceStatBefore": {
+        "bytes": 2404511744,
+        "mtimeNs": 1793474269316518900,
+        "ctimeNs": 1793474256387526900,
+        "device": 926128401608394532,
+        "inode": 249105354389010151
+      },
+      "sourceStatAfter": {
+        "bytes": 2404511744,
+        "mtimeNs": 1793474269316518900,
+        "ctimeNs": 1793474256387526900,
+        "device": 926128401608394532,
+        "inode": 249105354389010151
+      },
+      "sourceStable": true,
+      "gzipSha256": "ca39bac231d3f17cd4ae180c6d2f1e7a9672941179418c0e45248619f5265a86",
+      "gzipBytes": 1006541222,
+      "partCount": 120,
+      "parts": [
+        {
+          "index": 1,
+          "bytes": 8388608,
+          "sha256": "d9385e6e0034dd21ec2f22212e928a38ebfe839ced6de526eadde3fb98dd4667",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0001.gzpart"
+        },
+        {
+          "index": 2,
+          "bytes": 8388608,
+          "sha256": "2a34c65ef27a1fea05700556ecf3120e6f74431e8dc5f1798fc4075e25dd551c",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0002.gzpart"
+        },
+        {
+          "index": 3,
+          "bytes": 8388608,
+          "sha256": "6be22c93590ac529480325e4c13286d3af76c31155a8a146ca1dc0a00a8a1947",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0003.gzpart"
+        },
+        {
+          "index": 4,
+          "bytes": 8388608,
+          "sha256": "4427f94c2b349dca33224b8fae25da5acb8cd230be938d480b7861202f1a51fe",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0004.gzpart"
+        },
+        {
+          "index": 5,
+          "bytes": 8388608,
+          "sha256": "1fece405b4fefaeeadde60a0a2b33d5563463805fe6fa26e1984b5f46b80a3a5",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0005.gzpart"
+        },
+        {
+          "index": 6,
+          "bytes": 8388608,
+          "sha256": "bf544589ba6df449e0c5da2e306036858fcf565dbe43187231eef6419fcac879",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0006.gzpart"
+        },
+        {
+          "index": 7,
+          "bytes": 8388608,
+          "sha256": "25ccb8ee691388f6f8880a52daac9e431218ac5f2e3e533d577e163e4d1e8ae0",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0007.gzpart"
+        },
+        {
+          "index": 8,
+          "bytes": 8388608,
+          "sha256": "6cf3576fa0fe7576d75a4f339a649fe4b9b61ea20bfae33294b869706b5030f4",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0008.gzpart"
+        },
+        {
+          "index": 9,
+          "bytes": 8388608,
+          "sha256": "38396233dc80fc202cc6b1a17b49ad2efa84ad1af253232bfc10b7078b087381",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0009.gzpart"
+        },
+        {
+          "index": 10,
+          "bytes": 8388608,
+          "sha256": "b2a2ec899bb16ede1539e08c9bc004a231e8c5a4a5f21fd0cb1427b00ddb62f9",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0010.gzpart"
+        },
+        {
+          "index": 11,
+          "bytes": 8388608,
+          "sha256": "a560e562f8faadfca64ccba73d96db77414899097ab82dc38792cb67fd7a7c2e",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0011.gzpart"
+        },
+        {
+          "index": 12,
+          "bytes": 8388608,
+          "sha256": "7f2b7081e1d657442ed5afca093b2ce3a0f326fe4d58952c354434605909ddd3",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0012.gzpart"
+        },
+        {
+          "index": 13,
+          "bytes": 8388608,
+          "sha256": "87f5c95c345e51908002150dd4528cd57e338aa0877fb9000eac16aff64a503d",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0013.gzpart"
+        },
+        {
+          "index": 14,
+          "bytes": 8388608,
+          "sha256": "89bc4e505c56205d867cbaccdbb733fd4b766421590b991b39a88000605f5416",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0014.gzpart"
+        },
+        {
+          "index": 15,
+          "bytes": 8388608,
+          "sha256": "5fff629d7c13d123b333b4bfe56d729e22c24885dab62b3010e9708639b37bca",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0015.gzpart"
+        },
+        {
+          "index": 16,
+          "bytes": 8388608,
+          "sha256": "673463effda669976838471a18b0f8a11a100c6afea39d8573bd005ced73eb4f",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0016.gzpart"
+        },
+        {
+          "index": 17,
+          "bytes": 8388608,
+          "sha256": "a0945126f3f7f5a629d8e0abee3920db43824425793666542771ac1e90af3428",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0017.gzpart"
+        },
+        {
+          "index": 18,
+          "bytes": 8388608,
+          "sha256": "0113466c3ac3469454515d7b282e0e57a4198af58b7f8331c964f05907457c8a",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0018.gzpart"
+        },
+        {
+          "index": 19,
+          "bytes": 8388608,
+          "sha256": "dff0530f51dbb3963bdfb6dbd056ac659ae3d7ae8403420182aa27b1778dac63",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0019.gzpart"
+        },
+        {
+          "index": 20,
+          "bytes": 8388608,
+          "sha256": "cd3268a44097f95e52db88221bc4ed1e7cd0487cd61ae998d81fc32dfb65ee7a",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0020.gzpart"
+        },
+        {
+          "index": 21,
+          "bytes": 8388608,
+          "sha256": "ab0ff76c5d73051578cd84371774dbb91fba27a4be253ce543f4f399529dbcd9",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0021.gzpart"
+        },
+        {
+          "index": 22,
+          "bytes": 8388608,
+          "sha256": "e024bb459eef0bca83cc55a884d2c69eec0e47312c079cf75c67e56bbbaa6706",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0022.gzpart"
+        },
+        {
+          "index": 23,
+          "bytes": 8388608,
+          "sha256": "ee40c8a66291831073be1c55be2ece0887b55fc3ff1db1fb99d12c8b3490c383",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0023.gzpart"
+        },
+        {
+          "index": 24,
+          "bytes": 8388608,
+          "sha256": "836d09f5214a02cd309d71f26f4e4769f6db876645fe84233a9130b360fbfa30",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0024.gzpart"
+        },
+        {
+          "index": 25,
+          "bytes": 8388608,
+          "sha256": "48fd974d274549dcc1300fe59875e14d90a73e5b021ae48b781fad9eb0cb42b6",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0025.gzpart"
+        },
+        {
+          "index": 26,
+          "bytes": 8388608,
+          "sha256": "216b56790fd284c70b369a50d8c1640e4680d675ab4bfd3e64bda748f06b3cff",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0026.gzpart"
+        },
+        {
+          "index": 27,
+          "bytes": 8388608,
+          "sha256": "4e1cab6c9987e3f65402062ed546e96c5cf6f4d8ed53b8b768718b583a24508c",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0027.gzpart"
+        },
+        {
+          "index": 28,
+          "bytes": 8388608,
+          "sha256": "279dc928cd1867b37b9086834275ea3764f754f48b828973ab102e4e7c6b0072",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0028.gzpart"
+        },
+        {
+          "index": 29,
+          "bytes": 8388608,
+          "sha256": "d2690f62ad405a58bd4c7fbf3f55f1673d8611af44add37aaffcddf9b4112f9b",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0029.gzpart"
+        },
+        {
+          "index": 30,
+          "bytes": 8388608,
+          "sha256": "32aac92e850b12454e32df997a84b28dda19999ba2443c37d74ec7fdbcfb9aa6",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0030.gzpart"
+        },
+        {
+          "index": 31,
+          "bytes": 8388608,
+          "sha256": "d057208a5ea77c0e87613a22fb0bf102831de51674a2d2d8aaf686d20a278e30",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0031.gzpart"
+        },
+        {
+          "index": 32,
+          "bytes": 8388608,
+          "sha256": "a24c0470f36aef1ca73a289e6dc88640aa7cd705be74faa146f7663d0f479e4b",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0032.gzpart"
+        },
+        {
+          "index": 33,
+          "bytes": 8388608,
+          "sha256": "b3282a2a75d89553461913e0c7a8be1ce8fa9c52970b440f3a5aca78848717f2",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0033.gzpart"
+        },
+        {
+          "index": 34,
+          "bytes": 8388608,
+          "sha256": "5bafdad76ad5c8be5e9706a74914fb809c6f2839bc09cfeb1cefb4f879c17e7d",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0034.gzpart"
+        },
+        {
+          "index": 35,
+          "bytes": 8388608,
+          "sha256": "aa49b591631b93335aedd4e16239970a04950409aba4bc4d7dcef517e484b4bc",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0035.gzpart"
+        },
+        {
+          "index": 36,
+          "bytes": 8388608,
+          "sha256": "20d07b59420d878bc5fb313db2d8548ae3463c893181ff07543cb4dfa24a8897",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0036.gzpart"
+        },
+        {
+          "index": 37,
+          "bytes": 8388608,
+          "sha256": "395f0ed9d7572c6655f5f5d6d3a95b73dd677dc008872e37ec902ea16209d3b2",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0037.gzpart"
+        },
+        {
+          "index": 38,
+          "bytes": 8388608,
+          "sha256": "6c414dba880ce657dd69277d7212d5688c9a21c41516cb12e373e6198e341975",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0038.gzpart"
+        },
+        {
+          "index": 39,
+          "bytes": 8388608,
+          "sha256": "eac5310f733d02dae1599d0d23491297164460408741c7b209c7b3c5e9cd8208",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0039.gzpart"
+        },
+        {
+          "index": 40,
+          "bytes": 8388608,
+          "sha256": "c034a687fa3c04036a9d721178e71a2d652c538b95f74c17964281e705f3df52",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0040.gzpart"
+        },
+        {
+          "index": 41,
+          "bytes": 8388608,
+          "sha256": "9be2553ec9a28987913bef727cc987abea4df05ab460107c1b2bc698a56451b1",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0041.gzpart"
+        },
+        {
+          "index": 42,
+          "bytes": 8388608,
+          "sha256": "5bc632c61597c10a3dd8e7187150d8fe445c65431d2b795e3b92ed33ee41bcdd",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0042.gzpart"
+        },
+        {
+          "index": 43,
+          "bytes": 8388608,
+          "sha256": "ab584bbf8942b218490e1dbeaa231ece1c98e3a3ecd858d52accf8d5276d41a5",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0043.gzpart"
+        },
+        {
+          "index": 44,
+          "bytes": 8388608,
+          "sha256": "8d87cf8ee24fed962eaa9c81eaa5e4c053355838b69149249f1a4f3082681fbd",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0044.gzpart"
+        },
+        {
+          "index": 45,
+          "bytes": 8388608,
+          "sha256": "228b64368c74d16bd27866b67e10c5dfbb9e08118f226d35378f84d26bfbe24a",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0045.gzpart"
+        },
+        {
+          "index": 46,
+          "bytes": 8388608,
+          "sha256": "98e0995ba0207e21e6a3637e89ca7c8c7605072adada50b1d28c01aadded7557",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0046.gzpart"
+        },
+        {
+          "index": 47,
+          "bytes": 8388608,
+          "sha256": "b003e10870cbe09e9dc7ab41b66f8855d10263a9049610ef599ac72ba7270cfc",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0047.gzpart"
+        },
+        {
+          "index": 48,
+          "bytes": 8388608,
+          "sha256": "90b371b11e2372525e892be1b42b1f15b5fc44dceffb8dedd438d0cd9a586b8a",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0048.gzpart"
+        },
+        {
+          "index": 49,
+          "bytes": 8388608,
+          "sha256": "234b044c32c1e13e51c715b1e77c34e1dd5810349bfe586ae92b2f5bff81bba4",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0049.gzpart"
+        },
+        {
+          "index": 50,
+          "bytes": 8388608,
+          "sha256": "ae3c88798e30d927209c3b598728d375249d7ce36be807b2349fa83e99dca636",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0050.gzpart"
+        },
+        {
+          "index": 51,
+          "bytes": 8388608,
+          "sha256": "aabd801ed4e2ef41085a2c5aa97ca7977e3060a53d4a1ff9c7b562692694a6ad",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0051.gzpart"
+        },
+        {
+          "index": 52,
+          "bytes": 8388608,
+          "sha256": "5f2037213b02c87e44fdec253fb5681b7303b09a4c9c36beac0fd8ab80d76f2e",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0052.gzpart"
+        },
+        {
+          "index": 53,
+          "bytes": 8388608,
+          "sha256": "ad84822fc55abd5c80ee7bbb98d96367201af588f4b24082737b7c1612697053",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0053.gzpart"
+        },
+        {
+          "index": 54,
+          "bytes": 8388608,
+          "sha256": "807b18cbef62a50e469291be5e477f6aefccfe557244c9d71d3e221e5b964b6e",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0054.gzpart"
+        },
+        {
+          "index": 55,
+          "bytes": 8388608,
+          "sha256": "8a60fca5055089adb8450d4b4ab1a0cc4bb44e6a8de90c1e50f59adb9672cbdb",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0055.gzpart"
+        },
+        {
+          "index": 56,
+          "bytes": 8388608,
+          "sha256": "e0017cb2fcd18e14e10f6d8e00b67274535fb9270c6ca1ba19b11de16a925138",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0056.gzpart"
+        },
+        {
+          "index": 57,
+          "bytes": 8388608,
+          "sha256": "4dbd8e8ddc564de4b1ba5e8fda38bb1b1b9be449e92fd1df71b51c045ea8aabf",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0057.gzpart"
+        },
+        {
+          "index": 58,
+          "bytes": 8388608,
+          "sha256": "aa19de2005362cd15dcf50171327302cafdf54e22d63516e2534d102d2867efc",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0058.gzpart"
+        },
+        {
+          "index": 59,
+          "bytes": 8388608,
+          "sha256": "a974b155cd27f5befc931466e6d6fb7c460766bad17df7fa91ccf0576e967d89",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0059.gzpart"
+        },
+        {
+          "index": 60,
+          "bytes": 8388608,
+          "sha256": "9e0af6d3bd2503fd530635121ee982660744f30b13be5709d17520841570b1d9",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0060.gzpart"
+        },
+        {
+          "index": 61,
+          "bytes": 8388608,
+          "sha256": "582f40c8a4df46f1fe6a377dd65930c4eb634ac42fd9e90ab8e8d6aab309e480",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0061.gzpart"
+        },
+        {
+          "index": 62,
+          "bytes": 8388608,
+          "sha256": "b66dc19bad6fdbe684f6be68bd94a08949eed729230b5bbb568c7a6209c9afd4",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0062.gzpart"
+        },
+        {
+          "index": 63,
+          "bytes": 8388608,
+          "sha256": "c357d8fd51ae495141128eaf8291bdd2acb5467b680ca3f89c056d3f741f2bfb",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0063.gzpart"
+        },
+        {
+          "index": 64,
+          "bytes": 8388608,
+          "sha256": "786f59717a86f55b10341ffddb4506f81b4c67c6e50ce943b4419583cc7d9459",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0064.gzpart"
+        },
+        {
+          "index": 65,
+          "bytes": 8388608,
+          "sha256": "6dedf47d8221ac85dcb3143c09653ad97b5d90b7c86460f55113d87a419e4406",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0065.gzpart"
+        },
+        {
+          "index": 66,
+          "bytes": 8388608,
+          "sha256": "06fb172c260a07e5c981f6e1e356cc66f662c336167fc8e5d391daec2d17fdfa",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0066.gzpart"
+        },
+        {
+          "index": 67,
+          "bytes": 8388608,
+          "sha256": "16250d0d205de7a5df168a32e2973334415cbbe505fc6e3f1922fd80c1f999c3",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0067.gzpart"
+        },
+        {
+          "index": 68,
+          "bytes": 8388608,
+          "sha256": "c991f1e99646854b87ebd228bf479f93e5ae9b5d12b46a397ca2c6de75019e20",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0068.gzpart"
+        },
+        {
+          "index": 69,
+          "bytes": 8388608,
+          "sha256": "4a552ad83cca78b5ae164d48d47224afdd85bbdd8b195ceaceb8cafdc115e78f",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0069.gzpart"
+        },
+        {
+          "index": 70,
+          "bytes": 8388608,
+          "sha256": "b6984dd8534739df6cd24228665b8f7b8a0e1637e061adc41b2dc85c6f587d21",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0070.gzpart"
+        },
+        {
+          "index": 71,
+          "bytes": 8388608,
+          "sha256": "212a1f264d44377dd55867a332907d664533ce2620af1fa1308eee82f275c81b",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0071.gzpart"
+        },
+        {
+          "index": 72,
+          "bytes": 8388608,
+          "sha256": "debb0872d206d708b5926b793c0b71cb5212d21cca9ac67ac811e30df742e22a",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0072.gzpart"
+        },
+        {
+          "index": 73,
+          "bytes": 8388608,
+          "sha256": "72b7c32c2eaeb646c409e629a7775a601cdf15f4ef4c582b3ce28c4e659c1981",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0073.gzpart"
+        },
+        {
+          "index": 74,
+          "bytes": 8388608,
+          "sha256": "443825a892526d790485cfb27a81c11c2bf42bf1cd1705a03081263d999e50e3",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0074.gzpart"
+        },
+        {
+          "index": 75,
+          "bytes": 8388608,
+          "sha256": "7dc0d71bce56621c812bbec2641911c4653036b064559f464b433283f3af30ba",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0075.gzpart"
+        },
+        {
+          "index": 76,
+          "bytes": 8388608,
+          "sha256": "a02c50171fd4ea3049f3370bd200548bf3c6157eb0aac2dce94d51adac37a0dc",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0076.gzpart"
+        },
+        {
+          "index": 77,
+          "bytes": 8388608,
+          "sha256": "8c2be684badb8946d9ad2792d910025a83da977597141e193ed55df3ebb4edbb",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0077.gzpart"
+        },
+        {
+          "index": 78,
+          "bytes": 8388608,
+          "sha256": "010656598dd48d1c30c39a9c5c23ef44b8f91a62d2a8eeee75621825c7dd9110",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0078.gzpart"
+        },
+        {
+          "index": 79,
+          "bytes": 8388608,
+          "sha256": "5b1338464e2385bbdcb3c1b42cb44ec796b9e8da1404c285c3c8558314403ba3",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0079.gzpart"
+        },
+        {
+          "index": 80,
+          "bytes": 8388608,
+          "sha256": "a3fb412f23ecbd3e85070b22097c9da031695d2ad7e5496b0a5b563aa6e444f7",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0080.gzpart"
+        },
+        {
+          "index": 81,
+          "bytes": 8388608,
+          "sha256": "91ca019eba19361d39fc2d5fb98966a94f71d94770dc5ad0bcb25e53e84eec81",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0081.gzpart"
+        },
+        {
+          "index": 82,
+          "bytes": 8388608,
+          "sha256": "e3ab30c74e8c5473d87b7951c7d7a13a33033779509f694d5fcbdb8d78110d73",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0082.gzpart"
+        },
+        {
+          "index": 83,
+          "bytes": 8388608,
+          "sha256": "701ea643c3afd14ace9976142ca43ad0aac75bd584e8a4d4f8900540fbd313da",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0083.gzpart"
+        },
+        {
+          "index": 84,
+          "bytes": 8388608,
+          "sha256": "bd8da71ab53920e32c02df2b8156c5a11d2fd16572b7ba5745eec5e49bb34ba9",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0084.gzpart"
+        },
+        {
+          "index": 85,
+          "bytes": 8388608,
+          "sha256": "a8ad5c91a0695c32e05bb5faaf1d59ab8b95d1edb96355771120f1b67dc53b05",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0085.gzpart"
+        },
+        {
+          "index": 86,
+          "bytes": 8388608,
+          "sha256": "70722215bf6969b658e109619567c7156d0807afe67b970d82555b70d0cb45e9",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0086.gzpart"
+        },
+        {
+          "index": 87,
+          "bytes": 8388608,
+          "sha256": "6269302db9aa3f4e66caa1fe9834f712af4914361eb762b28f22c7bfa89b62c1",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0087.gzpart"
+        },
+        {
+          "index": 88,
+          "bytes": 8388608,
+          "sha256": "2c0fab2c1b954ee77095c7bda4f0e799adf627c14bd039b212304793a9865c17",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0088.gzpart"
+        },
+        {
+          "index": 89,
+          "bytes": 8388608,
+          "sha256": "7bc559630f733a5f24a55034814064863843b4e2b38d5563cd72fdba2c98e757",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0089.gzpart"
+        },
+        {
+          "index": 90,
+          "bytes": 8388608,
+          "sha256": "f23083c49398d260d33b9f364be2fdffe266506cd0b9860c9aa5ac9ce71c7dee",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0090.gzpart"
+        },
+        {
+          "index": 91,
+          "bytes": 8388608,
+          "sha256": "a3f56911cefd418364190d2e6de2fe6393c6f7873ecd817ebe36603b3e9ce9c7",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0091.gzpart"
+        },
+        {
+          "index": 92,
+          "bytes": 8388608,
+          "sha256": "c7f131ec894424e71b42f8e532972e7563d462ea74b864b0a778b9752e1e9e2a",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0092.gzpart"
+        },
+        {
+          "index": 93,
+          "bytes": 8388608,
+          "sha256": "0445a63b0b9089b504403098e87ef05dc60212f4254f4723572fe56c69a3a402",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0093.gzpart"
+        },
+        {
+          "index": 94,
+          "bytes": 8388608,
+          "sha256": "c801a8b6b8daaedcc81d5058b5601e71cd42c00592f9c89fd5999cdc9f77a304",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0094.gzpart"
+        },
+        {
+          "index": 95,
+          "bytes": 8388608,
+          "sha256": "9ad2db3beae21fc6b0e145d9957687b3cd7de2dd90528c8082aa279f7d9d7f2b",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0095.gzpart"
+        },
+        {
+          "index": 96,
+          "bytes": 8388608,
+          "sha256": "61c67995932352790033fe95510b061a745d1e1661d082c481954d5d8f076c78",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0096.gzpart"
+        },
+        {
+          "index": 97,
+          "bytes": 8388608,
+          "sha256": "5b41df00f63b49d82a6c8fda4bcb96e7fdf8e92fdad67c2145b1cf1be2b8b363",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0097.gzpart"
+        },
+        {
+          "index": 98,
+          "bytes": 8388608,
+          "sha256": "34f74cfd9f610fbc70057c420b99c0e6cf939f242b8865699fc55c21dabf9fac",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0098.gzpart"
+        },
+        {
+          "index": 99,
+          "bytes": 8388608,
+          "sha256": "f968f9fd9f69cd9430e8dbd6e79fd73dbdcef5598f0f93acdc6f52eacec462b9",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0099.gzpart"
+        },
+        {
+          "index": 100,
+          "bytes": 8388608,
+          "sha256": "d8f76a79a5090683d05c716f89e86fb48a9f454ed827ba40f425509fddd0d661",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0100.gzpart"
+        },
+        {
+          "index": 101,
+          "bytes": 8388608,
+          "sha256": "f315474c98c8f9149bee4ee3dd18c64de2a1372bd4f393a02bf3c1c6d8516055",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0101.gzpart"
+        },
+        {
+          "index": 102,
+          "bytes": 8388608,
+          "sha256": "057d678ddadc69946b794480cb1c683dfaf016549de399b6ac9c7e4de46caa89",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0102.gzpart"
+        },
+        {
+          "index": 103,
+          "bytes": 8388608,
+          "sha256": "be906d9c7674c5f50b221ccdf72faf2bbf869acb8d08689ddb92bf7a3b2fdb71",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0103.gzpart"
+        },
+        {
+          "index": 104,
+          "bytes": 8388608,
+          "sha256": "fc975a8d6dcf2ee2cfa975d4b467357587a30812d39e9b2e751942dfcf9ad8ad",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0104.gzpart"
+        },
+        {
+          "index": 105,
+          "bytes": 8388608,
+          "sha256": "e7f85bd2b2d187c779659106d0bdb4f4fb469a5ab0f40fa601bc233b888115d2",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0105.gzpart"
+        },
+        {
+          "index": 106,
+          "bytes": 8388608,
+          "sha256": "9be9050089291894b23caade4070081daeb6ddabfeb5e5308713b712cba313ff",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0106.gzpart"
+        },
+        {
+          "index": 107,
+          "bytes": 8388608,
+          "sha256": "2534e659144109adf4fba6928a7fa55d97f15912bbed9d12d13eb9f993dae577",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0107.gzpart"
+        },
+        {
+          "index": 108,
+          "bytes": 8388608,
+          "sha256": "620bf3007e5fdf83348f6439b68ec1b9ebebddd5439a9c799a1b1665e3c83116",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0108.gzpart"
+        },
+        {
+          "index": 109,
+          "bytes": 8388608,
+          "sha256": "b1c0532470ee2a46e24cfb49d842ece451d13bdeae687a35f911ef5251f58038",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0109.gzpart"
+        },
+        {
+          "index": 110,
+          "bytes": 8388608,
+          "sha256": "f9e459d791274ef9c85440619f952c0d67c654caf1de9d5bb30dbad5f742f17c",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0110.gzpart"
+        },
+        {
+          "index": 111,
+          "bytes": 8388608,
+          "sha256": "4ca3cfd3b739bf00b65c9df69f86e37a7421bc9e50d742f6cbb1d75e56483c4d",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0111.gzpart"
+        },
+        {
+          "index": 112,
+          "bytes": 8388608,
+          "sha256": "0473434491a5c22ed119407fc13e20c2d7628479e0d20e8f675a2be62b635d4b",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0112.gzpart"
+        },
+        {
+          "index": 113,
+          "bytes": 8388608,
+          "sha256": "c27c643d31eea8c9e476d781c2e7204001e649f5c6f509c93b8e1bd61faa435e",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0113.gzpart"
+        },
+        {
+          "index": 114,
+          "bytes": 8388608,
+          "sha256": "d2e6676c1f901cefa6308679b2e76ed6ab4747520dd27551ed3a5578a2e3bfdb",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0114.gzpart"
+        },
+        {
+          "index": 115,
+          "bytes": 8388608,
+          "sha256": "2d57b9f9336ef87edaf795058ed8bce4ad87b04b831fe7ac7a180450229ebb89",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0115.gzpart"
+        },
+        {
+          "index": 116,
+          "bytes": 8388608,
+          "sha256": "b71cf224e9ee9da58c81eb2b5f79f6ee5f0bf02d2db3182c0d9fb386c556d158",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0116.gzpart"
+        },
+        {
+          "index": 117,
+          "bytes": 8388608,
+          "sha256": "9976235dedc5ed3deafa94a6cb8635d258d97609e2e981b26a20d1c65179d1c1",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0117.gzpart"
+        },
+        {
+          "index": 118,
+          "bytes": 8388608,
+          "sha256": "73ebb499f3aaad44827c1958e68020ca33a114a2b35e29cf5aeaf8ff6cc772ad",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0118.gzpart"
+        },
+        {
+          "index": 119,
+          "bytes": 8388608,
+          "sha256": "2d6c33f6e94850f2f9b0f2fd06b8a748f50e141847731abc1b34c72d6c53183b",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0119.gzpart"
+        },
+        {
+          "index": 120,
+          "bytes": 8296870,
+          "sha256": "55fa7aa21a422096f049edd80675ecf5243e008dccdce7a03561c0714474d5e3",
+          "repositoryPath": "archives/large-files/36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb/part-0120.gzpart"
+        }
+      ],
+      "sqlite": {
+        "sidecarsBefore": {
+          "-wal": {
+            "exists": false
+          },
+          "-shm": {
+            "exists": false
+          },
+          "-journal": {
+            "exists": false
+          }
+        },
+        "sidecarsAfter": {
+          "-wal": {
+            "exists": false
+          },
+          "-shm": {
+            "exists": false
+          },
+          "-journal": {
+            "exists": false
+          }
+        },
+        "sidecarsStable": true,
+        "assessment": "No WAL sidecar was present before or after reading. Main bytes were stable; SQLite logical integrity was not tested.",
+        "databaseOpenedBySQLite": false,
+        "checkpointOrMutationPerformed": false
+      }
+    },
+    {
+      "sourcePath": "data/backups/gaps-before-20261031T012033098903Z.sqlite",
+      "originalBytes": 2401320960,
+      "originalSha256": "e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e",
+      "sourceStatBefore": {
+        "bytes": 2401320960,
+        "mtimeNs": 1793409648751181000,
+        "ctimeNs": 1793409633098372300,
+        "device": 926128401608394532,
+        "inode": 16888498608254146
+      },
+      "sourceStatAfter": {
+        "bytes": 2401320960,
+        "mtimeNs": 1793409648751181000,
+        "ctimeNs": 1793409633098372300,
+        "device": 926128401608394532,
+        "inode": 16888498608254146
+      },
+      "sourceStable": true,
+      "gzipSha256": "f13f3da2642b9679e96a3a3dee3e454b38fb1e6e8cf34e4ba0a8f1556e0bc73d",
+      "gzipBytes": 1002577249,
+      "partCount": 120,
+      "parts": [
+        {
+          "index": 1,
+          "bytes": 8388608,
+          "sha256": "265463ed561cb077f00b530a9530330a165a8d119dc0f7a378f2d9a9eb30f22d",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0001.gzpart"
+        },
+        {
+          "index": 2,
+          "bytes": 8388608,
+          "sha256": "f624b0d65cf483f64628d3450ef2abc92e71aa4b95dc278947e440bff7ae3dc2",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0002.gzpart"
+        },
+        {
+          "index": 3,
+          "bytes": 8388608,
+          "sha256": "5f6fd6e1dcf56a83ff903c31235031edff3956d8d13e39b8f7edf1be7ae08428",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0003.gzpart"
+        },
+        {
+          "index": 4,
+          "bytes": 8388608,
+          "sha256": "4462b56fba698b7f0f67e255219933602d7fe8964dc98ec90b9af9a5079a607d",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0004.gzpart"
+        },
+        {
+          "index": 5,
+          "bytes": 8388608,
+          "sha256": "2b7a458f05c6afded0a2f1ed0304b4ef038ddfe7f1cd1d73d730df3831adb4e1",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0005.gzpart"
+        },
+        {
+          "index": 6,
+          "bytes": 8388608,
+          "sha256": "507ceb125dd1f45b0c3258c3b0b0660fb2432d1bedcf5e548d1385a4a0af5378",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0006.gzpart"
+        },
+        {
+          "index": 7,
+          "bytes": 8388608,
+          "sha256": "05b0bf2933ee6b3c745962aa8c2d5f0cded237ef9e43c2deabb2a3813ad0fb16",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0007.gzpart"
+        },
+        {
+          "index": 8,
+          "bytes": 8388608,
+          "sha256": "8ae1b85df1bce9d12696bd7bc6145d768c83c9419e39c073f71ce43c24f6397d",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0008.gzpart"
+        },
+        {
+          "index": 9,
+          "bytes": 8388608,
+          "sha256": "f23bbf83192ec811de6b0252151fa89b678eda054641dc44dd97cd3b5d7a15cf",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0009.gzpart"
+        },
+        {
+          "index": 10,
+          "bytes": 8388608,
+          "sha256": "80dde7da8e8aa8d4ae8699a52ba2d06d758052c4744b53fd19600eef878877e8",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0010.gzpart"
+        },
+        {
+          "index": 11,
+          "bytes": 8388608,
+          "sha256": "0853c7000a75b30a59d00cb296fba6df6df486b0c3d065c453fc7337ef63b1a5",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0011.gzpart"
+        },
+        {
+          "index": 12,
+          "bytes": 8388608,
+          "sha256": "f7eaf15c2b3ca707d2baec01b75abdee4b83b17fab48604ab4341c827d3a6b70",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0012.gzpart"
+        },
+        {
+          "index": 13,
+          "bytes": 8388608,
+          "sha256": "50fc9a2680859e442a605f65de12f4bec365e36608a3e43396fb29d40bd237a6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0013.gzpart"
+        },
+        {
+          "index": 14,
+          "bytes": 8388608,
+          "sha256": "d5af0b054a77364408ea60419eb5c31db97656dca91d90f1ae679c1d9e8fe4f5",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0014.gzpart"
+        },
+        {
+          "index": 15,
+          "bytes": 8388608,
+          "sha256": "9fa43c4d094f703cba44ad0908a16db7505e0bcde1a6abb260f26430b8a0893a",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0015.gzpart"
+        },
+        {
+          "index": 16,
+          "bytes": 8388608,
+          "sha256": "4b6b513830c468983d4717faf6daa7e5baa16a4a91aa15b9421d542f68189936",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0016.gzpart"
+        },
+        {
+          "index": 17,
+          "bytes": 8388608,
+          "sha256": "2f951e40ac4a0b5d68f4e38b3f7eda4005a99500dd8631e2774a061e73d44918",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0017.gzpart"
+        },
+        {
+          "index": 18,
+          "bytes": 8388608,
+          "sha256": "9de6bccfc612aac1730e8e59abc78eb97b698fd9862f751274cea99e90216140",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0018.gzpart"
+        },
+        {
+          "index": 19,
+          "bytes": 8388608,
+          "sha256": "a6e445d50c798cdc43b758f73a14d3bae009b4df1d4bc39cdefb191cff178d2b",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0019.gzpart"
+        },
+        {
+          "index": 20,
+          "bytes": 8388608,
+          "sha256": "9e31b176982d1334887a4f12c5292f6e5b85c58eac501c9a1beb7e01bac653bb",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0020.gzpart"
+        },
+        {
+          "index": 21,
+          "bytes": 8388608,
+          "sha256": "e08e005efb2f69b7cdbac5c1a9ade34f9175c2df69ac22eaedc143fedcfcd1e3",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0021.gzpart"
+        },
+        {
+          "index": 22,
+          "bytes": 8388608,
+          "sha256": "12d070525b65512a4273da90c1a555bd85bac0c544751e94b91362cf5d7f794e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0022.gzpart"
+        },
+        {
+          "index": 23,
+          "bytes": 8388608,
+          "sha256": "e56bf78bc503ac008e9dd81f01f432c6123bdc66f02bf669f53ec78be6a81fdc",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0023.gzpart"
+        },
+        {
+          "index": 24,
+          "bytes": 8388608,
+          "sha256": "f6172894360077f5366e229d05a3c12c61e5f7d34d1d0fd373b0e0d625bd76a0",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0024.gzpart"
+        },
+        {
+          "index": 25,
+          "bytes": 8388608,
+          "sha256": "9e586fba17a113068838119f214a80620a3c69ea02bd775d7241222d90881ea3",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0025.gzpart"
+        },
+        {
+          "index": 26,
+          "bytes": 8388608,
+          "sha256": "2dfc906976f6035adf11069ac8075b745eaf852edf6e49f68eb043bcf93ea21c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0026.gzpart"
+        },
+        {
+          "index": 27,
+          "bytes": 8388608,
+          "sha256": "ca68cd37ab492c4469fb2c7dcf717b0b75a22aa3c982f24fa33af54e584624b6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0027.gzpart"
+        },
+        {
+          "index": 28,
+          "bytes": 8388608,
+          "sha256": "81d2eb58af953a1a96715bcc33fefc06101409ff7cca2275c974fce20ef80843",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0028.gzpart"
+        },
+        {
+          "index": 29,
+          "bytes": 8388608,
+          "sha256": "7b513bd8a46d92aa1c14b0fc54dafc61c42d024302263ade9439d103f8c2f7b6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0029.gzpart"
+        },
+        {
+          "index": 30,
+          "bytes": 8388608,
+          "sha256": "863435f9b4e4f86fbdf8fd0eed9e91afd3471632ffa95fc5476622be2fa4979f",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0030.gzpart"
+        },
+        {
+          "index": 31,
+          "bytes": 8388608,
+          "sha256": "0904a3191cd73349763b4e171c0d8d1f08603883e369bc5fe39eabd385e12979",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0031.gzpart"
+        },
+        {
+          "index": 32,
+          "bytes": 8388608,
+          "sha256": "0a02d6acb04adb2db65f9ceb75f9f91c634c28aae2e1abaa4504e60f2393d241",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0032.gzpart"
+        },
+        {
+          "index": 33,
+          "bytes": 8388608,
+          "sha256": "d3155344ab88353c0790e0d8b42ae31886a044f0a72b49dcc954cea2159fbb81",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0033.gzpart"
+        },
+        {
+          "index": 34,
+          "bytes": 8388608,
+          "sha256": "cc3bc1a785f88ac09d171025ebb168f881de75ce99480e8be1d210ae33ba5b42",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0034.gzpart"
+        },
+        {
+          "index": 35,
+          "bytes": 8388608,
+          "sha256": "31a5f58c6a5084fd1d4c4a5678e779336568feb4b3b4b51fc5023015f0ed9de8",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0035.gzpart"
+        },
+        {
+          "index": 36,
+          "bytes": 8388608,
+          "sha256": "6af3dd453494201292adc1f3d1a4cffc13508ff997a41d247d48d666418d8047",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0036.gzpart"
+        },
+        {
+          "index": 37,
+          "bytes": 8388608,
+          "sha256": "ca4e8aa7a1f3e6eadf615b2021b09c9cc3a1cd01aac21e9b1dc0e83beaae7b9b",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0037.gzpart"
+        },
+        {
+          "index": 38,
+          "bytes": 8388608,
+          "sha256": "02ed8072fb949599506a4b87eccf1572320cf5c57c87a7ffae43ea6d8bfeb6a6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0038.gzpart"
+        },
+        {
+          "index": 39,
+          "bytes": 8388608,
+          "sha256": "c8244cad0ee5fb3818ca59c163facb19173f616f7944a87b41884fc89e284c9a",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0039.gzpart"
+        },
+        {
+          "index": 40,
+          "bytes": 8388608,
+          "sha256": "411aa7aa227e569ee39d53ee9c664788a19a9d7472530596cbe4c176e42fa7fe",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0040.gzpart"
+        },
+        {
+          "index": 41,
+          "bytes": 8388608,
+          "sha256": "e7b8af9ea06d9beaac2f8c9a8e92a5a70e877bc4aac616994b283d1bf6eb5064",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0041.gzpart"
+        },
+        {
+          "index": 42,
+          "bytes": 8388608,
+          "sha256": "409d2a80b574ac1da0e42acfa9f74e6e19fb246891d4010b43e374457797553b",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0042.gzpart"
+        },
+        {
+          "index": 43,
+          "bytes": 8388608,
+          "sha256": "5fec8032ee5bc65e479748b353e02545022a2309b7f42f3ebdbf1287336fc0e7",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0043.gzpart"
+        },
+        {
+          "index": 44,
+          "bytes": 8388608,
+          "sha256": "80ca4958b7844ba62793894b95478e2137a9fe963b31c81fc187d50e9b562c6d",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0044.gzpart"
+        },
+        {
+          "index": 45,
+          "bytes": 8388608,
+          "sha256": "a08215e3cce4777ef0bd3b97bbc2e83910e63b1efd38d24579763f09d32d1ad6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0045.gzpart"
+        },
+        {
+          "index": 46,
+          "bytes": 8388608,
+          "sha256": "395168bbc3dee571e7da16beb72a3a79c8e1b01beebf70a1e7468cd29b68ef42",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0046.gzpart"
+        },
+        {
+          "index": 47,
+          "bytes": 8388608,
+          "sha256": "a6810f7ddf5a2d8b7eea11b6a91ebf36c205452fff7ad69e128347c845c616ba",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0047.gzpart"
+        },
+        {
+          "index": 48,
+          "bytes": 8388608,
+          "sha256": "f322297e4bc148720fe442dbd7142e81eb28d053a6f3a8406a85cda4feecf204",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0048.gzpart"
+        },
+        {
+          "index": 49,
+          "bytes": 8388608,
+          "sha256": "f4182ccf628ece845b7e5261d912d749f432fa38a3d57f9ee775d69fc839009c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0049.gzpart"
+        },
+        {
+          "index": 50,
+          "bytes": 8388608,
+          "sha256": "7d338f085982b7e59554259014dc922f80a9d318cbbda5997aecdd0e6eb89a4a",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0050.gzpart"
+        },
+        {
+          "index": 51,
+          "bytes": 8388608,
+          "sha256": "84ebf2a6f2e6bfb30f0c6271d3a5898dc0ba26c25a52102758c19bca8d6b57d4",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0051.gzpart"
+        },
+        {
+          "index": 52,
+          "bytes": 8388608,
+          "sha256": "6d46d3413ddb6092da5af980eb17818e7a2466a90d1bcd9c895e845ad627e471",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0052.gzpart"
+        },
+        {
+          "index": 53,
+          "bytes": 8388608,
+          "sha256": "730ad107ab294bf211b3f87ebc50db35374c4563809c67a93f7f6fbae066221c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0053.gzpart"
+        },
+        {
+          "index": 54,
+          "bytes": 8388608,
+          "sha256": "2319c0ef23edc4efecf89566cfc30b9ed19a13a9cf37d87450621abd5018ea19",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0054.gzpart"
+        },
+        {
+          "index": 55,
+          "bytes": 8388608,
+          "sha256": "45ec170127213e17061b26d513c69e365e46a018b5c89f9c92d144cde3bfc7f3",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0055.gzpart"
+        },
+        {
+          "index": 56,
+          "bytes": 8388608,
+          "sha256": "63a68e08ee10e2ed2e2c1f0ee515c69995c173bd11eddef28f0748673154f0af",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0056.gzpart"
+        },
+        {
+          "index": 57,
+          "bytes": 8388608,
+          "sha256": "1f043876379c8f7a75169064c7f3d973f59a7ecbc431c84f34301dcdc430dcd9",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0057.gzpart"
+        },
+        {
+          "index": 58,
+          "bytes": 8388608,
+          "sha256": "7947a64d81ee552c15e2363bdb21d8e5599e664d2aad08ee41950297a9b5794e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0058.gzpart"
+        },
+        {
+          "index": 59,
+          "bytes": 8388608,
+          "sha256": "9c27b6910f49184f34dbdf1b6b4ccc6bbcf9b4ada56794d21a652a69cb6c1575",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0059.gzpart"
+        },
+        {
+          "index": 60,
+          "bytes": 8388608,
+          "sha256": "7d7e29dfcf33ee1f596f4115eec1ea3e2efbe5aba3ad5012f978a669df0d6de8",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0060.gzpart"
+        },
+        {
+          "index": 61,
+          "bytes": 8388608,
+          "sha256": "78597ca3d2b028cdbea33faeaca69dcb40b0dfc6893dbaf648d95b0efc6993a8",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0061.gzpart"
+        },
+        {
+          "index": 62,
+          "bytes": 8388608,
+          "sha256": "72ebe0d078e9644be9eebf3aede55730bb39b067d11dbd8186e93a6e151acad5",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0062.gzpart"
+        },
+        {
+          "index": 63,
+          "bytes": 8388608,
+          "sha256": "82899470a027eeb6df42f9256df45b3fab20f96e3bf4f33f677f4c8e2a0f370d",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0063.gzpart"
+        },
+        {
+          "index": 64,
+          "bytes": 8388608,
+          "sha256": "7ed0ed8364cd325673e0818ce1c35504ffffacaf1ad4d3a09aab732f31e5a388",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0064.gzpart"
+        },
+        {
+          "index": 65,
+          "bytes": 8388608,
+          "sha256": "ae262cfbee1fd6a3b1fe35830dbfae5e8600afb5d22bc8036886ccec64e6d9ea",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0065.gzpart"
+        },
+        {
+          "index": 66,
+          "bytes": 8388608,
+          "sha256": "94390ca0efea5db448ae5d7b01554228171f9f3f4c02a462b4653cfac68d0d69",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0066.gzpart"
+        },
+        {
+          "index": 67,
+          "bytes": 8388608,
+          "sha256": "e21e8f040e33535e0231e0716ff5f939fe7c2e54a1df3d6626b55f1edeb59340",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0067.gzpart"
+        },
+        {
+          "index": 68,
+          "bytes": 8388608,
+          "sha256": "966ce12f5bfa6969688d5ec60e1c2d7f85dc22029dfc58439b9887e57474d02c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0068.gzpart"
+        },
+        {
+          "index": 69,
+          "bytes": 8388608,
+          "sha256": "d87dee47dad9eb75e06ac297483c0fbe922b2692600b56d5b73146c74de11176",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0069.gzpart"
+        },
+        {
+          "index": 70,
+          "bytes": 8388608,
+          "sha256": "79f50f702d1b61bcdc7081d5fd400b609d064846878aab56793046ce65d138d6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0070.gzpart"
+        },
+        {
+          "index": 71,
+          "bytes": 8388608,
+          "sha256": "ad478f9c4d9e9931edf20f56c999b8aeb62419583fc6c68fcd1d1663bf31e821",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0071.gzpart"
+        },
+        {
+          "index": 72,
+          "bytes": 8388608,
+          "sha256": "c1ab9b6232dac5b7b2696520e0a65bf35199e4ff35542273ac50c43ca4484d37",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0072.gzpart"
+        },
+        {
+          "index": 73,
+          "bytes": 8388608,
+          "sha256": "1577e0564df92565c71d43123683ba4b77d44142943ecfd99101cfb9504846d0",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0073.gzpart"
+        },
+        {
+          "index": 74,
+          "bytes": 8388608,
+          "sha256": "d8294ffee52fefbb3f554d7fe77c5fd9e0ef10371084dddbdb952dd0422c76b6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0074.gzpart"
+        },
+        {
+          "index": 75,
+          "bytes": 8388608,
+          "sha256": "e031f852cdafbfe73a9e59f6723e38dd3ab3511b340c43ce6ca3bb3c41ef1ca1",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0075.gzpart"
+        },
+        {
+          "index": 76,
+          "bytes": 8388608,
+          "sha256": "7cc401ea6a389b3a8090cdb6bd3d6cacf546cce30057f4b9846556ad4ef47743",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0076.gzpart"
+        },
+        {
+          "index": 77,
+          "bytes": 8388608,
+          "sha256": "486c00dc56c33bd494df955c20295c135fa0449eb77f5ff9000a4270fbe1d295",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0077.gzpart"
+        },
+        {
+          "index": 78,
+          "bytes": 8388608,
+          "sha256": "cdc9b3a432aeba14811539c23f85a1c44d25ac9197fa77d34aa58befb3bdb0de",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0078.gzpart"
+        },
+        {
+          "index": 79,
+          "bytes": 8388608,
+          "sha256": "9eedf7b156d49931692d71e0bd820027e9c85b6f0d88413eff98c0afd2a02216",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0079.gzpart"
+        },
+        {
+          "index": 80,
+          "bytes": 8388608,
+          "sha256": "8e3379316801b09b6d09f59ba4ef6364a93eaf487b52159a4deb1520875fa6a9",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0080.gzpart"
+        },
+        {
+          "index": 81,
+          "bytes": 8388608,
+          "sha256": "bef5fca81faf86b0d1c91724bf0f6ee8424880561b89e12148f86f26f21e4fd3",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0081.gzpart"
+        },
+        {
+          "index": 82,
+          "bytes": 8388608,
+          "sha256": "7814883d6ca5243f0954822a1a977b6258cf4f2c0bd115e98278a4ff9e82814b",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0082.gzpart"
+        },
+        {
+          "index": 83,
+          "bytes": 8388608,
+          "sha256": "79dfb6416647138a54755fb61f60f308787ec7f5951f8a33f4776a024e6fed29",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0083.gzpart"
+        },
+        {
+          "index": 84,
+          "bytes": 8388608,
+          "sha256": "0d13b9d143173445fb173d1eff26e5f5441b31a121f7f9f4829a43bd01bf3148",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0084.gzpart"
+        },
+        {
+          "index": 85,
+          "bytes": 8388608,
+          "sha256": "e3354e927ebb6f366410c31a82b5fafdef0bb03e220ed2fc4368bf8b5969139e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0085.gzpart"
+        },
+        {
+          "index": 86,
+          "bytes": 8388608,
+          "sha256": "37b17a1c9257595532a6cb5047950e205b80d24957117881e0d38e1b4b1b37f8",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0086.gzpart"
+        },
+        {
+          "index": 87,
+          "bytes": 8388608,
+          "sha256": "74dec3bd3497ae8432fbc2668cfda78a94268892cace879f78fa6a3157b46e7e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0087.gzpart"
+        },
+        {
+          "index": 88,
+          "bytes": 8388608,
+          "sha256": "4f69ccc418392b7527370fffe139ea0bfd0414c00202ecb19fd7744a74d51671",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0088.gzpart"
+        },
+        {
+          "index": 89,
+          "bytes": 8388608,
+          "sha256": "0f2f123ecf82e3c15b29cae99d7a266da3e52965a4fe7da654b1ac7c675cb157",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0089.gzpart"
+        },
+        {
+          "index": 90,
+          "bytes": 8388608,
+          "sha256": "8468e47435838b3dd1d7872bbcd41b54b76dd8f5409c62b842c7fa9ced23680d",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0090.gzpart"
+        },
+        {
+          "index": 91,
+          "bytes": 8388608,
+          "sha256": "83dfc7ec6f1df7802f07f5960f5bf78731aba14cf54f6ff94c122fdfbbd561ed",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0091.gzpart"
+        },
+        {
+          "index": 92,
+          "bytes": 8388608,
+          "sha256": "12dbdb3cc644d4a65cc78f2a9b7a3d88c45dd28c6d8166778b97b6454bc7ea73",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0092.gzpart"
+        },
+        {
+          "index": 93,
+          "bytes": 8388608,
+          "sha256": "333a381a75ee55b7293bd794d616441820c65dd504d7739abbf0ad8d391e2329",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0093.gzpart"
+        },
+        {
+          "index": 94,
+          "bytes": 8388608,
+          "sha256": "d3fb428c447dea7fa2a58d841cd4bf6efe87d1179cf15032b3515661a40d257e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0094.gzpart"
+        },
+        {
+          "index": 95,
+          "bytes": 8388608,
+          "sha256": "dbc642a4e13c774c0a714047151c830d8a06bdb5450bb3a32bf5b49df2c5b8a2",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0095.gzpart"
+        },
+        {
+          "index": 96,
+          "bytes": 8388608,
+          "sha256": "92b700766d3b6498c531e9eea68121d63468f410a4011da2dc584ed34a27b724",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0096.gzpart"
+        },
+        {
+          "index": 97,
+          "bytes": 8388608,
+          "sha256": "073cb967d8bde57ecbac9832e4ce78c37fa247cfa9bf6b3dcb81f3ec31d9624b",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0097.gzpart"
+        },
+        {
+          "index": 98,
+          "bytes": 8388608,
+          "sha256": "a59b4a8fb8ef308f7dd116c858a1f6b9997760ad709bf9ea469f0033ca02109b",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0098.gzpart"
+        },
+        {
+          "index": 99,
+          "bytes": 8388608,
+          "sha256": "91168461394d5a715b390cda99d4cba9029e82a88b306b173758f556d9e561a9",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0099.gzpart"
+        },
+        {
+          "index": 100,
+          "bytes": 8388608,
+          "sha256": "6696ba33bbdc230a9c96bafdd7ce0e0743b988e6cc6ab526f46e6fdfd54b5cfc",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0100.gzpart"
+        },
+        {
+          "index": 101,
+          "bytes": 8388608,
+          "sha256": "2e72cad9bc64fac6b8452dc96196bbdd742d7a73e67635848517a00b50cff70e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0101.gzpart"
+        },
+        {
+          "index": 102,
+          "bytes": 8388608,
+          "sha256": "83d4e4a92b4092f78786bbdf70d51d9072186c80d2de436b9d111dcc2a458d3c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0102.gzpart"
+        },
+        {
+          "index": 103,
+          "bytes": 8388608,
+          "sha256": "ea76984f593380dfe4e4ac0cef4339fa8fd07e47930e2d17d357ca98b50d8af7",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0103.gzpart"
+        },
+        {
+          "index": 104,
+          "bytes": 8388608,
+          "sha256": "8302cb5080a1bb62595548056860956557a024a05696f70164927427783cb133",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0104.gzpart"
+        },
+        {
+          "index": 105,
+          "bytes": 8388608,
+          "sha256": "c8ab1b8daa5bc19a190aa0bda212f9ae4bed64b5a7002c47fa8cd6e80d91e767",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0105.gzpart"
+        },
+        {
+          "index": 106,
+          "bytes": 8388608,
+          "sha256": "3b99683e4316ee2cc2cbeb194956438207428cfad00305279f2164659543bab8",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0106.gzpart"
+        },
+        {
+          "index": 107,
+          "bytes": 8388608,
+          "sha256": "51e7521bc91a23b3cb7892309f779fdf09066aea2feb010d5c38e0c6142fb281",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0107.gzpart"
+        },
+        {
+          "index": 108,
+          "bytes": 8388608,
+          "sha256": "7f2b1b468e46f4eb3a619722065af0749fd1ccc8d8b9711053654f710f49751c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0108.gzpart"
+        },
+        {
+          "index": 109,
+          "bytes": 8388608,
+          "sha256": "9aafbd210d9de25a8327efa4aabc41cfc974db32f644c5d6e9efd078c71a1018",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0109.gzpart"
+        },
+        {
+          "index": 110,
+          "bytes": 8388608,
+          "sha256": "e686db644c0771e73254f49b3b08b93fc88267f3ff2f62100655e8cae39cd56c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0110.gzpart"
+        },
+        {
+          "index": 111,
+          "bytes": 8388608,
+          "sha256": "6bedbde17efefaf401bb9c0d0e4be8fa7c9a28d67b8a6316c6c29e9389c99eba",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0111.gzpart"
+        },
+        {
+          "index": 112,
+          "bytes": 8388608,
+          "sha256": "97175e6420261a5a104b50622a3aff060d69b292bf36a796ed11263418f5fdf4",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0112.gzpart"
+        },
+        {
+          "index": 113,
+          "bytes": 8388608,
+          "sha256": "8d52c5c1fec7b85366753ac5d347ea7f185d974f05e3d26aab0178cc3af2623c",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0113.gzpart"
+        },
+        {
+          "index": 114,
+          "bytes": 8388608,
+          "sha256": "361fd65994d73b5e255a2fb7123150466beb1f3fcc98e43ff6d2d584b7c97758",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0114.gzpart"
+        },
+        {
+          "index": 115,
+          "bytes": 8388608,
+          "sha256": "0f34d39a41adf7b8060adff16dc67c732396a002616d9b68856fafadafa9f7d6",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0115.gzpart"
+        },
+        {
+          "index": 116,
+          "bytes": 8388608,
+          "sha256": "5e3e6742cc05cc6716bce881963aa68239d410c1e02ee546b92675a22db3dc18",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0116.gzpart"
+        },
+        {
+          "index": 117,
+          "bytes": 8388608,
+          "sha256": "f30ad5be8f8ac922e6f6e3da4578d238820f110622607c581f2d27bd539f9a1e",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0117.gzpart"
+        },
+        {
+          "index": 118,
+          "bytes": 8388608,
+          "sha256": "982885df2cd72405269d876148bd7d704700f0934ebef2817ec0127e932075de",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0118.gzpart"
+        },
+        {
+          "index": 119,
+          "bytes": 8388608,
+          "sha256": "c8ba8562772d0e8bfb1fcd0cba637fcb83d86c97aa9c1e41ab69396c97a37905",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0119.gzpart"
+        },
+        {
+          "index": 120,
+          "bytes": 4332897,
+          "sha256": "89ac4d98f5b720fdf70350a2ffdee6edf55d9ed80f672ccbc21499636f9571e9",
+          "repositoryPath": "archives/large-files/e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e/part-0120.gzpart"
+        }
+      ],
+      "sqlite": {
+        "sidecarsBefore": {
+          "-wal": {
+            "exists": false
+          },
+          "-shm": {
+            "exists": false
+          },
+          "-journal": {
+            "exists": false
+          }
+        },
+        "sidecarsAfter": {
+          "-wal": {
+            "exists": false
+          },
+          "-shm": {
+            "exists": false
+          },
+          "-journal": {
+            "exists": false
+          }
+        },
+        "sidecarsStable": true,
+        "assessment": "No WAL sidecar was present before or after reading. Main bytes were stable; SQLite logical integrity was not tested.",
+        "databaseOpenedBySQLite": false,
+        "checkpointOrMutationPerformed": false
+      }
+    },
+    {
+      "sourcePath": "data/raw/archive/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+      "originalBytes": 100675224,
+      "originalSha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+      "sourceStatBefore": {
+        "bytes": 100675224,
+        "mtimeNs": 1793407778116538200,
+        "ctimeNs": 1793407778012460900,
+        "device": 926128401608394532,
+        "inode": 5629499537217778
+      },
+      "sourceStatAfter": {
+        "bytes": 100675224,
+        "mtimeNs": 1793407778116538200,
+        "ctimeNs": 1793407778012460900,
+        "device": 926128401608394532,
+        "inode": 5629499537217778
+      },
+      "sourceStable": true,
+      "gzipSha256": "65386afe5956029be25ed255a4e049a125c6dee607250393b6aead1c97c8f481",
+      "gzipBytes": 27574747,
+      "partCount": 4,
+      "parts": [
+        {
+          "index": 1,
+          "bytes": 8388608,
+          "sha256": "1090e2a3c62f6671daa7e66f6eb121f252584d6a3051aa351bb9a123d1df31df",
+          "repositoryPath": "archives/large-files/dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba/part-0001.gzpart"
+        },
+        {
+          "index": 2,
+          "bytes": 8388608,
+          "sha256": "43eedf7e98c289079436c7d9dc506d599090a027a686f26d34ecc485b65f8251",
+          "repositoryPath": "archives/large-files/dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba/part-0002.gzpart"
+        },
+        {
+          "index": 3,
+          "bytes": 8388608,
+          "sha256": "1968b19ada21bd2b42740f9aa9723760e584fe4e83836050f15834e1162b8ac2",
+          "repositoryPath": "archives/large-files/dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba/part-0003.gzpart"
+        },
+        {
+          "index": 4,
+          "bytes": 2408923,
+          "sha256": "fdc9ed9fd5c5da457cabbe3f7b1a684ee97a8481834a52b022924f3aea218ecc",
+          "repositoryPath": "archives/large-files/dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba/part-0004.gzpart"
+        }
+      ]
+    },
+    {
+      "sourcePath": "data/sunny.sqlite",
+      "originalBytes": 2418573312,
+      "originalSha256": "4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb",
+      "sourceStatBefore": {
+        "bytes": 2418573312,
+        "mtimeNs": 1793508271373226600,
+        "ctimeNs": 1793407775914732800,
+        "device": 926128401608394532,
+        "inode": 7881299350901352
+      },
+      "sourceStatAfter": {
+        "bytes": 2418573312,
+        "mtimeNs": 1793508271373226600,
+        "ctimeNs": 1793407775914732800,
+        "device": 926128401608394532,
+        "inode": 7881299350901352
+      },
+      "sourceStable": true,
+      "gzipSha256": "a662ac03b34379ae34143b7adb1adb1f69febc38ec7e5443567e938c73693397",
+      "gzipBytes": 1011374520,
+      "partCount": 121,
+      "parts": [
+        {
+          "index": 1,
+          "bytes": 8388608,
+          "sha256": "fae8de4bd98e175ffd4ef60767d77b6680a0f178e8e7d93a541ddcc9969e5c4d",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0001.gzpart"
+        },
+        {
+          "index": 2,
+          "bytes": 8388608,
+          "sha256": "3db44685407ae43087cb5c629032ea8f8554f72274ca33a51c5a3d2415b07dad",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0002.gzpart"
+        },
+        {
+          "index": 3,
+          "bytes": 8388608,
+          "sha256": "a52b26e0d1cd3f1a8783e0de7713f3288f19e1458518f1ccde65cb4c4b73e9ea",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0003.gzpart"
+        },
+        {
+          "index": 4,
+          "bytes": 8388608,
+          "sha256": "078552ce8e5f6bcec6e8de0c713486e8e3eabf84a96091b46a6c87d04ebb568b",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0004.gzpart"
+        },
+        {
+          "index": 5,
+          "bytes": 8388608,
+          "sha256": "b4b523d5bf9975cc5c26b533b83e2e0ca2474c023949c7a53cc6a9c105430a9b",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0005.gzpart"
+        },
+        {
+          "index": 6,
+          "bytes": 8388608,
+          "sha256": "f20a006113e6e000b71c737c6b6f344c8bc9feee561df1f2d6367204ba18ccf1",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0006.gzpart"
+        },
+        {
+          "index": 7,
+          "bytes": 8388608,
+          "sha256": "02627c8541e2940b68eadd7d7875f950b63d705585bca33d034dfc75a32c97d6",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0007.gzpart"
+        },
+        {
+          "index": 8,
+          "bytes": 8388608,
+          "sha256": "1d5ef9c0609503310d8e4055bd667f354540a22f2afc923b3090d06974bb03d8",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0008.gzpart"
+        },
+        {
+          "index": 9,
+          "bytes": 8388608,
+          "sha256": "0b64e934fae86a3861621579194cd8aba8a00b6709920c5bf6799e7f23025f8a",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0009.gzpart"
+        },
+        {
+          "index": 10,
+          "bytes": 8388608,
+          "sha256": "89884e8b971db08c0fba7387d486ebdbfe3d5e9dde3f84d9baedde9e895cf029",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0010.gzpart"
+        },
+        {
+          "index": 11,
+          "bytes": 8388608,
+          "sha256": "940a482fbb9f1bb3a1fcb83efaef6ea69b7dff338a2a613eccf6da4191e0262f",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0011.gzpart"
+        },
+        {
+          "index": 12,
+          "bytes": 8388608,
+          "sha256": "c66faef17cb64d57b9269e9f9fdd158c5cb32dbadcc920b7e2b5f6a0957ac2ec",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0012.gzpart"
+        },
+        {
+          "index": 13,
+          "bytes": 8388608,
+          "sha256": "7669ecb603f55f330ae9730ad2d79acaa7896799f8275ffd46e67db5f2b1852c",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0013.gzpart"
+        },
+        {
+          "index": 14,
+          "bytes": 8388608,
+          "sha256": "c144f8b69afc445cd8c8bdc629cdbab4787f6f754354a5093cf5edd0987731fe",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0014.gzpart"
+        },
+        {
+          "index": 15,
+          "bytes": 8388608,
+          "sha256": "b2a9a71fd73964828ac20a50131fb70db1e31534501c6f1306a8ccc0e5c93fb3",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0015.gzpart"
+        },
+        {
+          "index": 16,
+          "bytes": 8388608,
+          "sha256": "f053f048e50026931631a981961352a7bd1fa446c05f9ffb1650ab403037ea87",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0016.gzpart"
+        },
+        {
+          "index": 17,
+          "bytes": 8388608,
+          "sha256": "c786257b1b277ca0b2ab51cf535da41a53f78a234ed7cf390053f2d8e2130050",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0017.gzpart"
+        },
+        {
+          "index": 18,
+          "bytes": 8388608,
+          "sha256": "91319878f55811291376ba325e7a6fa0a200cba02cfb2c7e0e3227fc7c609e6e",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0018.gzpart"
+        },
+        {
+          "index": 19,
+          "bytes": 8388608,
+          "sha256": "12802023a3a93ce9a5b84e4a18e695ff32a33c2bbe39a9861b5a2f59c9b6c8a6",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0019.gzpart"
+        },
+        {
+          "index": 20,
+          "bytes": 8388608,
+          "sha256": "396b3f8b4b35f2402de6bee5e1a6058cc5351adbe3c4dd07926eedc02916ff74",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0020.gzpart"
+        },
+        {
+          "index": 21,
+          "bytes": 8388608,
+          "sha256": "a0915a0862d7d79b4ba8d1d5661aedc786c6d4634ae64a4b223fb6993d4eff5c",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0021.gzpart"
+        },
+        {
+          "index": 22,
+          "bytes": 8388608,
+          "sha256": "34964f97e1f9cdb67f2bb5efe0a3efa9eb4db350279a3fbef1b122132a6298b5",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0022.gzpart"
+        },
+        {
+          "index": 23,
+          "bytes": 8388608,
+          "sha256": "04d47211bbd500dc5f03751522f929213a67b996c30af6bd49bc9929b3b68791",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0023.gzpart"
+        },
+        {
+          "index": 24,
+          "bytes": 8388608,
+          "sha256": "a7a718f5f6c26fa09c9dcc9d9e8f252f2a3374f062168fbce25463c5893490de",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0024.gzpart"
+        },
+        {
+          "index": 25,
+          "bytes": 8388608,
+          "sha256": "61350ff95ed53eb1ca3f320ab7dd9f3cae16176539fc7dc28ec42b2e3b00fc27",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0025.gzpart"
+        },
+        {
+          "index": 26,
+          "bytes": 8388608,
+          "sha256": "f6e0a2ed593556225a856b469968b5609c9c5c5dc35c8fe67f3120e0bd7b88eb",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0026.gzpart"
+        },
+        {
+          "index": 27,
+          "bytes": 8388608,
+          "sha256": "c0325ef5bb456d25adfeffb0f98b92c8afee68661e9caf5b0bd2b244009704b9",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0027.gzpart"
+        },
+        {
+          "index": 28,
+          "bytes": 8388608,
+          "sha256": "57de85ebd6827c46449137d0200bad60ee331ee318196c1f4a7b0a821382d9c8",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0028.gzpart"
+        },
+        {
+          "index": 29,
+          "bytes": 8388608,
+          "sha256": "12d4026be018255b03986824e4f9ef2a83da5e3a06539204b5001368d8cfeba1",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0029.gzpart"
+        },
+        {
+          "index": 30,
+          "bytes": 8388608,
+          "sha256": "9e261a2da3d7988aa278703c99e83f974d1f6018c555c218e16e1ff0402d3bc6",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0030.gzpart"
+        },
+        {
+          "index": 31,
+          "bytes": 8388608,
+          "sha256": "cfe48771480d1e76d6daa44877a52ca86ccf9626fe761067de333d43a7adb4fc",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0031.gzpart"
+        },
+        {
+          "index": 32,
+          "bytes": 8388608,
+          "sha256": "cbe7bf4b4e11d5ee823e6be04f26f0b1f1902ea764002eca0c95b252031e0476",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0032.gzpart"
+        },
+        {
+          "index": 33,
+          "bytes": 8388608,
+          "sha256": "e4792242546cdbc659d6d12079b526a2d16baa46c48be3a9c55e39fd14b4a073",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0033.gzpart"
+        },
+        {
+          "index": 34,
+          "bytes": 8388608,
+          "sha256": "53d6795fb83f8c4963691a6bbf4ed22f8d77aa5edf565608b69a7ff5d71dd855",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0034.gzpart"
+        },
+        {
+          "index": 35,
+          "bytes": 8388608,
+          "sha256": "3514fe8212e46f02323e42afc0f2c254e759f82b75c91129abc064b8ffb4849d",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0035.gzpart"
+        },
+        {
+          "index": 36,
+          "bytes": 8388608,
+          "sha256": "fe853e07153215fbb747e103ff7e517fdb0d9fed4d021f32c51c091edb878815",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0036.gzpart"
+        },
+        {
+          "index": 37,
+          "bytes": 8388608,
+          "sha256": "f2e6b9eea1c1ce952bccfaab5d80d747f12b93d6b2c7e68fc65d1fdd180c3acf",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0037.gzpart"
+        },
+        {
+          "index": 38,
+          "bytes": 8388608,
+          "sha256": "df9edec60d5dd1aadd2314790814064c175d2c1215182285aa96030c19ebfb0a",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0038.gzpart"
+        },
+        {
+          "index": 39,
+          "bytes": 8388608,
+          "sha256": "d14688d0c52899d154b2c0f290f2c41d2fc5014fcd9e0967be15efa71248cd8c",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0039.gzpart"
+        },
+        {
+          "index": 40,
+          "bytes": 8388608,
+          "sha256": "6072291884ab86dc67eaeb687454cd32806695d5e7805b094b4cae94fd1cef35",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0040.gzpart"
+        },
+        {
+          "index": 41,
+          "bytes": 8388608,
+          "sha256": "7288c0479bca7511cfabf2b4bcd2eb7dab2160dd79ee995264ae123f03965720",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0041.gzpart"
+        },
+        {
+          "index": 42,
+          "bytes": 8388608,
+          "sha256": "246144715cd00c6ba769e2283c7ce5b6bb88202ed37be04ddbe4d1a074250fd7",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0042.gzpart"
+        },
+        {
+          "index": 43,
+          "bytes": 8388608,
+          "sha256": "f5a2bc142408987ede1927f479139ac72fd06cfc37b5670df7b4b0f3b7e70728",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0043.gzpart"
+        },
+        {
+          "index": 44,
+          "bytes": 8388608,
+          "sha256": "10dedd082ee0f9c5c6ba1aeb6eba3bec3769901e7ddcfcf2b398f5afbd7963e6",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0044.gzpart"
+        },
+        {
+          "index": 45,
+          "bytes": 8388608,
+          "sha256": "8d17b6cbbdeb74e0ec51698839511ffcbf831025b28be24e80dd10507ed19beb",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0045.gzpart"
+        },
+        {
+          "index": 46,
+          "bytes": 8388608,
+          "sha256": "643b036914fe39cfb2cafa18ab609699766530362ab3d8ff7fc760f14605891e",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0046.gzpart"
+        },
+        {
+          "index": 47,
+          "bytes": 8388608,
+          "sha256": "f3ae932cd05ca4740ef03dfad175178c0cb0ccd93579debbfb9e7f18bc30595a",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0047.gzpart"
+        },
+        {
+          "index": 48,
+          "bytes": 8388608,
+          "sha256": "861b4d26ce5a249c530bb40ed958fa32ae6b5f3dc5100ff434b50be6ec367485",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0048.gzpart"
+        },
+        {
+          "index": 49,
+          "bytes": 8388608,
+          "sha256": "b9ac152418152f9f7e01e2cb6646976674715466930dd893c51ec880c01ce302",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0049.gzpart"
+        },
+        {
+          "index": 50,
+          "bytes": 8388608,
+          "sha256": "9fea13a17fd28e3142b6af18f4c6d181b7d54b27f062aa3ec5afc435a7e02e92",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0050.gzpart"
+        },
+        {
+          "index": 51,
+          "bytes": 8388608,
+          "sha256": "5ae2e3394531c11a751969cd88c35fc1393778ae90196a8b9baecdb39799ee95",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0051.gzpart"
+        },
+        {
+          "index": 52,
+          "bytes": 8388608,
+          "sha256": "bb4219cddde6de20331d706b8bd84ec411f54b44d5282a8d2f45fe53624162ee",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0052.gzpart"
+        },
+        {
+          "index": 53,
+          "bytes": 8388608,
+          "sha256": "393ca2047c34f312bb7f428f62376b1730b5293e3c65c2b0beeea599505ee31b",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0053.gzpart"
+        },
+        {
+          "index": 54,
+          "bytes": 8388608,
+          "sha256": "74e88c7dae0f019b5054d82e48cea433d04454d70ee0725180d529355f304b66",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0054.gzpart"
+        },
+        {
+          "index": 55,
+          "bytes": 8388608,
+          "sha256": "590d396d58a9fffd0a3139c10bacdc9e3c22cba5da17dc8426a2d43f895f601d",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0055.gzpart"
+        },
+        {
+          "index": 56,
+          "bytes": 8388608,
+          "sha256": "3795496070984c79b4c34d73f5b9d761a0593807bb8bca9cf54eaf526b2bf869",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0056.gzpart"
+        },
+        {
+          "index": 57,
+          "bytes": 8388608,
+          "sha256": "919506fba86ba863f6e738e43f7b7ac146a5f96bb1672b48e1b98fb596dd879f",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0057.gzpart"
+        },
+        {
+          "index": 58,
+          "bytes": 8388608,
+          "sha256": "ae91abd683e698a435ba3b002bb3e48fd556cb653fae7b167f1a86734f30e032",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0058.gzpart"
+        },
+        {
+          "index": 59,
+          "bytes": 8388608,
+          "sha256": "566cfc4efa445cb3c1507602097c7421ddf756366ddea765b802c946b668fd74",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0059.gzpart"
+        },
+        {
+          "index": 60,
+          "bytes": 8388608,
+          "sha256": "f55bc5c7f7870d9893949804cebd5a0725a221b644e1424abda055aa9574e385",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0060.gzpart"
+        },
+        {
+          "index": 61,
+          "bytes": 8388608,
+          "sha256": "510c4ccf5e34a5e5d81b597a5c14f5bada2f86ebf03749ad926feaaae8c6a168",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0061.gzpart"
+        },
+        {
+          "index": 62,
+          "bytes": 8388608,
+          "sha256": "e78a5e66a7fd8f81d8067ad6843851c7b8e6e42eae5b280d471c2429d2058a78",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0062.gzpart"
+        },
+        {
+          "index": 63,
+          "bytes": 8388608,
+          "sha256": "7548cfccc2c264e09180ae55615892e6bb48148aaedcfd3bbd3b1152c87620c1",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0063.gzpart"
+        },
+        {
+          "index": 64,
+          "bytes": 8388608,
+          "sha256": "3203fef4336cfab4bd8be6f276489901874a3026f35bffb679121893571408e3",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0064.gzpart"
+        },
+        {
+          "index": 65,
+          "bytes": 8388608,
+          "sha256": "9010f4c3fc18a16e6cb5939b7d1ed6665cc2e8f3fec1fcb0bb49c06c00ea756e",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0065.gzpart"
+        },
+        {
+          "index": 66,
+          "bytes": 8388608,
+          "sha256": "dd3c6dc4c103790b34b9bc345003b41c8c8dbd8dd12998b6774346541a2fb2c4",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0066.gzpart"
+        },
+        {
+          "index": 67,
+          "bytes": 8388608,
+          "sha256": "80695e6bee49dd59dc3a369c7dcc00cf32c0581a8f4ee6d5a228b8dac34b3326",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0067.gzpart"
+        },
+        {
+          "index": 68,
+          "bytes": 8388608,
+          "sha256": "49bcb05c8f04a3bb1786d64e26006ad134655d1a628907201ccd29cbdffa620e",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0068.gzpart"
+        },
+        {
+          "index": 69,
+          "bytes": 8388608,
+          "sha256": "ed5a98854fa1abae384e4ec8a4517fedd10b63d622c0183385b282374c43c2ba",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0069.gzpart"
+        },
+        {
+          "index": 70,
+          "bytes": 8388608,
+          "sha256": "20ef56828a3ccd5f6646cce545a5b40876bd0f7cfd283ca522e20f450558a818",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0070.gzpart"
+        },
+        {
+          "index": 71,
+          "bytes": 8388608,
+          "sha256": "13b4e03d4ce5cd387e2871efd5cf5adf9fa6784059f1e3ab777ad8fdec6516b7",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0071.gzpart"
+        },
+        {
+          "index": 72,
+          "bytes": 8388608,
+          "sha256": "86cca8595062a3d33c4a6e8347532d625342e688a11ed5080a7c7c03eca4a619",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0072.gzpart"
+        },
+        {
+          "index": 73,
+          "bytes": 8388608,
+          "sha256": "16ddc3982f2141124c3df5733128f1f5bccbbd9e4aa300ea41a4445d35c0163e",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0073.gzpart"
+        },
+        {
+          "index": 74,
+          "bytes": 8388608,
+          "sha256": "f55694e46ab47baa3584b60761e731d206d9ad5d406a191cdad4b3adf0517b99",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0074.gzpart"
+        },
+        {
+          "index": 75,
+          "bytes": 8388608,
+          "sha256": "bd409475e60a823121aabbc3acf9235bee56a60ef3c51d19203d5f4a738eb171",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0075.gzpart"
+        },
+        {
+          "index": 76,
+          "bytes": 8388608,
+          "sha256": "201f3c52b768ed32deb6e7ec11fe979e1efe11db401a1294c675045b0eeefb58",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0076.gzpart"
+        },
+        {
+          "index": 77,
+          "bytes": 8388608,
+          "sha256": "e5098d9c65480cda6b3e0905717247c63b5e2f19b0273f5d8ba8f5da2492e4d0",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0077.gzpart"
+        },
+        {
+          "index": 78,
+          "bytes": 8388608,
+          "sha256": "c7541b9bc6d1526dd7e7723eb7adf6c7f834a7c658080960bbb91c640275182f",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0078.gzpart"
+        },
+        {
+          "index": 79,
+          "bytes": 8388608,
+          "sha256": "13c466c7cec5734d563f7069aa2282babd5a36fc57e8a9fccc8cb28240a6f28a",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0079.gzpart"
+        },
+        {
+          "index": 80,
+          "bytes": 8388608,
+          "sha256": "b17f1cfb5f9e68e34c0e8ff09dc0616f8e862e496c38f9da7da694bd71faa7ce",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0080.gzpart"
+        },
+        {
+          "index": 81,
+          "bytes": 8388608,
+          "sha256": "2724b6e293098a3f82c33334b0be15f525fc341ba54a6dd264254a441d9d5f26",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0081.gzpart"
+        },
+        {
+          "index": 82,
+          "bytes": 8388608,
+          "sha256": "45802bd47334c0d2c3b0800899bf21b1d91db60b79b7e6bf11806dcff4b4acc3",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0082.gzpart"
+        },
+        {
+          "index": 83,
+          "bytes": 8388608,
+          "sha256": "696bf096758b0acdc8bc05c9902daa9966cd248e281df578f6fab441488ae2a8",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0083.gzpart"
+        },
+        {
+          "index": 84,
+          "bytes": 8388608,
+          "sha256": "d372e9691d90c9267f1d92b81b4c0e16b83e3e34af2a83749c883fc783b4f21d",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0084.gzpart"
+        },
+        {
+          "index": 85,
+          "bytes": 8388608,
+          "sha256": "1af6c9f5d12bb652c9e05701b2fc2564b77e63cfa5fc46a4ac905fd97c5f8040",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0085.gzpart"
+        },
+        {
+          "index": 86,
+          "bytes": 8388608,
+          "sha256": "f8fb060b52db73f44243b70aa8ad827f936d17bc7e0228306caecb6c4e8a4c00",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0086.gzpart"
+        },
+        {
+          "index": 87,
+          "bytes": 8388608,
+          "sha256": "74f4cadab87bc969e2ffd0540d8c558e3d338405b0f9bcc4514ee43561d263de",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0087.gzpart"
+        },
+        {
+          "index": 88,
+          "bytes": 8388608,
+          "sha256": "2452ab544a83e0706b447a186adf477944b7214b25020515ec19727caed5827a",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0088.gzpart"
+        },
+        {
+          "index": 89,
+          "bytes": 8388608,
+          "sha256": "01777e6cf95e4b5f622a434055ce15d01dabe9ec7576ce991f8681d4e0951dce",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0089.gzpart"
+        },
+        {
+          "index": 90,
+          "bytes": 8388608,
+          "sha256": "bc618f88aba9001179573a012e6f260869e4380de1d7eaef0896576c2d9336f6",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0090.gzpart"
+        },
+        {
+          "index": 91,
+          "bytes": 8388608,
+          "sha256": "f83801081eecdaa3c16ba165ec8cc22573d2973a18468b144144a02ef94558c8",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0091.gzpart"
+        },
+        {
+          "index": 92,
+          "bytes": 8388608,
+          "sha256": "76c50c8ceb2dd3b83cb7a7ebf066709803f2bdc6748b6e3f7df17fa3b1a9b6cf",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0092.gzpart"
+        },
+        {
+          "index": 93,
+          "bytes": 8388608,
+          "sha256": "c1f5fb03c8b21424af29eadaa2d890ec4c89a0aff28a8064162ba4cde9f2a9ea",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0093.gzpart"
+        },
+        {
+          "index": 94,
+          "bytes": 8388608,
+          "sha256": "95cd56954fb7dda95884cde6f5ab9992e5e92fef3bb178fd9c1df28b969b2a45",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0094.gzpart"
+        },
+        {
+          "index": 95,
+          "bytes": 8388608,
+          "sha256": "86db80d4c2e4c2f2a79610fff4cb848961221804af82757d234a90b31b648b94",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0095.gzpart"
+        },
+        {
+          "index": 96,
+          "bytes": 8388608,
+          "sha256": "bd15f140d7829c3e9d950bbb268dc3cf8a9b99dedeb16a4e3af150d1e2baf0a6",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0096.gzpart"
+        },
+        {
+          "index": 97,
+          "bytes": 8388608,
+          "sha256": "93d016d42861c176a7d967076a8681231560a06d9136150a588e16d74cb3de51",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0097.gzpart"
+        },
+        {
+          "index": 98,
+          "bytes": 8388608,
+          "sha256": "b6fcc7242f5b55aacea4eb10ef5c89c23244229c7e4a95bd6d4b35f72ec7547e",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0098.gzpart"
+        },
+        {
+          "index": 99,
+          "bytes": 8388608,
+          "sha256": "6d5c01b0c85e323a90c062d6ab02f8be41e529214ea823b30c88bbe504cb4dca",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0099.gzpart"
+        },
+        {
+          "index": 100,
+          "bytes": 8388608,
+          "sha256": "2dcf49c10e9dbd36c617a684e2782490323a7c0095e0cfb489749d6ea2f49795",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0100.gzpart"
+        },
+        {
+          "index": 101,
+          "bytes": 8388608,
+          "sha256": "547a3ee8bfae7a6891783289fd1928152750562f9e42465e1cdc8dcdb46539bf",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0101.gzpart"
+        },
+        {
+          "index": 102,
+          "bytes": 8388608,
+          "sha256": "b89f5f30912454d658e46f57a034b5152c38da30cd78023e139551e2bebdab0f",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0102.gzpart"
+        },
+        {
+          "index": 103,
+          "bytes": 8388608,
+          "sha256": "2655b465801ae5abd078fe199640bd722501fee82c7601c24acaa18a9a89abc9",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0103.gzpart"
+        },
+        {
+          "index": 104,
+          "bytes": 8388608,
+          "sha256": "0cb50235dba6eb25ca579480f3fcccb6e53958538931eab4b2481886da7fb4b8",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0104.gzpart"
+        },
+        {
+          "index": 105,
+          "bytes": 8388608,
+          "sha256": "9439ed237eb4220775af532dc7e4e47dddbe318d3ac4505b3effd00cf066d365",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0105.gzpart"
+        },
+        {
+          "index": 106,
+          "bytes": 8388608,
+          "sha256": "644015b4fd406e0bd18bf2d563906a1c61385de24ad8804da3d02bfd855902fe",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0106.gzpart"
+        },
+        {
+          "index": 107,
+          "bytes": 8388608,
+          "sha256": "e224337bce01e3cf06224e53c017a195d64ffe1dac7a2b80de4b748526610b17",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0107.gzpart"
+        },
+        {
+          "index": 108,
+          "bytes": 8388608,
+          "sha256": "b7f8050223d82ec39da6d4656e3be3545a5abc526ec45f14757a0e9265c1a457",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0108.gzpart"
+        },
+        {
+          "index": 109,
+          "bytes": 8388608,
+          "sha256": "a9d0eaf75b12b169a32cf1b7befd768c4a21deca60c867b38613bee5d1b4cbff",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0109.gzpart"
+        },
+        {
+          "index": 110,
+          "bytes": 8388608,
+          "sha256": "bebf96286b2c36a02b9f58ef411582158f1c32c0146a81049707c7ebf093f878",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0110.gzpart"
+        },
+        {
+          "index": 111,
+          "bytes": 8388608,
+          "sha256": "255114e579b2c47e27877d2da9dfe66b1481183dcdc7e351e7b7a8e168aa80b7",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0111.gzpart"
+        },
+        {
+          "index": 112,
+          "bytes": 8388608,
+          "sha256": "ee4863af618885c4ab02a9dca11bd8cfe9a0c2e2a57a659d14566430a5c5a3b2",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0112.gzpart"
+        },
+        {
+          "index": 113,
+          "bytes": 8388608,
+          "sha256": "6ebd38a9b53b2face404652143a622c52f486bf362962cc0c386e8e36fa32383",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0113.gzpart"
+        },
+        {
+          "index": 114,
+          "bytes": 8388608,
+          "sha256": "6204c0680616530d788108741d17ff630c0f8915be486ec71401cbf6108c6bf3",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0114.gzpart"
+        },
+        {
+          "index": 115,
+          "bytes": 8388608,
+          "sha256": "7766f12a8e55999bb1c58d04826f1b322b612743b5dec738cc6a2e3b1b64f046",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0115.gzpart"
+        },
+        {
+          "index": 116,
+          "bytes": 8388608,
+          "sha256": "e93dfa55c1b31625bedefa4411d3dcd06d601af64a7230307968ca1b92c577d0",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0116.gzpart"
+        },
+        {
+          "index": 117,
+          "bytes": 8388608,
+          "sha256": "a0dc4783a3821b3b74ac7af007b18a0fd944a54846ca4935cfbfd9a0ae2f4b7a",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0117.gzpart"
+        },
+        {
+          "index": 118,
+          "bytes": 8388608,
+          "sha256": "0be6682815142d8ef7ce9a3e30791123add2150db62300cb53164b27a272d1ca",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0118.gzpart"
+        },
+        {
+          "index": 119,
+          "bytes": 8388608,
+          "sha256": "c9e81bc02eb81140b208261bf5b19a2dfaee49ceb295f3ac001a00a10e6c20db",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0119.gzpart"
+        },
+        {
+          "index": 120,
+          "bytes": 8388608,
+          "sha256": "00432b899fd375bbd6461a604943e1e6b9ee8ecc2dc7b217ba4e4bd3837a719b",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0120.gzpart"
+        },
+        {
+          "index": 121,
+          "bytes": 4741560,
+          "sha256": "7cda7f8584179353e68724ed32968be1f1fae1c627e341cf1f1ebb7d785ca071",
+          "repositoryPath": "archives/large-files/4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb/part-0121.gzpart"
+        }
+      ],
+      "sqlite": {
+        "sidecarsBefore": {
+          "-wal": {
+            "exists": false
+          },
+          "-shm": {
+            "exists": false
+          },
+          "-journal": {
+            "exists": false
+          }
+        },
+        "sidecarsAfter": {
+          "-wal": {
+            "exists": false
+          },
+          "-shm": {
+            "exists": false
+          },
+          "-journal": {
+            "exists": false
+          }
+        },
+        "sidecarsStable": true,
+        "assessment": "No WAL sidecar was present before or after reading. Main bytes were stable; SQLite logical integrity was not tested.",
+        "databaseOpenedBySQLite": false,
+        "checkpointOrMutationPerformed": false
+      }
+    },
+    {
+      "sourcePath": "deliverables/SUNNY_Current_Model_2026-10-31.zip",
+      "originalBytes": 214173138,
+      "originalSha256": "cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6",
+      "sourceStatBefore": {
+        "bytes": 214173138,
+        "mtimeNs": 1793475904082151000,
+        "ctimeNs": 1793475520340694600,
+        "device": 926128401608394532,
+        "inode": 12384898975934846
+      },
+      "sourceStatAfter": {
+        "bytes": 214173138,
+        "mtimeNs": 1793475904082151000,
+        "ctimeNs": 1793475520340694600,
+        "device": 926128401608394532,
+        "inode": 12384898975934846
+      },
+      "sourceStable": true,
+      "gzipSha256": "3b8b0b14c0f0c4e78dad01884fa6b3789c9cfa82993b53802c1872d6ea2f82b5",
+      "gzipBytes": 213947190,
+      "partCount": 26,
+      "parts": [
+        {
+          "index": 1,
+          "bytes": 8388608,
+          "sha256": "7559796f3cfd12d62b818ce946fedbc37c9291bc4d3be002c26d6cf8b267c59e",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0001.gzpart"
+        },
+        {
+          "index": 2,
+          "bytes": 8388608,
+          "sha256": "7ee7d62e9563febe644a10ca66198f1253666f7851cadd66088d72e13500533c",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0002.gzpart"
+        },
+        {
+          "index": 3,
+          "bytes": 8388608,
+          "sha256": "3465e351f304ef19bb20311f8e5cc51bebcd0c6f2fa5d53d25b0b0bfc52f0728",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0003.gzpart"
+        },
+        {
+          "index": 4,
+          "bytes": 8388608,
+          "sha256": "54ff9de75657f3014d541f91fa7ec20c7a13d8f68fd1119d23480f5ea4b62d7e",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0004.gzpart"
+        },
+        {
+          "index": 5,
+          "bytes": 8388608,
+          "sha256": "ba0e410444f6fda7d7d61eb9ccad952dd2696cca98791394db7dd2dbe4e743fe",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0005.gzpart"
+        },
+        {
+          "index": 6,
+          "bytes": 8388608,
+          "sha256": "bc39e4f1dde7fc2327b656a1956dd2fdebefe146ce4820100345de40ba1547bd",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0006.gzpart"
+        },
+        {
+          "index": 7,
+          "bytes": 8388608,
+          "sha256": "2e90dca215f478683257e2617dd32bfb6ad14d10890bed5f76063fe7a51cce87",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0007.gzpart"
+        },
+        {
+          "index": 8,
+          "bytes": 8388608,
+          "sha256": "4c2e0d1456636801b47e433460d5f0e95bad22f6f857cfa57f502091a40fe2f7",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0008.gzpart"
+        },
+        {
+          "index": 9,
+          "bytes": 8388608,
+          "sha256": "2bc1484f5054ecb05c728586fee426c5e11afcfdbf5b409c8d3b0c1a93375238",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0009.gzpart"
+        },
+        {
+          "index": 10,
+          "bytes": 8388608,
+          "sha256": "41ceab1ce626d4b9d4f8349156d2f42700718f52a99da54c0a5b39136bd94179",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0010.gzpart"
+        },
+        {
+          "index": 11,
+          "bytes": 8388608,
+          "sha256": "e928a02ecae831ef88c78185d5d7d9d7a7efc62eafa2be21be61b04866e8b819",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0011.gzpart"
+        },
+        {
+          "index": 12,
+          "bytes": 8388608,
+          "sha256": "872f193cdce5c6a09730cb0429243afbac4bc8932269187ea3788e8b12954382",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0012.gzpart"
+        },
+        {
+          "index": 13,
+          "bytes": 8388608,
+          "sha256": "6448d481ae44cc689bf554d4226e6369dd40badf724921d99de85bb2b2314dbe",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0013.gzpart"
+        },
+        {
+          "index": 14,
+          "bytes": 8388608,
+          "sha256": "a253db87895abbfcbc7fb2465ebf4e32d9dfd863fa32ca3ae47fa74aaf7b9e2d",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0014.gzpart"
+        },
+        {
+          "index": 15,
+          "bytes": 8388608,
+          "sha256": "2ed292cca6b32a027062fcf1c82f9ee0361d1d249473f1e09b24dfef4f06a442",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0015.gzpart"
+        },
+        {
+          "index": 16,
+          "bytes": 8388608,
+          "sha256": "6dac5c0f43fecc109febc14d81823e1ec1d8a17738ceccfe8aa934653b627a74",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0016.gzpart"
+        },
+        {
+          "index": 17,
+          "bytes": 8388608,
+          "sha256": "1672a418ff32af9f6ae327d6b85f502fc976ce392947b74ff70d52e3af8abbad",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0017.gzpart"
+        },
+        {
+          "index": 18,
+          "bytes": 8388608,
+          "sha256": "f0110afbc300dbdd8373f8c1ed71a81f33538f30d62346401f0dd82c80115947",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0018.gzpart"
+        },
+        {
+          "index": 19,
+          "bytes": 8388608,
+          "sha256": "88a77c2b84c7caeecc07d9cbfa552d10c913b6de56c2120204268684a820c0bf",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0019.gzpart"
+        },
+        {
+          "index": 20,
+          "bytes": 8388608,
+          "sha256": "5a8183d78a2bd49478c615bdaf32c909527543618b039d4c011809dc49c3baae",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0020.gzpart"
+        },
+        {
+          "index": 21,
+          "bytes": 8388608,
+          "sha256": "0ee2c510e6d25e913f02060567c2fe714b6a5259bc4bb20913eeb0ede5c85cf5",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0021.gzpart"
+        },
+        {
+          "index": 22,
+          "bytes": 8388608,
+          "sha256": "0e8b9499924ec69616e2b5cfce1756dd66c1b721fbc33faa858e9a42acea85c3",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0022.gzpart"
+        },
+        {
+          "index": 23,
+          "bytes": 8388608,
+          "sha256": "07bcb0ba47b71cc32abd4a074c28488f95c6982a97ef0c16db5bdaff80e7eac9",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0023.gzpart"
+        },
+        {
+          "index": 24,
+          "bytes": 8388608,
+          "sha256": "32c0126c062800a1dda25312038ed93035b6459478333c5ea8357370ea5cd98f",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0024.gzpart"
+        },
+        {
+          "index": 25,
+          "bytes": 8388608,
+          "sha256": "053fb822f93fbb876277c200571b58e3a1ff254808ec60498d55766af33aec56",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0025.gzpart"
+        },
+        {
+          "index": 26,
+          "bytes": 4231990,
+          "sha256": "d5c812a411f27ec233583ef55ff407361f095321efa2127214fa59faa678ab5e",
+          "repositoryPath": "archives/large-files/cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6/part-0026.gzpart"
+        }
+      ]
+    },
+    {
+      "sourcePath": "deliverables/SUNNY_Mathematical_Reconstruction_2026-10-31_3d314e8b567a.zip",
+      "originalBytes": 236873130,
+      "originalSha256": "8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4",
+      "sourceStatBefore": {
+        "bytes": 236873130,
+        "mtimeNs": 1793510383799008200,
+        "ctimeNs": 1793510371115072600,
+        "device": 926128401608394532,
+        "inode": 27866022695030401
+      },
+      "sourceStatAfter": {
+        "bytes": 236873130,
+        "mtimeNs": 1793510383799008200,
+        "ctimeNs": 1793510371115072600,
+        "device": 926128401608394532,
+        "inode": 27866022695030401
+      },
+      "sourceStable": true,
+      "gzipSha256": "e755c78514111c2db7d0e2b8c75b1b81aa76622ca51af69bf50a3d747a69f519",
+      "gzipBytes": 236321290,
+      "partCount": 29,
+      "parts": [
+        {
+          "index": 1,
+          "bytes": 8388608,
+          "sha256": "cd7d4c526f90b390c13eb70aee7d5372cb6c1a37aafcb7ce7d031d1a8db4a884",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0001.gzpart"
+        },
+        {
+          "index": 2,
+          "bytes": 8388608,
+          "sha256": "995f175d999e77631d0998c02c761456d1ac2a8ada4aa0c188a720f237f32254",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0002.gzpart"
+        },
+        {
+          "index": 3,
+          "bytes": 8388608,
+          "sha256": "3edc2ab2392e9841f9d29397cb2d4c7ae86d077464a7b9e0dd187b8721aeedde",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0003.gzpart"
+        },
+        {
+          "index": 4,
+          "bytes": 8388608,
+          "sha256": "84eef9788127ef871e034fbe1191698659e9c09a83d737d7349e489595573c55",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0004.gzpart"
+        },
+        {
+          "index": 5,
+          "bytes": 8388608,
+          "sha256": "727a1cac984e296e6a3c4eef9c8f6fda15df74ffb0a1e25020b911901a805064",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0005.gzpart"
+        },
+        {
+          "index": 6,
+          "bytes": 8388608,
+          "sha256": "12a73cbca0e9c46c51e2a02389f52e5d9425eb5028032aae9071468b66b327c5",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0006.gzpart"
+        },
+        {
+          "index": 7,
+          "bytes": 8388608,
+          "sha256": "fd57d9b5c5595ca30fd7221acd89faa685862e96384fa27e7dade71801be09ac",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0007.gzpart"
+        },
+        {
+          "index": 8,
+          "bytes": 8388608,
+          "sha256": "e0a784524b1798e2822759451ce0647534c4303aba25137761ba5abe8dfe52e1",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0008.gzpart"
+        },
+        {
+          "index": 9,
+          "bytes": 8388608,
+          "sha256": "173cb9e30dd4993ed38bd99672a63755b55b3a03f8257c4932182809d9f09863",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0009.gzpart"
+        },
+        {
+          "index": 10,
+          "bytes": 8388608,
+          "sha256": "643d89a17566d7fd57830a9c0159fd03b2abeaf2f1ef03ff51bdcceffcf6bf83",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0010.gzpart"
+        },
+        {
+          "index": 11,
+          "bytes": 8388608,
+          "sha256": "ac47784a20f91d20435b048b0b5b0c7759284a37d94f1b9f954e0bc7bc64f87b",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0011.gzpart"
+        },
+        {
+          "index": 12,
+          "bytes": 8388608,
+          "sha256": "70ed9d3ac6ea553e7fcb6b884d6c0567c4af04a9f423a9109613c6ec6da6c270",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0012.gzpart"
+        },
+        {
+          "index": 13,
+          "bytes": 8388608,
+          "sha256": "45f18a45e32009fa5c8cf1883dd287a588e42265852ec46c42229752045e8748",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0013.gzpart"
+        },
+        {
+          "index": 14,
+          "bytes": 8388608,
+          "sha256": "8ce888bffd37e297484a17ec91fe4e1f1aa3773a4acf9ceda960e2c5fd1623cf",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0014.gzpart"
+        },
+        {
+          "index": 15,
+          "bytes": 8388608,
+          "sha256": "5ea47add63290c38fd093d4f2f866ab627bd5c1830547e3cbaef48d404b51e9f",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0015.gzpart"
+        },
+        {
+          "index": 16,
+          "bytes": 8388608,
+          "sha256": "cf6333d29714ec6539a6f84a8cb0a998e04ce741791483be24547c4e2e76615d",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0016.gzpart"
+        },
+        {
+          "index": 17,
+          "bytes": 8388608,
+          "sha256": "ae6a1d4c5af1b549ba5fae6f4054b92bfb18ca6fed5f4aa85beedaf63a5f792b",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0017.gzpart"
+        },
+        {
+          "index": 18,
+          "bytes": 8388608,
+          "sha256": "da47a94b40656c89e3a0034411708a7eb1c7905d5eac054028d4875a0ddb0b01",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0018.gzpart"
+        },
+        {
+          "index": 19,
+          "bytes": 8388608,
+          "sha256": "74ef2090c2b3fbca4953e0ed5ce1425bbb98699ff953cbd7053123bd8a964bda",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0019.gzpart"
+        },
+        {
+          "index": 20,
+          "bytes": 8388608,
+          "sha256": "ad5cb6f8b42c0de09abc963cb24956b84aac6430df48a2df5936d6d2b6d9388c",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0020.gzpart"
+        },
+        {
+          "index": 21,
+          "bytes": 8388608,
+          "sha256": "bc9efbe3d4795e04f6e5a5d3dbd67ffc3952568d19d46156993263320d5651ec",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0021.gzpart"
+        },
+        {
+          "index": 22,
+          "bytes": 8388608,
+          "sha256": "2e8a37a2d2c83cfdcb6cf23ae6f2e1efe93d10bf7928086aff74a97fbe1a1b04",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0022.gzpart"
+        },
+        {
+          "index": 23,
+          "bytes": 8388608,
+          "sha256": "f7cb7d01ab4565f8cdb88c85003f6d84d29d4a30852205bc4c41ba9ba61f5059",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0023.gzpart"
+        },
+        {
+          "index": 24,
+          "bytes": 8388608,
+          "sha256": "da16365e3bb3fd67109b1e0d064576582a65c8fa3fca533e1013d53a4dbdcd01",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0024.gzpart"
+        },
+        {
+          "index": 25,
+          "bytes": 8388608,
+          "sha256": "d4adce2f723993b9b2a089244054b1189239e9639e77fb3825dcd03385276d25",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0025.gzpart"
+        },
+        {
+          "index": 26,
+          "bytes": 8388608,
+          "sha256": "887084639f262655c7457f0b50a80cac45e58bf3473d5d4c0846ddcf1d313c44",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0026.gzpart"
+        },
+        {
+          "index": 27,
+          "bytes": 8388608,
+          "sha256": "a8692c284cfbb41d599d05e0d43aba8231d60cab4cfa5dec2aa5c3257c5032dc",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0027.gzpart"
+        },
+        {
+          "index": 28,
+          "bytes": 8388608,
+          "sha256": "f54a5ab4a977c00f52e0f8243c72b75ab396eae7b17235a78fc062cdfa17a734",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0028.gzpart"
+        },
+        {
+          "index": 29,
+          "bytes": 1440266,
+          "sha256": "d9279ea2de5e0826804a933bce617527c47b0747a54009e5d1345cf4b87c8e3c",
+          "repositoryPath": "archives/large-files/8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4/part-0029.gzpart"
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-11-08T02:42:40.398679+00:00",
+  "fileCount": 6,
+  "totalOriginalBytes": 7776127508,
+  "uniquePayloadBytes": 3498336218,
+  "uniquePartCount": 420,
+  "rechunkedFromPartBytes": 67108864,
+  "rechunkedAt": "2026-11-08T02:44:24.817505+00:00",
+  "previousPartsRetainedOnlyInWork": [
+    "_previous-parts-36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb-20854f4f6337433ba1ef04ea6716babd",
+    "_previous-parts-e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e-3c81c73caf0a447fb342e6f74257fcce",
+    "_previous-parts-dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba-c8b5d88ecb4d4c15a84f9b478164754d",
+    "_previous-parts-4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb-a7389953efa745edb4e6c0e2db19458b",
+    "_previous-parts-cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6-c8065ae92f1742708e744b71f24fd5a9",
+    "_previous-parts-8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4-f79aa4cd24544a8aa3672bb879d2105c"
+  ]
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "E-001",
+    "claim": "Five supplied attachment occurrences currently match their saved byte snapshots; three distinct content hashes remain separate from occurrence count.",
+    "provenance": "RESEARCH_SUPPORTED_INFERENCE",
+    "confidence": 1.0,
+    "evidence_strength": 0,
+    "status": "active",
+    "source_refs": [
+      "docs/evidence/mandate-input-preservation.json",
+      "docs/evidence/mandate-input-guard-checks.json"
+    ],
+    "scope": "Literal engineering-record/fidelity observation only. Confidence1 is an exact checked-record statement, not domain plausibility or a learned weight; strength0 makes no real-world population claim."
+  },
+  {
+    "id": "E-002",
+    "claim": "The current authority record is explicitly a parent-agent attestation; native inline byte identity is not asserted.",
+    "provenance": "RESEARCH_SUPPORTED_INFERENCE",
+    "confidence": 1.0,
+    "evidence_strength": 0,
+    "status": "active",
+    "source_refs": [
+      "data/raw/mandate-inputs/current-authority-attestation-2026-10-31.json"
+    ],
+    "scope": "Literal engineering-record/fidelity observation only. Confidence1 is an exact checked-record statement, not domain plausibility or a learned weight; strength0 makes no real-world population claim."
+  },
+  {
+    "id": "E-003",
+    "claim": "The earlier AgentProof scope records two failed child commands and zero changed-file commitments; that capture is not a passing mathematical check.",
+    "provenance": "RESEARCH_SUPPORTED_INFERENCE",
+    "confidence": 1.0,
+    "evidence_strength": 0,
+    "status": "active",
+    "source_refs": [
+      "docs/evidence/agentproof-sunny-scope.json"
+    ],
+    "scope": "Literal engineering-record/fidelity observation only. Confidence1 is an exact checked-record statement, not domain plausibility or a learned weight; strength0 makes no real-world population claim."
+  }
+]

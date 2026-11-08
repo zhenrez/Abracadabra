@@ -1,0 +1,21 @@
+{
+  "state": {
+    "goal": "Build SUNNY using actual Jev to direct construction decisions and integrate Jev in the product.",
+    "user_direction": "If a plugin fails, build a new tool from a repository. Do not stop at the wrapper failure. Every possible decision must be dictated by Jev.",
+    "observed": "Pinned AgentJev0.6B code and hash-checked BF16 release are available locally. CPU PyTorch2.9.1 is installed. RTX3060 12GB is present but current torch has no CUDA. No TypeSafe API key. Local source import and pre-gate host-authored TypeScript modules are preserved; no canonical law has been promoted.",
+    "constraints": "No private source upload or paid cloud provisioning. Record actual model distributions and identity. Existing software must receive Jev review before reuse. Hardware acceleration must not silently replace the pinned model."
+  },
+  "questions": [
+    {
+      "id": "runtime_route",
+      "type": "choice",
+      "question": "Which runtime route should direct the next SUNNY build stage under the supplied constraints?",
+      "options": {
+        "local_cpu": "Use the now-working pinned local Jev CPU service for real decision gates and continue recording receipts; defer acceleration until measured.",
+        "local_gpu": "Install an isolated CUDA torch build for the available RTX3060, keep the exact pinned Jev weights, verify output and then use GPU inference.",
+        "cloud_key": "Wait for a securely configured TypeSafe API key before any further substantive SUNNY work; do not use the local model.",
+        "review_only": "Keep the local model for independent review but let the host direct SUNNY decisions without model gates."
+      }
+    }
+  ]
+}

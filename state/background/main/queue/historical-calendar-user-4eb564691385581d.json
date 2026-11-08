@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-user-4eb564691385581d",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/4eb564691385581d2d90634ad5f484e1f209b36d4a7d0df2aa61c50eb8133a0e/text.txt",
+      "sha256": "4eb564691385581d2d90634ad5f484e1f209b36d4a7d0df2aa61c50eb8133a0e",
+      "start_line": 1,
+      "end_line": 189,
+      "source_role": "user",
+      "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+      "message_id": "518b95d98dc3306b1d3e701578cf37503fa5898385aabd51f7c94da08c9e5c10",
+      "timestamp": "1753442430.762",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "518b95d98dc3306b1d3e701578cf37503fa5898385aabd51f7c94da08c9e5c10",
+        "native_id": "9eb9a0c2-e2b8-43da-8365-3d98875ef0dd",
+        "conversation_id": "4b466c6845694a9b482e365b8818209af5595e848e8dc0e94fba9d2d7ba18da1",
+        "role": "user",
+        "content_sha256": "4eb564691385581d2d90634ad5f484e1f209b36d4a7d0df2aa61c50eb8133a0e",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "locator": "/30/mapping/9eb9a0c2-e2b8-43da-8365-3d98875ef0dd/message",
+        "create_time": "1753442430.762",
+        "branch_status": "current",
+        "title": "Prompt enhancement process",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+        "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/4eb564691385581d2d90634ad5f484e1f209b36d4a7d0df2aa61c50eb8133a0e/occurrences-6ea78a08105859d0a3385e01e272681d48a2922f681fa4a57275abb604ff4df5.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

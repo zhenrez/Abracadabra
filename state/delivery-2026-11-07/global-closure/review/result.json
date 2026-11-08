@@ -1,0 +1,2012 @@
+{
+  "schema": "sunny.independent-global-closure-review.v1",
+  "checkedAt": "2026-11-08T02:17:16.192259+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "modelSha256AtRead": "017f9a35d7dfa4f272e6b90e15a05c0644c58890d0bb8bae70b67194b19b7c29",
+  "moduleBindingScope": "Actual module bytes at review; original selected constraints are checked against the model snapshot. A concurrent appended probe certificate may await model reassembly.",
+  "jevReceipt": "state/jev-receipts/000063-298ff24c136a.json",
+  "modulesReviewed": [
+    {
+      "module": "coverage",
+      "sha256": "356621673765e4de32c4c4856f63e586686b3ce5463c4799a8b0c984b57b04f6",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "coverage-accounting",
+      "finding": "Inventory/contact is not a source-authenticated phase map or semantic completion.",
+      "references": [
+        {
+          "path": "state/reconstruction/coverage.json",
+          "pointer": "/semantic_coverage",
+          "value": {
+            "messages_with_exact_id_mentioned_in_current_modules": 382,
+            "messages_without_such_module_id_reference": 60016,
+            "fully_semantically_processed_messages": null,
+            "interpretation": "Exact complete string-ID mentions across the declared base and mathematical modules establish traceable contact only. No semantic completion percentage follows.",
+            "unprocessed_or_untouched": "Unknown at whole-message level; no ID mention does not prove unread in other conversations."
+          }
+        },
+        {
+          "path": "state/reconstruction/coverage.json",
+          "pointer": "/count_contract",
+          "value": {
+            "messages": "Source-occurrence rows containing native chat messages, saved-transcript messages and local Codex message/event records; not necessarily distinct user thoughts or mathematical cases.",
+            "search_index": "Message projections plus document projections; searchability is not semantic processing.",
+            "decisions": "Lexically extracted direction candidates; not the 78 source-curated decision spans.",
+            "cross_account": "Matching IDs/hashes remain separate source occurrences unless explicit evidence permits an identity relation."
+          }
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "native-derivations",
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-conditioned-derived",
+      "finding": "Exact ratios/register/carries and distinct return grade survive; no map from these quantities to W72q is supplied.",
+      "references": [
+        {
+          "path": "state/reconstruction/native-derivations.json",
+          "pointer": "/conventions",
+          "value": {
+            "carrier": "Positive ideal pipe-length and frequency ratios; separate reciprocal actions.",
+            "units": "Ratios are dimensionless; a dimensional length or frequency requires its positive reference. No age-to-beat conversion.",
+            "frequency_normalization": "N(x)=x*2^k in[1,2); integer k retained. In the source Phi(a,m)=a*2^-m convention, m=-k.",
+            "word_composition": "Paths list operations in execution order; evaluated positive scalar multipliers commute, source path history does not disappear.",
+            "source_specific_FK_lift": "Phi and loop registration are retained bridge-specific hypotheses; not a newly established universal law."
+          }
+        },
+        {
+          "path": "state/reconstruction/native-derivations.json",
+          "pointer": "/connected_discriminator",
+          "value": {
+            "target_E_over_K": {
+              "numerator": 256,
+              "denominator": 243,
+              "exact": "256/243"
+            },
+            "reverse_five": {
+              "exact": {
+                "numerator": 256,
+                "denominator": 243,
+                "exact": "256/243"
+              },
+              "unreduced": {
+                "numerator": 32,
+                "denominator": 243,
+                "exact": "32/243"
+              },
+              "normalization_k": 3,
+              "source_register_m": -3
+            },
+            "forward_seven": {
+              "exact": {
+                "numerator": 2187,
+                "denominator": 2048,
+                "exact": "2187/2048"
+              },
+              "unreduced": {
+                "numerator": 2187,
+                "denominator": 128,
+                "exact": "2187/128"
+              },
+              "normalization_k": -4,
+              "source_register_m": 4
+            },
+            "shared_fifth_cycle_index_mod12": 7,
+            "forward_over_reverse_residual": {
+              "numerator": 531441,
+              "denominator": 524288,
+              "exact": "531441/524288"
+            },
+            "old_bridge_on_forward7": {
+              "numerator": 177147,
+              "denominator": 163840,
+              "exact": "177147/163840"
+            },
+            "required_bridge_on_forward7": {
+              "numerator": 32768,
+              "denominator": 32805,
+              "exact": "32768/32805"
+            },
+            "required_bridge_over_old_bridge": {
+              "numerator": 524288,
+              "denominator": 531441,
+              "exact": "524288/531441"
+            },
+            "residual_cents": 23.460010384649014,
+            "residual_cents_status": "binary64 descriptive value; exact ratio is authoritative; external Wolfram30digit result saved separately.",
+            "discriminating_observable": "Directed generation word together with register carries or a measured/source-specified residual. Mod12 address alone does not decide these exact realizations.",
+            "consequence": "Retaining the81/80 bridge and exact16/15 Earth target forces the reverse-five algebraic realization or an explicitly retained inverse-cycle correction on the forward-seven realization. The two words are not exact substitutes merely because their finite index matches.",
+            "not_claimed": "No unique global orientation; no claim that arbitrary inverse-generator words were the historical Chinese procedure."
+          }
+        },
+        {
+          "path": "state/reconstruction/native-derivations.json",
+          "pointer": "/FK_registered_loop",
+          "value": {
+            "outbound": {
+              "ratio": {
+                "numerator": 16,
+                "denominator": 15,
+                "exact": "16/15"
+              },
+              "grade": 0
+            },
+            "return": {
+              "ratio": {
+                "numerator": 15,
+                "denominator": 16,
+                "exact": "15/16"
+              },
+              "grade": 1
+            },
+            "composition": {
+              "ratio": {
+                "numerator": 1,
+                "denominator": 1,
+                "exact": "1"
+              },
+              "grade": 1,
+              "realization": {
+                "numerator": 1,
+                "denominator": 2,
+                "exact": "1/2"
+              }
+            },
+            "if_return_is_actual_inverse": {
+              "ratio": {
+                "numerator": 1,
+                "denominator": 1,
+                "exact": "1"
+              },
+              "grade": 0,
+              "realization": {
+                "numerator": 1,
+                "denominator": 1,
+                "exact": "1"
+              }
+            },
+            "consequence": "Local ratio cancellation alone does not produce the octave lift. The distinct return-channel/grade registration is load-bearing and remains source-conditional."
+          }
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "orientation-predictions",
+      "sha256": "a8571c79d01236e575c1bd5bb2ff2e8ec1a3c9f67e9be7071ebd1e4e35db0b07",
+      "matchesModelSnapshotAtReview": false,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "conditional-fixed-coordinate-input",
+      "finding": "The existing prediction contract explicitly fixes coordinate labels and origin. Removing that contract is a changed comparison, not a source-proved license.",
+      "references": [
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "pointer": "/family",
+          "value": {
+            "scope": "Recovered optional transitive12-completion family; conditional address-action checks, no admitted independent historical selector. Phase-preserving profile is separate and not rejected.",
+            "count": 12,
+            "whole_SUNNY_family_complete": false,
+            "retained_other_profile": "R=(5,0), L=(7,0), O=(0,0); not rejected by this optional-transitive investigation."
+          }
+        },
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "pointer": "/proofs/0/premises",
+          "value": [
+            "Source optional transitive family R=(5,b), L=(7,d), b+d=s in{1,5} mod6.",
+            "Observed coordinate labels and origin are fixed."
+          ]
+        },
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "pointer": "/proofs/1",
+          "value": {
+            "id": "OP-MINIMUM-PHASE-PROBES",
+            "stage": "extended-conditional",
+            "derivation": [
+              "Every one-word phase observation has at most6values because q is modulo6; angular displacement is the same in every candidate.",
+              "Therefore no single one-word address observation can distinguish12candidates.",
+              "The ordered observations q(R)=b and q(O)=s identify(b,s), hence d=s-b modulo6, uniquely.",
+              "They attain the lower bound of two such observations. Independent source-to-phase evidence is still needed to instantiate either observation."
+            ],
+            "minimal_observations_in_this_class": 2,
+            "sourceRefs": [
+              "756f07b8874af89bc5f8ba247cb20b67e3d1b7da98eb35819bdd253247da75f2"
+            ]
+          }
+        },
+        {
+          "path": "state/reconstruction/orientation-predictions.json",
+          "pointer": "/outstanding",
+          "value": [
+            "Independent source-qualified phase observations",
+            "Whole musical/generational constraint integration beyond this source family",
+            "Class-growth/radius/rebound/fourth-axis laws",
+            "Prospective withheld-target testing after sufficient reconstruction"
+          ]
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "tol-history-math",
+      "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "partial-source-adapter-and-open-definition",
+      "finding": "Registered source addresses/path/provenance must survive. Literal A/B operators and domains remain unretrieved; arbitrary shear cannot be substituted.",
+      "references": [
+        {
+          "path": "state/reconstruction/tol-history-math.json",
+          "pointer": "/recovered/adapter",
+          "value": "A_v:X_v ⇀ X_SUN; A_v∘T_v = T_SUN∘A_v where established; TOL does not generate the SUN native law."
+        },
+        {
+          "path": "state/reconstruction/tol-history-math.json",
+          "pointer": "/partial_adapter_obligations",
+          "value": [
+            {
+              "condition": "For x in the declared comparison domain, A_v(x) and A_v(T_v(x)) must both be defined; state T_v(x) domain membership explicitly.",
+              "reason": "An undefined partial-map composition is not a failed equality or permission to invent an output."
+            },
+            {
+              "condition": "For n-step forward deductions, every required native iterate must remain in the adapter domain, or the deduction stops at the first undefined iterate.",
+              "reason": "A one-step diagram does not itself supply total domain invariance."
+            },
+            {
+              "condition": "Backward deduction needs native/target predecessor or invertibility conditions, plus the relevant image/domain bounds.",
+              "reason": "Forward semiconjugacy alone does not determine a unique past or recover protected histories lost by q."
+            }
+          ]
+        },
+        {
+          "path": "state/reconstruction/tol-history-math.json",
+          "pointer": "/unretrieved_literal_AB_BA",
+          "value": {
+            "status": "Operational A/B definitions and domains not retrieved in the inspected TOL archive or cited Sept11 source transcript.",
+            "positive_evidence": "Oct30 user message c6ed8ef0a10eb9e6df30f5f78876a0c1271a0c4a53cae792fb30057da7c2712a, source 7c5cd4c51ad9da8020d497ab449770e5dd38b3d334bf8ad612e1c9f8e747f125, lines1019-1041 mentions TOL AB/BA and possible bridges as an investigation.",
+            "search_boundary": "This is bounded source retrieval, not an account-wide nonexistence claim. Named A/B is not silently identified with R/L or with arbitrary matrices."
+          }
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "native-execution",
+      "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-native-finite-operator",
+      "finding": "Unspecified cyclic origins/orbits are retained, without identifying them with the W72q coordinate.",
+      "references": [
+        {
+          "path": "state/reconstruction/native-execution.json",
+          "pointer": "/registry/4/executionScope",
+          "value": "Finite supplied cyclic index rotation; no native origin or historical mapping inferred."
+        },
+        {
+          "path": "state/reconstruction/native-execution.json",
+          "pointer": "/registry/5/nativeInstanceRequirements",
+          "value": "Integers 0<=k<=n<=256,n>=1. Output is the entire distinct cyclic orbit, so phase remains open."
+        },
+        {
+          "path": "state/reconstruction/native-execution.json",
+          "pointer": "/novelty/nonClaims",
+          "value": [
+            "No unique musical orientation or phase is selected.",
+            "No native triad map, learned next-event distribution, acoustic constitution or Guido overlap is fabricated.",
+            "Finite checks support implementation; displayed index arguments supply the conditional identities."
+          ]
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "generational-constraints",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-frame-conditional",
+      "finding": "Adam/time origins and circuit parity are frame-qualified; return parity is explicitly not W72beta. No q-anchor transfer is supplied.",
+      "references": [
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "pointer": "/retained_axes",
+          "value": [
+            "GEN",
+            "MEM",
+            "TIME",
+            "ADR",
+            "FUNC",
+            "TRN"
+          ]
+        },
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "pointer": "/constraints/1/scope",
+          "value": "Shared Shelah-through-Terah sequence in the reported main readings; fixed Adam origin and declared fifth traversal."
+        },
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "pointer": "/constraints/2/gauge_limit",
+          "value": "Changing common time or generation origin shifts allI values by one common constant. Independent per-witness origin changes require an explicit gauge alignment before numericalI values are comparable."
+        },
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "pointer": "/constraints/4/minimal_state_requirement",
+          "value": "If a rule distinguishes alternating whole-turn returns, phase modulo360 alone is insufficient; preserve at least return parity or integer winding. This does not identify parity with W72 beta."
+        },
+        {
+          "path": "state/reconstruction/generational-constraints.json",
+          "pointer": "/unresolved",
+          "value": [
+            "Historical critical-edition verification of the reported numerical witnesses",
+            "An admitted year/cycle-to-performance-clock adapter",
+            "Source-defined class/generation/register bridge and actual720variable",
+            "Full GEN/MEM/TIME/ADR/FUNC/TRN constraint integration beyond these passages",
+            "Independent blind predictions after adequate MissionI reconstruction"
+          ]
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "algebraic-extension",
+      "sha256": "636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "derived-exact-pitch-distinction",
+      "finding": "Exact prime-exponent/root/cycle residual distinguishes pitches; a shared finite dial is conditional and supplies no W72 orientation.",
+      "references": [
+        {
+          "path": "state/reconstruction/algebraic-extension.json",
+          "pointer": "/scope",
+          "value": {
+            "carrier": "positive finite prime monomials with rational exponents",
+            "primeMax": 1000000,
+            "termMax": 64,
+            "exponentIntegerStringMaxDigits": 128,
+            "rationalFactorizationInputMax": "1000000000000",
+            "rationalMaterializationBitBudget": 32768,
+            "octaveSection": "prime2exponent in[0,1); an algebraic representative, not frequency normalized into[1,2)",
+            "exclusions": [
+              "sums of radicals",
+              "arbitrary algebraic numbers",
+              "complex roots",
+              "ordering/approximate frequency evaluation",
+              "canonical historical orientation"
+            ]
+          }
+        },
+        {
+          "path": "state/reconstruction/algebraic-extension.json",
+          "pointer": "/discriminators/1",
+          "value": {
+            "conditionalCoarseDial": "If an independently declared twelve-dial convention labels both pure3/2 and q^7 with7, that shared label is a many-to-one representation and cannot establish their exact equality.",
+            "scope": "No universal dial map or W72 orientation is asserted. Exact exponent coordinates and delta above decide equality."
+          }
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "derived-laws",
+      "sha256": "fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "conditional-law-register",
+      "finding": "Fixed-phase premises and missing independent observations remain explicit; no unconditional promotion to physical equivalence.",
+      "references": [
+        {
+          "path": "state/reconstruction/derived-laws.json",
+          "pointer": "/law_proposals/4/assumptions",
+          "value": [
+            "Only the twelve source-recovered optional transitive completions.",
+            "Fixed source phase coordinates and origin."
+          ]
+        },
+        {
+          "path": "state/reconstruction/derived-laws.json",
+          "pointer": "/law_proposals/5/assumptions",
+          "value": [
+            "Each observation is a one-word address in the declared fixed-coordinate family.",
+            "Independent source-to-phase observations remain to be recovered."
+          ]
+        },
+        {
+          "path": "state/reconstruction/derived-laws.json",
+          "pointer": "/law_proposals/12/assumptions",
+          "value": [
+            "The same exact positive-scalar definitions and integer-octave quotient.",
+            "Any shared dial convention is conditional and must be independently declared; no global orientation is inferred."
+          ]
+        },
+        {
+          "path": "state/reconstruction/derived-laws.json",
+          "pointer": "/unknowns",
+          "value": [
+            "Complete global law taxonomy",
+            "Every native carrier/instance",
+            "Independent absolute orientation selection",
+            "Full class-growth and four-dimensional realization",
+            "Complete master-score timing/instrumentation",
+            "Independent blind predictions"
+          ]
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "master-score",
+      "sha256": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-clock-and-role-qualified",
+      "finding": "Reported-year/GEN/ADR contexts and untimed phonetic annotations are distinct; no global q licensing follows.",
+      "references": [
+        {
+          "path": "state/reconstruction/master-score.json",
+          "pointer": "/universalCompletion",
+          "value": false
+        },
+        {
+          "path": "state/reconstruction/master-score.json",
+          "pointer": "/program/views/0/condition",
+          "value": "Ideal reciprocal length/frequency model; construction order differs from seasonal order and is not an audible event duration."
+        },
+        {
+          "path": "state/reconstruction/master-score.json",
+          "pointer": "/program/views/1/participants/0/coordinates",
+          "value": {
+            "GEN": {
+              "status": "known",
+              "value": {
+                "value": {
+                  "numerator": "0",
+                  "denominator": "1"
+                },
+                "dimension": "count",
+                "carrier": "biological-descent-depth",
+                "unit": "generation-step",
+                "reference": "Arpachshad birth origin; MT reported chronology local chain"
+              },
+              "sourceRefs": [
+                "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965"
+              ]
+            },
+            "TIME": {
+              "status": "known",
+              "value": {
+                "value": {
+                  "numerator": "0",
+                  "denominator": "1"
+                },
+                "dimension": "time",
+                "carrier": "chronological-lifetime",
+                "unit": "reported-year",
+                "reference": "Arpachshad birth origin; MT reported chronology"
+              },
+              "sourceRefs": [
+                "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965"
+              ]
+            },
+            "ADR": {
+              "status": "unknown",
+              "missing": "No unique global address or justified clock type is assigned.",
+              "sourceRefs": [
+                "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965"
+              ]
+            }
+          }
+        },
+        {
+          "path": "state/reconstruction/master-score.json",
+          "pointer": "/readingExtension/boundary",
+          "value": {
+            "layer": "Source-qualified syllable/order/stress annotations",
+            "noteAssignments": 0,
+            "measuredOnsets": 0,
+            "measuredDurations": 0,
+            "attachment": "An annotation adapter may carry these into the master score; no phonetic symbol is silently assigned a musical note."
+          }
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "hierarchy-atlas-combined",
+      "sha256": "a2f2bfae2eb61611f73fb64147b2b96f976f47818f1514a3173118adda89c497",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "native-identity-and-open-cross-domain-joins",
+      "finding": "Stable source identities and typed joins are retained. Musical chain/address recurrence does not erase exact residual; no phase-label identification is admitted here.",
+      "references": [
+        {
+          "path": "state/reconstruction/hierarchy-atlas-combined.json",
+          "pointer": "/globalOrientationSelected",
+          "value": false
+        },
+        {
+          "path": "state/reconstruction/hierarchy-atlas-combined.json",
+          "pointer": "/proposedExternalJoins",
+          "value": [
+            {
+              "sourceEntityId": "i1:I1-Dodecad:12",
+              "targetEntityId": "i45:upper-Sophia",
+              "type": "proposed-shared-source-narrative-role",
+              "assertionLayer": "research-hypothesis",
+              "sourceRefs": [
+                "angelic:irenaeus_i_4_response"
+              ],
+              "boundary": "I.4explicitly speaks ofSophiaabove/firstSophia; comparison to the I.1Dodecad source-role remains declared, not an automatic cross-source entity merge."
+            }
+          ]
+        },
+        {
+          "path": "state/reconstruction/hierarchy-atlas-combined.json",
+          "pointer": "/unresolved/5",
+          "value": {
+            "component": "hierarchy-atlas",
+            "record": {
+              "id": "GAP-MUSICAL-JOINS",
+              "detail": "Musical source trees may be merged as separate views; no numerical-total correspondence or invented parentage supplies their bridge."
+            }
+          }
+        },
+        {
+          "path": "state/reconstruction/hierarchy-atlas-combined.json",
+          "pointer": "/unresolved/9",
+          "value": {
+            "component": "musical-hierarchies",
+            "record": "Lü generation is an open source chain here; finite label recurrence does not erase exact tuning residuals."
+          }
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "contextual-alignment",
+      "sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "conditional-modern-pitchclass-adapter",
+      "finding": "Gong/role offsets and relative standard names are declared Z12 pitch-class conventions, with free common alpha. T leaves p fixed; this does not constrain q without another bridge.",
+      "references": [
+        {
+          "path": "state/reconstruction/contextual-alignment.json",
+          "pointer": "/nativeMathematicalRegister",
+          "value": {
+            "variables": {
+              "c": "pitchclass ofheaven gong named圜鍾",
+              "h": "context-invariantpitchclass assignednamed黄鍾; ancestors gong",
+              "t": "context-invariantpitchclass assignednamed大蔟; zhi inboth prescriptions"
+            },
+            "units": "Integerchromatic semitone residue inZ/12, onlywithin the proposedmodernadapter. NoHz,physicaloctave ordating assumed.",
+            "assumptions": [
+              "Namedstandard labels haveone pitch-class valueacross the two selected ritualcontexts.",
+              "Eachprescription hasoneLam-stylegong contextshared byits listedroles.",
+              "Received角 and徴 are transferred toLamjue andzhi fixedoffsets4and7.",
+              "Literalprescriptions retained; noemendation orcontext-specific offset introduced."
+            ],
+            "roleOffsets": {
+              "gong": 0,
+              "shang": 2,
+              "jue": 4,
+              "zhi": 7,
+              "yu": 9
+            },
+            "nativeRoles": [
+              {
+                "id": "heaven",
+                "quote": "凡樂圜鍾為宮黄鍾為角大蔟為徴姑洗為羽",
+                "start_offset": 16679,
+                "end_offset": 16697,
+                "quote_sha256": "cbf54728a7828e189815df9a0a6e10bcc9a3d207a7dbb6125964b92c15c03075",
+                "roles": [
+                  {
+                    "pitch_standard_label": "圜鍾",
+                    "role_label": "宮"
+                  },
+                  {
+                    "pitch_standard_label": "黄鍾",
+                    "role_label": "角"
+                  },
+                  {
+                    "pitch_standard_label": "大蔟",
+                    "role_label": "徴"
+                  },
+                  {
+                    "pitch_standard_label": "姑洗",
+                    "role_label": "羽"
+                  }
+                ],
+                "scope": "Received ritual prescription in this textual witness; efficacy and historical realization not thereby verified"
+              },
+              {
+                "id": "earth",
+                "quote": "凡樂函鍾為宮大蔟為角姑洗為徴南呂為羽",
+                "start_offset": 16739,
+                "end_offset": 16757,
+                "quote_sha256": "55eb98259e66dc187aee0ca4b8edd752bcaa4cf59217ca0b2b96013c90611a03",
+                "roles": [
+                  {
+                    "pitch_standard_label": "函鍾",
+                    "role_label": "宮"
+                  },
+                  {
+                    "pitch_standard_label": "大蔟",
+                    "role_label": "角"
+                  },
+                  {
+                    "pitch_standard_label": "姑洗",
+                    "role_label": "徴"
+                  },
+                  {
+                    "pitch_standard_label": "南呂",
+                    "role_label": "羽"
+                  }
+                ],
+                "scope": "Received ritual prescription in this textual witness; efficacy and historical realization not thereby verified"
+              },
+              {
+                "id": "ancestors",
+                "quote": "凡樂黄鍾為宮大呂為角大蔟為徴應鍾為羽",
+                "start_offset": 16799,
+                "end_offset": 16817,
+                "quote_sha256": "1a0bf7beb3613c4c50cc5f74c2b240d623a119cfa5ccbc7f7507876609018086",
+                "roles": [
+                  {
+                    "pitch_standard_label": "黄鍾",
+                    "role_label": "宮"
+                  },
+                  {
+                    "pitch_standard_label": "大呂",
+                    "role_label": "角"
+                  },
+                  {
+                    "pitch_standard_label": "大蔟",
+                    "role_label": "徴"
+                  },
+                  {
+                    "pitch_standard_label": "應鍾",
+                    "role_label": "羽"
+                  }
+                ],
+                "scope": "Received ritual prescription in this textual witness; efficacy and historical realization not thereby verified"
+              }
+            ],
+            "domainBoundary": "The12-position adapter is explicit; it is not a replacement for complete Western/Chinese musical structure or an ancientHz calibration."
+          }
+        },
+        {
+          "path": "state/reconstruction/contextual-alignment.json",
+          "pointer": "/transformationRegister/modalInverse",
+          "value": {
+            "input": "Declared final pitchclassp androle/modetype r",
+            "output": "Implicitgongg=p-d(r)mod12, and unchangedfinal/modetype r",
+            "inverse": "p=g+d(r)mod12",
+            "offsets": {
+              "gong": 0,
+              "shang": 2,
+              "jue": 4,
+              "zhi": 7,
+              "yu": 9
+            },
+            "scope": "Modern source-model semitone residues; commonrole subset is not allChinese music orancientHz."
+          }
+        },
+        {
+          "path": "state/reconstruction/contextual-alignment.json",
+          "pointer": "/transformationRegister/allRitualConditions/relative_standard_concordance",
+          "value": "Lamfigure2.1 traditionalnameconcordanceplusdeclaredZhengaliases圜鍾=夾鍾,函鍾=林鍾; allvalues shiftedbyarbitraryalpha. Thisisadeclaredadapter, notglobalpitchauthority."
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "symbol-sound-constraints",
+      "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-phonological-hypothesis",
+      "finding": "Two contextual mark grammars share a presence projection; not a W72q measurement or musical sound assignment.",
+      "references": [
+        {
+          "path": "state/reconstruction/symbol-sound-constraints.json",
+          "pointer": "/presenceProjection",
+          "value": [
+            {
+              "values": [
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false
+              ],
+              "candidateIds": [
+                "contextual-consonantal-mark",
+                "contextual-gemination-mark"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "state/reconstruction/symbol-sound-constraints.json",
+          "pointer": "/observationBoundary",
+          "value": "Consonantal realization is a source-reconstructed phonological feature, not a measured closure, waveform, pitch or duration."
+        },
+        {
+          "path": "state/reconstruction/symbol-sound-constraints.json",
+          "pointer": "/sourceCondition",
+          "value": "Three word-final values are conditional on Khan's reconstruction of the named Cambridge witness. Four medial values are shared premises of the retained standard-reading interpretations. No claim of exhaustive historical candidates."
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "score-anchor-constraints",
+      "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "derived-linear-coordinate-law",
+      "finding": "Simultaneous transformation of equations and anchor covectors preserves deductions; non-unit/frame changes need separate adapters. This does not license a source phase shear.",
+      "references": [
+        {
+          "path": "state/reconstruction/score-anchor-constraints.json",
+          "pointer": "/representationChange",
+          "value": {
+            "from": "ordered stage durations d",
+            "to": "cumulative event offsets z=T*d",
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            "inverse": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                -1,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                -1,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                -1,
+                1
+              ]
+            ],
+            "equationTransform": "A -> A*T^-1; every anchor covector transforms the same way",
+            "proof": "For invertible T the solution sets correspond bijectively. A target is fixed exactly when its covector annihilates every null vector; this criterion is unchanged by simultaneous inverse transformation.",
+            "checkedReplays": 40,
+            "transferBoundary": "Nonlinear, unit-changing, temporal-origin or source-witness identifications require their own adapters"
+          }
+        },
+        {
+          "path": "state/reconstruction/score-anchor-constraints.json",
+          "pointer": "/domain/scope",
+          "value": "Exact linear relations in this source-conditioned domain, not a complete universal ontology or original sound recovery"
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "phonological-context-constraints",
+      "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-context-conditional",
+      "finding": "Context, historical process and comparative grade remain explicit; no W72 address-to-phone assignment.",
+      "references": [
+        {
+          "path": "state/reconstruction/phonological-context-constraints.json",
+          "pointer": "/typeBoundary",
+          "value": "These arguments are required by this source comparison; they are not asserted complete or irreducible universal types."
+        },
+        {
+          "path": "state/reconstruction/phonological-context-constraints.json",
+          "pointer": "/coarseFeatureBoundary",
+          "value": "The old five-tradition binary example remains preserved within its assumptions. Contextual/lexical diffusion and disputed forms require explicit refinement before transferring its topology counts to historical genealogy."
+        },
+        {
+          "path": "state/reconstruction/phonological-context-constraints.json",
+          "pointer": "/originalSoundRecovered",
+          "value": false
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "phonological-history-constraints",
+      "sha256": "e5d13b3818e61a63394afb3766c966ffb75fff11a088c4ad7430ad068c707e40",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "conditional-event-order",
+      "finding": "Contact order uses its own real event windows; zero actual historical bounds admitted and no W72phase bridge.",
+      "references": [
+        {
+          "path": "state/reconstruction/phonological-history-constraints.json",
+          "pointer": "/currentHistoricalBoundsAdmitted",
+          "value": 0
+        },
+        {
+          "path": "state/reconstruction/phonological-history-constraints.json",
+          "pointer": "/operator",
+          "value": {
+            "implementation": "src/phonological-history.ts",
+            "domain": "Three real-valued event windows with exact rational or unbounded endpoints; endpoint inclusion retained.",
+            "relation": "donorOnset < contact <= recipientOnset; weak-donor equality is an explicit alternative parameter.",
+            "projection": "admissibleContact = K intersect (inf(D), sup(R)), with the recipient upper endpoint included exactly when R includes it; all input windows must be nonempty.",
+            "proof": "A feasible contact must exceed the donor infimum and not exceed an available recipient supremum. Conversely choose any point in that intersection, choose an earlier donor in D, and a recipient at or after it in R. Strict/open endpoints determine equality cases. The weak-donor case admits the donor lower endpoint only if D contains it.",
+            "exactWitnessReturned": true,
+            "inputEndpointIntegerDigitBudget": 128,
+            "derivedRationalDigitsUnbounded": true,
+            "resourceBoundary": "The endpoint input budget is computational only; it does not choose a historical time scale."
+          }
+        },
+        {
+          "path": "state/reconstruction/phonological-history-constraints.json",
+          "pointer": "/historicalMechanismSelected",
+          "value": false
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    },
+    {
+      "module": "reading-operations",
+      "sha256": "b211850b4167638f420f7171190ddd1bc92bd22da9470978840a7fd518d3793c",
+      "matchesModelSnapshotAtReview": true,
+      "reviewedConstraintsMatchModelSnapshot": true,
+      "classification": "source-reading-conditional",
+      "finding": "Molin notation, lexical/grammatical alternatives and unknown acoustics are retained; no sacred-original sound or phase coupling is established.",
+      "references": [
+        {
+          "path": "state/reconstruction/reading-operations.json",
+          "pointer": "/conditions",
+          "value": [
+            "Each publication, witness tradition, lexical case, comparative role and phonetic reconstruction remains identified.",
+            "The contextual IPA strings are manuscript comparanda, not two additional bowl forms.",
+            "A shared operation across these comparative pairs is a conditional investigative premise; Babylonian manuscripts need not form one homogeneous phonological system.",
+            "IPA quantity and stress notation do not assign milliseconds, a fixed2:1duration ratio, musical pitch, waveform or original sacred intention."
+          ]
+        },
+        {
+          "path": "state/reconstruction/reading-operations.json",
+          "pointer": "/scoreAnnotationBoundary",
+          "value": {
+            "layer": "Source-qualified syllable/order/stress annotations",
+            "noteAssignments": 0,
+            "measuredOnsets": 0,
+            "measuredDurations": 0,
+            "attachment": "An annotation adapter may carry these into the master score; no phonetic symbol is silently assigned a musical note."
+          }
+        },
+        {
+          "path": "state/reconstruction/reading-operations.json",
+          "pointer": "/historicalOperatorSelected",
+          "value": false
+        }
+      ],
+      "scope": "Targeted semantic review of the listed definitions/constraints; all scalar leaves mechanically indexed separately. Not exhaustive historical source reconstruction."
+    }
+  ],
+  "moduleCount": 16,
+  "sourcePriorArt": [
+    {
+      "path": "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+      "sha256": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb",
+      "startCodePoint": 8533,
+      "endCodePointExclusive": 8974,
+      "lineOneBased": 113,
+      "quote": "Their classification depends on the labels retained. Relabelings preserving only p identify all twelve. Preserving p and binary polarity β=q mod 2 gives two classes of six: R preserves β while L flips it, or the reverse. Preserving p and τ=q mod 3 gives six classes. Fixing p, τ and β leaves twelve distinct candidates. The allowed p-preserving maps are (p,q)↦(p,cp+dq), with c modulo six and d=±1; preserving β additionally requires even c."
+    },
+    {
+      "path": "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+      "sha256": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb",
+      "startCodePoint": 3928,
+      "endCodePointExclusive": 4139,
+      "lineOneBased": 27,
+      "quote": "The original phase-contract attachment cited by a recovered assistant passage was also not retrieved. The phase-preserving profile is therefore a recovered transcript profile, with its source dependency visible."
+    },
+    {
+      "path": "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+      "sha256": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb",
+      "startCodePoint": 6591,
+      "endCodePointExclusive": 6740,
+      "lineOneBased": 58,
+      "quote": "A coordinate relabeling that moves every label with it is a gauge change; moving a map against fixed historical or display labels can change a claim."
+    },
+    {
+      "path": "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+      "sha256": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb",
+      "startCodePoint": 9118,
+      "endCodePointExclusive": 9250,
+      "lineOneBased": 115,
+      "quote": "Selecting one of the twelve transitive completions requires a purpose for phase transport and independent evidence about its labels."
+    }
+  ],
+  "priorArtFinding": "The p-preserving equivalence and beta/tau refinements are explicit in the recovered October18orientationatlas §4.2. This certificate reproduces/refines that result; no new symmetry-discovery claim.",
+  "groupLaw": "(u,v)∘(a,b)=(ua,ub+v)mod6",
+  "candidateAction": "(b,s)→(ub-v,us)mod6",
+  "carrierElements": 72,
+  "groupOrder": 12,
+  "partitions": {
+    "p_only": {
+      "group": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      ]
+    },
+    "p_and_beta": {
+      "group": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      ]
+    },
+    "p_and_tau": {
+      "group": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      ]
+    },
+    "p_beta_tau": {
+      "group": [
+        [
+          1,
+          0
+        ]
+      ],
+      "orbits": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            5
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            5
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            5
+          ]
+        ],
+        [
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            5
+          ]
+        ]
+      ]
+    },
+    "p_and_origin": {
+      "group": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      ]
+    },
+    "p_no_shear": {
+      "group": [
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "orbits": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      ]
+    }
+  },
+  "stabilizers": [
+    {
+      "candidate": [
+        0,
+        1
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        0,
+        5
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        1,
+        1
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        1,
+        5
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        2,
+        1
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        2,
+        5
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        3,
+        1
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        3,
+        5
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        4,
+        1
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        4,
+        5
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        5,
+        1
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate": [
+        5,
+        5
+      ],
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "scalarCounterexamples": [
+    {
+      "candidate": [
+        0,
+        1
+      ],
+      "Raddress": [
+        5,
+        0
+      ],
+      "Oaddress": [
+        0,
+        1
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        0,
+        5
+      ],
+      "Raddress": [
+        5,
+        0
+      ],
+      "Oaddress": [
+        0,
+        5
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        1,
+        1
+      ],
+      "Raddress": [
+        5,
+        1
+      ],
+      "Oaddress": [
+        0,
+        1
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        1,
+        5
+      ],
+      "Raddress": [
+        5,
+        1
+      ],
+      "Oaddress": [
+        0,
+        5
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        2,
+        1
+      ],
+      "Raddress": [
+        5,
+        2
+      ],
+      "Oaddress": [
+        0,
+        1
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        2,
+        5
+      ],
+      "Raddress": [
+        5,
+        2
+      ],
+      "Oaddress": [
+        0,
+        5
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        3,
+        1
+      ],
+      "Raddress": [
+        5,
+        3
+      ],
+      "Oaddress": [
+        0,
+        1
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        3,
+        5
+      ],
+      "Raddress": [
+        5,
+        3
+      ],
+      "Oaddress": [
+        0,
+        5
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        4,
+        1
+      ],
+      "Raddress": [
+        5,
+        4
+      ],
+      "Oaddress": [
+        0,
+        1
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        4,
+        5
+      ],
+      "Raddress": [
+        5,
+        4
+      ],
+      "Oaddress": [
+        0,
+        5
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        5,
+        1
+      ],
+      "Raddress": [
+        5,
+        5
+      ],
+      "Oaddress": [
+        0,
+        1
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    },
+    {
+      "candidate": [
+        5,
+        5
+      ],
+      "Raddress": [
+        5,
+        5
+      ],
+      "Oaddress": [
+        0,
+        5
+      ],
+      "Rscalar": "2/3",
+      "Oscalar": "1/2",
+      "R12Address": [
+        0,
+        0
+      ],
+      "R12Scalar": "4096/531441",
+      "octaveCompensatedR12": "524288/531441"
+    }
+  ],
+  "concreteCounterexamples": [
+    {
+      "case": "Origin alone does not anchor the phase convention",
+      "transform": [
+        1,
+        1
+      ],
+      "originBefore": [
+        0,
+        0
+      ],
+      "originAfter": [
+        0,
+        0
+      ],
+      "pointBefore": [
+        1,
+        0
+      ],
+      "pointAfter": [
+        1,
+        1
+      ]
+    },
+    {
+      "case": "Conjugacy is not fixed-operator commutation",
+      "candidateBefore": [
+        0,
+        1
+      ],
+      "transform": [
+        1,
+        5
+      ],
+      "candidateAfter": [
+        1,
+        1
+      ],
+      "RphaseBefore": 0,
+      "RphaseAfter": 1,
+      "sameScalar": "2/3"
+    },
+    {
+      "case": "Scalar/registered path residual supplies no absolute phase anchor",
+      "differentOphases": [
+        1,
+        5
+      ],
+      "sameOscalar": "1/2",
+      "allCompletionsR12Residual": "524288/531441"
+    },
+    {
+      "case": "A fixed product metric would forbid a shear, but no such global metric is supplied here",
+      "hypotheticalMetric": "squared sum of shortest cyclic unit-coordinate distances",
+      "transform": [
+        1,
+        1
+      ],
+      "fromOriginPoint": [
+        1,
+        0
+      ],
+      "distanceSquaredBefore": 1,
+      "distanceSquaredAfter": 2,
+      "sourceLicense": "not asserted"
+    }
+  ],
+  "minimumMissingBridge": "Independent source-qualified semantic phase measurements sufficient to instantiate q(R) and q(O), OR an explicitly source-licensed equivalence contract transporting every phase label/observation/adapter covariantly. A bare origin or scalar residual is insufficient.",
+  "limits": [
+    "This is one optional transitive12family, not allSUNNYconfigurations.",
+    "The separate phase-preserving profile remains retained.",
+    "All16modules reviewed at the displayed source-qualified definitions; whole-corpus semantics and inaccessible sources remain open.",
+    "No fixed historical/display labels may be silently moved.",
+    "TOLAB/BA operational definitions remain unretrieved."
+  ],
+  "guardUse": {
+    "plugin": "Supermemory",
+    "operation": "search_memory",
+    "success": true,
+    "conversationId": "01a1b80f-2cb4-76ab-95f2-655427aa87a8",
+    "scope": "Retrieved continuity, not mathematical or historical certification."
+  },
+  "historicalOrientationSelected": false,
+  "fullGeometryReconstructed": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "alignment-table-d88cfb175d25a45f",
+  "content_sha256": "d88cfb175d25a45f3c1b8d7ab1598b821df38c9245c477567d9e941d42479aef",
+  "headers": [
+    "Candidate bridge",
+    "What works",
+    "Where it breaks"
+  ],
+  "rows": [
+    [
+      "Sefer 22 → chromatic 12",
+      "Multiple letters can occupy one pitch class",
+      "Cannot preserve all 231 gates as distinct pitch pairs"
+    ],
+    [
+      "24 symbolic realizations → 12 doubled pitches",
+      "All 78 pitch-pair types become representable",
+      "No source-fixed 24→12 musical assignment"
+    ],
+    [
+      "Sefer 7 doubles → seven diatonic notes",
+      "Matching sevenfold cardinality",
+      "Phonetic doubling is not musical pitch doubling"
+    ],
+    [
+      "Sefer 12 simples → chromatic wheel",
+      "Twelvefold address correspondence",
+      "Zodiacal order does not establish pitch order"
+    ],
+    [
+      "Shem 72 → W72",
+      "Exact address count",
+      "Column order does not determine W72 coordinates"
+    ],
+    [
+      "Shem three rows → three musical voices",
+      "Preserves parallel sequence structure",
+      "Letter reversal is not necessarily musical inversion"
+    ],
+    [
+      "Exact fifths → closed twelve-note wheel",
+      "Twelve pitch-class addresses",
+      "Pythagorean comma prevents exact frequency closure"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 12804,
+      "line_end": 12812,
+      "char_start": 630356,
+      "char_end": 631312,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Candidate bridge | What works | Where it breaks |\n|--------|--------|--------|\n| Sefer 22 → chromatic 12 | Multiple letters can occupy one pitch class | Cannot preserve all 231 gates as distinct pitch pairs |\n| 24 symbolic realizations → 12 doubled pitches | All 78 pitch-pair types become representable | No source-fixed 24→12 musical assignment |\n| Sefer 7 doubles → seven diatonic notes | Matching sevenfold cardinality | Phonetic doubling is not musical pitch doubling |\n| Sefer 12 simples → chromatic wheel | Twelvefold address correspondence | Zodiacal order does not establish pitch order |\n| Shem 72 → W72 | Exact address count | Column order does not determine W72 coordinates |\n| Shem three rows → three musical voices | Preserves parallel sequence structure | Letter reversal is not necessarily musical inversion |\n| Exact fifths → closed twelve-note wheel | Twelve pitch-class addresses | Pythagorean comma prevents exact frequency closure |\n",
+      "quote_sha256": "3b64e107d0e6b834e12fcee1c1fea8ec6dc7cbf4226b1d7cc31cabe19b327185",
+      "message_id": "1c3b450a086dd58f5621b5615be6fa9ebe6afddf992b43f435d73ec534fc88df",
+      "role": "assistant",
+      "locator": "lines:12804-12812"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

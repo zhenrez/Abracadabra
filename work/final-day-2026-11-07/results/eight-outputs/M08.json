@@ -1,0 +1,282 @@
+{
+  "id": "M08",
+  "scope": "original_mathematical_output",
+  "requirement": "Complete executable master score",
+  "acceptance": "Connected executable register with exact inputs, source conditions, units, derivations, counterexamples, alternatives and downstream dependencies at the complete stated scope",
+  "code": [
+    "scripts/reconstruct_master_score.mjs",
+    "scripts/reconstruct_native_execution.mjs",
+    "scripts/execute_contextual_alignment.mjs",
+    "scripts/reconstruct_symbol_sound_constraints.mjs",
+    "scripts/derive_score_anchors.py"
+  ],
+  "evidence": [
+    {
+      "path": "state/reconstruction/master-score.json",
+      "exists": true,
+      "sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59"
+    },
+    {
+      "path": "state/reconstruction/native-execution.json",
+      "exists": true,
+      "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7"
+    },
+    {
+      "path": "state/reconstruction/contextual-alignment.json",
+      "exists": true,
+      "sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c"
+    },
+    {
+      "path": "state/reconstruction/symbol-sound-constraints.json",
+      "exists": true,
+      "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940"
+    },
+    {
+      "path": "state/reconstruction/phonological-context-constraints.json",
+      "exists": true,
+      "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0"
+    },
+    {
+      "path": "state/reconstruction/score-anchor-constraints.json",
+      "exists": true,
+      "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab"
+    }
+  ],
+  "status": "PARTIAL_SOURCE_VIEWS_EXECUTABLE",
+  "dependencies": [
+    "G04",
+    "G06",
+    "G11",
+    "G12"
+  ],
+  "remaining": "Complete orchestration, timing, instrumentation, succession and lawful global interactions.",
+  "source": {
+    "path": "data/raw/mandate-inputs/99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63/Pasted text.txt",
+    "sha256": "99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63",
+    "bytes": 14948,
+    "character_start": 10530,
+    "character_end": 10562,
+    "byte_start": 10540,
+    "byte_end": 10572,
+    "line_start": 137
+  },
+  "verification_boundary": "Static census plus explicitly attributed existing receipts; final-day root checks must establish current execution.",
+  "source_versions": [
+    {
+      "original_reference": {
+        "path": "state/reconstruction/master-score.json",
+        "exists": true,
+        "sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59/content.json",
+        "sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 620218,
+        "recovered_from": "data/raw/reconstruction-integrations/d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59/master-score.json",
+        "observed_source_modified_utc": "2026-11-08T02:03:59.3013380Z",
+        "reported_source_status": null,
+        "reported_source_dates": {
+          "created_utc": "2026-11-04T03:10:35.693Z"
+        },
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c/content.json",
+        "sha256": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 774471,
+        "recovered_from": "state/reconstruction/master-score.json",
+        "observed_source_modified_utc": "2026-11-08T02:05:16.1823677Z",
+        "reported_source_status": null,
+        "reported_source_dates": {
+          "created_utc": "2026-11-04T03:10:35.693Z"
+        },
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "NEWLY_OBSERVED_VERSION",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    },
+    {
+      "original_reference": {
+        "path": "state/reconstruction/native-execution.json",
+        "exists": true,
+        "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7/content.json",
+        "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 36639,
+        "recovered_from": "state/reconstruction/native-execution.json",
+        "observed_source_modified_utc": "2026-10-31T21:59:22.7986008Z",
+        "reported_source_status": "All ten mechanisms have bounded interpreters; historical instances and irrational extensions are not thereby completed.",
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7/content.json",
+        "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 36639,
+        "recovered_from": "state/reconstruction/native-execution.json",
+        "observed_source_modified_utc": "2026-10-31T21:59:22.7986008Z",
+        "reported_source_status": "All ten mechanisms have bounded interpreters; historical instances and irrational extensions are not thereby completed.",
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    },
+    {
+      "original_reference": {
+        "path": "state/reconstruction/contextual-alignment.json",
+        "exists": true,
+        "sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c/content.json",
+        "sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 457438,
+        "recovered_from": "state/reconstruction/contextual-alignment.json",
+        "observed_source_modified_utc": "2026-11-03T04:16:41.2726433Z",
+        "reported_source_status": null,
+        "reported_source_dates": {
+          "generated_utc": "2026-11-03T04:16:41.267Z"
+        },
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c/content.json",
+        "sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 457438,
+        "recovered_from": "state/reconstruction/contextual-alignment.json",
+        "observed_source_modified_utc": "2026-11-03T04:16:41.2726433Z",
+        "reported_source_status": null,
+        "reported_source_dates": {
+          "generated_utc": "2026-11-03T04:16:41.267Z"
+        },
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    },
+    {
+      "original_reference": {
+        "path": "state/reconstruction/symbol-sound-constraints.json",
+        "exists": true,
+        "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940/content.json",
+        "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 234634,
+        "recovered_from": "state/reconstruction/symbol-sound-constraints.json",
+        "observed_source_modified_utc": "2026-11-04T02:00:06.9679492Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940/content.json",
+        "sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 234634,
+        "recovered_from": "state/reconstruction/symbol-sound-constraints.json",
+        "observed_source_modified_utc": "2026-11-04T02:00:06.9679492Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    },
+    {
+      "original_reference": {
+        "path": "state/reconstruction/phonological-context-constraints.json",
+        "exists": true,
+        "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0/content.json",
+        "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 9895,
+        "recovered_from": "state/reconstruction/phonological-context-constraints.json",
+        "observed_source_modified_utc": "2026-11-07T21:39:13.0298785Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0/content.json",
+        "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 9895,
+        "recovered_from": "state/reconstruction/phonological-context-constraints.json",
+        "observed_source_modified_utc": "2026-11-07T21:39:13.0298785Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    },
+    {
+      "original_reference": {
+        "path": "state/reconstruction/score-anchor-constraints.json",
+        "exists": true,
+        "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab/content.json",
+        "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 26791,
+        "recovered_from": "state/reconstruction/score-anchor-constraints.json",
+        "observed_source_modified_utc": "2026-11-07T12:52:35.9704782Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab/content.json",
+        "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 26791,
+        "recovered_from": "state/reconstruction/score-anchor-constraints.json",
+        "observed_source_modified_utc": "2026-11-07T12:52:35.9704782Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    }
+  ],
+  "version_manifest": "work/final-day-2026-11-07/audit/mathematical-source-versions/version-manifest.json",
+  "new_connected_outputs": [
+    "common-encodings.json",
+    "native-description-measurements.json",
+    "mathematical-comparisons.json",
+    "coding-baselines.json",
+    "phonetic-numeric-controls.json"
+  ],
+  "full_research_scope_status": "PARTIAL_SOURCE_VIEWS_EXECUTABLE",
+  "completion_note": "Existing executable source-scoped work is linked; unresolved source/geometry/global-law dependencies remain open"
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "glyph-assistant-f72ccd8c757d433e",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-03T03:42:15.961777+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/f72ccd8c757d433ef8173123f52a5754366b88b934832c39a0569d6420f761d3/text.txt",
+        "sha256": "f72ccd8c757d433ef8173123f52a5754366b88b934832c39a0569d6420f761d3",
+        "start_line": 1,
+        "end_line": 19,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "101e35b69486aba51ea5a5c2d96d49009af616c37db52f0ca5ae559afee4959b",
+        "origin": {
+          "id": "101e35b69486aba51ea5a5c2d96d49009af616c37db52f0ca5ae559afee4959b",
+          "native_id": "c0283913-9f57-4b6b-a7ae-50bdd89f49bb",
+          "conversation_id": "222a6147a651f48414adefa34f5821336c885913b41ad6d3c6ba6b03bb8c7c72",
+          "role": "assistant",
+          "content_sha256": "f72ccd8c757d433ef8173123f52a5754366b88b934832c39a0569d6420f761d3",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/34/mapping/c0283913-9f57-4b6b-a7ae-50bdd89f49bb/message",
+          "create_time": "1785980336.84707",
+          "branch_status": "current",
+          "title": "Gospel of Thomas Aramaic Translation",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/f72ccd8c757d433ef8173123f52a5754366b88b934832c39a0569d6420f761d3/occurrences-535b6b78c692125dcdfd35342e59e9a408ba552631ead30d316d095848cae4ce.json",
+        "quote": "Done. The HTML now presents every saying as a unified parallel entry built from your complete supplied Coptic text. fileciteturn2file1L36-L50\n\nEach entry includes:\n\n- **Sahidic Coptic**\n- **Approximate Coptic Romanization**\n- **Surviving Greek manuscript text**\n- **Greek Romanization**\n- **Syriac-Aramaic retroversion**\n- **Approximate Aramaic pronunciation guide**\n- **English translation**\n\nGreek is shown only where an actual Oxyrhynchus witness survives. P.Oxy. 654 contains the Incipit and Sayings 1–7; P.Oxy. 1 preserves portions of Sayings 26–32, incorporates the end of Saying 77 into its Saying 30, and includes an additional saying after 32; P.Oxy. 655 preserves portions associated with Sayings 36–39 and possibly Saying 24. citeturn415140view0turn910792search0turn415140view2turn415140view3\n\nFor every other saying, the Greek panel explicitly states **“No surviving Greek manuscript witness”** rather than presenting an invented Greek retroversion. Restored Greek is enclosed in brackets, and physical gaps are represented by ellipses.\n\nThe page also has search, jump navigation, language-display toggles, responsive formatting, and print styling.\n\n[Download the complete Coptic–Greek–Aramaic–English HTML edition](sandbox:/mnt/data/Gospel_of_Thomas_114_Coptic_Greek_Aramaic_Parallel.html)",
+        "quote_sha256": "f72ccd8c757d433ef8173123f52a5754366b88b934832c39a0569d6420f761d3",
+        "original_bytes": 1348,
+        "start_offset": 0,
+        "end_offset": 1312
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "9648ec44a2f4571eb7c6da98f0fbe6e54d80eb2735c8532c33931de275c16849",
+        "artifact_id": "f42a09a5-2c8e-5d3a-a2d3-2125e15ea01c",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-sound-symbol-map": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.93,
+            "refines": 0.04,
+            "supports": 0.03
+          },
+          "winner": "insufficient",
+          "top_probability": 0.93,
+          "margin": 0.89
+        },
+        "glyph-sound-distinction": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.16,
+            "refines": 0.15,
+            "supports": 0.69
+          },
+          "winner": "supports",
+          "top_probability": 0.69,
+          "margin": 0.5299999999999999
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.241,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

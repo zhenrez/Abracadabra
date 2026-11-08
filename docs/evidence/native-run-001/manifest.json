@@ -1,0 +1,332 @@
+{
+  "schema_version": 2,
+  "claim_id": "SUNNY_NATIVE_BOUND_AUDIT_2026_10_30",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "scripts/audit_native.py",
+    "check",
+    "--catalog",
+    "state/native-sources.json",
+    "--output",
+    "docs/evidence/native-run-001/result.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.13.0"
+      },
+      {
+        "name": "Python",
+        "version": "3.13.0"
+      },
+      {
+        "name": "Prumo evidence-audit helper",
+        "version": "0.1.0; exact externalhelperhash captured before/after in result"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26340-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Literal frozen-file hash bindings and exact original user/table passages;72address Baction partitions into36unordered2elementorbits; all36phasechoices compare against12literalAtlasrecords; all5184orderedtranslationpairs audited for subgroup generation and determinantcriterion.",
+    "coefficient_domain": "Z12 x Z6; exact integers and fractions.Fraction; no random sampling",
+    "conventions": "B(p,q)=(p,q+3mod6), T(p,q)=(p,q+4mod6); canonical unordered orbit pairs. Optional family R=(5,b),L=(7,d), b+d=1or5mod6 remains separate from phase-preserving profile.",
+    "inputs": [
+      "Recovered GG72literaladdresses",
+      "OriginalAtlassection4.2sixrows=12records",
+      "Literal source and lock hashes",
+      "Original exported user Prompt Sept30 2:21:53PM"
+    ],
+    "bounds": {
+      "states": 72,
+      "phase_choices": 36,
+      "source_completion_records": 12,
+      "ordered_translation_pairs": 5184,
+      "label_bijections": 720
+    },
+    "non_claims": [
+      "No uniquely correct historical orientation or exceptional70selector",
+      "No original70/72proofrecovery or universalphysics/topologyresult",
+      "Sourceoccurrences not independentcorroboration",
+      "Conditional finite label reference masses are not calibrated domain likelihoods"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-31T01:19:52.705352+00:00",
+    "runtime_seconds": 0.434398,
+    "exit_status": 1,
+    "status": "failed",
+    "timeout_seconds": 60.0,
+    "max_output_bytes": 262144,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": 1
+    },
+    "missing_results": [
+      "docs/evidence/native-run-001/result.json"
+    ],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "data/raw/archive/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Branch · SUN Model Discussion-20261001-1642.md",
+    "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_36_Fiber_Frozen_Mechanism_Execution_v0.1.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Frozen_Core_Invariant_Mechanism_Audit_v0.1.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GD_v1_structural(1).json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Music_Empirical_Hypergraph_v6_TypedAtomicExpansion(1).json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Scientific_Music_Alphabet_v1.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/W72_certification.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/W72_matched_nulls.json",
+    "data/raw/nested/2cc0aa8143e96f03c2c4722fe64bb3896ac41c4bec0646733bd97827fb89ceff/SUN_semantic/source_graph.json",
+    "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_GG_v1_final.json",
+    "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_GG_v1_final.lock.json",
+    "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_Scientific_Music_Alphabet_v1.json",
+    "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_Scientific_Music_Alphabet_v1.lock.json",
+    "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/GD_STRUCTURAL_PROTOCOL_v1.json",
+    "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/SUN_GD_v1_structural.json",
+    "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/SUN_Music_Empirical_Hypergraph_v6_TypedAtomicExpansion.json",
+    "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/derive_hypergraph.py",
+    "data/raw/nested/98fa7c0d1d17267c37b3943680748ed6a949569ae60b4ad23e68605ae52faeef/supporting_records/source_files/SUN/Pasted text.txt",
+    "data/raw/nested/9ceba23e131826a244cda5db2b99aa0dd004cd5627f4acb3eca8cf0b9669207e/supporting_records/source_files/SUN/Pasted text.txt",
+    "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/certification_authority/W72_certification.json",
+    "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/chronology/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+    "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/core/SUN_GD_v1_structural.json",
+    "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/core/SUN_GG_v1_final.json",
+    "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/core/SUN_Scientific_Music_Alphabet_v1.json",
+    "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/source_evidence/SUN_Music_Empirical_Hypergraph_v6_TypedAtomicExpansion.json",
+    "data/raw/nested/f1b5a5464e6e1e35b636ee19a22e313b900496332e38a71608da39e3cdfa47a1/W72_certification.json",
+    "data/raw/nested/f1b5a5464e6e1e35b636ee19a22e313b900496332e38a71608da39e3cdfa47a1/W72_matched_nulls.json",
+    "data/raw/nested/f3e8c7203bf358704bfd891e1a4dbee5b584cf11ab643c85b03c57468f09a4e2/SUN_semantic/source_graph.json",
+    "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+    "docs/evidence/native-wolfram-orbits-corrected.json",
+    "docs/evidence/wolfram-orbit-input-error.json",
+    "scripts/audit_native.py",
+    "state/native-sources.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Branch · SUN Model Discussion-20261001-1642.md",
+      "sha256": "73896d743fdf2516bc0f6982d89317ea8059c8bcd968021d32e1f7eacee5b582",
+      "sha256_after": "73896d743fdf2516bc0f6982d89317ea8059c8bcd968021d32e1f7eacee5b582"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+      "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+      "sha256_after": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_36_Fiber_Frozen_Mechanism_Execution_v0.1.json",
+      "sha256": "1c46a68feaa03e003c6f2c1c54fd9bc70d9a5add42e80df3c66816506df69173",
+      "sha256_after": "1c46a68feaa03e003c6f2c1c54fd9bc70d9a5add42e80df3c66816506df69173"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Frozen_Core_Invariant_Mechanism_Audit_v0.1.json",
+      "sha256": "6629e150efbf1b564c55027cb999b9a11e0418f63942900fa769b16156eb7fa2",
+      "sha256_after": "6629e150efbf1b564c55027cb999b9a11e0418f63942900fa769b16156eb7fa2"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GD_v1_structural(1).json",
+      "sha256": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54",
+      "sha256_after": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "sha256_after": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Music_Empirical_Hypergraph_v6_TypedAtomicExpansion(1).json",
+      "sha256": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f",
+      "sha256_after": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Scientific_Music_Alphabet_v1.json",
+      "sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738",
+      "sha256_after": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/W72_certification.json",
+      "sha256": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192",
+      "sha256_after": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/W72_matched_nulls.json",
+      "sha256": "5ed603b0c5dd0dd7444edc0e4040093e328b8e4d08e80c1b65e944317845d6ee",
+      "sha256_after": "5ed603b0c5dd0dd7444edc0e4040093e328b8e4d08e80c1b65e944317845d6ee"
+    },
+    {
+      "path": "data/raw/nested/2cc0aa8143e96f03c2c4722fe64bb3896ac41c4bec0646733bd97827fb89ceff/SUN_semantic/source_graph.json",
+      "sha256": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f",
+      "sha256_after": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f"
+    },
+    {
+      "path": "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "sha256_after": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_GG_v1_final.lock.json",
+      "sha256": "b38dbc4e95005fbb6836edd87931349801f684933e19e0b318a25cba44360420",
+      "sha256_after": "b38dbc4e95005fbb6836edd87931349801f684933e19e0b318a25cba44360420"
+    },
+    {
+      "path": "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_Scientific_Music_Alphabet_v1.json",
+      "sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738",
+      "sha256_after": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738"
+    },
+    {
+      "path": "data/raw/nested/31697b7a4a3cfd606de3bb9e16b0f77406cc4771f80035dcd950e80ec26a56a7/SUN_Scientific_Music_Alphabet_v1.lock.json",
+      "sha256": "913a2b3733acbc1528c6fb2e4fe3f3be31b81cb56cc9f28386da123948b588d2",
+      "sha256_after": "913a2b3733acbc1528c6fb2e4fe3f3be31b81cb56cc9f28386da123948b588d2"
+    },
+    {
+      "path": "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/GD_STRUCTURAL_PROTOCOL_v1.json",
+      "sha256": "3241cc190e73b8f06f5ecbfa2a6a55c6bd5a41cf355bd7614f4f11ecd4d5a6e5",
+      "sha256_after": "3241cc190e73b8f06f5ecbfa2a6a55c6bd5a41cf355bd7614f4f11ecd4d5a6e5"
+    },
+    {
+      "path": "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/SUN_GD_v1_structural.json",
+      "sha256": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54",
+      "sha256_after": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54"
+    },
+    {
+      "path": "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/SUN_Music_Empirical_Hypergraph_v6_TypedAtomicExpansion.json",
+      "sha256": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f",
+      "sha256_after": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f"
+    },
+    {
+      "path": "data/raw/nested/5c1c7866879de7bcd88c22ed849639c572b6fc94e95b3dbe16fc7e8403209bc0/derive_hypergraph.py",
+      "sha256": "aaeb943916557c1cf5f17a04f7aeebcad17fb17600853f604b211f830a7f155a",
+      "sha256_after": "aaeb943916557c1cf5f17a04f7aeebcad17fb17600853f604b211f830a7f155a"
+    },
+    {
+      "path": "data/raw/nested/98fa7c0d1d17267c37b3943680748ed6a949569ae60b4ad23e68605ae52faeef/supporting_records/source_files/SUN/Pasted text.txt",
+      "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+      "sha256_after": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94"
+    },
+    {
+      "path": "data/raw/nested/9ceba23e131826a244cda5db2b99aa0dd004cd5627f4acb3eca8cf0b9669207e/supporting_records/source_files/SUN/Pasted text.txt",
+      "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+      "sha256_after": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94"
+    },
+    {
+      "path": "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/certification_authority/W72_certification.json",
+      "sha256": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192",
+      "sha256_after": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192"
+    },
+    {
+      "path": "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/chronology/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+      "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+      "sha256_after": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94"
+    },
+    {
+      "path": "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/core/SUN_GD_v1_structural.json",
+      "sha256": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54",
+      "sha256_after": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54"
+    },
+    {
+      "path": "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/core/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "sha256_after": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/core/SUN_Scientific_Music_Alphabet_v1.json",
+      "sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738",
+      "sha256_after": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738"
+    },
+    {
+      "path": "data/raw/nested/b0bd55cfb84d450076bf68405b44d35411ea9fd1fb41eaa1cadc44fd0d8d85e3/SUN_CURRENT_CRUCIAL_FILES/source_evidence/SUN_Music_Empirical_Hypergraph_v6_TypedAtomicExpansion.json",
+      "sha256": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f",
+      "sha256_after": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f"
+    },
+    {
+      "path": "data/raw/nested/f1b5a5464e6e1e35b636ee19a22e313b900496332e38a71608da39e3cdfa47a1/W72_certification.json",
+      "sha256": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192",
+      "sha256_after": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192"
+    },
+    {
+      "path": "data/raw/nested/f1b5a5464e6e1e35b636ee19a22e313b900496332e38a71608da39e3cdfa47a1/W72_matched_nulls.json",
+      "sha256": "5ed603b0c5dd0dd7444edc0e4040093e328b8e4d08e80c1b65e944317845d6ee",
+      "sha256_after": "5ed603b0c5dd0dd7444edc0e4040093e328b8e4d08e80c1b65e944317845d6ee"
+    },
+    {
+      "path": "data/raw/nested/f3e8c7203bf358704bfd891e1a4dbee5b584cf11ab643c85b03c57468f09a4e2/SUN_semantic/source_graph.json",
+      "sha256": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f",
+      "sha256_after": "6b6470126c0bba4b26baf59f166b34820a6933586dc133bee6df856cd4119c5f"
+    },
+    {
+      "path": "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+      "sha256": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb",
+      "sha256_after": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb"
+    },
+    {
+      "path": "docs/evidence/native-wolfram-orbits-corrected.json",
+      "sha256": "72806117908a74a816f0c949c8a5f2d2659b1aa6f6ebebd6b714df349b5f83e5",
+      "sha256_after": "72806117908a74a816f0c949c8a5f2d2659b1aa6f6ebebd6b714df349b5f83e5"
+    },
+    {
+      "path": "docs/evidence/wolfram-orbit-input-error.json",
+      "sha256": "ad3ead6944fbd717d20c3c546e6dbc3b93eb9fd76ac749da37c5273755259640",
+      "sha256_after": "ad3ead6944fbd717d20c3c546e6dbc3b93eb9fd76ac749da37c5273755259640"
+    },
+    {
+      "path": "scripts/audit_native.py",
+      "sha256": "48a808ddfcda1107807a22ac5d290d551d49c885d64aa1f87e6bcce705d7d01c",
+      "sha256_after": "48a808ddfcda1107807a22ac5d290d551d49c885d64aa1f87e6bcce705d7d01c"
+    },
+    {
+      "path": "state/native-sources.json",
+      "sha256": "3883d5526cc0093da72f58349ee682ca2ce6b2bcde16ab13cabf446139f342a5",
+      "sha256_after": "3883d5526cc0093da72f58349ee682ca2ce6b2bcde16ab13cabf446139f342a5"
+    }
+  ],
+  "output_directory": "docs/evidence/native-run-001",
+  "declared_results": [
+    "docs/evidence/native-run-001/result.json"
+  ],
+  "outputs": [
+    {
+      "path": "docs/evidence/native-run-001/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "docs/evidence/native-run-001/stderr.txt",
+      "sha256": "24a7e8154d64516f2e9fb3afbb4997a0d5ec323e8e7299bb2f0539df801bb4f9",
+      "kind": "log"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": false
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": false
+    }
+  ],
+  "result": "Run failed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "The thread cap uses conventional environment variables; a child program may ignore them.",
+    "Declared results were not produced: docs/evidence/native-run-001/result.json"
+  ]
+}

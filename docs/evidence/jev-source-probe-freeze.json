@@ -1,0 +1,60 @@
+{
+  "selected_by": "state/jev-receipts/000027-54bdd517dab6.json",
+  "cases": [
+    {
+      "id": "direct_user",
+      "source": "state/latest-user-correction.txt",
+      "state": {
+        "source_role": "user",
+        "source_kind": "current direct user message",
+        "exact_excerpt": "use jev for absolutely everything, every possible decision absolutely MUST be dictated by jev"
+      },
+      "question": "Which source-native status describes this exact excerpt?",
+      "options": [
+        "Direct user instruction",
+        "Assistant proposal without a user answer",
+        "Source not retrieved"
+      ],
+      "expected": "Direct user instruction"
+    },
+    {
+      "id": "unanswered_proposal",
+      "source": "docs/REQUIREMENTS.json",
+      "state": {
+        "source_role": "assistant",
+        "source_kind": "Final Q10 question in supplied transcript",
+        "excerpt": "My proposed answer is yes. Is that the distinction you are reaching for?",
+        "source_following_user_reply": "No following user answer exists in the supplied transcript."
+      },
+      "question": "Which recorded authority status follows from these source-role facts?",
+      "options": [
+        "User-approved final law",
+        "Assistant proposal without a user answer",
+        "Complete scientific proof"
+      ],
+      "expected": "Assistant proposal without a user answer"
+    },
+    {
+      "id": "hash_binding",
+      "source": "docs/evidence/recovery-integrity.json",
+      "state": {
+        "observed": "Preserved file SHA256 exactly matches the hash named in an inherited W72 report.",
+        "source_role": "machine byte-hash observation; inherited report is a separate source",
+        "unverified": "Historical truth, scientific law and live-account completeness have not been established."
+      },
+      "question": "What does this exact file-hash match establish within the supplied evidence?",
+      "options": [
+        "Byte identity relative to the named hash",
+        "Every historical claim is true",
+        "All live-account material is complete"
+      ],
+      "expected": "Byte identity relative to the named hash"
+    }
+  ],
+  "source_versions": {
+    "state/latest-user-correction.txt": "c98598e12e08206bb2bbabf77da427c3bcb2a6dbed1faec65520eba735976e85",
+    "docs/REQUIREMENTS.json": "b7ca10a009715db727251f92dbd572c4f7b8a7f3c1abb10296fb9561f39b86bf",
+    "docs/evidence/recovery-integrity.json": "847ad2fb2ad07dde11fca38ad56728857bb6d92902106bd284972d6ff66e6534"
+  },
+  "protocol": "Three already-inspected cases; original and reversed option LISTS plus classification-question isolation. Labels are mechanically declared source roles/hash scope, not scientific outcomes. No blind or calibrated accuracy claim."
+}

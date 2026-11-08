@@ -1,0 +1,32 @@
+{
+  "state": {
+    "goal": "Hand off the first actual Vaticanus/DSS bounded result under the user protocol, without repository framing.",
+    "evidence": "Official images collated: 14:19 page64 III37-42 to page65 I1-4; 20 page65 I4-11;21 I12-19. Line-joined draft and expansion checks pass: visible147/137/133, suspensions expanded148/138/134, fully expanded153/141/138. Swete scanned volI p132 agrees; apparatus records extra camp phrase in A/F. DSS editorial4Q365 line12 unmarked m-w-sh-h versus baseline m-sh-h gives a single-edit73-letter row, not a full witness. Four frozen files unchanged.",
+    "limits": "Independent second palaeographer, complete hand stratification, original DSS plate collation, 72-slot Greek alignment, W72 mapping and blind predictions unrun. Modern known collisions exposed.",
+    "sources": [
+      "work/w72-witness/CHECKPOINT.md",
+      "work/w72-witness/transcription.json",
+      "work/w72-witness/verification.json"
+    ]
+  },
+  "questions": {
+    "claim": {
+      "type": "choice",
+      "instructions": "Select the strongest defensible current handoff claim.",
+      "criteria": {
+        "bounded_visible_draft": "Located and image-collated draft with reproducible convention-dependent counts and printed corroboration; no certified first-hand or W72 claim.",
+        "certified_first_hand": "Treat the visible retraced sequence as fully certified first-hand text.",
+        "validated_W72": "Treat unequal Greek lengths and one DSS variant as independent W72 validation."
+      }
+    },
+    "next": {
+      "type": "choice",
+      "instructions": "Select the next bounded source-verification unit after this checkpoint.",
+      "criteria": {
+        "independent_greek_review": "Second collation of the Greek line-end suspensions and correction/first-hand layers with apparatus support.",
+        "dss_plate": "Acquire the original4Q365 plate and independently check the specific plene Moses reading and nearby damage.",
+        "geez_target": "Verify dated earliest relevant Ge ez shelfmarks and locate Exodus14 target pages."
+      }
+    }
+  }
+}

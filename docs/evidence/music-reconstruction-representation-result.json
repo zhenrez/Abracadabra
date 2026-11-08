@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "request_sha256": "7d29b7f5d662f4c0208005d4c6a537687ff9e6ccd981ab1f44917b44f23c2a2d",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "representation": {
+      "type": "choice",
+      "probabilities": {
+        "full_native_plus_overlay": 0.98,
+        "references_plus_selected": 0.02
+      },
+      "winner": "full_native_plus_overlay",
+      "top_probability": 0.98,
+      "margin": 0.96
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 784,
+    "output_tokens": 39
+  },
+  "network_calls": 1,
+  "latency_ms": 229
+}

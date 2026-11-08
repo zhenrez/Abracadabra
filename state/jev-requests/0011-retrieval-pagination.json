@@ -1,0 +1,15 @@
+{
+ "state":{
+  "goal":"SUNNY must let the user recover the complete accessible research record and trace its decisions.",
+  "observed":"Search API returns maximum100matches and browser requests40; totalcountvisible but search has nooffsetorloadmore. SUNNY querycurrently92matches. Decisions API returns200default/1000max from5761lexicalcandidates withoutpagination. ConversationAPIalreadyhasoffsetandnext_offset butbrowseronlyloadsonepage. Archiveendpointincludesall2041sources under10000limit. No sourcebyteslost butUIcannotnavigateallsearch/decisionresults.",
+  "constraints":"Preserveboundedqueries/performance, nativeprovenance andoriginalroles; avoidpretendingpartialresultsarecomplete. JeVmustchooseimplementationroute."
+ },
+ "questions":[{
+  "id":"retrieval_pagination","type":"choice","question":"Which change best closes the reproduced source-navigation gap?",
+  "options":{
+   "bounded_pages":"Add stablepaginatedsearchanddecisionAPIs plus Loadmorecontrols; letconversationLoadmorefollowexistingnext_offset. Retainboundedpagesandtotalcounts, testnonoverlappingpages.",
+   "higher_limits":"Increaseallsearch/decision/conversationlimitsandrenderallresultsinoneDOMview.",
+   "document_limit":"KeepcurrentUIlimitsanddirecttheusertorawSQLforresultsbeyondthefirstpage."
+  }
+ }]
+}

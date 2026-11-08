@@ -1,0 +1,152 @@
+{
+  "schema": "sunny.chinese-native-context-relation.v1",
+  "generated_utc": "2026-11-03T03:02:03.502752+00:00",
+  "source": "sources/zhouli-zhushu22.normalized.txt",
+  "normalization": "HTMLParser data joined by spaces, consecutive whitespace collapsed; glyph spellings retained",
+  "cases": [
+    {
+      "id": "heaven",
+      "quote": "凡樂圜鍾為宮黄鍾為角大蔟為徴姑洗為羽",
+      "start_offset": 16679,
+      "end_offset": 16697,
+      "quote_sha256": "cbf54728a7828e189815df9a0a6e10bcc9a3d207a7dbb6125964b92c15c03075",
+      "roles": [
+        {
+          "pitch_standard_label": "圜鍾",
+          "role_label": "宮"
+        },
+        {
+          "pitch_standard_label": "黄鍾",
+          "role_label": "角"
+        },
+        {
+          "pitch_standard_label": "大蔟",
+          "role_label": "徴"
+        },
+        {
+          "pitch_standard_label": "姑洗",
+          "role_label": "羽"
+        }
+      ],
+      "scope": "Received ritual prescription in this textual witness; efficacy and historical realization not thereby verified"
+    },
+    {
+      "id": "earth",
+      "quote": "凡樂函鍾為宮大蔟為角姑洗為徴南呂為羽",
+      "start_offset": 16739,
+      "end_offset": 16757,
+      "quote_sha256": "55eb98259e66dc187aee0ca4b8edd752bcaa4cf59217ca0b2b96013c90611a03",
+      "roles": [
+        {
+          "pitch_standard_label": "函鍾",
+          "role_label": "宮"
+        },
+        {
+          "pitch_standard_label": "大蔟",
+          "role_label": "角"
+        },
+        {
+          "pitch_standard_label": "姑洗",
+          "role_label": "徴"
+        },
+        {
+          "pitch_standard_label": "南呂",
+          "role_label": "羽"
+        }
+      ],
+      "scope": "Received ritual prescription in this textual witness; efficacy and historical realization not thereby verified"
+    },
+    {
+      "id": "ancestors",
+      "quote": "凡樂黄鍾為宮大呂為角大蔟為徴應鍾為羽",
+      "start_offset": 16799,
+      "end_offset": 16817,
+      "quote_sha256": "1a0bf7beb3613c4c50cc5f74c2b240d623a119cfa5ccbc7f7507876609018086",
+      "roles": [
+        {
+          "pitch_standard_label": "黄鍾",
+          "role_label": "宮"
+        },
+        {
+          "pitch_standard_label": "大呂",
+          "role_label": "角"
+        },
+        {
+          "pitch_standard_label": "大蔟",
+          "role_label": "徴"
+        },
+        {
+          "pitch_standard_label": "應鍾",
+          "role_label": "羽"
+        }
+      ],
+      "scope": "Received ritual prescription in this textual witness; efficacy and historical realization not thereby verified"
+    }
+  ],
+  "exact_relation": "R is a set of (ritual context, named pitch standard, musical role) triples. This source relation is not a context-free one-to-one label map.",
+  "pitch_labels_to_roles": {
+    "圜鍾": [
+      "宮"
+    ],
+    "黄鍾": [
+      "宮",
+      "角"
+    ],
+    "大蔟": [
+      "徴",
+      "角"
+    ],
+    "姑洗": [
+      "徴",
+      "羽"
+    ],
+    "函鍾": [
+      "宮"
+    ],
+    "南呂": [
+      "羽"
+    ],
+    "大呂": [
+      "角"
+    ],
+    "應鍾": [
+      "羽"
+    ]
+  },
+  "roles_to_pitch_labels": {
+    "宮": [
+      "函鍾",
+      "圜鍾",
+      "黄鍾"
+    ],
+    "角": [
+      "大呂",
+      "大蔟",
+      "黄鍾"
+    ],
+    "徴": [
+      "大蔟",
+      "姑洗"
+    ],
+    "羽": [
+      "南呂",
+      "姑洗",
+      "應鍾"
+    ]
+  },
+  "checks": {
+    "all3_prescriptions_found": true,
+    "huangzhong_has_gong_and_jue": true,
+    "taicu_has_zhi_and_jue": true,
+    "guxi_has_yu_and_zhi": true,
+    "gong_has3_source_assignments": true
+  },
+  "scope_boundaries": [
+    "This does not assign pitch to a spoken Chinese glyph.",
+    "No cross-language phonetic equivalence follows.",
+    "No conversion from ancient length units to Hz is asserted.",
+    "Received prescriptions do not establish one common tuning, one pentatonic mode, original dating, or empirical efficacy.",
+    "No missing shang role is invented to fill the displayed four roles."
+  ],
+  "new_component_contribution": "Turns exact source prescriptions into a reusable context-conditioned relation and identifies lost context as a concrete obstruction to unqualified symbol-to-sound inversion."
+}

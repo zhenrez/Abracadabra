@@ -1,0 +1,130 @@
+{
+  "schema": "sunny.symbol-context-extraction.v1",
+  "created_utc": "2026-11-02T22:05:54.256594+00:00",
+  "source": "sources/elephantine_A3_7_tei.xml",
+  "sha256": "1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25",
+  "scope": "Edition text and editorial annotations only; no reconstructed waveform and no original-glyph collation.",
+  "lines": [
+    {
+      "section": "a",
+      "line": "1",
+      "normalized_text": "אל מראתי שלוה עברכי הושע שלמ לי תנה",
+      "word_or_title_tags": [
+        {
+          "text": "מראתי",
+          "editor_gloss": "my lady"
+        },
+        {
+          "text": "עבר",
+          "editor_gloss": "servant"
+        }
+      ],
+      "restorations": [
+        {
+          "text": "למ לי תנה",
+          "attributes": {
+            "evidence": "previouseditor",
+            "reason": "lost"
+          }
+        }
+      ]
+    },
+    {
+      "section": "b",
+      "line": "1",
+      "normalized_text": "אלהיא כל ישאלו שלמכי בכל עדנ שלמ",
+      "word_or_title_tags": [],
+      "restorations": []
+    },
+    {
+      "section": "a",
+      "line": "2",
+      "normalized_text": "מראי מנחמ שלמ מראתי אביהי שלמ",
+      "word_or_title_tags": [
+        {
+          "text": "מראי",
+          "editor_gloss": "my lord"
+        },
+        {
+          "text": "מראתי",
+          "editor_gloss": "my lady"
+        }
+      ],
+      "restorations": [
+        {
+          "text": "למ",
+          "attributes": {
+            "cert": "high",
+            "evidence": "previouseditor",
+            "reason": "lost"
+          }
+        }
+      ]
+    },
+    {
+      "section": "b",
+      "line": "2",
+      "normalized_text": "הוברתה שלמ תחנומ ויהוישמע שלמ",
+      "word_or_title_tags": [],
+      "restorations": []
+    },
+    {
+      "section": "a",
+      "line": "3",
+      "normalized_text": "משלמת שלמ הצול שלמ",
+      "word_or_title_tags": [],
+      "restorations": []
+    },
+    {
+      "section": "b",
+      "line": "3",
+      "normalized_text": "נ זיעליכי שלמ כלכליה וכעת הושרתי",
+      "word_or_title_tags": [],
+      "restorations": []
+    },
+    {
+      "section": "a",
+      "line": "4",
+      "normalized_text": "ל",
+      "word_or_title_tags": [],
+      "restorations": []
+    },
+    {
+      "section": "b",
+      "line": "4",
+      "normalized_text": "אמר לי יאושלאמר הבה בזהב",
+      "word_or_title_tags": [],
+      "restorations": []
+    },
+    {
+      "section": "b",
+      "line": "vso1",
+      "normalized_text": "אלמראתי שלוה עבדכיהושע בר",
+      "word_or_title_tags": [
+        {
+          "text": "מראתי",
+          "editor_gloss": "my lady"
+        },
+        {
+          "text": "עבד",
+          "editor_gloss": "servant"
+        }
+      ],
+      "restorations": [
+        {
+          "text": "הושע בר",
+          "attributes": {
+            "cert": "high",
+            "evidence": "previouseditor",
+            "reason": "lost"
+          }
+        }
+      ]
+    }
+  ],
+  "first_displayed_character": {
+    "character": "א",
+    "codepoint": "U+05D0"
+  },
+  "important_condition": "Do not silently collapse editorial restoration into visible ink or normalized script into original glyph form."
+}

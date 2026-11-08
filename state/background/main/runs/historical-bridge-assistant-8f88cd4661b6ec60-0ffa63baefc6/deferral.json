@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-74db1014185d4b78967c3d614ace1867.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-bridge-assistant-8f88cd4661b6ec60",
+    "kind": "source_forensics",
+    "track": "bridge",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/8f88cd4661b6ec60ce1fc296464023d53bbaab7badaac7a69bd67d923eba0457/text.txt",
+        "sha256": "8f88cd4661b6ec60ce1fc296464023d53bbaab7badaac7a69bd67d923eba0457",
+        "start_line": 1,
+        "end_line": 19,
+        "source_role": "assistant",
+        "source_id": "da533ab86ed0512c0e249de187155ea2abb8a1ecae2b8b706901d7524938b0af",
+        "message_id": "3867faf00ed88ac1a61882ad0565dad20047e7e5eb1fa2b5004eba6451a1a4e5",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "3867faf00ed88ac1a61882ad0565dad20047e7e5eb1fa2b5004eba6451a1a4e5",
+          "native_id": "17",
+          "conversation_id": "c8c2d0148dcbc524d5480e6117f76e0251aa4708a055fbe0ede567aa7620af4b",
+          "role": "assistant",
+          "content_sha256": "8f88cd4661b6ec60ce1fc296464023d53bbaab7badaac7a69bd67d923eba0457",
+          "source_id": "da533ab86ed0512c0e249de187155ea2abb8a1ecae2b8b706901d7524938b0af",
+          "locator": "lines:5999-6020",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\ChatGPT-Correct Zodiac Mapping-20260903-0828.txt",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Correct Zodiac Mapping-20260903-0828.txt",
+          "source_sha256": "7b1805b5c2dd7337be21b8980e20cd7cfd0abd4eb120e0fd88f49143e750bab0",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "7b1805b5c2dd7337be21b8980e20cd7cfd0abd4eb120e0fd88f49143e750bab0",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/8f88cd4661b6ec60ce1fc296464023d53bbaab7badaac7a69bd67d923eba0457/occurrences-5afdad182ecce77e8777fdc7e0f308f956547f375eb8d96c157f0ee9b45f8356.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-bridge-operation",
+        "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+      },
+      {
+        "id": "native-carrier-relation",
+        "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T21:32:56.078669+00:00"
+}

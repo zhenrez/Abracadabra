@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-6b2bec61dfbc206d",
+  "content_sha256": "6b2bec61dfbc206d11e03619df666dd4265071cdb7d9f7bf6419d412a18752e2",
+  "headers": [
+    "Relationship",
+    "Mechanism",
+    "Exact?"
+  ],
+  "rows": [
+    [
+      "288 → 216 → 144",
+      "SUN multiplication",
+      "Yes"
+    ],
+    [
+      "233 → 377",
+      "Fibonacci addition",
+      "Yes"
+    ],
+    [
+      "377 − 233 = 144",
+      "Difference",
+      "Yes"
+    ],
+    [
+      "216 → 233",
+      "SUN operator",
+      "**No**"
+    ],
+    [
+      "288 → 377",
+      "SUN operator",
+      "**No**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 12985,
+      "line_end": 12991,
+      "char_start": 636754,
+      "char_end": 637024,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Relationship | Mechanism | Exact? |\n|--------|--------|--------|\n| 288 → 216 → 144 | SUN multiplication | Yes |\n| 233 → 377 | Fibonacci addition | Yes |\n| 377 − 233 = 144 | Difference | Yes |\n| 216 → 233 | SUN operator | **No** |\n| 288 → 377 | SUN operator | **No** |\n",
+      "quote_sha256": "5cf289350837c021e96dbe049e7adb3f002c25b83125a38a917a3096b5993a29",
+      "message_id": "5f7f0da3c03f450341c052016f0cb09c3e2a3b25282b6481569ddb36742dd11c",
+      "role": "assistant",
+      "locator": "lines:12985-12991"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

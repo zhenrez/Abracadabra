@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-69e4a45161be2e69",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:45.516932+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685/text.txt",
+        "sha256": "69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "6f4e3f1067753b096dafe655b3fefdb110b6e77a63ad4fbe0b5f2faa7ddc7fb3",
+        "timestamp": "1788391941.079781",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "6f4e3f1067753b096dafe655b3fefdb110b6e77a63ad4fbe0b5f2faa7ddc7fb3",
+          "native_id": "78f8c2cc-d088-470e-9f69-5f61cb25dd2b",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/78f8c2cc-d088-470e-9f69-5f61cb25dd2b/message",
+          "create_time": "1788391941.079781",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685/occurrences-cdb6c0e7a075757bd6a8053a50b848b44d3931bead67013b61956af070efcd30.json",
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"c6c6f2e1-5b5b-4202-a298-66ad8f84bc18\",\"thoughts\":[{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Constructed a Kepler–Fludd sevenfold planetary mapping\"}]}",
+        "quote_sha256": "69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685",
+        "original_bytes": 216,
+        "start_offset": 0,
+        "end_offset": 214
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "9103ed1383109566e0db7e64b9245c80656d402974a7c24c610607c77695fe36",
+        "artifact_id": "35ada6b5-0089-5a48-a7c2-822415679d79",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.64,
+            "refines": 0.19,
+            "supports": 0.17
+          },
+          "winner": "insufficient",
+          "top_probability": 0.64,
+          "margin": 0.45
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 1.0,
+            "refines": 0.0,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 1.0,
+          "margin": 1.0
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.207,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

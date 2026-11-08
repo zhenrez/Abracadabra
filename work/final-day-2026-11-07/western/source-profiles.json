@@ -1,0 +1,50 @@
+{
+  "profiles": {
+    "pythagorean_core": {
+      "status": "EXPLICIT_NATIVE_MATHEMATICAL_PROFILE",
+      "source_ref": "work/unit002/western.py",
+      "selection": "host-selected native exact profile already implemented in Unit002; not a universal historical tuning",
+      "equal_temperament_imposed": false
+    },
+    "greek_tetrachord": {
+      "status": "SOURCE_IDENTIFIED_TRANSLATION_WITH_PROFILE_SPECIFIC_DERIVATION",
+      "source_ref": "https://classics.mit.edu/Plato/timaeus.html",
+      "locator": "Timaeus35b-36b; MIT extraction lines150-152",
+      "edition": "Benjamin Jowett translation, digital edition; manuscript priority not established",
+      "derivation": "tone*tone*limma=4/3; contemporary mode labels not attributed to Plato",
+      "equal_temperament_imposed": false
+    },
+    "modern_modes": {
+      "status": "SOURCE_IDENTIFIED_MODERN_PEDAGOGICAL_PROFILE",
+      "source_ref": "https://viva.pressbooks.pub/openmusictheory/chapter/diatonic-modes/",
+      "locator": "Diatonic Modes, relative rotations and church-mode distinctions",
+      "scope": "mode labels/rotation only; source does not assert chosen exact Pythagorean ratios",
+      "equal_temperament_imposed": false
+    },
+    "fludd_monochord": {
+      "status": "RETRIEVED_LOCAL_IMAGE_WITHOUT_NEW_IMAGE_COLLATION",
+      "source_ref": "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Robert Fludd Philosophia Moyasaica 1638.jpg",
+      "bibliographic_control_url": "https://digital.library.cornell.edu/catalog/ss%3A18168108",
+      "new_online_retrieval": "403 Forbidden; search record is not full image verification",
+      "unresolved": "do not equate local1638image with Cornell1617artifact",
+      "equal_temperament_imposed": false
+    },
+    "kepler_harmony": {
+      "status": "PRESERVED_FROZEN_BRIDGE_HYPOTHESIS",
+      "source_ref": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.json",
+      "scope": "source-reported MI-FA-MI and separate register hypothesis; not newly verified Kepler manuscript",
+      "native_profile_execution": "NOT_EVALUATED",
+      "equal_temperament_imposed": false
+    },
+    "completed_harmony": {
+      "status": "LOCAL_SOURCE_BYTES_RETRIEVED_PROFILE_INTERPRETATION_NOT_EVALUATED",
+      "source_ref": "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Sherer_The_Completed_Harmony.pdf",
+      "scope": "modern comparison independently retained; no automatic ancient attribution or absolute-frequency calibration",
+      "equal_temperament_imposed": false
+    }
+  },
+  "limits": [
+    "Full ancient genera, Fludd diagram transcription, Kepler source-profile dynamics and Completed Harmony comparison remain distinct coverage requirements",
+    "No earlier source was overwritten or certified from a count"
+  ]
+}

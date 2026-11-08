@@ -1,0 +1,157 @@
+{
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "goal": "Complete both supplied G0/G1 engineering lists with every signal preserved, frozen baselines intact and downstream adapters locked",
+  "acceptance": [
+    {
+      "id": "G0",
+      "description": "Lossless matrix, typed evidence, complete migration/provenance, domain controls and signal inventory verified"
+    },
+    {
+      "id": "G1",
+      "description": "Frozen6tests and3demonstrations plus native cases reproduce, no unsupported historical or MDL determination"
+    },
+    {
+      "id": "preservation",
+      "description": "Frozen SUN and existing pipeline sources match, prior receipts preserved, G7 denial passes"
+    },
+    {
+      "id": "handoff",
+      "description": "Fresh machine-readable commands, counts, hashes and readable completion handoff pass documentation checks"
+    }
+  ],
+  "inputs": [
+    "work/unit001/acquire_closeout.py",
+    "work/unit001/checkpoint.py",
+    "work/unit001/closeout_fixtures.py",
+    "work/unit001/complete_lists.py",
+    "work/unit001/contracts.py",
+    "work/unit001/evidence.py",
+    "work/unit001/final_acceptance.py",
+    "work/unit001/historical_extensions.py",
+    "work/unit001/import_closeout_documents.py",
+    "work/unit001/kernel.py",
+    "work/unit001/reconcile_checkpoint.py",
+    "work/unit001/reconcile_current_chat.py",
+    "work/unit001/sefer.py",
+    "work/unit001/test_closeout.py",
+    "work/unit001/test_final_acceptance.py",
+    "work/unit001/test_g0.py",
+    "work/unit001/test_g1.py",
+    "work/unit001/test_historical_extensions.py",
+    "work/unit001/test_kernel.py",
+    "work/unit001/test_list_completion.py",
+    "work/unit001/test_migration_conservation.py",
+    "work/unit001/verify_closeout.py",
+    "work/unit001/verify_reconciliation.py",
+    "work/unit001/frozen",
+    "work/unit001/source-manifest.json",
+    "work/unit001/asset-registry.json",
+    "work/unit001/closeout",
+    "work/unit001/final-acceptance",
+    "work/unit001/list-completion/before",
+    "work/unit001/list-completion/before-manifest.json",
+    "work/unit001/list-completion/spec-audit/requirements-ledger.json",
+    "work/unit001/list-completion/spec-audit/asset-registry-supplement.json",
+    "work/unit001/list-completion/signal-audit/snapshot-index.json",
+    "work/unit001/list-completion/signal-audit/message-readback.json",
+    "work/unit001/list-completion/signal-audit/parent-preview.json",
+    "work/unit001/list-completion/signal-audit/verify_signal_audit.py",
+    "work/unit001/list-completion/resh-source",
+    "src\\algebraic-scalar.ts",
+    "src\\comparison.ts",
+    "src\\contextual-alignment.ts",
+    "src\\geometry.ts",
+    "src\\hierarchy.ts",
+    "src\\law.ts",
+    "src\\native-operators.ts",
+    "src\\prediction.ts",
+    "src\\score.ts",
+    "src\\server.ts",
+    "src\\worker.ts",
+    "work\\ariadne-inverse\\build_dataset.py",
+    "work\\ariadne-inverse\\carrier-statistics.json",
+    "work\\ariadne-inverse\\continuity-save.json",
+    "work\\ariadne-inverse\\dead-nodes.json",
+    "work\\ariadne-inverse\\drift_engine.py",
+    "work\\ariadne-inverse\\extract_carrier.py",
+    "work\\ariadne-inverse\\features.py",
+    "work\\ariadne-inverse\\harmonic-demo.json",
+    "work\\ariadne-inverse\\HARMONIC_VERIFIER.md",
+    "work\\ariadne-inverse\\harmonic_verifier.py",
+    "work\\ariadne-inverse\\inverse.py",
+    "work\\ariadne-inverse\\jev-attempt.json",
+    "work\\ariadne-inverse\\numpy_pipeline.py",
+    "work\\ariadne-inverse\\package_evidence.py",
+    "work\\ariadne-inverse\\permutation-results.json",
+    "work\\ariadne-inverse\\permutation.py",
+    "work\\ariadne-inverse\\PLAN.md",
+    "work\\ariadne-inverse\\proofline-package.json",
+    "work\\ariadne-inverse\\proofline-verification.json",
+    "work\\ariadne-inverse\\README.md",
+    "work\\ariadne-inverse\\residual-heatmap.png",
+    "work\\ariadne-inverse\\residual-results.json",
+    "work\\ariadne-inverse\\residual_analysis.py",
+    "work\\ariadne-inverse\\RESIDUAL_REPORT.md",
+    "work\\ariadne-inverse\\run.py",
+    "work\\ariadne-inverse\\table.json",
+    "work\\ariadne-inverse\\table.tsv",
+    "work\\ariadne-inverse\\test-results.txt",
+    "work\\ariadne-inverse\\test_drift_engine.py",
+    "work\\ariadne-inverse\\test_harmonic_verifier.py",
+    "work\\ariadne-inverse\\test_numpy_pipeline.py",
+    "work\\ariadne-inverse\\test_permutation.py",
+    "work\\ariadne-inverse\\test_pipeline.py",
+    "work\\ariadne-inverse\\test_residual_analysis.py",
+    "work\\ariadne-inverse\\test_vowel_drift.py",
+    "work\\ariadne-inverse\\verification.json",
+    "work\\ariadne-inverse\\verify.py",
+    "work\\ariadne-inverse\\vowel_drift.py",
+    "work/unit001/list-completion/sources",
+    "work/unit001/list-completion/final-independent-review.json",
+    "work/unit001/list-completion/final-independent-review.md"
+  ],
+  "checks": [
+    {
+      "id": "full-acceptance",
+      "criteria": [
+        "G0",
+        "G1",
+        "preservation",
+        "handoff"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/unit001/complete_lists.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "final-documentation",
+      "criteria": [
+        "handoff"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/unit001/complete_lists.py",
+        "--docs"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "independent-review-binding",
+      "criteria": [
+        "G0",
+        "G1"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-c",
+        "from pathlib import Path; import json,hashlib; r=Path('work/unit001'); d=json.loads((r/'list-completion/final-independent-review.json').read_text(encoding='utf-8')); assert not d['open_required_findings']; assert all(hashlib.sha256((r/p).read_bytes()).hexdigest()==v for p,v in d['reviewed_file_hashes'].items()); print('PASS: independent review binds all final reviewed files')"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

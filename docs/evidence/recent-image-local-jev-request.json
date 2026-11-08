@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Find the user's newest80–100account-uploaded images including repeats, using local original-image discovery as one bounded evidence source while the coordinator handles account/browser retrieval.",
+    "observed": "Metadata-only scan of authorized local roots found8550image-file occurrences,40with filesystem creation/modification inOctober28–31Phoenix. Twenty recent files are inDownloads;11are opaque/research-named candidates,7generation-named,2screenshots. No image files were found inCodexattachments. Older exports and generated artifacts remain distinct. All40recent files were SHA256checked, duplicates retained.",
+    "constraints": "Filesystem times are not account upload times; an old local file may have been uploaded recently. Filenames do not determine image content. Do not restrict the search to the earlier20-image package or assume clipboard list screenshots are originals. Do not read credentials, cookies, tokens or browser caches; do not start services, browsers or background workers. Root handles account access.",
+    "acceptance": "A reviewable local metadata inventory with exact paths/time scope/duplicate groups and precise account-matching limits, plus the next bounded local discovery step."
+  },
+  "questions": {
+    "local_next_step": {
+      "type": "choice",
+      "instructions": "Choose the next local discovery action from actual observed metadata, preserving all40recent rows and repeats. This does not judge image content or account completeness.",
+      "criteria": {
+        "match_refs_all_dates": "Match attachment filenames from the preserved recent research transcript against all8550local image names regardless of local dates, and record exact matches/nonmatches before content inspection.",
+        "inspect_recent_candidates": "Inspect the recent opaque/research-named local candidates to identify likely research-chart originals, recording content findings separately from upload provenance. Keep all recent generated/screenshot rows in the inventory."
+      }
+    }
+  }
+}

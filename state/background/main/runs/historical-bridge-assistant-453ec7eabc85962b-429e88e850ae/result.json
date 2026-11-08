@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-453ec7eabc85962b",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:27.652019+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6/text.txt",
+        "sha256": "453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "05aa5acc88f61ce704127d5b9de2b1a825c71e92ca48127bde5d009da7fdfd29",
+        "timestamp": "1788390689.202593",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "05aa5acc88f61ce704127d5b9de2b1a825c71e92ca48127bde5d009da7fdfd29",
+          "native_id": "464e32f9-ee7a-4f1b-95c9-20694558e6a3",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/464e32f9-ee7a-4f1b-95c9-20694558e6a3/message",
+          "create_time": "1788390689.202593",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6/occurrences-ffd5da2c74c27a0521393b8a08e4a41d09fa299bbd251001b4d06e55491d470e.json",
+        "quote": "I’m checking two things separately: **Fludd’s musical/intellectual lineage** and whether “direct apprentice to Dee” is actually supported by the record. If the Dee connection is real, it changes how much independence weight we should give Fludd in our music comparison.",
+        "quote_sha256": "453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6",
+        "original_bytes": 277,
+        "start_offset": 0,
+        "end_offset": 269
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "1f4f3c39eb35e96a1b9992770721d22f0170002ab2757701968e2f6290ba7104",
+        "artifact_id": "6fdbd435-6e54-5065-9923-231ee850ee34",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.79,
+            "refines": 0.19,
+            "supports": 0.02
+          },
+          "winner": "insufficient",
+          "top_probability": 0.79,
+          "margin": 0.6000000000000001
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.99,
+            "refines": 0.01,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 0.99,
+          "margin": 0.98
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.199,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

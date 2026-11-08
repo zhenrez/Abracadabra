@@ -1,0 +1,86 @@
+test_clusters_dead_consonants_and_vowel_profiles (test_controls.NativeControlTests.test_clusters_dead_consonants_and_vowel_profiles) ... FAIL
+test_encoding_candidates_are_not_unique_historical_words (test_controls.NativeControlTests.test_encoding_candidates_are_not_unique_historical_words) ... FAIL
+test_native_articulation_does_not_merge_aspiration_or_retroflexion (test_controls.NativeControlTests.test_native_articulation_does_not_merge_aspiration_or_retroflexion) ... FAIL
+test_raw_and_invalid_inputs (test_controls.NativeControlTests.test_raw_and_invalid_inputs) ... FAIL
+test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) ... 
+  test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='dh\u012bra') ... FAIL
+  test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='m\u0101y\u0101') ... FAIL
+  test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='n\u0101g\u0101') ... FAIL
+  test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='na\u1e6danara') ... FAIL
+
+======================================================================
+FAIL: test_clusters_dead_consonants_and_vowel_profiles (test_controls.NativeControlTests.test_clusters_dead_consonants_and_vowel_profiles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 9, in test_clusters_dead_consonants_and_vowel_profiles
+    self.assertEqual(controls.decode_katapayadi('\u015br\u012b')['number'],2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 2
+
+======================================================================
+FAIL: test_encoding_candidates_are_not_unique_historical_words (test_controls.NativeControlTests.test_encoding_candidates_are_not_unique_historical_words)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 16, in test_encoding_candidates_are_not_unique_historical_words
+    self.assertGreater(len(encoded['candidates']),1)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 not greater than 1
+
+======================================================================
+FAIL: test_native_articulation_does_not_merge_aspiration_or_retroflexion (test_controls.NativeControlTests.test_native_articulation_does_not_merge_aspiration_or_retroflexion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 21, in test_native_articulation_does_not_merge_aspiration_or_retroflexion
+    self.assertEqual(len(records),25)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 25
+
+======================================================================
+FAIL: test_raw_and_invalid_inputs (test_controls.NativeControlTests.test_raw_and_invalid_inputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 30, in test_raw_and_invalid_inputs
+    self.assertEqual(result['number'],29)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 29
+
+======================================================================
+FAIL: test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='dh\u012bra')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 7, in test_source_documented_numbers
+    with self.subTest(text=text):self.assertEqual(controls.decode_katapayadi(text)['number'],number)
+                                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 29
+
+======================================================================
+FAIL: test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='m\u0101y\u0101')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 7, in test_source_documented_numbers
+    with self.subTest(text=text):self.assertEqual(controls.decode_katapayadi(text)['number'],number)
+                                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 15
+
+======================================================================
+FAIL: test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='n\u0101g\u0101')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 7, in test_source_documented_numbers
+    with self.subTest(text=text):self.assertEqual(controls.decode_katapayadi(text)['number'],number)
+                                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 30
+
+======================================================================
+FAIL: test_source_documented_numbers (test_controls.NativeControlTests.test_source_documented_numbers) (text='na\u1e6danara')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\test_controls.py", line 7, in test_source_documented_numbers
+    with self.subTest(text=text):self.assertEqual(controls.decode_katapayadi(text)['number'],number)
+                                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 2010
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=8)

@@ -1,0 +1,74 @@
+{
+  "schema": "sunny.independent-phase-probe-design-review.v1",
+  "checkedAt": "2026-11-08T02:51:01.562645+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "inputSha256": "f2d275c7e516af9a88580494a4af9b05000be62fd22476656cb7ca302dda01b3",
+  "inputPath": "state/delivery-2026-11-07/global-closure/phase-probe-designs.json",
+  "wordOccurrences": 144,
+  "candidateCompletions": 12,
+  "pairsChecked": 10296,
+  "sufficientPairs": 4608,
+  "insufficientPairs": 5688,
+  "criterionMismatches": 0,
+  "entirePublishedSufficientPairSetMatches": true,
+  "singleProbeCanIdentifyAll12": false,
+  "minimumFixedLabelPhaseProbes": 2,
+  "oracle": "Independent direct iteration of R=(5,b), L=(7,s-b) on the72address carrier, followed by equality partitions of the12candidate signatures.",
+  "necessaryConjunctCounterexamples": {
+    "gcdConjunctAlone": {
+      "words": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidates": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "sameObservedPhases": [
+        0,
+        5
+      ]
+    },
+    "determinantConjunctAlone": {
+      "words": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "candidates": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "sameObservedPhases": [
+        2,
+        1
+      ]
+    }
+  },
+  "boundary": "Fixed source/observation phase labels and origin, same optional transitive family only. No actual historical phase observation, unique historical orientation, unrestricted family elimination or full-corpus novelty claim.",
+  "priorArt": "Orbit result already explicit in the recovered sourceatlas4.2; arbitrary two-word sufficient-pair classification is a new bounded execution refinement here, with complete-corpus novelty unestablished."
+}

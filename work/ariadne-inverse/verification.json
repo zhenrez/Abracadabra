@@ -1,0 +1,73 @@
+{
+  "tests": {
+    "returncode": 0,
+    "total": 18,
+    "outcome": "passed",
+    "log": "test-results.txt"
+  },
+  "measured_reproduction": "exact",
+  "table_roundtrip": "exact",
+  "numpy": {
+    "numpy-results-v2": {
+      "shape": [
+        15,
+        36,
+        20
+      ],
+      "geometry_cells": 0,
+      "reproduction": "exact"
+    },
+    "font-proxy-results-v2": {
+      "shape": [
+        15,
+        36,
+        20
+      ],
+      "geometry_cells": 307,
+      "reproduction": "exact"
+    }
+  },
+  "src_unchanged": true,
+  "src_hashes": {
+    "src/algebraic-scalar.ts": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4",
+    "src/comparison.ts": "2b01411c8647debcfb61273f7d0e97b594038026fb93c4176d97b1cfa88672a4",
+    "src/contextual-alignment.ts": "95518d6e7815842f75c944dff8d879a3e26953afb780de62826de29171f6d53d",
+    "src/geometry.ts": "9dcd15de5f6712182b69fd219c6e37ded6af736203138debe76082e95fc40514",
+    "src/hierarchy.ts": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+    "src/law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+    "src/native-operators.ts": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "src/score.ts": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+    "src/server.ts": "0d9e20d86afebdc28901e6bccbe9c2ef7996f86d8acadeb4fb104e857ae6c590",
+    "src/worker.ts": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6"
+  },
+  "files": {
+    "build_dataset.py": "40f8e659bb8934627b0cae8c69540dcd0b98e999583a2dc9f4166619ec35aac7",
+    "continuity-save.json": "87d47f2e62c1e492b38ff821aac2c9e7e90c4e6eb539db8117304d4e3f7481a7",
+    "features.py": "35541b1cb29ac49b68098ba19313b3f8360e0ff91a0a96b7da23b3410186063b",
+    "inverse.py": "05e4f3f59d4011844b82ae652c52b57ab82311a5cf1a4b265c4638cfd64219a5",
+    "jev-attempt.json": "cf38e3e07fc2598ce54bd2f6cb724623b7fc36b7e3df78450358242207b0b79e",
+    "numpy_pipeline.py": "4dd474a74536409ea85f8a49915f4027d5d531d9b53619e4973c40a44deb15cc",
+    "package_evidence.py": "ea3923dc6ff19d8decf8beac8fe3cc7810b113d113d77aa5fb4483e360e9839b",
+    "PLAN.md": "55317775f5a47d2afcf7f8cb4cb8f35cc92c2df60d6bbc92e80e301672f85322",
+    "proofline-verification.json": "683f98549a6e335f039ac9f5bb3d3a2ba0eeb509b34f010ab230177a382bf5ef",
+    "README.md": "7aadc56158d233624ac414d1a71930f2ff20e714c8e949c5464665cef1e53484",
+    "run.py": "c7c7cf13a86965c90e70ab36eb839a826ddffcdf5b57217c55539158b67c21b0",
+    "table.json": "624c039e4d67fd9bb853b64187aeb408060910fe7ea80ab4c56a0dce4c638406",
+    "table.tsv": "370fa2bc71a19412017826725ae41fbd5694b3f65e9ef9433b4d5522a4afbf8f",
+    "test_numpy_pipeline.py": "be240eabf3809b399922f444b06be626665a762a280a952a3f330f7891088cb3",
+    "test_pipeline.py": "50a086550419d017adab5bf3405f41188d2cf52417fa430241eb2acff0d21abf",
+    "verify.py": "3dfcc6ee54e8ccc1b45d86230de9444a8ab336c90ba1049d988eda7fcda70e5e"
+  },
+  "dependencies": {
+    "numpy": "2.2.5",
+    "scipy": "1.16.3",
+    "Pillow": "11.3.0",
+    "fontTools": "4.61.1"
+  },
+  "limitations": [
+    "No actual Jev inference completed",
+    "No historical tracing or joint model fitting",
+    "No Git metadata available"
+  ]
+}

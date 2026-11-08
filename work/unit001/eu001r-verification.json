@@ -1,0 +1,215 @@
+{
+  "tests": [
+    {
+      "name": "unit_tests",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "original_six",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+        "-p",
+        "test_harmonic_verifier.py",
+        "-v"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "unit_test_count": 41,
+  "original_test_count": 6,
+  "full_demo_equal": true,
+  "original_demo_checks": 3,
+  "source_hash": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+  "g0_invariants": {
+    "status": "PASSED",
+    "invariants": [
+      {
+        "id": 1,
+        "name": "15 script groups",
+        "status": "PASS"
+      },
+      {
+        "id": 2,
+        "name": "source order",
+        "status": "PASS"
+      },
+      {
+        "id": 3,
+        "name": "original labels",
+        "status": "PASS"
+      },
+      {
+        "id": 4,
+        "name": "36 addressable slots each",
+        "status": "PASS"
+      },
+      {
+        "id": 5,
+        "name": "381 populated source positions",
+        "status": "PASS"
+      },
+      {
+        "id": 6,
+        "name": "159 explicit empty positions",
+        "status": "PASS"
+      },
+      {
+        "id": 7,
+        "name": "all three fields preserved",
+        "status": "PASS"
+      },
+      {
+        "id": 8,
+        "name": "Unicode scalar fidelity",
+        "status": "PASS"
+      },
+      {
+        "id": 9,
+        "name": "proxy classification",
+        "status": "PASS"
+      },
+      {
+        "id": 10,
+        "name": "no ordinal alignment inferred",
+        "status": "PASS"
+      },
+      {
+        "id": 11,
+        "name": "heterogeneous Old Persian",
+        "status": "PASS"
+      },
+      {
+        "id": 12,
+        "name": "question marks remain unknown",
+        "status": "PASS"
+      },
+      {
+        "id": 13,
+        "name": "alternatives retained",
+        "status": "PASS"
+      },
+      {
+        "id": 14,
+        "name": "genealogy external",
+        "status": "PASS"
+      },
+      {
+        "id": 15,
+        "name": "raw and inferred claims separate",
+        "status": "PASS"
+      },
+      {
+        "id": 16,
+        "name": "no invented attestations",
+        "status": "PASS"
+      },
+      {
+        "id": 17,
+        "name": "reference integrity",
+        "status": "PASS"
+      },
+      {
+        "id": 18,
+        "name": "unique witness primary keys",
+        "status": "PASS"
+      },
+      {
+        "id": 19,
+        "name": "nested immutable maps",
+        "status": "PASS"
+      },
+      {
+        "id": 20,
+        "name": "exact source roundtrip",
+        "status": "PASS"
+      }
+    ]
+  },
+  "source_preserved": true,
+  "syntax_checked": [
+    "checkpoint.py",
+    "contracts.py",
+    "evidence.py",
+    "kernel.py",
+    "reconcile_checkpoint.py",
+    "sefer.py",
+    "test_g0.py",
+    "test_g1.py",
+    "test_kernel.py",
+    "verify_reconciliation.py"
+  ],
+  "dependency_check_exit": 0,
+  "prior_experiments": {
+    "results-v2/measured.json": {
+      "status": "REPORTED BUT NOT REEXECUTED",
+      "sha256": "cd5d6b97f42452c09bc4a2fdeb97ca92e1681a77a69b270554bdecc5834d9cc4"
+    },
+    "carrier-statistics.json": {
+      "status": "REPORTED BUT NOT REEXECUTED",
+      "sha256": "df6d84aa4fbaecdd3ee87d617ca07ce0043b61a5430c09b59c12b066545a327b"
+    },
+    "permutation-results.json": {
+      "status": "REPORTED BUT NOT REEXECUTED",
+      "sha256": "14911fa062aef7b5bb9c5d2919ec87def258a4674bf6938a048bf8e6ebf4c816"
+    },
+    "residual-results.json": {
+      "status": "REPORTED BUT NOT REEXECUTED",
+      "sha256": "f81910727e5d71263120099bc949cff2741a49e44ed7be43f099d6e270186542"
+    },
+    "residual-accounting": {
+      "status": "CONFIRMED BY RECORD RECONCILIATION",
+      "counts": {
+        "compatible": 136,
+        "missing": 159,
+        "unmapped": 234,
+        "unresolved_label": 1,
+        "unknown": 4,
+        "unpredicted_reading": 6
+      },
+      "missing_five": "four unknown values and one unresolved s³"
+    }
+  },
+  "quarantined_claims": [
+    "universal zero residual",
+    "90-degree acoustic vowel rotation",
+    "22-to-28/30 isomorphism",
+    "pure Sabaic/Futhorc permutations",
+    "intentional cryptography from order",
+    "Etruscan unknown equals silence",
+    "universal phoneme-music equivalence"
+  ],
+  "gates": {
+    "G0": "PARTIAL",
+    "G1": "PARTIAL",
+    "G2": "LOCKED",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "blockers": [
+    "Two named prior work-state logs not retrieved in the bounded Desktop/morphiq-one filename search; full authority reconciliation incomplete",
+    "Cross-domain historical samples are explicitly synthetic; source-specific recension and Resh claims not retrieved",
+    "No independent code-review or type-checking tool executed; no new manual Jev architectural decision"
+  ],
+  "verified_checkpoint": "Lossless matrix migration and original Sefer compatibility reproduced; broader EU-001R certification remains partial"
+}

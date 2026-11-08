@@ -1,0 +1,78 @@
+{
+  "id": "alignment-table-dc59705833f65f29",
+  "content_sha256": "dc59705833f65f29b5ce31247261ae5ec4e52306e28be0552175947737cdd9cf",
+  "headers": [
+    "Gap",
+    "Tool",
+    "What it does",
+    "Limitation"
+  ],
+  "rows": [
+    [
+      "**Cross-script numerical values**",
+      "`markomanninen/abnum3`",
+      "Gematria for Greek, Hebrew, Coptic, Aramaic, Syriac, Arabic, Phoenician, Brahmi. Additive and multiplicative.",
+      "Computes values; does not adjudicate intention."
+    ],
+    [
+      "**Gematria with final-letter conventions**",
+      "`KareyPyer/elizabethan-lispies`",
+      "Standard and extended final-letter values (ך=500, ם=600, etc.), notarikon, temurah, Atbash/Albam.",
+      "Common Lisp; not Python."
+    ],
+    [
+      "**Provenance and reception chains**",
+      "`jebboone/deitydb`",
+      "4,130 entities, 7,161 relationships, 638 sources, 137 traditions. Reception chains and cross-traditional parallels as query types.",
+      "Citation-pointer sourcing, not always verbatim. Check, not authority."
+    ],
+    [
+      "**Exact rational intervals**",
+      "`endolith/just_intonation`",
+      "`Interval(4,3)`, `.complement`, `.odd_limit`, `Chord(4,5,6).intervals` → `(Interval(5,4), Interval(3,2))`. Pure Python.",
+      "Just intonation only; no Chinese lü model."
+    ],
+    [
+      "**Graph embedding / subgraph isomorphism**",
+      "`networkx` VF2",
+      "`GraphMatcher.subgraph_is_isomorphic`, `subgraph_is_monomorphic`.",
+      "Needs incidence data as input."
+    ],
+    [
+      "**Certified UNSAT cores**",
+      "`tpt-solutions/tpt-solver`",
+      "Trusted checker kernel separate from search; SAT/UNSAT via LRAT/RUP; LRA via Farkas; `--explain` prints implicated constraints.",
+      "Younger project; requires `cargo install --path`."
+    ],
+    [
+      "**Cantillation sequence data**",
+      "`benemanuel/trop-sequence-finder`",
+      "Cantillation mark order across the entire Tanach (Letteris edition), with equivalence-class collapsing.",
+      "Sequences, not pitches."
+    ],
+    [
+      "**Virahanka / Sanskrit Fibonacci**",
+      "NLTK `virahanka1()`",
+      "Computes Sanskrit meter patterns via the Fibonacci recurrence — an independent historical attestation of $0,1,1,2,3,5,8,13$ as a *counting* operation.",
+      "Does not connect to Sefer."
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 24704,
+      "line_end": 24713,
+      "char_start": 1241820,
+      "char_end": 1243661,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Gap | Tool | What it does | Limitation |\n|---|---|---|---|\n| **Cross-script numerical values** | `markomanninen/abnum3` | Gematria for Greek, Hebrew, Coptic, Aramaic, Syriac, Arabic, Phoenician, Brahmi. Additive and multiplicative. | Computes values; does not adjudicate intention. |\n| **Gematria with final-letter conventions** | `KareyPyer/elizabethan-lispies` | Standard and extended final-letter values (ך=500, ם=600, etc.), notarikon, temurah, Atbash/Albam. | Common Lisp; not Python. |\n| **Provenance and reception chains** | `jebboone/deitydb` | 4,130 entities, 7,161 relationships, 638 sources, 137 traditions. Reception chains and cross-traditional parallels as query types. | Citation-pointer sourcing, not always verbatim. Check, not authority. |\n| **Exact rational intervals** | `endolith/just_intonation` | `Interval(4,3)`, `.complement`, `.odd_limit`, `Chord(4,5,6).intervals` → `(Interval(5,4), Interval(3,2))`. Pure Python. | Just intonation only; no Chinese lü model. |\n| **Graph embedding / subgraph isomorphism** | `networkx` VF2 | `GraphMatcher.subgraph_is_isomorphic`, `subgraph_is_monomorphic`. | Needs incidence data as input. |\n| **Certified UNSAT cores** | `tpt-solutions/tpt-solver` | Trusted checker kernel separate from search; SAT/UNSAT via LRAT/RUP; LRA via Farkas; `--explain` prints implicated constraints. | Younger project; requires `cargo install --path`. |\n| **Cantillation sequence data** | `benemanuel/trop-sequence-finder` | Cantillation mark order across the entire Tanach (Letteris edition), with equivalence-class collapsing. | Sequences, not pitches. |\n| **Virahanka / Sanskrit Fibonacci** | NLTK `virahanka1()` | Computes Sanskrit meter patterns via the Fibonacci recurrence — an independent historical attestation of $0,1,1,2,3,5,8,13$ as a *counting* operation. | Does not connect to Sefer. |\n",
+      "quote_sha256": "9ab6e52cfc2c6edb869a55409a86558e2f32e7918ed1b2e0e41a97c1c3970174",
+      "message_id": "c9a00212ffd07c797ea6832a1a4b6edc290edff45e7a6cd4396c4b465671f2e1",
+      "role": "user",
+      "locator": "lines:24704-24713"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

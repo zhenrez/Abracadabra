@@ -1,0 +1,72 @@
+{
+  "schema": "sun.abracadabra-publication-scope.v1",
+  "destination": "zhenrez/Abracadabra",
+  "destination_visibility": "PUBLIC",
+  "scope_authority": "Root-reported direct user publication authorization plus actual local Jev receipt65: complete_reviewed_work; this classifier makes no remote call",
+  "files_accounted": 34156,
+  "logical_bytes_accounted": 23447451622,
+  "categories": {
+    "COPY_DUPLICATE_PUBLICATION_PARTS": {
+      "files": 831,
+      "logical_bytes": 7119325642,
+      "action": "EXCLUDE_PUBLIC"
+    },
+    "DEPENDENCY_MODEL_INSTALL": {
+      "files": 21979,
+      "logical_bytes": 5984181603,
+      "action": "EXCLUDE_PUBLIC"
+    },
+    "PRIVATE_ACCOUNT_ARCHIVE": {
+      "files": 62,
+      "logical_bytes": 7728904761,
+      "action": "RETAIN_LOCAL_PRIVATE"
+    },
+    "THIRD_PARTY_SOURCE_REVIEW": {
+      "files": 5292,
+      "logical_bytes": 1165610039,
+      "action": "HOLD_FOR_SOURCE_OR_LICENCE_REVIEW"
+    },
+    "PROJECT_AUTHORED_PRODUCT": {
+      "files": 5992,
+      "logical_bytes": 1449429577,
+      "action": "INCLUDE_AFTER_ROOT_PREFLIGHT"
+    }
+  },
+  "immutable_evidence": "Pinned G0 fixtures, frozen Sefer/SUN scientific records and all initial/current mathematical source versions remain include candidates",
+  "local_only_artifacts": [
+    "files.jsonl",
+    "directories.jsonl",
+    "enumeration-errors.jsonl",
+    "summary.json",
+    "publication-plan.LOCAL-ONLY.jsonl",
+    "metadata-gap-observation.LOCAL-ONLY.json",
+    "diagnostics-invalid-scope",
+    "diagnostics-metadata-format"
+  ],
+  "public_safe_artifacts": [
+    "publication-plan.public-redacted.jsonl",
+    "publication-summary.public.json",
+    "inventory_workspace.ps1",
+    "classify_public_scope.ps1",
+    "verify_inventory.ps1",
+    "README.md"
+  ],
+  "include_candidates_over_100MiB": [],
+  "input_inventory_sha256": "26bdf8c3ca3fa0030c111af21dbb59f5c9cdfce8b5099d3a541c7c81c4c1eeef",
+  "local_plan_sha256": "80bdb686976dfeeafcb62d8b99ac5b4e08d590147dbc9bde2efcc9714efd9799",
+  "public_plan_sha256": "0f18b98570994875eb0182a9f01308edd29512ad1defda14b9e08ca2ecfe15a2",
+  "metadata_coverage": {
+    "metadata_errors": 1,
+    "unreadable_subtree_bytes": null,
+    "unreadable_subtree_file_count": null,
+    "gap_status": "One directory exists but enumeration returned UnauthorizedAccessException; no absence or zero-byte inference",
+    "accessible_files_accounted": 34156
+  },
+  "limits": [
+    "Metadata-based inclusion candidates are not a content/secret/licence approval",
+    "Full account exports and private databases remain local even when useful evidence",
+    "No old SUNNY private repository write or rematerialization is authorized",
+    "Unknown/restricted containers are held instead of silently discarded",
+    "Current live-tree inventory has one explicitly unverified access-denied subtree; counts cover accessible metadata, not an atomic complete filesystem snapshot"
+  ]
+}

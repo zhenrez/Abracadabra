@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Validate a Jev-selected isolated CUDA build before changing the currently working CPU route for SUNNY.",
+    "observed": "The same pinned AgentJev weights are used for both devices. CPU service8149 remains active. CUDA installation is in progress for a separate8150 process. Existing recorded root requests contain both low-margin choices and ordinary bounded questions; upstream transport verification has explicit passing/failing synthetic test states.",
+    "constraints": "Freeze the benchmark inputs before viewing GPU outputs. Retain every selected case and full CPU/GPU distribution, output label, usage and latency. Do not claim exact determinism, general calibration or quality parity from a tiny local test. Do not change the default route until a further recorded Jev choice over the actual evidence."
+  },
+  "questions": [
+    {
+      "id": "comparison_protocol",
+      "type": "choice",
+      "question": "Which comparison protocol should validate the separate GPU service?",
+      "options": {
+        "fixed_mixed": "Freeze a mixed suite consisting of the first native runtime request, the first two shared decision-receipt requests, and the upstream passing/failing counterfactual states. Execute each on CPU and GPU, preserve all distributions, changes and timing, and report the small-sample boundary.",
+        "single_request": "Freeze only the first native runtime request and compare it on CPU and GPU, preserving full outputs and timings with the narrow single-workload boundary."
+      }
+    }
+  ]
+}

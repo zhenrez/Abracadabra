@@ -1,0 +1,72 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "glyph-user-f0163b7492474021",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+              "message_id": "0714284afe3de05ebe9e2a1d147feea2051b2e5089fdc29b21aa5ce6746c14b5",
+              "exact_preview": "This blueprint deconstructs the masterful lyrical interplay in the provided Eminem snippet, translating its complex mechanisms into actionable strategies for achieving similar depth in any writing, particularly in rap. This level of craft is rarely accidental; it's the result of deliberate layering across multiple linguistic and conceptual dimensions.\nThe Veracity Blueprint: Mastering Multi-Dimensional Word Interplay\nExcerpt for Analysis: \"...I'm going in like a tampon in this b**** it's a manslaughter. you choir boys can't be no rap gods, in fact you're exact opposite, priests taking your pants off, and you can't hold a candle but even Daniel-san whacks off, you jack offs, you need to come to grips like a handjob....\"\nThis excerpt exemplifies a highly dense, multi-layered approach to lyri",
+              "preview_characters": 800,
+              "full_passage_characters": 14130,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "glyph-user-f0163b7492474021: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "a9cbe227ec3192928a72cc3008aada05e1deb5e3afe4a41c252d42e9e3d2ea12",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.2,
+          "defer": 0.8
+        },
+        "winner": "defer",
+        "top_probability": 0.8,
+        "margin": 0.6000000000000001
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 957,
+      "output_tokens": 34
+    },
+    "network_calls": 1,
+    "latency_ms": 290
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "request_sha256": "0341139167372b4ce98e3254841d9eff95972d9417bc6b46e1de3ed71edd1714",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "handoff": {
+      "type": "choice",
+      "probabilities": {
+        "handoff_explicit_limits": 0.94,
+        "inspect_attribution_again": 0.06
+      },
+      "winner": "handoff_explicit_limits",
+      "top_probability": 0.94,
+      "margin": 0.8799999999999999
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 747,
+    "output_tokens": 44
+  },
+  "network_calls": 1,
+  "latency_ms": 228
+}

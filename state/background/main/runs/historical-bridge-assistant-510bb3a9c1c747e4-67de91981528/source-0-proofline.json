@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:38.800280+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "dedd04b21f511eb6b71cf39c7e6e9ffc06e58d2a868d9d49b575dfc1fa966454"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "2a8b7b54-0809-52a7-a8f8-19cd7525bad8",
+      "source_identity_sha256": "300337561e21208b6e8a3fb0f2bc762dadfa2d4355305bb2396d08c314002ea3",
+      "source_version_id": "4e0a6e22-9833-5dcc-85c3-4a93a2de3515",
+      "version_number": 1,
+      "content": "9/12/2026, 12:00:43 AM\n\nI’m treating this as a source-control problem first, interpretation second: first-edition witnesses only, later editions only as provenance-bearing controls, and the immediate target is the exact Fludd↔Kepler “landing” that explains the mi–fa / comma substitution and what it points to next.\n\nI’m also preserving one correction as a hard constraint: Fludd supplies the monochord geometry; Kepler supplies the corrective mi–fa ratio; the final Yesod→Malkuth move is octave-only, and the two Adams must remain distinct.",
+      "content_sha256": "510bb3a9c1c747e4101129f6742328eb73e4a3116f9c800858a8355cd9bc41d0",
+      "content_length": 541,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "18fef6d97438e3122c1f7d6a94bfa7ff2b61eb095706b6bdd3e57d01cd79bd54"
+    },
+    "chunks": [
+      {
+        "id": "9ebc6534-2f78-52ab-9a5f-e435702be47d",
+        "source_node_hash": "18fef6d97438e3122c1f7d6a94bfa7ff2b61eb095706b6bdd3e57d01cd79bd54",
+        "source_id": "2a8b7b54-0809-52a7-a8f8-19cd7525bad8",
+        "source_version_id": "4e0a6e22-9833-5dcc-85c3-4a93a2de3515",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 541,
+        "start_line": 1,
+        "end_line": 5,
+        "content": "9/12/2026, 12:00:43 AM\n\nI’m treating this as a source-control problem first, interpretation second: first-edition witnesses only, later editions only as provenance-bearing controls, and the immediate target is the exact Fludd↔Kepler “landing” that explains the mi–fa / comma substitution and what it points to next.\n\nI’m also preserving one correction as a hard constraint: Fludd supplies the monochord geometry; Kepler supplies the corrective mi–fa ratio; the final Yesod→Malkuth move is octave-only, and the two Adams must remain distinct.",
+        "content_sha256": "510bb3a9c1c747e4101129f6742328eb73e4a3116f9c800858a8355cd9bc41d0",
+        "node_hash": "365740e60237ac271d2dd316331a78b75fdf0179ac992a736ea49416b6f37817"
+      }
+    ],
+    "citations": [
+      {
+        "id": "fa17455e-044d-5387-bb3e-f1f028b64e53",
+        "source_node_hash": "18fef6d97438e3122c1f7d6a94bfa7ff2b61eb095706b6bdd3e57d01cd79bd54",
+        "chunk_node_hashes": [
+          "365740e60237ac271d2dd316331a78b75fdf0179ac992a736ea49416b6f37817"
+        ],
+        "source_id": "2a8b7b54-0809-52a7-a8f8-19cd7525bad8",
+        "source_version_id": "4e0a6e22-9833-5dcc-85c3-4a93a2de3515",
+        "start_offset": 0,
+        "end_offset": 541,
+        "start_line": 1,
+        "end_line": 5,
+        "quote": "9/12/2026, 12:00:43 AM\n\nI’m treating this as a source-control problem first, interpretation second: first-edition witnesses only, later editions only as provenance-bearing controls, and the immediate target is the exact Fludd↔Kepler “landing” that explains the mi–fa / comma substitution and what it points to next.\n\nI’m also preserving one correction as a hard constraint: Fludd supplies the monochord geometry; Kepler supplies the corrective mi–fa ratio; the final Yesod→Malkuth move is octave-only, and the two Adams must remain distinct.",
+        "quote_sha256": "510bb3a9c1c747e4101129f6742328eb73e4a3116f9c800858a8355cd9bc41d0",
+        "node_hash": "9c8422914cc9cb40960eb4e459b490883cea7eed3e238ec167ba09d576425e1e"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "18fef6d97438e3122c1f7d6a94bfa7ff2b61eb095706b6bdd3e57d01cd79bd54",
+        "365740e60237ac271d2dd316331a78b75fdf0179ac992a736ea49416b6f37817",
+        "9c8422914cc9cb40960eb4e459b490883cea7eed3e238ec167ba09d576425e1e"
+      ],
+      "node_hash": "369b00e5f8a3eafc583d4af702186c7e34d9a86b2c082761221a5a00edbe7ba8"
+    },
+    "artifact": {
+      "id": "12f9b009-cc61-5b6f-bf75-daf1e738b826",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/510bb3a9c1c747e4101129f6742328eb73e4a3116f9c800858a8355cd9bc41d0/text.txt; original SHA256 510bb3a9c1c747e4101129f6742328eb73e4a3116f9c800858a8355cd9bc41d0; physical source lines 1..5. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "369b00e5f8a3eafc583d4af702186c7e34d9a86b2c082761221a5a00edbe7ba8",
+      "citation_node_hashes": [
+        "9c8422914cc9cb40960eb4e459b490883cea7eed3e238ec167ba09d576425e1e"
+      ],
+      "node_hash": "da239dc294123a49df3a30a94a6b5ebf8255f9b921825cc9ecde2222d1cf5ec3"
+    },
+    "review": {
+      "artifact_node_hash": "da239dc294123a49df3a30a94a6b5ebf8255f9b921825cc9ecde2222d1cf5ec3",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:38.800280+00:00",
+      "updated_at": "2026-11-02T01:57:38.800280+00:00",
+      "node_hash": "2db3a76dabc7b1130c4d9d5a419feca48a81e2a39d4a2a19bae38da1d4b9a937"
+    }
+  }
+}

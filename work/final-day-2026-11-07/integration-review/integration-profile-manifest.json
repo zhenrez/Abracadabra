@@ -1,0 +1,132 @@
+{
+  "review_scope": "G2/G3/G4 API integration and native source-role controls; no gate certification by cardinality",
+  "review_files": {
+    "work\\final-day-2026-11-07\\western\\western_model.py": {
+      "sha256": "e6f21237630566a24153a66d0ad7fb63b123d8353b074ff011f45604150923cb",
+      "bytes": 9807,
+      "nul_bytes": 0
+    },
+    "work\\final-day-2026-11-07\\western\\source-profiles.json": {
+      "sha256": "9a01738fb91f9d9cb97870372cd97168abe5a30d94ba478fbe2685f9b0f2f707",
+      "bytes": 2893,
+      "nul_bytes": 0
+    },
+    "work\\final-day-2026-11-07\\native-east\\east_models.py": {
+      "sha256": "cd9eedce0efa35fc1913fc9aedf23404ebd45840eed86ce60905aeb89369ceca",
+      "bytes": 10913,
+      "nul_bytes": 0
+    },
+    "work\\final-day-2026-11-07\\native-east\\source-profiles.json": {
+      "sha256": "e6c857e4ef4636b83483df1f456c18f30abf95708ae53f917ee8bc3854c44e0c",
+      "bytes": 4746,
+      "nul_bytes": 0
+    },
+    "work\\final-day-2026-11-07\\controls.py": {
+      "sha256": "878d55c33c6893c83928aedcbf4c36d131d99ba09ec2d7eb0897a35edc7b2974",
+      "bytes": 4791,
+      "nul_bytes": 0
+    },
+    "work\\final-day-2026-11-07\\integration\\common_models.py": {
+      "sha256": "d9e26ffc1fd66ae237969047343d36d2887bad4fac44c39d319f88fe8212f422",
+      "bytes": 7836,
+      "nul_bytes": 0
+    },
+    "work\\final-day-2026-11-07\\native-east\\native-verification.json": {
+      "sha256": "e89213db0ab37cad12a237c8d1b887ab91ad91b9ed961036f44a61fd541db6d0",
+      "bytes": 8004,
+      "nul_bytes": 0
+    }
+  },
+  "root_fresh_native_east_receipt_readback": "VALID; all listed output hashes matched",
+  "prior_zero_fill": "Root preserved corrupt earlier outputs in diagnostics/zero-filled-agent-outputs; cause not established; not overwritten by this reviewer",
+  "api": {
+    "class": "common_models.CommonOrientation",
+    "construct": "CommonOrientation(native,default_profile_id=None)",
+    "encode": "encode(evidence=None,profile=None) -> Unit001 EncodedModel",
+    "validate": "validate_native(commonencoded) -> NativeValidation",
+    "reconstruct": "reconstruct(partial,constraints=None) -> ReconstructionReceipt",
+    "describe": "describe(encoded,coding_scheme=None) -> DescriptionLength",
+    "coding": "lossless-typed-v1; detailed receipt via description_measurement(encoded); measured conditional literal code plus explicit code/profile/adapter byte charges"
+  },
+  "sources": {
+    "western": "western/source-profiles.json",
+    "chinese_indian": "native-east/source-profiles.json",
+    "sanskrit": "Pāṇinīyaśikṣā modern digital edition, verses17–18 traditional place categories; IAST is not a claim of exact modern IPA"
+  },
+  "native_exact_examples": {
+    "western": {
+      "fifth_times_fourth": "3/2 *4/3 =2",
+      "tetrachord": "9/8 *9/8 *256/243 =4/3",
+      "comma": "531441/524288"
+    },
+    "chinese": {
+      "first_five_lengths": [
+        "1",
+        "2/3",
+        "8/9",
+        "16/27",
+        "64/81"
+      ],
+      "repeated_upper_at_generation_index": 7,
+      "thirteenth_frequency": "531441/524288",
+      "formal_contexts": 60
+    },
+    "indian": {
+      "shadja_allocation": [
+        4,
+        3,
+        2,
+        4,
+        4,
+        3,
+        2
+      ],
+      "madhyama_allocation": [
+        4,
+        3,
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "murchanas": 14,
+      "melakarta": 72,
+      "madhyama_pairs": 36,
+      "frequency_ratios": null
+    }
+  },
+  "findings": [
+    {
+      "id": "API01",
+      "status": "FIXED_IN_OUTER_ADAPTER",
+      "finding": "Western custom encoding and missing profile parameter were not uniform with common protocol"
+    },
+    {
+      "id": "API02",
+      "status": "FIXED_IN_OUTER_ADAPTER",
+      "finding": "Complete source-rebuild comparison also checks unassigned/unmatched fields"
+    },
+    {
+      "id": "SOURCE01",
+      "status": "BOUNDARY_RETAINED",
+      "finding": "Western exact Pythagorean/Greek derived subset does not complete unexecuted Fludd, Kepler, all genera or all tuning witness profiles"
+    },
+    {
+      "id": "SOURCE02",
+      "status": "NO_SERIOUS_ASSIGNMENT_ERROR_FOUND",
+      "finding": "Grāma destination-interval convention and named mūrchanā starts agree with inspected Nāṭyaśāstra28 translation;72moderngrammar separately attributed"
+    },
+    {
+      "id": "SOURCE03",
+      "status": "BOUNDARY_RETAINED",
+      "finding": "25varga rows are traditional IAST category projections; no modern palatal stop/affricate IPA realization or pitch assignment established"
+    }
+  ],
+  "gate_scope": {
+    "G2": "BOUNDED_NATIVE_CORE_VERIFIED; broader source-profile coverage remains NOT_EVALUATED",
+    "G3": "BOUNDED_LUSHI_NATIVE_PROFILE_VERIFIED",
+    "G4": "BOUNDED_GRAMA_AND_MODERN_SAMPURNA_PROFILES_VERIFIED",
+    "historical_cross_orientation": "NOT_CERTIFIED; exact native tests do not by themselves authorize historical G7"
+  }
+}

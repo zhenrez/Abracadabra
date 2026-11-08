@@ -1,0 +1,63 @@
+{
+  "operation": "verify all420parts,6completegzipstreams and6originalbyte hashes without output-file writes",
+  "startedAt": "2026-11-08T02:45:01.198259+00:00",
+  "finishedAt": "2026-11-08T02:46:25.861320+00:00",
+  "exitCode": 0,
+  "result": {
+    "schema": "sunny.large-source-restore.v1",
+    "status": "verified",
+    "verifyOnly": true,
+    "existingFilesOverwritten": false,
+    "files": [
+      {
+        "sourcePath": "data/backups/current-reconstruction-before-20261031T191736387534Z.sqlite",
+        "status": "verified-only",
+        "partsVerified": 120,
+        "gzipBytesVerified": 1006541222,
+        "originalBytesVerified": 2404511744,
+        "originalSha256": "36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb"
+      },
+      {
+        "sourcePath": "data/backups/gaps-before-20261031T012033098903Z.sqlite",
+        "status": "verified-only",
+        "partsVerified": 120,
+        "gzipBytesVerified": 1002577249,
+        "originalBytesVerified": 2401320960,
+        "originalSha256": "e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e"
+      },
+      {
+        "sourcePath": "data/raw/archive/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+        "status": "verified-only",
+        "partsVerified": 4,
+        "gzipBytesVerified": 27574747,
+        "originalBytesVerified": 100675224,
+        "originalSha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba"
+      },
+      {
+        "sourcePath": "data/sunny.sqlite",
+        "status": "verified-only",
+        "partsVerified": 121,
+        "gzipBytesVerified": 1011374520,
+        "originalBytesVerified": 2418573312,
+        "originalSha256": "4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb"
+      },
+      {
+        "sourcePath": "deliverables/SUNNY_Current_Model_2026-10-31.zip",
+        "status": "verified-only",
+        "partsVerified": 26,
+        "gzipBytesVerified": 213947190,
+        "originalBytesVerified": 214173138,
+        "originalSha256": "cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6"
+      },
+      {
+        "sourcePath": "deliverables/SUNNY_Mathematical_Reconstruction_2026-10-31_3d314e8b567a.zip",
+        "status": "verified-only",
+        "partsVerified": 29,
+        "gzipBytesVerified": 236321290,
+        "originalBytesVerified": 236873130,
+        "originalSha256": "8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4"
+      }
+    ]
+  },
+  "stderr": "{\"completedFiles\": 1, \"totalFiles\": 6, \"sourcePath\": \"data/backups/current-reconstruction-before-20261031T191736387534Z.sqlite\", \"status\": \"verified-only\", \"partsVerified\": 120, \"gzipBytesVerified\": 1006541222, \"originalBytesVerified\": 2404511744, \"originalSha256\": \"36cc977df789bc12ef95e9f094046e94daa1f2ebef2d2ca291f05aee8bf9d4eb\"}\n{\"completedFiles\": 2, \"totalFiles\": 6, \"sourcePath\": \"data/backups/gaps-before-20261031T012033098903Z.sqlite\", \"status\": \"verified-only\", \"partsVerified\": 120, \"gzipBytesVerified\": 1002577249, \"originalBytesVerified\": 2401320960, \"originalSha256\": \"e9cd3bb7bd5449feecbe13f8bb4eeb0109b7759f88b1bf16e8b17fc0c0d9961e\"}\n{\"completedFiles\": 3, \"totalFiles\": 6, \"sourcePath\": \"data/raw/archive/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json\", \"status\": \"verified-only\", \"partsVerified\": 4, \"gzipBytesVerified\": 27574747, \"originalBytesVerified\": 100675224, \"originalSha256\": \"dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba\"}\n{\"completedFiles\": 4, \"totalFiles\": 6, \"sourcePath\": \"data/sunny.sqlite\", \"status\": \"verified-only\", \"partsVerified\": 121, \"gzipBytesVerified\": 1011374520, \"originalBytesVerified\": 2418573312, \"originalSha256\": \"4472b728f0b4422ae5b8eafb12684ddb75a4bfd9dfb3192934876ccf0772a0eb\"}\n{\"completedFiles\": 5, \"totalFiles\": 6, \"sourcePath\": \"deliverables/SUNNY_Current_Model_2026-10-31.zip\", \"status\": \"verified-only\", \"partsVerified\": 26, \"gzipBytesVerified\": 213947190, \"originalBytesVerified\": 214173138, \"originalSha256\": \"cfe7a25a9b1b03b124f053cb49fbcdb3b3ec15a2bc9f459ec33c0bc078407be6\"}\n{\"completedFiles\": 6, \"totalFiles\": 6, \"sourcePath\": \"deliverables/SUNNY_Mathematical_Reconstruction_2026-10-31_3d314e8b567a.zip\", \"status\": \"verified-only\", \"partsVerified\": 29, \"gzipBytesVerified\": 236321290, \"originalBytesVerified\": 236873130, \"originalSha256\": \"8d6ba858162eca0f8346116dff3b524858332944e81a6bbb46db516a448403a4\"}\n"
+}

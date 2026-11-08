@@ -1,0 +1,123 @@
+{
+  "id": "M03",
+  "scope": "original_mathematical_output",
+  "requirement": "Generational reconstruction",
+  "acceptance": "Connected executable register with exact inputs, source conditions, units, derivations, counterexamples, alternatives and downstream dependencies at the complete stated scope",
+  "code": [
+    "scripts/reconstruct_generational_constraints.py",
+    "scripts/derive_score_anchors.py"
+  ],
+  "evidence": [
+    {
+      "path": "state/reconstruction/generational-constraints.json",
+      "exists": true,
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+    },
+    {
+      "path": "state/reconstruction/score-anchor-constraints.json",
+      "exists": true,
+      "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab"
+    }
+  ],
+  "status": "CONDITIONAL_CONSTRAINTS_EXECUTABLE",
+  "dependencies": [
+    "G04",
+    "G06",
+    "G11",
+    "G12"
+  ],
+  "remaining": "Complete class transitions, changing breadth, radius/rebound and four-dimensional realization.",
+  "source": {
+    "path": "data/raw/mandate-inputs/99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63/Pasted text.txt",
+    "sha256": "99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63",
+    "bytes": 14948,
+    "character_start": 9203,
+    "character_end": 9230,
+    "byte_start": 9213,
+    "byte_end": 9240,
+    "line_start": 125
+  },
+  "verification_boundary": "Static census plus explicitly attributed existing receipts; final-day root checks must establish current execution.",
+  "source_versions": [
+    {
+      "original_reference": {
+        "path": "state/reconstruction/generational-constraints.json",
+        "exists": true,
+        "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0/content.json",
+        "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 118364,
+        "recovered_from": "state/reconstruction/generational-constraints.json",
+        "observed_source_modified_utc": "2026-10-31T22:01:08.5503621Z",
+        "reported_source_status": null,
+        "reported_source_dates": {
+          "created_utc": "2026-10-31T15:01:08.549225-07:00"
+        },
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0/content.json",
+        "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 118364,
+        "recovered_from": "state/reconstruction/generational-constraints.json",
+        "observed_source_modified_utc": "2026-10-31T22:01:08.5503621Z",
+        "reported_source_status": null,
+        "reported_source_dates": {
+          "created_utc": "2026-10-31T15:01:08.549225-07:00"
+        },
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    },
+    {
+      "original_reference": {
+        "path": "state/reconstruction/score-anchor-constraints.json",
+        "exists": true,
+        "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab"
+      },
+      "initial_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab/content.json",
+        "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 26791,
+        "recovered_from": "state/reconstruction/score-anchor-constraints.json",
+        "observed_source_modified_utc": "2026-11-07T12:52:35.9704782Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "current_version": {
+        "path": "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab/content.json",
+        "sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+        "availability": "VERIFIED_EXACT_BYTES",
+        "bytes": 26791,
+        "recovered_from": "state/reconstruction/score-anchor-constraints.json",
+        "observed_source_modified_utc": "2026-11-07T12:52:35.9704782Z",
+        "reported_source_status": null,
+        "reported_source_dates": {},
+        "capture_check": "BEFORE_HASH_EQUALS_READ_BYTES_EQUALS_AFTER_HASH_EQUALS_SNAPSHOT_HASH"
+      },
+      "version_relation": "UNCHANGED_INITIAL_BYTES",
+      "data_role": "DERIVED_SCIENTIFIC_STATE",
+      "historical_truth": "NOT_EVALUATED_BY_VERSION_CAPTURE",
+      "version_preference": "NO_CANONICAL_OR_SCIENTIFIC_PREFERENCE_ASSERTED"
+    }
+  ],
+  "version_manifest": "work/final-day-2026-11-07/audit/mathematical-source-versions/version-manifest.json",
+  "new_connected_outputs": [
+    "common-encodings.json",
+    "native-description-measurements.json",
+    "mathematical-comparisons.json",
+    "coding-baselines.json",
+    "phonetic-numeric-controls.json"
+  ],
+  "full_research_scope_status": "CONDITIONAL_CONSTRAINTS_EXECUTABLE",
+  "completion_note": "Existing executable source-scoped work is linked; unresolved source/geometry/global-law dependencies remain open"
+}

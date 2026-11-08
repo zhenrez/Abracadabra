@@ -1,0 +1,127 @@
+{
+  "canonical": {
+    "arrays_fresh_equal": [
+      "vector",
+      "mask",
+      "normalized",
+      "scripts",
+      "columns",
+      "cell_ids",
+      "value_state"
+    ],
+    "explicit_adapter": {
+      "archived_locator_sha256": "c5ef4630ed3a85069f232678911a6f17b24c379264da06d19a7ea408639bc84b",
+      "field": "source.path",
+      "new_repository_relative_locator": "work/unit001/frozen/source/matrix-message.txt",
+      "reason": "Relocated checkout; all other logical fields and exact source bytes unchanged"
+    },
+    "geometry": "STRICT_UNAVAILABLE",
+    "payloads_verified": 5,
+    "shape": [
+      15,
+      36,
+      20
+    ],
+    "source_sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+    "whole_logical_sidecar_equal": true
+  },
+  "checked_at_utc": "2026-11-08T22:05:51.261326+00:00",
+  "full_mission_complete": false,
+  "historical_receipts": {
+    "original_proof_reexecuted": false,
+    "original_receipts_rewritten": false,
+    "scope": "HISTORICAL_WINDOWS_SCOPE"
+  },
+  "input_sha256": {
+    "package.json": "6ba892d5af040ae0bc9c4cba79707a523bd456c210f2d0bedefe8df21ef90b0c",
+    "work/ariadne-inverse/carrier-statistics.json": "df6d84aa4fbaecdd3ee87d617ca07ce0043b61a5430c09b59c12b066545a327b",
+    "work/ariadne-inverse/features.py": "35541b1cb29ac49b68098ba19313b3f8360e0ff91a0a96b7da23b3410186063b",
+    "work/ariadne-inverse/numpy_pipeline.py": "4dd474a74536409ea85f8a49915f4027d5d531d9b53619e4973c40a44deb15cc",
+    "work/ariadne-inverse/residual-results.json": "f81910727e5d71263120099bc949cff2741a49e44ed7be43f099d6e270186542",
+    "work/final-day-2026-11-07/audit/deliverables.json": "11b577958d24d3c8109fd6b99c677f69adcf8a220386708ae412b58b28b3b011",
+    "work/final-day-2026-11-07/canonical-features/canonical_features.py": "8767f99ca5999ddd18708708dce6538d2afc78317a07cfb9186cf0870b89f911",
+    "work/final-day-2026-11-07/canonical-features/source-bindings.json": "343e386253ab84f08a4f537dee66bbc4bf13b93e534efd295a15d7948af0b27a",
+    "work/final-day-2026-11-07/comparisons.py": "6029319cfdbe6104fe8d824ecfdf6016b1babeeb5be370866bcc886083505b64",
+    "work/final-day-2026-11-07/controls.py": "878d55c33c6893c83928aedcbf4c36d131d99ba09ec2d7eb0897a35edc7b2974",
+    "work/final-day-2026-11-07/current-deliverables.json": "5daa8f5f168442851b25daa76d354a910620014f1f9cd5ff6c06ea4a4e27c46e",
+    "work/final-day-2026-11-07/dashboard/SUN_ARIADNE_Workbench.html": "c09f302b165c1734535e92a1458a00a29bea1d1fb6fc2b0eacc5cc2eabbf0ced",
+    "work/final-day-2026-11-07/dashboard/browser-verification.json": "32509e2ea84c40c42046b951e8c792424b5472f9dcc28c3b54685dd5ce3b4bbe",
+    "work/final-day-2026-11-07/native-east/native-results.json": "cdd3e8df12e885c35d08fc25056962dbcd577218c8cfa7a756416b49e54e47f3",
+    "work/final-day-2026-11-07/native-east/source-profiles.json": "e6c857e4ef4636b83483df1f456c18f30abf95708ae53f917ee8bc3854c44e0c",
+    "work/final-day-2026-11-07/results/canonical-features-v2/README.md": "7807dc4f4f95e758a65779aa8d069d53ee49357e48d6b582170e9fffa7453c69",
+    "work/final-day-2026-11-07/results/canonical-features-v2/manifest.json": "e37ca20aa2c734793463b4aefeb631718491823d4a4c2a0f0f43b635e6d25c64",
+    "work/final-day-2026-11-07/results/canonical-features-v2/matrix.npz": "d8fa272ecb5697c46fa7d0c2710d7062e63731bbb5b7dd36b4afc699efbba602",
+    "work/final-day-2026-11-07/results/canonical-features-v2/source.tsv": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+    "work/final-day-2026-11-07/results/canonical-features-v2/summary.json": "fb86562cefcc3d37ca407eecb6be74970122f07c3de837d1417426c8507a19c3",
+    "work/final-day-2026-11-07/results/canonical-features-v2/vectors.json": "92aeb68b7729eed75f07828cefbe168d424f997bcde4b30fb7e06b734c41ffa5",
+    "work/final-day-2026-11-07/results/checks/preserved-linguistic-pipeline.json": "c705ba7fa7c7ab7b734ba20b9be267622806d7283d7c215571055f6ec38487b7",
+    "work/final-day-2026-11-07/results/coding-baselines.json": "f2f895924c2cca544cde0d3b3bd27720411b66c3f5be1b5ef47799bb356ef82a",
+    "work/final-day-2026-11-07/results/common-encodings.json": "234fc469e100b3549f2e49e8ebbf4f4fd6ac0bc20cfbe0ec1a537905a15fd4e4",
+    "work/final-day-2026-11-07/results/delivery-receipt.json": "fbf5a6e16af124baf6db97202a250fecef9962d44db22cc9885d6b8df7631161",
+    "work/final-day-2026-11-07/results/eight-outputs/M01.json": "1fa0056c9099da8776e514ef7da52d5aae5b455ee9f23eb89fef981deeb71c82",
+    "work/final-day-2026-11-07/results/eight-outputs/M02.json": "852eff5d9bb8e909cc3ef2ffa6ae2c9415edea41fbcc9dec33c2186249ac6a3a",
+    "work/final-day-2026-11-07/results/eight-outputs/M03.json": "e85ca9d06079f318429a719ba64c57e1fe63ce09ee7851547aa421586c21d626",
+    "work/final-day-2026-11-07/results/eight-outputs/M04.json": "b1e6a2cc9f0eaa5a38a4b82bf1128c4f840e0d482e765fc27dc543dfea47e724",
+    "work/final-day-2026-11-07/results/eight-outputs/M05.json": "48cba889c4a69a87fdcae3a0a35e7b6d15950bbf25104df8e41374195fda9249",
+    "work/final-day-2026-11-07/results/eight-outputs/M06.json": "24a53449811b27ba5ac6e413772728262eb6d19b4859f7ff1d0c2a2eb6188f82",
+    "work/final-day-2026-11-07/results/eight-outputs/M07.json": "df2737ee477afc5424da5e41f9b9828269766d461c631c2be7615c6a12d6cd94",
+    "work/final-day-2026-11-07/results/eight-outputs/M08.json": "349cdd893016fdc6c8e96de9eaa97d4206e6f1b6fcd1f1d8ba4d84c45e6bacb4",
+    "work/final-day-2026-11-07/results/inverse-identifiability.json": "8a9c9f316720b00a83b1080b2d67cf5b8be464fb402732fd132acc035f611ce1",
+    "work/final-day-2026-11-07/results/mathematical-comparisons.json": "1faa22cedc3f6f2e8aae8f8de941175cbbbc1064cfba692b0f45538dc1b222ea",
+    "work/final-day-2026-11-07/results/native-description-measurements.json": "62ba3ee01d03ff328bb8a31ffccb12e50882c68ca09b136c7bb5df5cea1116f2",
+    "work/final-day-2026-11-07/results/original-demonstrations.json": "733336f328c9b76e49bb0046da994a7ee86810091207e80658777f0bdc3175cd",
+    "work/final-day-2026-11-07/results/phonetic-numeric-controls.json": "75b696d3233e2fe98030004d8590172da0d247bd5f22c1c0151a19ce45fc62a5",
+    "work/final-day-2026-11-07/results/western-native.json": "38b7bedbd28a1e801b9dcd58f3056d27b15c3d12323e16ec5234eefc05962120",
+    "work/final-day-2026-11-07/western/source-profiles.json": "9a01738fb91f9d9cb97870372cd97168abe5a30d94ba478fbe2685f9b0f2f707",
+    "work/unit001/evidence.py": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec",
+    "work/unit001/frozen/source/matrix-message.txt": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c"
+  },
+  "inputs_unchanged": true,
+  "repo_root": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout",
+  "requirements": {
+    "count": 106,
+    "locator_adaptations": [
+      {
+        "canonical_relative_reference": "work/ariadne-inverse/carrier-statistics.json",
+        "method": "EXPLICIT_HASH_BOUND_LEGACY_RELATIVE_ALIAS",
+        "requirement_ids": [
+          "INV01",
+          "INV03",
+          "INV04",
+          "INV05",
+          "INV06"
+        ],
+        "source_sha256": "df6d84aa4fbaecdd3ee87d617ca07ce0043b61a5430c09b59c12b066545a327b",
+        "supplied_reference": "work/final-day-2026-11-07/../ariadne-inverse/carrier-statistics.json"
+      },
+      {
+        "canonical_relative_reference": "work/ariadne-inverse/residual-results.json",
+        "method": "EXPLICIT_HASH_BOUND_LEGACY_RELATIVE_ALIAS",
+        "requirement_ids": [
+          "INV01",
+          "INV03",
+          "INV04",
+          "INV05",
+          "INV06"
+        ],
+        "source_sha256": "f81910727e5d71263120099bc949cff2741a49e44ed7be43f099d6e270186542",
+        "supplied_reference": "work/final-day-2026-11-07/../ariadne-inverse/residual-results.json"
+      }
+    ],
+    "original_rows_and_statuses_equal": true,
+    "relative_evidence_references": 31,
+    "status": "PRESERVED",
+    "unverified_references": []
+  },
+  "runtime": {
+    "dependencies": {
+      "numpy": "2.2.5",
+      "scipy": "1.16.3"
+    },
+    "platform": "Windows-11-10.0.26340-SP0",
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "schema": "sun.abracadabra-portable-verification.v1",
+  "scope": "New source derivation and catalog conservation only; no historical truth, plugin/model execution or original-host proof replay",
+  "status": "PASSED"
+}

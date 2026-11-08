@@ -1,0 +1,15 @@
+test_no_output_deadline_is_flagged_even_before_first_completion (tests.background_reliability_test.BackgroundReliability.test_no_output_deadline_is_flagged_even_before_first_completion) ... FAIL
+
+======================================================================
+FAIL: test_no_output_deadline_is_flagged_even_before_first_completion (tests.background_reliability_test.BackgroundReliability.test_no_output_deadline_is_flagged_even_before_first_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\tests\background_reliability_test.py", line 49, in test_no_output_deadline_is_flagged_even_before_first_completion
+    self.assertTrue((self.base/'blocker.json').is_file(),'A first completion cannot be postponed indefinitely without a blocker.')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : A first completion cannot be postponed indefinitely without a blocker.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+FAILED (failures=1)

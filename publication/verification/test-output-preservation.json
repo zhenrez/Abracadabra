@@ -1,0 +1,29 @@
+{
+  "status": "PRESERVED_BOTH_VERSIONS",
+  "files": [
+    {
+      "path": "docs/evidence/native-system-independent-audit.json",
+      "restored_source_sha256": "9505a77788e03fe21c5afe88f4ccc2d18fa4147ca966f23690b46486728b7058",
+      "fresh_test_output_path": "publication/verification/generated-test-reports/docs/evidence/native-system-independent-audit.json",
+      "fresh_test_output_sha256": "cc417e5422e8bf96b4614b612961eaa297a232c660ec39bd1a2f8ff167618584"
+    },
+    {
+      "path": "docs/evidence/native-system-independent-audit.md",
+      "restored_source_sha256": "d41d64a0a6222156c1cc18ccfcc9c55c2e1e6c9a1518a0865ff452ae008a5882",
+      "fresh_test_output_path": "publication/verification/generated-test-reports/docs/evidence/native-system-independent-audit.md",
+      "fresh_test_output_sha256": "8d4a4ed0dc1ff0012766f3c855d57c3092d6ed62ab75a36e1ef6b230cf13d753"
+    },
+    {
+      "path": "state/delivery-2026-11-07/pausal-operations/integration-review/result.json",
+      "restored_source_sha256": "a04fbb4b3db7c799aecf4ee10f00c6fefdb002d607e7b36f322e14f90916ca93",
+      "fresh_test_output_path": "publication/verification/generated-test-reports/state/delivery-2026-11-07/pausal-operations/integration-review/result.json",
+      "fresh_test_output_sha256": "21675c4fbae1ba19cb78918b4808a9082bd1a46b52267d197c332bd6cd90e80a"
+    }
+  ],
+  "methods": [
+    "Exact prior JSON preserved automatically by the native audit test",
+    "Prior markdown deterministically rendered from that complete prior JSON and verified against its recorded source SHA256 before restoration",
+    "Exact reading report recovered from its unchanged original source"
+  ],
+  "boundary": "Fresh full-suite outputs are preserved separately; no original workspace inputs were changed and no failure result was replaced or hidden."
+}

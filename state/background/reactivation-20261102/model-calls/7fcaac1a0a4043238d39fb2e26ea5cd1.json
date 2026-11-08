@@ -1,0 +1,73 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "source-reading-origin-ahh-aum-001",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "sound-letter-question",
+              "statement": "This historical user passage separates concern about English-letter representation in Enochian from exploratory AHH/AUM and correct-sound ideas, and proposes investigating older languages closer to the source; it supplies no measured waveform, fixedHz, phase or musical prescription."
+            },
+            {
+              "id": "fiction-inquiry-boundary",
+              "statement": "The passage explicitly labels its book-series scenarios as fiction while describing the sound/language ideas as intuition and continuing truth-seeking; those narrative scenarios are not established historical findings."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "e622db91dd304e9c7e15ef609e60065420a8d9488781cc0755cfd2700f9a88e6",
+              "exact_preview": "a big problem i always had with enocian was that it was using English letters, and ed Kelley was a shyster who knew kabbala. The first paper I wrote, \"Across the Eras\" (before i knew a lot about what io know now) nievely but still following my intuition, thought the key to SOMETHING was the \"AHH\" or \"AUM\" sound. then when i learned about kabbala and the names i thought i was on the right track. thinking about my theory about sound preceeding light in the universe, and a thought ive had since i was a kid regarding magic and \"secret passwords\" (and watching aladdin as a kid. abracababra) i always thougnt that if maagic was actually real that it was in a large part accomplished through sound, the correct sounds. then, im not sure where i heard it, definitely in more places than one, \"Language",
+              "preview_characters": 800,
+              "full_passage_characters": 1679,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "source-reading-origin-ahh-aum-001: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "325b03c656135d0474733bb25d2cb84656656ce19079bc6434ac867d78b83f98",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.84,
+          "defer": 0.16
+        },
+        "winner": "0",
+        "top_probability": 0.84,
+        "margin": 0.6799999999999999
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 998,
+      "output_tokens": 33
+    },
+    "network_calls": 1,
+    "latency_ms": 220
+  },
+  "budget_ordinal": 4
+}

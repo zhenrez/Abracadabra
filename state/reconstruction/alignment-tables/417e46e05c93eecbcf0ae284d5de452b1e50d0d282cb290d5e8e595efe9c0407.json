@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-417e46e05c93eecb",
+  "content_sha256": "417e46e05c93eecbcf0ae284d5de452b1e50d0d282cb290d5e8e595efe9c0407",
+  "headers": [
+    "Factor",
+    "Mathematical object",
+    "SOL use"
+  ],
+  "rows": [
+    [
+      "**Box-counting dimension** $D(t)$",
+      "Fractal dimension: fit $\\log N(\\epsilon)$ vs $\\log(1/\\epsilon)$",
+      "Validates **Sierpinski tetrahedron** (expected $D=\\log 4/\\log 2=2$), **Sri Yantra** boundary complexity, **primordial axis** self-similarity"
+    ],
+    [
+      "**Tail clustering (KS p, CV)**",
+      "Departure from Poisson equilibrium; event-arrival topology",
+      "Validates whether 72 / 144,000 / 288 counts have **non-random clustering structure** or are arbitrary"
+    ],
+    [
+      "**Hurst exponent** $H(t)$",
+      "R/S persistence: $H>0.5$ persistent, $H=0.5$ random, $H<0.5$ anti-persistent",
+      "Validates whether $0,1,1,2,3,5,8,13$ has **directional persistence** (a \"generative axis\") or is indistinguishable from noise"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 5686,
+      "line_end": 5690,
+      "char_start": 299753,
+      "char_end": 300494,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Factor | Mathematical object | SOL use |\n|---|---|---|\n| **Box-counting dimension** $D(t)$ | Fractal dimension: fit $\\log N(\\epsilon)$ vs $\\log(1/\\epsilon)$ | Validates **Sierpinski tetrahedron** (expected $D=\\log 4/\\log 2=2$), **Sri Yantra** boundary complexity, **primordial axis** self-similarity |\n| **Tail clustering (KS p, CV)** | Departure from Poisson equilibrium; event-arrival topology | Validates whether 72 / 144,000 / 288 counts have **non-random clustering structure** or are arbitrary |\n| **Hurst exponent** $H(t)$ | R/S persistence: $H>0.5$ persistent, $H=0.5$ random, $H<0.5$ anti-persistent | Validates whether $0,1,1,2,3,5,8,13$ has **directional persistence** (a \"generative axis\") or is indistinguishable from noise |\n",
+      "quote_sha256": "e062767c9cdaf0914c11284f724abdaf6fadfa73be0347f37dc10d2d53b6f0d2",
+      "message_id": "1e65995e2e3cbac49bb075cfea1fabbe42d093c53c16e0ed67ac0f32516d0502",
+      "role": "user",
+      "locator": "lines:5686-5690"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

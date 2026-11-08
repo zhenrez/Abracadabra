@@ -1,0 +1,168 @@
+test_actual_scale_error_is_rejected (test_western_model.WesternContractTests.test_actual_scale_error_is_rejected) ... FAIL
+test_all_seven_actual_scale_profiles_validate (test_western_model.WesternContractTests.test_all_seven_actual_scale_profiles_validate) ... FAIL
+test_ambiguous_and_contradictory_reconstruction (test_western_model.WesternContractTests.test_ambiguous_and_contradictory_reconstruction) ... FAIL
+test_evidence_binding_and_identity_tamper (test_western_model.WesternContractTests.test_evidence_binding_and_identity_tamper) ... FAIL
+test_exact_composition_and_nonclosure (test_western_model.WesternContractTests.test_exact_composition_and_nonclosure) ... FAIL
+test_float_inputs_and_unknown_profile_rejected (test_western_model.WesternContractTests.test_float_inputs_and_unknown_profile_rejected) ... FAIL
+test_four_contract_methods_and_empty_input (test_western_model.WesternContractTests.test_four_contract_methods_and_empty_input) ... FAIL
+test_no_foreign_native_model_import (test_western_model.WesternContractTests.test_no_foreign_native_model_import) ... FAIL
+test_register_is_not_projected_away (test_western_model.WesternContractTests.test_register_is_not_projected_away) ... FAIL
+test_rhythm_and_polyphony_preserve_voices (test_western_model.WesternContractTests.test_rhythm_and_polyphony_preserve_voices) ... FAIL
+test_serialization_and_source_profiles (test_western_model.WesternContractTests.test_serialization_and_source_profiles) ... FAIL
+test_tetrachord_residual_and_length_frequency_dual (test_western_model.WesternContractTests.test_tetrachord_residual_and_length_frequency_dual) ... FAIL
+test_unique_missing_pitch_under_configured_mode (test_western_model.WesternContractTests.test_unique_missing_pitch_under_configured_mode) ... FAIL
+
+======================================================================
+FAIL: test_actual_scale_error_is_rejected (test_western_model.WesternContractTests.test_actual_scale_error_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 32, in test_actual_scale_error_is_rejected
+    m=self.api().WesternOrientation();data=self.fixture();data['observations'][3]['ratio']='5/4'
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_all_seven_actual_scale_profiles_validate (test_western_model.WesternContractTests.test_all_seven_actual_scale_profiles_validate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 27, in test_all_seven_actual_scale_profiles_validate
+    m=self.api().WesternOrientation()
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_ambiguous_and_contradictory_reconstruction (test_western_model.WesternContractTests.test_ambiguous_and_contradictory_reconstruction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 74, in test_ambiguous_and_contradictory_reconstruction
+    m=self.api().WesternOrientation()
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_evidence_binding_and_identity_tamper (test_western_model.WesternContractTests.test_evidence_binding_and_identity_tamper)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 37, in test_evidence_binding_and_identity_tamper
+    api=self.api();m=api.WesternOrientation();encoded=m.encode(self.fixture())
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_exact_composition_and_nonclosure (test_western_model.WesternContractTests.test_exact_composition_and_nonclosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 50, in test_exact_composition_and_nonclosure
+    api=self.api();m=api.WesternOrientation()
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_float_inputs_and_unknown_profile_rejected (test_western_model.WesternContractTests.test_float_inputs_and_unknown_profile_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 81, in test_float_inputs_and_unknown_profile_rejected
+    m=self.api().WesternOrientation()
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_four_contract_methods_and_empty_input (test_western_model.WesternContractTests.test_four_contract_methods_and_empty_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 21, in test_four_contract_methods_and_empty_input
+    m=self.api().WesternOrientation()
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_no_foreign_native_model_import (test_western_model.WesternContractTests.test_no_foreign_native_model_import)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 104, in test_no_foreign_native_model_import
+    api=self.api();text=Path(api.__file__).read_text(encoding='utf-8')
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_register_is_not_projected_away (test_western_model.WesternContractTests.test_register_is_not_projected_away)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 43, in test_register_is_not_projected_away
+    api=self.api();m=api.WesternOrientation()
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_rhythm_and_polyphony_preserve_voices (test_western_model.WesternContractTests.test_rhythm_and_polyphony_preserve_voices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 57, in test_rhythm_and_polyphony_preserve_voices
+    api=self.api();m=api.WesternOrientation()
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_serialization_and_source_profiles (test_western_model.WesternContractTests.test_serialization_and_source_profiles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 88, in test_serialization_and_source_profiles
+    api=self.api();m=api.WesternOrientation();a=m.encode(self.fixture())
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_tetrachord_residual_and_length_frequency_dual (test_western_model.WesternContractTests.test_tetrachord_residual_and_length_frequency_dual)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 96, in test_tetrachord_residual_and_length_frequency_dual
+    m=self.api().WesternOrientation()
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+======================================================================
+FAIL: test_unique_missing_pitch_under_configured_mode (test_western_model.WesternContractTests.test_unique_missing_pitch_under_configured_mode)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 67, in test_unique_missing_pitch_under_configured_mode
+    m=self.api().WesternOrientation();values=['1','9/8',None,'4/3','3/2','27/16','243/128']
+      ~~~~~~~~^^
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('western_model'), 'native orientation adapter is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : native orientation adapter is absent
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.041s
+
+FAILED (failures=13)

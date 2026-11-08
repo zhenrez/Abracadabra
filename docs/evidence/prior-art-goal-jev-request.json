@@ -1,0 +1,69 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "user_request": "Add explicit first order research and first and 3/4 research looking for prior art, established positions and solutions. Preserve independent formulation while preventing repeated invention from scratch. Update goals and process; no request to launch a literature investigation now.",
+    "new_goal": "Make first order research and first and 3/4 research explicit, recurring parts of SUNNY. Systematically find prior art, established positions, existing solutions, equivalent formulations, known limitations and counterexamples across the participating domains before committing substantial effort to new derivation or implementation, and revisit that research as the questions develop. Inspect original sources, reproduce applicable results and document their exact fit, assumptions, differences and reuse decision. Preserve independently formulated results and distinguish independent rediscovery from demonstrated novelty. Unsearched or inaccessible literature is not evidence that no prior art exists.",
+    "proposed_policy": {
+      "user_research_labels": [
+        "first order research",
+        "first and 3/4 research"
+      ],
+      "terminology_boundary": "Retain the user's labels. Their expressly stated requirement covers prior art, established positions and existing solutions; no additional tier taxonomy is imposed.",
+      "scope": [
+        "original source witnesses",
+        "foundational and current research",
+        "established and competing positions",
+        "solved analogous or equivalent problems",
+        "musical and mathematical operators, dynamics and geometry",
+        "symbol/sound transmission and grammatical interpretation",
+        "methods, datasets and reusable implementations",
+        "known failures, limitations and counterexamples"
+      ],
+      "scheduling": "For each open problem, establish what is already known and reusable before committing substantial new derivation or implementation. Run independent research and derivation concurrently when useful, with exposure tracked. Search again when the question, constraints or terminology change; reuse documented searches rather than repeat them automatically. This is not a requirement to finish all literature before any investigation.",
+      "query_method": [
+        "Translate internal SUNNY terminology into native disciplinary terminology, structural or mathematical signatures and historical names.",
+        "Search synonyms, alternative spellings and relevant languages; include formulations predating current project nomenclature.",
+        "Use focused concept blocks and Boolean combinations; record repositories, queries, filters, dates, coverage and access gaps.",
+        "Follow references backward to original formulations and forward to extensions, critiques and solutions.",
+        "Read actual primary sources; use secondary sources and search snippets as leads, not as proof."
+      ],
+      "result_record": [
+        "open problem and question version",
+        "search terms, sources searched and access limitations",
+        "exact source identity, version/date, passage and direct link",
+        "source-native result and assumptions",
+        "relation to SUNNY and required adapters",
+        "reproduction or applicability check",
+        "disagreements, residuals and counterexamples",
+        "reuse decision: adopt, adapt, extend, reject with reason, or defer",
+        "remaining search gaps and next discriminating question",
+        "evidence exposure and effects on withheld evaluation"
+      ],
+      "acceptance": "An existing result is a candidate until its assumptions and applicability are checked. Established positions and consensus are reported accurately but do not elect SUNNY's orientation. Preserve source-native relationships and the user's working premises; no arbitrary source weights.",
+      "independence": "Keep independently derived work and literature-derived work separately attributable. Prior-art inspection that exposes a target must be recorded; do not subsequently call that result a blind prediction.",
+      "novelty": "Distinguish known result, independently rediscovered result, applicable adaptation, candidate extension, unresolved gap and not-yet-searched/inaccessible coverage. A failed search alone does not establish novelty.",
+      "team_role": "Prior-art and solution discovery is an explicit function in every investigation. Domain workers search their native literature and methods; cross-domain prior-art work can occupy a specialist slot according to dependencies. Retain four-slot resource accounting and rotate roles without claiming additional simultaneous workers.",
+      "plugin_roles": {
+        "Web Research Assistant": "Question decomposition, primary-source retrieval/evaluation, direct citations and explicit uncertainty.",
+        "Scholar Research": "Search concept blocks, synonyms and Boolean queries, repositories, inclusion/exclusion criteria, backward/forward citation chaining.",
+        "Agent Reach": "Reach relevant public-source channels through available native host/connected tools first; use its CLI only when needed and available. No installation or platform setup is implied.",
+        "DotSpark": "Preserve the user's principle that systematic prior-art research and independent formulation should reinforce each other; not a literature-search engine.",
+        "SuperJev": "Meaningful research direction, applicability and integration decisions; model preferences are not mathematical or historical proof.",
+        "Supermemory": "Retrieve and preserve research decisions, coverage and source-linked continuity; source documents remain authoritative."
+      },
+      "current_turn_scope": "Update goals and the prospective workflow only. No broad prior-art investigation, reconstruction run, team deployment or background launch is being started.",
+      "symbol_first_dependency_preserved": true
+    },
+    "preserved_constraints": "All existing fifteen goals, eight mathematical outputs, symbol/sound/reading dependencies before calendar/zodiac rectification, full simultaneous native Western/Chinese music, scoped adapters, independent prediction evidence and source history. The user cleared the automatic thread goal; do not recreate it."
+  },
+  "questions": {
+    "coverage": {
+      "type": "noul",
+      "instructions": "Does the proposed new goal and process explicitly cover the user-requested external prior art, established positions and solutions across the project rather than only internal archive recovery, including practical reuse and honest unknown search coverage?"
+    },
+    "scope": {
+      "type": "noul",
+      "instructions": "Does the stated proposal preserve independent formulation, the symbol-first dependency and the current goal/process-correction scope without treating a model vote as permission for research deployment?"
+    }
+  }
+}

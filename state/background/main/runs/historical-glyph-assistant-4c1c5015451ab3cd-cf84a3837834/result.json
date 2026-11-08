@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-glyph-assistant-4c1c5015451ab3cd",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:57.184624+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94/text.txt",
+        "sha256": "4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "6eddcd04de4911a57adfe05e6bb64ee187f79bc1f9f43035aced0f6ee004938b",
+        "timestamp": "1785979764.312938",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "6eddcd04de4911a57adfe05e6bb64ee187f79bc1f9f43035aced0f6ee004938b",
+          "native_id": "52ff0a57-d2ff-4586-b3a4-dbc0d14ff580",
+          "conversation_id": "222a6147a651f48414adefa34f5821336c885913b41ad6d3c6ba6b03bb8c7c72",
+          "role": "assistant",
+          "content_sha256": "4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/34/mapping/52ff0a57-d2ff-4586-b3a4-dbc0d14ff580/message",
+          "create_time": "1785979764.312938",
+          "branch_status": "current",
+          "title": "Gospel of Thomas Aramaic Translation",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94/occurrences-afab3e5eecf1f15fa42cece258fce00e169f9ff3cb0bcf2bc0d5a644a2d77276.json",
+        "quote": "The revised structure is settled. Each entry will remain one readable unit rather than a cramped four-column table: the original **Sahidic Coptic**, its Romanized reading guide, the **extant Greek papyrus text and Greek transliteration where preserved**, the Syriac-Aramaic retroversion and its reading guide, then English. Missing Greek will be stated plainly instead of silently reconstructed.",
+        "quote_sha256": "4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94",
+        "original_bytes": 395,
+        "start_offset": 0,
+        "end_offset": 395
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "c7b2d5255b9cb328ec67c2b64f0dd28856cbe75796c476910d9d9098c4439d9e",
+        "artifact_id": "886b0721-23c7-5deb-95fa-f38d0d19de85",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-sound-symbol-map": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.99,
+            "refines": 0.01,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 0.99,
+          "margin": 0.98
+        },
+        "glyph-sound-distinction": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.19,
+            "refines": 0.24,
+            "supports": 0.57
+          },
+          "winner": "supports",
+          "top_probability": 0.57,
+          "margin": 0.32999999999999996
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.196,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

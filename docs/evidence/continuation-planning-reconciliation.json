@@ -1,0 +1,63 @@
+{
+  "schema": "sunny.current-planning-reconciliation.v1",
+  "updated_utc": "2026-11-01T00:04:14.294766+00:00",
+  "prior_queue": {
+    "path": "state/checkpoint-history/before-continuation-queue-143fd5112bcf839a29da803b7a761b2f72387d4923c5301500ec30cac424130b.snapshot",
+    "sha256": "143fd5112bcf839a29da803b7a761b2f72387d4923c5301500ec30cac424130b"
+  },
+  "current_queue": {
+    "path": "state/work-queue.json",
+    "sha256": "4e9e4136747cc0fc660266104d52c3acf4d4a0ffa6ffa1a2eb84f799a4ec545c"
+  },
+  "actual_jev_receipt": {
+    "path": "docs/evidence/continuation-integration-superjev.json",
+    "sha256": "298dae76a5b9bb5e58d2d5c661dbfbe0adb6eec13d591174d7a14658289329b3",
+    "model": "jev-1.14.0",
+    "status": "judged"
+  },
+  "historical_task_statuses_unchanged": true,
+  "historical_conflicts_and_evidence_unchanged": true,
+  "current_math_task_count": 7,
+  "current_executed_unit_count": 8,
+  "current_task_ids": [
+    "CM-001",
+    "CM-002",
+    "CM-003",
+    "CM-004",
+    "CM-005",
+    "CM-006",
+    "CM-007"
+  ],
+  "planning_skill": "HUMMBL Operations0.1.0 work-triage + operating-brief, installed skills read",
+  "plan": {
+    "path": "PLAN.md",
+    "normalized_no_change": true,
+    "single_active_step_percent": 1,
+    "step_percentages": [
+      100,
+      100,
+      1,
+      0,
+      0
+    ],
+    "sha256": "9b01cff2dbe750ad0d7cf2ca13f834cb86112fde4b60f51fea8cc081c8b6205b"
+  },
+  "boundary": "No source/native task history falsely completed; current card supersedes historical bind_native route only as the current operational focus. No task.json/model mutation, external task-system write or persistent service.",
+  "current_hummbl_brief": {
+    "path": "docs/HUMMBL_PLAN.md",
+    "sha256": "c6322f1c03ba264a4e645a494a74ab1eb6eaa07e75c84af9da88a52e886948ab",
+    "current_card": "Current continuation and integration card, October31",
+    "prior_history_retained": true
+  },
+  "validation": {
+    "exit_code": 0,
+    "historical_tasks_identical": true,
+    "historical_source_conflicts_identical": true,
+    "queue_snapshot_matches": true,
+    "executed_unit_hashes_match": 8,
+    "current_math_tasks": 7,
+    "single_active_plan_stage": true,
+    "plan_no_op": true,
+    "services_started": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "sunny.hierarchy-ui-visual-inspection.v1",
+  "html_sha256": "70ac2c48cadc6984c1e4a8486b5de77964c9e830f8edd9b74a35c32902f1e55a",
+  "actual_images_inspected": true,
+  "images": [
+    {
+      "path": "docs/evidence/hierarchy-atlas-baseline-desktop.png",
+      "sha256": "62a6c3bff8b6cc929a1e25e50dfe8250bc1e0a1f46df5222e336059d907752f8"
+    },
+    {
+      "path": "docs/evidence/hierarchy-atlas-baseline-mobile.png",
+      "sha256": "f9ec152b41d2a0506a4320585c1ca6ab1d346074f791de377e0613e085b70457"
+    }
+  ],
+  "observations": [
+    "Desktop: warm light compact header, independent selector strip, source tree and detail columns visible; counts distinguish entity records and generated slots.",
+    "Mobile390px: controls and tree reflow without horizontal overflow; source detail remains below the independently scrollable branch panel.",
+    "The current render uses the baseline hierarchy graph. Musical supplement/combined payload is pending and requires final regeneration/verification."
+  ],
+  "limits": [
+    "No human screen-reader evaluation or complete visual audit of every expanded state."
+  ]
+}

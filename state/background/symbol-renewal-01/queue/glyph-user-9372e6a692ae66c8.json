@@ -1,0 +1,54 @@
+{
+  "id": "glyph-user-9372e6a692ae66c8",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "schema": "sunny.background-job.v1",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/9372e6a692ae66c81e48771489ed652bc793e1a295b1c0c9bc2e1d5563bb28e6/text.txt",
+      "sha256": "9372e6a692ae66c81e48771489ed652bc793e1a295b1c0c9bc2e1d5563bb28e6",
+      "start_line": 1,
+      "end_line": 146,
+      "source_role": "user",
+      "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+      "message_id": "4d79e0a26413ed129dddf94fb88661046e6ed5df890712e14d0dee1d4455bb8f",
+      "origin": {
+        "id": "4d79e0a26413ed129dddf94fb88661046e6ed5df890712e14d0dee1d4455bb8f",
+        "native_id": "bbb21535-c638-4bdf-81d7-984128809f43",
+        "conversation_id": "91d273e245153ef74bb5eb5016b7cac4e0e0a8a1a2c78f7ad2af00807cc59639",
+        "role": "user",
+        "content_sha256": "9372e6a692ae66c81e48771489ed652bc793e1a295b1c0c9bc2e1d5563bb28e6",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "locator": "/36/mapping/bbb21535-c638-4bdf-81d7-984128809f43/message",
+        "create_time": "1786150895.111286",
+        "branch_status": "current",
+        "title": "Stoner Rap Rewrite",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+        "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/9372e6a692ae66c81e48771489ed652bc793e1a295b1c0c9bc2e1d5563bb28e6/occurrences-3a41ee59c35ec56464e11742e860bb38f1b2e8b9a79e0baf23d0c1316a6a701d.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  }
+}

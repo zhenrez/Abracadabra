@@ -1,0 +1,52 @@
+{
+  "id": "alignment-table-d259a8f53bdb173f",
+  "content_sha256": "d259a8f53bdb173f85af548cbaf3020cf77a507b64f7659404a7f66805be0db7",
+  "headers": [
+    "Repo",
+    "Assessment"
+  ],
+  "rows": [
+    [
+      "`endolith/just_intonation`, `Oujox/aulos`, `inegm/jintonic`, `moab-bot/jitools`",
+      "Already covered by `just_intonation`. Jintonic and jitools are additional just-intonation composition tools; no new capability for SUN's ratio work. Aulos supports 12-TET/24-TET/just/Pythagorean but is under active development with changing API."
+    ],
+    [
+      "`pes-innovation-lab/SUBGNN`",
+      "Wraps VF2 and Glasgow Solver for subgraph matching. Useful if networkx VF2 is too slow, but the W72 graph is small (72 vertices) so VF2 should suffice."
+    ],
+    [
+      "`MacCracken/varna`, `shabdakosh`",
+      "Sanskrit phoneme inventories with articulatory features (manner, place, voicing). Relevant to the Sanskrit phonetic bridge, but the \"phonosemantic grounding framework\" with 10-dimensional articulatory coordinates is a research project, not a stable tool."
+    ],
+    [
+      "`darenyew7527/world-mythology-system`",
+      "Chinese-language comparative mythology knowledge graph, 506 entities, 286 claims, 282 evidence entries. Smaller and less source-traceable than DeityDB. Redundant."
+    ],
+    [
+      "`Elena-2024/calculadoracabalistica`, `agent-almanac/kabalist`",
+      "Tree-of-Life calculators and study guides. Visualisation and gematria for personal use, not graph-theoretic analysis of the sefirot/path structure. Not useful for the TOL graph question."
+    ],
+    [
+      "`librosa` intervals",
+      "Has `pythagorean_intervals` and `ji3`/`ji5` generators. Useful if audio synthesis is ever needed, but `just_intonation` is more precise for the pure ratio work."
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 24662,
+      "line_end": 24669,
+      "char_start": 1237361,
+      "char_end": 1238854,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Repo | Assessment |\n|---|---|\n| `endolith/just_intonation`, `Oujox/aulos`, `inegm/jintonic`, `moab-bot/jitools` | Already covered by `just_intonation`. Jintonic and jitools are additional just-intonation composition tools; no new capability for SUN's ratio work. Aulos supports 12-TET/24-TET/just/Pythagorean but is under active development with changing API. |\n| `pes-innovation-lab/SUBGNN` | Wraps VF2 and Glasgow Solver for subgraph matching. Useful if networkx VF2 is too slow, but the W72 graph is small (72 vertices) so VF2 should suffice. |\n| `MacCracken/varna`, `shabdakosh` | Sanskrit phoneme inventories with articulatory features (manner, place, voicing). Relevant to the Sanskrit phonetic bridge, but the \"phonosemantic grounding framework\" with 10-dimensional articulatory coordinates is a research project, not a stable tool. |\n| `darenyew7527/world-mythology-system` | Chinese-language comparative mythology knowledge graph, 506 entities, 286 claims, 282 evidence entries. Smaller and less source-traceable than DeityDB. Redundant. |\n| `Elena-2024/calculadoracabalistica`, `agent-almanac/kabalist` | Tree-of-Life calculators and study guides. Visualisation and gematria for personal use, not graph-theoretic analysis of the sefirot/path structure. Not useful for the TOL graph question. |\n| `librosa` intervals | Has `pythagorean_intervals` and `ji3`/`ji5` generators. Useful if audio synthesis is ever needed, but `just_intonation` is more precise for the pure ratio work. |\n",
+      "quote_sha256": "c20f41a860670e76dcf970cb81a6fb0c95ef54927e49dceeb9488c82df00d5ff",
+      "message_id": "c9a00212ffd07c797ea6832a1a4b6edc290edff45e7a6cd4396c4b465671f2e1",
+      "role": "user",
+      "locator": "lines:24662-24669"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

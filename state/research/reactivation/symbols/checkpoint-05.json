@@ -1,0 +1,21 @@
+{
+  "schema": "sunny.symbol-collation-checkpoint.v1",
+  "created_utc": "2026-11-03T03:52:47.274Z",
+  "new_result": "Cowley1923 printed138/no39 image actually inspected. Rectoline1 prints עבדכי with dalet without restoration brackets at that token; adjacent restored greeting is explicitly bracketed. Footnote also prints עבדכי and interprets it as a polite address, not literal slavery.",
+  "printed_source": {
+    "path": "sources/cowley1923-printed138.jp2",
+    "sha256": "16e8f0eb04301ae6663a29905b4d393cc36bd7a3a3b57a5b893e4218ec534f8d",
+    "archive_member": "aramaicpapyrioff00ahikuoft_jp2/aramaicpapyrioff00ahikuoft_0174.jp2",
+    "crc_matches": true,
+    "receipt": "cowley39-printed-page-receipt.json"
+  },
+  "deduction_changed": "The resh in museumTEI now conflicts with Cowley's visible printed editorial reading as well as CAL andTEIverso. Treat this as a localized normalized-edition discrepancy; the photographic ink still requires independent same-hand collation, and no historical phonetic substitution follows.",
+  "conditional_consequence": "If Cowley's epistolary interpretation applies, this servant expression encodes polite address rather than proving legal enslavement or a personnel/hierarchy membership. For a downstream target, first establish comparable genre and grammar before transferring that interpretation.",
+  "scope_limits": [
+    "Printededitionreading is distinct from host identification of original ink.",
+    "Cowley claims no written date; composition estimates stay separate.",
+    "Original phonetic/vowel/acoustic/musical prescription not established.",
+    "Worker already exposed; no blind result."
+  ],
+  "next_action": "Precisely localize originaltargetword/letter and samehandcontrols, then record a source-image comparison with alternatives. Jev will select the next source-native question after this unit."
+}

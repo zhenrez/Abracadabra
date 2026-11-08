@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-glyph-assistant-1aed05b2719ddfce",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/1aed05b2719ddfce79a8d1f1c1d3cc315297ad6938c4d7d0854401d46776e213/text.txt",
+      "sha256": "1aed05b2719ddfce79a8d1f1c1d3cc315297ad6938c4d7d0854401d46776e213",
+      "start_line": 1,
+      "end_line": 97,
+      "source_role": "assistant",
+      "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+      "message_id": "be2b8593244f88ecb09b65885262d0b7bb3e6d82cdba24aeb5ee683a2c302af1",
+      "timestamp": "1772228864.547362",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "be2b8593244f88ecb09b65885262d0b7bb3e6d82cdba24aeb5ee683a2c302af1",
+        "native_id": "9d6b319b-ed43-44ca-a212-50aa5377b976",
+        "conversation_id": "58bc6f6a98f79ab7773287eccb8b9af8f37b0f9b28dd4f014f5db31835a068e0",
+        "role": "assistant",
+        "content_sha256": "1aed05b2719ddfce79a8d1f1c1d3cc315297ad6938c4d7d0854401d46776e213",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "locator": "/99/mapping/9d6b319b-ed43-44ca-a212-50aa5377b976/message",
+        "create_time": "1772228864.547362",
+        "branch_status": "current",
+        "title": "Bible Ark Origins and Construction",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+        "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/1aed05b2719ddfce79a8d1f1c1d3cc315297ad6938c4d7d0854401d46776e213/occurrences-3308efb5e7b37fd2c227a6e83b79944ecc878b17cfd1a5a9b411acce3e18c0a2.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

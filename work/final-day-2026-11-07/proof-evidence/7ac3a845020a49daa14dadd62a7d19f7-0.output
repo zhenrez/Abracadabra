@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "name": "new-core",
+      "exit_code": 0,
+      "observed_tests": 25
+    },
+    {
+      "name": "common-contracts",
+      "exit_code": 0,
+      "observed_tests": 7
+    },
+    {
+      "name": "adversarial",
+      "exit_code": 0,
+      "observed_tests": 10
+    },
+    {
+      "name": "canonical-features",
+      "exit_code": 0,
+      "observed_tests": 7
+    },
+    {
+      "name": "dashboard",
+      "exit_code": 0,
+      "observed_tests": 7
+    },
+    {
+      "name": "accepted-G0-G1",
+      "exit_code": 0,
+      "observed_tests": 71
+    },
+    {
+      "name": "original-Sefer",
+      "exit_code": 0,
+      "observed_tests": 6
+    },
+    {
+      "name": "preserved-linguistic-pipeline",
+      "exit_code": 0,
+      "observed_tests": 40
+    },
+    {
+      "name": "earlier-four-orientations",
+      "exit_code": 0,
+      "observed_tests": 16
+    },
+    {
+      "name": "western-native",
+      "exit_code": 0,
+      "observed_tests": null
+    },
+    {
+      "name": "east-native",
+      "exit_code": 0,
+      "observed_tests": null
+    }
+  ],
+  "counts": {
+    "positions": 540,
+    "populated": 381,
+    "empty": 159
+  },
+  "gates": {
+    "G0": "PASSED_PRESERVED_ENGINEERING",
+    "G1": "PASSED_PRESERVED_SEFER",
+    "G2": "PASSED_BOUNDED_NATIVE_PROFILE; HISTORICAL_PROFILE_COMPLETENESS_PARTIAL",
+    "G3": "PASSED_BOUNDED_NATIVE_PROFILE",
+    "G4": "PASSED_SEPARATE_BOUNDED_NATIVE_PROFILES",
+    "G5": "PASSED_SOURCE_DEFINED_CONTROLS; NO_ACOUSTIC_OR_HISTORICAL_ROOT_CERTIFICATION",
+    "G6": "MEASURED_CONDITIONAL_CODES; HISTORICAL_CROSS_MODEL_SELECTION_NOT_EVALUATED",
+    "G7": "MATHEMATICAL_CONTROLS_VERIFIED; HISTORICAL_RECONSTRUCTION_LOCKED"
+  },
+  "conditional_compression": {
+    "phonetic_literal_bits": 75252,
+    "phonetic_selected_bits": 21241,
+    "joint_literal_bits": 241722,
+    "joint_selected_bits": 152260
+  },
+  "requirements": 106,
+  "full_mission_complete": false
+}

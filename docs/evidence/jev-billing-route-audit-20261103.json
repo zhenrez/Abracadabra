@@ -1,0 +1,36 @@
+{
+  "schema": "sunny.jev-credential-route-audit.v1",
+  "checked_utc": "2026-11-04T01:29:38.212504+00:00",
+  "user_report": "No API charges recorded in the users provider account; provider-side records not yet inspected by host.",
+  "manual_inference_calls_in_this_audit": 0,
+  "credential_observation": {
+    "process_key_present": true,
+    "windows_current_user_key_present": true,
+    "current_values_match": true,
+    "selected_source_by_inspected_helper": "process_environment if present, otherwise Windows HKCU Environment",
+    "credential_values_or_fingerprints_recorded": false,
+    "historical_used_key_identity_proved": false
+  },
+  "inspected_route": {
+    "helper": "C:/Users/Brend/.codex/plugins/cache/created-by-me-remote/superjev/0.1.3/skills/superjev/scripts/superjev.py",
+    "helper_sha256": "5b40bea47c597e677acc03fbad33be29bf0813dbc9aef911cc45a5da8fbb28b7",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "redirects_followed": false,
+    "fixture_or_injected_transport_used_in_roots_saved_direct_call": false
+  },
+  "current_automatic_hook": {
+    "path": "C:\\Users\\Brend\\.codex\\superjev\\runtime\\6979efd41af83b64e4ab91d864f8100fbb6ae8e84cca51bca534379fdd0bf0de\\71532796a37d38d0a7209d8da2186d8aaa97caed8a35accffc9fa1aa451925ba\\prompt.receipt.json",
+    "sha256": "ec2838bb7629cef0877c07b2a0d439c289bf9419b9738ee278a56875b8542d86",
+    "at_utc": "2026-11-04T01:27:04.345473+00:00",
+    "status": "judged",
+    "model_reported": "jev-1.14.0",
+    "network_calls_local_field": 1,
+    "billing_verified": false
+  },
+  "provider_account_id_verified": false,
+  "provider_usage_ledger_verified": false,
+  "provider_billing_verified": false,
+  "corrected_claim": "Saved responses report Jev decisions; local judged/network_calls metadata alone does not establish billing, account ownership, continuous Jev direction or all substantive work.",
+  "blocker": "No authenticated provider-side account/usage record has been inspected. No explanation for user-reported zero charges has been established.",
+  "project_goal": "Active and incomplete; preserve all16goals/8outputs, no downstream symbol/sound claims promoted."
+}

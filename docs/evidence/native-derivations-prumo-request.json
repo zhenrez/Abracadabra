@@ -1,0 +1,15 @@
+{
+  "state": {"arithmetic_expression": "((81 / 80) * (2187 / 2048)) / (16 / 15)"},
+  "questions": {
+    "residual": {
+      "type": "choice",
+      "instructions": "Which exact ratio equals the complete supplied arithmetic expression?",
+      "criteria": {
+        "retain_twelve_fifths_residual": "531441/524288",
+        "erase_residual": "1",
+        "substitute_syntonic": "81/80"
+      }
+    }
+  },
+  "solvers": ["arithmetic_exact"]
+}

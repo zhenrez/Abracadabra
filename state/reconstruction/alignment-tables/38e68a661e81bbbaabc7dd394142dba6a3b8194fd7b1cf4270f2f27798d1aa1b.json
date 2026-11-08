@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-38e68a661e81bbba",
+  "content_sha256": "38e68a661e81bbbaabc7dd394142dba6a3b8194fd7b1cf4270f2f27798d1aa1b",
+  "headers": [
+    "Interpretation",
+    "Does it change Sabaoth's pitch?",
+    "Consistent with the model?"
+  ],
+  "rows": [
+    [
+      "12-position cycle",
+      "Yes — adds a comma",
+      "**No**"
+    ],
+    [
+      "Register transition",
+      "No — preserves pitch class",
+      "**Yes**"
+    ],
+    [
+      "Immediate (nothing between)",
+      "No",
+      "**Yes**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 27553,
+      "line_end": 27557,
+      "char_start": 1380887,
+      "char_end": 1381145,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Interpretation | Does it change Sabaoth's pitch? | Consistent with the model? |\n|---|---|---|\n| 12-position cycle | Yes — adds a comma | **No** |\n| Register transition | No — preserves pitch class | **Yes** |\n| Immediate (nothing between) | No | **Yes** |\n",
+      "quote_sha256": "1e085d4b825bccc96cc90a0ca7ec5f6121a92a314603a659b485edd4fbb6cada",
+      "message_id": "5aca1dcc829bba94ae7d63ce8fa6c90615a2fed6b385eaf86b7a5b025eebbdb3",
+      "role": "user",
+      "locator": "lines:27553-27557"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

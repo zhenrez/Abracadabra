@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-glyph-user-39b3493c4ca9e24a",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/39b3493c4ca9e24a5ee8fc33353b86b1403c1fe916e531e40bfffd7f141df5a3/text.txt",
+      "sha256": "39b3493c4ca9e24a5ee8fc33353b86b1403c1fe916e531e40bfffd7f141df5a3",
+      "start_line": 1,
+      "end_line": 87,
+      "source_role": "user",
+      "source_id": "d241c06527de53b7aa6bccf511f411038a89150b378ab34226e240469fe11077",
+      "message_id": "5312c9b5dc9d7715b251a19e65465975ec8e590a7a3ce9842be9d867abc8322f",
+      "timestamp": null,
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "5312c9b5dc9d7715b251a19e65465975ec8e590a7a3ce9842be9d867abc8322f",
+        "native_id": "168",
+        "conversation_id": "3136ed6c41ed250af2f3c109da0c58115909215ef2873a34bc17edecc03d55ea",
+        "role": "user",
+        "content_sha256": "39b3493c4ca9e24a5ee8fc33353b86b1403c1fe916e531e40bfffd7f141df5a3",
+        "source_id": "d241c06527de53b7aa6bccf511f411038a89150b378ab34226e240469fe11077",
+        "locator": "lines:43316-43405",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Discuss Boolean Architecture",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\nested\\e052122f15a01299c1e7f975dbd6903bf056814655b88be5ba213e1fcd6aba5d\\supporting_sources\\S00_ChatGPT-Discuss Boolean Architecture-20260902-1401.txt",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Recovery_Full_Bundle.zip!/supporting_sources/S00_ChatGPT-Discuss Boolean Architecture-20260902-1401.txt",
+        "source_sha256": "7cdb8bd73d453244ddf9de51fe0b8dd5ec14d3694cebc2e9f9b5485c0e8f6f02",
+        "source_kind": "nested_library",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "7cdb8bd73d453244ddf9de51fe0b8dd5ec14d3694cebc2e9f9b5485c0e8f6f02",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/39b3493c4ca9e24a5ee8fc33353b86b1403c1fe916e531e40bfffd7f141df5a3/occurrences-c5412434a552e81d3cf85c7c6fd38201af64f46d46a9cd66706321e2c9e6994f.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

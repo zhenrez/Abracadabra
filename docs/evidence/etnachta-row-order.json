@@ -1,0 +1,32 @@
+{
+  "source": "etnachta-paired-notation.json",
+  "decision": "etnachta-design-jev.json",
+  "row_number": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "mercha_present": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "munach_present": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "identity": "row = 4 - Mercha - 2*Munach for these four binary-coded rows",
+  "consequence": "An additive linear pitch drift of d cents per row produces apparent Mercha and Munach effects of -d and -2d cents. Their causal effects cannot be separated from linear order drift by these four rows alone.",
+  "interaction_weights": [
+    1,
+    -1,
+    -1,
+    1
+  ],
+  "interaction": "For aligned log pitches in cents the contrast y1-y2-y3+y4 cancels any additive constant or linear row drift. Nonlinear drift can survive. No pitches assigned to unaligned rows.",
+  "discriminator": "A new rendition with the same four phrases in reverse order changes the sign of the linear order contribution at matched phrases, under equal drift slope across takes. Retain take and performer identity."
+}

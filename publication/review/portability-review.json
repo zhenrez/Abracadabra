@@ -1,0 +1,44 @@
+{
+  "schema": "sun.github-portability-review.v1",
+  "reviewer": "Independent child /root/change_review",
+  "target_requested_by_parent": "https://github.com/zhenrez/Abracadabra",
+  "remote_operations_performed": false,
+  "existing_files_modified": false,
+  "verdict": "REUSE_APPROVED_WITH_PORTABILITY_AND_EXPORT_CONDITIONS",
+  "method": "Installed code-review-and-quality guidance applied; local source inspection and bounded metadata checks. No new Jev or hosted model inference claimed.",
+  "required_changes": [
+    {"id":"publication_authority","priority":"P1","evidence":"README.md says cancelled; docs/publication/REPOSITORY_SCOPE.md describes an older SUNNY target","minimum_action":"Correct current publication guide for the present Abracadabra authorization; preserve older decisions as history"},
+    {"id":"ignored_research_trees","priority":"P1","evidence":".gitignore excludes work/,data/,dist/; final-day imports sibling research trees","minimum_action":"Explicit export inclusion and byte inventory covering final-day/unit001/ariadne-inverse/unit002/four-orientations and their fixtures"},
+    {"id":"dependency_profile_incomplete","priority":"P1","evidence":"requirements-research.txt covers six packages but omits NumPy/SciPy/NetworkX/scikit-learn/fontTools used by the broader delivered code","minimum_action":"Separate final-day runtime and verification dependency profile, pinned from actual observed versions with clean-environment validation"},
+    {"id":"host_bound_verification","priority":"P1","evidence":"Canonical sidecar stores absolute source.path; verify_bindings dereferences it. Browser checker imports a private absolute Playwright cache. Proof contract includes host paths.","minimum_action":"Add a portable adapter/entrypoint and fresh output receipts; preserve archived code/data/receipts unchanged"},
+    {"id":"large_payload_placement","priority":"P1","evidence":"Manifestcomplete six originals420parts; payloadWorkRoot=work/publication/large; archives/large-files absent at root","minimum_action":"Materialize every repositoryPath in publication copy and verify part/stream/original digests using existing restorer"},
+    {"id":"discoverable_offline_entrypoint","priority":"P2","evidence":"Open SUNNY.cmd opens related guide; final-day FINAL_CHECKS links original absolute Windows paths","minimum_action":"Relative-link publication guide connecting existing SUNNY and ARIADNE workbenches, handoff and106-row ledger"}
+  ],
+  "licensing": {
+    "project_root_license": "NOT_FOUND_IN_REVIEWED_TOP_LEVEL_FILES",
+    "upstream_agentjev": "Apache-2.0 license file present",
+    "raw_corpus_redistribution": "NOT_CERTIFIED",
+    "required_boundary": "Retain upstream notices; classify third-party text/image/edition/model rights separately; no automatic blanket license"
+  },
+  "protected_information": {
+    "full_archive_content_scan_performed": false,
+    "credential_clearance_claimed": false,
+    "secret_values_printed": false,
+    "required_boundary": "Parent publication process must account for credential/configuration/private records; redacted copies need distinct identity and preserved local originals"
+  },
+  "recommended_minimum_additive_interface": [
+    "Portable relative-link guide for both offline workbenches",
+    "Repository-relative reproduction wrapper with explicit new output directory and no preserved-result overwrite",
+    "Separated runtime/browser/guard dependency instructions and actual fresh receipts",
+    "Explicit publication inventory and source/license/omission accounting"
+  ],
+  "not_verified": [
+    "Remote visibility, branch, license or write authorization policy",
+    "Fresh-clone execution",
+    "All420 large-part bytes in the proposed publication copy",
+    "Full archive credential/personal-information clearance",
+    "Complete third-party redistribution rights",
+    "Non-Windows operational worker support"
+  ],
+  "scientific_boundary": "Full mission remains incomplete; native bounded passes and publication do not establish historical reconstruction"
+}

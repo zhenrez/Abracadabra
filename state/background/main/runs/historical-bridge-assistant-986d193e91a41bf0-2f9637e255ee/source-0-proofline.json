@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T21:32:59.700932+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "af859fd7de1155fbf3d3e6181a866e40d40a049fa4f7f5c353cebfd1999a0735"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "a9aee8d3-5b1d-5dad-bd06-7ce8c448c838",
+      "source_identity_sha256": "21295c6d459c46f8411fc3bf8d88132c3da0a8de3ae7bdc4d9db3d5d3a8a7663",
+      "source_version_id": "803b4eaa-1f45-5864-b20a-c89918caf2a0",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0bba9165-30c7-41ae-822e-4625cddb263a\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m checking whether Earth is being treated as a missing phase, a central regulator, or a mediating fifth. Fludd’s intermediary structures and Kepler’s Earth-derived harmony may help separate those possibilities.\",\"finished\":true,\"summary\":\"Testing Earth’s exception\"},{\"chunks\":[],\"content\":\"Wait, Earth isn’t simply absent: its three positions overlap Fire’s H3 coset, but with a cyclic phase shift. I’m treating this as a distinct relational role, alongside Earth’s broader associations with center, regulation, and mediation.\",\"finished\":true,\"summary\":\"Resolving Earth’s role\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Resolved Earth’s exceptional role\"}]}",
+      "content_sha256": "986d193e91a41bf0935ee448220264feb563c8ad52344d0a87e8040fcb31c52e",
+      "content_length": 800,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "58cf597f3667d84dca3267010a2ba7d6607069e9bf4a5b19cb3fce75688ea3bb"
+    },
+    "chunks": [
+      {
+        "id": "cb1cd18b-95d8-5380-aa25-796c3f6c0754",
+        "source_node_hash": "58cf597f3667d84dca3267010a2ba7d6607069e9bf4a5b19cb3fce75688ea3bb",
+        "source_id": "a9aee8d3-5b1d-5dad-bd06-7ce8c448c838",
+        "source_version_id": "803b4eaa-1f45-5864-b20a-c89918caf2a0",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 800,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0bba9165-30c7-41ae-822e-4625cddb263a\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m checking whether Earth is being treated as a missing phase, a central regulator, or a mediating fifth. Fludd’s intermediary structures and Kepler’s Earth-derived harmony may help separate those possibilities.\",\"finished\":true,\"summary\":\"Testing Earth’s exception\"},{\"chunks\":[],\"content\":\"Wait, Earth isn’t simply absent: its three positions overlap Fire’s H3 coset, but with a cyclic phase shift. I’m treating this as a distinct relational role, alongside Earth’s broader associations with center, regulation, and mediation.\",\"finished\":true,\"summary\":\"Resolving Earth’s role\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Resolved Earth’s exceptional role\"}]}",
+        "content_sha256": "986d193e91a41bf0935ee448220264feb563c8ad52344d0a87e8040fcb31c52e",
+        "node_hash": "6856bd3d45b58cc723fa3aa89010c0737cfe9f9f9667a6d87b0d17a91b067600"
+      }
+    ],
+    "citations": [
+      {
+        "id": "842cc799-7b15-52a9-91a6-2db54085824b",
+        "source_node_hash": "58cf597f3667d84dca3267010a2ba7d6607069e9bf4a5b19cb3fce75688ea3bb",
+        "chunk_node_hashes": [
+          "6856bd3d45b58cc723fa3aa89010c0737cfe9f9f9667a6d87b0d17a91b067600"
+        ],
+        "source_id": "a9aee8d3-5b1d-5dad-bd06-7ce8c448c838",
+        "source_version_id": "803b4eaa-1f45-5864-b20a-c89918caf2a0",
+        "start_offset": 0,
+        "end_offset": 800,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0bba9165-30c7-41ae-822e-4625cddb263a\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m checking whether Earth is being treated as a missing phase, a central regulator, or a mediating fifth. Fludd’s intermediary structures and Kepler’s Earth-derived harmony may help separate those possibilities.\",\"finished\":true,\"summary\":\"Testing Earth’s exception\"},{\"chunks\":[],\"content\":\"Wait, Earth isn’t simply absent: its three positions overlap Fire’s H3 coset, but with a cyclic phase shift. I’m treating this as a distinct relational role, alongside Earth’s broader associations with center, regulation, and mediation.\",\"finished\":true,\"summary\":\"Resolving Earth’s role\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Resolved Earth’s exceptional role\"}]}",
+        "quote_sha256": "986d193e91a41bf0935ee448220264feb563c8ad52344d0a87e8040fcb31c52e",
+        "node_hash": "4d07c5a4407509cee17dded16e710a6fc4361dca11ee86167afac6c7373c6f3f"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "58cf597f3667d84dca3267010a2ba7d6607069e9bf4a5b19cb3fce75688ea3bb",
+        "6856bd3d45b58cc723fa3aa89010c0737cfe9f9f9667a6d87b0d17a91b067600",
+        "4d07c5a4407509cee17dded16e710a6fc4361dca11ee86167afac6c7373c6f3f"
+      ],
+      "node_hash": "6e5497ea779bbe8603612cc37f326533c52a4cea6d7eefe02d49cf663c317ad5"
+    },
+    "artifact": {
+      "id": "4a625250-b42f-551c-a65d-a2f1279bd5f3",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/986d193e91a41bf0935ee448220264feb563c8ad52344d0a87e8040fcb31c52e/text.txt; original SHA256 986d193e91a41bf0935ee448220264feb563c8ad52344d0a87e8040fcb31c52e; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "6e5497ea779bbe8603612cc37f326533c52a4cea6d7eefe02d49cf663c317ad5",
+      "citation_node_hashes": [
+        "4d07c5a4407509cee17dded16e710a6fc4361dca11ee86167afac6c7373c6f3f"
+      ],
+      "node_hash": "9459607266307dfadd24a27800a53541ed904fecb935eac7cb23fced14337801"
+    },
+    "review": {
+      "artifact_node_hash": "9459607266307dfadd24a27800a53541ed904fecb935eac7cb23fced14337801",
+      "status": "candidate",
+      "created_at": "2026-11-02T21:32:59.700932+00:00",
+      "updated_at": "2026-11-02T21:32:59.700932+00:00",
+      "node_hash": "8fffdbe0e9f5b0248f9721bdd7b38ef4cfce969b851ef1ab09a2a4ebd38a0270"
+    }
+  }
+}

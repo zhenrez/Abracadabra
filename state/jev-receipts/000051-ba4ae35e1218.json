@@ -1,0 +1,87 @@
+{
+  "status": "judged",
+  "sha256": "ba4ae35e121881d92d1bab47978d7152f2afa93439ada183a983e6a86e5e9ba6",
+  "sequence": 51,
+  "previous_sha256": "5c197f03aeaace42e6871b099a0cb4eb035efafd3a9e47634013f9b678f019fe",
+  "purpose": "Lifecycle repeated occupied-port guard failure diagnosis",
+  "completed_at": "2026-10-31T01:55:22.599735+00:00",
+  "request_sha256": "49d336fa28f98f6485f2b0f0de9ac3e9189fb550d01077cf3a27d447f4b818f5",
+  "request": {
+    "state": {
+      "goal": "Prevent duplicate SUNNY launches on an occupied loopback port while preserving unrelated processes.",
+      "observed": "The lifecycle regression confirmed a fixture HTTP endpoint listening, but .NET GetActiveTcpListeners sometimes omitted that port. The launcher then started a second worker, which failed with EADDRINUSE; own cleanup ran. This repeated. Windows listener enumeration also omitted the known live SUNNY loopback app despite its process. Healthy expected HTTP probes remain the first reuse check.",
+      "acceptance": "If a loopback port accepts TCP but lacks the expected HTTP identity, fail without launching or stopping anything. Keep startup serialized, bounded, and local."
+    },
+    "questions": [
+      {
+        "id": "port_guard",
+        "type": "choice",
+        "question": "Which bounded occupancy guard should replace the demonstrated incomplete listener enumeration?",
+        "options": {
+          "targeted_connect": "Attempt a short TCP connect only to 127.0.0.1 and the requested port; an accepted connection or inconclusive timeout prevents launch, and connection refusal permits the serialized launch.",
+          "owner_enumeration": "Use Windows Get-NetTCPConnection owner enumeration as the only occupancy check before launch.",
+          "preserve_enumeration": "Keep .NET GetActiveTcpListeners as the only occupancy guard and rely on post-launch failure cleanup."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "port_guard",
+            "type": "choice",
+            "distribution": {
+              "owner_enumeration": 0.3694087564945221,
+              "preserve_enumeration": 0.46320945024490356,
+              "targeted_connect": 0.16738179326057434
+            },
+            "value": "preserve_enumeration",
+            "description": "Keep .NET GetActiveTcpListeners as the only occupancy guard and rely on post-launch failure cleanup.",
+            "top_probability": 0.46320945024490356,
+            "margin": 0.09380069375038147
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 539,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 231,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 657.44
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "alignment-table-db1ecd73039cefd5",
+  "content_sha256": "db1ecd73039cefd5b5b021d6b7f059981ca932ef05db23658629937e95f82ddd",
+  "headers": [
+    "SOL claim",
+    "Currently",
+    "What `math-to-alpha` would test"
+  ],
+  "rows": [
+    [
+      "Sierpinski tetrahedron is a fractal with dimension 2",
+      "Asserted from $V_n=2\\cdot4^n+2$",
+      "Box-counting on generated coordinates; confirm $D\\approx 2$, not $D\\approx 1$ or 3"
+    ],
+    [
+      "Primordial axis $0,1,1,2,3,5,8,13$ is a \"generative\" sequence",
+      "Asserted",
+      "Hurst exponent; if $H\\approx 1$, persistent; if $H\\approx 0.5$, indistinguishable from random walk"
+    ],
+    [
+      "Sri Yantra 43 regions is a topologically consistent planar graph",
+      "Counted",
+      "Euler characteristic $V-E+F$; box-counting on boundary; Poisson test on region-area distribution"
+    ],
+    [
+      "$W_{72}=\\mathbb{Z}_{12}\\times\\mathbb{Z}_3\\times\\mathbb{Z}_2$ is a torus",
+      "Defined",
+      "Discrete Euler characteristic (should be 0 for torus); Betti numbers $(1,2,1)$"
+    ],
+    [
+      "TOL 8 transition is orientation-reversing",
+      "Candidate",
+      "Transition-matrix determinant; $-\\!1$ = reversing, $+\\!1$ = preserving"
+    ],
+    [
+      "Cross-tradition bridges preserve relationships",
+      "Not tested empirically",
+      "The paper→factor→validate protocol itself: extract the claimed invariant, implement the mapping, test on held-out data, document what fails"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 5696,
+      "line_end": 5703,
+      "char_start": 300773,
+      "char_end": 301895,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| SOL claim | Currently | What `math-to-alpha` would test |\n|---|---|---|\n| Sierpinski tetrahedron is a fractal with dimension 2 | Asserted from $V_n=2\\cdot4^n+2$ | Box-counting on generated coordinates; confirm $D\\approx 2$, not $D\\approx 1$ or 3 |\n| Primordial axis $0,1,1,2,3,5,8,13$ is a \"generative\" sequence | Asserted | Hurst exponent; if $H\\approx 1$, persistent; if $H\\approx 0.5$, indistinguishable from random walk |\n| Sri Yantra 43 regions is a topologically consistent planar graph | Counted | Euler characteristic $V-E+F$; box-counting on boundary; Poisson test on region-area distribution |\n| $W_{72}=\\mathbb{Z}_{12}\\times\\mathbb{Z}_3\\times\\mathbb{Z}_2$ is a torus | Defined | Discrete Euler characteristic (should be 0 for torus); Betti numbers $(1,2,1)$ |\n| TOL 8 transition is orientation-reversing | Candidate | Transition-matrix determinant; $-\\!1$ = reversing, $+\\!1$ = preserving |\n| Cross-tradition bridges preserve relationships | Not tested empirically | The paper→factor→validate protocol itself: extract the claimed invariant, implement the mapping, test on held-out data, document what fails |\n",
+      "quote_sha256": "dcea50e7d21c62b57c9b6afd7c7999b7a018c93043d544e5fe28c33709261b0b",
+      "message_id": "1e65995e2e3cbac49bb075cfea1fabbe42d093c53c16e0ed67ac0f32516d0502",
+      "role": "user",
+      "locator": "lines:5696-5703"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

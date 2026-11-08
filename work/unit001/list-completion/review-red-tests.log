@@ -1,0 +1,35 @@
+test_custom_mapping_keys_cannot_mutate_immutable_record (test_migration_conservation.MigrationConservationTests.test_custom_mapping_keys_cannot_mutate_immutable_record) ... FAIL
+test_migration_preserves_claim_locator_and_dating (test_migration_conservation.MigrationConservationTests.test_migration_preserves_claim_locator_and_dating) ... FAIL
+test_migration_preserves_supplemental_record_identities (test_migration_conservation.MigrationConservationTests.test_migration_preserves_supplemental_record_identities) ... FAIL
+
+======================================================================
+FAIL: test_custom_mapping_keys_cannot_mutate_immutable_record (test_migration_conservation.MigrationConservationTests.test_custom_mapping_keys_cannot_mutate_immutable_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_migration_conservation.py", line 57, in test_custom_mapping_keys_cannot_mutate_immutable_record
+    with self.assertRaises(TypeError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+======================================================================
+FAIL: test_migration_preserves_claim_locator_and_dating (test_migration_conservation.MigrationConservationTests.test_migration_preserves_claim_locator_and_dating)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_migration_conservation.py", line 50, in test_migration_preserves_claim_locator_and_dating
+    self.assertEqual(getattr(claim, 'source_locator', None), g.claims[0].source_locator)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != mappingproxy({'glyph': mappingproxy({'row[298 chars]1})})
+
+======================================================================
+FAIL: test_migration_preserves_supplemental_record_identities (test_migration_conservation.MigrationConservationTests.test_migration_preserves_supplemental_record_identities)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\unit001\test_migration_conservation.py", line 41, in test_migration_preserves_supplemental_record_identities
+    self.assertTrue({'review:date', 'review:edge', 'review:feature'} <= ids)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.123s
+
+FAILED (failures=3)

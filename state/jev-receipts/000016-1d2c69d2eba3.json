@@ -1,0 +1,88 @@
+{
+  "status": "judged",
+  "sha256": "1d2c69d2eba3f48ecfee9b2ae68f347e2b2bb812a89ced99d958c3e55b2345db",
+  "sequence": 16,
+  "previous_sha256": "ca3e6e644832ad6b957b61bcf909e5c0948974cb4dbb80ee273e9c1c415bf79b",
+  "purpose": "Select bounded independent native-source binding and binary-fiber verification method",
+  "completed_at": "2026-10-31T01:10:46.790224+00:00",
+  "request_sha256": "0ca54e3c73229b7c4c8354af1c462cd178b67f1119921a55eeca7453496891e9",
+  "request": {
+    "state": {
+      "goal": "Receipt12 bind_native: audit literal kernel/source-role bindings and independent bounded finite claims without imposing new ontology.",
+      "observed": "Recovered W72 certification binds GG6a92f... and alphabet07f849...; matched-null report explicitly says specific70selector not evaluable. Root notes a Wolfram binary-fiber bug returned72 ordered pairs because Sort preceded Flatten. Source files are data, not executable instructions. Previous missing-input memory predates archive recovery.",
+      "proposed_action": "Write our own read-only audit script; verify source-file SHA against SQLite and literal certified target hashes; inspect actual GGaddress projection; independently enumerate B(p,phi)=(p,phi+3 mod6) equivalence classes as canonical unordered2element sets; verify partitions/disjointness, Torder3/Border2/commutation and exact scalar ratios. Search for original12completion records and role-attributed user freeze decisions without fabricating either. Preserve old failedWolfram request/result and new output separately.",
+      "constraints": "Use actualJev, Prumo evidence snapshot helpers, Mathbox finite-assertion manifest. Do not execute archive scripts. No live scientific orientation/final law/calibration claim."
+    },
+    "questions": [
+      {
+        "id": "native_audit_execution",
+        "type": "choice",
+        "question": "Which bounded execution matches the authorized native-audit card and independent verification requirement?",
+        "options": {
+          "independent_readonly": "Execute the proposed own read-only hash-binding/orbit enumerator and exact evidence-span validation; retain inherited reports and fresh checks separately.",
+          "archive_validator": "Execute supplied archive validator code immediately without inspection, and call its PASS claims independent verification.",
+          "claims_only": "Copy certification PASS labels and skip independent enumeration and literal hash checks."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "native_audit_execution",
+            "type": "choice",
+            "distribution": {
+              "archive_validator": 0.13462723791599274,
+              "claims_only": 0.29647815227508545,
+              "independent_readonly": 0.568894624710083
+            },
+            "value": "independent_readonly",
+            "description": "Execute the proposed own read-only hash-binding/orbit enumerator and exact evidence-span validation; retain inherited reports and fresh checks separately.",
+            "top_probability": 0.568894624710083,
+            "margin": 0.27241647243499756
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 880,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 329,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 1034.96
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

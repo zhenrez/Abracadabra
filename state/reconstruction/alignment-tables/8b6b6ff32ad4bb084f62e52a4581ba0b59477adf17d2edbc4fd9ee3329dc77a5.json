@@ -1,0 +1,39 @@
+{
+  "id": "alignment-table-8b6b6ff32ad4bb08",
+  "content_sha256": "8b6b6ff32ad4bb084f62e52a4581ba0b59477adf17d2edbc4fd9ee3329dc77a5",
+  "headers": [
+    "Candidate",
+    "Predicted \\$C\\$",
+    "Result"
+  ],
+  "rows": [
+    [
+      "\\$B=5\\$",
+      "0",
+      "Excluded by \\$C=2\\$"
+    ],
+    [
+      "\\$B=7\\$",
+      "2",
+      "Retained"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 6029,
+      "line_end": 6032,
+      "char_start": 293175,
+      "char_end": 293403,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Candidate | Predicted \\$C\\$ | Result                | \n| --------- | ----------------- | --------------------- | \n| \\$B=5\\$ | 0                 | Excluded by \\$C=2\\$ | \n| \\$B=7\\$ | 2                 | Retained              | \n",
+      "quote_sha256": "1e8130cc4c554c49a5a2878d30a68fe0756b9d09fb528c04878fc9982e90eff9",
+      "message_id": "e969d6ed6490ac87f0b4dec3895bad4ed88f222c8808d56ac2a1ff1cf34ca394",
+      "role": "user",
+      "locator": "lines:6029-6032"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

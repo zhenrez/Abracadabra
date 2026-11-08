@@ -1,0 +1,126 @@
+{
+  "schema": "sun.four-orientation-checkpoint.v1",
+  "evidence": {
+    "observations": 540,
+    "sources": 17,
+    "byte_roundtrip": true
+  },
+  "native": {
+    "western": {
+      "RL": "1/2",
+      "comma": "531441/524288",
+      "register_retained": true
+    },
+    "chinese": {
+      "contexts": 60,
+      "DU": "8/9",
+      "U_equals_inverse_L": true
+    },
+    "indian": {
+      "melakarta_configurations": 72,
+      "madhyama_pairs": 36,
+      "intonation": {
+        "status": "input_gap",
+        "svara_roles": [
+          "Sa",
+          "Ri",
+          "Ga",
+          "Ma",
+          "Pa",
+          "Dha",
+          "Ni"
+        ],
+        "shruti_count": 22,
+        "ratios": null
+      }
+    },
+    "sefer": {
+      "roots": 22,
+      "gates": 231,
+      "tagged_states": 29,
+      "typed_paths": 32
+    }
+  },
+  "operator_tests": {
+    "R_to_D": {
+      "status": "preserved_on_test_domain",
+      "tested": 2,
+      "residuals": [],
+      "historical_equivalence": false
+    },
+    "RL_to_DU": {
+      "status": "falsified_on_test_domain",
+      "tested": 2,
+      "residuals": [
+        {
+          "input": "1",
+          "source_path": "1/2",
+          "target_path": "8/9"
+        },
+        {
+          "input": "7/11",
+          "source_path": "7/22",
+          "target_path": "56/99"
+        }
+      ],
+      "historical_equivalence": false
+    }
+  },
+  "native_test_exit": 0,
+  "cross_orientation_reconstruction_enabled": false,
+  "unresolved": [
+    "Independent historical adapters",
+    "Source-selected shruti profile",
+    "Primordial/W72 orientation selection",
+    "Actual Jev approval",
+    "Independent historical held-out tests"
+  ],
+  "preservation": {
+    "before": {
+      "src\\algebraic-scalar.ts": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4",
+      "src\\comparison.ts": "2b01411c8647debcfb61273f7d0e97b594038026fb93c4176d97b1cfa88672a4",
+      "src\\contextual-alignment.ts": "95518d6e7815842f75c944dff8d879a3e26953afb780de62826de29171f6d53d",
+      "src\\geometry.ts": "9dcd15de5f6712182b69fd219c6e37ded6af736203138debe76082e95fc40514",
+      "src\\hierarchy.ts": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+      "src\\law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+      "src\\native-operators.ts": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+      "src\\prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+      "src\\score.ts": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+      "src\\server.ts": "0d9e20d86afebdc28901e6bccbe9c2ef7996f86d8acadeb4fb104e857ae6c590",
+      "src\\worker.ts": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+      "state\\task.json": "ca7589489a67011bc88878283926e1d122db8a90b8f614e3fbe78e4c7c9fc83b",
+      "state\\mission.json": "358486f70ac715e4e43126c18660e6996d41600fb07f833cc6815679bc9c9f86",
+      "docs\\HUMMBL_PLAN.md": "77dd1efaa652035bbf162e87abc52fb0ce1b207ce76866c8cb118b8e5dc890e4",
+      "state\\reconstruction\\contextual-alignment.json": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c"
+    },
+    "after": {
+      "src\\algebraic-scalar.ts": "ecbefd113b70ef9717210e0d74681a7287b4ed3ed359e4cfc62e8765337f9fc4",
+      "src\\comparison.ts": "2b01411c8647debcfb61273f7d0e97b594038026fb93c4176d97b1cfa88672a4",
+      "src\\contextual-alignment.ts": "95518d6e7815842f75c944dff8d879a3e26953afb780de62826de29171f6d53d",
+      "src\\geometry.ts": "9dcd15de5f6712182b69fd219c6e37ded6af736203138debe76082e95fc40514",
+      "src\\hierarchy.ts": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+      "src\\law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+      "src\\native-operators.ts": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+      "src\\prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+      "src\\score.ts": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+      "src\\server.ts": "0d9e20d86afebdc28901e6bccbe9c2ef7996f86d8acadeb4fb104e857ae6c590",
+      "src\\worker.ts": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+      "state\\task.json": "ca7589489a67011bc88878283926e1d122db8a90b8f614e3fbe78e4c7c9fc83b",
+      "state\\mission.json": "358486f70ac715e4e43126c18660e6996d41600fb07f833cc6815679bc9c9f86",
+      "docs\\HUMMBL_PLAN.md": "77dd1efaa652035bbf162e87abc52fb0ce1b207ce76866c8cb118b8e5dc890e4",
+      "state\\reconstruction\\contextual-alignment.json": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c"
+    },
+    "unchanged": true
+  },
+  "implementation_hashes": {
+    "build_checkpoint.py": "ff88881f931b12e89a83ceb8673b6aa4d8daa0d4be9edc196465c1b51407030e",
+    "comparison.py": "cdb737902d4726cebcf36f82d67eca4c394e5ce8841fd27c513827ce9126633d",
+    "evidence.py": "566638c02f056031dc436101d132c710baae59064bcd5975016a6b9a72200f3e",
+    "evidence.schema.json": "c794e5823919f6cc2d326ed31bf09310517db83917e6f4739cbe4fe5e47aa5a7",
+    "native_models.py": "e9085c55d560ce92a5c7afd1e9ac20a7efcbdff0506ca4cf10de4245289da217",
+    "PLAN.md": "03e992ab747065099f3f6ab11c18d53f964af2a68805c43374d23bae6695447e",
+    "README.md": "66a5882289dc9e7b7e9b97c5290acca57465dd0824b258a57773827e6904edaa",
+    "test_models.py": "955b4e4059489f0819f0b6208db699bd6b5b16dc448980fb3380899c98b68e29"
+  },
+  "schema_validation": "JSON Schema draft 2020-12 plus hashes and semantic reference checks"
+}

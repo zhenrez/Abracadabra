@@ -1,0 +1,64 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "bridge-scope-literal-claims-003",
+          "kind": "source_forensics",
+          "hypotheses": [
+            {
+              "id": "oct11-control-request",
+              "statement": "In the October 11, 2026 18:06:38 user turn, the user reports using musical structure without Completed Harmony/TOL and asks for a math/music-only rebuilding pass with attributions set aside."
+            },
+            {
+              "id": "oct18-bridge-request",
+              "statement": "In the October 18, 2026 11:18:12 user turn, the user explicitly requests applying the Kepler/Fludd monochord logic from the Completed Harmony paper."
+            },
+            {
+              "id": "latest-context-distinction",
+              "statement": "The latest native user correction says prior models repeatedly lost the distinction between considering/utilizing the Western-and-Chinese music plus Completed Harmony/TOL bridge and holding the bridge aside while testing a new theory."
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "bridge-scope-literal-claims-003: source_forensics",
+          "defer": "Defer this job because its supplied scope does not advance reconstruction safely."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "6254863e532db1e4bc90566ea1d4a01874dab5aed7b797dc604f2cf136f491ab",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.47,
+          "defer": 0.53
+        },
+        "winner": "defer",
+        "top_probability": 0.53,
+        "margin": 0.06000000000000005
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 637,
+      "output_tokens": 34
+    },
+    "network_calls": 1,
+    "latency_ms": 249
+  }
+}

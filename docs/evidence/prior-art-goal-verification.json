@@ -1,0 +1,107 @@
+{
+  "schema": "sunny.prior-art-goal-verification.v2",
+  "status": "passed",
+  "exit_code": 0,
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "check": "dedicated_prior_art_goal",
+      "passed": true
+    },
+    {
+      "check": "explicit_external_research_policy",
+      "passed": true
+    },
+    {
+      "check": "user_research_labels_retained",
+      "passed": true
+    },
+    {
+      "check": "original_fifteen_goals_unchanged",
+      "passed": true
+    },
+    {
+      "check": "canonical_goal_in_readable_register",
+      "passed": true
+    },
+    {
+      "check": "one_occurrence_of_each_goal",
+      "passed": true
+    },
+    {
+      "check": "core_objectives_and_original_purposes_unchanged",
+      "passed": true
+    },
+    {
+      "check": "symbol_first_dependency_unchanged",
+      "passed": true
+    },
+    {
+      "check": "musical_premises_and_bridges_unchanged",
+      "passed": true
+    },
+    {
+      "check": "reproducible_search_and_reuse_contract",
+      "passed": true
+    },
+    {
+      "check": "novelty_and_exposure_boundaries",
+      "passed": true
+    },
+    {
+      "check": "team_research_function_explicit",
+      "passed": true
+    },
+    {
+      "check": "prior_files_preserved",
+      "passed": true
+    },
+    {
+      "check": "draft_consolidation_versions_preserved",
+      "passed": true
+    },
+    {
+      "check": "task_goal_hash_and_count",
+      "passed": true
+    },
+    {
+      "check": "task_mission_hash",
+      "passed": true
+    },
+    {
+      "check": "checkpoint_matches_current_task",
+      "passed": true
+    },
+    {
+      "check": "cleared_goal_not_resumed",
+      "passed": true
+    },
+    {
+      "check": "plugin_operations_recorded",
+      "passed": true
+    },
+    {
+      "check": "live_jev_protocol_receipt",
+      "passed": true
+    },
+    {
+      "check": "archived_protocol_sources_hash_verified",
+      "passed": true
+    },
+    {
+      "check": "all_fourteen_scholarly_questions",
+      "passed": true
+    },
+    {
+      "check": "all_twelve_heterodox_questions",
+      "passed": true
+    },
+    {
+      "check": "ten_question_triage_and_existing_census_retained",
+      "passed": true
+    }
+  ],
+  "before": "Three dedicated prior-art-contract checks failed at the first inspection; a parallel saved draft was then recovered and consolidated.",
+  "boundary": "Goal/process fidelity, protocol-source hashes, question accounting and continuity only. No literature completeness, historical theory, source applicability or novelty verified."
+}

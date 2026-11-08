@@ -1,0 +1,31 @@
+{
+  "answers": {
+    "exact_interval_product": {
+      "calibrated": false,
+      "choice": "half",
+      "evidence_basis": {
+        "computed_value": "1/2",
+        "expression": "(2 / 3) * (3 / 4)",
+        "kind": "arithmetic_exact",
+        "scope": "The whole supplied expression was parsed; the value follows from that expression only. Decision weights remain hand-set and uncalibrated.",
+        "source": "prumo_rules/arith.py::_eval"
+      },
+      "solver": "arithmetic_exact",
+      "status": "solved",
+      "type": "choice",
+      "weights": {
+        "eight_ninths": 0.050000000000000044,
+        "half": 0.95
+      }
+    }
+  },
+  "calibrated": false,
+  "diagnostics": [],
+  "model": "prumo-host-adapter",
+  "schema_version": 1,
+  "solvers": [
+    "arithmetic_exact"
+  ],
+  "upstream_commit": "2dad76b82793e677d2f5a9e8e5c2baff304244d6",
+  "weight_semantics": "Normalized upstream decision weights, not posterior probabilities of truth; exact paths retain upstream hand-set confidence masses."
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-user-844890ec754df4e2",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T21:33:02.367327+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/844890ec754df4e2918582603cf75285ac8899c0853cdec4f154267e050672f4/text.txt",
+        "sha256": "844890ec754df4e2918582603cf75285ac8899c0853cdec4f154267e050672f4",
+        "start_line": 1,
+        "end_line": 513,
+        "source_role": "user",
+        "source_id": "6fa53d06cc36a12e29cfd8651e106646f432dcfe479ff1ee72beeee0e8537444",
+        "message_id": "2bf365c4e50634d33e5417ad61d7a024f1f661e7c241321e3d832e9f0914ca03",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "2bf365c4e50634d33e5417ad61d7a024f1f661e7c241321e3d832e9f0914ca03",
+          "native_id": "146",
+          "conversation_id": "fae8cd9630663ec400b88fa0d24e151745c46cae84f108b0a25717daa2c44403",
+          "role": "user",
+          "content_sha256": "844890ec754df4e2918582603cf75285ac8899c0853cdec4f154267e050672f4",
+          "source_id": "6fa53d06cc36a12e29cfd8651e106646f432dcfe479ff1ee72beeee0e8537444",
+          "locator": "lines:19755-20270",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Branch · SUN Model Discussion",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\ChatGPT-Branch · SUN Model Discussion-20261001-1642.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Branch · SUN Model Discussion-20261001-1642.md",
+          "source_sha256": "73896d743fdf2516bc0f6982d89317ea8059c8bcd968021d32e1f7eacee5b582",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "73896d743fdf2516bc0f6982d89317ea8059c8bcd968021d32e1f7eacee5b582",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/844890ec754df4e2918582603cf75285ac8899c0853cdec4f154267e050672f4/occurrences-ce8a9235ceb3ea1a08c41f56bc1e75212766fc9f63fc9e37b7a072ebe4ef559e.json",
+        "quote": "10/1/2026, 2:49:22 PM\n\n$$\r\n\\boxed{\r\n\\mathfrak S_{\\mathrm{SUN}}^{(3)}\r\n:=\r\n\\Bigl(\r\n\\mathfrak H_{\\mathrm{MUSIC}};\\;\r\n\\mathcal Q,\\;\r\n\\mathcal R,\\;\r\nD_{R},\\;\r\ng,\\;\r\n\\Gamma,\\;\r\n\\mathcal B;\\;\r\nG_{E};\\;\r\n\\mathcal A_{22};\\;\r\n\\Pi_{231};\\;\r\nA_{72};\\;\r\n\\beta_{A}\r\n\\Bigr)\r\n}\r\n$$\r\n\r\n---\r\n\r\n## 1. Harmonic algebra $\\mathfrak H_{\\mathrm{MUSIC}}$\r\n\r\n$$\r\nX := \\mathbb R_{>0}\r\n$$\r\n\r\n$$\r\nR, L, O : X \\to X\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\nR(x) = \\tfrac{2}{3}\\,x,\r\n\\qquad\r\nL(x) = \\tfrac{3}{4}\\,x,\r\n\\qquad\r\nO(x) = \\tfrac{1}{2}\\,x\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\nR \\circ L = L \\circ R = O\r\n\\;}\r\n$$\r\n\r\nClosure operator:\r\n\r\n$$\r\n\\kappa_{\\mathrm{cl}} : X \\times X \\times X \\to X,\r\n\\qquad\r\n\\kappa_{\\mathrm{cl}}(c, r, l) := \\frac{r\\,l}{c}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\mathfrak H_{\\mathrm{MUSIC}}\r\n=\r\n\\Bigl\\langle\r\nX;\\,\r\nR, L, O, \\kappa_{\\mathrm{cl}}\r\n\\;\\Bigm|\\;\r\nR L = L R = O,\\;\r\n\\kappa_{\\mathrm{cl}}(x, R x, L x) = O x\r\n\\Bigr\\rangle\r\n\\;}\r\n$$\r\n\r\nLogarithmic coordinates:\r\n\r\n$$\r\n\\rho := \\log_{2}\\tfrac{2}{3},\r\n\\qquad\r\n\\lambda := \\log_{2}\\tfrac{3}{4},\r\n\\qquad\r\n\\omega := \\log_{2}\\tfrac{1}{2} = -1\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\rho + \\lambda = \\omega = -1\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\langle R, L \\rangle \\;\\cong\\; \\mathbb Z^{2}\r\n\\qquad\r\n\\text{with basis } (1,-1),\\ (-2,1)\r\n$$\r\n\r\n---\r\n\r\n## 2. Relational pitch geometry\r\n\r\nPitch frequencies $f_i \\in X$; intervals:\r\n\r\n$$\r\n\\boxed{\\;\r\nr_{ij} = \\frac{f_{j}}{f_{i}},\r\n\\qquad\r\nd_{ij} = \\log_{2} r_{ij}\r\n\\;}\r\n$$\r\n\r\nComposition:\r\n\r\n$$\r\n\\boxed{\\;\r\nr_{ik} = r_{ij}\\,r_{jk},\r\n\\qquad\r\nd_{ik} = d_{ij} + d_{jk}\r\n\\;}\r\n$$\r\n\r\nRelational pitch quotient:\r\n\r\n$$\r\n\\boxed{\\;\r\n\\mathcal Q_{n}\r\n=\r\n\\mathbb R^{n} / \\operatorname{span}(\\mathbf 1),\r\n\\qquad\r\nD_{R} := \\dim \\mathcal Q_{n} = n - 1\r\n\\;}\r\n$$\r\n\r\nDimensionality distinctions:\r\n\r\n$$\r\nD_{R} = \\dim \\mathcal Q_{n},\r\n\\qquad\r\nD_{P} = \\text{physical degrees},\r\n\\qquad\r\nD_{O} = \\text{observational degrees}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\nD_{R} \\neq D_{P} \\neq D_{O}\r\n\\;}\r\n$$\r\n\r\n---\r\n\r\n## 3. Generation\r\n\r\n$$\r\nC_{0} := F \\in X\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\nC_{g+1} = O(C_{g}) = \\tfrac{1}{2} C_{g},\r\n\\qquad\r\nC_{g} = 2^{-g}\\,F\r\n\\;}\r\n$$\r\n\r\n$$\r\ng : \\{C_{g}\\}_{g \\in \\mathbb Z} \\to \\mathbb Z,\r\n\\qquad\r\ng(C_{g}) := g\r\n$$\r\n\r\n---\r\n\r\n## 4. Frozen V3 alphabet\r\n\r\n$$\r\n\\boxed{\\;\r\n\\mathcal A_{22}\r\n=\r\n\\mathcal C_{3} \\;\\sqcup\\; \\mathcal T_{7} \\;\\sqcup\\; \\mathcal R_{12}\r\n\\;}\r\n$$\r\n\r\n$$\r\n|\\mathcal C_{3}| = 3,\r\n\\qquad\r\n|\\mathcal T_{7}| = 7,\r\n\\qquad\r\n|\\mathcal R_{12}| = 12\r\n$$\r\n\r\n### 4.1 Constructors $\\mathcal C_{3}$\r\n\r\n$$\r\n\\mathcal C_{3}\r\n:=\r\n\\{\\, E,\\; \\mathsf{Sieve},\\; J \\,\\}\r\n$$\r\n\r\n$$\r\nE(k, n) \\;\\mapsto\\; \\text{cyclic } n\\text{-slot pattern with } k \\text{ onsets distributed evenly}\r\n$$\r\n\r\n$$\r\n\\mathsf{Sieve}\r\n=\r\n\\bigl\\langle M_{r} \\mid \\cup, \\cap, \\complement \\bigr\\rangle,\r\n\\qquad\r\nM_{r} := \\{\\, x \\in \\mathbb Z : x \\equiv r \\pmod{M} \\,\\}\r\n$$\r\n\r\n$$\r\nJ(x_{1}, \\dots, x_{k}) \\;\\Rightarrow\\; M\r\n$$\r\n\r\n### 4.2 Transition / action types $\\mathcal T_{7}$\r\n\r\n$$\r\n\\mathcal T_{7}\r\n:=\r\n\\{\\, S_{c},\\; D_{12},\\; J_{n},\\; m,\\; \\rho_{k},\\; A_{\\delta},\\; K \\,\\}\r\n$$\r\n\r\n$$\r\nS_{c}(x) = c\\,x, \\qquad c > 0\r\n$$\r\n\r\n$$\r\nD_{12}\r\n=\r\n\\bigl\\langle s, t \\;\\bigm|\\; s^{12} = e,\\; t^{2} = e,\\; t s t = s^{-1} \\bigr\\rangle\r\n$$\r\n\r\n$$\r\nJ_{n}(x)_{j} = x_{n-1-j},\r\n\\qquad\r\nJ_{n}^{2} = \\operatorname{id}\r\n$$\r\n\r\n$$\r\nm : (\\text{object}, a) \\;\\rightharpoonup\\; (\\text{same object}, b)\r\n$$\r\n\r\n$$\r\n\\rho_{k}(x_{0}, \\dots, x_{n-1}) = (x_{k}, \\dots, x_{k-1})\r\n$$\r\n\r\n$$\r\nA_{\\delta} : d_{i} \\;\\mapsto\\; d_{i} + \\delta\r\n$$\r\n\r\n$$\r\nK(\\text{context},\\, y) = P(\\text{next} = y \\mid \\text{context})\r\n$$\r\n\r\n### 4.3 Structural relations $\\mathcal R_{12}$\r\n\r\n$$\r\n\\mathcal R_{12}\r\n:=\r\n\\{\r\n\\text{path/trajectory},\\;\r\n\\text{recurrence/cycle},\\;\r\n\\text{typed boundary},\\;\r\n\\text{hierarchy/reduction},\r\n$$\r\n$$\r\n\\qquad\\;\\;\r\n\\text{mapping/equivalence},\\;\r\n\\text{invariant/fixed point},\\;\r\n\\text{measure/ratio/distance},\\;\r\n\\text{event realization},\r\n$$\r\n$$\r\n\\qquad\\;\\;\r\n\\text{residual/closure},\\;\r\n\\text{orbit/stabilizer},\\;\r\n\\text{address/history/context},\\;\r\n\\text{topology preservation}\r\n\\}\r\n$$\r\n\r\nNo element of $\\mathcal R_{12}$ is asserted to be a generator.\r\n\r\n---\r\n\r\n## 5. Empirical binding\r\n\r\n$$\r\n\\boxed{\\;\r\nG_{E} = (V_{364},\\; E_{117},\\; I_{312})\r\n\\;}\r\n$$\r\n\r\n$$\r\nV_{364} : \\text{typed empirical vertices}\r\n$$\r\n\r\n$$\r\nE_{117} : \\text{empirical hyperedges}\r\n$$\r\n\r\n$$\r\nI_{312} : \\text{incidence memberships}\r\n$$\r\n\r\nBinding constraints:\r\n\r\n$$\r\n\\boxed{\\;\r\n\\text{Alphabet}(\\mathcal A_{22}) \\;\\text{is frozen before } G_{E} \\text{ is bound}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\text{Topological features of } G_{E} \\text{ are descriptive, not generative, unless separately witnessed}\r\n\\;}\r\n$$\r\n\r\n---\r\n\r\n## 6. Configuration space\r\n\r\n$$\r\n\\boxed{\\;\r\n\\Pi_{231}\r\n:=\r\n\\{\\, \\{\\alpha_{i}, \\alpha_{j}\\} : i < j,\\; \\alpha_{i}, \\alpha_{j} \\in \\mathcal A_{22} \\,\\}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n|\\Pi_{231}|\r\n=\r\n\\binom{22}{2}\r\n=\r\n231\r\n\\;}\r\n$$\r\n\r\n$\\Pi_{231}$ is a configuration space; not all its elements are active empirical relations.\r\n\r\n---\r\n\r\n## 7. Address projection\r\n\r\n$$\r\n\\boxed{\\;\r\nA_{72}\r\n=\r\n\\mathbb Z_{12} \\times \\mathbb Z_{6}\r\n\\;}\r\n$$\r\n\r\nFactorizations:\r\n\r\n$$\r\n\\boxed{\\;\r\n|A_{72}| = 72 = 3 \\times 4 \\times 6 = 3 \\times 24\r\n\\;}\r\n$$\r\n\r\nThree-coset partition of $\\mathbb Z_{12}$:\r\n\r\n$$\r\n\\{0, 3, 6, 9\\},\r\n\\qquad\r\n\\{1, 4, 7, 10\\},\r\n\\qquad\r\n\\{2, 5, 8, 11\\}\r\n$$\r\n\r\n$A_{72}$ is a removable representation layer.\r\n\r\n---\r\n\r\n## 8. Prior-art binding map\r\n\r\n$$\r\n\\boxed{\\;\r\n\\beta_{A} : \\mathcal A_{22} \\;\\rightharpoonup\\; \\mathcal D\r\n\\;}\r\n$$\r\n\r\nwhere $\\mathcal D$ is the qualified donor formalism set.\r\n\r\nConstraints:\r\n\r\n$$\r\n\\boxed{\\;\r\n\\beta_{A} \\;\\text{is partial}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\beta_{A}(a) = d \\;\\wedge\\; d \\in \\mathcal D\r\n\\;\\Longrightarrow\\;\r\n\\text{binding is Class A (vocabulary/formalism/constraint/implementation)}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\beta_{A}(a) = d \\;\\not\\Longrightarrow\\; \\text{formal equivalence between } a \\text{ and } d\r\n\\;}\r\n$$\r\n\r\n---\r\n\r\n## 9. Governing invariants\r\n\r\n$$\r\n\\boxed{\r\n\\begin{aligned}\r\n\\text{(i)}\\quad & R \\circ L = L \\circ R = O \\\\[1mm]\r\n\\text{(ii)}\\quad & \\rho + \\lambda = -1 \\\\[1mm]\r\n\\text{(iii)}\\quad & \\kappa_{\\mathrm{cl}}(x, R x, L x) = O x \\\\[1mm]\r\n\\text{(iv)}\\quad & C_{g+1} = \\tfrac{1}{2} C_{g} \\\\[1mm]\r\n\\text{(v)}\\quad & D_{R} \\neq D_{P} \\neq D_{O} \\\\[1mm]\r\n\\text{(vi)}\\quad & r_{ik} = r_{ij}\\,r_{jk}, \\quad d_{ik} = d_{ij} + d_{jk} \\\\[1mm]\r\n\\text{(vii)}\\quad & |\\mathcal A_{22}| = 3 + 7 + 12 = 22 \\\\[1mm]\r\n\\text{(viii)}\\quad & |\\Pi_{231}| = \\binom{22}{2} = 231 \\\\[1mm]\r\n\\text{(ix)}\\quad & |A_{72}| = 3 \\times 4 \\times 6 = 3 \\times 24 \\\\[1mm]\r\n\\text{(x)}\\quad & \\beta_{A}(a) = d \\;\\not\\Rightarrow\\; \\text{formal equivalence} \\\\[1mm]\r\n\\text{(xi)}\\quad & \\text{Class-A binding} \\;\\not\\Rightarrow\\; \\text{Class-B promotion} \\\\[1mm]\r\n\\text{(xii)}\\quad & G_{E} \\;\\text{structure is descriptive unless separately witnessed as generative}\r\n\\end{aligned}\r\n}\r\n$$\r\n\r\n---\r\n\r\n## 10. Attached, non-constitutive layers\r\n\r\nThe following are attached to $\\mathfrak S_{\\mathrm{SUN}}^{(3)}$ but are not part of its defining tuple.\r\n\r\n$$\r\n\\boxed{\\;\r\n\\mathbb H_{\\mathrm{legacy}}\r\n=\r\n\\{\\, H_{M},\\, H_{G},\\, H_{\\mathrm{retain}},\\, H_{\\mathrm{info}},\\, H_{F},\\, H_{\\chi},\\, H_{\\mathcal T} \\,\\}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\text{Boundary machinery: }\r\nC_{0} \\to C_{1} \\to C_{2} \\to C_{3} \\xrightarrow{\\mathcal B} C_{4},\r\n\\quad\r\n\\mathcal I(\\mathcal B s) = \\mathcal I(s),\r\n\\quad\r\n\\mathcal B s \\neq s,\r\n\\quad\r\ng(\\mathcal B s) = g(s) + 1\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\text{Adapter machinery: }\r\nA_{v \\to w} = P_{w} \\circ (P_{v}|_{U})^{-1}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\text{Completed-Harmony / Fludd–Kepler bridge: } \\mathfrak B_{\\mathrm{FK}}\r\n\\;}\r\n$$\r\n\r\n$$\r\n\\boxed{\\;\r\n\\text{Downstream prediction object: }\r\n\\mathcal F_{G} = \\operatorname{Post}^{*}(x_{0}) \\cap \\operatorname{Pre}^{*}(G) \\cap \\mathcal I\r\n\\;}\r\n$$\r\n\r\n---\r\n\r\n## 11. Compact form\r\n\r\n$$\r\n\\boxed{\r\n\\begin{aligned}\r\n\\mathfrak S_{\\mathrm{SUN}}^{(3)}\r\n&=\r\n\\Bigl(\r\n\\mathfrak H_{\\mathrm{MUSIC}};\\;\r\n\\mathcal Q,\\; \\mathcal R,\\; D_{R},\\; g,\\; \\Gamma,\\; \\mathcal B;\\;\r\nG_{E};\\;\r\n\\mathcal A_{22};\\;\r\n\\Pi_{231};\\;\r\nA_{72};\\;\r\n\\beta_{A}\r\n\\Bigr),\\\\[1.5mm]\r\n\\mathfrak H_{\\mathrm{MUSIC}}\r\n&=\r\n\\bigl\\langle X;\\, R, L, O, \\kappa_{\\mathrm{cl}}\r\n\\;\\bigm|\\;\r\nR L = L R = O,\\;\r\n\\kappa_{\\mathrm{cl}}(x, R x, L x) = O x\r\n\\bigr\\rangle,\\\\[1.5mm]\r\nR(x)&=\\tfrac{2}{3}x,\\quad L(x)=\\tfrac{3}{4}x,\\quad O(x)=\\tfrac{1}{2}x,\\\\[1mm]\r\n\\mathcal Q_{n}&=\\mathbb R^{n}/\\operatorname{span}(\\mathbf 1),\\quad D_{R} = n-1,\\\\[1mm]\r\n\\mathcal A_{22}&=\\mathcal C_{3} \\sqcup \\mathcal T_{7} \\sqcup \\mathcal R_{12},\\quad 22 = 3+7+12,\\\\[1mm]\r\n|\\Pi_{231}|&=\\binom{22}{2}=231,\\\\[1mm]\r\nA_{72}&=\\mathbb Z_{12} \\times \\mathbb Z_{6},\\quad |A_{72}| = 3 \\times 4 \\times 6 = 3 \\times 24,\\\\[1mm]\r\n\\beta_{A}&:\\mathcal A_{22} \\rightharpoonup \\mathcal D\r\n\\quad\\text{partial, Class-A only, no equivalence promotion.}\r\n\\end{aligned}\r\n}\r\n$$",
+        "quote_sha256": "844890ec754df4e2918582603cf75285ac8899c0853cdec4f154267e050672f4",
+        "original_bytes": 8656,
+        "start_offset": 0,
+        "end_offset": 8654
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "e75cad805e571aaa5b60696f11fc7d34f59499e3e071a12ed2d863e7352fd599",
+        "artifact_id": "a8e85be5-21bf-5b1e-9e35-83a792136b44",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.51,
+            "refines": 0.33,
+            "supports": 0.15
+          },
+          "winner": "insufficient",
+          "top_probability": 0.51,
+          "margin": 0.18
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.98,
+            "refines": 0.01,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 0.98,
+          "margin": 0.97
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.266,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

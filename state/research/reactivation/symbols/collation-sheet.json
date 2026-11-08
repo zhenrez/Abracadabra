@@ -1,0 +1,89 @@
+{
+  "schema": "sunny.exposed-sign-collation.v1",
+  "created_utc": "2026-11-03T03:59:05.169Z",
+  "base": {
+    "original": "sources/sachau1911-plate13.jp2",
+    "sha256": "b5fcad1af24774b9364b0df0e54a13e4f0f4906439c88c224696ac123baa0e88",
+    "reading_image": "sources/sachau1911-plate13-reading.png",
+    "orientation": "Lossless90degreecounterclockwise document-reading rotation",
+    "pixel_dimensions": [
+      4004,
+      2653
+    ],
+    "coordinate_convention": "[left,top,right,bottom), pixels, orientedreadingimage; all source pixels retained in original."
+  },
+  "printed_edition": {
+    "reading": "עבדכי",
+    "page": "Cowley1923printed138/no39rectoline1andfootnote",
+    "source_sha256": "16e8f0eb04301ae6663a29905b4d393cc36bd7a3a3b57a5b893e4218ec534f8d",
+    "status": "Printedpagevisuallyinspected; at this token Cowleyprints dalet without restorationbrackets, whereas adjacentgreeting has brackets.",
+    "footnote": "Cowley interprets servant as politeaddress and deniesliteral slavery. This is his interpretation, not an independently established legalstatus."
+  },
+  "regions": [
+    {
+      "id": "target-word",
+      "context": "Rectoline1 fourthaddressword, alignedto normalizedעבדכי/עברכי",
+      "box": [
+        2635,
+        270,
+        2915,
+        450
+      ],
+      "file": "sources/A3_7-recto-fourth-token-candidate.png",
+      "status": "Proposed source-sequence-to-imagealignment for independentcheck."
+    },
+    {
+      "id": "disputed-letter",
+      "context": "Thirdvisibleglyphfromrightin targetfiveglyphgroup; proposed alignment with dalet/reshslot",
+      "box": [
+        2752,
+        270,
+        2802,
+        450
+      ],
+      "file": "sources/A3_7-disputed-third-character-candidate.png",
+      "status": "Inkvisible; classification unresolved; no mask, sharpening or inventedstroke."
+    },
+    {
+      "id": "resh-context",
+      "context": "Rectoline1 מראתי, samepapyrus/hand; secondglyphfromright in editedword",
+      "box": [
+        3250,
+        270,
+        3485,
+        455
+      ],
+      "file": "sources/A3_7-recto-second-token-resh-control-candidate.png",
+      "status": "Control proposed from editor's wordreading, not independently blindletterclass."
+    },
+    {
+      "id": "resh-slot",
+      "context": "Proposedreshslotwithinמראתי",
+      "box": [
+        3392,
+        270,
+        3428,
+        450
+      ],
+      "file": "sources/A3_7-resh-second-character-control-candidate.png",
+      "status": "Coordinatealignment requires independentcheck."
+    },
+    {
+      "id": "dalet-context",
+      "context": "Rectoline1 עדנ, blockb/line1 inTEI, middleletterin editedword",
+      "box": [
+        640,
+        250,
+        910,
+        450
+      ],
+      "file": "sources/A3_7-recto-adn-control-context-v2.png",
+      "status": "Samehandcontrolcontext supplied; priorcrop410..620 wasincorrectforעדנ and is retained as a superseded tentativecrop, not cited as daletevidence."
+    }
+  ],
+  "comparison_result": "The supplied documentreading crops provide exactpixelregions for comparison. This worker doesnot issue a final palaeographicd/rverdict; normalized transcription cannot supply that verdict by itself.",
+  "minimum_additional_observation": "Independently confirm the word-to-imagealignment and identify a repeatable differentiating stroke/length/attachment in these samehand controls. If this 1911photographic scan doesnot retain it, obtain a higherresolution/modern image of this exactword, not anothernormalizedtranscription.",
+  "downstream_conditional": "If the address convention applies in a later comparison, servant may function as politeness rather than proving a legal/personnel/hierarchyedge. Test comparable genre/grammar first; classify as an open source-native relation alternative.",
+  "exposure": "Projecthypotheses, both editorreadings, originalplate and currentcrops alreadyseen; independentcheck is exposed, not blind.",
+  "incidental_exposure": "A search fordalet/resh returned a traditionalChabadletterinterpretation snippet. Fullsource notinspected and notadmitted as palaeographic or acousticproof. Its squareHebrewdescription cannot be silently transferred to thisImperialAramaichand. Preserve as an unassessedlaterprotocollead only."
+}

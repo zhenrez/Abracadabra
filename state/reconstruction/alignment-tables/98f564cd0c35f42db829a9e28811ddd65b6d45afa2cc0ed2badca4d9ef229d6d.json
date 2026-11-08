@@ -1,0 +1,59 @@
+{
+  "id": "alignment-table-98f564cd0c35f42d",
+  "content_sha256": "98f564cd0c35f42db829a9e28811ddd65b6d45afa2cc0ed2badca4d9ef229d6d",
+  "headers": [
+    "Count",
+    "Derivation",
+    "What it counts"
+  ],
+  "rows": [
+    [
+      "**233**",
+      "$N(12)$",
+      "12 positions, fixed boundary"
+    ],
+    [
+      "**322**",
+      "Closed cycle",
+      "12 positions, wraparound"
+    ],
+    [
+      "**377**",
+      "$N(13)$",
+      "13 positions, fixed boundary"
+    ],
+    [
+      "**288**",
+      "$24 \\times 12$",
+      "24 groups × 12 (Chronicles)"
+    ],
+    [
+      "**312**",
+      "$24 \\times 13$",
+      "24 groups × 13 (with +1 per group)"
+    ],
+    [
+      "**216**",
+      "$72 \\times 3$",
+      "Shem letter positions"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 17232,
+      "line_end": 17239,
+      "char_start": 824334,
+      "char_end": 824725,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Count | Derivation | What it counts |\n|---|---|---|\n| **233** | $N(12)$ | 12 positions, fixed boundary |\n| **322** | Closed cycle | 12 positions, wraparound |\n| **377** | $N(13)$ | 13 positions, fixed boundary |\n| **288** | $24 \\times 12$ | 24 groups × 12 (Chronicles) |\n| **312** | $24 \\times 13$ | 24 groups × 13 (with +1 per group) |\n| **216** | $72 \\times 3$ | Shem letter positions |\n",
+      "quote_sha256": "5b01f618bfc38a9382ea8be5b1d2d29c506e54e5ad4295013be3fbd8709bcee8",
+      "message_id": "69d2e4576a58ffd8c1705ad63e48b85ed130c3572a42acc25992e4f6c2053238",
+      "role": "user",
+      "locator": "lines:17232-17239"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

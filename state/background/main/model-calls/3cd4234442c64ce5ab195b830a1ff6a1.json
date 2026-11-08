@@ -1,0 +1,129 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "historical-glyph-user-1cfcdbcd2eaf3690",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+              "message_id": "9ad62395c08b47ae9fb356373426478dbb6b13157d6bb8dfa596428ead69b5b1",
+              "exact_preview": "you're a dirty cunt fuck face! i cant believe you'd do that!\n\nfuck you you piece of shit...there is no doing it again. that was my last fucking deep research im allocated intil 3.5 weeks from now!!!!mother fucker\n\nWord Cloud Generation Logic\nThe vocabulary was built through a systematic three-phase expansion process:\n\nPhase 1: Seed Selection\n12 foundational terms were chosen as anchors, emphasizing:\n\nAction-oriented verbs (Prompt, Swap, Morph)\n\nStructural concepts (Node, Network, Hub)\n\nTransformation states (Alter, Convert, Merge)\n\nTechnology anchors (AI, Neural, Algorithm)\n\nPhase 2: Lexical Expansion\nEach seed word underwent three-dimensional branching:\n\nSynonym Layer\n\nDirect meaning equivalents (e.g., \"Create\" → Generate, Fabricate)\n\nThesaurus-derived with preference for active verbs\n\nCo",
+              "preview_characters": 800,
+              "full_passage_characters": 12765,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "historical-glyph-user-20ce6f376d945cf7",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "2e8787508cc4c03cc0ebba45299e2cb984682eda5550f9798fdea8d368b1b980",
+              "exact_preview": "We should show the Greek versions I offered earlier with each saying, too... if we're doing an html.",
+              "preview_characters": 100,
+              "full_passage_characters": 100,
+              "preview_limited": false
+            }
+          ]
+        },
+        {
+          "id": "historical-glyph-user-2136e488012568c8",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "3893381f0df24b132ab67016fa1407de5998552e668871f81a2dcd2e78f528a8",
+              "exact_preview": "The failure wasn't that the bars weren't technical enough. The failure was that you have been **authoring** instead of **editing**. ther original draft already has a very distinct voice. It does something most philosophical music or poetry doesn't do: it recursively invents language instead of merely describing philosophy. \"Never-when,\" \"no-place,\" \"not-things,\" \"weather past,\" \"what-not,\" etc., are not stylistic flourishes—they're pieces of the ontology. They're simple terms made to represent the attempt at describing something indescribable. --- ### Rule #1: Never replace a coined metaphysical object. If a phrase is doing ontological work— > never-when > no-place > not-things > weathered past > what-not —it is almost certainly **not** a candidate for rewriting. Those are project vocabula",
+              "preview_characters": 800,
+              "full_passage_characters": 4821,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "historical-glyph-user-1cfcdbcd2eaf3690: source_forensics",
+          "1": "historical-glyph-user-20ce6f376d945cf7: source_forensics",
+          "2": "historical-glyph-user-2136e488012568c8: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "ab77a31ff01b986847592d8c1403a3a931224456416847c47aa9e6c5b18af04a",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.14,
+          "1": 0.3,
+          "2": 0.25,
+          "defer": 0.31
+        },
+        "winner": "defer",
+        "top_probability": 0.31,
+        "margin": 0.010000000000000009
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 1940,
+      "output_tokens": 48
+    },
+    "network_calls": 1,
+    "latency_ms": 289
+  },
+  "budget_ordinal": 76
+}

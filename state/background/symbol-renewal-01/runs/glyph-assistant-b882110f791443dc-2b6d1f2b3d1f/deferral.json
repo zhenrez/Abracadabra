@@ -1,0 +1,59 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-f82f034904f541beab2ac76afc72b808.json",
+  "queued_request": {
+    "id": "glyph-assistant-b882110f791443dc",
+    "kind": "source_forensics",
+    "track": "glyph",
+    "schema": "sunny.background-job.v1",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/b882110f791443dcd9b38b60a2b41239c3c423134a87941df5112bddc5d57650/text.txt",
+        "sha256": "b882110f791443dcd9b38b60a2b41239c3c423134a87941df5112bddc5d57650",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "a2ded0c5b01b69ae1a5d682ac2326649fca2b121a420f01859179b7e3ebada0d",
+        "origin": {
+          "id": "a2ded0c5b01b69ae1a5d682ac2326649fca2b121a420f01859179b7e3ebada0d",
+          "native_id": "18114d6e-276f-4f97-a497-4c082235e158",
+          "conversation_id": "222a6147a651f48414adefa34f5821336c885913b41ad6d3c6ba6b03bb8c7c72",
+          "role": "assistant",
+          "content_sha256": "b882110f791443dcd9b38b60a2b41239c3c423134a87941df5112bddc5d57650",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/34/mapping/18114d6e-276f-4f97-a497-4c082235e158/message",
+          "create_time": "1785979231.953616",
+          "branch_status": "alternate",
+          "title": "Gospel of Thomas Aramaic Translation",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/b882110f791443dcd9b38b60a2b41239c3c423134a87941df5112bddc5d57650/occurrences-868bcb6ec41fd727fad05b0c32e01336d70958960d4c866e2bada988eedeb853.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-sound-symbol-map",
+        "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+      },
+      {
+        "id": "glyph-sound-distinction",
+        "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    }
+  },
+  "recorded_utc": "2026-11-03T02:25:00.887559+00:00"
+}

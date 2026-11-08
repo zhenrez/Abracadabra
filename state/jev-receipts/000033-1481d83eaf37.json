@@ -1,0 +1,89 @@
+{
+  "status": "judged",
+  "sha256": "1481d83eaf371b592088e9e1c36a643f1865c2ff6863df0de561dec075f42572",
+  "sequence": 33,
+  "previous_sha256": "e751e61d0343e18f4571555bda9b4c10a6c0ccc46a801d4f55136efd7d510637",
+  "purpose": "SUNNY source probe unanswered_proposal/isolated",
+  "completed_at": "2026-10-31T01:18:12.351344+00:00",
+  "request_sha256": "39ae367ec7862db89414c8efd8790a14b837b0b4096c877e018a50affce7b4dd",
+  "request": {
+    "state": {
+      "probe": "Already-inspected source/integrity engineering diagnostic; no canonical domain action is authorized by this result.",
+      "source_role": "assistant",
+      "source_kind": "Final Q10 question in supplied transcript",
+      "excerpt": "My proposed answer is yes. Is that the distinction you are reaching for?",
+      "source_following_user_reply": "No following user answer exists in the supplied transcript."
+    },
+    "questions": [
+      {
+        "id": "classification",
+        "type": "choice",
+        "question": "Which recorded authority status follows from these source-role facts?",
+        "options": [
+          "User-approved final law",
+          "Assistant proposal without a user answer",
+          "Complete scientific proof"
+        ]
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "classification",
+            "type": "choice",
+            "distribution": {
+              "0": 0.13516196608543396,
+              "1": 0.7443078756332397,
+              "2": 0.12053021043539047
+            },
+            "value": "1",
+            "description": "Assistant proposal without a user answer",
+            "top_probability": 0.7443078756332397,
+            "margin": 0.6091459095478058
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 304,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 110,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 285.27
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

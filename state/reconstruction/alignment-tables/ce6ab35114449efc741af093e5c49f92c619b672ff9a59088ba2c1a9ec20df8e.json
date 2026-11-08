@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-ce6ab35114449efc",
+  "content_sha256": "ce6ab35114449efc741af093e5c49f92c619b672ff9a59088ba2c1a9ec20df8e",
+  "headers": [
+    "Repo",
+    "Assessment"
+  ],
+  "rows": [
+    [
+      "`Oujox/aulos`",
+      "Multiple tuning systems (12-TET, 24-TET, just, Pythagorean) with zero runtime dependencies. Useful for the Chinese-vs-Western comparison, but `just_intonation` covers the SUN core and aulos is under development with a changing API."
+    ],
+    [
+      "`xenharmlib`",
+      "Supports the full range of regular temperaments, explicitly for Byzantine, Renaissance, Indian classical, gamelan, Arabic Maqam. Genuinely relevant to the parallel-tradition problem, but heavy for what SOL currently does. Would matter if SOL moves to explicit multi-tradition tuning comparison."
+    ],
+    [
+      "`SageMath` polyhedron incidence",
+      "Cube face/incidence enumeration. The cube result was already computed manually; Sage would formalize it but not change it."
+    ],
+    [
+      "`NuBerea/pantheons`, `wheelofheaven/theomachy-crossrefs`, `daren.../world-mythology-system`",
+      "Comparative mythology datasets. Larger than needed and less source-traceable than deitydb. Redundant."
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 24330,
+      "line_end": 24335,
+      "char_start": 1211756,
+      "char_end": 1212715,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Repo | Assessment |\n|---|---|\n| `Oujox/aulos` | Multiple tuning systems (12-TET, 24-TET, just, Pythagorean) with zero runtime dependencies. Useful for the Chinese-vs-Western comparison, but `just_intonation` covers the SUN core and aulos is under development with a changing API. |\n| `xenharmlib` | Supports the full range of regular temperaments, explicitly for Byzantine, Renaissance, Indian classical, gamelan, Arabic Maqam. Genuinely relevant to the parallel-tradition problem, but heavy for what SOL currently does. Would matter if SOL moves to explicit multi-tradition tuning comparison. |\n| `SageMath` polyhedron incidence | Cube face/incidence enumeration. The cube result was already computed manually; Sage would formalize it but not change it. |\n| `NuBerea/pantheons`, `wheelofheaven/theomachy-crossrefs`, `daren.../world-mythology-system` | Comparative mythology datasets. Larger than needed and less source-traceable than deitydb. Redundant. |\n",
+      "quote_sha256": "3c67498e662e7d3bda1a3aade66b2706a0e67beb146af62788476efbc3b21d3c",
+      "message_id": "f2c80f484c45538b3bc37d1dc517010ea9ae5c0efbccff74ff0733c0423ceff2",
+      "role": "user",
+      "locator": "lines:24330-24335"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

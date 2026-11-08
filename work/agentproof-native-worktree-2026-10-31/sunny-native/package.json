@@ -1,0 +1,26 @@
+{
+  "name": "sunny-research-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Symphonia Universalis Numinous Nominal YARN",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node --disable-warning=ExperimentalWarning dist/server.js",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "status": "python scripts/quarterback.py status",
+    "verify": "python scripts/verify_recovery.py && python scripts/jev_tool.py verify",
+    "quarterback": "python scripts/quarterback.py next --execute"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "9.6.0",
+    "@types/node": "22.14.0",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "13.0.3"
+  }
+}

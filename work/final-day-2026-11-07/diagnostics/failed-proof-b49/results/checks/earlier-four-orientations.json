@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\four-orientations",
+    "-p",
+    "test_models.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_composition (test_models.ChineseTests.test_composition) ... ok\ntest_context_operations (test_models.ChineseTests.test_context_operations) ... ok\ntest_ambiguity (test_models.ComparisonTests.test_ambiguity) ... ok\ntest_operator_preservation_and_counterexample (test_models.ComparisonTests.test_operator_preservation_and_counterexample) ... ok\ntest_wrong_types_rejected (test_models.ComparisonTests.test_wrong_types_rejected) ... ok\ntest_exact_bytes (test_models.EvidenceTests.test_exact_bytes) ... ok\ntest_tamper (test_models.EvidenceTests.test_tamper) ... ok\ntest_untyped_relation (test_models.EvidenceTests.test_untyped_relation) ... ok\ntest_independent_enumeration (test_models.IndianTests.test_independent_enumeration) ... ok\ntest_no_invented_tuning (test_models.IndianTests.test_no_invented_tuning) ... ok\ntest_pairing (test_models.IndianTests.test_pairing) ... ok\ntest_duplicate (test_models.SeferTests.test_duplicate) ... ok\ntest_native_relations (test_models.SeferTests.test_native_relations) ... ok\ntest_exact_sun (test_models.WesternTests.test_exact_sun) ... ok\ntest_nonclosure_and_scale (test_models.WesternTests.test_nonclosure_and_scale) ... ok\ntest_register (test_models.WesternTests.test_register) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.006s\n\nOK\n"
+}

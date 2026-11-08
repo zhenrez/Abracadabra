@@ -1,0 +1,574 @@
+{
+  "timestamp_utc": "2026-11-08T01:51:39.778422+00:00",
+  "checks": [
+    {
+      "name": "new-core",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 21,
+      "output_ref": "checks/new-core.json"
+    },
+    {
+      "name": "common-contracts",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\integration",
+        "-p",
+        "test_common_models.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 7,
+      "output_ref": "checks/common-contracts.json"
+    },
+    {
+      "name": "adversarial",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\independent-review",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 8,
+      "output_ref": "checks/adversarial.json"
+    },
+    {
+      "name": "accepted-G0-G1",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 71,
+      "output_ref": "checks/accepted-G0-G1.json"
+    },
+    {
+      "name": "original-Sefer",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+        "-p",
+        "test_harmonic_verifier.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 6,
+      "output_ref": "checks/original-Sefer.json"
+    },
+    {
+      "name": "preserved-linguistic-pipeline",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 40,
+      "output_ref": "checks/preserved-linguistic-pipeline.json"
+    },
+    {
+      "name": "earlier-four-orientations",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\four-orientations",
+        "-p",
+        "test_models.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "observed_tests": 16,
+      "output_ref": "checks/earlier-four-orientations.json"
+    },
+    {
+      "name": "western-native",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\western\\run_native.py",
+        "--output",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\results\\western-native.json"
+      ],
+      "exit_code": 0,
+      "observed_tests": null,
+      "output_ref": "checks/western-native.json"
+    },
+    {
+      "name": "east-native",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\verify_native_east.py"
+      ],
+      "exit_code": 0,
+      "observed_tests": null,
+      "output_ref": "checks/east-native.json"
+    }
+  ],
+  "g0": {
+    "status": "PASSED",
+    "invariants": [
+      {
+        "id": 1,
+        "name": "15 script groups",
+        "status": "PASS"
+      },
+      {
+        "id": 2,
+        "name": "source order",
+        "status": "PASS"
+      },
+      {
+        "id": 3,
+        "name": "original labels",
+        "status": "PASS"
+      },
+      {
+        "id": 4,
+        "name": "36 addressable slots each",
+        "status": "PASS"
+      },
+      {
+        "id": 5,
+        "name": "381 populated source positions",
+        "status": "PASS"
+      },
+      {
+        "id": 6,
+        "name": "159 explicit empty positions",
+        "status": "PASS"
+      },
+      {
+        "id": 7,
+        "name": "all three fields preserved",
+        "status": "PASS"
+      },
+      {
+        "id": 8,
+        "name": "Unicode scalar fidelity",
+        "status": "PASS"
+      },
+      {
+        "id": 9,
+        "name": "proxy classification",
+        "status": "PASS"
+      },
+      {
+        "id": 10,
+        "name": "no ordinal alignment inferred",
+        "status": "PASS"
+      },
+      {
+        "id": 11,
+        "name": "heterogeneous Old Persian",
+        "status": "PASS"
+      },
+      {
+        "id": 12,
+        "name": "question marks remain unknown",
+        "status": "PASS"
+      },
+      {
+        "id": 13,
+        "name": "alternatives retained",
+        "status": "PASS"
+      },
+      {
+        "id": 14,
+        "name": "genealogy external",
+        "status": "PASS"
+      },
+      {
+        "id": 15,
+        "name": "raw and inferred claims separate",
+        "status": "PASS"
+      },
+      {
+        "id": 16,
+        "name": "no invented attestations",
+        "status": "PASS"
+      },
+      {
+        "id": 17,
+        "name": "reference integrity",
+        "status": "PASS"
+      },
+      {
+        "id": 18,
+        "name": "unique witness primary keys",
+        "status": "PASS"
+      },
+      {
+        "id": 19,
+        "name": "nested immutable maps",
+        "status": "PASS"
+      },
+      {
+        "id": 20,
+        "name": "exact source roundtrip",
+        "status": "PASS"
+      }
+    ]
+  },
+  "native_validations": {
+    "western": {
+      "__type__": "NativeValidation",
+      "checks": [
+        "actual source and implementation binding",
+        "unique observed event identities",
+        "positive exact quantities",
+        "separate exact pitch class and register",
+        "explicit native tuning profile",
+        "all supplied scale degrees match configured native mode"
+      ],
+      "receipt": null,
+      "status": "VALID"
+    },
+    "chinese": {
+      "__type__": "NativeValidation",
+      "checks": [
+        [
+          "model_namespace",
+          true
+        ],
+        [
+          "profile_id",
+          true
+        ],
+        [
+          "profile_hash",
+          true
+        ],
+        [
+          "native_assignments",
+          true
+        ],
+        [
+          "source_profile",
+          true
+        ]
+      ],
+      "receipt": null,
+      "status": "VALID"
+    },
+    "grama": {
+      "__type__": "NativeValidation",
+      "checks": [
+        [
+          "model_namespace",
+          true
+        ],
+        [
+          "profile_id",
+          true
+        ],
+        [
+          "profile_hash",
+          true
+        ],
+        [
+          "native_assignments",
+          true
+        ],
+        [
+          "source_profile",
+          true
+        ]
+      ],
+      "receipt": null,
+      "status": "VALID"
+    },
+    "melakarta": {
+      "__type__": "NativeValidation",
+      "checks": [
+        [
+          "model_namespace",
+          true
+        ],
+        [
+          "profile_id",
+          true
+        ],
+        [
+          "profile_hash",
+          true
+        ],
+        [
+          "native_assignments",
+          true
+        ],
+        [
+          "source_profile",
+          true
+        ]
+      ],
+      "receipt": null,
+      "status": "VALID"
+    }
+  },
+  "counts": {
+    "positions": 540,
+    "populated": 381,
+    "empty": 159
+  },
+  "matrix_sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+  "gates": {
+    "G0": "PASSED_PRESERVED_ENGINEERING",
+    "G1": "PASSED_PRESERVED_SEFER",
+    "G2": "PASSED_BOUNDED_NATIVE_PROFILE; HISTORICAL_PROFILE_COMPLETENESS_PARTIAL",
+    "G3": "PASSED_BOUNDED_NATIVE_PROFILE",
+    "G4": "PASSED_SEPARATE_BOUNDED_NATIVE_PROFILES",
+    "G5": "PASSED_SOURCE_DEFINED_CONTROLS; NO_ACOUSTIC_OR_HISTORICAL_ROOT_CERTIFICATION",
+    "G6": "MEASURED_CONDITIONAL_CODES; HISTORICAL_CROSS_MODEL_SELECTION_NOT_EVALUATED",
+    "G7": "MATHEMATICAL_CONTROLS_VERIFIED; HISTORICAL_RECONSTRUCTION_LOCKED"
+  },
+  "protected_source_exceptions": [
+    {
+      "path": "src/worker.ts",
+      "before_sha256": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+      "after_sha256": "f73861293c98a9855680b44bc48c650d0021f396cda65f318cd2300ff5ef47b9",
+      "preserved_before": "work/final-day-2026-11-07/runtime/preimage/worker.ts",
+      "reason": "Execution deadline ends at worker completion. Cleanup has a separate bounded30second allowance after an observed15second helper timeout; ownership checks remain unchanged.",
+      "authorization": "Current full-delivery repair request and live Jev sequencing choice; not a mathematical kernel edit.",
+      "test_delta": {
+        "path": "tests/worker-lifecycle.test.mjs",
+        "preserved_before": "work/final-day-2026-11-07/runtime/preimage/worker-lifecycle.test.mjs",
+        "before_sha256": "26e635721d4e379387935873b9b658ea76e2738a39257d48becaa911194d08ed",
+        "after_sha256": "6acd79fe06723e26b67255788484096a30d77a5b0131678c481333e49764dbb0",
+        "change": "Only outer test deadlines30/45seconds to60seconds; all6tests and assertions preserved"
+      }
+    }
+  ],
+  "frozen_artifact_integrity": [
+    {
+      "group": "baseline",
+      "path": "frozen\\sefer\\harmonic_verifier.py",
+      "sha256": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+      "matched": true
+    },
+    {
+      "group": "baseline",
+      "path": "frozen\\sefer\\test_harmonic_verifier.py",
+      "sha256": "7643cb86d228a5ee8b3599dae34b7781c27350122c8d5dec8840664b7fd6e8c1",
+      "matched": true
+    },
+    {
+      "group": "baseline",
+      "path": "frozen\\sefer\\harmonic-demo.json",
+      "sha256": "ceb526c29fec5b4e94558e50b3e3134481366174f3f3a95937151430504777ea",
+      "matched": true
+    },
+    {
+      "group": "baseline",
+      "path": "frozen\\sefer\\HARMONIC_VERIFIER.md",
+      "sha256": "a59924545b0887503de84577cbb8c13334cc726de86e2761f2add43422790fc8",
+      "matched": true
+    },
+    {
+      "group": "earlier_derived",
+      "path": "frozen\\earlier-derived\\table.json",
+      "sha256": "624c039e4d67fd9bb853b64187aeb408060910fe7ea80ab4c56a0dce4c638406",
+      "matched": true
+    },
+    {
+      "group": "earlier_derived",
+      "path": "frozen\\earlier-derived\\table.tsv",
+      "sha256": "370fa2bc71a19412017826725ae41fbd5694b3f65e9ef9433b4d5522a4afbf8f",
+      "matched": true
+    },
+    {
+      "group": "earlier_derived",
+      "path": "frozen\\earlier-derived\\build_dataset.py",
+      "sha256": "40f8e659bb8934627b0cae8c69540dcd0b98e999583a2dc9f4166619ec35aac7",
+      "matched": true
+    },
+    {
+      "group": "earlier_derived",
+      "path": "frozen\\earlier-derived\\jev-attempt.json",
+      "sha256": "cf38e3e07fc2598ce54bd2f6cb724623b7fc36b7e3df78450358242207b0b79e",
+      "matched": true
+    },
+    {
+      "group": "context",
+      "path": "frozen\\context\\task.json",
+      "sha256": "ca7589489a67011bc88878283926e1d122db8a90b8f614e3fbe78e4c7c9fc83b",
+      "matched": true
+    },
+    {
+      "group": "context",
+      "path": "frozen\\context\\HUMMBL_PLAN.md",
+      "sha256": "77dd1efaa652035bbf162e87abc52fb0ce1b207ce76866c8cb118b8e5dc890e4",
+      "matched": true
+    },
+    {
+      "group": "context",
+      "path": "frozen\\context\\AGENTS.md",
+      "sha256": "8d01e17a8d344cd1837ea23eeab0bca49e0843454af453f6f02ad4471cedeaa8",
+      "matched": true
+    },
+    {
+      "group": "context",
+      "path": "frozen\\context\\SUN_Final_Hypergraph_and_Template_Results_v1.md",
+      "sha256": "2e5887de027908f239e2508746d035e9264f4d41ae99b8a5dc43e369854e9c8f",
+      "matched": true
+    },
+    {
+      "group": "source-event",
+      "path": "frozen\\source\\matrix-event.jsonl",
+      "sha256": "a15086f2cf3660eee631e22dcff3f437a2b35b85469b650e23f000a340c7fd96",
+      "matched": true
+    },
+    {
+      "group": "orientation-attachment",
+      "path": "frozen\\source\\orientation-context.txt",
+      "sha256": "2932aad408a314657c64cbf4c0dbe6da3bed4aab7b3de5906424fd75867fc6ac",
+      "matched": true
+    }
+  ],
+  "original_demo_equal": true,
+  "original_demo_cases": 3,
+  "historical_registry_empty": true,
+  "unsupported_historical_call_denied": true,
+  "eight_mathematical_outputs": [
+    {
+      "id": "M01",
+      "requirement": "Native mathematical register",
+      "status": "PARTIAL_EXECUTABLE",
+      "artifact": "eight-outputs/M01.json"
+    },
+    {
+      "id": "M02",
+      "requirement": "Transformation register",
+      "status": "PARTIAL_EXECUTABLE",
+      "artifact": "eight-outputs/M02.json"
+    },
+    {
+      "id": "M03",
+      "requirement": "Generational reconstruction",
+      "status": "CONDITIONAL_CONSTRAINTS_EXECUTABLE",
+      "artifact": "eight-outputs/M03.json"
+    },
+    {
+      "id": "M04",
+      "requirement": "Global constraint system",
+      "status": "PARTIAL_CANDIDATE_SYSTEM",
+      "artifact": "eight-outputs/M04.json"
+    },
+    {
+      "id": "M05",
+      "requirement": "Proof and derivation ledger",
+      "status": "SOURCE_CONDITIONAL_PROOFS_AND_EXPERIMENTS",
+      "artifact": "eight-outputs/M05.json"
+    },
+    {
+      "id": "M06",
+      "requirement": "Discrepancy and missing-component register",
+      "status": "PARTIAL_LOCALIZED_COUNTEREXAMPLES",
+      "artifact": "eight-outputs/M06.json"
+    },
+    {
+      "id": "M07",
+      "requirement": "Representation-independent prediction mechanism",
+      "status": "CONDITIONAL_LINEAR_ANCHOR_AND_FINITE_FAMILY_ENGINE",
+      "artifact": "eight-outputs/M07.json"
+    },
+    {
+      "id": "M08",
+      "requirement": "Complete executable master score",
+      "status": "PARTIAL_SOURCE_VIEWS_EXECUTABLE",
+      "artifact": "eight-outputs/M08.json"
+    }
+  ],
+  "requirements_count": 106,
+  "conditional_compression": {
+    "phonetic_literal_bits": 75252,
+    "phonetic_selected_bits": 21241,
+    "joint_literal_bits": 241722,
+    "joint_selected_bits": 152260
+  },
+  "limitations": [
+    "Full parent transcript is unavailable; current-chat snapshots and available preview retained",
+    "No independently attested historical glyph-stroke corpus or ancient sound recording supplied",
+    "Raw field conservation and exact native-model tests do not establish intended historical meanings",
+    "Conditional byte/program costs depend on the declared coding language and shared side information",
+    "No source-family-independent prospective historical prediction trial has been performed",
+    "The original wider106requirements include unresolved scientific, calendar, zodiac and global-geometry dependencies"
+  ],
+  "full_mission_complete": false,
+  "outputs": {
+    "coding-baselines.json": "f2f895924c2cca544cde0d3b3bd27720411b66c3f5be1b5ef47799bb356ef82a",
+    "common-encodings.json": "234fc469e100b3549f2e49e8ebbf4f4fd6ac0bc20cfbe0ec1a537905a15fd4e4",
+    "dashboard-data.json": "47029668c357677d312d8573f4279ba07d1f25d674d2e3d07adc27c9f05ad7b8",
+    "inverse-identifiability.json": "8a9c9f316720b00a83b1080b2d67cf5b8be464fb402732fd132acc035f611ce1",
+    "mathematical-comparisons.json": "1faa22cedc3f6f2e8aae8f8de941175cbbbc1064cfba692b0f45538dc1b222ea",
+    "native-description-measurements.json": "62ba3ee01d03ff328bb8a31ffccb12e50882c68ca09b136c7bb5df5cea1116f2",
+    "original-demonstrations.json": "733336f328c9b76e49bb0046da994a7ee86810091207e80658777f0bdc3175cd",
+    "phonetic-numeric-controls.json": "75b696d3233e2fe98030004d8590172da0d247bd5f22c1c0151a19ce45fc62a5",
+    "sefer-native.json": "c6e651c0a22c69e0fe92598100f7ae806a7d75bb01141a5e2aa5203ade999b6a",
+    "western-native.json": "55a133f59ff396d1fde07386ad7adab742471fb058ce3cf6173c838aa209fb9f",
+    "checks\\accepted-G0-G1.json": "01e283401595db2575720df16f1d051b1f63d18aa4f7bb8e99cb11e626824300",
+    "checks\\adversarial.json": "7b4fd25ae5d975cfb8e662c4cf3f2acbfbf280be6f5ce7dda50229e4137fe6c7",
+    "checks\\common-contracts.json": "d4a26bf1388d0ec7bf456e58851ca7d27f56402c026702cb29a4031ba5c0af8a",
+    "checks\\earlier-four-orientations.json": "7dfc85d5ac499f2f25288f863f086e579ca0ed1ba2cf588b552dec980d531ae1",
+    "checks\\east-native.json": "9992fe9f6c435c29f45faadc12d933e46f6bc70df7fe9f12ffa91dd163729ae1",
+    "checks\\new-core.json": "a0185694077adee268579227b0dd8586874015ffda92a6d82e01cc9ba5859e65",
+    "checks\\original-Sefer.json": "41de2e4e2683c0ed5004f46dddcd2ed095239c2fe4d0724a31285b3eab0fa285",
+    "checks\\preserved-linguistic-pipeline.json": "f63290e18bcfa676c28f7f9f7af0046a26a03f11fda5bab286229a8dab6240e4",
+    "checks\\western-native.json": "1f335f6377ed3f68c9a999b4bd7c326ea89db28b16f62787c030c95a0ccfcc98",
+    "eight-outputs\\M01.json": "a9dfb4f1a6a32294c8bf47fe359623e142c4c1225897de66bcfd8a6d4507d97a",
+    "eight-outputs\\M02.json": "fe4c8b188b46199e458c2793fc2cbbf89506db66162b1678bd3c9f14a5119d43",
+    "eight-outputs\\M03.json": "0539c030e4ef1d4f534a2c464542b29ff554490f975f689e72ef186d3f24802c",
+    "eight-outputs\\M04.json": "b1e8af7c1a67b53d764486377909d5867fa840fb3c07f891eb71549d789762fe",
+    "eight-outputs\\M05.json": "b96afa1119c79a441d275649ac2b446dfe3e56f1d00e8668ee025446177a3df7",
+    "eight-outputs\\M06.json": "566aa3341749fb58cf527b97345ab2d3fcbfae4dd128843ac39cc91629e581e0",
+    "eight-outputs\\M07.json": "59bf864f8e9f347fd5871e0314b0e2d0b88e60649abc4722b86668002ce6a447",
+    "eight-outputs\\M08.json": "5f2455cafcce80d35d413882993034526bdb6f598b8ae8845de4a3110aad3896"
+  }
+}

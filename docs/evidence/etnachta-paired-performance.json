@@ -1,0 +1,30 @@
+{
+  "source": "https://www.kolamivirginia.org/worship/services/shabbat-morning-melodies/",
+  "unit": "Etnachta phrase group, contemporary instructional performances credited to Sinai Temple. Not an isolated note or an ancient performance.",
+  "retrieval": [
+    {
+      "context": "Torah",
+      "url": "https://cybermitzvah.sinaitemple.org/wp-content/uploads/2018/10/1-Torah-Trope-Etnachta-Phrases.mp3",
+      "http": 200,
+      "bytes": 343436,
+      "content_type": "audio/mpeg",
+      "prefix_hex": "4944330200000000",
+      "sha256": "f475cd494bca07f5854a6fa57548b6787c97a873edc0ea1d9cba5318662fe3cf",
+      "decoded_seconds": 20.7586875,
+      "first_to_last_above_threshold_seconds": 20.04
+    },
+    {
+      "context": "Haftarah",
+      "url": "https://cybermitzvah.sinaitemple.org/wp-content/uploads/2018/10/1-Haftarah-Trope-Etnachta-Phrases.mp3",
+      "http": 200,
+      "bytes": 416579,
+      "content_type": "audio/mpeg",
+      "prefix_hex": "4944330200000000",
+      "sha256": "40fed6ffbbd1e510d03a7e395188802bab08e9cacb443be4d1b58fd02ce4d89e",
+      "decoded_seconds": 25.319125,
+      "first_to_last_above_threshold_seconds": 24.080000000000002
+    }
+  ],
+  "test": "Compare corresponding sign occurrences after score alignment; phrase duration or file inequality alone cannot establish melodic difference.",
+  "method": "Mono 16 kHz, 20 ms RMS windows, threshold 5% of file peak RMS. Reported span includes internal pauses. These whole-clip measurements cannot be assigned to the terminal accent."
+}

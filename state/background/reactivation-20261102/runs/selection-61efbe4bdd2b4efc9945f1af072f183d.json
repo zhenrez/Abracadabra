@@ -1,0 +1,68 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "symbol-editorial-branch-scope",
+          "kind": "source_forensics",
+          "track": null,
+          "hypotheses": [
+            {
+              "id": "scope-preserved",
+              "statement": "The displayed resh/dalet mismatch is an edition-specific transcription discrepancy; the passage preserves alternatives and does not by itself establish an ancient phonetic substitution or changed identity."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "RESEARCH_SUPPORTED_INFERENCE; exact source/assumption boundaries are being audited, not automatically promoted.",
+              "source_id": null,
+              "message_id": null,
+              "exact_preview": "{\r\n  \"schema\": \"sunny.symbol-source-discrepancy.v1\",\r\n  \"checked_utc\": \"2026-11-03T02:27:29.621521+00:00\",\r\n  \"case\": \"TAD A3.7/Pap.Cairo EM JdE43473; normalized-text disagreement at recto address servant token\",\r\n  \"sources\": [\r\n    {\r\n      \"path\": \"sources\\\\elephantine_A3_7_tei.xml\",\r\n      \"bytes\": 30710,\r\n      \"sha256\": \"1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25\"\r\n    },\r\n    {\r\n      \"path\": \"sources\\\\cal_A3_7.html\",\r\n      \"bytes\": 8394,\r\n      \"sha256\": \"4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f\"\r\n    }\r\n  ],\r\n  \"tokens\": {\r\n    \"tei_recto\": {\r\n      \"text\": \"עברכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05E8\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"tei_verso\": {\r\n      \"text\": \"ע",
+              "preview_characters": 800,
+              "full_passage_characters": 2792,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "symbol-editorial-branch-scope: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "a630ab9b4998fbfb9d6c5f73fe423b70b0fcf40dc4adda98224a01ba39fdfcd0",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.64,
+          "defer": 0.36
+        },
+        "winner": "0",
+        "top_probability": 0.64,
+        "margin": 0.28
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 1032,
+      "output_tokens": 33
+    },
+    "network_calls": 1,
+    "latency_ms": 255
+  }
+}

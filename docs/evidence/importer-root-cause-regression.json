@@ -1,0 +1,16 @@
+{
+  "selected_by": "state/jev-receipts/000045-dcb092dc96f7.json",
+  "cause": "str.splitlines treats legal U+2028/U+2029 inside JSON strings as record boundaries",
+  "change": "Future Codex imports now split physical LF bytes, preserve UTF8 spans and namespaced record IDs, and explicitly avoid inferred causal parentage",
+  "existing_sources": "Retained, with separate repair history; parser patch does not rewrite source bytes",
+  "changed_files": [
+    "scripts/ingest.py",
+    "tests/ingest_test.py"
+  ],
+  "after_check": {
+    "tests": 15,
+    "failures": 0,
+    "errors": 0
+  },
+  "source_repair": "docs/EXTRACTION_GAPS.md"
+}

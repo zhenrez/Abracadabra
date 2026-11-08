@@ -1,0 +1,61 @@
+{
+  "schema": "sunny.western-final-integrity.v1",
+  "checked_utc": "2026-11-03T02:55:50.787799+00:00",
+  "status": "passed",
+  "validated_json_file_count": 29,
+  "local_report_links_missing": [],
+  "canonical_live_receipt_bindings": [
+    {
+      "request": "jev-operational-method-request.json",
+      "receipt": "jev-operational-method-receipt.json",
+      "canonical_request_sha256": "39e6bec124872b3f798dcdb46904663938c716358490f69f07fb6c503e8738e0",
+      "resolved_model": "jev-1.14.0",
+      "network_calls": 1
+    },
+    {
+      "request": "jev-observation-route-request.json",
+      "receipt": "jev-observation-route-receipt.json",
+      "canonical_request_sha256": "9734ad7ce9b9976943edbb9c36bb23e2184cc8784647a8a72f607b91b444c844",
+      "resolved_model": "jev-1.14.0",
+      "network_calls": 1
+    },
+    {
+      "request": "jev-handoff-request.json",
+      "receipt": "jev-handoff-receipt.json",
+      "canonical_request_sha256": "0ee4ca8360328341ee1cbd3794f4f8677584bdaf598d996ae22d4e4585eaa24e",
+      "resolved_model": "jev-1.14.0",
+      "network_calls": 1
+    }
+  ],
+  "packet_hashes": {
+    "source-register-02.json": "3cf25fab28ff21ff080c453460f747477fa0703e19f760dd3b90870c71b9b0e5",
+    "operational-constraint.json": "f3f2a211701228b6456cf0f9c52c0a4a470b651306722bec4eae4273abd6c93b",
+    "p0a-14-western.json": "62ef457cfbde94e43bb2c8a9829c41b24fbe6126539b78301993abb233538dd0",
+    "query-log-02.json": "c4b9ace08e2e1b73bcfff454c796f7d57727b1885e9f0547789c304fb2aed289",
+    "method-audit.json": "6c971840875ba5f8031ec2acefd85f741f0ecc5046792bee56269573be8da42d",
+    "paired-reading-access.json": "98cecd29088b54df8cca338e7dd88ab099870db8e404d4c9c57bcc7dd2d4ca65",
+    "verification-02.json": "c63bcb269b141213617d2f85ede11602532c51aff325d870019d03d8367477ef",
+    "proofline-package-02.json": "67a5403ec1a8bb0c5e2e3a894545bb3f265e54d9c2f8c9a1da6ed5bb1635fcda",
+    "proofline-result-02.json": "a141f7880eab879921f718dc0dcb6363208c0576220b6fbde969cfe94212a274",
+    "mightshape-input-02.json": "c0fd3027f1521b33c97a8f779638f02d7d0d1b493c6a33c33a1a52f3505c5bba",
+    "mightshape-result-02.json": "375b21e77fee9827d74b85500ed4aca238a892dbe0f3db2c583f40277890eb8d",
+    "plugin-use-02.json": "663ae1f56e97f12082cd313b2e43b9a7d1ac1dd18d4ee681179e798e763c0e4e",
+    "jev-operational-method-request.json": "f6880bc20b7788327c57827ff111b555d64e56daf910792c7b5c64b73947a34b",
+    "jev-operational-method-receipt.json": "1f8ad9d4c4a6f98b67af163c01cec187abcfcd26d4d7fec4fa00a698ce796842",
+    "jev-observation-route-request.json": "6a0fefa79ccd53368b71e88299e2f1d92930a35dfdcdda6af025c8d03fd8c302",
+    "jev-observation-route-receipt.json": "e4b97487572968926fcf80957fab0422f5c6995f92a2fc735ee11646b6d249a7",
+    "jev-handoff-request.json": "b863402c96b86a74bacc8b385386585d2f62a72abd1655278c4e5be64a7d1d4e",
+    "jev-handoff-receipt.json": "6adda48dad1566d88e20fda390e3d962a2b78ccdc11d1043817676424c61b90f"
+  },
+  "human_report": {
+    "path": "docs/research/reactivation-western.md",
+    "sha256": "2c520c9a1eded53707548f7e8f37d47ced0e4683e72400f0c64d02319bc81e58"
+  },
+  "verification": {
+    "passed": 13,
+    "total": 13
+  },
+  "proofline_valid": true,
+  "mightshape_firewall": "PASS",
+  "limits": "Current record/hash/link/receipt consistency only. This is a bounded source-method packet; audio observation and full SUNNY remain unfinished."
+}

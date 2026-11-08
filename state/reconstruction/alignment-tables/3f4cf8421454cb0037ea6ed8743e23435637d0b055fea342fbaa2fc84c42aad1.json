@@ -1,0 +1,68 @@
+{
+  "id": "alignment-table-3f4cf8421454cb00",
+  "content_sha256": "3f4cf8421454cb0037ea6ed8743e23435637d0b055fea342fbaa2fc84c42aad1",
+  "headers": [
+    "Claim",
+    "Status"
+  ],
+  "rows": [
+    [
+      "231 = C(22,2) unweighted",
+      "Arithmetic"
+    ],
+    [
+      "231 is the correct Sefer count",
+      "**Wrong** — ignores the Sefer's mediation of Aleph"
+    ],
+    [
+      "233 = 231 + 2 (weighted)",
+      "Lawful from the Sefer's own text"
+    ],
+    [
+      "233 = F13",
+      "Arithmetic"
+    ],
+    [
+      "216 = 72 × 3 (Shem)",
+      "Lawful"
+    ],
+    [
+      "288 = 24 × 12 (1 Chr 25)",
+      "Lawful"
+    ],
+    [
+      "312 = 288 + 24 (leaders added)",
+      "Lawful"
+    ],
+    [
+      "377 = F14 = 233 + 144",
+      "Lawful"
+    ],
+    [
+      "221 is a Sefer alternative",
+      "Documented in some recensions"
+    ],
+    [
+      "221 mechanism under weighted model",
+      "Unresolved — would require removing 12 weights"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 16184,
+      "line_end": 16195,
+      "char_start": 773236,
+      "char_end": 773787,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Claim | Status |\n|---|---|\n| 231 = C(22,2) unweighted | Arithmetic |\n| 231 is the correct Sefer count | **Wrong** — ignores the Sefer's mediation of Aleph |\n| 233 = 231 + 2 (weighted) | Lawful from the Sefer's own text |\n| 233 = F13 | Arithmetic |\n| 216 = 72 × 3 (Shem) | Lawful |\n| 288 = 24 × 12 (1 Chr 25) | Lawful |\n| 312 = 288 + 24 (leaders added) | Lawful |\n| 377 = F14 = 233 + 144 | Lawful |\n| 221 is a Sefer alternative | Documented in some recensions |\n| 221 mechanism under weighted model | Unresolved — would require removing 12 weights |\n",
+      "quote_sha256": "b0456c006946fb6cc48c27945f2e39bdb907433e5dd2cb542d82ff6d37cc8444",
+      "message_id": "1894fcf6ee2f7f53a048486b7ff45e700e54de204689aec4bb1668d061545ca8",
+      "role": "user",
+      "locator": "lines:16184-16195"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

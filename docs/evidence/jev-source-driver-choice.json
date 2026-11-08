@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-31T01:01:13.429Z",
+  "request": {
+    "question": "Which separate Node SQLite driver should implement SUNNY's read-only FTS5 source service under the previously selected different_driver route?",
+    "options": {
+      "better_sqlite3": "Install exact better-sqlite3@13.0.3 (Node >=22). Its current official bundled configuration lists SQLITE_ENABLE_FTS5; synchronous prepared statements match the current minimal backend. Verify the installed binary's FTS5 and rerun the original schema/search tests.",
+      "sqlite3": "Install exact sqlite3@6.0.1 (Node >=20.17). Its official repository is archived and marks the library unmaintained; asynchronous bindings would require adapting the current synchronous source backend. Verify the installed binary's FTS5 and rerun the original schema/search tests."
+    },
+    "state": {
+      "goal": "Make existing SUNNY UI contract runnable against preserved imported sources without deciding research ontology.",
+      "user_constraint": "Every possible implementation decision must be dictated by live Jev; latest live Jev selected a different SQLite Node driver, not Python helper or new Node runtime.",
+      "evidence": [
+        "Original failing test: tests/server.test.mjs, no such module: fts5 with Node 22.14 built-in SQLite.",
+        "Actual built-in SQLite 3.47.2 reports ENABLE_FTS5=0; ordinary messages queries work.",
+        "Python SQLite 3.45.3 reports ENABLE_FTS5=1; actual SUNNY FTS query works.",
+        "npm registry currently reports better-sqlite3 13.0.3 engines Node >=22 and sqlite3 6.0.1 engines Node >=20.17.",
+        "https://github.com/WiseLibs/better-sqlite3/blob/master/docs/compilation.md lists bundled SQLITE_ENABLE_FTS5.",
+        "https://github.com/TryGhost/node-sqlite3 marks repository archived and unmaintained."
+      ],
+      "acceptance": "Installed driver must execute original FTS5 schema and pass source text, branch, query-binding, refused-write, traversal and byte-unchanged checks."
+    }
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\": \"decision\", \"type\": \"choice\", \"distribution\": {\"better_sqlite3\": 0.5013054609298706, \"sqlite3\": 0.498694509267807}, \"value\": \"better_sqlite3\", \"description\": \"Install exact better-sqlite3@13.0.3 (Node >=22). Its current official bundled configuration lists SQLITE_ENABLE_FTS5; synchronous prepared statements match the current minimal backend. Verify the installed binary's FTS5 and rerun the original schema/search tests.\", \"top_probability\": 0.5013054609298706, \"margin\": 0.0026109516620635986, \"usage\": {\"questions\": 1, \"candidate_paths\": 2, \"input_path_tokens\": 708, \"generated_tokens\": 0, \"truncated_inputs\": 0, \"backbone_input_tokens\": 411, \"shared_prefix_questions\": 1, \"shared_prefix_states\": 1, \"wall_ms\": 993.62}}"
+      }
+    ],
+    "isError": false
+  },
+  "semantics": "Actual bounded Jev model choice, not calibrated scientific confidence."
+}

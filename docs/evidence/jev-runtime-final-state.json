@@ -1,0 +1,80 @@
+{
+  "global_torch_version_from_source": "2.9.1+cpu",
+  "global_torch_version_file": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torch\\version.py",
+  "workspace_cuda_environment": {
+    "python": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\runtime\\.venv\\Scripts\\python.exe",
+    "torch_version": "2.9.1+cu128",
+    "torch_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\runtime\\.venv\\Lib\\site-packages\\torch\\__init__.py",
+    "cuda_runtime": "12.8",
+    "cuda_available": true,
+    "device": "NVIDIA GeForce RTX 3060",
+    "bf16_supported": true
+  },
+  "services": {
+    "cpu": {
+      "status": "ready",
+      "api_version": "agentjev.decision.v1",
+      "model": "AgentJev-0.6B",
+      "checkpoint": "agentjev-v1",
+      "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+      "types": [
+        "boolean",
+        "choice",
+        "score"
+      ],
+      "max_path_tokens": 2048,
+      "max_choice_candidates": 255,
+      "output_token_decoding": false,
+      "shared_prefix_compute": true,
+      "encoder": "auto",
+      "temperatures": {
+        "boolean": 1.0717734625362931,
+        "choice": 1.0352649238413776,
+        "score": 1.0717734625362931
+      },
+      "probability_semantics": "model distribution; domain calibration is not guaranteed"
+    },
+    "gpu": {
+      "status": "ready",
+      "api_version": "agentjev.decision.v1",
+      "model": "AgentJev-0.6B",
+      "checkpoint": "agentjev-v1",
+      "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+      "types": [
+        "boolean",
+        "choice",
+        "score"
+      ],
+      "max_path_tokens": 2048,
+      "max_choice_candidates": 255,
+      "output_token_decoding": false,
+      "shared_prefix_compute": true,
+      "encoder": "auto",
+      "temperatures": {
+        "boolean": 1.0717734625362931,
+        "choice": 1.0352649238413776,
+        "score": 1.0717734625362931
+      },
+      "probability_semantics": "model distribution; domain calibration is not guaranteed"
+    }
+  },
+  "default_route_receipt": "state\\jev-receipts\\000014-0c74b9e04860.json",
+  "default_route_answers": [
+    {
+      "id": "device_route",
+      "type": "choice",
+      "distribution": {
+        "keep_cpu": 0.3778155744075775,
+        "sunny_gpu": 0.3599819242954254,
+        "switch_8149": 0.26220256090164185
+      },
+      "value": "keep_cpu",
+      "description": "Keep SUNNY and nativeMCP on8149 CPU, preserve8150 GPU for later broader measurements.",
+      "top_probability": 0.3778155744075775,
+      "margin": 0.0178336501121521
+    }
+  ],
+  "measured_cpu_elapsed_seconds": 1.1657419999828562,
+  "measured_gpu_elapsed_seconds": 0.35656909993849695,
+  "scope": "Both endpoints were read back after CUDA install. Default remains CPU8149 following actual Jev choice; no global PyTorch or plugin configuration changed."
+}

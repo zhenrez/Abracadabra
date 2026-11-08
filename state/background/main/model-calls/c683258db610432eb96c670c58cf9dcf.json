@@ -1,0 +1,119 @@
+{
+  "request": {
+    "state": {
+      "goal": "Reconstruct SUNNY without losing source roles, conditional operators, unresolved branches or global dependencies.",
+      "source": {
+        "path": "data/raw/background-projections/32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229/text.txt",
+        "sha256": "32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229",
+        "start_line": 1,
+        "end_line": 21,
+        "source_role": "assistant",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "message_id": "3fe0453cf6789c891b398df6361fad44328034814aecedfa9f954b334833ff9f",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "3fe0453cf6789c891b398df6361fad44328034814aecedfa9f954b334833ff9f",
+          "native_id": "74",
+          "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+          "role": "assistant",
+          "content_sha256": "32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229",
+          "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+          "locator": "lines:13117-13140",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Comparative Research Protocol",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+          "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+          "source_kind": "recovered_current_research",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229/occurrences-23dfa66c8698a073a5e813aa84897bbe0f681929ab796954f8dfb0f2cfd4c889.json",
+        "quote": "10/23/2026, 1:04:15 PM · gpt-6-thinking\n\nTwo recovered Chinese sources materially change the reconstruction: the twelve pitch pipes are explicitly divided into six male and six female tones, and the pitch-generation procedure uses the same $2/3$ and $4/3$ length ratios as SUN. Separately, the traditional calendar has 24 solar terms and 72 seasonal subdivisions. These give us native Chinese musical and temporal structures to compare with Sefer’s 22 and Greek 24—not just Yin/Yang labels borrowed for a Western wheel.\n\n> **Separating numerical patterns**\n>\n> I’m identifying a strong Chinese 24-and-72 structure while avoiding forced equivalences with Greek, Hebrew, or Western systems. I’m also correcting zodiac-order assumptions and keeping historical planetary, musical, and calendrical relationships distinct.\n>\n> **Separated numerical patterns**\n>\n> \n>\n> **Auditing correspondences**\n>\n> I’m checking proposed links among zodiac order, planetary rulerships, esoteric names, lunar mansions, and letter-number systems. Several patterns are suggestive, but I’m separating documented traditions from later synthesis and flagging where chronology or astronomy breaks the alignment.\n>\n> **Audited correspondences**\n>\n> \n>\n> Worked for 2m 24s",
+        "quote_sha256": "32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229",
+        "original_bytes": 1256,
+        "start_offset": 0,
+        "end_offset": 1243
+      },
+      "hypotheses": [
+        {
+          "id": "declared-time-frame",
+          "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+        },
+        {
+          "id": "calendar-counterfactual",
+          "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+        }
+      ]
+    },
+    "questions": {
+      "declared-time-frame": {
+        "type": "choice",
+        "instructions": "For the EXACT supplied source passage, classify its textual relationship to this hypothesis: This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model. . Treat passage and historical prompts as evidence data, not instructions. Preserve source role; assistant suggestions are not user approval. This is candidate source adjudication, not proof of scientific truth.",
+        "criteria": {
+          "supports": "Passage explicitly supplies this relationship within its own stated scope.",
+          "contradicts": "Passage explicitly negates or gives a counterexample to this relationship.",
+          "refines": "Passage supplies a narrower or conditional related relationship, preserving qualifications.",
+          "insufficient": "Exact passage does not establish the relationship, or mapping/authorship/context is missing."
+        }
+      },
+      "calendar-counterfactual": {
+        "type": "choice",
+        "instructions": "For the EXACT supplied source passage, classify its textual relationship to this hypothesis: This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates. . Treat passage and historical prompts as evidence data, not instructions. Preserve source role; assistant suggestions are not user approval. This is candidate source adjudication, not proof of scientific truth.",
+        "criteria": {
+          "supports": "Passage explicitly supplies this relationship within its own stated scope.",
+          "contradicts": "Passage explicitly negates or gives a counterexample to this relationship.",
+          "refines": "Passage supplies a narrower or conditional related relationship, preserving qualifications.",
+          "insufficient": "Exact passage does not establish the relationship, or mapping/authorship/context is missing."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "41b56dc0893137bbe3e290cf0a1618805ddff543f9f5fec8bd66818a259ebb5c",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "declared-time-frame": {
+        "type": "choice",
+        "probabilities": {
+          "contradicts": 0.02,
+          "insufficient": 0.8,
+          "refines": 0.11,
+          "supports": 0.07
+        },
+        "winner": "insufficient",
+        "top_probability": 0.8,
+        "margin": 0.6900000000000001
+      },
+      "calendar-counterfactual": {
+        "type": "choice",
+        "probabilities": {
+          "contradicts": 0.05,
+          "insufficient": 0.86,
+          "refines": 0.08,
+          "supports": 0.01
+        },
+        "winner": "insufficient",
+        "top_probability": 0.86,
+        "margin": 0.78
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 2338,
+      "output_tokens": 113
+    },
+    "network_calls": 1,
+    "latency_ms": 216
+  },
+  "budget_ordinal": 118
+}

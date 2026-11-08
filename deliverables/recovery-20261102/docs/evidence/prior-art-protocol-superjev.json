@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "request_sha256": "14fb43bb07d0eabe898176b3b9650e09ceafb3f6ea9c424c2fe2901e3bda5941",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "fidelity": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.89,
+        "false": 0.10999999999999999
+      },
+      "value": true
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 601,
+    "output_tokens": 22
+  },
+  "network_calls": 1,
+  "latency_ms": 337
+}

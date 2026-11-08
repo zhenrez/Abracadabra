@@ -1,0 +1,41 @@
+{
+  "frozen_at_utc": "2026-10-31T01:04:26.994088+00:00",
+  "protocol_receipt": "state/jev-receipts/000008-3a5d06507e59.json",
+  "protocol": "single_request",
+  "request_sha256_bytes": "60248fef12fe16a0cbebb99479cfe430a880faf33ddf5dde1c4085a6935900cd",
+  "request": {
+    "state": {
+      "task": "Bootstrap local Jev for SUNNY and then let Jev direct subsequent research and architecture decisions.",
+      "observed": "AgentJev pinned weights verified; CPU service ready, warmup 553.5ms. Existing CPU torch is installed and works. RTX3060 12GB is available but CUDA PyTorch is not installed. No real SUNNY research judgments have yet been made by this runtime.",
+      "user_constraint": "Use actual Jev outputs for every substantive decision; no host substitution or simulated model votes.",
+      "next_actions": "Choose how to proceed with runtime capacity while preserving working service."
+    },
+    "questions": [
+      {
+        "id": "runtime_path",
+        "type": "choice",
+        "question": "Which next runtime action best enables the requested Jev-directed work now?",
+        "options": {
+          "use_live_cpu": "Keep the verified working CPU service, begin logged Jev-directed decisions now, and measure actual workloads before any GPU change.",
+          "replace_now": "Stop the working CPU service now and install a CUDA build before doing any SUNNY decisions.",
+          "claim_done": "Declare full SUNNY research and lawful orientations complete because Jev health passed."
+        }
+      },
+      {
+        "id": "completion",
+        "type": "boolean",
+        "question": "Does a ready Jev runtime alone establish that SUNNY reconstruction and research alignment are complete?",
+        "criteria": {
+          "true": "Actual recovered-source investigation, constraints and predictions were all independently checked.",
+          "false": "Only the runtime was bootstrapped; SUNNY reconstruction and research remain separate work."
+        }
+      }
+    ]
+  },
+  "source": "docs/evidence/jev-runtime-first-request.json",
+  "comparisons": [
+    "same request CPU8149",
+    "same request GPU8150"
+  ],
+  "scope": "One fixed request with two questions, selected by actual Jev. Not a general performance or quality benchmark."
+}

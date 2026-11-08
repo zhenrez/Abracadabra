@@ -1,0 +1,154 @@
+{
+  "schema": "sunny.delivery-systems-browser.v1",
+  "checkedAt": "2026-11-08T21:43:23.640Z",
+  "inputs": {
+    "index.html": "5b80067e283510f2bd83ac7295a94a5116597da450eabadb1817a42bfda51821",
+    "app.js": "26e510ed968516b34b990ab9fe5a75c3e145b81c7f11ec369a5268318b40f0ee",
+    "style.css": "575173b464b9492f9cacf713cd07a4c92e6445d0f6474e84acc47a5cc2285880",
+    "data.js": "415c8a8ea497ed0b1051ee0f109d0c8d20274aeb5236c7354c00d7f6b7788267"
+  },
+  "sourceInputs": {
+    "state/reconstruction/indian-hierarchy.json": "7c2c78af1c6c474701deaff75c9c8662ee94095d4ec16b6f71c264c3424eaf0c",
+    "state/reconstruction/western-expanded.json": "915917ab4ba7509d173686d29714de8ed2e2b5205edb6e5c2a1e2d0743923ba1",
+    "state/reconstruction/chinese-expanded.json": "a5976344694e120055beb2c33878de61fe172574628399352cd14317cd0f8660",
+    "state/reconstruction/native-class-constructors.json": "5eaf822a07d87c2d676d3b96a3a2af5144446963005ca4d3d17a999a553301ca",
+    "state/reconstruction/biblical-genealogies.json": "fb65aeb95353d33b8dd768b3c008fceb243793dbdcb66ef45508f38cfb356258",
+    "state/reconstruction/upper-legion-color-constraints.json": "0ebc6510a9c41297ff9f216020ef314e7fc91a7b09eba92f4381eec035328ea5"
+  },
+  "checks": [
+    {
+      "name": "All six source additions loaded; twelve existing tabs retained",
+      "status": "passed"
+    },
+    {
+      "name": "Census cards retain2556/2670 heterogeneous units and current source-qualified Chinese context count with target unresolved",
+      "status": "passed",
+      "chineseUnits": 1671
+    },
+    {
+      "name": "indian-hierarchy actual unit selection, exact first address, paging, ID search and native register filter",
+      "status": "passed",
+      "unit": "registered-mela-svara-occurrence",
+      "records": 2520,
+      "register": "Anumandra"
+    },
+    {
+      "name": "western-expanded actual unit selection, exact first address, paging, ID search and native register filter",
+      "status": "passed",
+      "unit": "registered-scale-degree-occurrence",
+      "records": 2464,
+      "register": "0"
+    },
+    {
+      "name": "chinese-expanded actual unit selection, exact first address, paging, ID search and native register filter",
+      "status": "passed",
+      "unit": "JingFang-witness-named-lu-standard",
+      "records": 60,
+      "register": null
+    },
+    {
+      "name": "MT primary edition claims remain distinct from received lineage",
+      "status": "passed",
+      "primary": 16,
+      "receivedNamedEntries": 33
+    },
+    {
+      "name": "Greek primary edition claims remain distinct from received lineage",
+      "status": "passed",
+      "primary": 17,
+      "receivedNamedEntries": 34
+    },
+    {
+      "name": "SP primary edition claims remain distinct from received lineage",
+      "status": "passed",
+      "primary": 16,
+      "receivedNamedEntries": 25
+    },
+    {
+      "name": "Allfive received clocks draw lifetimes; SP has no fabricated Gospel projection",
+      "status": "passed"
+    },
+    {
+      "name": "G14all3060addresses searchable; four-coordinate projections and valid/negative/out-of-slice vector inputs handled",
+      "status": "passed"
+    },
+    {
+      "name": "Twelve fixed color states use five source-bound carriers with exact selected coordinates; no13thstate or musical/global phase inferred",
+      "status": "passed"
+    },
+    {
+      "name": "Four new visual panels avoid page overflow at390/768/1536px",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh offlinefile target retains all source-native datasets and controls",
+      "status": "passed"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "screenshots": [
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-census-desktop.png",
+      "sha256": "186784c0b25ff1fc04fd51746b659fc1373632a5e04fbd5cb2d25316acb8cc14"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-biblical-desktop.png",
+      "sha256": "1ed87f1042c8690859ac0dc1c33c0e46b3c100cfe0e6c24934f823c8de517e9f"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-classes-desktop.png",
+      "sha256": "073b173322eb6260fd587715dcead8da344afdabb765bd540059b92f60fa9715"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-color-desktop.png",
+      "sha256": "33126f77250d5937f410d478d3391298ae69e9e7248bc7fbe0c373b189033fd3"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-music-mobile.png",
+      "sha256": "eaf095664fc3c3dff5d0f8243ef329d0ef7ef9cc339a7b40793a6dc4e3fcdbcc"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-atlas-mobile.png",
+      "sha256": "948be16247088123b216a0e0b0bd339827315f583c42a4a0d26d25489364aaef"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-geometry-mobile.png",
+      "sha256": "5154823d429321c7706452c19414d950105b63e658cecab910b789dbef3446bd"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-symbols-mobile.png",
+      "sha256": "be0b0e6a3ef76bb990dc7630186032979cfe5079a394b6db525da8e37c939065"
+    }
+  ],
+  "pluginUse": {
+    "memory": "Actual Supermemory retrieval succeeded in this continuation",
+    "researchGuard": "Source guard reports remain separately scoped; this browser replay checks source hashes and actual UI behavior",
+    "design": "Installed frontend UI engineering instructions applied; no hosted design review or 12ui CLI execution claimed in this replay"
+  },
+  "limits": [
+    "Browser function and source-data fidelity only; no complete musical census, universal generation or historical orientation certified.",
+    "Mixed accounting units remain explicit."
+  ],
+  "ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-ob50gY",
+    "identities": 14
+  },
+  "status": "passed",
+  "cleanupAttempts": [
+    {
+      "attempt": 1,
+      "error": "AssertionError [ERR_ASSERTION]: Owned process 27804 did not exit.\r\nAt C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\scripts\\process-lifecycle.ps1:72 char:57\r\n+ ... Identity) { throw \"Owned process $($sunnyIdentity.pid) did not exit.\" ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : OperationStopped: (Owned process 27804 did not exit.:String) [], RuntimeException\r\n    + FullyQualifiedErrorId : Owned process 27804 did not exit.\r\n \r\n\n\n1 !== 0\n\n    at ownership (file:///C:/Users/Brend/Documents/ChatGPT/SUN/tests/delivery-systems-browser.mjs:10:289)\n    at file:///C:/Users/Brend/Documents/ChatGPT/SUN/tests/delivery-systems-browser.mjs:48:216"
+    }
+  ],
+  "cleanup": {
+    "status": "reaped",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-ob50gY",
+    "captured_identities": 14,
+    "stopped_pids": [],
+    "remaining_known_processes": 0,
+    "remaining_profile_processes": 0
+  }
+}

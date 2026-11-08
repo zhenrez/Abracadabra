@@ -1,0 +1,96 @@
+{
+  "schema": "sunny.levisson-haftarah-score-recovery.v1",
+  "reviewedLocalDate": "2026-11-02",
+  "scope": "The Levisson-published LJG Shabbat/Shalosh Regalim Haftarah teaching score and linked tracks01-04. No transfer to Sinai Temple or all cantillation traditions.",
+  "charter": {
+    "goal": "Recover literal score pitches and relative intervals at Tipcha and Etnachta, preserve matched recording links, and distinguish written anchors from verified acoustic anchors.",
+    "knowledgeDepth": "working: existing landmark issue recovered; this source's actual staff visually inspected; audio decoded but no independent syllable transcript",
+    "type": "bounded descriptive source recovery and reproducibility review",
+    "canon": ["Original Levisson-linked score PDF", "Original Levisson publisher page and its track captions/URLs", "Actual downloaded MP3 bytes", "Derived render, manual staff transcription and candidate audio-periodicity computation"],
+    "scopeFilter": "No general historical/ancient phonetic claim; one contemporary teaching witness.",
+    "objectFilter": "Source-written notes and relative intervals are admitted; fixed concert Hz, temperament, performed octave, audio word alignment and inherited traditions are not inferred."
+  },
+  "sources": {
+    "index": "docs/evidence/levisson-haftarah-sources/index.html",
+    "indexUrl": "https://levisson.nl/en/music/torah-and-haftarah/",
+    "pdf": "docs/evidence/levisson-haftarah-sources/score.pdf",
+    "pdfUrl": "https://www.levisson.nl/images/stories/Muziekarchief/Tora%20en%20haftara/haftaratrope/Zangtekens%20Haftara.pdf",
+    "pdfSha256": "6f349a89a02c36f08600a34938a4ced2a3a95538c48e0cb8ac5c6d3cf05a39d4",
+    "retrievalReceipt": "docs/evidence/levisson-haftarah-retrieval.json",
+    "originalPdfPages": 2,
+    "sourcePageLocator": "PDF page1, first staff of printed page715 on the left; paired Hebrew text is on printed page714 to the right",
+    "publisherContext": "Haftarah trope for Shabbat and Shalosh Regalim, LJG siddur pages714-717; recordings section credits chazzan Avery Tracht. The separate Torah paragraph's West-European Ashkenaz description is not automatically treated as an independently established classification of this Haftarah performance."
+  },
+  "notation": {
+    "title": "ZANGTEKENS VOOR DE HAFTARA",
+    "clef": "treble",
+    "keySignature": "none on the inspected first staff; this alone does not identify tonic/mode",
+    "accidentalsOnInspectedStaff": [],
+    "pitchConvention": "Written octave numbers use treble-clef E4 as the lowest staff line. Chromatic offsets count conventional written semitone intervals; they do not prescribe acoustic tuning or A440.",
+    "sourceWordOrder": ["mer-cha", "tip-cha", "moe-nach", "et-nach-ta"],
+    "motifs": [
+      {"accent": "Mercha", "writtenNotes": ["E4", "G4"], "chromaticOffsetsFromE4": [0, 3], "withinMotifChromaticIntervals": [3]},
+      {"accent": "Tipcha", "writtenNotes": ["G4", "A4"], "chromaticOffsetsFromE4": [3, 5], "withinMotifChromaticIntervals": [2]},
+      {"accent": "Munach", "writtenNotes": ["E4", "A4"], "chromaticOffsetsFromE4": [0, 5], "withinMotifChromaticIntervals": [5]},
+      {"accent": "Etnachta", "writtenNotes": ["E4", "E4", "E4", "G4", "B4", "A4"], "chromaticOffsetsFromE4": [0, 0, 0, 3, 7, 5], "withinMotifChromaticIntervals": [0, 0, 3, 4, -2], "observation": "The final four noteheads lie under a slur; the three E4-G4-B4 notes are marked as a triplet. Rhythm was not converted into physical durations or a fixed tempo. The written motif contains multiple notes, not one pitch assigned to the accent."}
+    ],
+    "flattenedWrittenNotes": ["E4", "G4", "G4", "A4", "E4", "A4", "E4", "E4", "E4", "G4", "B4", "A4"],
+    "noteheadCount": 12,
+    "twoMarkedAccents": ["Tipcha", "Etnachta"],
+    "registeredAnchorPairs": [
+      {"from": "first Tipcha note", "fromWrittenPitch": "G4", "to": "final Etnachta note", "toWrittenPitch": "A4", "chromaticInterval": 2, "spelledInterval": "ascending major second", "use": "Distinct written score positions available for a future two-landmark comparison, specified without fitting audio residuals"},
+      {"from": "final Tipcha note", "fromWrittenPitch": "A4", "to": "final Etnachta note", "toWrittenPitch": "A4", "chromaticInterval": 0, "spelledInterval": "unison", "use": "Retains the terminal-to-terminal interpretation rather than silently substituting a different landmark"},
+      {"from": "first Tipcha note", "fromWrittenPitch": "G4", "to": "first Etnachta note", "toWrittenPitch": "E4", "chromaticInterval": -3, "spelledInterval": "descending minor third"}
+    ]
+  },
+  "pixelEvidence": {
+    "fullPageRender": "docs/evidence/levisson-haftarah-sources/score-page1.png",
+    "firstSystemRender": "docs/evidence/levisson-haftarah-sources/score-first-system.png",
+    "firstSystemRenderSize": [1550, 290],
+    "renderCommand": "pdftoppm -f1 -singlefile -r360 -x90 -y280 -W1550 -H290 -png score.pdf score-first-system",
+    "calibration": "Five staff lines sampled from actual dark pixels in clean strips x200:215 and x1340:1360; line coordinates change across the skewed scan. Notehead centers below are manual pixel annotations, not automated recognition.",
+    "manualNoteheadCenters": [[242, 143], [354, 123], [470, 125], [578, 115], [718, 146], [834, 119], [945, 149], [1022, 151], [1098, 153], [1148, 134], [1200, 113], [1270, 124]],
+    "expectedDiatonicStepsAboveE4": [0, 2, 2, 3, 0, 3, 0, 0, 0, 2, 4, 3],
+    "anchorPointIndicesZeroBased": {"firstTipcha": 2, "finalTipcha": 3, "firstEtnachta": 6, "finalEtnachta": 11},
+    "scanSkewControl": "First Tipcha and final Etnachta notehead centers have almost equal absolute image y, but the local staff is skewed; staff-relative positions correctly distinguish G4 from A4. Absolute image height alone is not a pitch coordinate."
+  },
+  "linkedTracks": [
+    {"track": 1, "publisherCaption": "Mercha tipcha munach etnachta", "fileName": "01 Mercha tipcha mercha etnachta.mp3", "preservedMp3": "docs/evidence/levisson-haftarah-sources/track01.mp3", "status": "Caption/filename lexical conflict; the score's first staff agrees with the caption. Candidate audio shape is not an independent phonetic transcript."},
+    {"track": 2, "publisherCaption": "Tipcha munach etnachta", "fileName": "02 Tipcha moenach etnachta.mp3", "preservedMp3": "docs/evidence/levisson-haftarah-sources/track02.mp3", "status": "Publisher supplies corresponding accent names with Dutch transliteration difference; exact note-to-time alignment not independently verified"},
+    {"track": 3, "publisherCaption": "Mercha tipcha etnachta", "fileName": "03 Mercha tipcha etnachta.mp3", "preservedMp3": "docs/evidence/levisson-haftarah-sources/track03.mp3", "status": "Caption and filename agree; omitted-accent performance is a linked example, not a separately engraved full score in the inspected first system"},
+    {"track": 4, "publisherCaption": "Tipcha etnachta", "fileName": "04 Tipcha etnachta.mp3", "preservedMp3": "docs/evidence/levisson-haftarah-sources/track04.mp3", "status": "Caption and filename agree; useful simplest linked pair, but its audio syllable boundaries and performed pitch anchors still require independent confirmation"}
+  ],
+  "audioInspection": {
+    "artifact": "docs/evidence/levisson-haftarah-audio-inspection.json",
+    "decodedTrackCount": 4,
+    "decodedSeconds": [9.508625, 6.2171875, 6.2171875, 4.9633125],
+    "methodScope": "Each source MP3 decoded with the existing parent-provided miniaudio dependency to signed16 mono16kHz, with preserved derived WAVs and candidate periodicity frames. The periodicity procedure permits octave and phonetic alignment errors; it is not a verified f0 transcription.",
+    "newVerifiedAcousticAnchorPairs": 0,
+    "track01Resolution": "Not adjudicated from a filename or fitted pitch contour. The caption/filename discrepancy remains explicitly recoverable.",
+    "crossWitnessTransfer": "No Levisson score pitch is assigned to the Sinai recordings. Even identical accent names do not license transferring melody, absolute octave or Hz."
+  },
+  "negativeControls": [
+    "Replacing the six-note Etnachta motif with a single universal pitch loses source-written structure.",
+    "Choosing final-to-final versus first-to-final changes the interval from unison to major second; anchor definition must be recorded.",
+    "The score does not specify A440, equal temperament, performed octave or exact frequency ratios.",
+    "Track01's filename cannot silently overwrite the publisher caption and score, nor can the score be used to claim a heard word that was not independently transcribed.",
+    "The same diagram/label in another institution does not establish the same tune."
+  ],
+  "guardrails": {
+    "actualJevRequest": "docs/evidence/levisson-haftarah-jev-request.json",
+    "actualJevReceipt": "docs/evidence/levisson-haftarah-superjev.json",
+    "selectedOperationalRoute": "full_motifs_and_distinct_score_anchors",
+    "resolvedModel": "jev-1.14.0",
+    "methodsApplied": ["SuperJev coordination and model identity retention", "Research Methodology bounded descriptive/source strategy", "Evidence Review claim/source matching", "Mathbox proof-audit source/target/unit and written-versus-measured scope checks"],
+    "actualSupermemorySearch": "docs/evidence/levisson-haftarah-supermemory.json",
+    "runtimeBoundary": "Installed specialist skill methods were applied; no separate Mathbox/Research Methodology solver service or new Proofline/AgentProof/MightShape certification is claimed."
+  },
+  "retainedFailures": [
+    "First rendering attempt used host Python fitz and exited1 because that module is absent; source downloads and retrieval receipt had already succeeded. Existing Poppler then rendered successfully.",
+    "soundfile is absent from the checked host and local virtual environments; the already supplied miniaudio decoder succeeded. No new package installed."
+  ],
+  "nextSmallestTest": "An independent label-to-audio annotation of track04 can bind first Tipcha and final Etnachta score positions to time intervals without displaying candidate f0; then test the declared written contour up to a free transposition/performed register and quantify estimation uncertainty. This is exposed source comparison, not an automatically blind prediction.",
+  "newResult": "A source-qualified staff realization now supplies two explicit written pitch landmarks and complete local motifs. It resolves the absence of pitch coordinates in the earlier Sinai diagram for this different Levisson witness, while leaving acoustic alignment and cross-tradition transfer separate.",
+  "persistentProcessesStarted": 0,
+  "centralModelOrCoreMutated": false
+}

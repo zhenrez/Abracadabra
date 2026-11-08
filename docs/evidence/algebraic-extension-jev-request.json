@@ -1,0 +1,44 @@
+{
+  "state": {
+    "goal": "Execute the source-native Zhu scalar root extension exactly, leaving existing native-execution artifacts unchanged.",
+    "source": {
+      "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "pointer": "/generative_registry/0",
+      "literalRelations": [
+        "<R,L> = {2^a 3^b} ≅ Z^2",
+        "sanfen D=R and U=L^-1",
+        "q not in <R,L> but q^12=2",
+        "R=2/3,L=3/4,q=2^(1/12)"
+      ]
+    },
+    "scope": "Positive finite monomials in primes with rational exponents; multiplication/inversion/exact equality and explicit octave quotient only. This is a computational representation of the source carrier, not a new ontology of every system."
+  },
+  "questions": {
+    "extension_route": {
+      "type": "choice",
+      "instructions": "Which exact source-compatible execution route should be implemented and proved?",
+      "criteria": {
+        "prime_rational_exponents": "Represent a positive monomial by a finite sorted prime->rational-exponent map. Prove equality by clearing common exponent denominators and unique prime factorization. Derive H=<G,q>={2^(a/12)3^b}, H/G≅C12, and H/<2>≅C12×Z. Retain fractional prime-2 exponent modulo1.",
+        "float_pitch_classes": "Approximate q using floating-point numbers and identify its seven-step value with the exact pure fifth because both have 12-dial label7.",
+        "no_extension": "Leave the explicitly source-defined q root extension entirely unrepresented."
+      }
+    },
+    "quotient_hypothesis": {
+      "type": "noul",
+      "instructions": "Under G=<2/3,3/4>={2^a3^b|a,b integers}, q=positive12throotof2 and H=<G,q>, are H/G≅C12 and H/<2>≅C12×Z both true? Integer octaves form <2>; pure3exponent is not discarded."
+    },
+    "fifth_equality": {
+      "type": "noul",
+      "instructions": "Is exact pure fifth3/2 equal to q^7 merely because a 12-dial pitch-class label assigns both index7? Exact equality, not perceptual/tuning equivalence."
+    },
+    "connected_discriminator": {
+      "type": "choice",
+      "instructions": "Which connected exact discriminator should the new module compute?",
+      "criteria": {
+        "retain_comma": "Compute δ=q^7/(3/2)=2^(19/12)/3; δ^12=524288/531441, explicitly nonidentity, inverse of the native twelve-fifths octave residual. Keep the quotient's fractional2exponent.",
+        "erase_fractional_octave": "Discard all prime2exponents so q^7 and purefifth lose their root-extension distinction."
+      }
+    }
+  }
+}

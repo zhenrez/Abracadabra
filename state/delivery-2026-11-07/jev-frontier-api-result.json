@@ -1,0 +1,46 @@
+{
+  "provider": "local",
+  "status": "judged",
+  "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000058-bbb3ab44bbf5.json",
+  "sha256": "bbb3ab44bbf53d3deb4af6d20e0a7622490c17c4a02559a7a81c2ec77aaa7766",
+  "answers": [
+    {
+      "id": "next_connected_derivation",
+      "type": "choice",
+      "distribution": {
+        "joint_lattice_and_musical_lift": 0.3116070330142975,
+        "minimal_source_bound_score_anchors": 0.40825051069259644,
+        "symbol_sound_contact_discrimination": 0.28014251589775085
+      },
+      "value": "minimal_source_bound_score_anchors",
+      "description": "Compute exactly which duration-anchor pairs suffice, which do not, invariant predictions from partial anchors, and minimal incompatible subsets; connect to the existing score and interactive views.",
+      "top_probability": 0.40825051069259644,
+      "margin": 0.09664347767829895
+    }
+  ],
+  "model_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "billing": "No hosted API request",
+  "completionCertified": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "sunny.background-worker.v1",
+  "pid": 35804,
+  "started_utc": "2026-11-02T01:44:20.000071+00:00",
+  "status": "stopped",
+  "current_job": null,
+  "completed_this_run": 0,
+  "lease_seconds": 45,
+  "code_sha256": "a7c73108e36f42930875afd1d24a2b02544a836f5c55f566fc715ede36450179",
+  "children_started": 0,
+  "guards": {
+    "superjev_sha256": "67fb4b348be367a62213febd45bff8b5f6bd0192203ad272a91dac24a2ee23c4",
+    "proofline_sha256": "6969274e69ef803f431bdd67f3c9d372a50a93f97c1a050b8c1c3f2464e5a2b6"
+  },
+  "scope": "One process, in-process bounded Jev/Proofline. Queue-driven source forensics and exact declared operator probes; no shell, browser, or arbitrary code handler.",
+  "updated_utc": "2026-11-02T01:44:20.001455+00:00",
+  "stopped_utc": "2026-11-02T01:44:35.002410+00:00",
+  "stop_reason": "requested"
+}

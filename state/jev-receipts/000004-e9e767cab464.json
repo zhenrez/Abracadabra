@@ -1,0 +1,110 @@
+{
+  "status": "judged",
+  "sha256": "e9e767cab46426236b97f89757d82c0bfec07b78ba04e1a2d3f441e596b49206",
+  "sequence": 4,
+  "previous_sha256": "ebd75ce4da59303cd1bdeeb9629dfeeb6742f4e45b0a40e1f0d0d4aa24e269c8",
+  "purpose": "Concrete AgentProof and Proofline project guardrail scope",
+  "completed_at": "2026-10-31T01:02:26.908245+00:00",
+  "request_sha256": "cf1200d97e6583f1614f9ec53a7e950ff691d6f80ccb1ef6bb29f89c8a6d1825",
+  "request": {
+    "state": {
+      "goal": "Apply actual AgentProof, Proofline and MightShape guardrails to SUNNY, with Jev directing choices.",
+      "facts": "AgentProof can capture only a NEW Codex CLI child session. It requires a trusted Git root, read-only or workspace-write scope, max20MiBfile/100MiBtotal, and cannot prove truth/completeness or capture this chat. SUNNYworkspace has generated2GBdatabase and1.2GBmodel; upstream pinnedruntime is a separateGit repo. Root source files small. Real user instruction and live Jev receipts exist. Proofline schema requires confidence numeric; no research confidence should be invented.",
+      "constraints": "No private logs uploaded to external model, no signing/anchoring, no bypassing profile checks, no retroactive Jev authorship claim. Capture's CLI model is writer/executor only; Jev remains decision authority."
+    },
+    "questions": [
+      {
+        "id": "agentproof_scope",
+        "type": "choice",
+        "question": "Which concrete AgentProof guardrail scope should execute now?",
+        "options": {
+          "source_review_repo": "Create a clearly scoped local review Git repository containing exact copies+hashes of SUNNY source/tool files, then capture a new read-only child that verifies those hashes and runs predetermined checks without making domain decisions.",
+          "upstream_runtime": "Capture a new read-only child in the pinned upstream runtimeGit repository, verifying runtime source/hash manifests only; keep its narrow scope explicit.",
+          "defer_capture": "Leave capture unexecuted and only document the current-session limitation until full SUNNY integration is finished."
+        }
+      },
+      {
+        "id": "proofline_scope",
+        "type": "choice",
+        "question": "What project-specific claim can Proofline verify without inventing mathematical confidence?",
+        "options": {
+          "integrity_only": "Package the concrete engineering decision to require actual live Jev gates, citing exact user instruction bytes and actual tool/model/receipt versions; state deterministic source-integrity confidence separately from unknown research correctness.",
+          "domain_confidence": "Assign a numeric confidence to the complete SUNNY musical law despite no held-out results.",
+          "fixture_only": "Execute only the packaged synthetic fixture and leave project provenance unverified."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "agentproof_scope",
+            "type": "choice",
+            "distribution": {
+              "defer_capture": 0.3009618818759918,
+              "source_review_repo": 0.3483101427555084,
+              "upstream_runtime": 0.35072794556617737
+            },
+            "value": "upstream_runtime",
+            "description": "Capture a new read-only child in the pinned upstream runtimeGit repository, verifying runtime source/hash manifests only; keep its narrow scope explicit.",
+            "top_probability": 0.35072794556617737,
+            "margin": 0.0024178028106689453
+          },
+          {
+            "id": "proofline_scope",
+            "type": "choice",
+            "distribution": {
+              "domain_confidence": 0.31348684430122375,
+              "fixture_only": 0.25438565015792847,
+              "integrity_only": 0.4321274161338806
+            },
+            "value": "integrity_only",
+            "description": "Package the concrete engineering decision to require actual live Jev gates, citing exact user instruction bytes and actual tool/model/receipt versions; state deterministic source-integrity confidence separately from unknown research correctness.",
+            "top_probability": 0.4321274161338806,
+            "margin": 0.11864057183265686
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 2,
+      "candidate_paths": 6,
+      "input_path_tokens": 1396,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 382,
+      "shared_prefix_questions": 2,
+      "shared_prefix_states": 1,
+      "wall_ms": 1056.22
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

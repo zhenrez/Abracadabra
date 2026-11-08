@@ -1,0 +1,49 @@
+{
+  "schema": "sunny.hierarchy-ui-final-verification.v1",
+  "status": "passed",
+  "combined_graph_sha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7",
+  "counts": {
+    "graph_records": 9493,
+    "non_slot_records": 1582,
+    "generated_membership_slots": 7911,
+    "native_views": 22
+  },
+  "files": [
+    {
+      "path": "scripts/render_hierarchy_atlas.mjs",
+      "sha256": "088e401323f9efae3ca98f319fe98b93923beb89d701f0f299ed76b446b73b6f",
+      "bytes": 5834
+    },
+    {
+      "path": "public/hierarchy-atlas-client.js",
+      "sha256": "aa84260b0f71c58eda09c433597ea9c1ee0266c7aca1bf99d02fa4715224a012",
+      "bytes": 16240
+    },
+    {
+      "path": "public/hierarchy-atlas.css",
+      "sha256": "4b2f8f8aa1186b68a2c28b296c51b6fe285896dea9e2caf6f5daa6bdb884bc0a",
+      "bytes": 5735
+    },
+    {
+      "path": "tests/hierarchy-ui-browser.mjs",
+      "sha256": "cdf940f514438448542b621837ff08b0f5df5218b4f038080bfe60e9e31faec7",
+      "bytes": 13656
+    },
+    {
+      "path": "deliverables/SUNNY_Hierarchy_Atlas.html",
+      "sha256": "5e90ad1d419b059cec991e4d49a4923e24967d6f7fe0b10c37ad1bbad168ebf4",
+      "bytes": 26299698
+    }
+  ],
+  "runtime_receipt": "docs/evidence/hierarchy-ui-browser-check.json",
+  "actual_visual_inspection": "docs/evidence/hierarchy-ui-visual-inspection.json",
+  "actual_jev_design": "docs/evidence/hierarchy-ui-design-superjev.json",
+  "skills_applied": [
+    "AgentSkills frontend-ui-engineering",
+    "AgentSkills browser-testing-with-devtools using native isolated Edge CDP",
+    "Superpowers verification-before-completion"
+  ],
+  "external_network_requests": 0,
+  "owned_browser_survivors": 0,
+  "scope": "Offline UI and supplied graph execution only; no universal hierarchy, historical truth, source-completeness or formal accessibility certification."
+}

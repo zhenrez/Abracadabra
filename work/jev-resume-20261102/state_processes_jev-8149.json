@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "name": "jev-8149",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "port": 8149,
+  "status": "ready",
+  "root_identity": {
+    "pid": 22996,
+    "parent_pid": 10268,
+    "creation_utc": "2026-10-31T01:44:55.497686Z",
+    "executable_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\runtime\\.venv\\Scripts\\python.exe",
+    "command_sha256": "f075c50340de7263109fa6baaf89ed420dc5d8b8636f6859a31b443a4740ff77"
+  },
+  "processes": [
+    {
+      "pid": 22996,
+      "parent_pid": 10268,
+      "creation_utc": "2026-10-31T01:44:55.497686Z",
+      "executable_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\runtime\\.venv\\Scripts\\python.exe",
+      "command_sha256": "f075c50340de7263109fa6baaf89ed420dc5d8b8636f6859a31b443a4740ff77"
+    },
+    {
+      "pid": 23540,
+      "parent_pid": 22996,
+      "creation_utc": "2026-10-31T01:44:55.5272760Z",
+      "executable_path": "C:\\WINDOWS\\system32\\conhost.exe",
+      "command_sha256": "417222c4a0ecb4d60a457ebe8e26fddf3d5406bffb16a5c59af8eeb241beca51"
+    },
+    {
+      "pid": 7468,
+      "parent_pid": 22996,
+      "creation_utc": "2026-10-31T01:44:55.5735360Z",
+      "executable_path": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "command_sha256": "f075c50340de7263109fa6baaf89ed420dc5d8b8636f6859a31b443a4740ff77"
+    }
+  ],
+  "recorded_utc": "2026-10-31T01:50:17.1363631Z",
+  "migration": "Only this turn own launch, exact parent/exe/creation/command verified under root explicit direction"
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-03T04:13:57.226313+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "3e34fe813b747ac3dcacb4c6f4f4c8f6c8604863b39942ac043fefdffe9fd411"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "fdf39a77-ab9e-5858-9c94-9ceaee5d128d",
+      "source_identity_sha256": "1d008a157d5fa11bbd11ba0c41db7c511b3d216b53b54acf82a43cc34632585f",
+      "source_version_id": "b015aab3-dfd2-591b-8112-ba1c31d1ab88",
+      "version_number": 1,
+      "content": "{\r\n  \"schema\": \"sunny.background-reactivation-tests.v1\",\r\n  \"checked_utc\": \"2026-11-03T04:11:37.099853+00:00\",\r\n  \"command\": [\r\n    \"C:\\\\Users\\\\Brend\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\",\r\n    \"-X\",\r\n    \"utf8\",\r\n    \"-B\",\r\n    \"-m\",\r\n    \"unittest\",\r\n    \"tests.background_reconstruction_test\",\r\n    \"tests.background_intake_test\",\r\n    \"tests.background_reliability_test\",\r\n    \"-v\"\r\n  ],\r\n  \"exit_code\": 0,\r\n  \"passed\": true,\r\n  \"output_path\": \"state\\\\background\\\\reactivation-20261102\\\\focused-green-tests.txt\",\r\n  \"tested_code_sha256\": \"bdec4fe39cd8e6ee78c8b4c6fc4bf5324ebf298b76ae4ad7ad35b59fd6168e47\",\r\n  \"manager_sha256\": \"845f818f17ca59a79a6969800678c2fa9e2498c8cf1a876d7c3acf4bb6dbb9a7\",\r\n  \"scope\": \"18focused source/intake/cadence/budget/readiness/Proofline/lock contracts. Synthetic fixture scope, no live model requests in the test suite. Actual process/output evidence is separate.\"\r\n}",
+      "content_sha256": "ae01e91b5a1f8284ec347b0e51bc2daf0677a0a7ecfc40ad7f0b0c28573e2a17",
+      "content_length": 921,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "ae822c042bdb2b0ac3c922e95544891e66b82d6051b8713458a366d007dc5293"
+    },
+    "chunks": [
+      {
+        "id": "b9128b93-bdbf-5b0c-82e0-05a84728baab",
+        "source_node_hash": "ae822c042bdb2b0ac3c922e95544891e66b82d6051b8713458a366d007dc5293",
+        "source_id": "fdf39a77-ab9e-5858-9c94-9ceaee5d128d",
+        "source_version_id": "b015aab3-dfd2-591b-8112-ba1c31d1ab88",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 921,
+        "start_line": 1,
+        "end_line": 22,
+        "content": "{\r\n  \"schema\": \"sunny.background-reactivation-tests.v1\",\r\n  \"checked_utc\": \"2026-11-03T04:11:37.099853+00:00\",\r\n  \"command\": [\r\n    \"C:\\\\Users\\\\Brend\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\",\r\n    \"-X\",\r\n    \"utf8\",\r\n    \"-B\",\r\n    \"-m\",\r\n    \"unittest\",\r\n    \"tests.background_reconstruction_test\",\r\n    \"tests.background_intake_test\",\r\n    \"tests.background_reliability_test\",\r\n    \"-v\"\r\n  ],\r\n  \"exit_code\": 0,\r\n  \"passed\": true,\r\n  \"output_path\": \"state\\\\background\\\\reactivation-20261102\\\\focused-green-tests.txt\",\r\n  \"tested_code_sha256\": \"bdec4fe39cd8e6ee78c8b4c6fc4bf5324ebf298b76ae4ad7ad35b59fd6168e47\",\r\n  \"manager_sha256\": \"845f818f17ca59a79a6969800678c2fa9e2498c8cf1a876d7c3acf4bb6dbb9a7\",\r\n  \"scope\": \"18focused source/intake/cadence/budget/readiness/Proofline/lock contracts. Synthetic fixture scope, no live model requests in the test suite. Actual process/output evidence is separate.\"\r\n}",
+        "content_sha256": "ae01e91b5a1f8284ec347b0e51bc2daf0677a0a7ecfc40ad7f0b0c28573e2a17",
+        "node_hash": "1a4d210ba7b29c094306564f73480b157bc59ae5dce6df31fcb3bcf3f76bc740"
+      }
+    ],
+    "citations": [
+      {
+        "id": "dc0cb7c6-6732-5c96-9842-ea4f0c37ce65",
+        "source_node_hash": "ae822c042bdb2b0ac3c922e95544891e66b82d6051b8713458a366d007dc5293",
+        "chunk_node_hashes": [
+          "1a4d210ba7b29c094306564f73480b157bc59ae5dce6df31fcb3bcf3f76bc740"
+        ],
+        "source_id": "fdf39a77-ab9e-5858-9c94-9ceaee5d128d",
+        "source_version_id": "b015aab3-dfd2-591b-8112-ba1c31d1ab88",
+        "start_offset": 0,
+        "end_offset": 921,
+        "start_line": 1,
+        "end_line": 22,
+        "quote": "{\r\n  \"schema\": \"sunny.background-reactivation-tests.v1\",\r\n  \"checked_utc\": \"2026-11-03T04:11:37.099853+00:00\",\r\n  \"command\": [\r\n    \"C:\\\\Users\\\\Brend\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\",\r\n    \"-X\",\r\n    \"utf8\",\r\n    \"-B\",\r\n    \"-m\",\r\n    \"unittest\",\r\n    \"tests.background_reconstruction_test\",\r\n    \"tests.background_intake_test\",\r\n    \"tests.background_reliability_test\",\r\n    \"-v\"\r\n  ],\r\n  \"exit_code\": 0,\r\n  \"passed\": true,\r\n  \"output_path\": \"state\\\\background\\\\reactivation-20261102\\\\focused-green-tests.txt\",\r\n  \"tested_code_sha256\": \"bdec4fe39cd8e6ee78c8b4c6fc4bf5324ebf298b76ae4ad7ad35b59fd6168e47\",\r\n  \"manager_sha256\": \"845f818f17ca59a79a6969800678c2fa9e2498c8cf1a876d7c3acf4bb6dbb9a7\",\r\n  \"scope\": \"18focused source/intake/cadence/budget/readiness/Proofline/lock contracts. Synthetic fixture scope, no live model requests in the test suite. Actual process/output evidence is separate.\"\r\n}",
+        "quote_sha256": "ae01e91b5a1f8284ec347b0e51bc2daf0677a0a7ecfc40ad7f0b0c28573e2a17",
+        "node_hash": "9854e3d5f71fb3432151007f55828a4551531f381ab60b03d5eeb6230b4b7b93"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "ae822c042bdb2b0ac3c922e95544891e66b82d6051b8713458a366d007dc5293",
+        "1a4d210ba7b29c094306564f73480b157bc59ae5dce6df31fcb3bcf3f76bc740",
+        "9854e3d5f71fb3432151007f55828a4551531f381ab60b03d5eeb6230b4b7b93"
+      ],
+      "node_hash": "72c702b09a5e003d1e896cd11dca60a57aef4ade07eb27c2743bf4ca0f506fb0"
+    },
+    "artifact": {
+      "id": "3dc9b0f3-79e0-582a-84db-bd708f102370",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source docs/evidence/background-reactivation-tests.json; original SHA256 ae01e91b5a1f8284ec347b0e51bc2daf0677a0a7ecfc40ad7f0b0c28573e2a17; physical source lines 1..22. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "72c702b09a5e003d1e896cd11dca60a57aef4ade07eb27c2743bf4ca0f506fb0",
+      "citation_node_hashes": [
+        "9854e3d5f71fb3432151007f55828a4551531f381ab60b03d5eeb6230b4b7b93"
+      ],
+      "node_hash": "3cd8c3d6b50b64a781e3b84fc4741ca634d4f7dec9b09077af4d68254688c1ed"
+    },
+    "review": {
+      "artifact_node_hash": "3cd8c3d6b50b64a781e3b84fc4741ca634d4f7dec9b09077af4d68254688c1ed",
+      "status": "candidate",
+      "created_at": "2026-11-03T04:13:57.226313+00:00",
+      "updated_at": "2026-11-03T04:13:57.226313+00:00",
+      "node_hash": "12991cbabd1ffc5fb70f1a633b2eb414b1679cb4ec84514021e13dd66171da06"
+    }
+  }
+}

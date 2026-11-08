@@ -1,0 +1,76 @@
+{
+  "id": "alignment-table-0aa4e195e94620e5",
+  "content_sha256": "0aa4e195e94620e5a33bdd92e3be8ae5ded107b5707000d12908ee7d5199b863",
+  "headers": [
+    "Hypothesis",
+    "Disposition"
+  ],
+  "rows": [
+    [
+      "4/5 → 5/6 telescoping gives SUN kernel",
+      "Falsified: no 6-fold structure"
+    ],
+    [
+      "Chiodo reconstruction is authoritative",
+      "Falsified: user determined Chiodo wrong; all Chiodo results quarantined"
+    ],
+    [
+      "74 faces = 2 × 37 reveals duality",
+      "Falsified: 27 triple concurrences, not 37"
+    ],
+    [
+      "3 flagged triples are geometric failures",
+      "False alarm: checker defect, not geometry"
+    ],
+    [
+      "Persistence alone forces φ",
+      "Falsified: $s_{n+1} = 2 s_n + 1 \\cdot s_{n-1}$ gives $1+\\sqrt{2}$, not φ"
+    ],
+    [
+      "Fibonacci emerges from 4/8/12/16 arithmetic progression",
+      "Falsified: charpoly $(\\lambda-1)^2$, not golden"
+    ],
+    [
+      "Four yantra counts closed under R, L, O",
+      "False: $R(16) = 32/3 \\notin \\{4,8,12,16\\}$"
+    ],
+    [
+      "$A_4 \\cong \\mathbb{Z}_{12}$",
+      "False: $A_4$ non-abelian, no order-4 element"
+    ],
+    [
+      "$\\mathbb{Z}_{48} \\cong \\mathbb{Z}_4 \\times \\mathbb{Z}_{12}$",
+      "False: max order 12 vs 48"
+    ],
+    [
+      "φ emerges from cyclic shift algebra",
+      "False: φ $\\notin \\mathbb{Q}(\\zeta_{12})$"
+    ],
+    [
+      "Fibre adjacency is type-preserving",
+      "False: reflection exchanges $H_8 \\leftrightarrow H_{12}$"
+    ],
+    [
+      "Phonetic evidence proves the Fibonacci substitution",
+      "False: only Time shows consistent gaps; Memory does not"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 1197,
+      "line_end": 1210,
+      "char_start": 67660,
+      "char_end": 68848,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Hypothesis | Disposition |\r\n|---|---|\r\n| 4/5 → 5/6 telescoping gives SUN kernel | Falsified: no 6-fold structure |\r\n| Chiodo reconstruction is authoritative | Falsified: user determined Chiodo wrong; all Chiodo results quarantined |\r\n| 74 faces = 2 × 37 reveals duality | Falsified: 27 triple concurrences, not 37 |\r\n| 3 flagged triples are geometric failures | False alarm: checker defect, not geometry |\r\n| Persistence alone forces φ | Falsified: $s_{n+1} = 2 s_n + 1 \\cdot s_{n-1}$ gives $1+\\sqrt{2}$, not φ |\r\n| Fibonacci emerges from 4/8/12/16 arithmetic progression | Falsified: charpoly $(\\lambda-1)^2$, not golden |\r\n| Four yantra counts closed under R, L, O | False: $R(16) = 32/3 \\notin \\{4,8,12,16\\}$ |\r\n| $A_4 \\cong \\mathbb{Z}_{12}$ | False: $A_4$ non-abelian, no order-4 element |\r\n| $\\mathbb{Z}_{48} \\cong \\mathbb{Z}_4 \\times \\mathbb{Z}_{12}$ | False: max order 12 vs 48 |\r\n| φ emerges from cyclic shift algebra | False: φ $\\notin \\mathbb{Q}(\\zeta_{12})$ |\r\n| Fibre adjacency is type-preserving | False: reflection exchanges $H_8 \\leftrightarrow H_{12}$ |\r\n| Phonetic evidence proves the Fibonacci substitution | False: only Time shows consistent gaps; Memory does not |\r\n",
+      "quote_sha256": "9475c4060268e8190dd92f3b1603dfaa63fc3c5a54397c61b60be68816b324f5",
+      "message_id": "40b22ea3af4e84e5543b59180b576816394c7f50956ac337e948d470f7bf5a91",
+      "role": "user",
+      "locator": "lines:1197-1210"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

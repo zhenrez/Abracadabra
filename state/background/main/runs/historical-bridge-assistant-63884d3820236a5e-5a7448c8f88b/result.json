@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-63884d3820236a5e",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:43.530485+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba/text.txt",
+        "sha256": "63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "93df4e88f081856e47bc250296ea67908064aacc68b38b2e3e2afbcbe4f9e469",
+        "timestamp": "1788386358.047688",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "93df4e88f081856e47bc250296ea67908064aacc68b38b2e3e2afbcbe4f9e469",
+          "native_id": "45a3ab77-7e76-4a5b-b809-14cc769d478a",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/45a3ab77-7e76-4a5b-b809-14cc769d478a/message",
+          "create_time": "1788386358.047688",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba/occurrences-c3208a22987829bdc1cee6633c4e3dcae3e3a77a6040e83d66d43efdfefb91bf.json",
+        "quote": "I’ll try the primary workbook first and make only the new delta additions from the China–Vedic–Fludd music work. If that workbook chokes again, I’ll stop immediately and apply the same compact update to the secondary workbook instead—no repeated retries.",
+        "quote_sha256": "63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba",
+        "original_bytes": 264,
+        "start_offset": 0,
+        "end_offset": 254
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "54e37941dd0063c44b766bea0fc475497251732201a6048ae1cb360d0970af75",
+        "artifact_id": "47a15df4-bdf8-503a-a831-208d289bf804",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.87,
+            "refines": 0.1,
+            "supports": 0.03
+          },
+          "winner": "insufficient",
+          "top_probability": 0.87,
+          "margin": 0.77
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.93,
+            "refines": 0.05,
+            "supports": 0.02
+          },
+          "winner": "insufficient",
+          "top_probability": 0.93,
+          "margin": 0.88
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.224,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

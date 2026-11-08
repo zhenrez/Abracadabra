@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-d190515379b44ceebad70dccd5a5fa4b.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-calendar-assistant-33628c66097cf357",
+    "kind": "source_forensics",
+    "track": "calendar",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/33628c66097cf35739972b4b84d4325f7af51136ddcd7edbef76051c7622acd5/text.txt",
+        "sha256": "33628c66097cf35739972b4b84d4325f7af51136ddcd7edbef76051c7622acd5",
+        "start_line": 1,
+        "end_line": 45,
+        "source_role": "assistant",
+        "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+        "message_id": "7c9a70d2e3e1df324d6f0ad02e742a9bc35f3dc9760d3d8a3019539c7683b3b4",
+        "timestamp": "1738872807.571377",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "7c9a70d2e3e1df324d6f0ad02e742a9bc35f3dc9760d3d8a3019539c7683b3b4",
+          "native_id": "af823ccd-97ea-4c92-ae75-3332cd5e5f5b",
+          "conversation_id": "c30cab5aa85cfb2445d3fcb7e01147893f121792bb978d9fb1a2946fd1b1f241",
+          "role": "assistant",
+          "content_sha256": "33628c66097cf35739972b4b84d4325f7af51136ddcd7edbef76051c7622acd5",
+          "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+          "locator": "/46/mapping/af823ccd-97ea-4c92-ae75-3332cd5e5f5b/message",
+          "create_time": "1738872807.571377",
+          "branch_status": "current",
+          "title": "Best Whiteboard Apps 2024",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-003.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-003.json",
+          "source_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/33628c66097cf35739972b4b84d4325f7af51136ddcd7edbef76051c7622acd5/occurrences-9ebe390ae199c478209c6f8a6cb481d27e0180523c564276c7513b83b4e14599.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "declared-time-frame",
+        "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+      },
+      {
+        "id": "calendar-counterfactual",
+        "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:53.054433+00:00"
+}

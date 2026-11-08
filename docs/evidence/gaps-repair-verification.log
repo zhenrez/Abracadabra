@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-31T01:27:58.097889+00:00",
+  "backup": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\backups\\gaps-before-20261031T012033098903Z.sqlite",
+  "previous_report_snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\gaps-recovery-report-before.json",
+  "previous_report_sha256": "7e469405093dbf8fc53cf0f7bfd7b82bfc318590fd3f2097442dccc646613c79",
+  "method_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000020-30d9b71a1c6b.json",
+  "position_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000021-240a80f66923.json",
+  "verification_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000042-2748d7256a2d.json",
+  "before_counts": {
+    "sources": 2042,
+    "conversations": 1032,
+    "messages": 59894,
+    "documents": 1931,
+    "search_index": 61825
+  },
+  "after_counts": {
+    "sources": 2042,
+    "conversations": 1032,
+    "messages": 59901,
+    "documents": 1934,
+    "search_index": 61835
+  },
+  "source_hash_mismatches": [],
+  "changed_existing_message_payloads": [],
+  "invalid_exact_positions": [],
+  "integrity": "ok",
+  "foreign_key_violations": [],
+  "search_duplicate_ids": 0,
+  "messages_missing_search": 0,
+  "documents_missing_search": 0,
+  "orphan_search_ids": 0,
+  "position_rows": 2366,
+  "locator_history_rows": 2359,
+  "remaining_boundaries": [
+    "NPZ values are not indexed under the actual selected metadata-only policy; exact bytes and inspection values are preserved.",
+    "ZIP member contents remain unindexed under the selected inventory-only policy.",
+    "Original legacy native_id values remain splitline indices, not native upstream ordinals.",
+    "External references, hidden/deleted/unexported data and live-account completeness are not resolved by this repair."
+  ]
+}

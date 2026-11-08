@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-bridge-user-8d484d9a76dd7648",
+  "kind": "source_forensics",
+  "track": "bridge",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/8d484d9a76dd7648c58e98b325ad05bfd09b455ef03932b3ef43441d2b5e03bb/text.txt",
+      "sha256": "8d484d9a76dd7648c58e98b325ad05bfd09b455ef03932b3ef43441d2b5e03bb",
+      "start_line": 1,
+      "end_line": 37,
+      "source_role": "user",
+      "source_id": "adb0065ffe7ddbb62e16e53f400b9767c3797526a8a126ef27241f4c7a3450c1",
+      "message_id": "6be42e6bb405fe1cbac9935809947138ba84b37d3e1c26d845b68d690f7409bc",
+      "timestamp": null,
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "6be42e6bb405fe1cbac9935809947138ba84b37d3e1c26d845b68d690f7409bc",
+        "native_id": "36",
+        "conversation_id": "6329f6eba9d6e8c80f261ad8712fc02de058abf448928672ee2c187e085f08f8",
+        "role": "user",
+        "content_sha256": "8d484d9a76dd7648c58e98b325ad05bfd09b455ef03932b3ef43441d2b5e03bb",
+        "source_id": "adb0065ffe7ddbb62e16e53f400b9767c3797526a8a126ef27241f4c7a3450c1",
+        "locator": "lines:9432-9471",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Branch · Mapping Primordials to Music",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\ChatGPT-Branch · Mapping Primordials to Music-20261018-0134.md",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Branch · Mapping Primordials to Music-20261018-0134.md",
+        "source_sha256": "2dbb71df1173554c1161f374b6dbfaf839fb7696038fd1eea2e4d18460b83460",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "2dbb71df1173554c1161f374b6dbfaf839fb7696038fd1eea2e4d18460b83460",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/8d484d9a76dd7648c58e98b325ad05bfd09b455ef03932b3ef43441d2b5e03bb/occurrences-9f8ebad7d76eea41d67221eba8f82c728885ba19bc1bc21898d7eaa76e211d19.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-bridge-operation",
+      "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+    },
+    {
+      "id": "native-carrier-relation",
+      "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

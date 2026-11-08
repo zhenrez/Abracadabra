@@ -1,0 +1,246 @@
+{
+  "schema": "sunny.delivery-browser.v1",
+  "checkedAt": "2026-11-07T12:44:54.936Z",
+  "checks": [
+    {
+      "name": "All9493 graph records,16goals,8registers,12panels loaded",
+      "status": "passed"
+    },
+    {
+      "name": "Render atlas",
+      "status": "passed"
+    },
+    {
+      "name": "Render music",
+      "status": "passed"
+    },
+    {
+      "name": "Render wheels",
+      "status": "passed"
+    },
+    {
+      "name": "Render geometry",
+      "status": "passed"
+    },
+    {
+      "name": "Render symbols",
+      "status": "passed"
+    },
+    {
+      "name": "Render score",
+      "status": "passed"
+    },
+    {
+      "name": "Render bridges",
+      "status": "passed"
+    },
+    {
+      "name": "Render constraints",
+      "status": "passed"
+    },
+    {
+      "name": "Render time",
+      "status": "passed"
+    },
+    {
+      "name": "Render proofs",
+      "status": "passed"
+    },
+    {
+      "name": "Render jev",
+      "status": "passed"
+    },
+    {
+      "name": "A/B/C,global alias search,ancestry,and lazy100membership expansion",
+      "status": "passed"
+    },
+    {
+      "name": "Wheel preserves one native parent/unit and shared entity selection",
+      "status": "passed"
+    },
+    {
+      "name": "Candidate torus and tetrahedron respond at maximum phase/refinement",
+      "status": "passed"
+    },
+    {
+      "name": "Two real matched15second audio assets served",
+      "status": "passed",
+      "audio": [
+        {
+          "status": 200,
+          "bytes": 480044
+        },
+        {
+          "status": 200,
+          "bytes": 480044
+        }
+      ]
+    },
+    {
+      "name": "All11source-clock score views render",
+      "status": "passed"
+    },
+    {
+      "name": "Exact8sufficient/2redundant source timing-anchor pairs exposed",
+      "status": "passed"
+    },
+    {
+      "name": "Conditional evidence filter retains2or3suppliedcandidates",
+      "status": "passed"
+    },
+    {
+      "name": "Ophiuchus alternatives do not force13equal sectors",
+      "status": "passed"
+    },
+    {
+      "name": "Workbench reaches pinned actual local Jev metadata",
+      "status": "passed",
+      "model": "AgentJev-0.6B"
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: overview",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: atlas",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: geometry",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: symbols",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: score",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 390,
+      "page": 390
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 768,
+      "page": 753
+    },
+    {
+      "name": "No page overflow: jev",
+      "status": "passed",
+      "viewport": 1536,
+      "page": 1521
+    },
+    {
+      "name": "Native navigation and main landmarks",
+      "status": "passed"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "screenshots": [
+    "docs/evidence/delivery-2026-11-07/overview-desktop.png",
+    "docs/evidence/delivery-2026-11-07/atlas-desktop.png",
+    "docs/evidence/delivery-2026-11-07/wheels-desktop.png",
+    "docs/evidence/delivery-2026-11-07/geometry-desktop.png",
+    "docs/evidence/delivery-2026-11-07/tetrahedron-desktop.png",
+    "docs/evidence/delivery-2026-11-07/symbols-desktop.png",
+    "docs/evidence/delivery-2026-11-07/score-desktop.png",
+    "docs/evidence/delivery-2026-11-07/constraints-desktop.png",
+    "docs/evidence/delivery-2026-11-07/overview-mobile.png"
+  ],
+  "limitations": [
+    "Interface checks do not establish scientific completion or historical truth.",
+    "Accessibility is checked structurally; no human screen-reader audit.",
+    "Live model metadata is checked; a new inference is not fabricated for a UI test."
+  ],
+  "ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-aCsCPo",
+    "identities": 14
+  },
+  "status": "passed",
+  "cleanup": {
+    "status": "reaped",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-aCsCPo",
+    "captured_identities": 14,
+    "stopped_pids": [],
+    "remaining_known_processes": 0,
+    "remaining_profile_processes": 0
+  }
+}

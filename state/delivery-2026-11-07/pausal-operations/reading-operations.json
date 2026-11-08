@@ -1,0 +1,1312 @@
+{
+  "schema": "sunny.native-reading-operations.v1",
+  "jevReceipt": "state/jev-receipts/000062-5fcc72f3ccd7.json",
+  "sourceRole": "Connector-extracted primary-publication text; reconstructed phones, not original ink or measured sound",
+  "sourceUrl": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/39/45/70/2019394570/2019394570.pdf",
+  "conditions": [
+    "Each publication, witness tradition, lexical case, comparative role and phonetic reconstruction remains identified.",
+    "The contextual IPA strings are manuscript comparanda, not two additional bowl forms.",
+    "A shared operation across these comparative pairs is a conditional investigative premise; Babylonian manuscripts need not form one homogeneous phonological system.",
+    "IPA quantity and stress notation do not assign milliseconds, a fixed2:1duration ratio, musical pitch, waveform or original sacred intention."
+  ],
+  "census": {
+    "entities": [
+      {
+        "id": "molin:section2.4",
+        "nativeName": "Molin2020 §2.4",
+        "unit": "Published example group",
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "statedExtent": {
+          "value": 4,
+          "unitAsWritten": "forms",
+          "meaningNotFullyResolved": true
+        },
+        "reconciliation": "Two spelled examples are displayed here. Their four comparative IPA strings are not four separately attested bowl forms. The stated corpus extent is not fully reconciled."
+      },
+      {
+        "id": "molin:example7",
+        "nativeName": "שומורו",
+        "unit": "Spelled example attributed by the publication to bowl evidence",
+        "citation": "HLIB213;684.14",
+        "locus": "Num9:23",
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "sourceSpan": {
+          "text": "שומורו",
+          "startCodePoint": 274601,
+          "endCodePointExclusive": 274607
+        },
+        "originalInkCollated": false,
+        "normalizedBhsComparator": "שמרו"
+      },
+      {
+        "id": "molin:example7:contextual",
+        "parent": "molin:example7",
+        "role": "contextual",
+        "ipa": "ʃɔːmaˈruː",
+        "syllables": [
+          {
+            "ordinalOneBased": 1,
+            "onset": "ʃ",
+            "nucleus": "ɔ",
+            "lengthMark": "ː",
+            "primaryStress": false
+          },
+          {
+            "ordinalOneBased": 2,
+            "onset": "m",
+            "nucleus": "a",
+            "lengthMark": "",
+            "primaryStress": false
+          },
+          {
+            "ordinalOneBased": 3,
+            "onset": "r",
+            "nucleus": "u",
+            "lengthMark": "ː",
+            "primaryStress": true
+          }
+        ],
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "sourceSpan": {
+          "text": "ʃɔːmaˈruː",
+          "startCodePoint": 275357,
+          "endCodePointExclusive": 275366
+        },
+        "evidenceRole": "Babylonian-manuscript comparandum cited by Molin; not a contextual token on the same bowl",
+        "measured": false,
+        "absoluteHz": null,
+        "audibleDuration": null,
+        "pitchClass": null,
+        "nativeName": "ʃɔːmaˈruː",
+        "unit": "Published comparative pronunciation"
+      },
+      {
+        "id": "molin:example7:contextual:syllable1",
+        "parent": "molin:example7:contextual",
+        "nativeName": "ʃɔː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 1,
+        "onset": "ʃ",
+        "nucleus": "ɔ",
+        "lengthMark": "ː",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example7:contextual:syllable2",
+        "parent": "molin:example7:contextual",
+        "nativeName": "ma",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 2,
+        "onset": "m",
+        "nucleus": "a",
+        "lengthMark": "",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example7:contextual:syllable3",
+        "parent": "molin:example7:contextual",
+        "nativeName": "ruː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 3,
+        "onset": "r",
+        "nucleus": "u",
+        "lengthMark": "ː",
+        "primaryStress": true,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example7:pausal",
+        "parent": "molin:example7",
+        "role": "pausal",
+        "ipa": "ʃɔːˈmɔːruː",
+        "syllables": [
+          {
+            "ordinalOneBased": 1,
+            "onset": "ʃ",
+            "nucleus": "ɔ",
+            "lengthMark": "ː",
+            "primaryStress": false
+          },
+          {
+            "ordinalOneBased": 2,
+            "onset": "m",
+            "nucleus": "ɔ",
+            "lengthMark": "ː",
+            "primaryStress": true
+          },
+          {
+            "ordinalOneBased": 3,
+            "onset": "r",
+            "nucleus": "u",
+            "lengthMark": "ː",
+            "primaryStress": false
+          }
+        ],
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "sourceSpan": {
+          "text": "ʃɔːˈmɔːruː",
+          "startCodePoint": 275124,
+          "endCodePointExclusive": 275134
+        },
+        "evidenceRole": "Molin conditional pronunciation reconstructed from the cited spelling",
+        "measured": false,
+        "absoluteHz": null,
+        "audibleDuration": null,
+        "pitchClass": null,
+        "nativeName": "ʃɔːˈmɔːruː",
+        "unit": "Published comparative pronunciation"
+      },
+      {
+        "id": "molin:example7:pausal:syllable1",
+        "parent": "molin:example7:pausal",
+        "nativeName": "ʃɔː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 1,
+        "onset": "ʃ",
+        "nucleus": "ɔ",
+        "lengthMark": "ː",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example7:pausal:syllable2",
+        "parent": "molin:example7:pausal",
+        "nativeName": "mɔː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 2,
+        "onset": "m",
+        "nucleus": "ɔ",
+        "lengthMark": "ː",
+        "primaryStress": true,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example7:pausal:syllable3",
+        "parent": "molin:example7:pausal",
+        "nativeName": "ruː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 3,
+        "onset": "r",
+        "nucleus": "u",
+        "lengthMark": "ː",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example8",
+        "nativeName": "תוכילו",
+        "unit": "Spelled example attributed by the publication to bowl evidence",
+        "citation": "AMB176;9.9",
+        "locus": "Lev26:29",
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "sourceSpan": {
+          "text": "תוכילו",
+          "startCodePoint": 275474,
+          "endCodePointExclusive": 275480
+        },
+        "originalInkCollated": false,
+        "normalizedBhsComparator": "תאכלו"
+      },
+      {
+        "id": "molin:example8:contextual",
+        "parent": "molin:example8",
+        "role": "contextual",
+        "ipa": "toːχaˈluː",
+        "syllables": [
+          {
+            "ordinalOneBased": 1,
+            "onset": "t",
+            "nucleus": "o",
+            "lengthMark": "ː",
+            "primaryStress": false
+          },
+          {
+            "ordinalOneBased": 2,
+            "onset": "χ",
+            "nucleus": "a",
+            "lengthMark": "",
+            "primaryStress": false
+          },
+          {
+            "ordinalOneBased": 3,
+            "onset": "l",
+            "nucleus": "u",
+            "lengthMark": "ː",
+            "primaryStress": true
+          }
+        ],
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "sourceSpan": {
+          "text": "toːχaˈluː",
+          "startCodePoint": 275798,
+          "endCodePointExclusive": 275807
+        },
+        "evidenceRole": "Babylonian-manuscript comparandum cited by Molin; not a contextual token on the same bowl",
+        "measured": false,
+        "absoluteHz": null,
+        "audibleDuration": null,
+        "pitchClass": null,
+        "nativeName": "toːχaˈluː",
+        "unit": "Published comparative pronunciation"
+      },
+      {
+        "id": "molin:example8:contextual:syllable1",
+        "parent": "molin:example8:contextual",
+        "nativeName": "toː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 1,
+        "onset": "t",
+        "nucleus": "o",
+        "lengthMark": "ː",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example8:contextual:syllable2",
+        "parent": "molin:example8:contextual",
+        "nativeName": "χa",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 2,
+        "onset": "χ",
+        "nucleus": "a",
+        "lengthMark": "",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example8:contextual:syllable3",
+        "parent": "molin:example8:contextual",
+        "nativeName": "luː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 3,
+        "onset": "l",
+        "nucleus": "u",
+        "lengthMark": "ː",
+        "primaryStress": true,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example8:pausal",
+        "parent": "molin:example8",
+        "role": "pausal",
+        "ipa": "toːˈχeːluː",
+        "syllables": [
+          {
+            "ordinalOneBased": 1,
+            "onset": "t",
+            "nucleus": "o",
+            "lengthMark": "ː",
+            "primaryStress": false
+          },
+          {
+            "ordinalOneBased": 2,
+            "onset": "χ",
+            "nucleus": "e",
+            "lengthMark": "ː",
+            "primaryStress": true
+          },
+          {
+            "ordinalOneBased": 3,
+            "onset": "l",
+            "nucleus": "u",
+            "lengthMark": "ː",
+            "primaryStress": false
+          }
+        ],
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "sourceSpan": {
+          "text": "toːˈχeːluː",
+          "startCodePoint": 275684,
+          "endCodePointExclusive": 275694
+        },
+        "evidenceRole": "Molin conditional pronunciation reconstructed from the cited spelling",
+        "measured": false,
+        "absoluteHz": null,
+        "audibleDuration": null,
+        "pitchClass": null,
+        "nativeName": "toːˈχeːluː",
+        "unit": "Published comparative pronunciation"
+      },
+      {
+        "id": "molin:example8:pausal:syllable1",
+        "parent": "molin:example8:pausal",
+        "nativeName": "toː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 1,
+        "onset": "t",
+        "nucleus": "o",
+        "lengthMark": "ː",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example8:pausal:syllable2",
+        "parent": "molin:example8:pausal",
+        "nativeName": "χeː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 2,
+        "onset": "χ",
+        "nucleus": "e",
+        "lengthMark": "ː",
+        "primaryStress": true,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      },
+      {
+        "id": "molin:example8:pausal:syllable3",
+        "parent": "molin:example8:pausal",
+        "nativeName": "luː",
+        "unit": "Analysed CV syllable occurrence",
+        "ordinalOneBased": 3,
+        "onset": "l",
+        "nucleus": "u",
+        "lengthMark": "ː",
+        "primaryStress": false,
+        "sourceRefs": [
+          "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+        ],
+        "clock": "Ordinal sequence only; no measured entrance, duration or beat value",
+        "absoluteHz": null
+      }
+    ],
+    "relationships": [
+      {
+        "from": "molin:section2.4",
+        "to": "molin:example7",
+        "kind": "contains-displayed-example"
+      },
+      {
+        "from": "molin:example7",
+        "to": "molin:example7:contextual",
+        "kind": "compared-with-manuscript-reading"
+      },
+      {
+        "from": "molin:example7:contextual",
+        "to": "molin:example7:contextual:syllable1",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example7:contextual",
+        "to": "molin:example7:contextual:syllable2",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example7:contextual",
+        "to": "molin:example7:contextual:syllable3",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example7",
+        "to": "molin:example7:pausal",
+        "kind": "source-reconstructed-reading"
+      },
+      {
+        "from": "molin:example7:pausal",
+        "to": "molin:example7:pausal:syllable1",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example7:pausal",
+        "to": "molin:example7:pausal:syllable2",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example7:pausal",
+        "to": "molin:example7:pausal:syllable3",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:section2.4",
+        "to": "molin:example8",
+        "kind": "contains-displayed-example"
+      },
+      {
+        "from": "molin:example8",
+        "to": "molin:example8:contextual",
+        "kind": "compared-with-manuscript-reading"
+      },
+      {
+        "from": "molin:example8:contextual",
+        "to": "molin:example8:contextual:syllable1",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example8:contextual",
+        "to": "molin:example8:contextual:syllable2",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example8:contextual",
+        "to": "molin:example8:contextual:syllable3",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example8",
+        "to": "molin:example8:pausal",
+        "kind": "source-reconstructed-reading"
+      },
+      {
+        "from": "molin:example8:pausal",
+        "to": "molin:example8:pausal:syllable1",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example8:pausal",
+        "to": "molin:example8:pausal:syllable2",
+        "kind": "contains-analysed-syllable"
+      },
+      {
+        "from": "molin:example8:pausal",
+        "to": "molin:example8:pausal:syllable3",
+        "kind": "contains-analysed-syllable"
+      }
+    ],
+    "displayedBowlExamples": 2,
+    "comparativePronunciationForms": 4,
+    "analysedSyllableOccurrences": 12,
+    "sourceStatedForms": 4,
+    "sourceStatedUnit": "forms",
+    "fullStatedExtentReconciled": false,
+    "boundary": "The four comparative pronunciation records cannot be substituted for the four stated source forms."
+  },
+  "forms": [
+    {
+      "id": "molin:example7:contextual",
+      "parent": "molin:example7",
+      "role": "contextual",
+      "ipa": "ʃɔːmaˈruː",
+      "syllables": [
+        {
+          "ordinalOneBased": 1,
+          "onset": "ʃ",
+          "nucleus": "ɔ",
+          "lengthMark": "ː",
+          "primaryStress": false
+        },
+        {
+          "ordinalOneBased": 2,
+          "onset": "m",
+          "nucleus": "a",
+          "lengthMark": "",
+          "primaryStress": false
+        },
+        {
+          "ordinalOneBased": 3,
+          "onset": "r",
+          "nucleus": "u",
+          "lengthMark": "ː",
+          "primaryStress": true
+        }
+      ],
+      "sourceRefs": [
+        "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+      ],
+      "sourceSpan": {
+        "text": "ʃɔːmaˈruː",
+        "startCodePoint": 275357,
+        "endCodePointExclusive": 275366
+      },
+      "evidenceRole": "Babylonian-manuscript comparandum cited by Molin; not a contextual token on the same bowl",
+      "measured": false,
+      "absoluteHz": null,
+      "audibleDuration": null,
+      "pitchClass": null
+    },
+    {
+      "id": "molin:example7:pausal",
+      "parent": "molin:example7",
+      "role": "pausal",
+      "ipa": "ʃɔːˈmɔːruː",
+      "syllables": [
+        {
+          "ordinalOneBased": 1,
+          "onset": "ʃ",
+          "nucleus": "ɔ",
+          "lengthMark": "ː",
+          "primaryStress": false
+        },
+        {
+          "ordinalOneBased": 2,
+          "onset": "m",
+          "nucleus": "ɔ",
+          "lengthMark": "ː",
+          "primaryStress": true
+        },
+        {
+          "ordinalOneBased": 3,
+          "onset": "r",
+          "nucleus": "u",
+          "lengthMark": "ː",
+          "primaryStress": false
+        }
+      ],
+      "sourceRefs": [
+        "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+      ],
+      "sourceSpan": {
+        "text": "ʃɔːˈmɔːruː",
+        "startCodePoint": 275124,
+        "endCodePointExclusive": 275134
+      },
+      "evidenceRole": "Molin conditional pronunciation reconstructed from the cited spelling",
+      "measured": false,
+      "absoluteHz": null,
+      "audibleDuration": null,
+      "pitchClass": null
+    },
+    {
+      "id": "molin:example8:contextual",
+      "parent": "molin:example8",
+      "role": "contextual",
+      "ipa": "toːχaˈluː",
+      "syllables": [
+        {
+          "ordinalOneBased": 1,
+          "onset": "t",
+          "nucleus": "o",
+          "lengthMark": "ː",
+          "primaryStress": false
+        },
+        {
+          "ordinalOneBased": 2,
+          "onset": "χ",
+          "nucleus": "a",
+          "lengthMark": "",
+          "primaryStress": false
+        },
+        {
+          "ordinalOneBased": 3,
+          "onset": "l",
+          "nucleus": "u",
+          "lengthMark": "ː",
+          "primaryStress": true
+        }
+      ],
+      "sourceRefs": [
+        "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+      ],
+      "sourceSpan": {
+        "text": "toːχaˈluː",
+        "startCodePoint": 275798,
+        "endCodePointExclusive": 275807
+      },
+      "evidenceRole": "Babylonian-manuscript comparandum cited by Molin; not a contextual token on the same bowl",
+      "measured": false,
+      "absoluteHz": null,
+      "audibleDuration": null,
+      "pitchClass": null
+    },
+    {
+      "id": "molin:example8:pausal",
+      "parent": "molin:example8",
+      "role": "pausal",
+      "ipa": "toːˈχeːluː",
+      "syllables": [
+        {
+          "ordinalOneBased": 1,
+          "onset": "t",
+          "nucleus": "o",
+          "lengthMark": "ː",
+          "primaryStress": false
+        },
+        {
+          "ordinalOneBased": 2,
+          "onset": "χ",
+          "nucleus": "e",
+          "lengthMark": "ː",
+          "primaryStress": true
+        },
+        {
+          "ordinalOneBased": 3,
+          "onset": "l",
+          "nucleus": "u",
+          "lengthMark": "ː",
+          "primaryStress": false
+        }
+      ],
+      "sourceRefs": [
+        "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+      ],
+      "sourceSpan": {
+        "text": "toːˈχeːluː",
+        "startCodePoint": 275684,
+        "endCodePointExclusive": 275694
+      },
+      "evidenceRole": "Molin conditional pronunciation reconstructed from the cited spelling",
+      "measured": false,
+      "absoluteHz": null,
+      "audibleDuration": null,
+      "pitchClass": null
+    }
+  ],
+  "operationRows": [
+    {
+      "id": "molin:example7",
+      "sourceRefs": [
+        "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+      ],
+      "values": {
+        "family": "Molin comparative Babylonian reading cases; shared operator is conditional",
+        "lexeme": "Num9:23",
+        "inputNucleus": "a",
+        "targetMode": "pausal",
+        "medialOnset": "m",
+        "comparandumId": "47;Yeivin1985p427",
+        "targetDerivedVowelClass": "qames-corresponding",
+        "outputNucleus": "ɔː",
+        "outputLengthMark": "ː",
+        "stressShift": "-1"
+      }
+    },
+    {
+      "id": "molin:example8",
+      "sourceRefs": [
+        "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json"
+      ],
+      "values": {
+        "family": "Molin comparative Babylonian reading cases; shared operator is conditional",
+        "lexeme": "Lev26:29",
+        "inputNucleus": "a",
+        "targetMode": "pausal",
+        "medialOnset": "χ",
+        "comparandumId": "48;Yeivin1985p585",
+        "targetDerivedVowelClass": "ṣere-corresponding",
+        "outputNucleus": "eː",
+        "outputLengthMark": "ː",
+        "stressShift": "-1"
+      }
+    }
+  ],
+  "nativeTiberianProsody": {
+    "source": {
+      "authors": [
+        "Vincent DeCaen",
+        "B.ElanDresher"
+      ],
+      "chapter": "Pausal Forms and Prosodic Structure in Tiberian Hebrew",
+      "year": 2020,
+      "start_printed_page": 331,
+      "inspected_sections": [
+        "1",
+        "2",
+        "3",
+        "4.1",
+        "4.2",
+        "5"
+      ],
+      "container": "Studies in Semitic Vocalisation and Reading Traditions",
+      "container_doi": "10.11647/OBP.0207",
+      "rendering_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/39/45/70/2019394570/2019394570.pdf",
+      "acquisition": "already acquired Exa content[0].text",
+      "original_json_sha256": "9460acbac92c678bf0b4bfbc7fc73a6b99f679e6a8e349e4b378f8a13ac59f96",
+      "rendering_sha256_utf8": "bc5c28a6247e0ed254d0ad55ad68cbdf160c76692fcbab34674352e1e1fd67c2",
+      "chapter_main_text_sha256_utf8": "abcbe61eda8f05d499f60a23d98d4c6c9474d9475a9a038f3277bed7e3d9bd9c",
+      "original_pdf_hash": null,
+      "images_and_tree_figures_inspected": false,
+      "rendering_limit": "Hebrew order, table IPA and tree figures partly damaged/absent; no corrected glyphs or exact tree geometry fabricated"
+    },
+    "domains": {
+      "W": "prosodic word including clitic group",
+      "P_or_MP": "minimal/phonological phrase; domain for spirantization,dehiq,nesiga",
+      "I": "intonational phrase; source-proposed pausal-form domain, not separately encoded by TH accent ranks",
+      "V": "verse taken as given in source analysis",
+      "TH_accents": "relative hierarchyD0-D3 with conjunctives; distinct prose and poetic transformation conditions"
+    },
+    "operations": [
+      {
+        "operation": "cliticization",
+        "condition": "maqqef joins grammatical words to one prosodic word; native evidence required",
+        "evidence_id": "P2"
+      },
+      {
+        "operation": "division",
+        "condition": "MP split in prominent upper prosodic positions; slower reading",
+        "evidence_id": "P4"
+      },
+      {
+        "operation": "simplification",
+        "condition": "MPs merged and disjunctive realized as conjunctive under native rank/adjacency constraints; prose and poetic systems differ",
+        "evidence_id": "P4"
+      },
+      {
+        "operation": "contextual_pausal_alternation",
+        "condition": "form-class-dependent vowel/stress correspondence at proposedI edge; no universal stress-direction or qames transform",
+        "evidence_id": "P6"
+      }
+    ],
+    "publishedCounterexamples": [
+      {
+        "id": "ZAQEF-1",
+        "locus": "Gen43:25",
+        "lexeme": "hear",
+        "form": "contextual",
+        "written_accent": "D1zaqef",
+        "source_proposed_domain": "P",
+        "conditioning": "verb before direct-object clause headed by ki=that",
+        "evidence_id": "P5",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "ZAQEF-2",
+        "locus": "Judg2:17",
+        "lexeme": "hear",
+        "form": "pausal",
+        "written_accent": "D1zaqef",
+        "source_proposed_domain": "I",
+        "conditioning": "verb before adjunct clause headed by ki=but",
+        "evidence_id": "P5",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "LEV-1",
+        "locus": "Lev8:19",
+        "lexeme": "and he slaughtered",
+        "form": "pausal",
+        "written_accent": "D0atnah",
+        "source_proposed_domain": "I",
+        "conditioning": "initial word-sentence; first half-verse ends here",
+        "evidence_id": "P7",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "LEV-2",
+        "locus": "Lev8:23",
+        "lexeme": "and he slaughtered",
+        "form": "pausal",
+        "written_accent": "D1salselet",
+        "source_proposed_domain": "I",
+        "conditioning": "additional verse material demotes accent rank under continuous dichotomy",
+        "evidence_id": "P7",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "LEV-3",
+        "locus": "Lev8:15",
+        "lexeme": "and he slaughtered",
+        "form": "pausal",
+        "written_accent": "D2revia",
+        "source_proposed_domain": "I",
+        "conditioning": "further verse material demotes accent rank again",
+        "evidence_id": "P7",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "LEV-CONTEXT",
+        "locus": [
+          "Lev9:8",
+          "Lev9:12",
+          "Lev9:18"
+        ],
+        "lexeme": "and he slaughtered",
+        "form": "contextual",
+        "written_accent": "not independently transcribed in this ledger",
+        "source_proposed_domain": "does not end I",
+        "conditioning": "verb takes overt object; not an independent word-sentence",
+        "evidence_id": "P7",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "DEUT-CONJ",
+        "locus": "Deut5:14",
+        "lexeme": "your daughter",
+        "form": "pausal",
+        "written_accent": "Cmunah",
+        "source_proposed_domain": "I before simplification",
+        "conditioning": "list grouping and subordinateD3 transformation; reconstruction not asserted inevitable",
+        "evidence_id": "P9",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "PS-CONJ",
+        "locus": "Ps3:9",
+        "lexeme": "your blessing",
+        "form": "pausal",
+        "written_accent": "Cmunah",
+        "source_proposed_domain": "I",
+        "conditioning": "before selah; writtenC explained by obligatory poetic revia-mugras transformation",
+        "evidence_id": "P11",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      },
+      {
+        "id": "PS-SELAH-COUNTER",
+        "locus": "Ps32:4",
+        "lexeme": "summer",
+        "form": "contextual",
+        "written_accent": "not independently transcribed in this ledger",
+        "source_proposed_domain": "unresolved alternative analysis",
+        "conditioning": "before selah; either no I required or morphology-specific susceptibility differs",
+        "evidence_id": "P11",
+        "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+      }
+    ],
+    "accentDependency": {
+      "status": "contradicted",
+      "inputs": [
+        "writtenAccent"
+      ],
+      "output": "form",
+      "cells": [
+        {
+          "input": [
+            "D1zaqef"
+          ],
+          "outputs": [
+            "contextual",
+            "pausal"
+          ],
+          "rowIds": [
+            "tiberian:ZAQEF-1",
+            "tiberian:ZAQEF-2"
+          ]
+        }
+      ],
+      "unresolvedRows": [],
+      "counterexamples": [
+        {
+          "left": "tiberian:ZAQEF-1",
+          "right": "tiberian:ZAQEF-2",
+          "input": [
+            "D1zaqef"
+          ],
+          "outputs": [
+            "contextual",
+            "pausal"
+          ]
+        }
+      ],
+      "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+    },
+    "transferLimits": [
+      "Tiberian accent conditions are not automatically conditions in Babylonian bowl transmission.",
+      "Molin proposed pausal/contextual readings can be represented as separate candidate forms, but the bowl context needs independently supported native prosodic evidence.",
+      "Written waw pattern alone does not establish anI boundary or license a Tiberian vowel/stress operation.",
+      "Do not infer inherited sound change/contact/acoustics from accent mismatch; no ancient Hz/duration recovered.",
+      "Do not read table10 IPA as clean original glyph data: this extraction contains damaged ordering."
+    ],
+    "boundary": "Published source analysis of Tiberian conditions; no automatic transfer to the Babylonian bowl comparison."
+  },
+  "derivedConstraints": {
+    "coarseDependency": {
+      "status": "contradicted",
+      "inputs": [
+        "inputNucleus",
+        "targetMode"
+      ],
+      "output": "outputNucleus",
+      "cells": [
+        {
+          "input": [
+            "a",
+            "pausal"
+          ],
+          "outputs": [
+            "ɔː",
+            "eː"
+          ],
+          "rowIds": [
+            "molin:example7",
+            "molin:example8"
+          ]
+        }
+      ],
+      "unresolvedRows": [],
+      "counterexamples": [
+        {
+          "left": "molin:example7",
+          "right": "molin:example8",
+          "input": [
+            "a",
+            "pausal"
+          ],
+          "outputs": [
+            "ɔː",
+            "eː"
+          ]
+        }
+      ],
+      "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+    },
+    "minimalRefinementsOnAdmittedSample": [
+      [
+        "lexeme"
+      ],
+      [
+        "medialOnset"
+      ],
+      [
+        "comparandumId"
+      ]
+    ],
+    "refinementStatus": "All three distinguish these two admitted cases. Lexical/provenance identifiers are sample keys, not proof of a causal linguistic rule; no unique additional state selected.",
+    "targetLeakageControl": {
+      "field": "targetDerivedVowelClass",
+      "status": "excluded-from-input-refinement-search",
+      "reason": "The class is assigned from the currently exposed pausal reading; using it does not establish independent prediction."
+    },
+    "stableProjectionComponents": [
+      {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "inputNucleus",
+          "targetMode"
+        ],
+        "output": "outputLengthMark",
+        "cells": [
+          {
+            "input": [
+              "a",
+              "pausal"
+            ],
+            "outputs": [
+              "ː"
+            ],
+            "rowIds": [
+              "molin:example7",
+              "molin:example8"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "inputNucleus",
+          "targetMode"
+        ],
+        "output": "stressShift",
+        "cells": [
+          {
+            "input": [
+              "a",
+              "pausal"
+            ],
+            "outputs": [
+              "-1"
+            ],
+            "rowIds": [
+              "molin:example7",
+              "molin:example8"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      }
+    ],
+    "factorizationProof": "If a deterministic operation factors through the coarse input projection, equal projected inputs must have equal outputs. The two admitted rows have identical[a,pausal]inputs and different outputs. Thus that factorization fails under the shared-family premise. A relation retaining both outputs remains defined.",
+    "minimumDistinguishingStates": 2,
+    "scope": "Conditional finite-source consistency, not recovery of a unique ancient operator."
+  },
+  "transformationRegister": {
+    "coarseProjection": [
+      "inputNucleus",
+      "targetMode"
+    ],
+    "projectedRelation": {
+      "rowIds": [
+        "molin:example7",
+        "molin:example8"
+      ],
+      "outputs": [
+        "ɔː",
+        "eː"
+      ],
+      "unresolvedRows": [],
+      "status": "multiple-admitted-outputs",
+      "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+    },
+    "projectionRejoinResidual": {
+      "fields": [
+        "lexeme",
+        "inputNucleus",
+        "outputNucleus"
+      ],
+      "common": [
+        "inputNucleus"
+      ],
+      "knownOriginalDistinctTuples": 2,
+      "rejoinedDistinctTuples": 4,
+      "excessCombinations": [
+        {
+          "values": {
+            "lexeme": "Num9:23",
+            "inputNucleus": "a",
+            "outputNucleus": "eː"
+          },
+          "leftRowIds": [
+            "molin:example7"
+          ],
+          "rightRowIds": [
+            "molin:example8"
+          ]
+        },
+        {
+          "values": {
+            "lexeme": "Lev26:29",
+            "inputNucleus": "a",
+            "outputNucleus": "ɔː"
+          },
+          "leftRowIds": [
+            "molin:example8"
+          ],
+          "rightRowIds": [
+            "molin:example7"
+          ]
+        }
+      ],
+      "unresolvedRows": [],
+      "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+      "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+    },
+    "lexemeRetainingRejoin": {
+      "fields": [
+        "lexeme",
+        "inputNucleus",
+        "outputNucleus"
+      ],
+      "common": [
+        "lexeme",
+        "inputNucleus"
+      ],
+      "knownOriginalDistinctTuples": 2,
+      "rejoinedDistinctTuples": 2,
+      "excessCombinations": [],
+      "unresolvedRows": [],
+      "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+      "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+    },
+    "consequence": "Discarding the distinguishing address and rejoining through the shared surface nucleus creates two excess sample pairings. This is a quantified adapter failure, not evidence that those pairings are historically impossible in every other context."
+  },
+  "queries": [
+    {
+      "input": {
+        "inputNucleus": "a",
+        "targetMode": "pausal"
+      },
+      "result": {
+        "rowIds": [
+          "molin:example7",
+          "molin:example8"
+        ],
+        "outputs": [
+          "ɔː",
+          "eː"
+        ],
+        "unresolvedRows": [],
+        "status": "multiple-admitted-outputs",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      }
+    },
+    {
+      "input": {
+        "lexeme": "Num9:23",
+        "inputNucleus": "a"
+      },
+      "result": {
+        "rowIds": [
+          "molin:example7"
+        ],
+        "outputs": [
+          "ɔː"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      }
+    },
+    {
+      "input": {
+        "lexeme": "Lev26:29",
+        "inputNucleus": "a"
+      },
+      "result": {
+        "rowIds": [
+          "molin:example8"
+        ],
+        "outputs": [
+          "eː"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      }
+    },
+    {
+      "input": {
+        "outputNucleus": "ɔː"
+      },
+      "output": "lexeme",
+      "result": {
+        "rowIds": [
+          "molin:example7"
+        ],
+        "outputs": [
+          "Num9:23"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      }
+    }
+  ],
+  "scoreAnnotationBoundary": {
+    "layer": "Source-qualified syllable/order/stress annotations",
+    "noteAssignments": 0,
+    "measuredOnsets": 0,
+    "measuredDurations": 0,
+    "attachment": "An annotation adapter may carry these into the master score; no phonetic symbol is silently assigned a musical note."
+  },
+  "priorArt": {
+    "scholarlyBaseline": "state/delivery-2026-11-07/pausal-operations/p0a-baseline.json",
+    "functionalDependencySource": "https://cs186berkeley.net/notes/note13/",
+    "method": "Established finite functional-dependency and projection/rejoin criteria; not a new general theorem.",
+    "sourceCounterparts": "Molin2020§2.4 and cited Yeivin1985comparanda; exact source editions and ink remain pending."
+  },
+  "unresolved": [
+    "Original bowl/cited-manuscript collation",
+    "Exact9.9and684.14locator expansion",
+    "Individual specimen dates",
+    "Which distinguishing argument the historical operation used",
+    "Complete four-form source extent",
+    "A justified musical/acoustic adapter"
+  ],
+  "originalSoundSystemRecovered": false,
+  "historicalOperatorSelected": false,
+  "blindPrediction": false,
+  "fullMissionComplete": false,
+  "inputSnapshots": [
+    {
+      "sourcePath": "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/9460acbac92c678bf0b4bfbc7fc73a6b99f679e6a8e349e4b378f8a13ac59f96/exa-loc-fetch.json",
+      "sha256": "9460acbac92c678bf0b4bfbc7fc73a6b99f679e6a8e349e4b378f8a13ac59f96",
+      "bytes": 853595
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/pausal-operations/review/result.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/8ba106b517af81d3bb2326de4c66ee8ccfb6aefbfb265d9c8f955f895a6bc714/result.json",
+      "sha256": "8ba106b517af81d3bb2326de4c66ee8ccfb6aefbfb265d9c8f955f895a6bc714",
+      "bytes": 8605
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/pausal-operations/p0a-baseline.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/8e38e5e7615f7b85c063d4e6935498fc29bde1ba493a2ebcc562135ce848748f/p0a-baseline.json",
+      "sha256": "8e38e5e7615f7b85c063d4e6935498fc29bde1ba493a2ebcc562135ce848748f",
+      "bytes": 6860
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/pausal-operations/functional-dependency-prior-art.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/f9e2b4a5175b515c0738b1433e2ce1007f1bad67090457554ea5b5e56981370f/functional-dependency-prior-art.json",
+      "sha256": "f9e2b4a5175b515c0738b1433e2ce1007f1bad67090457554ea5b5e56981370f",
+      "bytes": 19995
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/pausal-operations/review/relation-review.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/d94d9b9f8138d7d5098d34802e578e8b3bd780dedf1333711ca47e6d805205c9/relation-review.json",
+      "sha256": "d94d9b9f8138d7d5098d34802e578e8b3bd780dedf1333711ca47e6d805205c9",
+      "bytes": 1226
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/pausal-operations/prosody/result.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/482d1a84cc26ee108b899b7cbcd31c2d3a288e6489ee94805d1b21696a44da9a/result.json",
+      "sha256": "482d1a84cc26ee108b899b7cbcd31c2d3a288e6489ee94805d1b21696a44da9a",
+      "bytes": 19825
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/pausal-operations/prosody/validation.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/466124fe9139e15f7e44016093faafde0df8387aa023ab70365d020f9691efb2/validation.json",
+      "sha256": "466124fe9139e15f7e44016093faafde0df8387aa023ab70365d020f9691efb2",
+      "bytes": 631
+    },
+    {
+      "sourcePath": "state/jev-receipts/000062-5fcc72f3ccd7.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/3142b00d2df4cc873504fc55a40436855905c0784b2f9c4952395825fa6a6588/000062-5fcc72f3ccd7.json",
+      "sha256": "3142b00d2df4cc873504fc55a40436855905c0784b2f9c4952395825fa6a6588",
+      "bytes": 6304
+    }
+  ],
+  "codeBindings": [
+    {
+      "path": "src/reading-relations.ts",
+      "sha256": "2adcbb267221487e5b1ab2d322d3ef73bc1ea6b8f24f9306b85a37c1554bf943"
+    },
+    {
+      "path": "dist/reading-relations.js",
+      "sha256": "2b916898d6b6fac14beda45b0cd3faa064411ca90e2eaa3adfcbfaf1ab47fe8e"
+    },
+    {
+      "path": "scripts/derive_reading_operations.mjs",
+      "sha256": "e192c9f2cbbfdb48da6fa3dcd6616d7b3fb37581bf83f21a7b50b783b297eaae"
+    },
+    {
+      "path": "scripts/integrate_reading_hierarchy_score.mjs",
+      "sha256": "26cb39233342c9da65ed13e119ce7f75d2927e1e1729cea594ded060d50953af"
+    },
+    {
+      "path": "tests/reading-relations.test.mjs",
+      "sha256": "6c44c5dded60ec215a6c89d9f581dcb72b76fa1cbafce2a8de5ed7e78c466cac"
+    }
+  ]
+}

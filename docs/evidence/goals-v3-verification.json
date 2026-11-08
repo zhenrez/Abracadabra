@@ -1,0 +1,83 @@
+{
+  "schema": "sunny.goal-preservation-verification.v1",
+  "status": "passed",
+  "exit_code": 0,
+  "passed": 18,
+  "total": 18,
+  "checks": [
+    {
+      "check": "all_fifteen_goals_preserved",
+      "passed": true
+    },
+    {
+      "check": "all_goal_text_in_readable_register",
+      "passed": true
+    },
+    {
+      "check": "three_user_objectives_preserved_verbatim",
+      "passed": true
+    },
+    {
+      "check": "two_reconstruction_purposes_preserved_verbatim",
+      "passed": true
+    },
+    {
+      "check": "all_eight_outputs_named",
+      "passed": true
+    },
+    {
+      "check": "ordered_reading_dependencies_preserved",
+      "passed": true
+    },
+    {
+      "check": "calendar_and_zodiac_gate_explicit",
+      "passed": true
+    },
+    {
+      "check": "discussion_only_phase",
+      "passed": true
+    },
+    {
+      "check": "active_thread_objective_unchanged",
+      "passed": true
+    },
+    {
+      "check": "goal_register_hash_current",
+      "passed": true
+    },
+    {
+      "check": "mission_hash_current",
+      "passed": true
+    },
+    {
+      "check": "checkpoint_matches_current_task",
+      "passed": true
+    },
+    {
+      "check": "prior_state_bytes_preserved",
+      "passed": true
+    },
+    {
+      "check": "historical_priority_preserved_with_supersession",
+      "passed": true
+    },
+    {
+      "check": "continuation_points_to_latest_goals",
+      "passed": true
+    },
+    {
+      "check": "supermemory_document_read_back",
+      "passed": true
+    },
+    {
+      "check": "actual_live_jev_receipt",
+      "passed": true
+    },
+    {
+      "check": "working_premises_and_native_bridge_policy_retained",
+      "passed": true
+    }
+  ],
+  "correction": "Goal binding now hashes actual written bytes, including Windows newline encoding.",
+  "boundary": "Goal text, dependencies, preserved prior bytes, task bindings and actual plugin receipts only. No scientific hypotheses, multi-agent speedup or complete SUNNY reconstruction verified."
+}

@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-11-07T22:41:19.115025+00:00",
+  "command": [
+    "node",
+    "--test",
+    "--test-name-pattern=output overflow",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\runtime\\worker-lifecycle-diagnostic.test.mjs"
+  ],
+  "exit_code": 1,
+  "observed_counts": {
+    "tests": 1,
+    "pass": 0,
+    "fail": 1,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "output": "TAP version 13\n# Subtest: output overflow reaps all owned worker processes\nnot ok 1 - output overflow reaps all owned worker processes\n  ---\n  duration_ms: 19253.3298\n  location: 'C:\\\\Users\\\\Brend\\\\Documents\\\\ChatGPT\\\\SUN\\\\work\\\\final-day-2026-11-07\\\\runtime\\\\worker-lifecycle-diagnostic.test.mjs:61:1'\n  failureType: 'testCodeFailure'\n  error: |-\n    {\"reason\":\"cleanup_error\",\"code\":4294967295,\"stdout\":\"\",\"stderr\":\"\",\"reaped\":false,\"error\":\"Worker identity helper timed out.\"}\n    + actual - expected\n    \n    + 'cleanup_error'\n    - 'output_limit'\n    \n  code: 'ERR_ASSERTION'\n  name: 'AssertionError'\n  expected: 'output_limit'\n  actual: 'cleanup_error'\n  operator: 'strictEqual'\n  stack: |-\n    TestContext.<anonymous> (file:///C:/Users/Brend/Documents/ChatGPT/SUN/work/final-day-2026-11-07/runtime/worker-lifecycle-diagnostic.test.mjs:63:160)\n    process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    async Test.run (node:internal/test_runner/test:980:9)\n    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)\n  ...\n# Synthetic overflow result: {\"result\":{\"reason\":\"cleanup_error\",\"code\":4294967295,\"stdout\":\"\",\"stderr\":\"\",\"reaped\":false,\"error\":\"Worker identity helper timed out.\"},\"fixture_root\":\"C:\\\\\\\\Users\\\\\\\\Brend\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\sunny-worker-test-WZ4QvL\",\"owned_fixture_ids\":{\"interpreter\":31340,\"child\":21496}}\n1..1\n# tests 1\n# suites 0\n# pass 0\n# fail 1\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 20425.5525\n",
+  "scope": "Existing TypeScript build and full original Node acceptance suite"
+}

@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Preserve recoverable source order and causal/branch distinctions in SUNNY's read-only conversation browser after the Jev-selected source-gap repair.",
+    "observed": "Gap worker reports selected revise_with_history route, with source_positions being prepared but not yet committed. It maps repaired conversation messages to literal physical_lf_line, UTF8byte bounds and raw_record_sha256, retains legacy_locator/native_id and declares sequence_semantics='physical_source_record_order_only_not_causal_parentage'. Seven recovered nodes would be appended to SQLite rowid, which would misorder their source positions if current ORDERBY m.rowid is unchanged.",
+    "constraints": "Do not mutate source or legacy message IDs/text/hash/parent_ids. Native ChatGPT branch parents and imported Codex record sequence are distinct. Wait for table commit before changing the reader."
+  },
+  "questions": [
+    {
+      "id": "repaired_source_order",
+      "type": "choice",
+      "question": "After source_positions is actually committed and checked, how should the read API order and explain repaired conversations?",
+      "options": {
+        "physical_scope_order": "For mapped conversations order by exact physical_lf_line with stable messageID ties, retaining legacy IDs/locators as explicit metadata and labeling source record order as noncausal; use existing row order for unmapped conversations.",
+        "legacy_with_positions": "Keep legacy SQLite insertion order, add physical source-position metadata and make recovered nodes accessible at the end; explicitly tell users this view is import order, not original source order."
+      }
+    }
+  ]
+}

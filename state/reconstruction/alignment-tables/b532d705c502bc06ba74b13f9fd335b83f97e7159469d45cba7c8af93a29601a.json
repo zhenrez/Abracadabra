@@ -1,0 +1,84 @@
+{
+  "id": "alignment-table-b532d705c502bc06",
+  "content_sha256": "b532d705c502bc06ba74b13f9fd335b83f97e7159469d45cba7c8af93a29601a",
+  "headers": [
+    "Repo",
+    "What it does",
+    "Atlas role"
+  ],
+  "rows": [
+    [
+      "`nyckmaia/maialib`",
+      "Melodic patterns, chord quality, harmonic density",
+      "Harmonic analysis library; could test the F–A–C / C–G chord experiments, but no sacred-symbol mapping"
+    ],
+    [
+      "`marcobn/musicntwrk`",
+      "Pitch-class set and rhythmic sequence network analysis; `harmony` helper module",
+      "Graph-theoretic music analysis; potentially relevant to the W72 network embedding question, but not directly applied"
+    ],
+    [
+      "`DCMLab/ABC` / `MarkGotham/When-in-Rome`",
+      "Functional harmonic analysis meta-corpora",
+      "Large annotated harmony corpora; no sacred-symbol dimension"
+    ],
+    [
+      "`OscarSouth/theHarmonicAlgorithm`",
+      "Functional-programming harmonic state navigation",
+      "Theory-of-harmony implementation; no cross-tradition mapping"
+    ],
+    [
+      "`jitools`",
+      "JI pitch collection analysis",
+      "Supplementary to `just_intonation`; redundant"
+    ],
+    [
+      "`symphonygen`",
+      "3D hierarchical orchestration generation with harmony skeleton",
+      "Generative, not analytical; no symbol mapping"
+    ],
+    [
+      "`Fabri-D/RM-Song-Generator`, `caseybarajas/Melodia`, `Aakash091-dark/Melodify`",
+      "Rule-based or NN melody generators",
+      "Generative composition tools; not relevant to decoding"
+    ],
+    [
+      "`yinyang` (motif development)",
+      "Phrase generator/refiner/selector",
+      "Melodic structure generation; no sacred-symbol mapping"
+    ],
+    [
+      "`MeloForm` (Microsoft)",
+      "Melody with musical form via expert systems + NN",
+      "Form-aware generation; not analytical"
+    ],
+    [
+      "`joshgreenman1973/orrery`",
+      "Kepler-orbit note instrument on strike ray",
+      "Music-of-the-spheres realization; a **second** Kepler implementation beside `evoluteur/music-of-the-spheres`"
+    ],
+    [
+      "`evoluteur/music-of-the-spheres`",
+      "Live orrery, planets sing speed-derived tones",
+      "Already evaluated in prior passes; Kepler interval source"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 25152,
+      "line_end": 25164,
+      "char_start": 1268263,
+      "char_end": 1269999,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Repo | What it does | Atlas role |\n|---|---|---|\n| `nyckmaia/maialib` | Melodic patterns, chord quality, harmonic density | Harmonic analysis library; could test the F–A–C / C–G chord experiments, but no sacred-symbol mapping |\n| `marcobn/musicntwrk` | Pitch-class set and rhythmic sequence network analysis; `harmony` helper module | Graph-theoretic music analysis; potentially relevant to the W72 network embedding question, but not directly applied |\n| `DCMLab/ABC` / `MarkGotham/When-in-Rome` | Functional harmonic analysis meta-corpora | Large annotated harmony corpora; no sacred-symbol dimension |\n| `OscarSouth/theHarmonicAlgorithm` | Functional-programming harmonic state navigation | Theory-of-harmony implementation; no cross-tradition mapping |\n| `jitools` | JI pitch collection analysis | Supplementary to `just_intonation`; redundant |\n| `symphonygen` | 3D hierarchical orchestration generation with harmony skeleton | Generative, not analytical; no symbol mapping |\n| `Fabri-D/RM-Song-Generator`, `caseybarajas/Melodia`, `Aakash091-dark/Melodify` | Rule-based or NN melody generators | Generative composition tools; not relevant to decoding |\n| `yinyang` (motif development) | Phrase generator/refiner/selector | Melodic structure generation; no sacred-symbol mapping |\n| `MeloForm` (Microsoft) | Melody with musical form via expert systems + NN | Form-aware generation; not analytical |\n| `joshgreenman1973/orrery` | Kepler-orbit note instrument on strike ray | Music-of-the-spheres realization; a **second** Kepler implementation beside `evoluteur/music-of-the-spheres` |\n| `evoluteur/music-of-the-spheres` | Live orrery, planets sing speed-derived tones | Already evaluated in prior passes; Kepler interval source |\n",
+      "quote_sha256": "af557fcff55ade93ca2ee4fd7a3dcbb31be1c18a35c91a5d6ba435a4b297b4a4",
+      "message_id": "2ecea32abea75fe81d1d5a209c6ae84cee4bc9880c3143dff046d255f6493f54",
+      "role": "user",
+      "locator": "lines:25152-25164"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

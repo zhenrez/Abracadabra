@@ -1,0 +1,825 @@
+{
+  "sheet": "Music_State_Architecture",
+  "part": "xl/worksheets/sheet189.xml",
+  "content_sha256": "66f946d86f3c71f61c1d3e528e74680ba95e58d4b72f64f2950e8d742f3315fc",
+  "rows": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "ref": "A1",
+          "type": "str",
+          "value": "Layer",
+          "raw_value": "Layer",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        },
+        {
+          "ref": "B1",
+          "type": "str",
+          "value": "Primary Comparator",
+          "raw_value": "Primary Comparator",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        },
+        {
+          "ref": "C1",
+          "type": "str",
+          "value": "Carrier / Coordinate",
+          "raw_value": "Carrier / Coordinate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        },
+        {
+          "ref": "D1",
+          "type": "str",
+          "value": "Operator",
+          "raw_value": "Operator",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        },
+        {
+          "ref": "E1",
+          "type": "str",
+          "value": "Musical Question",
+          "raw_value": "Musical Question",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        },
+        {
+          "ref": "F1",
+          "type": "str",
+          "value": "Current Interpretation",
+          "raw_value": "Current Interpretation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        },
+        {
+          "ref": "G1",
+          "type": "str",
+          "value": "Hard Constraint",
+          "raw_value": "Hard Constraint",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "802"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "ref": "A2",
+          "type": "str",
+          "value": "Pitch-class structure",
+          "raw_value": "Pitch-class structure",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B2",
+          "type": "str",
+          "value": "China",
+          "raw_value": "China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C2",
+          "type": "str",
+          "value": "Z12",
+          "raw_value": "Z12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D2",
+          "type": "str",
+          "value": "relation overlay",
+          "raw_value": "relation overlay",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E2",
+          "type": "str",
+          "value": "Which pitch-class relations exist?",
+          "raw_value": "Which pitch-class relations exist?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F2",
+          "type": "str",
+          "value": "H2/H3/H4/H6 partitions and fixed relative +2 member orientation",
+          "raw_value": "H2/H3/H4/H6 partitions and fixed relative +2 member orientation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G2",
+          "type": "str",
+          "value": "Do not turn relative PC0 into a historical modern-C claim.",
+          "raw_value": "Do not turn relative PC0 into a historical modern-C claim.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "ref": "A3",
+          "type": "str",
+          "value": "Generation",
+          "raw_value": "Generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B3",
+          "type": "str",
+          "value": "China",
+          "raw_value": "China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C3",
+          "type": "str",
+          "value": "Z12 with fifth orbit",
+          "raw_value": "Z12 with fifth orbit",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D3",
+          "type": "str",
+          "value": "G_discrete: T7(n)=n+7 mod12",
+          "raw_value": "G_discrete: T7(n)=n+7 mod12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E3",
+          "type": "str",
+          "value": "How does one pitch state generate/move to another?",
+          "raw_value": "How does one pitch state generate/move to another?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F3",
+          "type": "str",
+          "value": "Full 12-state fifth traversal; under CRT T7(q,e)=(q+1,e-1)",
+          "raw_value": "Full 12-state fifth traversal; under CRT T7(q,e)=(q+1,e-1)",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G3",
+          "type": "str",
+          "value": "Chinese historical ratios are not 12-TET frequency steps.",
+          "raw_value": "Chinese historical ratios are not 12-TET frequency steps.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "ref": "A4",
+          "type": "str",
+          "value": "Fine address / phase",
+          "raw_value": "Fine address / phase",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B4",
+          "type": "str",
+          "value": "Jyotisa",
+          "raw_value": "Jyotisa",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C4",
+          "type": "str",
+          "value": "108 equal angular cells = 12x9 = 27x4",
+          "raw_value": "108 equal angular cells = 12x9 = 27x4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D4",
+          "type": "str",
+          "value": "A_resolution / A_phase",
+          "raw_value": "A_resolution / A_phase",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E4",
+          "type": "str",
+          "value": "Where inside the coarse state, and what is active?",
+          "raw_value": "Where inside the coarse state, and what is active?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F4",
+          "type": "str",
+          "value": "108 musical addresses/states, not 108 pitch classes",
+          "raw_value": "108 musical addresses/states, not 108 pitch classes",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G4",
+          "type": "str",
+          "value": "Separate early nakshatra tradition from later equal 27x4 mathematical grid.",
+          "raw_value": "Separate early nakshatra tradition from later equal 27x4 mathematical grid.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "ref": "A5",
+          "type": "str",
+          "value": "Temporal activation",
+          "raw_value": "Temporal activation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B5",
+          "type": "str",
+          "value": "Jyotisa",
+          "raw_value": "Jyotisa",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C5",
+          "type": "str",
+          "value": "Moon moving through nakshatra/pada grid",
+          "raw_value": "Moon moving through nakshatra/pada grid",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D5",
+          "type": "str",
+          "value": "A_temporal",
+          "raw_value": "A_temporal",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E5",
+          "type": "str",
+          "value": "When is a relational context activated?",
+          "raw_value": "When is a relational context activated?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F5",
+          "type": "str",
+          "value": "Moon behaves like a moving read-head / scheduler over structured addresses",
+          "raw_value": "Moon behaves like a moving read-head / scheduler over structured addresses",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G5",
+          "type": "str",
+          "value": "Do not force every nakshatra into a unique note.",
+          "raw_value": "Do not force every nakshatra into a unique note.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "ref": "A6",
+          "type": "str",
+          "value": "Scale / domain",
+          "raw_value": "Scale / domain",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B6",
+          "type": "str",
+          "value": "Fludd",
+          "raw_value": "Fludd",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C6",
+          "type": "str",
+          "value": "material-celestial-spiritual / macro-micro levels",
+          "raw_value": "material-celestial-spiritual / macro-micro levels",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D6",
+          "type": "str",
+          "value": "X_domain / M_mediator",
+          "raw_value": "X_domain / M_mediator",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E6",
+          "type": "str",
+          "value": "At what level is the relation realized?",
+          "raw_value": "At what level is the relation realized?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F6",
+          "type": "str",
+          "value": "Same relational pattern can recur across register, voice, form, or domain",
+          "raw_value": "Same relational pattern can recur across register, voice, form, or domain",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G6",
+          "type": "str",
+          "value": "Fludd is a late comparator/calibrator, not independent ancient confirmation.",
+          "raw_value": "Fludd is a late comparator/calibrator, not independent ancient confirmation.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "ref": "A7",
+          "type": "str",
+          "value": "Continuous trajectory",
+          "raw_value": "Continuous trajectory",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B7",
+          "type": "str",
+          "value": "Kepler",
+          "raw_value": "Kepler",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C7",
+          "type": "str",
+          "value": "planetary motion between extrema",
+          "raw_value": "planetary motion between extrema",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D7",
+          "type": "str",
+          "value": "G_continuous / C_global",
+          "raw_value": "G_continuous / C_global",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E7",
+          "type": "str",
+          "value": "Can local intervals coexist in one global system?",
+          "raw_value": "Can local intervals coexist in one global system?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F7",
+          "type": "str",
+          "value": "Trajectory/range rather than fixed-note identity; global coherence gate",
+          "raw_value": "Trajectory/range rather than fixed-note identity; global coherence gate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G7",
+          "type": "str",
+          "value": "Pairwise consonance does not imply globally coherent harmony.",
+          "raw_value": "Pairwise consonance does not imply globally coherent harmony.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "ref": "A8",
+          "type": "str",
+          "value": "Integrated event",
+          "raw_value": "Integrated event",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B8",
+          "type": "str",
+          "value": "Derived model",
+          "raw_value": "Derived model",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C8",
+          "type": "str",
+          "value": "S=(p,r,phi,s) or richer M vector",
+          "raw_value": "S=(p,r,phi,s) or richer M vector",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D8",
+          "type": "str",
+          "value": "composition",
+          "raw_value": "composition",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "E8",
+          "type": "str",
+          "value": "What is one realized musical event?",
+          "raw_value": "What is one realized musical event?",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "F8",
+          "type": "str",
+          "value": "pitch + relation + phase + scale/domain; optional tuning/trajectory",
+          "raw_value": "pitch + relation + phase + scale/domain; optional tuning/trajectory",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "G8",
+          "type": "str",
+          "value": "All layers must remain typed; no silent equivalence between counts.",
+          "raw_value": "All layers must remain typed; no silent equivalence between counts.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "cells": [
+        {
+          "ref": "A11",
+          "type": "str",
+          "value": "Exact Math",
+          "raw_value": "Exact Math",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "805"
+        },
+        {
+          "ref": "B11",
+          "type": "str",
+          "value": "Expression",
+          "raw_value": "Expression",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "805"
+        },
+        {
+          "ref": "C11",
+          "type": "str",
+          "value": "Interpretation",
+          "raw_value": "Interpretation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "805"
+        },
+        {
+          "ref": "D11",
+          "type": "str",
+          "value": "Status",
+          "raw_value": "Status",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "805"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "cells": [
+        {
+          "ref": "A12",
+          "type": "str",
+          "value": "12/27 refinement",
+          "raw_value": "12/27 refinement",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B12",
+          "type": "str",
+          "value": "LCM(12,27)=108",
+          "raw_value": "LCM(12,27)=108",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C12",
+          "type": "str",
+          "value": "Smallest equal grid resolving 12 signs and 27 nakshatras",
+          "raw_value": "Smallest equal grid resolving 12 signs and 27 nakshatras",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D12",
+          "type": "str",
+          "value": "Exact",
+          "raw_value": "Exact",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "cells": [
+        {
+          "ref": "A13",
+          "type": "str",
+          "value": "108 factorization",
+          "raw_value": "108 factorization",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B13",
+          "type": "str",
+          "value": "108=12x9=27x4",
+          "raw_value": "108=12x9=27x4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C13",
+          "type": "str",
+          "value": "Nine pada-sized addresses per sign; four padas per nakshatra",
+          "raw_value": "Nine pada-sized addresses per sign; four padas per nakshatra",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D13",
+          "type": "str",
+          "value": "Exact",
+          "raw_value": "Exact",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "cells": [
+        {
+          "ref": "A14",
+          "type": "str",
+          "value": "216 comparison",
+          "raw_value": "216 comparison",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B14",
+          "type": "str",
+          "value": "LCM(108,72)=216",
+          "raw_value": "LCM(108,72)=216",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C14",
+          "type": "str",
+          "value": "Adds exact comparison with a 72-sector grid",
+          "raw_value": "Adds exact comparison with a 72-sector grid",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D14",
+          "type": "str",
+          "value": "Exact coordinate only",
+          "raw_value": "Exact coordinate only",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "cells": [
+        {
+          "ref": "A15",
+          "type": "str",
+          "value": "Z12 CRT",
+          "raw_value": "Z12 CRT",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B15",
+          "type": "str",
+          "value": "Z12 ~= Z3 x Z4",
+          "raw_value": "Z12 ~= Z3 x Z4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C15",
+          "type": "str",
+          "value": "Complementary mod3/mod4 coordinates",
+          "raw_value": "Complementary mod3/mod4 coordinates",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D15",
+          "type": "str",
+          "value": "Exact",
+          "raw_value": "Exact",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "cells": [
+        {
+          "ref": "A16",
+          "type": "str",
+          "value": "Fifth action",
+          "raw_value": "Fifth action",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "B16",
+          "type": "str",
+          "value": "7 mod3=1; 7 mod4=-1",
+          "raw_value": "7 mod3=1; 7 mod4=-1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "C16",
+          "type": "str",
+          "value": "T7 advances one coordinate and reverses one step on the other",
+          "raw_value": "T7 advances one coordinate and reverses one step on the other",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        },
+        {
+          "ref": "D16",
+          "type": "str",
+          "value": "Exact",
+          "raw_value": "Exact",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "18"
+        }
+      ]
+    }
+  ],
+  "row_count": 14,
+  "cell_count": 80,
+  "source_id": "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b",
+  "source_sha256": "7c45535f0d461eebbf2371dffef3039763b7045c1f2337e15654a3dce5c0a416",
+  "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\Generative_Ontology_Stack_v0.30_China_Vedic_Fludd_Music.xlsx",
+  "semantics": "Literal native workbook witness. Existing statuses/formulas are retained, not executed or independently validated.",
+  "occurrences": [
+    {
+      "source_id": "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b",
+      "source_sha256": "7c45535f0d461eebbf2371dffef3039763b7045c1f2337e15654a3dce5c0a416",
+      "workbook": "Generative_Ontology_Stack_v0.30_China_Vedic_Fludd_Music.xlsx",
+      "sheet": "Music_State_Architecture",
+      "part": "xl/worksheets/sheet189.xml",
+      "alias_source_ids": [
+        "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b"
+      ]
+    },
+    {
+      "source_id": "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897",
+      "source_sha256": "d99ab5b9d32a15f15fa30c82497fef060e4e8ab4abd57d919ef2f3f8a1dcc517",
+      "workbook": "Generative_Ontology_Stack_v0.44_Lineage_KeySchedule_72_RuddTest.xlsx",
+      "sheet": "Music_State_Architecture",
+      "part": "xl/worksheets/sheet189.xml",
+      "alias_source_ids": [
+        "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897"
+      ]
+    }
+  ]
+}

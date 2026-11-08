@@ -1,0 +1,14 @@
+{
+  "state": "User now requests account-wide uploaded images from the past few days, assess newest80-100, repeats expected, no reupload. This supersedes Favorites-only access dependency. Existing Chrome ChatGPT source session has Library navigation and All/Images tabs, recent All container52children; Favorites selected displayed No favorites yet. Native Pages APIs expose Pages not globaluploads. Existing native MSAA helper can navigate unique visible tabs and observe metadata but wholepage800nodes/depth20caps can omit filecontent. Local originals and attachmentref recovery delegated in parallel. Need acquire originals, retain uploadoccurrences/time provenance and distinguish uploaded/generated assets. Existingcurrentmodel remainsretained.",
+  "questions": {
+    "route": {
+      "type": "choice",
+      "instructions": "Select the primary bounded recovery route under the expanded authorization.",
+      "criteria": {
+        "library_all_parallel": "Navigate existing Library All, scope observation to file-list container, inspect upload/source/time filters and original-file action; local originals and exportrefs proceed in parallel.",
+        "local_only": "Use only local image copies and export attachmentrefs; do not inspect existing Library.",
+        "pages_again": "Repeat PagesAPI listings as the primary image inventory."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "sunny.current-mandate-adoption.v1",
+  "status": "passed",
+  "exit_code": 0,
+  "instruction": {
+    "adopted_utc": "2026-10-31T21:40:04.477193+00:00",
+    "authority": "Current user pasted the full mandate inline and explicitly directed resumption; root attestation. Attachment is its text witness, not an invented inline serialization.",
+    "title": "SUNNY — Jev Reconstruction and Predictive Derivation Mandate",
+    "text_witness_path": "data\\raw\\mandate-inputs\\99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63\\Pasted text.txt",
+    "text_witness_sha256": "99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63",
+    "prior_task": {
+      "path": "state\\checkpoint-history\\before-mandate-task.json-2bbde0f6e0d1b716868e98e413313dbf739608649f2f3b095225b7ef14314e94.snapshot",
+      "sha256": "2bbde0f6e0d1b716868e98e413313dbf739608649f2f3b095225b7ef14314e94"
+    },
+    "prior_plan": {
+      "path": "state\\checkpoint-history\\before-mandate-PLAN.md-c240a98f5de329912f03cc2338ed0acba5a2bf82c927312ce8fa4b679ae6adc7.snapshot",
+      "sha256": "c240a98f5de329912f03cc2338ed0acba5a2bf82c927312ce8fa4b679ae6adc7"
+    }
+  },
+  "new_task_sha256": "ff04f6c1b55d5dbdcb50af78b0fbba169e832fd80a10ce4c21c838cb3be389be",
+  "new_plan_sha256": "9b01cff2dbe750ad0d7cf2ca13f834cb86112fde4b60f51fea8cc081c8b6205b",
+  "raw_inputs_deleted": false,
+  "math_completion_claimed": false
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-bridge-assistant-123b6996301d1a84",
+  "kind": "source_forensics",
+  "track": "bridge",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/123b6996301d1a8439fc94aaf9d9295abe417e50db8b7f2fa6bfa46dbfc9f12e/text.txt",
+      "sha256": "123b6996301d1a8439fc94aaf9d9295abe417e50db8b7f2fa6bfa46dbfc9f12e",
+      "start_line": 1,
+      "end_line": 1,
+      "source_role": "assistant",
+      "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+      "message_id": "285fc209e23e5f45708953323ac3654fbd2e8dd61437d565c570993733e0b9f6",
+      "timestamp": "1757007158.997181",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "285fc209e23e5f45708953323ac3654fbd2e8dd61437d565c570993733e0b9f6",
+        "native_id": "a6df18ca-3121-49ef-b559-306924c1a0f0",
+        "conversation_id": "264232d45af894fbe525849b6dc8debdee6fbf40879edc2ba52c7f1868e70379",
+        "role": "assistant",
+        "content_sha256": "123b6996301d1a8439fc94aaf9d9295abe417e50db8b7f2fa6bfa46dbfc9f12e",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "locator": "/45/mapping/a6df18ca-3121-49ef-b559-306924c1a0f0/message",
+        "create_time": "1757007158.997181",
+        "branch_status": "current",
+        "title": "Earth's 4D Cosmic Path",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+        "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/123b6996301d1a8439fc94aaf9d9295abe417e50db8b7f2fa6bfa46dbfc9f12e/occurrences-88ff1eb3734565aeb83b3d4b36a5849e8ee4d2263ed768847e089184e85852ce.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-bridge-operation",
+      "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+    },
+    {
+      "id": "native-carrier-relation",
+      "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

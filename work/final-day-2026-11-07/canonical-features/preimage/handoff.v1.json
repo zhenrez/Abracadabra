@@ -1,0 +1,69 @@
+{
+  "scope": "Canonical G0 source to legacy15DIPA+5Dgeometry bridge only",
+  "status": "IMPLEMENTED_AND_VERIFIED_FOR_BOUNDED_SCOPE",
+  "root_red": {
+    "exit_code": 1,
+    "observed": "ModuleNotFoundError canonical_features before implementation",
+    "attribution": "Coordinator actual execution"
+  },
+  "root_green": {
+    "tests": 5,
+    "passed": 5,
+    "exit_code": 0,
+    "attribution": "Coordinator actual execution"
+  },
+  "root_CLI": {
+    "script": "run_canonical.py",
+    "output": "work\\final-day-2026-11-07\\results\\canonical-features",
+    "exit_code": 0,
+    "attribution": "Coordinator actual execution"
+  },
+  "independent_artifact_readback": {
+    "exit_code": 0,
+    "files": 5,
+    "scope": "SHA256/size consistency only",
+    "receipt": "artifact-readback.json"
+  },
+  "measured_summary": {
+    "atomic_sound_cells": 282,
+    "distance_policy": "Compare only jointly available features of compatible phonetic types; no name-to-phoneme projection",
+    "geometry_cells": 0,
+    "geometry_scope": "STRICT_UNAVAILABLE",
+    "missing_policy": "Zero plus false mask; all-zero cosine is undefined, not evidence of similarity",
+    "populated": 381,
+    "positions": 540,
+    "shape": [
+      15,
+      36,
+      20
+    ],
+    "source_sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+    "value_states": {
+      "ALTERNATIVE_VALUES": 22,
+      "ATOMIC_VALUE": 282,
+      "BLANK": 159,
+      "LETTER_NAME_EXCLUDED": 26,
+      "SEQUENCE_VALUE": 46,
+      "UNKNOWN_VALUE": 4,
+      "UNRESOLVED_LABEL": 1
+    }
+  },
+  "documentation_check_exit": 0,
+  "original_files_changed": [],
+  "added": [
+    "canonical_features.py",
+    "run_canonical.py",
+    "test_canonical_features.py",
+    "source-bindings.json",
+    "README.md",
+    "PLAN.md"
+  ],
+  "limits": [
+    "No historical topology or universal root claim",
+    "Strict geometry remains unavailable",
+    "Original coarseIPAfeature losses and literal segmentation retained",
+    "Optional font proxy not executed by this bridge acceptance",
+    "Child did not run Python under current policy"
+  ],
+  "final_project_proof": "Owned by coordinator; this feature receipt does not substitute for full delivery acceptance"
+}

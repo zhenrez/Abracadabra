@@ -1,0 +1,251 @@
+{
+  "schema": "sunny.native-system-independent-audit.v2",
+  "status": "failed",
+  "checkedAt": "2026-11-08T22:11:09.219Z",
+  "inputGraphPath": "state/reconstruction/hierarchy-atlas-combined.json",
+  "inputGraphSha256": "a89ac6b2e327f2b9038d105c2d3625a15cf96c6f495704a901dbc61e29949e28",
+  "auditCodeBinding": {
+    "path": "tests/native-system-integration.test.mjs",
+    "sha256": "321db6a858fdc9eca4e1ab96def72264d83c874256a9561f2a69b4fbed897ce1"
+  },
+  "inputBindings": [
+    {
+      "path": "state/reconstruction/indian-hierarchy.json",
+      "sha256": "7c2c78af1c6c474701deaff75c9c8662ee94095d4ec16b6f71c264c3424eaf0c",
+      "bytes": 12407143
+    },
+    {
+      "path": "state/reconstruction/western-expanded.json",
+      "sha256": "915917ab4ba7509d173686d29714de8ed2e2b5205edb6e5c2a1e2d0743923ba1",
+      "bytes": 8796888
+    },
+    {
+      "path": "state/reconstruction/chinese-expanded.json",
+      "sha256": "a5976344694e120055beb2c33878de61fe172574628399352cd14317cd0f8660",
+      "bytes": 6363141
+    },
+    {
+      "path": "state/reconstruction/native-class-constructors.json",
+      "sha256": "5eaf822a07d87c2d676d3b96a3a2af5144446963005ca4d3d17a999a553301ca",
+      "bytes": 43323311
+    },
+    {
+      "path": "state/reconstruction/biblical-genealogies.json",
+      "sha256": "fb65aeb95353d33b8dd768b3c008fceb243793dbdcb66ef45508f38cfb356258",
+      "bytes": 10168849
+    },
+    {
+      "path": "state/reconstruction/upper-legion-color-constraints.json",
+      "sha256": "0ebc6510a9c41297ff9f216020ef314e7fc91a7b09eba92f4381eec035328ea5",
+      "bytes": 5062875
+    }
+  ],
+  "baselineBinding": {
+    "path": "state/research/native-class/atlas-before-native-expansion.json",
+    "sha256": "a2f2bfae2eb61611f73fb64147b2b96f976f47818f1514a3173118adda89c497"
+  },
+  "actualCounts": {
+    "sources": 57,
+    "entities": 35072,
+    "relationships": 89971,
+    "views": 37
+  },
+  "checks": [
+    {
+      "name": "All six integration module bindings, baseline and integration code match current bytes",
+      "status": "passed",
+      "details": {
+        "modules": 6
+      }
+    },
+    {
+      "name": "Every baseline source/entity/relation/view survives exactly",
+      "status": "passed",
+      "details": {
+        "sources": 38,
+        "entities": 9512,
+        "relationships": 10251,
+        "views": 23
+      }
+    },
+    {
+      "name": "All four native graph modules preserve exact source/entity/relation/view semantics",
+      "status": "passed",
+      "details": {
+        "indian-hierarchy": {
+          "entities": 5339,
+          "relationships": 8681,
+          "views": 2
+        },
+        "western-expanded": {
+          "entities": 4059,
+          "relationships": 6755,
+          "views": 4
+        },
+        "chinese-expanded": {
+          "entities": 2240,
+          "relationships": 3172,
+          "views": 4
+        },
+        "native-class-constructors": {
+          "entities": 11644,
+          "relationships": 54483,
+          "views": 1
+        }
+      }
+    },
+    {
+      "name": "IDs are unique and every source, endpoint, view, parent and root resolves",
+      "status": "passed",
+      "details": {
+        "entities": 35072,
+        "relationships": 89971,
+        "views": 37
+      }
+    },
+    {
+      "name": "Every registered source digest binds the actual source bytes",
+      "status": "failed",
+      "details": {
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout\\data\\raw\\hierarchy-primary\\769e4eea060b19db382e2ae7c870ebaba1261aa024046d2e35a2231e72aab66f\\irenaeus_i_1.html'"
+      }
+    },
+    {
+      "name": "Indian2520 note addresses retain degree/mela ancestry and all210 direct Aditya conditions",
+      "status": "passed",
+      "details": {
+        "registeredNotes": 2520,
+        "instrumentTypes": 36,
+        "conditionalAdityaNotes": 210
+      }
+    },
+    {
+      "name": "Western registered degrees, range profiles and MIDI sound addresses remain distinct",
+      "status": "passed",
+      "details": {
+        "registeredDegrees": 2464,
+        "profiles": 31,
+        "programs": 128,
+        "percussionAddresses": 47
+      }
+    },
+    {
+      "name": "Chinese source-context units reconcile independently from total structural records",
+      "status": "passed",
+      "details": {
+        "totalRecords": 2240,
+        "declaredLowerContextUnits": 1671,
+        "targetMet": false,
+        "nativeClassExceptionsRetained": true
+      }
+    },
+    {
+      "name": "Bible source fields and primary/curated/received qualifications survive integration",
+      "status": "passed",
+      "details": {
+        "entities": 3279,
+        "relations": 4735
+      }
+    },
+    {
+      "name": "All49 primary and every declared received Bible edge belong to the declared family view",
+      "status": "passed",
+      "details": {
+        "families": [
+          {
+            "viewId": "bible:witness-family:MT",
+            "primaryAssertions": 16
+          },
+          {
+            "viewId": "bible:witness-family:Greek",
+            "primaryAssertions": 17
+          },
+          {
+            "viewId": "bible:witness-family:SP",
+            "primaryAssertions": 16
+          }
+        ],
+        "totalPrimaryAssertions": 49
+      }
+    },
+    {
+      "name": "SP remains a Pentateuch comparison without invented New Testament witness scope",
+      "status": "passed",
+      "details": {
+        "SPNewTestamentWitness": false
+      }
+    },
+    {
+      "name": "All12 frozen colors retain five carriers without wavelength/note/global identity promotion",
+      "status": "passed",
+      "details": {
+        "states": 12,
+        "carriersEach": 5
+      }
+    },
+    {
+      "name": "Known construction depths remain native frames and no global alignment is elected",
+      "status": "passed",
+      "details": {
+        "qualifiedConstructionDepthRecords": 11643
+      }
+    },
+    {
+      "name": "Upper records and normalized-text coordinates remain recoverable without changing baseline sources",
+      "status": "passed",
+      "details": {
+        "upperEntities": 19,
+        "upperRelationships": 98,
+        "normalizationPackets": 2,
+        "anonymousMembershipSlots": 7911
+      }
+    }
+  ],
+  "findings": [
+    {
+      "name": "Every registered source digest binds the actual source bytes",
+      "status": "failed",
+      "details": {
+        "error": "ENOENT: no such file or directory, open 'C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout\\data\\raw\\hierarchy-primary\\769e4eea060b19db382e2ae7c870ebaba1261aa024046d2e35a2231e72aab66f\\irenaeus_i_1.html'"
+      }
+    }
+  ],
+  "retainedEarlierAudits": [
+    {
+      "path": "docs/evidence/native-system-independent-audit.previous-55da71703d92cc4d2c903afc6074c20ba5222547610b390f2b9565bf552bfbe9.json",
+      "sha256": "55da71703d92cc4d2c903afc6074c20ba5222547610b390f2b9565bf552bfbe9",
+      "status": "failed",
+      "graphSha256": "c553cb2274b0a9b4f3d26efef67be9dcf846dcbd97f6c80cd072892749ce4b82"
+    },
+    {
+      "path": "docs/evidence/native-system-independent-audit.previous-fc7497de76a4f23b6ca8b11b67ce86a98b127e75000e701ce5d8f5b8dafc5f98.json",
+      "sha256": "fc7497de76a4f23b6ca8b11b67ce86a98b127e75000e701ce5d8f5b8dafc5f98",
+      "status": "failed",
+      "graphSha256": "256b011db9ef0d4cee1b33ce40d9c721df42f5d60b1804a2a9e46024b97bedae"
+    },
+    {
+      "path": "docs/evidence/native-system-independent-audit.previous-9b9cb7a4222bc5eca18e334e911373095b0987bec1b280ca8862a214af401588.json",
+      "sha256": "9b9cb7a4222bc5eca18e334e911373095b0987bec1b280ca8862a214af401588",
+      "status": "passed",
+      "graphSha256": "a89ac6b2e327f2b9038d105c2d3625a15cf96c6f495704a901dbc61e29949e28"
+    },
+    {
+      "path": "docs/evidence/native-system-independent-audit.previous-9505a77788e03fe21c5afe88f4ccc2d18fa4147ca966f23690b46486728b7058.json",
+      "sha256": "9505a77788e03fe21c5afe88f4ccc2d18fa4147ca966f23690b46486728b7058",
+      "status": "passed",
+      "graphSha256": "a89ac6b2e327f2b9038d105c2d3625a15cf96c6f495704a901dbc61e29949e28"
+    }
+  ],
+  "execution": {
+    "command": "node --test tests/native-system-integration.test.mjs",
+    "expectedExitCode": 1,
+    "processExitEvidence": "Exact process exit is recorded by the invoking tool; this report does not self-certify its shell exit"
+  },
+  "scope": "Independent source/record/typing preservation audit. No mathematical rerun, source-authenticity claim, ancient-ink collation, physical law or full SUNNY completion.",
+  "pluginUse": {
+    "Supermemory": "Actual continuity search succeeded before audit; current checks use actual files, not historical memory counts.",
+    "Jev": "Preserved actual local receipt64 directs the parent source-class task; this deterministic audit is not a fresh model inference.",
+    "SuperJevHook": "Unavailable status reported; no hook execution success inferred."
+  },
+  "sourceMathOrIntegrationCodeEdited": false
+}

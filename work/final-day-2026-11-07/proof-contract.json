@@ -1,0 +1,421 @@
+{
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "goal": "Verify the executed canonical evidence/native-model delivery, source preservation, measured conditional controls, all106retained requirements, real UI and operational checks. Historical and full SUNNY research certification are excluded.",
+  "acceptance": [
+    {
+      "id": "native_evidence",
+      "description": "Source-bound native and conservation regressions execute with positive test counts; all original source distinctions survive."
+    },
+    {
+      "id": "runtime",
+      "description": "The current full project run is source-bound and passing; timer/helper/identity controls retain failures and reject unverifiable ownership."
+    },
+    {
+      "id": "catalog",
+      "description": "All106original requirements/statuses survive verbatim beside current assessments, with every unresolved dependency retained."
+    },
+    {
+      "id": "interface",
+      "description": "The local workbench embeds exact raw and current evidence separately; real browser interactions and mobile layout are checked."
+    },
+    {
+      "id": "integrity",
+      "description": "Current outputs, frozen sources, operational exceptions, original demonstrations and documentation are verified without certifying history."
+    }
+  ],
+  "inputs": [
+    "package.json",
+    "scripts/process-lifecycle.ps1",
+    "scripts/stop-jev-worker.ps1",
+    "src/algebraic-scalar.ts",
+    "src/comparison.ts",
+    "src/contextual-alignment.ts",
+    "src/geometry.ts",
+    "src/hierarchy.ts",
+    "src/law.ts",
+    "src/native-operators.ts",
+    "src/phonological-history.ts",
+    "src/prediction.ts",
+    "src/reading-relations.ts",
+    "src/score.ts",
+    "src/server.ts",
+    "src/worker.ts",
+    "tests/algebraic-scalar.test.mjs",
+    "tests/comparison.test.mjs",
+    "tests/contextual-alignment.test.mjs",
+    "tests/hierarchy.test.mjs",
+    "tests/law.test.mjs",
+    "tests/musical-hierarchies.test.mjs",
+    "tests/native-operators.test.mjs",
+    "tests/phase-probe-designs.test.mjs",
+    "tests/phonological-history.test.mjs",
+    "tests/prediction.test.mjs",
+    "tests/reading-integration.test.mjs",
+    "tests/reading-relations.test.mjs",
+    "tests/score.test.mjs",
+    "tests/server.test.mjs",
+    "tests/symbol-sound-constraints.test.mjs",
+    "tests/worker-identity.mjs",
+    "tests/worker-lifecycle.test.mjs",
+    "tsconfig.json",
+    "work/ariadne-inverse/build_dataset.py",
+    "work/ariadne-inverse/drift_engine.py",
+    "work/ariadne-inverse/extract_carrier.py",
+    "work/ariadne-inverse/features.py",
+    "work/ariadne-inverse/harmonic_verifier.py",
+    "work/ariadne-inverse/inverse.py",
+    "work/ariadne-inverse/numpy_pipeline.py",
+    "work/ariadne-inverse/package_evidence.py",
+    "work/ariadne-inverse/permutation.py",
+    "work/ariadne-inverse/residual_analysis.py",
+    "work/ariadne-inverse/run.py",
+    "work/ariadne-inverse/test_drift_engine.py",
+    "work/ariadne-inverse/test_harmonic_verifier.py",
+    "work/ariadne-inverse/test_numpy_pipeline.py",
+    "work/ariadne-inverse/test_permutation.py",
+    "work/ariadne-inverse/test_pipeline.py",
+    "work/ariadne-inverse/test_residual_analysis.py",
+    "work/ariadne-inverse/test_vowel_drift.py",
+    "work/ariadne-inverse/verify.py",
+    "work/ariadne-inverse/vowel_drift.py",
+    "work/final-day-2026-11-07/audit/deliverables.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/README.md",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/11b577958d24d3c8109fd6b99c677f69adcf8a220386708ae412b58b28b3b011/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/6ce9ee6dd2b2caff239b3e78582216afed9038b63adaa9d5610919efcae721d8/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/by-sha/fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1/content.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/capture_versions.ps1",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/verification-receipt.json",
+    "work/final-day-2026-11-07/audit/mathematical-source-versions/version-manifest.json",
+    "work/final-day-2026-11-07/baseline.py",
+    "work/final-day-2026-11-07/canonical-features/README.md",
+    "work/final-day-2026-11-07/canonical-features/canonical_features.py",
+    "work/final-day-2026-11-07/canonical-features/preimage/canonical_features.v1.py",
+    "work/final-day-2026-11-07/canonical-features/preimage/handoff.v1.json",
+    "work/final-day-2026-11-07/canonical-features/preimage/manifest.json",
+    "work/final-day-2026-11-07/canonical-features/run_canonical.py",
+    "work/final-day-2026-11-07/canonical-features/source-bindings.json",
+    "work/final-day-2026-11-07/canonical-features/test_canonical_features.py",
+    "work/final-day-2026-11-07/capability-receipts/g5-open-sources.json",
+    "work/final-day-2026-11-07/capability-receipts/g5-search.json",
+    "work/final-day-2026-11-07/capability-receipts/julius-attempt.json",
+    "work/final-day-2026-11-07/capability-receipts/proofline-package.json",
+    "work/final-day-2026-11-07/capability-receipts/proofline-verification.json",
+    "work/final-day-2026-11-07/capability-receipts/prumo-request.json",
+    "work/final-day-2026-11-07/capability-receipts/prumo-result.json",
+    "work/final-day-2026-11-07/capability-receipts/wolfram-context.json",
+    "work/final-day-2026-11-07/capability-receipts/wolfram-exact.json",
+    "work/final-day-2026-11-07/comparisons.py",
+    "work/final-day-2026-11-07/controls.py",
+    "work/final-day-2026-11-07/dashboard/README.md",
+    "work/final-day-2026-11-07/dashboard/browser_check.mjs",
+    "work/final-day-2026-11-07/dashboard/build_dashboard.py",
+    "work/final-day-2026-11-07/dashboard/test_dashboard.py",
+    "work/final-day-2026-11-07/dashboard/workbench.template.html",
+    "work/final-day-2026-11-07/independent-review/test_adversarial_controls.py",
+    "work/final-day-2026-11-07/independent-review/test_delivery_acceptance.py",
+    "work/final-day-2026-11-07/independent-review/test_packaging.py",
+    "work/final-day-2026-11-07/integration/common_models.py",
+    "work/final-day-2026-11-07/integration/test_common_models.py",
+    "work/final-day-2026-11-07/inverse_controls.py",
+    "work/final-day-2026-11-07/jev-final-sequence.json",
+    "work/final-day-2026-11-07/jev-strategy.json",
+    "work/final-day-2026-11-07/mathematical_sources.py",
+    "work/final-day-2026-11-07/native-east/east_models.py",
+    "work/final-day-2026-11-07/native-east/source-profiles.json",
+    "work/final-day-2026-11-07/native-east/test_native_east.py",
+    "work/final-day-2026-11-07/native-east/verify_native_east.py",
+    "work/final-day-2026-11-07/package_delivery.py",
+    "work/final-day-2026-11-07/package_evidence.py",
+    "work/final-day-2026-11-07/prepare_proof.py",
+    "work/final-day-2026-11-07/results/canonical-features-v2/README.md",
+    "work/final-day-2026-11-07/results/canonical-features-v2/manifest.json",
+    "work/final-day-2026-11-07/results/canonical-features-v2/matrix.npz",
+    "work/final-day-2026-11-07/results/canonical-features-v2/source.tsv",
+    "work/final-day-2026-11-07/results/canonical-features-v2/summary.json",
+    "work/final-day-2026-11-07/results/canonical-features-v2/vectors.json",
+    "work/final-day-2026-11-07/run_delivery.py",
+    "work/final-day-2026-11-07/runtime/approved-source-change.json",
+    "work/final-day-2026-11-07/runtime/diagnose_worker.mjs",
+    "work/final-day-2026-11-07/runtime/preimage/worker-lifecycle-before-identity.test.mjs",
+    "work/final-day-2026-11-07/runtime/preimage/worker-lifecycle.test.mjs",
+    "work/final-day-2026-11-07/runtime/preimage/worker.ts",
+    "work/final-day-2026-11-07/runtime/prepare_cleanup_diagnostic.py",
+    "work/final-day-2026-11-07/runtime/prepare_diag.py",
+    "work/final-day-2026-11-07/runtime/project-after-repair-checks.json",
+    "work/final-day-2026-11-07/runtime/project-checks.json",
+    "work/final-day-2026-11-07/runtime/project-final-checks.json",
+    "work/final-day-2026-11-07/runtime/project-serial-checks.json",
+    "work/final-day-2026-11-07/runtime/review_worker_repair.py",
+    "work/final-day-2026-11-07/runtime/run_project_checks.py",
+    "work/final-day-2026-11-07/runtime/test_helper_deadline.mjs",
+    "work/final-day-2026-11-07/runtime/test_timer_race.mjs",
+    "work/final-day-2026-11-07/runtime/test_worker_identity.mjs",
+    "work/final-day-2026-11-07/runtime/worker-identity-diagnostic.test.mjs",
+    "work/final-day-2026-11-07/runtime/worker-lifecycle-diagnostic.test.mjs",
+    "work/final-day-2026-11-07/runtime/worker-observed.mjs",
+    "work/final-day-2026-11-07/runtime/worker-proposed.mjs",
+    "work/final-day-2026-11-07/test_baseline.py",
+    "work/final-day-2026-11-07/test_comparisons.py",
+    "work/final-day-2026-11-07/test_controls.py",
+    "work/final-day-2026-11-07/test_inverse_controls.py",
+    "work/final-day-2026-11-07/test_mathematical_sources.py",
+    "work/final-day-2026-11-07/verify_delivery.py",
+    "work/final-day-2026-11-07/western/reuse-manifest.json",
+    "work/final-day-2026-11-07/western/run_native.py",
+    "work/final-day-2026-11-07/western/source-profiles.json",
+    "work/final-day-2026-11-07/western/sources/ratio-mode-extraction.json",
+    "work/final-day-2026-11-07/western/sources/web-source-check.json",
+    "work/final-day-2026-11-07/western/test_western_model.py",
+    "work/final-day-2026-11-07/western/western_model.py",
+    "work/four-orientations/build_checkpoint.py",
+    "work/four-orientations/comparison.py",
+    "work/four-orientations/evidence.py",
+    "work/four-orientations/native_models.py",
+    "work/four-orientations/test_models.py",
+    "work/unit001/acquire_closeout.py",
+    "work/unit001/checkpoint.py",
+    "work/unit001/closeout_fixtures.py",
+    "work/unit001/complete_lists.py",
+    "work/unit001/contracts.py",
+    "work/unit001/evidence.py",
+    "work/unit001/final_acceptance.py",
+    "work/unit001/frozen/context/AGENTS.md",
+    "work/unit001/frozen/context/HUMMBL_PLAN.md",
+    "work/unit001/frozen/context/SUN_Final_Hypergraph_and_Template_Results_v1.md",
+    "work/unit001/frozen/context/task.json",
+    "work/unit001/frozen/earlier-derived/build_dataset.py",
+    "work/unit001/frozen/earlier-derived/jev-attempt.json",
+    "work/unit001/frozen/earlier-derived/table.json",
+    "work/unit001/frozen/earlier-derived/table.tsv",
+    "work/unit001/frozen/sefer/HARMONIC_VERIFIER.md",
+    "work/unit001/frozen/sefer/harmonic-demo.json",
+    "work/unit001/frozen/sefer/harmonic_verifier.py",
+    "work/unit001/frozen/sefer/original-test-output.txt",
+    "work/unit001/frozen/sefer/test_harmonic_verifier.py",
+    "work/unit001/frozen/source/matrix-event.jsonl",
+    "work/unit001/frozen/source/matrix-message.txt",
+    "work/unit001/frozen/source/orientation-context.txt",
+    "work/unit001/historical_extensions.py",
+    "work/unit001/import_closeout_documents.py",
+    "work/unit001/kernel.py",
+    "work/unit001/reconcile_checkpoint.py",
+    "work/unit001/reconcile_current_chat.py",
+    "work/unit001/sefer.py",
+    "work/unit001/source-manifest.json",
+    "work/unit001/test_closeout.py",
+    "work/unit001/test_final_acceptance.py",
+    "work/unit001/test_g0.py",
+    "work/unit001/test_g1.py",
+    "work/unit001/test_historical_extensions.py",
+    "work/unit001/test_kernel.py",
+    "work/unit001/test_list_completion.py",
+    "work/unit001/test_migration_conservation.py",
+    "work/unit001/verify_closeout.py",
+    "work/unit001/verify_reconciliation.py",
+    "work/unit002/review_context.py",
+    "work/unit002/test_western.py",
+    "work/unit002/verify_western.py",
+    "work/unit002/western.py"
+  ],
+  "checks": [
+    {
+      "id": "native-and-evidence",
+      "criteria": [
+        "native_evidence"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/run_delivery.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "runtime-controls",
+      "criteria": [
+        "runtime"
+      ],
+      "command": [
+        "node",
+        "--test",
+        "work/final-day-2026-11-07/runtime/test_helper_deadline.mjs",
+        "work/final-day-2026-11-07/runtime/test_timer_race.mjs",
+        "work/final-day-2026-11-07/runtime/test_worker_identity.mjs"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "current-full-project-receipt",
+      "criteria": [
+        "runtime"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/verify_delivery.py",
+        "--runtime"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "canonical-artifacts",
+      "criteria": [
+        "native_evidence"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/verify_delivery.py",
+        "--canonical"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "current-catalog",
+      "criteria": [
+        "catalog"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/package_delivery.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "workbench-build",
+      "criteria": [
+        "interface"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/dashboard/build_dashboard.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "actual-browser",
+      "criteria": [
+        "interface"
+      ],
+      "command": [
+        "node",
+        "work/final-day-2026-11-07/dashboard/browser_check.mjs"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "refresh-readable-handoff",
+      "criteria": [
+        "catalog"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/package_delivery.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "artifact-integrity",
+      "criteria": [
+        "integrity"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/verify_delivery.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "documentation",
+      "criteria": [
+        "integrity"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/final-day-2026-11-07/verify_delivery.py",
+        "--docs"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "focused-static-lint",
+      "criteria": [
+        "integrity"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "--select",
+        "E9,F63,F7,F82",
+        "work/final-day-2026-11-07/baseline.py",
+        "work/final-day-2026-11-07/canonical-features/canonical_features.py",
+        "work/final-day-2026-11-07/canonical-features/run_canonical.py",
+        "work/final-day-2026-11-07/canonical-features/test_canonical_features.py",
+        "work/final-day-2026-11-07/comparisons.py",
+        "work/final-day-2026-11-07/controls.py",
+        "work/final-day-2026-11-07/dashboard/build_dashboard.py",
+        "work/final-day-2026-11-07/dashboard/test_dashboard.py",
+        "work/final-day-2026-11-07/independent-review/test_adversarial_controls.py",
+        "work/final-day-2026-11-07/independent-review/test_delivery_acceptance.py",
+        "work/final-day-2026-11-07/independent-review/test_packaging.py",
+        "work/final-day-2026-11-07/integration/common_models.py",
+        "work/final-day-2026-11-07/integration/test_common_models.py",
+        "work/final-day-2026-11-07/inverse_controls.py",
+        "work/final-day-2026-11-07/mathematical_sources.py",
+        "work/final-day-2026-11-07/native-east/east_models.py",
+        "work/final-day-2026-11-07/native-east/test_native_east.py",
+        "work/final-day-2026-11-07/native-east/verify_native_east.py",
+        "work/final-day-2026-11-07/package_delivery.py",
+        "work/final-day-2026-11-07/package_evidence.py",
+        "work/final-day-2026-11-07/prepare_proof.py",
+        "work/final-day-2026-11-07/run_delivery.py",
+        "work/final-day-2026-11-07/runtime/prepare_cleanup_diagnostic.py",
+        "work/final-day-2026-11-07/runtime/prepare_diag.py",
+        "work/final-day-2026-11-07/runtime/review_worker_repair.py",
+        "work/final-day-2026-11-07/runtime/run_project_checks.py",
+        "work/final-day-2026-11-07/test_baseline.py",
+        "work/final-day-2026-11-07/test_comparisons.py",
+        "work/final-day-2026-11-07/test_controls.py",
+        "work/final-day-2026-11-07/test_inverse_controls.py",
+        "work/final-day-2026-11-07/test_mathematical_sources.py",
+        "work/final-day-2026-11-07/verify_delivery.py",
+        "work/final-day-2026-11-07/western/run_native.py",
+        "work/final-day-2026-11-07/western/test_western_model.py",
+        "work/final-day-2026-11-07/western/western_model.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "dependency-consistency",
+      "criteria": [
+        "integrity"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

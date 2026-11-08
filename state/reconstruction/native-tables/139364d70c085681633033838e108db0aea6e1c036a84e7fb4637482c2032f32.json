@@ -1,0 +1,758 @@
+{
+  "sheet": "Prime_Friction_Math",
+  "part": "xl/worksheets/sheet173.xml",
+  "content_sha256": "139364d70c085681633033838e108db0aea6e1c036a84e7fb4637482c2032f32",
+  "rows": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "ref": "A1",
+          "type": "str",
+          "value": "Comparison",
+          "raw_value": "Comparison",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "B1",
+          "type": "str",
+          "value": "A_Count",
+          "raw_value": "A_Count",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "C1",
+          "type": "str",
+          "value": "B_Count",
+          "raw_value": "B_Count",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "D1",
+          "type": "str",
+          "value": "GCD",
+          "raw_value": "GCD",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "E1",
+          "type": "str",
+          "value": "LCM",
+          "raw_value": "LCM",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "F1",
+          "type": "str",
+          "value": "Shared_Boundary_Positions",
+          "raw_value": "Shared_Boundary_Positions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "G1",
+          "type": "str",
+          "value": "A_B_Ratio",
+          "raw_value": "A_B_Ratio",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        },
+        {
+          "ref": "H1",
+          "type": "str",
+          "value": "Interpretation",
+          "raw_value": "Interpretation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "730"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "ref": "A2",
+          "type": "str",
+          "value": "12 vs 13",
+          "raw_value": "12 vs 13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B2",
+          "type": "n",
+          "value": "12",
+          "raw_value": "12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C2",
+          "type": "n",
+          "value": "13",
+          "raw_value": "13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D2",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "GCD(B2,C2)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E2",
+          "type": "n",
+          "value": "156",
+          "raw_value": "156",
+          "formula": "LCM(B2,C2)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F2",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "D2",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G2",
+          "type": "n",
+          "value": "0.9230769230769231",
+          "raw_value": "0.9230769230769231",
+          "formula": "B2/C2",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H2",
+          "type": "str",
+          "value": "Coprime: no shared interior equal-sector boundaries; complete common refinement requires 156 microsectors.",
+          "raw_value": "Coprime: no shared interior equal-sector boundaries; complete common refinement requires 156 microsectors.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "ref": "A3",
+          "type": "str",
+          "value": "72 vs 13",
+          "raw_value": "72 vs 13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B3",
+          "type": "n",
+          "value": "72",
+          "raw_value": "72",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C3",
+          "type": "n",
+          "value": "13",
+          "raw_value": "13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D3",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "GCD(B3,C3)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E3",
+          "type": "n",
+          "value": "936",
+          "raw_value": "936",
+          "formula": "LCM(B3,C3)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F3",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "D3",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G3",
+          "type": "n",
+          "value": "5.538461538461538",
+          "raw_value": "5.538461538461538",
+          "formula": "B3/C3",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H3",
+          "type": "str",
+          "value": "Coprime: strongest mismatch with the 72-gate grid; common refinement has 936 microsectors.",
+          "raw_value": "Coprime: strongest mismatch with the 72-gate grid; common refinement has 936 microsectors.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "ref": "A4",
+          "type": "str",
+          "value": "216 vs 13",
+          "raw_value": "216 vs 13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B4",
+          "type": "n",
+          "value": "216",
+          "raw_value": "216",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C4",
+          "type": "n",
+          "value": "13",
+          "raw_value": "13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D4",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "GCD(B4,C4)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E4",
+          "type": "n",
+          "value": "2808",
+          "raw_value": "2808",
+          "formula": "LCM(B4,C4)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F4",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "D4",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G4",
+          "type": "n",
+          "value": "16.615384615384617",
+          "raw_value": "16.615384615384617",
+          "formula": "B4/C4",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H4",
+          "type": "str",
+          "value": "Coprime: a 13-sector deformation shares only the cycle origin with the 216 common lattice.",
+          "raw_value": "Coprime: a 13-sector deformation shares only the cycle origin with the 216 common lattice.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "ref": "A5",
+          "type": "str",
+          "value": "27 vs 72",
+          "raw_value": "27 vs 72",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B5",
+          "type": "n",
+          "value": "27",
+          "raw_value": "27",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C5",
+          "type": "n",
+          "value": "72",
+          "raw_value": "72",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D5",
+          "type": "n",
+          "value": "9",
+          "raw_value": "9",
+          "formula": "GCD(B5,C5)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E5",
+          "type": "n",
+          "value": "216",
+          "raw_value": "216",
+          "formula": "LCM(B5,C5)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F5",
+          "type": "n",
+          "value": "9",
+          "raw_value": "9",
+          "formula": "D5",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G5",
+          "type": "n",
+          "value": "0.375",
+          "raw_value": "0.375",
+          "formula": "B5/C5",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H5",
+          "type": "str",
+          "value": "Commensurate: 9 shared boundaries; exact common refinement =216. Each nakshatra=8 microcells; each Shem gate=3.",
+          "raw_value": "Commensurate: 9 shared boundaries; exact common refinement =216. Each nakshatra=8 microcells; each Shem gate=3.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "ref": "A6",
+          "type": "str",
+          "value": "12 vs 27",
+          "raw_value": "12 vs 27",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B6",
+          "type": "n",
+          "value": "12",
+          "raw_value": "12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C6",
+          "type": "n",
+          "value": "27",
+          "raw_value": "27",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D6",
+          "type": "n",
+          "value": "3",
+          "raw_value": "3",
+          "formula": "GCD(B6,C6)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E6",
+          "type": "n",
+          "value": "108",
+          "raw_value": "108",
+          "formula": "LCM(B6,C6)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F6",
+          "type": "n",
+          "value": "3",
+          "raw_value": "3",
+          "formula": "D6",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G6",
+          "type": "n",
+          "value": "0.4444444444444444",
+          "raw_value": "0.4444444444444444",
+          "formula": "B6/C6",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H6",
+          "type": "str",
+          "value": "Commensurate: common refinement=108, exactly the nakshatra-pada count.",
+          "raw_value": "Commensurate: common refinement=108, exactly the nakshatra-pada count.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "ref": "A7",
+          "type": "str",
+          "value": "36 vs 72",
+          "raw_value": "36 vs 72",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B7",
+          "type": "n",
+          "value": "36",
+          "raw_value": "36",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C7",
+          "type": "n",
+          "value": "72",
+          "raw_value": "72",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D7",
+          "type": "n",
+          "value": "36",
+          "raw_value": "36",
+          "formula": "GCD(B7,C7)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E7",
+          "type": "n",
+          "value": "72",
+          "raw_value": "72",
+          "formula": "LCM(B7,C7)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F7",
+          "type": "n",
+          "value": "36",
+          "raw_value": "36",
+          "formula": "D7",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G7",
+          "type": "n",
+          "value": "0.5",
+          "raw_value": "0.5",
+          "formula": "B7/C7",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H7",
+          "type": "str",
+          "value": "Nested: every decan splits exactly into two 5° gates.",
+          "raw_value": "Nested: every decan splits exactly into two 5° gates.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "ref": "A8",
+          "type": "str",
+          "value": "7 vs 13",
+          "raw_value": "7 vs 13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B8",
+          "type": "n",
+          "value": "7",
+          "raw_value": "7",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C8",
+          "type": "n",
+          "value": "13",
+          "raw_value": "13",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D8",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "GCD(B8,C8)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E8",
+          "type": "n",
+          "value": "91",
+          "raw_value": "91",
+          "formula": "LCM(B8,C8)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F8",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "D8",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G8",
+          "type": "n",
+          "value": "0.5384615384615384",
+          "raw_value": "0.5384615384615384",
+          "formula": "B8/C8",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H8",
+          "type": "str",
+          "value": "Coprime and product=91. Arithmetic fact only unless a source supplies a 7×13 relation.",
+          "raw_value": "Coprime and product=91. Arithmetic fact only unless a source supplies a 7×13 relation.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "cells": [
+        {
+          "ref": "A9",
+          "type": "str",
+          "value": "30 vs 91",
+          "raw_value": "30 vs 91",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B9",
+          "type": "n",
+          "value": "30",
+          "raw_value": "30",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C9",
+          "type": "n",
+          "value": "91",
+          "raw_value": "91",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D9",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "GCD(B9,C9)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E9",
+          "type": "n",
+          "value": "2730",
+          "raw_value": "2730",
+          "formula": "LCM(B9,C9)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F9",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "D9",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G9",
+          "type": "n",
+          "value": "0.32967032967032966",
+          "raw_value": "0.32967032967032966",
+          "formula": "B9/C9",
+          "formula_attributes": {},
+          "style": "731"
+        },
+        {
+          "ref": "H9",
+          "type": "str",
+          "value": "Coprime counts; Enochian 30 Aethyrs and 91 Parts are related by irregular 3/4 grouping, not equal-sector arithmetic.",
+          "raw_value": "Coprime counts; Enochian 30 Aethyrs and 91 Parts are related by irregular 3/4 grouping, not equal-sector arithmetic.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    }
+  ],
+  "row_count": 9,
+  "cell_count": 72,
+  "source_id": "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55",
+  "source_sha256": "be4df4a51a307c7c605a86f28f0fcabb8ee2b503702854630ca961abca431059",
+  "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\Generative_Ontology_Stack_v0.21_Twelve_Thirteen_216_Lattice.xlsx",
+  "semantics": "Literal native workbook witness. Existing statuses/formulas are retained, not executed or independently validated.",
+  "occurrences": [
+    {
+      "source_id": "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55",
+      "source_sha256": "be4df4a51a307c7c605a86f28f0fcabb8ee2b503702854630ca961abca431059",
+      "workbook": "Generative_Ontology_Stack_v0.21_Twelve_Thirteen_216_Lattice.xlsx",
+      "sheet": "Prime_Friction_Math",
+      "part": "xl/worksheets/sheet173.xml",
+      "alias_source_ids": [
+        "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55"
+      ]
+    },
+    {
+      "source_id": "ed82564e407c444953f4245d51e6a674cb206bfab6cbf2c8bcdbe90a680f64bb",
+      "source_sha256": "3bc22d2d3a61af9b2a08d5bc7bd37df7205aea232ab8cfffd44ad709585ed02f",
+      "workbook": "Generative_Ontology_Stack_v0.22_Twelve_4x3_Differential.xlsx",
+      "sheet": "Prime_Friction_Math",
+      "part": "xl/worksheets/sheet173.xml",
+      "alias_source_ids": [
+        "ed82564e407c444953f4245d51e6a674cb206bfab6cbf2c8bcdbe90a680f64bb"
+      ]
+    },
+    {
+      "source_id": "607db8772e81c18dada3de76faeb72f660f76e5bc7a23c815fab8e4a99e2d0d8",
+      "source_sha256": "f8d61cbf9c022521c1f445b9601862f44cf8a86fdcdc5c9aee71c0a1dc8865bf",
+      "workbook": "Generative_Ontology_Stack_v0.23_12x4x3_Null216.xlsx",
+      "sheet": "Prime_Friction_Math",
+      "part": "xl/worksheets/sheet173.xml",
+      "alias_source_ids": [
+        "607db8772e81c18dada3de76faeb72f660f76e5bc7a23c815fab8e4a99e2d0d8"
+      ]
+    },
+    {
+      "source_id": "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b",
+      "source_sha256": "7c45535f0d461eebbf2371dffef3039763b7045c1f2337e15654a3dce5c0a416",
+      "workbook": "Generative_Ontology_Stack_v0.30_China_Vedic_Fludd_Music.xlsx",
+      "sheet": "Prime_Friction_Math",
+      "part": "xl/worksheets/sheet173.xml",
+      "alias_source_ids": [
+        "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b"
+      ]
+    },
+    {
+      "source_id": "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897",
+      "source_sha256": "d99ab5b9d32a15f15fa30c82497fef060e4e8ab4abd57d919ef2f3f8a1dcc517",
+      "workbook": "Generative_Ontology_Stack_v0.44_Lineage_KeySchedule_72_RuddTest.xlsx",
+      "sheet": "Prime_Friction_Math",
+      "part": "xl/worksheets/sheet173.xml",
+      "alias_source_ids": [
+        "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897"
+      ]
+    }
+  ]
+}

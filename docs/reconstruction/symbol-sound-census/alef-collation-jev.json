@@ -1,0 +1,42 @@
+{
+  "request": {
+    "questions": {
+      "next": {
+        "criteria": {
+          "repeat": "Repeat the Sinai endpoint pitch measurement.",
+          "collate": "Check all four reported marked medial aleph passages plus Ruth variants against a single pinned attributed electronic witness, accounting for ketiv/qere."
+        },
+        "type": "choice",
+        "instructions": "Choose the most discriminating available immediate G16 work"
+      }
+    },
+    "state": "Arad and Elephantine written tokens register initial aleph, no phones. Tiberian written evidence includes four specially marked medial alephs and Ruth L variants. Only Genesis 43:26 electronic edition collation exists in census. Cambridge ayin review concurrent."
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "707c2904d0eff0adf36368a2b059a73040e41af23b203c19582e2086666c0cf0",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next": {
+        "type": "choice",
+        "probabilities": {
+          "collate": 0.99,
+          "repeat": 0.01
+        },
+        "winner": "collate",
+        "top_probability": 0.99,
+        "margin": 0.98
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 401,
+      "output_tokens": 33
+    },
+    "network_calls": 1,
+    "latency_ms": 227
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:58:27.608289+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "b1bd74044d948d77941db83f357a4f84ff0b899c8bbabf0966022e7a6c0f0e82"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "1df9149c-8163-5f5d-b17f-15bd252e3dd9",
+      "source_identity_sha256": "35452990524ae36947cba875a8d4edcb82b2a29108cfe9d058529483ccd158cc",
+      "source_version_id": "5ad09e08-8489-54fe-9303-b46e0e2c86cb",
+      "version_number": 1,
+      "content": "I’m treating the next pass as a **dynamic residual test**, not another number match: does the fifth-generated Chinese pitch order encode a genuinely special role for Earth/center/mediation, and do **Fludd** and **Kepler** independently help us distinguish “generator,” “center,” “harmonic mediator,” and “scale transition”?",
+      "content_sha256": "8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39",
+      "content_length": 323,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "8a6cd786a8738e22acd90ce21010de248d19cea6662959a5c5e1971d902b16e7"
+    },
+    "chunks": [
+      {
+        "id": "f3ff186e-ea67-573a-ade4-3cd7a6f0ec26",
+        "source_node_hash": "8a6cd786a8738e22acd90ce21010de248d19cea6662959a5c5e1971d902b16e7",
+        "source_id": "1df9149c-8163-5f5d-b17f-15bd252e3dd9",
+        "source_version_id": "5ad09e08-8489-54fe-9303-b46e0e2c86cb",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 323,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "I’m treating the next pass as a **dynamic residual test**, not another number match: does the fifth-generated Chinese pitch order encode a genuinely special role for Earth/center/mediation, and do **Fludd** and **Kepler** independently help us distinguish “generator,” “center,” “harmonic mediator,” and “scale transition”?",
+        "content_sha256": "8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39",
+        "node_hash": "46b66200b418ed6a82e4a3fe030955aa8dd64a8ca1ef677de6a9c293062f0048"
+      }
+    ],
+    "citations": [
+      {
+        "id": "716b8254-c589-5ad0-90e5-4cb0963f3864",
+        "source_node_hash": "8a6cd786a8738e22acd90ce21010de248d19cea6662959a5c5e1971d902b16e7",
+        "chunk_node_hashes": [
+          "46b66200b418ed6a82e4a3fe030955aa8dd64a8ca1ef677de6a9c293062f0048"
+        ],
+        "source_id": "1df9149c-8163-5f5d-b17f-15bd252e3dd9",
+        "source_version_id": "5ad09e08-8489-54fe-9303-b46e0e2c86cb",
+        "start_offset": 0,
+        "end_offset": 323,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "I’m treating the next pass as a **dynamic residual test**, not another number match: does the fifth-generated Chinese pitch order encode a genuinely special role for Earth/center/mediation, and do **Fludd** and **Kepler** independently help us distinguish “generator,” “center,” “harmonic mediator,” and “scale transition”?",
+        "quote_sha256": "8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39",
+        "node_hash": "c31ed214dac86fe81dc2752077ffb999ef59f1b1b26741523c84279655fd4c26"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "8a6cd786a8738e22acd90ce21010de248d19cea6662959a5c5e1971d902b16e7",
+        "46b66200b418ed6a82e4a3fe030955aa8dd64a8ca1ef677de6a9c293062f0048",
+        "c31ed214dac86fe81dc2752077ffb999ef59f1b1b26741523c84279655fd4c26"
+      ],
+      "node_hash": "725289c45934afa2ac4c01142294a427c1ff334e92f8557d531f50e6b8e58602"
+    },
+    "artifact": {
+      "id": "ca23b744-dd8e-5e13-8fa0-dc503546b400",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39/text.txt; original SHA256 8d990da7a3046146e1dd0a984e2d8e761a0cae7c6a410618239b4940faeb8e39; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "725289c45934afa2ac4c01142294a427c1ff334e92f8557d531f50e6b8e58602",
+      "citation_node_hashes": [
+        "c31ed214dac86fe81dc2752077ffb999ef59f1b1b26741523c84279655fd4c26"
+      ],
+      "node_hash": "81a1bd1cbcd9d722037810dc56f4a6a4f797422536449cea3ceaec940cba7684"
+    },
+    "review": {
+      "artifact_node_hash": "81a1bd1cbcd9d722037810dc56f4a6a4f797422536449cea3ceaec940cba7684",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:58:27.608289+00:00",
+      "updated_at": "2026-11-02T01:58:27.608289+00:00",
+      "node_hash": "67f0cfdfda69b2909fd5c3ec8da140b6c92379f77059855174ed058c80254432"
+    }
+  }
+}

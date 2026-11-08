@@ -1,0 +1,30 @@
+{
+  "exit_code": 0,
+  "result": {
+    "valid": true,
+    "record_count": 4,
+    "provenance_counts": {
+      "RESEARCH_SUPPORTED_INFERENCE": 4
+    },
+    "direct_human_participant_count": 0,
+    "repeated_source_refs": {
+      "operational-constraint.json": 2
+    },
+    "errors": [],
+    "warnings": [
+      {
+        "record": "set",
+        "code": "SOURCE_INDEPENDENCE",
+        "message": "Repeated source references do not create independent corroboration: operational-constraint.json"
+      }
+    ],
+    "evidence_debt": [
+      {
+        "type": "EVIDENCE_DEBT",
+        "claim": "No direct human evidence is present",
+        "mitigation": "Use a Reality Check or appropriately scoped human inquiry when behavior materially affects the decision."
+      }
+    ],
+    "firewall": "PASS"
+  }
+}

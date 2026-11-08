@@ -1,0 +1,795 @@
+{
+  "sheet": "Mapping_Transforms",
+  "part": "xl/worksheets/sheet62.xml",
+  "content_sha256": "f69d10190aec4b773ee08fa0a0f6afe76781420d599d24f7e8b485785abb1474",
+  "rows": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "ref": "A1",
+          "type": "str",
+          "value": "Transform_ID",
+          "raw_value": "Transform_ID",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        },
+        {
+          "ref": "B1",
+          "type": "str",
+          "value": "Mapping_Context",
+          "raw_value": "Mapping_Context",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        },
+        {
+          "ref": "C1",
+          "type": "str",
+          "value": "Transform_Family",
+          "raw_value": "Transform_Family",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        },
+        {
+          "ref": "D1",
+          "type": "str",
+          "value": "Transform_Space",
+          "raw_value": "Transform_Space",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        },
+        {
+          "ref": "E1",
+          "type": "str",
+          "value": "Degrees_of_Freedom",
+          "raw_value": "Degrees_of_Freedom",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        },
+        {
+          "ref": "F1",
+          "type": "str",
+          "value": "Selected_After_Seeing_Result",
+          "raw_value": "Selected_After_Seeing_Result",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        },
+        {
+          "ref": "G1",
+          "type": "str",
+          "value": "Notes",
+          "raw_value": "Notes",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "90"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "ref": "A2",
+          "type": "str",
+          "value": "MT-001",
+          "raw_value": "MT-001",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B2",
+          "type": "str",
+          "value": "12-cycle alignment",
+          "raw_value": "12-cycle alignment",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C2",
+          "type": "str",
+          "value": "Dihedral transforms",
+          "raw_value": "Dihedral transforms",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D2",
+          "type": "str",
+          "value": "12 rotations × 2 orientations",
+          "raw_value": "12 rotations × 2 orientations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E2",
+          "type": "n",
+          "value": "24",
+          "raw_value": "24",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "F2",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G2",
+          "type": "str",
+          "value": "Rotation/reflection freedom must be counted before reporting best fit.",
+          "raw_value": "Rotation/reflection freedom must be counted before reporting best fit.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "ref": "A3",
+          "type": "str",
+          "value": "MT-002",
+          "raw_value": "MT-002",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B3",
+          "type": "str",
+          "value": "Sethian 4×3 restricted shared-position model",
+          "raw_value": "Sethian 4×3 restricted shared-position model",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C3",
+          "type": "str",
+          "value": "Luminary-to-element × one shared child-position permutation",
+          "raw_value": "Luminary-to-element × one shared child-position permutation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D3",
+          "type": "str",
+          "value": "4! × 3!",
+          "raw_value": "4! × 3!",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E3",
+          "type": "n",
+          "value": "144",
+          "raw_value": "144",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "F3",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G3",
+          "type": "str",
+          "value": "Restricted model only. It assumes child position 1/2/3 has the same source-grounded meaning across all four luminaries. Unrestricted group-preserving space is MT-005 = 31,104.",
+          "raw_value": "Restricted model only. It assumes child position 1/2/3 has the same source-grounded meaning across all four luminaries. Unrestricted group-preserving space is MT-005 = 31,104.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "ref": "A4",
+          "type": "str",
+          "value": "MT-003",
+          "raw_value": "MT-003",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B4",
+          "type": "str",
+          "value": "Pitch-class origin",
+          "raw_value": "Pitch-class origin",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C4",
+          "type": "str",
+          "value": "Cyclic rotation",
+          "raw_value": "Cyclic rotation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D4",
+          "type": "str",
+          "value": "12 possible origins",
+          "raw_value": "12 possible origins",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E4",
+          "type": "n",
+          "value": "12",
+          "raw_value": "12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "F4",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G4",
+          "type": "str",
+          "value": "C=0 is bookkeeping only until external evidence anchors orientation.",
+          "raw_value": "C=0 is bookkeeping only until external evidence anchors orientation.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "ref": "A5",
+          "type": "str",
+          "value": "MT-004",
+          "raw_value": "MT-004",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B5",
+          "type": "str",
+          "value": "Post-hoc mapping audit",
+          "raw_value": "Post-hoc mapping audit",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C5",
+          "type": "str",
+          "value": "Any correspondence",
+          "raw_value": "Any correspondence",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D5",
+          "type": "str",
+          "value": "Record every transform tried",
+          "raw_value": "Record every transform tried",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E5",
+          "type": "str",
+          "value": "Variable",
+          "raw_value": "Variable",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "F5",
+          "type": "str",
+          "value": "Required",
+          "raw_value": "Required",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G5",
+          "type": "str",
+          "value": "Was_Selected_After_Seeing_Result must be Yes when applicable.",
+          "raw_value": "Was_Selected_After_Seeing_Result must be Yes when applicable.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "ref": "A6",
+          "type": "str",
+          "value": "MT-005",
+          "raw_value": "MT-005",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B6",
+          "type": "str",
+          "value": "Sethian S3 → four augmented-triad cosets",
+          "raw_value": "Sethian S3 → four augmented-triad cosets",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C6",
+          "type": "str",
+          "value": "Group-preserving arbitrary bijection",
+          "raw_value": "Group-preserving arbitrary bijection",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D6",
+          "type": "str",
+          "value": "4! group assignments × (3!)^4 within-group assignments",
+          "raw_value": "4! group assignments × (3!)^4 within-group assignments",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E6",
+          "type": "n",
+          "value": "31104",
+          "raw_value": "31104",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "F6",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "G6",
+          "type": "str",
+          "value": "Raw mapping count when only source-real luminary membership is preserved. This replaces the overly restrictive 144-count assumption for unrestricted fitting.",
+          "raw_value": "Raw mapping count when only source-real luminary membership is preserved. This replaces the overly restrictive 144-count assumption for unrestricted fitting.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "ref": "A7",
+          "type": "str",
+          "value": "MT-006",
+          "raw_value": "MT-006",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B7",
+          "type": "str",
+          "value": "Sethian S3 restricted shared-position model",
+          "raw_value": "Sethian S3 restricted shared-position model",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C7",
+          "type": "str",
+          "value": "Luminary-to-coset × one shared child-position permutation",
+          "raw_value": "Luminary-to-coset × one shared child-position permutation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D7",
+          "type": "str",
+          "value": "4! × 3!",
+          "raw_value": "4! × 3!",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E7",
+          "type": "n",
+          "value": "144",
+          "raw_value": "144",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "F7",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "G7",
+          "type": "str",
+          "value": "Allowed only if an independent source/trait argument establishes that 'position 1/2/3' has the same relational meaning across all four luminaries.",
+          "raw_value": "Allowed only if an independent source/trait argument establishes that 'position 1/2/3' has the same relational meaning across all four luminaries.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "ref": "A8",
+          "type": "str",
+          "value": "MT-007",
+          "raw_value": "MT-007",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B8",
+          "type": "str",
+          "value": "Valentinian Dodecad → six tritone axes",
+          "raw_value": "Valentinian Dodecad → six tritone axes",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C8",
+          "type": "str",
+          "value": "Pair-preserving arbitrary bijection",
+          "raw_value": "Pair-preserving arbitrary bijection",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D8",
+          "type": "str",
+          "value": "6! syzygy-to-axis assignments × 2^6 within-pair flips",
+          "raw_value": "6! syzygy-to-axis assignments × 2^6 within-pair flips",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E8",
+          "type": "n",
+          "value": "46080",
+          "raw_value": "46080",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "F8",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "G8",
+          "type": "str",
+          "value": "Raw mapping freedom before quotienting global Z12 symmetries.",
+          "raw_value": "Raw mapping freedom before quotienting global Z12 symmetries.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "cells": [
+        {
+          "ref": "A9",
+          "type": "str",
+          "value": "MT-008",
+          "raw_value": "MT-008",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B9",
+          "type": "str",
+          "value": "Sethian 7+5 → diatonic/chromatic split",
+          "raw_value": "Sethian 7+5 → diatonic/chromatic split",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C9",
+          "type": "str",
+          "value": "Set selection + member permutations",
+          "raw_value": "Set selection + member permutations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D9",
+          "type": "str",
+          "value": "12 transposed diatonic sets × 7! × 5!",
+          "raw_value": "12 transposed diatonic sets × 7! × 5!",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E9",
+          "type": "n",
+          "value": "7257600",
+          "raw_value": "7257600",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "F9",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "G9",
+          "type": "str",
+          "value": "Too much freedom to orient notes by itself; must be a secondary constraint after a diatonic frame is fixed elsewhere.",
+          "raw_value": "Too much freedom to orient notes by itself; must be a secondary constraint after a diatonic frame is fixed elsewhere.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "cells": [
+        {
+          "ref": "A10",
+          "type": "str",
+          "value": "MT-009",
+          "raw_value": "MT-009",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B10",
+          "type": "str",
+          "value": "Native Z12 topology orientation",
+          "raw_value": "Native Z12 topology orientation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C10",
+          "type": "str",
+          "value": "Dihedral note-name transform",
+          "raw_value": "Dihedral note-name transform",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D10",
+          "type": "str",
+          "value": "12 rotations × 2 reflections",
+          "raw_value": "12 rotations × 2 reflections",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E10",
+          "type": "n",
+          "value": "24",
+          "raw_value": "24",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "F10",
+          "type": "str",
+          "value": "No",
+          "raw_value": "No",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "G10",
+          "type": "str",
+          "value": "Applies to Mesopotamian/Zodiac structures whose cyclic order and partition membership are already native; changes labels, not topology.",
+          "raw_value": "Applies to Mesopotamian/Zodiac structures whose cyclic order and partition membership are already native; changes labels, not topology.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    }
+  ],
+  "row_count": 10,
+  "cell_count": 70,
+  "source_id": "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67",
+  "source_sha256": "84c78732a98e84cb134fa5a27c48d40d4bedb0bedf16689a126ef7883dc3eade",
+  "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\DEEP_INVENTORY\\Generative_Ontology_Stack_v0.14_Gnostic_Deep_Dive_Expansion_Queue.xlsx",
+  "semantics": "Literal native workbook witness. Existing statuses/formulas are retained, not executed or independently validated.",
+  "occurrences": [
+    {
+      "source_id": "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67",
+      "source_sha256": "84c78732a98e84cb134fa5a27c48d40d4bedb0bedf16689a126ef7883dc3eade",
+      "workbook": "Generative_Ontology_Stack_v0.14_Gnostic_Deep_Dive_Expansion_Queue.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67"
+      ]
+    },
+    {
+      "source_id": "939b69358e6e88759b5684e23baa54859efb294d0bd1e0c9285d327e43bb0203",
+      "source_sha256": "c11cdda450b411fd1d3a7d34b9662c4d381e79c480747c5cd60bfa12a6f95205",
+      "workbook": "Generative_Ontology_Stack_v0.17_Welsh_Celtic_PreSefer.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "939b69358e6e88759b5684e23baa54859efb294d0bd1e0c9285d327e43bb0203"
+      ]
+    },
+    {
+      "source_id": "f90337940e9491da589cc5cec70b13d429123ebc11a13c3f72f75aca55f8613d",
+      "source_sha256": "dfbde4e9159df11f835582d5446048d8efbfcdaa8219e041aaa6d1f332fe0bd0",
+      "workbook": "Generative_Ontology_Stack_v0.18_Sefer_Yetzirah_Test.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "f90337940e9491da589cc5cec70b13d429123ebc11a13c3f72f75aca55f8613d"
+      ]
+    },
+    {
+      "source_id": "795f236cf421141d94bc95e4b356cc2763026cd483544a86fd34e0004772c944",
+      "source_sha256": "9562bbd1146fe3e1d1b000a273a26e335a963c88ff77dd421315ddae8eed3852",
+      "workbook": "Generative_Ontology_Stack_v0.19_PreKabbalah_DSS_Layer_Diff.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "795f236cf421141d94bc95e4b356cc2763026cd483544a86fd34e0004772c944"
+      ]
+    },
+    {
+      "source_id": "97fd84dae562ce987f9280cdb7d6fbd383a16d5c8acfdef396987f6c83f3b9de",
+      "source_sha256": "577e51fdce834d5758b09e20c2eb68b442347190d5531c5090c055a9cf645d6b",
+      "workbook": "Generative_Ontology_Stack_v0.20_SeventyTwo_Variable_Sets.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "97fd84dae562ce987f9280cdb7d6fbd383a16d5c8acfdef396987f6c83f3b9de"
+      ]
+    },
+    {
+      "source_id": "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55",
+      "source_sha256": "be4df4a51a307c7c605a86f28f0fcabb8ee2b503702854630ca961abca431059",
+      "workbook": "Generative_Ontology_Stack_v0.21_Twelve_Thirteen_216_Lattice.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55"
+      ]
+    },
+    {
+      "source_id": "ed82564e407c444953f4245d51e6a674cb206bfab6cbf2c8bcdbe90a680f64bb",
+      "source_sha256": "3bc22d2d3a61af9b2a08d5bc7bd37df7205aea232ab8cfffd44ad709585ed02f",
+      "workbook": "Generative_Ontology_Stack_v0.22_Twelve_4x3_Differential.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "ed82564e407c444953f4245d51e6a674cb206bfab6cbf2c8bcdbe90a680f64bb"
+      ]
+    },
+    {
+      "source_id": "607db8772e81c18dada3de76faeb72f660f76e5bc7a23c815fab8e4a99e2d0d8",
+      "source_sha256": "f8d61cbf9c022521c1f445b9601862f44cf8a86fdcdc5c9aee71c0a1dc8865bf",
+      "workbook": "Generative_Ontology_Stack_v0.23_12x4x3_Null216.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "607db8772e81c18dada3de76faeb72f660f76e5bc7a23c815fab8e4a99e2d0d8"
+      ]
+    },
+    {
+      "source_id": "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b",
+      "source_sha256": "7c45535f0d461eebbf2371dffef3039763b7045c1f2337e15654a3dce5c0a416",
+      "workbook": "Generative_Ontology_Stack_v0.30_China_Vedic_Fludd_Music.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b"
+      ]
+    },
+    {
+      "source_id": "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897",
+      "source_sha256": "d99ab5b9d32a15f15fa30c82497fef060e4e8ab4abd57d919ef2f3f8a1dcc517",
+      "workbook": "Generative_Ontology_Stack_v0.44_Lineage_KeySchedule_72_RuddTest.xlsx",
+      "sheet": "Mapping_Transforms",
+      "part": "xl/worksheets/sheet62.xml",
+      "alias_source_ids": [
+        "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897"
+      ]
+    }
+  ]
+}

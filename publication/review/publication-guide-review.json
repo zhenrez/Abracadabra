@@ -1,0 +1,32 @@
+{
+  "schema": "sun.publication-guide-review.v1",
+  "reviewer": "Independent child /root/change_review",
+  "verdict": "APPROVED_BOUNDED_CLAIMS_PENDING_ASSEMBLED_EXPORT_VALIDATION",
+  "reviewed_templates": ["public/README.md", "public/PUBLICATION.md"],
+  "existing_files_changed": false,
+  "git_operations_performed": false,
+  "projected_markdown_local_links": {"count":10,"existing_in_include_inventory":9,"new_root_publication_template":1},
+  "fresh_portable_receipt_directly_inspected": {
+    "path": "portable-check.json",
+    "status": "PASSED",
+    "canonical_payloads":5,
+    "canonical_arrays":7,
+    "shape":[15,36,20],
+    "logical_sidecar_equal":true,
+    "original_rows":106,
+    "unverified_references":0,
+    "original_host_proof_reexecuted":false
+  },
+  "native_command_review": [
+    {"command":"python -B -m unittest discover -s work/unit001 -p test_g0.py -v","methods_inspected":20,"dependencies":"Python standard library"},
+    {"command":"python -B -m unittest discover -s work/unit001 -p test_g1.py -v","methods_inspected":14,"dependencies":"NumPy2.2.5, SciPy1.16.3, NetworkX3.6"},
+    {"command":"python -B -m unittest discover -s work/unit001/frozen/sefer -p test_harmonic_verifier.py -v","methods_inspected":6,"dependencies":"NumPy2.2.5, SciPy1.16.3, NetworkX3.6"}
+  ],
+  "selected_native_required_files_in_inventory":10,
+  "absolute_host_dependency_found_in_selected_native_tests":false,
+  "native_tests_rerun_by_this_document_review":false,
+  "parent_observed_portable_tests":"10PASS; real repository CLI PASS; clean validation environment pip check exit0",
+  "small_additions_recommended":["Document portable exit0/1/2 meanings","Include optional native commands and NetworkX3.6 dependency"],
+  "remaining_checks":["Copy root PUBLICATION.md and publication/history records","Check assembled-export links","Run selected native commands on relocated export","Media, rights and protected-information preflight","Authorized remote publication and readback"],
+  "scientific_completion":false
+}

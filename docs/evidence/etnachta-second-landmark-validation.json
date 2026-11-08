@@ -1,0 +1,117 @@
+{
+  "schema": "sunny.etnachta-second-landmark-validation.v1",
+  "createdUtc": "2026-11-03T04:14:44.597714+00:00",
+  "status": "passed",
+  "exitCode": 0,
+  "checksPassed": 22,
+  "checks": [
+    {
+      "name": "Fresh primary source retrieval: https://cybermitzvah.sinaitemple.org/wp-content/uploads/2018/10/1-Etnachta-Phrases.pdf",
+      "status": "passed"
+    },
+    {
+      "name": "Primary source exact bytes: docs/evidence/etnachta-landmark-sources/torah-sheet.pdf",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh primary source retrieval: https://cybermitzvah.sinaitemple.org/wp-content/uploads/2018/10/1-Etnachta-Phrases-1.pdf",
+      "status": "passed"
+    },
+    {
+      "name": "Primary source exact bytes: docs/evidence/etnachta-landmark-sources/haftarah-sheet.pdf",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh primary source retrieval: https://cybermitzvah.sinaitemple.org/prayers-services-trope/bnai-mitzvah-prep/etnachta-phrases/",
+      "status": "passed"
+    },
+    {
+      "name": "Primary source exact bytes: docs/evidence/etnachta-landmark-sources/torah-publisher.html",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh primary source retrieval: https://cybermitzvah.sinaitemple.org/prayers-services-trope/bnai-mitzvah-prep/haftarah-etnachta-phrases/",
+      "status": "passed"
+    },
+    {
+      "name": "Primary source exact bytes: docs/evidence/etnachta-landmark-sources/haftarah-publisher.html",
+      "status": "passed"
+    },
+    {
+      "name": "Two PDF URLs have one byte content",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh notation matches preexisting source hash",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved visual review image exact hash",
+      "status": "passed"
+    },
+    {
+      "name": "Publisher page contains matching context-specific recording: torah",
+      "status": "passed"
+    },
+    {
+      "name": "Publisher page contains matching context-specific recording: haftarah",
+      "status": "passed"
+    },
+    {
+      "name": "Four numbered source rows",
+      "status": "passed"
+    },
+    {
+      "name": "Twelve named events in one distinct notation content",
+      "status": "passed"
+    },
+    {
+      "name": "Each source row has one Tipcha preceding terminal Etnachta",
+      "status": "passed"
+    },
+    {
+      "name": "Row4 isolates the two named structural landmarks",
+      "status": "passed"
+    },
+    {
+      "name": "Actual resolved Jev model",
+      "status": "passed"
+    },
+    {
+      "name": "Full Jev alternatives and probability normalization",
+      "status": "passed"
+    },
+    {
+      "name": "Executed action follows actual Jev selection",
+      "status": "passed"
+    },
+    {
+      "name": "No invented second acoustic measurement",
+      "status": "passed"
+    },
+    {
+      "name": "Existing rounded endpoint pair fits exactly one positive scale; no second constraint introduced",
+      "status": "passed"
+    }
+  ],
+  "bindings": {
+    "docs/evidence/etnachta-second-landmark-review.json": "8278e3ce697f3765e7ec08910e48101f9ae2c0c67e46224d5721f6ac1e1bb468",
+    "docs/evidence/etnachta-second-landmark-jev-request.json": "734f524aa2112f3b1e7dd7136ac090be7d49bbe22a2e98eb054826c568a5744c",
+    "docs/evidence/etnachta-second-landmark-superjev.json": "c980ed1077547657c3ae88ec03f8065a563717a50211fed50300eba0bab1a8e7",
+    "docs/evidence/etnachta-second-landmark-supermemory.json": "a6705fc0ee8d966b7db162a3d978b01022cfa1b87ca8873e25e36a8b506f485b",
+    "docs/evidence/etnachta-landmark-retrieval.json": "3c4545e64f2ddffeffde551a3d60f4a3deace1c6a2433d5a109574cb43891bab",
+    "docs/evidence/etnachta-paired-notation.json": "89612f9b9f11ee48b0218bb55cadc68c3fa0b0b312d03a821bf01a45abad928b",
+    "docs/evidence/etnachta-paired-performance.json": "1f1a9195715098c55fd2635235723d6d97ab6c646900dc12c9d9532b9098d1ef",
+    "docs/evidence/etnachta-phrase-segmentation.json": "98fee4e8de89ab78fffe05ddee47c26933f05bd510f372cf1cfb53dc2ac6a9a8",
+    "docs/evidence/etnachta-terminal-periodicity.json": "bc5d4fedf881f7f64cc23eebaa06cd97ff7ec4a71f1c3a47713a6c4a271e4a5d",
+    "docs/evidence/etnachta-transposition-test.json": "5f1e2b780e8c8b43c0391615a085f510e0b7f2065123bb6c928adc66d3dbec4f"
+  },
+  "notVerified": [
+    "No independent listening/transcription or timed syllable alignment.",
+    "No new f0 estimates, octave confirmation or acoustic uncertainty bounds.",
+    "No historical ancient pronunciation/intention or uniform-transposition verdict.",
+    "Source-grounded structural candidate is not an independent performer or tradition."
+  ],
+  "persistentProcessesStarted": 0,
+  "protectedCodexPathWrites": 0
+}

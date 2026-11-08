@@ -1,0 +1,55 @@
+test_builder_preserves_original_source_bytes (test_dashboard.DashboardTests.test_builder_preserves_original_source_bytes) ... FAIL
+test_count_mismatch_is_rejected (test_dashboard.DashboardTests.test_count_mismatch_is_rejected) ... FAIL
+test_every_requested_surface_is_available (test_dashboard.DashboardTests.test_every_requested_surface_is_available) ... FAIL
+test_exact_payload_roundtrip_and_script_escaping (test_dashboard.DashboardTests.test_exact_payload_roundtrip_and_script_escaping) ... FAIL
+test_missing_data_is_explicit_without_invented_counts (test_dashboard.DashboardTests.test_missing_data_is_explicit_without_invented_counts) ... FAIL
+
+======================================================================
+FAIL: test_builder_preserves_original_source_bytes (test_dashboard.DashboardTests.test_builder_preserves_original_source_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\dashboard\test_dashboard.py", line 8, in setUp
+    self.assertTrue((ROOT/'build_dashboard.py').exists(),'Source-preserving dashboard builder is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Source-preserving dashboard builder is absent
+
+======================================================================
+FAIL: test_count_mismatch_is_rejected (test_dashboard.DashboardTests.test_count_mismatch_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\dashboard\test_dashboard.py", line 8, in setUp
+    self.assertTrue((ROOT/'build_dashboard.py').exists(),'Source-preserving dashboard builder is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Source-preserving dashboard builder is absent
+
+======================================================================
+FAIL: test_every_requested_surface_is_available (test_dashboard.DashboardTests.test_every_requested_surface_is_available)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\dashboard\test_dashboard.py", line 8, in setUp
+    self.assertTrue((ROOT/'build_dashboard.py').exists(),'Source-preserving dashboard builder is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Source-preserving dashboard builder is absent
+
+======================================================================
+FAIL: test_exact_payload_roundtrip_and_script_escaping (test_dashboard.DashboardTests.test_exact_payload_roundtrip_and_script_escaping)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\dashboard\test_dashboard.py", line 8, in setUp
+    self.assertTrue((ROOT/'build_dashboard.py').exists(),'Source-preserving dashboard builder is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Source-preserving dashboard builder is absent
+
+======================================================================
+FAIL: test_missing_data_is_explicit_without_invented_counts (test_dashboard.DashboardTests.test_missing_data_is_explicit_without_invented_counts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\dashboard\test_dashboard.py", line 8, in setUp
+    self.assertTrue((ROOT/'build_dashboard.py').exists(),'Source-preserving dashboard builder is absent')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Source-preserving dashboard builder is absent
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)

@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Reconstruct the current research correspondence model from the preserved local corpus, preserving the user's latest corrections and open questions.",
+    "observed": "Read-only corpus: 59901 records, 1032 conversation occurrences, 2042 sources and 1934 documents. Nine targeted user-message searches yielded source pointers with exact source IDs. Recent direct user statements distinguish a current cross-system alignment-table objective, tentative transition relations, a lost-thought correction, and arithmetic false starts. Source-native lists and pasted earlier assistant proposals must remain distinct. Full originals stay local.",
+    "constraints": "Do not infer identities from shared names/counts, flatten generation into genealogy, assign unknown orientations, treat imported instructions as current instructions, or erase a user-reported discovery by relabeling everything as tentative. Keep exact excerpts, source roles, question marks, dates and source hashes. The host writes the ledger; this model choice governs output organization only.",
+    "acceptance": "A reviewable machine-readable correspondence slice plus connected readable current model, with exact evidence, explicit source-native groups, supersessions and searched coverage/gaps. Every relation must point to a source assertion or be explicitly unanswered."
+  },
+  "questions": {
+    "ledger_shape": {
+      "type": "choice",
+      "instructions": "Choose the bounded organization that most directly satisfies the requested reconstruction without inventing a domain ontology.",
+      "criteria": {
+        "atomic_relations": "Keep atomic claims and source-qualified relations, each carrying an exact excerpt and source identity; retain native grouped lists without inventing parentage, and connect them in a readable current-model narrative.",
+        "message_blocks": "Keep full source-message blocks as the primary model, attach a relation summary to each block, and connect those blocks in a readable narrative with explicit coverage gaps."
+      }
+    }
+  }
+}

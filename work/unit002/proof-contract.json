@@ -1,0 +1,81 @@
+{
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "goal": "Verify the bounded independent Western native model and preservation of accepted G0/G1 and SUN sources",
+  "acceptance": [
+    {
+      "id": "native",
+      "description": "Seven focused tests pass for exact intervals, seven modes, register, nonclosure and isolation"
+    },
+    {
+      "id": "preservation",
+      "description": "Accepted Unit001 and frozen SUN source hashes match; exact native outputs and syntax verified"
+    }
+  ],
+  "inputs": [
+    "work/unit002/western.py",
+    "work/unit002/test_western.py",
+    "work/unit002/verify_western.py",
+    "work/unit001/final-acceptance/acceptance-receipt.json",
+    "work/unit001/source-manifest.json",
+    "work/unit001/acquire_closeout.py",
+    "work/unit001/checkpoint.py",
+    "work/unit001/closeout_fixtures.py",
+    "work/unit001/contracts.py",
+    "work/unit001/evidence.py",
+    "work/unit001/final_acceptance.py",
+    "work/unit001/import_closeout_documents.py",
+    "work/unit001/kernel.py",
+    "work/unit001/reconcile_checkpoint.py",
+    "work/unit001/reconcile_current_chat.py",
+    "work/unit001/sefer.py",
+    "work/unit001/test_closeout.py",
+    "work/unit001/test_final_acceptance.py",
+    "work/unit001/test_g0.py",
+    "work/unit001/test_g1.py",
+    "work/unit001/test_kernel.py",
+    "work/unit001/verify_closeout.py",
+    "work/unit001/verify_reconciliation.py",
+    "src\\algebraic-scalar.ts",
+    "src\\comparison.ts",
+    "src\\contextual-alignment.ts",
+    "src\\geometry.ts",
+    "src\\hierarchy.ts",
+    "src\\law.ts",
+    "src\\native-operators.ts",
+    "src\\prediction.ts",
+    "src\\score.ts",
+    "src\\server.ts",
+    "src\\worker.ts"
+  ],
+  "checks": [
+    {
+      "id": "western-tests",
+      "criteria": [
+        "native"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work/unit002",
+        "-p",
+        "test_western.py",
+        "-v"
+      ]
+    },
+    {
+      "id": "preservation",
+      "criteria": [
+        "preservation"
+      ],
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "work/unit002/verify_western.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:58:26.540386+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "0219021f37ca4aff5a145efc7eb4ca9d365d16086b6aabdaaa8b5af9e2c0d4a2"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "8718832b-8cab-5d43-acbd-9bf9473ef9a0",
+      "source_identity_sha256": "29ef84ebbca2d7a18955311b9af52d8809054f0d3bde0c016aef8b4bc82f1540",
+      "source_version_id": "89951c0a-26a6-5f7f-ad1a-57d7310b3242",
+      "version_number": 1,
+      "content": "The Vedic moon work fits as a **different layer than China’s \\(\\mathbb Z_{12}\\) carrier** and Fludd’s vertical mediation. I’m pulling the exact 27/108 results back in so we can place it by operator type rather than just by shared numerology.",
+      "content_sha256": "8bfa353d02868e557ac8847c2f049f92ae37c585c3cd803e2c1864f94962144b",
+      "content_length": 241,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "4300a13e3d8f6d20de83a782a8e58db9a0a76e11de89b0ef86f000a03123b38c"
+    },
+    "chunks": [
+      {
+        "id": "544587a2-f4d7-50ac-bdb1-74faa07bb980",
+        "source_node_hash": "4300a13e3d8f6d20de83a782a8e58db9a0a76e11de89b0ef86f000a03123b38c",
+        "source_id": "8718832b-8cab-5d43-acbd-9bf9473ef9a0",
+        "source_version_id": "89951c0a-26a6-5f7f-ad1a-57d7310b3242",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 241,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "The Vedic moon work fits as a **different layer than China’s \\(\\mathbb Z_{12}\\) carrier** and Fludd’s vertical mediation. I’m pulling the exact 27/108 results back in so we can place it by operator type rather than just by shared numerology.",
+        "content_sha256": "8bfa353d02868e557ac8847c2f049f92ae37c585c3cd803e2c1864f94962144b",
+        "node_hash": "8c66c39ebf2c510b0df6c2b138ef1681ebe78fce2c36489d769e50e9b3ea5a96"
+      }
+    ],
+    "citations": [
+      {
+        "id": "a430dab5-15f6-530b-bc92-d393dffb7ab4",
+        "source_node_hash": "4300a13e3d8f6d20de83a782a8e58db9a0a76e11de89b0ef86f000a03123b38c",
+        "chunk_node_hashes": [
+          "8c66c39ebf2c510b0df6c2b138ef1681ebe78fce2c36489d769e50e9b3ea5a96"
+        ],
+        "source_id": "8718832b-8cab-5d43-acbd-9bf9473ef9a0",
+        "source_version_id": "89951c0a-26a6-5f7f-ad1a-57d7310b3242",
+        "start_offset": 0,
+        "end_offset": 241,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "The Vedic moon work fits as a **different layer than China’s \\(\\mathbb Z_{12}\\) carrier** and Fludd’s vertical mediation. I’m pulling the exact 27/108 results back in so we can place it by operator type rather than just by shared numerology.",
+        "quote_sha256": "8bfa353d02868e557ac8847c2f049f92ae37c585c3cd803e2c1864f94962144b",
+        "node_hash": "f011b79a2183c46b42425a73993c68bfd227ba9c4e6c8bbb9f380c849ed0cb93"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "4300a13e3d8f6d20de83a782a8e58db9a0a76e11de89b0ef86f000a03123b38c",
+        "8c66c39ebf2c510b0df6c2b138ef1681ebe78fce2c36489d769e50e9b3ea5a96",
+        "f011b79a2183c46b42425a73993c68bfd227ba9c4e6c8bbb9f380c849ed0cb93"
+      ],
+      "node_hash": "2672ff2d8cc7a50645512c89c6823ec8163859f274a4638587e494732fc1206b"
+    },
+    "artifact": {
+      "id": "bf1d92e6-4cde-5a67-9a8a-7ba60b1021ae",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/8bfa353d02868e557ac8847c2f049f92ae37c585c3cd803e2c1864f94962144b/text.txt; original SHA256 8bfa353d02868e557ac8847c2f049f92ae37c585c3cd803e2c1864f94962144b; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "2672ff2d8cc7a50645512c89c6823ec8163859f274a4638587e494732fc1206b",
+      "citation_node_hashes": [
+        "f011b79a2183c46b42425a73993c68bfd227ba9c4e6c8bbb9f380c849ed0cb93"
+      ],
+      "node_hash": "0a56c442407314cd10a3a3d1c2afeb4101775090052ddb8b2180df7a29964f0d"
+    },
+    "review": {
+      "artifact_node_hash": "0a56c442407314cd10a3a3d1c2afeb4101775090052ddb8b2180df7a29964f0d",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:58:26.540386+00:00",
+      "updated_at": "2026-11-02T01:58:26.540386+00:00",
+      "node_hash": "1771da8301f7e8b662ca95691e265b053b2e3e9fc18e929e593e59bb652ce68f"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat (tests.background_reliability_test.BackgroundReliability.test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat) ... ok
+test_expired_lease_is_explicit_and_never_renewed (tests.background_reliability_test.BackgroundReliability.test_expired_lease_is_explicit_and_never_renewed) ... ok
+test_live_readiness_timeout_does_not_reap_owned_process (tests.background_reliability_test.BackgroundReliability.test_live_readiness_timeout_does_not_reap_owned_process) ... ok
+test_new_allocation_cap_is_loaded_not_silently_defaulted (tests.background_reliability_test.BackgroundReliability.test_new_allocation_cap_is_loaded_not_silently_defaulted) ... ok
+test_touching_completed_artifact_does_not_renew_progress (tests.background_reliability_test.BackgroundReliability.test_touching_completed_artifact_does_not_renew_progress) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.461s
+
+OK

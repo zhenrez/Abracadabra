@@ -1,0 +1,64 @@
+{
+  "schema": "sunny.chinese-reactivation.checkpoint.v1",
+  "generated_utc": "2026-11-03T02:59:11.212619+00:00",
+  "question": "Which Chinese-native relationship between named pitch standards, scale roles and realization constrains a coupled-symbol sound claim?",
+  "role_reassignment": "Chinese only; previous Western work handed off, no later Western writes.",
+  "inspected_source_constraint": {
+    "id": "CHINESE-STANDARD-ROLE-REALIZATION",
+    "statement": "The inspected ZhouLi source names lü/tong, five-sheng roles and eight realization materials separately. Lam2024 formalizes pitch-standard/context and scale role as separate coordinates; fixing C=huangzhong is a model convention, not recovered ancient Hz.",
+    "source_refs": [
+      "zhouli_zhushu23:大師掌六律六同 and 皆文之以五聲/皆播之以八音",
+      "lam2024:2.1-2.2"
+    ],
+    "provenance": "AUTHORITATIVE_RESEARCH for source distinctions; transfer to SUNNY is conditional inference",
+    "scope": "Reused distinctions, no novelty claim; precise new primary-role case under inspection."
+  },
+  "reused_and_not_redone": [
+    "CHINESE-PARTITIONS-DISTINCT7/5vs6/6 already derived",
+    "Exact third-loss/gain and root-extension/comma calculations retained",
+    "Lam12x5 contexts already extracted; count is not a phonetic map"
+  ],
+  "actual_jev": {
+    "local_health": "WinError10061 connection-refused, independently checked this lane",
+    "cloud_receipt": "jev-research-order-receipt.json",
+    "model": "jev-1.14.0",
+    "selected": "role",
+    "probabilities": {
+      "role": 0.8,
+      "bell": 0.17,
+      "phonology": 0.03
+    },
+    "semantics": "Operational preference, not proof"
+  },
+  "plan": [
+    {
+      "step": "[100%] Recover native source hierarchy and prior exact results",
+      "status": "complete"
+    },
+    {
+      "step": "[30%] Inspect source-qualified role versus pitch relation and derive usable constraint",
+      "status": "in_progress"
+    },
+    {
+      "step": "[0%] Account forP0-A14, exposure, bridge holdouts and transfer limits",
+      "status": "pending"
+    },
+    {
+      "step": "[0%] Verify and deliver Chinese packet",
+      "status": "pending"
+    }
+  ],
+  "current_scope_gaps": [
+    "Historical lü-to-Hz calibration not recovered",
+    "Cross-language pronunciation and waveform adapter unknown",
+    "Received text/commentary claims require witness dates and variant handling",
+    "No heterodox M1-M12 exposure in this lane"
+  ],
+  "guardrails": [
+    "SuperJev actual cloud inference; local failure preserved",
+    "HUMMBL work-triage bounded Now/Next/readiness applied",
+    "WebResearchAssistant primary source workflow",
+    "MightShape source/inference/assumption firewall applied"
+  ],
+  "no_services_or_shared_state_changed": true
+}

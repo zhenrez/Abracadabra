@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:27.452883+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "1f4f3c39eb35e96a1b9992770721d22f0170002ab2757701968e2f6290ba7104"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "6f21bc6b-98e4-5990-af2f-89f27c3a66ca",
+      "source_identity_sha256": "626cf90dac5de8e428d7fb8ede02d54c93515ba77ae2d54edd966823ef1759eb",
+      "source_version_id": "55d1b474-4e90-52e2-b12b-772cabf6981b",
+      "version_number": 1,
+      "content": "I’m checking two things separately: **Fludd’s musical/intellectual lineage** and whether “direct apprentice to Dee” is actually supported by the record. If the Dee connection is real, it changes how much independence weight we should give Fludd in our music comparison.",
+      "content_sha256": "453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6",
+      "content_length": 269,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "a8bff3c0db6289c301e41f5b80a5b2541141a73f2f5fddad3c7dc00a6935f3b4"
+    },
+    "chunks": [
+      {
+        "id": "8a91d857-3c49-5aa0-a589-d267076026bd",
+        "source_node_hash": "a8bff3c0db6289c301e41f5b80a5b2541141a73f2f5fddad3c7dc00a6935f3b4",
+        "source_id": "6f21bc6b-98e4-5990-af2f-89f27c3a66ca",
+        "source_version_id": "55d1b474-4e90-52e2-b12b-772cabf6981b",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 269,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "I’m checking two things separately: **Fludd’s musical/intellectual lineage** and whether “direct apprentice to Dee” is actually supported by the record. If the Dee connection is real, it changes how much independence weight we should give Fludd in our music comparison.",
+        "content_sha256": "453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6",
+        "node_hash": "ff2f90cfa52bc930af890af815274a4c8ae270fde5657f46ef03e210a571624b"
+      }
+    ],
+    "citations": [
+      {
+        "id": "6259a1bd-b4f8-5a2b-a54c-a7ad05bd56da",
+        "source_node_hash": "a8bff3c0db6289c301e41f5b80a5b2541141a73f2f5fddad3c7dc00a6935f3b4",
+        "chunk_node_hashes": [
+          "ff2f90cfa52bc930af890af815274a4c8ae270fde5657f46ef03e210a571624b"
+        ],
+        "source_id": "6f21bc6b-98e4-5990-af2f-89f27c3a66ca",
+        "source_version_id": "55d1b474-4e90-52e2-b12b-772cabf6981b",
+        "start_offset": 0,
+        "end_offset": 269,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "I’m checking two things separately: **Fludd’s musical/intellectual lineage** and whether “direct apprentice to Dee” is actually supported by the record. If the Dee connection is real, it changes how much independence weight we should give Fludd in our music comparison.",
+        "quote_sha256": "453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6",
+        "node_hash": "142562646ccef7eb683eb6bfe0b4f5c16f3c97aaf630f920ae27151fe5d52147"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "a8bff3c0db6289c301e41f5b80a5b2541141a73f2f5fddad3c7dc00a6935f3b4",
+        "ff2f90cfa52bc930af890af815274a4c8ae270fde5657f46ef03e210a571624b",
+        "142562646ccef7eb683eb6bfe0b4f5c16f3c97aaf630f920ae27151fe5d52147"
+      ],
+      "node_hash": "65559a8e8de06047141597e9c04ccd58d5047221f67b70b0ab66a8972c70cb04"
+    },
+    "artifact": {
+      "id": "6fdbd435-6e54-5065-9923-231ee850ee34",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6/text.txt; original SHA256 453ec7eabc85962bfd7ebdfecf42bc99578c64a3c3c6b6a9459ed7cea6d7f4e6; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "65559a8e8de06047141597e9c04ccd58d5047221f67b70b0ab66a8972c70cb04",
+      "citation_node_hashes": [
+        "142562646ccef7eb683eb6bfe0b4f5c16f3c97aaf630f920ae27151fe5d52147"
+      ],
+      "node_hash": "208a73ef6778c0b940225727c99fac0aa82b7259ddb192970eec9240c8cce3cb"
+    },
+    "review": {
+      "artifact_node_hash": "208a73ef6778c0b940225727c99fac0aa82b7259ddb192970eec9240c8cce3cb",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:27.452883+00:00",
+      "updated_at": "2026-11-02T01:57:27.452883+00:00",
+      "node_hash": "f22ced8529dada805b65d8b0442b5bfdf2750c5262cf08e8983e0c6e0bc584be"
+    }
+  }
+}

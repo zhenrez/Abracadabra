@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-00dc7f8a5f034b43",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/00dc7f8a5f034b43de495fd2a80ee5e11923a154dc4254222179ead8c3dd731e/text.txt",
+      "sha256": "00dc7f8a5f034b43de495fd2a80ee5e11923a154dc4254222179ead8c3dd731e",
+      "start_line": 1,
+      "end_line": 4,
+      "source_role": "assistant",
+      "source_id": "48980a19eb1b3fe9ee9380b3534cceb19da2198d3e2349d1db1f7761eab0790d",
+      "message_id": "7680ac30eb6a270e1584e7719654aa11db464c31526dc5a9b1ecfcb4b2722f83",
+      "timestamp": "1730429235.200885",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "7680ac30eb6a270e1584e7719654aa11db464c31526dc5a9b1ecfcb4b2722f83",
+        "native_id": "cda2fa65-6609-464c-a880-9a175eac8f34",
+        "conversation_id": "d79d8250843e16ec3571013375b79c3928fda179e27b2c7c782f3f71ce3e3db1",
+        "role": "assistant",
+        "content_sha256": "00dc7f8a5f034b43de495fd2a80ee5e11923a154dc4254222179ead8c3dd731e",
+        "source_id": "48980a19eb1b3fe9ee9380b3534cceb19da2198d3e2349d1db1f7761eab0790d",
+        "locator": "/65/mapping/cda2fa65-6609-464c-a880-9a175eac8f34/message",
+        "create_time": "1730429235.200885",
+        "branch_status": "alternate",
+        "title": "4-Score Fitness Overview",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-002.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-002.json",
+        "source_sha256": "dce482bf36b1b9081a5ad914a7eee5b824d4faabb25a812303cb2cd585efc87f",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "dce482bf36b1b9081a5ad914a7eee5b824d4faabb25a812303cb2cd585efc87f",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/00dc7f8a5f034b43de495fd2a80ee5e11923a154dc4254222179ead8c3dd731e/occurrences-60f768c59bf82e54459c4a1a24e3b1cac4d751c68f28e03a54ad92e7d0c70839.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

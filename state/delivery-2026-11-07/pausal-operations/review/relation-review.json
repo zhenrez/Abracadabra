@@ -1,0 +1,26 @@
+{
+  "schema": "sunny.independent-reading-relation-review.v1",
+  "checkedAt": "2026-11-08T02:00:44.800356+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "datasets": 87,
+  "independentOperationComparisons": 348,
+  "failures": [],
+  "testedHashes": {
+    "source": "2adcbb267221487e5b1ab2d322d3ef73bc1ea6b8f24f9306b85a37c1554bf943",
+    "dist": "2b916898d6b6fac14beda45b0cd3faa064411ca90e2eaa3adfcbfaf1ab47fe8e"
+  },
+  "sourceStable": true,
+  "MolinAdmittedSampleJoin": {
+    "originalDistinct": 2,
+    "rejoinedDistinct": 4,
+    "excessDistinct": 2
+  },
+  "runtimeBoundaryObservations": {
+    "malformedConditionInputsAccepted": [],
+    "severity": "Runtime validation consistency; TypeScript signature already excludes these inputs, and no finite valid-input math defect was found."
+  },
+  "oracle": "Pairwise FD; exhaustive valid-subset then strict-inclusion filtering; Python unknown-preserving selection; SQLite DISTINCT projections and NATURAL JOIN with binary collation.",
+  "guardUse": "Actual Supermemory retrieval earlier in this bounded review; no new Jev call.",
+  "boundary": "Admitted finite sample only; identifiers/finite keys are not inferred historical causes or universal laws."
+}

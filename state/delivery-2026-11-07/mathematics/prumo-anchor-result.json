@@ -1,0 +1,32 @@
+{
+  "answers": {
+    "determinant": {
+      "calibrated": false,
+      "choice": "rank_deficient",
+      "evidence_basis": {
+        "computed_value": "0",
+        "expression": "1*0-0*1",
+        "kind": "arithmetic_exact",
+        "scope": "The whole supplied expression was parsed; the value follows from that expression only. Decision weights remain hand-set and uncalibrated.",
+        "source": "prumo_rules/arith.py::_eval"
+      },
+      "solver": "arithmetic_exact",
+      "status": "solved",
+      "type": "choice",
+      "weights": {
+        "independent_negative": 0.025000000000000022,
+        "independent_positive": 0.025000000000000022,
+        "rank_deficient": 0.95
+      }
+    }
+  },
+  "calibrated": false,
+  "diagnostics": [],
+  "model": "prumo-host-adapter",
+  "schema_version": 1,
+  "solvers": [
+    "arithmetic_exact"
+  ],
+  "upstream_commit": "2dad76b82793e677d2f5a9e8e5c2baff304244d6",
+  "weight_semantics": "Normalized upstream decision weights, not posterior probabilities of truth; exact paths retain upstream hand-set confidence masses."
+}

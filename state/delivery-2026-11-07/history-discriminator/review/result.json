@@ -1,0 +1,323 @@
+{
+  "schema": "sunny.independent-history-discriminator-review.v1",
+  "checkedAt": "2026-11-07T22:20:12.474855+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "inputHashes": {
+    "docs/reconstruction/symbol-sound-census/qames-topology-discrimination.json": "5935028848501a7c66fa41ec700307a9b58fdbf7c26bd20243e2eaca22c85c40",
+    "docs/reconstruction/symbol-sound-census/phyla-waves-assessment.json": "c64301e3db491f1978b490e0cfefaf7a4d6fd8ac484be58a031f79a49ff43bd3",
+    "state/reconstruction/phonological-context-constraints.json": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+    "state/delivery-2026-11-07/symbol-contact/root/howard-2026-qames.pdf": "a7d1fe74dd7025bf31fbbcaf704104df1b796e5728d4c326172507ba150c0335",
+    "state/delivery-2026-11-07/symbol-contact/root/howard-pages.json": "8703444e47873513a965426be09efb636205eb19a2bac96b7984432ed845cfb3",
+    "state/jev-receipts/000061-54b57b45fbcd.json": "670d3becc18b61f812eb640971287d377df140d4396a46294ee9994187aba0ca"
+  },
+  "jevDirection": "actual local receipt61; no new inference by reviewer",
+  "guardUse": {
+    "plugin": "Supermemory",
+    "operation": "search_memory",
+    "success": true,
+    "conversationId": "01a1b80f-2cb4-76ab-95f2-655427aa87a8",
+    "query": "SUNNY qames-topology-discrimination phyla waves PW-C1 PW-C3 inheritance contact contextual phonology; preserve transcription-to-phone uncertainty",
+    "relevantDocument": "72MKv9qUA2zfLWcFptLisV",
+    "scope": "Retrieved continuity, not mathematical/historical certification"
+  },
+  "coordinateScope": "Abstract witness/event order coordinates; no historical date assigned.",
+  "finiteModels": {
+    "I_strict_inheritance": {
+      "ancestor": 1,
+      "donorOnset": 1,
+      "recipientOnset": 1,
+      "contact": null,
+      "terminalMarks": [
+        1,
+        1
+      ]
+    },
+    "C_directed_contact": {
+      "ancestor": 0,
+      "donorOnset": 2,
+      "recipientOnset": 4,
+      "contact": 3,
+      "terminalMarks": [
+        1,
+        1
+      ]
+    },
+    "P_parallel_changes": {
+      "ancestor": 0,
+      "donorOnset": 2,
+      "recipientOnset": 4,
+      "contact": null,
+      "terminalMarks": [
+        1,
+        1
+      ]
+    },
+    "S_pure_scribal_normalization": {
+      "ancestor": 0,
+      "donorOnset": null,
+      "recipientOnset": null,
+      "contact": null,
+      "terminalMarks": [
+        1,
+        1
+      ]
+    }
+  },
+  "phoneticProfiles": {
+    "I_strict_inheritance": {
+      "ancestor": 1,
+      "donorAt0through5": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "recipientAt0through5": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "C_directed_contact": {
+      "ancestor": 0,
+      "donorAt0through5": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "recipientAt0through5": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "P_parallel_changes": {
+      "ancestor": 0,
+      "donorAt0through5": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "recipientAt0through5": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "S_pure_scribal_normalization": {
+      "ancestor": 0,
+      "donorAt0through5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "recipientAt0through5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "observations": {
+    "ancestor_phone": {
+      "I_strict_inheritance": 1,
+      "C_directed_contact": 0,
+      "P_parallel_changes": 0,
+      "S_pure_scribal_normalization": 0
+    },
+    "recipient_phone_at_3": {
+      "I_strict_inheritance": 1,
+      "C_directed_contact": 0,
+      "P_parallel_changes": 0,
+      "S_pure_scribal_normalization": 0
+    },
+    "recipient_phone_at_5": {
+      "I_strict_inheritance": 1,
+      "C_directed_contact": 1,
+      "P_parallel_changes": 1,
+      "S_pure_scribal_normalization": 0
+    },
+    "terminal_written_marks": {
+      "I_strict_inheritance": [
+        1,
+        1
+      ],
+      "C_directed_contact": [
+        1,
+        1
+      ],
+      "P_parallel_changes": [
+        1,
+        1
+      ],
+      "S_pure_scribal_normalization": [
+        1,
+        1
+      ]
+    }
+  },
+  "pairwiseDistinguishability": {
+    "I_strict_inheritance versus C_directed_contact": {
+      "inclusionMinimalSeparators": [
+        [
+          "ancestor_phone"
+        ],
+        [
+          "recipient_phone_at_3"
+        ]
+      ],
+      "noSeparatorInPool": false
+    },
+    "I_strict_inheritance versus P_parallel_changes": {
+      "inclusionMinimalSeparators": [
+        [
+          "ancestor_phone"
+        ],
+        [
+          "recipient_phone_at_3"
+        ]
+      ],
+      "noSeparatorInPool": false
+    },
+    "I_strict_inheritance versus S_pure_scribal_normalization": {
+      "inclusionMinimalSeparators": [
+        [
+          "ancestor_phone"
+        ],
+        [
+          "recipient_phone_at_3"
+        ],
+        [
+          "recipient_phone_at_5"
+        ]
+      ],
+      "noSeparatorInPool": false
+    },
+    "C_directed_contact versus P_parallel_changes": {
+      "inclusionMinimalSeparators": [],
+      "noSeparatorInPool": true
+    },
+    "C_directed_contact versus S_pure_scribal_normalization": {
+      "inclusionMinimalSeparators": [
+        [
+          "recipient_phone_at_5"
+        ]
+      ],
+      "noSeparatorInPool": false
+    },
+    "P_parallel_changes versus S_pure_scribal_normalization": {
+      "inclusionMinimalSeparators": [
+        [
+          "recipient_phone_at_5"
+        ]
+      ],
+      "noSeparatorInPool": false
+    }
+  },
+  "exactRealArithmeticControls": [
+    {
+      "id": "recipient_before_donor",
+      "eventCore": [
+        "donorOnset < contact",
+        "contact <= recipientOnset"
+      ],
+      "additionalBounds": [
+        "donorOnset >= 4",
+        "recipientOnset <= 3"
+      ],
+      "satisfiable": false,
+      "eachIndividualBoundSatisfiable": [
+        true,
+        true
+      ],
+      "additionalBoundSetIsInclusionMinimal": true
+    },
+    {
+      "id": "recipient_before_earliest_contact",
+      "eventCore": [
+        "donorOnset < contact",
+        "contact <= recipientOnset"
+      ],
+      "additionalBounds": [
+        "contact >= 4",
+        "recipientOnset <= 3"
+      ],
+      "satisfiable": false,
+      "eachIndividualBoundSatisfiable": [
+        true,
+        true
+      ],
+      "additionalBoundSetIsInclusionMinimal": true
+    }
+  ],
+  "checks": [
+    "All four models produce identical terminal written marks.",
+    "Contact and parallel histories have identical full phonetic trajectories.",
+    "Pure scribal-only and changed-pronunciation models separate if a terminal phone is independently licensed.",
+    "Both contact-excluding bound pairs are unsatisfiable and inclusion-minimal relative to the declared contact core.",
+    "No tree-count enumeration repeated."
+  ],
+  "sourceConditions": [
+    "Q states refer to the same source-qualified lexeme, morphology, syllabic environment, historical vowel, reading/performance register and meaning of the feature.",
+    "Greek or Latin written letters do not supply independently licensed historical phone observations here.",
+    "No-loss/no-reversal, a unique innovation and no cross-tradition transfer are hypotheses, not source facts.",
+    "S is a pure observation-channel explanation only. A hybrid of scribal normalization and real change remains possible.",
+    "Earliest possible contact must be independently justified; failure to find a contact record does not establish a lower bound.",
+    "Ruling out one directed contact episode does not rule out all contacts, reversed direction or a third-party donor."
+  ],
+  "sourceFindings": [
+    {
+      "locator": "Howard234fn29",
+      "finding": "Babylonian vowel quality is assumed by the author; a minority unrounded interpretation remains reported."
+    },
+    {
+      "locator": "Howard235fn33",
+      "finding": "The local consonantal correspondence differs: T has v where B can retain w; a shared consonant-change event is not licensed."
+    },
+    {
+      "locator": "Howard236fn39",
+      "finding": "Separative differences caution against directly making Secunda the B/T ancestor; contact is offered as an alternative."
+    },
+    {
+      "locator": "Howard236main",
+      "finding": "The trajectory from limited morphological distribution to broad change remains missing; absence of presented evidence does not settle it."
+    },
+    {
+      "locator": "PW-C3",
+      "finding": "Manuscript spelling standardization is an observation-channel candidate and need not create a spoken ancestry edge."
+    }
+  ],
+  "historicalMechanismSelected": false,
+  "originalPhonesRecovered": false,
+  "unresolved": [
+    "Original witness collation",
+    "Independent transcription-to-phone calibration",
+    "Context-matched dated observations",
+    "Independently bounded transmission opportunities",
+    "Inheritance/contact/parallel hybrid models"
+  ]
+}

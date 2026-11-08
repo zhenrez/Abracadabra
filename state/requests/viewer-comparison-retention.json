@@ -1,0 +1,17 @@
+{
+  "state": {
+    "goal": "Preserve SUNNY's primary contextual continuity while adding the already authorized source-bound structural comparison. The eligibility Jev receipt intentionally contains input SHA/counts, not complete candidate/constraint bodies, so the comparison run itself must retain exact inputs for later reconstruction.",
+    "constraints": "Keep imported sourceDB read-only. Retain submitted JSON text, parsed input, actual Jev receipt/answer, conditional output and explicit failure without automatic canonical promotion. Browser JSON48kbytes, fixed local paths only; no arbitrary command or file paths. Existing better-sqlite3 dependency is already installed by prior live gate."
+  },
+  "questions": [
+    {
+      "id": "comparison_run_store",
+      "type": "choice",
+      "question": "Which local append-only comparison-run representation should preserve exact inputs and observed results for continuity?",
+      "options": {
+        "jsonl_events": "Use a fixed state/comparison-runs.jsonl event ledger, appending submitted and completed/failed records with a runID and content hashes; expose bounded recent history and exact run lookup.",
+        "sqlite_events": "Use a fixed state/comparison-runs.sqlite append-only event table with runID, phase, exact input text, result and content hashes; expose bounded recent history and exact run lookup."
+      }
+    }
+  ]
+}

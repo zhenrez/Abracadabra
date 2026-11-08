@@ -1,0 +1,19 @@
+{
+  "schema": "sunny.matched-audio.method.v1",
+  "frozen_utc": "2026-11-04T03:26:12.3994423Z",
+  "timestamp_note": "Frozen before source audio-body acquisition and target measurements.",
+  "status": "frozen before audio-body acquisition and target measurements",
+  "scope": "Paired modern reconstructed Tiberian readings by Alex Foreman, same dagesh forte-dagesh lene reading, without melody versus with Sefardi melody; Genesis 1.1-13.",
+  "source_roles": "Genesis 1.1 w1 medial Alef and w2 final Alef have no corresponding glottal marker in the selected printed transcription; w3 initial Alef has an explicit glottal marker. These are exposed documentary roles, not acoustic observations.",
+  "acquisition": "Download exact publisher-linked MP3 bodies and publisher HTML, preserve bytes, SHA256, response headers, final URLs and UTC retrieval times. Do not normalize source files.",
+  "decode": "Reuse existing miniaudio if recoverable. Preserve native sample rate/channels in signed16 WAV; analyze a separately recorded mono 16000Hz signed16 derived WAV. Record decoder/version/import location. All audio is lossy source material.",
+  "whole_record_measurements": "Sample count, seconds, peak digital amplitude, RMS dBFS relative to full-scale sine-amplitude convention 32768, clipped-code count and channels. These do not identify syllables or phonetic targets.",
+  "opening_measurements": "Use a fixed opening 0-15 seconds of each recording (or whole file if shorter). Compute 25ms Hann-window spectrogram, 5ms hop, FFT 1024 at 16000Hz, display 0-5000Hz; 10ms RMS windows with 5ms hop. Activity onset is first 10ms frame RMS above -40dBFS sustained for 50ms. This is an algorithmic activity mark, not a word onset.",
+  "periodicity": "For opening 0-15s, centered 60ms frames every 10ms: remove frame mean, normalized overlap autocorrelation, lag search 26-267 (about 60-615Hz). Accept strongest local peak >=0.8 only when frame RMS > -40dBFS; retain rejection/unvoiced. Lag interpolation is parabolic. Candidate F0 is exploratory and may contain octave/subharmonic errors. No pitch spelling or phonetic category inferred.",
+  "alignment_gate": "No source token receives a time interval unless a documented listening/annotation or independently validated transcript alignment supports it. Filename, source passage order, energy gaps and F0 are insufficient. If no suitable authorized listening/alignment capability is available, leave all three token intervals null and report acquisition/decode/measurements only. No claim of first aligned token from documentary target roles.",
+  "outcome_gate": "Glottal realization remains indeterminate without token alignment and local waveform/spectrogram inspection. Lack of exact silence never proves absence of the phonetic target. Do not apply the two-local-period heuristic outside its documented scope without qualification.",
+  "exposure": "Prior source transcriptions, glottal role labels, retained operational packet and Jev-selected direction are known before acquisition. No blind prediction claim. Analysis parameters selected before inspecting the newly acquired waveforms.",
+  "new_model_requests": 0,
+  "persistent_processes_started": 0,
+  "protected_configuration_writes": 0
+}

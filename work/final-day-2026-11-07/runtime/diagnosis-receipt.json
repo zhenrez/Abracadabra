@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Phoenix",
+  "source_hashes_before": {
+    "src\\worker.ts": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+    "dist\\worker.js": "75caa28573434242d2acd15b5f68da14a6b7c492990605dc9a949852df00cf16",
+    "scripts\\stop-jev-worker.ps1": "4a2bd6595666636ea2e6a94a96ab4e4a7894c10d7c77ebd6737cc3b85fb31072",
+    "scripts\\process-lifecycle.ps1": "9b322a73008e00b3716d0ac988615f108e427a932c9d03698aa73de3f5644796",
+    "tests\\worker-lifecycle.test.mjs": "26e635721d4e379387935873b9b658ea76e2738a39257d48becaa911194d08ed"
+  },
+  "source_hashes_observed_now": {
+    "src\\worker.ts": "3dfc65133096867575fb3df38d795cd9399f783ec7c49a296d02007e71a3b95e",
+    "dist\\worker.js": "d5d53d874c1295a2f237934fa4bf89ed7da8d42096b13a269377c3327d47e25e",
+    "scripts\\stop-jev-worker.ps1": "4a2bd6595666636ea2e6a94a96ab4e4a7894c10d7c77ebd6737cc3b85fb31072",
+    "scripts\\process-lifecycle.ps1": "9b322a73008e00b3716d0ac988615f108e427a932c9d03698aa73de3f5644796",
+    "tests\\worker-lifecycle.test.mjs": "26e635721d4e379387935873b9b658ea76e2738a39257d48becaa911194d08ed"
+  },
+  "only_our_runtime_copies_modified_by_this_agent": true,
+  "restricted_diagnostic": {
+    "variant": "observed",
+    "mode": "normal",
+    "options": {
+      "root": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\runtime\\fixture-observed-normal-1794088547198",
+      "script": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\runtime\\fixture-observed-normal-1794088547198\\scripts\\jev_tool.py",
+      "executable": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\.venv\\Scripts\\python.exe",
+      "input": "synthetic mode only",
+      "purpose": "Owned synthetic diagnostic; no inference",
+      "timeoutMs": 800,
+      "maxOutputBytes": 4000000
+    },
+    "started": 1794088547198,
+    "ended": 1794088551837,
+    "result": {
+      "reason": "cleanup_error",
+      "code": 1,
+      "stdout": "",
+      "stderr": "",
+      "reaped": false,
+      "error": "AuthorizationManager check failed.\r\n    + CategoryInfo          : SecurityError: (:) [], ParentContainsErrorRecordException\r\n    + FullyQualifiedErrorId : UnauthorizedAccess"
+    },
+    "trace": [
+      {
+        "event": "helper_begin",
+        "action": "capture",
+        "at": 1794088547216
+      },
+      {
+        "event": "helper_close",
+        "action": "capture",
+        "code": 1,
+        "at": 1794088551726,
+        "elapsed": 4510
+      },
+      {
+        "event": "child_close",
+        "code": 1,
+        "at": 1794088551837
+      }
+    ],
+    "owned_records": [],
+    "manual_cleanup": [],
+    "fixture_ids": null,
+    "absence_checks": []
+  },
+  "escalated_attempt": {
+    "command": [
+      "node",
+      "work\\final-day-2026-11-07\\runtime\\diagnose_worker.mjs",
+      "observed",
+      "normal"
+    ],
+    "tool_status": "aborted by user after1615.3s",
+    "execution_status": "UNKNOWN; no successful launch or result receipt returned",
+    "no_new_result_receipt_observed": true
+  },
+  "owned_inventory": {
+    "fixtures": [
+      {
+        "directory": "work\\final-day-2026-11-07\\runtime\\fixture-observed-normal-1794088547198",
+        "owned_marker_exists": false,
+        "pids": null
+      }
+    ],
+    "known_completed_child": "Restricted diagnostic trace contains child_close(code1), following EOF after ownership capture denial. Fixture fails JSON input before creating descendants.",
+    "process_inspection": "Get-CimInstance denied within restricted runtime; cannot certify unknown escalated launch via CIM",
+    "broad_kill_performed": false
+  },
+  "parent_focused_original_report": {
+    "status": "PARENT_REPORTED; not independently executed by this agent",
+    "tests": 6,
+    "passed": 4,
+    "failed": 2,
+    "passed_cases": [
+      "normal",
+      "timeout",
+      "explicit shutdown",
+      "HTTP close"
+    ],
+    "failed_cases": [
+      "output overflow returns cleanup_error",
+      "HTTP after cleanup returns504 instead of400"
+    ],
+    "parent_sessions": [
+      "8805",
+      "32293"
+    ],
+    "parent_stop": "Parent reports Ctrl-C of both known test sessions, exit1"
+  },
+  "timer_race": {
+    "root_cause": "Work timeout remains active after child completion while the ownership cleanup helper is awaited. The timer can overwrite normal completion as timeout.",
+    "proposal": "Clear timer and snapshot stopReason immediately after Promise.race([exited, interrupted]) resolves; use snapshot when returning result. Keep capacity reserved until verified cleanup.",
+    "test_command": [
+      "node",
+      "--test",
+      "work\\final-day-2026-11-07\\runtime\\test_timer_race.mjs"
+    ],
+    "test_exit_code": 0,
+    "tests": 2,
+    "passed": 2,
+    "test_domain": "Deterministic transport simulation against instrumented copies. Fake spawn creates EventEmitters only; no child processes, CIM or inference. Before reproduces wrong timeout; proposed copy preserves complete.",
+    "actual_Windows_cleanup_verification": "NOT_VERIFIED by this simulation"
+  },
+  "output_overflow": {
+    "status": "UNRESOLVED_ACTUAL_ERROR_DETAILS",
+    "reason": "Restricted attempt failed at ownership capture before fixture output; parent reports original escalated output cleanup_error but exact result.error not supplied",
+    "second_fix_proposed": false
+  },
+  "root_current_timer_excerpt": "await Promise.race([exited, interrupted]);\n      // The request deadline ends with the worker, before verified cleanup.\n      clearTimeout(timer);\n      const completionReason = stopReason;\n      const cleanup = await helper(['-Action', 'stop', ...args], JSON.stringify(record));\n      if (!cleanup || typeof cleanup !== 'object' || !('status' in cleanup) || cleanup.status !== 'reaped' || !('remaining_owned_processes' in cleanup",
+  "execution_policy_modified": false,
+  "frozen_math_modified": false
+}

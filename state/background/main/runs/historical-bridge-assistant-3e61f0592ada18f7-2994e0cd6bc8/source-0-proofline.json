@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:22.329666+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "5fe39aab26edcbe21be371c6e14d677fe5c384ce3b8d99c9353a64ff7fb43a2a"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "855ccbdb-34ce-5c27-9997-fd2ecb7acbe7",
+      "source_identity_sha256": "3d90c2f96dc97c542750dbb62a500ac865159fb50ba89d2450fa6b75e94728ea",
+      "source_version_id": "8f467e71-a4dd-52ec-9189-b3f08be03459",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"5d95ac4f-74cb-4eda-bb3c-bf24f92475a3\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m distinguishing Fludd’s symbolic correspondences from Kepler’s mathematically constrained harmonies. That contrast may clarify whether the fifth functions as a central regulator, a generative interval, or a retrospective interpretive overlay.\",\"finished\":true,\"summary\":\"Refining the comparison\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Refined the comparison\"}]}",
+      "content_sha256": "3e61f0592ada18f77fc2c2c9e035752dab52f1aa71a1097ee14caef80c4f6a5c",
+      "content_length": 506,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "52383c9fabc87c7cc68e65883ee9eb4f6b90e34c7b08e01c442b2389b9f0ecab"
+    },
+    "chunks": [
+      {
+        "id": "8288e2c6-61ee-5e60-a9df-463c658b10ee",
+        "source_node_hash": "52383c9fabc87c7cc68e65883ee9eb4f6b90e34c7b08e01c442b2389b9f0ecab",
+        "source_id": "855ccbdb-34ce-5c27-9997-fd2ecb7acbe7",
+        "source_version_id": "8f467e71-a4dd-52ec-9189-b3f08be03459",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 506,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"5d95ac4f-74cb-4eda-bb3c-bf24f92475a3\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m distinguishing Fludd’s symbolic correspondences from Kepler’s mathematically constrained harmonies. That contrast may clarify whether the fifth functions as a central regulator, a generative interval, or a retrospective interpretive overlay.\",\"finished\":true,\"summary\":\"Refining the comparison\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Refined the comparison\"}]}",
+        "content_sha256": "3e61f0592ada18f77fc2c2c9e035752dab52f1aa71a1097ee14caef80c4f6a5c",
+        "node_hash": "d99784d8b2ca02005eb14c0251e9432a4ca7e3f14caee66f1ad0cd64435a88ac"
+      }
+    ],
+    "citations": [
+      {
+        "id": "9f6408d7-c219-5862-b0e3-72becf62cc2f",
+        "source_node_hash": "52383c9fabc87c7cc68e65883ee9eb4f6b90e34c7b08e01c442b2389b9f0ecab",
+        "chunk_node_hashes": [
+          "d99784d8b2ca02005eb14c0251e9432a4ca7e3f14caee66f1ad0cd64435a88ac"
+        ],
+        "source_id": "855ccbdb-34ce-5c27-9997-fd2ecb7acbe7",
+        "source_version_id": "8f467e71-a4dd-52ec-9189-b3f08be03459",
+        "start_offset": 0,
+        "end_offset": 506,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"5d95ac4f-74cb-4eda-bb3c-bf24f92475a3\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m distinguishing Fludd’s symbolic correspondences from Kepler’s mathematically constrained harmonies. That contrast may clarify whether the fifth functions as a central regulator, a generative interval, or a retrospective interpretive overlay.\",\"finished\":true,\"summary\":\"Refining the comparison\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Refined the comparison\"}]}",
+        "quote_sha256": "3e61f0592ada18f77fc2c2c9e035752dab52f1aa71a1097ee14caef80c4f6a5c",
+        "node_hash": "c852596523ce9dd07e94d2b8f3a65013c8727e35c873a59a196c94c0c7416932"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "52383c9fabc87c7cc68e65883ee9eb4f6b90e34c7b08e01c442b2389b9f0ecab",
+        "d99784d8b2ca02005eb14c0251e9432a4ca7e3f14caee66f1ad0cd64435a88ac",
+        "c852596523ce9dd07e94d2b8f3a65013c8727e35c873a59a196c94c0c7416932"
+      ],
+      "node_hash": "5d9ef3d88bf2a4e184cbea80f1f21169241502b331962864e4c76d729684bd99"
+    },
+    "artifact": {
+      "id": "0756ac7f-6351-5b4c-8345-5536caee909d",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/3e61f0592ada18f77fc2c2c9e035752dab52f1aa71a1097ee14caef80c4f6a5c/text.txt; original SHA256 3e61f0592ada18f77fc2c2c9e035752dab52f1aa71a1097ee14caef80c4f6a5c; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "5d9ef3d88bf2a4e184cbea80f1f21169241502b331962864e4c76d729684bd99",
+      "citation_node_hashes": [
+        "c852596523ce9dd07e94d2b8f3a65013c8727e35c873a59a196c94c0c7416932"
+      ],
+      "node_hash": "fa72373c5dda463cd25108485133e00f9b9ac17ea8dc58e9d59d0a5cae604631"
+    },
+    "review": {
+      "artifact_node_hash": "fa72373c5dda463cd25108485133e00f9b9ac17ea8dc58e9d59d0a5cae604631",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:22.329666+00:00",
+      "updated_at": "2026-11-02T01:57:22.329666+00:00",
+      "node_hash": "1aa1608f5dbf05ed838fb897d8d372578878ca46ab46c17ec0c701aaee7e25db"
+    }
+  }
+}

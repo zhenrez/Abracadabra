@@ -1,0 +1,86 @@
+{
+  "schema": "sunny.western-reactivation.checkpoint.v1",
+  "created_utc": "2026-11-02T22:00:50Z",
+  "question": "Which Western-native musical/acoustic constraints make a symbol-to-sound mapping identifiable, without reducing full music to pitch classes or the scalar kernel?",
+  "scope": "First bounded packet; scholarly stage only; no historical phonetic conclusion.",
+  "source_inspected": [
+    {
+      "url": "https://musicweb.ucsd.edu/~trsmyth/spectrum175/Harmonics_Pitch.html",
+      "author": "Tamara Smyth",
+      "date": "2020-04-02",
+      "section": "Harmonics and Pitch",
+      "observed": "The page separates fundamental-related pitch from timbre affected by harmonic relative amplitudes.",
+      "transfer": "A prescribed fundamental alone does not prescribe a unique waveform."
+    },
+    {
+      "url": "https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html",
+      "authors": [
+        "Meinard Müller",
+        "Tim Zunner"
+      ],
+      "date": "Undated notebook; references FMP 2015 section1.3.4",
+      "sections": [
+        "Basic Definition",
+        "Envelope and ADSR Model",
+        "Partials",
+        "Missing Fundamental"
+      ],
+      "observed": "Official research-group notebook separates pitch, loudness, duration and timbre, supplies harmonic-sum generator, and explicitly limits ADSR approximation.",
+      "transfer": "Preserve spectral shape, time envelope and realization conditions; do not infer a historical letter-frequency mapping."
+    }
+  ],
+  "first_constraint": {
+    "id": "WEST-F0-NONINJECTIVE",
+    "status": "source-supported conditional mathematical consequence; explicit reproduction pending",
+    "statement": "Fundamental-frequency agreement cannot identify a unique sound waveform, instrument, phoneme, or original symbolic intention.",
+    "domain": "Synthetic harmonic steady tones are a sufficient counterexample; speech/unpitched/transient domains require wider models.",
+    "construction": "x(t)=sin(2*pi*f0*t); y(t)=(2*sin(2*pi*f0*t)+sin(4*pi*f0*t))/sqrt(5). Both have period1/f0 and equal RMS over one period, but are unequal functions.",
+    "units": {
+      "f0": "Hz",
+      "t": "seconds",
+      "amplitude": "arbitrary linear units"
+    },
+    "nonclaims": [
+      "No perception experiment run.",
+      "No ancient sound or intended symbol reconstructed.",
+      "No statement that frequency is irrelevant."
+    ]
+  },
+  "local_evidence_reused": [
+    "state/reconstruction/native-execution.json: pitch-value action and position reversal act on distinct coordinates",
+    "state/reconstruction/derived-laws.json: address/exact-pitch/history distinctions",
+    "docs/reconstruction/symbol-sound-census/scholarly-first-pass.md: all14 addressed provisionally, early-witness baseline remains open"
+  ],
+  "next": "Reproduce a phase-sensitive counterexample with equal f0, RMS and magnitude spectrum; inspect native notation/voice/rhythm domains and retain source-defined quotients.",
+  "blockers": [
+    {
+      "id": "supermemory",
+      "observed": "Connected search_memory returned tool not available to model.",
+      "blocks_lane": false
+    },
+    {
+      "id": "native-plan",
+      "observed": "No native update_plan tool is exposed in this worker; local scoped plan retained instead.",
+      "blocks_lane": false
+    }
+  ],
+  "plan": [
+    {
+      "step": "[100%] Recover authoritative state, native music artifacts and Jev identity",
+      "status": "complete"
+    },
+    {
+      "step": "[35%] Inspect primary acoustic sources and reproduce an identifiability constraint",
+      "status": "in_progress"
+    },
+    {
+      "step": "[0%] Map prior-art assumptions, native musical dimensions and adapter scope",
+      "status": "pending"
+    },
+    {
+      "step": "[0%] Verify and deliver the scoped research packet",
+      "status": "pending"
+    }
+  ],
+  "exposure": "Known harmonic-sum formulation exposed before reproduction. Historical glyph-to-frequency mappings not newly exposed in this lane. Heterodox M1-M12 stage withheld."
+}

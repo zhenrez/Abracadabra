@@ -1,0 +1,52 @@
+{
+  "schema": "sunny.scheduled-publication-worker.v1",
+  "role": "/root/delivery_report_audit dedicated publication worker",
+  "status": "cancelled by explicit user instruction; no scheduled publication will occur",
+  "targetUtc": "2026-11-08T06:30:00Z",
+  "targetLocal": "2026-11-07T23:30:00-07:00 America/Phoenix",
+  "notBeforeTarget": true,
+  "readyConfigPath": "state/publication/ready.json",
+  "resultPath": "state/publication/push-result.json",
+  "repository": {
+    "fullName": "zhenrez/SUNNY",
+    "id": 1443708247,
+    "visibilityVerified": "private",
+    "adminVerified": true,
+    "pushVerified": true,
+    "branch": "main",
+    "initialHeadSha": "766149da2cd350ed894d5b3c5d28760c775c3eb1",
+    "initialTreeSha": "7e70c16400c09c57d715c11b70db3ff3243d51a1",
+    "initialCommitDate": "2026-11-03T02:13:13Z",
+    "initialReadAtUtc": "2026-11-08T02:38:53Z",
+    "boundary": "Repository size0 was not evidence of an empty branch. Existing main was read through authenticated GitHub connector."
+  },
+  "verifiedReadRoutes": [
+    "GitHub.get_repo repository_id1443708247",
+    "GitHub.fetch https://api.github.com/repos/zhenrez/SUNNY/git/ref/heads/main",
+    "GitHub.fetch https://api.github.com/repos/zhenrez/SUNNY/git/commits/COMMIT_SHA"
+  ],
+  "requiredReadyFields": [
+    "repository identity and expected privacy",
+    "targetUtc",
+    "prepared commit SHA and tree SHA",
+    "expected main head SHA",
+    "publication manifest path and SHA256",
+    "readiness-validation path, SHA256 and actual passing status",
+    "prepared remote commit/tree readback evidence",
+    "explicit included/excluded/reproducible dependency scope"
+  ],
+  "atTarget": [
+    "CANCELLED: do not perform any GitHub ref mutation now or later. A new explicit user instruction would be required to resume publication."
+  ],
+  "guardUse": {
+    "Supermemory": "Actual search_memory succeeded in this worker turn.",
+    "GitHub": "Actual authenticated repository/ref/commit readbacks succeeded.",
+    "scope": "No timer, blob or unreferenced commit is a completed scheduled publication."
+  },
+  "waitingMechanism": "Active native worker turn with bounded clock sleeps no longer than60seconds; not an independently verified operating-system scheduler or guarantee of survival after session closure.",
+  "preparationOwner": "/root",
+  "lastKnownBlocker": "Publication is cancelled, not waiting for readiness.",
+  "cancelledAtUtc": "2026-11-08T02:59:03.8800897Z",
+  "cancellationAuthority": "User: forget the github; focus on finishing SUNNY. Root relayed immediate cancellation.",
+  "workerRemoteMutationsPerformed": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "name": "fixture-failure",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "port": 60692,
+  "status": "startup_failed_cleaned",
+  "root_identity": {
+    "pid": 28916,
+    "parent_pid": 26756,
+    "creation_utc": "2026-10-31T01:52:33.9748090Z",
+    "executable_path": "C:\\Program Files\\nodejs\\node.exe",
+    "command_sha256": "bb2fe84e98fc5ae61d06350758919f095e8eb640a1561ee1ce6721658192e3c0"
+  },
+  "processes": [
+    {
+      "pid": 28916,
+      "parent_pid": 26756,
+      "creation_utc": "2026-10-31T01:52:33.9748090Z",
+      "executable_path": "C:\\Program Files\\nodejs\\node.exe",
+      "command_sha256": "bb2fe84e98fc5ae61d06350758919f095e8eb640a1561ee1ce6721658192e3c0"
+    },
+    {
+      "pid": 26104,
+      "parent_pid": 28916,
+      "creation_utc": "2026-10-31T01:52:33.9784220Z",
+      "executable_path": "C:\\WINDOWS\\system32\\conhost.exe",
+      "command_sha256": "417222c4a0ecb4d60a457ebe8e26fddf3d5406bffb16a5c59af8eeb241beca51"
+    },
+    {
+      "pid": 9848,
+      "parent_pid": 28916,
+      "creation_utc": "2026-10-31T01:52:34.0486620Z",
+      "executable_path": "C:\\Program Files\\nodejs\\node.exe",
+      "command_sha256": "c8e9321470e8af1a43ded00e75efc2de6cd7ff9305ad56e9948edf3b8916bd70"
+    },
+    {
+      "pid": 11480,
+      "parent_pid": 9848,
+      "creation_utc": "2026-10-31T01:52:34.0524630Z",
+      "executable_path": "C:\\WINDOWS\\system32\\conhost.exe",
+      "command_sha256": "417222c4a0ecb4d60a457ebe8e26fddf3d5406bffb16a5c59af8eeb241beca51"
+    }
+  ],
+  "recorded_utc": "2026-10-31T01:52:34.6786096Z"
+}

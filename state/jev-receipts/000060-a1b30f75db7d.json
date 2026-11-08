@@ -1,0 +1,89 @@
+{
+  "status": "judged",
+  "sha256": "a1b30f75db7d59bfdaa80b9d3e773f8eab28115c9f2da2b16e7775fea794c52e",
+  "sequence": 60,
+  "previous_sha256": "6581ee8c1ffa271e47c9f99490b8459a44d7906a2864a47af8077a9cf8b2950a",
+  "purpose": "Next substantive symbol-first SUNNY source constraint after independently reviewed score-anchor extension",
+  "completed_at": "2026-11-07T18:05:35.249380+00:00",
+  "request_sha256": "c491dbbf9fc5698056c597306c7dbe789d2e2577a983bc9e1e95bee33586599d",
+  "request": {
+    "state": {
+      "mission": "Continue full SUNNY sixteen goals/eight outputs. Original symbol/sound/grammar recovery precedes changed source readings, historical hierarchies and calendar/zodiac rectification. Native Western and Chinese musical constraints remain simultaneous and separate; type laws are progressively derived.",
+      "completed_extension": "The source-conditioned score-anchor extension is canonical, independently reviewed and executed:8of10duration pairs suffice, pairs1+4and2+5redundant. This does not recover original sounds. Do not repeat it as new research.",
+      "current_symbol_state": "Seven Tiberian Alef contexts leave two contextual mark grammars sharing one presence projection. Word-final witnesses exclude the universal dotted-consonant rule conditionally. Absolute sound/duration/waveform remain unknown. Dated earlyHebrew/ImperialAramaic editorial tokens and English word-a pronunciation controls exist. Native full alphabets and operational sound correspondences remain incomplete.",
+      "ready_sources": "Original/public scholarly source leads for rounded-qames shared innovation versus contact are identified. Existing modern matched Genesis recordings have source-known bytes but no independently confirmed token alignments. Supplied original musical images are now available without reupload;36occurrences/30distinct images.",
+      "guardrails": "Choose the next bounded substantive symbol-first direction. Preserve old source conditions, actual recording versus reconstructed phone, glyph versus transliteration versus pronunciation, exposed evidence versus blind predictions, and local/global musical dependencies. Model preference is not scientific proof. No arbitrary numerical weighting or imposed alphabet-to-frequency map."
+    },
+    "questions": [
+      {
+        "id": "next_symbol_constraint",
+        "type": "choice",
+        "question": "Which next source-ready investigation should most directly advance the unresolved symbol-sound reconstruction?",
+        "options": {
+          "native_alphabet_operator_inventory": "Expand beyond the Alef case to source-native earlyHebrew/Aramaic/English inventories and attested contextual phonetic reassignments, using original scholarly/standards sources and explicitly separating glyph, name, sound and operation.",
+          "qames_chronology_contact": "Inspect the identified original chronology/contact publications and bowl witness to test which additional constraints distinguish shared inherited rounding from independent/contact change.",
+          "matched_recording_alignment": "Independently align the existing same-text modern recordings before measuring candidate glottal articulation; retain speaker, stress, morphology and melodic differences and do not infer original ancient sounds."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "next_symbol_constraint",
+            "type": "choice",
+            "distribution": {
+              "matched_recording_alignment": 0.24783873558044434,
+              "native_alphabet_operator_inventory": 0.3609575629234314,
+              "qames_chronology_contact": 0.3912036418914795
+            },
+            "value": "qames_chronology_contact",
+            "description": "Inspect the identified original chronology/contact publications and bowl witness to test which additional constraints distinguish shared inherited rounding from independent/contact change.",
+            "top_probability": 0.3912036418914795,
+            "margin": 0.030246078968048096
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 1113,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 443,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 1882.74
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

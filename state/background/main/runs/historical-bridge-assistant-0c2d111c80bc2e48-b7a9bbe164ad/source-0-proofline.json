@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:55:25.048162+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "c2894c6b97c40e6a4e13da24e0c52cd6f5476880434b7080dc6d98fae75a0718"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "ac8080a5-f4e2-5d5e-a54a-e1064afee9c8",
+      "source_identity_sha256": "df058b3c630dcbc043e5bb691f825fc64293e3772ca78e386b426393d0feb292",
+      "source_version_id": "79041e7c-1e6a-5df8-a984-5bc40a65a693",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0f8ccc84-7b4c-497e-a9c6-6ebb4ef9343b\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m organizing the synthesis around roles: Kepler contributes measurable motion, interval, and direction; Fludd contributes symbolic vertical order; Dee supplies structure; China supplies a twelve-tone carrier. I’m treating the resulting chirality as a testable interpretation, not a historical fact.\",\"finished\":true,\"summary\":\"Integrating the frameworks\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Integrated the frameworks\"}]}",
+      "content_sha256": "0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03",
+      "content_length": 567,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "77631ee517cc42b9bee2d12774499c793fd5ee417648c2fdce81a138c9de6297"
+    },
+    "chunks": [
+      {
+        "id": "f7d4902d-cef3-5ee4-8fa1-832ee6ee522e",
+        "source_node_hash": "77631ee517cc42b9bee2d12774499c793fd5ee417648c2fdce81a138c9de6297",
+        "source_id": "ac8080a5-f4e2-5d5e-a54a-e1064afee9c8",
+        "source_version_id": "79041e7c-1e6a-5df8-a984-5bc40a65a693",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 567,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0f8ccc84-7b4c-497e-a9c6-6ebb4ef9343b\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m organizing the synthesis around roles: Kepler contributes measurable motion, interval, and direction; Fludd contributes symbolic vertical order; Dee supplies structure; China supplies a twelve-tone carrier. I’m treating the resulting chirality as a testable interpretation, not a historical fact.\",\"finished\":true,\"summary\":\"Integrating the frameworks\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Integrated the frameworks\"}]}",
+        "content_sha256": "0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03",
+        "node_hash": "f0149c8062424ebdfba3fbc523624d8f91a4eaf1b67d3878c66426c07b6af36d"
+      }
+    ],
+    "citations": [
+      {
+        "id": "18346422-1426-5543-836e-b57de5b7f0de",
+        "source_node_hash": "77631ee517cc42b9bee2d12774499c793fd5ee417648c2fdce81a138c9de6297",
+        "chunk_node_hashes": [
+          "f0149c8062424ebdfba3fbc523624d8f91a4eaf1b67d3878c66426c07b6af36d"
+        ],
+        "source_id": "ac8080a5-f4e2-5d5e-a54a-e1064afee9c8",
+        "source_version_id": "79041e7c-1e6a-5df8-a984-5bc40a65a693",
+        "start_offset": 0,
+        "end_offset": 567,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0f8ccc84-7b4c-497e-a9c6-6ebb4ef9343b\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m organizing the synthesis around roles: Kepler contributes measurable motion, interval, and direction; Fludd contributes symbolic vertical order; Dee supplies structure; China supplies a twelve-tone carrier. I’m treating the resulting chirality as a testable interpretation, not a historical fact.\",\"finished\":true,\"summary\":\"Integrating the frameworks\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Integrated the frameworks\"}]}",
+        "quote_sha256": "0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03",
+        "node_hash": "483e156d76011e9a9fc20eedb90fe0a9086456db78f2a63071452de56161fbac"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "77631ee517cc42b9bee2d12774499c793fd5ee417648c2fdce81a138c9de6297",
+        "f0149c8062424ebdfba3fbc523624d8f91a4eaf1b67d3878c66426c07b6af36d",
+        "483e156d76011e9a9fc20eedb90fe0a9086456db78f2a63071452de56161fbac"
+      ],
+      "node_hash": "7e72d21fe38b34418c24970296f17eb39e05431dcd05119e3b51e6eb87cf13df"
+    },
+    "artifact": {
+      "id": "62fcb134-ef46-5ce4-bee9-44157fb9335c",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03/text.txt; original SHA256 0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "7e72d21fe38b34418c24970296f17eb39e05431dcd05119e3b51e6eb87cf13df",
+      "citation_node_hashes": [
+        "483e156d76011e9a9fc20eedb90fe0a9086456db78f2a63071452de56161fbac"
+      ],
+      "node_hash": "97d3793177e8286beb31a2e324a11984dbc3708738687690312b0da1a09bdd6d"
+    },
+    "review": {
+      "artifact_node_hash": "97d3793177e8286beb31a2e324a11984dbc3708738687690312b0da1a09bdd6d",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:55:25.048162+00:00",
+      "updated_at": "2026-11-02T01:55:25.048162+00:00",
+      "node_hash": "695306646d3aa7f6619090af8d66c0a0b0f5117625193be8a4bd8f6835fc4359"
+    }
+  }
+}

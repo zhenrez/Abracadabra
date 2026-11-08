@@ -1,0 +1,31 @@
+{
+  "schema": "sunny.symbol-research.checkpoint.v1",
+  "created_utc": "2026-11-02T22:00:26.894Z",
+  "new_findings": [
+    {
+      "id": "A3.7-display-is-transcription",
+      "evidence": "sources/elephantine_A3_7_tei.xml",
+      "sha256": "1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25",
+      "inspected": "TEI header, msDesc and edition/translation body",
+      "source_report": "Pap. Cairo EM JdE43473, alias BerlinP13462, editionTAD A3.7; TEIv2.1 published26.07.2022; content labels arc-Armi and Armi arc with modern Hebrew-codepoint transcription; מראתי tagged my lady, מראי my lord; damaged/lost/editor-supplied text explicit.",
+      "inference": "Using the displayed square-Hebrew sign as the original graphic form would lose source-native script evidence and restoration status. Grammar must remain attached to word context.",
+      "gap": "origDate elements empty; exact ancient date not yet recovered; no phonetic waveform in TEI."
+    },
+    {
+      "id": "Alef-context",
+      "evidence": "sources/khan2020.selected-pages.json",
+      "source_report": "Khan2020 I.1.1 printed135 gives consonantal Alef[ʔ];146–148 distinguish non-consonantal and variable manuscript marking.",
+      "inference": "Sound assignment must be witness-and-context qualified, rather than a single sound for every graphic Alef occurrence.",
+      "transfer_limit": "Reconstruction of Tiberian reading is not automatic evidence for Iron Age Paleo-Hebrew or Imperial Aramaic."
+    },
+    {
+      "id": "Lachish-edition",
+      "evidence": "sources/davies-page01.png",
+      "source_report": "Publisher Davies excerpt printed1 entry1.002 dates Letter2 to589/8; begins with scholarly transcription involving Alef; refers to Torczyner1938 p37 and Diringer1953 p332.",
+      "gap": "Publisher excerpt is an edition/transliteration, not original inscribed sign close-up. Museum-authored label reports broader destruction context586BC; criteria/dates retained without host calendar rectification."
+    }
+  ],
+  "current_hypothesis_checks": "current-hypotheses-source-check.json: three source hashes, quote hashes and exact offsets all match.",
+  "exposure": "Prior object/hypothesis evidence seen. New scholarly sources inspected; search return also displayed uninspected alternative/Uto-Aztecan and modern esoteric leads, which were excluded and are not counted as scholarly or controlled M-census evidence.",
+  "next_action": "Finish dated A4.7 native date formula and official catalogue cross-check; freeze bounded14-question register before any deliberate M1-M12 exposure."
+}

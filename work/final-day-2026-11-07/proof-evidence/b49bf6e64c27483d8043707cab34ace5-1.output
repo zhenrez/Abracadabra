@@ -1,0 +1,50 @@
+TAP version 13
+# Subtest: verified cleanup may finish after15seconds within its separate bound
+ok 1 - verified cleanup may finish after15seconds within its separate bound
+  ---
+  duration_ms: 2.1864
+  ...
+# Subtest: ownership capture retains its strict15second timeout
+ok 2 - ownership capture retains its strict15second timeout
+  ---
+  duration_ms: 1.7626
+  ...
+# Subtest: original copied worker reproduces timeout after child already completed
+ok 3 - original copied worker reproduces timeout after child already completed
+  ---
+  duration_ms: 99.575
+  ...
+# Subtest: proposed copied worker preserves complete across slow cleanup
+ok 4 - proposed copied worker preserves complete across slow cleanup
+  ---
+  duration_ms: 99.688
+  ...
+# Subtest: owned process absence is verified through the injected PID probe
+ok 5 - owned process absence is verified through the injected PID probe
+  ---
+  duration_ms: 4.5107
+  ...
+# Subtest: a different creation FILETIME establishes PID reuse without killing it
+ok 6 - a different creation FILETIME establishes PID reuse without killing it
+  ---
+  duration_ms: 0.417
+  ...
+# Subtest: the original identity may remain queryable after its process has exited
+ok 7 - the original identity may remain queryable after its process has exited
+  ---
+  duration_ms: 0.3129
+  ...
+# Subtest: live original identity and unverifiable probes fail closed
+ok 8 - live original identity and unverifiable probes fail closed
+  ---
+  duration_ms: 1.3245
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 261.725

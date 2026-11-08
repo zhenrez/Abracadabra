@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:45.310454+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "9103ed1383109566e0db7e64b9245c80656d402974a7c24c610607c77695fe36"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "17999f76-9cf4-5db3-812f-243e55d429c4",
+      "source_identity_sha256": "e98031d825e0990b017611b893c060e8b23d921846b5b1d2d9cd8b80038b98db",
+      "source_version_id": "983125f0-91c8-5396-b94f-0443e2b1d563",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"c6c6f2e1-5b5b-4202-a298-66ad8f84bc18\",\"thoughts\":[{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Constructed a Kepler–Fludd sevenfold planetary mapping\"}]}",
+      "content_sha256": "69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685",
+      "content_length": 214,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "45cabe05a1647ce7be4bcad4dfbaa12ce1b6770e7b69e211167dfb8558221069"
+    },
+    "chunks": [
+      {
+        "id": "0f2a536d-2114-5a61-a3f9-b9707e883bb3",
+        "source_node_hash": "45cabe05a1647ce7be4bcad4dfbaa12ce1b6770e7b69e211167dfb8558221069",
+        "source_id": "17999f76-9cf4-5db3-812f-243e55d429c4",
+        "source_version_id": "983125f0-91c8-5396-b94f-0443e2b1d563",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 214,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"c6c6f2e1-5b5b-4202-a298-66ad8f84bc18\",\"thoughts\":[{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Constructed a Kepler–Fludd sevenfold planetary mapping\"}]}",
+        "content_sha256": "69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685",
+        "node_hash": "24081a94bd8a09ab36744473b200358e76938b98ccaff5d76ab01d59c655bcd1"
+      }
+    ],
+    "citations": [
+      {
+        "id": "2e562a04-d970-54b6-97c9-1a3b1b9c5729",
+        "source_node_hash": "45cabe05a1647ce7be4bcad4dfbaa12ce1b6770e7b69e211167dfb8558221069",
+        "chunk_node_hashes": [
+          "24081a94bd8a09ab36744473b200358e76938b98ccaff5d76ab01d59c655bcd1"
+        ],
+        "source_id": "17999f76-9cf4-5db3-812f-243e55d429c4",
+        "source_version_id": "983125f0-91c8-5396-b94f-0443e2b1d563",
+        "start_offset": 0,
+        "end_offset": 214,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"c6c6f2e1-5b5b-4202-a298-66ad8f84bc18\",\"thoughts\":[{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Constructed a Kepler–Fludd sevenfold planetary mapping\"}]}",
+        "quote_sha256": "69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685",
+        "node_hash": "e26ff1b13bb95ccbd1026bdee1aafaafcb96b1a22bb749c5276fb9dead57ee4f"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "45cabe05a1647ce7be4bcad4dfbaa12ce1b6770e7b69e211167dfb8558221069",
+        "24081a94bd8a09ab36744473b200358e76938b98ccaff5d76ab01d59c655bcd1",
+        "e26ff1b13bb95ccbd1026bdee1aafaafcb96b1a22bb749c5276fb9dead57ee4f"
+      ],
+      "node_hash": "8a4ed6f04af330ab3635e08047f48bb51ad038523a86fac599c2d2eae8b4d06c"
+    },
+    "artifact": {
+      "id": "35ada6b5-0089-5a48-a7c2-822415679d79",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685/text.txt; original SHA256 69e4a45161be2e698f31945847a9a06793e69acc4d29e0e0a5a116ccd88cb685; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "8a4ed6f04af330ab3635e08047f48bb51ad038523a86fac599c2d2eae8b4d06c",
+      "citation_node_hashes": [
+        "e26ff1b13bb95ccbd1026bdee1aafaafcb96b1a22bb749c5276fb9dead57ee4f"
+      ],
+      "node_hash": "de187e003245d59cfaa51ad4ae547a9f7fd1ff7abd15d1528d683c498a1d630d"
+    },
+    "review": {
+      "artifact_node_hash": "de187e003245d59cfaa51ad4ae547a9f7fd1ff7abd15d1528d683c498a1d630d",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:45.310454+00:00",
+      "updated_at": "2026-11-02T01:57:45.310454+00:00",
+      "node_hash": "3319cf433c46b28d420cd4a1cdd156b06aa874acd9170dc0e8f47089819a5abc"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+    "-p",
+    "test_harmonic_verifier.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_ambiguity (test_harmonic_verifier.HarmonicTests.test_ambiguity) ... ok\ntest_base (test_harmonic_verifier.HarmonicTests.test_base) ... ok\ntest_duplicate (test_harmonic_verifier.HarmonicTests.test_duplicate) ... ok\ntest_expanded (test_harmonic_verifier.HarmonicTests.test_expanded) ... ok\ntest_frequency (test_harmonic_verifier.HarmonicTests.test_frequency) ... ok\ntest_unique_completion (test_harmonic_verifier.HarmonicTests.test_unique_completion) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.035s\n\nOK\n"
+}

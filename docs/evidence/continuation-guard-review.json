@@ -1,0 +1,241 @@
+{
+  "schema": "sunny.continuation-guard-review.v1",
+  "checked_utc": "2026-11-01T00:00:40.399062+00:00",
+  "scope": "Task-local continuity and explicitly supplied attachment paths. No account discovery or external bundle inference.",
+  "actual_jev": {
+    "model": "jev-1.14.0",
+    "choice": "verify_current_task_links",
+    "conditional_probability": 0.9,
+    "authority": "operational choice only; not proof or permission"
+  },
+  "explicit_input_occurrences": [
+    {
+      "attachment_prefix": "8eda2fbe",
+      "original": "C:\\Users\\Brend\\.codex\\attachments\\8eda2fbe-636d-44e2-9f86-23208d6f71d4\\Pasted text.txt",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\mandate-inputs\\0b165c1262f31045e3b4279d4e0a5f2dfe165fdab928dd9b25313a6e6e150221\\Pasted text.txt",
+      "sha256": "0b165c1262f31045e3b4279d4e0a5f2dfe165fdab928dd9b25313a6e6e150221",
+      "original_matches": true,
+      "snapshot_matches": true
+    },
+    {
+      "attachment_prefix": "0493aeef",
+      "original": "C:\\Users\\Brend\\.codex\\attachments\\0493aeef-9464-42f0-9a6e-5be1242db9fd\\Pasted text.txt",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\mandate-inputs\\1632e84157ac42089b9f57ad351b4864d1863363408ed2a45b128d8729f0a62a\\Pasted text.txt",
+      "sha256": "1632e84157ac42089b9f57ad351b4864d1863363408ed2a45b128d8729f0a62a",
+      "original_matches": true,
+      "snapshot_matches": true
+    },
+    {
+      "attachment_prefix": "7b7c01eb",
+      "original": "C:\\Users\\Brend\\.codex\\attachments\\7b7c01eb-7136-4de5-84b8-ed6d7b5ca60e\\Pasted text.txt",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\mandate-inputs\\99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63\\Pasted text.txt",
+      "sha256": "99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63",
+      "original_matches": true,
+      "snapshot_matches": true
+    },
+    {
+      "attachment_prefix": "1c9281f4",
+      "original": "C:\\Users\\Brend\\.codex\\attachments\\1c9281f4-2586-412f-ae40-b68689a7fb94\\Pasted text.txt",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\mandate-inputs\\0b165c1262f31045e3b4279d4e0a5f2dfe165fdab928dd9b25313a6e6e150221\\Pasted text.txt",
+      "sha256": "0b165c1262f31045e3b4279d4e0a5f2dfe165fdab928dd9b25313a6e6e150221",
+      "original_matches": true,
+      "snapshot_matches": true
+    },
+    {
+      "attachment_prefix": "4eb78fb3",
+      "original": "C:\\Users\\Brend\\.codex\\attachments\\4eb78fb3-12d4-4972-b11a-367d9d4a99da\\Pasted text.txt",
+      "snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\mandate-inputs\\1632e84157ac42089b9f57ad351b4864d1863363408ed2a45b128d8729f0a62a\\Pasted text.txt",
+      "sha256": "1632e84157ac42089b9f57ad351b4864d1863363408ed2a45b128d8729f0a62a",
+      "original_matches": true,
+      "snapshot_matches": true
+    }
+  ],
+  "input_checks_passed": true,
+  "current_mandate_witness": {
+    "path": "data\\raw\\mandate-inputs\\99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63\\Pasted text.txt",
+    "sha256": "99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63",
+    "matches": true
+  },
+  "existing_checkpoint": {
+    "integrity_status": "intact",
+    "observed_payload_updated_utc": "2026-10-31T19:40:07.276453+00:00",
+    "current_at_check": false,
+    "stale_fields": [
+      "open_questions contains Q6 unanswered despite active mandate",
+      "next_actions prioritize image acquisition over current math mandate",
+      "observed_progress.model_sha256 is older than assembled math"
+    ],
+    "action": "Preserve old envelope and regenerate from root current state after integration; a valid envelope alone does not imply freshness."
+  },
+  "state_presentation_correction_needed": {
+    "field": "favorites_status",
+    "exact_observed": "all intended Favorites files in scope; originals not yet retrieved; surface-identification question pending; existing reconstructed model retained",
+    "reason": "It still calls the superseded surface-identification question pending. Preserve as history, describe remaining original-image acquisition gap without restarting that request."
+  },
+  "agentproof": {
+    "installed_skill_read": true,
+    "request_contract_read": true,
+    "supported_repository_profile_read": true,
+    "old_receipt_sha256": "c8592dce205d56d5b9d71787352e46827b0495d0c54b4e82a0c9d1874c68747e",
+    "old_receipt_unchanged_from_worktree_preflight": true,
+    "historical_verification": {
+      "action": "verify",
+      "limits": [
+        "cooperative_operator_side_capture",
+        "observed_events_may_be_incomplete",
+        "integrity_does_not_establish_truth_or_quality",
+        "no_identity_compliance_or_economic_authority",
+        "no_independent_public_timestamp"
+      ],
+      "receipt_valid": true,
+      "repository": {
+        "checked_file_count": 0,
+        "files": [],
+        "mismatches": [],
+        "result": "MATCH",
+        "valid": true
+      },
+      "result": "MATCH"
+    },
+    "new_capture_started": false,
+    "baseline_commit_rejection_preserved": "Blocked by PreToolUse hook: Blocked by CompText Guard: git commit requires explicit release scope.",
+    "detached_scope": {
+      "profile_supported_git_root": true,
+      "included_file_count": 167,
+      "unobserved_source_input_count": 1,
+      "observation_boundary": "Git-ignored source fixture is excluded from receipt snapshots under the documented profile. A hypothetical code-only capture would require explicit scope disclosure; no fresh runtime success is claimed."
+    },
+    "new_child_or_service_started": false,
+    "no_boundary_weakened": true
+  },
+  "plugins": {
+    "SuperJev": "Actual current cloud decision plus installed checkpoint verifier; context method applied.",
+    "Supermemory": "Actual readback of generation checkpoint XRzkKhcC4tZfZzwyV7KNkQ, document and memory extraction done; not authority or independent mathematical proof.",
+    "Superpowers": "verification-before-completion method applied to fresh task-selected hash checks and exact checkpoint integrity output.",
+    "Canonical Memory Verifier": "Installed selected-bundle contract inspected; no explicitly selected conforming external memory bundle supplied, so verifier not invoked and no candidate conformance claim made.",
+    "Supplement Intelligence": "Installed skill is dietary supplement ingredient/product evidence only; no applicable ingredient/product question, so no runtime invoked.",
+    "Scout": "Material blind-spot review applied: old checkpoint can be intact yet stale; reference to current mandate and correction history is required. This is included in the review rather than an extra repeated user-facing Scout block.",
+    "Sacred Timeline Research": "Native assertion, event/generation/address and source-versus-generated layers preserved for continuity; source-contract commit01fb01ea42cef7361ba8ab608cf1765fb72f0d55 reviewed. No new historical graph import or certified chronology."
+  },
+  "evidence": [
+    {
+      "path": "docs/evidence/continuation-guard-jev-request.json",
+      "sha256": "ca5d6220b07cbb6ed7f1ca445195f98036792c803aa4df2aacac42be70468e27"
+    },
+    {
+      "path": "docs/evidence/continuation-guard-jev-result.json",
+      "sha256": "6b07839533191156a9d5d6b48ccad1bf19b9b2d7c801c474da173978f0ecd98b"
+    },
+    {
+      "path": "docs/evidence/continuation-existing-checkpoint-verification.json",
+      "sha256": "19c851f577bb68631e15f5ee8dbdb7db0968984385a3af39adfe5cbbe771a359"
+    },
+    {
+      "path": "docs/evidence/continuation-supermemory-retrieved.json",
+      "sha256": "15c6a00770b2ab56df2df2d4db897f2222a26a7ed67dbf7a5297bcceeaa88336"
+    },
+    {
+      "path": "docs/evidence/mandate-input-preservation.json",
+      "sha256": "72a1194c37fba00bda534ebd12274ca08f681a6e5c24fbede991dc07853399a7"
+    },
+    {
+      "path": "docs/evidence/mandate-agentproof-existing-verification.json",
+      "sha256": "0233b204249da6b83f543564b941a9e474f6500828454a74766342553822e9ed"
+    },
+    {
+      "path": "docs/evidence/mandate-agentproof-blocked.json",
+      "sha256": "69679b69b380d5dbed58f44b65c6b965b8c8bc540088a485684dfed0140eef93"
+    },
+    {
+      "path": "docs/evidence/extended-agentproof-worktree-scope.json",
+      "sha256": "e8663bf3a7f88e33339deeef97f7e421ffc5812dcae72cb651bce465930fa379"
+    },
+    {
+      "path": "docs/evidence/continuation-guard-supermemory-save.json",
+      "sha256": "8324dada8489acb3c8b570dfbc4875c4a30d5b6d119942c75f215e2de6cb3fda"
+    },
+    {
+      "path": "docs/evidence/continuation-guard-supermemory-readback.json",
+      "sha256": "119ceaa433bd8c49a0924c1c4429a1a0f5df46d75b85fcc70a2d29bab4c44882"
+    }
+  ],
+  "pending": "Root final integration/checkpoint refresh. CONTINUE.md initial independent review passed; later revision must be linked to fresh final validation.",
+  "boundaries": [
+    "No mathematical Mission I completion certified here.",
+    "No account completeness, deletion-impossibility or original-image-access claim.",
+    "No .codex files, durable local user memory, trust settings, ignore rules or plugin runtime modified.",
+    "All child-local commands completed; no persistent process started."
+  ],
+  "continuation_document_review": {
+    "checked_utc": "2026-11-01T00:01:24.182651+00:00",
+    "path": "CONTINUE.md",
+    "bytes": 7996,
+    "sha256": "ef8a84a93019aa50a93b339b2068edd791df3ca9b03c866ff076cccd9aeb491a",
+    "checks": {
+      "current_mandate_not_replaced": true,
+      "mission_incomplete": true,
+      "check_envelope_freshness": true,
+      "compare_model_verification_hash": true,
+      "do_not_restart_acquisition": true,
+      "do_not_promote_model_probability": true,
+      "source_count_qualified_before_publication": true,
+      "phase_preserving_family_retained": true,
+      "timing_not_audible": true,
+      "agentproof_failure_not_pass": true,
+      "full_suite_failure_retained": true,
+      "references_exist": true,
+      "conditional_laws_count_11": true,
+      "no_completed_master_score_claim": true
+    },
+    "referenced_paths": [
+      {
+        "path": "state/task.json",
+        "exists": true
+      },
+      {
+        "path": "PLAN.md",
+        "exists": true
+      },
+      {
+        "path": "docs/HUMMBL_PLAN.md",
+        "exists": true
+      },
+      {
+        "path": "docs/reconstruction/CURRENT_MODEL.md",
+        "exists": true
+      },
+      {
+        "path": "docs/evidence/reconstruction-verification.json",
+        "exists": true
+      },
+      {
+        "path": "docs/PLUGIN_CAPABILITIES.md",
+        "exists": true
+      },
+      {
+        "path": "scripts/refresh_reconstruction_checkpoint.py",
+        "exists": true
+      },
+      {
+        "path": "scripts/quarterback.py",
+        "exists": true
+      },
+      {
+        "path": "state/continuation-integration-jev-request.json",
+        "exists": true
+      },
+      {
+        "path": "docs/evidence/continuation-integration-superjev.json",
+        "exists": true
+      }
+    ],
+    "result": "PASS",
+    "freshness_boundary": "Root is still integrating; this reviewed version explicitly describes integration as pending. Refresh integration paragraph, artifact hashes and score status after final verification. Mathematical truth independently reviewed by separate math worker, not certified by note conformity."
+  },
+  "supermemory_checkpoint": {
+    "id": "W7vYBStBbKhWHbsf4rppqU",
+    "save_receipt": "docs/evidence/continuation-guard-supermemory-save.json",
+    "readback_receipt": "docs/evidence/continuation-guard-supermemory-readback.json",
+    "scope": "Initial independent continuity review; root final checkpoint will supersede integration-pending details."
+  }
+}

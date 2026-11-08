@@ -1,0 +1,225 @@
+{
+  "schema": "sunny.matched-audio.measurements.v1",
+  "created_utc": "2026-11-04T03:29:36.243286+00:00",
+  "method_sha256": "d86bc218ad22d293b954fa3cb3efb7e181a5fd69d00e632e0d55c94715d2d04c",
+  "acquisition_sha256": "ee0fb45518c39d861886f05fe5802ea0544316287fdc0caaed94458c2e2cf57c",
+  "decoder": {
+    "module_path": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-miniaudio-analysis\\miniaudio.py",
+    "python_binding_version": "1.71",
+    "native_library_version": "0.11.25",
+    "existing_environment_reused": true,
+    "module_sha256": "282bbe1d936a67b942597303a534e42fdfe407c245686dab5949f46027b59d7f",
+    "native_extension_sha256": "3e9f14ec375e08e6779365d39936609a0675dd0c9afaaaad41eb3a392184512a",
+    "new_packages_installed": 0
+  },
+  "analysis_runtime": {
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "numpy": "2.2.5",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8"
+  },
+  "tracks": [
+    {
+      "id": "OBP.0163.06",
+      "reader": "Alex Foreman",
+      "condition": "without melody",
+      "source": "state/research/reactivation/matched-audio/sources/OBP.0163.06.mp3",
+      "source_sha256": "de4732cf81c83a98329207f414eba384d7ea8bfdc778505ead37dcafb258a17c",
+      "mp3_info": {
+        "sample_rate": 44100,
+        "channels": 2,
+        "num_frames": 7632240,
+        "duration_s": 173.06666666666666
+      },
+      "native_decode": {
+        "sample_rate": 44100,
+        "channels": 2,
+        "interleaved_samples": 15264480,
+        "frames": 7632240,
+        "duration_s": 173.06666666666666,
+        "sample_format": "signed16 PCM"
+      },
+      "native_statistics": {
+        "peak_absolute_digital_fraction": 0.9871826171875,
+        "rms_digital_fraction": 0.15619248909329553,
+        "rms_dbfs": -16.126797081871423,
+        "full_scale_code_samples": 0,
+        "exact_zero_code_samples": 125236,
+        "limit": "Digital values only; full-scale codes are not proof of clipping and zeros do not establish phonetic silence."
+      },
+      "analysis_decode": {
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_format": "signed16 PCM",
+        "frames": 2769067,
+        "duration_s": 173.0666875,
+        "resampling": "miniaudio decode_file conversion from native source; no dither; no additional denoising/normalization"
+      },
+      "opening_0_15s": {
+        "actual_duration_s": 15.0,
+        "activity_mark_s": 0.615,
+        "activity_mark_is_linguistic_boundary": false,
+        "periodicity_frames": 1495,
+        "accepted_periodicity_candidates": 730,
+        "candidate_median_hz": 143.809164,
+        "candidate_10_90_percentile_hz": [
+          115.4324411,
+          186.07237790000002
+        ],
+        "limit": "Exposed opening time window, with octave/subharmonic ambiguity. No token or melodic comparison is inferred from these pooled values."
+      },
+      "derived": [
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.06.native-s16.wav",
+          "bytes": 30529004,
+          "sha256": "8240166313c15375e4bc0a44cf8650393b22c20a9ba4ea063f01257fd9c24815"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.06.mono16k-s16.wav",
+          "bytes": 5538178,
+          "sha256": "5a3620b744f96e25e5ede4ab5a1b0ef5568aaabd52f54de20ca6bf21acd185b5"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.06.opening15s.wav",
+          "bytes": 480044,
+          "sha256": "27cbaab23b5057aabf5e469b860777b0d6063f628a1dec826c4028cd4d5e4269"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.06.opening-periodicity.csv",
+          "bytes": 71052,
+          "sha256": "a2c5fe297f8557c5d3e1abe8cb6fd3fd20df962204315b0b8ac90c64d92c2d31"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.06.opening-rms.csv",
+          "bytes": 96460,
+          "sha256": "926be0483d671cdb008d5e1daf41aa2219195982d9148f38078cfbc2629aa575"
+        }
+      ]
+    },
+    {
+      "id": "OBP.0163.07",
+      "reader": "Alex Foreman",
+      "condition": "with Sefardi melody",
+      "source": "state/research/reactivation/matched-audio/sources/OBP.0163.07.mp3",
+      "source_sha256": "1d9667de1cf1bf242028c1d403994ce1f3899869ccd515de6c98ae4600731475",
+      "mp3_info": {
+        "sample_rate": 44100,
+        "channels": 2,
+        "num_frames": 16517376,
+        "duration_s": 374.5436734693877
+      },
+      "native_decode": {
+        "sample_rate": 44100,
+        "channels": 2,
+        "interleaved_samples": 33034752,
+        "frames": 16517376,
+        "duration_s": 374.5436734693877,
+        "sample_format": "signed16 PCM"
+      },
+      "native_statistics": {
+        "peak_absolute_digital_fraction": 0.98248291015625,
+        "rms_digital_fraction": 0.07779678943370368,
+        "rms_dbfs": -22.18076650750621,
+        "full_scale_code_samples": 0,
+        "exact_zero_code_samples": 141103,
+        "limit": "Digital values only; full-scale codes are not proof of clipping and zeros do not establish phonetic silence."
+      },
+      "analysis_decode": {
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_format": "signed16 PCM",
+        "frames": 5992699,
+        "duration_s": 374.5436875,
+        "resampling": "miniaudio decode_file conversion from native source; no dither; no additional denoising/normalization"
+      },
+      "opening_0_15s": {
+        "actual_duration_s": 15.0,
+        "activity_mark_s": 1.345,
+        "activity_mark_is_linguistic_boundary": false,
+        "periodicity_frames": 1495,
+        "accepted_periodicity_candidates": 622,
+        "candidate_median_hz": 175.4325015,
+        "candidate_10_90_percentile_hz": [
+          132.0129397,
+          181.4473223
+        ],
+        "limit": "Exposed opening time window, with octave/subharmonic ambiguity. No token or melodic comparison is inferred from these pooled values."
+      },
+      "derived": [
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.07.native-s16.wav",
+          "bytes": 66069548,
+          "sha256": "31665eb6a3893247add43d79cf99a056b51ad0f81cf07f2e67d932665efbd231"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.07.mono16k-s16.wav",
+          "bytes": 11985442,
+          "sha256": "b1ba818c93e50be05f4c9c10d16a09332b034be2edaa1f78fdaf2025939f796f"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.07.opening15s.wav",
+          "bytes": 480044,
+          "sha256": "ebdbc8f51b17257be817e9977359f3779386b7131490dbb4110281a3ddf71412"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.07.opening-periodicity.csv",
+          "bytes": 71095,
+          "sha256": "7846102aef61df4f7151b305f588c5357e0fa107330db6dcc6f0c2a049f8d858"
+        },
+        {
+          "path": "state/research/reactivation/matched-audio/derived/OBP.0163.07.opening-rms.csv",
+          "bytes": 96061,
+          "sha256": "42bb0895b010cc24c8097112b7a6d473c05390175ec23de6011ccffceb1b9865"
+        }
+      ]
+    }
+  ],
+  "token_alignment": [
+    {
+      "id": "Gen1.1-w1-alef",
+      "documentary_role": "No corresponding [ʔ] marker in displayed first profile",
+      "audio_intervals": {
+        "OBP.0163.06": null,
+        "OBP.0163.07": null
+      },
+      "glottal_realization": "indeterminate",
+      "reason": "No actual listening or independently validated token alignment in this run."
+    },
+    {
+      "id": "Gen1.1-w2-alef",
+      "documentary_role": "No corresponding [ʔ] marker in displayed first profile",
+      "audio_intervals": {
+        "OBP.0163.06": null,
+        "OBP.0163.07": null
+      },
+      "glottal_realization": "indeterminate",
+      "reason": "No actual listening or independently validated token alignment in this run."
+    },
+    {
+      "id": "Gen1.1-w3-alef",
+      "documentary_role": "Initial [ʔ] explicitly marked",
+      "audio_intervals": {
+        "OBP.0163.06": null,
+        "OBP.0163.07": null
+      },
+      "glottal_realization": "indeterminate",
+      "reason": "No actual listening or independently validated token alignment in this run."
+    }
+  ],
+  "verified_aligned_tokens": 0,
+  "plot": {
+    "path": "state/research/reactivation/matched-audio/derived/opening-comparison.png",
+    "sha256": "76852cb5133e73954ec0980644bd9f32ea4ee5732b424208b9f5562b240cd519"
+  },
+  "exposure": "Prior documentary source roles and retained Jev direction were known; opening analysis is exposed and not a blind prediction.",
+  "not_established": [
+    "Any Alef token's phonetic realization",
+    "Duration of a source-aligned glottal event",
+    "Pitch of a particular source syllable",
+    "Equal phonetic behavior between the two conditions",
+    "Ancient waveform, inventor intention, native Western prescription or absolute Hz per glyph"
+  ],
+  "new_model_requests": 0,
+  "persistent_processes_started": 0,
+  "protected_configuration_writes": 0
+}

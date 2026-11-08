@@ -1,0 +1,589 @@
+{
+  "schema": "sunny.coverage-reconciliation.v1",
+  "created_utc": "2026-11-01T04:44:34.568002+00:00",
+  "method_receipt": "docs/evidence/continuation-coverage-design-jev-result.json",
+  "database_read_only": true,
+  "database_counts": {
+    "sources": 2096,
+    "conversations": 1035,
+    "messages": 60398,
+    "nodes": 46267,
+    "documents": 1958,
+    "refs": 76981,
+    "decisions": 5889,
+    "search_index": 62356
+  },
+  "prior_outputs": [
+    {
+      "path": "state/checkpoint-history/before-coverage-coverage.json-c795f8a22738300b7805f2679b91f83acaa05acfcdd184d8990dedc8cccf8f7f.snapshot",
+      "sha256": "c795f8a22738300b7805f2679b91f83acaa05acfcdd184d8990dedc8cccf8f7f",
+      "original_path": "state/reconstruction/coverage.json"
+    },
+    {
+      "path": "state/checkpoint-history/before-coverage-COVERAGE.md-547a22e079cf0ab13e6c5c741335f81e3569a286b92600479805063f99ffeb9d.snapshot",
+      "sha256": "547a22e079cf0ab13e6c5c741335f81e3569a286b92600479805063f99ffeb9d",
+      "original_path": "docs/reconstruction/COVERAGE.md"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "state/reconstruction/coverage.json",
+      "sha256": "356621673765e4de32c4c4856f63e586686b3ce5463c4799a8b0c984b57b04f6"
+    },
+    {
+      "path": "docs/reconstruction/COVERAGE.md",
+      "sha256": "9f215dc2e52dd9883fc2877d9e16294f70f1e7f3f6bcadf8c75c997f5a643ec9"
+    }
+  ],
+  "input_preservation_receipt": {
+    "path": "docs/evidence/mandate-input-preservation.json",
+    "sha256": "72a1194c37fba00bda534ebd12274ca08f681a6e5c24fbede991dc07853399a7",
+    "modified": false
+  },
+  "module_revisions": [
+    {
+      "name": "decisions",
+      "path": "state/reconstruction/decisions.json",
+      "sha256": "b01a08f26e1cd89cfac42db5ff82396d5c97a5c889e3b143df6cb016a7730dba"
+    },
+    {
+      "name": "music-geometry",
+      "path": "state/reconstruction/music-geometry.json",
+      "sha256": "82729a117e01fdf62f5004a4e45a8151a81d1f6d9cef926f66527499ade0976e"
+    },
+    {
+      "name": "correspondences",
+      "path": "state/reconstruction/correspondences.json",
+      "sha256": "17235b6f11ff33450bcb0835a6f3ccf777cfe64099dbeb4f06b9e70f0aaa0cf3"
+    },
+    {
+      "name": "alignment",
+      "path": "state/reconstruction/alignment.json",
+      "sha256": "5c0bba17b4ff17fdceedc25fa9b15aa9a9ed682e4f8a79b8edf9fab6ec99b8a7"
+    },
+    {
+      "name": "tables",
+      "path": "state/reconstruction/tables.json",
+      "sha256": "4b520df04905692ee3d91b85fd4468b337d70c138404773c38e5fbc332fec33b"
+    },
+    {
+      "name": "native-derivations",
+      "path": "state/reconstruction/native-derivations.json",
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b"
+    },
+    {
+      "name": "native-execution",
+      "path": "state/reconstruction/native-execution.json",
+      "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7"
+    },
+    {
+      "name": "orientation-predictions",
+      "path": "state/reconstruction/orientation-predictions.json",
+      "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc"
+    },
+    {
+      "name": "tol-history-math",
+      "path": "state/reconstruction/tol-history-math.json",
+      "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126"
+    },
+    {
+      "name": "generational-constraints",
+      "path": "state/reconstruction/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0"
+    },
+    {
+      "name": "algebraic-extension",
+      "path": "state/reconstruction/algebraic-extension.json",
+      "sha256": "636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e"
+    },
+    {
+      "name": "derived-laws",
+      "path": "state/reconstruction/derived-laws.json",
+      "sha256": "fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1"
+    },
+    {
+      "name": "master-score",
+      "path": "state/reconstruction/master-score.json",
+      "sha256": "f6fcb3a8c3ab6bff94fcd2adacfce250e2b0bb7f90809eda4f92d00a66f34033"
+    },
+    {
+      "name": "hierarchy-atlas",
+      "path": "state/reconstruction/hierarchy-atlas.json",
+      "sha256": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312"
+    },
+    {
+      "name": "musical-hierarchies",
+      "path": "state/reconstruction/musical-hierarchies.json",
+      "sha256": "3d5ed567f5c473787f4e61a658fd15310aab3b59c87d70f519fa771f54376cf6"
+    },
+    {
+      "name": "angelic-hierarchy-supplement",
+      "path": "state/reconstruction/angelic-hierarchy-supplement.json",
+      "sha256": "1862651b24d362158de5b0d0d36637675e0cd87f2db8793cc9720469c6140c5f"
+    },
+    {
+      "name": "hierarchy-atlas-combined",
+      "path": "state/reconstruction/hierarchy-atlas-combined.json",
+      "sha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7"
+    }
+  ],
+  "module_count": 17,
+  "math_unit_count": 12,
+  "pending_math_units": [],
+  "message_contacts": 382,
+  "source_contacts": 51,
+  "semantic_completion": null,
+  "current_reconciliation": {
+    "prior_outputs": [
+      {
+        "path": "state/checkpoint-history/before-coverage-coverage.json-c795f8a22738300b7805f2679b91f83acaa05acfcdd184d8990dedc8cccf8f7f.snapshot",
+        "sha256": "c795f8a22738300b7805f2679b91f83acaa05acfcdd184d8990dedc8cccf8f7f",
+        "original_path": "state/reconstruction/coverage.json"
+      },
+      {
+        "path": "state/checkpoint-history/before-coverage-COVERAGE.md-547a22e079cf0ab13e6c5c741335f81e3569a286b92600479805063f99ffeb9d.snapshot",
+        "sha256": "547a22e079cf0ab13e6c5c741335f81e3569a286b92600479805063f99ffeb9d",
+        "original_path": "docs/reconstruction/COVERAGE.md"
+      }
+    ],
+    "prior_counts": {
+      "sources": 2049,
+      "conversations": 1035,
+      "messages": 60398,
+      "nodes": 46267,
+      "documents": 1941,
+      "refs": 76981,
+      "decisions": 5889,
+      "search_index": 62339
+    },
+    "current_counts": {
+      "sources": 2096,
+      "conversations": 1035,
+      "messages": 60398,
+      "nodes": 46267,
+      "documents": 1958,
+      "refs": 76981,
+      "decisions": 5889,
+      "search_index": 62356
+    },
+    "count_delta": {
+      "sources": 47,
+      "conversations": 0,
+      "messages": 0,
+      "nodes": 0,
+      "documents": 17,
+      "refs": 0,
+      "decisions": 0,
+      "search_index": 17
+    },
+    "added_source_occurrences": [
+      {
+        "id": "0029cb9fd0af684ec23f216aee6fbdfaa3b60ef1d20445d5632396a7cbb70caa",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\7115f18936de15309b3a222869350040d21b8182fdf47e2b641f0244ea3ce08e\\original.png",
+        "kind": "hierarchy:user-supplied-historical-diagram-image",
+        "sha256": "7115f18936de15309b3a222869350040d21b8182fdf47e2b641f0244ea3ce08e",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "0fa71ee398a6ca58f7fbdd1d20959171c507a960a0d2275d7efe37b5319372bc",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\2bc0d645a630e974bfe5281ec977e6f315ddab29b479bbeaae3b8b4890c0cacd\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "2bc0d645a630e974bfe5281ec977e6f315ddab29b479bbeaae3b8b4890c0cacd",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "12274fde9c4eea6b2909ec2d39a7e9fda5e6c82d848fa50404ec26da4e73e5e5",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\c4b8af2537a343df7989852f1caf0b3b8cbb6a460d1a14ce45a66ca759bd3336\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "c4b8af2537a343df7989852f1caf0b3b8cbb6a460d1a14ce45a66ca759bd3336",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "1b0224dc1b21c335d0704b6d485d4fe709f184c8d609f1cb47ab8fe59b9a2466",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\70f396b60dddc908d0231ec54a51bba992094b4ead8578220cda521e5a643361\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "70f396b60dddc908d0231ec54a51bba992094b4ead8578220cda521e5a643361",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "1cd94c0f3a6a72fa09dd16b311e1f2720e3553b6ddb29ef3328c4c8a23890ebc",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\797c7ddc5ed7fdc4da683f2bac6104a86cac41985e857e38f0896a099098cbcb\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "797c7ddc5ed7fdc4da683f2bac6104a86cac41985e857e38f0896a099098cbcb",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "1ddb52a477d02537bf949106fa6b3c4262dd90feca6906373993434dbe80c63f",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\95ed9a8c71630e0dc616e6fa7ab458239753983b650942af876388234ed25dff\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "95ed9a8c71630e0dc616e6fa7ab458239753983b650942af876388234ed25dff",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "1fb9fa4aed6c1db380f87a50ed4bcbff17bdd54343feddd7f62394819903e2b8",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\cfebcabf08a57c77d00758bad307a97e0c05412dff202f2216b968ec037b3c45\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "cfebcabf08a57c77d00758bad307a97e0c05412dff202f2216b968ec037b3c45",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "29dd1cb94c23e9402426a6bfbea077d7f853f08baae3672c6a19f2e091c8ec14",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-derived\\ce8ba04ab9f36cbb84b9e83f8afaea8760c35d2cb596ce47a5e469e3385f419a\\hierarchy-native-name-extraction.json",
+        "kind": "hierarchy:derived-source-extraction",
+        "sha256": "ce8ba04ab9f36cbb84b9e83f8afaea8760c35d2cb596ce47a5e469e3385f419a",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "2cdac51eddcb848c793f4e5a2364fff5a056b511e37d0ba3a440f4681b318400",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-primary\\d1c45c956abf44b13620a8dbfb3c479e03154654e60e10934d19b43172e47d7f\\goetia_de_laurence_1916.html",
+        "kind": "hierarchy:historical-digital-transcription",
+        "sha256": "d1c45c956abf44b13620a8dbfb3c479e03154654e60e10934d19b43172e47d7f",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "33e24f18cb56ca268ecb88bd0c4268390c8a969c7253a2af54b0868aa99cb764",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\8ae659fd2f673d1eeb20a510d753e00eba3b16ed0f9dcef052eca49fe1d07f0f\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "8ae659fd2f673d1eeb20a510d753e00eba3b16ed0f9dcef052eca49fe1d07f0f",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "39f3b5eeb666e4a219cf98c14083c0e5740d32cbe109afde6e0dab91332d6403",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\angelic-primary\\3efdd712d3730ed9cb6c2d2dc1e137cee01d7e770ea77edfc8dfaf31e0379814\\pd_ch_viii.html",
+        "kind": "hierarchy:primary_transcription",
+        "sha256": "3efdd712d3730ed9cb6c2d2dc1e137cee01d7e770ea77edfc8dfaf31e0379814",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "419ef044d82218274c969c27bbb897f7e6e8638a9c6b52175b6ceba4cdd244d5",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\musical-hierarchy-sources\\83356e85c0b5bc906fa3198b2868a0e545519cc8143f5a20bc684fcc68055ada\\source.html",
+        "kind": "hierarchy:public_primary_text_transcription",
+        "sha256": "83356e85c0b5bc906fa3198b2868a0e545519cc8143f5a20bc684fcc68055ada",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "44619157f4e72ef4426226d9f5ac3ea3d6590907f2aa258b2478aebc6dfa7038",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\2899716c381d3f2e8ca84e14225e6c7b4d801ed94246bf29705ad24505e7b3c1\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "2899716c381d3f2e8ca84e14225e6c7b4d801ed94246bf29705ad24505e7b3c1",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "458c38a1d7ce796f9fe097b18acc422d80aff47ee5916a72ce73f7adfb308496",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\7afb15e22ec2b2cec51b6c6a1887fee081ff3fe7bcf2f30f3a6964f4dbc8a60f\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "7afb15e22ec2b2cec51b6c6a1887fee081ff3fe7bcf2f30f3a6964f4dbc8a60f",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "46c976728e0e9903de6715d3f45380fb22bfdc2d3f7fc89ea36806515becd8a5",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\b0d4de4acbaa253f2dbcab66fc46084775049e01fbcf37d8782bdab221c82c6a\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "b0d4de4acbaa253f2dbcab66fc46084775049e01fbcf37d8782bdab221c82c6a",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "4a04e06be108d26d5b747748543341e0cc3e78d569688bf2c303045cc69700c5",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\angelic-primary\\a33d9ff2bf985a24ddabd43b3fea99b6f4b0849da336f4e6b9bdd22289cfc0f9\\pd_ch_vi.html",
+        "kind": "hierarchy:primary_transcription",
+        "sha256": "a33d9ff2bf985a24ddabd43b3fea99b6f4b0849da336f4e6b9bdd22289cfc0f9",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "4e80d6bfe4fc8e80e6aeda9b076491c8102b62f7529ac054269897bbbf153bd2",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\angelic-primary\\669b1ba183e4a856d81208df59a6680e09e8b073a037098c72a48c88c2206f79\\irenaeus_i_5.html",
+        "kind": "hierarchy:primary_transcription",
+        "sha256": "669b1ba183e4a856d81208df59a6680e09e8b073a037098c72a48c88c2206f79",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "57c3fb8746c59b298ebaf66a2afc960e89a931eb6ee9249cc0781e68993b6b26",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-derived\\1aad03a03439c4a1f557360dbb1e10b1f7a21e379451aa6837d5ea535008fc0b\\hierarchy-origin-witness-recovery.json",
+        "kind": "hierarchy:derived-source-register",
+        "sha256": "1aad03a03439c4a1f557360dbb1e10b1f7a21e379451aa6837d5ea535008fc0b",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "62e9ff5d58908fe136735ecb99d893a32ad38beaba24b93d1e099e85a6e984d0",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\1d805f2f929a6ce59d15a020c199da110810d113058dd7be675058aaa97a53e9\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "1d805f2f929a6ce59d15a020c199da110810d113058dd7be675058aaa97a53e9",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "633b9d78f0d4e723085356697a49fd8a5e5dd8dcce22da80244fdfa21de9b770",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\musical-hierarchy-sources\\329a79c26d0dfff12ea48cddcf445dcd2dda37055cde4844e054ab2731a80662\\source.html",
+        "kind": "hierarchy:original_analytical_paper",
+        "sha256": "329a79c26d0dfff12ea48cddcf445dcd2dda37055cde4844e054ab2731a80662",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "65404009f799486734e2616ff3e10a9cc45a7093cf644f72fe03f1960f0d13bd",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\musical-hierarchy-sources\\018cbfc6209a692986cbcbbce7fa91fa0f6ba5002ee02c064e780797269fc3cf\\source.html",
+        "kind": "hierarchy:public_primary_text_transcription",
+        "sha256": "018cbfc6209a692986cbcbbce7fa91fa0f6ba5002ee02c064e780797269fc3cf",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "74ddc12e43c36f262fbd53d2fc6891f481ad237452d617c624b9ef0577490712",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\74713030aa3b182bd1fde35bcd0ef1f8350f7084837514c81ebd881733650ed8\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "74713030aa3b182bd1fde35bcd0ef1f8350f7084837514c81ebd881733650ed8",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "7631ca511e1b90e1b00f1f109ff39ec756244f030c9196799bed8cf4abb74071",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\2f03a28336912d04cb94459d1082cbec9daa9eab6c4ce44daaad5e14eda973d4\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "2f03a28336912d04cb94459d1082cbec9daa9eab6c4ce44daaad5e14eda973d4",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "77578dcfc8b3afa2310534a4cbd84d8ced58269b0860ca61461a5f8d4c74511c",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\angelic-primary\\df6f41b6aa2137a82c97ce14480246ce41b39b1f98a645100ffa158074eb439c\\pd_ch_vii.html",
+        "kind": "hierarchy:primary_transcription",
+        "sha256": "df6f41b6aa2137a82c97ce14480246ce41b39b1f98a645100ffa158074eb439c",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "7902c87d4654a689cd690552df96a7513ffe4ed10aabf3f3bf2092ac8c6033ac",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\angelic-primary\\f1406c2c7beedf55a975fa8e11c2397acefd590b93b119abae0e3bd175015014\\pd_ch_ix.html",
+        "kind": "hierarchy:primary_transcription",
+        "sha256": "f1406c2c7beedf55a975fa8e11c2397acefd590b93b119abae0e3bd175015014",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "7cde679f12afe9bdd01911bc1fb90d55721b978c1f55bbf8398758e33c3cda1e",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\angelic-primary\\irenaeus-i4-web-tool-response.json",
+        "kind": "hierarchy:preserved-web-tool-text-response",
+        "sha256": "63b1e3894123f2e6858d47dff458c73a1c57900d69b8bc4ae3dc675bd18a63c6",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "7fc23ee85e2605929f81cf6e66ee72efe97c81a9aec9497dcb47fba1dd33186e",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-derived\\2e25746ed571cfacdb8532c37260fd967b914e5c733387431d4d49c2eb49cab2\\CURRENT_MODEL.md",
+        "kind": "derived_current_model_reconstruction",
+        "sha256": "2e25746ed571cfacdb8532c37260fd967b914e5c733387431d4d49c2eb49cab2",
+        "is_derived_reconstruction": true
+      },
+      {
+        "id": "7fd48f569e211d73c9cc366cfd8d7ee220f7a2a92aca8a3e77a040655d91c739",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\94b9f23e431f2973980cf1b3b46d128323566b432423e1a4bc035aaad903425d\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "94b9f23e431f2973980cf1b3b46d128323566b432423e1a4bc035aaad903425d",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "82c44511ef9f6d972c27acd79e5de8dea32f9f524eb700c40ccb29a7ff9abc6c",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\5a61c5cdb2bdaf84b97883e6d7e89d35600061b6a6de2336965b60ec32b3767b\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "5a61c5cdb2bdaf84b97883e6d7e89d35600061b6a6de2336965b60ec32b3767b",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "8a99ad765e7c4c9b5ba828360161b4b0b33758e93f21b3bcf4665e6fc7831e0e",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\2ddc11ee8a58dd69d0f601405616747a1a0f04753871651d7121273bb915082a\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "2ddc11ee8a58dd69d0f601405616747a1a0f04753871651d7121273bb915082a",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "9e49e434b7799d0c8ed8257efd01aa84896b2a8ffe3bfae0592d2bf651a2b824",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-primary\\350343463bfa38fadb5391e9939a7c1548bd6fbea8dd22529b6bb3d3ee54da99\\irenaeus_i_11.html",
+        "kind": "hierarchy:historical-digital-transcription",
+        "sha256": "350343463bfa38fadb5391e9939a7c1548bd6fbea8dd22529b6bb3d3ee54da99",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "a3ddf7735301a3d28d150068337aebfc29c1646caa5d0deb46fea76453cadb56",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-primary\\d2c51836f37a0f225f160954957e50e5d291e6a27203a7a2b0aa1f6c12cca933\\goetia_peterson_sloane3825.html",
+        "kind": "hierarchy:historical-digital-transcription",
+        "sha256": "d2c51836f37a0f225f160954957e50e5d291e6a27203a7a2b0aa1f6c12cca933",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "ac8eebc24d2d0f6ab2463602b7d4045e6ec0e2a259d703c5821565a9550c7121",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-primary\\769e4eea060b19db382e2ae7c870ebaba1261aa024046d2e35a2231e72aab66f\\irenaeus_i_1.html",
+        "kind": "hierarchy:historical-digital-transcription",
+        "sha256": "769e4eea060b19db382e2ae7c870ebaba1261aa024046d2e35a2231e72aab66f",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "afd1e264634bac414766834642c2df81bc636044e1c23aa5cf3596ab743d6259",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\505f105c27953578eb0ed3fafb49ff2d4dfb91bed0e66d0516ca6b1eaf5687c9\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "505f105c27953578eb0ed3fafb49ff2d4dfb91bed0e66d0516ca6b1eaf5687c9",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "b68785fe31749595fb0aeca83f4e0059c87c0a6ef3a344cf7661996b3f42741d",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\6e1939129a8639713f824fe2dd65a253b1693f02e300bba7f6b58557e9bed107\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "6e1939129a8639713f824fe2dd65a253b1693f02e300bba7f6b58557e9bed107",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "b7903f49aeaf491834157af988be7ff30e65cff5b7659edc951a60ee5ec5e3e2",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\fe0ee8be94088e0b34924224e08cb80abc46868a8b238ddc937756502a388946\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "fe0ee8be94088e0b34924224e08cb80abc46868a8b238ddc937756502a388946",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "d05f80e737169a661d87c4e758a887a00dd964d8c7deabec45097c811e1bd4fd",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\bfe232625c4cae6e88672cb38d79d375ad49a699e2adfb916cc635c42dbc0659\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "bfe232625c4cae6e88672cb38d79d375ad49a699e2adfb916cc635c42dbc0659",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "d41d23dfaa2dde1346841336cfa5587a4b2e3e40cdcd4dde8e088cf820d80971",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\5331e05d23393b76e4867e8223573dab6d48bc4b9d2cd76bfc7b4b96026008a1\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "5331e05d23393b76e4867e8223573dab6d48bc4b9d2cd76bfc7b4b96026008a1",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "dc7aa1353d2d8f3a5dbd53295cef83d8d5e03c5083474f1e623ba6fef5c341fc",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\ff738d39c6e8301e3d59fe61d5274813cdbe606ead37dcd329c96d2c8502fabb\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "ff738d39c6e8301e3d59fe61d5274813cdbe606ead37dcd329c96d2c8502fabb",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "e815c448c6a697648732854c3c5116b66a6152f90ecd6d3b3edcd04c790bdef7",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\7cb1247553c2c410a2e77a1b5e4968ea4932a008e67f5262db2aa3ff7f1394c8\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "7cb1247553c2c410a2e77a1b5e4968ea4932a008e67f5262db2aa3ff7f1394c8",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "e8f49879bdc74b34d7eda09025cf9681689552e30d387090a0d58475d71e55cb",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\ae1327b5e111cba6f8d8aa68083ea393ae31ae5807776955839f8d9d4383994b\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "ae1327b5e111cba6f8d8aa68083ea393ae31ae5807776955839f8d9d4383994b",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "ef28a0dc3780f7456a6493cca079d06e434fe39c63625935d7532a6ce75a44a7",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\fc828ff26a0501f55f98ce2a9fa974144c06b55919b9c1c13f7466751a33cf56\\original.png",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "fc828ff26a0501f55f98ce2a9fa974144c06b55919b9c1c13f7466751a33cf56",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "f47453f5ee9bb69938a2225e9cc5846ea8fbf98e468c3d1173b80ac78fe0d360",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\c4f83b5094e57b50cb52f3e667be3ca3e602f221ce7a9b71cf11546a54e45461\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "c4f83b5094e57b50cb52f3e667be3ca3e602f221ce7a9b71cf11546a54e45461",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "f8a64c528397853413ab90d2384e3d13d11712d636b050f7076ad36b73eeffb8",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\77ea15463a53b10eacb6fcee6e7f5dba3db6f52c18cf9fb455d9d8473759d292\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "77ea15463a53b10eacb6fcee6e7f5dba3db6f52c18cf9fb455d9d8473759d292",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "f91f0ec2b68e5ce08909ac1538b4856c3ae97a92a077e45d3f95fe68ab397c83",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\a3c0aa3c1edb206495cf201eea7c18805e0e58c957ba0b6897a74057f61a230f\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "a3c0aa3c1edb206495cf201eea7c18805e0e58c957ba0b6897a74057f61a230f",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "f9384816b43e08cf36ad57418deced69e9e3e134c14770638daa40cd86925637",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-inputs\\95f2c00eaabbf705c34810cb09e0ece9cc73e93e42f22677ba87e6058837c385\\original.jpg",
+        "kind": "hierarchy:user_supplied_image",
+        "sha256": "95f2c00eaabbf705c34810cb09e0ece9cc73e93e42f22677ba87e6058837c385",
+        "is_derived_reconstruction": false
+      },
+      {
+        "id": "fd9f22d37a301cf5a8790b499383660d99c5796ea0e7b64e1f0bd813868ea5ec",
+        "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\hierarchy-primary\\82d756b08ec54df5d79ce18f90a006ed3393dff61f7f1f9a289c1966d045b65d\\irenaeus_i_12.html",
+        "kind": "hierarchy:historical-digital-transcription",
+        "sha256": "82d756b08ec54df5d79ce18f90a006ed3393dff61f7f1f9a289c1966d045b65d",
+        "is_derived_reconstruction": false
+      }
+    ],
+    "removed_source_ids": [],
+    "document_projections_attached_to_added_sources": [
+      {
+        "id": "a10994bd0e1bfc09eb52b66acff452f50017e0ff4049dcc80b7e6ac3b405e1a8",
+        "source_id": "ac8eebc24d2d0f6ab2463602b7d4045e6ec0e2a259d703c5821565a9550c7121"
+      },
+      {
+        "id": "e35c969f56cef3346a74ede466e6a2472c515516c39db6858c3f395db75e0d0b",
+        "source_id": "9e49e434b7799d0c8ed8257efd01aa84896b2a8ffe3bfae0592d2bf651a2b824"
+      },
+      {
+        "id": "c9ae171f5e4e17462e5c90b0002db8902998549fdb41670327a6551c8d4222ae",
+        "source_id": "fd9f22d37a301cf5a8790b499383660d99c5796ea0e7b64e1f0bd813868ea5ec"
+      },
+      {
+        "id": "8721b1c82a5047bc053a0d4b543f4aad8bdb3ca3ac2eb9157c6ef5784c98a3a0",
+        "source_id": "2cdac51eddcb848c793f4e5a2364fff5a056b511e37d0ba3a440f4681b318400"
+      },
+      {
+        "id": "77614ddb546ecbaad0d9ed75eff0c9758083995efedc80c5206023139ae61fdb",
+        "source_id": "a3ddf7735301a3d28d150068337aebfc29c1646caa5d0deb46fea76453cadb56"
+      },
+      {
+        "id": "00ec98d3b965a96261c5a2368cb03ee368cf270820061897acde2328f94fdab3",
+        "source_id": "57c3fb8746c59b298ebaf66a2afc960e89a931eb6ee9249cc0781e68993b6b26"
+      },
+      {
+        "id": "1397779c4bf908563b522047f0084a880a219d04b4f50a111d8e3a12c932f41f",
+        "source_id": "29dd1cb94c23e9402426a6bfbea077d7f853f08baae3672c6a19f2e091c8ec14"
+      },
+      {
+        "id": "f350a166e815b290edd81ed8283afc4161ea04baccf2e933978336dbae910854",
+        "source_id": "65404009f799486734e2616ff3e10a9cc45a7093cf644f72fe03f1960f0d13bd"
+      },
+      {
+        "id": "bb2b613c1debe2481a5e49dbb8df715f1894822edb3dd43c6cbd2f8be900e2b6",
+        "source_id": "419ef044d82218274c969c27bbb897f7e6e8638a9c6b52175b6ceba4cdd244d5"
+      },
+      {
+        "id": "140f2e7cd09c4723e62f7e7238ab61cebd4c29fc36fe52ba374da6052c5e31fa",
+        "source_id": "633b9d78f0d4e723085356697a49fd8a5e5dd8dcce22da80244fdfa21de9b770"
+      },
+      {
+        "id": "6f4aba1f95b8ecee78c3bfa13230c96dcbb1feea3d14b09bea82c19ee1c0226b",
+        "source_id": "4a04e06be108d26d5b747748543341e0cc3e78d569688bf2c303045cc69700c5"
+      },
+      {
+        "id": "7899ca56b188f7c54382246e2bae48b6dd656f78f264521244d4e6856bbb985f",
+        "source_id": "77578dcfc8b3afa2310534a4cbd84d8ced58269b0860ca61461a5f8d4c74511c"
+      },
+      {
+        "id": "635c1966d37e87c45e7a4bb0e1f7cb0e845af1639c61f2599c17221e9dddc9bd",
+        "source_id": "39f3b5eeb666e4a219cf98c14083c0e5740d32cbe109afde6e0dab91332d6403"
+      },
+      {
+        "id": "80bfd2e0f8ad3597dec221efcb981de38b84c74d9dad0dff689ef6cb015da57f",
+        "source_id": "7902c87d4654a689cd690552df96a7513ffe4ed10aabf3f3bf2092ac8c6033ac"
+      },
+      {
+        "id": "0ec9fb485114ca9c30695dd5f4a479c2621fe460d61636ea055e148905780577",
+        "source_id": "4e80d6bfe4fc8e80e6aeda9b076491c8102b62f7529ac054269897bbbf153bd2"
+      },
+      {
+        "id": "ac9888c42cb85c839a579540f6792f04a20d76c37ff1a8977486c94ba9449ca9",
+        "source_id": "7cde679f12afe9bdd01911bc1fb90d55721b978c1f55bbf8398758e33c3cda1e"
+      },
+      {
+        "id": "83412dc7728e62bcf00d92c93fc50f90fc34d283b1e43c8efeecd964de1179ba",
+        "source_id": "7fc23ee85e2605929f81cf6e66ee72efe97c81a9aec9497dcb47fba1dd33186e"
+      }
+    ],
+    "document_identity_boundary": "Previous coverage does not contain every document ID; this list covers documents attached to newly observed source IDs, not a complete document-ID change audit.",
+    "current_message_id_content_manifest_sha256": "c0e1bd7e763b806f6f93b83e70a75470833552390c7c989842b12a7d4ea44b5e",
+    "message_identity_boundary": "Current manifest is recorded for later comparison; equal message counts alone do not establish unchanged identities or contents.",
+    "historical_comparison_boundary": "Prior checkpoint comparisons are preserved exactly as historical evidence, not relabeled as fresh comparisons against this census."
+  },
+  "scope": "Census, occurrence paths and exact module-ID contacts only. No native source or mathematical module mutation; no whole-account, semantic, proof or MissionI completion claim.",
+  "input_preservation_unchanged_verified": true,
+  "structured_exit_code": 0
+}

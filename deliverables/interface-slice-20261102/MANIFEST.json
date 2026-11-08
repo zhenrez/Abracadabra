@@ -1,0 +1,474 @@
+{
+  "scope": "Bounded depth-two explicit path dependency slice; raw witnesses terminal. Not exhaustive account census or proof of semantic acceptance. Missing/unresolved dynamic references remain visible in included scripts.",
+  "files": [
+    {
+      "path": "state/mission.json",
+      "sha256": "d126bf2fc4261490c2ff80664049c6a1daeab3d4b16bf00afd7e8affd74ed73e",
+      "bytes": 32714,
+      "from": "seed"
+    },
+    {
+      "path": "state/task.json",
+      "sha256": "29f34636eee36d20c6833d308cb98d6bdc9667a60cb55cda4475674e8938db74",
+      "bytes": 21965,
+      "from": "seed"
+    },
+    {
+      "path": "docs/HUMMBL_PLAN.md",
+      "sha256": "2c5f142d2b9df4882e0fa2ecd235c2653368eaedc3a6a4ff68a4e66bf9a8f458",
+      "bytes": 18067,
+      "from": "seed"
+    },
+    {
+      "path": "docs/PLUGIN_CAPABILITIES.md",
+      "sha256": "fbfcb629736c08d576fb11df3c818ad337c379ec1f9a31b63c1d177044de743d",
+      "bytes": 34923,
+      "from": "seed"
+    },
+    {
+      "path": "work/jev-resume-20261102/HANDOFF.md",
+      "sha256": "a580fecdabcaf658668040bbd6d7c41104d1db7c85989b3404eaf5e35ebfdcae",
+      "bytes": 4580,
+      "from": "seed"
+    },
+    {
+      "path": "state/jev-receipts/000055-7e888363daa7.json",
+      "sha256": "76cc2baa0c2074031c92e007c8d86405859eff6f1778a70895b249bb34a6d001",
+      "bytes": 8160,
+      "from": "seed"
+    },
+    {
+      "path": "state/jev-receipts/000056-45128d97853d.json",
+      "sha256": "5c0774b96074b6bc0c60ad5843617096b9199a6542b3d5837aa9e16f482fb0e9",
+      "bytes": 8997,
+      "from": "seed"
+    },
+    {
+      "path": "docs/reconstruction/NATIVE_EXECUTION.md",
+      "sha256": "3b4d037a9b0ebb4969a1a54bfa5ca37daef11d4e5238119743c8fc94ffd0129c",
+      "bytes": 5200,
+      "from": "seed"
+    },
+    {
+      "path": "docs/reconstruction/NATIVE_DERIVATIONS.md",
+      "sha256": "df49c8c6bebef6955257804a6fc89677b145e414681818851166dde6dd67a4eb",
+      "bytes": 11502,
+      "from": "seed"
+    },
+    {
+      "path": "docs/reconstruction/MUSIC_GEOMETRY.md",
+      "sha256": "12f9b47eb7ec260bd75f3b3472e9bdd7e8d95c98c4551cd81cacee6de9b79b17",
+      "bytes": 14214,
+      "from": "seed"
+    },
+    {
+      "path": "docs/reconstruction/MUSICAL_HIERARCHIES.md",
+      "sha256": "f6ac90aa97265f1bf8686999692ea9c76d077406284569677e4c6aba71796549",
+      "bytes": 3006,
+      "from": "seed"
+    },
+    {
+      "path": "state/reconstruction/native-execution.json",
+      "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+      "bytes": 36639,
+      "from": "seed"
+    },
+    {
+      "path": "state/reconstruction/native-derivations.json",
+      "sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "bytes": 39663,
+      "from": "seed"
+    },
+    {
+      "path": "state/reconstruction/music-geometry.json",
+      "sha256": "82729a117e01fdf62f5004a4e45a8151a81d1f6d9cef926f66527499ade0976e",
+      "bytes": 6543917,
+      "from": "seed"
+    },
+    {
+      "path": "state/reconstruction/musical-hierarchies.json",
+      "sha256": "3d5ed567f5c473787f4e61a658fd15310aab3b59c87d70f519fa771f54376cf6",
+      "bytes": 1796240,
+      "from": "seed"
+    },
+    {
+      "path": "scripts/reconstruct_native_execution.mjs",
+      "sha256": "ae4df1f1ef0fbcdd1f864eb62e9b6054df454ed53987035e4e1d853d113c2d8b",
+      "bytes": 11873,
+      "from": "seed"
+    },
+    {
+      "path": "scripts/reconstruct_native_derivations.py",
+      "sha256": "41f14388d97e78eb9d184c9ed39c022dc29f93f637fbd1122f33cad2d5866bd3",
+      "bytes": 12043,
+      "from": "seed"
+    },
+    {
+      "path": "scripts/reconstruct_musical_hierarchies.py",
+      "sha256": "221d8f6820f025e50c350668987bba8c4f8ce92add5d64f994c64057acd5cd49",
+      "bytes": 49415,
+      "from": "seed"
+    },
+    {
+      "path": "src/native-operators.ts",
+      "sha256": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+      "bytes": 18785,
+      "from": "seed"
+    },
+    {
+      "path": "tests/native-operators.test.mjs",
+      "sha256": "31b80212cb2395abb0ee0a72268e22d0bdbc82834cc1a3cb73c3cdba647340af",
+      "bytes": 8591,
+      "from": "seed"
+    },
+    {
+      "path": "docs/evidence/native-derivations-source-bindings.json",
+      "sha256": "8b8dcf7274acae0f5225cbcc24b54fa92a1a56770b25802a3765c52a2588dfc7",
+      "bytes": 12770,
+      "from": "seed"
+    },
+    {
+      "path": "state/reconstruction/hierarchy-inputs.json",
+      "sha256": "c95e7b9437dee114c22b85090eb9d8f006500a451447121138b534739acb67c1",
+      "bytes": 29980,
+      "from": "seed"
+    },
+    {
+      "path": "src/law.ts",
+      "sha256": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+      "bytes": 20669,
+      "from": "seed"
+    },
+    {
+      "path": "tests/musical-hierarchies.test.mjs",
+      "sha256": "662652afab73fb35f3af8577dcfa75eef114880b1809a62ac3b59b98e26bd093",
+      "bytes": 6958,
+      "from": "seed"
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-primary-retrieval.json",
+      "sha256": "f036aa13157dd406b2242102bc4a38bd984105325077005a92300b4be16a7335",
+      "bytes": 2439,
+      "from": "seed"
+    },
+    {
+      "path": "data/raw/nested/5bf6d43d840a62293da9bdf934b170d208de21f13210ce7732aa6cbc0572c16e/sep_ariadne_sources/libfile_3b346d2d6538819190343d4937d84629_Pasted markdown(20260915-165248).md",
+      "sha256": "a7aed0bf3a7e44b74143a9128048e33de9e7e1db894bd0ede685b8793ab066fc",
+      "bytes": 38265,
+      "from": "seed"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_SOL_CORE/SUN_P0A_Eight_Neighborhood_Census_2026-10-05.md",
+      "sha256": "65d3d027505c20c044c5e1e0065775ce44e33fea6b83670b3dbdf4a52c3e54f6",
+      "bytes": 69711,
+      "from": "seed"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-request.json",
+      "sha256": "7ad8ef20117633bd0fef816bdd88e04dc3b5711144f253d7ef051bfcc18913e8",
+      "bytes": 3124,
+      "from": "docs/reconstruction/NATIVE_EXECUTION.md"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-result.json",
+      "sha256": "09add4ecfd3e42e29620bcd88c4a79263017c1b77804c1d1a3593e352c5478f9",
+      "bytes": 1605,
+      "from": "docs/reconstruction/NATIVE_EXECUTION.md"
+    },
+    {
+      "path": "docs/evidence/native-execution/focused-tests.tap",
+      "sha256": "5debbd032cdbc41480d78ac7bb43c0382d984a4176d2cdd5b00b8a4168b151d1",
+      "bytes": 2922,
+      "from": "docs/reconstruction/NATIVE_EXECUTION.md"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-result.json",
+      "sha256": "78705e567de44e9893cd66f95ce604f910f94f6087a5b58d5d2ffd201ced77a4",
+      "bytes": 399,
+      "from": "docs/reconstruction/NATIVE_EXECUTION.md"
+    },
+    {
+      "path": "docs/evidence/mandate-independent-review.json",
+      "sha256": "8be368f52265723fc93e0093c0306b06ef05decec92ccb1e020df8bb3ae49030",
+      "bytes": 5153,
+      "from": "docs/reconstruction/NATIVE_DERIVATIONS.md"
+    },
+    {
+      "path": "docs/evidence/native-derivations-sophia-span-fix.json",
+      "sha256": "800f8c667aac23bf0e1ae8f78ff9d8b994cb1802e8506babc8338eca2e8c8c9a",
+      "bytes": 1181,
+      "from": "docs/reconstruction/NATIVE_DERIVATIONS.md"
+    },
+    {
+      "path": "docs/evidence/music-reconstruction-verification.json",
+      "sha256": "e8f5369fb0f0c92ab1e10f97d34c35a43ff80a27a6be2828e417c7676bd27f09",
+      "bytes": 530,
+      "from": "docs/reconstruction/MUSIC_GEOMETRY.md"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "bytes": 729372,
+      "from": "state/reconstruction/native-execution.json"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-request.json",
+      "sha256": "58a0c408de8ce56574420a97fffca5c06b4c1a089f5285f296f40dd8227eb229",
+      "bytes": 925,
+      "from": "state/reconstruction/native-execution.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Chinese_Lu_Depth_Pilot_2026-09-28.md",
+      "sha256": "66e5d2d763e55411993bfcf4ad07ca4cc0a708f624264e226abf51b90531e9dd",
+      "bytes": 8440,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "data/raw/reconstruction-recovered/73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc/ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "bytes": 739025,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+      "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+      "bytes": 31043,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "bytes": 33675,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.md",
+      "sha256": "f1c0e211ca729997638b5b53b19159147f4f8b3d71be6dc28293e73897c7114d",
+      "bytes": 3660,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "docs/evidence/native-derivations-novelty.json",
+      "sha256": "4fc700e4b4354dbbd462da3f8d16709c6f23e95c9a787205422e839d63c3d72f",
+      "bytes": 27881,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "docs/evidence/native-derivations-wolfram-result.json",
+      "sha256": "e90d0c287cac9322245b317bb47aced942ffd6c8c0a5e5a406bb624a70944ef3",
+      "bytes": 526,
+      "from": "state/reconstruction/native-derivations.json"
+    },
+    {
+      "path": "docs/evidence/music-route-request.json",
+      "sha256": "94716dd69d48622739f4ce828c0e1955ddfbe88b773f9e0f14e8cd2d6d7c99c5",
+      "bytes": 1389,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "docs/evidence/music-route-result.json",
+      "sha256": "2826e1fe93386678f229517307a227d5c128ef43aa9bc37ca1b4616909f41138",
+      "bytes": 659,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "docs/evidence/music-reconstruction-representation-request.json",
+      "sha256": "cb74f478ae8cd97f00e7e4743fdcb631aba6adff1c4529188dd4638877bd4ba1",
+      "bytes": 1764,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "docs/evidence/music-reconstruction-representation-result.json",
+      "sha256": "5b437ef52a69271c5e129629536a77409921b2e0612a9073d6e2ec3a7822ab3a",
+      "bytes": 689,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/W72_certification.json",
+      "sha256": "9616124f92d51e2342446cafb50f81f71c7985dee46a052967d3b49f9eb42192",
+      "bytes": 1845,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/W72_matched_nulls.json",
+      "sha256": "5ed603b0c5dd0dd7444edc0e4040093e328b8e4d08e80c1b65e944317845d6ee",
+      "bytes": 2136,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Scientific_Music_Alphabet_v1.json",
+      "sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738",
+      "bytes": 5846,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GD_v1_structural(1).json",
+      "sha256": "3b2ee9687e5ae5561d3f821db07cbe7b39d9cdfae53c606ba0e9b9f77b771d54",
+      "bytes": 2172828,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/recovered/f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb/SUN_SOL_Orientation_Atlas.md",
+      "sha256": "f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb",
+      "bytes": 30903,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/nested/98fa7c0d1d17267c37b3943680748ed6a949569ae60b4ad23e68605ae52faeef/supporting_records/extracted/a6f4d3fc_Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked.pdf.txt",
+      "sha256": "395c2547cfa39a47b27dd633d0519db925d98b20989a6a9c94a20b5ff5de0faa",
+      "bytes": 18147,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/reconstruction-recovered/11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707/ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "bytes": 1429519,
+      "from": "state/reconstruction/music-geometry.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/95f2c00eaabbf705c34810cb09e0ece9cc73e93e42f22677ba87e6058837c385/original.jpg",
+      "sha256": "95f2c00eaabbf705c34810cb09e0ece9cc73e93e42f22677ba87e6058837c385",
+      "bytes": 283363,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/505f105c27953578eb0ed3fafb49ff2d4dfb91bed0e66d0516ca6b1eaf5687c9/original.jpg",
+      "sha256": "505f105c27953578eb0ed3fafb49ff2d4dfb91bed0e66d0516ca6b1eaf5687c9",
+      "bytes": 504391,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/1d805f2f929a6ce59d15a020c199da110810d113058dd7be675058aaa97a53e9/original.jpg",
+      "sha256": "1d805f2f929a6ce59d15a020c199da110810d113058dd7be675058aaa97a53e9",
+      "bytes": 351350,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/2ddc11ee8a58dd69d0f601405616747a1a0f04753871651d7121273bb915082a/original.jpg",
+      "sha256": "2ddc11ee8a58dd69d0f601405616747a1a0f04753871651d7121273bb915082a",
+      "bytes": 282032,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/2f03a28336912d04cb94459d1082cbec9daa9eab6c4ce44daaad5e14eda973d4/original.jpg",
+      "sha256": "2f03a28336912d04cb94459d1082cbec9daa9eab6c4ce44daaad5e14eda973d4",
+      "bytes": 483450,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/c4f83b5094e57b50cb52f3e667be3ca3e602f221ce7a9b71cf11546a54e45461/original.jpg",
+      "sha256": "c4f83b5094e57b50cb52f3e667be3ca3e602f221ce7a9b71cf11546a54e45461",
+      "bytes": 395645,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/77ea15463a53b10eacb6fcee6e7f5dba3db6f52c18cf9fb455d9d8473759d292/original.jpg",
+      "sha256": "77ea15463a53b10eacb6fcee6e7f5dba3db6f52c18cf9fb455d9d8473759d292",
+      "bytes": 345084,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/70f396b60dddc908d0231ec54a51bba992094b4ead8578220cda521e5a643361/original.jpg",
+      "sha256": "70f396b60dddc908d0231ec54a51bba992094b4ead8578220cda521e5a643361",
+      "bytes": 251110,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/5331e05d23393b76e4867e8223573dab6d48bc4b9d2cd76bfc7b4b96026008a1/original.jpg",
+      "sha256": "5331e05d23393b76e4867e8223573dab6d48bc4b9d2cd76bfc7b4b96026008a1",
+      "bytes": 409861,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/ae1327b5e111cba6f8d8aa68083ea393ae31ae5807776955839f8d9d4383994b/original.jpg",
+      "sha256": "ae1327b5e111cba6f8d8aa68083ea393ae31ae5807776955839f8d9d4383994b",
+      "bytes": 467324,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/6e1939129a8639713f824fe2dd65a253b1693f02e300bba7f6b58557e9bed107/original.png",
+      "sha256": "6e1939129a8639713f824fe2dd65a253b1693f02e300bba7f6b58557e9bed107",
+      "bytes": 93392,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/hierarchy-inputs/fc828ff26a0501f55f98ce2a9fa974144c06b55919b9c1c13f7466751a33cf56/original.png",
+      "sha256": "fc828ff26a0501f55f98ce2a9fa974144c06b55919b9c1c13f7466751a33cf56",
+      "bytes": 1358969,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/musical-hierarchy-sources/018cbfc6209a692986cbcbbce7fa91fa0f6ba5002ee02c064e780797269fc3cf/source.html",
+      "sha256": "018cbfc6209a692986cbcbbce7fa91fa0f6ba5002ee02c064e780797269fc3cf",
+      "bytes": 74074,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/musical-hierarchy-sources/83356e85c0b5bc906fa3198b2868a0e545519cc8143f5a20bc684fcc68055ada/source.html",
+      "sha256": "83356e85c0b5bc906fa3198b2868a0e545519cc8143f5a20bc684fcc68055ada",
+      "bytes": 133722,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "data/raw/musical-hierarchy-sources/329a79c26d0dfff12ea48cddcf445dcd2dda37055cde4844e054ab2731a80662/source.html",
+      "sha256": "329a79c26d0dfff12ea48cddcf445dcd2dda37055cde4844e054ab2731a80662",
+      "bytes": 192269,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-design-superjev.json",
+      "sha256": "04914b6ea64c387459294f89d81f9c3cbd20474eaa28ab7c3a5e9ab606085afc",
+      "bytes": 979,
+      "from": "state/reconstruction/musical-hierarchies.json"
+    },
+    {
+      "path": "docs/evidence/native-derivations-jev-result.json",
+      "sha256": "b30903095c0fa8b9ced1964aae252c2eccc7d1f2081d6d43785ab6bedfd8b727",
+      "bytes": 1657,
+      "from": "scripts/reconstruct_native_derivations.py"
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-image-processing.json",
+      "sha256": "4776d608b47eacbeec587a0f59de6510c23e078ee714003912761e65472b452d",
+      "bytes": 5943,
+      "from": "scripts/reconstruct_musical_hierarchies.py"
+    },
+    {
+      "path": "src/prediction.ts",
+      "sha256": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+      "bytes": 3308,
+      "from": "docs/evidence/mandate-independent-review.json"
+    },
+    {
+      "path": "tests/prediction.test.mjs",
+      "sha256": "f6c5efb8078dcab4691b129fab345ef3decaa2b79e368b6f3407bbac2268c0f7",
+      "bytes": 2977,
+      "from": "docs/evidence/mandate-independent-review.json"
+    },
+    {
+      "path": "scripts/reconstruct_orientation_predictions.mjs",
+      "sha256": "620cceec09c8eb6454c774f45e00114c72f79cf8b1f5a7b327266acbc6c3ea26",
+      "bytes": 9318,
+      "from": "docs/evidence/mandate-independent-review.json"
+    },
+    {
+      "path": "state/reconstruction/orientation-predictions.json",
+      "sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "bytes": 219041,
+      "from": "docs/evidence/mandate-independent-review.json"
+    },
+    {
+      "path": "state/reconstruction/tol-history-math.json",
+      "sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+      "bytes": 22146,
+      "from": "docs/evidence/mandate-independent-review.json"
+    },
+    {
+      "path": "docs/evidence/mandate-input-preservation.json",
+      "sha256": "72a1194c37fba00bda534ebd12274ca08f681a6e5c24fbede991dc07853399a7",
+      "bytes": 7936,
+      "from": "docs/evidence/mandate-independent-review.json"
+    }
+  ],
+  "missing": []
+}

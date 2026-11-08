@@ -1,0 +1,56 @@
+{
+  "id": "alignment-table-ee0a7347c9689261",
+  "content_sha256": "ee0a7347c9689261dad3f24a350386c9c89ea9d0669226d466584f94cd142d7d",
+  "headers": [
+    "Claim",
+    "Check"
+  ],
+  "rows": [
+    [
+      "$\\{0,1\\}^3$ has 8 vertices, 12 edges",
+      "✓"
+    ],
+    [
+      "Even-parity vertices: 000, 011, 101, 110",
+      "✓ (sums 0, 2, 2, 2)"
+    ],
+    [
+      "Each even vertex has 3 incident edges",
+      "✓"
+    ],
+    [
+      "The 12 edges partition into 4 triads",
+      "✓ — every edge connects even to odd, so each edge belongs to exactly one even vertex's triad"
+    ],
+    [
+      "Antipodal map $P(a,b,c) = (a\\oplus1, b\\oplus1, c)$ is an involution",
+      "✓ $P^2 = I$"
+    ],
+    [
+      "$P$ pairs the four triads: $000 \\leftrightarrow 110$, $011 \\leftrightarrow 101$",
+      "✓"
+    ],
+    [
+      "The six named syzygies are reproduced",
+      "✓ — verified edge-by-edge"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 14958,
+      "line_end": 14966,
+      "char_start": 715425,
+      "char_end": 715991,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Claim | Check |\n|---|---|\n| $\\{0,1\\}^3$ has 8 vertices, 12 edges | ✓ |\n| Even-parity vertices: 000, 011, 101, 110 | ✓ (sums 0, 2, 2, 2) |\n| Each even vertex has 3 incident edges | ✓ |\n| The 12 edges partition into 4 triads | ✓ — every edge connects even to odd, so each edge belongs to exactly one even vertex's triad |\n| Antipodal map $P(a,b,c) = (a\\oplus1, b\\oplus1, c)$ is an involution | ✓ $P^2 = I$ |\n| $P$ pairs the four triads: $000 \\leftrightarrow 110$, $011 \\leftrightarrow 101$ | ✓ |\n| The six named syzygies are reproduced | ✓ — verified edge-by-edge |\n",
+      "quote_sha256": "e29bbf1257d951487247116464a700edb5275d7941267d3302d66b9693ba000e",
+      "message_id": "ed5b3a4d4c603aae5759d2c2c6d8ea8a49cc1e5e9a92c6b0ed52eb2c16e89bfb",
+      "role": "user",
+      "locator": "lines:14958-14966"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

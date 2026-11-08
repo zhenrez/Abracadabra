@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-user-113807b7f84cd309",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:55:32.754493+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995/text.txt",
+        "sha256": "113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995",
+        "start_line": 1,
+        "end_line": 3,
+        "source_role": "user",
+        "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+        "message_id": "dff9c5cd58b55815b037f3134582043d05a1f9abce8624e1669ea401882d8598",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "dff9c5cd58b55815b037f3134582043d05a1f9abce8624e1669ea401882d8598",
+          "native_id": "178",
+          "conversation_id": "5c05fe0d27da167148ee5393134fc9b54c0df48fbccacb896f20d7d267c0bece",
+          "role": "user",
+          "content_sha256": "113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995",
+          "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+          "locator": "lines:13572-13577",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Articulate Musical Transitions",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+          "source_kind": "recovered_current_research",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995/occurrences-a0b444f8b26ca8a93437afd6d1a7fad8f45cc3cc0799558429e52e1a63db8248.json",
+        "quote": "10/18/2026, 8:16:11 AM\n\n221 is 12 away from 233? maybe chinese western and monochord are mothers?",
+        "quote_sha256": "113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995",
+        "original_bytes": 97,
+        "start_offset": 0,
+        "end_offset": 97
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "4158cdc89d32ee7a626424535e6b7523bfae61982713ac1114dcb5f4efad69e7",
+        "artifact_id": "5127a86b-e359-5724-a911-c8e1232f04e9",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.91,
+            "refines": 0.08,
+            "supports": 0.01
+          },
+          "winner": "insufficient",
+          "top_probability": 0.91,
+          "margin": 0.8300000000000001
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.68,
+            "refines": 0.25,
+            "supports": 0.07
+          },
+          "winner": "insufficient",
+          "top_probability": 0.68,
+          "margin": 0.43000000000000005
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.222,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "sunny.delivery-systems-browser.v1",
+  "checkedAt": "2026-11-08T03:34:15.312Z",
+  "inputs": {
+    "index.html": "5b80067e283510f2bd83ac7295a94a5116597da450eabadb1817a42bfda51821",
+    "app.js": "57a1a3f3c320539b38010c4583633ef491644f51bc55e5ea229825de47e3122b",
+    "style.css": "316237c652d9ed9848d149c7074de54fe4f5db250dd75a3eae6b26c7b8c4e122",
+    "data.js": "a1e35c3d5e3cdc5abfbaaf111809fb67f2bb2989e84d12864ccf5945c0d1f6b2"
+  },
+  "sourceInputs": {
+    "state/reconstruction/indian-hierarchy.json": "7c2c78af1c6c474701deaff75c9c8662ee94095d4ec16b6f71c264c3424eaf0c",
+    "state/reconstruction/western-expanded.json": "915917ab4ba7509d173686d29714de8ed2e2b5205edb6e5c2a1e2d0743923ba1",
+    "state/reconstruction/chinese-expanded.json": "df2cddfe83fbaf2d58cfb72036ee34de033c21e8489c22a97f11848c310f0897",
+    "state/reconstruction/native-class-constructors.json": "5eaf822a07d87c2d676d3b96a3a2af5144446963005ca4d3d17a999a553301ca",
+    "state/reconstruction/biblical-genealogies.json": "fb65aeb95353d33b8dd768b3c008fceb243793dbdcb66ef45508f38cfb356258",
+    "state/reconstruction/upper-legion-color-constraints.json": "0ebc6510a9c41297ff9f216020ef314e7fc91a7b09eba92f4381eec035328ea5"
+  },
+  "checks": [
+    {
+      "name": "All six source additions loaded; twelve existing tabs retained",
+      "status": "passed"
+    },
+    {
+      "name": "Census cards retain2556/2670heterogeneous units and563Chinese context units with target unresolved",
+      "status": "passed"
+    },
+    {
+      "name": "indian-hierarchy actual unit selection, exact first address, paging, ID search and native register filter",
+      "status": "passed",
+      "unit": "registered-mela-svara-occurrence",
+      "records": 2520,
+      "register": "Anumandra"
+    },
+    {
+      "name": "western-expanded actual unit selection, exact first address, paging, ID search and native register filter",
+      "status": "passed",
+      "unit": "registered-scale-degree-occurrence",
+      "records": 2464,
+      "register": "0"
+    },
+    {
+      "name": "chinese-expanded actual unit selection, exact first address, paging, ID search and native register filter",
+      "status": "passed",
+      "unit": "JingFang-witness-named-lu-standard",
+      "records": 60,
+      "register": null
+    },
+    {
+      "name": "MT primary edition claims remain distinct from received lineage",
+      "status": "passed",
+      "primary": 16,
+      "receivedNamedEntries": 33
+    },
+    {
+      "name": "Greek primary edition claims remain distinct from received lineage",
+      "status": "passed",
+      "primary": 17,
+      "receivedNamedEntries": 34
+    },
+    {
+      "name": "SP primary edition claims remain distinct from received lineage",
+      "status": "passed",
+      "primary": 16,
+      "receivedNamedEntries": 25
+    },
+    {
+      "name": "Allfive received clocks draw lifetimes; SP has no fabricated Gospel projection",
+      "status": "passed"
+    },
+    {
+      "name": "G14all3060addresses searchable; four-coordinate projections and valid/negative/out-of-slice vector inputs handled",
+      "status": "passed"
+    },
+    {
+      "name": "Twelve fixed color states use five distinct carriers; no13thstate or musical/global phase inferred",
+      "status": "passed"
+    },
+    {
+      "name": "Four new visual panels avoid page overflow at390/768/1536px",
+      "status": "passed"
+    },
+    {
+      "name": "Fresh offlinefile target retains all source-native datasets and controls",
+      "status": "passed"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "screenshots": [
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-census-desktop.png",
+      "sha256": "e6c9aa991d4574b22497d20d83528d9677860b89b94e02b1da949b3df2c5b589"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-biblical-desktop.png",
+      "sha256": "3b9b38bd76bfe0ccb5c2b653e90ed108b82113789b28e625f4c8c8adf8ae4b02"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-classes-desktop.png",
+      "sha256": "0a76369a37fc0020905666f9724fab9bee46e9676b4d0c4c97febf9f8b8f00f9"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-color-desktop.png",
+      "sha256": "401009bfdbfefa9c5f5853deffbcda5d461fb7729407aa38274179f76adad938"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-music-mobile.png",
+      "sha256": "e66c7ef435298324fcacd55f75d7fd61e560778c02fdb50878936503e495f9da"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-atlas-mobile.png",
+      "sha256": "948be16247088123b216a0e0b0bd339827315f583c42a4a0d26d25489364aaef"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-geometry-mobile.png",
+      "sha256": "1c4f0af6de7de2ebf7e1653c4f0bb0a5c89beb812f90dc97f53480407c182319"
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/systems-symbols-mobile.png",
+      "sha256": "128137dea82aac5e10bffdc55674881b4c873a13210558d3bb500f37bd4db386"
+    }
+  ],
+  "pluginUse": {
+    "memory": "Actual Supermemory retrieval succeeded in the implementation session",
+    "researchGuard": "Installed Prumo+Jev exact-evidence guard previously executed on the Genesis source packet",
+    "design": "12ui skill inspected; actual CLI installation failed EXDEV; no hosted design review claimed"
+  },
+  "limits": [
+    "Browser function and source-data fidelity only; no complete musical census, universal generation or historical orientation certified.",
+    "Mixed accounting units remain explicit."
+  ],
+  "ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-UxmYRS",
+    "identities": 14
+  },
+  "status": "passed",
+  "cleanup": {
+    "status": "reaped",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-UxmYRS",
+    "captured_identities": 14,
+    "stopped_pids": [],
+    "remaining_known_processes": 0,
+    "remaining_profile_processes": 0
+  }
+}

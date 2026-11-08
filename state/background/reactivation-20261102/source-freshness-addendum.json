@@ -1,0 +1,13 @@
+{
+  "schema": "sunny.background-source-freshness.v1",
+  "changed_since_completed_projection": [
+    {
+      "job": "separate-mode-family-scope",
+      "path": "state/research/reactivation/chinese/positive-modal-adapter.json",
+      "queued_sha256": "0f233a80d21abf415de8a7d5272ce71c5b65b22a3182f5044c18e812c363df8a",
+      "current_sha256": "d9729116567fb7e6da8fb85e013fea5c1f62b1611c1a2f11d22eee9de341d524",
+      "projection_proofline_valid": true
+    }
+  ],
+  "boundary": "Worker checked exact queued source hashes before inference. Preserved result/projection receipts remain valid for those versions; changed current sources require a fresh hash-bound job before claiming current applicability."
+}

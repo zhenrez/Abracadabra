@@ -1,0 +1,16 @@
+{
+  "schema": "sunny.agentproof-capture-block.v1",
+  "scope": "work/mandate-agentproof-2026-10-31",
+  "prepared_files": 7,
+  "prepared_bytes": 56577,
+  "capture_started": false,
+  "git_repository_initialized": false,
+  "new_receipt_created": false,
+  "guard": "PreToolUse CompText Guard",
+  "exact_rejection": "Blocked by PreToolUse hook: Blocked by CompText Guard: git commit requires explicit release scope.",
+  "operation": "Local baseline commit in isolated actual-file snapshot required by AgentProof supported Git repository profile.",
+  "fallback": "Verify existing receipt with its limits; independently run actual calculation tests under supported Proofline/MightShape and specialist review.",
+  "retry_or_bypass_performed": false,
+  "old_receipt_sha256": "c8592dce205d56d5b9d71787352e46827b0495d0c54b4e82a0c9d1874c68747e",
+  "processes_started_by_new_capture": 0
+}

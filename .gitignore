@@ -1,0 +1,15 @@
+# Rebuildable local installations and private runtime configuration.
+node_modules/
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.env
+.env.*
+verification/
+# The explicitly reviewed work/, data/, dist/ and evidence trees are included.
+# Full bytes of these files are retained in verified public-large parts.
+/state/reconstruction/model.json
+/web/delivery-2026-11-07/data.json
+/state/checkpoint-history/before-math-model.json-0cd76aa39f015b3f4f2b1b400510461214a5a79084ba036d3e5b19c7bd7d377b.snapshot
+/state/checkpoint-history/before-math-model.json-2e0677402fcdb160e600da54b38f05da1d5d83794fd6f797d2f6cd5c5a585bbc.snapshot

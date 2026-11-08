@@ -1,0 +1,781 @@
+{
+  "schema": "sunny.native-class-independent.v1",
+  "status": "passed",
+  "execution": {
+    "command": ".venv-research/Scripts/python.exe -X utf8 -",
+    "sympyVersion": "1.14.0",
+    "exitCodeCapture": "Observed exec_command returned exit_code=0 after the independent SymPy verifier completed",
+    "actualProcessExitCode": 0
+  },
+  "inputBindings": {
+    "modelPath": "state/reconstruction/native-class-constructors.json",
+    "modelSha256": "5eaf822a07d87c2d676d3b96a3a2af5144446963005ca4d3d17a999a553301ca",
+    "typescriptPath": "src/generational-classes.ts",
+    "typescriptSha256": "6b17cdd6e92e4600b47e7a7596d531364695ac724f4b36c6755fb3441e31bf1c",
+    "inputsUnchanged": true
+  },
+  "exactMatrix": {
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        1,
+        -1
+      ]
+    ],
+    "characteristicPolynomial": "x**4 + x**3 + x**2 + x + 1",
+    "equalsPhi5": true,
+    "MToFifthEqualsIdentity": true,
+    "nonidentityMatrixHasOrderExactly5": true,
+    "rotationMatchesCyclotomicBasisOnAllFiveGenerators": true
+  },
+  "depthCensus": [
+    {
+      "depth": 0,
+      "starsAndBarsCount": 1,
+      "independentlyEnumerated": 1,
+      "fixedStates": 1,
+      "fiveCycles": 0,
+      "totalRotationOrbits": 1,
+      "prefixCount": 1,
+      "predecessorIncidences": 0,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 1,
+      "starsAndBarsCount": 5,
+      "independentlyEnumerated": 5,
+      "fixedStates": 0,
+      "fiveCycles": 1,
+      "totalRotationOrbits": 1,
+      "prefixCount": 6,
+      "predecessorIncidences": 5,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 2,
+      "starsAndBarsCount": 15,
+      "independentlyEnumerated": 15,
+      "fixedStates": 0,
+      "fiveCycles": 3,
+      "totalRotationOrbits": 3,
+      "prefixCount": 21,
+      "predecessorIncidences": 25,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 3,
+      "starsAndBarsCount": 35,
+      "independentlyEnumerated": 35,
+      "fixedStates": 0,
+      "fiveCycles": 7,
+      "totalRotationOrbits": 7,
+      "prefixCount": 56,
+      "predecessorIncidences": 75,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 4,
+      "starsAndBarsCount": 70,
+      "independentlyEnumerated": 70,
+      "fixedStates": 0,
+      "fiveCycles": 14,
+      "totalRotationOrbits": 14,
+      "prefixCount": 126,
+      "predecessorIncidences": 175,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 5,
+      "starsAndBarsCount": 126,
+      "independentlyEnumerated": 126,
+      "fixedStates": 1,
+      "fiveCycles": 25,
+      "totalRotationOrbits": 26,
+      "prefixCount": 252,
+      "predecessorIncidences": 350,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 6,
+      "starsAndBarsCount": 210,
+      "independentlyEnumerated": 210,
+      "fixedStates": 0,
+      "fiveCycles": 42,
+      "totalRotationOrbits": 42,
+      "prefixCount": 462,
+      "predecessorIncidences": 630,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 7,
+      "starsAndBarsCount": 330,
+      "independentlyEnumerated": 330,
+      "fixedStates": 0,
+      "fiveCycles": 66,
+      "totalRotationOrbits": 66,
+      "prefixCount": 792,
+      "predecessorIncidences": 1050,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 8,
+      "starsAndBarsCount": 495,
+      "independentlyEnumerated": 495,
+      "fixedStates": 0,
+      "fiveCycles": 99,
+      "totalRotationOrbits": 99,
+      "prefixCount": 1287,
+      "predecessorIncidences": 1650,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 9,
+      "starsAndBarsCount": 715,
+      "independentlyEnumerated": 715,
+      "fixedStates": 0,
+      "fiveCycles": 143,
+      "totalRotationOrbits": 143,
+      "prefixCount": 2002,
+      "predecessorIncidences": 2475,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 10,
+      "starsAndBarsCount": 1001,
+      "independentlyEnumerated": 1001,
+      "fixedStates": 1,
+      "fiveCycles": 200,
+      "totalRotationOrbits": 201,
+      "prefixCount": 3003,
+      "predecessorIncidences": 3575,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 11,
+      "starsAndBarsCount": 1365,
+      "independentlyEnumerated": 1365,
+      "fixedStates": 0,
+      "fiveCycles": 273,
+      "totalRotationOrbits": 273,
+      "prefixCount": 4368,
+      "predecessorIncidences": 5005,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 12,
+      "starsAndBarsCount": 1820,
+      "independentlyEnumerated": 1820,
+      "fixedStates": 0,
+      "fiveCycles": 364,
+      "totalRotationOrbits": 364,
+      "prefixCount": 6188,
+      "predecessorIncidences": 6825,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 13,
+      "starsAndBarsCount": 2380,
+      "independentlyEnumerated": 2380,
+      "fixedStates": 0,
+      "fiveCycles": 476,
+      "totalRotationOrbits": 476,
+      "prefixCount": 8568,
+      "predecessorIncidences": 9100,
+      "allSourceOrbitsMatch": true
+    },
+    {
+      "depth": 14,
+      "starsAndBarsCount": 3060,
+      "independentlyEnumerated": 3060,
+      "fixedStates": 0,
+      "fiveCycles": 612,
+      "totalRotationOrbits": 612,
+      "prefixCount": 11628,
+      "predecessorIncidences": 11900,
+      "allSourceOrbitsMatch": true
+    }
+  ],
+  "G3": {
+    "countVectorStates": 35,
+    "fixedStates": 0,
+    "fiveCycles": 7,
+    "sameAsIndian35ConstructorsProved": false
+  },
+  "singleClass72Obstruction": {
+    "group": "C5 coordinate rotation on a fixed-depth five-coordinate weak-composition class",
+    "possibleOrbitSizes": [
+      1,
+      5
+    ],
+    "fixedStatesAtMost": 1,
+    "rotationClosedSelectionResiduesMod5": [
+      0,
+      1
+    ],
+    "target72Residue": 2,
+    "impossibleWithinSingleClass": true,
+    "doesNotExcludeCrossDepthUnions": true
+  },
+  "crossDepth72Control": {
+    "cardinality": 72,
+    "rotationClosed": true,
+    "depths": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "construction": "Two balanced fixed states at depths 0 and 5, all seven G3 five-cycles, and seven G4 five-cycles",
+    "exactAddresses": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "targetRangeReconciliation": {
+    "range": [
+      2500,
+      2700
+    ],
+    "singleClassInRange": false,
+    "classBracket": [
+      2380,
+      3060
+    ],
+    "initialPrefixInRange": false,
+    "prefixBracket": [
+      2002,
+      3003
+    ]
+  },
+  "claimLimits": [
+    "Independent exact algebra/combinatorics check of the stated constructor, not verification of an original Padgett experiment.",
+    "C5 rotation obstruction applies to one fixed-depth class only; the explicit cross-depth 72-state control prevents universalizing it.",
+    "Native construction depth is not biological generation, octave, a global SUNNY class, or measured time.",
+    "No acoustic frequency, universal torus, metric, phi, musical identity or global geometry claim established.",
+    "The two Indian 35 constructions and this G3=35 retain different units and operations."
+  ],
+  "globalSunnyMappingSelected": false,
+  "acousticValuesAssigned": false,
+  "sourceMathFilesEdited": false
+}

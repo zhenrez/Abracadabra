@@ -1,0 +1,290 @@
+{
+  "schema": "sunny.goals-plugin-use.v1",
+  "superjev": {
+    "request": "docs/evidence/goals-team-strategy-jev-request.json",
+    "receipt": "docs/evidence/goals-team-strategy-superjev.json",
+    "role": "Bounded future team-design advice; no execution authorization"
+  },
+  "agentic_atlas": {
+    "release": "v1.1.0",
+    "operations": [
+      "atlas_orient",
+      "atlas_cards"
+    ],
+    "sources": [
+      "subagent-offload#forces",
+      "subagent-offload#consequences-and-tradeoffs",
+      "deferred-context#structure-the-fetch-seam"
+    ],
+    "payloads": [
+      {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"projection\":\"agent-projection/v8\",\"coherence\":\"v1.1.0\",\"scope\":{\"omitted_fact_classes\":[\"claims\",\"sections\",\"links\"],\"total\":5,\"truncated\":false},\"data\":{\"candidates\":[{\"id\":\"subagent-offload\",\"hook\":\"handing work to a subagent so its material never fills the orchestrator's context\",\"disclosure\":\"full\"},{\"id\":\"heavy-agent\",\"hook\":\"subagents that carry heavy baked-in instructions the orchestrator never loads\",\"disclosure\":\"full\"},{\"id\":\"cost-relocation\",\"hook\":\"context that costs by its size on every turn but is only needed sometimes\",\"disclosure\":\"full\"},{\"id\":\"deferred-context\",\"hook\":\"keeping a short pointer loaded and fetching bulky context only when a session needs it\",\"disclosure\":\"full\",\"via\":{\"id\":\"subagent-offload\",\"direction\":\"outbound\",\"source\":\"subagent-offload#intent\"}},{\"id\":\"reference-data\",\"hook\":\"a reference corpus too big to load into the context window at any price\",\"disclosure\":\"full\",\"via\":{\"id\":\"subagent-offload\",\"direction\":\"outbound\",\"source\":\"subagent-offload#relationships\"}}]}}"
+          }
+        ],
+        "structuredContent": {
+          "projection": "agent-projection/v8",
+          "coherence": "v1.1.0",
+          "scope": {
+            "omitted_fact_classes": [
+              "claims",
+              "sections",
+              "links"
+            ],
+            "total": 5,
+            "truncated": false
+          },
+          "data": {
+            "candidates": [
+              {
+                "id": "subagent-offload",
+                "hook": "handing work to a subagent so its material never fills the orchestrator's context",
+                "disclosure": "full"
+              },
+              {
+                "id": "heavy-agent",
+                "hook": "subagents that carry heavy baked-in instructions the orchestrator never loads",
+                "disclosure": "full"
+              },
+              {
+                "id": "cost-relocation",
+                "hook": "context that costs by its size on every turn but is only needed sometimes",
+                "disclosure": "full"
+              },
+              {
+                "id": "deferred-context",
+                "hook": "keeping a short pointer loaded and fetching bulky context only when a session needs it",
+                "disclosure": "full",
+                "via": {
+                  "id": "subagent-offload",
+                  "direction": "outbound",
+                  "source": "subagent-offload#intent"
+                }
+              },
+              {
+                "id": "reference-data",
+                "hook": "a reference corpus too big to load into the context window at any price",
+                "disclosure": "full",
+                "via": {
+                  "id": "subagent-offload",
+                  "direction": "outbound",
+                  "source": "subagent-offload#relationships"
+                }
+              }
+            ]
+          }
+        },
+        "isError": false
+      },
+      {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"projection\":\"agent-projection/v8\",\"coherence\":\"v1.1.0\",\"scope\":{\"omitted_fact_classes\":[\"sections\",\"links\",\"provenance\"],\"total\":3,\"truncated\":false},\"data\":{\"cards\":[{\"id\":\"subagent-offload\",\"title\":\"Subagent Offload\",\"kind\":\"pattern\",\"hook\":\"handing work to a subagent so its material never fills the orchestrator's context\",\"claims\":[{\"id\":\"dispatch-across-the-edge\",\"text\":\"Subagent offload sends work to a child agent, so the material it reads never enters the orchestrator's context.\",\"field\":\"claim\",\"sources\":[\"subagent-offload#intent\"]},{\"id\":\"conclusion-stands-in-for-working-set\",\"text\":\"It fits when the orchestrator needs only a conclusion much smaller than the material behind it.\",\"field\":\"claim\",\"sources\":[\"subagent-offload#use-when\"]},{\"id\":\"child-needs-packed-input\",\"text\":\"The child cannot see the orchestrator's context, so everything it needs must be packed into the dispatch.\",\"field\":\"claim\",\"sources\":[\"subagent-offload#forces\"]},{\"id\":\"relief-costs-visibility\",\"text\":\"The orchestrator sees only the child's return, so correction means dispatching again rather than steering mid-task.\",\"field\":\"claim\",\"sources\":[\"subagent-offload#consequences-and-tradeoffs\"]},{\"id\":\"total-cost-rises-capacity-expands\",\"text\":\"Offloading raises total execution cost, but it frees room in the orchestrator's context.\",\"field\":\"claim\",\"sources\":[\"subagent-offload#consequences-and-tradeoffs\"]},{\"id\":\"resolve-the-executor-slot\",\"text\":\"Choose the child's model deliberately, because an unset choice inherits the parent's model, effort, and price.\",\"field\":\"claim\",\"sources\":[\"subagent-offload#application\"]}]},{\"id\":\"deferred-context\",\"title\":\"Deferred Context\",\"kind\":\"pattern\",\"hook\":\"keeping a short pointer loaded and fetching bulky context only when a session needs it\",\"claims\":[{\"id\":\"keep-pointer-defer-payload\",\"text\":\"Deferred context keeps a small pointer loaded and fetches the full material only when it is needed.\",\"field\":\"claim\",\"sources\":[\"deferred-context#structure-the-fetch-seam\"]},{\"id\":\"defer-by-probability-and-lateness\",\"text\":\"Defer material that is rarely needed, and also material that is always needed but only late.\",\"field\":\"claim\",\"sources\":[\"deferred-context#use-when-the-law-probability-and-lateness-of-need\"]},{\"id\":\"never-needed-session-60x-cheaper\",\"text\":\"In the worked example, deferring a 3,000-token reference makes a session that never needs it about 60 times cheaper.\",\"field\":\"claim\",\"sources\":[\"deferred-context#examples-the-worked-example-one-decision-billed-both-ways\"]},{\"id\":\"cut-what-no-session-fetches\",\"text\":\"Cut a deferred file if you cannot name the kind of session that would fetch it.\",\"field\":\"claim\",\"sources\":[\"deferred-context#application-what-earns-a-rung-and-what-fronts-it\"]},{\"id\":\"under-and-over-trigger\",\"text\":\"Deferral fails when the fetch fires too rarely, or so often that it matches loading everything upfront.\",\"field\":\"claim\",\"sources\":[\"deferred-context#consequences-and-tradeoffs-one-cost-shape-for-another\",\"deferred-context#forces\"]},{\"id\":\"caching-moves-dollars-not-the-law\",\"text\":\"Caching can shrink or reverse deferral's dollar savings, but never cuts the quality cost of unneeded loaded material.\",\"field\":\"claim\",\"sources\":[\"deferred-context#consequences-and-tradeoffs-one-cost-shape-for-another\"]}]},{\"id\":\"heavy-agent\",\"title\":\"Heavy Agent\",\"kind\":\"pattern\",\"hook\":\"subagents that carry heavy baked-in instructions the orchestrator never loads\",\"claims\":[{\"id\":\"offload-specialized-by-authored-weight\",\"text\":\"A heavy agent is a subagent whose definition bakes in extensive instructions, expertise, or reference material.\",\"field\":\"claim\",\"sources\":[\"heavy-agent#use-when-the-weight-is-authored\",\"heavy-agent#intent-the-problem-and-the-move\"]},{\"id\":\"invoked-by-type-not-loaded\",\"text\":\"The orchestrator invokes the agent by type, so the baked-in weight loads only in the subagent's window.\",\"field\":\"claim\",\"sources\":[\"heavy-agent#intent-the-problem-and-the-move\"]},{\"id\":\"weight-is-total-context-cost\",\"text\":\"A heavy agent's weight is the task's whole context cost: instructions, reading, exploring, and reasoning, all in the subagent's window.\",\"field\":\"claim\",\"sources\":[\"heavy-agent#structure-the-parts-and-what-counts-as-the-weight\"]},{\"id\":\"dispatch-carries-orchestrator-context\",\"text\":\"The dispatch must carry whatever the agent needs from the orchestrator's context, because the agent cannot see it.\",\"field\":\"claim\",\"sources\":[\"heavy-agent#consequences-and-tradeoffs\"]},{\"id\":\"authored-weight-ages-unseen\",\"text\":\"A baked-in reference can drift out of date, and the orchestrator never sees it age.\",\"field\":\"claim\",\"sources\":[\"heavy-agent#forces\",\"heavy-agent#consequences-and-tradeoffs\"]},{\"id\":\"transcript-shows-reference-or-load\",\"text\":\"The orchestrator's transcript shows whether it only referenced the agent or actually loaded its instructions.\",\"field\":\"claim\",\"sources\":[\"heavy-agent#verification\"]}]}]}}"
+          }
+        ],
+        "structuredContent": {
+          "projection": "agent-projection/v8",
+          "coherence": "v1.1.0",
+          "scope": {
+            "omitted_fact_classes": [
+              "sections",
+              "links",
+              "provenance"
+            ],
+            "total": 3,
+            "truncated": false
+          },
+          "data": {
+            "cards": [
+              {
+                "id": "subagent-offload",
+                "title": "Subagent Offload",
+                "kind": "pattern",
+                "hook": "handing work to a subagent so its material never fills the orchestrator's context",
+                "claims": [
+                  {
+                    "id": "dispatch-across-the-edge",
+                    "text": "Subagent offload sends work to a child agent, so the material it reads never enters the orchestrator's context.",
+                    "field": "claim",
+                    "sources": [
+                      "subagent-offload#intent"
+                    ]
+                  },
+                  {
+                    "id": "conclusion-stands-in-for-working-set",
+                    "text": "It fits when the orchestrator needs only a conclusion much smaller than the material behind it.",
+                    "field": "claim",
+                    "sources": [
+                      "subagent-offload#use-when"
+                    ]
+                  },
+                  {
+                    "id": "child-needs-packed-input",
+                    "text": "The child cannot see the orchestrator's context, so everything it needs must be packed into the dispatch.",
+                    "field": "claim",
+                    "sources": [
+                      "subagent-offload#forces"
+                    ]
+                  },
+                  {
+                    "id": "relief-costs-visibility",
+                    "text": "The orchestrator sees only the child's return, so correction means dispatching again rather than steering mid-task.",
+                    "field": "claim",
+                    "sources": [
+                      "subagent-offload#consequences-and-tradeoffs"
+                    ]
+                  },
+                  {
+                    "id": "total-cost-rises-capacity-expands",
+                    "text": "Offloading raises total execution cost, but it frees room in the orchestrator's context.",
+                    "field": "claim",
+                    "sources": [
+                      "subagent-offload#consequences-and-tradeoffs"
+                    ]
+                  },
+                  {
+                    "id": "resolve-the-executor-slot",
+                    "text": "Choose the child's model deliberately, because an unset choice inherits the parent's model, effort, and price.",
+                    "field": "claim",
+                    "sources": [
+                      "subagent-offload#application"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "deferred-context",
+                "title": "Deferred Context",
+                "kind": "pattern",
+                "hook": "keeping a short pointer loaded and fetching bulky context only when a session needs it",
+                "claims": [
+                  {
+                    "id": "keep-pointer-defer-payload",
+                    "text": "Deferred context keeps a small pointer loaded and fetches the full material only when it is needed.",
+                    "field": "claim",
+                    "sources": [
+                      "deferred-context#structure-the-fetch-seam"
+                    ]
+                  },
+                  {
+                    "id": "defer-by-probability-and-lateness",
+                    "text": "Defer material that is rarely needed, and also material that is always needed but only late.",
+                    "field": "claim",
+                    "sources": [
+                      "deferred-context#use-when-the-law-probability-and-lateness-of-need"
+                    ]
+                  },
+                  {
+                    "id": "never-needed-session-60x-cheaper",
+                    "text": "In the worked example, deferring a 3,000-token reference makes a session that never needs it about 60 times cheaper.",
+                    "field": "claim",
+                    "sources": [
+                      "deferred-context#examples-the-worked-example-one-decision-billed-both-ways"
+                    ]
+                  },
+                  {
+                    "id": "cut-what-no-session-fetches",
+                    "text": "Cut a deferred file if you cannot name the kind of session that would fetch it.",
+                    "field": "claim",
+                    "sources": [
+                      "deferred-context#application-what-earns-a-rung-and-what-fronts-it"
+                    ]
+                  },
+                  {
+                    "id": "under-and-over-trigger",
+                    "text": "Deferral fails when the fetch fires too rarely, or so often that it matches loading everything upfront.",
+                    "field": "claim",
+                    "sources": [
+                      "deferred-context#consequences-and-tradeoffs-one-cost-shape-for-another",
+                      "deferred-context#forces"
+                    ]
+                  },
+                  {
+                    "id": "caching-moves-dollars-not-the-law",
+                    "text": "Caching can shrink or reverse deferral's dollar savings, but never cuts the quality cost of unneeded loaded material.",
+                    "field": "claim",
+                    "sources": [
+                      "deferred-context#consequences-and-tradeoffs-one-cost-shape-for-another"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "heavy-agent",
+                "title": "Heavy Agent",
+                "kind": "pattern",
+                "hook": "subagents that carry heavy baked-in instructions the orchestrator never loads",
+                "claims": [
+                  {
+                    "id": "offload-specialized-by-authored-weight",
+                    "text": "A heavy agent is a subagent whose definition bakes in extensive instructions, expertise, or reference material.",
+                    "field": "claim",
+                    "sources": [
+                      "heavy-agent#use-when-the-weight-is-authored",
+                      "heavy-agent#intent-the-problem-and-the-move"
+                    ]
+                  },
+                  {
+                    "id": "invoked-by-type-not-loaded",
+                    "text": "The orchestrator invokes the agent by type, so the baked-in weight loads only in the subagent's window.",
+                    "field": "claim",
+                    "sources": [
+                      "heavy-agent#intent-the-problem-and-the-move"
+                    ]
+                  },
+                  {
+                    "id": "weight-is-total-context-cost",
+                    "text": "A heavy agent's weight is the task's whole context cost: instructions, reading, exploring, and reasoning, all in the subagent's window.",
+                    "field": "claim",
+                    "sources": [
+                      "heavy-agent#structure-the-parts-and-what-counts-as-the-weight"
+                    ]
+                  },
+                  {
+                    "id": "dispatch-carries-orchestrator-context",
+                    "text": "The dispatch must carry whatever the agent needs from the orchestrator's context, because the agent cannot see it.",
+                    "field": "claim",
+                    "sources": [
+                      "heavy-agent#consequences-and-tradeoffs"
+                    ]
+                  },
+                  {
+                    "id": "authored-weight-ages-unseen",
+                    "text": "A baked-in reference can drift out of date, and the orchestrator never sees it age.",
+                    "field": "claim",
+                    "sources": [
+                      "heavy-agent#forces",
+                      "heavy-agent#consequences-and-tradeoffs"
+                    ]
+                  },
+                  {
+                    "id": "transcript-shows-reference-or-load",
+                    "text": "The orchestrator's transcript shows whether it only referenced the agent or actually loaded its instructions.",
+                    "field": "claim",
+                    "sources": [
+                      "heavy-agent#verification"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "isError": false
+      }
+    ],
+    "boundary": "Published design guidance only; no agents dispatched"
+  },
+  "supermemory": {
+    "id": "eMXJjm9LTZv8JCWUFZ8xNK",
+    "status": "done",
+    "dreamingStatus": "dreaming",
+    "contentTruncated": false,
+    "normalizedContentMatches": true,
+    "normalization": "The service omitted the single final newline; other content matches.",
+    "boundary": "Document read back; extracted memories still pending."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "run_id": "569d10c9ef234ad2b59bd96e8b6a8065",
+  "contract_sha256": "565f3e4377e9cf0252b1b8175a05aa7d4210a7ee798b7f65f96a32d64fd1e655",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "started_at_utc": "2026-11-08T02:22:33.160269+00:00",
+  "finished_at_utc": "2026-11-08T02:22:33.670777+00:00",
+  "inputs": {
+    "dist/hierarchy.js": "f66d234685f8dc34c607d40cb46550a38ccecde7a49c3ea3458713c3ecec7f7d",
+    "dist/prediction.js": "6cbcf4ce081ff67852d5f5dbc1bc763dd80e5c87e0c19787445cdd472dad487f",
+    "dist/reading-relations.js": "2b916898d6b6fac14beda45b0cd3faa064411ca90e2eaa3adfcbfaf1ab47fe8e",
+    "dist/score.js": "0d4bdd9221c5a5af5a0b8e1e128b6495c9be33097cff5020be5a843841cef788",
+    "scripts/derive_phase_probe_designs.mjs": "f264fdbd5da8828f0f1aed4a7577fa073b0521959950e6ff37561ce4b2072889",
+    "scripts/derive_reading_operations.mjs": "e192c9f2cbbfdb48da6fa3dcd6616d7b3fb37581bf83f21a7b50b783b297eaae",
+    "scripts/integrate_reading_hierarchy_score.mjs": "26cb39233342c9da65ed13e119ce7f75d2927e1e1729cea594ded060d50953af",
+    "src/hierarchy.ts": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "src/reading-relations.ts": "2adcbb267221487e5b1ab2d322d3ef73bc1ea6b8f24f9306b85a37c1554bf943",
+    "src/score.ts": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+    "state/delivery-2026-11-07/global-closure/phase-probe-designs.json": "f2d275c7e516af9a88580494a4af9b05000be62fd22476656cb7ca302dda01b3",
+    "state/delivery-2026-11-07/global-closure/review/check_probe_designs.py": "ae2a2aa49f717ad839b66b72bc77b8d32920de2d1b13851c027687cc3013b9cb",
+    "state/native-comparison.json": "cf58b8a06ad35cde3c6beb0ddb96eaf4e762b4e6c9c9519df40b4b98fed89aea",
+    "state/reconstruction/hierarchy-atlas-combined.json": "a2f2bfae2eb61611f73fb64147b2b96f976f47818f1514a3173118adda89c497",
+    "state/reconstruction/master-score.json": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c",
+    "state/reconstruction/orientation-predictions.json": "6ce9ee6dd2b2caff239b3e78582216afed9038b63adaa9d5610919efcae721d8",
+    "state/reconstruction/reading-operations.json": "b211850b4167638f420f7171190ddd1bc92bd22da9470978840a7fd518d3793c",
+    "tests/hierarchy.test.mjs": "6066074ff3b0b2d5673632aa718d9e603ac517d8eb87504567b7b0a81235fd23",
+    "tests/musical-hierarchies.test.mjs": "662652afab73fb35f3af8577dcfa75eef114880b1809a62ac3b59b98e26bd093",
+    "tests/phase-probe-designs.test.mjs": "2cfdaa6a25af15a38f172afc84b9b5a977c295e83ba91776a4e5aa87a8fbc629",
+    "tests/prediction.test.mjs": "f6c5efb8078dcab4691b129fab345ef3decaa2b79e368b6f3407bbac2268c0f7",
+    "tests/reading-integration.test.mjs": "6729e2780d1f4e0da5073c6d4da9486cd99e2571f6a2e64d1b307ff4e4232c20",
+    "tests/reading-relations.test.mjs": "6c44c5dded60ec215a6c89d9f581dcb72b76fa1cbafce2a8de5ed7e78c466cac",
+    "tests/score.test.mjs": "90f85fc918b54f21744271101a841e036582f85a18f69d14310d3c1551150d83"
+  },
+  "inputs_unchanged_during_checks": true,
+  "checks": [
+    {
+      "id": "focused-native-suite",
+      "criteria": [
+        "preservation",
+        "typed-execution"
+      ],
+      "command": [
+        "node",
+        "--test",
+        "tests/phase-probe-designs.test.mjs",
+        "tests/reading-relations.test.mjs",
+        "tests/reading-integration.test.mjs",
+        "tests/prediction.test.mjs",
+        "tests/score.test.mjs",
+        "tests/hierarchy.test.mjs",
+        "tests/musical-hierarchies.test.mjs"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "launch_error": null,
+      "output_sha256": "06353cd14ec9366c5c9010597166a2dd65af3331c575a6b5c99217f3c98d76ac",
+      "output_file": "569d10c9ef234ad2b59bd96e8b6a8065-0.output",
+      "passed": true
+    },
+    {
+      "id": "independent-phase-oracle",
+      "criteria": [
+        "phase-designs"
+      ],
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "state/delivery-2026-11-07/global-closure/review/check_probe_designs.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "launch_error": null,
+      "output_sha256": "5731156b2e27a8f9c0d94257c635106020b0f9ab83b192a23de9b99e5cac5501",
+      "output_file": "569d10c9ef234ad2b59bd96e8b6a8065-1.output",
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "scope": "Listed commands and declared input files only; no model verification or native interception claim."
+}

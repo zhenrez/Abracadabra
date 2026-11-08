@@ -1,0 +1,54 @@
+{
+  "id": "glyph-assistant-862390476e2b04c5",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "schema": "sunny.background-job.v1",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/862390476e2b04c5e9523cf3a3c0068e4d6c16a182845f964440763f81feb6f2/text.txt",
+      "sha256": "862390476e2b04c5e9523cf3a3c0068e4d6c16a182845f964440763f81feb6f2",
+      "start_line": 1,
+      "end_line": 129,
+      "source_role": "assistant",
+      "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+      "message_id": "53152603027db1b0e5e59fd757a696916940371a51fbe772876da008d3b71ec0",
+      "origin": {
+        "id": "53152603027db1b0e5e59fd757a696916940371a51fbe772876da008d3b71ec0",
+        "native_id": "ae995143-674d-49d3-b33f-16ba45aff50f",
+        "conversation_id": "95d0766805d083b125ba0cb3ad93c5e3dfa1e9f41082a645183a58270b29c08e",
+        "role": "assistant",
+        "content_sha256": "862390476e2b04c5e9523cf3a3c0068e4d6c16a182845f964440763f81feb6f2",
+        "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+        "locator": "/85/mapping/ae995143-674d-49d3-b33f-16ba45aff50f/message",
+        "create_time": "1741627647.064103",
+        "branch_status": "alternate",
+        "title": "AI Tattoo Visualization App",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-003.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-003.json",
+        "source_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/862390476e2b04c5e9523cf3a3c0068e4d6c16a182845f964440763f81feb6f2/occurrences-477e27f5bcefcfe77a7f996a42ed6b562c47032e861ed2d5bf4a61783c48f998.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  }
+}

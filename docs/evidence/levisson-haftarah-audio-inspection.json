@@ -1,0 +1,8977 @@
+{
+  "schema": "sunny.levisson-decoded-track-inspection.v1",
+  "createdUtc": "2026-11-03T04:19:42.538032+00:00",
+  "decoder": "Existing parent-provided miniaudio; signed16 mono16000Hz; no new dependency installed",
+  "method": "Candidate periodicity only:80ms frames/10ms hop, RMS>10% peak; unbiased normalized autocorrelation lags26..267 (about60..615Hz); shortest peak at least0.85 and within98% of strongest; parabolic lag interpolation. This is not independent syllable alignment or validated f0.",
+  "tracks": [
+    {
+      "track": 1,
+      "sourcePath": "docs/evidence/levisson-haftarah-sources/track01.mp3",
+      "sourceSha256": "60b89bb822d8c820695106067930009abf12ff0550339838e38f1ee703bfee48",
+      "decodedSamples": 152138,
+      "decodedSeconds": 9.508625,
+      "derivedWav": "docs/evidence/levisson-haftarah-sources/track01.wav",
+      "wavSha256": "32c79df038636bb72abb542c7f278f67b6f67850a46b197d0bcc53d6bfd0d288",
+      "candidatePeriodicFrames": [
+        {
+          "timeS": 1.19,
+          "candidateHz": 61.8973,
+          "nacf": 0.9438,
+          "competingLags": [
+            258
+          ]
+        },
+        {
+          "timeS": 1.2,
+          "candidateHz": 62.0923,
+          "nacf": 0.9374,
+          "competingLags": [
+            258
+          ]
+        },
+        {
+          "timeS": 1.21,
+          "candidateHz": 62.4423,
+          "nacf": 0.9338,
+          "competingLags": [
+            256
+          ]
+        },
+        {
+          "timeS": 1.22,
+          "candidateHz": 62.5568,
+          "nacf": 0.9363,
+          "competingLags": [
+            256
+          ]
+        },
+        {
+          "timeS": 1.23,
+          "candidateHz": 126.029,
+          "nacf": 0.9316,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.24,
+          "candidateHz": 126.0934,
+          "nacf": 0.9538,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.25,
+          "candidateHz": 126.4346,
+          "nacf": 0.97,
+          "competingLags": [
+            127,
+            253
+          ]
+        },
+        {
+          "timeS": 1.26,
+          "candidateHz": 126.3739,
+          "nacf": 0.9888,
+          "competingLags": [
+            127,
+            253
+          ]
+        },
+        {
+          "timeS": 1.27,
+          "candidateHz": 126.4936,
+          "nacf": 0.9922,
+          "competingLags": [
+            126,
+            253
+          ]
+        },
+        {
+          "timeS": 1.28,
+          "candidateHz": 126.6948,
+          "nacf": 0.9978,
+          "competingLags": [
+            126,
+            253
+          ]
+        },
+        {
+          "timeS": 1.29,
+          "candidateHz": 126.9762,
+          "nacf": 0.9935,
+          "competingLags": [
+            126,
+            252
+          ]
+        },
+        {
+          "timeS": 1.3,
+          "candidateHz": 126.8677,
+          "nacf": 0.9757,
+          "competingLags": [
+            126,
+            252
+          ]
+        },
+        {
+          "timeS": 1.31,
+          "candidateHz": 127.1494,
+          "nacf": 0.9721,
+          "competingLags": [
+            126,
+            252
+          ]
+        },
+        {
+          "timeS": 1.32,
+          "candidateHz": 127.4101,
+          "nacf": 0.972,
+          "competingLags": [
+            126,
+            251
+          ]
+        },
+        {
+          "timeS": 1.33,
+          "candidateHz": 127.7362,
+          "nacf": 0.9808,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 1.34,
+          "candidateHz": 127.6866,
+          "nacf": 0.9886,
+          "competingLags": [
+            125,
+            250
+          ]
+        },
+        {
+          "timeS": 1.35,
+          "candidateHz": 127.7594,
+          "nacf": 0.9884,
+          "competingLags": [
+            125,
+            250
+          ]
+        },
+        {
+          "timeS": 1.36,
+          "candidateHz": 127.5035,
+          "nacf": 0.9834,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 1.37,
+          "candidateHz": 127.2758,
+          "nacf": 0.9676,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.38,
+          "candidateHz": 127.3167,
+          "nacf": 0.9349,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.39,
+          "candidateHz": 125.045,
+          "nacf": 0.8767,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.4,
+          "candidateHz": 124.2571,
+          "nacf": 0.8831,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.41,
+          "candidateHz": 124.0544,
+          "nacf": 0.8922,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.42,
+          "candidateHz": 123.8627,
+          "nacf": 0.9064,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.43,
+          "candidateHz": 124.2485,
+          "nacf": 0.9245,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.44,
+          "candidateHz": 124.6031,
+          "nacf": 0.9213,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.45,
+          "candidateHz": 124.8675,
+          "nacf": 0.9335,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.46,
+          "candidateHz": 125.0553,
+          "nacf": 0.9358,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.47,
+          "candidateHz": 125.1556,
+          "nacf": 0.9516,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.48,
+          "candidateHz": 125.1683,
+          "nacf": 0.9488,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.49,
+          "candidateHz": 125.1182,
+          "nacf": 0.9467,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.5,
+          "candidateHz": 124.9575,
+          "nacf": 0.9514,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.51,
+          "candidateHz": 124.5952,
+          "nacf": 0.9438,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.52,
+          "candidateHz": 124.3652,
+          "nacf": 0.9617,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.53,
+          "candidateHz": 124.3408,
+          "nacf": 0.9616,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.54,
+          "candidateHz": 124.3071,
+          "nacf": 0.9711,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.55,
+          "candidateHz": 124.477,
+          "nacf": 0.9657,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.56,
+          "candidateHz": 124.7683,
+          "nacf": 0.9384,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.57,
+          "candidateHz": 125.003,
+          "nacf": 0.9378,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.58,
+          "candidateHz": 125.2252,
+          "nacf": 0.9393,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.59,
+          "candidateHz": 125.4312,
+          "nacf": 0.9418,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.6,
+          "candidateHz": 125.2908,
+          "nacf": 0.9085,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.61,
+          "candidateHz": 125.0123,
+          "nacf": 0.8657,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.63,
+          "candidateHz": 124.0428,
+          "nacf": 0.8754,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.64,
+          "candidateHz": 123.8344,
+          "nacf": 0.9139,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.65,
+          "candidateHz": 123.7384,
+          "nacf": 0.9418,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.66,
+          "candidateHz": 123.6682,
+          "nacf": 0.9595,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.67,
+          "candidateHz": 123.8496,
+          "nacf": 0.9478,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.68,
+          "candidateHz": 124.1161,
+          "nacf": 0.9523,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.69,
+          "candidateHz": 124.3488,
+          "nacf": 0.9491,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 1.7,
+          "candidateHz": 124.632,
+          "nacf": 0.9524,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.71,
+          "candidateHz": 124.9353,
+          "nacf": 0.9642,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.72,
+          "candidateHz": 125.174,
+          "nacf": 0.9634,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.73,
+          "candidateHz": 125.4204,
+          "nacf": 0.9659,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 1.74,
+          "candidateHz": 125.6269,
+          "nacf": 0.9703,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.75,
+          "candidateHz": 125.857,
+          "nacf": 0.983,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.76,
+          "candidateHz": 125.9239,
+          "nacf": 0.9882,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.77,
+          "candidateHz": 126.0469,
+          "nacf": 0.9822,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.78,
+          "candidateHz": 126.1809,
+          "nacf": 0.9761,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.79,
+          "candidateHz": 126.3583,
+          "nacf": 0.9643,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.8,
+          "candidateHz": 126.4386,
+          "nacf": 0.9613,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.81,
+          "candidateHz": 126.4903,
+          "nacf": 0.9589,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.82,
+          "candidateHz": 126.6157,
+          "nacf": 0.9575,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.83,
+          "candidateHz": 126.7382,
+          "nacf": 0.9644,
+          "competingLags": [
+            126,
+            252
+          ]
+        },
+        {
+          "timeS": 1.84,
+          "candidateHz": 126.7496,
+          "nacf": 0.972,
+          "competingLags": [
+            126,
+            252
+          ]
+        },
+        {
+          "timeS": 1.85,
+          "candidateHz": 126.7003,
+          "nacf": 0.9684,
+          "competingLags": [
+            126,
+            253
+          ]
+        },
+        {
+          "timeS": 1.86,
+          "candidateHz": 126.6164,
+          "nacf": 0.9578,
+          "competingLags": [
+            126,
+            253
+          ]
+        },
+        {
+          "timeS": 1.87,
+          "candidateHz": 126.3806,
+          "nacf": 0.9471,
+          "competingLags": [
+            127,
+            253
+          ]
+        },
+        {
+          "timeS": 1.88,
+          "candidateHz": 126.2339,
+          "nacf": 0.9404,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.89,
+          "candidateHz": 126.0297,
+          "nacf": 0.9518,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.9,
+          "candidateHz": 126.0171,
+          "nacf": 0.9732,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.91,
+          "candidateHz": 125.9176,
+          "nacf": 0.968,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.92,
+          "candidateHz": 125.9901,
+          "nacf": 0.9706,
+          "competingLags": [
+            127,
+            254
+          ]
+        },
+        {
+          "timeS": 1.93,
+          "candidateHz": 126.162,
+          "nacf": 0.963,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.94,
+          "candidateHz": 126.3026,
+          "nacf": 0.9739,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.95,
+          "candidateHz": 126.4791,
+          "nacf": 0.9652,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 1.96,
+          "candidateHz": 126.6828,
+          "nacf": 0.9711,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.97,
+          "candidateHz": 126.9049,
+          "nacf": 0.9765,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.98,
+          "candidateHz": 127.2447,
+          "nacf": 0.9687,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.99,
+          "candidateHz": 127.4508,
+          "nacf": 0.9494,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.0,
+          "candidateHz": 127.5698,
+          "nacf": 0.9406,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 2.01,
+          "candidateHz": 127.6938,
+          "nacf": 0.9557,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 2.02,
+          "candidateHz": 127.8706,
+          "nacf": 0.969,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 2.03,
+          "candidateHz": 127.8361,
+          "nacf": 0.9534,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 2.04,
+          "candidateHz": 127.6556,
+          "nacf": 0.9373,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 2.05,
+          "candidateHz": 127.5285,
+          "nacf": 0.9333,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 2.06,
+          "candidateHz": 127.4347,
+          "nacf": 0.9314,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.07,
+          "candidateHz": 127.3431,
+          "nacf": 0.9449,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.08,
+          "candidateHz": 127.3471,
+          "nacf": 0.9453,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.09,
+          "candidateHz": 127.385,
+          "nacf": 0.9399,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.1,
+          "candidateHz": 127.4644,
+          "nacf": 0.9421,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.11,
+          "candidateHz": 127.6018,
+          "nacf": 0.9508,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 2.12,
+          "candidateHz": 127.6971,
+          "nacf": 0.9767,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 2.13,
+          "candidateHz": 127.6801,
+          "nacf": 0.9775,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 2.14,
+          "candidateHz": 127.691,
+          "nacf": 0.9763,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 2.15,
+          "candidateHz": 127.6309,
+          "nacf": 0.9742,
+          "competingLags": [
+            125,
+            251
+          ]
+        },
+        {
+          "timeS": 2.16,
+          "candidateHz": 127.453,
+          "nacf": 0.9678,
+          "competingLags": [
+            126,
+            251
+          ]
+        },
+        {
+          "timeS": 2.17,
+          "candidateHz": 127.295,
+          "nacf": 0.9635,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.18,
+          "candidateHz": 127.1916,
+          "nacf": 0.9515,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.19,
+          "candidateHz": 127.0089,
+          "nacf": 0.9464,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.2,
+          "candidateHz": 126.8377,
+          "nacf": 0.9563,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.21,
+          "candidateHz": 126.9423,
+          "nacf": 0.9069,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.44,
+          "candidateHz": 151.1987,
+          "nacf": 0.8558,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.45,
+          "candidateHz": 151.45,
+          "nacf": 0.878,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.46,
+          "candidateHz": 151.7301,
+          "nacf": 0.9128,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 2.47,
+          "candidateHz": 151.9258,
+          "nacf": 0.9396,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 2.48,
+          "candidateHz": 151.7323,
+          "nacf": 0.9615,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 2.49,
+          "candidateHz": 151.4846,
+          "nacf": 0.9504,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.5,
+          "candidateHz": 151.189,
+          "nacf": 0.9536,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.51,
+          "candidateHz": 150.8623,
+          "nacf": 0.9485,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.52,
+          "candidateHz": 150.3702,
+          "nacf": 0.9359,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.53,
+          "candidateHz": 149.9277,
+          "nacf": 0.9422,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.54,
+          "candidateHz": 149.1401,
+          "nacf": 0.9349,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.55,
+          "candidateHz": 148.57,
+          "nacf": 0.9307,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 2.56,
+          "candidateHz": 147.9844,
+          "nacf": 0.936,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 2.57,
+          "candidateHz": 147.4386,
+          "nacf": 0.924,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.58,
+          "candidateHz": 147.0112,
+          "nacf": 0.9419,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.59,
+          "candidateHz": 146.8517,
+          "nacf": 0.965,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.6,
+          "candidateHz": 146.9123,
+          "nacf": 0.9491,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.61,
+          "candidateHz": 147.3158,
+          "nacf": 0.921,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.62,
+          "candidateHz": 147.7151,
+          "nacf": 0.8847,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 2.67,
+          "candidateHz": 152.5008,
+          "nacf": 0.8726,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 2.68,
+          "candidateHz": 153.2712,
+          "nacf": 0.9109,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 2.69,
+          "candidateHz": 153.4789,
+          "nacf": 0.9502,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 2.7,
+          "candidateHz": 153.2806,
+          "nacf": 0.9266,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 2.71,
+          "candidateHz": 153.0062,
+          "nacf": 0.894,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 2.76,
+          "candidateHz": 147.9327,
+          "nacf": 0.8661,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 2.77,
+          "candidateHz": 147.171,
+          "nacf": 0.8835,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.78,
+          "candidateHz": 146.6157,
+          "nacf": 0.9176,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.79,
+          "candidateHz": 146.2622,
+          "nacf": 0.938,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.8,
+          "candidateHz": 146.07,
+          "nacf": 0.9427,
+          "competingLags": [
+            110
+          ]
+        },
+        {
+          "timeS": 2.81,
+          "candidateHz": 146.1804,
+          "nacf": 0.9373,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.82,
+          "candidateHz": 146.3083,
+          "nacf": 0.913,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 2.89,
+          "candidateHz": 155.9696,
+          "nacf": 0.8637,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 2.9,
+          "candidateHz": 155.7284,
+          "nacf": 0.8618,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 2.99,
+          "candidateHz": 140.9379,
+          "nacf": 0.8784,
+          "competingLags": [
+            114
+          ]
+        },
+        {
+          "timeS": 3.0,
+          "candidateHz": 140.9318,
+          "nacf": 0.8838,
+          "competingLags": [
+            114
+          ]
+        },
+        {
+          "timeS": 3.47,
+          "candidateHz": 155.4163,
+          "nacf": 0.8832,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 3.48,
+          "candidateHz": 155.317,
+          "nacf": 0.9274,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 3.49,
+          "candidateHz": 155.1275,
+          "nacf": 0.9593,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 3.5,
+          "candidateHz": 154.9956,
+          "nacf": 0.9722,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 3.51,
+          "candidateHz": 154.6904,
+          "nacf": 0.975,
+          "competingLags": [
+            103,
+            207
+          ]
+        },
+        {
+          "timeS": 3.52,
+          "candidateHz": 154.5285,
+          "nacf": 0.9827,
+          "competingLags": [
+            104,
+            207
+          ]
+        },
+        {
+          "timeS": 3.53,
+          "candidateHz": 154.3021,
+          "nacf": 0.975,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 3.54,
+          "candidateHz": 153.8994,
+          "nacf": 0.98,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 3.55,
+          "candidateHz": 153.4944,
+          "nacf": 0.9638,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 3.56,
+          "candidateHz": 152.9253,
+          "nacf": 0.9565,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 3.57,
+          "candidateHz": 152.4532,
+          "nacf": 0.9532,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 3.58,
+          "candidateHz": 151.7072,
+          "nacf": 0.9246,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 3.59,
+          "candidateHz": 151.1062,
+          "nacf": 0.9316,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.6,
+          "candidateHz": 150.443,
+          "nacf": 0.9256,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.61,
+          "candidateHz": 150.0644,
+          "nacf": 0.936,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 3.62,
+          "candidateHz": 149.7907,
+          "nacf": 0.953,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 3.63,
+          "candidateHz": 149.6209,
+          "nacf": 0.9623,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.64,
+          "candidateHz": 149.4234,
+          "nacf": 0.9728,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.65,
+          "candidateHz": 149.4505,
+          "nacf": 0.9788,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.66,
+          "candidateHz": 149.513,
+          "nacf": 0.9722,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.67,
+          "candidateHz": 149.5167,
+          "nacf": 0.9838,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.68,
+          "candidateHz": 149.5548,
+          "nacf": 0.9821,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.69,
+          "candidateHz": 149.5788,
+          "nacf": 0.9764,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.7,
+          "candidateHz": 149.6708,
+          "nacf": 0.9798,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.71,
+          "candidateHz": 149.7946,
+          "nacf": 0.9774,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 3.72,
+          "candidateHz": 150.0767,
+          "nacf": 0.9523,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 3.73,
+          "candidateHz": 150.2209,
+          "nacf": 0.942,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 3.74,
+          "candidateHz": 150.3595,
+          "nacf": 0.9494,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.75,
+          "candidateHz": 150.4969,
+          "nacf": 0.9654,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.76,
+          "candidateHz": 150.674,
+          "nacf": 0.9607,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.77,
+          "candidateHz": 150.9202,
+          "nacf": 0.9608,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.78,
+          "candidateHz": 151.0837,
+          "nacf": 0.944,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.79,
+          "candidateHz": 150.9926,
+          "nacf": 0.9162,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 3.8,
+          "candidateHz": 150.7083,
+          "nacf": 0.8523,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 4.02,
+          "candidateHz": 165.4726,
+          "nacf": 0.8833,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.03,
+          "candidateHz": 165.12,
+          "nacf": 0.9103,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.04,
+          "candidateHz": 164.8376,
+          "nacf": 0.9251,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.05,
+          "candidateHz": 164.3707,
+          "nacf": 0.959,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.06,
+          "candidateHz": 164.0007,
+          "nacf": 0.9658,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.07,
+          "candidateHz": 163.7422,
+          "nacf": 0.9737,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.08,
+          "candidateHz": 163.5315,
+          "nacf": 0.9841,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.09,
+          "candidateHz": 163.4185,
+          "nacf": 0.9854,
+          "competingLags": [
+            98,
+            196
+          ]
+        },
+        {
+          "timeS": 4.1,
+          "candidateHz": 163.3368,
+          "nacf": 0.9905,
+          "competingLags": [
+            98,
+            196
+          ]
+        },
+        {
+          "timeS": 4.11,
+          "candidateHz": 163.082,
+          "nacf": 0.9833,
+          "competingLags": [
+            98,
+            196
+          ]
+        },
+        {
+          "timeS": 4.12,
+          "candidateHz": 162.9655,
+          "nacf": 0.9862,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.13,
+          "candidateHz": 163.1501,
+          "nacf": 0.9854,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.14,
+          "candidateHz": 163.3056,
+          "nacf": 0.9853,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.15,
+          "candidateHz": 163.4862,
+          "nacf": 0.9782,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.16,
+          "candidateHz": 163.8069,
+          "nacf": 0.968,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.17,
+          "candidateHz": 164.0541,
+          "nacf": 0.9512,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.18,
+          "candidateHz": 164.4808,
+          "nacf": 0.9541,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.19,
+          "candidateHz": 164.9678,
+          "nacf": 0.9796,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.2,
+          "candidateHz": 165.1467,
+          "nacf": 0.9825,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.21,
+          "candidateHz": 165.4597,
+          "nacf": 0.9797,
+          "competingLags": [
+            97,
+            193
+          ]
+        },
+        {
+          "timeS": 4.22,
+          "candidateHz": 165.8881,
+          "nacf": 0.9769,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 4.23,
+          "candidateHz": 166.1445,
+          "nacf": 0.9802,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.24,
+          "candidateHz": 166.4308,
+          "nacf": 0.9862,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.25,
+          "candidateHz": 166.6575,
+          "nacf": 0.981,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.26,
+          "candidateHz": 166.8861,
+          "nacf": 0.976,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.27,
+          "candidateHz": 167.0728,
+          "nacf": 0.9828,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.28,
+          "candidateHz": 167.1189,
+          "nacf": 0.9876,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.29,
+          "candidateHz": 167.1866,
+          "nacf": 0.9907,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 4.3,
+          "candidateHz": 167.0808,
+          "nacf": 0.9899,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.31,
+          "candidateHz": 166.9235,
+          "nacf": 0.9914,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 4.32,
+          "candidateHz": 166.7093,
+          "nacf": 0.9916,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 4.33,
+          "candidateHz": 166.4092,
+          "nacf": 0.9807,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.34,
+          "candidateHz": 166.2285,
+          "nacf": 0.9799,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.35,
+          "candidateHz": 166.1731,
+          "nacf": 0.9768,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.36,
+          "candidateHz": 166.14,
+          "nacf": 0.9864,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.37,
+          "candidateHz": 166.3626,
+          "nacf": 0.9788,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.38,
+          "candidateHz": 166.4702,
+          "nacf": 0.9754,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.39,
+          "candidateHz": 166.7296,
+          "nacf": 0.971,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.4,
+          "candidateHz": 167.0722,
+          "nacf": 0.9719,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.41,
+          "candidateHz": 167.4196,
+          "nacf": 0.9755,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 4.42,
+          "candidateHz": 167.6535,
+          "nacf": 0.9722,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 4.43,
+          "candidateHz": 167.6205,
+          "nacf": 0.9707,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 4.44,
+          "candidateHz": 167.6556,
+          "nacf": 0.9791,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 4.45,
+          "candidateHz": 167.5664,
+          "nacf": 0.9778,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 4.46,
+          "candidateHz": 167.4535,
+          "nacf": 0.975,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 4.47,
+          "candidateHz": 167.3472,
+          "nacf": 0.9792,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 4.48,
+          "candidateHz": 167.1399,
+          "nacf": 0.9838,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 4.49,
+          "candidateHz": 166.9266,
+          "nacf": 0.9895,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 4.5,
+          "candidateHz": 166.7715,
+          "nacf": 1.0004,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.51,
+          "candidateHz": 166.6498,
+          "nacf": 0.9898,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 4.52,
+          "candidateHz": 166.2697,
+          "nacf": 0.9754,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.53,
+          "candidateHz": 166.0337,
+          "nacf": 0.9652,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.54,
+          "candidateHz": 165.7439,
+          "nacf": 0.9582,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.55,
+          "candidateHz": 165.5031,
+          "nacf": 0.9707,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.56,
+          "candidateHz": 165.5093,
+          "nacf": 0.9754,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.57,
+          "candidateHz": 165.7322,
+          "nacf": 0.9589,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.58,
+          "candidateHz": 166.0323,
+          "nacf": 0.9498,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.59,
+          "candidateHz": 166.5708,
+          "nacf": 0.9279,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.6,
+          "candidateHz": 167.3369,
+          "nacf": 0.9073,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.61,
+          "candidateHz": 167.9948,
+          "nacf": 0.9139,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.62,
+          "candidateHz": 168.6536,
+          "nacf": 0.9415,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.63,
+          "candidateHz": 169.3176,
+          "nacf": 0.9502,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 4.64,
+          "candidateHz": 169.5351,
+          "nacf": 0.9667,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 4.65,
+          "candidateHz": 169.5287,
+          "nacf": 0.9627,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 4.66,
+          "candidateHz": 169.1896,
+          "nacf": 0.9461,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.67,
+          "candidateHz": 168.7108,
+          "nacf": 0.9406,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.68,
+          "candidateHz": 168.0461,
+          "nacf": 0.9376,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.69,
+          "candidateHz": 167.5238,
+          "nacf": 0.9236,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.7,
+          "candidateHz": 166.7934,
+          "nacf": 0.9383,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.71,
+          "candidateHz": 166.0012,
+          "nacf": 0.9119,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.72,
+          "candidateHz": 165.2722,
+          "nacf": 0.9201,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.73,
+          "candidateHz": 164.3611,
+          "nacf": 0.8944,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.74,
+          "candidateHz": 163.5034,
+          "nacf": 0.8953,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.75,
+          "candidateHz": 162.8338,
+          "nacf": 0.9099,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.76,
+          "candidateHz": 162.4301,
+          "nacf": 0.9331,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 4.77,
+          "candidateHz": 162.2409,
+          "nacf": 0.9572,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 4.78,
+          "candidateHz": 162.4184,
+          "nacf": 0.9338,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 4.79,
+          "candidateHz": 162.6321,
+          "nacf": 0.8867,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.86,
+          "candidateHz": 172.4158,
+          "nacf": 0.8821,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.87,
+          "candidateHz": 172.663,
+          "nacf": 0.9083,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.88,
+          "candidateHz": 172.4679,
+          "nacf": 0.9078,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.89,
+          "candidateHz": 171.6672,
+          "nacf": 0.8782,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.91,
+          "candidateHz": 169.4172,
+          "nacf": 0.8575,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 4.92,
+          "candidateHz": 168.1669,
+          "nacf": 0.8558,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.93,
+          "candidateHz": 166.9213,
+          "nacf": 0.8648,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.94,
+          "candidateHz": 165.7437,
+          "nacf": 0.8537,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.95,
+          "candidateHz": 164.79,
+          "nacf": 0.8829,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.96,
+          "candidateHz": 164.0021,
+          "nacf": 0.8979,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.97,
+          "candidateHz": 163.5433,
+          "nacf": 0.9417,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.98,
+          "candidateHz": 163.4012,
+          "nacf": 0.9622,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.99,
+          "candidateHz": 163.523,
+          "nacf": 0.9566,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.0,
+          "candidateHz": 164.1206,
+          "nacf": 0.8824,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.04,
+          "candidateHz": 168.4111,
+          "nacf": 0.8876,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 5.05,
+          "candidateHz": 169.1509,
+          "nacf": 0.9127,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 5.06,
+          "candidateHz": 169.7043,
+          "nacf": 0.9316,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 5.07,
+          "candidateHz": 170.0306,
+          "nacf": 0.9094,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 5.08,
+          "candidateHz": 170.3542,
+          "nacf": 0.8828,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 5.2,
+          "candidateHz": 119.8058,
+          "nacf": 0.9229,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 5.21,
+          "candidateHz": 119.4074,
+          "nacf": 0.9413,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 5.22,
+          "candidateHz": 119.1929,
+          "nacf": 0.8929,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 5.23,
+          "candidateHz": 120.2525,
+          "nacf": 0.8849,
+          "competingLags": [
+            133
+          ]
+        },
+        {
+          "timeS": 5.25,
+          "candidateHz": 123.47,
+          "nacf": 0.8589,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 5.26,
+          "candidateHz": 124.8843,
+          "nacf": 0.8619,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.27,
+          "candidateHz": 125.3805,
+          "nacf": 0.9071,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.28,
+          "candidateHz": 125.5572,
+          "nacf": 0.9249,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 5.29,
+          "candidateHz": 125.5084,
+          "nacf": 0.9498,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 5.3,
+          "candidateHz": 125.4605,
+          "nacf": 0.9607,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.31,
+          "candidateHz": 125.2991,
+          "nacf": 0.9692,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.32,
+          "candidateHz": 125.1206,
+          "nacf": 0.9601,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.33,
+          "candidateHz": 124.4149,
+          "nacf": 0.9268,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 5.34,
+          "candidateHz": 123.7798,
+          "nacf": 0.9311,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 5.35,
+          "candidateHz": 123.2583,
+          "nacf": 0.9397,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 5.36,
+          "candidateHz": 122.8708,
+          "nacf": 0.9528,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 5.37,
+          "candidateHz": 122.4295,
+          "nacf": 0.9732,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 5.38,
+          "candidateHz": 122.1434,
+          "nacf": 0.9768,
+          "competingLags": [
+            131,
+            262
+          ]
+        },
+        {
+          "timeS": 5.39,
+          "candidateHz": 122.1162,
+          "nacf": 0.9907,
+          "competingLags": [
+            131,
+            262
+          ]
+        },
+        {
+          "timeS": 5.4,
+          "candidateHz": 122.3181,
+          "nacf": 0.9703,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 5.41,
+          "candidateHz": 122.6303,
+          "nacf": 0.938,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 5.42,
+          "candidateHz": 123.1361,
+          "nacf": 0.9311,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 5.43,
+          "candidateHz": 123.7265,
+          "nacf": 0.9221,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 5.44,
+          "candidateHz": 124.3836,
+          "nacf": 0.9275,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 5.45,
+          "candidateHz": 124.8066,
+          "nacf": 0.9607,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.46,
+          "candidateHz": 125.0625,
+          "nacf": 0.97,
+          "competingLags": [
+            128,
+            256
+          ]
+        },
+        {
+          "timeS": 5.47,
+          "candidateHz": 125.2532,
+          "nacf": 0.9823,
+          "competingLags": [
+            128,
+            255
+          ]
+        },
+        {
+          "timeS": 5.48,
+          "candidateHz": 125.4438,
+          "nacf": 0.9785,
+          "competingLags": [
+            128,
+            255
+          ]
+        },
+        {
+          "timeS": 5.49,
+          "candidateHz": 125.5837,
+          "nacf": 0.9787,
+          "competingLags": [
+            127,
+            255
+          ]
+        },
+        {
+          "timeS": 5.5,
+          "candidateHz": 125.6115,
+          "nacf": 0.9646,
+          "competingLags": [
+            127,
+            255
+          ]
+        },
+        {
+          "timeS": 5.51,
+          "candidateHz": 125.6573,
+          "nacf": 0.9694,
+          "competingLags": [
+            127,
+            255
+          ]
+        },
+        {
+          "timeS": 5.52,
+          "candidateHz": 125.5218,
+          "nacf": 0.9671,
+          "competingLags": [
+            127,
+            255
+          ]
+        },
+        {
+          "timeS": 5.53,
+          "candidateHz": 125.4074,
+          "nacf": 0.9661,
+          "competingLags": [
+            128,
+            255
+          ]
+        },
+        {
+          "timeS": 5.54,
+          "candidateHz": 125.173,
+          "nacf": 0.9724,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.55,
+          "candidateHz": 124.9068,
+          "nacf": 0.9743,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.56,
+          "candidateHz": 124.709,
+          "nacf": 0.9802,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.57,
+          "candidateHz": 124.5625,
+          "nacf": 0.9826,
+          "competingLags": [
+            128,
+            257
+          ]
+        },
+        {
+          "timeS": 5.58,
+          "candidateHz": 124.449,
+          "nacf": 0.9803,
+          "competingLags": [
+            129,
+            257
+          ]
+        },
+        {
+          "timeS": 5.59,
+          "candidateHz": 124.4861,
+          "nacf": 0.9742,
+          "competingLags": [
+            129,
+            257
+          ]
+        },
+        {
+          "timeS": 5.6,
+          "candidateHz": 124.5997,
+          "nacf": 0.9619,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.61,
+          "candidateHz": 124.9002,
+          "nacf": 0.9377,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 5.62,
+          "candidateHz": 125.644,
+          "nacf": 0.9088,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 5.63,
+          "candidateHz": 126.1982,
+          "nacf": 0.9052,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 5.64,
+          "candidateHz": 126.7574,
+          "nacf": 0.9162,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 5.65,
+          "candidateHz": 127.1736,
+          "nacf": 0.9344,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 5.66,
+          "candidateHz": 127.4766,
+          "nacf": 0.9423,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 5.67,
+          "candidateHz": 127.7052,
+          "nacf": 0.9496,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 5.68,
+          "candidateHz": 127.889,
+          "nacf": 0.9316,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 5.69,
+          "candidateHz": 128.143,
+          "nacf": 0.9069,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 5.7,
+          "candidateHz": 128.3209,
+          "nacf": 0.9031,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 5.71,
+          "candidateHz": 128.8469,
+          "nacf": 0.8579,
+          "competingLags": [
+            124
+          ]
+        },
+        {
+          "timeS": 5.82,
+          "candidateHz": 166.4522,
+          "nacf": 0.8698,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.83,
+          "candidateHz": 166.9061,
+          "nacf": 0.9278,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.84,
+          "candidateHz": 166.9306,
+          "nacf": 0.9563,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.85,
+          "candidateHz": 166.9364,
+          "nacf": 0.9796,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.86,
+          "candidateHz": 166.676,
+          "nacf": 0.9885,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.87,
+          "candidateHz": 166.2766,
+          "nacf": 0.9645,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.88,
+          "candidateHz": 165.8409,
+          "nacf": 0.9376,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 5.89,
+          "candidateHz": 165.4483,
+          "nacf": 0.9443,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.9,
+          "candidateHz": 165.1914,
+          "nacf": 0.9591,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.91,
+          "candidateHz": 165.1475,
+          "nacf": 0.9642,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.92,
+          "candidateHz": 165.1999,
+          "nacf": 0.9637,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.93,
+          "candidateHz": 165.2824,
+          "nacf": 0.9715,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.94,
+          "candidateHz": 165.4999,
+          "nacf": 0.9617,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.95,
+          "candidateHz": 165.7442,
+          "nacf": 0.9619,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 5.96,
+          "candidateHz": 165.9287,
+          "nacf": 0.973,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 5.97,
+          "candidateHz": 166.1623,
+          "nacf": 0.9872,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 5.98,
+          "candidateHz": 166.3447,
+          "nacf": 0.9877,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 5.99,
+          "candidateHz": 166.3057,
+          "nacf": 0.9923,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.0,
+          "candidateHz": 166.2791,
+          "nacf": 0.9891,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.01,
+          "candidateHz": 166.2457,
+          "nacf": 0.9859,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.02,
+          "candidateHz": 166.1927,
+          "nacf": 0.9879,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.03,
+          "candidateHz": 166.1915,
+          "nacf": 0.9824,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.04,
+          "candidateHz": 166.1768,
+          "nacf": 0.985,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.05,
+          "candidateHz": 166.0946,
+          "nacf": 0.9886,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.06,
+          "candidateHz": 165.9887,
+          "nacf": 0.9843,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.07,
+          "candidateHz": 166.057,
+          "nacf": 0.9883,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.08,
+          "candidateHz": 166.1125,
+          "nacf": 0.9935,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.09,
+          "candidateHz": 166.2013,
+          "nacf": 0.9958,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.1,
+          "candidateHz": 166.3852,
+          "nacf": 0.9889,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.11,
+          "candidateHz": 166.5205,
+          "nacf": 0.9873,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.12,
+          "candidateHz": 166.6187,
+          "nacf": 0.9898,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.13,
+          "candidateHz": 166.8925,
+          "nacf": 0.9903,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.14,
+          "candidateHz": 166.8925,
+          "nacf": 0.9898,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.15,
+          "candidateHz": 166.8406,
+          "nacf": 0.9894,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.16,
+          "candidateHz": 166.8576,
+          "nacf": 0.9915,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.17,
+          "candidateHz": 166.7808,
+          "nacf": 0.9943,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 6.18,
+          "candidateHz": 166.5552,
+          "nacf": 0.9803,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.19,
+          "candidateHz": 166.3367,
+          "nacf": 0.9804,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.2,
+          "candidateHz": 166.0369,
+          "nacf": 0.9732,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 6.21,
+          "candidateHz": 165.6092,
+          "nacf": 0.9718,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.22,
+          "candidateHz": 165.2669,
+          "nacf": 0.9764,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.23,
+          "candidateHz": 165.0008,
+          "nacf": 0.9838,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.24,
+          "candidateHz": 164.6453,
+          "nacf": 0.9914,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.25,
+          "candidateHz": 164.5287,
+          "nacf": 0.9896,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.26,
+          "candidateHz": 164.4274,
+          "nacf": 0.9854,
+          "competingLags": [
+            97,
+            195
+          ]
+        },
+        {
+          "timeS": 6.27,
+          "candidateHz": 164.335,
+          "nacf": 0.9855,
+          "competingLags": [
+            97,
+            195
+          ]
+        },
+        {
+          "timeS": 6.28,
+          "candidateHz": 164.4371,
+          "nacf": 0.9831,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.29,
+          "candidateHz": 164.6051,
+          "nacf": 0.9763,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.3,
+          "candidateHz": 165.0154,
+          "nacf": 0.9749,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.31,
+          "candidateHz": 165.2834,
+          "nacf": 0.9855,
+          "competingLags": [
+            97,
+            194
+          ]
+        },
+        {
+          "timeS": 6.32,
+          "candidateHz": 165.5447,
+          "nacf": 0.9819,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.33,
+          "candidateHz": 166.0049,
+          "nacf": 0.963,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.34,
+          "candidateHz": 166.3373,
+          "nacf": 0.9669,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.35,
+          "candidateHz": 166.8315,
+          "nacf": 0.9691,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.36,
+          "candidateHz": 167.1792,
+          "nacf": 0.9636,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.37,
+          "candidateHz": 167.2868,
+          "nacf": 0.963,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.38,
+          "candidateHz": 167.5336,
+          "nacf": 0.9561,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.39,
+          "candidateHz": 167.4955,
+          "nacf": 0.9637,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.4,
+          "candidateHz": 167.2051,
+          "nacf": 0.9698,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.41,
+          "candidateHz": 166.7854,
+          "nacf": 0.9703,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.42,
+          "candidateHz": 166.2125,
+          "nacf": 0.9534,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.43,
+          "candidateHz": 165.5373,
+          "nacf": 0.932,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.44,
+          "candidateHz": 164.7603,
+          "nacf": 0.9149,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 6.45,
+          "candidateHz": 163.9634,
+          "nacf": 0.91,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 6.46,
+          "candidateHz": 163.5206,
+          "nacf": 0.9369,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 6.47,
+          "candidateHz": 163.1384,
+          "nacf": 0.9648,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 6.48,
+          "candidateHz": 163.0519,
+          "nacf": 0.9735,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 6.49,
+          "candidateHz": 163.117,
+          "nacf": 0.9589,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 6.5,
+          "candidateHz": 163.545,
+          "nacf": 0.893,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 6.54,
+          "candidateHz": 167.2019,
+          "nacf": 0.8838,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 6.55,
+          "candidateHz": 167.837,
+          "nacf": 0.9072,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 6.56,
+          "candidateHz": 168.3583,
+          "nacf": 0.9311,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 6.57,
+          "candidateHz": 168.7958,
+          "nacf": 0.9129,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 6.74,
+          "candidateHz": 125.0041,
+          "nacf": 0.8696,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.75,
+          "candidateHz": 125.102,
+          "nacf": 0.9312,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.76,
+          "candidateHz": 125.2289,
+          "nacf": 0.9392,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.77,
+          "candidateHz": 125.24,
+          "nacf": 0.9498,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.78,
+          "candidateHz": 125.2127,
+          "nacf": 0.9436,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.79,
+          "candidateHz": 125.1554,
+          "nacf": 0.9255,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.8,
+          "candidateHz": 125.0145,
+          "nacf": 0.883,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 6.81,
+          "candidateHz": 124.9405,
+          "nacf": 0.854,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 7.01,
+          "candidateHz": 123.5195,
+          "nacf": 0.8648,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 7.02,
+          "candidateHz": 123.7979,
+          "nacf": 0.9183,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.03,
+          "candidateHz": 123.9174,
+          "nacf": 0.935,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.04,
+          "candidateHz": 123.997,
+          "nacf": 0.9733,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.05,
+          "candidateHz": 123.9698,
+          "nacf": 0.9891,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.06,
+          "candidateHz": 124.0057,
+          "nacf": 0.9858,
+          "competingLags": [
+            129,
+            258
+          ]
+        },
+        {
+          "timeS": 7.07,
+          "candidateHz": 124.0304,
+          "nacf": 1.0018,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.08,
+          "candidateHz": 123.945,
+          "nacf": 0.986,
+          "competingLags": [
+            129,
+            258
+          ]
+        },
+        {
+          "timeS": 7.09,
+          "candidateHz": 123.8441,
+          "nacf": 0.9617,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.1,
+          "candidateHz": 123.758,
+          "nacf": 0.9397,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.11,
+          "candidateHz": 123.6743,
+          "nacf": 0.8979,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 7.4,
+          "candidateHz": 126.6815,
+          "nacf": 0.9188,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 7.41,
+          "candidateHz": 126.4427,
+          "nacf": 0.9346,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 7.42,
+          "candidateHz": 126.4012,
+          "nacf": 0.9486,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 7.43,
+          "candidateHz": 126.5741,
+          "nacf": 0.9353,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 7.44,
+          "candidateHz": 126.8889,
+          "nacf": 0.9421,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 7.45,
+          "candidateHz": 127.2587,
+          "nacf": 0.9399,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 7.46,
+          "candidateHz": 127.5835,
+          "nacf": 0.9297,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 7.47,
+          "candidateHz": 128.0289,
+          "nacf": 0.9456,
+          "competingLags": [
+            125
+          ]
+        },
+        {
+          "timeS": 7.48,
+          "candidateHz": 128.5536,
+          "nacf": 0.9226,
+          "competingLags": [
+            124
+          ]
+        },
+        {
+          "timeS": 7.49,
+          "candidateHz": 129.0815,
+          "nacf": 0.9189,
+          "competingLags": [
+            124
+          ]
+        },
+        {
+          "timeS": 7.5,
+          "candidateHz": 129.499,
+          "nacf": 0.9216,
+          "competingLags": [
+            124
+          ]
+        },
+        {
+          "timeS": 7.51,
+          "candidateHz": 130.0181,
+          "nacf": 0.925,
+          "competingLags": [
+            123
+          ]
+        },
+        {
+          "timeS": 7.52,
+          "candidateHz": 130.4954,
+          "nacf": 0.9211,
+          "competingLags": [
+            123
+          ]
+        },
+        {
+          "timeS": 7.53,
+          "candidateHz": 130.7919,
+          "nacf": 0.9373,
+          "competingLags": [
+            122
+          ]
+        },
+        {
+          "timeS": 7.54,
+          "candidateHz": 130.8008,
+          "nacf": 0.9569,
+          "competingLags": [
+            122
+          ]
+        },
+        {
+          "timeS": 7.55,
+          "candidateHz": 130.7459,
+          "nacf": 0.9233,
+          "competingLags": [
+            122
+          ]
+        },
+        {
+          "timeS": 7.68,
+          "candidateHz": 152.7202,
+          "nacf": 0.8661,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 7.69,
+          "candidateHz": 152.3584,
+          "nacf": 0.8878,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 7.87,
+          "candidateHz": 187.0563,
+          "nacf": 0.9239,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.88,
+          "candidateHz": 186.9881,
+          "nacf": 0.939,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.89,
+          "candidateHz": 186.6554,
+          "nacf": 0.93,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.9,
+          "candidateHz": 186.0691,
+          "nacf": 0.9031,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.91,
+          "candidateHz": 185.1642,
+          "nacf": 0.9065,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.92,
+          "candidateHz": 184.5189,
+          "nacf": 0.9216,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 7.93,
+          "candidateHz": 184.166,
+          "nacf": 0.9478,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 7.94,
+          "candidateHz": 184.0795,
+          "nacf": 0.9463,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 7.95,
+          "candidateHz": 184.5134,
+          "nacf": 0.9212,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 7.96,
+          "candidateHz": 185.6342,
+          "nacf": 0.8918,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.97,
+          "candidateHz": 186.8178,
+          "nacf": 0.884,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 7.98,
+          "candidateHz": 187.8899,
+          "nacf": 0.9011,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 7.99,
+          "candidateHz": 188.7451,
+          "nacf": 0.9314,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 8.0,
+          "candidateHz": 188.9525,
+          "nacf": 0.9386,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 8.01,
+          "candidateHz": 188.9554,
+          "nacf": 0.923,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 8.11,
+          "candidateHz": 165.4366,
+          "nacf": 0.8594,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 8.12,
+          "candidateHz": 165.5883,
+          "nacf": 0.8577,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 8.17,
+          "candidateHz": 171.9413,
+          "nacf": 0.921,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 8.18,
+          "candidateHz": 172.0894,
+          "nacf": 0.9634,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 8.19,
+          "candidateHz": 171.9518,
+          "nacf": 0.9615,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 8.2,
+          "candidateHz": 171.6613,
+          "nacf": 0.9314,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 8.21,
+          "candidateHz": 171.0596,
+          "nacf": 0.8894,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.22,
+          "candidateHz": 170.1492,
+          "nacf": 0.8926,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.23,
+          "candidateHz": 169.1637,
+          "nacf": 0.878,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.24,
+          "candidateHz": 168.2702,
+          "nacf": 0.9117,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.25,
+          "candidateHz": 167.4867,
+          "nacf": 0.9305,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 8.26,
+          "candidateHz": 167.0829,
+          "nacf": 0.9703,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 8.27,
+          "candidateHz": 167.0033,
+          "nacf": 0.9796,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 8.28,
+          "candidateHz": 166.9704,
+          "nacf": 0.9704,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 8.29,
+          "candidateHz": 167.1908,
+          "nacf": 0.958,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 8.3,
+          "candidateHz": 167.5703,
+          "nacf": 0.9379,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.31,
+          "candidateHz": 167.9833,
+          "nacf": 0.957,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.32,
+          "candidateHz": 168.4821,
+          "nacf": 0.9701,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.33,
+          "candidateHz": 168.9555,
+          "nacf": 0.9593,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.34,
+          "candidateHz": 169.4431,
+          "nacf": 0.948,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.35,
+          "candidateHz": 169.7147,
+          "nacf": 0.9661,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.36,
+          "candidateHz": 169.9853,
+          "nacf": 0.9783,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.37,
+          "candidateHz": 170.1161,
+          "nacf": 0.9725,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.38,
+          "candidateHz": 170.147,
+          "nacf": 0.9632,
+          "competingLags": [
+            94,
+            188
+          ]
+        },
+        {
+          "timeS": 8.39,
+          "candidateHz": 169.9912,
+          "nacf": 0.9469,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.4,
+          "candidateHz": 169.5312,
+          "nacf": 0.9277,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 8.41,
+          "candidateHz": 168.8714,
+          "nacf": 0.9139,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.42,
+          "candidateHz": 167.9659,
+          "nacf": 0.8846,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 8.43,
+          "candidateHz": 166.9648,
+          "nacf": 0.8864,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 8.45,
+          "candidateHz": 164.7844,
+          "nacf": 0.8915,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 8.46,
+          "candidateHz": 164.0657,
+          "nacf": 0.8963,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.47,
+          "candidateHz": 163.311,
+          "nacf": 0.9376,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.48,
+          "candidateHz": 162.9008,
+          "nacf": 0.967,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.49,
+          "candidateHz": 162.7679,
+          "nacf": 0.979,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.5,
+          "candidateHz": 162.7424,
+          "nacf": 0.99,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.51,
+          "candidateHz": 162.9042,
+          "nacf": 0.9733,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.52,
+          "candidateHz": 163.246,
+          "nacf": 0.9276,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.53,
+          "candidateHz": 163.7724,
+          "nacf": 0.8537,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 8.6,
+          "candidateHz": 175.233,
+          "nacf": 0.8686,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 8.61,
+          "candidateHz": 175.2718,
+          "nacf": 0.8964,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 8.7,
+          "candidateHz": 159.3579,
+          "nacf": 0.8853,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 8.71,
+          "candidateHz": 159.3227,
+          "nacf": 0.9151,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 8.72,
+          "candidateHz": 159.3967,
+          "nacf": 0.8971,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 8.81,
+          "candidateHz": 175.9909,
+          "nacf": 0.8687,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 8.82,
+          "candidateHz": 176.2005,
+          "nacf": 0.8743,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 8.9,
+          "candidateHz": 161.9174,
+          "nacf": 0.8798,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 8.91,
+          "candidateHz": 161.6251,
+          "nacf": 0.9491,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 8.92,
+          "candidateHz": 161.5117,
+          "nacf": 0.9604,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 8.93,
+          "candidateHz": 161.5072,
+          "nacf": 0.9595,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 8.94,
+          "candidateHz": 161.6643,
+          "nacf": 0.9054,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 9.0,
+          "candidateHz": 168.8708,
+          "nacf": 0.8687,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 9.01,
+          "candidateHz": 169.4687,
+          "nacf": 0.8561,
+          "competingLags": [
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "track": 2,
+      "sourcePath": "docs/evidence/levisson-haftarah-sources/track02.mp3",
+      "sourceSha256": "693fd8327f5bc0f986c3c89a637c85473c476648b0b16ec6f5e25a97eb224284",
+      "decodedSamples": 99475,
+      "decodedSeconds": 6.2171875,
+      "derivedWav": "docs/evidence/levisson-haftarah-sources/track02.wav",
+      "wavSha256": "977f1898ab09435f2adbba2ff66f25265f32f74ad301cc98b328c10ec6807326",
+      "candidatePeriodicFrames": [
+        {
+          "timeS": 0.41,
+          "candidateHz": 147.2448,
+          "nacf": 0.8868,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.42,
+          "candidateHz": 147.4111,
+          "nacf": 0.9006,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.43,
+          "candidateHz": 147.7132,
+          "nacf": 0.9282,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.44,
+          "candidateHz": 147.9214,
+          "nacf": 0.9241,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.45,
+          "candidateHz": 148.6433,
+          "nacf": 0.9042,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.46,
+          "candidateHz": 149.0736,
+          "nacf": 0.9137,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.47,
+          "candidateHz": 149.433,
+          "nacf": 0.9367,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.48,
+          "candidateHz": 149.6139,
+          "nacf": 0.9495,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.49,
+          "candidateHz": 149.616,
+          "nacf": 0.9479,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.5,
+          "candidateHz": 149.4928,
+          "nacf": 0.9466,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.51,
+          "candidateHz": 149.3211,
+          "nacf": 0.916,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.65,
+          "candidateHz": 145.9782,
+          "nacf": 0.887,
+          "competingLags": [
+            110
+          ]
+        },
+        {
+          "timeS": 0.66,
+          "candidateHz": 146.139,
+          "nacf": 0.9061,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.67,
+          "candidateHz": 146.331,
+          "nacf": 0.9408,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.68,
+          "candidateHz": 146.381,
+          "nacf": 0.9383,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.69,
+          "candidateHz": 146.4231,
+          "nacf": 0.8997,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.7,
+          "candidateHz": 146.4331,
+          "nacf": 0.8756,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.91,
+          "candidateHz": 169.6165,
+          "nacf": 0.8841,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 0.92,
+          "candidateHz": 169.5254,
+          "nacf": 0.9424,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 0.93,
+          "candidateHz": 169.1648,
+          "nacf": 0.9432,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 0.94,
+          "candidateHz": 168.5678,
+          "nacf": 0.9228,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 0.95,
+          "candidateHz": 167.8531,
+          "nacf": 0.8962,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 0.96,
+          "candidateHz": 166.9248,
+          "nacf": 0.8728,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 0.98,
+          "candidateHz": 164.7048,
+          "nacf": 0.8718,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 0.99,
+          "candidateHz": 163.9981,
+          "nacf": 0.9159,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.0,
+          "candidateHz": 163.1548,
+          "nacf": 0.9532,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.01,
+          "candidateHz": 162.6932,
+          "nacf": 0.9652,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.02,
+          "candidateHz": 162.4046,
+          "nacf": 0.975,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.03,
+          "candidateHz": 162.2164,
+          "nacf": 0.9834,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.04,
+          "candidateHz": 162.2942,
+          "nacf": 0.9752,
+          "competingLags": [
+            99,
+            197
+          ]
+        },
+        {
+          "timeS": 1.05,
+          "candidateHz": 162.6711,
+          "nacf": 0.9397,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.06,
+          "candidateHz": 162.9823,
+          "nacf": 0.8965,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.11,
+          "candidateHz": 169.2208,
+          "nacf": 0.8916,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.12,
+          "candidateHz": 169.855,
+          "nacf": 0.9521,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.13,
+          "candidateHz": 170.0781,
+          "nacf": 0.9633,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.14,
+          "candidateHz": 170.1492,
+          "nacf": 0.9739,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.15,
+          "candidateHz": 169.7523,
+          "nacf": 0.952,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.16,
+          "candidateHz": 169.3406,
+          "nacf": 0.943,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.17,
+          "candidateHz": 168.9745,
+          "nacf": 0.9446,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.18,
+          "candidateHz": 168.2475,
+          "nacf": 0.935,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.19,
+          "candidateHz": 167.4029,
+          "nacf": 0.9238,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.2,
+          "candidateHz": 166.5211,
+          "nacf": 0.9126,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.21,
+          "candidateHz": 165.4097,
+          "nacf": 0.8764,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.23,
+          "candidateHz": 163.2886,
+          "nacf": 0.8555,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.24,
+          "candidateHz": 162.6412,
+          "nacf": 0.8945,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.25,
+          "candidateHz": 162.2152,
+          "nacf": 0.943,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.26,
+          "candidateHz": 162.0945,
+          "nacf": 0.9478,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.27,
+          "candidateHz": 162.0789,
+          "nacf": 0.9168,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.36,
+          "candidateHz": 177.3053,
+          "nacf": 0.9129,
+          "competingLags": [
+            90
+          ]
+        },
+        {
+          "timeS": 1.37,
+          "candidateHz": 177.137,
+          "nacf": 0.8953,
+          "competingLags": [
+            90
+          ]
+        },
+        {
+          "timeS": 1.47,
+          "candidateHz": 159.8666,
+          "nacf": 0.8841,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 1.48,
+          "candidateHz": 159.8885,
+          "nacf": 0.8969,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 1.49,
+          "candidateHz": 160.1058,
+          "nacf": 0.8658,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 1.56,
+          "candidateHz": 170.5666,
+          "nacf": 0.9359,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.57,
+          "candidateHz": 170.5897,
+          "nacf": 0.9514,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.58,
+          "candidateHz": 170.4424,
+          "nacf": 0.9084,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.59,
+          "candidateHz": 169.7462,
+          "nacf": 0.8517,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.64,
+          "candidateHz": 162.2689,
+          "nacf": 0.8812,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.65,
+          "candidateHz": 161.813,
+          "nacf": 0.9266,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.66,
+          "candidateHz": 161.5969,
+          "nacf": 0.9575,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.67,
+          "candidateHz": 161.6392,
+          "nacf": 0.9586,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.68,
+          "candidateHz": 161.7708,
+          "nacf": 0.9104,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.74,
+          "candidateHz": 170.8808,
+          "nacf": 0.8595,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.75,
+          "candidateHz": 171.2925,
+          "nacf": 0.897,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 1.76,
+          "candidateHz": 171.6625,
+          "nacf": 0.9035,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 1.77,
+          "candidateHz": 171.9607,
+          "nacf": 0.8885,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 1.95,
+          "candidateHz": 127.0186,
+          "nacf": 0.873,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.96,
+          "candidateHz": 127.2278,
+          "nacf": 0.9119,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.97,
+          "candidateHz": 127.3001,
+          "nacf": 0.9429,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.98,
+          "candidateHz": 127.2745,
+          "nacf": 0.95,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 1.99,
+          "candidateHz": 127.3197,
+          "nacf": 0.9671,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.0,
+          "candidateHz": 127.0806,
+          "nacf": 0.9586,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.01,
+          "candidateHz": 126.6485,
+          "nacf": 0.9285,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.02,
+          "candidateHz": 125.7637,
+          "nacf": 0.8602,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.06,
+          "candidateHz": 121.5655,
+          "nacf": 0.8927,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.07,
+          "candidateHz": 121.301,
+          "nacf": 0.9399,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.08,
+          "candidateHz": 121.079,
+          "nacf": 0.9565,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.09,
+          "candidateHz": 121.062,
+          "nacf": 0.9333,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.1,
+          "candidateHz": 121.4651,
+          "nacf": 0.8727,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.12,
+          "candidateHz": 124.3571,
+          "nacf": 0.8678,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 2.13,
+          "candidateHz": 125.5694,
+          "nacf": 0.9036,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.14,
+          "candidateHz": 126.1332,
+          "nacf": 0.9584,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.15,
+          "candidateHz": 126.2402,
+          "nacf": 0.9772,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.16,
+          "candidateHz": 126.1805,
+          "nacf": 0.9739,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.17,
+          "candidateHz": 126.0905,
+          "nacf": 0.9705,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.18,
+          "candidateHz": 125.9137,
+          "nacf": 0.9618,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.19,
+          "candidateHz": 125.1822,
+          "nacf": 0.9398,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 2.2,
+          "candidateHz": 124.4544,
+          "nacf": 0.9286,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 2.21,
+          "candidateHz": 123.87,
+          "nacf": 0.945,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 2.22,
+          "candidateHz": 123.4122,
+          "nacf": 0.9564,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 2.23,
+          "candidateHz": 123.3095,
+          "nacf": 0.9696,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 2.24,
+          "candidateHz": 123.566,
+          "nacf": 0.9504,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 2.25,
+          "candidateHz": 124.1312,
+          "nacf": 0.9261,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 2.26,
+          "candidateHz": 124.7243,
+          "nacf": 0.9163,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 2.27,
+          "candidateHz": 125.3376,
+          "nacf": 0.9035,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 2.28,
+          "candidateHz": 126.1041,
+          "nacf": 0.8513,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 2.29,
+          "candidateHz": 126.706,
+          "nacf": 0.8549,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.3,
+          "candidateHz": 126.9857,
+          "nacf": 0.8738,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.31,
+          "candidateHz": 127.3981,
+          "nacf": 0.8559,
+          "competingLags": [
+            126
+          ]
+        },
+        {
+          "timeS": 2.44,
+          "candidateHz": 170.3006,
+          "nacf": 0.8657,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.45,
+          "candidateHz": 170.2999,
+          "nacf": 0.9222,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.46,
+          "candidateHz": 170.2501,
+          "nacf": 0.957,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.47,
+          "candidateHz": 169.9288,
+          "nacf": 0.9532,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.48,
+          "candidateHz": 169.5589,
+          "nacf": 0.9519,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.49,
+          "candidateHz": 169.1256,
+          "nacf": 0.9586,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.5,
+          "candidateHz": 168.59,
+          "nacf": 0.9638,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.51,
+          "candidateHz": 168.096,
+          "nacf": 0.951,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.52,
+          "candidateHz": 167.6138,
+          "nacf": 0.9384,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.53,
+          "candidateHz": 166.9716,
+          "nacf": 0.9546,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.54,
+          "candidateHz": 166.4723,
+          "nacf": 0.9407,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.55,
+          "candidateHz": 166.1507,
+          "nacf": 0.9478,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.56,
+          "candidateHz": 165.7639,
+          "nacf": 0.9559,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.57,
+          "candidateHz": 165.5561,
+          "nacf": 0.9776,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.58,
+          "candidateHz": 165.8613,
+          "nacf": 0.9571,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.59,
+          "candidateHz": 166.2572,
+          "nacf": 0.9384,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.6,
+          "candidateHz": 166.8893,
+          "nacf": 0.9022,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.61,
+          "candidateHz": 167.7765,
+          "nacf": 0.8855,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.62,
+          "candidateHz": 168.3946,
+          "nacf": 0.8848,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.63,
+          "candidateHz": 169.2168,
+          "nacf": 0.8963,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.64,
+          "candidateHz": 169.8291,
+          "nacf": 0.9472,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.65,
+          "candidateHz": 170.097,
+          "nacf": 0.9682,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.66,
+          "candidateHz": 169.807,
+          "nacf": 0.9541,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.67,
+          "candidateHz": 169.4782,
+          "nacf": 0.9332,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.68,
+          "candidateHz": 169.0144,
+          "nacf": 0.9421,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.69,
+          "candidateHz": 168.442,
+          "nacf": 0.9709,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.7,
+          "candidateHz": 168.2089,
+          "nacf": 0.9765,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.71,
+          "candidateHz": 168.1256,
+          "nacf": 0.9858,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.72,
+          "candidateHz": 167.9657,
+          "nacf": 0.9893,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.73,
+          "candidateHz": 167.9143,
+          "nacf": 0.9803,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.74,
+          "candidateHz": 167.9198,
+          "nacf": 0.9799,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.75,
+          "candidateHz": 167.7254,
+          "nacf": 0.9745,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.76,
+          "candidateHz": 167.6438,
+          "nacf": 0.966,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.77,
+          "candidateHz": 167.5116,
+          "nacf": 0.9637,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.78,
+          "candidateHz": 167.367,
+          "nacf": 0.9711,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 2.79,
+          "candidateHz": 167.3905,
+          "nacf": 0.9669,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.8,
+          "candidateHz": 167.7646,
+          "nacf": 0.9431,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.81,
+          "candidateHz": 168.2041,
+          "nacf": 0.9406,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.82,
+          "candidateHz": 168.775,
+          "nacf": 0.9244,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.83,
+          "candidateHz": 169.5101,
+          "nacf": 0.9264,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.84,
+          "candidateHz": 169.8715,
+          "nacf": 0.955,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.85,
+          "candidateHz": 170.0825,
+          "nacf": 0.9777,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.86,
+          "candidateHz": 170.2041,
+          "nacf": 0.9828,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.87,
+          "candidateHz": 170.1018,
+          "nacf": 0.9729,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.88,
+          "candidateHz": 169.7307,
+          "nacf": 0.9556,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.89,
+          "candidateHz": 169.3263,
+          "nacf": 0.9406,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.9,
+          "candidateHz": 168.6843,
+          "nacf": 0.9598,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.91,
+          "candidateHz": 168.0934,
+          "nacf": 0.9722,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.92,
+          "candidateHz": 167.7453,
+          "nacf": 0.9615,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.93,
+          "candidateHz": 167.3048,
+          "nacf": 0.9707,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.94,
+          "candidateHz": 166.833,
+          "nacf": 0.9745,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.95,
+          "candidateHz": 166.3597,
+          "nacf": 0.9701,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.96,
+          "candidateHz": 165.9743,
+          "nacf": 0.9597,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.97,
+          "candidateHz": 165.5529,
+          "nacf": 0.973,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.98,
+          "candidateHz": 165.3398,
+          "nacf": 0.976,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.99,
+          "candidateHz": 165.3238,
+          "nacf": 0.9681,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.0,
+          "candidateHz": 165.4777,
+          "nacf": 0.9583,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.01,
+          "candidateHz": 165.7825,
+          "nacf": 0.924,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.02,
+          "candidateHz": 166.4939,
+          "nacf": 0.9012,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 3.03,
+          "candidateHz": 167.2003,
+          "nacf": 0.873,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 3.04,
+          "candidateHz": 168.3501,
+          "nacf": 0.8679,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 3.05,
+          "candidateHz": 169.3361,
+          "nacf": 0.9091,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.06,
+          "candidateHz": 169.7539,
+          "nacf": 0.946,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.07,
+          "candidateHz": 169.788,
+          "nacf": 0.9442,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.08,
+          "candidateHz": 169.4135,
+          "nacf": 0.8862,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.32,
+          "candidateHz": 125.8766,
+          "nacf": 0.8751,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 3.33,
+          "candidateHz": 125.7349,
+          "nacf": 0.9026,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 3.34,
+          "candidateHz": 125.5518,
+          "nacf": 0.8982,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 3.35,
+          "candidateHz": 125.5465,
+          "nacf": 0.8961,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 3.36,
+          "candidateHz": 125.4686,
+          "nacf": 0.8749,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 3.37,
+          "candidateHz": 125.2447,
+          "nacf": 0.8619,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 3.57,
+          "candidateHz": 121.8734,
+          "nacf": 0.8572,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 3.58,
+          "candidateHz": 122.0745,
+          "nacf": 0.9066,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 3.59,
+          "candidateHz": 122.1262,
+          "nacf": 0.9379,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 3.6,
+          "candidateHz": 122.3666,
+          "nacf": 0.9014,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 3.61,
+          "candidateHz": 122.6331,
+          "nacf": 0.9168,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 3.62,
+          "candidateHz": 122.7903,
+          "nacf": 0.9172,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 3.63,
+          "candidateHz": 122.9437,
+          "nacf": 0.9031,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 3.64,
+          "candidateHz": 123.0558,
+          "nacf": 0.8903,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 3.94,
+          "candidateHz": 125.2183,
+          "nacf": 0.8802,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 3.95,
+          "candidateHz": 124.9239,
+          "nacf": 0.9173,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 3.96,
+          "candidateHz": 124.6029,
+          "nacf": 0.9275,
+          "competingLags": [
+            128,
+            257
+          ]
+        },
+        {
+          "timeS": 3.97,
+          "candidateHz": 124.4567,
+          "nacf": 0.9423,
+          "competingLags": [
+            129,
+            257
+          ]
+        },
+        {
+          "timeS": 3.98,
+          "candidateHz": 62.2548,
+          "nacf": 0.9517,
+          "competingLags": [
+            257
+          ]
+        },
+        {
+          "timeS": 3.99,
+          "candidateHz": 124.9381,
+          "nacf": 0.9229,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.05,
+          "candidateHz": 129.0859,
+          "nacf": 0.8659,
+          "competingLags": [
+            124
+          ]
+        },
+        {
+          "timeS": 4.06,
+          "candidateHz": 129.7168,
+          "nacf": 0.8813,
+          "competingLags": [
+            123
+          ]
+        },
+        {
+          "timeS": 4.07,
+          "candidateHz": 130.21,
+          "nacf": 0.8502,
+          "competingLags": [
+            123
+          ]
+        },
+        {
+          "timeS": 4.16,
+          "candidateHz": 152.1942,
+          "nacf": 0.8894,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 4.17,
+          "candidateHz": 152.2014,
+          "nacf": 0.9452,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 4.18,
+          "candidateHz": 152.0646,
+          "nacf": 0.9653,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 4.19,
+          "candidateHz": 151.8885,
+          "nacf": 0.9509,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 4.2,
+          "candidateHz": 151.5502,
+          "nacf": 0.9425,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 4.21,
+          "candidateHz": 151.2222,
+          "nacf": 0.9525,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 4.22,
+          "candidateHz": 151.209,
+          "nacf": 0.949,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 4.23,
+          "candidateHz": 151.1638,
+          "nacf": 0.9379,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 4.24,
+          "candidateHz": 151.5419,
+          "nacf": 0.8837,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 4.45,
+          "candidateHz": 193.4979,
+          "nacf": 0.876,
+          "competingLags": [
+            83
+          ]
+        },
+        {
+          "timeS": 4.46,
+          "candidateHz": 192.5127,
+          "nacf": 0.9391,
+          "competingLags": [
+            83
+          ]
+        },
+        {
+          "timeS": 4.47,
+          "candidateHz": 192.1645,
+          "nacf": 0.951,
+          "competingLags": [
+            83
+          ]
+        },
+        {
+          "timeS": 4.48,
+          "candidateHz": 191.9473,
+          "nacf": 0.957,
+          "competingLags": [
+            83
+          ]
+        },
+        {
+          "timeS": 4.49,
+          "candidateHz": 192.1934,
+          "nacf": 0.9382,
+          "competingLags": [
+            83
+          ]
+        },
+        {
+          "timeS": 4.5,
+          "candidateHz": 192.7598,
+          "nacf": 0.8826,
+          "competingLags": [
+            83
+          ]
+        },
+        {
+          "timeS": 4.53,
+          "candidateHz": 196.792,
+          "nacf": 0.8574,
+          "competingLags": [
+            81
+          ]
+        },
+        {
+          "timeS": 4.54,
+          "candidateHz": 197.0351,
+          "nacf": 0.8725,
+          "competingLags": [
+            81
+          ]
+        },
+        {
+          "timeS": 4.71,
+          "candidateHz": 173.2989,
+          "nacf": 0.9163,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 4.72,
+          "candidateHz": 173.2387,
+          "nacf": 0.9622,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 4.73,
+          "candidateHz": 173.0733,
+          "nacf": 0.9466,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 4.74,
+          "candidateHz": 172.8155,
+          "nacf": 0.9159,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.75,
+          "candidateHz": 172.2459,
+          "nacf": 0.8742,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.78,
+          "candidateHz": 168.6886,
+          "nacf": 0.869,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.79,
+          "candidateHz": 167.6194,
+          "nacf": 0.9151,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.8,
+          "candidateHz": 166.8975,
+          "nacf": 0.973,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.81,
+          "candidateHz": 166.6719,
+          "nacf": 0.9925,
+          "competingLags": [
+            96,
+            192
+          ]
+        },
+        {
+          "timeS": 4.82,
+          "candidateHz": 166.6781,
+          "nacf": 0.9883,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.83,
+          "candidateHz": 167.1373,
+          "nacf": 0.9389,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.84,
+          "candidateHz": 168.0383,
+          "nacf": 0.8868,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.87,
+          "candidateHz": 171.8805,
+          "nacf": 0.8687,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.88,
+          "candidateHz": 172.4193,
+          "nacf": 0.9279,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.89,
+          "candidateHz": 172.4923,
+          "nacf": 0.9596,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.9,
+          "candidateHz": 172.3643,
+          "nacf": 0.9607,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.91,
+          "candidateHz": 172.1141,
+          "nacf": 0.9228,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 4.97,
+          "candidateHz": 162.9658,
+          "nacf": 0.861,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.98,
+          "candidateHz": 162.4782,
+          "nacf": 0.9351,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.99,
+          "candidateHz": 162.2777,
+          "nacf": 0.9557,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.0,
+          "candidateHz": 162.4485,
+          "nacf": 0.9072,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.08,
+          "candidateHz": 176.2102,
+          "nacf": 0.884,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 5.09,
+          "candidateHz": 176.2713,
+          "nacf": 0.9191,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 5.1,
+          "candidateHz": 176.0061,
+          "nacf": 0.8878,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 5.19,
+          "candidateHz": 161.8173,
+          "nacf": 0.8731,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.2,
+          "candidateHz": 161.272,
+          "nacf": 0.9208,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.21,
+          "candidateHz": 161.1088,
+          "nacf": 0.949,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.22,
+          "candidateHz": 161.2465,
+          "nacf": 0.8884,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.31,
+          "candidateHz": 176.7849,
+          "nacf": 0.8911,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 5.32,
+          "candidateHz": 176.5382,
+          "nacf": 0.8746,
+          "competingLags": [
+            91
+          ]
+        },
+        {
+          "timeS": 5.4,
+          "candidateHz": 163.4491,
+          "nacf": 0.8656,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.41,
+          "candidateHz": 163.0305,
+          "nacf": 0.9344,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.42,
+          "candidateHz": 162.9277,
+          "nacf": 0.9279,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.43,
+          "candidateHz": 163.2711,
+          "nacf": 0.8814,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.5,
+          "candidateHz": 174.0541,
+          "nacf": 0.8759,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.51,
+          "candidateHz": 174.6775,
+          "nacf": 0.8981,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.52,
+          "candidateHz": 175.1103,
+          "nacf": 0.8978,
+          "competingLags": [
+            91
+          ]
+        }
+      ]
+    },
+    {
+      "track": 3,
+      "sourcePath": "docs/evidence/levisson-haftarah-sources/track03.mp3",
+      "sourceSha256": "45c909e3c29469a604918f3e6f65b6ed91752a82dc43a33e6fc0ce6886d0cad2",
+      "decodedSamples": 99475,
+      "decodedSeconds": 6.2171875,
+      "derivedWav": "docs/evidence/levisson-haftarah-sources/track03.wav",
+      "wavSha256": "1aa0e68d7f4aac24ab4a93a369d430a295d6158571c0903e4e0a5767e7507c58",
+      "candidatePeriodicFrames": [
+        {
+          "timeS": 0.46,
+          "candidateHz": 62.2352,
+          "nacf": 0.8938,
+          "competingLags": [
+            257
+          ]
+        },
+        {
+          "timeS": 0.47,
+          "candidateHz": 62.2784,
+          "nacf": 0.9433,
+          "competingLags": [
+            257
+          ]
+        },
+        {
+          "timeS": 0.48,
+          "candidateHz": 62.3263,
+          "nacf": 0.9542,
+          "competingLags": [
+            257
+          ]
+        },
+        {
+          "timeS": 0.49,
+          "candidateHz": 124.7431,
+          "nacf": 0.9579,
+          "competingLags": [
+            128,
+            257
+          ]
+        },
+        {
+          "timeS": 0.5,
+          "candidateHz": 62.1592,
+          "nacf": 0.9812,
+          "competingLags": [
+            257
+          ]
+        },
+        {
+          "timeS": 0.51,
+          "candidateHz": 124.2837,
+          "nacf": 0.9602,
+          "competingLags": [
+            129,
+            258
+          ]
+        },
+        {
+          "timeS": 0.6,
+          "candidateHz": 122.893,
+          "nacf": 0.9231,
+          "competingLags": [
+            130
+          ]
+        },
+        {
+          "timeS": 0.61,
+          "candidateHz": 122.5006,
+          "nacf": 0.9282,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 0.62,
+          "candidateHz": 122.1491,
+          "nacf": 0.8756,
+          "competingLags": [
+            131
+          ]
+        },
+        {
+          "timeS": 0.66,
+          "candidateHz": 119.5397,
+          "nacf": 0.8619,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 0.67,
+          "candidateHz": 119.2457,
+          "nacf": 0.9029,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 0.68,
+          "candidateHz": 119.2625,
+          "nacf": 0.9124,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 0.69,
+          "candidateHz": 119.4925,
+          "nacf": 0.8533,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 0.73,
+          "candidateHz": 121.0031,
+          "nacf": 0.896,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.74,
+          "candidateHz": 121.1494,
+          "nacf": 0.9509,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.75,
+          "candidateHz": 121.2227,
+          "nacf": 0.9784,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.76,
+          "candidateHz": 121.2658,
+          "nacf": 0.9866,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.77,
+          "candidateHz": 121.3576,
+          "nacf": 0.9746,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.78,
+          "candidateHz": 121.4188,
+          "nacf": 0.9592,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.79,
+          "candidateHz": 121.4583,
+          "nacf": 0.9315,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 0.8,
+          "candidateHz": 121.6653,
+          "nacf": 0.8885,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 1.09,
+          "candidateHz": 143.5513,
+          "nacf": 0.862,
+          "competingLags": [
+            111
+          ]
+        },
+        {
+          "timeS": 1.1,
+          "candidateHz": 143.3346,
+          "nacf": 0.9045,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.11,
+          "candidateHz": 143.0124,
+          "nacf": 0.9375,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.12,
+          "candidateHz": 142.8621,
+          "nacf": 0.9646,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.13,
+          "candidateHz": 142.6295,
+          "nacf": 0.9798,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.14,
+          "candidateHz": 142.3791,
+          "nacf": 0.9776,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.15,
+          "candidateHz": 142.202,
+          "nacf": 0.9727,
+          "competingLags": [
+            113,
+            225
+          ]
+        },
+        {
+          "timeS": 1.16,
+          "candidateHz": 142.2371,
+          "nacf": 0.9824,
+          "competingLags": [
+            112,
+            225
+          ]
+        },
+        {
+          "timeS": 1.17,
+          "candidateHz": 142.3395,
+          "nacf": 0.9737,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.18,
+          "candidateHz": 142.6128,
+          "nacf": 0.9369,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 1.24,
+          "candidateHz": 148.9944,
+          "nacf": 0.8714,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.25,
+          "candidateHz": 149.3646,
+          "nacf": 0.9345,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.26,
+          "candidateHz": 149.6557,
+          "nacf": 0.95,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.27,
+          "candidateHz": 149.568,
+          "nacf": 0.9498,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.28,
+          "candidateHz": 149.5086,
+          "nacf": 0.9534,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.29,
+          "candidateHz": 149.1809,
+          "nacf": 0.9587,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.3,
+          "candidateHz": 148.9715,
+          "nacf": 0.9675,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.31,
+          "candidateHz": 148.8086,
+          "nacf": 0.961,
+          "competingLags": [
+            108,
+            215
+          ]
+        },
+        {
+          "timeS": 1.32,
+          "candidateHz": 148.5764,
+          "nacf": 0.9715,
+          "competingLags": [
+            108,
+            215
+          ]
+        },
+        {
+          "timeS": 1.33,
+          "candidateHz": 148.1886,
+          "nacf": 0.9701,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 1.34,
+          "candidateHz": 147.9424,
+          "nacf": 0.9395,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 1.35,
+          "candidateHz": 147.3804,
+          "nacf": 0.873,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 1.39,
+          "candidateHz": 145.129,
+          "nacf": 0.8914,
+          "competingLags": [
+            110
+          ]
+        },
+        {
+          "timeS": 1.4,
+          "candidateHz": 145.1788,
+          "nacf": 0.8864,
+          "competingLags": [
+            110
+          ]
+        },
+        {
+          "timeS": 1.48,
+          "candidateHz": 158.663,
+          "nacf": 0.8838,
+          "competingLags": [
+            101
+          ]
+        },
+        {
+          "timeS": 1.49,
+          "candidateHz": 158.6539,
+          "nacf": 0.9167,
+          "competingLags": [
+            101
+          ]
+        },
+        {
+          "timeS": 1.5,
+          "candidateHz": 158.3742,
+          "nacf": 0.8757,
+          "competingLags": [
+            101
+          ]
+        },
+        {
+          "timeS": 1.68,
+          "candidateHz": 152.1929,
+          "nacf": 0.8771,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 1.69,
+          "candidateHz": 152.7919,
+          "nacf": 0.8986,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 1.7,
+          "candidateHz": 152.887,
+          "nacf": 0.8851,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 1.89,
+          "candidateHz": 154.4983,
+          "nacf": 0.8676,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 1.9,
+          "candidateHz": 154.396,
+          "nacf": 0.9131,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 1.91,
+          "candidateHz": 154.1354,
+          "nacf": 0.9414,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 1.92,
+          "candidateHz": 153.8462,
+          "nacf": 0.9552,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 1.93,
+          "candidateHz": 153.4324,
+          "nacf": 0.9424,
+          "competingLags": [
+            104
+          ]
+        },
+        {
+          "timeS": 1.94,
+          "candidateHz": 152.9881,
+          "nacf": 0.927,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 1.95,
+          "candidateHz": 152.3028,
+          "nacf": 0.8964,
+          "competingLags": [
+            105
+          ]
+        },
+        {
+          "timeS": 1.96,
+          "candidateHz": 151.5313,
+          "nacf": 0.8716,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 1.97,
+          "candidateHz": 150.1602,
+          "nacf": 0.864,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.98,
+          "candidateHz": 149.6488,
+          "nacf": 0.8838,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 1.99,
+          "candidateHz": 149.187,
+          "nacf": 0.9089,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.0,
+          "candidateHz": 149.1405,
+          "nacf": 0.9156,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.01,
+          "candidateHz": 149.3021,
+          "nacf": 0.9216,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.02,
+          "candidateHz": 149.4476,
+          "nacf": 0.9242,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.03,
+          "candidateHz": 149.8509,
+          "nacf": 0.9228,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.04,
+          "candidateHz": 149.9114,
+          "nacf": 0.9388,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.05,
+          "candidateHz": 150.0459,
+          "nacf": 0.9419,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.06,
+          "candidateHz": 150.1817,
+          "nacf": 0.9293,
+          "competingLags": [
+            107,
+            213
+          ]
+        },
+        {
+          "timeS": 2.07,
+          "candidateHz": 150.2491,
+          "nacf": 0.9113,
+          "competingLags": [
+            106
+          ]
+        },
+        {
+          "timeS": 2.08,
+          "candidateHz": 150.2132,
+          "nacf": 0.882,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 2.34,
+          "candidateHz": 163.5661,
+          "nacf": 0.8893,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 2.35,
+          "candidateHz": 164.2057,
+          "nacf": 0.9046,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.36,
+          "candidateHz": 164.7766,
+          "nacf": 0.9265,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.37,
+          "candidateHz": 164.9486,
+          "nacf": 0.9446,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.38,
+          "candidateHz": 164.9624,
+          "nacf": 0.9509,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.39,
+          "candidateHz": 164.8797,
+          "nacf": 0.9544,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.4,
+          "candidateHz": 164.9187,
+          "nacf": 0.9623,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.41,
+          "candidateHz": 164.8866,
+          "nacf": 0.9621,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.42,
+          "candidateHz": 164.7272,
+          "nacf": 0.9724,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.43,
+          "candidateHz": 164.7042,
+          "nacf": 0.9829,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.44,
+          "candidateHz": 164.8811,
+          "nacf": 0.9881,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.45,
+          "candidateHz": 164.977,
+          "nacf": 0.9912,
+          "competingLags": [
+            97,
+            194
+          ]
+        },
+        {
+          "timeS": 2.46,
+          "candidateHz": 165.1344,
+          "nacf": 0.9941,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.47,
+          "candidateHz": 165.4513,
+          "nacf": 0.9847,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 2.48,
+          "candidateHz": 165.8057,
+          "nacf": 0.9781,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.49,
+          "candidateHz": 166.1341,
+          "nacf": 0.9791,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.5,
+          "candidateHz": 166.5895,
+          "nacf": 0.9849,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.51,
+          "candidateHz": 166.8965,
+          "nacf": 0.9779,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.52,
+          "candidateHz": 167.03,
+          "nacf": 0.9757,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.53,
+          "candidateHz": 167.0734,
+          "nacf": 0.9763,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.54,
+          "candidateHz": 167.04,
+          "nacf": 0.9705,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.55,
+          "candidateHz": 166.8139,
+          "nacf": 0.9732,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.56,
+          "candidateHz": 166.6869,
+          "nacf": 0.9708,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.57,
+          "candidateHz": 166.6823,
+          "nacf": 0.9795,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.58,
+          "candidateHz": 166.5129,
+          "nacf": 0.9863,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.59,
+          "candidateHz": 166.5856,
+          "nacf": 0.9814,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.6,
+          "candidateHz": 166.8069,
+          "nacf": 0.9825,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.61,
+          "candidateHz": 166.9569,
+          "nacf": 0.9805,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.62,
+          "candidateHz": 167.1055,
+          "nacf": 0.9769,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 2.63,
+          "candidateHz": 167.3696,
+          "nacf": 0.9854,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 2.64,
+          "candidateHz": 167.4331,
+          "nacf": 0.9824,
+          "competingLags": [
+            96,
+            191
+          ]
+        },
+        {
+          "timeS": 2.65,
+          "candidateHz": 167.5628,
+          "nacf": 0.9693,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.66,
+          "candidateHz": 167.6682,
+          "nacf": 0.9788,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.67,
+          "candidateHz": 167.6674,
+          "nacf": 0.9775,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.68,
+          "candidateHz": 167.8169,
+          "nacf": 0.9859,
+          "competingLags": [
+            95,
+            191
+          ]
+        },
+        {
+          "timeS": 2.69,
+          "candidateHz": 168.1905,
+          "nacf": 0.9862,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.7,
+          "candidateHz": 168.5364,
+          "nacf": 0.9864,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.71,
+          "candidateHz": 168.7822,
+          "nacf": 0.9786,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.72,
+          "candidateHz": 168.8641,
+          "nacf": 0.9807,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.73,
+          "candidateHz": 168.8851,
+          "nacf": 0.9698,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.74,
+          "candidateHz": 168.9225,
+          "nacf": 0.9696,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.75,
+          "candidateHz": 168.9909,
+          "nacf": 0.9655,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.76,
+          "candidateHz": 168.8256,
+          "nacf": 0.9691,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.77,
+          "candidateHz": 168.4908,
+          "nacf": 0.9757,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.78,
+          "candidateHz": 167.9517,
+          "nacf": 0.9723,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.79,
+          "candidateHz": 167.5009,
+          "nacf": 0.9648,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.8,
+          "candidateHz": 167.1112,
+          "nacf": 0.9618,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.81,
+          "candidateHz": 166.8001,
+          "nacf": 0.9669,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.82,
+          "candidateHz": 166.5298,
+          "nacf": 0.9681,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.83,
+          "candidateHz": 166.1513,
+          "nacf": 0.9691,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.84,
+          "candidateHz": 165.9033,
+          "nacf": 0.9771,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 2.85,
+          "candidateHz": 165.9715,
+          "nacf": 0.9834,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 2.86,
+          "candidateHz": 166.0148,
+          "nacf": 0.9865,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 2.87,
+          "candidateHz": 166.24,
+          "nacf": 0.9871,
+          "competingLags": [
+            96,
+            193
+          ]
+        },
+        {
+          "timeS": 2.88,
+          "candidateHz": 166.709,
+          "nacf": 0.9715,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.89,
+          "candidateHz": 167.2322,
+          "nacf": 0.9303,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 2.9,
+          "candidateHz": 168.1638,
+          "nacf": 0.9136,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.91,
+          "candidateHz": 168.9619,
+          "nacf": 0.8959,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 2.92,
+          "candidateHz": 169.782,
+          "nacf": 0.9032,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.93,
+          "candidateHz": 170.3835,
+          "nacf": 0.9436,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.94,
+          "candidateHz": 170.6433,
+          "nacf": 0.9764,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.95,
+          "candidateHz": 170.5891,
+          "nacf": 0.9681,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.96,
+          "candidateHz": 170.3773,
+          "nacf": 0.9572,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.97,
+          "candidateHz": 170.0211,
+          "nacf": 0.9498,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.98,
+          "candidateHz": 169.3418,
+          "nacf": 0.9327,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 2.99,
+          "candidateHz": 168.5527,
+          "nacf": 0.9165,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 3.0,
+          "candidateHz": 167.4643,
+          "nacf": 0.8955,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 3.01,
+          "candidateHz": 166.4833,
+          "nacf": 0.9113,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 3.02,
+          "candidateHz": 165.6143,
+          "nacf": 0.9019,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.03,
+          "candidateHz": 164.8473,
+          "nacf": 0.9223,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.04,
+          "candidateHz": 164.1343,
+          "nacf": 0.9392,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.05,
+          "candidateHz": 163.4383,
+          "nacf": 0.9793,
+          "competingLags": [
+            98,
+            196
+          ]
+        },
+        {
+          "timeS": 3.06,
+          "candidateHz": 163.2521,
+          "nacf": 0.9902,
+          "competingLags": [
+            98,
+            196
+          ]
+        },
+        {
+          "timeS": 3.07,
+          "candidateHz": 163.3912,
+          "nacf": 0.9846,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 3.08,
+          "candidateHz": 163.554,
+          "nacf": 0.9566,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 3.09,
+          "candidateHz": 164.1145,
+          "nacf": 0.8895,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.14,
+          "candidateHz": 170.2218,
+          "nacf": 0.8907,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.15,
+          "candidateHz": 170.5585,
+          "nacf": 0.9315,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.16,
+          "candidateHz": 170.3736,
+          "nacf": 0.8708,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 3.67,
+          "candidateHz": 118.7615,
+          "nacf": 0.8605,
+          "competingLags": [
+            135
+          ]
+        },
+        {
+          "timeS": 3.68,
+          "candidateHz": 118.7837,
+          "nacf": 0.886,
+          "competingLags": [
+            135
+          ]
+        },
+        {
+          "timeS": 3.99,
+          "candidateHz": 125.3595,
+          "nacf": 0.8663,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.0,
+          "candidateHz": 125.1257,
+          "nacf": 0.9105,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.01,
+          "candidateHz": 124.8262,
+          "nacf": 0.946,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.02,
+          "candidateHz": 124.5054,
+          "nacf": 0.9495,
+          "competingLags": [
+            129
+          ]
+        },
+        {
+          "timeS": 4.03,
+          "candidateHz": 124.6003,
+          "nacf": 0.9266,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.04,
+          "candidateHz": 124.7734,
+          "nacf": 0.9094,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.05,
+          "candidateHz": 125.083,
+          "nacf": 0.9081,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.06,
+          "candidateHz": 125.4836,
+          "nacf": 0.9072,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.07,
+          "candidateHz": 125.6304,
+          "nacf": 0.9445,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 4.08,
+          "candidateHz": 125.6506,
+          "nacf": 0.9708,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 4.09,
+          "candidateHz": 125.6279,
+          "nacf": 0.9875,
+          "competingLags": [
+            127
+          ]
+        },
+        {
+          "timeS": 4.1,
+          "candidateHz": 125.4672,
+          "nacf": 0.9361,
+          "competingLags": [
+            128
+          ]
+        },
+        {
+          "timeS": 4.32,
+          "candidateHz": 143.9528,
+          "nacf": 0.8933,
+          "competingLags": [
+            111
+          ]
+        },
+        {
+          "timeS": 4.33,
+          "candidateHz": 143.7845,
+          "nacf": 0.9161,
+          "competingLags": [
+            111
+          ]
+        },
+        {
+          "timeS": 4.34,
+          "candidateHz": 143.7468,
+          "nacf": 0.8971,
+          "competingLags": [
+            111
+          ]
+        },
+        {
+          "timeS": 4.52,
+          "candidateHz": 191.0558,
+          "nacf": 0.9095,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.53,
+          "candidateHz": 190.7237,
+          "nacf": 0.9438,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.54,
+          "candidateHz": 190.1884,
+          "nacf": 0.9331,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.55,
+          "candidateHz": 189.3802,
+          "nacf": 0.8927,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.56,
+          "candidateHz": 188.3542,
+          "nacf": 0.8876,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 4.57,
+          "candidateHz": 187.4977,
+          "nacf": 0.9061,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 4.58,
+          "candidateHz": 187.0043,
+          "nacf": 0.9254,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 4.59,
+          "candidateHz": 186.8556,
+          "nacf": 0.9382,
+          "competingLags": [
+            86
+          ]
+        },
+        {
+          "timeS": 4.6,
+          "candidateHz": 187.4434,
+          "nacf": 0.9161,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 4.61,
+          "candidateHz": 188.2979,
+          "nacf": 0.9188,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 4.62,
+          "candidateHz": 189.0243,
+          "nacf": 0.9268,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 4.63,
+          "candidateHz": 189.5496,
+          "nacf": 0.9466,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.64,
+          "candidateHz": 189.7899,
+          "nacf": 0.9731,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.65,
+          "candidateHz": 189.5075,
+          "nacf": 0.9543,
+          "competingLags": [
+            84
+          ]
+        },
+        {
+          "timeS": 4.66,
+          "candidateHz": 189.3188,
+          "nacf": 0.8698,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 4.82,
+          "candidateHz": 168.1498,
+          "nacf": 0.8633,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.83,
+          "candidateHz": 168.455,
+          "nacf": 0.9249,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.84,
+          "candidateHz": 167.9758,
+          "nacf": 0.9037,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.85,
+          "candidateHz": 167.1065,
+          "nacf": 0.8715,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.86,
+          "candidateHz": 166.1208,
+          "nacf": 0.8686,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.87,
+          "candidateHz": 165.0816,
+          "nacf": 0.8866,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 4.88,
+          "candidateHz": 164.036,
+          "nacf": 0.8838,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.89,
+          "candidateHz": 163.4767,
+          "nacf": 0.911,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.9,
+          "candidateHz": 163.0048,
+          "nacf": 0.94,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.91,
+          "candidateHz": 162.8683,
+          "nacf": 0.9572,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.92,
+          "candidateHz": 163.0492,
+          "nacf": 0.9383,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.93,
+          "candidateHz": 163.3386,
+          "nacf": 0.8701,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.0,
+          "candidateHz": 173.4317,
+          "nacf": 0.8792,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.01,
+          "candidateHz": 173.7905,
+          "nacf": 0.9299,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.02,
+          "candidateHz": 173.5622,
+          "nacf": 0.8914,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.11,
+          "candidateHz": 161.1794,
+          "nacf": 0.876,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.12,
+          "candidateHz": 161.0144,
+          "nacf": 0.9327,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.13,
+          "candidateHz": 161.279,
+          "nacf": 0.8941,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.31,
+          "candidateHz": 161.2675,
+          "nacf": 0.9059,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.32,
+          "candidateHz": 161.1838,
+          "nacf": 0.9272,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.33,
+          "candidateHz": 161.2703,
+          "nacf": 0.9277,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.34,
+          "candidateHz": 161.5081,
+          "nacf": 0.867,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 5.41,
+          "candidateHz": 173.1991,
+          "nacf": 0.8603,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.42,
+          "candidateHz": 173.5827,
+          "nacf": 0.9206,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.43,
+          "candidateHz": 173.6127,
+          "nacf": 0.9182,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 5.5,
+          "candidateHz": 163.9153,
+          "nacf": 0.9273,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.51,
+          "candidateHz": 163.5405,
+          "nacf": 0.9513,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.52,
+          "candidateHz": 163.2396,
+          "nacf": 0.951,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.53,
+          "candidateHz": 163.2637,
+          "nacf": 0.9358,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.54,
+          "candidateHz": 163.8468,
+          "nacf": 0.8917,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 5.58,
+          "candidateHz": 168.9594,
+          "nacf": 0.8782,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 5.59,
+          "candidateHz": 169.5934,
+          "nacf": 0.8985,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 5.6,
+          "candidateHz": 170.0011,
+          "nacf": 0.9063,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 5.61,
+          "candidateHz": 170.673,
+          "nacf": 0.8872,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 5.62,
+          "candidateHz": 171.0704,
+          "nacf": 0.866,
+          "competingLags": [
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "track": 4,
+      "sourcePath": "docs/evidence/levisson-haftarah-sources/track04.mp3",
+      "sourceSha256": "65d5de12a673c1f0f2074ab30a4f89238e44b98f666b5960abbbe6da6f646d5d",
+      "decodedSamples": 79413,
+      "decodedSeconds": 4.9633125,
+      "derivedWav": "docs/evidence/levisson-haftarah-sources/track04.wav",
+      "wavSha256": "22014b9617cd8c958ae7f42dfe48a8efc898423e23f9f202cdd24e6c40921a0a",
+      "candidatePeriodicFrames": [
+        {
+          "timeS": 0.34,
+          "candidateHz": 149.3291,
+          "nacf": 0.8509,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.35,
+          "candidateHz": 149.3674,
+          "nacf": 0.8705,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.36,
+          "candidateHz": 149.3681,
+          "nacf": 0.9003,
+          "competingLags": [
+            107,
+            214
+          ]
+        },
+        {
+          "timeS": 0.37,
+          "candidateHz": 149.4305,
+          "nacf": 0.9308,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.38,
+          "candidateHz": 149.0737,
+          "nacf": 0.9279,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.39,
+          "candidateHz": 148.9091,
+          "nacf": 0.9017,
+          "competingLags": [
+            107
+          ]
+        },
+        {
+          "timeS": 0.4,
+          "candidateHz": 148.5758,
+          "nacf": 0.893,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.41,
+          "candidateHz": 148.2006,
+          "nacf": 0.9186,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.42,
+          "candidateHz": 147.8334,
+          "nacf": 0.9218,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.43,
+          "candidateHz": 147.5741,
+          "nacf": 0.9215,
+          "competingLags": [
+            108
+          ]
+        },
+        {
+          "timeS": 0.44,
+          "candidateHz": 147.1727,
+          "nacf": 0.9305,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.45,
+          "candidateHz": 146.8509,
+          "nacf": 0.9349,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.46,
+          "candidateHz": 146.7317,
+          "nacf": 0.8958,
+          "competingLags": [
+            109
+          ]
+        },
+        {
+          "timeS": 0.51,
+          "candidateHz": 143.0074,
+          "nacf": 0.8792,
+          "competingLags": [
+            112
+          ]
+        },
+        {
+          "timeS": 0.84,
+          "candidateHz": 163.9876,
+          "nacf": 0.855,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 0.85,
+          "candidateHz": 163.8385,
+          "nacf": 0.9,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 0.86,
+          "candidateHz": 163.7247,
+          "nacf": 0.9314,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 0.87,
+          "candidateHz": 163.4366,
+          "nacf": 0.9698,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 0.88,
+          "candidateHz": 163.1511,
+          "nacf": 0.9895,
+          "competingLags": [
+            98,
+            196
+          ]
+        },
+        {
+          "timeS": 0.89,
+          "candidateHz": 162.9237,
+          "nacf": 0.9765,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 0.9,
+          "candidateHz": 162.6106,
+          "nacf": 0.974,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 0.91,
+          "candidateHz": 162.3534,
+          "nacf": 0.967,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 0.92,
+          "candidateHz": 162.0569,
+          "nacf": 0.9757,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 0.93,
+          "candidateHz": 161.8076,
+          "nacf": 0.983,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 0.94,
+          "candidateHz": 161.6189,
+          "nacf": 0.9947,
+          "competingLags": [
+            99,
+            198
+          ]
+        },
+        {
+          "timeS": 0.95,
+          "candidateHz": 161.6102,
+          "nacf": 0.9997,
+          "competingLags": [
+            99,
+            198
+          ]
+        },
+        {
+          "timeS": 0.96,
+          "candidateHz": 161.7452,
+          "nacf": 1.001,
+          "competingLags": [
+            99,
+            198
+          ]
+        },
+        {
+          "timeS": 0.97,
+          "candidateHz": 161.9744,
+          "nacf": 0.9881,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 0.98,
+          "candidateHz": 162.3028,
+          "nacf": 0.9571,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 0.99,
+          "candidateHz": 162.6597,
+          "nacf": 0.9425,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.0,
+          "candidateHz": 163.1905,
+          "nacf": 0.9398,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.01,
+          "candidateHz": 163.7477,
+          "nacf": 0.9423,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.02,
+          "candidateHz": 164.2559,
+          "nacf": 0.9528,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.03,
+          "candidateHz": 164.7579,
+          "nacf": 0.9777,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.04,
+          "candidateHz": 165.1441,
+          "nacf": 0.9913,
+          "competingLags": [
+            97,
+            194
+          ]
+        },
+        {
+          "timeS": 1.05,
+          "candidateHz": 165.464,
+          "nacf": 0.9913,
+          "competingLags": [
+            97,
+            193
+          ]
+        },
+        {
+          "timeS": 1.06,
+          "candidateHz": 165.8407,
+          "nacf": 0.9771,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.07,
+          "candidateHz": 166.0768,
+          "nacf": 0.9814,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.08,
+          "candidateHz": 166.4406,
+          "nacf": 0.9769,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.09,
+          "candidateHz": 166.7655,
+          "nacf": 0.9806,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.1,
+          "candidateHz": 166.8408,
+          "nacf": 0.9789,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.11,
+          "candidateHz": 166.8341,
+          "nacf": 0.9794,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.12,
+          "candidateHz": 166.4615,
+          "nacf": 0.9671,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.13,
+          "candidateHz": 166.1019,
+          "nacf": 0.9569,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.14,
+          "candidateHz": 165.7169,
+          "nacf": 0.9558,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.15,
+          "candidateHz": 165.4255,
+          "nacf": 0.9826,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.16,
+          "candidateHz": 165.2591,
+          "nacf": 0.9914,
+          "competingLags": [
+            97,
+            194
+          ]
+        },
+        {
+          "timeS": 1.17,
+          "candidateHz": 165.1855,
+          "nacf": 0.9925,
+          "competingLags": [
+            97,
+            194
+          ]
+        },
+        {
+          "timeS": 1.18,
+          "candidateHz": 165.3711,
+          "nacf": 0.9865,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.19,
+          "candidateHz": 165.757,
+          "nacf": 0.9689,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.2,
+          "candidateHz": 166.2762,
+          "nacf": 0.9688,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.21,
+          "candidateHz": 166.9598,
+          "nacf": 0.9473,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.22,
+          "candidateHz": 167.5423,
+          "nacf": 0.9201,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.23,
+          "candidateHz": 168.2866,
+          "nacf": 0.9158,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.24,
+          "candidateHz": 169.103,
+          "nacf": 0.9141,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.25,
+          "candidateHz": 169.798,
+          "nacf": 0.93,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.26,
+          "candidateHz": 170.3118,
+          "nacf": 0.9474,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.27,
+          "candidateHz": 170.5087,
+          "nacf": 0.9726,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.28,
+          "candidateHz": 170.338,
+          "nacf": 0.9523,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.29,
+          "candidateHz": 169.8517,
+          "nacf": 0.9612,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.3,
+          "candidateHz": 169.2614,
+          "nacf": 0.923,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.31,
+          "candidateHz": 168.4229,
+          "nacf": 0.9274,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.32,
+          "candidateHz": 167.5864,
+          "nacf": 0.8986,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 1.33,
+          "candidateHz": 166.5743,
+          "nacf": 0.9065,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 1.34,
+          "candidateHz": 165.7057,
+          "nacf": 0.9088,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.35,
+          "candidateHz": 164.9207,
+          "nacf": 0.9353,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.36,
+          "candidateHz": 164.2204,
+          "nacf": 0.9475,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 1.37,
+          "candidateHz": 163.8163,
+          "nacf": 0.9583,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.38,
+          "candidateHz": 163.3861,
+          "nacf": 0.9802,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.39,
+          "candidateHz": 163.1506,
+          "nacf": 0.9838,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.4,
+          "candidateHz": 163.0745,
+          "nacf": 0.9814,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.41,
+          "candidateHz": 163.0694,
+          "nacf": 0.9565,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.42,
+          "candidateHz": 163.3913,
+          "nacf": 0.9212,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.43,
+          "candidateHz": 163.8498,
+          "nacf": 0.8713,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 1.48,
+          "candidateHz": 170.4489,
+          "nacf": 0.8772,
+          "competingLags": [
+            94
+          ]
+        },
+        {
+          "timeS": 1.56,
+          "candidateHz": 161.513,
+          "nacf": 0.8508,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 1.57,
+          "candidateHz": 160.589,
+          "nacf": 0.8615,
+          "competingLags": [
+            100
+          ]
+        },
+        {
+          "timeS": 2.26,
+          "candidateHz": 118.9521,
+          "nacf": 0.8604,
+          "competingLags": [
+            135
+          ]
+        },
+        {
+          "timeS": 2.27,
+          "candidateHz": 119.0492,
+          "nacf": 0.9268,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.28,
+          "candidateHz": 119.2094,
+          "nacf": 0.9647,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.29,
+          "candidateHz": 119.2601,
+          "nacf": 0.9687,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.3,
+          "candidateHz": 119.336,
+          "nacf": 0.9802,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.31,
+          "candidateHz": 119.4467,
+          "nacf": 0.9884,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.32,
+          "candidateHz": 119.4365,
+          "nacf": 0.9976,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.33,
+          "candidateHz": 119.4747,
+          "nacf": 0.98,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.34,
+          "candidateHz": 119.5326,
+          "nacf": 0.9589,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.35,
+          "candidateHz": 119.4825,
+          "nacf": 0.9256,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.36,
+          "candidateHz": 119.4798,
+          "nacf": 0.8707,
+          "competingLags": [
+            134
+          ]
+        },
+        {
+          "timeS": 2.67,
+          "candidateHz": 120.9207,
+          "nacf": 0.8752,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.68,
+          "candidateHz": 120.8906,
+          "nacf": 0.9165,
+          "competingLags": [
+            132,
+            265
+          ]
+        },
+        {
+          "timeS": 2.69,
+          "candidateHz": 120.7284,
+          "nacf": 0.9204,
+          "competingLags": [
+            133,
+            265
+          ]
+        },
+        {
+          "timeS": 2.7,
+          "candidateHz": 120.6616,
+          "nacf": 0.9133,
+          "competingLags": [
+            133,
+            265
+          ]
+        },
+        {
+          "timeS": 2.71,
+          "candidateHz": 120.8673,
+          "nacf": 0.9204,
+          "competingLags": [
+            132,
+            265
+          ]
+        },
+        {
+          "timeS": 2.72,
+          "candidateHz": 121.0027,
+          "nacf": 0.9288,
+          "competingLags": [
+            132,
+            265
+          ]
+        },
+        {
+          "timeS": 2.73,
+          "candidateHz": 121.1286,
+          "nacf": 0.9516,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.74,
+          "candidateHz": 121.2545,
+          "nacf": 0.9574,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.75,
+          "candidateHz": 121.3372,
+          "nacf": 0.9712,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 2.76,
+          "candidateHz": 121.0985,
+          "nacf": 0.9021,
+          "competingLags": [
+            132
+          ]
+        },
+        {
+          "timeS": 3.08,
+          "candidateHz": 155.4871,
+          "nacf": 0.8835,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 3.09,
+          "candidateHz": 156.0186,
+          "nacf": 0.8663,
+          "competingLags": [
+            103
+          ]
+        },
+        {
+          "timeS": 3.21,
+          "candidateHz": 188.8366,
+          "nacf": 0.8996,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 3.22,
+          "candidateHz": 188.6045,
+          "nacf": 0.9465,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 3.23,
+          "candidateHz": 188.2435,
+          "nacf": 0.91,
+          "competingLags": [
+            85
+          ]
+        },
+        {
+          "timeS": 3.27,
+          "candidateHz": 183.9417,
+          "nacf": 0.9038,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.28,
+          "candidateHz": 183.6289,
+          "nacf": 0.923,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.29,
+          "candidateHz": 183.361,
+          "nacf": 0.9406,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.3,
+          "candidateHz": 183.7514,
+          "nacf": 0.9508,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.31,
+          "candidateHz": 184.3232,
+          "nacf": 0.9419,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.32,
+          "candidateHz": 184.6544,
+          "nacf": 0.9526,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.33,
+          "candidateHz": 184.8004,
+          "nacf": 0.9552,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.34,
+          "candidateHz": 184.5078,
+          "nacf": 0.9461,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.35,
+          "candidateHz": 183.7663,
+          "nacf": 0.9246,
+          "competingLags": [
+            87
+          ]
+        },
+        {
+          "timeS": 3.36,
+          "candidateHz": 182.7066,
+          "nacf": 0.8542,
+          "competingLags": [
+            88
+          ]
+        },
+        {
+          "timeS": 3.54,
+          "candidateHz": 171.8056,
+          "nacf": 0.8688,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 3.6,
+          "candidateHz": 164.3164,
+          "nacf": 0.8727,
+          "competingLags": [
+            97
+          ]
+        },
+        {
+          "timeS": 3.61,
+          "candidateHz": 163.2348,
+          "nacf": 0.8847,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 3.62,
+          "candidateHz": 162.5525,
+          "nacf": 0.8865,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 3.63,
+          "candidateHz": 161.9862,
+          "nacf": 0.9328,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.64,
+          "candidateHz": 161.6407,
+          "nacf": 0.97,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.65,
+          "candidateHz": 161.6929,
+          "nacf": 0.9719,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.66,
+          "candidateHz": 161.8937,
+          "nacf": 0.913,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.73,
+          "candidateHz": 172.6207,
+          "nacf": 0.8583,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 3.74,
+          "candidateHz": 173.1818,
+          "nacf": 0.8861,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 3.75,
+          "candidateHz": 173.5237,
+          "nacf": 0.9449,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 3.76,
+          "candidateHz": 173.1211,
+          "nacf": 0.942,
+          "competingLags": [
+            92
+          ]
+        },
+        {
+          "timeS": 3.77,
+          "candidateHz": 172.3637,
+          "nacf": 0.9003,
+          "competingLags": [
+            93
+          ]
+        },
+        {
+          "timeS": 3.84,
+          "candidateHz": 162.1904,
+          "nacf": 0.8733,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.85,
+          "candidateHz": 161.6563,
+          "nacf": 0.913,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.86,
+          "candidateHz": 161.2432,
+          "nacf": 0.9499,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.87,
+          "candidateHz": 161.2662,
+          "nacf": 0.9601,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.88,
+          "candidateHz": 161.4187,
+          "nacf": 0.9061,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 3.97,
+          "candidateHz": 176.9543,
+          "nacf": 0.8609,
+          "competingLags": [
+            90
+          ]
+        },
+        {
+          "timeS": 4.26,
+          "candidateHz": 163.0855,
+          "nacf": 0.9096,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.27,
+          "candidateHz": 162.6354,
+          "nacf": 0.9256,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.28,
+          "candidateHz": 162.3216,
+          "nacf": 0.9562,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 4.29,
+          "candidateHz": 162.4206,
+          "nacf": 0.9512,
+          "competingLags": [
+            99
+          ]
+        },
+        {
+          "timeS": 4.3,
+          "candidateHz": 162.6665,
+          "nacf": 0.9104,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.31,
+          "candidateHz": 163.1223,
+          "nacf": 0.8677,
+          "competingLags": [
+            98
+          ]
+        },
+        {
+          "timeS": 4.34,
+          "candidateHz": 166.0906,
+          "nacf": 0.8519,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.35,
+          "candidateHz": 167.182,
+          "nacf": 0.9078,
+          "competingLags": [
+            96
+          ]
+        },
+        {
+          "timeS": 4.36,
+          "candidateHz": 167.9542,
+          "nacf": 0.9348,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.37,
+          "candidateHz": 168.3563,
+          "nacf": 0.9273,
+          "competingLags": [
+            95
+          ]
+        },
+        {
+          "timeS": 4.38,
+          "candidateHz": 168.4779,
+          "nacf": 0.8832,
+          "competingLags": [
+            95
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Audio decoded and candidate periodicity inspected; no human/independent transcript. Track01 caption-versus-filename conflict remains unresolved by this computation.",
+  "persistentProcessesStarted": 0
+}

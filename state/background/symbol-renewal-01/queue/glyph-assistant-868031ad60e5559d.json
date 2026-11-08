@@ -1,0 +1,54 @@
+{
+  "id": "glyph-assistant-868031ad60e5559d",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "schema": "sunny.background-job.v1",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/868031ad60e5559dcc1a865c44a7a2d1919bc2549c09c6b7b44ab05c4e768c30/text.txt",
+      "sha256": "868031ad60e5559dcc1a865c44a7a2d1919bc2549c09c6b7b44ab05c4e768c30",
+      "start_line": 1,
+      "end_line": 1,
+      "source_role": "assistant",
+      "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+      "message_id": "3d154f4dbb0517c45a829e17da655c2a8d5e1353f7c7261bead580d0e0bb8c5f",
+      "origin": {
+        "id": "3d154f4dbb0517c45a829e17da655c2a8d5e1353f7c7261bead580d0e0bb8c5f",
+        "native_id": "0a1b7402-2a8d-42f2-abcb-e2dbf7115eee",
+        "conversation_id": "e7997a7205547ef9fd189372c798ee5155288f3922f4530b241a0690453d3205",
+        "role": "assistant",
+        "content_sha256": "868031ad60e5559dcc1a865c44a7a2d1919bc2549c09c6b7b44ab05c4e768c30",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "locator": "/95/mapping/0a1b7402-2a8d-42f2-abcb-e2dbf7115eee/message",
+        "create_time": "1788869454.452706",
+        "branch_status": "current",
+        "title": "Mapping Zodiacal Music Structure",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+        "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/868031ad60e5559dcc1a865c44a7a2d1919bc2549c09c6b7b44ab05c4e768c30/occurrences-abe754ce741d6dfcd145d26cae93387e329f6be2f8dcf94323dcdc15f543bfda.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  }
+}

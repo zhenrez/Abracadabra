@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "name": "sunny-app",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "port": 4317,
+  "status": "ready",
+  "root_identity": {
+    "pid": 8052,
+    "parent_pid": 21084,
+    "creation_utc": "2026-10-31T01:50:52.9449120Z",
+    "executable_path": "C:\\Program Files\\nodejs\\node.exe",
+    "command_sha256": "c53ed1b598c454802cb64dd31fdac2af1146ef4f2053f3d71f0da1a2ef50f806"
+  },
+  "processes": [
+    {
+      "pid": 8052,
+      "parent_pid": 21084,
+      "creation_utc": "2026-10-31T01:50:52.9449120Z",
+      "executable_path": "C:\\Program Files\\nodejs\\node.exe",
+      "command_sha256": "c53ed1b598c454802cb64dd31fdac2af1146ef4f2053f3d71f0da1a2ef50f806"
+    },
+    {
+      "pid": 26752,
+      "parent_pid": 8052,
+      "creation_utc": "2026-10-31T01:50:52.9730810Z",
+      "executable_path": "C:\\WINDOWS\\system32\\conhost.exe",
+      "command_sha256": "417222c4a0ecb4d60a457ebe8e26fddf3d5406bffb16a5c59af8eeb241beca51"
+    }
+  ],
+  "recorded_utc": "2026-10-31T01:50:53.6054975Z"
+}

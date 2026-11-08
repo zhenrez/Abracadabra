@@ -1,0 +1,155 @@
+{
+  "schema": "sunny.final-claim-review.v1",
+  "checkedAt": "2026-11-08T02:28:45.738651+00:00",
+  "status": "reviewed; scoped evidence current",
+  "exit_code": 0,
+  "artifactHashesAtReview": {
+    "docs/delivery-2026-11-07/DELIVERY.md": "6447b1b57582e203624ce066dc756be3dd08399d5d59d00a42e05c7d4c05ef9d",
+    "docs/delivery-2026-11-07/PHASE_PROBE_DESIGNS.md": "61a5e9109cc217c3f1db01c75e724b132c57db5805511966824f6618bf387f19",
+    "docs/delivery-2026-11-07/READING_OPERATIONS.md": "a543345fc66ca27912889e743e34d2d882c2f38093d45362df9332bedcfd1995",
+    "state/delivery-2026-11-07/acceptance.json": "da1cabb3debe73cf1c48f73cd5d2b73876218d519ad6319a9ef0f50e434e3a68",
+    "state/delivery-2026-11-07/guards/source-math-contract.json": "6d1cecc62a3071b0e0b51457fdfcd7e4ed4701863ecf02843cd1d3c4dede2aea",
+    "state/delivery-2026-11-07/guards/source-math/569d10c9ef234ad2b59bd96e8b6a8065.receipt.json": "df6fb25474aebb12384707c4e0bc37a23803e6c4086da87d0e2dacfd327530d5",
+    "docs/evidence/delivery-2026-11-07/browser-check.json": "3c2bcd15ef2a329c90e1c59141a99af9839f4254fc3ec9152332e8b739631ea0",
+    "docs/evidence/delivery-2026-11-07/guide-browser-check.json": "f9d65cfeb65f34303a9e543fab4f084220276f181e03cd602ef282d13ed839e9",
+    "state/delivery-2026-11-07/final-validation.json": "656346a392187fc05e8e0e0a7c748013b52645c2bb2de6e7fa50d0e52bed7704"
+  },
+  "verifiedCounts": {
+    "executionModules": 16,
+    "graphRecords": 9512,
+    "relationships": 10251,
+    "anonymousMembershipSlots": 7911,
+    "otherWitnessContextRecords": 1601,
+    "hierarchyViews": 23,
+    "scoreViews": 15,
+    "distinctOriginalImages": 30,
+    "imageOccurrences": 36
+  },
+  "allEightDeliverables": [
+    {
+      "id": "M01",
+      "status": "partial_executable",
+      "completionProved": false
+    },
+    {
+      "id": "M02",
+      "status": "partial_executable",
+      "completionProved": false
+    },
+    {
+      "id": "M03",
+      "status": "conditional_constraints_executable",
+      "completionProved": false
+    },
+    {
+      "id": "M04",
+      "status": "partial_candidate_system",
+      "completionProved": false
+    },
+    {
+      "id": "M05",
+      "status": "source_conditional_proofs_and_experiments",
+      "completionProved": false
+    },
+    {
+      "id": "M06",
+      "status": "partial_localized_counterexamples",
+      "completionProved": false
+    },
+    {
+      "id": "M07",
+      "status": "conditional_linear_anchor_and_finite_family_engine",
+      "completionProved": false
+    },
+    {
+      "id": "M08",
+      "status": "partial_source_views_executable",
+      "completionProved": false
+    }
+  ],
+  "allEightRemainIncomplete": true,
+  "goalCount": 16,
+  "actualSuperJevVerification": {
+    "operation": "installed proof.py verify",
+    "commandExit": 0,
+    "status": "verified_checks",
+    "checks_verified": true,
+    "completion_verified": false,
+    "network_calls": 0,
+    "receiptInputCount": 25,
+    "inputHashMismatches": [],
+    "canonicalContractHashMatches": true,
+    "outputHashesMatch": [
+      {
+        "path": "state/delivery-2026-11-07/guards/source-math/569d10c9ef234ad2b59bd96e8b6a8065-0.output",
+        "matches": true,
+        "exit": 0
+      },
+      {
+        "path": "state/delivery-2026-11-07/guards/source-math/569d10c9ef234ad2b59bd96e8b6a8065-1.output",
+        "matches": true,
+        "exit": 0
+      }
+    ],
+    "focusedTestsPassed": 43,
+    "independentPhasePairs": 10296,
+    "scope": "Declared checks and files only; not proof of acceptance quality or scientific completion."
+  },
+  "actualMemoryUse": {
+    "plugin": "Supermemory",
+    "operation": "search_memory",
+    "success": true,
+    "scope": "Continuity retrieval; current facts independently checked."
+  },
+  "browserAtReview": {
+    "checkedAt": "2026-11-08T02:27:04.528Z",
+    "status": "passed",
+    "functionalGroups": 48,
+    "commandExit": 0,
+    "inputHashMismatches": [],
+    "remainingOwnedOrProfileProcesses": 0,
+    "scope": "Current exact-input workbench run, including owned browser cleanup."
+  },
+  "priorSuccessfulMainRun": {
+    "path": "docs/evidence/delivery-2026-11-07/history/browser-check-bb90c71c8ed68b8a3de53981ada6b4dd82e6867aac9f9f8e4b0a2f4956361047.json",
+    "checkedAt": "2026-11-08T02:21:19.048Z",
+    "functionalGroups": 48,
+    "status": "passed",
+    "remainingOwnedProcesses": 0,
+    "scope": "Historical exact-input run; not a standalone guide verification."
+  },
+  "guideAtReview": {
+    "checkedAt": "2026-11-08T02:26:56.640Z",
+    "status": "passed",
+    "checks": 7,
+    "views": 23,
+    "unitRepresentativeInteractions": 144,
+    "inputHashMismatches": [],
+    "remainingOwnedOrProfileProcesses": 0,
+    "keyboardNavigationCheckPassed": true,
+    "scope": "All23capturedviews and144unit-representative entity interactions; not every9512record or complete source-native historical systems."
+  },
+  "freshness": {
+    "currentModelSha256": "d627b122605112c715343b85006e6e59b46f247e8a9577fedb1c53cdec8ec5ee",
+    "acceptanceModelSha256": "d627b122605112c715343b85006e6e59b46f247e8a9577fedb1c53cdec8ec5ee",
+    "acceptanceModelCurrent": true,
+    "aggregateModelSha256": "d627b122605112c715343b85006e6e59b46f247e8a9577fedb1c53cdec8ec5ee",
+    "aggregateCurrentModel": true,
+    "aggregateCheckedAt": "2026-11-08T02:28:18.278990+00:00",
+    "aggregateRecordedBrowserGroups": 48
+  },
+  "handoffScope": "Useful bounded workbench/calculations; not complete original sound intentions, complete geometry/global alignment, universal score, exhaustive source semantics or the three rectification objectives.",
+  "doNotClaim": [
+    "Standaloneguide/keyboardpass before a fresh complete separate report",
+    "Newestbrowsercommandexit0 if only functional groups passed but cleanup failed",
+    "Historical orientation or original phonetic intention settled",
+    "Source-account completeness or exhaustive semantic processing",
+    "Hosted provider account/billing attributed",
+    "Automatic observer hooks equal substantive Jev direction",
+    "All7911anonymousslots are unique beings",
+    "Allsource-native systems or fullSUNNYdeliverables complete"
+  ],
+  "requiredRefreshBeforeFinalHandoff": [],
+  "scope": "Bounded independent claim audit of the named current artifacts; pending replays may supersede these time-scoped observations.",
+  "priorObservedFailures": "Earlier maincleanup and guidesyntax/keyboard-test failures remain in archived browser reports; current independently checked reports supersede their current-state status without rewriting those failures."
+}

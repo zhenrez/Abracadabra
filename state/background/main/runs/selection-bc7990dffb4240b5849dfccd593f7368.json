@@ -1,0 +1,64 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "bridge-scope-native-contrast-001",
+          "kind": "source_forensics",
+          "hypotheses": [
+            {
+              "id": "experimental-control",
+              "statement": "The music-only pass with Completed Harmony/TOL withheld is a scoped experimental control, not permanent deletion of bridge resources."
+            },
+            {
+              "id": "declared-level-bridge",
+              "statement": "Later explicit Completed Harmony bridge use applies at its declared comparison level while preserving native Western and Chinese musical carriers."
+            },
+            {
+              "id": "conditional-miscarry",
+              "statement": "Bridge absence in a different later result establishes a loss/miscarry only when the relevant experimental conditions match; mere absence otherwise leaves status unknown."
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "bridge-scope-native-contrast-001: source_forensics",
+          "defer": "Defer this job because its supplied scope does not advance reconstruction safely."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "b6681df0f9c1906392b50af0c7018b002cd709ae2697aea1654226c5a942b505",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.87,
+          "defer": 0.13
+        },
+        "winner": "0",
+        "top_probability": 0.87,
+        "margin": 0.74
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 568,
+      "output_tokens": 33
+    },
+    "network_calls": 1,
+    "latency_ms": 200
+  }
+}

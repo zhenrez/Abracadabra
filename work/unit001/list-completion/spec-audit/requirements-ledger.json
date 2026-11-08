@@ -1,0 +1,1092 @@
+{
+  "version": "EU001R-independent-static-audit-v1",
+  "audit_method": "Static read of concrete specification, code, tests and captured source metadata; no broad suites or independent historical certification run",
+  "source_documents": [
+    {
+      "key": "master",
+      "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+      "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+      "bytes": 40950
+    },
+    {
+      "key": "reconciliation",
+      "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+      "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+      "bytes": 29809
+    },
+    {
+      "key": "rabbi_review",
+      "path": "C:\\Users\\Brend\\Desktop\\morphiq-one\\## Recommended approach add a Rabbi.txt",
+      "sha256": "7fe4fd775dde2aabd86481c1c8b2eaf7d7a35497bba2277789070ebb6ac3beb9",
+      "bytes": 288686
+    },
+    {
+      "key": "rabbi_review_2",
+      "path": "C:\\Users\\Brend\\Desktop\\morphiq-one\\## Recommended approach add a Rabbi 2.txt",
+      "sha256": "7fe4fd775dde2aabd86481c1c8b2eaf7d7a35497bba2277789070ebb6ac3beb9",
+      "bytes": 288686
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "scope_namespaces",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 607,
+          "character_end": 3317,
+          "byte_start": 619,
+          "byte_end": 3348,
+          "line_start": 13,
+          "line_end": 78
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 3317,
+          "character_end": 6462,
+          "byte_start": 3348,
+          "byte_end": 6493,
+          "line_start": 78,
+          "line_end": 156
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 37295,
+          "character_end": 38812,
+          "byte_start": 37378,
+          "byte_end": 38900,
+          "line_start": 1152,
+          "line_end": 1195
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 40142,
+          "character_end": 40846,
+          "byte_start": 40244,
+          "byte_end": 40950,
+          "line_start": 1246,
+          "line_end": 1261
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 632,
+          "character_end": 2275,
+          "byte_start": 646,
+          "byte_end": 2289,
+          "line_start": 12,
+          "line_end": 36
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 14260,
+          "character_end": 15190,
+          "byte_start": 14290,
+          "byte_end": 15220,
+          "line_start": 378,
+          "line_end": 395
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 23148,
+          "character_end": 24120,
+          "byte_start": 23202,
+          "byte_end": 24175,
+          "line_start": 644,
+          "line_end": 682
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 29004,
+          "character_end": 29742,
+          "byte_start": 29071,
+          "byte_end": 29809,
+          "line_start": 849,
+          "line_end": 864
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "evidence.py",
+          "exists": true
+        },
+        {
+          "path": "sefer.py",
+          "exists": true
+        },
+        {
+          "path": "contracts.py",
+          "exists": true
+        },
+        {
+          "path": "frozen/context/SUN_Final_Hypergraph_and_Template_Results_v1.md",
+          "exists": true
+        },
+        {
+          "path": "CURRENT_CHAT_RECONCILIATION.json",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_g0.G0Tests.test_06_local_ordinal_is_not_alignment",
+        "test_g1.G1Tests.test_no_fake_mdl"
+      ],
+      "status": "STATIC_PRESENT",
+      "note": "Scope limits execution; retain all signals, earlier negative findings, and future-model evidence without forced equivalence."
+    },
+    {
+      "requirement_id": "source_recovery_checkpoint",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 3317,
+          "character_end": 6462,
+          "byte_start": 3348,
+          "byte_end": 6493,
+          "line_start": 78,
+          "line_end": 156
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 2275,
+          "character_end": 4673,
+          "byte_start": 2289,
+          "byte_end": 4687,
+          "line_start": 36,
+          "line_end": 98
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "source-manifest.json",
+          "exists": true
+        },
+        {
+          "path": "eu001r-before.json",
+          "exists": true
+        },
+        {
+          "path": "list-completion/before-manifest.json",
+          "exists": true
+        },
+        {
+          "path": "closeout/authority-correction.json",
+          "exists": true
+        }
+      ],
+      "checks": [],
+      "status": "STATIC_PRESENT",
+      "note": "Original decoded conversation table and serialized event preserved. Duplicate-log dependency resolved by direct authority correction. No Git metadata or GitHub action is established."
+    },
+    {
+      "requirement_id": "raw_grid_normalized_layers",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 6462,
+          "character_end": 9335,
+          "byte_start": 6493,
+          "byte_end": 9366,
+          "line_start": 156,
+          "line_end": 242
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 9335,
+          "character_end": 15572,
+          "byte_start": 9366,
+          "byte_end": 15607,
+          "line_start": 242,
+          "line_end": 472
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 6952,
+          "character_end": 11070,
+          "byte_start": 6970,
+          "byte_end": 11098,
+          "line_start": 170,
+          "line_end": 279
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 17630,
+          "character_end": 18847,
+          "byte_start": 17684,
+          "byte_end": 18901,
+          "line_start": 453,
+          "line_end": 503
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "evidence.py",
+          "exists": true
+        },
+        {
+          "path": "kernel.py",
+          "exists": true
+        },
+        {
+          "path": "frozen/source/matrix-message.txt",
+          "exists": true
+        },
+        {
+          "path": "frozen/source/matrix-event.jsonl",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_g0.G0Tests.test_02_all_fields_and_source_roundtrip",
+        "test_kernel.KernelTests.test_T01_matrix"
+      ],
+      "status": "STATIC_PRESENT",
+      "note": "Separate source, parsed grid, and typed evidence; current migrated claim links inspected after root fix."
+    },
+    {
+      "requirement_id": "g0_twenty_invariants",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 15572,
+          "character_end": 17482,
+          "byte_start": 15607,
+          "byte_end": 17517,
+          "line_start": 472,
+          "line_end": 509
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 32541,
+          "character_end": 34332,
+          "byte_start": 32621,
+          "byte_end": 34413,
+          "line_start": 998,
+          "line_end": 1040
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 17630,
+          "character_end": 18847,
+          "byte_start": 17684,
+          "byte_end": 18901,
+          "line_start": 453,
+          "line_end": 503
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 26253,
+          "character_end": 27653,
+          "byte_start": 26320,
+          "byte_end": 27720,
+          "line_start": 762,
+          "line_end": 802
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "evidence.py",
+          "exists": true
+        },
+        {
+          "path": "test_g0.py",
+          "exists": true
+        },
+        {
+          "path": "test_list_completion.py",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_g0.G0Tests.test_16_g0_full_validation"
+      ],
+      "status": "AWAITING_FRESH_EXECUTION",
+      "note": "All20 invariants have defined checks plus original20 unit tests. Latest fixes still need fresh acceptance evidence."
+    },
+    {
+      "requirement_id": "source_immutability_and_provenance",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 9335,
+          "character_end": 15572,
+          "byte_start": 9366,
+          "byte_end": 15607,
+          "line_start": 242,
+          "line_end": 472
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 6952,
+          "character_end": 11070,
+          "byte_start": 6970,
+          "byte_end": 11098,
+          "line_start": 170,
+          "line_end": 279
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 11070,
+          "character_end": 12168,
+          "byte_start": 11098,
+          "byte_end": 12196,
+          "line_start": 279,
+          "line_end": 314
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "kernel.py",
+          "exists": true
+        },
+        {
+          "path": "evidence.py",
+          "exists": true
+        },
+        {
+          "path": "test_kernel.py",
+          "exists": true
+        },
+        {
+          "path": "test_list_completion.py",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_list_completion.ListCompletionTests.test_derivation_provenance",
+        "test_list_completion.ListCompletionTests.test_source_lineage_provenance",
+        "test_list_completion.ListCompletionTests.test_source_encoding",
+        "test_list_completion.ListCompletionTests.test_unknown_mutable_container_rejected",
+        "test_list_completion.ListCompletionTests.test_migrated_claims_are_core_links"
+      ],
+      "status": "AWAITING_FRESH_EXECUTION",
+      "note": "Six root red tests reproduced prior gaps; current implementation changes inspected, no independent run claimed."
+    },
+    {
+      "requirement_id": "g1_original_and_cases_A_J",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 17482,
+          "character_end": 22811,
+          "byte_start": 17517,
+          "byte_end": 22853,
+          "line_start": 509,
+          "line_end": 677
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 22811,
+          "character_end": 26054,
+          "byte_start": 22853,
+          "byte_end": 26116,
+          "line_start": 677,
+          "line_end": 779
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 32541,
+          "character_end": 34332,
+          "byte_start": 32621,
+          "byte_end": 34413,
+          "line_start": 998,
+          "line_end": 1040
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 18847,
+          "character_end": 21152,
+          "byte_start": 18901,
+          "byte_end": 21206,
+          "line_start": 503,
+          "line_end": 578
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 26253,
+          "character_end": 27653,
+          "byte_start": 26320,
+          "byte_end": 27720,
+          "line_start": 762,
+          "line_end": 802
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "sefer.py",
+          "exists": true
+        },
+        {
+          "path": "frozen/sefer/harmonic_verifier.py",
+          "exists": true
+        },
+        {
+          "path": "frozen/sefer/test_harmonic_verifier.py",
+          "exists": true
+        },
+        {
+          "path": "frozen/sefer/harmonic-demo.json",
+          "exists": true
+        },
+        {
+          "path": "test_g1.py",
+          "exists": true
+        },
+        {
+          "path": "test_final_acceptance.py",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_g1.G1Tests.test_A_complete",
+        "test_g1.G1Tests.test_B_missing_mem_legacy",
+        "test_g1.G1Tests.test_C_original_ambiguity",
+        "test_g1.G1Tests.test_D_resh",
+        "test_g1.G1Tests.test_E_duplicate",
+        "test_g1.G1Tests.test_F_overflow",
+        "test_g1.G1Tests.test_G_no_profile",
+        "test_g1.G1Tests.test_H_candidate_exhaustion",
+        "test_g1.G1Tests.test_I_multiple",
+        "test_g1.G1Tests.test_J_stability"
+      ],
+      "status": "AWAITING_FRESH_EXECUTION",
+      "note": "Source-bound native encoding and exact frozen legacy oracle exist. Required fresh6 original tests+3demonstrations pending root."
+    },
+    {
+      "requirement_id": "four_axis_receipts_and_mdl",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 26054,
+          "character_end": 28681,
+          "byte_start": 26116,
+          "byte_end": 28745,
+          "line_start": 779,
+          "line_end": 863
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 18847,
+          "character_end": 21152,
+          "byte_start": 18901,
+          "byte_end": 21206,
+          "line_start": 503,
+          "line_end": 578
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 21152,
+          "character_end": 23148,
+          "byte_start": 21206,
+          "byte_end": 23202,
+          "line_start": 578,
+          "line_end": 644
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "contracts.py",
+          "exists": true
+        },
+        {
+          "path": "sefer.py",
+          "exists": true
+        },
+        {
+          "path": "test_g1.py",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_g1.G1Tests.test_B_missing_mem_legacy",
+        "test_g1.G1Tests.test_no_fake_mdl"
+      ],
+      "status": "STATIC_PRESENT",
+      "note": "Structural validity, preference, identifiability and history remain distinct; describe returns NOT_EVALUATED and bits null."
+    },
+    {
+      "requirement_id": "g7_authorization_denial",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 28681,
+          "character_end": 29982,
+          "byte_start": 28745,
+          "byte_end": 30046,
+          "line_start": 863,
+          "line_end": 900
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 24120,
+          "character_end": 24628,
+          "byte_start": 24175,
+          "byte_end": 24683,
+          "line_start": 682,
+          "line_end": 700
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "contracts.py",
+          "exists": true
+        },
+        {
+          "path": "test_g0.py",
+          "exists": true
+        },
+        {
+          "path": "test_final_acceptance.py",
+          "exists": true
+        },
+        {
+          "path": "test_closeout.py",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_g0.G0Tests.test_17_registry_lock",
+        "test_final_acceptance.FinalAcceptanceTests.test_g7_no_environment_bypass",
+        "test_closeout.HistoricalControls.test_g7_denied"
+      ],
+      "status": "AWAITING_FRESH_EXECUTION",
+      "note": "Registry empty and no unlock API; deserialize/config/environment paths denied by code. No cross-orientation adapters populated."
+    },
+    {
+      "requirement_id": "experiment_contract_and_exposure",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 9335,
+          "character_end": 15572,
+          "byte_start": 9366,
+          "byte_end": 15607,
+          "line_start": 242,
+          "line_end": 472
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 26054,
+          "character_end": 28681,
+          "byte_start": 26116,
+          "byte_end": 28745,
+          "line_start": 779,
+          "line_end": 863
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 6952,
+          "character_end": 11070,
+          "byte_start": 6970,
+          "byte_end": 11098,
+          "line_start": 170,
+          "line_end": 279
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 21152,
+          "character_end": 23148,
+          "byte_start": 21206,
+          "byte_end": 23202,
+          "line_start": 578,
+          "line_end": 644
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "kernel.py",
+          "exists": true
+        },
+        {
+          "path": "test_kernel.py",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_kernel.KernelTests.test_exposure_cannot_be_blind"
+      ],
+      "status": "GAP_IDENTIFIED",
+      "note": "Contract holds most metadata, but selection_method and candidate-set result lack explicit documented encoding/tests; evaluation_group accepts arbitrary strings."
+    },
+    {
+      "requirement_id": "prior_experiments_and_quarantine",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 3317,
+          "character_end": 6462,
+          "byte_start": 3348,
+          "byte_end": 6493,
+          "line_start": 78,
+          "line_end": 156
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 4673,
+          "character_end": 6952,
+          "byte_start": 4687,
+          "byte_end": 6970,
+          "line_start": 98,
+          "line_end": 170
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "CURRENT_CHAT_RECONCILIATION.json",
+          "exists": true
+        },
+        {
+          "path": "eu001r-verification.json",
+          "exists": true
+        },
+        {
+          "path": "frozen/earlier-derived",
+          "exists": true
+        },
+        {
+          "path": "../ariadne-inverse/residual-results.json",
+          "exists": true
+        }
+      ],
+      "checks": [],
+      "status": "STATIC_PRESENT",
+      "note": "All reported findings remain classified; four Etruscan unknowns+one Sabaic unresolved label close381 accounting. Quarantine retains hypotheses, does not delete evidence."
+    },
+    {
+      "requirement_id": "asset_registry",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 34332,
+          "character_end": 36407,
+          "byte_start": 34413,
+          "byte_end": 36488,
+          "line_start": 1040,
+          "line_end": 1127
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 12168,
+          "character_end": 14260,
+          "byte_start": 12196,
+          "byte_end": 14290,
+          "line_start": 314,
+          "line_end": 378
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "asset-registry.json",
+          "exists": true
+        },
+        {
+          "path": "list-completion/spec-audit/asset-registry-supplement.json",
+          "exists": false
+        }
+      ],
+      "checks": [],
+      "status": "SUPPLEMENT_PREPARED",
+      "note": "Existing153 entries preserved without changes. Explicit candidate inventory and all8 adoption categories; unavailable metadata marked rather than invented."
+    },
+    {
+      "requirement_id": "historical_representation_controls",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 9335,
+          "character_end": 15572,
+          "byte_start": 9366,
+          "byte_end": 15607,
+          "line_start": 242,
+          "line_end": 472
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 34332,
+          "character_end": 36407,
+          "byte_start": 34413,
+          "byte_end": 36488,
+          "line_start": 1040,
+          "line_end": 1127
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 14260,
+          "character_end": 15190,
+          "byte_start": 14290,
+          "byte_end": 15220,
+          "line_start": 378,
+          "line_end": 395
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 15190,
+          "character_end": 17630,
+          "byte_start": 15220,
+          "byte_end": 17684,
+          "line_start": 395,
+          "line_end": 453
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 18847,
+          "character_end": 21152,
+          "byte_start": 18901,
+          "byte_end": 21206,
+          "line_start": 503,
+          "line_end": 578
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "closeout_fixtures.py",
+          "exists": true
+        },
+        {
+          "path": "test_closeout.py",
+          "exists": true
+        },
+        {
+          "path": "closeout/source-manifest.json",
+          "exists": true
+        }
+      ],
+      "checks": [
+        "test_closeout.HistoricalControls.test_four_real_controls_roundtrip",
+        "test_closeout.HistoricalControls.test_epigraphy_unresolved",
+        "test_closeout.HistoricalControls.test_orientation_footnote_not_medieval_assertion"
+      ],
+      "status": "STATIC_PRESENT",
+      "note": "Four real source controls plus synthetic fixtures; history support stays source-specific. Earliest surviving manuscripts not established."
+    },
+    {
+      "requirement_id": "verification_procedure",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 29982,
+          "character_end": 32541,
+          "byte_start": 30046,
+          "byte_end": 32621,
+          "line_start": 900,
+          "line_end": 998
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 32541,
+          "character_end": 34332,
+          "byte_start": 32621,
+          "byte_end": 34413,
+          "line_start": 998,
+          "line_end": 1040
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 24628,
+          "character_end": 26253,
+          "byte_start": 24683,
+          "byte_end": 26320,
+          "line_start": 700,
+          "line_end": 762
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 26253,
+          "character_end": 27653,
+          "byte_start": 26320,
+          "byte_end": 27720,
+          "line_start": 762,
+          "line_end": 802
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "final_acceptance.py",
+          "exists": true
+        },
+        {
+          "path": "list-completion/red-receipt.json",
+          "exists": true
+        },
+        {
+          "path": "list-completion/before-manifest.json",
+          "exists": true
+        }
+      ],
+      "checks": [],
+      "status": "AWAITING_FRESH_EXECUTION",
+      "note": "Required fresh focused/full/original/pipeline/demo/integrity/dependency/documentation checks pending root. Static checker and independent review scope must be reported honestly."
+    },
+    {
+      "requirement_id": "handoff_and_gate_ledger",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 34332,
+          "character_end": 36407,
+          "byte_start": 34413,
+          "byte_end": 36488,
+          "line_start": 1040,
+          "line_end": 1127
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 38812,
+          "character_end": 40142,
+          "byte_start": 38900,
+          "byte_end": 40244,
+          "line_start": 1195,
+          "line_end": 1246
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 27653,
+          "character_end": 29004,
+          "byte_start": 27720,
+          "byte_end": 29071,
+          "line_start": 802,
+          "line_end": 849
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "final-acceptance/HANDOFF.md",
+          "exists": true
+        },
+        {
+          "path": "list-completion",
+          "exists": true
+        }
+      ],
+      "checks": [],
+      "status": "AWAITING_FRESH_HANDOFF",
+      "note": "Prior handoff is history. New receipt must bind current files and actual outputs; G2-G7 execution remains locked in this unit."
+    },
+    {
+      "requirement_id": "failure_policy",
+      "source_sections": [
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 36407,
+          "character_end": 37295,
+          "byte_start": 36488,
+          "byte_end": 37378,
+          "line_start": 1127,
+          "line_end": 1152
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+          "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+          "character_start": 40142,
+          "character_end": 40846,
+          "byte_start": 40244,
+          "byte_end": 40950,
+          "line_start": 1246,
+          "line_end": 1261
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 26253,
+          "character_end": 27653,
+          "byte_start": 26320,
+          "byte_end": 27720,
+          "line_start": 762,
+          "line_end": 802
+        },
+        {
+          "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+          "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+          "character_start": 29004,
+          "character_end": 29742,
+          "byte_start": 29071,
+          "byte_end": 29809,
+          "line_start": 849,
+          "line_end": 864
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "LIST_COMPLETION_PLAN.md",
+          "exists": true
+        },
+        {
+          "path": "closeout/authority-correction.json",
+          "exists": true
+        }
+      ],
+      "checks": [],
+      "status": "STATIC_PRESENT",
+      "note": "Preserve evidence and explicit missing dependencies; do not force historical equivalence or silently broaden execution."
+    }
+  ],
+  "representability": [
+    {
+      "id": "T01",
+      "evidence": "test_g0.py + test_kernel.py",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Original381 populated+159blank positions"
+    },
+    {
+      "id": "T02",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T03",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T04",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "GAP_IDENTIFIED",
+      "note": "Only three letter_ids and numeric class counts; full common22-carrier memberships not demonstrated"
+    },
+    {
+      "id": "T05",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T06",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "GAP_IDENTIFIED",
+      "note": "Alternative rational not linked to independently identified source; permitted synthetic replacement must retain separate source roles"
+    },
+    {
+      "id": "T07",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T08",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T09",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T10",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T11",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    },
+    {
+      "id": "T12",
+      "evidence": "kernel.py:schema_fixtures; test_kernel.KernelTests.test_T02_to_T12_representability",
+      "status": "STATIC_PRESENT_AWAITING_FRESH_EXECUTION",
+      "note": "Synthetic fallback explicitly permitted; do not promote to historical validation"
+    }
+  ],
+  "findings": [
+    {
+      "id": "T04_full_dual_partition",
+      "severity": "required",
+      "section": "EU8+10",
+      "evidence": "kernel.py:schema_fixtures T04",
+      "action": "Represent full22letter identities with separate3/7/12 and five-class memberships; keep unsupported source assignments provisional."
+    },
+    {
+      "id": "Resh_claim_sources",
+      "severity": "evidence_boundary",
+      "section": "EU10",
+      "evidence": "T04 resh_realizations claim-A/claim-B",
+      "action": "Historical Resh pronunciation claims not retrieved in current controls; register source acquisition as unresolved, never identify with r:1. Synthetic fallback allowed for contract testing."
+    },
+    {
+      "id": "T06_independent_alternative_source",
+      "severity": "required",
+      "section": "EU8",
+      "evidence": "T06 ratio and alternative both bare values",
+      "action": "Demonstrate independent source role for alternative, using labeled synthetic sources if actual source unavailable."
+    },
+    {
+      "id": "experiment_metadata",
+      "severity": "required",
+      "section": "EU11",
+      "evidence": "ExperimentReceipt",
+      "action": "Explicit selection method and candidate-set results, typed three-group validation or documented tested equivalents."
+    },
+    {
+      "id": "registry_metadata",
+      "severity": "required",
+      "section": "EU6",
+      "evidence": "All153 original assets BIBLIOGRAPHIC_LEAD",
+      "action": "Use prepared supplement preserving all old entries and explicit unresolved candidate metadata; no mass ingestion."
+    }
+  ],
+  "execution_boundary": "The root must bind this ledger to fresh observed acceptance results; static presence alone is not a pass",
+  "signal_retention": "All supplied signals, negative/inconclusive findings and future-stage assets retained. Stage locks restrict execution, not review or preservation.",
+  "plugin_use": {
+    "Riqor evidence-engineering": "SKILL.md inspected and applied to independent read-only audit",
+    "automatic_SuperJev": "Not treated as routing or certification",
+    "native_plan_tool": "Not available in tool catalog; no native plan update claimed"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "sun.native-east.source-profiles.v1",
+  "sources": [
+    {"id":"lushi-yinlv","source_url":"https://www.shidianguji.com/zh/book/HY1433/chapter/1l3wfypdn3d4v","source_role":"MODERN_TRANSCRIPTION_OF_PRIMARY_TEXT","locator":"音律, paragraph 二曰; web extraction lines7–9","authority":"Lüshi Chunqiu text attributed to Lü Buwei; displayed recension includes later editorial layers","oldest_priority":"Early relevant treatise selected; earliest surviving manuscript not established","acquisition":"Native web tool successfully inspected transcript; Ctext direct URL returned403","claim_scope":"12-name generation order and augmentation/depletion of one third; numerical octave policy is a declared mathematical interpretation"},
+    {"id":"natya28-ghosh","source_url":"https://vishvasa.github.io/kAvyam/laxaNam/kalAvisheShaH/nATyam/nATya-shAstram/manamohanAnuvAdaH/28/","source_role":"MODERN_DIGITAL_TRANSCRIPTION_OF_PRIMARY_TEXT_TRANSLATION","locator":"Nāṭyaśāstra28.24–32, Ghosh translation, lines70–98","authority":"Attributed Bharata text; Manomohan Ghosh translation mirror, not a manuscript image","oldest_priority":"Ancient treatise used before later modern tuning reconstructions; earliest manuscript chronology not certified","acquisition":"Native web tool successfully opened translation","claim_scope":"Two22-unit grāma allocations and14mūrchanā names/starts; no22numericfrequencies"},
+    {"id":"cbse-melakarta","source_url":"https://cbseacademic.nic.in/web_material/SQP/ClassX_2020_21/CarnaticMusicVocal-MS.pdf","source_role":"OFFICIAL_MODERN_PEDAGOGICAL_PRIMARY_SOURCE","locator":"Melakarta scheme, question2(b) and3 marking scheme","authority":"Central Board of Secondary Education","oldest_priority":"Modern sampūrṇa grammar is intentionally distinct from earlier asampūrṇa accounts; oldest complete mela witness not certified","acquisition":"Native web search extracted official PDF; full original PDF bytes not claimed","claim_scope":"72ordered full scales, two36scaleMadhyama groups, sixchakraspergroup;12position encoding remains symbolic"},
+    {"id":"kerala-melakarta","source_url":"https://samagra.kite.kerala.gov.in/files/samagra-resource/uploads/tbookscmq/Class_XI/Music/Music.pdf","source_role":"OFFICIAL_MODERN_PEDAGOGICAL_PRIMARY_SOURCE","locator":"Unit3 sections3.2–3.3, printedp33","authority":"Kerala institutional textbook service","oldest_priority":"Modern explanatory witness retained because ancient grāma text does not define this later sampūrṇa grammar","acquisition":"Native web search extracted official PDF; full original PDF bytes not claimed","claim_scope":"Distinguishes sampūrṇa and asampūrṇa systems;12svarasthānasand16names; moderngrammar not verbatim17thcenturycertification"}
+  ],
+  "chinese": {
+    "profile_id":"chinese:lushi-yinlv:octave-bounded-length:v1",
+    "source_id":"lushi-yinlv",
+    "generation_names":["Huang Zhong","Lin Zhong","Tai Cu","Nan Lü","Gu Xian","Ying Zhong","Rui Bin","Da Lü","Yi Ze","Jia Zhong","Wu Yi","Zhong Lü"],
+    "generation_name_transcription":"黃鐘 林鐘 太蔟 南呂 姑洗 應鐘 蕤賓 大呂 夷則 夾鐘 無射 仲呂",
+    "length_domain":"exact rational relative lengths, initial1, octave window[1/2,1]",
+    "generation_rule":"D=2/3 if result>=1/2; otherwise U=4/3. These are length multipliers; pitch frequency is inverse length. Repeated U at RuiBin is preserved.",
+    "functional_roles":["gong","shang","jue","zhi","yu"],
+    "context_scope":"12reference labels x5role reassignments are formal model contexts, not60independentlyattestedinstruments"
+  },
+  "grama": {
+    "profile_id":"indian:natya28:unit-allocation:v1",
+    "source_id":"natya28-ghosh",
+    "note_order":["Sa","Ri","Ga","Ma","Pa","Dha","Ni"],
+    "allocation_convention":"Units associated with the interval ending at each note, Sa..Ni. This is a count allocation, not22equaltemperamentsteps.",
+    "shadja":[4,3,2,4,4,3,2],
+    "madhyama":[4,3,2,4,3,4,2],
+    "frequency_ratios":null,
+    "murchanas":{
+      "shadja":[["Uttaramandra",0],["Rajani",6],["Uttarayata",5],["Shuddhashadja",4],["Matsarikrita",3],["Ashvakranta",2],["Abhirudgata",1]],
+      "madhyama":[["Sauvira",3],["Harinashva",2],["Kalopanata",1],["Shuddhamadhya",0],["Margavi",6],["Pauravi",5],["Hrishyaka",4]]
+    }
+  },
+  "melakarta":{
+    "profile_id":"indian:modern-sampurna:position-grammar:v1",
+    "source_ids":["cbse-melakarta","kerala-melakarta"],
+    "scope":"Modern ordered sampūrṇa position grammar, not all historical asampūrṇa variants, measured intonation or rāga performance",
+    "rule":"Sa0andPa7 fixed; RiGa choose2in1..4; Madhyama5or6; DhaNi choose2in8..11. Position integers are labels, not imposed equaltemperedfrequencyratios."
+  }
+}

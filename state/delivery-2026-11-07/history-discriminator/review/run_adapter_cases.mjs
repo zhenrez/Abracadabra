@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {contactTiming} from '../../../../dist/phonological-history.js';
+const dir=new URL('.',import.meta.url);
+const file=new URL('../../../../dist/phonological-history.js',import.meta.url);
+const source=new URL('../../../../src/phonological-history.ts',import.meta.url);
+const sha=path=>crypto.createHash('sha256').update(fs.readFileSync(path)).digest('hex');
+const start={dist:sha(file),source:sha(source)};
+const cases=JSON.parse(fs.readFileSync(new URL('adapter-cases.json',dir),'utf8'));
+const results=cases.map(c=>{try{return {id:c.id,result:contactTiming(c.donor,c.contact,c.recipient,c.strict)}}catch(e){return {id:c.id,error:String(e)}}});
+const finish={dist:sha(file),source:sha(source)};
+fs.writeFileSync(new URL('adapter-actual.json',dir),JSON.stringify({start,finish,results},null,2)+'\n');
+console.log(JSON.stringify({status:'captured',cases:results.length,errors:results.filter(x=>x.error).length,inputsStable:JSON.stringify(start)===JSON.stringify(finish)}));

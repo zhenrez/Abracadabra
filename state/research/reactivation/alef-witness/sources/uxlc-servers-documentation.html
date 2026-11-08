@@ -1,0 +1,126 @@
+<!DOCTYPE html >
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright C.V.Kimball 2013  -->
+<html>
+<header>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="icon" type="image.x-icon" href="../Images/TanachIcon.ico"/>
+  <title>Servers</title>
+<!-- Force the default font so that the site looks the same on all systems.  -->
+  <style>
+    body {font-family:Times New Roman}
+  </style>
+</header>
+<body style="background-image:url('../Images/Background');margin-right:10pt;
+              margin-left:10pt; margin-top:10pt; margin-bottom:0">
+<table width="100%" >
+  <tr>
+    <td align="left">
+      <span style="font-family:Times New Roman;font-weight:bold;font-size:200%">Servers</span>
+      <p/>
+    </td>
+  </tr>
+</table>
+<p/>
+
+The <b><tt>tanach.us</tt></b> site offers many features, but it draws on
+your device's bandwidth, memory, and computing power to do so.
+<p/>
+A faster, lighter way to get Hebrew text from the site is to use one of the 4 servers.
+Depending on which server you call, it returns content formatted as XML, text, HTML, or ODT.
+<blockquote>
+<b><i>Each server requires a valid text citation!</i></b>
+</blockquote>
+The server parameters consist of a <b><i>valid</i></b> text citation, possibly followed by more parameters.
+Invalid citations produce errors.
+
+A valid citation for the servers takes one of three formats,
+defined on the <a href="CitationSyntax.html">Citation syntax</a> page:
+<ul>
+<li>Complete book: <b>b *</b></li>
+<li>Single chapter:Verse range: <b>b c:v1 - v2</b></li>
+<li>Chapter:Verse range: <b>b c1:v1 - c2:v2</b></li>
+</ul>
+<i>The other 3 formats on the Citation syntax page don't work with the servers. </i>
+Every server except <b>Server.xml</b> allows <i>optional</i> URL parameters after the citation
+to customize the display. View a served page in a browser, and you can save it as a file.
+The saved file gets a meaningful name, built from the abbreviated book name and the chapter/verse range.
+<p/>
+Here's a simple example of a server call with no extra URL parameters:
+<blockquote>
+<a target="_blank" href="https://tanach.us/Server.html?Deut26:5-9">
+  https://tanach.us/Server.html?Deut26:5-9</a>
+</blockquote>
+This shows Deuteronomy 26:5-9 in HTML from the <b>Server.html</b> server. Enter this URL into a
+browser, and it downloads <i>only</i> the HTML file itself; the <b><tt>tanach.us</tt></b>
+site never has to load at all. The saved file will be named "<b><tt>Deut 26.5 - 9</tt></b>" .
+(Colons, '<b>:</b>', cause trouble in file names.) A wrong citation or parameter produces a
+clear error message. For example,
+<blockquote>
+<a target="_blank" href="https://tanach.us/Server.html">
+  https://tanach.us/Server.html</a> .
+</blockquote>
+is wrong because it lacks a citation.
+<p/>
+Click the links in the "Server" column to learn more about a particular server.
+<p/>
+<table align="center" border="1" cellpadding="10pt" width="80%">
+<tr>
+  <th>Server</th>
+  <th>Purpose</th>
+  <th>Parameters</th>
+  <th>File extension</th>
+</tr>
+<tr>
+  <td><b><a href="XMLFiles.html">Server.xml</a></b></td>
+  <td>A Unicode, UTF-8 text file with XML markup. <b>Not HTML.</b></td>
+  <td>None</td>
+  <td><b><tt>.xml</tt></b></td>
+</tr>
+<tr>
+  <td><b><a href="TextFiles.html">Server.txt</a></b></td>
+  <td>A Unicode, UTF-8 text file, with no markup. </td>
+  <td>layout, content.</td>
+  <td><b><tt>.txt</tt></b></td>
+</tr>
+<tr>
+  <td><b><a href="HTMLFiles.html">Server.html</a></b></td>
+  <td>A hypertext (XHTML/CSS) document you can view in a browser.</td>
+  <td><a href="HTMLServerParameters.html">Many</a></td>
+  <td><b><tt>.html</tt></b></td>
+</tr>
+<tr>
+  <td><b><a href="ODTFiles.html">Server.odt</a></b></td>
+  <td>A standard Open Document (text) document.
+  <td><a href="ODTServerParameters.html">Many</a></td>
+  <td><b><tt>.odt</tt></b></td>
+</td>
+</tr>
+</table>
+<p/>
+<center><h4><i>No server handles PDF files.</i></h4> </center>
+
+<p/>
+
+<h2>Checking that the servers are working.</h2>
+Check the servers' status with this URL:
+<blockquote>
+<a target="_blank" href="https://tanach.us/ServerTest"><b><tt>https://tanach.us/ServerTest</tt></b></a>
+</blockquote>
+If the servers aren't working, contact the <a href="Publisher.html">publisher</a> to get them fixed.
+
+<p/>
+<table width="100%">
+  <tr>
+    <td align="left">&#x00a0;</td>
+    <td align="right">
+      <b>
+        <a title="Build number.">27.7</a>
+      </b>
+  </tr>
+</table>
+<hr/>
+</body>
+</html>
+<!--========================================================================-->
+<!--========================================================================-->

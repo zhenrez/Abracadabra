@@ -1,0 +1,59 @@
+{
+  "id": "alignment-table-c8f0f5fb118aed25",
+  "content_sha256": "c8f0f5fb118aed257766984a3a5a14c5af4d2ef99ef8e894875cc671c94a9ea9",
+  "headers": [
+    "Proposal",
+    "Existing record affected",
+    "Proposed treatment"
+  ],
+  "rows": [
+    [
+      "**A3 - Activity versus onset**",
+      "`REL-019`, application of `OP-036`",
+      "Record observed activity without automatically asserting a previously inactive state. Apply an inactive→active operation only where its before-state is supported."
+    ],
+    [
+      "**A4 - Speech and knowledge**",
+      "C-20, `REL-024`",
+      "Keep report, request, wish, prediction, speaker, audience, actor-specific knowledge, and fulfillment distinguishable."
+    ],
+    [
+      "**A5 - β interpretation**",
+      "C-01",
+      "Retain the pair while recording that its shared enrollment, location, attendance status, and activity cannot distinguish opposite β states."
+    ],
+    [
+      "**A6 - Duration**",
+      "C-02/C-20",
+      "Preserve the identified no-more and noncessation readings separately."
+    ],
+    [
+      "**A7 - Missing participants and referents**",
+      "Person-first index",
+      "Add source-qualified records for the unnamed messenger, the narrated divine agent, the people whose burden is discussed, and the occurrence of *ruach*. No new note assignments or automatic ontological identification."
+    ],
+    [
+      "**A8 - Relationship boundaries**",
+      "C-01/C-02 and `SUN-019`",
+      "Keep fiber base, biological parentage, group selection, and population generation separate."
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 7333,
+      "line_end": 7340,
+      "char_start": 379358,
+      "char_end": 380572,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Proposal | Existing record affected | Proposed treatment |\n|---|---|---|\n| **A3 - Activity versus onset** | `REL-019`, application of `OP-036` | Record observed activity without automatically asserting a previously inactive state. Apply an inactive→active operation only where its before-state is supported. |\n| **A4 - Speech and knowledge** | C-20, `REL-024` | Keep report, request, wish, prediction, speaker, audience, actor-specific knowledge, and fulfillment distinguishable. |\n| **A5 - β interpretation** | C-01 | Retain the pair while recording that its shared enrollment, location, attendance status, and activity cannot distinguish opposite β states. |\n| **A6 - Duration** | C-02/C-20 | Preserve the identified no-more and noncessation readings separately. |\n| **A7 - Missing participants and referents** | Person-first index | Add source-qualified records for the unnamed messenger, the narrated divine agent, the people whose burden is discussed, and the occurrence of *ruach*. No new note assignments or automatic ontological identification. |\n| **A8 - Relationship boundaries** | C-01/C-02 and `SUN-019` | Keep fiber base, biological parentage, group selection, and population generation separate. |\n",
+      "quote_sha256": "a623b6f613f8530d0493d5b8146bf94ecb9288461e4e9bd48b79fde963e45a65",
+      "message_id": "bfc4608e092c049b60829302f07640325471cc2350a232f7f992db0ad2e59213",
+      "role": "assistant",
+      "locator": "lines:7333-7340"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

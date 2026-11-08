@@ -1,0 +1,29 @@
+{
+  "schema": "sunny.reconstructed-model-verification.v1",
+  "status": "failed",
+  "checked_utc": "2026-11-03T23:56:24.475278+00:00",
+  "model_sha256": "56748c71675c61ebae3aea005b388620770c29628befb491c7e751fcd12741b2",
+  "checks": {
+    "module_snapshots": 5,
+    "decision_records": 78,
+    "music_evidence_records": 1997,
+    "json_pointer_values": 1939,
+    "correspondence_citations": 107,
+    "correspondence_relations": 315,
+    "alignment_tables": 603,
+    "workbook_sources": 13,
+    "workbook_sheet_occurrences": 1872,
+    "cited_source_files": 76,
+    "execution_module_snapshots": 11,
+    "contextual_input_snapshots": 3,
+    "contextual_code_bindings": 1,
+    "current_goal_count": 16
+  },
+  "errors": [
+    {
+      "kind": "execution_module_snapshot",
+      "module": "master-score"
+    }
+  ],
+  "boundary": "Source-byte/quote/value/role/reference fidelity. This verifies the reconstructed records, not source truth, account completeness, a unique lawful orientation or the missing image extraction."
+}

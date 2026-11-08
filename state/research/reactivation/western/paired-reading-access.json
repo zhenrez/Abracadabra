@@ -1,0 +1,47 @@
+{
+  "schema": "sunny.western-paired-reading-access.v1",
+  "created_utc": "2026-11-03T02:41:53.749547+00:00",
+  "sources": [
+    {
+      "id": "OBP.0163.06",
+      "doi": "https://doi.org/10.11647/OBP.0163.06",
+      "url": "https://cdn.openbookpublishers.com/resources/10.11647/obp.0163/OBP.0163.06_Gen_1-13_forte_lene.mp3",
+      "condition": "without melody",
+      "method": "HTTP HEAD only;12-second socket timeout; no audio body requested",
+      "utc": "2026-11-03T02:41:52.906654+00:00",
+      "status": "metadata_retrieved",
+      "http_status": 200,
+      "final_url": "https://cdn.openbookpublishers.com/resources/10.11647/obp.0163/OBP.0163.06_Gen_1-13_forte_lene.mp3",
+      "content_type": "audio/mpeg",
+      "content_length": "3295259",
+      "last_modified": "Fri, 03 Jun 2022 13:38:46 GMT"
+    },
+    {
+      "id": "OBP.0163.07",
+      "doi": "https://doi.org/10.11647/OBP.0163.07",
+      "url": "https://cdn.openbookpublishers.com/resources/10.11647/obp.0163/OBP.0163.07_Gen_1-13_forte_lene_melodic.mp3",
+      "condition": "with Sefardi melody",
+      "method": "HTTP HEAD only;12-second socket timeout; no audio body requested",
+      "utc": "2026-11-03T02:41:52.907160+00:00",
+      "status": "metadata_retrieved",
+      "http_status": 200,
+      "final_url": "https://cdn.openbookpublishers.com/resources/10.11647/obp.0163/OBP.0163.07_Gen_1-13_forte_lene_melodic.mp3",
+      "content_type": "audio/mpeg",
+      "content_length": "11989494",
+      "last_modified": "Fri, 03 Jun 2022 13:38:46 GMT"
+    }
+  ],
+  "decoder_probe": {
+    "ffmpeg_on_path": null,
+    "ffprobe_on_path": null,
+    "python_modules": {
+      "soundfile": false,
+      "audioread": false,
+      "av": false,
+      "pydub": true,
+      "imageio_ffmpeg": false
+    }
+  },
+  "scope": "Publisher labels and HEAD metadata only. No audio decode, listening, segmentation, phonetic measurement, waveform reconstruction or ancient attestation is claimed.",
+  "next_dependency": "Use an existing approved decoder and token-alignment procedure for modern reconstructed performance comparison; otherwise retain observation contract as prospective."
+}

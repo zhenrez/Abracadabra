@@ -1,0 +1,18 @@
+test_native_numeric_types_cannot_be_forged (test_native_east.NativeEastTests.test_native_numeric_types_cannot_be_forged) ... FAIL
+
+======================================================================
+FAIL: test_native_numeric_types_cannot_be_forged (test_native_east.NativeEastTests.test_native_numeric_types_cannot_be_forged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\native-east\test_native_east.py", line 117, in test_native_numeric_types_cannot_be_forged
+    self.assertEqual(m.validate_native(replace(e,assignments=tuple(records))).status,'CONTRADICTION')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'VALID' != 'CONTRADICTION'
+- VALID
++ CONTRADICTION
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.269s
+
+FAILED (failures=1)

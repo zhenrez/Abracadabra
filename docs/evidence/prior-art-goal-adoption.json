@@ -1,0 +1,60 @@
+{
+  "recorded_utc": "2026-11-02T19:39:11.176552+00:00",
+  "prior_sources": {
+    "state/mission.json": {
+      "path": "state/checkpoint-history/before-prior-art-goal-mission.json-c6cdb301a54a381101b920db176eb80faff7cc0261d2692aadc1e8e3add814de.snapshot",
+      "sha256": "c6cdb301a54a381101b920db176eb80faff7cc0261d2692aadc1e8e3add814de"
+    },
+    "state/task.json": {
+      "path": "state/checkpoint-history/before-prior-art-goal-task.json-98e751c8b40b6d1f8340ca1e64cf0f7b0d345b7da3d49b63baaec277093a80f0.snapshot",
+      "sha256": "98e751c8b40b6d1f8340ca1e64cf0f7b0d345b7da3d49b63baaec277093a80f0"
+    },
+    "state/superjev-checkpoint.json": {
+      "path": "state/checkpoint-history/before-prior-art-goal-superjev-checkpoint.json-d58c64395e7cd7d85f839eb48e571d173a24103d31201b22d722563ecb2ff3d9.snapshot",
+      "sha256": "d58c64395e7cd7d85f839eb48e571d173a24103d31201b22d722563ecb2ff3d9"
+    },
+    "docs/reconstruction/SUNNY_GOALS.md": {
+      "path": "state/checkpoint-history/before-prior-art-goal-SUNNY_GOALS.md-08a9341d4f63fb371d01ff6e50e206eafad942f46680caa1746297f503efc270.snapshot",
+      "sha256": "08a9341d4f63fb371d01ff6e50e206eafad942f46680caa1746297f503efc270"
+    },
+    "CONTINUE.md": {
+      "path": "state/checkpoint-history/before-prior-art-goal-CONTINUE.md-260f3010fcd71517286befc24794536b4f9b9ad9f0820b93a2bc90f715a212d6.snapshot",
+      "sha256": "260f3010fcd71517286befc24794536b4f9b9ad9f0820b93a2bc90f715a212d6"
+    },
+    "docs/HUMMBL_PLAN.md": {
+      "path": "state/checkpoint-history/before-prior-art-goal-HUMMBL_PLAN.md-728fac0c500c17b44c6375d7668d06a76c0dfddf543b6c8b669b6fb6aafa2cdc.snapshot",
+      "sha256": "728fac0c500c17b44c6375d7668d06a76c0dfddf543b6c8b669b6fb6aafa2cdc"
+    },
+    "docs/PLUGIN_CAPABILITIES.md": {
+      "path": "state/checkpoint-history/before-prior-art-goal-PLUGIN_CAPABILITIES.md-9cc4433a75fb1be696d46632d108be1c8ac29190a7ae47c5e9e50dac24acc612.snapshot",
+      "sha256": "9cc4433a75fb1be696d46632d108be1c8ac29190a7ae47c5e9e50dac24acc612"
+    }
+  },
+  "before_checks": {
+    "dedicated_prior_art_goal": false,
+    "explicit_external_research_policy": false,
+    "user_research_labels_retained": false
+  },
+  "existing_fifteen_goals_preserved": true,
+  "changed_files": [
+    "CONTINUE.md",
+    "docs/HUMMBL_PLAN.md",
+    "docs/PLUGIN_CAPABILITIES.md",
+    "docs/evidence/prior-art-continuation-verification.json",
+    "docs/evidence/prior-art-goal-jev-request.json",
+    "docs/evidence/prior-art-goal-superjev.json",
+    "docs/evidence/prior-art-goal-verification.json",
+    "docs/evidence/prior-art-plugin-use.json",
+    "docs/evidence/prior-art-protocol-jev-request.json",
+    "docs/evidence/prior-art-protocol-recovery.json",
+    "docs/evidence/prior-art-protocol-superjev.json",
+    "docs/reconstruction/SUNNY_GOALS.md",
+    "state/mission.json",
+    "state/superjev-checkpoint.json",
+    "state/task.json"
+  ],
+  "scope": "Goal and prospective process correction only; no external literature search, reconstruction, agent launch or automatic goal resumption.",
+  "plugin_evidence": "docs/evidence/prior-art-plugin-use.json",
+  "consolidation": "The pre-write baseline already included another G16 draft; compare G01-G15 by prefix. Both drafts preserved and one canonical G16 retained. Specific archived protocols recovered.",
+  "protocol_recovery": "docs/evidence/prior-art-protocol-recovery.json"
+}

@@ -1,0 +1,17 @@
+{
+  "state": {
+    "goal": "Prevent duplicate software service launches on an occupied loopback port while preserving unrelated processes.",
+    "observed": "A minimal reproduction created and owned a TCP listener within one process. A direct local TCP connection succeeded while the operating system listener enumeration returned zero matches for that port. A previous model suggestion to retain enumeration alone cannot establish the required no-duplicate behavior and is preserved as failed acceptance evidence, not erased.",
+    "constraints": "Keep serialized startup and verified process identities. Never stop unrelated processes. Expected HTTP health must still validate the intended service. Failed startup must reap only its own workers. The new alternatives both address the observed enumeration gap; this is implementation strategy selection, not a vote overriding the reproduction."
+  },
+  "questions": {
+    "port_guard": {
+      "type": "choice",
+      "instructions": "Choose between these admissible bounded local occupancy safeguards for startup.",
+      "criteria": {
+        "tcp_probe_fail_closed": "Retain enumeration as supplementary evidence and add a short connection probe to only the requested loopback port. A connection or inconclusive result prevents a new launch; connection refusal permits the serialized launch.",
+        "ownership_query_plus_tcp": "Query operating system listener ownership for additional diagnostics, retain enumeration, and also require the same short loopback TCP probe with fail-closed behavior before a serialized launch."
+      }
+    }
+  }
+}

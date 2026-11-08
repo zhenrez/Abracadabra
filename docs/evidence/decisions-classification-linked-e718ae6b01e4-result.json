@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "request_sha256": "25c3f64845d22daef714a0c48bebe2beb0cf1352b83cb1a30fbb006fe2b68154",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "DEC-recipe_analogy": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.0,
+        "explicit_user_direction": 0.01,
+        "supplied_formulation_or_result": 0.04,
+        "user_question_or_uncertainty": 0.23,
+        "user_research_position": 0.72
+      },
+      "winner": "user_research_position",
+      "top_probability": 0.72,
+      "margin": 0.49
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 1047,
+    "output_tokens": 84
+  },
+  "network_calls": 1,
+  "latency_ms": 297
+}

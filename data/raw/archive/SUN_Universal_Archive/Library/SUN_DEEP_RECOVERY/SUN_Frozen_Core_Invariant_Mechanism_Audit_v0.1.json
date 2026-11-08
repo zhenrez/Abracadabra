@@ -1,0 +1,87 @@
+{
+  "exact_checks": {
+    "R_times_L_equals_S": "1/2",
+    "L_over_R_equals_T": "9/8",
+    "lambda_from_Q_T": "256/243",
+    "T_over_kappa": "10/9",
+    "kappa_times_lambda_equals_rho": "16/15",
+    "compensated_product": "4/3",
+    "rho_times_inverse": "1",
+    "Phi_half_0": "1/2",
+    "Phi_1_1": "1/2",
+    "Phi_kernel_generator_2_1": "1"
+  },
+  "valuation_table": {
+    "R=2/3": {
+      "fraction": "2/3",
+      "v2": 1,
+      "v3": -1,
+      "v5": 0
+    },
+    "L=3/4": {
+      "fraction": "3/4",
+      "v2": -2,
+      "v3": 1,
+      "v5": 0
+    },
+    "S=1/2": {
+      "fraction": "1/2",
+      "v2": -1,
+      "v3": 0,
+      "v5": 0
+    },
+    "T=9/8": {
+      "fraction": "9/8",
+      "v2": -3,
+      "v3": 2,
+      "v5": 0
+    },
+    "lambda=256/243": {
+      "fraction": "256/243",
+      "v2": 8,
+      "v3": -5,
+      "v5": 0
+    },
+    "kappa=81/80": {
+      "fraction": "81/80",
+      "v2": -4,
+      "v3": 4,
+      "v5": -1
+    },
+    "rho=16/15": {
+      "fraction": "16/15",
+      "v2": 4,
+      "v3": -1,
+      "v5": -1
+    },
+    "T/kappa=10/9": {
+      "fraction": "10/9",
+      "v2": 1,
+      "v3": -2,
+      "v5": 1
+    },
+    "Q=4/3": {
+      "fraction": "4/3",
+      "v2": 2,
+      "v3": -1,
+      "v5": 0
+    },
+    "rho^-1=15/16": {
+      "fraction": "15/16",
+      "v2": -4,
+      "v3": 1,
+      "v5": 1
+    }
+  },
+  "intrinsic_predictions": {
+    "ordinary_generation": "C_(n+k)=2^(-k) C_n",
+    "branch_ratio": "L_n/R_n=9/8",
+    "branch_from_S_T": "R=sqrt(S/T)=2/3; L=sqrt(S*T)=3/4 (positive branch factors)",
+    "hidden_next_branches_at_C3_F_over_8": "R_3=F/12; L_3=3F/32; closure C_4=F/16",
+    "comma_constraint": "(T/kappa)*T*(kappa*lambda)=T^2*lambda=4/3 for any nonzero kappa",
+    "lambda_from_T_Q": "lambda=Q/T^2=256/243",
+    "FK_endpoint_family": "(u,0)*(u^-1,1)=(1,1), Phi(1,1)=1/2 for any u>0",
+    "lifted_nonidentity": "(1/2,0) != (1,1) although Phi maps both to 1/2",
+    "kernel_generator": "(2,1) lies in ker Phi and connects the two lifted representatives"
+  }
+}

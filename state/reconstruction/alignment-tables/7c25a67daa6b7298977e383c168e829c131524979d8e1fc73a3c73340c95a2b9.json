@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-7c25a67daa6b7298",
+  "content_sha256": "7c25a67daa6b7298977e383c168e829c131524979d8e1fc73a3c73340c95a2b9",
+  "headers": [
+    "Operation",
+    "What happens",
+    "Count"
+  ],
+  "rows": [
+    [
+      "**Deletion**",
+      "Aleph removed entirely",
+      "$C(21,2) = 210$"
+    ],
+    [
+      "**Deactivation**",
+      "22 letters intact, Aleph's two contributions removed",
+      "$W(0) = 231$"
+    ],
+    [
+      "**Activation**",
+      "22 letters intact, Aleph's two contributions added",
+      "$W(1) = 233$"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 16952,
+      "line_end": 16956,
+      "char_start": 809512,
+      "char_end": 809801,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Operation | What happens | Count |\n|---|---|---|\n| **Deletion** | Aleph removed entirely | $C(21,2) = 210$ |\n| **Deactivation** | 22 letters intact, Aleph's two contributions removed | $W(0) = 231$ |\n| **Activation** | 22 letters intact, Aleph's two contributions added | $W(1) = 233$ |\n",
+      "quote_sha256": "3fe1c093a96dfec178d5eaf7fe6279be87d8d8a66603f1c5085c4cb5440481af",
+      "message_id": "c34639d39245367405fe21b7405035bc111da986a24174c3893844231fa3a248",
+      "role": "user",
+      "locator": "lines:16952-16956"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

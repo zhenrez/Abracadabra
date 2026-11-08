@@ -1,0 +1,268 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "glyph-assistant-feb6bd7f9fccc5b9",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "assistant",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "ed36cfbde65d038e08556f6d129eab52d7eccba3610512b752b48eb824a8c06d",
+              "exact_preview": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"24f8055e-3672-4320-ad7f-2e2fa992f881\",\"thoughts\":[{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Validated rendered HTML structure and encoding\"}]}",
+              "preview_characters": 206,
+              "full_passage_characters": 206,
+              "preview_limited": false
+            }
+          ]
+        },
+        {
+          "id": "glyph-assistant-ff261f31d27f7cf1",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "assistant",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "920473c4a938a5794eac57e5ef4e783c47397976d8327106facd97d68f040717",
+              "exact_preview": "That is probably the right direction for your actual goal. The **research corpus can be complicated; your interface with it should not be**.\n\nYou do not need to build a lyric-generation architecture. A sufficiently disciplined prompt can make the model *simulate* the useful parts: constraint extraction, reference analysis, cadence-first drafting, candidate generation, rejection of weak lines, local repair, concept checking, and final auditing. The model does the work internally; you interact with it like a songwriter.\n\nThe key is that the prompt should **not force one rigid songwriting method**. We already found too many legitimate contradictions for that: sometimes meaning-first works, sometimes punchline-backward works; some flows demand symmetry, others deliberate displacement; hooks of",
+              "preview_characters": 800,
+              "full_passage_characters": 15136,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-assistant-ff5d992b743a8d93",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "assistant",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "e650fa400ad6593f0c1e4f5766076d426e923e13ca02b2a9aff69ada69562ac0",
+              "exact_preview": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"91e04020-01a5-4710-b923-2abc4037a4f3\",\"thoughts\":[{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Inspected HTML preview, screenshots, processes, structure, and JavaScript\"}]}",
+              "preview_characters": 233,
+              "full_passage_characters": 233,
+              "preview_limited": false
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-e52bc78deeb56b44",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+              "message_id": "402ce0e2971e28fe76898f939dd28ac645d0222e546d23b905b0f1d42883b5dc",
+              "exact_preview": "okay, now let's think of and begin adding in the elements/concepts/sounds/words/root-meanings that we're associated with as a piece of technology. what do we have?:\nAI\nAR\nComputer\nAugmented\nArtificial\nIntelligent\nReality\nPlanning\nVisuals\nVisualizations\nImagination\nexpression\nemotion\nart\ntry-on\napp\ncode\nvision model\nart generation\ndiffusion\nllm\npython\nthink\nink\ndigital\ntat\ntatted\nartist\nshop\nparlor\n\n\nYou see, the key here is to take these, and out of them find:\n-highly relevant synonyms,\n-combinations of phonetical roots that RHYME, AND are synonyms when combined with another phonetical root\n-(where appropriate) conceptual opposites (as i started with my \"forecare\" example, though this applies to more items in your first \"historical list\" than it would to this particular modern list)\n\nour f",
+              "preview_characters": 800,
+              "full_passage_characters": 2816,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-e811482c97d2a8cb",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "ec8218c16058530b018791ca36bc8b7434f930e49a9e69435d8951d22bb2f1dd",
+              "exact_preview": "be very verbose, accurate, and descriptive, especially regarding the design elements. for instance, one thing i noticed is; \"\"Main Symbol\tInterlaced Pentalpha (5-pointed star made of 5 Paleo-Hebrew Alephs)\"\"  \n... this shouild be far more descriptive, ensuring it includes details as they were recorded in the oldest reports of them, such as explicitly stating the pantalpha of 5 alephs formed into a pentagram. I'd even go so far as to research the specific aleph versions and the variopus fonts of those specific times (e.g.- years, eras) according to the region and it's customs (dialectical, practical). I'd do this for everything across the entire description.",
+              "preview_characters": 665,
+              "full_passage_characters": 665,
+              "preview_limited": false
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-ec25cd521ae826fe",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+              "message_id": "3f9324588d1446c917ef4bf3a1984bd4a9d20dfdc774b6c77e6c5061b408dbd9",
+              "exact_preview": "Research Request: Reverse-Engineering My Naming Chaos\r\nGoal: I want you to autopsy my messy naming habits—pull apart how I name things, find the patterns I can’t see, and help me build something better and weirder than standard conventions.\r\n\r\nThe Raw Materials\r\nI’m giving you three disordered docs full of fragments: AI convos, workflow scraps, half-baked theories.\r\n\r\nNo structure. No apologies. Just dive in and map the madness.\r\n\r\nWhat to Look For\r\nThe Method Beneath the Madness\r\n\r\nWhere do I get too obsessive (etymology? symmetry? phonetics?)\r\n\r\nWhen does it actually work? (e.g., names that stuck because they felt loaded with meaning)\r\n\r\nCompare to “Normal” Naming\r\n\r\nStack my weirdest tactics against “best practices” (like software naming rules).\r\n\r\nCall out where I’m overcomplicating vs",
+              "preview_characters": 800,
+              "full_passage_characters": 2204,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-eeb7d8a7fd9fb05d",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+              "message_id": "8925a0c21eaea5d6265c22908d978b4cf972980a2ee09ec5f0fac7b785e257bc",
+              "exact_preview": "REGARDING \"\"Example: In one iteration, you attempted to combine elements from Ciall, Maestro, Arcana, Telos, Ka, Satori, Ki into long composite names (e.g., “Ciarcavant Dylatori Wuki”).\"\"\n\nTHAT WASN'T ME AND THANK YOU FOR BRINGING IT UP BECAUSE IT REMINDS ME OF A POINT I MEANT TO MAKE EARLIER. \n\nYOU SAID IN YOUR REPORT \"\"Leverage AI as an Idea Amplifier (not just a list-maker): You’ve already been using ChatGPT like a brainstorming partner. To get even more out of it (without the frustration), try prompting it in ways that play to its strengths and set boundaries. For example, you did well when you had it analyze categories (“tattoo language patterns”)​\nFILE-NKBT8KGHW3Q1AQEPTFQ4XU\n and create a structured table of name ideas with reasoning​\nFILE-NKBT8KGHW3Q1AQEPTFQ4XU\n. That’s gold – you b",
+              "preview_characters": 800,
+              "full_passage_characters": 6400,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-ef463ce94f73124c",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "9a68e31a54e0507dfdac3702cd63c3de4ececb45071c5849ee6bb2f86e18af03",
+              "exact_preview": "# The Substrate/Surface Model\n### A lyric assistance architecture built around one core split\n\n---\n\n## The core idea\n\nRigor and friction are two different problems, and they need two different systems, not one.\n\n**Rigor** — cadence correctness, taste consistency, cliché detection, concept propagation — belongs in a **substrate**: something silent, permanent, and mechanically enforced, that never asks you a question and never waits for your input.\n\n**Low friction and trust** — the actual conversation you have while writing — belongs to a **surface**: something visible, editable, and inspectable, where nothing important happens invisibly.\n\nMost systems collapse these into one thing, which forces a bad trade: either you get a black box that's rigorous but opaque, or you get something transpar",
+              "preview_characters": 800,
+              "full_passage_characters": 14054,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "glyph-assistant-feb6bd7f9fccc5b9: source_forensics",
+          "1": "glyph-assistant-ff261f31d27f7cf1: source_forensics",
+          "2": "glyph-assistant-ff5d992b743a8d93: source_forensics",
+          "3": "glyph-user-e52bc78deeb56b44: source_forensics",
+          "4": "glyph-user-e811482c97d2a8cb: source_forensics",
+          "5": "glyph-user-ec25cd521ae826fe: source_forensics",
+          "6": "glyph-user-eeb7d8a7fd9fb05d: source_forensics",
+          "7": "glyph-user-ef463ce94f73124c: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "a034bdf7f39d1a7eaa8cf92af661e7ac97770d0cc6ac18367db2d7ce01b44573",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.09,
+          "2": 0.03,
+          "3": 0.11,
+          "4": 0.17,
+          "5": 0.12,
+          "6": 0.05,
+          "7": 0.1,
+          "defer": 0.3
+        },
+        "winner": "defer",
+        "top_probability": 0.3,
+        "margin": 0.12999999999999998
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 4655,
+      "output_tokens": 83
+    },
+    "network_calls": 1,
+    "latency_ms": 224
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-32ac4652942dfce9",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229/text.txt",
+      "sha256": "32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229",
+      "start_line": 1,
+      "end_line": 21,
+      "source_role": "assistant",
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "message_id": "3fe0453cf6789c891b398df6361fad44328034814aecedfa9f954b334833ff9f",
+      "timestamp": null,
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "3fe0453cf6789c891b398df6361fad44328034814aecedfa9f954b334833ff9f",
+        "native_id": "74",
+        "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+        "role": "assistant",
+        "content_sha256": "32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "locator": "lines:13117-13140",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Comparative Research Protocol",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+        "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+        "source_kind": "recovered_current_research",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/32ac4652942dfce9242246d9618f6df097c10b218e15a01ed2be8c5ae86fe229/occurrences-23dfa66c8698a073a5e813aa84897bbe0f681929ab796954f8dfb0f2cfd4c889.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

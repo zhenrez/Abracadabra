@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "request_sha256": "b9400bfbcb296da0f458f629209c39d17f88b43971a2b6f05695a430b0e77c92",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "DEC-jev_mission_i": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.29,
+        "explicit_user_direction": 0.28,
+        "supplied_formulation_or_result": 0.17,
+        "user_question_or_uncertainty": 0.01,
+        "user_research_position": 0.25
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.29,
+      "margin": 0.009999999999999953
+    },
+    "DEC-jev_mission_ii": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.0,
+        "explicit_user_direction": 0.13,
+        "supplied_formulation_or_result": 0.28,
+        "user_question_or_uncertainty": 0.0,
+        "user_research_position": 0.59
+      },
+      "winner": "user_research_position",
+      "top_probability": 0.59,
+      "margin": 0.30999999999999994
+    },
+    "DEC-intention_will_open": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.0,
+        "explicit_user_direction": 0.0,
+        "supplied_formulation_or_result": 0.01,
+        "user_question_or_uncertainty": 0.03,
+        "user_research_position": 0.96
+      },
+      "winner": "user_research_position",
+      "top_probability": 0.96,
+      "margin": 0.9299999999999999
+    },
+    "DEC-progressive_type_law": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.0,
+        "explicit_user_direction": 0.04,
+        "supplied_formulation_or_result": 0.0,
+        "user_question_or_uncertainty": 0.89,
+        "user_research_position": 0.07
+      },
+      "winner": "user_question_or_uncertainty",
+      "top_probability": 0.89,
+      "margin": 0.8200000000000001
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 2877,
+    "output_tokens": 333
+  },
+  "network_calls": 1,
+  "latency_ms": 195
+}

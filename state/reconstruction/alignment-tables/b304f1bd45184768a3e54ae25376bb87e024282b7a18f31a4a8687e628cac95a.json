@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-b304f1bd45184768",
+  "content_sha256": "b304f1bd45184768a3e54ae25376bb87e024282b7a18f31a4a8687e628cac95a",
+  "headers": [
+    "Step",
+    "Value",
+    "Check"
+  ],
+  "rows": [
+    [
+      "Pure fifth E→F (E below F)",
+      "$256/243$",
+      "$2 \\div (243/128) = 256/243$ ✓"
+    ],
+    [
+      "Target Earth semitone",
+      "$16/15$",
+      "Paper's Mi–Fa"
+    ],
+    [
+      "Correction multiplier",
+      "$(16/15)/(256/243) = 80/81$",
+      "✓"
+    ],
+    [
+      "Cents",
+      "$1200\\log_2(81/80) = 21.506$",
+      "✓"
+    ],
+    [
+      "Mars F→C",
+      "$3/2$",
+      "✓"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 25823,
+      "line_end": 25829,
+      "char_start": 1301036,
+      "char_end": 1301333,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Step | Value | Check |\n|---|---|---|\n| Pure fifth E→F (E below F) | $256/243$ | $2 \\div (243/128) = 256/243$ ✓ |\n| Target Earth semitone | $16/15$ | Paper's Mi–Fa |\n| Correction multiplier | $(16/15)/(256/243) = 80/81$ | ✓ |\n| Cents | $1200\\log_2(81/80) = 21.506$ | ✓ |\n| Mars F→C | $3/2$ | ✓ |\n",
+      "quote_sha256": "b16c28a64ea5801c8c12bc653aefdcb9f2d22ae5de4a626c1a061b6151ca6c32",
+      "message_id": "4340738daad9a7d8c9d99cfb055852699c805990eac6c815c75bf46bd217b9e1",
+      "role": "user",
+      "locator": "lines:25823-25829"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

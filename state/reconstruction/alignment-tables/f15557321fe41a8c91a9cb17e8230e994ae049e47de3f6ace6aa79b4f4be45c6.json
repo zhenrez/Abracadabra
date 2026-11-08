@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-f15557321fe41a8c",
+  "content_sha256": "f15557321fe41a8c91a9cb17e8230e994ae049e47de3f6ace6aa79b4f4be45c6",
+  "headers": [
+    "Input",
+    "Observed transformation"
+  ],
+  "rows": [
+    [
+      "אמת → מת",
+      "Aleph deleted"
+    ],
+    [
+      "גוג → מגוג",
+      "Mem prefixed"
+    ],
+    [
+      "שנים → שניים",
+      "Yod inserted; plene/defective spelling difference"
+    ],
+    [
+      "שׁ → ש",
+      "Combining pronunciation mark removed"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 24493,
+      "line_end": 24498,
+      "char_start": 1222122,
+      "char_end": 1222356,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Input | Observed transformation |\n|--------|--------|\n| אמת → מת | Aleph deleted |\n| גוג → מגוג | Mem prefixed |\n| שנים → שניים | Yod inserted; plene/defective spelling difference |\n| שׁ → ש | Combining pronunciation mark removed |\n",
+      "quote_sha256": "275295be70f5713016b1f7e7efe486b58a4d43b629a3c2ac275c0a3fcb5f0e95",
+      "message_id": "6406cd51be6b6135e588f1d78dde396f911fd7298c0a0fb9d9de6b54b4c74725",
+      "role": "assistant",
+      "locator": "lines:24493-24498"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

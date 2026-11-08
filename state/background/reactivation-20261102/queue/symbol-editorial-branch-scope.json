@@ -1,0 +1,21 @@
+{
+  "id": "symbol-editorial-branch-scope",
+  "kind": "source_forensics",
+  "sources": [
+    {
+      "path": "state/research/reactivation/symbols/context-discrepancy.json",
+      "sha256": "da3de5f59d096fd47cdb8593ed336341b4cdf39cfb8bb354fce312823da7ba9f",
+      "start_line": 1,
+      "end_line": 70,
+      "source_role": "RESEARCH_SUPPORTED_INFERENCE; exact source/assumption boundaries are being audited, not automatically promoted."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "scope-preserved",
+      "statement": "The displayed resh/dalet mismatch is an edition-specific transcription discrepancy; the passage preserves alternatives and does not by itself establish an ancient phonetic substitution or changed identity."
+    }
+  ],
+  "question_version": "SUNNY-G16-symbol-first-integration-v1",
+  "purpose": "Independent guarded source-boundary check needed before integrating the new conditional constraints into the common reconstruction; not new historical discovery or a repeated heartbeat."
+}

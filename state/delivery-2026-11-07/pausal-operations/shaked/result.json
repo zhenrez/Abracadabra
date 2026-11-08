@@ -1,0 +1,83 @@
+{
+  "status": "BOUNDED_ACQUISITION_COMPLETE_TARGET_NOT_RETRIEVED",
+  "target": {
+    "author": "Shaul Shaked",
+    "publication_year": 1995,
+    "title": "Peace be Upon You, Exalted Angels: On Hekhalot, Liturgy and Incantation Bowls",
+    "journal": "Jewish Studies Quarterly",
+    "volume_issue": "2/3",
+    "page_range": "197-219",
+    "Molin_citation": "HLIB, 213; 684.14"
+  },
+  "direction": {
+    "receipt": "state/jev-receipts/000062-5fcc72f3ccd7.json",
+    "selected": "molin_pausal_operation_and_source",
+    "new_Jev_inference_by_this_reader": false
+  },
+  "budget": {
+    "primary_discovery_queries_used": 2,
+    "known_URLs_fetched": 2,
+    "fetch_calls": 1,
+    "retries": 0,
+    "additional_routes_after_budget": 0
+  },
+  "fetched_URLs": [
+    "https://jstor.org/stable/40753131",
+    "https://www.academia.edu/38730945/Shaul_Shaked_Peace_Be_upon_You_Exalted_Angels_On_Hekhalot_Liturgy_and_Incantation_Bowls_Jewish_Studies_Quarterly_2_3_1995_197_219"
+  ],
+  "delivered_layers": [
+    "JSTOR-associated metadata, abstract-like opening paragraph and reference list; primary provenance of the opening block was not independently checked against a scan.",
+    "Article-labelled Academia upload record with AI-marked abstract/key takeaways/FAQ and OCR-like bibliography fragments; no target page body.",
+    "Bibliography rendering includes a fragment resembling a printed page219 header; it does not deliver page213 or define684.14."
+  ],
+  "excluded_from_primary_witness_evidence": [
+    "AcademiaAI abstract, key takeaways and FAQ.",
+    "AI-summary mention of Bowl6/Moussaieff: correspondence to684.14 is not established.",
+    "Connector indexing/enrichment metadata such as citation counts, topics and2016year.",
+    "The2019upload date and2025last-update label as publication/specimen dates."
+  ],
+  "index_year_discrepancy": {
+    "JSTOR_associated_rendering_Published": "2016-01-01",
+    "Molin_bibliography_and_article_label_year": 1995,
+    "resolution": "Keep2016as conflicting indexing metadata; it does not supersede1995publication identification."
+  },
+  "original_article_target_body_acquired": false,
+  "printed_page213_acquired": false,
+  "definition_of_684_14": "NOT RETRIEVED",
+  "confirmed_inventory_identity": null,
+  "confirmed_collection_identity": null,
+  "confirmed_specimen_date": null,
+  "photograph_acquired": false,
+  "original_PDF_bytes_acquired": false,
+  "original_PDF_sha256": null,
+  "preserved_prior_observation": "Molin primary-publication connector text givesשומורו andHLIB213;684.14. This new retrieval adds no independent edition/ink/date validation and does not alter that prior record.",
+  "transport_file": "known-url-fetches.json",
+  "transport_bytes": 13225,
+  "transport_sha256": "866d02b7795b6b9cf4ef82ebfac3231ff00e3a276e70c810ede5ecb496212c73",
+  "text_JSON_pointer": "/content/0/text",
+  "text_file": "fetched-content.txt",
+  "text_sha256_utf8": "3bd4c5b54cff2de29824f2199e03d20450916fb479750dbc7a38af0f16513ea9",
+  "text_codepoints": 12748,
+  "literal_checks": [
+    {
+      "literal": "684.14",
+      "status": "not_located"
+    },
+    {
+      "literal": "שומורו",
+      "status": "not_located"
+    },
+    {
+      "literal": "213",
+      "status": "not_located"
+    }
+  ],
+  "actual_guard_execution": {
+    "Supermemory_retrieval_saved": true,
+    "Prumo_Evidence_Audit_records_validated": 3,
+    "Proofline_new_execution": false,
+    "SuperJev_success_claimed": false
+  },
+  "next_exact_dependency": "Actual1995article printedp213 plus its notation/edition apparatus; verify whether684.14defines a bowl/inventory/line reference and inspect any photograph/dating statement actually supplied. Use authorized library/JSTOR access or an accessible author copy; no access bypass.",
+  "scope_limits": "No claim that missing target text or photography is absent from original article. No chronology, precise-phoneme or ancestry/contact conclusion. No canonical/UI/global-memory edits."
+}

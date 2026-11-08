@@ -1,0 +1,18 @@
+{
+  "goal":"Assess the user's current-model catch-up deliverable and preserve unfulfilled requirements truthfully.",
+  "acceptance":[
+    {"id":"current_text","text":"Carry the current accessible research text forward through the October29 music submission and October30 SUNNY specification, retaining latest user corrections."},
+    {"id":"connected_model","text":"Produce a readable connected current model and inspectable machine model with existing native musical structure, usable conditional narrative results and correction-aware source frames."},
+    {"id":"fidelity","text":"Check source bytes, exact quotations/values, roles, cross-references and independent overview findings against the actual artifacts."},
+    {"id":"latest_images","text":"Recover and integrate the actual latest twenty-image music extraction data, not merely its historical completion report."}
+  ],
+  "evidence":[
+    {"criterion":"current_text","status":"passed","current":true,"source":"docs/reconstruction/CURRENT_MODEL.md; docs/evidence/reconstruction-current-sources.json"},
+    {"criterion":"connected_model","status":"passed","current":true,"source":"state/reconstruction/model.json; docs/evidence/reconstruction-search-publication.json"},
+    {"criterion":"fidelity","status":"passed","current":true,"source":"docs/evidence/reconstruction-verification.json; docs/evidence/reconstruction-independent-review.json"},
+    {"criterion":"latest_images","status":"partial","current":true,"source":"docs/evidence/reconstruction-image-search.json; docs/evidence/reconstruction-image-fetch.json; docs/evidence/reconstruction-page-search.json"}
+  ],
+  "unresolved":["The named twenty-image extraction workbook/archive is not retrieved; one original-image request returned403, targeted local/Drive searches found no match and Pages returned an unrelated guide.","Full account completeness and exhaustive point-by-point semantic interpretation are not certified; source occurrence counts are not semantic completion.","The latest broad software suite has a preserved expected400/observed504 synthetic HTTPworker test failure; no full software pass claimed."],
+  "attempts":1,
+  "observed_facts":"The accessible current model is built and fidelity-verified. All task services and scoped test workers are currently closed. Delivering the concrete verified artifact does not silently complete missing image input or the full universal research objective."
+}

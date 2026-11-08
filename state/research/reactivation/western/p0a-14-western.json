@@ -1,0 +1,138 @@
+{
+  "schema": "sunny.western-p0a14.v1",
+  "frozen_utc": "2026-11-03T02:47:31.970Z",
+  "question": "Which already existing primary methods and source-specific reading/performance observations can constrain a phonetic realization or musical prescription while preserving native musical dimensions?",
+  "status": "bounded scholarly extension;14questions accounted;domain completenessOPEN",
+  "prior_art_reused": [
+    "state/research/reactivation/symbols/p0a-14-baseline.json",
+    "state/mission.json:prior_art_research.p0_a_questions",
+    "state/research/reactivation/western/checkpoint-01.json",
+    "state/research/reactivation/western/source-fetch-manifest.json",
+    "state/research/reactivation/western/acoustic-reproduction.json",
+    "state/research/reactivation/western/exact-acoustic-check.json",
+    "docs/reconstruction/symbol-sound-census/question-freeze.json",
+    "docs/reconstruction/symbol-sound-census/scholarly-first-pass.md"
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "status": "covered_in_bounded_scope",
+      "answer": "McAulay/Quatieri solve measured-speech analysis/synthesis; Praat supplies operational source/filter methods; Garellek studies glottal realization/perception; Khan supplies a tradition-specific reconstructed reading.",
+      "evidence": "W03,W04,W08,W09",
+      "gap": "No inspected source solves SUNNY's entire cross-tradition geometry/symbol system.",
+      "question": "Who has proposed this or something structurally equivalent before?"
+    },
+    {
+      "id": "Q02",
+      "status": "covered_in_bounded_scope",
+      "answer": "Acoustic phonetics, speech signal processing, singing-voice science, historical phonology and textual reading address distinct links; native music acoustics remains separately scoped.",
+      "evidence": "W01–W10",
+      "gap": "No whole-field census or completed native Western repertoire.",
+      "question": "What fields study this problem?"
+    },
+    {
+      "id": "Q03",
+      "status": "covered_in_bounded_scope",
+      "answer": "Trackf0/instantaneous frequency, source/filter, formant, phonation, glottal stop/incomplete stop/creak, local pulse, note/register and performance condition separately.",
+      "evidence": "W03–W09",
+      "gap": "Terminology equivalence is not historical identity.",
+      "question": "What terminology do those fields use for it?"
+    },
+    {
+      "id": "Q04",
+      "status": "covered_in_bounded_scope",
+      "answer": "Reuse quasi-stationary sinusoidal tracks, conditional source/filter model, short-time spectrum and speaker-sensitive LPC/formant estimation; source-token decoding remains a different inverse problem.",
+      "evidence": "W03–W06",
+      "gap": "Actual waveform, stationarity and parameter conditions must hold.",
+      "question": "What are the closest established theories, models, equations, or frameworks?"
+    },
+    {
+      "id": "Q05",
+      "status": "partial",
+      "answer": "Garellek's dissertation background pp9–11,25–31 and the FMP notebook map bounded acoustic/phonetic neighborhoods.",
+      "evidence": "W02,W08",
+      "gap": "No systematic review/meta-analysis of glyph-to-music coupling, singing styles or ancient phonetics.",
+      "question": "What reviews, surveys, bibliographies, encyclopedias, dissertations, or meta-analyses map the space?"
+    },
+    {
+      "id": "Q06",
+      "status": "partial",
+      "answer": "Directly inspected McAulay/Quatieri1986, Praat manuals, Garellek2013 and Khan2020; Fant1960 and further references are backward leads.",
+      "evidence": "W03–W09",
+      "gap": "Do not equate a bounded reading list with complete canonical bibliography; Fant original not newly retrieved.",
+      "question": "What are the canonical papers, books, and authors?"
+    },
+    {
+      "id": "Q07",
+      "status": "covered_in_bounded_scope",
+      "answer": "Preserve full glottal target, incomplete/irregular realization, prosodic insertion, non-[ʔ]-marked Alef role, musical-performance variation and indeterminate alignment as distinct alternatives.",
+      "evidence": "W08–W10",
+      "gap": "No arbitrary score selects a universal ancient role; [ʔ] occurrence alone cannot establish phonemic status.",
+      "question": "What are the competing explanations?"
+    },
+    {
+      "id": "Q08",
+      "status": "partial",
+      "answer": "A full-silence requirement misses incomplete realizations. A formant/default ceiling is not an observed resonance. The official ba-da tutorial has exact endpoint/count/time inconsistencies.",
+      "evidence": "W06–W08;method-audit.json",
+      "gap": "No all-literature falsification survey and no Praat execution/perceptual replication.",
+      "question": "What has been falsified, criticized, or abandoned?"
+    },
+    {
+      "id": "Q09",
+      "status": "open",
+      "answer": "Ancient intended coupling, historical realization, chronology bridge, source-native musical prescription and full-geometry acoustic realization remain unresolved.",
+      "evidence": "W03,W08–W10;operational-constraint.json",
+      "gap": "Modern reconstructed token constraints cannot close these dependencies.",
+      "question": "What are the unresolved questions?"
+    },
+    {
+      "id": "Q10",
+      "status": "covered_in_bounded_scope",
+      "answer": "Primary articlePDF, original software-method pages, original dissertation and already recovered Khan sample transcriptions/linked modern performances are concretely addressed and hashed or access-qualified.",
+      "evidence": "W03–W10",
+      "gap": "Raw dissertation corpus and audio bodies not acquired; no participant-data or acoustic measurement claim.",
+      "question": "What primary sources or datasets are important to the field?"
+    },
+    {
+      "id": "Q11",
+      "status": "partial",
+      "answer": "Existing symbol lane's Khan/Tiberian versus earlier epigraphic distinction is reused; source-native Sefardi melodic label is preserved.",
+      "evidence": "W09,W10;../symbols/source-register.json",
+      "gap": "Ancient-to-medieval chronology, ritual/music transmission and early Western notation/monochord witnesses need additional work.",
+      "question": "What earlier historical traditions have scholars already connected to it?"
+    },
+    {
+      "id": "Q12",
+      "status": "covered_in_bounded_scope",
+      "answer": "Garellek p6 relates linguistic glottal stop and singing-science glottal/vocal attack while distinguishing initiation/cessation; manuals distinguishF0, formant and window terms.",
+      "evidence": "W06,W08",
+      "gap": "This is a scoped terminology bridge, not equivalence of entire traditions or mechanisms.",
+      "question": "Has terminology changed over time in ways that hide older versions?"
+    },
+    {
+      "id": "Q13",
+      "status": "partial",
+      "answer": "Signal reconstruction, phonetic reading and musical performance share observation/parameter/inverse-problem distinctions; the existing8-neighborhood census supplies method vocabulary only.",
+      "evidence": "W03–W10;existing P0-A instrument",
+      "gap": "No independent demonstration that adjacent fields rediscovered SUNNY's complete structure.",
+      "question": "Have adjacent disciplines rediscovered the same structure under another name?"
+    },
+    {
+      "id": "Q14",
+      "status": "partial",
+      "answer": "Recorded targeted primary-source searches and directURL inspections; repeated PDF/manual browser timeouts and publisherHTML429 are retrieval limits, not null literature evidence.",
+      "evidence": "query-log-02.json;source-fetch-manifest-02.json;source-fetch-manifest-03.json",
+      "gap": "No exhaustive negative search, suppression finding or novelty conclusion.",
+      "question": "What obvious prior-art searches have produced nothing?"
+    }
+  ],
+  "instrument_counts": {
+    "covered_in_bounded_scope": 7,
+    "partial": 6,
+    "open": 1,
+    "total": 14
+  },
+  "exposure": "Question/method route recorded before new source inspection in Jev request. Exact target inspected before prospective measurement; no blind claim. No newM1–M12 or power/suppression census performed. Existing exposure retained; broader historical/philosophical hypotheses were already known.",
+  "global_baseline_boundary": "This Western subregister does not overwrite the symbol lane's scholarly baseline or imply domain closure. Root coordinates all16goals/all8deliverables."
+}

@@ -1,0 +1,29 @@
+{
+  "shared_numeric_generators": {
+    "R": "2/3",
+    "L": "3/4",
+    "S": "1/2",
+    "T": "9/8",
+    "Q": "4/3",
+    "lambda": "256/243",
+    "kappa": "81/80",
+    "rho": "16/15"
+  },
+  "model_A_ordinary_continuation": {
+    "C3": "1/8",
+    "R3": "1/12",
+    "L3": "3/32",
+    "C4": "1/16"
+  },
+  "model_B_frozen_lifted_boundary": {
+    "C3": "1/8",
+    "outbound_local": "16/15",
+    "mid": "2/15",
+    "return_local": "15/16",
+    "grade_increment": 1,
+    "lifted_cycle_local_product": "1",
+    "C4_realized": "1/16"
+  },
+  "same_scalar_endpoint": true,
+  "different_internal_path": true
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Assistant visual inspection of actual isolated Edge screenshots; not a human usability study or screen-reader audit",
+  "screenshots": [
+    {
+      "path": "docs/evidence/delivery-2026-11-07/guide-overview-desktop.png",
+      "inspected": true,
+      "observations": [
+        "Existing SUNNY paper/green/brass palette retained",
+        "System/unit/generation controls and source-bound counts are readable",
+        "Selected Bythos identity sits between explicitly typed upstream and downstream links",
+        "Unassigned generation and timing remain visible"
+      ]
+    },
+    {
+      "path": "docs/evidence/delivery-2026-11-07/guide-mobile.png",
+      "inspected": true,
+      "observations": [
+        "390px viewport uses a single-column layout",
+        "Source controls and record finder remain readable without horizontal overflow",
+        "Molin view retains 19records and four actual unit types",
+        "Generation class count remains zero rather than inferred"
+      ]
+    }
+  ],
+  "final_data_refresh": "The coordinator may refresh acceptance metadata/data.js after these inspections; a fresh hash-bound guide replay is required after that freeze.",
+  "external_assets_downloaded": false,
+  "scientific_completion_claimed": false,
+  "finalFrozenDataReplay": {
+    "checkedAt": "2026-11-08T02:26:56.640Z",
+    "status": "passed",
+    "dataJsSha256": "84e234dea5185a10e953b12248dfbf01dd093666bfbdff4dce03bf1071c085a7",
+    "guideReportSha256": "f9d65cfeb65f34303a9e543fab4f084220276f181e03cd602ef282d13ed839e9",
+    "capturedIdentities": 15,
+    "remainingOwnedProcesses": 0
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:58:25.992748+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "0585f119be616fa3af4ea8dfc241604607ddeb2031c55f33761da1fcb70e39b9"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "3d0ef027-91c1-5c81-ba17-7085e1bdd387",
+      "source_identity_sha256": "9dd250d04170a6e0bb2faac3d2325374f88174af0742159cebcd91bb2399b2f7",
+      "source_version_id": "78983bb7-bf67-5d36-9e51-a38df1ab3130",
+      "version_number": 1,
+      "content": "Right—you’re referring to the **specific “Completed Harmony” hypothesis**, not merely the historical Kepler–Fludd dispute. I had collapsed those two. I’ll use the actual claim we developed: **Kepler supplies the dynamic planetary extrema; Fludd supplies the static proportional monochord that completes the harmonic geometry.**",
+      "content_sha256": "8bdf805f35ab3b1fe10d3e6117a28b63e16558e95e3ffe7bf371a4c20f9816b9",
+      "content_length": 327,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "1a0352579db686f92b9f6d74b5278178b88fd739117d38edb80d3fa3fc86021d"
+    },
+    "chunks": [
+      {
+        "id": "d3cf82fd-5f00-5f56-b0f3-aa717ea2f80b",
+        "source_node_hash": "1a0352579db686f92b9f6d74b5278178b88fd739117d38edb80d3fa3fc86021d",
+        "source_id": "3d0ef027-91c1-5c81-ba17-7085e1bdd387",
+        "source_version_id": "78983bb7-bf67-5d36-9e51-a38df1ab3130",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 327,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "Right—you’re referring to the **specific “Completed Harmony” hypothesis**, not merely the historical Kepler–Fludd dispute. I had collapsed those two. I’ll use the actual claim we developed: **Kepler supplies the dynamic planetary extrema; Fludd supplies the static proportional monochord that completes the harmonic geometry.**",
+        "content_sha256": "8bdf805f35ab3b1fe10d3e6117a28b63e16558e95e3ffe7bf371a4c20f9816b9",
+        "node_hash": "e0578832bbdf133732252832ed8df8e9790049fa9f6ee1d6315f4a906abc9618"
+      }
+    ],
+    "citations": [
+      {
+        "id": "476df159-73f5-510a-a389-88fc23691002",
+        "source_node_hash": "1a0352579db686f92b9f6d74b5278178b88fd739117d38edb80d3fa3fc86021d",
+        "chunk_node_hashes": [
+          "e0578832bbdf133732252832ed8df8e9790049fa9f6ee1d6315f4a906abc9618"
+        ],
+        "source_id": "3d0ef027-91c1-5c81-ba17-7085e1bdd387",
+        "source_version_id": "78983bb7-bf67-5d36-9e51-a38df1ab3130",
+        "start_offset": 0,
+        "end_offset": 327,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "Right—you’re referring to the **specific “Completed Harmony” hypothesis**, not merely the historical Kepler–Fludd dispute. I had collapsed those two. I’ll use the actual claim we developed: **Kepler supplies the dynamic planetary extrema; Fludd supplies the static proportional monochord that completes the harmonic geometry.**",
+        "quote_sha256": "8bdf805f35ab3b1fe10d3e6117a28b63e16558e95e3ffe7bf371a4c20f9816b9",
+        "node_hash": "92a3901e977cd612be7f8f7885761937877ee0a519f119fd2e4653608d800235"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "1a0352579db686f92b9f6d74b5278178b88fd739117d38edb80d3fa3fc86021d",
+        "e0578832bbdf133732252832ed8df8e9790049fa9f6ee1d6315f4a906abc9618",
+        "92a3901e977cd612be7f8f7885761937877ee0a519f119fd2e4653608d800235"
+      ],
+      "node_hash": "218d0e5ee2803b11fdd5d4751264716ea4c1558058ed837814971565fcfda399"
+    },
+    "artifact": {
+      "id": "f6b406ea-90f9-5e4f-a050-befdd2d99ed7",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/8bdf805f35ab3b1fe10d3e6117a28b63e16558e95e3ffe7bf371a4c20f9816b9/text.txt; original SHA256 8bdf805f35ab3b1fe10d3e6117a28b63e16558e95e3ffe7bf371a4c20f9816b9; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "218d0e5ee2803b11fdd5d4751264716ea4c1558058ed837814971565fcfda399",
+      "citation_node_hashes": [
+        "92a3901e977cd612be7f8f7885761937877ee0a519f119fd2e4653608d800235"
+      ],
+      "node_hash": "cabaa0c838745eddd9a7ea6befa6e85c4bef47d63ddc016fc3362bfacb96d721"
+    },
+    "review": {
+      "artifact_node_hash": "cabaa0c838745eddd9a7ea6befa6e85c4bef47d63ddc016fc3362bfacb96d721",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:58:25.992748+00:00",
+      "updated_at": "2026-11-02T01:58:25.992748+00:00",
+      "node_hash": "474cecbfa7b3cf5adbe2fab2b18d559253199330c55745e00b94ac0c6817037b"
+    }
+  }
+}

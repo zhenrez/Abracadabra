@@ -1,0 +1,2232 @@
+{
+  "sheet": "State_Signatures",
+  "part": "xl/worksheets/sheet47.xml",
+  "content_sha256": "1c815293a241d89cd844cba18dd3c24a4b73b8ad7c36f3c003f46decb70a1d9f",
+  "rows": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "ref": "A1",
+          "type": "str",
+          "value": "State_ID",
+          "raw_value": "State_ID",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "B1",
+          "type": "str",
+          "value": "Member_Count",
+          "raw_value": "Member_Count",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "C1",
+          "type": "str",
+          "value": "Relation_Count",
+          "raw_value": "Relation_Count",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "D1",
+          "type": "str",
+          "value": "Arity_Spectrum",
+          "raw_value": "Arity_Spectrum",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "E1",
+          "type": "str",
+          "value": "Rule_Count",
+          "raw_value": "Rule_Count",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "F1",
+          "type": "str",
+          "value": "Trait_Dimension_Count",
+          "raw_value": "Trait_Dimension_Count",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "G1",
+          "type": "str",
+          "value": "Partition_Structure",
+          "raw_value": "Partition_Structure",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "H1",
+          "type": "str",
+          "value": "Closure_Type",
+          "raw_value": "Closure_Type",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "I1",
+          "type": "str",
+          "value": "Transition_Profile",
+          "raw_value": "Transition_Profile",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        },
+        {
+          "ref": "J1",
+          "type": "str",
+          "value": "Signature_Status",
+          "raw_value": "Signature_Status",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "80"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "ref": "A2",
+          "type": "str",
+          "value": "H0",
+          "raw_value": "H0",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B2",
+          "type": "n",
+          "value": "4",
+          "raw_value": "4",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A2,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C2",
+          "type": "n",
+          "value": "2",
+          "raw_value": "2",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A2,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D2",
+          "type": "str",
+          "value": "Variable",
+          "raw_value": "Variable",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E2",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A2)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I2",
+          "type": "str",
+          "value": "Emergence / primordial coexistence",
+          "raw_value": "Emergence / primordial coexistence",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J2",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "ref": "A3",
+          "type": "str",
+          "value": "H1A",
+          "raw_value": "H1A",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B3",
+          "type": "n",
+          "value": "7",
+          "raw_value": "7",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A3,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C3",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A3,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D3",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E3",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A3)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I3",
+          "type": "str",
+          "value": "Unary + paired generation",
+          "raw_value": "Unary + paired generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J3",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "ref": "A4",
+          "type": "str",
+          "value": "H2",
+          "raw_value": "H2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B4",
+          "type": "n",
+          "value": "18",
+          "raw_value": "18",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A4,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C4",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A4,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D4",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E4",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A4)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G4",
+          "type": "str",
+          "value": "12+6",
+          "raw_value": "12+6",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H4",
+          "type": "str",
+          "value": "Exhaustive Membership",
+          "raw_value": "Exhaustive Membership",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I4",
+          "type": "str",
+          "value": "Paired generation",
+          "raw_value": "Paired generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J4",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "ref": "A5",
+          "type": "str",
+          "value": "H3",
+          "raw_value": "H3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B5",
+          "type": "n",
+          "value": "6",
+          "raw_value": "6",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A5,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C5",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A5,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D5",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E5",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A5)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "H5",
+          "type": "str",
+          "value": "Exhaustive Membership",
+          "raw_value": "Exhaustive Membership",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I5",
+          "type": "str",
+          "value": "Paired generation",
+          "raw_value": "Paired generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J5",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "ref": "A6",
+          "type": "str",
+          "value": "S0",
+          "raw_value": "S0",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B6",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A6,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C6",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A6,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D6",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E6",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A6)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I6",
+          "type": "str",
+          "value": "Source / self-existent",
+          "raw_value": "Source / self-existent",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J6",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "ref": "A7",
+          "type": "str",
+          "value": "S1",
+          "raw_value": "S1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B7",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A7,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C7",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A7,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D7",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E7",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A7)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I7",
+          "type": "str",
+          "value": "Emanation / first thought",
+          "raw_value": "Emanation / first thought",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J7",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "ref": "A8",
+          "type": "str",
+          "value": "S2",
+          "raw_value": "S2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B8",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A8,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C8",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A8,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D8",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E8",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A8)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I8",
+          "type": "str",
+          "value": "Generated divine child",
+          "raw_value": "Generated divine child",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J8",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "cells": [
+        {
+          "ref": "A9",
+          "type": "str",
+          "value": "S3",
+          "raw_value": "S3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B9",
+          "type": "n",
+          "value": "16",
+          "raw_value": "16",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A9,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C9",
+          "type": "n",
+          "value": "4",
+          "raw_value": "4",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A9,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D9",
+          "type": "str",
+          "value": "4",
+          "raw_value": "4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E9",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A9)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G9",
+          "type": "str",
+          "value": "4 anchors + 12 realms; 4×3",
+          "raw_value": "4 anchors + 12 realms; 4×3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H9",
+          "type": "str",
+          "value": "Partition Completion",
+          "raw_value": "Partition Completion",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I9",
+          "type": "str",
+          "value": "Differentiation",
+          "raw_value": "Differentiation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J9",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "cells": [
+        {
+          "ref": "A10",
+          "type": "str",
+          "value": "S4",
+          "raw_value": "S4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B10",
+          "type": "n",
+          "value": "2",
+          "raw_value": "2",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A10,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C10",
+          "type": "n",
+          "value": "2",
+          "raw_value": "2",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A10,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D10",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E10",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A10)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "H10",
+          "type": "str",
+          "value": "Boundary Event",
+          "raw_value": "Boundary Event",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I10",
+          "type": "str",
+          "value": "Unpaired / anomalous generation",
+          "raw_value": "Unpaired / anomalous generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J10",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "cells": [
+        {
+          "ref": "A11",
+          "type": "str",
+          "value": "S5",
+          "raw_value": "S5",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B11",
+          "type": "n",
+          "value": "12",
+          "raw_value": "12",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A11,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C11",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A11,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D11",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E11",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A11)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G11",
+          "type": "str",
+          "value": "7+5",
+          "raw_value": "7+5",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H11",
+          "type": "str",
+          "value": "Partition Completion",
+          "raw_value": "Partition Completion",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I11",
+          "type": "str",
+          "value": "Generation by Yaldabaoth",
+          "raw_value": "Generation by Yaldabaoth",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J11",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "cells": [
+        {
+          "ref": "A12",
+          "type": "str",
+          "value": "S6",
+          "raw_value": "S6",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B12",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A12,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C12",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A12,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D12",
+          "type": "str",
+          "value": "Many",
+          "raw_value": "Many",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E12",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A12)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G12",
+          "type": "str",
+          "value": "7",
+          "raw_value": "7",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I12",
+          "type": "str",
+          "value": "Collective construction",
+          "raw_value": "Collective construction",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J12",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "cells": [
+        {
+          "ref": "A13",
+          "type": "str",
+          "value": "V0",
+          "raw_value": "V0",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B13",
+          "type": "n",
+          "value": "2",
+          "raw_value": "2",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A13,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C13",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A13,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D13",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E13",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A13)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I13",
+          "type": "str",
+          "value": "Syzygy / source pair",
+          "raw_value": "Syzygy / source pair",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J13",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "cells": [
+        {
+          "ref": "A14",
+          "type": "str",
+          "value": "V1",
+          "raw_value": "V1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B14",
+          "type": "n",
+          "value": "4",
+          "raw_value": "4",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A14,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C14",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A14,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D14",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E14",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A14)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G14",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I14",
+          "type": "str",
+          "value": "Syzygetic emanation",
+          "raw_value": "Syzygetic emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J14",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "cells": [
+        {
+          "ref": "A15",
+          "type": "str",
+          "value": "V2",
+          "raw_value": "V2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B15",
+          "type": "n",
+          "value": "8",
+          "raw_value": "8",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A15,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C15",
+          "type": "n",
+          "value": "2",
+          "raw_value": "2",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A15,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D15",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E15",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A15)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G15",
+          "type": "str",
+          "value": "4",
+          "raw_value": "4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H15",
+          "type": "str",
+          "value": "Source-Declared Class",
+          "raw_value": "Source-Declared Class",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I15",
+          "type": "str",
+          "value": "Successive syzygetic emanation",
+          "raw_value": "Successive syzygetic emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J15",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "cells": [
+        {
+          "ref": "A16",
+          "type": "str",
+          "value": "V3",
+          "raw_value": "V3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B16",
+          "type": "n",
+          "value": "10",
+          "raw_value": "10",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A16,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C16",
+          "type": "n",
+          "value": "5",
+          "raw_value": "5",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A16,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D16",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E16",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A16)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G16",
+          "type": "str",
+          "value": "5×2",
+          "raw_value": "5×2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H16",
+          "type": "str",
+          "value": "Source-Declared Class",
+          "raw_value": "Source-Declared Class",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I16",
+          "type": "str",
+          "value": "Syzygetic class generation",
+          "raw_value": "Syzygetic class generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J16",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "cells": [
+        {
+          "ref": "A17",
+          "type": "str",
+          "value": "V4",
+          "raw_value": "V4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B17",
+          "type": "n",
+          "value": "12",
+          "raw_value": "12",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A17,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C17",
+          "type": "n",
+          "value": "6",
+          "raw_value": "6",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A17,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D17",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E17",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A17)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G17",
+          "type": "str",
+          "value": "6×2",
+          "raw_value": "6×2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H17",
+          "type": "str",
+          "value": "Source-Declared Class",
+          "raw_value": "Source-Declared Class",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I17",
+          "type": "str",
+          "value": "Syzygetic class generation",
+          "raw_value": "Syzygetic class generation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J17",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "cells": [
+        {
+          "ref": "A18",
+          "type": "str",
+          "value": "V5",
+          "raw_value": "V5",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B18",
+          "type": "n",
+          "value": "30",
+          "raw_value": "30",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A18,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C18",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A18,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D18",
+          "type": "str",
+          "value": "Whole state",
+          "raw_value": "Whole state",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E18",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A18)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G18",
+          "type": "str",
+          "value": "8+10+12",
+          "raw_value": "8+10+12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "H18",
+          "type": "str",
+          "value": "Composite Whole",
+          "raw_value": "Composite Whole",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I18",
+          "type": "str",
+          "value": "Composite higher whole",
+          "raw_value": "Composite higher whole",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J18",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "cells": [
+        {
+          "ref": "A19",
+          "type": "str",
+          "value": "V6",
+          "raw_value": "V6",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B19",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A19,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C19",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A19,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D19",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E19",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A19)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "H19",
+          "type": "str",
+          "value": "Boundary Event",
+          "raw_value": "Boundary Event",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I19",
+          "type": "str",
+          "value": "Unpaired / anomalous production",
+          "raw_value": "Unpaired / anomalous production",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J19",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "cells": [
+        {
+          "ref": "A20",
+          "type": "str",
+          "value": "V7",
+          "raw_value": "V7",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B20",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A20,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C20",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A20,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E20",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A20)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G20",
+          "type": "str",
+          "value": "30",
+          "raw_value": "30",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I20",
+          "type": "str",
+          "value": "Whole-class contribution / synthesis",
+          "raw_value": "Whole-class contribution / synthesis",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J20",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "cells": [
+        {
+          "ref": "A21",
+          "type": "str",
+          "value": "U0",
+          "raw_value": "U0",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B21",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A21,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C21",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A21,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D21",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E21",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A21)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "G21",
+          "type": "str",
+          "value": "0",
+          "raw_value": "0",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I21",
+          "type": "str",
+          "value": "Source",
+          "raw_value": "Source",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J21",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "cells": [
+        {
+          "ref": "A22",
+          "type": "str",
+          "value": "U1",
+          "raw_value": "U1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B22",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A22,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C22",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A22,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D22",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E22",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A22)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F22",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G22",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I22",
+          "type": "str",
+          "value": "Sequential emanation",
+          "raw_value": "Sequential emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J22",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "cells": [
+        {
+          "ref": "A23",
+          "type": "str",
+          "value": "U2",
+          "raw_value": "U2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B23",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A23,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C23",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A23,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E23",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A23)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F23",
+          "type": "n",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G23",
+          "type": "str",
+          "value": "2",
+          "raw_value": "2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I23",
+          "type": "str",
+          "value": "Sequential emanation",
+          "raw_value": "Sequential emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J23",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "cells": [
+        {
+          "ref": "A24",
+          "type": "str",
+          "value": "U3",
+          "raw_value": "U3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B24",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A24,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C24",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A24,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E24",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A24)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F24",
+          "type": "n",
+          "value": "3",
+          "raw_value": "3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G24",
+          "type": "str",
+          "value": "3",
+          "raw_value": "3",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I24",
+          "type": "str",
+          "value": "Sequential emanation",
+          "raw_value": "Sequential emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J24",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "cells": [
+        {
+          "ref": "A25",
+          "type": "str",
+          "value": "U4",
+          "raw_value": "U4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B25",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A25,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C25",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A25,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E25",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A25)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F25",
+          "type": "n",
+          "value": "4",
+          "raw_value": "4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G25",
+          "type": "str",
+          "value": "4",
+          "raw_value": "4",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I25",
+          "type": "str",
+          "value": "Sequential emanation",
+          "raw_value": "Sequential emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J25",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "cells": [
+        {
+          "ref": "A26",
+          "type": "str",
+          "value": "U5",
+          "raw_value": "U5",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B26",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A26,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C26",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A26,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "D26",
+          "type": "str",
+          "value": "1",
+          "raw_value": "1",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E26",
+          "type": "n",
+          "value": "1",
+          "raw_value": "1",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A26)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "F26",
+          "type": "n",
+          "value": "5",
+          "raw_value": "5",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "G26",
+          "type": "str",
+          "value": "5",
+          "raw_value": "5",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "I26",
+          "type": "str",
+          "value": "Sequential emanation",
+          "raw_value": "Sequential emanation",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J26",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "cells": [
+        {
+          "ref": "A27",
+          "type": "str",
+          "value": "U6",
+          "raw_value": "U6",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B27",
+          "type": "n",
+          "value": "4",
+          "raw_value": "4",
+          "formula": "SUMIF(State_Members!$A$2:$A$500,A27,State_Members!$K$2:$K$500)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "C27",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIFS(State_Relations!$B$2:$B$500,A27,State_Relations!$G$2:$G$500,\"Realized\")",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "E27",
+          "type": "n",
+          "value": "0",
+          "raw_value": "0",
+          "formula": "COUNTIF(Configuration_Rules!$B$2:$B$500,A27)",
+          "formula_attributes": {},
+          "style": "19"
+        },
+        {
+          "ref": "I27",
+          "type": "str",
+          "value": "Sequential production",
+          "raw_value": "Sequential production",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "J27",
+          "type": "str",
+          "value": "Derived v0.3 signature",
+          "raw_value": "Derived v0.3 signature",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    }
+  ],
+  "row_count": 27,
+  "cell_count": 218,
+  "source_id": "f802e429329a27be56c93f4b8fa214951302e5da43c92c8e049d5eaf348c909f",
+  "source_sha256": "43095f265be85ff342dc5d481506b0fbfaa7e1de1aecae438393bd30d8f01b18",
+  "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\DEEP_INVENTORY\\Generative_Ontology_Stack_v0.10_Musical_Anchor_Stocktake.xlsx",
+  "semantics": "Literal native workbook witness. Existing statuses/formulas are retained, not executed or independently validated.",
+  "occurrences": [
+    {
+      "source_id": "f802e429329a27be56c93f4b8fa214951302e5da43c92c8e049d5eaf348c909f",
+      "source_sha256": "43095f265be85ff342dc5d481506b0fbfaa7e1de1aecae438393bd30d8f01b18",
+      "workbook": "Generative_Ontology_Stack_v0.10_Musical_Anchor_Stocktake.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "f802e429329a27be56c93f4b8fa214951302e5da43c92c8e049d5eaf348c909f"
+      ]
+    },
+    {
+      "source_id": "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67",
+      "source_sha256": "84c78732a98e84cb134fa5a27c48d40d4bedb0bedf16689a126ef7883dc3eade",
+      "workbook": "Generative_Ontology_Stack_v0.14_Gnostic_Deep_Dive_Expansion_Queue.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67"
+      ]
+    },
+    {
+      "source_id": "939b69358e6e88759b5684e23baa54859efb294d0bd1e0c9285d327e43bb0203",
+      "source_sha256": "c11cdda450b411fd1d3a7d34b9662c4d381e79c480747c5cd60bfa12a6f95205",
+      "workbook": "Generative_Ontology_Stack_v0.17_Welsh_Celtic_PreSefer.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "939b69358e6e88759b5684e23baa54859efb294d0bd1e0c9285d327e43bb0203"
+      ]
+    },
+    {
+      "source_id": "f90337940e9491da589cc5cec70b13d429123ebc11a13c3f72f75aca55f8613d",
+      "source_sha256": "dfbde4e9159df11f835582d5446048d8efbfcdaa8219e041aaa6d1f332fe0bd0",
+      "workbook": "Generative_Ontology_Stack_v0.18_Sefer_Yetzirah_Test.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "f90337940e9491da589cc5cec70b13d429123ebc11a13c3f72f75aca55f8613d"
+      ]
+    },
+    {
+      "source_id": "d5e982e65a2e24b70861e39825b92c83aa151f0dcdf1ca8e19e05a50a1ca5771",
+      "source_sha256": "268e20fa1ecb8bcba6f07f160431c710f40d8982b1f3420535fa37ed1040206a",
+      "workbook": "Generative_Ontology_Stack_v0.12_Mesopotamia_Music_Triplicity.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "d5e982e65a2e24b70861e39825b92c83aa151f0dcdf1ca8e19e05a50a1ca5771"
+      ]
+    },
+    {
+      "source_id": "795f236cf421141d94bc95e4b356cc2763026cd483544a86fd34e0004772c944",
+      "source_sha256": "9562bbd1146fe3e1d1b000a273a26e335a963c88ff77dd421315ddae8eed3852",
+      "workbook": "Generative_Ontology_Stack_v0.19_PreKabbalah_DSS_Layer_Diff.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "795f236cf421141d94bc95e4b356cc2763026cd483544a86fd34e0004772c944"
+      ]
+    },
+    {
+      "source_id": "97fd84dae562ce987f9280cdb7d6fbd383a16d5c8acfdef396987f6c83f3b9de",
+      "source_sha256": "577e51fdce834d5758b09e20c2eb68b442347190d5531c5090c055a9cf645d6b",
+      "workbook": "Generative_Ontology_Stack_v0.20_SeventyTwo_Variable_Sets.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "97fd84dae562ce987f9280cdb7d6fbd383a16d5c8acfdef396987f6c83f3b9de"
+      ]
+    },
+    {
+      "source_id": "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55",
+      "source_sha256": "be4df4a51a307c7c605a86f28f0fcabb8ee2b503702854630ca961abca431059",
+      "workbook": "Generative_Ontology_Stack_v0.21_Twelve_Thirteen_216_Lattice.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "db2a53545a7088b277a81bc5b75f0deb06334f4b6fa84e03d8393d2a6008ae55"
+      ]
+    },
+    {
+      "source_id": "ed82564e407c444953f4245d51e6a674cb206bfab6cbf2c8bcdbe90a680f64bb",
+      "source_sha256": "3bc22d2d3a61af9b2a08d5bc7bd37df7205aea232ab8cfffd44ad709585ed02f",
+      "workbook": "Generative_Ontology_Stack_v0.22_Twelve_4x3_Differential.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "ed82564e407c444953f4245d51e6a674cb206bfab6cbf2c8bcdbe90a680f64bb"
+      ]
+    },
+    {
+      "source_id": "607db8772e81c18dada3de76faeb72f660f76e5bc7a23c815fab8e4a99e2d0d8",
+      "source_sha256": "f8d61cbf9c022521c1f445b9601862f44cf8a86fdcdc5c9aee71c0a1dc8865bf",
+      "workbook": "Generative_Ontology_Stack_v0.23_12x4x3_Null216.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "607db8772e81c18dada3de76faeb72f660f76e5bc7a23c815fab8e4a99e2d0d8"
+      ]
+    },
+    {
+      "source_id": "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b",
+      "source_sha256": "7c45535f0d461eebbf2371dffef3039763b7045c1f2337e15654a3dce5c0a416",
+      "workbook": "Generative_Ontology_Stack_v0.30_China_Vedic_Fludd_Music.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "846e69896f9320390bea0ab8b6cbec9fd27e42c0bcd38cc0a41f8b827af1982b"
+      ]
+    },
+    {
+      "source_id": "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897",
+      "source_sha256": "d99ab5b9d32a15f15fa30c82497fef060e4e8ab4abd57d919ef2f3f8a1dcc517",
+      "workbook": "Generative_Ontology_Stack_v0.44_Lineage_KeySchedule_72_RuddTest.xlsx",
+      "sheet": "State_Signatures",
+      "part": "xl/worksheets/sheet47.xml",
+      "alias_source_ids": [
+        "31b448064652b4057cc770a0e6571feaa02fb8db83e0f8897081b158ada12897"
+      ]
+    }
+  ]
+}

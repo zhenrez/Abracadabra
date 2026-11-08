@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-668378c923804d3e",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:45.057782+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/668378c923804d3ece4dbaef64aba6029e3065b8845776b3390975735839cfd7/text.txt",
+        "sha256": "668378c923804d3ece4dbaef64aba6029e3065b8845776b3390975735839cfd7",
+        "start_line": 1,
+        "end_line": 21,
+        "source_role": "assistant",
+        "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+        "message_id": "21b4c07fd7a24c3ae596bb2ee8b3f7edd29b8a8147fe2ab592dd03f755c5933a",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "21b4c07fd7a24c3ae596bb2ee8b3f7edd29b8a8147fe2ab592dd03f755c5933a",
+          "native_id": "227",
+          "conversation_id": "5c05fe0d27da167148ee5393134fc9b54c0df48fbccacb896f20d7d267c0bece",
+          "role": "assistant",
+          "content_sha256": "668378c923804d3ece4dbaef64aba6029e3065b8845776b3390975735839cfd7",
+          "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+          "locator": "lines:17375-17398",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Articulate Musical Transitions",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+          "source_kind": "recovered_current_research",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/668378c923804d3ece4dbaef64aba6029e3065b8845776b3390975735839cfd7/occurrences-ab516b55c3619637cf8ae1a40a1e1a20f2f0ecdb583f1d1df54c578fcbfb24dc.json",
+        "quote": "10/18/2026, 9:10:56 AM · gpt-6-thinking\n\nAgreed. This is the operative SOL checkpoint. No further numerical reinterpretation is justified by the current evidence.\n\nThe next investigation has **three acceptance criteria**\\:\n\n1. **Symbol\\:** An independent source constraint identifies which sacred symbol changes position or function.\n2. **Operation\\:** A defined transformation explains that change without introducing arbitrary weights, mappings, or boundaries.\n3. **Music\\:** The transformation predicts a specific interval, ratio, orientation, or other measurable relationship under the existing SUN/Completed Harmony framework.\n\nAll three must hold before a symbolic reassignment is certified.\n\nThe 233 weighted model, Fibonacci covering model, cube/Fano geometry, and Aleph activation hypothesis remain separate candidates—not mutually confirming proofs.\n\n**DONE\\:** Mathematical results preserved, unsupported identifications downgraded, activation distinguished from deletion and generation.\n\n**TODO\\:** Recover an independently constrained symbol-to-operation mapping, calculate its musical prediction, and test it against alternatives.\n\nNAIM/HERMONICITTI remains mandatory for the restricted textual witness. SUN/W72 remains frozen.\n\n**The next valid result must predict something not used to construct it.**",
+        "quote_sha256": "668378c923804d3ece4dbaef64aba6029e3065b8845776b3390975735839cfd7",
+        "original_bytes": 1320,
+        "start_offset": 0,
+        "end_offset": 1317
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "0aa387c85678e4d4af86dc3844d5f818dbeb9a90dc7e33668a285b6f98ce3f16",
+        "artifact_id": "75bb8e33-620c-5fda-9b0e-423dc4553a81",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.34,
+            "refines": 0.46,
+            "supports": 0.19
+          },
+          "winner": "refines",
+          "top_probability": 0.46,
+          "margin": 0.12
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 1.0,
+            "refines": 0.0,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 1.0,
+          "margin": 1.0
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.193,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

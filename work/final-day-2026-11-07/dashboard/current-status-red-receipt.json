@@ -1,0 +1,15 @@
+{
+  "tests": 7,
+  "executor": "Root approved Python route",
+  "command": "python -B -m unittest discover -s work/final-day-2026-11-07/dashboard -p test_dashboard.py -v",
+  "errors": 1,
+  "passed": 5,
+  "errors_observed": [
+    "TypeError: unexpected keyword argument assessment_source",
+    "AssertionError: data-model=sefer missing"
+  ],
+  "evidence_scope": "Root observed execution; full tool output was truncated, no full red log claimed",
+  "exit_code": 1,
+  "failures": 1,
+  "status": "OBSERVED_RED"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "alignment-table-92c267f513991f7e",
+  "content_sha256": "92c267f513991f7e9ea2dc50a467222ac6dbed3a8fae20a64d6248300302a940",
+  "headers": [
+    "Traversal",
+    "Final frequency ratio",
+    "C pitch class?",
+    "Exact $3/2$ endpoint?"
+  ],
+  "rows": [
+    [
+      "Immediate F→C",
+      "$3/2$",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Octave down, then fifth",
+      "$3/4$",
+      "Yes",
+      "No — different register"
+    ],
+    [
+      "Twelve pure fifths, uncorrected",
+      "$1594323/1048576$",
+      "No",
+      "No"
+    ],
+    [
+      "Twelve fifths, comma correction, fifth",
+      "$3/2$",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Corrected cycle, octave down, fifth",
+      "$3/4$",
+      "Yes",
+      "No — different register"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 27817,
+      "line_end": 27823,
+      "char_start": 1393666,
+      "char_end": 1394098,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Traversal | Final frequency ratio | C pitch class? | Exact $3/2$ endpoint? |\n|--------|--------|--------|--------|\n| Immediate F→C | $3/2$ | Yes | Yes |\n| Octave down, then fifth | $3/4$ | Yes | No — different register |\n| Twelve pure fifths, uncorrected | $1594323/1048576$ | No | No |\n| Twelve fifths, comma correction, fifth | $3/2$ | Yes | Yes |\n| Corrected cycle, octave down, fifth | $3/4$ | Yes | No — different register |\n",
+      "quote_sha256": "6b2adb3f0ffa7962c86b21fbbb08d73170fb2d8fb468a848c6ca967452c0ef4c",
+      "message_id": "07545e341336cae613ec5ed17c6a36133860bb402a86b2b51d8e18f426cd1a37",
+      "role": "assistant",
+      "locator": "lines:27817-27823"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

@@ -1,0 +1,514 @@
+{
+  "schema": "sunny.pausal_prosody.prior_art.v1",
+  "status": "BOUNDED_SOURCE_REUSE_COMPLETE; GLOBAL_RESEARCH_OPEN",
+  "source": {
+    "authors": [
+      "Vincent DeCaen",
+      "B.ElanDresher"
+    ],
+    "chapter": "Pausal Forms and Prosodic Structure in Tiberian Hebrew",
+    "year": 2020,
+    "start_printed_page": 331,
+    "inspected_sections": [
+      "1",
+      "2",
+      "3",
+      "4.1",
+      "4.2",
+      "5"
+    ],
+    "container": "Studies in Semitic Vocalisation and Reading Traditions",
+    "container_doi": "10.11647/OBP.0207",
+    "rendering_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/39/45/70/2019394570/2019394570.pdf",
+    "acquisition": "already acquired Exa content[0].text",
+    "original_json_sha256": "9460acbac92c678bf0b4bfbc7fc73a6b99f679e6a8e349e4b378f8a13ac59f96",
+    "rendering_sha256_utf8": "bc5c28a6247e0ed254d0ad55ad68cbdf160c76692fcbab34674352e1e1fd67c2",
+    "chapter_main_text_sha256_utf8": "abcbe61eda8f05d499f60a23d98d4c6c9474d9475a9a038f3277bed7e3d9bd9c",
+    "original_pdf_hash": null,
+    "images_and_tree_figures_inspected": false,
+    "rendering_limit": "Hebrew order, table IPA and tree figures partly damaged/absent; no corrected glyphs or exact tree geometry fabricated"
+  },
+  "actual_plugin_use": {
+    "supermemory": "search_memory succeeded this phase; general continuity only",
+    "conversation_id": "01a1b7ef-ccb2-7de9-9308-cf4ce4c46128",
+    "evidence_guard": {
+      "tool": "installed Prumo+JevResearch evidence_ledger.py",
+      "execution": [],
+      "error": {
+        "type": "JSONDecodeError",
+        "message": "Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "jev": {
+      "receipt": "state/jev-receipts/000062-5fcc72f3ccd7.json",
+      "model": "AgentJev-0.6B",
+      "checkpoint": "agentjev-v1",
+      "selected": "molin_pausal_operation_and_source",
+      "top_probability": 0.40687549114227295,
+      "margin": 0.09827455878257751,
+      "new_inference_in_this_subtask": false
+    }
+  },
+  "evidence": [
+    {
+      "id": "P1",
+      "topic": "accent_not_sufficient",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Authors endorse prior fixing of pausal forms and deny prediction from written accents alone.",
+      "source_lines_one_based": [
+        7243,
+        7253
+      ],
+      "source_offsets_codepoints_half_open": [
+        537421,
+        538050
+      ],
+      "source_offsets_utf16_half_open": [
+        537421,
+        538050
+      ],
+      "region_sha256_utf8": "38b1b5224e64ed64f6159edc6b869389e5b6e5722c4867e839d563ad01e77eee",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P2",
+      "topic": "native_hierarchy",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Source contrasts I and P with ranked TH disjunctives; equates minimal phrase MP with P, not I.",
+      "source_lines_one_based": [
+        7298,
+        7338
+      ],
+      "source_offsets_codepoints_half_open": [
+        542223,
+        545570
+      ],
+      "source_offsets_utf16_half_open": [
+        542223,
+        545570
+      ],
+      "region_sha256_utf8": "b2960b74bb896310ef873a3c351cb698e9a53c67de751bee747d7f3f652b33e6",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P3",
+      "topic": "minimal_phrase_operations",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "MP is the domain of spirantization, external gemination/dehiq and rhythmic stress retraction/nesiga; Judg1:8 contrasts initial b within/across MP.",
+      "source_lines_one_based": [
+        7342,
+        7344
+      ],
+      "source_offsets_codepoints_half_open": [
+        545641,
+        547160
+      ],
+      "source_offsets_utf16_half_open": [
+        545641,
+        547160
+      ],
+      "region_sha256_utf8": "e9da740d2d91d98fd458a32e70235acdc84e601ad8be665dec558347c817372d",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P4",
+      "topic": "division_simplification",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Source-proposed division splits MPs in prominent higher domains; simplification merges MPs and changes realized disjunctive to conjunctive in subordinate domains, with system-specific conditions.",
+      "source_lines_one_based": [
+        7377,
+        7381
+      ],
+      "source_offsets_codepoints_half_open": [
+        549179,
+        553095
+      ],
+      "source_offsets_utf16_half_open": [
+        549179,
+        553095
+      ],
+      "region_sha256_utf8": "55c2a20a114f2c4b9f9cf146baae581ee6fe90953dd648653160a7eae7bd3780",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P5",
+      "topic": "same_zaqef_different_form",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Gen43:25 heard before direct-object ki is contextual/P; Judg2:17 heard before adjunct ki is pausal/I. Both have D1zaqef. I assignment also depends on non-syntactic factors.",
+      "source_lines_one_based": [
+        7448,
+        7479
+      ],
+      "source_offsets_codepoints_half_open": [
+        557658,
+        559848
+      ],
+      "source_offsets_utf16_half_open": [
+        557658,
+        559848
+      ],
+      "region_sha256_utf8": "ee26f85dcbd57fbe4e82915725da2b6612c4002bc28f255d94d4e4dc6f641a6a",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P6",
+      "topic": "morphological_operations",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Table10 supplies multiple vowel/stress alternation types and historical proposals; pause need not shift stress in one direction. Table glyph/transcription order is damaged in this rendering.",
+      "source_lines_one_based": [
+        7485,
+        7534
+      ],
+      "source_offsets_codepoints_half_open": [
+        560106,
+        564050
+      ],
+      "source_offsets_utf16_half_open": [
+        560106,
+        564050
+      ],
+      "region_sha256_utf8": "0e004006a378fc5d442b68142f7d99680f7713d9365ab088edf44c87a5e9e7ab",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P7",
+      "topic": "same_form_different_rank",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Pausal and-he-slaughtered is analyzed as initial word-sentence/I in Lev8:19(D0atnah),8:23(D1salselet),8:15(D2revia). Lev9 contextual forms have overt objects.",
+      "source_lines_one_based": [
+        7615,
+        7650
+      ],
+      "source_offsets_codepoints_half_open": [
+        569610,
+        573506
+      ],
+      "source_offsets_utf16_half_open": [
+        569610,
+        573506
+      ],
+      "region_sha256_utf8": "4eeb6d9cb565bf1c1e4242f243d2e7e187407f37b204a26358f19d2ff1de24fa",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P8",
+      "topic": "candidate_filter_and_exceptions",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Apparent pausal morphology can be plural rather than singular; some claimed I contexts are questionable; fixed pausal idioms and genuine reading clashes remain possible.",
+      "source_lines_one_based": [
+        7651,
+        7689
+      ],
+      "source_offsets_codepoints_half_open": [
+        573506,
+        577097
+      ],
+      "source_offsets_utf16_half_open": [
+        573506,
+        577097
+      ],
+      "region_sha256_utf8": "e3cb899b4355511d455fd0deb2b6f4f207cb82598a274f8858d36cadb692cc73",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P9",
+      "topic": "deuteronomy_conjunctive",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Deut5:14 daughter remains pausal on Cmunah; authors explain via left-branching list,D3depth saturation,simplification. They explicitly do not call the reconstructed transformation inevitable under their conservative cliticization assumption.",
+      "source_lines_one_based": [
+        7691,
+        7761
+      ],
+      "source_offsets_codepoints_half_open": [
+        577098,
+        583283
+      ],
+      "source_offsets_utf16_half_open": [
+        577098,
+        583283
+      ],
+      "region_sha256_utf8": "3a5ed63d5c0a3beb5f73f94b7b58f4160d5788fedebb1fd72e0aa5de2e838f83",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P10",
+      "topic": "grouping_changes",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Different number of listed animal items changes grouping of servants between Deut5:14 and Exod20:10; proposed grouping-by-twos/threes account avoids requiring a social-history explanation.",
+      "source_lines_one_based": [
+        7762,
+        7794
+      ],
+      "source_offsets_codepoints_half_open": [
+        583283,
+        585321
+      ],
+      "source_offsets_utf16_half_open": [
+        583283,
+        585321
+      ],
+      "region_sha256_utf8": "266bc6806bbbd9cc345d4a45b721aa1918ba5be64395d0b6879b778c5d6179b1",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P11",
+      "topic": "poetic_conjunctive_and_lexical_limit",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Ps3:9 blessing is pausal with conjunctivemunah before selah; obligatory revia-mugras simplification proposed. Ps32:4 contextual summer before selah blocks universal before-selah pause; wordclass sensitivity is offered as another explanation.",
+      "source_lines_one_based": [
+        7795,
+        7838
+      ],
+      "source_offsets_codepoints_half_open": [
+        585321,
+        587904
+      ],
+      "source_offsets_utf16_half_open": [
+        585321,
+        587904
+      ],
+      "region_sha256_utf8": "63f10eb56b9ea07d0275f5a3764524349bde374c50419b1b3f0a7c91606b7ee3",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    },
+    {
+      "id": "P12",
+      "topic": "historical_conclusion_limits",
+      "assessment": "SOURCE_PROPOSED_ANALYSIS",
+      "summary": "Authors infer vocalization predates accent melody but do not exclude distinct-reading scenarios; accent mismatch alone cannot decide the history.",
+      "source_lines_one_based": [
+        7840,
+        7889
+      ],
+      "source_offsets_codepoints_half_open": [
+        587905,
+        590873
+      ],
+      "source_offsets_utf16_half_open": [
+        587905,
+        590873
+      ],
+      "region_sha256_utf8": "c1a0f401cbc4ddc909fb365d498df59c56a8214a73ea37462ff85b85f7e60d55",
+      "coordinate_target": "source-rendering.utf8.txt; Exa tool text rendering, not PDF byte coordinates"
+    }
+  ],
+  "native_domains": {
+    "W": "prosodic word including clitic group",
+    "P_or_MP": "minimal/phonological phrase; domain for spirantization,dehiq,nesiga",
+    "I": "intonational phrase; source-proposed pausal-form domain, not separately encoded by TH accent ranks",
+    "V": "verse taken as given in source analysis",
+    "TH_accents": "relative hierarchyD0-D3 with conjunctives; distinct prose and poetic transformation conditions"
+  },
+  "source_native_operations": [
+    {
+      "operation": "cliticization",
+      "condition": "maqqef joins grammatical words to one prosodic word; native evidence required",
+      "evidence_id": "P2"
+    },
+    {
+      "operation": "division",
+      "condition": "MP split in prominent upper prosodic positions; slower reading",
+      "evidence_id": "P4"
+    },
+    {
+      "operation": "simplification",
+      "condition": "MPs merged and disjunctive realized as conjunctive under native rank/adjacency constraints; prose and poetic systems differ",
+      "evidence_id": "P4"
+    },
+    {
+      "operation": "contextual_pausal_alternation",
+      "condition": "form-class-dependent vowel/stress correspondence at proposedI edge; no universal stress-direction or qames transform",
+      "evidence_id": "P6"
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "ZAQEF-1",
+      "locus": "Gen43:25",
+      "lexeme": "hear",
+      "form": "contextual",
+      "written_accent": "D1zaqef",
+      "source_proposed_domain": "P",
+      "conditioning": "verb before direct-object clause headed by ki=that",
+      "evidence_id": "P5",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "ZAQEF-2",
+      "locus": "Judg2:17",
+      "lexeme": "hear",
+      "form": "pausal",
+      "written_accent": "D1zaqef",
+      "source_proposed_domain": "I",
+      "conditioning": "verb before adjunct clause headed by ki=but",
+      "evidence_id": "P5",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "LEV-1",
+      "locus": "Lev8:19",
+      "lexeme": "and he slaughtered",
+      "form": "pausal",
+      "written_accent": "D0atnah",
+      "source_proposed_domain": "I",
+      "conditioning": "initial word-sentence; first half-verse ends here",
+      "evidence_id": "P7",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "LEV-2",
+      "locus": "Lev8:23",
+      "lexeme": "and he slaughtered",
+      "form": "pausal",
+      "written_accent": "D1salselet",
+      "source_proposed_domain": "I",
+      "conditioning": "additional verse material demotes accent rank under continuous dichotomy",
+      "evidence_id": "P7",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "LEV-3",
+      "locus": "Lev8:15",
+      "lexeme": "and he slaughtered",
+      "form": "pausal",
+      "written_accent": "D2revia",
+      "source_proposed_domain": "I",
+      "conditioning": "further verse material demotes accent rank again",
+      "evidence_id": "P7",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "LEV-CONTEXT",
+      "locus": [
+        "Lev9:8",
+        "Lev9:12",
+        "Lev9:18"
+      ],
+      "lexeme": "and he slaughtered",
+      "form": "contextual",
+      "written_accent": "not independently transcribed in this ledger",
+      "source_proposed_domain": "does not end I",
+      "conditioning": "verb takes overt object; not an independent word-sentence",
+      "evidence_id": "P7",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "DEUT-CONJ",
+      "locus": "Deut5:14",
+      "lexeme": "your daughter",
+      "form": "pausal",
+      "written_accent": "Cmunah",
+      "source_proposed_domain": "I before simplification",
+      "conditioning": "list grouping and subordinateD3 transformation; reconstruction not asserted inevitable",
+      "evidence_id": "P9",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "PS-CONJ",
+      "locus": "Ps3:9",
+      "lexeme": "your blessing",
+      "form": "pausal",
+      "written_accent": "Cmunah",
+      "source_proposed_domain": "I",
+      "conditioning": "before selah; writtenC explained by obligatory poetic revia-mugras transformation",
+      "evidence_id": "P11",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    },
+    {
+      "id": "PS-SELAH-COUNTER",
+      "locus": "Ps32:4",
+      "lexeme": "summer",
+      "form": "contextual",
+      "written_accent": "not independently transcribed in this ledger",
+      "source_proposed_domain": "unresolved alternative analysis",
+      "conditioning": "before selah; either no I required or morphology-specific susceptibility differs",
+      "evidence_id": "P11",
+      "status": "PUBLISHED_SOURCE_ANALYSIS; NOT_NEW_MANUSCRIPT_COLLATION"
+    }
+  ],
+  "operator_inputs_required": [
+    "source tradition",
+    "specific witness",
+    "lexical and morphological form-class",
+    "written accent with full verse hierarchy",
+    "prosodic-word/clitic grouping",
+    "candidateI/P segmentation",
+    "syntax/semantic relation",
+    "rhythmic/list context",
+    "exception status"
+  ],
+  "prior_art_fit": {
+    "P0-A": "Reuse published native domains, transformations and explicit counterexamples before designing a new mapping; this is applicable primary-source prior art for context-sensitive operations. It is not completion of the full P0-A fourteen-question program.",
+    "strong_falsified_shortcut": "pausal form determined by accent label alone",
+    "retained_competitor": "genuine historical reading clashes or scribal lapses are not excluded by authors",
+    "unresolved_native_items": [
+      "minor pause excluded by chapter",
+      "full token-level lexical/morphological census not run",
+      "hypothesized latentI/P boundaries are analyses, not measured natural intonation",
+      "independent manuscripts/figures not collated"
+    ]
+  },
+  "transfer_limits": [
+    "Tiberian accent conditions are not automatically conditions in Babylonian bowl transmission.",
+    "Molin proposed pausal/contextual readings can be represented as separate candidate forms, but the bowl context needs independently supported native prosodic evidence.",
+    "Written waw pattern alone does not establish anI boundary or license a Tiberian vowel/stress operation.",
+    "Do not infer inherited sound change/contact/acoustics from accent mismatch; no ancient Hz/duration recovered.",
+    "Do not read table10 IPA as clean original glyph data: this extraction contains damaged ordering."
+  ],
+  "canonical_or_ui_edits": false,
+  "exact_short_quotes": [
+    {
+      "id": "Q1",
+      "quote": "cannot be predicted from the accents.",
+      "source_sha256_utf8": "bc5c28a6247e0ed254d0ad55ad68cbdf160c76692fcbab34674352e1e1fd67c2",
+      "source_offsets_codepoints_half_open": [
+        537831,
+        537868
+      ],
+      "source_offsets_utf16_half_open": [
+        537831,
+        537868
+      ],
+      "source_lines_one_based": [
+        7250,
+        7250
+      ],
+      "verification": "Independent local exact-slice check; packaged evidence helper failed"
+    },
+    {
+      "id": "Q2",
+      "quote": "not entirely determined",
+      "source_sha256_utf8": "bc5c28a6247e0ed254d0ad55ad68cbdf160c76692fcbab34674352e1e1fd67c2",
+      "source_offsets_codepoints_half_open": [
+        559476,
+        559499
+      ],
+      "source_offsets_utf16_half_open": [
+        559476,
+        559499
+      ],
+      "source_lines_one_based": [
+        7473,
+        7473
+      ],
+      "verification": "Independent local exact-slice check; packaged evidence helper failed"
+    },
+    {
+      "id": "Q3",
+      "quote": "virtual disjunctives",
+      "source_sha256_utf8": "bc5c28a6247e0ed254d0ad55ad68cbdf160c76692fcbab34674352e1e1fd67c2",
+      "source_offsets_codepoints_half_open": [
+        552061,
+        552081
+      ],
+      "source_offsets_utf16_half_open": [
+        552061,
+        552081
+      ],
+      "source_lines_one_based": [
+        7379,
+        7379
+      ],
+      "verification": "Independent local exact-slice check; packaged evidence helper failed"
+    }
+  ]
+}

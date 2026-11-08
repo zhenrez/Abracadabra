@@ -1,0 +1,9 @@
+{
+  "scope": "Isolated temporary workspace copy only; no real task/source edits",
+  "exit_code": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\mandate-adoption-review-iwn1t2bs\\scripts\\adopt_current_mandate.py\", line 81, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\mandate-adoption-review-iwn1t2bs\\scripts\\adopt_current_mandate.py\", line 25, in main\n    raise ValueError('Mandate witness differs from the preserved user input')\nValueError: Mandate witness differs from the preserved user input\n",
+  "expected_witness_sha256": "99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63",
+  "observed_witness_sha256": "b287aee88ef5449b5152cf289677df157ca62da043dc7ea287336391b5e172eb",
+  "adoption_reported_passed": false,
+  "wrong_witness_was_adopted": false
+}

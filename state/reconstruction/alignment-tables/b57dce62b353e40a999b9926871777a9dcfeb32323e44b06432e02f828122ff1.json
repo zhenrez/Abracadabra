@@ -1,0 +1,48 @@
+{
+  "id": "alignment-table-b57dce62b353e40a",
+  "content_sha256": "b57dce62b353e40a999b9926871777a9dcfeb32323e44b06432e02f828122ff1",
+  "headers": [
+    "Break",
+    "Sefer",
+    "Music",
+    "Consequence"
+  ],
+  "rows": [
+    [
+      "**Pitch inventory**",
+      "22 distinct letters",
+      "12 chromatic pitch classes",
+      "At least 10 letters must share pitch classes in any complete 22→12 mapping"
+    ],
+    [
+      "**Doubling**",
+      "Seven double letters",
+      "Seven diatonic notes, five remaining chromatic classes",
+      "The two sevens have different meanings; doubling a letter does not create another pitch class"
+    ],
+    [
+      "**Combination**",
+      "231 unordered letter-pairs",
+      "At most 78 unordered pitch-class pair types, including unisons",
+      "Distinct Sefer gates collapse together when translated to pitch alone"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 12710,
+      "line_end": 12714,
+      "char_start": 626272,
+      "char_end": 626881,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Break | Sefer | Music | Consequence |\n|--------|--------|--------|--------|\n| **Pitch inventory** | 22 distinct letters | 12 chromatic pitch classes | At least 10 letters must share pitch classes in any complete 22→12 mapping |\n| **Doubling** | Seven double letters | Seven diatonic notes, five remaining chromatic classes | The two sevens have different meanings; doubling a letter does not create another pitch class |\n| **Combination** | 231 unordered letter-pairs | At most 78 unordered pitch-class pair types, including unisons | Distinct Sefer gates collapse together when translated to pitch alone |\n",
+      "quote_sha256": "33524af813c58c0b5381fce5bc2609496f2f69b72cef748058538bc96d3e9923",
+      "message_id": "1c3b450a086dd58f5621b5615be6fa9ebe6afddf992b43f435d73ec534fc88df",
+      "role": "assistant",
+      "locator": "lines:12710-12714"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

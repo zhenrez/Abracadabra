@@ -1,0 +1,36 @@
+{
+  "schema": "sunny.math-capability-checkpoint.v1",
+  "clientDate": "2026-10-30",
+  "timezone": "America/Phoenix",
+  "state": "preserved-after-user-correction",
+  "latestConstraint": "Every possible decision must be dictated by Jev; stop new substantive mathematical decisions while Jev is unavailable.",
+  "implementationAuthority": "host-authored; no Jev selection or approval obtained",
+  "projectCompletionClaim": false,
+  "canonicalOrientationComputed": false,
+  "capabilities": [
+    {"plugin":"Cryptography Research Skills","version":"0.2.0","skill":"crypto-correlation-accounting","status":"inspected-and-applied-method","application":"Distinct counting units and dependency groups retained; repeated statements not treated as independent confidence votes","securityClaim":false},
+    {"plugin":"Numerical Research Kit","version":"0.3.0","skill":"compare-numerical-methods","status":"executed","operation":"compare","outcome":"MEASURED","scope":"one public circle-chord approximation case; reference known before computation","evidence":["docs/evidence/numerical-torus-vectors.json","docs/evidence/numerical-torus-comparison.json"],"blind":false,"costMeasured":false,"acceptanceGateRequested":false},
+    {"plugin":"Mathbox","version":"4.0.0","skill":"proof-audit","status":"inspected-and-applied-method","application":"Declared-domain, finite-range, witness, source and unresolved-obligation checks","reviewProvenance":"self-review of host-authored implementation","sunResearchProofAuditCompleted":false},
+    {"plugin":"EW Golden Baseline Model","version":"0.2.0","skill":"golden-baseline-algorithm-selector","status":"inspected-execution-gate-retained","executableBackendConfirmed":false,"algorithmExecuted":false,"boundary":"No backend-confirmed registry with executable algorithm IDs, versions and compatible API was supplied"},
+    {"plugin":"Wolfram","status":"executed","operations":["wolframcontext","wolframlanguageevaluator"],"scope":"standard torus and finite Sierpinski formulas only","evidence":["docs/evidence/math-wolfram-context.json","docs/evidence/math-wolfram-evaluator.json"],"privateArchiveUploaded":false},
+    {"plugin":"Precise Special Functions","status":"executed","operation":"elliptic_ke","request":{"kind":"E","m":0,"precision_dps":50},"evidence":["docs/evidence/math-precise-elliptic-e-zero.json"],"scope":"circular torus-meridian consistency check only"},
+    {"plugin":"Julius: Math Solver & Stats","status":"attempted-unavailable","operation":"run_code","errorCode":"UNAUTHORIZED","computationRan":false,"boundary":"App connection requires reauthentication","evidence":["docs/evidence/math-julius-unavailable.json"]}
+  ],
+  "observedChecks": {
+    "nodeVersion":"22.14.0",
+    "typescriptVersion":"5.9.3",
+    "compile":{"command":".\\node_modules\\.bin\\tsc.cmd --pretty false","exitCode":0},
+    "tests":{"command":"node --test tests/law.test.mjs","passed":17,"failed":0},
+    "scope":"synthetic fixtures and standard finite geometry only"
+  },
+  "unverifiedBoundaries":[
+    "All-source account completeness and canonical reconstruction",
+    "Actual authoritative SUN/W72 candidate family and frozen kernel",
+    "Native musical grammar completeness and correspondence witnesses",
+    "Progressively derived musical type laws",
+    "Statistical discrimination of real orientations",
+    "Actual prediction blindness, independent groups, calibration or significance",
+    "Four-dimensional spacetime interpretation or universal acoustic topology",
+    "Jev selection or approval of host-authored mathematical infrastructure"
+  ]
+}

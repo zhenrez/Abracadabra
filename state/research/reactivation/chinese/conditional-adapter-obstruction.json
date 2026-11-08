@@ -1,0 +1,74 @@
+{
+  "schema": "sunny.chinese-conditional-adapter-obstruction.v1",
+  "generated_utc": "2026-11-03T03:54:05.271264+00:00",
+  "question": "Can one context-invariant assignment ofnamed standards toZ12 satisfythe selectedZhouLi ritualroles ifeach role usesLamfixedtonic-relative offsets?",
+  "provenance": "RESEARCH_SUPPORTED_INFERENCE; elementary modular constraintcheck on exposed sources, not a historical verdict",
+  "sources": {
+    "received": "ZhouLiZhuShu22 revision544441; heaven andancestor prescriptions, exactspans in native-role-relation.json",
+    "modern": "Lam2024§2.2 plusFigure2.2(a):Dgong2,Eshang4,Fsharpjue6,Azhi9,Byu11. Offsetsfromgong are0,2,4,7,9; Figureconvention is notancientHz."
+  },
+  "variables": {
+    "c": "pitchclass ofheaven gong named圜鍾",
+    "h": "context-invariantpitchclass assignednamed黄鍾; ancestors gong",
+    "t": "context-invariantpitchclass assignednamed大蔟; zhi inboth prescriptions"
+  },
+  "units_domain": "Integerchromatic semitone residue inZ/12, onlywithin the proposedmodernadapter. NoHz,physicaloctave ordating assumed.",
+  "hypotheses": [
+    "Namedstandard labels haveone pitch-class valueacross the two selected ritualcontexts.",
+    "Eachprescription hasoneLam-stylegong contextshared byits listedroles.",
+    "Received角 and徴 are transferred toLamjue andzhi fixedoffsets4and7.",
+    "Literalprescriptions retained; noemendation orcontext-specific offset introduced."
+  ],
+  "equations": [
+    {
+      "id": "A",
+      "expression": "h-c-4=0 mod12",
+      "source_relation": "Heaven:黄鍾為角,圜鍾為宮"
+    },
+    {
+      "id": "B",
+      "expression": "t-c-7=0 mod12",
+      "source_relation": "Heaven:大蔟為徴,圜鍾為宮"
+    },
+    {
+      "id": "C",
+      "expression": "t-h-7=0 mod12",
+      "source_relation": "Ancestors:大蔟為徴,黄鍾為宮"
+    }
+  ],
+  "derivation": {
+    "linear_combination": "B-C-A=4",
+    "contradiction": "All3leftsideswouldbe0mod12, buttheircombinationis4mod12. Thereforeunsatisfiable.",
+    "orientation_reversal": "Oneglobalnegation changesresidue4to8mod12; stillnonzero.",
+    "origin_change": "Addingoneconstant toallpitchclasses cancels fromeachdifference.",
+    "register_lift": "Addinginteger multiplesof12 doesnot changethecontradiction.",
+    "general_form": "Foranyabeliangroupfixedoffset model, sharedzhi acrosscontextsforces theirgongvaluesequal; thecross-contextjue assignmentthen requiresjue offset=0. Lamjueoffset4isnonzero."
+  },
+  "checks": {
+    "host_assignments_enumerated": 1728,
+    "all3_solutions": 0,
+    "drop_one_equation_solution_counts": {
+      "0": 12,
+      "1": 12,
+      "2": 12
+    },
+    "minimal_with_respect_to3_equations": true,
+    "independent_external": "ActualWolframLanguageEvaluator returned0solutions, residue4, reversedresidue8; complete receipt retained."
+  },
+  "localized_alternatives": [
+    "Rolelabels inreceivedritualtext neednotdenoteLamfixedpentatonic scale-step functions.",
+    "Oneprescription maynotbeone simultaneousLamcontext; separate-modal/ritualusage requiresitsown source-qualified semantics.",
+    "Samewrittenstandardlabel maynotadmitonecontext-invariantacoustic valueunder thehypothesizedbridge.",
+    "Criticaltextualvariant/emendation couldchangethetestedrelations, butmustbe independently sourced.",
+    "Acontext-dependentornontranslationadaptercouldremainpossible; itmustdeclareits additionalobservable."
+  ],
+  "not_claimed": [
+    "Noancientmusic, ritualeffect,manuscriptdate orphoneticintention falsified.",
+    "NoexistingChineseorWesterntradition rejectedwholesale.",
+    "NoC=Huangzhongglobalpitchlockneeded.",
+    "NoCompletedHarmony,TOL,Fludd–Keplerorintendedgeometrydeleted.",
+    "Nooriginaltheoremorblindpredictionclaimed."
+  ],
+  "new_constraint_for_sunny": "Anycandidatecontext-free symbol/operator adapter claimingtopreserve these3relationsandLamfixedroleoffsets isexcludedbyexactcertificate. A survivingadaptermustlocalizewhichhypothesis changes, ratherthanrepairwithorigin,orientationorregister alone.",
+  "exposure": "BothsourceprescriptionsandLamfigurealreadyinspectedbeforetest. Exposedcompatibilitycontrol."
+}

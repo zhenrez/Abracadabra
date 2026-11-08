@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "request_sha256": "851a0be66d879585b8c9dd8f5614f8b444c65ce1648e1171e9b5bd924b7cd33e",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "next_evidence_step": {
+      "type": "choice",
+      "probabilities": {
+        "inspect_bounded_official_images_then_scoped_report": 0.89,
+        "report_edition_boundary_with_physical_collation_pending": 0.11,
+        "seek_critical_print_edition_before_image_check": 0.0
+      },
+      "winner": "inspect_bounded_official_images_then_scoped_report",
+      "top_probability": 0.89,
+      "margin": 0.78
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 82
+  },
+  "network_calls": 1,
+  "latency_ms": 183
+}

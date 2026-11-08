@@ -1,0 +1,42 @@
+{
+  "status": "judged",
+  "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000017-3ca5cf99fab1.json",
+  "sha256": "3ca5cf99fab1f5489c048f219491cbb4f226de6002fcda4a903cc64397affe0b",
+  "answers": [
+    {
+      "id": "next_verification",
+      "type": "choice",
+      "distribution": {
+        "browser_submit": 0.5740919709205627,
+        "receipt_integrity": 0.42590802907943726
+      },
+      "value": "browser_submit",
+      "description": "Perform an actual assessment through the visible browser form and inspect its full distribution, model hash, and receipt link.",
+      "top_probability": 0.5740919709205627,
+      "margin": 0.1481839418411255
+    }
+  ],
+  "model_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  }
+}

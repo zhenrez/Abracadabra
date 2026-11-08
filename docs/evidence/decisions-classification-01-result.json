@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "request_sha256": "5c44e26ac0824f8dee5bcb6b9bc96f79b110dbdacc899d16e2380587b038205d",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "DEC-complete_inventory": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.53,
+        "explicit_user_direction": 0.22,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.11,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.53,
+      "margin": 0.31000000000000005
+    },
+    "DEC-recover_then_compare": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.53,
+        "explicit_user_direction": 0.22,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.11,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.53,
+      "margin": 0.31000000000000005
+    },
+    "DEC-removable_template": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.5,
+        "explicit_user_direction": 0.24,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.5,
+      "margin": 0.26
+    },
+    "DEC-freeze_and_test": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.55,
+        "explicit_user_direction": 0.2,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.05
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.55,
+      "margin": 0.35000000000000003
+    },
+    "DEC-biblical_continuity": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.54,
+        "explicit_user_direction": 0.21,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.1,
+        "user_research_position": 0.07
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.54,
+      "margin": 0.33000000000000007
+    },
+    "DEC-dan_hunch_correction": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.52,
+        "explicit_user_direction": 0.23,
+        "supplied_formulation_or_result": 0.07,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.52,
+      "margin": 0.29000000000000004
+    },
+    "DEC-preacoustic_geometry": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.52,
+        "explicit_user_direction": 0.23,
+        "supplied_formulation_or_result": 0.09,
+        "user_question_or_uncertainty": 0.1,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.52,
+      "margin": 0.29000000000000004
+    },
+    "DEC-preacoustic_clarification": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.52,
+        "explicit_user_direction": 0.23,
+        "supplied_formulation_or_result": 0.07,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.52,
+      "margin": 0.29000000000000004
+    },
+    "DEC-quarantined_skeleton": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.51,
+        "explicit_user_direction": 0.23,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.51,
+      "margin": 0.28
+    },
+    "DEC-independent_versions": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.52,
+        "explicit_user_direction": 0.22,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.52,
+      "margin": 0.30000000000000004
+    },
+    "DEC-music_is_core": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.5,
+        "explicit_user_direction": 0.24,
+        "supplied_formulation_or_result": 0.07,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.07
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.5,
+      "margin": 0.26
+    },
+    "DEC-fixed_reference": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.52,
+        "explicit_user_direction": 0.22,
+        "supplied_formulation_or_result": 0.1,
+        "user_question_or_uncertainty": 0.11,
+        "user_research_position": 0.05
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.52,
+      "margin": 0.30000000000000004
+    },
+    "DEC-v3_not_graph_dependency": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.51,
+        "explicit_user_direction": 0.24,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.11,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.51,
+      "margin": 0.27
+    },
+    "DEC-paired_witness_question": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.51,
+        "explicit_user_direction": 0.23,
+        "supplied_formulation_or_result": 0.08,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.51,
+      "margin": 0.28
+    },
+    "DEC-dont_ontologize_judges": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.5,
+        "explicit_user_direction": 0.25,
+        "supplied_formulation_or_result": 0.09,
+        "user_question_or_uncertainty": 0.1,
+        "user_research_position": 0.06
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.5,
+      "margin": 0.25
+    },
+    "DEC-ophiuchus_discomfort": {
+      "type": "choice",
+      "probabilities": {
+        "explicit_user_correction": 0.46,
+        "explicit_user_direction": 0.26,
+        "supplied_formulation_or_result": 0.09,
+        "user_question_or_uncertainty": 0.12,
+        "user_research_position": 0.07
+      },
+      "winner": "explicit_user_correction",
+      "top_probability": 0.46,
+      "margin": 0.2
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 8080,
+    "output_tokens": 1303
+  },
+  "network_calls": 1,
+  "latency_ms": 252
+}

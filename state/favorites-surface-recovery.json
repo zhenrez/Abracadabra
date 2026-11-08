@@ -1,0 +1,14 @@
+{
+  "state": "Single-process navigation selected Favorites (state3145734) and displayed No favorites yet in sample1; samples2/3 returned to the source conversation. This existing Chrome surface may differ from the user's screenshot surface. Screenshots show bookmarked original files. Another existing ChatGPT desktop application PID15856 has not been observed through native MSAA at its main window; UIA was opaque. Empty Favorites in this browser context does not establish that the intended collection is empty. All actual intended Favorites files remain in scope.",
+  "questions": {
+    "next": {
+      "type": "choice",
+      "instructions": "Select the next bounded source-access investigation.",
+      "criteria": {
+        "inspect_desktop": "Observe native MSAA at the existing ChatGPT desktop main window and its visible renderer children. Compare only requested collection UI context.",
+        "use_all": "Treat current Chrome All files as intended Favorites without verifying membership.",
+        "ask_account": "Ask the user to identify the intended signed-in surface before additional observation."
+      }
+    }
+  }
+}

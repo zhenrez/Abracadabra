@@ -1,0 +1,74 @@
+{
+  "id": "alignment-table-82fcbd6778a7d700",
+  "content_sha256": "82fcbd6778a7d700566a8ba0c413e960fc4c369a2c168428e36736613e2d8be0",
+  "headers": [
+    "Event",
+    "Score operation",
+    "What remains unchanged"
+  ],
+  "rows": [
+    [
+      "Er dies",
+      "`CEASE_ACTIVE`",
+      "Er's recorded genealogical identity"
+    ],
+    [
+      "Onan withholds Er's intended name-line successor",
+      "`CONTINUATION_NOT_REALIZED`",
+      "Onan's personal identity remains distinct"
+    ],
+    [
+      "Onan dies",
+      "`CEASE_ACTIVE`",
+      "His entry remains in historical register"
+    ],
+    [
+      "Shelah is withheld from Tamar",
+      "`WITHHOLD_ENTRANCE`",
+      "Living Shelah and his future clan remain represented"
+    ],
+    [
+      "Judah + Tamar conceive",
+      "`JOINT_GENERATION`",
+      "Two parents; two new children distinct from Er/Onan"
+    ],
+    [
+      "Zerah hand appears and is marked",
+      "`PREPARATORY_CUE_NOT_ONSET`",
+      "Not full birth, not necessarily audible anticipation"
+    ],
+    [
+      "Zerah hand withdraws",
+      "`CUE_WITHDRAWN`",
+      "No completed birth yet"
+    ],
+    [
+      "Perez emerges completely",
+      "`COMPLETE_ONSET`",
+      "Perez becomes first delivered twin"
+    ],
+    [
+      "Zerah follows",
+      "`COMPLETE_ONSET`",
+      "Zerah remains second delivered twin, with a separately continuing line"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 8114,
+      "line_end": 8124,
+      "char_start": 409840,
+      "char_end": 411556,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Event                                            | Score operation             | What remains unchanged                                                 |\n| ------------------------------------------------ | --------------------------- | ---------------------------------------------------------------------- |\n| Er dies                                          | `CEASE_ACTIVE`              | Er's recorded genealogical identity                                    |\n| Onan withholds Er's intended name-line successor | `CONTINUATION_NOT_REALIZED` | Onan's personal identity remains distinct                              |\n| Onan dies                                        | `CEASE_ACTIVE`              | His entry remains in historical register                               |\n| Shelah is withheld from Tamar                    | `WITHHOLD_ENTRANCE`         | Living Shelah and his future clan remain represented                   |\n| Judah + Tamar conceive                           | `JOINT_GENERATION`          | Two parents; two new children distinct from Er/Onan                    |\n| Zerah hand appears and is marked                 | `PREPARATORY_CUE_NOT_ONSET` | Not full birth, not necessarily audible anticipation                   |\n| Zerah hand withdraws                             | `CUE_WITHDRAWN`             | No completed birth yet                                                 |\n| Perez emerges completely                         | `COMPLETE_ONSET`            | Perez becomes first delivered twin                                     |\n| Zerah follows                                    | `COMPLETE_ONSET`            | Zerah remains second delivered twin, with a separately continuing line |\n",
+      "quote_sha256": "60298db1818a3d8b4d27ebafaaafd357c98ed402a252f258327479a22232460f",
+      "message_id": "9494018e7824d1f4368de2e7ab9cfa8a220cf93a0089f9024a454b1f75e23202",
+      "role": "user",
+      "locator": "lines:8114-8124"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

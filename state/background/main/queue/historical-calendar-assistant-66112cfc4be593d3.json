@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-66112cfc4be593d3",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/66112cfc4be593d375f2a76f9a9698bfc9f92397dca4883534c2c5dffdbe5672/text.txt",
+      "sha256": "66112cfc4be593d375f2a76f9a9698bfc9f92397dca4883534c2c5dffdbe5672",
+      "start_line": 1,
+      "end_line": 83,
+      "source_role": "assistant",
+      "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+      "message_id": "4039fd952ef37edc812a77237612d4e4f64cf39af820e54177a79bd78defd704",
+      "timestamp": "1732693200.373597",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "4039fd952ef37edc812a77237612d4e4f64cf39af820e54177a79bd78defd704",
+        "native_id": "765ca4fd-0a54-47be-9642-e9d5f122c68f",
+        "conversation_id": "3d41312b81993424a60f221ee8965931156d19fe7ff0ab6ce1e98f05a84b4d95",
+        "role": "assistant",
+        "content_sha256": "66112cfc4be593d375f2a76f9a9698bfc9f92397dca4883534c2c5dffdbe5672",
+        "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+        "locator": "/1/mapping/765ca4fd-0a54-47be-9642-e9d5f122c68f/message",
+        "create_time": "1732693200.373597",
+        "branch_status": "alternate",
+        "title": "Chinatown Escape Plan",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-003.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-003.json",
+        "source_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/66112cfc4be593d375f2a76f9a9698bfc9f92397dca4883534c2c5dffdbe5672/occurrences-f6f0e921b1f3c36de9c794b315726876a2c1e3134a190d0fb53f432dcda3abf3.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

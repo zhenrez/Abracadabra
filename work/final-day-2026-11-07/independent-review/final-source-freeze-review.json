@@ -1,0 +1,95 @@
+{
+  "reviewer": "Independent child /root/change_review",
+  "scope": "Final bounded source/artifact integration review, not scientific or historical certification",
+  "verdict": "APPROVE_BOUNDED_SOURCE_READY_FOR_INTEGRATED_PROOF",
+  "review_method": "Static inspection and direct read-only SHA256 verification; parent executes the final integrated contract",
+  "fixed_findings": [
+    {
+      "id": "canonical_sidecar_not_source_bound",
+      "status": "RESOLVED_STATIC_REVIEW",
+      "resolution": "canonical-v2 independently rederives every sidecar field and all three numerical arrays from the frozen source and method inputs; exact dtype and value equality required",
+      "execution_evidence": "Parent reports seven test methods and thirteen rejected tamper cases; child does not claim a separate execution"
+    },
+    {
+      "id": "project_receipt_variants_hidden",
+      "status": "RESOLVED_STATIC_REVIEW",
+      "resolution": "project*-checks.json preserves original, serial, repair and final execution records"
+    },
+    {
+      "id": "browser_ledger_receipt_hash_cycle",
+      "status": "RESOLVED_STATIC_REVIEW",
+      "resolution": "Current ledger timestamp derives from delivery receipt and excludes later browser receipt; readable handoff may report the fresh browser result"
+    },
+    {
+      "id": "proof_input_source_binding_omission",
+      "status": "RESOLVED_STATIC_REVIEW",
+      "resolution": "Contract includes canonical source-bindings.json, version2 payloads, preserved preimages, source captures and declared mathematical evidence; files are deduplicated with a100MB fail-closed bound"
+    }
+  ],
+  "resolved_execution_finding": {
+    "id": "runtime_input_changed_after_successful_run",
+    "status": "RESOLVED_BY_FRESH_EXECUTION_AND_EXPLICIT_ENTRYPOINT_SCOPE",
+    "path": "tests/delivery-browser.mjs",
+    "recorded_sha256": "6f6f806c84d55af795f285dd6a457688cfcf4391bf48424a3ba9c7a62522d67c",
+    "current_sha256": "58758c85af605fbb9a86d6c9f389c7ea343ba74b88ac0fd1f46fb3bcb48eba00",
+    "other_inputs_matching": 36,
+    "preserved_prior_receipt": "runtime/project-final-initial-checks.json",
+    "preserved_prior_receipt_sha256": "22db81e9b0428cc7694f4592b249f85d80a56e3cf5fd3be7764596e253dd9b41",
+    "prior_receipt_result": "Recorded107tests107passesexit0; stale broader input binding was reported rather than silently accepted",
+    "fresh_receipt": "runtime/project-final-checks.json",
+    "fresh_observed_result": {"tests":112,"pass":112,"fail":0,"cancelled":0,"skipped":0,"exit_code":0,"inputs_unchanged":true},
+    "fresh_declared_inputs_matching_current_sha256": 34,
+    "guard_review": "Snapshot re-enumerates actual *.test.mjs entrypoints before and after execution, includes imported worker-identity assertion, TypeScript sources, ownership helpers and build configuration. Separate delivery-browser.mjs is not an npm test entrypoint or import. This receipt binds this explicit scope, not every transitive data file or unrelated browser program. Newly present related tests are included in112 and not attributed to this unit."
+  },
+  "acceptance_boundaries": {
+    "native_scope": "Bounded mathematical/source-defined profiles only",
+    "requirements": "All106 original dictionaries and statuses preserved verbatim beside separate current assessments",
+    "full_mission_complete": false,
+    "historical_cross_orientation": "LOCKED",
+    "external_publication": "NOT_PERFORMED",
+    "parent_chat": "Full parent transcript not retrieved; no full-context recovery claim",
+    "prior_runtime_failure_cause": "UNRESOLVED; PID reuse was not observed and test-only identity correction is not a production orphan repair"
+  },
+  "final_source_review": {
+    "canonical": "Payload hashes, allow_pickle=False NPZ loading and fresh source derivation bind actual raw and derived data, not only manifest labels",
+    "browser": "Runner requires current sources equal their snapshots before actual interaction; verifier binds ten current files, screenshot hashes and original Sefer source",
+    "proof": "Twelve executable checks, including focused static lint; explicit files captured by installed proof runner before/after. No additional invented freeze mechanism or scientific verdict",
+    "runtime": "Dynamic positive complete test population requires at least99 tests, pass equals actual tests, zero failures/cancellations/skips and unchanged pinned inputs",
+    "packaging": "Canonical-v2 is current; v1 and earlier failures remain preserved. Related workspace reading tests are not attributed to this unit"
+  },
+  "mathematical_source_version_repair": {
+    "status": "APPROVED_STATIC_REVIEW_AND_DIRECT_BYTE_VERIFICATION",
+    "trigger": "Actual integrated proof b49bf6e64c27483d8043707cab34ace5 recorded10passes2failures when mutable mathematical state no longer matched the old audit digest. Guard rejected rather than rewriting the old audit.",
+    "original_requirements": 8,
+    "evidence_references": 53,
+    "unique_source_paths": 12,
+    "unique_verified_content_versions": 14,
+    "all_initial_versions_recovered": true,
+    "validation": "load_registry checks exact original mathematical rows and census snapshot; every unique source path exactly once; exact per-M memberships; all53references. resolve_source binds initial digest, byte lengths and hashes, verified snapshot paths inside project, current version, byte-based relation and derived-state role. No live-path fallback.",
+    "runtime_views": "Original M rows/statuses remain verbatim; source_versions adds separately labeled initial and observed-current versions. Neither version is scientifically preferred by capture.",
+    "proof_inputs": "Registry and all captured bytes replace live M state paths; core frozen matrix and kernel checks remain strict.",
+    "test_attribution": "Parent executed4focused tests red then green. Child performed static review and direct read-only verification of all14unique content hashes and lengths; no additional Python test execution claimed.",
+    "remaining": "Fresh integrated proof retry required; prior10pass2fail proof and failed-attempt artifacts remain evidence. No successful proof retry claimed by this review."
+  },
+  "reviewed_file_hashes": {
+    "prepare_proof.py": "7cab4cf2cc3d4582684e867fd782737733f11dd8354fca170ce05522ab499681",
+    "package_delivery.py": "f530b382b0007ee4871a767fcd729caf54c0d93b772f392d5f9678faa4f54e51",
+    "verify_delivery.py": "31e213adc7821ff5ccad1681ac94b87e5e1ea17a1186148a7dabec6b91757353",
+    "run_delivery.py": "57f9442c7d571e3416ad17f400f8d41246a1367e878ab2d625deec3fa998c64f",
+    "mathematical_sources.py": "964b292c4dea14be6ca6c853e491afa6ef1477834819c992c5d56e01d36d46fb",
+    "test_mathematical_sources.py": "c62a4cb05175f34807e5edcb93a6e4f505ee6d1f19c645ab121bcdbd130ccf8d",
+    "audit/mathematical-source-versions/version-manifest.json": "d808378ecad272b39723f18b4ad000899a61cc05ca07ba67e158c6db86b90dd0",
+    "canonical-features/canonical_features.py": "8767f99ca5999ddd18708708dce6538d2afc78317a07cfb9186cf0870b89f911",
+    "canonical-features/source-bindings.json": "343e386253ab84f08a4f537dee66bbc4bf13b93e534efd295a15d7948af0b27a",
+    "canonical-features/test_canonical_features.py": "661750a8f39bc8383821b8d19335ad4f703800249ecfd54c9f5014b306f59ccd",
+    "independent-review/test_packaging.py": "89cf80118855aa7927aae39440599cb635635416a6ee954659052d33106e9d60",
+    "dashboard/browser_check.mjs": "4af56604b13070dcd9f097b4723ed7df6ccfe9251d5a9e5e4faae4f71a214fca",
+    "dashboard/build_dashboard.py": "41f1b0699f647afef3c1f1be5e125fe4539435f87c11ec6881af97eeb2123c67",
+    "runtime/run_project_checks.py": "1504eb7842bdb05f87f73ccf71d9da3b563c2cf71b942690a1af249552e3f5c3",
+    "runtime/project-final-checks.json": "cc4578288cafd48d9f3433faf868c2ea3f9e2aad9a6cc085976cf4f3f3814c07",
+    "runtime/project-final-initial-checks.json": "22db81e9b0428cc7694f4592b249f85d80a56e3cf5fd3be7764596e253dd9b41",
+    "runtime/approved-source-change.json": "5883bdad0d9e3de6e938271ae3e9bac75d62a84c138d5973095fbede64a93bdf",
+    "runtime/worker-birth-identity-review.json": "dfccf74a8e68f5f1aa761ac657d472a7ce9daf6b0d5118c8d05a4427bf31588a"
+  },
+  "remaining_verification": "Parent final twelve-check integrated proof, including fresh current artifact/documentation verification"
+}

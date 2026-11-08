@@ -1,0 +1,64 @@
+{
+  "id": "alignment-table-981b329e8b01861f",
+  "content_sha256": "981b329e8b01861f336ad9e9ec5775b1843f00f42dddfbe3983104dcd1000a03",
+  "headers": [
+    "Gate type",
+    "Calculation",
+    "Gates"
+  ],
+  "rows": [
+    [
+      "Mother ↔ Mother",
+      "$\\binom32$",
+      "3"
+    ],
+    [
+      "Double ↔ Double",
+      "$\\binom72$",
+      "21"
+    ],
+    [
+      "Simple ↔ Simple",
+      "$\\binom{12}2$",
+      "66"
+    ],
+    [
+      "Mother ↔ Double",
+      "$3\\times7$",
+      "21"
+    ],
+    [
+      "Mother ↔ Simple",
+      "$3\\times12$",
+      "36"
+    ],
+    [
+      "Double ↔ Simple",
+      "$7\\times12$",
+      "84"
+    ],
+    [
+      "**Total**",
+      "",
+      "**231**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 26508,
+      "line_end": 26516,
+      "char_start": 1334762,
+      "char_end": 1335086,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Gate type | Calculation | Gates |\n|--------|--------|--------|\n| Mother ↔ Mother | $\\binom32$ | 3 |\n| Double ↔ Double | $\\binom72$ | 21 |\n| Simple ↔ Simple | $\\binom{12}2$ | 66 |\n| Mother ↔ Double | $3\\times7$ | 21 |\n| Mother ↔ Simple | $3\\times12$ | 36 |\n| Double ↔ Simple | $7\\times12$ | 84 |\n| **Total** |  | **231** |\n",
+      "quote_sha256": "af31b67beb797633eeaeace6c27a44643bbb7ab7bbfd7566a4eebe9730c42198",
+      "message_id": "c03073dcae2f0c24cef546db66bd77ade38ffe8f99380fdbc90b292cd23d77f2",
+      "role": "assistant",
+      "locator": "lines:26508-26516"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

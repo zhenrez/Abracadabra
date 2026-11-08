@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "combinedSha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7",
+  "census": {
+    "totalRecords": 9493,
+    "nonSlotRecords": 1582,
+    "generatedMembershipSlots": 7911,
+    "views": 22
+  },
+  "sourceScopedCombinations": [
+    {
+      "origin": "A",
+      "witness": "uploaded-repository"
+    },
+    {
+      "origin": "A",
+      "witness": "de-laurence-1916"
+    },
+    {
+      "origin": "A",
+      "witness": "peterson-sloane3825"
+    },
+    {
+      "origin": "B",
+      "witness": "uploaded-repository"
+    },
+    {
+      "origin": "B",
+      "witness": "de-laurence-1916"
+    },
+    {
+      "origin": "B",
+      "witness": "peterson-sloane3825"
+    },
+    {
+      "origin": "C",
+      "witness": "uploaded-repository"
+    },
+    {
+      "origin": "C",
+      "witness": "de-laurence-1916"
+    },
+    {
+      "origin": "C",
+      "witness": "peterson-sloane3825"
+    }
+  ],
+  "componentRecordChecks": [
+    {
+      "name": "hierarchy-atlas",
+      "sha256": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312",
+      "entities": 8300,
+      "relationships": 8555,
+      "views": 11
+    },
+    {
+      "name": "musical-hierarchies",
+      "sha256": "3d5ed567f5c473787f4e61a658fd15310aab3b59c87d70f519fa771f54376cf6",
+      "entities": 1141,
+      "relationships": 1608,
+      "views": 5
+    },
+    {
+      "name": "angelic-hierarchy-supplement",
+      "sha256": "1862651b24d362158de5b0d0d36637675e0cd87f2db8793cc9720469c6140c5f",
+      "entities": 52,
+      "relationships": 69,
+      "views": 5
+    }
+  ],
+  "defaultUpstreamIncludesNous": true,
+  "productionOnlyExcludesNous": true,
+  "productionOnlyIncludesBythos": true,
+  "productionOnlyIncludesSige": true,
+  "nativeProductionAncestors": [
+    "i1:I1-Ogdoad:1",
+    "i1:I1-Ogdoad:2",
+    "i1:event:first"
+  ],
+  "productionTypeWhitelist": [
+    "production-input",
+    "production-output",
+    "qualified-nonexternal-production-input",
+    "qualified-nonexternal-production-output",
+    "source-generates-next-lu"
+  ],
+  "firstProductionInputCount": 2,
+  "firstProductionOutputCount": 2,
+  "primordialCHypotheticalInputCount": 4,
+  "laterMonogenesNotMerged": true,
+  "externalJoinsRemainHypotheses": true,
+  "uniqueLegions": null,
+  "uniquePersonnel": null,
+  "boundaries": [
+    "Default upstream is typed reachability, not genealogy.",
+    "Recorded joint-event arity does not by itself implement an AND-tail activation evaluator.",
+    "Production-only uses the displayed whitelist; other source-specific creation labels are not silently inferred as biological parentage.",
+    "No source-native structure was regenerated or mutated by these checks."
+  ]
+}

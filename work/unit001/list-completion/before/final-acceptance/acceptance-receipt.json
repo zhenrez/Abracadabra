@@ -1,0 +1,3425 @@
+{
+  "timestamp_utc": "2026-11-06T12:03:49.347862+00:00",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "git": {
+    "branch": null,
+    "head": null,
+    "reason": "no Git metadata established; no GitHub action"
+  },
+  "tests": [
+    {
+      "name": "current_G0_G1",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 53
+    },
+    {
+      "name": "original_Sefer",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+        "-p",
+        "test_harmonic_verifier.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 6
+    },
+    {
+      "name": "preserved_pipeline",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 40
+    }
+  ],
+  "g0": {
+    "status": "PASSED",
+    "invariants": [
+      {
+        "id": 1,
+        "name": "15 script groups",
+        "status": "PASS"
+      },
+      {
+        "id": 2,
+        "name": "source order",
+        "status": "PASS"
+      },
+      {
+        "id": 3,
+        "name": "original labels",
+        "status": "PASS"
+      },
+      {
+        "id": 4,
+        "name": "36 addressable slots each",
+        "status": "PASS"
+      },
+      {
+        "id": 5,
+        "name": "381 populated source positions",
+        "status": "PASS"
+      },
+      {
+        "id": 6,
+        "name": "159 explicit empty positions",
+        "status": "PASS"
+      },
+      {
+        "id": 7,
+        "name": "all three fields preserved",
+        "status": "PASS"
+      },
+      {
+        "id": 8,
+        "name": "Unicode scalar fidelity",
+        "status": "PASS"
+      },
+      {
+        "id": 9,
+        "name": "proxy classification",
+        "status": "PASS"
+      },
+      {
+        "id": 10,
+        "name": "no ordinal alignment inferred",
+        "status": "PASS"
+      },
+      {
+        "id": 11,
+        "name": "heterogeneous Old Persian",
+        "status": "PASS"
+      },
+      {
+        "id": 12,
+        "name": "question marks remain unknown",
+        "status": "PASS"
+      },
+      {
+        "id": 13,
+        "name": "alternatives retained",
+        "status": "PASS"
+      },
+      {
+        "id": 14,
+        "name": "genealogy external",
+        "status": "PASS"
+      },
+      {
+        "id": 15,
+        "name": "raw and inferred claims separate",
+        "status": "PASS"
+      },
+      {
+        "id": 16,
+        "name": "no invented attestations",
+        "status": "PASS"
+      },
+      {
+        "id": 17,
+        "name": "reference integrity",
+        "status": "PASS"
+      },
+      {
+        "id": 18,
+        "name": "unique witness primary keys",
+        "status": "PASS"
+      },
+      {
+        "id": 19,
+        "name": "nested immutable maps",
+        "status": "PASS"
+      },
+      {
+        "id": 20,
+        "name": "exact source roundtrip",
+        "status": "PASS"
+      }
+    ]
+  },
+  "counts": {
+    "script_groups": 15,
+    "positions": 540,
+    "populated": 381,
+    "empty": 159
+  },
+  "matrix_sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+  "G1_cases": {
+    "A_complete": {
+      "input": [
+        "ʔ",
+        "b",
+        "g",
+        "d",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "s",
+        "ʕ",
+        "p",
+        "sˤ",
+        "q",
+        "r",
+        "ʃ",
+        "t"
+      ],
+      "expected": [
+        "VALID",
+        "UNIQUE_UNDER_MODEL"
+      ],
+      "observed": [
+        "VALID",
+        "UNIQUE_UNDER_MODEL"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": [
+            {
+              "assignments": [
+                "sefer:letter:aleph",
+                "sefer:letter:bet",
+                "sefer:letter:gimel",
+                "sefer:letter:dalet",
+                "sefer:letter:he",
+                "sefer:letter:waw",
+                "sefer:letter:zayin",
+                "sefer:letter:het",
+                "sefer:letter:tet",
+                "sefer:letter:yod",
+                "sefer:letter:kaf",
+                "sefer:letter:lamed",
+                "sefer:letter:mem",
+                "sefer:letter:nun",
+                "sefer:letter:samekh",
+                "sefer:letter:ayin",
+                "sefer:letter:pe",
+                "sefer:letter:tsadi",
+                "sefer:letter:qof",
+                "sefer:letter:resh",
+                "sefer:letter:shin",
+                "sefer:letter:taw"
+              ],
+              "unfilled": []
+            }
+          ]
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 1,
+          "status": "UNIQUE_UNDER_MODEL",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "AMBIGUOUS_UNDERDETERMINED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            [
+              "sefer:letter:aleph"
+            ],
+            [
+              "sefer:letter:bet"
+            ],
+            [
+              "sefer:letter:gimel"
+            ],
+            [
+              "sefer:letter:dalet"
+            ],
+            [
+              "sefer:letter:he"
+            ],
+            [
+              "sefer:letter:waw"
+            ],
+            [
+              "sefer:letter:zayin"
+            ],
+            [
+              "sefer:letter:het"
+            ],
+            [
+              "sefer:letter:tet"
+            ],
+            [
+              "sefer:letter:yod"
+            ],
+            [
+              "sefer:letter:kaf"
+            ],
+            [
+              "sefer:letter:lamed"
+            ],
+            [
+              "sefer:letter:mem"
+            ],
+            [
+              "sefer:letter:nun"
+            ],
+            [
+              "sefer:letter:samekh",
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:ayin"
+            ],
+            [
+              "sefer:letter:pe"
+            ],
+            [
+              "sefer:letter:tsadi"
+            ],
+            [
+              "sefer:letter:qof"
+            ],
+            [
+              "sefer:letter:resh"
+            ],
+            [
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:taw"
+            ]
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "ʔ",
+            "b",
+            "g",
+            "d",
+            "h",
+            "w",
+            "z",
+            "ħ",
+            "tˤ",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "s",
+            "ʕ",
+            "p",
+            "sˤ",
+            "q",
+            "r",
+            "ʃ",
+            "t"
+          ],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 22,
+          "required": 22,
+          "status": "VALID"
+        }
+      }
+    },
+    "B_missing_Mem": {
+      "input": [
+        "ʔ",
+        "b",
+        "g",
+        "d",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "k",
+        "l",
+        "n",
+        "s",
+        "ʕ",
+        "p",
+        "sˤ",
+        "q",
+        "r",
+        "ʃ",
+        "t"
+      ],
+      "expected": [
+        "INCOMPLETE",
+        "UNIQUE_UNDER_MODEL"
+      ],
+      "observed": [
+        "INCOMPLETE",
+        "UNIQUE_UNDER_MODEL"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": [
+            {
+              "assignments": [
+                "sefer:letter:aleph",
+                "sefer:letter:bet",
+                "sefer:letter:gimel",
+                "sefer:letter:dalet",
+                "sefer:letter:he",
+                "sefer:letter:waw",
+                "sefer:letter:zayin",
+                "sefer:letter:het",
+                "sefer:letter:tet",
+                "sefer:letter:yod",
+                "sefer:letter:kaf",
+                "sefer:letter:lamed",
+                "sefer:letter:nun",
+                "sefer:letter:samekh",
+                "sefer:letter:ayin",
+                "sefer:letter:pe",
+                "sefer:letter:tsadi",
+                "sefer:letter:qof",
+                "sefer:letter:resh",
+                "sefer:letter:shin",
+                "sefer:letter:taw"
+              ],
+              "unfilled": [
+                "sefer:letter:mem"
+              ]
+            }
+          ]
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 1,
+          "status": "UNIQUE_UNDER_MODEL",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "AMBIGUOUS_UNDERDETERMINED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            [
+              "sefer:letter:aleph"
+            ],
+            [
+              "sefer:letter:bet"
+            ],
+            [
+              "sefer:letter:gimel"
+            ],
+            [
+              "sefer:letter:dalet"
+            ],
+            [
+              "sefer:letter:he"
+            ],
+            [
+              "sefer:letter:waw"
+            ],
+            [
+              "sefer:letter:zayin"
+            ],
+            [
+              "sefer:letter:het"
+            ],
+            [
+              "sefer:letter:tet"
+            ],
+            [
+              "sefer:letter:yod"
+            ],
+            [
+              "sefer:letter:kaf"
+            ],
+            [
+              "sefer:letter:lamed"
+            ],
+            [
+              "sefer:letter:nun"
+            ],
+            [
+              "sefer:letter:samekh",
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:ayin"
+            ],
+            [
+              "sefer:letter:pe"
+            ],
+            [
+              "sefer:letter:tsadi"
+            ],
+            [
+              "sefer:letter:qof"
+            ],
+            [
+              "sefer:letter:resh"
+            ],
+            [
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:taw"
+            ]
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "ʔ",
+            "b",
+            "g",
+            "d",
+            "h",
+            "w",
+            "z",
+            "ħ",
+            "tˤ",
+            "j",
+            "k",
+            "l",
+            "n",
+            "s",
+            "ʕ",
+            "p",
+            "sˤ",
+            "q",
+            "r",
+            "ʃ",
+            "t"
+          ],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 21,
+          "required": 22,
+          "status": "INCOMPLETE"
+        }
+      }
+    },
+    "C_sibilant_ambiguity": {
+      "input": [
+        "ʔ",
+        "b",
+        "g",
+        "d",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "ʕ",
+        "p",
+        "sˤ",
+        "q",
+        "r",
+        "t",
+        "s"
+      ],
+      "expected": [
+        "INCOMPLETE",
+        "MULTIPLE_DISTINGUISHABLE"
+      ],
+      "observed": [
+        "INCOMPLETE",
+        "MULTIPLE_DISTINGUISHABLE"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": [
+            {
+              "assignments": [
+                "sefer:letter:aleph",
+                "sefer:letter:bet",
+                "sefer:letter:gimel",
+                "sefer:letter:dalet",
+                "sefer:letter:he",
+                "sefer:letter:waw",
+                "sefer:letter:zayin",
+                "sefer:letter:het",
+                "sefer:letter:tet",
+                "sefer:letter:yod",
+                "sefer:letter:kaf",
+                "sefer:letter:lamed",
+                "sefer:letter:mem",
+                "sefer:letter:nun",
+                "sefer:letter:ayin",
+                "sefer:letter:pe",
+                "sefer:letter:tsadi",
+                "sefer:letter:qof",
+                "sefer:letter:resh",
+                "sefer:letter:taw",
+                "sefer:letter:samekh"
+              ],
+              "unfilled": [
+                "sefer:letter:shin"
+              ]
+            },
+            {
+              "assignments": [
+                "sefer:letter:aleph",
+                "sefer:letter:bet",
+                "sefer:letter:gimel",
+                "sefer:letter:dalet",
+                "sefer:letter:he",
+                "sefer:letter:waw",
+                "sefer:letter:zayin",
+                "sefer:letter:het",
+                "sefer:letter:tet",
+                "sefer:letter:yod",
+                "sefer:letter:kaf",
+                "sefer:letter:lamed",
+                "sefer:letter:mem",
+                "sefer:letter:nun",
+                "sefer:letter:ayin",
+                "sefer:letter:pe",
+                "sefer:letter:tsadi",
+                "sefer:letter:qof",
+                "sefer:letter:resh",
+                "sefer:letter:taw",
+                "sefer:letter:shin"
+              ],
+              "unfilled": [
+                "sefer:letter:samekh"
+              ]
+            }
+          ]
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 2,
+          "status": "MULTIPLE_DISTINGUISHABLE",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "AMBIGUOUS_UNDERDETERMINED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            [
+              "sefer:letter:aleph"
+            ],
+            [
+              "sefer:letter:bet"
+            ],
+            [
+              "sefer:letter:gimel"
+            ],
+            [
+              "sefer:letter:dalet"
+            ],
+            [
+              "sefer:letter:he"
+            ],
+            [
+              "sefer:letter:waw"
+            ],
+            [
+              "sefer:letter:zayin"
+            ],
+            [
+              "sefer:letter:het"
+            ],
+            [
+              "sefer:letter:tet"
+            ],
+            [
+              "sefer:letter:yod"
+            ],
+            [
+              "sefer:letter:kaf"
+            ],
+            [
+              "sefer:letter:lamed"
+            ],
+            [
+              "sefer:letter:mem"
+            ],
+            [
+              "sefer:letter:nun"
+            ],
+            [
+              "sefer:letter:ayin"
+            ],
+            [
+              "sefer:letter:pe"
+            ],
+            [
+              "sefer:letter:tsadi"
+            ],
+            [
+              "sefer:letter:qof"
+            ],
+            [
+              "sefer:letter:resh"
+            ],
+            [
+              "sefer:letter:taw"
+            ],
+            [
+              "sefer:letter:samekh",
+              "sefer:letter:shin"
+            ]
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "ʔ",
+            "b",
+            "g",
+            "d",
+            "h",
+            "w",
+            "z",
+            "ħ",
+            "tˤ",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "ʕ",
+            "p",
+            "sˤ",
+            "q",
+            "r",
+            "t",
+            "s"
+          ],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 21,
+          "required": 22,
+          "status": "INCOMPLETE"
+        }
+      }
+    },
+    "E_duplicate": {
+      "input": [
+        "ʔ",
+        "b",
+        "g",
+        "d",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "s",
+        "ʕ",
+        "p",
+        "sˤ",
+        "q",
+        "r",
+        "ʃ",
+        "b"
+      ],
+      "expected": [
+        "CONTRADICTION",
+        "NO_FEASIBLE_SOLUTION"
+      ],
+      "observed": [
+        "CONTRADICTION",
+        "NO_FEASIBLE_SOLUTION"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": []
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 0,
+          "status": "NO_FEASIBLE_SOLUTION",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "UNSUPPORTED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            [
+              "sefer:letter:aleph"
+            ],
+            [
+              "sefer:letter:bet"
+            ],
+            [
+              "sefer:letter:gimel"
+            ],
+            [
+              "sefer:letter:dalet"
+            ],
+            [
+              "sefer:letter:he"
+            ],
+            [
+              "sefer:letter:waw"
+            ],
+            [
+              "sefer:letter:zayin"
+            ],
+            [
+              "sefer:letter:het"
+            ],
+            [
+              "sefer:letter:tet"
+            ],
+            [
+              "sefer:letter:yod"
+            ],
+            [
+              "sefer:letter:kaf"
+            ],
+            [
+              "sefer:letter:lamed"
+            ],
+            [
+              "sefer:letter:mem"
+            ],
+            [
+              "sefer:letter:nun"
+            ],
+            [
+              "sefer:letter:samekh",
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:ayin"
+            ],
+            [
+              "sefer:letter:pe"
+            ],
+            [
+              "sefer:letter:tsadi"
+            ],
+            [
+              "sefer:letter:qof"
+            ],
+            [
+              "sefer:letter:resh"
+            ],
+            [
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:bet"
+            ]
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "ʔ",
+            "b",
+            "g",
+            "d",
+            "h",
+            "w",
+            "z",
+            "ħ",
+            "tˤ",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "s",
+            "ʕ",
+            "p",
+            "sˤ",
+            "q",
+            "r",
+            "ʃ",
+            "b"
+          ],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [
+            {
+              "admissible_slots": [
+                "sefer:letter:aleph"
+              ],
+              "input_index": 0,
+              "token": "ʔ"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:bet"
+              ],
+              "input_index": 1,
+              "token": "b"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:gimel"
+              ],
+              "input_index": 2,
+              "token": "g"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:dalet"
+              ],
+              "input_index": 3,
+              "token": "d"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:he"
+              ],
+              "input_index": 4,
+              "token": "h"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:waw"
+              ],
+              "input_index": 5,
+              "token": "w"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:zayin"
+              ],
+              "input_index": 6,
+              "token": "z"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:het"
+              ],
+              "input_index": 7,
+              "token": "ħ"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:tet"
+              ],
+              "input_index": 8,
+              "token": "tˤ"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:yod"
+              ],
+              "input_index": 9,
+              "token": "j"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:kaf"
+              ],
+              "input_index": 10,
+              "token": "k"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:lamed"
+              ],
+              "input_index": 11,
+              "token": "l"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:mem"
+              ],
+              "input_index": 12,
+              "token": "m"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:nun"
+              ],
+              "input_index": 13,
+              "token": "n"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:samekh",
+                "sefer:letter:shin"
+              ],
+              "input_index": 14,
+              "token": "s"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:ayin"
+              ],
+              "input_index": 15,
+              "token": "ʕ"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:pe"
+              ],
+              "input_index": 16,
+              "token": "p"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:tsadi"
+              ],
+              "input_index": 17,
+              "token": "sˤ"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:qof"
+              ],
+              "input_index": 18,
+              "token": "q"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:resh"
+              ],
+              "input_index": 19,
+              "token": "r"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:shin"
+              ],
+              "input_index": 20,
+              "token": "ʃ"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:bet"
+              ],
+              "input_index": 21,
+              "token": "b"
+            }
+          ],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 22,
+          "required": 22,
+          "status": "CONTRADICTION"
+        }
+      }
+    },
+    "F_overflow": {
+      "input": [
+        "sefer:letter:aleph",
+        "sefer:letter:bet:state:0",
+        "sefer:letter:bet:state:1",
+        "sefer:letter:gimel:state:0",
+        "sefer:letter:gimel:state:1",
+        "sefer:letter:dalet:state:0",
+        "sefer:letter:dalet:state:1",
+        "sefer:letter:he",
+        "sefer:letter:waw",
+        "sefer:letter:zayin",
+        "sefer:letter:het",
+        "sefer:letter:tet",
+        "sefer:letter:yod",
+        "sefer:letter:kaf:state:0",
+        "sefer:letter:kaf:state:1",
+        "sefer:letter:lamed",
+        "sefer:letter:mem",
+        "sefer:letter:nun",
+        "sefer:letter:samekh",
+        "sefer:letter:ayin",
+        "sefer:letter:pe:state:0",
+        "sefer:letter:pe:state:1",
+        "sefer:letter:tsadi",
+        "sefer:letter:qof",
+        "sefer:letter:resh:state:0",
+        "sefer:letter:resh:state:1",
+        "sefer:letter:shin",
+        "sefer:letter:taw:state:0",
+        "sefer:letter:taw:state:1",
+        "b"
+      ],
+      "expected": [
+        "CONTRADICTION",
+        "NO_FEASIBLE_SOLUTION"
+      ],
+      "observed": [
+        "CONTRADICTION",
+        "NO_FEASIBLE_SOLUTION"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet:state:0",
+            "sefer:letter:bet:state:1",
+            "sefer:letter:gimel:state:0",
+            "sefer:letter:gimel:state:1",
+            "sefer:letter:dalet:state:0",
+            "sefer:letter:dalet:state:1",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf:state:0",
+            "sefer:letter:kaf:state:1",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe:state:0",
+            "sefer:letter:pe:state:1",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh:state:0",
+            "sefer:letter:resh:state:1",
+            "sefer:letter:shin",
+            "sefer:letter:taw:state:0",
+            "sefer:letter:taw:state:1"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": []
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 0,
+          "status": "NO_FEASIBLE_SOLUTION",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "UNSUPPORTED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            [
+              "sefer:letter:aleph"
+            ],
+            [
+              "sefer:letter:bet:state:0"
+            ],
+            [
+              "sefer:letter:bet:state:1"
+            ],
+            [
+              "sefer:letter:gimel:state:0"
+            ],
+            [
+              "sefer:letter:gimel:state:1"
+            ],
+            [
+              "sefer:letter:dalet:state:0"
+            ],
+            [
+              "sefer:letter:dalet:state:1"
+            ],
+            [
+              "sefer:letter:he"
+            ],
+            [
+              "sefer:letter:waw"
+            ],
+            [
+              "sefer:letter:zayin"
+            ],
+            [
+              "sefer:letter:het"
+            ],
+            [
+              "sefer:letter:tet"
+            ],
+            [
+              "sefer:letter:yod"
+            ],
+            [
+              "sefer:letter:kaf:state:0"
+            ],
+            [
+              "sefer:letter:kaf:state:1"
+            ],
+            [
+              "sefer:letter:lamed"
+            ],
+            [
+              "sefer:letter:mem"
+            ],
+            [
+              "sefer:letter:nun"
+            ],
+            [
+              "sefer:letter:samekh"
+            ],
+            [
+              "sefer:letter:ayin"
+            ],
+            [
+              "sefer:letter:pe:state:0"
+            ],
+            [
+              "sefer:letter:pe:state:1"
+            ],
+            [
+              "sefer:letter:tsadi"
+            ],
+            [
+              "sefer:letter:qof"
+            ],
+            [
+              "sefer:letter:resh:state:0"
+            ],
+            [
+              "sefer:letter:resh:state:1"
+            ],
+            [
+              "sefer:letter:shin"
+            ],
+            [
+              "sefer:letter:taw:state:0"
+            ],
+            [
+              "sefer:letter:taw:state:1"
+            ],
+            [
+              "sefer:letter:bet:state:0"
+            ]
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet:state:0",
+            "sefer:letter:bet:state:1",
+            "sefer:letter:gimel:state:0",
+            "sefer:letter:gimel:state:1",
+            "sefer:letter:dalet:state:0",
+            "sefer:letter:dalet:state:1",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf:state:0",
+            "sefer:letter:kaf:state:1",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe:state:0",
+            "sefer:letter:pe:state:1",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh:state:0",
+            "sefer:letter:resh:state:1",
+            "sefer:letter:shin",
+            "sefer:letter:taw:state:0",
+            "sefer:letter:taw:state:1",
+            "b"
+          ],
+          "mode": "expanded",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [
+            {
+              "admissible_slots": [
+                "sefer:letter:aleph"
+              ],
+              "input_index": 0,
+              "token": "sefer:letter:aleph"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:bet:state:0"
+              ],
+              "input_index": 1,
+              "token": "sefer:letter:bet:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:bet:state:1"
+              ],
+              "input_index": 2,
+              "token": "sefer:letter:bet:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:gimel:state:0"
+              ],
+              "input_index": 3,
+              "token": "sefer:letter:gimel:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:gimel:state:1"
+              ],
+              "input_index": 4,
+              "token": "sefer:letter:gimel:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:dalet:state:0"
+              ],
+              "input_index": 5,
+              "token": "sefer:letter:dalet:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:dalet:state:1"
+              ],
+              "input_index": 6,
+              "token": "sefer:letter:dalet:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:he"
+              ],
+              "input_index": 7,
+              "token": "sefer:letter:he"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:waw"
+              ],
+              "input_index": 8,
+              "token": "sefer:letter:waw"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:zayin"
+              ],
+              "input_index": 9,
+              "token": "sefer:letter:zayin"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:het"
+              ],
+              "input_index": 10,
+              "token": "sefer:letter:het"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:tet"
+              ],
+              "input_index": 11,
+              "token": "sefer:letter:tet"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:yod"
+              ],
+              "input_index": 12,
+              "token": "sefer:letter:yod"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:kaf:state:0"
+              ],
+              "input_index": 13,
+              "token": "sefer:letter:kaf:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:kaf:state:1"
+              ],
+              "input_index": 14,
+              "token": "sefer:letter:kaf:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:lamed"
+              ],
+              "input_index": 15,
+              "token": "sefer:letter:lamed"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:mem"
+              ],
+              "input_index": 16,
+              "token": "sefer:letter:mem"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:nun"
+              ],
+              "input_index": 17,
+              "token": "sefer:letter:nun"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:samekh"
+              ],
+              "input_index": 18,
+              "token": "sefer:letter:samekh"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:ayin"
+              ],
+              "input_index": 19,
+              "token": "sefer:letter:ayin"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:pe:state:0"
+              ],
+              "input_index": 20,
+              "token": "sefer:letter:pe:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:pe:state:1"
+              ],
+              "input_index": 21,
+              "token": "sefer:letter:pe:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:tsadi"
+              ],
+              "input_index": 22,
+              "token": "sefer:letter:tsadi"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:qof"
+              ],
+              "input_index": 23,
+              "token": "sefer:letter:qof"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:resh:state:0"
+              ],
+              "input_index": 24,
+              "token": "sefer:letter:resh:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:resh:state:1"
+              ],
+              "input_index": 25,
+              "token": "sefer:letter:resh:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:shin"
+              ],
+              "input_index": 26,
+              "token": "sefer:letter:shin"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:taw:state:0"
+              ],
+              "input_index": 27,
+              "token": "sefer:letter:taw:state:0"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:taw:state:1"
+              ],
+              "input_index": 28,
+              "token": "sefer:letter:taw:state:1"
+            },
+            {
+              "admissible_slots": [
+                "sefer:letter:bet:state:0"
+              ],
+              "input_index": 29,
+              "token": "b"
+            }
+          ],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 30,
+          "required": 29,
+          "status": "CONTRADICTION"
+        }
+      }
+    },
+    "G_empty": {
+      "input": [],
+      "expected": [
+        "NOT_EVALUATED",
+        "INSUFFICIENT_INPUT"
+      ],
+      "observed": [
+        "NOT_EVALUATED",
+        "INSUFFICIENT_INPUT"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": []
+        },
+        "execution": "NOT_EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 0,
+          "status": "INSUFFICIENT_INPUT",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "NOT_EVALUATED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 0,
+          "required": 22,
+          "status": "NOT_EVALUATED"
+        }
+      }
+    },
+    "H_exhaustion": {
+      "input": [
+        "b"
+      ],
+      "expected": [
+        "CONTRADICTION",
+        "NO_FEASIBLE_SOLUTION"
+      ],
+      "observed": [
+        "CONTRADICTION",
+        "NO_FEASIBLE_SOLUTION"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": []
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 0,
+          "status": "NO_FEASIBLE_SOLUTION",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "UNSUPPORTED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            []
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "b"
+          ],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {
+            "0": [
+              "sefer:letter:mem"
+            ]
+          }
+        },
+        "structural": {
+          "conflicts": [
+            {
+              "admissible_slots": [],
+              "input_index": 0,
+              "token": "b"
+            }
+          ],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 1,
+          "required": 22,
+          "status": "CONTRADICTION"
+        }
+      }
+    },
+    "I_multiple": {
+      "input": [
+        "b/g"
+      ],
+      "expected": [
+        "INCOMPLETE",
+        "MULTIPLE_DISTINGUISHABLE"
+      ],
+      "observed": [
+        "INCOMPLETE",
+        "MULTIPLE_DISTINGUISHABLE"
+      ],
+      "passed": true,
+      "typed_receipt": {
+        "__type__": "ReconstructionReceipt",
+        "candidates": {
+          "__type__": "CandidateSet",
+          "complete": true,
+          "domain": [
+            "sefer:letter:aleph",
+            "sefer:letter:bet",
+            "sefer:letter:gimel",
+            "sefer:letter:dalet",
+            "sefer:letter:he",
+            "sefer:letter:waw",
+            "sefer:letter:zayin",
+            "sefer:letter:het",
+            "sefer:letter:tet",
+            "sefer:letter:yod",
+            "sefer:letter:kaf",
+            "sefer:letter:lamed",
+            "sefer:letter:mem",
+            "sefer:letter:nun",
+            "sefer:letter:samekh",
+            "sefer:letter:ayin",
+            "sefer:letter:pe",
+            "sefer:letter:tsadi",
+            "sefer:letter:qof",
+            "sefer:letter:resh",
+            "sefer:letter:shin",
+            "sefer:letter:taw"
+          ],
+          "equivalence": "Assignments are distinguished by input position and canonical slot",
+          "solutions": [
+            {
+              "assignments": [
+                "sefer:letter:bet"
+              ],
+              "unfilled": [
+                "sefer:letter:aleph",
+                "sefer:letter:gimel",
+                "sefer:letter:dalet",
+                "sefer:letter:he",
+                "sefer:letter:waw",
+                "sefer:letter:zayin",
+                "sefer:letter:het",
+                "sefer:letter:tet",
+                "sefer:letter:yod",
+                "sefer:letter:kaf",
+                "sefer:letter:lamed",
+                "sefer:letter:mem",
+                "sefer:letter:nun",
+                "sefer:letter:samekh",
+                "sefer:letter:ayin",
+                "sefer:letter:pe",
+                "sefer:letter:tsadi",
+                "sefer:letter:qof",
+                "sefer:letter:resh",
+                "sefer:letter:shin",
+                "sefer:letter:taw"
+              ]
+            },
+            {
+              "assignments": [
+                "sefer:letter:gimel"
+              ],
+              "unfilled": [
+                "sefer:letter:aleph",
+                "sefer:letter:bet",
+                "sefer:letter:dalet",
+                "sefer:letter:he",
+                "sefer:letter:waw",
+                "sefer:letter:zayin",
+                "sefer:letter:het",
+                "sefer:letter:tet",
+                "sefer:letter:yod",
+                "sefer:letter:kaf",
+                "sefer:letter:lamed",
+                "sefer:letter:mem",
+                "sefer:letter:nun",
+                "sefer:letter:samekh",
+                "sefer:letter:ayin",
+                "sefer:letter:pe",
+                "sefer:letter:tsadi",
+                "sefer:letter:qof",
+                "sefer:letter:resh",
+                "sefer:letter:shin",
+                "sefer:letter:taw"
+              ]
+            }
+          ]
+        },
+        "execution": "EVALUATED",
+        "historical": {
+          "claim": "This particular reconstruction is not historically confirmed by structural uniqueness",
+          "status": "NOT_VERIFIED"
+        },
+        "identifiability": {
+          "solution_count": 2,
+          "status": "MULTIPLE_DISTINGUISHABLE",
+          "within_model_only": true
+        },
+        "model_preference": {
+          "reason": "G6 locked; no coding scheme or model comparison",
+          "status": "NOT_EVALUATED"
+        },
+        "outcome": "AMBIGUOUS_UNDERDETERMINED",
+        "premises": {
+          "baseline_hash": "8911efbc7207233994876ee5a8ee027d8c44ad00794f8bfb2f86466722be3efc",
+          "candidates": [
+            [
+              "sefer:letter:bet",
+              "sefer:letter:gimel"
+            ]
+          ],
+          "class_constraints": {},
+          "cross_orientation_used": false,
+          "input_tokens": [
+            "b/g"
+          ],
+          "mode": "base",
+          "namespace": "sefer:stipulated-legacy-3-7-12",
+          "slot_constraints": {}
+        },
+        "structural": {
+          "conflicts": [],
+          "constraints": {
+            "category_constraints": {},
+            "exclusive_occupancy": true
+          },
+          "input_count": 1,
+          "required": 22,
+          "status": "INCOMPLETE"
+        }
+      }
+    },
+    "D_Resh": {
+      "input": "r:1",
+      "expected": "tagged state; no invented realization",
+      "observed": {
+        "letter_id": "sefer:letter:resh",
+        "category": "Doubles",
+        "state": 1,
+        "legacy_label": "r:1",
+        "phonetic_realization": null,
+        "epistemic_status": "STIPULATED_BASELINE",
+        "alternate_phonetic_attestation": "NOT_VERIFIED"
+      },
+      "passed": true
+    },
+    "J_serialization": {
+      "input": [
+        "b/g"
+      ],
+      "expected": "byte-identical canonical JSON",
+      "observed": "7a4d09f9a20020c5187f8387ec1c60294174dac608afe162129354b8970cfb83",
+      "passed": true
+    }
+  },
+  "legacy_comparisons": [
+    {
+      "case": "complete",
+      "input": [
+        "ʔ",
+        "m",
+        "ʃ",
+        "b",
+        "g",
+        "d",
+        "k",
+        "p",
+        "r",
+        "t",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "l",
+        "n",
+        "s",
+        "ʕ",
+        "sˤ",
+        "q"
+      ],
+      "expected": {
+        "status": "Valid",
+        "validation_scope": "stipulated structural model only",
+        "matrix_distribution": {
+          "Mothers": [
+            "m",
+            "ʃ",
+            "ʔ"
+          ],
+          "Doubles": [
+            "b",
+            "d",
+            "g",
+            "k",
+            "p",
+            "r",
+            "t"
+          ],
+          "Simples": [
+            "h",
+            "j",
+            "l",
+            "n",
+            "q",
+            "s",
+            "sˤ",
+            "tˤ",
+            "w",
+            "z",
+            "ħ",
+            "ʕ"
+          ]
+        },
+        "distribution_scope": "one maximum matching; ambiguous assignments are not independently identified",
+        "harmonic_checksum": {
+          "current_sum": 22,
+          "required_sum": 22,
+          "matched_slots": 22
+        },
+        "symmetry_gap": {
+          "unfilled_slots": 0,
+          "unassigned_known": 0,
+          "possible_missing_slots": []
+        },
+        "structural_distance": 0,
+        "harmonic_distance": null,
+        "reconstruction_suggestion": null,
+        "suggestion_scope": "Unique completion only within supplied slot model; not historical confirmation",
+        "input_candidates": [
+          {
+            "index": 0,
+            "symbol": "ʔ",
+            "slots": [
+              "ʔ"
+            ]
+          },
+          {
+            "index": 1,
+            "symbol": "m",
+            "slots": [
+              "m"
+            ]
+          },
+          {
+            "index": 2,
+            "symbol": "ʃ",
+            "slots": [
+              "ʃ"
+            ]
+          },
+          {
+            "index": 3,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          },
+          {
+            "index": 4,
+            "symbol": "g",
+            "slots": [
+              "g"
+            ]
+          },
+          {
+            "index": 5,
+            "symbol": "d",
+            "slots": [
+              "d"
+            ]
+          },
+          {
+            "index": 6,
+            "symbol": "k",
+            "slots": [
+              "k"
+            ]
+          },
+          {
+            "index": 7,
+            "symbol": "p",
+            "slots": [
+              "p"
+            ]
+          },
+          {
+            "index": 8,
+            "symbol": "r",
+            "slots": [
+              "r"
+            ]
+          },
+          {
+            "index": 9,
+            "symbol": "t",
+            "slots": [
+              "t"
+            ]
+          },
+          {
+            "index": 10,
+            "symbol": "h",
+            "slots": [
+              "h"
+            ]
+          },
+          {
+            "index": 11,
+            "symbol": "w",
+            "slots": [
+              "w"
+            ]
+          },
+          {
+            "index": 12,
+            "symbol": "z",
+            "slots": [
+              "z"
+            ]
+          },
+          {
+            "index": 13,
+            "symbol": "ħ",
+            "slots": [
+              "ħ"
+            ]
+          },
+          {
+            "index": 14,
+            "symbol": "tˤ",
+            "slots": [
+              "tˤ"
+            ]
+          },
+          {
+            "index": 15,
+            "symbol": "j",
+            "slots": [
+              "j"
+            ]
+          },
+          {
+            "index": 16,
+            "symbol": "l",
+            "slots": [
+              "l"
+            ]
+          },
+          {
+            "index": 17,
+            "symbol": "n",
+            "slots": [
+              "n"
+            ]
+          },
+          {
+            "index": 18,
+            "symbol": "s",
+            "slots": [
+              "s",
+              "ʃ"
+            ]
+          },
+          {
+            "index": 19,
+            "symbol": "ʕ",
+            "slots": [
+              "ʕ"
+            ]
+          },
+          {
+            "index": 20,
+            "symbol": "sˤ",
+            "slots": [
+              "sˤ"
+            ]
+          },
+          {
+            "index": 21,
+            "symbol": "q",
+            "slots": [
+              "q"
+            ]
+          }
+        ],
+        "issues": [],
+        "frequency_mapping_status": "No tuning or phoneme-frequency map supplied"
+      },
+      "observed": {
+        "status": "Valid",
+        "validation_scope": "stipulated structural model only",
+        "matrix_distribution": {
+          "Mothers": [
+            "m",
+            "ʃ",
+            "ʔ"
+          ],
+          "Doubles": [
+            "b",
+            "d",
+            "g",
+            "k",
+            "p",
+            "r",
+            "t"
+          ],
+          "Simples": [
+            "h",
+            "j",
+            "l",
+            "n",
+            "q",
+            "s",
+            "sˤ",
+            "tˤ",
+            "w",
+            "z",
+            "ħ",
+            "ʕ"
+          ]
+        },
+        "distribution_scope": "one maximum matching; ambiguous assignments are not independently identified",
+        "harmonic_checksum": {
+          "current_sum": 22,
+          "required_sum": 22,
+          "matched_slots": 22
+        },
+        "symmetry_gap": {
+          "unfilled_slots": 0,
+          "unassigned_known": 0,
+          "possible_missing_slots": []
+        },
+        "structural_distance": 0,
+        "harmonic_distance": null,
+        "reconstruction_suggestion": null,
+        "suggestion_scope": "Unique completion only within supplied slot model; not historical confirmation",
+        "input_candidates": [
+          {
+            "index": 0,
+            "symbol": "ʔ",
+            "slots": [
+              "ʔ"
+            ]
+          },
+          {
+            "index": 1,
+            "symbol": "m",
+            "slots": [
+              "m"
+            ]
+          },
+          {
+            "index": 2,
+            "symbol": "ʃ",
+            "slots": [
+              "ʃ"
+            ]
+          },
+          {
+            "index": 3,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          },
+          {
+            "index": 4,
+            "symbol": "g",
+            "slots": [
+              "g"
+            ]
+          },
+          {
+            "index": 5,
+            "symbol": "d",
+            "slots": [
+              "d"
+            ]
+          },
+          {
+            "index": 6,
+            "symbol": "k",
+            "slots": [
+              "k"
+            ]
+          },
+          {
+            "index": 7,
+            "symbol": "p",
+            "slots": [
+              "p"
+            ]
+          },
+          {
+            "index": 8,
+            "symbol": "r",
+            "slots": [
+              "r"
+            ]
+          },
+          {
+            "index": 9,
+            "symbol": "t",
+            "slots": [
+              "t"
+            ]
+          },
+          {
+            "index": 10,
+            "symbol": "h",
+            "slots": [
+              "h"
+            ]
+          },
+          {
+            "index": 11,
+            "symbol": "w",
+            "slots": [
+              "w"
+            ]
+          },
+          {
+            "index": 12,
+            "symbol": "z",
+            "slots": [
+              "z"
+            ]
+          },
+          {
+            "index": 13,
+            "symbol": "ħ",
+            "slots": [
+              "ħ"
+            ]
+          },
+          {
+            "index": 14,
+            "symbol": "tˤ",
+            "slots": [
+              "tˤ"
+            ]
+          },
+          {
+            "index": 15,
+            "symbol": "j",
+            "slots": [
+              "j"
+            ]
+          },
+          {
+            "index": 16,
+            "symbol": "l",
+            "slots": [
+              "l"
+            ]
+          },
+          {
+            "index": 17,
+            "symbol": "n",
+            "slots": [
+              "n"
+            ]
+          },
+          {
+            "index": 18,
+            "symbol": "s",
+            "slots": [
+              "s",
+              "ʃ"
+            ]
+          },
+          {
+            "index": 19,
+            "symbol": "ʕ",
+            "slots": [
+              "ʕ"
+            ]
+          },
+          {
+            "index": 20,
+            "symbol": "sˤ",
+            "slots": [
+              "sˤ"
+            ]
+          },
+          {
+            "index": 21,
+            "symbol": "q",
+            "slots": [
+              "q"
+            ]
+          }
+        ],
+        "issues": [],
+        "frequency_mapping_status": "No tuning or phoneme-frequency map supplied"
+      },
+      "format_difference": null,
+      "passed": true
+    },
+    {
+      "case": "missing_m",
+      "input": [
+        "ʔ",
+        "ʃ",
+        "b",
+        "g",
+        "d",
+        "k",
+        "p",
+        "r",
+        "t",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "l",
+        "n",
+        "s",
+        "ʕ",
+        "sˤ",
+        "q"
+      ],
+      "expected": {
+        "status": "Invalid",
+        "validation_scope": "stipulated structural model only",
+        "matrix_distribution": {
+          "Mothers": [
+            "ʃ",
+            "ʔ"
+          ],
+          "Doubles": [
+            "b",
+            "d",
+            "g",
+            "k",
+            "p",
+            "r",
+            "t"
+          ],
+          "Simples": [
+            "h",
+            "j",
+            "l",
+            "n",
+            "q",
+            "s",
+            "sˤ",
+            "tˤ",
+            "w",
+            "z",
+            "ħ",
+            "ʕ"
+          ]
+        },
+        "distribution_scope": "one maximum matching; ambiguous assignments are not independently identified",
+        "harmonic_checksum": {
+          "current_sum": 21,
+          "required_sum": 22,
+          "matched_slots": 21
+        },
+        "symmetry_gap": {
+          "unfilled_slots": 1,
+          "unassigned_known": 0,
+          "possible_missing_slots": [
+            "m"
+          ]
+        },
+        "structural_distance": 1,
+        "harmonic_distance": null,
+        "reconstruction_suggestion": "m",
+        "suggestion_scope": "Unique completion only within supplied slot model; not historical confirmation",
+        "input_candidates": [
+          {
+            "index": 0,
+            "symbol": "ʔ",
+            "slots": [
+              "ʔ"
+            ]
+          },
+          {
+            "index": 1,
+            "symbol": "ʃ",
+            "slots": [
+              "ʃ"
+            ]
+          },
+          {
+            "index": 2,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          },
+          {
+            "index": 3,
+            "symbol": "g",
+            "slots": [
+              "g"
+            ]
+          },
+          {
+            "index": 4,
+            "symbol": "d",
+            "slots": [
+              "d"
+            ]
+          },
+          {
+            "index": 5,
+            "symbol": "k",
+            "slots": [
+              "k"
+            ]
+          },
+          {
+            "index": 6,
+            "symbol": "p",
+            "slots": [
+              "p"
+            ]
+          },
+          {
+            "index": 7,
+            "symbol": "r",
+            "slots": [
+              "r"
+            ]
+          },
+          {
+            "index": 8,
+            "symbol": "t",
+            "slots": [
+              "t"
+            ]
+          },
+          {
+            "index": 9,
+            "symbol": "h",
+            "slots": [
+              "h"
+            ]
+          },
+          {
+            "index": 10,
+            "symbol": "w",
+            "slots": [
+              "w"
+            ]
+          },
+          {
+            "index": 11,
+            "symbol": "z",
+            "slots": [
+              "z"
+            ]
+          },
+          {
+            "index": 12,
+            "symbol": "ħ",
+            "slots": [
+              "ħ"
+            ]
+          },
+          {
+            "index": 13,
+            "symbol": "tˤ",
+            "slots": [
+              "tˤ"
+            ]
+          },
+          {
+            "index": 14,
+            "symbol": "j",
+            "slots": [
+              "j"
+            ]
+          },
+          {
+            "index": 15,
+            "symbol": "l",
+            "slots": [
+              "l"
+            ]
+          },
+          {
+            "index": 16,
+            "symbol": "n",
+            "slots": [
+              "n"
+            ]
+          },
+          {
+            "index": 17,
+            "symbol": "s",
+            "slots": [
+              "s",
+              "ʃ"
+            ]
+          },
+          {
+            "index": 18,
+            "symbol": "ʕ",
+            "slots": [
+              "ʕ"
+            ]
+          },
+          {
+            "index": 19,
+            "symbol": "sˤ",
+            "slots": [
+              "sˤ"
+            ]
+          },
+          {
+            "index": 20,
+            "symbol": "q",
+            "slots": [
+              "q"
+            ]
+          }
+        ],
+        "issues": [
+          "count differs from configured structure",
+          "incomplete structural coverage"
+        ],
+        "frequency_mapping_status": "No tuning or phoneme-frequency map supplied"
+      },
+      "observed": {
+        "status": "Invalid",
+        "validation_scope": "stipulated structural model only",
+        "matrix_distribution": {
+          "Mothers": [
+            "ʃ",
+            "ʔ"
+          ],
+          "Doubles": [
+            "b",
+            "d",
+            "g",
+            "k",
+            "p",
+            "r",
+            "t"
+          ],
+          "Simples": [
+            "h",
+            "j",
+            "l",
+            "n",
+            "q",
+            "s",
+            "sˤ",
+            "tˤ",
+            "w",
+            "z",
+            "ħ",
+            "ʕ"
+          ]
+        },
+        "distribution_scope": "one maximum matching; ambiguous assignments are not independently identified",
+        "harmonic_checksum": {
+          "current_sum": 21,
+          "required_sum": 22,
+          "matched_slots": 21
+        },
+        "symmetry_gap": {
+          "unfilled_slots": 1,
+          "unassigned_known": 0,
+          "possible_missing_slots": [
+            "m"
+          ]
+        },
+        "structural_distance": 1,
+        "harmonic_distance": null,
+        "reconstruction_suggestion": "m",
+        "suggestion_scope": "Unique completion only within supplied slot model; not historical confirmation",
+        "input_candidates": [
+          {
+            "index": 0,
+            "symbol": "ʔ",
+            "slots": [
+              "ʔ"
+            ]
+          },
+          {
+            "index": 1,
+            "symbol": "ʃ",
+            "slots": [
+              "ʃ"
+            ]
+          },
+          {
+            "index": 2,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          },
+          {
+            "index": 3,
+            "symbol": "g",
+            "slots": [
+              "g"
+            ]
+          },
+          {
+            "index": 4,
+            "symbol": "d",
+            "slots": [
+              "d"
+            ]
+          },
+          {
+            "index": 5,
+            "symbol": "k",
+            "slots": [
+              "k"
+            ]
+          },
+          {
+            "index": 6,
+            "symbol": "p",
+            "slots": [
+              "p"
+            ]
+          },
+          {
+            "index": 7,
+            "symbol": "r",
+            "slots": [
+              "r"
+            ]
+          },
+          {
+            "index": 8,
+            "symbol": "t",
+            "slots": [
+              "t"
+            ]
+          },
+          {
+            "index": 9,
+            "symbol": "h",
+            "slots": [
+              "h"
+            ]
+          },
+          {
+            "index": 10,
+            "symbol": "w",
+            "slots": [
+              "w"
+            ]
+          },
+          {
+            "index": 11,
+            "symbol": "z",
+            "slots": [
+              "z"
+            ]
+          },
+          {
+            "index": 12,
+            "symbol": "ħ",
+            "slots": [
+              "ħ"
+            ]
+          },
+          {
+            "index": 13,
+            "symbol": "tˤ",
+            "slots": [
+              "tˤ"
+            ]
+          },
+          {
+            "index": 14,
+            "symbol": "j",
+            "slots": [
+              "j"
+            ]
+          },
+          {
+            "index": 15,
+            "symbol": "l",
+            "slots": [
+              "l"
+            ]
+          },
+          {
+            "index": 16,
+            "symbol": "n",
+            "slots": [
+              "n"
+            ]
+          },
+          {
+            "index": 17,
+            "symbol": "s",
+            "slots": [
+              "s",
+              "ʃ"
+            ]
+          },
+          {
+            "index": 18,
+            "symbol": "ʕ",
+            "slots": [
+              "ʕ"
+            ]
+          },
+          {
+            "index": 19,
+            "symbol": "sˤ",
+            "slots": [
+              "sˤ"
+            ]
+          },
+          {
+            "index": 20,
+            "symbol": "q",
+            "slots": [
+              "q"
+            ]
+          }
+        ],
+        "issues": [
+          "count differs from configured structure",
+          "incomplete structural coverage"
+        ],
+        "frequency_mapping_status": "No tuning or phoneme-frequency map supplied"
+      },
+      "format_difference": null,
+      "passed": true
+    },
+    {
+      "case": "duplicate",
+      "input": [
+        "ʔ",
+        "m",
+        "ʃ",
+        "b",
+        "g",
+        "d",
+        "k",
+        "p",
+        "r",
+        "t",
+        "h",
+        "w",
+        "z",
+        "ħ",
+        "tˤ",
+        "j",
+        "l",
+        "n",
+        "s",
+        "ʕ",
+        "sˤ",
+        "b"
+      ],
+      "expected": {
+        "status": "Invalid",
+        "validation_scope": "stipulated structural model only",
+        "matrix_distribution": {
+          "Mothers": [
+            "m",
+            "ʃ",
+            "ʔ"
+          ],
+          "Doubles": [
+            "b",
+            "d",
+            "g",
+            "k",
+            "p",
+            "r",
+            "t"
+          ],
+          "Simples": [
+            "h",
+            "j",
+            "l",
+            "n",
+            "s",
+            "sˤ",
+            "tˤ",
+            "w",
+            "z",
+            "ħ",
+            "ʕ"
+          ]
+        },
+        "distribution_scope": "one maximum matching; ambiguous assignments are not independently identified",
+        "harmonic_checksum": {
+          "current_sum": 22,
+          "required_sum": 22,
+          "matched_slots": 21
+        },
+        "symmetry_gap": {
+          "unfilled_slots": 1,
+          "unassigned_known": 1,
+          "possible_missing_slots": []
+        },
+        "structural_distance": 2,
+        "harmonic_distance": null,
+        "reconstruction_suggestion": null,
+        "suggestion_scope": "Unique completion only within supplied slot model; not historical confirmation",
+        "input_candidates": [
+          {
+            "index": 0,
+            "symbol": "ʔ",
+            "slots": [
+              "ʔ"
+            ]
+          },
+          {
+            "index": 1,
+            "symbol": "m",
+            "slots": [
+              "m"
+            ]
+          },
+          {
+            "index": 2,
+            "symbol": "ʃ",
+            "slots": [
+              "ʃ"
+            ]
+          },
+          {
+            "index": 3,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          },
+          {
+            "index": 4,
+            "symbol": "g",
+            "slots": [
+              "g"
+            ]
+          },
+          {
+            "index": 5,
+            "symbol": "d",
+            "slots": [
+              "d"
+            ]
+          },
+          {
+            "index": 6,
+            "symbol": "k",
+            "slots": [
+              "k"
+            ]
+          },
+          {
+            "index": 7,
+            "symbol": "p",
+            "slots": [
+              "p"
+            ]
+          },
+          {
+            "index": 8,
+            "symbol": "r",
+            "slots": [
+              "r"
+            ]
+          },
+          {
+            "index": 9,
+            "symbol": "t",
+            "slots": [
+              "t"
+            ]
+          },
+          {
+            "index": 10,
+            "symbol": "h",
+            "slots": [
+              "h"
+            ]
+          },
+          {
+            "index": 11,
+            "symbol": "w",
+            "slots": [
+              "w"
+            ]
+          },
+          {
+            "index": 12,
+            "symbol": "z",
+            "slots": [
+              "z"
+            ]
+          },
+          {
+            "index": 13,
+            "symbol": "ħ",
+            "slots": [
+              "ħ"
+            ]
+          },
+          {
+            "index": 14,
+            "symbol": "tˤ",
+            "slots": [
+              "tˤ"
+            ]
+          },
+          {
+            "index": 15,
+            "symbol": "j",
+            "slots": [
+              "j"
+            ]
+          },
+          {
+            "index": 16,
+            "symbol": "l",
+            "slots": [
+              "l"
+            ]
+          },
+          {
+            "index": 17,
+            "symbol": "n",
+            "slots": [
+              "n"
+            ]
+          },
+          {
+            "index": 18,
+            "symbol": "s",
+            "slots": [
+              "s",
+              "ʃ"
+            ]
+          },
+          {
+            "index": 19,
+            "symbol": "ʕ",
+            "slots": [
+              "ʕ"
+            ]
+          },
+          {
+            "index": 20,
+            "symbol": "sˤ",
+            "slots": [
+              "sˤ"
+            ]
+          },
+          {
+            "index": 21,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          }
+        ],
+        "issues": [
+          "unknown symbol or competing occupancy; no injective assignment",
+          "incomplete structural coverage"
+        ],
+        "frequency_mapping_status": "No tuning or phoneme-frequency map supplied"
+      },
+      "observed": {
+        "status": "Invalid",
+        "validation_scope": "stipulated structural model only",
+        "matrix_distribution": {
+          "Mothers": [
+            "m",
+            "ʃ",
+            "ʔ"
+          ],
+          "Doubles": [
+            "b",
+            "d",
+            "g",
+            "k",
+            "p",
+            "r",
+            "t"
+          ],
+          "Simples": [
+            "h",
+            "j",
+            "l",
+            "n",
+            "s",
+            "sˤ",
+            "tˤ",
+            "w",
+            "z",
+            "ħ",
+            "ʕ"
+          ]
+        },
+        "distribution_scope": "one maximum matching; ambiguous assignments are not independently identified",
+        "harmonic_checksum": {
+          "current_sum": 22,
+          "required_sum": 22,
+          "matched_slots": 21
+        },
+        "symmetry_gap": {
+          "unfilled_slots": 1,
+          "unassigned_known": 1,
+          "possible_missing_slots": []
+        },
+        "structural_distance": 2,
+        "harmonic_distance": null,
+        "reconstruction_suggestion": null,
+        "suggestion_scope": "Unique completion only within supplied slot model; not historical confirmation",
+        "input_candidates": [
+          {
+            "index": 0,
+            "symbol": "ʔ",
+            "slots": [
+              "ʔ"
+            ]
+          },
+          {
+            "index": 1,
+            "symbol": "m",
+            "slots": [
+              "m"
+            ]
+          },
+          {
+            "index": 2,
+            "symbol": "ʃ",
+            "slots": [
+              "ʃ"
+            ]
+          },
+          {
+            "index": 3,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          },
+          {
+            "index": 4,
+            "symbol": "g",
+            "slots": [
+              "g"
+            ]
+          },
+          {
+            "index": 5,
+            "symbol": "d",
+            "slots": [
+              "d"
+            ]
+          },
+          {
+            "index": 6,
+            "symbol": "k",
+            "slots": [
+              "k"
+            ]
+          },
+          {
+            "index": 7,
+            "symbol": "p",
+            "slots": [
+              "p"
+            ]
+          },
+          {
+            "index": 8,
+            "symbol": "r",
+            "slots": [
+              "r"
+            ]
+          },
+          {
+            "index": 9,
+            "symbol": "t",
+            "slots": [
+              "t"
+            ]
+          },
+          {
+            "index": 10,
+            "symbol": "h",
+            "slots": [
+              "h"
+            ]
+          },
+          {
+            "index": 11,
+            "symbol": "w",
+            "slots": [
+              "w"
+            ]
+          },
+          {
+            "index": 12,
+            "symbol": "z",
+            "slots": [
+              "z"
+            ]
+          },
+          {
+            "index": 13,
+            "symbol": "ħ",
+            "slots": [
+              "ħ"
+            ]
+          },
+          {
+            "index": 14,
+            "symbol": "tˤ",
+            "slots": [
+              "tˤ"
+            ]
+          },
+          {
+            "index": 15,
+            "symbol": "j",
+            "slots": [
+              "j"
+            ]
+          },
+          {
+            "index": 16,
+            "symbol": "l",
+            "slots": [
+              "l"
+            ]
+          },
+          {
+            "index": 17,
+            "symbol": "n",
+            "slots": [
+              "n"
+            ]
+          },
+          {
+            "index": 18,
+            "symbol": "s",
+            "slots": [
+              "s",
+              "ʃ"
+            ]
+          },
+          {
+            "index": 19,
+            "symbol": "ʕ",
+            "slots": [
+              "ʕ"
+            ]
+          },
+          {
+            "index": 20,
+            "symbol": "sˤ",
+            "slots": [
+              "sˤ"
+            ]
+          },
+          {
+            "index": 21,
+            "symbol": "b",
+            "slots": [
+              "b"
+            ]
+          }
+        ],
+        "issues": [
+          "unknown symbol or competing occupancy; no injective assignment",
+          "incomplete structural coverage"
+        ],
+        "frequency_mapping_status": "No tuning or phoneme-frequency map supplied"
+      },
+      "format_difference": null,
+      "passed": true
+    }
+  ],
+  "full_original_demo_equal": true,
+  "original_demo_checks": 3,
+  "pair_counts": {
+    "base": 22,
+    "expanded": 29,
+    "undirected": 231,
+    "directed_distinct": 462,
+    "ordered_with_self": 484
+  },
+  "historical_controls": [
+    "recensions",
+    "qere_ketiv",
+    "epigraphy",
+    "orientations"
+  ],
+  "all_frozen_hashes_match": true,
+  "syntax_checked": [
+    "acquire_closeout.py",
+    "checkpoint.py",
+    "closeout_fixtures.py",
+    "contracts.py",
+    "evidence.py",
+    "final_acceptance.py",
+    "import_closeout_documents.py",
+    "kernel.py",
+    "reconcile_checkpoint.py",
+    "reconcile_current_chat.py",
+    "sefer.py",
+    "test_closeout.py",
+    "test_final_acceptance.py",
+    "test_g0.py",
+    "test_g1.py",
+    "test_kernel.py",
+    "verify_closeout.py",
+    "verify_reconciliation.py"
+  ],
+  "dependency_exit": 0,
+  "g7_denied": [
+    "register",
+    "evaluate",
+    "serialized_unlock"
+  ],
+  "regressions_fixed": [
+    "duplicate evidence identity accepted by native validation",
+    "missing source-claim binding accepted by native validation"
+  ],
+  "gates": {
+    "G0": "PASSED",
+    "G1": "PASSED",
+    "G2": "LOCKED",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "limitations": [
+    "Historical source controls verify faithful edition/publication representation, not historical root truth",
+    "Earliest surviving manuscript priority has not been established for retrieved digital editions",
+    "Lachish original PDF capture failed; separately attributed inspected excerpt is not original artifact bytes",
+    "No static type checker or separate linter executed; AST syntax, runtime tests and dependency checks executed",
+    "No independent reviewer or new manual Jev inference; automatic observations are not certification"
+  ],
+  "stop": "G0/G1 acceptance complete for bounded scope. No G2-G7 implementation or unlock performed.",
+  "files": {
+    "acquire_closeout.py": "6038167971d115966a99c8a8a19e42ceb5ecb8e12d235b5482f5439c2295ece1",
+    "checkpoint.py": "2c226540e82f2e0d13049d64afe6e032fd556c0cf95051935b7bd0fb7f173246",
+    "closeout_fixtures.py": "2aa7042096c792309891553986df7a49d2120c030ddf53cff80855f71919c81d",
+    "contracts.py": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c",
+    "evidence.py": "47192d0f5ac6bc8acf5a5c1f078251882f854b0b24bad0424e34d36938b31ae1",
+    "final_acceptance.py": "95def9475d4debc4a74d7db8bf46822c34a07189522909409806183e656fb247",
+    "import_closeout_documents.py": "57b61ded1ae30b255aba016bd19c76d3c75b53dd3d10bd8460a45e1890ff9600",
+    "kernel.py": "9dcf8698eecf3d789e6f9ffa55ed752f40d20b309b5e12d64f64906ee50e3d09",
+    "reconcile_checkpoint.py": "bd9b0b4e80a4cf531eb01354fe8c760533c8dc3adb6ad6ca8b323d80eed6845a",
+    "reconcile_current_chat.py": "938a5620be2479a1238a0c8104983a6f24692479132b4083bdb297224194b4f2",
+    "sefer.py": "c3936a9f25835faaa59a75445255f70f735eba7a9d20fb77c503c6c528b928c7",
+    "test_closeout.py": "4eb12cab16f89aa3121ecffa2b28eeb8693d8faf24a9cf3e23fba1f782af50ac",
+    "test_final_acceptance.py": "e97ce867cdbcde66194d9135e1f2f96b7e448879365e945310fd75133a333d95",
+    "test_g0.py": "a9783776ea5e3843b8fd3ceae549775a8f8830fb05366261eaefdad2d4582637",
+    "test_g1.py": "348556f62e142b992ea4091b3516b8173411f6ad08ed6f4ff40e5e0774ce2322",
+    "test_kernel.py": "0fd1844c5d34251406a53b3e0b499d050761468ba0fa30799e1c6a10dd0f8c7d",
+    "verify_closeout.py": "144caca78ca6931d953eccba856be3f4756cb5abdf0e92ef4261fbb59e151a0d",
+    "verify_reconciliation.py": "ba18e047a0f2ed2237937bf38ada930ede2c90a6562faa6d13c39010a6d15a0e"
+  }
+}

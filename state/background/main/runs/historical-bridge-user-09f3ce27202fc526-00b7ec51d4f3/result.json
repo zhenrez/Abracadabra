@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-user-09f3ce27202fc526",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:55:31.880340+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8/text.txt",
+        "sha256": "09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8",
+        "start_line": 1,
+        "end_line": 99,
+        "source_role": "user",
+        "source_id": "6a5f1aa8957fef65bdc531d7eecf794fbf7dfea65795c72406d579c4062acf55",
+        "message_id": "232cfacd5cc14b7a5df01b0af6792b3bdfb1698206529f011bff31a4e4f8a3ad",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "232cfacd5cc14b7a5df01b0af6792b3bdfb1698206529f011bff31a4e4f8a3ad",
+          "native_id": "4",
+          "conversation_id": "67f78c51bb8636c7c6f559114771f69556436fb3f1e439a9dd450d0420c00139",
+          "role": "user",
+          "content_sha256": "09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8",
+          "source_id": "6a5f1aa8957fef65bdc531d7eecf794fbf7dfea65795c72406d579c4062acf55",
+          "locator": "lines:490-591",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Branch · Trace Fludd Kepler Clue",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\RELATED_LINEAGES\\ChatGPT-Branch · Trace Fludd Kepler Clue-20260915-0601.txt",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/RELATED_LINEAGES/ChatGPT-Branch · Trace Fludd Kepler Clue-20260915-0601.txt",
+          "source_sha256": "592ec7e5985a1d8f661250c73b601225cc48f871845511c4425a652e27300169",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "592ec7e5985a1d8f661250c73b601225cc48f871845511c4425a652e27300169",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8/occurrences-d2d7a385da4e1b9fc8fc73339f46409eefdac6fcf70770b8ecdb61e1d33bbc49.json",
+        "quote": "9/12/2026, 12:18:53 AM\n\nThe missing “filler” is very likely the syntonic comma 81:80.\n\nThe first-edition texts jointly produce an exact operation:\n\n\\underbrace{\\frac{256}{243}}_{\\text{Fludd's limma}}\n\\times\n\\underbrace{\\frac{81}{80}}_{\\text{Kepler's comma}}\n=\n\\underbrace{\\frac{16}{15}}_{\\text{MI–FA semitone}}\n\nEquivalently:\n\n\\frac{16}{15}\\div\\frac{81}{80}=\\frac{256}{243}.\n\nThis is not a numerical coincidence assembled from modern theory. Kepler states the operation in the 1619 first edition of Harmonices Mundi: remove the comma 81:80 from the semitone 16:15, and the remainder is the Platonic limma 256:243. Elsewhere in that same first edition he gives Earth’s motion as:\n\n\\text{MI–FA–MI}.\n\nFludd, meanwhile, prints the 256:243 limma explicitly as the E–F space in the 1622 first edition of Monochordum Mundi. Therefore each author visibly holds one side of the same decomposition:\n\nSource systemPrinted quantityFunction\nFludd\n256:243\nlimma\nKepler\n81:80\ncomma/correction\nKepler’s Earth song\n16:15\nMI–FA\nCombined\n(256/243)(81/80)=16/15\ncompleted semitone\n\nThat gives “misplaced comma” a technically precise meaning: the comma is absent from—or concealed beside—Fludd’s limma. Restoring it converts Fludd’s E–F interval into Kepler’s MI–FA interval.\n\nThe debate itself supplies the pointer. In Kepler’s 1622 first-edition Apologia:\n\nOn printed page 14, Kepler says Fludd has confused the Platonic 243:256 semitone with the Ptolemaic tonal system.\n\nOn printed page 41, Kepler directly challenges Fludd: effectively, “Where do you place the semitone?”\n\nThat challenge appears to be the instruction we had been seeking:\n\nFind where Fludd placed his semitone, identify it as the limma 256:243, then restore Kepler’s comma 81:80 to obtain the MI–FA 16:15.\n\nSo the probable clue chain is:\n\n\\text{“Where is Fludd’s semitone?”}\n\\rightarrow\nE\\!-\\!F=\\frac{256}{243}\n\\rightarrow\n+\\text{comma }\\frac{81}{80}\n\\rightarrow\n\\frac{16}{15}\n\\rightarrow\n\\text{MI–FA–MI}.\n\nA second genuinely useful result is that the return and octave must be separate operations:\n\nC_3\n\\xrightarrow{\\;16/15\\;}\nFA\n\\xrightarrow{\\;15/16\\;}\nC_3\n\\xrightarrow{\\text{Fluddian bisection}}\nC_4=\\frac{C_3}{2}\n\nin monochord-length coordinates. MI–FA–MI returns to its starting pitch; it cannot itself produce the octave. Fludd’s printed same-letter bisection supplies the register change afterward. Thus the bridge landing is provisionally:\n\n\\boxed{\nB_{FK}(\\ell)\n=\nO_\\ell\\!\\left(\nR^\\ell_{(81/80)(256/243)}(\\ell)\n\\right)\n=\n\\frac{\\ell}{2}\n}\n\nwhere R is the complete MI–FA–MI excursion and O_\\ell is Fludd’s halving into the next register.\n\nOther actual findings—not confirmations:\n\nThe “Ex Fama” marginal note in Otreb means “from the Fama,” not fames/famine. It should not be used as evidence for Kepler’s “miseriam et famem.”\n\nThe proposed “same German publisher” connection does not survive bibliographic checking. Fludd/Otreb use the de Bry circle; Kepler’s Harmonices uses Tampach and Planck. There is a Frankfurt production-network overlap, but not yet a shared publisher.\n\nYour Temple-of-Music plate is the strongest new graphical lead because it places solmization syllables and numbers including 81 within the same visual apparatus. I have not yet established that the plate deliberately pairs 81 with MI–FA, so that remains a target—not a finding.\n\nSo the honest answer is: one substantial new result. The Fludd–Kepler bridge is not merely “a semitone at the boundary.” It is a semitone deliberately distributed between their systems:\n\n\\boxed{\\text{Fludd limma}+\\text{Kepler comma}=\\text{Kepler MI–FA}.}\n\nThat is the first result I would call a genuine reverse-engineered correspondence rather than verification of your research.\n\n[Attachment: Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked(1).pdf]",
+        "quote_sha256": "09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8",
+        "original_bytes": 3875,
+        "start_offset": 0,
+        "end_offset": 3773
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "2321b456fb1eb68c0428a58ef20593b8e9738d35cef1f3ae8555231495e59554",
+        "artifact_id": "b553d7c1-716f-5dda-98c8-eb0b689f1837",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.12,
+            "refines": 0.22,
+            "supports": 0.65
+          },
+          "winner": "supports",
+          "top_probability": 0.65,
+          "margin": 0.43000000000000005
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.98,
+            "refines": 0.01,
+            "supports": 0.01
+          },
+          "winner": "insufficient",
+          "top_probability": 0.98,
+          "margin": 0.97
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.216,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

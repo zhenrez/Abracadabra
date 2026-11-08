@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "claim_id": "SUNNY_NATIVE_OPERATOR_EXECUTION",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "node",
+    "scripts/reconstruct_native_execution.mjs",
+    "docs/evidence/native-execution-audit-run001/result.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.13.0"
+      },
+      {
+        "name": "Node.js",
+        "version": "22.14.0"
+      },
+      {
+        "name": "TypeScript generated JavaScript target",
+        "version": "ES2022 / NodeNext"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26340-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "The ten source-bound mechanisms preserve their declared exact finite subset and unknown boundaries; 14 focused API/algebra tests and all ten registry scenario outcomes are reproduced.",
+    "coefficient_domain": "Exact BigInt-normalized rational strings, finite Z/12 actions, exact bounded integer indices and Boolean predicates; conditional finite kernel rationals.",
+    "conventions": "rho_k is left cyclic index rotation; J reverses positions; D12 affine actions change pitch-class values; Euclidean phase is a whole cyclic orbit; complement is relative to explicit finite universe.",
+    "inputs": [
+      "Pinned native GG generative_registry: ten mechanisms, nineteen literal member occurrences",
+      "Actual caller payloads in declared source/test scenarios; test-prefixed synthetic witnesses remain test data"
+    ],
+    "bounds": {
+      "reversal_rotation_n": [
+        1,
+        32
+      ],
+      "reversal_rotation_k": "-n..n",
+      "reversal_rotation_cases": 1088,
+      "euclidean_slots": [
+        1,
+        256
+      ],
+      "finite_sieve_universe_max": 2048,
+      "request_utf8_byte_max": 48000,
+      "focused_tests": 14
+    },
+    "non_claims": [
+      "No complete historical domain data or unique phase/orientation is inferred.",
+      "Abstract group equivalence does not supply a PLR triad action.",
+      "No learned kernel, acoustic proof or overlap map is fabricated.",
+      "Finite passing tests alone do not prove universal identities; separate index arguments are documented."
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-31T21:59:22.568497+00:00",
+    "runtime_seconds": 0.245717,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 30.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "src/native-operators.ts",
+    "src/law.ts",
+    "dist/native-operators.js",
+    "dist/law.js",
+    "tests/native-operators.test.mjs",
+    "scripts/reconstruct_native_execution.mjs",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+    "docs/evidence/native-execution-math-jev-request.json",
+    "docs/evidence/native-execution-math-jev-result.json",
+    "docs/evidence/native-execution-wolfram-request.json",
+    "docs/evidence/native-execution-wolfram-result.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "src/native-operators.ts",
+      "sha256": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b",
+      "sha256_after": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b"
+    },
+    {
+      "path": "src/law.ts",
+      "sha256": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+      "sha256_after": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f"
+    },
+    {
+      "path": "dist/native-operators.js",
+      "sha256": "b31b157e365bced8670659447ee9c038ea939d65fffd7c6c09b2073d7212d3e5",
+      "sha256_after": "b31b157e365bced8670659447ee9c038ea939d65fffd7c6c09b2073d7212d3e5"
+    },
+    {
+      "path": "dist/law.js",
+      "sha256": "82a70029affd342fcef458f9d5a7dbb408566602cb2dfe4cad26b7539cdd7474",
+      "sha256_after": "82a70029affd342fcef458f9d5a7dbb408566602cb2dfe4cad26b7539cdd7474"
+    },
+    {
+      "path": "tests/native-operators.test.mjs",
+      "sha256": "31b80212cb2395abb0ee0a72268e22d0bdbc82834cc1a3cb73c3cdba647340af",
+      "sha256_after": "31b80212cb2395abb0ee0a72268e22d0bdbc82834cc1a3cb73c3cdba647340af"
+    },
+    {
+      "path": "scripts/reconstruct_native_execution.mjs",
+      "sha256": "ae4df1f1ef0fbcdd1f864eb62e9b6054df454ed53987035e4e1d853d113c2d8b",
+      "sha256_after": "ae4df1f1ef0fbcdd1f864eb62e9b6054df454ed53987035e4e1d853d113c2d8b"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "sha256_after": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-request.json",
+      "sha256": "7ad8ef20117633bd0fef816bdd88e04dc3b5711144f253d7ef051bfcc18913e8",
+      "sha256_after": "7ad8ef20117633bd0fef816bdd88e04dc3b5711144f253d7ef051bfcc18913e8"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-result.json",
+      "sha256": "09add4ecfd3e42e29620bcd88c4a79263017c1b77804c1d1a3593e352c5478f9",
+      "sha256_after": "09add4ecfd3e42e29620bcd88c4a79263017c1b77804c1d1a3593e352c5478f9"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-request.json",
+      "sha256": "58a0c408de8ce56574420a97fffca5c06b4c1a089f5285f296f40dd8227eb229",
+      "sha256_after": "58a0c408de8ce56574420a97fffca5c06b4c1a089f5285f296f40dd8227eb229"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-result.json",
+      "sha256": "78705e567de44e9893cd66f95ce604f910f94f6087a5b58d5d2ffd201ced77a4",
+      "sha256_after": "78705e567de44e9893cd66f95ce604f910f94f6087a5b58d5d2ffd201ced77a4"
+    }
+  ],
+  "output_directory": "docs/evidence/native-execution-audit-run001",
+  "declared_results": [
+    "docs/evidence/native-execution-audit-run001/result.json"
+  ],
+  "outputs": [
+    {
+      "path": "docs/evidence/native-execution-audit-run001/stdout.txt",
+      "sha256": "6984ae68e3c683d648b11cbd33578a390972ef7a79c3ee743b31301fa99c3ec9",
+      "kind": "log"
+    },
+    {
+      "path": "docs/evidence/native-execution-audit-run001/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "docs/evidence/native-execution-audit-run001/result.json",
+      "sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "c80992c3651a19784f928ebc8660bf7b83fa3e548f67eb3e3624b7590c497f9e",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next": {
+        "type": "choice",
+        "probabilities": {
+          "matrix": 0.96,
+          "retry": 0.04
+        },
+        "winner": "matrix",
+        "top_probability": 0.96,
+        "margin": 0.9199999999999999
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 414,
+      "output_tokens": 31
+    },
+    "network_calls": 1,
+    "latency_ms": 251
+  },
+  "request": {
+    "questions": {
+      "next": {
+        "instructions": "Select next discriminating artifact",
+        "type": "choice",
+        "criteria": {
+          "retry": "Repeat blocked BL image request now.",
+          "matrix": "Define witness-specific hypotheses, shared predictions, and falsifiers, linked to existing evidence; no invented exact sound."
+        }
+      }
+    },
+    "state": "G16 symbols first. Six dotted aleph tokens in pinned WLC. Khan p142 reports shadda in BL Or2552 Job33:21 and interprets gemination. Direct images unavailable. Khan p148 reports dotted final nonconsonantal aleph in NS248.2. Need progress on original phonetic constraints."
+  }
+}

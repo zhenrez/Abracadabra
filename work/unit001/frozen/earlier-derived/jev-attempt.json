@@ -1,0 +1,24 @@
+{
+  "request": {
+    "state": "Goal: bounded SUN/ARIADNE inverse glyph-phoneme prototype from user supplied 15-script 36-column table. Constraints: frozen kernel unchanged, full receipts, no fabricated topology. Table mixes historical proxies, single phonemes, slash alternatives, sequences, Old Persian syllabic values, English letter names, s³ label and ?. Existing kernel is separate TypeScript; new isolated standard-library Python pipeline can avoid it. Need choose analysis representation before implementation.",
+    "question": "Which representation should govern this prototype?",
+    "options": {
+      "typed": "Preserve script/column/source labels; 15-bit articulatory vectors per segment with masks for inapplicable place; alternatives as separate candidates; sequences ordered; topology only from annotated graphs. Compression descriptive with controls, no historical identity conclusion.",
+      "pooled": "Pool each sign into one averaged vector and infer a universal deterministic source directly from compression."
+    }
+  },
+  "receipt": {
+    "content": [
+      {
+        "type": "text",
+        "text": "This action was rejected due to unacceptable risk.\nReason: The action would send internal project state and constraints to an unverified hosted Jev endpoint; authorization covers using Jev/local coordination but does not specifically authorize this sensitive payload to that external destination.\nDo not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval."
+      }
+    ],
+    "isError": true
+  },
+  "local_health": {
+    "status": "unavailable",
+    "error": "Connection refused at existing local 127.0.0.1:8149 after authorized diagnostic retry"
+  },
+  "decision_status": "No model inference completed; no substitute host/model vote. Engineering implementation is provisional, not a Jev-approved substantive model."
+}

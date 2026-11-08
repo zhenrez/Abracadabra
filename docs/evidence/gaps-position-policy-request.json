@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Correct source-position access for two preserved native JSONL snapshots while retaining historical import provenance.",
+    "observed": "Actual Jev receipt000020 selected adding seven exact native records via physicalLF/byte locators. The original str.splitlines importer also assigned legacy line numbers to successfully parsed records after legal U+2028 string characters, so those existing locators can drift from physicalLF line numbers. Each existing message retains canonical raw_json and original message ID. PhysicalLF parsing has no JSON errors. Duplicate identical raw records must be matched in source order rather than collapsed.",
+    "constraints": "Do not overwrite original source bytes or existing message IDs. Do not confuse existing legacy native_id strings (splitline indexes) with upstream native record ordinals. Seven added records need a distinct physicalLF:<line> namespace. Keep old source locator provenance visible and exact new byte ranges separately typed. Database backup and fresh FK/hash/search checks are required."
+  },
+  "questions": [
+    {
+      "id": "position_policy",
+      "type": "choice",
+      "question": "Which representation should correct all affected source-position access?",
+      "options": {
+        "add_positions": "Add a source_positions table keyed by original message ID, storing exact physicalLF line, UTF8byte half-open range, raw-record hash and preserved legacy locator. Match canonical raw_json hashes in source order and retain duplicate occurrences. Do not rewrite existing message locators.",
+        "revise_with_history": "Revise existing message locators to physicalLF/byte coordinates and preserve their previous locator strings in a new separate history table. Keep message IDs unchanged."
+      }
+    }
+  ]
+}

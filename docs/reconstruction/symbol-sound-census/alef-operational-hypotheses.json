@@ -1,0 +1,40 @@
+{
+  "question": "What phonetic operation does a dot on aleph encode within each witnessed reading practice?",
+  "hypotheses": [
+    {
+      "id": "articulation",
+      "scope": "Medial canonical aleph in standard Tiberian reading",
+      "claim": "The dot requires consonantal realization but does not itself prescribe gemination.",
+      "prediction": "Articulation instructions should suffice; a diagnostic gemination mark in an aligned transcription needs another explanation.",
+      "test": "Collate Or2552 Job33:21 and controls establishing whether its shadda marks single consonants."
+    },
+    {
+      "id": "gemination",
+      "scope": "Medial canonical aleph in standard Tiberian reading",
+      "claim": "The dot prescribes a geminate realization.",
+      "prediction": "An independent transcription system that marks gemination should mark this locus accordingly.",
+      "test": "Or2552 supplies a reported supporting instance; reproduce the sign and the scribal control distribution."
+    },
+    {
+      "id": "universal-consonantal-dot",
+      "scope": "All manuscripts and word positions",
+      "claim": "Every dot on aleph requires consonantal realization.",
+      "prediction": "No dotted aleph may be nonconsonantal.",
+      "test": "Khan p148 reports NS248.2 counterexamples. Verify marks and the argument for nonconsonantal reading before independent exclusion."
+    }
+  ],
+  "dependencies": [
+    "job33-alef-gemination-control.json",
+    "tiberian-alef-testimony.json",
+    "wlc-dotted-alef-census.json"
+  ],
+  "sharedConsequences": [
+    "A geminate consonant also has consonantal realization. Detecting closure alone cannot distinguish the first two hypotheses.",
+    "No exact doubling ratio follows from the label geminate. Speech rate, context and realization require their own evidence."
+  ],
+  "nextEvidence": [
+    "Or2552 target plus independently classified shadda controls",
+    "NS248.2 final aleph marks and reading context"
+  ],
+  "limits": "These are explicit competing operational hypotheses. The dot inventory is orthographic evidence. Original sacred intention, exact waveform, and transfer to earlier scripts remain unresolved."
+}

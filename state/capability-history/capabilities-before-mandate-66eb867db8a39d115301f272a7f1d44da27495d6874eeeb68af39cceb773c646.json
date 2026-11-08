@@ -1,0 +1,285 @@
+{
+  "schema": "sunny.capability-ledger.v1",
+  "selected_by": "state/jev-receipts/000018-d31a1e7ee9d3.json",
+  "plugins": [
+    {
+      "name": "SuperJev",
+      "version_or_capability": "0.1.0; `superjev`, runtime, context/recovery guidance",
+      "historical_application": "Instructions read; bounded source recovery, exact checkpoints and actual-versus-inferred reporting applied. Primary agent reported status check with no TypeSafe key.",
+      "historical_boundary": "No live Jev judgment obtained. The latest strict user instruction overrides ordinary host fallback during outage.",
+      "status": "executed_live_cloud_and_local",
+      "detail": "Installed coordination/recovery/verification skills applied. Fresh cloud connection actually returned judged jev-1.14.0; pinned local model decisions retain separate full receipts. No cloud/local parity claim.",
+      "description": "Installed coordination/recovery/verification skills applied. Fresh cloud connection actually returned judged jev-1.14.0; pinned local model decisions retain separate full receipts. No cloud/local parity claim.",
+      "boundary": "No live Jev judgment obtained. The latest strict user instruction overrides ordinary host fallback during outage.",
+      "evidence": "docs/evidence/superjev-live-connection.json; state/superjev-connection-check.json; scripts/jev_tool.py; state/jev-receipts; state/superjev-checkpoint.json"
+    },
+    {
+      "name": "Supermemory",
+      "version_or_capability": "Connected tools",
+      "historical_application": "Spaces lookup returned zero; primary reported active-space research search with no matches. A later continuity checkpoint was accepted as document `uDs4epoiuKUcFSNPgG4sMt` in `sm_project_default`, initially `queued`; the primary subsequently reported successful readback with extraction still `dreaming`.",
+      "historical_boundary": "Empty lookup is not absence of account history. Queued extraction is not searchable-memory verification. Evidence: `evidence/supermemory-spaces.json`, `evidence/supermemory-checkpoint-save.json`.",
+      "status": "executed_read_write",
+      "detail": "Continuity checkpoints accepted and initial document read back; extraction/search can lag. No account-completeness claim.",
+      "description": "Continuity checkpoints accepted and initial document read back; extraction/search can lag. No account-completeness claim.",
+      "boundary": "Empty lookup is not absence of account history. Queued extraction is not searchable-memory verification. Evidence: `evidence/supermemory-spaces.json`, `evidence/supermemory-checkpoint-save.json`.",
+      "evidence": "docs/evidence/supermemory-checkpoint-save.json; saved document IDs in task checkpoint"
+    },
+    {
+      "name": "AgentJev Decisions",
+      "version_or_capability": "Connected local health/info tools",
+      "historical_application": "Actual health and info calls returned connection refused at `http://127.0.0.1:8149`. Full results saved.",
+      "historical_boundary": "No decision, probability, law selection or orientation judgment occurred. Evidence: `evidence/agentjev-health.json`, `evidence/agentjev-info.json`.",
+      "status": "executed_live",
+      "detail": "Native health/info/evaluate/score succeeded after local bootstrap. CPU8149 remains default; GPU environment and prior bounded comparison retained. Service running state must be checked separately; owned workers are closed when finished.",
+      "description": "Native health/info/evaluate/score succeeded after local bootstrap. CPU8149 remains default; GPU environment and prior bounded comparison retained. Service running state must be checked separately; owned workers are closed when finished.",
+      "boundary": "No decision, probability, law selection or orientation judgment occurred. Evidence: `evidence/agentjev-health.json`, `evidence/agentjev-info.json`.",
+      "evidence": "docs/evidence/jev-native-bootstrap-result.json; docs/JEV_RUNTIME.md; state/processes"
+    },
+    {
+      "name": "Prumo + Jev Research",
+      "version_or_capability": "0.1.0; `decision-index`",
+      "historical_application": "Bundled exact arithmetic adapter executed on the whole expression `720 / 360`, result `2`; complete request and response saved.",
+      "historical_boundary": "Prumo is the local rule adapter, not the unavailable learned Jev model. `calibrated:false` and hand-set weight semantics are preserved. This arithmetic diagnostic does not validate the geometry or choose an orientation. Evidence: `evidence/prumo-request.json`, `evidence/prumo-result.json`.",
+      "status": "executed_arithmetic_and_applied_research",
+      "detail": "Exact720/360 computation plus source-recovery research workflow; actual Jev decisions now use independent live service.",
+      "description": "Exact720/360 computation plus source-recovery research workflow; actual Jev decisions now use independent live service.",
+      "boundary": "Prumo is the local rule adapter, not the unavailable learned Jev model. `calibrated:false` and hand-set weight semantics are preserved. This arithmetic diagnostic does not validate the geometry or choose an orientation. Evidence: `evidence/prumo-request.json`, `evidence/prumo-result.json`.",
+      "evidence": "docs/evidence/prumo-result.json; docs/NATIVE_KERNEL_AUDIT.md"
+    },
+    {
+      "name": "Research Evidence Finder",
+      "version_or_capability": "1.0.0; source-verification method",
+      "historical_application": "Installed instructions inspected. Exact source/excerpt hashes, one-based source locations, direct-user versus assistant provenance and extraction limits applied in `REQUIREMENTS.json`.",
+      "historical_boundary": "No literature review, independent historical adjudication or count of corroborating studies is claimed. Source verification establishes what the supplied record says.",
+      "status": "applied_source_verification",
+      "detail": "Exact source spans and byte hashes retained; new native artifact bindings being audited; no literature or full-account certificate.",
+      "description": "Exact source spans and byte hashes retained; new native artifact bindings being audited; no literature or full-account certificate.",
+      "boundary": "No literature review, independent historical adjudication or count of corroborating studies is claimed. Source verification establishes what the supplied record says.",
+      "evidence": "docs/REQUIREMENTS.json; docs/evidence/recovery-integrity.json"
+    },
+    {
+      "name": "Research Methodology",
+      "version_or_capability": "1.1.0; `research-methodology`, descriptive, research-record and working principles",
+      "historical_application": "Source canon, charter, findings ledger, explicit scope/object filters and acceptance boundaries written in `SPECIFICATION.md`.",
+      "historical_boundary": "This records requirement evidence; it is not a completed empirical validation of SUNNY. The workflow was loaded during recovery, so no claim is made that a pre-collection charter existed before the initial attachment read.",
+      "status": "applied_research_workflow",
+      "detail": "Source-backed specification, objective/finding ledgers and current bounded native audit; discovery and adjudication remain separate.",
+      "description": "Source-backed specification, objective/finding ledgers and current bounded native audit; discovery and adjudication remain separate.",
+      "boundary": "This records requirement evidence; it is not a completed empirical validation of SUNNY. The workflow was loaded during recovery, so no claim is made that a pre-collection charter existed before the initial attachment read.",
+      "evidence": "docs/SPECIFICATION.md; docs/NATIVE_KERNEL_AUDIT.md"
+    },
+    {
+      "name": "Cryptography Research Skills",
+      "version_or_capability": "0.2.0; `crypto-correlation-accounting`",
+      "historical_application": "Inspected/applied by mathematical worker: counting units and dependency groups remain distinct; repeated descriptions are not independent confidence votes.",
+      "historical_boundary": "No cryptographic security proof, randomness claim, secret key operation or historical cipher solution. See `MATH_CAPABILITIES.json`.",
+      "status": "historical_record",
+      "detail": "Inspected/applied by mathematical worker: counting units and dependency groups remain distinct; repeated descriptions are not independent confidence votes.",
+      "description": "Inspected/applied by mathematical worker: counting units and dependency groups remain distinct; repeated descriptions are not independent confidence votes.",
+      "boundary": "No cryptographic security proof, randomness claim, secret key operation or historical cipher solution. See `MATH_CAPABILITIES.json`.",
+      "evidence": "No cryptographic security proof, randomness claim, secret key operation or historical cipher solution. See `MATH_CAPABILITIES.json`."
+    },
+    {
+      "name": "Numerical Research Kit",
+      "version_or_capability": "0.3.0; `compare-numerical-methods`",
+      "historical_application": "CLI comparison executed on one public circle/chord approximation case; result recorded as measured.",
+      "historical_boundary": "Public reference was already known: this is not blind, a domain prediction, a calibrated significance result or measured production cost. Evidence: `evidence/numerical-torus-vectors.json`, `evidence/numerical-torus-comparison.json`.",
+      "status": "historical_record",
+      "detail": "CLI comparison executed on one public circle/chord approximation case; result recorded as measured.",
+      "description": "CLI comparison executed on one public circle/chord approximation case; result recorded as measured.",
+      "boundary": "Public reference was already known: this is not blind, a domain prediction, a calibrated significance result or measured production cost. Evidence: `evidence/numerical-torus-vectors.json`, `evidence/numerical-torus-comparison.json`.",
+      "evidence": "Public reference was already known: this is not blind, a domain prediction, a calibrated significance result or measured production cost. Evidence: `evidence/numerical-torus-vectors.json`, `evidence/numerical-torus-comparison.json`."
+    },
+    {
+      "name": "Mathbox",
+      "version_or_capability": "4.0.0; `proof-audit`",
+      "historical_application": "Declared domains, finite ranges, witness requirements, source dependencies and unresolved obligations applied to mathematical infrastructure and its documentation.",
+      "historical_boundary": "Self-review of host-authored implementation; no proof verdict on SUN research or complete global alignment. See `MATH_CAPABILITIES.json`.",
+      "status": "historical_record",
+      "detail": "Declared domains, finite ranges, witness requirements, source dependencies and unresolved obligations applied to mathematical infrastructure and its documentation.",
+      "description": "Declared domains, finite ranges, witness requirements, source dependencies and unresolved obligations applied to mathematical infrastructure and its documentation.",
+      "boundary": "Self-review of host-authored implementation; no proof verdict on SUN research or complete global alignment. See `MATH_CAPABILITIES.json`.",
+      "evidence": "Self-review of host-authored implementation; no proof verdict on SUN research or complete global alignment. See `MATH_CAPABILITIES.json`."
+    },
+    {
+      "name": "Astral Orchestrator",
+      "version_or_capability": "3.12.1; primary preflight and worker-settings diagnostics",
+      "historical_application": "Read-only settings check executed, `changed:false`; bundled primary check attempted and failed with Windows `FileNotFoundError` in its subprocess. Both full results saved.",
+      "historical_boundary": "No verified Astral route or model/effort claim. Existing host-native delegation must not be relabeled successful Astral runtime execution. No global settings changed. Evidence: `evidence/astral-worker-settings.json`, `evidence/astral-primary-check.json`.",
+      "status": "historical_record",
+      "detail": "Read-only settings check executed, `changed:false`; bundled primary check attempted and failed with Windows `FileNotFoundError` in its subprocess. Both full results saved.",
+      "description": "Read-only settings check executed, `changed:false`; bundled primary check attempted and failed with Windows `FileNotFoundError` in its subprocess. Both full results saved.",
+      "boundary": "No verified Astral route or model/effort claim. Existing host-native delegation must not be relabeled successful Astral runtime execution. No global settings changed. Evidence: `evidence/astral-worker-settings.json`, `evidence/astral-primary-check.json`.",
+      "evidence": "No verified Astral route or model/effort claim. Existing host-native delegation must not be relabeled successful Astral runtime execution. No global settings changed. Evidence: `evidence/astral-worker-settings.json`, `evidence/astral-primary-check.json`."
+    },
+    {
+      "name": "EW Golden Baseline Model",
+      "version_or_capability": "0.2.0; `golden-baseline-algorithm-selector`",
+      "historical_application": "Installed method inspected; its backend execution gate retained rather than fabricating an algorithm run.",
+      "historical_boundary": "No backend-confirmed executable algorithm registry/version/API supplied; no algorithm executed. See `MATH_CAPABILITIES.json`.",
+      "status": "historical_record",
+      "detail": "Installed method inspected; its backend execution gate retained rather than fabricating an algorithm run.",
+      "description": "Installed method inspected; its backend execution gate retained rather than fabricating an algorithm run.",
+      "boundary": "No backend-confirmed executable algorithm registry/version/API supplied; no algorithm executed. See `MATH_CAPABILITIES.json`.",
+      "evidence": "No backend-confirmed executable algorithm registry/version/API supplied; no algorithm executed. See `MATH_CAPABILITIES.json`."
+    },
+    {
+      "name": "Julius: Math Solver & Stats",
+      "version_or_capability": "Connected `run_code`; skill 1.0.0",
+      "historical_application": "Actual generic-code request returned `UNAUTHORIZED`: app requires reauthentication.",
+      "historical_boundary": "No Julius computation result. Reconnection is an external dependency. Evidence: `evidence/math-julius-unavailable.json`.",
+      "status": "historical_record",
+      "detail": "Actual generic-code request returned `UNAUTHORIZED`: app requires reauthentication.",
+      "description": "Actual generic-code request returned `UNAUTHORIZED`: app requires reauthentication.",
+      "boundary": "No Julius computation result. Reconnection is an external dependency. Evidence: `evidence/math-julius-unavailable.json`.",
+      "evidence": "No Julius computation result. Reconnection is an external dependency. Evidence: `evidence/math-julius-unavailable.json`."
+    },
+    {
+      "name": "Precise Special Functions",
+      "version_or_capability": "Connected `elliptic_ke`",
+      "historical_application": "Actual complete elliptic integral `E(m=0)` request at 50 digits returned the expected numerical value for the circular consistency case.",
+      "historical_boundary": "A standard special-function check, not validation of musical correspondences or physical interpretations. Evidence: `evidence/math-precise-elliptic-e-zero.json`.",
+      "status": "historical_record",
+      "detail": "Actual complete elliptic integral `E(m=0)` request at 50 digits returned the expected numerical value for the circular consistency case.",
+      "description": "Actual complete elliptic integral `E(m=0)` request at 50 digits returned the expected numerical value for the circular consistency case.",
+      "boundary": "A standard special-function check, not validation of musical correspondences or physical interpretations. Evidence: `evidence/math-precise-elliptic-e-zero.json`.",
+      "evidence": "A standard special-function check, not validation of musical correspondences or physical interpretations. Evidence: `evidence/math-precise-elliptic-e-zero.json`."
+    },
+    {
+      "name": "Wolfram",
+      "version_or_capability": "Connected context and Language evaluator",
+      "historical_application": "Both tools executed; standard torus residual returned `0`; finite Sierpinski cell/volume formulas and elliptic consistency formulas evaluated.",
+      "historical_boundary": "Synthetic standard geometry only; no private research archive uploaded, no SUN orientation solved. Evidence: `evidence/math-wolfram-context.json`, `evidence/math-wolfram-evaluator.json`.",
+      "status": "executed_math_checks",
+      "detail": "Actual standard geometry and finite C6 calculations; erroneous host orbit expression retained alongside corrected36-unordered-orbit audit, never erased.",
+      "description": "Actual standard geometry and finite C6 calculations; erroneous host orbit expression retained alongside corrected36-unordered-orbit audit, never erased.",
+      "boundary": "Synthetic standard geometry only; no private research archive uploaded, no SUN orientation solved. Evidence: `evidence/math-wolfram-context.json`, `evidence/math-wolfram-evaluator.json`.",
+      "evidence": "docs/evidence/math-wolfram-evaluator.json; docs/evidence/wolfram-orbit-input-error.json; docs/NATIVE_KERNEL_AUDIT.md"
+    },
+    {
+      "name": "Sacred Timeline Research",
+      "version_or_capability": "0.1.0; `curate-historical-graph`",
+      "historical_application": "Source inventory, stable references, native assertions, date precision and distinct source/editorial/generated layers applied to the specification's reconstruction contract.",
+      "historical_boundary": "No upstream seed dataset is bundled; no import-ready Sacred Timeline graph or certified historical reconstruction is claimed. Its pinned workflow source is commit `01fb01ea42cef7361ba8ab608cf1765fb72f0d55`.",
+      "status": "historical_record",
+      "detail": "Source inventory, stable references, native assertions, date precision and distinct source/editorial/generated layers applied to the specification's reconstruction contract.",
+      "description": "Source inventory, stable references, native assertions, date precision and distinct source/editorial/generated layers applied to the specification's reconstruction contract.",
+      "boundary": "No upstream seed dataset is bundled; no import-ready Sacred Timeline graph or certified historical reconstruction is claimed. Its pinned workflow source is commit `01fb01ea42cef7361ba8ab608cf1765fb72f0d55`.",
+      "evidence": "No upstream seed dataset is bundled; no import-ready Sacred Timeline graph or certified historical reconstruction is claimed. Its pinned workflow source is commit `01fb01ea42cef7361ba8ab608cf1765fb72f0d55`."
+    },
+    {
+      "name": "AstroBella Astrology",
+      "version_or_capability": "Connected planetary-position tool",
+      "historical_application": "Actual frame diagnostic at `2026-10-30T19:00:00Z` returned timestamped planetary positions; full response saved.",
+      "historical_boundary": "This retains the tool's own coordinate conventions. It does not rectify zodiacal orientation, choose Ophiuchus handling or establish historical time. Evidence: `evidence/astrobella-frame-check.json`.",
+      "status": "historical_record",
+      "detail": "Actual frame diagnostic at `2026-10-30T19:00:00Z` returned timestamped planetary positions; full response saved.",
+      "description": "Actual frame diagnostic at `2026-10-30T19:00:00Z` returned timestamped planetary positions; full response saved.",
+      "boundary": "This retains the tool's own coordinate conventions. It does not rectify zodiacal orientation, choose Ophiuchus handling or establish historical time. Evidence: `evidence/astrobella-frame-check.json`.",
+      "evidence": "This retains the tool's own coordinate conventions. It does not rectify zodiacal orientation, choose Ophiuchus handling or establish historical time. Evidence: `evidence/astrobella-frame-check.json`."
+    },
+    {
+      "name": "True Sky",
+      "version_or_capability": "Connected schemas inspected by primary",
+      "historical_application": "Relevant natal schemas inspected; required birth/date/time/place inputs were not available for the proposed natal route.",
+      "historical_boundary": "Not executed; no invented personal inputs or rectification claim. Appropriate future use requires an explicit relevant event and its required inputs.",
+      "status": "historical_record",
+      "detail": "Relevant natal schemas inspected; required birth/date/time/place inputs were not available for the proposed natal route.",
+      "description": "Relevant natal schemas inspected; required birth/date/time/place inputs were not available for the proposed natal route.",
+      "boundary": "Not executed; no invented personal inputs or rectification claim. Appropriate future use requires an explicit relevant event and its required inputs.",
+      "evidence": "Not executed; no invented personal inputs or rectification claim. Appropriate future use requires an explicit relevant event and its required inputs."
+    },
+    {
+      "name": "Sefirot Workbench",
+      "version_or_capability": "0.1.0; `graph-audit`",
+      "historical_application": "Bundled `inspect` executed on pinned software graph; full directed adjacency and permitted routes preserved. Compiled graph matches its packaged pin.",
+      "historical_boundary": "The diagnostic explicitly did not check original upstream source bytes. It enumerates software-graph routes, not semantic “deep reasoning,” a canonical 22-path tree, SUN/W72 mapping or a prediction. Source commit `be3b227f6427864be146158dedb8c20be35a6600`. Evidence: `evidence/sefirot-inspect.json`.",
+      "status": "executed_graph_and_jev_review",
+      "detail": "Pinned graph inspected; ten explicit source-defined perspective questions evaluated by the same actual Jev model. Not ten independent experts.",
+      "description": "Pinned graph inspected; ten explicit source-defined perspective questions evaluated by the same actual Jev model. Not ten independent experts.",
+      "boundary": "The diagnostic explicitly did not check original upstream source bytes. It enumerates software-graph routes, not semantic “deep reasoning,” a canonical 22-path tree, SUN/W72 mapping or a prediction. Source commit `be3b227f6427864be146158dedb8c20be35a6600`. Evidence: `evidence/sefirot-inspect.json`.",
+      "evidence": "docs/SEFIROT_REVIEW.md; state/jev-receipts/000007-196825822a67.json"
+    },
+    {
+      "name": "AgentProof",
+      "version_or_capability": "0.1.0; current-session capture boundary",
+      "historical_application": "Installed receipt contract inspected and applied: no receipt is invented for the current conversation; current-session capture, truth and completeness claims are excluded.",
+      "historical_boundary": "Capture would start a separate instrumented Codex CLI session, not capture this one, and requires its supported trusted Git repository/runtime. No capture, signing, anchoring or receipt verification was performed.",
+      "status": "executed_capture_and_verify",
+      "detail": "New read-only child receipt valid/MATCH;2observedcommands bothfailed and0changedfileschecked. Integrity/ordering only; no successful child check claimed.",
+      "description": "New read-only child receipt valid/MATCH;2observedcommands bothfailed and0changedfileschecked. Integrity/ordering only; no successful child check claimed.",
+      "boundary": "Capture would start a separate instrumented Codex CLI session, not capture this one, and requires its supported trusted Git repository/runtime. No capture, signing, anchoring or receipt verification was performed.",
+      "evidence": "docs/evidence/agentproof-sunny-scope.json"
+    },
+    {
+      "name": "Agent Skills",
+      "version_or_capability": "0.6.10; `context-engineering`",
+      "historical_application": "Stable specification, source-backed requirement registry, explicit latest correction and unresolved Q10 policy preserved for restart. External/exported instructions retained as source data.",
+      "historical_boundary": "No global agent configuration changed. The current task's explicit authorization controls local work; generic stop-and-ask examples do not create extra approval requirements.",
+      "status": "applied_specialist_reviews",
+      "detail": "Frontend/browser/context/code review guidance applied with actual source, HTTP and decision-guard checks; source content treated as data.",
+      "description": "Frontend/browser/context/code review guidance applied with actual source, HTTP and decision-guard checks; source content treated as data.",
+      "boundary": "No global agent configuration changed. The current task's explicit authorization controls local work; generic stop-and-ask examples do not create extra approval requirements.",
+      "evidence": "docs/UI.md; docs/evidence/decision-guard-regression.json"
+    },
+    {
+      "name": "MightShape",
+      "version_or_capability": "1.0.1; main skill, evidence firewall, state contract",
+      "historical_application": "Source provenance, exact counting units, contradictory/uncertain contributions and unanswered proposals kept separate; no synthetic Council consensus is substituted for user evidence. Supersession preserves earlier formulations.",
+      "historical_boundary": "No fictional interview, Council round, numerical confidence assignment or empirical user study was performed. Its fixed facilitation scores are not imported as SUNNY's type-law weights.",
+      "status": "applied_and_checker_executed",
+      "detail": "Evidence firewall and TEST_FIRST BuildGate applied; synthetic model outputs remain separate from user evidence; complete five-record checker result retained in work queue.",
+      "description": "Evidence firewall and TEST_FIRST BuildGate applied; synthetic model outputs remain separate from user evidence; complete five-record checker result retained in work queue.",
+      "boundary": "No fictional interview, Council round, numerical confidence assignment or empirical user study was performed. Its fixed facilitation scores are not imported as SUNNY's type-law weights.",
+      "evidence": "docs/GUARDRAILS.md; state/work-queue.json"
+    },
+    {
+      "name": "Proofline",
+      "version_or_capability": "2.0.2; `manage-evidence-decisions`",
+      "historical_application": "Bundled verifier executed successfully against its explicitly synthetic valid-minimal fixture, with complete stdout saved. Source-version/span/integrity-versus-truth guardrails applied to requirement extraction.",
+      "historical_boundary": "The fixture run is not verification of a SUNNY Decision Evidence Package. No project package, trusted signature, receipt, attestation or signing operation is claimed. Its package schema requires a numeric confidence; an unknown research confidence was not invented to populate it. Evidence: `evidence/proofline-fixture-result.json`.",
+      "status": "executed_project_verification",
+      "detail": "Actual user-instruction evidence package verifies. Numeric1 denotes exact span fidelity only; research confidence remains unknown; unsigned.",
+      "description": "Actual user-instruction evidence package verifies. Numeric1 denotes exact span fidelity only; research confidence remains unknown; unsigned.",
+      "boundary": "The fixture run is not verification of a SUNNY Decision Evidence Package. No project package, trusted signature, receipt, attestation or signing operation is claimed. Its package schema requires a numeric confidence; an unknown research confidence was not invented to populate it. Evidence: `evidence/proofline-fixture-result.json`.",
+      "evidence": "docs/evidence/proofline-sunny-decision.json; docs/evidence/proofline-sunny-scope.json"
+    },
+    {
+      "name": "Aivana CIO Decision Twin",
+      "version_or_capability": "`the-autonomous-cio` 0.1.1; `knowledge-continuity-planner`",
+      "historical_application": "Critical knowledge dependence on ephemeral agent context identified; source-backed specification, requirements, uncertainty and checkpoint references preserve a recoverable handoff.",
+      "historical_boundary": "No enterprise connector write, individual performance assessment, autonomous operating authority or ROI forecast. This is local continuity support.",
+      "status": "historical_record",
+      "detail": "Critical knowledge dependence on ephemeral agent context identified; source-backed specification, requirements, uncertainty and checkpoint references preserve a recoverable handoff.",
+      "description": "Critical knowledge dependence on ephemeral agent context identified; source-backed specification, requirements, uncertainty and checkpoint references preserve a recoverable handoff.",
+      "boundary": "No enterprise connector write, individual performance assessment, autonomous operating authority or ROI forecast. This is local continuity support.",
+      "evidence": "No enterprise connector write, individual performance assessment, autonomous operating authority or ROI forecast. This is local continuity support."
+    },
+    {
+      "name": "HUMMBL Operations",
+      "version_or_capability": "0.1.0; `decision-record`, `work-triage`, `operating-brief`",
+      "historical_application": "Latest directive recorded with status, context, owner, alternatives, consequences, provenance and review trigger in `SPECIFICATION.md`. Existing work and actual Jev blocker recorded separately below without numerical priority scores.",
+      "historical_boundary": "No external task/decision system changed; no host-selected substitute for the strict Jev gate.",
+      "status": "applied_live_jev_plan",
+      "detail": "Actual Jev-selected queue, dependencies, source statuses and operating brief; contrary model outputs preserved under user authority.",
+      "description": "Actual Jev-selected queue, dependencies, source statuses and operating brief; contrary model outputs preserved under user authority.",
+      "boundary": "No external task/decision system changed; no host-selected substitute for the strict Jev gate.",
+      "evidence": "docs/HUMMBL_PLAN.md; state/work-queue.json"
+    }
+  ],
+  "supplemental_specialists": [
+    {
+      "name": "12ui-design",
+      "status": "skill_applied_cli_dry_run",
+      "detail": "Dedicated UI instructions applied; initial CLI install spawnEINVAL onWindows retained, then direct CLI dry-run recovered. Hosted sign-in/paid design generation not executed.",
+      "evidence": "docs/UI.md"
+    },
+    {
+      "name": "Riqor",
+      "status": "evidence_engineering_applied",
+      "detail": "Observable cleanup criteria, current process ownership inspection, focused lifecycle regressions and independent review applied. No model-weight or AGI claim.",
+      "evidence": "docs/PROCESS_AUDIT.md; docs/PROCESS_LIFECYCLE.md; docs/evidence/browser-process-cleanup.json"
+    }
+  ],
+  "boundary": "Current observations supersede earlier outages only within their stated scope. An inspected skill, an executed diagnostic, a model vote and scientific verification are distinct."
+}

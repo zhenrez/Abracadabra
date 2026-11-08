@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "name": "adversarial",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07\\independent-review",
+        "-p",
+        "test_adversarial_controls.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "adversarial-green-tests.log"
+    },
+    {
+      "name": "controls",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07",
+        "-p",
+        "test_controls.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "controls-green-tests.log"
+    },
+    {
+      "name": "codec",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07",
+        "-p",
+        "test_baseline.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "codec-green-tests.log"
+    },
+    {
+      "name": "comparisons",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "work\\final-day-2026-11-07",
+        "-p",
+        "test_comparisons.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "comparisons-green-tests.log"
+    }
+  ]
+}

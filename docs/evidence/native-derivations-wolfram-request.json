@@ -1,0 +1,4 @@
+{
+  "code": "With[{e=16/15,k=81/80,q=3/2,r=(3/2)^(-5)*2^3,f=(3/2)^7/2^4},<|\"BridgeQuotient\"->Together[e/k],\"ReverseFive\"->r,\"ForwardSeven\"->f,\"Residual\"->Together[f/r],\"ForwardWithOldBridge\"->Together[k f],\"RequiredForwardBridge\"->Together[e/f],\"InverseWord\"->Together[(3/2)^(-2)(3/4)^(-3)],\"ExactRelations\"->{e/k==r,f/r==3^12/2^19,k f==e (3^12/2^19),e/f==k/(3^12/2^19)},\"ResidualCents\"->N[1200 Log[2,3^12/2^19],30],\"GroupSolution\"->Solve[{m+n==-5,-m-2n==8},{m,n},Integers]|>]",
+  "timeConstraint": 20
+}

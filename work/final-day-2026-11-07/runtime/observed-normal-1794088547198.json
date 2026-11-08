@@ -1,0 +1,46 @@
+{
+  "variant": "observed",
+  "mode": "normal",
+  "options": {
+    "root": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\runtime\\fixture-observed-normal-1794088547198",
+    "script": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\runtime\\fixture-observed-normal-1794088547198\\scripts\\jev_tool.py",
+    "executable": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\.venv\\Scripts\\python.exe",
+    "input": "synthetic mode only",
+    "purpose": "Owned synthetic diagnostic; no inference",
+    "timeoutMs": 800,
+    "maxOutputBytes": 4000000
+  },
+  "started": 1794088547198,
+  "ended": 1794088551837,
+  "result": {
+    "reason": "cleanup_error",
+    "code": 1,
+    "stdout": "",
+    "stderr": "",
+    "reaped": false,
+    "error": "AuthorizationManager check failed.\r\n    + CategoryInfo          : SecurityError: (:) [], ParentContainsErrorRecordException\r\n    + FullyQualifiedErrorId : UnauthorizedAccess"
+  },
+  "trace": [
+    {
+      "event": "helper_begin",
+      "action": "capture",
+      "at": 1794088547216
+    },
+    {
+      "event": "helper_close",
+      "action": "capture",
+      "code": 1,
+      "at": 1794088551726,
+      "elapsed": 4510
+    },
+    {
+      "event": "child_close",
+      "code": 1,
+      "at": 1794088551837
+    }
+  ],
+  "owned_records": [],
+  "manual_cleanup": [],
+  "fixture_ids": null,
+  "absence_checks": []
+}

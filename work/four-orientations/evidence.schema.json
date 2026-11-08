@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SUN orientation evidence v1",
+  "type": "object",
+  "required": ["schema", "sources", "observations", "relations"],
+  "properties": {
+    "schema": {"const": "sun.orientation-evidence.v1"},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["id", "locator", "role", "sha256", "encoding", "bytes"], "properties": {
+      "id": {"type": "string", "minLength": 1}, "locator": {"type": "string", "minLength": 1},
+      "role": {"enum": ["source", "user_specification", "proxy", "hypothesis", "derived", "unknown"]},
+      "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "encoding": {"const": "base64"}, "bytes": {"type": "string"}
+    }}},
+    "observations": {"type": "array", "items": {"type": "object", "required": ["id", "source_id", "role", "native_system", "native_address", "literal", "uncertainty", "witness", "historical_time"], "properties": {
+      "id": {"type": "string", "minLength": 1}, "source_id": {"type": "string"},
+      "role": {"enum": ["source", "user_specification", "proxy", "hypothesis", "derived", "unknown"]},
+      "native_system": {"type": "string"}, "native_address": {"type": "object"},
+      "literal": {}, "uncertainty": {"type": "object"}, "witness": {"type": ["object", "null"]}, "historical_time": {"type": ["object", "null"]}
+    }}},
+    "relations": {"type": "array", "items": {"type": "object", "required": ["kind", "from", "to", "source_refs"], "properties": {
+      "kind": {"enum": ["identity", "order", "function", "generation", "realization", "association", "contradiction"]},
+      "from": {"type": "string"}, "to": {"type": "string"}, "source_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+    }}}
+  }
+}

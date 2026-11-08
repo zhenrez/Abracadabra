@@ -1,0 +1,344 @@
+{
+  "chinese_ambiguous": {
+    "__type__": "ReconstructionReceipt",
+    "candidates": {
+      "__type__": "CandidateSet",
+      "complete": true,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "equivalence": "Distinguished by the full native state; no unproved equivalence quotient",
+      "solutions": [
+        {
+          "generation_lengths": [
+            "1",
+            "2/3",
+            "8/9",
+            "16/27",
+            "64/81",
+            "128/243",
+            "512/729",
+            "2048/2187",
+            "4096/6561",
+            "16384/19683",
+            "32768/59049",
+            "131072/177147"
+          ],
+          "reference_length": "1"
+        },
+        {
+          "generation_lengths": [
+            "2",
+            "4/3",
+            "16/9",
+            "32/27",
+            "128/81",
+            "256/243",
+            "1024/729",
+            "4096/2187",
+            "8192/6561",
+            "32768/19683",
+            "65536/59049",
+            "262144/177147"
+          ],
+          "reference_length": "2"
+        }
+      ]
+    },
+    "execution": "EVALUATED",
+    "historical": {
+      "claim": "Historical reconstruction is not established by finite-model uniqueness",
+      "status": "NOT_VERIFIED"
+    },
+    "identifiability": {
+      "candidate_count": 2,
+      "status": "MULTIPLE_DISTINGUISHABLE"
+    },
+    "model_preference": {
+      "reason": "No registered coding comparison",
+      "status": "NOT_EVALUATED"
+    },
+    "outcome": "AMBIGUOUS_UNDERDETERMINED",
+    "premises": {
+      "cross_orientation_used": false,
+      "model": "chinese:lushi-yinlv"
+    },
+    "structural": {
+      "native_constraints": "source profile plus exact native feasibility",
+      "status": "INCOMPLETE"
+    }
+  },
+  "chinese_unique_under_profile": {
+    "__type__": "ReconstructionReceipt",
+    "candidates": {
+      "__type__": "CandidateSet",
+      "complete": true,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "equivalence": "Distinguished by the full native state; no unproved equivalence quotient",
+      "solutions": [
+        {
+          "generation_lengths": [
+            "1",
+            "2/3",
+            "8/9",
+            "16/27",
+            "64/81",
+            "128/243",
+            "512/729",
+            "2048/2187",
+            "4096/6561",
+            "16384/19683",
+            "32768/59049",
+            "131072/177147"
+          ],
+          "reference_length": "1"
+        }
+      ]
+    },
+    "execution": "EVALUATED",
+    "historical": {
+      "claim": "Historical reconstruction is not established by finite-model uniqueness",
+      "status": "NOT_VERIFIED"
+    },
+    "identifiability": {
+      "candidate_count": 1,
+      "status": "UNIQUE_UNDER_MODEL"
+    },
+    "model_preference": {
+      "reason": "No registered coding comparison",
+      "status": "NOT_EVALUATED"
+    },
+    "outcome": "UNSUPPORTED",
+    "premises": {
+      "cross_orientation_used": false,
+      "model": "chinese:lushi-yinlv"
+    },
+    "structural": {
+      "native_constraints": "source profile plus exact native feasibility",
+      "status": "INCOMPLETE"
+    }
+  },
+  "chinese_no_solution": {
+    "__type__": "ReconstructionReceipt",
+    "candidates": {
+      "__type__": "CandidateSet",
+      "complete": true,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "equivalence": "Distinguished by the full native state; no unproved equivalence quotient",
+      "solutions": []
+    },
+    "execution": "EVALUATED",
+    "historical": {
+      "claim": "Historical reconstruction is not established by finite-model uniqueness",
+      "status": "NOT_VERIFIED"
+    },
+    "identifiability": {
+      "candidate_count": 0,
+      "status": "NO_FEASIBLE_SOLUTION"
+    },
+    "model_preference": {
+      "reason": "No registered coding comparison",
+      "status": "NOT_EVALUATED"
+    },
+    "outcome": "UNSUPPORTED",
+    "premises": {
+      "cross_orientation_used": false,
+      "model": "chinese:lushi-yinlv"
+    },
+    "structural": {
+      "native_constraints": "source profile plus exact native feasibility",
+      "status": "CONTRADICTION"
+    }
+  },
+  "grama_ambiguous": {
+    "__type__": "ReconstructionReceipt",
+    "candidates": {
+      "__type__": "CandidateSet",
+      "complete": true,
+      "domain": [
+        "grama",
+        "interval_units",
+        "name",
+        "note_order",
+        "start_note"
+      ],
+      "equivalence": "Distinguished by the full native state; no unproved equivalence quotient",
+      "solutions": [
+        {
+          "frequency_ratios": null,
+          "grama": "shadja",
+          "interval_units": [
+            3,
+            2,
+            4,
+            4,
+            3,
+            2,
+            4
+          ],
+          "name": "Uttaramandra",
+          "note_order": [
+            "Sa",
+            "Ri",
+            "Ga",
+            "Ma",
+            "Pa",
+            "Dha",
+            "Ni"
+          ],
+          "start_note": "Sa",
+          "total_units": 22
+        },
+        {
+          "frequency_ratios": null,
+          "grama": "madhyama",
+          "interval_units": [
+            3,
+            2,
+            4,
+            3,
+            4,
+            2,
+            4
+          ],
+          "name": "Shuddhamadhya",
+          "note_order": [
+            "Sa",
+            "Ri",
+            "Ga",
+            "Ma",
+            "Pa",
+            "Dha",
+            "Ni"
+          ],
+          "start_note": "Sa",
+          "total_units": 22
+        }
+      ]
+    },
+    "execution": "EVALUATED",
+    "historical": {
+      "claim": "Historical reconstruction is not established by finite-model uniqueness",
+      "status": "NOT_VERIFIED"
+    },
+    "identifiability": {
+      "candidate_count": 2,
+      "status": "MULTIPLE_DISTINGUISHABLE"
+    },
+    "model_preference": {
+      "reason": "No registered coding comparison",
+      "status": "NOT_EVALUATED"
+    },
+    "outcome": "AMBIGUOUS_UNDERDETERMINED",
+    "premises": {
+      "cross_orientation_used": false,
+      "model": "indian:grama-shruti"
+    },
+    "structural": {
+      "native_constraints": "source profile plus exact native feasibility",
+      "status": "INCOMPLETE"
+    }
+  },
+  "melakarta_ambiguous": {
+    "__type__": "ReconstructionReceipt",
+    "candidates": {
+      "__type__": "CandidateSet",
+      "complete": true,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "equivalence": "Distinguished by the full native state; no unproved equivalence quotient",
+      "solutions": [
+        {
+          "mela_number": 29,
+          "positions": [
+            0,
+            2,
+            4,
+            5,
+            7,
+            9,
+            11
+          ]
+        },
+        {
+          "mela_number": 65,
+          "positions": [
+            0,
+            2,
+            4,
+            6,
+            7,
+            9,
+            11
+          ]
+        }
+      ]
+    },
+    "execution": "EVALUATED",
+    "historical": {
+      "claim": "Historical reconstruction is not established by finite-model uniqueness",
+      "status": "NOT_VERIFIED"
+    },
+    "identifiability": {
+      "candidate_count": 2,
+      "status": "MULTIPLE_DISTINGUISHABLE"
+    },
+    "model_preference": {
+      "reason": "No registered coding comparison",
+      "status": "NOT_EVALUATED"
+    },
+    "outcome": "AMBIGUOUS_UNDERDETERMINED",
+    "premises": {
+      "cross_orientation_used": false,
+      "model": "indian:melakarta-modern-sampurna"
+    },
+    "structural": {
+      "native_constraints": "source profile plus exact native feasibility",
+      "status": "INCOMPLETE"
+    }
+  }
+}

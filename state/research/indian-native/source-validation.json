@@ -1,0 +1,92 @@
+{
+  "sourceSpans": [
+    {
+      "id": "SCERT-XI-STHAYI",
+      "exactSliceMatches": true
+    },
+    {
+      "id": "SCERT-XI-MELA",
+      "exactSliceMatches": true
+    },
+    {
+      "id": "SCERT-XI-DN",
+      "exactSliceMatches": true
+    },
+    {
+      "id": "SCERT-XI-RG",
+      "exactSliceMatches": true
+    },
+    {
+      "id": "SCERT-XI-TALA",
+      "exactSliceMatches": true
+    },
+    {
+      "id": "SCERT-XII-FAMILIES",
+      "exactSliceMatches": true
+    },
+    {
+      "id": "SCERT-XII-TAMBURA",
+      "exactSliceMatches": true
+    }
+  ],
+  "allExactSpansPassed": true,
+  "graphChecks": [
+    {
+      "name": "Every entity has a valid parent/source and unique ID",
+      "status": "passed"
+    },
+    {
+      "name": "72 native class addresses are bijective and have 7 distinct co-location positions",
+      "status": "passed"
+    },
+    {
+      "name": "Six R–G x six D–N x two M finite bounds match source 72",
+      "status": "passed"
+    },
+    {
+      "name": "Printed 45/72 serial and Aditya R–G conflicts remain distinct observations",
+      "status": "passed"
+    },
+    {
+      "name": "No global generation, absolute Hz, raga performance or physical instances manufactured",
+      "status": "passed"
+    },
+    {
+      "name": "Native 7-to-35-to-175 tala class growth retains source page 47 count vector",
+      "status": "passed"
+    },
+    {
+      "name": "2520 registered mela/svara addresses have exact 5 x 72 x 7 coverage and valid native ancestry",
+      "status": "passed"
+    },
+    {
+      "name": "Register endpoints and complete chapter instrument-name inventory preserve units, uncertain forms and exact source spans",
+      "status": "passed"
+    }
+  ],
+  "workingLowerUnitCensus": {
+    "registeredMelaSvaraOccurrences": 2520,
+    "sourceNamedInstrumentTypes": 36,
+    "unresolvedNameFormsExcludedFromTypeCount": 2,
+    "sumOfDeclaredLowerUnits": 2556,
+    "targetRange": [
+      2500,
+      2700
+    ],
+    "withinRequestedRange": true,
+    "unitsAreHeterogeneous": true,
+    "scope": "Bounded Carnatic registered-note occurrences plus SCERT instrument types; not 2556 distinct frequencies or physical instruments, and not the complete Indian musical universe"
+  },
+  "outputSha256": "7c2c78af1c6c474701deaff75c9c8662ee94095d4ec16b6f71c264c3424eaf0c",
+  "sourceLedgerSha256": "557580d8bbbb7eb3fa965d942ac5a8cec35d26d62a758ab6baad75887d215c94",
+  "conditionalRegisteredOccurrences": 210,
+  "instrumentChapterInventory": {
+    "allNamesHaveGraphNodes": true,
+    "all85ExactNameSpansPassed": true,
+    "all38FormsAddressable": true,
+    "typeNodes": 36,
+    "unresolvedFormNodes": 2,
+    "nameCensusSha256": "2ff73112e2f92476df64533a20bf854ad327dbd21af56943b7e58958d4df4d0b"
+  },
+  "reportedNational500NotEnumerated": true
+}

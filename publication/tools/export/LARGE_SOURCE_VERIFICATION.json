@@ -1,0 +1,70 @@
+{
+  "schema": "public-large-source-tool-verification-v1",
+  "status": "FOCUSED_TESTS_PASSED",
+  "scope": "Three explicitly public project output paths; synthetic test fixtures only",
+  "allowed_source_paths": [
+    "web/delivery-2026-11-07/data.js",
+    "web/delivery-2026-11-07/data.json",
+    "state/reconstruction/model.json"
+  ],
+  "default_part_bytes": 8388608,
+  "command": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -B -m unittest discover -s work/github-delivery-2026-11-07/export -p test_large_sources.py -v",
+  "tdd_history": [
+    {
+      "stage": "RED",
+      "executor": "coordinating root agent",
+      "provenance": "Direct collaboration report of observed execution",
+      "tests": 10,
+      "passed": 0,
+      "failed": 10,
+      "exit_code": 1,
+      "reason": "All setup assertions failed because large_sources.py was absent",
+      "raw_output_captured_here": false
+    },
+    {
+      "stage": "GREEN",
+      "executor": "signal_coverage child agent",
+      "provenance": "Direct exec_command result, chunk 387e83",
+      "tests": 10,
+      "passed": 10,
+      "failed": 0,
+      "errors": 0,
+      "exit_code": 0,
+      "unittest_seconds": 0.586,
+      "raw_output_observed": true
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "work/github-delivery-2026-11-07/export/large_sources.py",
+      "sha256": "b78d6373b2f890a81e2143c097f79b0348259b8e2e45b7e0ce00eb12cc7eb6b1"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/test_large_sources.py",
+      "sha256": "99f7822062af9ad8fcb6b292348c7f437c9a68abef033ef9de5d13e0c75f1d37"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/PUBLIC_LARGE_FILES.md",
+      "sha256": "0ca1f3404637774fcb2d933e4cd39686da4280fd7e0820bde880f7ed944117d9"
+    }
+  ],
+  "test_names": [
+    "test_approved_hash_binding_rejects_changed_source_before_parts",
+    "test_binary_round_trip_and_existing_exact_preservation",
+    "test_corrupt_part_rejected_without_creating_restored_file",
+    "test_exact_three_path_allowlist",
+    "test_existing_manifest_and_parts_are_preserved_exactly",
+    "test_existing_mismatch_never_overwritten",
+    "test_incorrect_full_digest_rejected_after_part_verification",
+    "test_part_and_full_digest_present_with_portable_addresses",
+    "test_reparse_guard_blocks_source_and_output",
+    "test_tampered_restore_target_and_part_escape_rejected"
+  ],
+  "not_verified": [
+    "No production large source file packaged or restored by this agent",
+    "No Git ignore change, Git commit, upload, or remote verification performed",
+    "No physical junction created; injected reparse predicate tested",
+    "Concurrent source/destination writer stress not tested; caller must prevent simultaneous changes",
+    "No independent content-publication, licensing, origin-authenticity, or historical-truth certification"
+  ]
+}

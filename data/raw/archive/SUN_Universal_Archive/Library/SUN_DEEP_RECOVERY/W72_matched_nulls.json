@@ -1,0 +1,54 @@
+{
+  "name": "W72 matched nulls",
+  "date": "2026-09-30",
+  "principle": "Report exact conditional nulls; do not assign significance to structural theorems forced by the frozen Z6 phase coordinate.",
+  "tests": [
+    {
+      "id": "NULL-01",
+      "statistic": "existence of group isomorphism C6 \u2245 C3\u00d7C2",
+      "null": "same frozen group types",
+      "exact_p": 1.0,
+      "interpretation": "Not a statistical surprise; it is forced by CRT because 2 and 3 are coprime."
+    },
+    {
+      "id": "NULL-02",
+      "statistic": "a uniformly random bijection of 6 labeled phases to 6 labeled (tau,beta) pairs is a group isomorphism",
+      "exact_successes": 2,
+      "exact_total": 720,
+      "exact_p": 0.002777777777777778,
+      "interpretation": "Describes a pre-specified coordinate labeling test only. It is NOT the p-value for discovering an isomorphism after searching mappings."
+    },
+    {
+      "id": "NULL-03",
+      "statistic": "same as NULL-02 conditional on identity mapped to identity",
+      "exact_successes": 2,
+      "exact_total": 120,
+      "exact_p": 0.016666666666666666,
+      "interpretation": "Coordinate-orientation null, not structural-existence null."
+    },
+    {
+      "id": "NULL-04",
+      "statistic": "random nonidentity translation of C6 has order2",
+      "exact_successes": 1,
+      "exact_total": 5,
+      "exact_p": 0.2,
+      "interpretation": "B=+3 is the unique nontrivial order-2 translation."
+    },
+    {
+      "id": "NULL-05",
+      "statistic": "pre-specified perfect matching on six phase states equals B pairing",
+      "exact_successes": 1,
+      "exact_total": 15,
+      "exact_p": 0.06666666666666667,
+      "interpretation": "Only meaningful if the matching is specified independently. Any search for some perfect matching makes the event trivial."
+    },
+    {
+      "id": "NULL-06",
+      "statistic": "pre-specified one exceptional B-fiber among 36",
+      "exact_successes": 1,
+      "exact_total": 36,
+      "exact_p": 0.027777777777777776,
+      "interpretation": "SUN currently has no native selector, so no observed exceptional fiber exists to score."
+    }
+  ]
+}

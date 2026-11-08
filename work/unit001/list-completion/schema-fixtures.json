@@ -1,0 +1,1442 @@
+{
+  "T02": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJpbWFnZV9yZWdpb24iOiBbMSwgMiwgMzAsIDQwXSwgInN1cmZhY2UiOiAic3RvbmUiLCAic3RhdGUiOiAiREFNQUdFRCIsICJzaWduX2NhbmRpZGF0ZXMiOiBbIkEiLCAiQiJdLCAicmVhZGluZ19jYW5kaWRhdGVzIjogWyJ4IiwgInkiXX0=",
+      "content_hash": "8ec93798d6a0f241693e67dc7dde8ed9bf643bc64ffd6fe3eef218c5b82c94d4",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T02",
+      "permitted_use": "schema testing only",
+      "record_id": "T02:source",
+      "retrieval_context": {},
+      "revision": "8ec93798d6a0f241693e67dc7dde8ed9bf643bc64ffd6fe3eef218c5b82c94d4",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "epigraphy",
+      "locator": {
+        "fixture": "T02"
+      },
+      "record_id": "T02:observation",
+      "source_id": "T02:source",
+      "value": {
+        "image_region": [
+          1,
+          2,
+          30,
+          40
+        ],
+        "reading_candidates": [
+          "x",
+          "y"
+        ],
+        "sign_candidates": [
+          "A",
+          "B"
+        ],
+        "state": {
+          "__enum__": "DataState",
+          "value": "DAMAGED"
+        },
+        "surface": "stone"
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T02:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T02:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T02:observation",
+      "uncertainty": null,
+      "value": {
+        "image_region": [
+          1,
+          2,
+          30,
+          40
+        ],
+        "reading_candidates": [
+          "x",
+          "y"
+        ],
+        "sign_candidates": [
+          "A",
+          "B"
+        ],
+        "state": {
+          "__enum__": "DataState",
+          "value": "DAMAGED"
+        },
+        "surface": "stone"
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T02:claim"
+      ],
+      "domain": "epigraphy",
+      "observation_refs": [
+        "T02:observation"
+      ],
+      "properties": {
+        "image_region": [
+          1,
+          2,
+          30,
+          40
+        ],
+        "reading_candidates": [
+          "x",
+          "y"
+        ],
+        "sign_candidates": [
+          "A",
+          "B"
+        ],
+        "state": {
+          "__enum__": "DataState",
+          "value": "DAMAGED"
+        },
+        "surface": "stone"
+      },
+      "record_id": "T02:domain",
+      "record_type": "damaged_sign",
+      "related_refs": []
+    }
+  ],
+  "T03": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJrZXRpdiI6ICJ3cml0dGVuLWZvcm0iLCAicWVyZSI6ICJyZWFkLWZvcm0iLCAicmVhbGl6YXRpb24iOiAiVU5BVFRFU1RFRCIsICJhbF90aWtyZWkiOiAiaW50ZXJwcmV0YXRpb24iLCAiZGFnZXNoIjogIklOQVBQTElDQUJMRSJ9",
+      "content_hash": "6a8ac01b3cb3a6f130ab95dc84e189db7508b7958e16ef778280b082993b472f",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T03",
+      "permitted_use": "schema testing only",
+      "record_id": "T03:source",
+      "retrieval_context": {},
+      "revision": "6a8ac01b3cb3a6f130ab95dc84e189db7508b7958e16ef778280b082993b472f",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "rabbinic",
+      "locator": {
+        "fixture": "T03"
+      },
+      "record_id": "T03:observation",
+      "source_id": "T03:source",
+      "value": {
+        "al_tikrei": "interpretation",
+        "dagesh": {
+          "__enum__": "DataState",
+          "value": "INAPPLICABLE"
+        },
+        "ketiv": "written-form",
+        "qere": "read-form",
+        "realization": {
+          "__enum__": "DataState",
+          "value": "UNATTESTED"
+        }
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T03:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T03:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T03:observation",
+      "uncertainty": null,
+      "value": {
+        "al_tikrei": "interpretation",
+        "dagesh": {
+          "__enum__": "DataState",
+          "value": "INAPPLICABLE"
+        },
+        "ketiv": "written-form",
+        "qere": "read-form",
+        "realization": {
+          "__enum__": "DataState",
+          "value": "UNATTESTED"
+        }
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T03:claim"
+      ],
+      "domain": "rabbinic",
+      "observation_refs": [
+        "T03:observation"
+      ],
+      "properties": {
+        "al_tikrei": "interpretation",
+        "dagesh": {
+          "__enum__": "DataState",
+          "value": "INAPPLICABLE"
+        },
+        "ketiv": "written-form",
+        "qere": "read-form",
+        "realization": {
+          "__enum__": "DataState",
+          "value": "UNATTESTED"
+        }
+      },
+      "record_id": "T03:domain",
+      "record_type": "reading_layers",
+      "related_refs": []
+    }
+  ],
+  "T04": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJsZXR0ZXJfaWRzIjogWyJhbGVwaCIsICJiZXQiLCAiZ2ltZWwiLCAiZGFsZXQiLCAiaGUiLCAidmF2IiwgInpheWluIiwgImhldGgiLCAidGV0IiwgInlvZCIsICJrYWYiLCAibGFtZWQiLCAibWVtIiwgIm51biIsICJzYW1la2giLCAiYXlpbiIsICJwZSIsICJ0c2FkaSIsICJxb2YiLCAicmVzaCIsICJzaGluIiwgInRhdiJdLCAiY2xhc3NpZmljYXRpb25zIjogeyJzZWZlciI6IHsibW90aGVycyI6IFsiYWxlcGgiLCAibWVtIiwgInNoaW4iXSwgImRvdWJsZXMiOiBbImJldCIsICJnaW1lbCIsICJkYWxldCIsICJrYWYiLCAicGUiLCAicmVzaCIsICJ0YXYiXSwgInNpbXBsZXMiOiBbImhlIiwgInZhdiIsICJ6YXlpbiIsICJoZXRoIiwgInRldCIsICJ5b2QiLCAibGFtZWQiLCAibnVuIiwgInNhbWVraCIsICJheWluIiwgInRzYWRpIiwgInFvZiJdfSwgImFydGljdWxhdG9yeSI6IHsidGhyb2F0IjogWyJhbGVwaCIsICJoZSIsICJoZXRoIiwgImF5aW4iXSwgImxpcHMiOiBbImJldCIsICJ2YXYiLCAibWVtIiwgInBlIl0sICJwYWxhdGUiOiBbImdpbWVsIiwgInlvZCIsICJrYWYiLCAicW9mIl0sICJ0b25ndWUiOiBbImRhbGV0IiwgInRldCIsICJsYW1lZCIsICJudW4iLCAidGF2Il0sICJ0ZWV0aCI6IFsiemF5aW4iLCAic2FtZWtoIiwgInRzYWRpIiwgInJlc2giLCAic2hpbiJdfX0sICJyZWNlbnNpb25zIjogWyJmaXh0dXJlLUEiLCAiZml4dHVyZS1CIl0sICJjbGFzc2lmaWNhdGlvbl9hdXRob3JpdHkiOiAic3ludGhldGljIHNjaGVtYSBtZW1iZXJzaGlwczsgaGlzdG9yaWNhbCByZWNlbnNpb24gbm90IGNlcnRpZmllZCIsICJyZXNoX3JlYWxpemF0aW9ucyI6IFt7ImNhbmRpZGF0ZSI6ICJjbGFpbS1BIiwgInNvdXJjZV9zdGF0dXMiOiAiTk9UX1JFVFJJRVZFRCJ9LCB7ImNhbmRpZGF0ZSI6ICJjbGFpbS1CIiwgInNvdXJjZV9zdGF0dXMiOiAiTk9UX1JFVFJJRVZFRCJ9XSwgInI6MSI6ICJ0YWdnZWQsIG5vdCBpZGVudGlmaWVkIHdpdGggZWl0aGVyIGNsYWltIn0=",
+      "content_hash": "12b7831aeb298b2862e33acbfcf9fbd38bdf649cd2e00fa5732dc4a4bfb1a44f",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T04",
+      "permitted_use": "schema testing only",
+      "record_id": "T04:source",
+      "retrieval_context": {},
+      "revision": "12b7831aeb298b2862e33acbfcf9fbd38bdf649cd2e00fa5732dc4a4bfb1a44f",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "rabbinic",
+      "locator": {
+        "fixture": "T04"
+      },
+      "record_id": "T04:observation",
+      "source_id": "T04:source",
+      "value": {
+        "classification_authority": "synthetic schema memberships; historical recension not certified",
+        "classifications": {
+          "articulatory": {
+            "lips": [
+              "bet",
+              "vav",
+              "mem",
+              "pe"
+            ],
+            "palate": [
+              "gimel",
+              "yod",
+              "kaf",
+              "qof"
+            ],
+            "teeth": [
+              "zayin",
+              "samekh",
+              "tsadi",
+              "resh",
+              "shin"
+            ],
+            "throat": [
+              "aleph",
+              "he",
+              "heth",
+              "ayin"
+            ],
+            "tongue": [
+              "dalet",
+              "tet",
+              "lamed",
+              "nun",
+              "tav"
+            ]
+          },
+          "sefer": {
+            "doubles": [
+              "bet",
+              "gimel",
+              "dalet",
+              "kaf",
+              "pe",
+              "resh",
+              "tav"
+            ],
+            "mothers": [
+              "aleph",
+              "mem",
+              "shin"
+            ],
+            "simples": [
+              "he",
+              "vav",
+              "zayin",
+              "heth",
+              "tet",
+              "yod",
+              "lamed",
+              "nun",
+              "samekh",
+              "ayin",
+              "tsadi",
+              "qof"
+            ]
+          }
+        },
+        "letter_ids": [
+          "aleph",
+          "bet",
+          "gimel",
+          "dalet",
+          "he",
+          "vav",
+          "zayin",
+          "heth",
+          "tet",
+          "yod",
+          "kaf",
+          "lamed",
+          "mem",
+          "nun",
+          "samekh",
+          "ayin",
+          "pe",
+          "tsadi",
+          "qof",
+          "resh",
+          "shin",
+          "tav"
+        ],
+        "r:1": "tagged, not identified with either claim",
+        "recensions": [
+          "fixture-A",
+          "fixture-B"
+        ],
+        "resh_realizations": [
+          {
+            "candidate": "claim-A",
+            "source_status": "NOT_RETRIEVED"
+          },
+          {
+            "candidate": "claim-B",
+            "source_status": "NOT_RETRIEVED"
+          }
+        ]
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T04:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T04:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T04:observation",
+      "uncertainty": null,
+      "value": {
+        "classification_authority": "synthetic schema memberships; historical recension not certified",
+        "classifications": {
+          "articulatory": {
+            "lips": [
+              "bet",
+              "vav",
+              "mem",
+              "pe"
+            ],
+            "palate": [
+              "gimel",
+              "yod",
+              "kaf",
+              "qof"
+            ],
+            "teeth": [
+              "zayin",
+              "samekh",
+              "tsadi",
+              "resh",
+              "shin"
+            ],
+            "throat": [
+              "aleph",
+              "he",
+              "heth",
+              "ayin"
+            ],
+            "tongue": [
+              "dalet",
+              "tet",
+              "lamed",
+              "nun",
+              "tav"
+            ]
+          },
+          "sefer": {
+            "doubles": [
+              "bet",
+              "gimel",
+              "dalet",
+              "kaf",
+              "pe",
+              "resh",
+              "tav"
+            ],
+            "mothers": [
+              "aleph",
+              "mem",
+              "shin"
+            ],
+            "simples": [
+              "he",
+              "vav",
+              "zayin",
+              "heth",
+              "tet",
+              "yod",
+              "lamed",
+              "nun",
+              "samekh",
+              "ayin",
+              "tsadi",
+              "qof"
+            ]
+          }
+        },
+        "letter_ids": [
+          "aleph",
+          "bet",
+          "gimel",
+          "dalet",
+          "he",
+          "vav",
+          "zayin",
+          "heth",
+          "tet",
+          "yod",
+          "kaf",
+          "lamed",
+          "mem",
+          "nun",
+          "samekh",
+          "ayin",
+          "pe",
+          "tsadi",
+          "qof",
+          "resh",
+          "shin",
+          "tav"
+        ],
+        "r:1": "tagged, not identified with either claim",
+        "recensions": [
+          "fixture-A",
+          "fixture-B"
+        ],
+        "resh_realizations": [
+          {
+            "candidate": "claim-A",
+            "source_status": "NOT_RETRIEVED"
+          },
+          {
+            "candidate": "claim-B",
+            "source_status": "NOT_RETRIEVED"
+          }
+        ]
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T04:claim"
+      ],
+      "domain": "rabbinic",
+      "observation_refs": [
+        "T04:observation"
+      ],
+      "properties": {
+        "classification_authority": "synthetic schema memberships; historical recension not certified",
+        "classifications": {
+          "articulatory": {
+            "lips": [
+              "bet",
+              "vav",
+              "mem",
+              "pe"
+            ],
+            "palate": [
+              "gimel",
+              "yod",
+              "kaf",
+              "qof"
+            ],
+            "teeth": [
+              "zayin",
+              "samekh",
+              "tsadi",
+              "resh",
+              "shin"
+            ],
+            "throat": [
+              "aleph",
+              "he",
+              "heth",
+              "ayin"
+            ],
+            "tongue": [
+              "dalet",
+              "tet",
+              "lamed",
+              "nun",
+              "tav"
+            ]
+          },
+          "sefer": {
+            "doubles": [
+              "bet",
+              "gimel",
+              "dalet",
+              "kaf",
+              "pe",
+              "resh",
+              "tav"
+            ],
+            "mothers": [
+              "aleph",
+              "mem",
+              "shin"
+            ],
+            "simples": [
+              "he",
+              "vav",
+              "zayin",
+              "heth",
+              "tet",
+              "yod",
+              "lamed",
+              "nun",
+              "samekh",
+              "ayin",
+              "tsadi",
+              "qof"
+            ]
+          }
+        },
+        "letter_ids": [
+          "aleph",
+          "bet",
+          "gimel",
+          "dalet",
+          "he",
+          "vav",
+          "zayin",
+          "heth",
+          "tet",
+          "yod",
+          "kaf",
+          "lamed",
+          "mem",
+          "nun",
+          "samekh",
+          "ayin",
+          "pe",
+          "tsadi",
+          "qof",
+          "resh",
+          "shin",
+          "tav"
+        ],
+        "r:1": "tagged, not identified with either claim",
+        "recensions": [
+          "fixture-A",
+          "fixture-B"
+        ],
+        "resh_realizations": [
+          {
+            "candidate": "claim-A",
+            "source_status": "NOT_RETRIEVED"
+          },
+          {
+            "candidate": "claim-B",
+            "source_status": "NOT_RETRIEVED"
+          }
+        ]
+      },
+      "record_id": "T04:domain",
+      "record_type": "dual_classifications",
+      "related_refs": []
+    }
+  ],
+  "T05": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJzb3VyY2Vfc2lnbiI6ICJBIiwgInRhcmdldF9zaWduIjogIkIiLCAicmVsYXRpb24iOiAiUFJPUE9TRURfQURBUFRBVElPTiIsICJvcmRpbmFsX2FsaWdubWVudCI6IGZhbHNlfQ==",
+      "content_hash": "c7f2bdd8ea5da18f124b80c7d5b83e31fefc1f21890ed472d937b6515ca0d1a8",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T05",
+      "permitted_use": "schema testing only",
+      "record_id": "T05:source",
+      "retrieval_context": {},
+      "revision": "c7f2bdd8ea5da18f124b80c7d5b83e31fefc1f21890ed472d937b6515ca0d1a8",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "historical_language",
+      "locator": {
+        "fixture": "T05"
+      },
+      "record_id": "T05:observation",
+      "source_id": "T05:source",
+      "value": {
+        "ordinal_alignment": false,
+        "relation": "PROPOSED_ADAPTATION",
+        "source_sign": "A",
+        "target_sign": "B"
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T05:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T05:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T05:observation",
+      "uncertainty": null,
+      "value": {
+        "ordinal_alignment": false,
+        "relation": "PROPOSED_ADAPTATION",
+        "source_sign": "A",
+        "target_sign": "B"
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T05:claim"
+      ],
+      "domain": "historical_language",
+      "observation_refs": [
+        "T05:observation"
+      ],
+      "properties": {
+        "ordinal_alignment": false,
+        "relation": "PROPOSED_ADAPTATION",
+        "source_sign": "A",
+        "target_sign": "B"
+      },
+      "record_id": "T05:domain",
+      "record_type": "adaptation_claim",
+      "related_refs": []
+    }
+  ],
+  "T06": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJyYXRpbyI6IHsibnVtZXJhdG9yIjogMiwgImRlbm9taW5hdG9yIjogMywgInVuaXQiOiAic3RyaW5nX2xlbmd0aF9yYXRpbyJ9LCAiYWx0ZXJuYXRpdmUiOiB7Im51bWVyYXRvciI6IDQsICJkZW5vbWluYXRvciI6IDN9LCAiZW5naW5lIjogIklOQVBQTElDQUJMRSJ9",
+      "content_hash": "447c5ee185d52f654750216f5a15d88fcb2e390141f9a74bcd0dfc14382f2a02",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T06",
+      "permitted_use": "schema testing only",
+      "record_id": "T06:source",
+      "retrieval_context": {},
+      "revision": "447c5ee185d52f654750216f5a15d88fcb2e390141f9a74bcd0dfc14382f2a02",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "music_mathematics",
+      "locator": {
+        "fixture": "T06"
+      },
+      "record_id": "T06:observation",
+      "source_id": "T06:source",
+      "value": {
+        "alternative": {
+          "denominator": 3,
+          "numerator": 4
+        },
+        "engine": {
+          "__enum__": "DataState",
+          "value": "INAPPLICABLE"
+        },
+        "ratio": {
+          "denominator": 3,
+          "numerator": 2,
+          "unit": "string_length_ratio"
+        }
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T06:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T06:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T06:observation",
+      "uncertainty": null,
+      "value": {
+        "alternative": {
+          "denominator": 3,
+          "numerator": 4
+        },
+        "engine": {
+          "__enum__": "DataState",
+          "value": "INAPPLICABLE"
+        },
+        "ratio": {
+          "denominator": 3,
+          "numerator": 2,
+          "unit": "string_length_ratio"
+        }
+      }
+    },
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "c3ludGhldGljIGluZGVwZW5kZW50LXNvdXJjZS1yb2xlIGNvbnRyb2w6IDQvMw==",
+      "content_hash": "5c837cc7e18c11967a2a5cfe499e814d251fe3496c6b10aa6d42a0aa74031bb4",
+      "encoding": "utf-8",
+      "license": "UNVERIFIED",
+      "lineage": [],
+      "location": "synthetic:T06:alternative",
+      "permitted_use": "local authorized engineering",
+      "record_id": "T06:alternative-source",
+      "retrieval_context": {},
+      "revision": "5c837cc7e18c11967a2a5cfe499e814d251fe3496c6b10aa6d42a0aa74031bb4",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "music_mathematics",
+      "locator": {
+        "fixture": "T06"
+      },
+      "record_id": "T06:alternative-observation",
+      "source_id": "T06:alternative-source",
+      "value": {
+        "denominator": 3,
+        "historical_independence": "NOT_ESTABLISHED",
+        "numerator": 4,
+        "unit": "string_length_ratio"
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T06:claim"
+      ],
+      "domain": "music_mathematics",
+      "observation_refs": [
+        "T06:observation"
+      ],
+      "properties": {
+        "alternative": {
+          "denominator": 3,
+          "numerator": 4
+        },
+        "engine": {
+          "__enum__": "DataState",
+          "value": "INAPPLICABLE"
+        },
+        "ratio": {
+          "denominator": 3,
+          "numerator": 2,
+          "unit": "string_length_ratio"
+        }
+      },
+      "record_id": "T06:domain",
+      "record_type": "exact_quantities",
+      "related_refs": [
+        "T06:alternative-observation"
+      ]
+    }
+  ],
+  "T07": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJ3aXRuZXNzZXMiOiBbIk51bWJlcnMgMTEiLCAiU2FuaGVkcmluIDE3YSIsICJBcmlzdGVhcyIsICJMdWtlIDEwIl0sICJjb3VudHNfZXF1YXRlZCI6IGZhbHNlLCAibWFudXNjcmlwdF9kYXRlcyI6ICJTT1VSQ0VfVU5BVkFJTEFCTEUifQ==",
+      "content_hash": "3b6619422febf9eba7b75b74ca75b863962a41db572f8898d95a1a521bfacf24",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T07",
+      "permitted_use": "schema testing only",
+      "record_id": "T07:source",
+      "retrieval_context": {},
+      "revision": "3b6619422febf9eba7b75b74ca75b863962a41db572f8898d95a1a521bfacf24",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "narrative",
+      "locator": {
+        "fixture": "T07"
+      },
+      "record_id": "T07:observation",
+      "source_id": "T07:source",
+      "value": {
+        "counts_equated": false,
+        "manuscript_dates": {
+          "__enum__": "DataState",
+          "value": "SOURCE_UNAVAILABLE"
+        },
+        "witnesses": [
+          "Numbers 11",
+          "Sanhedrin 17a",
+          "Aristeas",
+          "Luke 10"
+        ]
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T07:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T07:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T07:observation",
+      "uncertainty": null,
+      "value": {
+        "counts_equated": false,
+        "manuscript_dates": {
+          "__enum__": "DataState",
+          "value": "SOURCE_UNAVAILABLE"
+        },
+        "witnesses": [
+          "Numbers 11",
+          "Sanhedrin 17a",
+          "Aristeas",
+          "Luke 10"
+        ]
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T07:claim"
+      ],
+      "domain": "narrative",
+      "observation_refs": [
+        "T07:observation"
+      ],
+      "properties": {
+        "counts_equated": false,
+        "manuscript_dates": {
+          "__enum__": "DataState",
+          "value": "SOURCE_UNAVAILABLE"
+        },
+        "witnesses": [
+          "Numbers 11",
+          "Sanhedrin 17a",
+          "Aristeas",
+          "Luke 10"
+        ]
+      },
+      "record_id": "T07:domain",
+      "record_type": "distinct_witnesses",
+      "related_refs": []
+    }
+  ],
+  "T08": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJhY3RvciI6ICJmaXh0dXJlIGFjdG9yIiwgImFjdGlvbiI6ICJmaXh0dXJlIGFjdGlvbiIsICJtb2RhbGl0eSI6ICJQUk9ISUJJVElPTiIsICJjb25kaXRpb25zIjogWyJjIl0sICJleGNlcHRpb25zIjogWyJlIl0sICJhdXRob3JpdHkiOiAic3ludGhldGljIGF1dGhvcml0eSIsICJwZXJpb2QiOiAiVU5BVFRFU1RFRCJ9",
+      "content_hash": "b5bbd8b54c1d9537a92585f64c397ece9bffe999f50db3252c3bfff6986ee4ff",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T08",
+      "permitted_use": "schema testing only",
+      "record_id": "T08:source",
+      "retrieval_context": {},
+      "revision": "b5bbd8b54c1d9537a92585f64c397ece9bffe999f50db3252c3bfff6986ee4ff",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "normative",
+      "locator": {
+        "fixture": "T08"
+      },
+      "record_id": "T08:observation",
+      "source_id": "T08:source",
+      "value": {
+        "action": "fixture action",
+        "actor": "fixture actor",
+        "authority": "synthetic authority",
+        "conditions": [
+          "c"
+        ],
+        "exceptions": [
+          "e"
+        ],
+        "modality": "PROHIBITION",
+        "period": {
+          "__enum__": "DataState",
+          "value": "UNATTESTED"
+        }
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T08:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T08:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T08:observation",
+      "uncertainty": null,
+      "value": {
+        "action": "fixture action",
+        "actor": "fixture actor",
+        "authority": "synthetic authority",
+        "conditions": [
+          "c"
+        ],
+        "exceptions": [
+          "e"
+        ],
+        "modality": "PROHIBITION",
+        "period": {
+          "__enum__": "DataState",
+          "value": "UNATTESTED"
+        }
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T08:claim"
+      ],
+      "domain": "normative",
+      "observation_refs": [
+        "T08:observation"
+      ],
+      "properties": {
+        "action": "fixture action",
+        "actor": "fixture actor",
+        "authority": "synthetic authority",
+        "conditions": [
+          "c"
+        ],
+        "exceptions": [
+          "e"
+        ],
+        "modality": "PROHIBITION",
+        "period": {
+          "__enum__": "DataState",
+          "value": "UNATTESTED"
+        }
+      },
+      "record_id": "T08:domain",
+      "record_type": "rule",
+      "related_refs": []
+    }
+  ],
+  "T09": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJuYW1lc3BhY2UiOiAidzcyOmZpeHR1cmUiLCAiY2FuZGlkYXRlcyI6IFsiQSIsICJCIl0sICJlcXVpdmFsZW5jZV9jbGFzcyI6IFsiQSIsICJCIl0sICJzZWxlY3RlZCI6IG51bGx9",
+      "content_hash": "cb7ae4ca7744ef50524f98c79ca1c66fa8fe9f8f93033e26736bbaa3dab9e57d",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T09",
+      "permitted_use": "schema testing only",
+      "record_id": "T09:source",
+      "retrieval_context": {},
+      "revision": "cb7ae4ca7744ef50524f98c79ca1c66fa8fe9f8f93033e26736bbaa3dab9e57d",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "mathematics",
+      "locator": {
+        "fixture": "T09"
+      },
+      "record_id": "T09:observation",
+      "source_id": "T09:source",
+      "value": {
+        "candidates": [
+          "A",
+          "B"
+        ],
+        "equivalence_class": [
+          "A",
+          "B"
+        ],
+        "namespace": "w72:fixture",
+        "selected": null
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T09:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T09:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T09:observation",
+      "uncertainty": null,
+      "value": {
+        "candidates": [
+          "A",
+          "B"
+        ],
+        "equivalence_class": [
+          "A",
+          "B"
+        ],
+        "namespace": "w72:fixture",
+        "selected": null
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T09:claim"
+      ],
+      "domain": "mathematics",
+      "observation_refs": [
+        "T09:observation"
+      ],
+      "properties": {
+        "candidates": [
+          "A",
+          "B"
+        ],
+        "equivalence_class": [
+          "A",
+          "B"
+        ],
+        "namespace": "w72:fixture",
+        "selected": null
+      },
+      "record_id": "T09:domain",
+      "record_type": "orientation_candidates",
+      "related_refs": []
+    }
+  ],
+  "T10": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJsYXlvdXRzIjogW3siaW1hZ2UiOiAic3ludGhldGljLUEiLCAibm9kZXMiOiBbeyJpZCI6ICJhIiwgImxhYmVsIjogIlgiLCAieHkiOiBbMCwgMF19XSwgImVkZ2VzIjogW119LCB7ImltYWdlIjogInN5bnRoZXRpYy1CIiwgIm5vZGVzIjogW3siaWQiOiAiYiIsICJsYWJlbCI6ICJZIiwgInh5IjogWzEsIDJdfV0sICJlZGdlcyI6IFtdfV0sICJjb250YWlubWVudCI6IFtdLCAic2FtZV9wYXRoX2Fzc2lnbm1lbnRzIjogZmFsc2V9",
+      "content_hash": "2a92b517a1f760ca7aacccd95f94bf794636248ddfaab38192c07bd3dfc9e0d9",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T10",
+      "permitted_use": "schema testing only",
+      "record_id": "T10:source",
+      "retrieval_context": {},
+      "revision": "2a92b517a1f760ca7aacccd95f94bf794636248ddfaab38192c07bd3dfc9e0d9",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "diagrammatic",
+      "locator": {
+        "fixture": "T10"
+      },
+      "record_id": "T10:observation",
+      "source_id": "T10:source",
+      "value": {
+        "containment": [],
+        "layouts": [
+          {
+            "edges": [],
+            "image": "synthetic-A",
+            "nodes": [
+              {
+                "id": "a",
+                "label": "X",
+                "xy": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "edges": [],
+            "image": "synthetic-B",
+            "nodes": [
+              {
+                "id": "b",
+                "label": "Y",
+                "xy": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "same_path_assignments": false
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T10:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T10:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T10:observation",
+      "uncertainty": null,
+      "value": {
+        "containment": [],
+        "layouts": [
+          {
+            "edges": [],
+            "image": "synthetic-A",
+            "nodes": [
+              {
+                "id": "a",
+                "label": "X",
+                "xy": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "edges": [],
+            "image": "synthetic-B",
+            "nodes": [
+              {
+                "id": "b",
+                "label": "Y",
+                "xy": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "same_path_assignments": false
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T10:claim"
+      ],
+      "domain": "diagrammatic",
+      "observation_refs": [
+        "T10:observation"
+      ],
+      "properties": {
+        "containment": [],
+        "layouts": [
+          {
+            "edges": [],
+            "image": "synthetic-A",
+            "nodes": [
+              {
+                "id": "a",
+                "label": "X",
+                "xy": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "edges": [],
+            "image": "synthetic-B",
+            "nodes": [
+              {
+                "id": "b",
+                "label": "Y",
+                "xy": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "same_path_assignments": false
+      },
+      "record_id": "T10:domain",
+      "record_type": "two_layouts",
+      "related_refs": []
+    }
+  ],
+  "T11": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJzb3VyY2VfdGV4dCI6ICJzeW50aGV0aWMgb25seSIsICJwcm9jZWR1cmVzIjogWyJzdHJhaWdodCIsICJyZXZlcnNlIG1pZGRsZSByb3ciXSwgImluZGV4X2NvbnZlbnRpb24iOiAiZXhwbGljaXQgMS1iYXNlZCIsICJjaG9zZW4iOiBudWxsLCAidzcyX2FsaWdubWVudCI6IG51bGx9",
+      "content_hash": "7590b9e02a753a3a1fafcbdd22f42649d72f456f503743eb6a03c3c557516dc6",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T11",
+      "permitted_use": "schema testing only",
+      "record_id": "T11:source",
+      "retrieval_context": {},
+      "revision": "7590b9e02a753a3a1fafcbdd22f42649d72f456f503743eb6a03c3c557516dc6",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "textual",
+      "locator": {
+        "fixture": "T11"
+      },
+      "record_id": "T11:observation",
+      "source_id": "T11:source",
+      "value": {
+        "chosen": null,
+        "index_convention": "explicit 1-based",
+        "procedures": [
+          "straight",
+          "reverse middle row"
+        ],
+        "source_text": "synthetic only",
+        "w72_alignment": null
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T11:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T11:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T11:observation",
+      "uncertainty": null,
+      "value": {
+        "chosen": null,
+        "index_convention": "explicit 1-based",
+        "procedures": [
+          "straight",
+          "reverse middle row"
+        ],
+        "source_text": "synthetic only",
+        "w72_alignment": null
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T11:claim"
+      ],
+      "domain": "textual",
+      "observation_refs": [
+        "T11:observation"
+      ],
+      "properties": {
+        "chosen": null,
+        "index_convention": "explicit 1-based",
+        "procedures": [
+          "straight",
+          "reverse middle row"
+        ],
+        "source_text": "synthetic only",
+        "w72_alignment": null
+      },
+      "record_id": "T11:domain",
+      "record_type": "orientation_procedures",
+      "related_refs": []
+    }
+  ],
+  "T12": [
+    {
+      "__type__": "SourceArtifact",
+      "acquisition": {},
+      "authority": "SYNTHETIC_SCHEMA_FIXTURE",
+      "content_b64": "eyJmb3JtIjogImZpeHR1cmUtZm9ybSIsICJhbmFseXNlcyI6IFt7InJvb3QiOiAiQSIsICJwYXR0ZXJuIjogIlAifSwgeyJyb290IjogIkIiLCAicGF0dGVybiI6ICJRIn1dLCAicmVhbGl6YXRpb25zIjogWyJyZWFkaW5nLUEiLCAicmVhZGluZy1CIl0sICJlcnJvcl9jaGFubmVscyI6IFsiZGFtYWdlIiwgIm1pc2hlYXJpbmciLCAicmVkYWN0aW9uIiwgInVua25vd24iXX0=",
+      "content_hash": "93eab33245c3d7a175c3eace9a31fb338fecebf25d0ba3496d8a53bf4061ab45",
+      "encoding": "utf-8",
+      "license": "local fixture",
+      "lineage": [],
+      "location": "synthetic:T12",
+      "permitted_use": "schema testing only",
+      "record_id": "T12:source",
+      "retrieval_context": {},
+      "revision": "93eab33245c3d7a175c3eace9a31fb338fecebf25d0ba3496d8a53bf4061ab45",
+      "supersedes": []
+    },
+    {
+      "__type__": "EvidenceObservation",
+      "domain": "morphology",
+      "locator": {
+        "fixture": "T12"
+      },
+      "record_id": "T12:observation",
+      "source_id": "T12:source",
+      "value": {
+        "analyses": [
+          {
+            "pattern": "P",
+            "root": "A"
+          },
+          {
+            "pattern": "Q",
+            "root": "B"
+          }
+        ],
+        "error_channels": [
+          "damage",
+          "mishearing",
+          "redaction",
+          "unknown"
+        ],
+        "form": "fixture-form",
+        "realizations": [
+          "reading-A",
+          "reading-B"
+        ]
+      }
+    },
+    {
+      "__type__": "EvidenceClaim",
+      "competing_claims": [],
+      "dating_refs": [],
+      "evidence_refs": [
+        "T12:source"
+      ],
+      "property": "schema_example",
+      "record_id": "T12:claim",
+      "source_locator": null,
+      "status": "SYNTHETIC_SCHEMA_FIXTURE",
+      "subject_id": "T12:observation",
+      "uncertainty": null,
+      "value": {
+        "analyses": [
+          {
+            "pattern": "P",
+            "root": "A"
+          },
+          {
+            "pattern": "Q",
+            "root": "B"
+          }
+        ],
+        "error_channels": [
+          "damage",
+          "mishearing",
+          "redaction",
+          "unknown"
+        ],
+        "form": "fixture-form",
+        "realizations": [
+          "reading-A",
+          "reading-B"
+        ]
+      }
+    },
+    {
+      "__type__": "DomainRecord",
+      "claim_refs": [
+        "T12:claim"
+      ],
+      "domain": "morphology",
+      "observation_refs": [
+        "T12:observation"
+      ],
+      "properties": {
+        "analyses": [
+          {
+            "pattern": "P",
+            "root": "A"
+          },
+          {
+            "pattern": "Q",
+            "root": "B"
+          }
+        ],
+        "error_channels": [
+          "damage",
+          "mishearing",
+          "redaction",
+          "unknown"
+        ],
+        "form": "fixture-form",
+        "realizations": [
+          "reading-A",
+          "reading-B"
+        ]
+      },
+      "record_id": "T12:domain",
+      "record_type": "root_pattern_candidates",
+      "related_refs": []
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "status": "judged",
+  "sha256": "16dab6ea816cf806613218d146275a34754caef5487797fe62ee51b04280306d",
+  "sequence": 47,
+  "previous_sha256": "b6146641a6228217c0efca2b350c1d5c5c22d015c7733088a85ea1a5c2082147",
+  "purpose": "User correction: scoped process lifecycle and browser cleanup",
+  "completed_at": "2026-10-31T01:46:40.705398+00:00",
+  "request_sha256": "bb182656e21856a44c697289764f8fbf399e7f9595f7245ce4aeb7902521724f",
+  "request": {
+    "state": {
+      "goal": "Prevent abandoned SUNNY processes and safely clean up completed task workers.",
+      "authority": "The user explicitly requires closing processes when finished and actual Jev decisions. Preserve other applications and live Codex connectors.",
+      "observed": "No old SUNNY or Edge test worker is running. Multiple live Codex-owned MCP plugin launch cohorts exist. One local pinned Jev service has just been started to perform this decision. Existing startup scripts hide windows and reuse healthy endpoints but do not record complete process identity, provide a stop control or clean up failed startup. Browser tests close via CDP on success but do not await full process-tree exit on failure.",
+      "acceptance": "Only stop processes whose SUNNY ownership and current identity are verified; no process-name-wide kills; repeated startup must not duplicate services; failed startup and browser test must reap workers; preserve exact action evidence."
+    },
+    "questions": [
+      {
+        "id": "lifecycle",
+        "type": "choice",
+        "question": "Which supported lifecycle change should be implemented first?",
+        "options": {
+          "tracked_services": "Record SUNNY service PID, creation time, executable and command identity; reuse verified service; add scoped stop/status controls and startup-failure cleanup; verify real startup/reuse/stop and browser cleanup.",
+          "foreground_session": "Replace the existing background app launcher with one foreground supervised session that starts and stops its own children; preserve unrelated endpoints and test cancellation.",
+          "manual_only": "Keep current launch design; document exact manual ownership checks and scoped PID shutdown without an automated stop control."
+        }
+      },
+      {
+        "id": "browser_cleanup",
+        "type": "choice",
+        "question": "Which cleanup scope should apply to the isolated test browser?",
+        "options": {
+          "owned_tree": "Always request browser close when connected, wait a bounded interval, then terminate and reap only the spawned browser tree after checking its identity.",
+          "parent_only": "Continue terminating only the spawned parent browser PID on failure and document the possibility of child survivors."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "lifecycle",
+            "type": "choice",
+            "distribution": {
+              "foreground_session": 0.2987733781337738,
+              "manual_only": 0.2734531760215759,
+              "tracked_services": 0.42777344584465027
+            },
+            "value": "tracked_services",
+            "description": "Record SUNNY service PID, creation time, executable and command identity; reuse verified service; add scoped stop/status controls and startup-failure cleanup; verify real startup/reuse/stop and browser cleanup.",
+            "top_probability": 0.42777344584465027,
+            "margin": 0.12900006771087646
+          },
+          {
+            "id": "browser_cleanup",
+            "type": "choice",
+            "distribution": {
+              "owned_tree": 0.6513022780418396,
+              "parent_only": 0.3486977219581604
+            },
+            "value": "owned_tree",
+            "description": "Always request browser close when connected, wait a bounded interval, then terminate and reap only the spawned browser tree after checking its identity.",
+            "top_probability": 0.6513022780418396,
+            "margin": 0.3026045560836792
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 2,
+      "candidate_paths": 5,
+      "input_path_tokens": 1104,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 340,
+      "shared_prefix_questions": 2,
+      "shared_prefix_states": 1,
+      "wall_ms": 1677.85
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

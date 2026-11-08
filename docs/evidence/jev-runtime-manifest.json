@@ -1,0 +1,79 @@
+{
+  "source_repository": "https://github.com/malevrigns/agent-jev",
+  "source_commit": "fbe1bc97c76873d08f0820adf0dead55e95d5fc6",
+  "source_status": " M jev_service/verification.json\n",
+  "release_repository": "https://huggingface.co/aimeigaoshou/agent-jev",
+  "release_revision": "7d433994fbde17a3f0993c2f2b02fe8ca1370db1",
+  "release_variant": "v1",
+  "files": [
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\model.safetensors",
+      "bytes": 1196881242,
+      "sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+      "expected_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+      "verified": true
+    },
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\temperatures.json",
+      "bytes": 389,
+      "sha256": "5e5032896d77c72feb86b4725abe418488b8a1c7476014c706bd8215eb43c86c",
+      "expected_sha256": "5e5032896d77c72feb86b4725abe418488b8a1c7476014c706bd8215eb43c86c",
+      "verified": true
+    },
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\config.json",
+      "bytes": 727,
+      "sha256": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+      "expected_sha256": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+      "verified": true
+    },
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\tokenizer.json",
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "expected_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "verified": true
+    },
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\tokenizer_config.json",
+      "bytes": 9678,
+      "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+      "expected_sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+      "verified": true
+    },
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "expected_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "verified": true
+    },
+    {
+      "path": "runtime\\agent-jev\\models\\agentjev-v1\\merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "expected_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "verified": true
+    }
+  ],
+  "tensor_dtypes": {
+    "BF16": 343
+  },
+  "runtime_python": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\runtime\\.venv\\Scripts\\python.exe",
+  "isolation": "workspace virtual environment inherits existing read-only system site-packages; no global packages or settings changed",
+  "versions": {
+    "torch": "2.9.1",
+    "transformers": "4.57.3",
+    "safetensors": "0.7.0",
+    "huggingface_hub": "0.34.4",
+    "numpy": "2.2.5",
+    "requests": "2.31.0",
+    "pillow": "11.3.0",
+    "tqdm": "4.67.1",
+    "pyyaml": "6.0.2"
+  },
+  "device": "cpu",
+  "cpu_thread_limit": 4,
+  "model_uploads": "none; only public release files downloaded",
+  "scope": "Identity and byte-integrity verification, not domain calibration or SUNNY claim verification"
+}

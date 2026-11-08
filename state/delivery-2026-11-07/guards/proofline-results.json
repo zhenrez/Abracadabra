@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "verifierPath": "C:\\Users\\Brend\\.codex\\plugins\\cache\\openai-curated-remote\\proofline\\2.0.2\\skills\\manage-evidence-decisions\\scripts\\proofline_package.py",
+  "verifierSha256": "6969274e69ef803f431bdd67f3c9d372a50a93f97c1a050b8c1c3f2464e5a2b6",
+  "packages": [
+    {
+      "name": "actual-jev-frontier",
+      "sourcePath": "state/jev-receipts/000058-bbb3ab44bbf5.json",
+      "sourceBytesSha256": "75e16a54e41749d4cd5f3a6b2b66ac8fafc04992dba38c4a9641451b196807f5",
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "8a4f32aed3d3af48b34c4c56dad8d473eb17584d071c1a215507573265d6570a",
+        "artifact_id": "b99cf311-ed6a-50e0-8255-aa60bf1b1894",
+        "citation_count": 1
+      }
+    },
+    {
+      "name": "score-anchor-result",
+      "sourcePath": "state/reconstruction/score-anchor-constraints.json",
+      "sourceBytesSha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+      "verification": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "c6b4f469c3b03351caf436223c184e67aa602379aba2b0ba58fc482d9ad0f1be",
+        "artifact_id": "3ffb97a7-40fb-53c3-866f-d02b4411f0b0",
+        "citation_count": 1
+      }
+    }
+  ],
+  "signed": false,
+  "boundary": "Exact source span/package integrity only. Independent mathematical checks and model receipts retain their separate scopes."
+}

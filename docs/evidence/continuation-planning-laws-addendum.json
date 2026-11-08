@@ -1,0 +1,51 @@
+{
+  "schema": "sunny.planning-law-reference-addendum.v1",
+  "updated_utc": "2026-11-01T00:07:08.433801+00:00",
+  "previous_planning_receipt": {
+    "path": "docs/evidence/continuation-planning-reconciliation.json",
+    "sha256": "be51970de5f83f405d5afa264ec2426ac38cc97ec35887ff8782d52b9eb95111"
+  },
+  "previous_queue": {
+    "path": "state/checkpoint-history/before-law-addendum-queue-4e9e4136747cc0fc660266104d52c3acf4d4a0ffa6ffa1a2eb84f799a4ec545c.snapshot",
+    "sha256": "4e9e4136747cc0fc660266104d52c3acf4d4a0ffa6ffa1a2eb84f799a4ec545c"
+  },
+  "current_queue": {
+    "path": "state/work-queue.json",
+    "sha256": "d1de6dd3fc2412e629a2110c2219241c48258fce401a1d2bf96eb77e29c6d02b"
+  },
+  "changed_current_unit": {
+    "previous": {
+      "id": "derived-laws",
+      "path": "state/reconstruction/derived-laws.json",
+      "sha256": "c89a586292f06c714041969617b732cc971012f9a2b67b132ddf08cfc9a5fa93",
+      "observed_state": "conditional proposals with dependency graph check",
+      "boundary": "A component artifact is not full semantic corpus coverage, complete mathematical realization, canonical orientation or independent blind prediction."
+    },
+    "current": {
+      "id": "derived-laws",
+      "path": "state/reconstruction/derived-laws.json",
+      "sha256": "fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1",
+      "observed_state": "thirteen conditional proposals with current source/proof bindings and acyclic dependency graph; newtwo independently reviewed",
+      "boundary": "A component artifact is not full semantic corpus coverage, complete mathematical realization, canonical orientation or independent blind prediction."
+    }
+  },
+  "independent_new_laws_review": {
+    "path": "docs/evidence/progressive-laws-independent-addendum.json",
+    "sha256": "a0d60531eb1c774462dba8262497045383ed9c7d9beb4ee8b155ab5fe47402af"
+  },
+  "chronology": "Old queue and11-law evidence remain immutable; current unit reference now points to13-law source-conditional extension.",
+  "validation": {
+    "exit_code": 0,
+    "historical_tasks_unchanged": true,
+    "new_laws_reviewed": 2,
+    "current_conditional_laws": 13,
+    "dependency_cycles": 0,
+    "new_proof_hashes_verified": 3,
+    "root_task_and_model_untouched": true,
+    "services_started": 0
+  },
+  "hummbl_addendum": {
+    "path": "docs/HUMMBL_PLAN.md",
+    "sha256": "6ec8029f88bfd5be3d029f365ffb351a19391dab0f2a237f6fc4b0e69be3e159"
+  }
+}

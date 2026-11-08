@@ -1,0 +1,1015 @@
+{
+  "schema": "sunny.native-execution.v1",
+  "generatedAt": "2026-10-31T21:59:22.795Z",
+  "source": {
+    "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+    "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json"
+  },
+  "counts": {
+    "mechanisms": 10,
+    "sourceMemberOccurrences": 19,
+    "focusedTests": 14,
+    "scenarioExecutions": 7,
+    "scenarioUnknowns": 3
+  },
+  "status": "All ten mechanisms have bounded interpreters; historical instances and irrational extensions are not thereby completed.",
+  "canonicalPromotion": false,
+  "novelty": {
+    "label": "source-conditional derived identities; exposed definitions, not blind discovery",
+    "sourcePointers": [
+      "/generative_registry/1",
+      "/generative_registry/2",
+      "/generative_registry/4"
+    ],
+    "identities": [
+      {
+        "identity": "J rho_k J = rho_-k",
+        "domain": "finite nonempty sequence, integer k",
+        "argument": "(J rho_k J x)_j=x_((j-k) mod n); reversal conjugates cyclic index rotation to its inverse.",
+        "finiteCheck": "all n=1..32, k=-n..n; 1088 cases",
+        "independentCheck": "Wolfram exact finite verification"
+      },
+      {
+        "identity": "J A_(s,a) = A_(s,a) J",
+        "domain": "finite sequence of Z12 pitch classes; A_(s,a)(v)=s*v+a mod12, s=+/-1",
+        "argument": "Both compositions have entry s*x_(n-1-j)+a mod12: pitch-value action and position reversal act on distinct coordinates.",
+        "finiteCheck": "six-entry pitch sequence, both signs and all 12 offsets",
+        "independentCheck": "Wolfram exact finite verification"
+      }
+    ],
+    "nonClaims": [
+      "No unique musical orientation or phase is selected.",
+      "No native triad map, learned next-event distribution, acoustic constitution or Guido overlap is fabricated.",
+      "Finite checks support implementation; displayed index arguments supply the conditional identities."
+    ]
+  },
+  "registry": [
+    {
+      "id": "MEC-01",
+      "name": "SCALAR_MULTIPLICATIVE_ACTION",
+      "canonical": "S_c(x)=c x, c>0",
+      "sourceStatus": "FROZEN_EQUIVALENCE_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/0"
+      },
+      "executionScope": "Exact positive rational scalar action; carrier/unit supplied. Irrational root extensions need a separate representation.",
+      "families": [
+        {
+          "id": "MEC-01:member:0",
+          "mechanismId": "MEC-01",
+          "system": "SUN scalar kernel",
+          "sourcePointer": "/generative_registry/0/members/0",
+          "sourceMember": {
+            "system": "SUN scalar kernel",
+            "objects": [
+              "R=2/3",
+              "L=3/4",
+              "O=RL=1/2"
+            ],
+            "relation": "NATIVE"
+          },
+          "executionScope": "Exact positive rational scalar action; carrier/unit supplied. Irrational root extensions need a separate representation.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-01:member:1",
+          "mechanismId": "MEC-01",
+          "system": "sanfen sunyi",
+          "sourcePointer": "/generative_registry/0/members/1",
+          "sourceMember": {
+            "system": "sanfen sunyi",
+            "objects": [
+              "D=2/3",
+              "U=4/3"
+            ],
+            "relation": "EXACT_GENERATOR_FAMILY_EQUIVALENCE to SUN on positive scalar carrier"
+          },
+          "executionScope": "Exact positive rational scalar action; carrier/unit supplied. Irrational root extensions need a separate representation.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-01:member:2",
+          "mechanismId": "MEC-01",
+          "system": "Zhu equal division",
+          "sourcePointer": "/generative_registry/0/members/2",
+          "sourceMember": {
+            "system": "Zhu equal division",
+            "objects": [
+              "q=2^(1/12)"
+            ],
+            "relation": "ROOT_EXTENSION / SAME OPERATION FORM, NOT SAME SUBGROUP"
+          },
+          "executionScope": "Exact positive rational scalar action; carrier/unit supplied. Irrational root extensions need a separate representation.",
+          "coverage": "irrational generator not represented by rational subset"
+        },
+        {
+          "id": "MEC-01:member:3",
+          "mechanismId": "MEC-01",
+          "system": "Messiaen augmentation/diminution",
+          "sourcePointer": "/generative_registry/0/members/3",
+          "sourceMember": {
+            "system": "Messiaen augmentation/diminution",
+            "objects": [
+              "duration scaling c and c^-1"
+            ],
+            "relation": "SAME OPERATION FORM, DIFFERENT CARRIER/SEMANTICS"
+          },
+          "executionScope": "Exact positive rational scalar action; carrier/unit supplied. Irrational root extensions need a separate representation.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Positive exact rational scalar and positive value, explicitly named carrier/unit. Zhu radical q=2^(1/12) is not represented by a fabricated rational."
+    },
+    {
+      "id": "MEC-02",
+      "name": "DIHEDRAL_D12_ACTION",
+      "canonical": "<s,t | s^12=e, t^2=e, tst=s^-1>",
+      "sourceStatus": "FROZEN_EQUIVALENCE_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/1"
+      },
+      "executionScope": "Abstract D12 affine action on Z/12; PLR triad realization is not inferred from the abstract isomorphism.",
+      "families": [
+        {
+          "id": "MEC-02:member:0",
+          "mechanismId": "MEC-02",
+          "system": "serial pitch-class T/I",
+          "sourcePointer": "/generative_registry/1/members/0",
+          "sourceMember": {
+            "system": "serial pitch-class T/I",
+            "objects": [
+              "T1",
+              "I"
+            ],
+            "relation": "NATIVE D12 action"
+          },
+          "executionScope": "Abstract D12 affine action on Z/12; PLR triad realization is not inferred from the abstract isomorphism.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-02:member:1",
+          "mechanismId": "MEC-02",
+          "system": "neo-Riemannian PLR",
+          "sourcePointer": "/generative_registry/1/members/1",
+          "sourceMember": {
+            "system": "neo-Riemannian PLR",
+            "objects": [
+              "L",
+              "R"
+            ],
+            "relation": "ABSTRACT GROUP / GENERATOR-FAMILY EQUIVALENCE"
+          },
+          "executionScope": "Abstract D12 affine action on Z/12; PLR triad realization is not inferred from the abstract isomorphism.",
+          "coverage": "abstract family represented; actual triad map remains required"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Explicit abstract Z12 affine action (sign,offset). Native neo-Riemannian triad encoding/action is not supplied by abstract group equivalence."
+    },
+    {
+      "id": "MEC-03",
+      "name": "REVERSAL_INVOLUTION",
+      "canonical": "J_n(x)_j=x_{n-1-j}, J_n^2=id",
+      "sourceStatus": "FROZEN_EQUIVALENCE_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/2"
+      },
+      "executionScope": "Exact reversal of a finite supplied sequence; fixed-point status is a predicate, not another generator.",
+      "families": [
+        {
+          "id": "MEC-03:member:0",
+          "mechanismId": "MEC-03",
+          "system": "serialism",
+          "sourcePointer": "/generative_registry/2/members/0",
+          "sourceMember": {
+            "system": "serialism",
+            "objects": [
+              "retrograde R"
+            ],
+            "relation": "NATIVE reversal action"
+          },
+          "executionScope": "Exact reversal of a finite supplied sequence; fixed-point status is a predicate, not another generator.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-03:member:1",
+          "mechanismId": "MEC-03",
+          "system": "Messiaen rhythm",
+          "sourcePointer": "/generative_registry/2/members/1",
+          "sourceMember": {
+            "system": "Messiaen rhythm",
+            "objects": [
+              "retrograde operator",
+              "non-retrogradable fixed points"
+            ],
+            "relation": "SAME REVERSAL MECHANISM; fixed-point predicate not generator"
+          },
+          "executionScope": "Exact reversal of a finite supplied sequence; fixed-point status is a predicate, not another generator.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Finite supplied sequence. Nonretrogradability is its reversal fixed-point predicate."
+    },
+    {
+      "id": "MEC-04",
+      "name": "PARTIAL_ADDRESS_REPRESENTATION_TRANSITION",
+      "canonical": "m:(object,address_a) ⇀ (same_object,address_b)",
+      "sourceStatus": "FROZEN_SINGLETON_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/3"
+      },
+      "executionScope": "Only an explicitly admissible partial map preserving supplied object identity and shared pitch.",
+      "families": [
+        {
+          "id": "MEC-04:member:0",
+          "mechanismId": "MEC-04",
+          "system": "Guidonian hexachord",
+          "sourcePointer": "/generative_registry/3/members/0",
+          "sourceMember": {
+            "system": "Guidonian hexachord",
+            "objects": [
+              "mutation"
+            ],
+            "relation": "WEB-EXPANDED executable partial map"
+          },
+          "executionScope": "Only an explicitly admissible partial map preserving supplied object identity and shared pitch.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Actual overlap/mutation map, shared pitch/object identity, caller-declared admissibility and source references."
+    },
+    {
+      "id": "MEC-05",
+      "name": "CYCLIC_INDEX_ROTATION",
+      "canonical": "rho_k(x_0,...,x_{n-1})=(x_k,...,x_{k-1})",
+      "sourceStatus": "FROZEN_SINGLETON_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/4"
+      },
+      "executionScope": "Finite supplied cyclic index rotation; no native origin or historical mapping inferred.",
+      "families": [
+        {
+          "id": "MEC-05:member:0",
+          "mechanismId": "MEC-05",
+          "system": "grāma–mūrchanā",
+          "sourcePointer": "/generative_registry/4/members/0",
+          "sourceMember": {
+            "system": "grāma–mūrchanā",
+            "objects": [
+              "seven mūrchanās"
+            ],
+            "relation": "WEB-EXPANDED C7-type starting-point rotations"
+          },
+          "executionScope": "Finite supplied cyclic index rotation; no native origin or historical mapping inferred.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Finite nonempty cyclic sequence and integer shift. No origin or pitch tuning inferred."
+    },
+    {
+      "id": "MEC-06",
+      "name": "EUCLIDEAN_DISTRIBUTION_CONSTRUCTOR",
+      "canonical": "E(k,n) -> cyclic n-slot binary pattern with k evenly distributed onsets",
+      "sourceStatus": "FROZEN_SINGLETON_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/5"
+      },
+      "executionScope": "Exact mechanical Euclidean constructor modulo all cyclic rotations; no selected lawful phase.",
+      "families": [
+        {
+          "id": "MEC-06:member:0",
+          "mechanismId": "MEC-06",
+          "system": "Euclidean rhythm generation",
+          "sourcePointer": "/generative_registry/5/members/0",
+          "sourceMember": {
+            "system": "Euclidean rhythm generation",
+            "objects": [
+              "E(k,n)"
+            ],
+            "relation": "WEB-EXPANDED exact constructor modulo cyclic rotation"
+          },
+          "executionScope": "Exact mechanical Euclidean constructor modulo all cyclic rotations; no selected lawful phase.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Integers 0<=k<=n<=256,n>=1. Output is the entire distinct cyclic orbit, so phase remains open."
+    },
+    {
+      "id": "MEC-07",
+      "name": "MODULAR_BOOLEAN_SIEVE_CONSTRUCTOR",
+      "canonical": "residue classes M_r combined by union/intersection/complement",
+      "sourceStatus": "FROZEN_SINGLETON_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/6"
+      },
+      "executionScope": "Boolean residue sieve restricted to the explicitly supplied finite integer universe.",
+      "families": [
+        {
+          "id": "MEC-07:member:0",
+          "mechanismId": "MEC-07",
+          "system": "Xenakis sieve theory",
+          "sourcePointer": "/generative_registry/6/members/0",
+          "sourceMember": {
+            "system": "Xenakis sieve theory",
+            "objects": [
+              "residue class",
+              "union",
+              "intersection",
+              "complement"
+            ],
+            "relation": "WEB-EXPANDED exact set constructor algebra"
+          },
+          "executionScope": "Boolean residue sieve restricted to the explicitly supplied finite integer universe.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Explicit bounded finite integer universe and complete Boolean residue expression. Infinite set algebra is only evaluated on that universe."
+    },
+    {
+      "id": "MEC-08",
+      "name": "LOCAL_DURATION_ADDED_VALUE_TRANSFORM",
+      "canonical": "d_i -> d_i + δ, or insert short note/rest/dot-derived duration",
+      "sourceStatus": "FROZEN_SINGLETON_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/7"
+      },
+      "executionScope": "Explicit positive added duration, dot factor3/2 or supplied positive-duration inserted event; unit retained.",
+      "families": [
+        {
+          "id": "MEC-08:member:0",
+          "mechanismId": "MEC-08",
+          "system": "Messiaen rhythm",
+          "sourcePointer": "/generative_registry/7/members/0",
+          "sourceMember": {
+            "system": "Messiaen rhythm",
+            "objects": [
+              "added value"
+            ],
+            "relation": "WEB-EXPANDED executable local duration/event transform"
+          },
+          "executionScope": "Explicit positive added duration, dot factor3/2 or supplied positive-duration inserted event; unit retained.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Explicit event IDs, positive rational durations and unit; selected event/index and positive addition, dot, or positive inserted event. Historical shortness is not invented."
+    },
+    {
+      "id": "MEC-09",
+      "name": "JOINT_CONSTITUTION_HYPEREDGE",
+      "canonical": "J(x1,...,xk) => M",
+      "sourceStatus": "FROZEN_EQUIVALENCE_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/8"
+      },
+      "executionScope": "Declared higher-arity constitution witness with every required input; not an acoustic realization.",
+      "families": [
+        {
+          "id": "MEC-09:member:0",
+          "mechanismId": "MEC-09",
+          "system": "Central African hocket",
+          "sourcePointer": "/generative_registry/8/members/0",
+          "sourceMember": {
+            "system": "Central African hocket",
+            "objects": [
+              "interlocking/meshing"
+            ],
+            "relation": "SOURCE-SUPPORTED"
+          },
+          "executionScope": "Declared higher-arity constitution witness with every required input; not an acoustic realization.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-09:member:1",
+          "mechanismId": "MEC-09",
+          "system": "Andean qantu",
+          "sourcePointer": "/generative_registry/8/members/1",
+          "sourceMember": {
+            "system": "Andean qantu",
+            "objects": [
+              "ira/arka"
+            ],
+            "relation": "SOURCE-SUPPORTED"
+          },
+          "executionScope": "Declared higher-arity constitution witness with every required input; not an acoustic realization.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-09:member:2",
+          "mechanismId": "MEC-09",
+          "system": "Balinese interlocking",
+          "sourcePointer": "/generative_registry/8/members/2",
+          "sourceMember": {
+            "system": "Balinese interlocking",
+            "objects": [
+              "kotekan/interlocking composite"
+            ],
+            "relation": "SOURCE-SUPPORTED"
+          },
+          "executionScope": "Declared higher-arity constitution witness with every required input; not an acoustic realization.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-09:member:3",
+          "mechanismId": "MEC-09",
+          "system": "West African cross-rhythm",
+          "sourcePointer": "/generative_registry/8/members/3",
+          "sourceMember": {
+            "system": "West African cross-rhythm",
+            "objects": [
+              "ensemble relations"
+            ],
+            "relation": "SOURCE-SUPPORTED"
+          },
+          "executionScope": "Declared higher-arity constitution witness with every required input; not an acoustic realization.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Source-qualified admissible rule, full distinct antecedent list, supplied antecedent witnesses, declared composite. No acoustic proof is inferred."
+    },
+    {
+      "id": "MEC-10",
+      "name": "CONDITIONAL_NEXT_EVENT_KERNEL",
+      "canonical": "K(context,y)=P(next=y | context)",
+      "sourceStatus": "FROZEN_EQUIVALENCE_CLASS",
+      "source": {
+        "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+        "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+        "pointer": "/generative_registry/9"
+      },
+      "executionScope": "Evaluation of an actual supplied finite conditional kernel row; no training, sampling or invented winner.",
+      "families": [
+        {
+          "id": "MEC-10:member:0",
+          "mechanismId": "MEC-10",
+          "system": "Xenakis Markovian systems",
+          "sourcePointer": "/generative_registry/9/members/0",
+          "sourceMember": {
+            "system": "Xenakis Markovian systems",
+            "objects": [
+              "first-order transition probability"
+            ],
+            "relation": "context = preceding state"
+          },
+          "executionScope": "Evaluation of an actual supplied finite conditional kernel row; no training, sampling or invented winner.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        },
+        {
+          "id": "MEC-10:member:1",
+          "mechanismId": "MEC-10",
+          "system": "IDyOM-style expectation",
+          "sourcePointer": "/generative_registry/9/members/1",
+          "sourceMember": {
+            "system": "IDyOM-style expectation",
+            "objects": [
+              "next-event distribution"
+            ],
+            "relation": "variable learned sequential context"
+          },
+          "executionScope": "Evaluation of an actual supplied finite conditional kernel row; no training, sampling or invented winner.",
+          "coverage": "parameterized mechanism; native instance depends on supplied carrier/data"
+        }
+      ],
+      "implementationStatus": "bounded conditional interpreter",
+      "nativeInstanceRequirements": "Actual source-qualified versioned finite kernel and a matching context, exact nonnegative probabilities summing to one. No training data or kernel is invented."
+    }
+  ],
+  "observations": [
+    {
+      "mechanismId": "MEC-01",
+      "assertion": "source R then L gives exact O",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-01",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/0"
+        },
+        "scope": "Exact positive rational scalar action; carrier/unit supplied. Irrational root extensions need a separate representation.",
+        "output": {
+          "value": {
+            "numerator": "1",
+            "denominator": "2"
+          },
+          "factor": {
+            "numerator": "3",
+            "denominator": "4"
+          },
+          "carrier": "relative string length",
+          "unit": "relative length"
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-02",
+      "assertion": "abstract T1 acting on all twelve pitch classes",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-02",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/1"
+        },
+        "scope": "Abstract D12 affine action on Z/12; PLR triad realization is not inferred from the abstract isomorphism.",
+        "output": {
+          "values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0
+          ],
+          "action": {
+            "sign": 1,
+            "offset": 1
+          },
+          "modulus": 12
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-03",
+      "assertion": "test sequence reversal; example values are not historical notes",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-03",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/2"
+        },
+        "scope": "Exact reversal of a finite supplied sequence; fixed-point status is a predicate, not another generator.",
+        "output": {
+          "values": [
+            3,
+            2,
+            1
+          ],
+          "isFixedPoint": false
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-04",
+      "assertion": "no supplied historical overlap map remains unknown",
+      "result": {
+        "status": "unknown",
+        "mechanismId": "MEC-04",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/3"
+        },
+        "scope": "Only an explicitly admissible partial map preserving supplied object identity and shared pitch.",
+        "output": null,
+        "reason": "An explicit source-qualified admissible shared-pitch mapping is required.",
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-05",
+      "assertion": "test seven-index carrier; no historical pitch assignments",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-05",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/4"
+        },
+        "scope": "Finite supplied cyclic index rotation; no native origin or historical mapping inferred.",
+        "output": {
+          "values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0
+          ],
+          "shift": 1,
+          "modulus": 7
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-06",
+      "assertion": "source E(5,13), full cyclic orbit",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-06",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/5"
+        },
+        "scope": "Exact mechanical Euclidean constructor modulo all cyclic rotations; no selected lawful phase.",
+        "output": {
+          "rotations": [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "onsets": 5,
+          "slots": 13,
+          "phase": "unspecified; complete cyclic orbit, no selected lawful origin"
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-07",
+      "assertion": "test finite residue universe only",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-07",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/6"
+        },
+        "scope": "Boolean residue sieve restricted to the explicitly supplied finite integer universe.",
+        "output": {
+          "values": [
+            -6,
+            -4,
+            -3,
+            -1,
+            0,
+            2,
+            3,
+            5,
+            6
+          ],
+          "universe": [
+            -6,
+            -5,
+            -4,
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "expression": {
+            "op": "complement",
+            "child": {
+              "op": "residue",
+              "modulus": 3,
+              "residue": 1
+            }
+          },
+          "complementScope": "explicit finite universe only"
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-08",
+      "assertion": "test single-event dot; no historical event supplied",
+      "result": {
+        "status": "executed",
+        "mechanismId": "MEC-08",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/7"
+        },
+        "scope": "Explicit positive added duration, dot factor3/2 or supplied positive-duration inserted event; unit retained.",
+        "output": {
+          "events": [
+            {
+              "id": "test:event",
+              "duration": {
+                "numerator": "3",
+                "denominator": "2"
+              }
+            }
+          ],
+          "unit": "beats",
+          "mode": "dot",
+          "index": 0
+        },
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-09",
+      "assertion": "no actual joint-constitution inputs remain unknown",
+      "result": {
+        "status": "unknown",
+        "mechanismId": "MEC-09",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/8"
+        },
+        "scope": "Declared higher-arity constitution witness with every required input; not an acoustic realization.",
+        "output": null,
+        "reason": "A declared source-qualified joint constitution rule is required.",
+        "canonicalPromotion": false
+      }
+    },
+    {
+      "mechanismId": "MEC-10",
+      "assertion": "no actual learned kernel supplied remains unknown",
+      "result": {
+        "status": "unknown",
+        "mechanismId": "MEC-10",
+        "source": {
+          "sourceId": "9e03168cabf04e3887245d93c75f1f9d0034a53bead61e5d8b5a5e0315b259e8",
+          "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+          "pointer": "/generative_registry/9"
+        },
+        "scope": "Evaluation of an actual supplied finite conditional kernel row; no training, sampling or invented winner.",
+        "output": null,
+        "reason": "An actual source-qualified conditional kernel is required.",
+        "canonicalPromotion": false
+      }
+    }
+  ],
+  "verification": {
+    "build": "npm run build",
+    "testArgv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "--test",
+      "tests/native-operators.test.mjs"
+    ],
+    "exitCode": 0,
+    "signal": null,
+    "fullOutput": "docs/evidence/native-execution/focused-tests.tap",
+    "wolframReceipt": "docs/evidence/native-execution-wolfram-result.json",
+    "jevReceipt": "docs/evidence/native-execution-math-jev-result.json"
+  },
+  "inputs": [
+    {
+      "path": "src/native-operators.ts",
+      "sha256": "f2e82fe719f940b42825b03e2dcb1ef980ae49977850d741346cbb931cf77f5b"
+    },
+    {
+      "path": "tests/native-operators.test.mjs",
+      "sha256": "31b80212cb2395abb0ee0a72268e22d0bdbc82834cc1a3cb73c3cdba647340af"
+    },
+    {
+      "path": "scripts/reconstruct_native_execution.mjs",
+      "sha256": "ae4df1f1ef0fbcdd1f864eb62e9b6054df454ed53987035e4e1d853d113c2d8b"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-request.json",
+      "sha256": "7ad8ef20117633bd0fef816bdd88e04dc3b5711144f253d7ef051bfcc18913e8"
+    },
+    {
+      "path": "docs/evidence/native-execution-math-jev-result.json",
+      "sha256": "09add4ecfd3e42e29620bcd88c4a79263017c1b77804c1d1a3593e352c5478f9"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-request.json",
+      "sha256": "58a0c408de8ce56574420a97fffca5c06b4c1a089f5285f296f40dd8227eb229"
+    },
+    {
+      "path": "docs/evidence/native-execution-wolfram-result.json",
+      "sha256": "78705e567de44e9893cd66f95ce604f910f94f6087a5b58d5d2ffd201ced77a4"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:48.187651+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "ab5743f5f7ffe57e127eb930a8e4915773b143ad4601243e041dc3137d8fabb1"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "3fe5358d-728f-5c2b-b6ba-f4ae27e6cdc8",
+      "source_identity_sha256": "15dbb75ca1f47d25d03a07aad50a1d19015a4c16c2cca6790a7cac0abc47c5d3",
+      "source_version_id": "93d749be-512c-5bbd-a5d5-027a8ca357f9",
+      "version_number": 1,
+      "content": "10/12/2026, 8:03:55 PM\n\nTo predict the $\\\\{1,49\\\\}$ and $\\\\{11,17\\\\}$ collisions blindly, the constraint solver must completely decouple the index-to-coordinate bijection $f: I\\_{72} \\rightarrow W\\_{72}$ from the known anomalies. The 1,088,640 compatible carrier completions establish the structural bounds, but they do not yet map the 72 linear columns of the Exodus extraction into that geometry.\n\nIf the model builds the defect in by pre-selecting the stranded $F\\_{10,2}$ states for those exact indices, the test proves nothing. The engine must generate its own equality predictions using the native SUN operators and verify if they natively flag the correct index distances of 48 and 6.\n\n## The Source-Independent Mapping Constraint\n\nThe traditional Exodus extraction operates on three 72-letter verses, reversing the middle row to generate 72 three-letter columns. This provides a strict, continuous linear index $I\\_{72} = \\\\{1, \\dots, 72\\\\}$.\n\nTo map this into the $W\\_{72} = \\mathbb{Z}\\_{12} \\times \\mathbb{Z}\\_3 \\times \\mathbb{Z}\\_2$ product space, the engine requires a deterministic wrapping rule. Because the 12-note musical analogy functions specifically as the generational classes within the AYLI and SUN architecture, the $p \\in \\mathbb{Z}\\_{12}$ coordinate dictates the generational boundary.\n\nThe solver must test how the 72 linear indices distribute across this matrix:\n\n- **Sequential Generational Wrapping:** Does the linear index fill the 12 generational classes sequentially ($p = i \\pmod{12}$), iterating through the Sethian phases ($\\tau$) and syzygy parities ($\\beta$) with each complete cycle?\n\n- **Phase-Domain Filling:** Does the sequence completely fill a Sethian phase domain ($\\tau = 0$) across all 12 generational classes before crossing the boundary into the next phase ($\\tau = 1$)?\n\n- **Syzygy Oscillation:** Does the extraction natively toggle the $\\beta \\in \\mathbb{Z}\\_2$ parity bit on every sequential step, mapping the physical phase-history wrap ($e^{i(\\theta+2\\pi)/2} = -e^{i\\theta/2}$) directly to adjacent index columns?\n\n  \\\n\n## Defining the Predictive Anomaly Filter\n\nOnce the $I\\_{72} \\rightarrow W\\_{72}$ mapping is defined, the engine will run the 1,088,640 configurations against the unanchored anomaly predicate:\n\n$$A(i,j) \\iff i \\neq j \\land s(i) = s(j)$$\n\nThe exact evaluator will measure the structural relationship between $f(1)$ and $f(49)$, and $f(11)$ and $f(17)$. The search will isolate configurations where the underlying operators—specifically the $J$-pairing involution or the $B$-binary action—mathematically force those specific coordinate pairs into identical states or isolate them as the necessary combinatorial defect (the stranded states).\n\n## Executing the Blind Combinatorial Test\n\nThe computational loop for the exact evaluator is restricted to three operations:\n\n1. **Generate Mappings:** Apply the declared index-to-coordinate wrapping rules to the 72 Exodus columns.\n\n2. **Evaluate Operator Symmetry:** Run the $3R - 2L = C/2$ SUN acoustic identity and the Fludd-Kepler register descent across the mapped coordinates.\n\n3. **Extract the Collision Prediction:** Output the pairs of indices that the mathematical topology forces into structural equivalence.\n\n   \\\n\nIf the model natively predicts that indices separated by exactly 48 steps and 6 steps must collide because they represent the exact phase-wrap failure isolating Sophia's Autogenes fiber, the retrodiction is mathematically successful.\n\nTo restrict the initial mapping permutations, what specific geometric or historical rule should dictate how the 1-to-72 linear sequence of the Exodus extraction wraps into the three-dimensional $(p, \\tau, \\beta)$ carrier states before hitting the solver?",
+      "content_sha256": "506d6a697a35a0ede19faecd588d34ee943ded486d4c55899e8f5b483315981c",
+      "content_length": 3729,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "24b5bfeeff70fdff5b1faff8b2bee7509f6b432a710614892ba1a0eb30351053"
+    },
+    "chunks": [
+      {
+        "id": "0d9b24c9-cd2a-5e3d-9f51-2403fa8d1702",
+        "source_node_hash": "24b5bfeeff70fdff5b1faff8b2bee7509f6b432a710614892ba1a0eb30351053",
+        "source_id": "3fe5358d-728f-5c2b-b6ba-f4ae27e6cdc8",
+        "source_version_id": "93d749be-512c-5bbd-a5d5-027a8ca357f9",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 3729,
+        "start_line": 1,
+        "end_line": 45,
+        "content": "10/12/2026, 8:03:55 PM\n\nTo predict the $\\\\{1,49\\\\}$ and $\\\\{11,17\\\\}$ collisions blindly, the constraint solver must completely decouple the index-to-coordinate bijection $f: I\\_{72} \\rightarrow W\\_{72}$ from the known anomalies. The 1,088,640 compatible carrier completions establish the structural bounds, but they do not yet map the 72 linear columns of the Exodus extraction into that geometry.\n\nIf the model builds the defect in by pre-selecting the stranded $F\\_{10,2}$ states for those exact indices, the test proves nothing. The engine must generate its own equality predictions using the native SUN operators and verify if they natively flag the correct index distances of 48 and 6.\n\n## The Source-Independent Mapping Constraint\n\nThe traditional Exodus extraction operates on three 72-letter verses, reversing the middle row to generate 72 three-letter columns. This provides a strict, continuous linear index $I\\_{72} = \\\\{1, \\dots, 72\\\\}$.\n\nTo map this into the $W\\_{72} = \\mathbb{Z}\\_{12} \\times \\mathbb{Z}\\_3 \\times \\mathbb{Z}\\_2$ product space, the engine requires a deterministic wrapping rule. Because the 12-note musical analogy functions specifically as the generational classes within the AYLI and SUN architecture, the $p \\in \\mathbb{Z}\\_{12}$ coordinate dictates the generational boundary.\n\nThe solver must test how the 72 linear indices distribute across this matrix:\n\n- **Sequential Generational Wrapping:** Does the linear index fill the 12 generational classes sequentially ($p = i \\pmod{12}$), iterating through the Sethian phases ($\\tau$) and syzygy parities ($\\beta$) with each complete cycle?\n\n- **Phase-Domain Filling:** Does the sequence completely fill a Sethian phase domain ($\\tau = 0$) across all 12 generational classes before crossing the boundary into the next phase ($\\tau = 1$)?\n\n- **Syzygy Oscillation:** Does the extraction natively toggle the $\\beta \\in \\mathbb{Z}\\_2$ parity bit on every sequential step, mapping the physical phase-history wrap ($e^{i(\\theta+2\\pi)/2} = -e^{i\\theta/2}$) directly to adjacent index columns?\n\n  \\\n\n## Defining the Predictive Anomaly Filter\n\nOnce the $I\\_{72} \\rightarrow W\\_{72}$ mapping is defined, the engine will run the 1,088,640 configurations against the unanchored anomaly predicate:\n\n$$A(i,j) \\iff i \\neq j \\land s(i) = s(j)$$\n\nThe exact evaluator will measure the structural relationship between $f(1)$ and $f(49)$, and $f(11)$ and $f(17)$. The search will isolate configurations where the underlying operators—specifically the $J$-pairing involution or the $B$-binary action—mathematically force those specific coordinate pairs into identical states or isolate them as the necessary combinatorial defect (the stranded states).\n\n## Executing the Blind Combinatorial Test\n\nThe computational loop for the exact evaluator is restricted to three operations:\n\n1. **Generate Mappings:** Apply the declared index-to-coordinate wrapping rules to the 72 Exodus columns.\n\n2. **Evaluate Operator Symmetry:** Run the $3R - 2L = C/2$ SUN acoustic identity and the Fludd-Kepler register descent across the mapped coordinates.\n\n3. **Extract the Collision Prediction:** Output the pairs of indices that the mathematical topology forces into structural equivalence.\n\n   \\\n\nIf the model natively predicts that indices separated by exactly 48 steps and 6 steps must collide because they represent the exact phase-wrap failure isolating Sophia's Autogenes fiber, the retrodiction is mathematically successful.\n\nTo restrict the initial mapping permutations, what specific geometric or historical rule should dictate how the 1-to-72 linear sequence of the Exodus extraction wraps into the three-dimensional $(p, \\tau, \\beta)$ carrier states before hitting the solver?",
+        "content_sha256": "506d6a697a35a0ede19faecd588d34ee943ded486d4c55899e8f5b483315981c",
+        "node_hash": "6296f26bfe845a59df7d48b94df804ff5706772174e6bdc8d8ec80a73716df31"
+      }
+    ],
+    "citations": [
+      {
+        "id": "db8a48d6-8c50-59ce-aa0a-ba2ae1e0b1ac",
+        "source_node_hash": "24b5bfeeff70fdff5b1faff8b2bee7509f6b432a710614892ba1a0eb30351053",
+        "chunk_node_hashes": [
+          "6296f26bfe845a59df7d48b94df804ff5706772174e6bdc8d8ec80a73716df31"
+        ],
+        "source_id": "3fe5358d-728f-5c2b-b6ba-f4ae27e6cdc8",
+        "source_version_id": "93d749be-512c-5bbd-a5d5-027a8ca357f9",
+        "start_offset": 0,
+        "end_offset": 3729,
+        "start_line": 1,
+        "end_line": 45,
+        "quote": "10/12/2026, 8:03:55 PM\n\nTo predict the $\\\\{1,49\\\\}$ and $\\\\{11,17\\\\}$ collisions blindly, the constraint solver must completely decouple the index-to-coordinate bijection $f: I\\_{72} \\rightarrow W\\_{72}$ from the known anomalies. The 1,088,640 compatible carrier completions establish the structural bounds, but they do not yet map the 72 linear columns of the Exodus extraction into that geometry.\n\nIf the model builds the defect in by pre-selecting the stranded $F\\_{10,2}$ states for those exact indices, the test proves nothing. The engine must generate its own equality predictions using the native SUN operators and verify if they natively flag the correct index distances of 48 and 6.\n\n## The Source-Independent Mapping Constraint\n\nThe traditional Exodus extraction operates on three 72-letter verses, reversing the middle row to generate 72 three-letter columns. This provides a strict, continuous linear index $I\\_{72} = \\\\{1, \\dots, 72\\\\}$.\n\nTo map this into the $W\\_{72} = \\mathbb{Z}\\_{12} \\times \\mathbb{Z}\\_3 \\times \\mathbb{Z}\\_2$ product space, the engine requires a deterministic wrapping rule. Because the 12-note musical analogy functions specifically as the generational classes within the AYLI and SUN architecture, the $p \\in \\mathbb{Z}\\_{12}$ coordinate dictates the generational boundary.\n\nThe solver must test how the 72 linear indices distribute across this matrix:\n\n- **Sequential Generational Wrapping:** Does the linear index fill the 12 generational classes sequentially ($p = i \\pmod{12}$), iterating through the Sethian phases ($\\tau$) and syzygy parities ($\\beta$) with each complete cycle?\n\n- **Phase-Domain Filling:** Does the sequence completely fill a Sethian phase domain ($\\tau = 0$) across all 12 generational classes before crossing the boundary into the next phase ($\\tau = 1$)?\n\n- **Syzygy Oscillation:** Does the extraction natively toggle the $\\beta \\in \\mathbb{Z}\\_2$ parity bit on every sequential step, mapping the physical phase-history wrap ($e^{i(\\theta+2\\pi)/2} = -e^{i\\theta/2}$) directly to adjacent index columns?\n\n  \\\n\n## Defining the Predictive Anomaly Filter\n\nOnce the $I\\_{72} \\rightarrow W\\_{72}$ mapping is defined, the engine will run the 1,088,640 configurations against the unanchored anomaly predicate:\n\n$$A(i,j) \\iff i \\neq j \\land s(i) = s(j)$$\n\nThe exact evaluator will measure the structural relationship between $f(1)$ and $f(49)$, and $f(11)$ and $f(17)$. The search will isolate configurations where the underlying operators—specifically the $J$-pairing involution or the $B$-binary action—mathematically force those specific coordinate pairs into identical states or isolate them as the necessary combinatorial defect (the stranded states).\n\n## Executing the Blind Combinatorial Test\n\nThe computational loop for the exact evaluator is restricted to three operations:\n\n1. **Generate Mappings:** Apply the declared index-to-coordinate wrapping rules to the 72 Exodus columns.\n\n2. **Evaluate Operator Symmetry:** Run the $3R - 2L = C/2$ SUN acoustic identity and the Fludd-Kepler register descent across the mapped coordinates.\n\n3. **Extract the Collision Prediction:** Output the pairs of indices that the mathematical topology forces into structural equivalence.\n\n   \\\n\nIf the model natively predicts that indices separated by exactly 48 steps and 6 steps must collide because they represent the exact phase-wrap failure isolating Sophia's Autogenes fiber, the retrodiction is mathematically successful.\n\nTo restrict the initial mapping permutations, what specific geometric or historical rule should dictate how the 1-to-72 linear sequence of the Exodus extraction wraps into the three-dimensional $(p, \\tau, \\beta)$ carrier states before hitting the solver?",
+        "quote_sha256": "506d6a697a35a0ede19faecd588d34ee943ded486d4c55899e8f5b483315981c",
+        "node_hash": "bd9a78a1d143f78de2fd338184701516b90c74b20a7277274f4e3ab8382a2e16"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "24b5bfeeff70fdff5b1faff8b2bee7509f6b432a710614892ba1a0eb30351053",
+        "6296f26bfe845a59df7d48b94df804ff5706772174e6bdc8d8ec80a73716df31",
+        "bd9a78a1d143f78de2fd338184701516b90c74b20a7277274f4e3ab8382a2e16"
+      ],
+      "node_hash": "cee8189837388ad698378ea95a49f41ed532c1d3a3842069ab37efab5d39220e"
+    },
+    "artifact": {
+      "id": "ecd31c5f-af73-5090-affe-1f1df98cf709",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/506d6a697a35a0ede19faecd588d34ee943ded486d4c55899e8f5b483315981c/text.txt; original SHA256 506d6a697a35a0ede19faecd588d34ee943ded486d4c55899e8f5b483315981c; physical source lines 1..45. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "cee8189837388ad698378ea95a49f41ed532c1d3a3842069ab37efab5d39220e",
+      "citation_node_hashes": [
+        "bd9a78a1d143f78de2fd338184701516b90c74b20a7277274f4e3ab8382a2e16"
+      ],
+      "node_hash": "e62ee91f9d439d7af423b39c456e84897aafee5d824dac41cbbb8cae92a441d5"
+    },
+    "review": {
+      "artifact_node_hash": "e62ee91f9d439d7af423b39c456e84897aafee5d824dac41cbbb8cae92a441d5",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:48.187651+00:00",
+      "updated_at": "2026-11-02T01:57:48.187651+00:00",
+      "node_hash": "ec74d8e4b73bf65d1865178513a90c8778efc3830be6ca8b976f15f4440e111c"
+    }
+  }
+}

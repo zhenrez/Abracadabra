@@ -1,0 +1,55 @@
+{
+  "id": "alignment-table-305dc448afe24135",
+  "content_sha256": "305dc448afe24135fca9e5435735b5008bb4d138df9a4f8f5cf7ad39372120de",
+  "headers": [
+    "Procedure",
+    "Successive states"
+  ],
+  "rows": [
+    [
+      "Follow the actual quarter-turn directions",
+      "$0^\\circ,90^\\circ,180^\\circ,270^\\circ,0^\\circ$"
+    ],
+    [
+      "Observe the nearest vertices at those directions",
+      "$0,1,\\{2,3\\},4,0$"
+    ],
+    [
+      "Reset to the nearest vertex after every step",
+      "$0,1,2,3,4$"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 3991,
+      "line_end": 3995,
+      "char_start": 181849,
+      "char_end": 182124,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Procedure | Successive states |\n|---|---|\n| Follow the actual quarter-turn directions | $0^\\circ,90^\\circ,180^\\circ,270^\\circ,0^\\circ$ |\n| Observe the nearest vertices at those directions | $0,1,\\{2,3\\},4,0$ |\n| Reset to the nearest vertex after every step | $0,1,2,3,4$ |\n",
+      "quote_sha256": "8247999889c162ffa0ebe252c518ba5dd508abddd7abb18c2b1ddb0a8062f4db",
+      "message_id": "105504dbde43bbf2c7de605b5365e86125318a8bf1a0c053cbc5a7e0f1c13dbf",
+      "role": "assistant",
+      "locator": "lines:3991-3995"
+    },
+    {
+      "source_id": "6031887ade535990ea3e282114f6183fad43d33c5425e46f6022d5f558b38d20",
+      "source_sha256": "64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3\\ChatGPT-Branch · Comparative Research Protocol-20261023-2306.md",
+      "line_start": 4554,
+      "line_end": 4558,
+      "char_start": 200385,
+      "char_end": 200665,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Procedure | Successive states |\r\n|---|---|\r\n| Follow the actual quarter-turn directions | $0^\\circ,90^\\circ,180^\\circ,270^\\circ,0^\\circ$ |\r\n| Observe the nearest vertices at those directions | $0,1,\\{2,3\\},4,0$ |\r\n| Reset to the nearest vertex after every step | $0,1,2,3,4$ |\r\n",
+      "quote_sha256": "495388ec4d2cb7ba7fa485c6153b102aeafa483862fe205035f723bd415dad77",
+      "message_id": "427056f4fa91ebfcff03867108d5e749890c2249ed522da18e5c9f6700180f9b",
+      "role": "user",
+      "locator": "lines:4554-4558"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

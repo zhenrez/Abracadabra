@@ -1,0 +1,49 @@
+{
+  "source": "https://books.openbookpublishers.com/10.11647/obp.0210.03.pdf",
+  "edition": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ps.xml",
+  "examples": [
+    {
+      "verse": "Ps.35.19",
+      "word": "\u05d9\u05b4\u05e7\u05b0\u05e8\u05b0\u05e6\u05d5\u05bc",
+      "consonants": "\u05d9\u05e7\u05e8\u05e6\u05d5",
+      "GreekPrinted": "\u03ca\u03ba\u03b5\u03c1\u03c3\u03bf\u03c5"
+    },
+    {
+      "verse": "Ps.35.24",
+      "word": "\u05d9\u05b4\u05e9\u05c2\u05b0\u05de\u05b0\u05d7\u05d5\u05bc",
+      "consonants": "\u05d9\u05e9\u05de\u05d7\u05d5",
+      "GreekPrinted": "\u03b9\u03b5\u03c3\u03b5\u03bc\u03bf\u03c5"
+    }
+  ],
+  "finding": "Printed p25 supplies Greek forms for both previously pinned Hebrew examples; author analyzes insertion before a sonorant. These examples lack ayin in their written roots. Their grammatical and phonotactic environment differs from Psalm22:25.",
+  "exposure": "Author-selected examples seen before test; no blind evaluation.",
+  "visualCollation": {
+    "status": "printed page visually inspected; original manuscript remains uncollated",
+    "attempts": [
+      {
+        "route": "publisher chapter PDF",
+        "outcome": "HTTP 405"
+      },
+      {
+        "route": "Library of Congress full PDF",
+        "outcome": "HTTP 403"
+      },
+      {
+        "route": "web PDF screenshot",
+        "outcome": "content unavailable as PDF"
+      },
+      {
+        "route": "publisher landing page direct fetch",
+        "outcome": "HTTP 429"
+      }
+    ],
+    "next": "Use an accessible institutional copy or indexed edition; allow the publisher rate limit to clear before another direct attempt.",
+    "evidence": {
+      "printedPage": 25,
+      "pdfPageOneBased": 38,
+      "pdfSha256": "9f1c5acc42bfcb1f6a6682e3b4e2868c57c71b44a17d93d79e5a3e04e2822c70",
+      "render": "docs\\reconstruction\\symbol-sound-census\\phyla-waves-sources\\printed-page25.png",
+      "renderSha256": "8c42d1279ce7e1f810303848ce2941ba41a22370b170e9e28c8b7d767c833468"
+    }
+  }
+}

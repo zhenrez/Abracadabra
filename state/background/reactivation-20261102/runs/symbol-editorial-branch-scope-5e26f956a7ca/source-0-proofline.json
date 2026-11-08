@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-03T04:10:12.128350+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "02a9d940c56319035d1bc3f26dc4bb0ad1b9fb1beebeded835fb3a511bf3d6ed"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "b55449a0-58be-509b-8717-7f9c604ade7d",
+      "source_identity_sha256": "c26f3d5bfc624816c193522f9348d33e5ff4654b8b23214128f3b88d95522141",
+      "source_version_id": "977c9bdd-4e85-532f-a8bf-097d40367a18",
+      "version_number": 1,
+      "content": "{\r\n  \"schema\": \"sunny.symbol-source-discrepancy.v1\",\r\n  \"checked_utc\": \"2026-11-03T02:27:29.621521+00:00\",\r\n  \"case\": \"TAD A3.7/Pap.Cairo EM JdE43473; normalized-text disagreement at recto address servant token\",\r\n  \"sources\": [\r\n    {\r\n      \"path\": \"sources\\\\elephantine_A3_7_tei.xml\",\r\n      \"bytes\": 30710,\r\n      \"sha256\": \"1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25\"\r\n    },\r\n    {\r\n      \"path\": \"sources\\\\cal_A3_7.html\",\r\n      \"bytes\": 8394,\r\n      \"sha256\": \"4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f\"\r\n    }\r\n  ],\r\n  \"tokens\": {\r\n    \"tei_recto\": {\r\n      \"text\": \"עברכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05E8\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"tei_verso\": {\r\n      \"text\": \"עבדכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05D3\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"cal_recto\": {\r\n      \"text\": \"עבדכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05D3\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    }\r\n  },\r\n  \"tei_recto_text\": \"אל מראתי שלוה עברכי הושע שלמ לי תנה\",\r\n  \"tei_verso_text\": \"אלמראתי שלוה עבדכיהושע בר\",\r\n  \"checks\": {\r\n    \"tei_recto_contains_reported_resh\": true,\r\n    \"tei_verso_contains_reported_dalet\": true,\r\n    \"cal_contains_dalet_token\": true,\r\n    \"cal_contains_resh_token\": false,\r\n    \"tei_recto_servant_tag\": true\r\n  },\r\n  \"observed_difference\": \"Third character: museum TEI recto U+05E8 HEBREW LETTER RESH; CAL and TEI verso U+05D3 HEBREW LETTER DALET. No source file changed.\",\r\n  \"source_report\": \"Museum TEI tags recto עבר as servant; CAL displays עבדכי; museum TEI verso displays עבדכי with עבד tagged servant.\",\r\n  \"inference\": \"This is an editorial/transcription disagreement requiring original-sign collation. A parser that normalizes both without recording the difference loses a distinction relevant to phonetic and lexical hypotheses.\",\r\n  \"not_established\": [\r\n    \"The actual ancient ink sign at the disputed position\",\r\n    \"That the historical scribe changed a sign\",\r\n    \"The original vowel realization or acoustic waveform\",\r\n    \"A hidden name or genealogical identity\"\r\n  ],\r\n  \"deduction_changed\": \"Carry two source-qualified transcription branches at the disputed token. Do not use the display discrepancy alone to infer a historical phonetic substitution, mistransmission, merged identity or mathematical operator.\",\r\n  \"exposure\": \"Existing project hypotheses, scholarly baseline and both editions already seen; not blind.\",\r\n  \"next_evidence\": \"Original papyrus image or original TAD/Sachau facsimile at the exact recto address position; identify the dalet/resh sign without silently following either normalized edition.\"\r\n}",
+      "content_sha256": "da3de5f59d096fd47cdb8593ed336341b4cdf39cfb8bb354fce312823da7ba9f",
+      "content_length": 2792,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "9325c70130285967d647306575c8c3fe9ab4f7ae4752fcdd9a3f17730252b3f5"
+    },
+    "chunks": [
+      {
+        "id": "46b2fe80-7097-56b7-9833-200b4dceec02",
+        "source_node_hash": "9325c70130285967d647306575c8c3fe9ab4f7ae4752fcdd9a3f17730252b3f5",
+        "source_id": "b55449a0-58be-509b-8717-7f9c604ade7d",
+        "source_version_id": "977c9bdd-4e85-532f-a8bf-097d40367a18",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 2792,
+        "start_line": 1,
+        "end_line": 70,
+        "content": "{\r\n  \"schema\": \"sunny.symbol-source-discrepancy.v1\",\r\n  \"checked_utc\": \"2026-11-03T02:27:29.621521+00:00\",\r\n  \"case\": \"TAD A3.7/Pap.Cairo EM JdE43473; normalized-text disagreement at recto address servant token\",\r\n  \"sources\": [\r\n    {\r\n      \"path\": \"sources\\\\elephantine_A3_7_tei.xml\",\r\n      \"bytes\": 30710,\r\n      \"sha256\": \"1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25\"\r\n    },\r\n    {\r\n      \"path\": \"sources\\\\cal_A3_7.html\",\r\n      \"bytes\": 8394,\r\n      \"sha256\": \"4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f\"\r\n    }\r\n  ],\r\n  \"tokens\": {\r\n    \"tei_recto\": {\r\n      \"text\": \"עברכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05E8\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"tei_verso\": {\r\n      \"text\": \"עבדכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05D3\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"cal_recto\": {\r\n      \"text\": \"עבדכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05D3\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    }\r\n  },\r\n  \"tei_recto_text\": \"אל מראתי שלוה עברכי הושע שלמ לי תנה\",\r\n  \"tei_verso_text\": \"אלמראתי שלוה עבדכיהושע בר\",\r\n  \"checks\": {\r\n    \"tei_recto_contains_reported_resh\": true,\r\n    \"tei_verso_contains_reported_dalet\": true,\r\n    \"cal_contains_dalet_token\": true,\r\n    \"cal_contains_resh_token\": false,\r\n    \"tei_recto_servant_tag\": true\r\n  },\r\n  \"observed_difference\": \"Third character: museum TEI recto U+05E8 HEBREW LETTER RESH; CAL and TEI verso U+05D3 HEBREW LETTER DALET. No source file changed.\",\r\n  \"source_report\": \"Museum TEI tags recto עבר as servant; CAL displays עבדכי; museum TEI verso displays עבדכי with עבד tagged servant.\",\r\n  \"inference\": \"This is an editorial/transcription disagreement requiring original-sign collation. A parser that normalizes both without recording the difference loses a distinction relevant to phonetic and lexical hypotheses.\",\r\n  \"not_established\": [\r\n    \"The actual ancient ink sign at the disputed position\",\r\n    \"That the historical scribe changed a sign\",\r\n    \"The original vowel realization or acoustic waveform\",\r\n    \"A hidden name or genealogical identity\"\r\n  ],\r\n  \"deduction_changed\": \"Carry two source-qualified transcription branches at the disputed token. Do not use the display discrepancy alone to infer a historical phonetic substitution, mistransmission, merged identity or mathematical operator.\",\r\n  \"exposure\": \"Existing project hypotheses, scholarly baseline and both editions already seen; not blind.\",\r\n  \"next_evidence\": \"Original papyrus image or original TAD/Sachau facsimile at the exact recto address position; identify the dalet/resh sign without silently following either normalized edition.\"\r\n}",
+        "content_sha256": "da3de5f59d096fd47cdb8593ed336341b4cdf39cfb8bb354fce312823da7ba9f",
+        "node_hash": "f82645a9d73793362f884c2434ba44f1445f76175015cdff981412b37a8ab2e1"
+      }
+    ],
+    "citations": [
+      {
+        "id": "3ba58dba-2798-5fee-bcb6-de3715c4aa4e",
+        "source_node_hash": "9325c70130285967d647306575c8c3fe9ab4f7ae4752fcdd9a3f17730252b3f5",
+        "chunk_node_hashes": [
+          "f82645a9d73793362f884c2434ba44f1445f76175015cdff981412b37a8ab2e1"
+        ],
+        "source_id": "b55449a0-58be-509b-8717-7f9c604ade7d",
+        "source_version_id": "977c9bdd-4e85-532f-a8bf-097d40367a18",
+        "start_offset": 0,
+        "end_offset": 2792,
+        "start_line": 1,
+        "end_line": 70,
+        "quote": "{\r\n  \"schema\": \"sunny.symbol-source-discrepancy.v1\",\r\n  \"checked_utc\": \"2026-11-03T02:27:29.621521+00:00\",\r\n  \"case\": \"TAD A3.7/Pap.Cairo EM JdE43473; normalized-text disagreement at recto address servant token\",\r\n  \"sources\": [\r\n    {\r\n      \"path\": \"sources\\\\elephantine_A3_7_tei.xml\",\r\n      \"bytes\": 30710,\r\n      \"sha256\": \"1eb3452cdac2bd28750eac0d03d97b7f67444b16f3919770073fb69e0eff2c25\"\r\n    },\r\n    {\r\n      \"path\": \"sources\\\\cal_A3_7.html\",\r\n      \"bytes\": 8394,\r\n      \"sha256\": \"4f971e92c57b860afb549e0e3fd2a89b208843fa0b3c904ebc7603ae54a6e34f\"\r\n    }\r\n  ],\r\n  \"tokens\": {\r\n    \"tei_recto\": {\r\n      \"text\": \"עברכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05E8\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"tei_verso\": {\r\n      \"text\": \"עבדכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05D3\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    },\r\n    \"cal_recto\": {\r\n      \"text\": \"עבדכי\",\r\n      \"codepoints\": [\r\n        \"U+05E2\",\r\n        \"U+05D1\",\r\n        \"U+05D3\",\r\n        \"U+05DB\",\r\n        \"U+05D9\"\r\n      ]\r\n    }\r\n  },\r\n  \"tei_recto_text\": \"אל מראתי שלוה עברכי הושע שלמ לי תנה\",\r\n  \"tei_verso_text\": \"אלמראתי שלוה עבדכיהושע בר\",\r\n  \"checks\": {\r\n    \"tei_recto_contains_reported_resh\": true,\r\n    \"tei_verso_contains_reported_dalet\": true,\r\n    \"cal_contains_dalet_token\": true,\r\n    \"cal_contains_resh_token\": false,\r\n    \"tei_recto_servant_tag\": true\r\n  },\r\n  \"observed_difference\": \"Third character: museum TEI recto U+05E8 HEBREW LETTER RESH; CAL and TEI verso U+05D3 HEBREW LETTER DALET. No source file changed.\",\r\n  \"source_report\": \"Museum TEI tags recto עבר as servant; CAL displays עבדכי; museum TEI verso displays עבדכי with עבד tagged servant.\",\r\n  \"inference\": \"This is an editorial/transcription disagreement requiring original-sign collation. A parser that normalizes both without recording the difference loses a distinction relevant to phonetic and lexical hypotheses.\",\r\n  \"not_established\": [\r\n    \"The actual ancient ink sign at the disputed position\",\r\n    \"That the historical scribe changed a sign\",\r\n    \"The original vowel realization or acoustic waveform\",\r\n    \"A hidden name or genealogical identity\"\r\n  ],\r\n  \"deduction_changed\": \"Carry two source-qualified transcription branches at the disputed token. Do not use the display discrepancy alone to infer a historical phonetic substitution, mistransmission, merged identity or mathematical operator.\",\r\n  \"exposure\": \"Existing project hypotheses, scholarly baseline and both editions already seen; not blind.\",\r\n  \"next_evidence\": \"Original papyrus image or original TAD/Sachau facsimile at the exact recto address position; identify the dalet/resh sign without silently following either normalized edition.\"\r\n}",
+        "quote_sha256": "da3de5f59d096fd47cdb8593ed336341b4cdf39cfb8bb354fce312823da7ba9f",
+        "node_hash": "77e48790e19be7d8f0bc7554aacfbc8a336169c2fae467da2af9dc5a6fde8a89"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "9325c70130285967d647306575c8c3fe9ab4f7ae4752fcdd9a3f17730252b3f5",
+        "f82645a9d73793362f884c2434ba44f1445f76175015cdff981412b37a8ab2e1",
+        "77e48790e19be7d8f0bc7554aacfbc8a336169c2fae467da2af9dc5a6fde8a89"
+      ],
+      "node_hash": "8b48413256b8205b80b2849c019efef6de838e974ff44e4cbba9122a06ead501"
+    },
+    "artifact": {
+      "id": "84c74827-7530-5e70-ade5-6ac3f9c5098c",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source state/research/reactivation/symbols/context-discrepancy.json; original SHA256 da3de5f59d096fd47cdb8593ed336341b4cdf39cfb8bb354fce312823da7ba9f; physical source lines 1..70. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "8b48413256b8205b80b2849c019efef6de838e974ff44e4cbba9122a06ead501",
+      "citation_node_hashes": [
+        "77e48790e19be7d8f0bc7554aacfbc8a336169c2fae467da2af9dc5a6fde8a89"
+      ],
+      "node_hash": "27aaf4238b5fd7bc6b1ef46dcb8da377de9e343632012382ece90c6492bfb0dd"
+    },
+    "review": {
+      "artifact_node_hash": "27aaf4238b5fd7bc6b1ef46dcb8da377de9e343632012382ece90c6492bfb0dd",
+      "status": "candidate",
+      "created_at": "2026-11-03T04:10:12.128350+00:00",
+      "updated_at": "2026-11-03T04:10:12.128350+00:00",
+      "node_hash": "ae9f9f6883cdf1d8e98bda628e0155817ae67a50513a9b0da8f24ce59f9727fe"
+    }
+  }
+}

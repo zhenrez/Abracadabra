@@ -1,0 +1,45 @@
+{
+  "schema": "sunny.goal-adoption.v1",
+  "recorded_utc": "2026-11-02T19:27:16.003091+00:00",
+  "prior_sources": {
+    "state/mission.json": {
+      "path": "state/checkpoint-history/before-goals-v3-mission.json-d892014a56bea148f0e8d858583dc2a81f860fe685d0fbcc73c53661e1ae8735.snapshot",
+      "sha256": "d892014a56bea148f0e8d858583dc2a81f860fe685d0fbcc73c53661e1ae8735"
+    },
+    "state/task.json": {
+      "path": "state/checkpoint-history/before-goals-v3-task.json-7ef1b27ddb36d52b9748f9ab626981c6dbb737ed4e078b82a3487de7d4fa7b31.snapshot",
+      "sha256": "7ef1b27ddb36d52b9748f9ab626981c6dbb737ed4e078b82a3487de7d4fa7b31"
+    },
+    "CONTINUE.md": {
+      "path": "state/checkpoint-history/before-goals-v3-CONTINUE.md-d1bf4377c35272c4a7d87b0b787d43148f91db61b08493e8b53409ec784a92bc.snapshot",
+      "sha256": "d1bf4377c35272c4a7d87b0b787d43148f91db61b08493e8b53409ec784a92bc"
+    },
+    "state/superjev-checkpoint.json": {
+      "path": "state/checkpoint-history/before-goals-v3-superjev-checkpoint.json-5d0f90b05a07a5667e32b87b90313a68ebd8c33ab5f4a022c8ee20c978a959a8.snapshot",
+      "sha256": "5d0f90b05a07a5667e32b87b90313a68ebd8c33ab5f4a022c8ee20c978a959a8"
+    },
+    "docs/HUMMBL_PLAN.md": {
+      "path": "state/checkpoint-history/before-goals-v3-HUMMBL_PLAN.md-e25869fa96cc345f4f6b4de28ab8e4014110f868bf3d891b9f885f7980c92926.snapshot",
+      "sha256": "e25869fa96cc345f4f6b4de28ab8e4014110f868bf3d891b9f885f7980c92926"
+    }
+  },
+  "goals": 15,
+  "current_phase": "goal_setting_and_strategy_discussion",
+  "no_reconstruction_or_worker_started": true,
+  "changed_files": [
+    "state/checkpoint-history/before-goals-v3-mission.json-d892014a56bea148f0e8d858583dc2a81f860fe685d0fbcc73c53661e1ae8735.snapshot",
+    "state/checkpoint-history/before-goals-v3-task.json-7ef1b27ddb36d52b9748f9ab626981c6dbb737ed4e078b82a3487de7d4fa7b31.snapshot",
+    "state/checkpoint-history/before-goals-v3-CONTINUE.md-d1bf4377c35272c4a7d87b0b787d43148f91db61b08493e8b53409ec784a92bc.snapshot",
+    "state/checkpoint-history/before-goals-v3-superjev-checkpoint.json-5d0f90b05a07a5667e32b87b90313a68ebd8c33ab5f4a022c8ee20c978a959a8.snapshot",
+    "state/checkpoint-history/before-goals-v3-HUMMBL_PLAN.md-e25869fa96cc345f4f6b4de28ab8e4014110f868bf3d891b9f885f7980c92926.snapshot",
+    "docs/reconstruction/SUNNY_GOALS.md",
+    "docs/evidence/goals-team-strategy-jev-request.json",
+    "docs/evidence/goals-team-strategy-superjev.json",
+    "state/mission.json",
+    "CONTINUE.md",
+    "docs/HUMMBL_PLAN.md",
+    "state/task.json",
+    "state/superjev-checkpoint.json"
+  ],
+  "boundary": "Goal/direction preservation and a bounded strategy consultation only; no scientific hypothesis tested."
+}

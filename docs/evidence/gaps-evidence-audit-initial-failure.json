@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "stdout_bytes": 0,
+  "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Brend\\.codex\\plugins\\cache\\created-by-me-remote\\prumo-jev-research\\0.1.0\\skills\\evidence-audit\\scripts\\evidence_ledger.py\", line 433, in <module>\r\n    raise SystemExit(main())\r\n                     ~~~~^^\r\n  File \"C:\\Users\\Brend\\.codex\\plugins\\cache\\created-by-me-remote\\prumo-jev-research\\0.1.0\\skills\\evidence-audit\\scripts\\evidence_ledger.py\", line 428, in main\r\n    sys.stdout.write(json.dumps(result, ensure_ascii=False, allow_nan=False) + \"\\n\")\r\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\r\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\r\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u2028' in position 6397: character maps to <undefined>\r\n",
+  "scope": "Observed first evidence-helper CLI attempt; raw source bytes remain unchanged"
+}

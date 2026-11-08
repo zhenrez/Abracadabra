@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "json_parses": true,
+    "report_exists": true,
+    "three_reading_branches": true,
+    "no_selected_reading": true,
+    "no_claimed_manuscript_image": true,
+    "no_claimed_carrera_pdf": true,
+    "no_claimed_carrera_page190": true,
+    "no_claimed_sperber159": true,
+    "folio_remains_unknown": true,
+    "retains_1908_1098_discrepancy": true,
+    "howard_extraction_saved": true
+  },
+  "all_passed": true,
+  "files": [
+    {
+      "path": "state\\delivery-2026-11-07\\symbol-contact\\secunda\\recovery.json",
+      "bytes": 6239,
+      "sha256": "f3a737dc6c1c30d4e0f71bff8628d27332ebaf17bf2cb1f2ce0ccc399fea6841"
+    },
+    {
+      "path": "docs\\delivery-2026-11-07\\SECUNDA_VARIANT.md",
+      "bytes": 7091,
+      "sha256": "5beba6d46dcf55623229614d3b3b07242a11f34989df95e7ed0cb5dbb780d540"
+    }
+  ],
+  "not_run": [
+    "Independent manuscript image collation",
+    "Original Carrera190 inspection",
+    "Original Sperber159 inspection",
+    "Mercati plate inspection"
+  ]
+}

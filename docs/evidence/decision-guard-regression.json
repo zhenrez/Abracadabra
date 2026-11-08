@@ -1,0 +1,7 @@
+{
+ "selected_by": "state/jev-receipts/000013-d6a57436d0c1.json",
+ "before_change": {"command":"python -m unittest discover -s tests -p '*_test.py'","exit_code":1,"tests":9,"failures":1,"errors":1,"observed_failures":["wrong winner/type/truncation was accepted", "model identity validator missing"]},
+ "changed_files":["scripts/jev_tool.py", "tests/jev_tool_test.py"],
+ "after_change": {"command":"python -m unittest discover -s tests -p '*_test.py'","exit_code":0,"tests":9,"failures":0,"errors":0},
+ "boundary":"Regression fixtures test response integrity; they are not live Jev decisions or empirical model calibration. Live model decisions are in the separate receipt chain."
+}

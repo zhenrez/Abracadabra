@@ -1,0 +1,107 @@
+{
+  "schema": "sunny.research-bootstrap-verification.v1",
+  "checked_at_utc": "2026-11-08T02:50:29.645016+00:00",
+  "status": "passed",
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\.venv-research\\Scripts\\python.exe",
+  "packages": [
+    {
+      "distribution": "Pillow",
+      "expected": "11.3.0",
+      "installed": "11.3.0",
+      "import_ok": true,
+      "functional_smoke": "one-pixel memory image",
+      "passed": true
+    },
+    {
+      "distribution": "sympy",
+      "expected": "1.14.0",
+      "installed": "1.14.0",
+      "import_ok": true,
+      "functional_smoke": "exact 2x2 determinant",
+      "passed": true
+    },
+    {
+      "distribution": "pdfplumber",
+      "expected": "0.11.7",
+      "installed": "0.11.7",
+      "import_ok": true,
+      "functional_smoke": "module/native-library import only; no source PDF opened",
+      "passed": true
+    },
+    {
+      "distribution": "pypdfium2",
+      "expected": "4.30.0",
+      "installed": "4.30.0",
+      "import_ok": true,
+      "functional_smoke": "module/native-library import only; no source PDF opened",
+      "passed": true
+    },
+    {
+      "distribution": "openpyxl",
+      "expected": "3.1.5",
+      "installed": "3.1.5",
+      "import_ok": true,
+      "functional_smoke": "in-memory workbook cell",
+      "passed": true
+    },
+    {
+      "distribution": "pypdf",
+      "expected": "6.1.1",
+      "installed": "6.1.1",
+      "import_ok": true,
+      "functional_smoke": "in-memory one-page PDF",
+      "passed": true
+    }
+  ],
+  "jev_source": {
+    "requested": true,
+    "model_loaded": false,
+    "model_weights_rehashed": false,
+    "git_commit": "fbe1bc97c76873d08f0820adf0dead55e95d5fc6",
+    "git_pin_matches": true,
+    "critical_file_checks": [
+      {
+        "path": "runtime/agent-jev/LICENSE",
+        "sha256": "23b959c1487827616d071b8c4b0c6cfd97f23046664da0ae9293eef769785bda",
+        "expected": "23b959c1487827616d071b8c4b0c6cfd97f23046664da0ae9293eef769785bda",
+        "passed": true
+      },
+      {
+        "path": "runtime/agent-jev/pyproject.toml",
+        "sha256": "e526300bda0bf9964204c26e77e76d15d3cdf86fed5d9c4bde27005c1f6b1615",
+        "expected": "e526300bda0bf9964204c26e77e76d15d3cdf86fed5d9c4bde27005c1f6b1615",
+        "passed": true
+      },
+      {
+        "path": "runtime/agent-jev/requirements.txt",
+        "sha256": "d4800b939a9a7a8a10faad61b4ca349439f1b2de8e1b47be84c0858b0337643a",
+        "expected": "d4800b939a9a7a8a10faad61b4ca349439f1b2de8e1b47be84c0858b0337643a",
+        "passed": true
+      },
+      {
+        "path": "runtime/agent-jev/fetch_v1_weights.py",
+        "sha256": "c6141fd09fb9eeefe5dc53ca1121c029a02261a6dd1ef5703fdb40a4a4fb842b",
+        "expected": "c6141fd09fb9eeefe5dc53ca1121c029a02261a6dd1ef5703fdb40a4a4fb842b",
+        "passed": true
+      },
+      {
+        "path": "runtime/agent-jev/agentjev/model.py",
+        "sha256": "77ea12223d49ef0d10251eeac4fdf4aa13737d62ebd2399560cb225626f00a0a",
+        "expected": "77ea12223d49ef0d10251eeac4fdf4aa13737d62ebd2399560cb225626f00a0a",
+        "passed": true
+      },
+      {
+        "path": "runtime/agent-jev/jev_service/server.py",
+        "sha256": "e5d0fd497737e02f25b051b0065045c99b9c8b84943c290ed08df062d4d7b029",
+        "expected": "e5d0fd497737e02f25b051b0065045c99b9c8b84943c290ed08df062d4d7b029",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "manifest_sha256": "c231233b7f2372a10f83912707b214270b3588fdc0129a5666053d349f879264",
+  "model_downloaded": false,
+  "new_environment_full_suite_run": false,
+  "boundary": "Pinned direct dependencies, available imports/smokes and optional public Jev source identity only. Not archive restoration, live model inference or scientific completion."
+}

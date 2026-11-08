@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal":"Complete SUNNY's source continuity interface under live Jev decisions.",
+    "observed":"Python3.13 SQLite3.45.3 supports FTS5 and has already indexed59894 real messages in data/sunny.sqlite. Node22.14 built-in SQLite fails FTS5 schema with no such module:fts5 in the reproducible backend test. Other source-table reads work. Existing Node UI contract is read-only. No new global runtime modifications are required.",
+    "constraints":"Use the same source database; preserve exact full-text search and provenance; no invented results; reversible isolated fixes; user requires Jev choose implementation route."
+  },
+  "questions":[{
+    "id":"search_runtime",
+    "type":"choice",
+    "question":"Which verified implementation route should repair the missing Node FTS5 capability?",
+    "options":{
+      "python_search":"Keep the existing read-only Node HTTP/UI and delegate full-text search to a fixed local Python standard-library helper using parameterized SQL; preserve test coverage.",
+      "new_node":"Install an isolated newer Node runtime and verify its SQLite includes FTS5 before adapting the app.",
+      "different_driver":"Install a separate Node SQLite driver with verified FTS5, then rebuild and retest the read-only backend.",
+      "disable_search":"Remove full-text search and leave evidence searchable only by exact source ID."
+    }
+  }]
+}

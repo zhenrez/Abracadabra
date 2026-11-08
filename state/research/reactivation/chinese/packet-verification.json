@@ -1,0 +1,83 @@
+{
+  "schema": "sunny.chinese-packet-verification.v1",
+  "verified_utc": "2026-11-03T03:15:59.483107+00:00",
+  "checks": [
+    "All owned JSON files parse",
+    "Five native relation checks and all three exact source spans",
+    "Pitch-class equality and directed register interval",
+    "All14 P0-A questions accounted; wider baseline remains open",
+    "Three reused source hashes and new source hash match",
+    "Fresh installed Proofline verification:3 citations, valid",
+    "Actual successful Wolfram and Supermemory receipts retained",
+    "Supermemory checkpoint saved and full content read back"
+  ],
+  "check_groups_passed": 8,
+  "proofline": {
+    "artifact_id": "236d04b8-1ab3-5f4c-ae33-547916c04f65",
+    "citation_count": 3,
+    "root_hash": "344bd8e01a02c7c3bf47850d4d9862289e1e10f61798462db47dcb2f5af13bc7",
+    "schema": "proofline-decision-evidence-package-v1",
+    "valid": true
+  },
+  "jev": {
+    "status": "judged",
+    "model": "jev-1.14.0",
+    "answers": {
+      "handoff": {
+        "type": "choice",
+        "probabilities": {
+          "deliver": 0.92,
+          "extend": 0.02,
+          "repair": 0.06
+        },
+        "winner": "deliver",
+        "top_probability": 0.92,
+        "margin": 0.8600000000000001
+      },
+      "next": {
+        "type": "choice",
+        "probabilities": {
+          "audio": 0.16,
+          "bells": 0.08,
+          "critical": 0.76
+        },
+        "winner": "critical",
+        "top_probability": 0.76,
+        "margin": 0.6
+      }
+    }
+  },
+  "scope": "Bounded source/control packet only; no historical sound restoration or full SUNNY completion",
+  "readable_document": {
+    "path": "docs/research/reactivation-chinese.md",
+    "sha256": "b620b37994c269a98e8e0621fec39c418fdf51214f072217cfa7576077b2839e"
+  },
+  "artifact_hashes": {
+    "checkpoint-01.json": "d4c3bab464026deb1ad2c78f58d56dc849aa674571ab09566cd4b7eeb691fcf3",
+    "checkpoint-02.json": "a3f15ec3fe73a86d5be67656cb24963ff09992ee124dc7bdaec96d1a3fb71cf0",
+    "checkpoint-03.json": "06ca2682f4f320f3d9a08d69af6b241746f7b8b21f4d4fce82b2a3bc98c5f73e",
+    "experiment-manifests.json": "f8a759c02fe69a1deabcc211cb9e7146a3f1517fe7eae4bfdfdad6691952eda3",
+    "finish_packet.py": "8ce40e8c6ff83621ec6950abf303a4b06e3cceafb65b46022ba31871f46aaf22",
+    "jev-handoff-next-preview-utf8.json": "c1f2df6be2d772382e3c087a7fa9cf3bcee57c750091c87846e2592a36d10b76",
+    "jev-handoff-next-preview.json": "6d89d60aa7204773e1611d26091d97e48c7e7fdc58218aa858bde38b14ea2cc8",
+    "jev-handoff-next-receipt.json": "803139de0de6a40b0edcd0008421775bae47ad9524ab7d24e024ecb5881df026",
+    "jev-handoff-next-request.json": "9a1bc5e58dbbc0baabe87947e13814ee72c5ea3cb166eda4a9c5ec6b2a42dcd8",
+    "jev-research-order-preview.json": "3526011978b5bd576caf8c8899a3c708586ab40a8b7a703763d475b5ab022eeb",
+    "jev-research-order-receipt.json": "1a467077f9bcabb91d41a535b3cec41ff773b112f4ef8302919e956682e0e440",
+    "jev-research-order-request.json": "330331ca1debbf7d3ff06641f12f477b4152159bb3b9340bd148a0246be0982d",
+    "native-role-relation.json": "3c8c4a5fe42c86434b20eabd13546a4a9def4b17b8341803673fbc708b34e803",
+    "p0a-baseline.json": "4a2206bdfc336bec83941b20bf6e32c8897ab8f9e2b7dc7cd308f9aa465d5b69",
+    "plugin-use.json": "380706cb6e5bc07e33e870cd462c8f8aa33a5e6a2f3cecb2a35418a0eaced4cf",
+    "proofline-source-spans.json": "19f5f2060b7a9e04456886c938f01a78e9b9064b077d12d0915aa629ca0c9fd8",
+    "proofline-verification.json": "9a5bcc6a0d6ccc1d1e1c571eeb3e979bb58bd85d68f8d5b8f8ff0aa70ac969b8",
+    "register-transfer-control.json": "6cb5b1dc92c79a58d06f978ef7593d7d233c8a437e5f9c477f71f8d3cacfcdbc",
+    "reused-source-register.json": "dd9a7d20a55236b0217c2f2aec9d00d7c9697daa52a072d5454ff15eb8d702f2",
+    "source-and-exposure-map.json": "4aec95b91a103a4c9e82d7958802fc2b7457d8c7b5b3dd079cf48a8591812ca6",
+    "source-fetch-manifest.json": "84f2c783ed585577eea805c7dd9f704b079b60c67deff489a9d96fee5d886fc1",
+    "supermemory-checkpoint-readback.json": "66217831cda884c19237652a2f67bafbfbf3b2d50f0c1cfbb5b080b09ada08ef",
+    "supermemory-checkpoint-request.json": "27610932a3e0a1c8a370be2e447f92dd7b79a61341c40468310ee4ac04279101",
+    "supermemory-checkpoint-save.json": "9d281ed9108f3d5683780d2bae0c68d0750064f515e22667add809f1f686f266",
+    "supermemory-search-receipt.json": "e0acba4ef6761f235eb09a42109edd24dea1c3a39ff21dc88ff1856e6f72fedb",
+    "wolfram-register-control-receipt.json": "e01e373c0ec612f623ee702d1b96654facf295cd882101399c0d244a2cf268dc"
+  }
+}

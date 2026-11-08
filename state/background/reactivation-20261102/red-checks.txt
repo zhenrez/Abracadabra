@@ -1,0 +1,55 @@
+test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat (tests.background_reliability_test.BackgroundReliability.test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat) ... FAIL
+test_expired_lease_is_explicit_and_never_renewed (tests.background_reliability_test.BackgroundReliability.test_expired_lease_is_explicit_and_never_renewed) ... FAIL
+test_live_readiness_timeout_does_not_reap_owned_process (tests.background_reliability_test.BackgroundReliability.test_live_readiness_timeout_does_not_reap_owned_process) ... FAIL
+test_new_allocation_cap_is_loaded_not_silently_defaulted (tests.background_reliability_test.BackgroundReliability.test_new_allocation_cap_is_loaded_not_silently_defaulted) ... FAIL
+test_touching_completed_artifact_does_not_renew_progress (tests.background_reliability_test.BackgroundReliability.test_touching_completed_artifact_does_not_renew_progress) ... FAIL
+
+======================================================================
+FAIL: test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat (tests.background_reliability_test.BackgroundReliability.test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\tests\background_reliability_test.py", line 26, in test_empty_queue_is_explicit_blocker_not_meaningful_heartbeat
+    self.assertTrue((self.base/"blocker.json").is_file(),"An idle owned worker must flag its exact empty-queue blocker.")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : An idle owned worker must flag its exact empty-queue blocker.
+
+======================================================================
+FAIL: test_expired_lease_is_explicit_and_never_renewed (tests.background_reliability_test.BackgroundReliability.test_expired_lease_is_explicit_and_never_renewed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\tests\background_reliability_test.py", line 39, in test_expired_lease_is_explicit_and_never_renewed
+    self.assertTrue((self.base/"blocker.json").is_file(),"Lease expiry needs a durable exact blocker.")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Lease expiry needs a durable exact blocker.
+
+======================================================================
+FAIL: test_live_readiness_timeout_does_not_reap_owned_process (tests.background_reliability_test.BackgroundReliability.test_live_readiness_timeout_does_not_reap_owned_process)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\tests\background_reliability_test.py", line 69, in test_live_readiness_timeout_does_not_reap_owned_process
+    self.assertEqual(data["stop_calls"],0,"Readiness polling timeout must leave the verified live worker intact.")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Readiness polling timeout must leave the verified live worker intact.
+
+======================================================================
+FAIL: test_new_allocation_cap_is_loaded_not_silently_defaulted (tests.background_reliability_test.BackgroundReliability.test_new_allocation_cap_is_loaded_not_silently_defaulted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\tests\background_reliability_test.py", line 44, in test_new_allocation_cap_is_loaded_not_silently_defaulted
+    self.assertEqual(budget.remaining,3)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: 256 != 3
+
+======================================================================
+FAIL: test_touching_completed_artifact_does_not_renew_progress (tests.background_reliability_test.BackgroundReliability.test_touching_completed_artifact_does_not_renew_progress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\tests\background_reliability_test.py", line 21, in test_touching_completed_artifact_does_not_renew_progress
+    self.assertEqual(forecast["seconds_since_completion"],700)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 700
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.489s
+
+FAILED (failures=5)

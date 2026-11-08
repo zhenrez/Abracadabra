@@ -1,0 +1,19 @@
+test_exact_fraction_input_survives_binding_and_receipt_serialization (test_western_model.WesternContractTests.test_exact_fraction_input_survives_binding_and_receipt_serialization) ... FAIL
+
+======================================================================
+FAIL: test_exact_fraction_input_survives_binding_and_receipt_serialization (test_western_model.WesternContractTests.test_exact_fraction_input_survives_binding_and_receipt_serialization)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\western\test_western_model.py", line 112, in test_exact_fraction_input_survives_binding_and_receipt_serialization
+    self.assertEqual(m.validate_native(m.encode(evidence)).status,'VALID')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'INVALID' != 'VALID'
+- INVALID
+? --
++ VALID
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.062s
+
+FAILED (failures=1)

@@ -1,0 +1,147 @@
+{
+  "freeze": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\jev-source-probe-freeze.json",
+  "case_count": 3,
+  "actual_model_calls": 9,
+  "metadata_agreements": 9,
+  "results": [
+    {
+      "case_id": "direct_user",
+      "expected_source_metadata": "Direct user instruction",
+      "runs": [
+        {
+          "mode": "original",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000028-43f24ed54829.json",
+          "receipt_sha256": "43f24ed54829dcd6a17251698b05bba9eb3d8a9de0b4c35c1b36f1a9b55c6f4d",
+          "selected_meaning": "Direct user instruction",
+          "distribution_by_meaning": {
+            "Direct user instruction": 0.7114893198013306,
+            "Assistant proposal without a user answer": 0.180942565202713,
+            "Source not retrieved": 0.10756805539131165
+          },
+          "matches_source_metadata": true
+        },
+        {
+          "mode": "reverse",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000029-037955b06c5d.json",
+          "receipt_sha256": "037955b06c5d376409fcb90eecf13d7865817bc6fe807330d1f2cec4cc248444",
+          "selected_meaning": "Direct user instruction",
+          "distribution_by_meaning": {
+            "Source not retrieved": 0.10756807774305344,
+            "Assistant proposal without a user answer": 0.1809425950050354,
+            "Direct user instruction": 0.7114892601966858
+          },
+          "matches_source_metadata": true
+        },
+        {
+          "mode": "isolated",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000030-dbb583aedffd.json",
+          "receipt_sha256": "dbb583aedffde02c5bc64963546dc119a57af4271930935fd9c61cb77096de76",
+          "selected_meaning": "Direct user instruction",
+          "distribution_by_meaning": {
+            "Direct user instruction": 0.7114892601966858,
+            "Assistant proposal without a user answer": 0.18094255030155182,
+            "Source not retrieved": 0.10756810754537582
+          },
+          "matches_source_metadata": true
+        }
+      ],
+      "permutation_max_abs_mass_difference": 5.960464477539063e-08,
+      "isolation_max_abs_mass_difference": 5.960464477539063e-08,
+      "same_selected_meaning_under_permutation": true,
+      "same_selected_meaning_in_isolation": true
+    },
+    {
+      "case_id": "unanswered_proposal",
+      "expected_source_metadata": "Assistant proposal without a user answer",
+      "runs": [
+        {
+          "mode": "original",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000031-18151d5b09df.json",
+          "receipt_sha256": "18151d5b09df09170fd089c9e353cf56e985ab159d0f6952022143144dca255e",
+          "selected_meaning": "Assistant proposal without a user answer",
+          "distribution_by_meaning": {
+            "User-approved final law": 0.13516201078891754,
+            "Assistant proposal without a user answer": 0.7443077564239502,
+            "Complete scientific proof": 0.12053023278713226
+          },
+          "matches_source_metadata": true
+        },
+        {
+          "mode": "reverse",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000032-e751e61d0343.json",
+          "receipt_sha256": "e751e61d0343e18f4571555bda9b4c10a6c0ccc46a801d4f55136efd7d510637",
+          "selected_meaning": "Assistant proposal without a user answer",
+          "distribution_by_meaning": {
+            "Complete scientific proof": 0.12053017318248749,
+            "Assistant proposal without a user answer": 0.744307816028595,
+            "User-approved final law": 0.13516198098659515
+          },
+          "matches_source_metadata": true
+        },
+        {
+          "mode": "isolated",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000033-1481d83eaf37.json",
+          "receipt_sha256": "1481d83eaf371b592088e9e1c36a643f1865c2ff6863df0de561dec075f42572",
+          "selected_meaning": "Assistant proposal without a user answer",
+          "distribution_by_meaning": {
+            "User-approved final law": 0.13516196608543396,
+            "Assistant proposal without a user answer": 0.7443078756332397,
+            "Complete scientific proof": 0.12053021043539047
+          },
+          "matches_source_metadata": true
+        }
+      ],
+      "permutation_max_abs_mass_difference": 5.960464477539063e-08,
+      "isolation_max_abs_mass_difference": 1.1920928955078125e-07,
+      "same_selected_meaning_under_permutation": true,
+      "same_selected_meaning_in_isolation": true
+    },
+    {
+      "case_id": "hash_binding",
+      "expected_source_metadata": "Byte identity relative to the named hash",
+      "runs": [
+        {
+          "mode": "original",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000034-d95ab105a2d8.json",
+          "receipt_sha256": "d95ab105a2d80549733bb07d3120b60cb0d804863fdf7c93c39637a3d0aa0014",
+          "selected_meaning": "Byte identity relative to the named hash",
+          "distribution_by_meaning": {
+            "Byte identity relative to the named hash": 0.5060210227966309,
+            "Every historical claim is true": 0.2488149106502533,
+            "All live-account material is complete": 0.24516399204730988
+          },
+          "matches_source_metadata": true
+        },
+        {
+          "mode": "reverse",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000035-6e14dfd7309f.json",
+          "receipt_sha256": "6e14dfd7309f23c1f5decc7660c07ce95289f909949fcbcc98b7c94b0d426da9",
+          "selected_meaning": "Byte identity relative to the named hash",
+          "distribution_by_meaning": {
+            "All live-account material is complete": 0.24516409635543823,
+            "Every historical claim is true": 0.2488148808479309,
+            "Byte identity relative to the named hash": 0.5060209631919861
+          },
+          "matches_source_metadata": true
+        },
+        {
+          "mode": "isolated",
+          "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000036-3dc096e7d57a.json",
+          "receipt_sha256": "3dc096e7d57a9a794c828cb7ebc6a485fed44d55f2878d6077ace82b729875c1",
+          "selected_meaning": "Byte identity relative to the named hash",
+          "distribution_by_meaning": {
+            "Byte identity relative to the named hash": 0.5060209631919861,
+            "Every historical claim is true": 0.24881494045257568,
+            "All live-account material is complete": 0.24516411125659943
+          },
+          "matches_source_metadata": true
+        }
+      ],
+      "permutation_max_abs_mass_difference": 1.043081283569336e-07,
+      "isolation_max_abs_mass_difference": 1.1920928955078125e-07,
+      "same_selected_meaning_under_permutation": true,
+      "same_selected_meaning_in_isolation": true
+    }
+  ],
+  "scope": "Three deliberately selected, already-inspected engineering cases and nine dependent model calls. This is not a representative benchmark, blind prediction, calibrated success probability, scientific law or complete-account check. Failures and differences are retained, never corrected by favorable resampling."
+}

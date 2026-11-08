@@ -1,0 +1,39 @@
+{
+  "schema": "sunny.western-plugin-attempts.v1",
+  "created_utc": "2026-11-03T02:30:57.411Z",
+  "native_jev_health": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Cannot reach AgentJev at http://127.0.0.1:8149. Start the upstream service first or set AGENTJEV_URL. ([WinError 10061] No connection could be made because the target machine actively refused it)"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "native_jev_info": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Cannot reach AgentJev at http://127.0.0.1:8149. Start the upstream service first or set AGENTJEV_URL. ([WinError 10061] No connection could be made because the target machine actively refused it)"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "supermemory": {
+    "content": [
+      {
+        "type": "text",
+        "text": "MCP tool `codex_apps/supermemory.search_memory` is not available to the model"
+      }
+    ],
+    "isError": true
+  },
+  "native_plan": "No native plan/update_plan tool appears in available catalog. Scoped plan in checkpoint-02.json; shared PLAN.md untouched.",
+  "protected_path_access": "Read only installed skills and MEMORY.md as instructed; no .codex writes."
+}

@@ -1,0 +1,1195 @@
+{
+  "schema": "sunny.alef-witness-raw-token-test.v1",
+  "scope": "Exactly four directed verse records; no corpus census or acoustic experiment.",
+  "result": "4/4 current publisher Alef clusters contain U+05BC; 4/4 agree with the retained pinned WLC-derived token snapshot. 4/4 full token strings differ. Differences are retained, not suppressed or used to force agreement.",
+  "direction": {
+    "request": "state/research/reactivation/symbols/jev-next-native-question-v2-request.json",
+    "request_sha256": "3b760bda94673910eb844a52b57115fb267399093c9609d1843942e4f3e379ea",
+    "receipt": "state/research/reactivation/symbols/jev-next-native-question-v2-receipt.json",
+    "receipt_sha256": "bd285fcb06d4cbc5585cd0e1526e9af7e94aa633d621bd6ccbb8bc1752e2d3b1",
+    "retained_winner": "tiberian_context",
+    "retained_probability": 0.61,
+    "retained_model": "jev-1.14.0",
+    "new_model_calls_in_this_unit": 0,
+    "account_billing_attribution": "UNVERIFIED"
+  },
+  "rows": [
+    {
+      "locus": "Gen.43.26",
+      "source": {
+        "path": "state/research/reactivation/alef-witness/sources/uxlc-gen43-26-range.xml",
+        "sha256": "c6af40efa7811e5eed60518836da06491cd7b1489997f4ed488d1a066d3a64b6",
+        "url": "https://tanach.us/Server.xml?Gen43:26-26",
+        "edition": {
+          "version": "UXLC 2.6",
+          "date": "19 Oct 2026",
+          "build": "27.7",
+          "buildDateTime": "18 Oct 2026  06:43"
+        },
+        "capture_utc": "2026-11-04T01:41:31.050205+00:00",
+        "xpath": "/Tanach/tanach/book/c[@n='43']/v[@n='26']/w[4]",
+        "token_byte_span_zero_based_half_open": [
+          8403,
+          8429
+        ]
+      },
+      "token": "וַיָּבִ֥יאּוּ",
+      "token_utf8_sha256": "654fcf1e0f37e2b57baead8d6493b495368f6eb692478e152c70fa996ec2b771",
+      "codepoints": [
+        {
+          "character": "ו",
+          "codepoint": "U+05D5",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ַ",
+          "codepoint": "U+05B7",
+          "name": "HEBREW POINT PATAH",
+          "category": "Mn"
+        },
+        {
+          "character": "י",
+          "codepoint": "U+05D9",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ָ",
+          "codepoint": "U+05B8",
+          "name": "HEBREW POINT QAMATS",
+          "category": "Mn"
+        },
+        {
+          "character": "ב",
+          "codepoint": "U+05D1",
+          "name": "HEBREW LETTER BET",
+          "category": "Lo"
+        },
+        {
+          "character": "ִ",
+          "codepoint": "U+05B4",
+          "name": "HEBREW POINT HIRIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "֥",
+          "codepoint": "U+05A5",
+          "name": "HEBREW ACCENT MERKHA",
+          "category": "Mn"
+        },
+        {
+          "character": "י",
+          "codepoint": "U+05D9",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo"
+        },
+        {
+          "character": "א",
+          "codepoint": "U+05D0",
+          "name": "HEBREW LETTER ALEF",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ו",
+          "codepoint": "U+05D5",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        }
+      ],
+      "alef_clusters": [
+        {
+          "index_codepoints_zero_based": 9,
+          "text": "אּ",
+          "codepoints": [
+            {
+              "character": "א",
+              "codepoint": "U+05D0",
+              "name": "HEBREW LETTER ALEF",
+              "category": "Lo"
+            },
+            {
+              "character": "ּ",
+              "codepoint": "U+05BC",
+              "name": "HEBREW POINT DAGESH OR MAPIQ",
+              "category": "Mn"
+            }
+          ],
+          "contains_u05bc": true,
+          "contains_u05c4": false,
+          "contains_u05c5": false,
+          "contains_u05bd": false
+        }
+      ],
+      "verse_apparatus": [],
+      "retained_wlc_snapshot": {
+        "path": "docs/reconstruction/symbol-sound-census/six-alef-loci.json",
+        "sha256": "eb2fd498182e60539180a81406d6b1a6098f980d07c629a5ae65bf44aa0915e1",
+        "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "original_book_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+        "reported_original_book_sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+        "original_book_bytes_retrieved_in_this_unit": false,
+        "token": "וַ/יָּבִ֥יאּוּ",
+        "attributes": {
+          "lemma": "c/935",
+          "morph": "HC/Vhw3mp",
+          "id": "01zud"
+        },
+        "alef_clusters": [
+          {
+            "index_codepoints_zero_based": 10,
+            "text": "אּ",
+            "codepoints": [
+              {
+                "character": "א",
+                "codepoint": "U+05D0",
+                "name": "HEBREW LETTER ALEF",
+                "category": "Lo"
+              },
+              {
+                "character": "ּ",
+                "codepoint": "U+05BC",
+                "name": "HEBREW POINT DAGESH OR MAPIQ",
+                "category": "Mn"
+              }
+            ],
+            "contains_u05bc": true,
+            "contains_u05c4": false,
+            "contains_u05c5": false,
+            "contains_u05bd": false
+          }
+        ],
+        "codepoints": [
+          {
+            "character": "ו",
+            "codepoint": "U+05D5",
+            "name": "HEBREW LETTER VAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ַ",
+            "codepoint": "U+05B7",
+            "name": "HEBREW POINT PATAH",
+            "category": "Mn"
+          },
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          },
+          {
+            "character": "י",
+            "codepoint": "U+05D9",
+            "name": "HEBREW LETTER YOD",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ָ",
+            "codepoint": "U+05B8",
+            "name": "HEBREW POINT QAMATS",
+            "category": "Mn"
+          },
+          {
+            "character": "ב",
+            "codepoint": "U+05D1",
+            "name": "HEBREW LETTER BET",
+            "category": "Lo"
+          },
+          {
+            "character": "ִ",
+            "codepoint": "U+05B4",
+            "name": "HEBREW POINT HIRIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "֥",
+            "codepoint": "U+05A5",
+            "name": "HEBREW ACCENT MERKHA",
+            "category": "Mn"
+          },
+          {
+            "character": "י",
+            "codepoint": "U+05D9",
+            "name": "HEBREW LETTER YOD",
+            "category": "Lo"
+          },
+          {
+            "character": "א",
+            "codepoint": "U+05D0",
+            "name": "HEBREW LETTER ALEF",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ו",
+            "codepoint": "U+05D5",
+            "name": "HEBREW LETTER VAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          }
+        ]
+      },
+      "comparison": {
+        "raw_token_equal": false,
+        "alef_cluster_equal": true,
+        "equal_after_declared_format_filter": true,
+        "filter_removes_only": [
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "character": "׀",
+            "codepoint": "U+05C0",
+            "name": "HEBREW PUNCTUATION PASEQ",
+            "category": "Po"
+          },
+          {
+            "character": "׃",
+            "codepoint": "U+05C3",
+            "name": "HEBREW PUNCTUATION SOF PASUQ",
+            "category": "Po"
+          }
+        ],
+        "uxlc_omitted_by_filter": [],
+        "snapshot_omitted_by_filter": [
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          }
+        ]
+      }
+    },
+    {
+      "locus": "Ezra.8.18",
+      "source": {
+        "path": "state/research/reactivation/alef-witness/sources/uxlc-ezra8-18-range.xml",
+        "sha256": "135bd620088d520f86d691aabd3d51647725a4e19c08748ba9453f8c1a529299",
+        "url": "https://tanach.us/Server.xml?Ezra8:18-18",
+        "edition": {
+          "version": "UXLC 2.6",
+          "date": "19 Oct 2026",
+          "build": "27.7",
+          "buildDateTime": "18 Oct 2026  06:43"
+        },
+        "capture_utc": "2026-11-04T01:41:31.132522+00:00",
+        "xpath": "/Tanach/tanach/book/c[@n='8']/v[@n='18']/w[1]",
+        "token_byte_span_zero_based_half_open": [
+          5520,
+          5546
+        ]
+      },
+      "token": "וַיָּבִ֨יאּוּ",
+      "token_utf8_sha256": "f13aa45058f0f7534799decb616684283342b5c45e43178443fed8431bedca43",
+      "codepoints": [
+        {
+          "character": "ו",
+          "codepoint": "U+05D5",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ַ",
+          "codepoint": "U+05B7",
+          "name": "HEBREW POINT PATAH",
+          "category": "Mn"
+        },
+        {
+          "character": "י",
+          "codepoint": "U+05D9",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ָ",
+          "codepoint": "U+05B8",
+          "name": "HEBREW POINT QAMATS",
+          "category": "Mn"
+        },
+        {
+          "character": "ב",
+          "codepoint": "U+05D1",
+          "name": "HEBREW LETTER BET",
+          "category": "Lo"
+        },
+        {
+          "character": "ִ",
+          "codepoint": "U+05B4",
+          "name": "HEBREW POINT HIRIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "֨",
+          "codepoint": "U+05A8",
+          "name": "HEBREW ACCENT QADMA",
+          "category": "Mn"
+        },
+        {
+          "character": "י",
+          "codepoint": "U+05D9",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo"
+        },
+        {
+          "character": "א",
+          "codepoint": "U+05D0",
+          "name": "HEBREW LETTER ALEF",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ו",
+          "codepoint": "U+05D5",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        }
+      ],
+      "alef_clusters": [
+        {
+          "index_codepoints_zero_based": 9,
+          "text": "אּ",
+          "codepoints": [
+            {
+              "character": "א",
+              "codepoint": "U+05D0",
+              "name": "HEBREW LETTER ALEF",
+              "category": "Lo"
+            },
+            {
+              "character": "ּ",
+              "codepoint": "U+05BC",
+              "name": "HEBREW POINT DAGESH OR MAPIQ",
+              "category": "Mn"
+            }
+          ],
+          "contains_u05bc": true,
+          "contains_u05c4": false,
+          "contains_u05c5": false,
+          "contains_u05bd": false
+        }
+      ],
+      "verse_apparatus": [],
+      "retained_wlc_snapshot": {
+        "path": "docs/reconstruction/symbol-sound-census/six-alef-loci.json",
+        "sha256": "eb2fd498182e60539180a81406d6b1a6098f980d07c629a5ae65bf44aa0915e1",
+        "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "original_book_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Ezra.xml",
+        "reported_original_book_sha256": "fb28ff697d0ee17eba5b4db47fb7261ee1870cea0d5701bfc77c9e28d4138129",
+        "original_book_bytes_retrieved_in_this_unit": false,
+        "token": "וַ/יָּבִ֨יאּוּ",
+        "attributes": {
+          "lemma": "c/935",
+          "morph": "HC/Vhw3mp",
+          "id": "15K4a"
+        },
+        "alef_clusters": [
+          {
+            "index_codepoints_zero_based": 10,
+            "text": "אּ",
+            "codepoints": [
+              {
+                "character": "א",
+                "codepoint": "U+05D0",
+                "name": "HEBREW LETTER ALEF",
+                "category": "Lo"
+              },
+              {
+                "character": "ּ",
+                "codepoint": "U+05BC",
+                "name": "HEBREW POINT DAGESH OR MAPIQ",
+                "category": "Mn"
+              }
+            ],
+            "contains_u05bc": true,
+            "contains_u05c4": false,
+            "contains_u05c5": false,
+            "contains_u05bd": false
+          }
+        ],
+        "codepoints": [
+          {
+            "character": "ו",
+            "codepoint": "U+05D5",
+            "name": "HEBREW LETTER VAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ַ",
+            "codepoint": "U+05B7",
+            "name": "HEBREW POINT PATAH",
+            "category": "Mn"
+          },
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          },
+          {
+            "character": "י",
+            "codepoint": "U+05D9",
+            "name": "HEBREW LETTER YOD",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ָ",
+            "codepoint": "U+05B8",
+            "name": "HEBREW POINT QAMATS",
+            "category": "Mn"
+          },
+          {
+            "character": "ב",
+            "codepoint": "U+05D1",
+            "name": "HEBREW LETTER BET",
+            "category": "Lo"
+          },
+          {
+            "character": "ִ",
+            "codepoint": "U+05B4",
+            "name": "HEBREW POINT HIRIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "֨",
+            "codepoint": "U+05A8",
+            "name": "HEBREW ACCENT QADMA",
+            "category": "Mn"
+          },
+          {
+            "character": "י",
+            "codepoint": "U+05D9",
+            "name": "HEBREW LETTER YOD",
+            "category": "Lo"
+          },
+          {
+            "character": "א",
+            "codepoint": "U+05D0",
+            "name": "HEBREW LETTER ALEF",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ו",
+            "codepoint": "U+05D5",
+            "name": "HEBREW LETTER VAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          }
+        ]
+      },
+      "comparison": {
+        "raw_token_equal": false,
+        "alef_cluster_equal": true,
+        "equal_after_declared_format_filter": true,
+        "filter_removes_only": [
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "character": "׀",
+            "codepoint": "U+05C0",
+            "name": "HEBREW PUNCTUATION PASEQ",
+            "category": "Po"
+          },
+          {
+            "character": "׃",
+            "codepoint": "U+05C3",
+            "name": "HEBREW PUNCTUATION SOF PASUQ",
+            "category": "Po"
+          }
+        ],
+        "uxlc_omitted_by_filter": [],
+        "snapshot_omitted_by_filter": [
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          }
+        ]
+      }
+    },
+    {
+      "locus": "Lev.23.17",
+      "source": {
+        "path": "state/research/reactivation/alef-witness/sources/uxlc-lev23-17-range.xml",
+        "sha256": "b598cce53eb8c962b334239bf4e80428da6a689d436d3957936f5ee2b0341a21",
+        "url": "https://tanach.us/Server.xml?Lev23:17-17",
+        "edition": {
+          "version": "UXLC 2.6",
+          "date": "19 Oct 2026",
+          "build": "27.7",
+          "buildDateTime": "18 Oct 2026  06:43"
+        },
+        "capture_utc": "2026-11-04T01:41:31.197353+00:00",
+        "xpath": "/Tanach/tanach/book/c[@n='23']/v[@n='17']/w[2]",
+        "token_byte_span_zero_based_half_open": [
+          7619,
+          7644
+        ]
+      },
+      "token": "תָּבִ֣יאּוּ ׀",
+      "token_utf8_sha256": "aea6d12318646fdfa72315580df14a3854428dd9118eff880b4301a716d51171",
+      "codepoints": [
+        {
+          "character": "ת",
+          "codepoint": "U+05EA",
+          "name": "HEBREW LETTER TAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ָ",
+          "codepoint": "U+05B8",
+          "name": "HEBREW POINT QAMATS",
+          "category": "Mn"
+        },
+        {
+          "character": "ב",
+          "codepoint": "U+05D1",
+          "name": "HEBREW LETTER BET",
+          "category": "Lo"
+        },
+        {
+          "character": "ִ",
+          "codepoint": "U+05B4",
+          "name": "HEBREW POINT HIRIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "֣",
+          "codepoint": "U+05A3",
+          "name": "HEBREW ACCENT MUNAH",
+          "category": "Mn"
+        },
+        {
+          "character": "י",
+          "codepoint": "U+05D9",
+          "name": "HEBREW LETTER YOD",
+          "category": "Lo"
+        },
+        {
+          "character": "א",
+          "codepoint": "U+05D0",
+          "name": "HEBREW LETTER ALEF",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ו",
+          "codepoint": "U+05D5",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": " ",
+          "codepoint": "U+0020",
+          "name": "SPACE",
+          "category": "Zs"
+        },
+        {
+          "character": "׀",
+          "codepoint": "U+05C0",
+          "name": "HEBREW PUNCTUATION PASEQ",
+          "category": "Po"
+        }
+      ],
+      "alef_clusters": [
+        {
+          "index_codepoints_zero_based": 7,
+          "text": "אּ",
+          "codepoints": [
+            {
+              "character": "א",
+              "codepoint": "U+05D0",
+              "name": "HEBREW LETTER ALEF",
+              "category": "Lo"
+            },
+            {
+              "character": "ּ",
+              "codepoint": "U+05BC",
+              "name": "HEBREW POINT DAGESH OR MAPIQ",
+              "category": "Mn"
+            }
+          ],
+          "contains_u05bc": true,
+          "contains_u05c4": false,
+          "contains_u05c5": false,
+          "contains_u05bd": false
+        }
+      ],
+      "verse_apparatus": [],
+      "retained_wlc_snapshot": {
+        "path": "docs/reconstruction/symbol-sound-census/six-alef-loci.json",
+        "sha256": "eb2fd498182e60539180a81406d6b1a6098f980d07c629a5ae65bf44aa0915e1",
+        "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "original_book_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml",
+        "reported_original_book_sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+        "original_book_bytes_retrieved_in_this_unit": false,
+        "token": "תָּבִ֣יאּוּ",
+        "attributes": {
+          "lemma": "935",
+          "n": "1.2.1.0",
+          "morph": "HVhi2mp",
+          "id": "03CJy"
+        },
+        "alef_clusters": [
+          {
+            "index_codepoints_zero_based": 7,
+            "text": "אּ",
+            "codepoints": [
+              {
+                "character": "א",
+                "codepoint": "U+05D0",
+                "name": "HEBREW LETTER ALEF",
+                "category": "Lo"
+              },
+              {
+                "character": "ּ",
+                "codepoint": "U+05BC",
+                "name": "HEBREW POINT DAGESH OR MAPIQ",
+                "category": "Mn"
+              }
+            ],
+            "contains_u05bc": true,
+            "contains_u05c4": false,
+            "contains_u05c5": false,
+            "contains_u05bd": false
+          }
+        ],
+        "codepoints": [
+          {
+            "character": "ת",
+            "codepoint": "U+05EA",
+            "name": "HEBREW LETTER TAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ָ",
+            "codepoint": "U+05B8",
+            "name": "HEBREW POINT QAMATS",
+            "category": "Mn"
+          },
+          {
+            "character": "ב",
+            "codepoint": "U+05D1",
+            "name": "HEBREW LETTER BET",
+            "category": "Lo"
+          },
+          {
+            "character": "ִ",
+            "codepoint": "U+05B4",
+            "name": "HEBREW POINT HIRIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "֣",
+            "codepoint": "U+05A3",
+            "name": "HEBREW ACCENT MUNAH",
+            "category": "Mn"
+          },
+          {
+            "character": "י",
+            "codepoint": "U+05D9",
+            "name": "HEBREW LETTER YOD",
+            "category": "Lo"
+          },
+          {
+            "character": "א",
+            "codepoint": "U+05D0",
+            "name": "HEBREW LETTER ALEF",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ו",
+            "codepoint": "U+05D5",
+            "name": "HEBREW LETTER VAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          }
+        ]
+      },
+      "comparison": {
+        "raw_token_equal": false,
+        "alef_cluster_equal": true,
+        "equal_after_declared_format_filter": true,
+        "filter_removes_only": [
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "character": "׀",
+            "codepoint": "U+05C0",
+            "name": "HEBREW PUNCTUATION PASEQ",
+            "category": "Po"
+          },
+          {
+            "character": "׃",
+            "codepoint": "U+05C3",
+            "name": "HEBREW PUNCTUATION SOF PASUQ",
+            "category": "Po"
+          }
+        ],
+        "uxlc_omitted_by_filter": [
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "character": "׀",
+            "codepoint": "U+05C0",
+            "name": "HEBREW PUNCTUATION PASEQ",
+            "category": "Po"
+          }
+        ],
+        "snapshot_omitted_by_filter": []
+      }
+    },
+    {
+      "locus": "Job.33.21",
+      "source": {
+        "path": "state/research/reactivation/alef-witness/sources/uxlc-job33-21-range.xml",
+        "sha256": "991d13f4442f63ba185fdc8037af65297ae8a95680aff1b00320ce10af7a8de4",
+        "url": "https://tanach.us/Server.xml?Job33:21-21",
+        "edition": {
+          "version": "UXLC 2.6",
+          "date": "19 Oct 2026",
+          "build": "27.7",
+          "buildDateTime": "18 Oct 2026  06:43"
+        },
+        "capture_utc": "2026-11-04T01:41:31.239464+00:00",
+        "xpath": "/Tanach/tanach/book/c[@n='33']/v[@n='21']/w[6]",
+        "token_byte_span_zero_based_half_open": [
+          5894,
+          5910
+        ]
+      },
+      "token": "רֻאּֽוּ׃",
+      "token_utf8_sha256": "223667828b62cea5fa81c030fa3ad0774930b47d4515eeb6b927625ae8d8f3ad",
+      "codepoints": [
+        {
+          "character": "ר",
+          "codepoint": "U+05E8",
+          "name": "HEBREW LETTER RESH",
+          "category": "Lo"
+        },
+        {
+          "character": "ֻ",
+          "codepoint": "U+05BB",
+          "name": "HEBREW POINT QUBUTS",
+          "category": "Mn"
+        },
+        {
+          "character": "א",
+          "codepoint": "U+05D0",
+          "name": "HEBREW LETTER ALEF",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "ֽ",
+          "codepoint": "U+05BD",
+          "name": "HEBREW POINT METEG",
+          "category": "Mn"
+        },
+        {
+          "character": "ו",
+          "codepoint": "U+05D5",
+          "name": "HEBREW LETTER VAV",
+          "category": "Lo"
+        },
+        {
+          "character": "ּ",
+          "codepoint": "U+05BC",
+          "name": "HEBREW POINT DAGESH OR MAPIQ",
+          "category": "Mn"
+        },
+        {
+          "character": "׃",
+          "codepoint": "U+05C3",
+          "name": "HEBREW PUNCTUATION SOF PASUQ",
+          "category": "Po"
+        }
+      ],
+      "alef_clusters": [
+        {
+          "index_codepoints_zero_based": 2,
+          "text": "אּֽ",
+          "codepoints": [
+            {
+              "character": "א",
+              "codepoint": "U+05D0",
+              "name": "HEBREW LETTER ALEF",
+              "category": "Lo"
+            },
+            {
+              "character": "ּ",
+              "codepoint": "U+05BC",
+              "name": "HEBREW POINT DAGESH OR MAPIQ",
+              "category": "Mn"
+            },
+            {
+              "character": "ֽ",
+              "codepoint": "U+05BD",
+              "name": "HEBREW POINT METEG",
+              "category": "Mn"
+            }
+          ],
+          "contains_u05bc": true,
+          "contains_u05c4": false,
+          "contains_u05c5": false,
+          "contains_u05bd": true
+        }
+      ],
+      "verse_apparatus": [
+        {
+          "element": "k",
+          "text": "ושפי",
+          "target": false
+        },
+        {
+          "element": "q",
+          "text": "וְשֻׁפּ֥וּ",
+          "target": false
+        }
+      ],
+      "retained_wlc_snapshot": {
+        "path": "docs/reconstruction/symbol-sound-census/six-alef-loci.json",
+        "sha256": "eb2fd498182e60539180a81406d6b1a6098f980d07c629a5ae65bf44aa0915e1",
+        "commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+        "original_book_url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Job.xml",
+        "reported_original_book_sha256": "7db3311184122f37a8fd52f3c7c0c4a6d2da7b77ee82f4fdb26bcba9171d297f",
+        "original_book_bytes_retrieved_in_this_unit": false,
+        "token": "רֻאּֽוּ",
+        "attributes": {
+          "lemma": "7200",
+          "n": "0",
+          "morph": "HVQp3cp",
+          "id": "18RrD"
+        },
+        "alef_clusters": [
+          {
+            "index_codepoints_zero_based": 2,
+            "text": "אּֽ",
+            "codepoints": [
+              {
+                "character": "א",
+                "codepoint": "U+05D0",
+                "name": "HEBREW LETTER ALEF",
+                "category": "Lo"
+              },
+              {
+                "character": "ּ",
+                "codepoint": "U+05BC",
+                "name": "HEBREW POINT DAGESH OR MAPIQ",
+                "category": "Mn"
+              },
+              {
+                "character": "ֽ",
+                "codepoint": "U+05BD",
+                "name": "HEBREW POINT METEG",
+                "category": "Mn"
+              }
+            ],
+            "contains_u05bc": true,
+            "contains_u05c4": false,
+            "contains_u05c5": false,
+            "contains_u05bd": true
+          }
+        ],
+        "codepoints": [
+          {
+            "character": "ר",
+            "codepoint": "U+05E8",
+            "name": "HEBREW LETTER RESH",
+            "category": "Lo"
+          },
+          {
+            "character": "ֻ",
+            "codepoint": "U+05BB",
+            "name": "HEBREW POINT QUBUTS",
+            "category": "Mn"
+          },
+          {
+            "character": "א",
+            "codepoint": "U+05D0",
+            "name": "HEBREW LETTER ALEF",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          },
+          {
+            "character": "ֽ",
+            "codepoint": "U+05BD",
+            "name": "HEBREW POINT METEG",
+            "category": "Mn"
+          },
+          {
+            "character": "ו",
+            "codepoint": "U+05D5",
+            "name": "HEBREW LETTER VAV",
+            "category": "Lo"
+          },
+          {
+            "character": "ּ",
+            "codepoint": "U+05BC",
+            "name": "HEBREW POINT DAGESH OR MAPIQ",
+            "category": "Mn"
+          }
+        ]
+      },
+      "comparison": {
+        "raw_token_equal": false,
+        "alef_cluster_equal": true,
+        "equal_after_declared_format_filter": true,
+        "filter_removes_only": [
+          {
+            "character": "/",
+            "codepoint": "U+002F",
+            "name": "SOLIDUS",
+            "category": "Po"
+          },
+          {
+            "character": " ",
+            "codepoint": "U+0020",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "character": "׀",
+            "codepoint": "U+05C0",
+            "name": "HEBREW PUNCTUATION PASEQ",
+            "category": "Po"
+          },
+          {
+            "character": "׃",
+            "codepoint": "U+05C3",
+            "name": "HEBREW PUNCTUATION SOF PASUQ",
+            "category": "Po"
+          }
+        ],
+        "uxlc_omitted_by_filter": [
+          {
+            "character": "׃",
+            "codepoint": "U+05C3",
+            "name": "HEBREW PUNCTUATION SOF PASUQ",
+            "category": "Po"
+          }
+        ],
+        "snapshot_omitted_by_filter": []
+      }
+    }
+  ],
+  "same_verse_encoding_control": {
+    "locus": "Gen.43.26",
+    "xpath": "/Tanach/tanach/book/c[@n='43']/v[@n='26']/w[6]",
+    "source_path": "state/research/reactivation/alef-witness/sources/uxlc-gen43-26-range.xml",
+    "source_sha256": "c6af40efa7811e5eed60518836da06491cd7b1489997f4ed488d1a066d3a64b6",
+    "token": "אֶת־",
+    "codepoints": [
+      {
+        "character": "א",
+        "codepoint": "U+05D0",
+        "name": "HEBREW LETTER ALEF",
+        "category": "Lo"
+      },
+      {
+        "character": "ֶ",
+        "codepoint": "U+05B6",
+        "name": "HEBREW POINT SEGOL",
+        "category": "Mn"
+      },
+      {
+        "character": "ת",
+        "codepoint": "U+05EA",
+        "name": "HEBREW LETTER TAV",
+        "category": "Lo"
+      },
+      {
+        "character": "־",
+        "codepoint": "U+05BE",
+        "name": "HEBREW PUNCTUATION MAQAF",
+        "category": "Pd"
+      }
+    ],
+    "token_byte_span_zero_based_half_open": [
+      8473,
+      8481
+    ],
+    "alef_clusters": [
+      {
+        "index_codepoints_zero_based": 0,
+        "text": "אֶ",
+        "codepoints": [
+          {
+            "character": "א",
+            "codepoint": "U+05D0",
+            "name": "HEBREW LETTER ALEF",
+            "category": "Lo"
+          },
+          {
+            "character": "ֶ",
+            "codepoint": "U+05B6",
+            "name": "HEBREW POINT SEGOL",
+            "category": "Mn"
+          }
+        ],
+        "contains_u05bc": false,
+        "contains_u05c4": false,
+        "contains_u05c5": false,
+        "contains_u05bd": false
+      }
+    ],
+    "observation": "Same verse has Alef plus U+05B6 SEGOL without U+05BC. Presence of a combining mark alone does not identify a dagesh-or-mapiq encoding.",
+    "scope_limit": "Encoding contrast only: different lexical/morphological contexts; no matched acoustic or historical-pronunciation inference."
+  },
+  "limits": [
+    "UXLC and the retained morphhb WLC snapshot descend from Leningrad transcription work; agreement is not two independent ancient manuscripts.",
+    "The second comparison input is the retained commit-labeled token snapshot. Its original full-book bytes were not newly retrieved or independently hash-verified in this unit.",
+    "U+05BC is named HEBREW POINT DAGESH OR MAPIQ. The codepoint does not decide whether the point signified gemination or consonantal realization.",
+    "Job's Alef cluster also includes U+05BD METEG. U+05C4 upper and U+05C5 lower dots are not interchangeable with U+05BC.",
+    "Khan's reproduced BL Or2552 excerpt, his scholarly Hebrew print, the Leningrad manuscript and Aleppo/Baghdad/Yemen reading traditions are different source layers.",
+    "No direct Leningrad four-token facsimile inspection, full BL Or2552 shadda-distribution audit, recording, exact duration, ratio, frequency, musical interval or ancient-sound determination is claimed.",
+    "No blind prediction: all four loci and the Khan interpretation were already exposed."
+  ]
+}

@@ -1,0 +1,2076 @@
+{
+  "schema": "sunny.independent-cyclic-difference-review.v1",
+  "checked_utc": "2026-11-03T04:19:50.106Z",
+  "status": "passed",
+  "oracle": "Independent direct exhaustive assignments using BigInt equation residuals; graph-potential algorithm not reused.",
+  "seed": "0x5A17C0DE",
+  "fixedCases": 10,
+  "seededCases": 240,
+  "coverage": {
+    "cases": 255,
+    "assignmentsEnumerated": 367727,
+    "consistent": 70,
+    "inconsistent": 185,
+    "symbolic": 25,
+    "closedWalkCertificates": 185,
+    "inclusionMinimalCores": 185,
+    "predictionTargets": 554,
+    "materializedAssignments": 12332,
+    "originFamilies": 70
+  },
+  "sourceHashes": {
+    "src/contextual-alignment.ts": "95518d6e7815842f75c944dff8d879a3e26953afb780de62826de29171f6d53d",
+    "src/law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "tests/contextual-alignment.test.mjs": "a02c2351dc81274bec7acf2ce15fe25c530b72084cac3d218736cf73c7083512"
+  },
+  "compiledHashes": {
+    "contextual-alignment.js": "2acda2f752e49ee505f4fa4d5c1bd8e020bcce154bc2c90ed25cd929c7733ba3",
+    "law.js": "82a70029affd342fcef458f9d5a7dbb408566602cb2dfe4cad26b7539cdd7474",
+    "prediction.js": "6cbcf4ce081ff67852d5f5dbc1bc763dd80e5c87e0c19787445cdd472dad487f"
+  },
+  "rootInputsStableDuringRun": true,
+  "results": [
+    {
+      "id": "zero-self-loop",
+      "modulus": 6,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 6,
+      "status": "admissible-family"
+    },
+    {
+      "id": "nonzero-self-loop",
+      "modulus": 6,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "multiple-self-loops",
+      "modulus": 4,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 4,
+      "status": "admissible-family"
+    },
+    {
+      "id": "disconnected-composite",
+      "modulus": 6,
+      "variables": 4,
+      "links": 1,
+      "exactSolutions": 216,
+      "status": "admissible-family"
+    },
+    {
+      "id": "redundant-forward-reverse",
+      "modulus": 8,
+      "variables": 3,
+      "links": 4,
+      "exactSolutions": 8,
+      "status": "admissible-family"
+    },
+    {
+      "id": "conflicting-parallel",
+      "modulus": 9,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "safe-integer-offsets",
+      "modulus": 6,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 6,
+      "status": "admissible-family"
+    },
+    {
+      "id": "prototype-names",
+      "modulus": 4,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 4,
+      "status": "admissible-family"
+    },
+    {
+      "id": "isolated-components",
+      "modulus": 4,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 256,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "zero-modulus-multiple",
+      "modulus": 8,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 8,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-0",
+      "modulus": 3,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 3,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-1",
+      "modulus": 4,
+      "variables": 4,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-2",
+      "modulus": 5,
+      "variables": 3,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-3",
+      "modulus": 6,
+      "variables": 4,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-4",
+      "modulus": 6,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-5",
+      "modulus": 9,
+      "variables": 4,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-6",
+      "modulus": 4,
+      "variables": 1,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-7",
+      "modulus": 9,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-8",
+      "modulus": 8,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-9",
+      "modulus": 4,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-10",
+      "modulus": 9,
+      "variables": 3,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-11",
+      "modulus": 4,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-12",
+      "modulus": 5,
+      "variables": 4,
+      "links": 3,
+      "exactSolutions": 5,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-13",
+      "modulus": 5,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-14",
+      "modulus": 5,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-15",
+      "modulus": 6,
+      "variables": 2,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-16",
+      "modulus": 8,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 8,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-17",
+      "modulus": 4,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-18",
+      "modulus": 8,
+      "variables": 4,
+      "links": 2,
+      "exactSolutions": 64,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-19",
+      "modulus": 5,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-20",
+      "modulus": 5,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-21",
+      "modulus": 2,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-22",
+      "modulus": 4,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-23",
+      "modulus": 8,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 4096,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-24",
+      "modulus": 5,
+      "variables": 1,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-25",
+      "modulus": 6,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-26",
+      "modulus": 4,
+      "variables": 3,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-27",
+      "modulus": 6,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-28",
+      "modulus": 9,
+      "variables": 2,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-29",
+      "modulus": 2,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 2,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-30",
+      "modulus": 9,
+      "variables": 2,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-31",
+      "modulus": 9,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-32",
+      "modulus": 4,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-33",
+      "modulus": 5,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-34",
+      "modulus": 3,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-35",
+      "modulus": 3,
+      "variables": 2,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-36",
+      "modulus": 5,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-37",
+      "modulus": 2,
+      "variables": 1,
+      "links": 0,
+      "exactSolutions": 2,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-38",
+      "modulus": 6,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-39",
+      "modulus": 8,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-40",
+      "modulus": 9,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-41",
+      "modulus": 5,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-42",
+      "modulus": 6,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-43",
+      "modulus": 5,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-44",
+      "modulus": 4,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-45",
+      "modulus": 8,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-46",
+      "modulus": 4,
+      "variables": 3,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-47",
+      "modulus": 9,
+      "variables": 1,
+      "links": 0,
+      "exactSolutions": 9,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-48",
+      "modulus": 5,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-49",
+      "modulus": 3,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-50",
+      "modulus": 5,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-51",
+      "modulus": 3,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-52",
+      "modulus": 4,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-53",
+      "modulus": 4,
+      "variables": 3,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-54",
+      "modulus": 6,
+      "variables": 4,
+      "links": 2,
+      "exactSolutions": 36,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-55",
+      "modulus": 3,
+      "variables": 3,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-56",
+      "modulus": 4,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-57",
+      "modulus": 8,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-58",
+      "modulus": 3,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-59",
+      "modulus": 4,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-60",
+      "modulus": 2,
+      "variables": 3,
+      "links": 1,
+      "exactSolutions": 4,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-61",
+      "modulus": 3,
+      "variables": 1,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-62",
+      "modulus": 9,
+      "variables": 3,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-63",
+      "modulus": 3,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-64",
+      "modulus": 5,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 625,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-65",
+      "modulus": 6,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-66",
+      "modulus": 4,
+      "variables": 2,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-67",
+      "modulus": 8,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-68",
+      "modulus": 9,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-69",
+      "modulus": 9,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-70",
+      "modulus": 2,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-71",
+      "modulus": 2,
+      "variables": 2,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-72",
+      "modulus": 9,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 9,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-73",
+      "modulus": 6,
+      "variables": 4,
+      "links": 1,
+      "exactSolutions": 216,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-74",
+      "modulus": 3,
+      "variables": 2,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-75",
+      "modulus": 3,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-76",
+      "modulus": 4,
+      "variables": 3,
+      "links": 1,
+      "exactSolutions": 64,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-77",
+      "modulus": 2,
+      "variables": 1,
+      "links": 0,
+      "exactSolutions": 2,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-78",
+      "modulus": 9,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-79",
+      "modulus": 4,
+      "variables": 2,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-80",
+      "modulus": 8,
+      "variables": 2,
+      "links": 0,
+      "exactSolutions": 64,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-81",
+      "modulus": 9,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-82",
+      "modulus": 4,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-83",
+      "modulus": 6,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-84",
+      "modulus": 6,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-85",
+      "modulus": 8,
+      "variables": 4,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-86",
+      "modulus": 6,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-87",
+      "modulus": 3,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-88",
+      "modulus": 4,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-89",
+      "modulus": 3,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-90",
+      "modulus": 6,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-91",
+      "modulus": 2,
+      "variables": 4,
+      "links": 3,
+      "exactSolutions": 2,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-92",
+      "modulus": 5,
+      "variables": 4,
+      "links": 2,
+      "exactSolutions": 25,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-93",
+      "modulus": 4,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-94",
+      "modulus": 2,
+      "variables": 2,
+      "links": 0,
+      "exactSolutions": 4,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-95",
+      "modulus": 6,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-96",
+      "modulus": 5,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 5,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-97",
+      "modulus": 9,
+      "variables": 4,
+      "links": 3,
+      "exactSolutions": 9,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-98",
+      "modulus": 2,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-99",
+      "modulus": 4,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 4,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-100",
+      "modulus": 5,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-101",
+      "modulus": 5,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 5,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-102",
+      "modulus": 2,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 2,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-103",
+      "modulus": 9,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-104",
+      "modulus": 8,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 4096,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-105",
+      "modulus": 6,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-106",
+      "modulus": 9,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-107",
+      "modulus": 9,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-108",
+      "modulus": 9,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-109",
+      "modulus": 3,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-110",
+      "modulus": 5,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 625,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-111",
+      "modulus": 4,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-112",
+      "modulus": 3,
+      "variables": 4,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-113",
+      "modulus": 9,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-114",
+      "modulus": 2,
+      "variables": 3,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-115",
+      "modulus": 6,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-116",
+      "modulus": 9,
+      "variables": 2,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-117",
+      "modulus": 4,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 256,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-118",
+      "modulus": 6,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-119",
+      "modulus": 5,
+      "variables": 3,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-120",
+      "modulus": 8,
+      "variables": 4,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-121",
+      "modulus": 2,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 4,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-122",
+      "modulus": 3,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-123",
+      "modulus": 3,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-124",
+      "modulus": 3,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-125",
+      "modulus": 2,
+      "variables": 4,
+      "links": 4,
+      "exactSolutions": 2,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-126",
+      "modulus": 9,
+      "variables": 1,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-127",
+      "modulus": 4,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-128",
+      "modulus": 2,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-129",
+      "modulus": 6,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-130",
+      "modulus": 6,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-131",
+      "modulus": 9,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-132",
+      "modulus": 6,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-133",
+      "modulus": 9,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-134",
+      "modulus": 3,
+      "variables": 1,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-135",
+      "modulus": 5,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-136",
+      "modulus": 4,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-137",
+      "modulus": 9,
+      "variables": 3,
+      "links": 0,
+      "exactSolutions": 729,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-138",
+      "modulus": 4,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 256,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-139",
+      "modulus": 8,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-140",
+      "modulus": 3,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-141",
+      "modulus": 8,
+      "variables": 4,
+      "links": 2,
+      "exactSolutions": 64,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-142",
+      "modulus": 3,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-143",
+      "modulus": 8,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-144",
+      "modulus": 2,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-145",
+      "modulus": 9,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 9,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-146",
+      "modulus": 8,
+      "variables": 1,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-147",
+      "modulus": 5,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-148",
+      "modulus": 4,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-149",
+      "modulus": 4,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-150",
+      "modulus": 8,
+      "variables": 3,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-151",
+      "modulus": 5,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-152",
+      "modulus": 5,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-153",
+      "modulus": 6,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 6,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-154",
+      "modulus": 3,
+      "variables": 2,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-155",
+      "modulus": 3,
+      "variables": 2,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-156",
+      "modulus": 9,
+      "variables": 4,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-157",
+      "modulus": 5,
+      "variables": 3,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-158",
+      "modulus": 6,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-159",
+      "modulus": 8,
+      "variables": 3,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-160",
+      "modulus": 4,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-161",
+      "modulus": 6,
+      "variables": 1,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-162",
+      "modulus": 4,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-163",
+      "modulus": 4,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-164",
+      "modulus": 9,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 9,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-165",
+      "modulus": 5,
+      "variables": 4,
+      "links": 1,
+      "exactSolutions": 125,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-166",
+      "modulus": 2,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-167",
+      "modulus": 4,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-168",
+      "modulus": 2,
+      "variables": 4,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-169",
+      "modulus": 9,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-170",
+      "modulus": 4,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-171",
+      "modulus": 6,
+      "variables": 4,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-172",
+      "modulus": 5,
+      "variables": 2,
+      "links": 0,
+      "exactSolutions": 25,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-173",
+      "modulus": 6,
+      "variables": 3,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-174",
+      "modulus": 5,
+      "variables": 1,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-175",
+      "modulus": 8,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-176",
+      "modulus": 4,
+      "variables": 4,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-177",
+      "modulus": 5,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-178",
+      "modulus": 2,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 2,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-179",
+      "modulus": 5,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-180",
+      "modulus": 9,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 6561,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-181",
+      "modulus": 3,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 3,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-182",
+      "modulus": 9,
+      "variables": 2,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-183",
+      "modulus": 5,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 5,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-184",
+      "modulus": 2,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-185",
+      "modulus": 8,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-186",
+      "modulus": 3,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-187",
+      "modulus": 2,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 16,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-188",
+      "modulus": 8,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-189",
+      "modulus": 5,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-190",
+      "modulus": 3,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-191",
+      "modulus": 9,
+      "variables": 2,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-192",
+      "modulus": 9,
+      "variables": 3,
+      "links": 0,
+      "exactSolutions": 729,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-193",
+      "modulus": 6,
+      "variables": 4,
+      "links": 2,
+      "exactSolutions": 36,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-194",
+      "modulus": 6,
+      "variables": 3,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-195",
+      "modulus": 8,
+      "variables": 4,
+      "links": 1,
+      "exactSolutions": 512,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-196",
+      "modulus": 8,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-197",
+      "modulus": 3,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-198",
+      "modulus": 3,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-199",
+      "modulus": 4,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 4,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-200",
+      "modulus": 5,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-201",
+      "modulus": 4,
+      "variables": 4,
+      "links": 1,
+      "exactSolutions": 64,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-202",
+      "modulus": 6,
+      "variables": 2,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-203",
+      "modulus": 2,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-204",
+      "modulus": 4,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 256,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-205",
+      "modulus": 5,
+      "variables": 1,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-206",
+      "modulus": 5,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-207",
+      "modulus": 2,
+      "variables": 3,
+      "links": 0,
+      "exactSolutions": 8,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-208",
+      "modulus": 3,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-209",
+      "modulus": 3,
+      "variables": 4,
+      "links": 1,
+      "exactSolutions": 27,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-210",
+      "modulus": 6,
+      "variables": 2,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-211",
+      "modulus": 3,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-212",
+      "modulus": 4,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-213",
+      "modulus": 9,
+      "variables": 3,
+      "links": 0,
+      "exactSolutions": 729,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-214",
+      "modulus": 5,
+      "variables": 4,
+      "links": 3,
+      "exactSolutions": 5,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-215",
+      "modulus": 9,
+      "variables": 4,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-216",
+      "modulus": 6,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-217",
+      "modulus": 5,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 5,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-218",
+      "modulus": 3,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 3,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-219",
+      "modulus": 9,
+      "variables": 2,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-220",
+      "modulus": 9,
+      "variables": 2,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-221",
+      "modulus": 2,
+      "variables": 1,
+      "links": 6,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-222",
+      "modulus": 6,
+      "variables": 4,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-223",
+      "modulus": 5,
+      "variables": 4,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-224",
+      "modulus": 6,
+      "variables": 1,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-225",
+      "modulus": 8,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 8,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-226",
+      "modulus": 6,
+      "variables": 4,
+      "links": 0,
+      "exactSolutions": 1296,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-227",
+      "modulus": 6,
+      "variables": 1,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-228",
+      "modulus": 8,
+      "variables": 2,
+      "links": 1,
+      "exactSolutions": 8,
+      "status": "symbolic-family"
+    },
+    {
+      "id": "seeded-229",
+      "modulus": 3,
+      "variables": 4,
+      "links": 3,
+      "exactSolutions": 3,
+      "status": "admissible-family"
+    },
+    {
+      "id": "seeded-230",
+      "modulus": 6,
+      "variables": 4,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-231",
+      "modulus": 9,
+      "variables": 1,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-232",
+      "modulus": 5,
+      "variables": 3,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-233",
+      "modulus": 6,
+      "variables": 4,
+      "links": 4,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-234",
+      "modulus": 8,
+      "variables": 1,
+      "links": 2,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-235",
+      "modulus": 2,
+      "variables": 4,
+      "links": 8,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-236",
+      "modulus": 8,
+      "variables": 1,
+      "links": 5,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-237",
+      "modulus": 8,
+      "variables": 3,
+      "links": 1,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-238",
+      "modulus": 2,
+      "variables": 1,
+      "links": 7,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "seeded-239",
+      "modulus": 2,
+      "variables": 1,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "source-three-equation-adapter",
+      "modulus": 12,
+      "variables": 3,
+      "links": 3,
+      "exactSolutions": 0,
+      "status": "inconsistent"
+    },
+    {
+      "id": "source-drop-A",
+      "modulus": 12,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 12,
+      "status": "admissible-family"
+    },
+    {
+      "id": "source-drop-B",
+      "modulus": 12,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 12,
+      "status": "admissible-family"
+    },
+    {
+      "id": "source-drop-C",
+      "modulus": 12,
+      "variables": 3,
+      "links": 2,
+      "exactSolutions": 12,
+      "status": "admissible-family"
+    },
+    {
+      "id": "source-modal-relative-family",
+      "modulus": 12,
+      "variables": 5,
+      "links": 4,
+      "exactSolutions": 12,
+      "status": "admissible-family"
+    }
+  ],
+  "scope": "Finite declared difference constraints, certificates, inclusion minimality, complete origin family and materialized predictions. Historical source authenticity/global uniqueness remain outside this check."
+}

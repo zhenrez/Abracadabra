@@ -1,0 +1,71 @@
+{
+  "schema": "sun.assembled-release-review.v1",
+  "reviewer": "Independent child /root/change_review",
+  "reviewed_at_utc": "2026-11-08T22:18:53.1926302Z",
+  "verdict": "APPROVED_BOUNDED_HANDOFF_WITH_DISCLOSED_FULL_TEST_PARTIAL",
+  "existing_files_changed": false,
+  "git_writes_performed": false,
+  "observed_readonly_checks": {
+    "exit_code": 0,
+    "root_local_markdown_links": 12,
+    "stable_manifest_records": 6097,
+    "source_vault_mappings": 1,
+    "independent_checkpoint_captures": 9,
+    "selected_frozen_canonical_records": 22,
+    "matching_frozen_implementation_hashes": 48,
+    "source_bound_operational_exception": 1,
+    "restricted_omissions": 18,
+    "initial_manifest_exclusions": 27,
+    "large_files": 4,
+    "large_parts_hash_verified": 109,
+    "large_original_bytes": 890836714
+  },
+  "full_project_result": {
+    "receipt": "publication/verification/full-project-run.json",
+    "tests": 118,
+    "pass": 116,
+    "fail": 2,
+    "exit_code": 1,
+    "status": "PARTIAL_SOURCE_FIDELITY",
+    "failure_causes": [
+      "Held MTO source capture absent",
+      "First missing Irenaeus source in broader held corpus"
+    ],
+    "current_documentation_explicit": true
+  },
+  "parent_execution": {
+    "G0_G1": 71,
+    "original_Sefer": 6,
+    "export_tests": 29,
+    "portable_tests": 10,
+    "browser_startups": 6,
+    "npm_ci": "PASSED",
+    "build": "PASSED",
+    "scope": "Parent executed; child directly read portable/browser/full-project receipts, did not rerun these suites"
+  },
+  "snapshot_scope": "6097stable source inputs plus9independently captured checkpoints; no globally atomic or latest-everywhere claim",
+  "reviewed_file_sha256": {
+    "README.md": "99564703ebce790ea901d9a1d025b48114b0c9bea25adbd1f7e513904aa9c9b2",
+    "PUBLICATION.md": "48cce2b4d5b0de1513c244effb3f58ddc7d1de2a7f3f07241f222505d780352c",
+    "PUBLICATION_MANIFEST.json": "c4153bff76ecdd136e652f44315590d9b9a6b894c33917d402496702413d34b3",
+    "publication/live-checkpoint-capture.json": "049fd030a75f95cdda3ab68fd3458cb99fbb6039cb6eb9c30bd9ed3c2c9e74b4",
+    "publication/retained-restricted-material.json": "dcdb1068637330a0d52c0d2637144545961578d2d03461bf46a6078281c0ebfd",
+    "publication/verification/full-project-run.json": "2141b24188d8d77ab294a9593832f8c7fd9c42094176364a80cddc0c3bd771c2",
+    "publication/verification/portable-receipt.json": "28e4602274aa980ec142f64b3bc2779ebe884862e314f25e1320ee3a53c84e4e",
+    "publication/verification/browser-smoke.json": "44397c89e37163f1c901c87c661eac3ef802b7a31417fd770427eedebf0e9a12",
+    "publication/fresh-reconstruction-receipt.json": "3b3da02fbb099322f4e3b3a686889ce349cb85653af3ea0501fe33a0458dd1b4",
+    "archives/public-large/manifest.json": "d54ad0251a58f0adccceccd0828605a43ad6c83c8b9c03242128342525471a7c"
+  },
+  "remaining_parent_actions": [
+    "Finish final staged-file and manifest checks",
+    "Perform authorized Git publication",
+    "Verify remote commit and files"
+  ],
+  "not_certified": [
+    "Full Node acceptance",
+    "Historical/scientific completion",
+    "New full-archive credential clearance",
+    "Complete third-party redistribution rights",
+    "Remote publication"
+  ]
+}

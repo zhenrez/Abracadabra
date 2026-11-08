@@ -1,0 +1,42 @@
+{
+  "request": {
+    "state": "Four matched printed rows cross presence of Mercha and Munach. Torah and Haftarah each supply one recording. No second syllable independently aligned.",
+    "questions": {
+      "next": {
+        "criteria": {
+          "predict": "Fit historical sacred sound from the endpoint.",
+          "contrast": "Derive exactly which within-sheet contrasts are identifiable and which effects confound row order."
+        },
+        "instructions": "Choose complementary G16 mathematical work while reviewer checks the score.",
+        "type": "choice"
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "3c45fa2d9e80c63dabe140ea31b6a6cd6e673040d6e407f9e779f3ae8031a31b",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next": {
+        "type": "choice",
+        "probabilities": {
+          "contrast": 0.95,
+          "predict": 0.05
+        },
+        "winner": "contrast",
+        "top_probability": 0.95,
+        "margin": 0.8999999999999999
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 366,
+      "output_tokens": 31
+    },
+    "network_calls": 1,
+    "latency_ms": 234
+  }
+}

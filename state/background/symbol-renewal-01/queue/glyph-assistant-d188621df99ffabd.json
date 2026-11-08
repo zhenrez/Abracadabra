@@ -1,0 +1,54 @@
+{
+  "id": "glyph-assistant-d188621df99ffabd",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "schema": "sunny.background-job.v1",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/d188621df99ffabdf3498f2ba0f134301ea3705c61286f9aeb9e57db276118fd/text.txt",
+      "sha256": "d188621df99ffabdf3498f2ba0f134301ea3705c61286f9aeb9e57db276118fd",
+      "start_line": 1,
+      "end_line": 94,
+      "source_role": "assistant",
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "message_id": "2ab285ca6ed6bbb6c1072f18f99e50689d47955da4c68e8d532d09912e38381b",
+      "origin": {
+        "id": "2ab285ca6ed6bbb6c1072f18f99e50689d47955da4c68e8d532d09912e38381b",
+        "native_id": "127",
+        "conversation_id": "5c05fe0d27da167148ee5393134fc9b54c0df48fbccacb896f20d7d267c0bece",
+        "role": "assistant",
+        "content_sha256": "d188621df99ffabdf3498f2ba0f134301ea3705c61286f9aeb9e57db276118fd",
+        "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+        "locator": "lines:10013-10109",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Articulate Musical Transitions",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+        "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+        "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+        "source_kind": "recovered_current_research",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/d188621df99ffabdf3498f2ba0f134301ea3705c61286f9aeb9e57db276118fd/occurrences-054c093518825b37aefb46639cbd235da5ceab8d91b2f3bacde5328e0e8d1581.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  }
+}

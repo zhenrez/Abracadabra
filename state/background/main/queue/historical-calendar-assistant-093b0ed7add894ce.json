@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-093b0ed7add894ce",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/093b0ed7add894ce432a40a3095c712bdb393a223b2a1cb50ead43dd67358aba/text.txt",
+      "sha256": "093b0ed7add894ce432a40a3095c712bdb393a223b2a1cb50ead43dd67358aba",
+      "start_line": 1,
+      "end_line": 132,
+      "source_role": "assistant",
+      "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+      "message_id": "595335ac55ea321b0d9ac6584481e331fd1e8b89a6c4d89b4af7025551955017",
+      "timestamp": "1749172152.804419",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "595335ac55ea321b0d9ac6584481e331fd1e8b89a6c4d89b4af7025551955017",
+        "native_id": "a7da1e8d-5bc1-491b-ab56-c7e9677edcbb",
+        "conversation_id": "cf59a6c50651a4abe76a621204d56fac85d8d7e8e9a3591f955bf6c0599afe5d",
+        "role": "assistant",
+        "content_sha256": "093b0ed7add894ce432a40a3095c712bdb393a223b2a1cb50ead43dd67358aba",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "locator": "/0/mapping/a7da1e8d-5bc1-491b-ab56-c7e9677edcbb/message",
+        "create_time": "1749172152.804419",
+        "branch_status": "current",
+        "title": "Tattoo Design App Optimization",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+        "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/093b0ed7add894ce432a40a3095c712bdb393a223b2a1cb50ead43dd67358aba/occurrences-9ee15c9b41844dbe4be890d14ec9e409948e0a0c2070b185808a9927953cfc7d.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

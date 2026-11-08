@@ -1,0 +1,224 @@
+{
+  "schema": "sunny.background-reactivation-verification.v1",
+  "checked_utc": "2026-11-03T04:13:57.222989+00:00",
+  "status": "passed",
+  "fresh_test_evidence": "docs/evidence/background-reactivation-tests.json",
+  "tests_passed": 18,
+  "new_regressions_red_then_green": 6,
+  "worker_identity_evidence": "state/background/reactivation-20261102/identity-verification.json",
+  "latest_runtime_observation": "state/background/reactivation-20261102/latest-observed-status.json",
+  "loaded_code_sha256": "bdec4fe39cd8e6ee78c8b4c6fc4bf5324ebf298b76ae4ad7ad35b59fd6168e47",
+  "manager_sha256": "845f818f17ca59a79a6969800678c2fa9e2498c8cf1a876d7c3acf4bb6dbb9a7",
+  "completed_guarded_results": [
+    {
+      "id": "adapter-cycle-source-scope",
+      "path": "state\\background\\reactivation-20261102\\runs\\adapter-cycle-source-scope-d3eaa99273dd\\result.json",
+      "sha256": "aa9173c08d4368e44afb27d506ca435d381c56b30ef7ba725623381f359f633f",
+      "completed_utc": "2026-11-03T04:10:11.216041+00:00",
+      "source_records": [
+        {
+          "source_path": "state/research/reactivation/chinese/conditional-adapter-obstruction.json",
+          "source_sha256": "7e2bb65f0054a5cd5582b4a2c4afebaeecd330f1774e06183afe87120cac9931",
+          "current_source_hash_matches": true,
+          "source_role": "RESEARCH_SUPPORTED_INFERENCE; exact source/assumption boundaries are being audited, not automatically promoted.",
+          "model": "jev-1.14.0",
+          "actual_inference": true,
+          "proofline_valid": true,
+          "proofline_root_hash": "11c853d682f3b607075a12475a9b5c2c455d602e7ef2cdf50dc600b743e89ba5"
+        }
+      ],
+      "status": "candidate_source_reconstruction"
+    },
+    {
+      "id": "separate-mode-family-scope",
+      "path": "state\\background\\reactivation-20261102\\runs\\separate-mode-family-scope-5970fd89a111\\result.json",
+      "sha256": "1e825812c4be042c9653e74675add541240f43b9c90283d65b60bac5bb945832",
+      "completed_utc": "2026-11-03T04:10:11.821957+00:00",
+      "source_records": [
+        {
+          "source_path": "state/research/reactivation/chinese/positive-modal-adapter.json",
+          "source_sha256": "0f233a80d21abf415de8a7d5272ce71c5b65b22a3182f5044c18e812c363df8a",
+          "current_source_hash_matches": false,
+          "source_role": "RESEARCH_SUPPORTED_INFERENCE; exact source/assumption boundaries are being audited, not automatically promoted.",
+          "model": "jev-1.14.0",
+          "actual_inference": true,
+          "proofline_valid": true,
+          "proofline_root_hash": "8fd46ed420e23032cb44921ce9c4621db48b34596ff352f09504e7e5c445f7f8"
+        }
+      ],
+      "status": "candidate_source_reconstruction"
+    },
+    {
+      "id": "source-reading-origin-ahh-aum-001",
+      "path": "state\\background\\reactivation-20261102\\runs\\source-reading-origin-ahh-aum-001-42b8a81aa056\\result.json",
+      "sha256": "a141c0fd1ef37e039743299692e6ea420e76b5de4e0413c819c68d8023ec8901",
+      "completed_utc": "2026-11-03T04:06:09.535803+00:00",
+      "source_records": [
+        {
+          "source_path": "data/raw/background-projections/721c87d42e9e457beacfbbc39a4eb1912430ab41708705d72c59980d1c31fd23/text.txt",
+          "source_sha256": "721c87d42e9e457beacfbbc39a4eb1912430ab41708705d72c59980d1c31fd23",
+          "current_source_hash_matches": true,
+          "source_role": "user",
+          "model": "jev-1.14.0",
+          "actual_inference": true,
+          "proofline_valid": true,
+          "proofline_root_hash": "d9070cac04835f04e1945f5d2322a97071b3f868e4b7c1002b0503d08c4bbc8c"
+        }
+      ],
+      "status": "candidate_source_reconstruction"
+    },
+    {
+      "id": "symbol-editorial-branch-scope",
+      "path": "state\\background\\reactivation-20261102\\runs\\symbol-editorial-branch-scope-5e26f956a7ca\\result.json",
+      "sha256": "bd2c6654bfe26be913d5e12e4fe0c8040984a37441f2e1024d26cc0004e3e69d",
+      "completed_utc": "2026-11-03T04:10:12.381389+00:00",
+      "source_records": [
+        {
+          "source_path": "state/research/reactivation/symbols/context-discrepancy.json",
+          "source_sha256": "da3de5f59d096fd47cdb8593ed336341b4cdf39cfb8bb354fce312823da7ba9f",
+          "current_source_hash_matches": true,
+          "source_role": "RESEARCH_SUPPORTED_INFERENCE; exact source/assumption boundaries are being audited, not automatically promoted.",
+          "model": "jev-1.14.0",
+          "actual_inference": true,
+          "proofline_valid": true,
+          "proofline_root_hash": "02a9d940c56319035d1bc3f26dc4bb0ad1b9fb1beebeded835fb3a511bf3d6ed"
+        }
+      ],
+      "status": "candidate_source_reconstruction"
+    }
+  ],
+  "request_receipts": [
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\1bd45d1e03e2468fa2c97a2d3e7fa380.json",
+      "ordinal": 11,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "04b97188e13925f071ace35d7c6f78a67f42ebbdc4bab2468aea8e40b7305ade"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\29be2bcc33dd417d905ef884e446fdaa.json",
+      "ordinal": 6,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "48fb3a250e5cad7c8472d7ee827605fe03c7a1e248f624a0c3e600f1f8929e8e"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\5a1336fe3dcb49c19495e55b0bf7978f.json",
+      "ordinal": 9,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "6e39b6182b91cefa468498cd29723e396d9874fa3ee70eefcb95df657cb0a6ca"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\5ad99f6428d84c749c1b047095894207.json",
+      "ordinal": 5,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "0632fdef8b20e2f857196437ce0fdb21071b56d6bcca72c777e1383607816400"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\79584c2f73ba4145a491438d75150ce4.json",
+      "ordinal": 8,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "9b5cb968ef4e4378148fdbf8a20b3a8da41e95cd75e236b421e4826e090c3403"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\7fcaac1a0a4043238d39fb2e26ea5cd1.json",
+      "ordinal": 4,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "325b03c656135d0474733bb25d2cb84656656ce19079bc6434ac867d78b83f98"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\8ab47f81fe984b5a8eb025177fbcf7dd.json",
+      "ordinal": 3,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "6ca1a12a32ee032e81668f21d756658776a0e6c7c7656c7dfeca14c8ac654da0"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\9bbc300d78534d25aea70ab53a2169a2.json",
+      "ordinal": 7,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "8c75a98d4d26ac643f0971c857db8faff1cdb87d82db14977b10688c6fd559c5"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\cf219a25043544f8a4837377dc2b7fdc.json",
+      "ordinal": 2,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "b8a469f3dd1f0c4519b0631d5c8c8efc8b23731f8c69a8cb3711b7a92e0e0d2f"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\d19ef53707c642c9aa2370f2e608920a.json",
+      "ordinal": 1,
+      "status": "blocked_sensitive_input",
+      "network_calls": 0,
+      "model": null,
+      "canonical_request_sha256": "c3f957fd4f3ef25aae49a146afef7deb9ff24ef7d8f8a3c53a9da12b57b0038a"
+    },
+    {
+      "path": "state\\background\\reactivation-20261102\\model-calls\\e80dc74e795f472f894c1f928c027b8b.json",
+      "ordinal": 10,
+      "status": "judged",
+      "network_calls": 1,
+      "model": "jev-1.14.0",
+      "canonical_request_sha256": "a630ab9b4998fbfb9d6c5f73fe423b70b0fcf40dc4adda98224a01ba39fdfcd0"
+    }
+  ],
+  "budget": {
+    "schema": "sunny.background-model-budget.v1",
+    "maximum_requests": 256,
+    "reserved_or_completed_requests": 11,
+    "confirmed_network_calls": 10,
+    "legacy_confirmed_requests": 0,
+    "initialized_utc": "2026-11-03T03:51:46.313715+00:00",
+    "authorization": "Explicit finite allocation in this instance authorization.json; no automatic budget or lease renewal.",
+    "updated_utc": "2026-11-03T04:10:12.132473+00:00",
+    "authorization_sha256": "11beb54f1a802dd190f2087ad9ea79f2a43baec287356eeb80978a443fc09d9b"
+  },
+  "old_main_budget_unchanged_sha256": "788bd100f99f0dbe6588c4699792e36431de55c1c32957edec6c83d72c6118ad",
+  "old_symbol_renewal_budget": {
+    "schema": "sunny.background-model-budget.v1",
+    "maximum_requests": 256,
+    "reserved_or_completed_requests": 43,
+    "confirmed_network_calls": 43,
+    "legacy_confirmed_requests": 0,
+    "initialized_utc": "2026-11-03T02:16:55.328526+00:00",
+    "authorization": "Root explicitly authorized initial ceiling of256 actual Jev requests for current finite unattended24h lease. Operational bound, not a scientific score. No automatic reset.",
+    "updated_utc": "2026-11-03T04:04:36.204057+00:00"
+  },
+  "local_blocker": {
+    "schema": "sunny.background-blocker.v1",
+    "active": true,
+    "id": "empty_eligible_queue",
+    "detail": "No distinct eligible queued source work remains; supply source-qualified jobs. Heartbeats are not scientific progress.",
+    "raised_utc": "2026-11-03T04:10:12.430012+00:00",
+    "notification_delivery": "local_state_only_no_chat_wakeup",
+    "last_observed_utc": "2026-11-03T04:13:42.951204+00:00"
+  },
+  "cadence": {
+    "schema": "sunny.background-cadence.v1",
+    "monitor_started_utc": "2026-11-03T04:04:15.629920+00:00",
+    "last_meaningful_action_utc": "2026-11-03T04:10:12.430012+00:00",
+    "last_completed_result_utc": "2026-11-03T04:10:12.381389+00:00",
+    "completed_result_count": 4,
+    "notification_delivery": "local_state_only_no_chat_wakeup",
+    "last_observed_utc": "2026-11-03T04:13:42.951204+00:00",
+    "remaining_model_requests": 245,
+    "last_result_path": "runs/symbol-editorial-branch-scope-5e26f956a7ca/result.json",
+    "last_result_sha256": "bd2c6654bfe26be913d5e12e4fe0c8040984a37441f2e1024d26cc0004e3e69d"
+  },
+  "scope": "Real guarded source support and engineering lifecycle. No autonomous chat notification, canonical scientific promotion or full-SUNNY completion."
+}

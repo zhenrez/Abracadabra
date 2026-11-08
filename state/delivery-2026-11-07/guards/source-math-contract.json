@@ -1,0 +1,25 @@
+{
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "goal": "Verify the current bounded reading, hierarchy, score and phase-probe extension on preserved source-qualified inputs. This contract does not certify the complete SUNNY mission or historical truth.",
+  "acceptance": [
+    {"id":"preservation","description":"Prior graph and score records, distinct native units and unsupported assignments are preserved."},
+    {"id":"typed-execution","description":"The source-qualified reading, prediction, hierarchy and score operations pass focused positive, negative and unknown-input checks."},
+    {"id":"phase-designs","description":"An independent direct-translation oracle agrees with every one of the10296phase-probe pairs and both required algebraic conditions."}
+  ],
+  "inputs": [
+    "src/reading-relations.ts","dist/reading-relations.js","src/prediction.ts","dist/prediction.js",
+    "src/score.ts","dist/score.js","src/hierarchy.ts","dist/hierarchy.js",
+    "state/native-comparison.json","state/reconstruction/reading-operations.json",
+    "state/reconstruction/hierarchy-atlas-combined.json","state/reconstruction/master-score.json",
+    "state/reconstruction/orientation-predictions.json",
+    "scripts/derive_phase_probe_designs.mjs","scripts/derive_reading_operations.mjs","scripts/integrate_reading_hierarchy_score.mjs",
+    "tests/phase-probe-designs.test.mjs","tests/reading-relations.test.mjs","tests/reading-integration.test.mjs",
+    "tests/prediction.test.mjs","tests/score.test.mjs","tests/hierarchy.test.mjs","tests/musical-hierarchies.test.mjs",
+    "state/delivery-2026-11-07/global-closure/phase-probe-designs.json",
+    "state/delivery-2026-11-07/global-closure/review/check_probe_designs.py"
+  ],
+  "checks": [
+    {"id":"focused-native-suite","criteria":["preservation","typed-execution"],"command":["node","--test","tests/phase-probe-designs.test.mjs","tests/reading-relations.test.mjs","tests/reading-integration.test.mjs","tests/prediction.test.mjs","tests/score.test.mjs","tests/hierarchy.test.mjs","tests/musical-hierarchies.test.mjs"],"timeout_seconds":120},
+    {"id":"independent-phase-oracle","criteria":["phase-designs"],"command":["python","-X","utf8","-B","state/delivery-2026-11-07/global-closure/review/check_probe_designs.py"],"timeout_seconds":120}
+  ]
+}

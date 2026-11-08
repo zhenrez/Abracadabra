@@ -1,0 +1,108 @@
+{
+  "schema": "sunny.hierarchy-ui-browser.v1",
+  "checked_at": "2026-11-01T04:05:59.462Z",
+  "html_sha256": "70ac2c48cadc6984c1e4a8486b5de77964c9e830f8edd9b74a35c32902f1e55a",
+  "runtime": "One isolated native Edge via CDP; file URL, no account session or HTTP server",
+  "checks": [
+    {
+      "name": "Offline file loads embedded exact compiled hierarchy module",
+      "status": "passed",
+      "entities": 8300
+    },
+    {
+      "name": "All nine origin/catalogue combinations remain independent",
+      "status": "passed",
+      "combinations": [
+        {
+          "origin": "A",
+          "witness": "uploaded-repository"
+        },
+        {
+          "origin": "A",
+          "witness": "de-laurence-1916"
+        },
+        {
+          "origin": "A",
+          "witness": "peterson-sloane3825"
+        },
+        {
+          "origin": "B",
+          "witness": "uploaded-repository"
+        },
+        {
+          "origin": "B",
+          "witness": "de-laurence-1916"
+        },
+        {
+          "origin": "B",
+          "witness": "peterson-sloane3825"
+        },
+        {
+          "origin": "C",
+          "witness": "uploaded-repository"
+        },
+        {
+          "origin": "C",
+          "witness": "de-laurence-1916"
+        },
+        {
+          "origin": "C",
+          "witness": "peterson-sloane3825"
+        }
+      ]
+    },
+    {
+      "name": "Selected witness keeps72chiefs/79rankmemberships/2645generatedslots separate",
+      "status": "passed",
+      "counts": {
+        "entityRecords": 80,
+        "generatedMembershipSlots": 2645,
+        "chiefRecords": 72,
+        "nativeSourceEntityRecords": 80,
+        "proposedEntityRecords": 0,
+        "rankMembershipOccurrences": 79,
+        "byUnit": {
+          "catalogue-collection": 1,
+          "source-rank-group": 7,
+          "catalogue-chief": 72,
+          "catalogue-attributed-legion-membership-slot": 2645
+        },
+        "byWitness": {
+          "de-laurence-1916": {
+            "entityRecords": 80,
+            "chiefRecords": 72,
+            "generatedSlots": 2645
+          }
+        },
+        "uniqueLegions": null,
+        "uniquePersonnel": null,
+        "uniqueEntitiesAcrossWitnesses": null,
+        "boundary": "Entity records are witness/context scoped. Generated slots are membership occurrences, not named individuals or established distinct legions. Shared names and sums do not identify records across witnesses."
+      }
+    }
+  ],
+  "console_errors": [],
+  "exceptions": [],
+  "external_requests": [],
+  "screenshots": [],
+  "limitations": [
+    "DOM/AX inspection is not a human screen-reader audit.",
+    "Source completeness and historical truth are outside this interface check.",
+    "Screenshots require separate visual inspection."
+  ],
+  "ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-MrU137",
+    "identities": 14
+  },
+  "status": "failed",
+  "error": "Error: Browser condition timed out: keyboard expand\n    at poll (file:///C:/Users/Brend/Documents/ChatGPT/SUN/tests/hierarchy-ui-browser.mjs:23:125)\n    at async file:///C:/Users/Brend/Documents/ChatGPT/SUN/tests/hierarchy-ui-browser.mjs:38:3",
+  "cleanup": {
+    "status": "reaped",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-MrU137",
+    "captured_identities": 14,
+    "stopped_pids": [],
+    "remaining_known_processes": 0,
+    "remaining_profile_processes": 0
+  }
+}

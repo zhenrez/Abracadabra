@@ -1,0 +1,54 @@
+{
+  "id": "glyph-user-b2fb45fa68686038",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "schema": "sunny.background-job.v1",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/b2fb45fa68686038225226835bf0bda8a6ee43761c391434862225d57b5bc982/text.txt",
+      "sha256": "b2fb45fa68686038225226835bf0bda8a6ee43761c391434862225d57b5bc982",
+      "start_line": 1,
+      "end_line": 1,
+      "source_role": "user",
+      "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+      "message_id": "d8f3352edc4910d74a9ac31b00d5ff3c2938ee06506006c63dc0d4d0e8a3b1cb",
+      "origin": {
+        "id": "d8f3352edc4910d74a9ac31b00d5ff3c2938ee06506006c63dc0d4d0e8a3b1cb",
+        "native_id": "5f51c94e-ad53-4a61-a1b0-e7ad419a64de",
+        "conversation_id": "bafec5e2627006aeb9742a2e92f57a49e896868d721368ea19583d8c535fcc4d",
+        "role": "user",
+        "content_sha256": "b2fb45fa68686038225226835bf0bda8a6ee43761c391434862225d57b5bc982",
+        "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+        "locator": "/62/mapping/5f51c94e-ad53-4a61-a1b0-e7ad419a64de/message",
+        "create_time": "1739591985.402844",
+        "branch_status": "current",
+        "title": "Mayan Incan Coin Design",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-003.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-003.json",
+        "source_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/b2fb45fa68686038225226835bf0bda8a6ee43761c391434862225d57b5bc982/occurrences-35465a92e7863948c76c0186327b0de3be9e8a87405567b7b20ea0be921ee124.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  }
+}

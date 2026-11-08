@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-10-31T01:04:36.907385+00:00",
+    "app_version": "sunny0.1.0",
+    "root_hash": "ae9416d189c70dc0ff6cebf8c9ae511816e0aacbe6ebeb220876e8a084a3af54"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "382c6b8d-08a8-555f-a842-ca4cdd343e1e",
+      "source_identity_sha256": "f83bea3ab78eb0ef44164e8a9e2fde559b6595c1cca02cfd0ad35653e063b322",
+      "source_version_id": "68a3dced-5cf0-5cf8-8bf6-394c0cdff5a0",
+      "version_number": 1,
+      "content": "Please utilize every single named plugin. Use Hummbl for planning, use proofline, agentproof and mightshape for guardrails, use the astrology plugins ifm and when appropriate, utilize supermemory every step of the way, use jev for absolutely everything, every possible decision absolutely MUST be dictated by jev, use the research plugins appropriately for all research, both in account and at large, use the math solvers for math related work, use the seifirot plugin when performing deep reasoning use the decision plugins for different kinds of decisions....you MUSTY absolutley utilize every single tool and plugin and skill where it will help the most and you must not miss any opportunities to do so\n",
+      "content_sha256": "c98598e12e08206bb2bbabf77da427c3bcb2a6dbed1faec65520eba735976e85",
+      "content_length": 706,
+      "parser_version": "sunny-exact-user-span-v1",
+      "node_hash": "9b6d6b31b43be42b8143966921a460e1e1d3aee1d83ce6d908af817190ed6e51"
+    },
+    "chunks": [
+      {
+        "id": "111b1ce4-0f19-5513-9691-a3e771cb036f",
+        "source_node_hash": "9b6d6b31b43be42b8143966921a460e1e1d3aee1d83ce6d908af817190ed6e51",
+        "source_id": "382c6b8d-08a8-555f-a842-ca4cdd343e1e",
+        "source_version_id": "68a3dced-5cf0-5cf8-8bf6-394c0cdff5a0",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 706,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "Please utilize every single named plugin. Use Hummbl for planning, use proofline, agentproof and mightshape for guardrails, use the astrology plugins ifm and when appropriate, utilize supermemory every step of the way, use jev for absolutely everything, every possible decision absolutely MUST be dictated by jev, use the research plugins appropriately for all research, both in account and at large, use the math solvers for math related work, use the seifirot plugin when performing deep reasoning use the decision plugins for different kinds of decisions....you MUSTY absolutley utilize every single tool and plugin and skill where it will help the most and you must not miss any opportunities to do so\n",
+        "content_sha256": "c98598e12e08206bb2bbabf77da427c3bcb2a6dbed1faec65520eba735976e85",
+        "node_hash": "54a60ee0d2ed0fc3f649fcda04630450d3d61ed394b6a0d46bc3e25999eb5321"
+      }
+    ],
+    "citations": [
+      {
+        "id": "89005a81-cdc6-5060-8a31-232ba915a323",
+        "source_node_hash": "9b6d6b31b43be42b8143966921a460e1e1d3aee1d83ce6d908af817190ed6e51",
+        "chunk_node_hashes": [
+          "54a60ee0d2ed0fc3f649fcda04630450d3d61ed394b6a0d46bc3e25999eb5321"
+        ],
+        "source_id": "382c6b8d-08a8-555f-a842-ca4cdd343e1e",
+        "source_version_id": "68a3dced-5cf0-5cf8-8bf6-394c0cdff5a0",
+        "start_offset": 219,
+        "end_offset": 312,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "use jev for absolutely everything, every possible decision absolutely MUST be dictated by jev",
+        "quote_sha256": "f52b352c14a8982fb26ce59110bc5bd615825cb4996a2b3391c225955f7361a2",
+        "node_hash": "a323c6073165ba2b8b4d352d60b82f103e490d75e3d036954fc03e107e9fd533"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-exact-user-span-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "9b6d6b31b43be42b8143966921a460e1e1d3aee1d83ce6d908af817190ed6e51",
+        "54a60ee0d2ed0fc3f649fcda04630450d3d61ed394b6a0d46bc3e25999eb5321",
+        "a323c6073165ba2b8b4d352d60b82f103e490d75e3d036954fc03e107e9fd533"
+      ],
+      "node_hash": "5a319986cc1e5edf62e71c64d26c0a1f15e10a0b384ed043556e0e09227a6fb1"
+    },
+    "artifact": {
+      "id": "fd79d9bb-82f1-5e57-84ea-77dd789f6879",
+      "kind": "constraint",
+      "title": "Direct user requirement: actual Jev decision gates",
+      "statement": "The user requires actual Jev to dictate SUNNY decisions.",
+      "rationale": "Exact extraction of the located direct user instruction; Jev selected packaging scope in receipt000004-e9e767cab464. confidence1 denotes exact source-span fidelity only, not Jev accuracy, research truth, account completeness or ontology validity. Research confidence remains UNKNOWN outside this package.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "5a319986cc1e5edf62e71c64d26c0a1f15e10a0b384ed043556e0e09227a6fb1",
+      "citation_node_hashes": [
+        "a323c6073165ba2b8b4d352d60b82f103e490d75e3d036954fc03e107e9fd533"
+      ],
+      "node_hash": "a014696fb7ee97fc293015c6d5cf4eb1e02b59452190ad618a7e85bf573408e7"
+    },
+    "review": {
+      "artifact_node_hash": "a014696fb7ee97fc293015c6d5cf4eb1e02b59452190ad618a7e85bf573408e7",
+      "status": "candidate",
+      "created_at": "2026-10-31T01:04:36.907385+00:00",
+      "updated_at": "2026-10-31T01:04:36.907385+00:00",
+      "node_hash": "e922512ae453dbab165acecb8b88925c16a75e4e9a786d0e9e780be0279febdf"
+    }
+  }
+}

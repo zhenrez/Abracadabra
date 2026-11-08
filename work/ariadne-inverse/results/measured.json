@@ -1,0 +1,148 @@
+{
+  "schema": "ariadne.measured.v1",
+  "source_sha256": "c30478db76fb8bd5387ba2591e4636585e15250a21e776b7ecd112cd37c2b281",
+  "source_hash_encoding": "canonical JSON UTF-8; file hashes separately in manifest",
+  "scripts": 15,
+  "slots": 540,
+  "populated": 381,
+  "kinds": {
+    "segment": 283,
+    "missing": 159,
+    "sequence": 71,
+    "unresolved_label": 1,
+    "unknown": 4,
+    "alternatives": 22
+  },
+  "topology_available": 0,
+  "segment_occurrences_including_all_alternatives": 484,
+  "unique_segment_tokens": 61,
+  "unique_coarse_vectors": 31,
+  "coarse_collisions": [
+    [
+      "z",
+      "ð"
+    ],
+    [
+      "ħ",
+      "χ"
+    ],
+    [
+      "k",
+      "kʰ",
+      "kʷ"
+    ],
+    [
+      "l",
+      "r",
+      "ɹ"
+    ],
+    [
+      "s",
+      "θ"
+    ],
+    [
+      "p",
+      "pʰ"
+    ],
+    [
+      "sˤ",
+      "ɬˤ"
+    ],
+    [
+      "ʃ",
+      "ʃː"
+    ],
+    [
+      "t",
+      "tʰ"
+    ],
+    [
+      "a",
+      "aː",
+      "e",
+      "i",
+      "iː",
+      "o",
+      "u",
+      "uː",
+      "y",
+      "æ",
+      "œ",
+      "ɑ",
+      "ɔː",
+      "ə",
+      "ɛ",
+      "ɛː",
+      "ɪ",
+      "ʊ",
+      "ʌ"
+    ],
+    [
+      "zˤ",
+      "ðˤ"
+    ]
+  ],
+  "declared_operator_factoring": {
+    "roots": 19,
+    "operators": [
+      "toggle voiced/unvoiced flags",
+      "toggle pharyngealized flag"
+    ],
+    "observations": 484,
+    "coarse_feature_residual_edits": 0,
+    "interpretation": "Declared four-element abstract action, not learned sound laws. Zero coarse residual is guaranteed by construction; historical transitions unidentified."
+  },
+  "serialized_table_bytes": 99060,
+  "zlib_level9_bytes": 4567,
+  "compression_interpretation": "JSON compression is descriptive; repeated schema/proxies are included. Not MDL model selection.",
+  "blocked_column_baseline": {
+    "n": 252,
+    "folds": [
+      {
+        "block": "greek_derived",
+        "train": 176,
+        "test": 76,
+        "errors": {
+          "column": 62,
+          "global": 72
+        }
+      },
+      {
+        "block": "old_persian",
+        "train": 249,
+        "test": 3,
+        "errors": {
+          "column": 3,
+          "global": 3
+        }
+      },
+      {
+        "block": "semitic",
+        "train": 79,
+        "test": 173,
+        "errors": {
+          "column": 146,
+          "global": 173
+        }
+      }
+    ],
+    "errors": {
+      "column": 211,
+      "global": 248
+    },
+    "rates": {
+      "column": 0.8373015873015873,
+      "global": 0.9841269841269841
+    },
+    "advantage": 0.14682539682539683
+  },
+  "control": {
+    "seed": 724036,
+    "permutations": 199,
+    "statistic": "global_error_rate minus column_error_rate",
+    "mean_advantage": 0.011545824359894711,
+    "empirical_upper_tail": 0.005,
+    "scope": "exploratory table-alignment diagnostic; blocks are coarse dependencies, not independent historical replicates"
+  },
+  "exclusions": "Missing/unknown/unresolved, English letter names, alternatives, multi-segment values and modified segments excluded from predictive baseline. Full vectors retained."
+}

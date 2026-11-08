@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:42.302293+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "c97662d8bd6d31049a6b5dcc9163a765d0915c703cec8bbe3198cdbbc02981e2"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "9845c89a-0211-5777-bf5d-42528f256218",
+      "source_identity_sha256": "3c4ae301cd0fa78840c8b5f8338817e1d3a1100e494ff7cf9c591799a6c72bde",
+      "source_version_id": "daafaa0b-d447-580e-9b88-6d09ecadf80a",
+      "version_number": 1,
+      "content": "9/12/2026, 12:21:54 AM\n\nThese are useful. I can already separate them into two different clue families: one is the World Monochord / interval-placement family, and the other is the Templum Musicae / solmization-number family. I’m going to treat the latter as a candidate pointer system rather than as evidence that the correction itself is encoded there.\n\nInterpreting the scans\n\nI’m examining the supplied engravings for titles, captions, numerical ratios, and cosmic diagrams. I’m matching those visual clues against first-edition copies while keeping later reproductions separate from primary evidence.\n\nInterpreted the scans\n\nSearched 18 websites\n\nInspecting Uploaded Image Files\n\nInspected uploaded image files\n\nSearched 23 websites\n\nInspecting archive contents for relevant scans\n\nInspected archive contents for relevant scans\n\nInspecting medical work images and archive contents\n\nInspected medical work images and contact sheet thumbnails\n\nWorked for 3m 9s",
+      "content_sha256": "529954de717bb88cfe0e5ab0004bd110f31307cfec302044640708dbb9514e81",
+      "content_length": 963,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "2dc212f7b5c67ea3dae3bed83249178ddd5d0ea423dc91c319c82bc59ba5be26"
+    },
+    "chunks": [
+      {
+        "id": "c65bddad-604b-54cf-845b-7ee31718a53d",
+        "source_node_hash": "2dc212f7b5c67ea3dae3bed83249178ddd5d0ea423dc91c319c82bc59ba5be26",
+        "source_id": "9845c89a-0211-5777-bf5d-42528f256218",
+        "source_version_id": "daafaa0b-d447-580e-9b88-6d09ecadf80a",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 963,
+        "start_line": 1,
+        "end_line": 27,
+        "content": "9/12/2026, 12:21:54 AM\n\nThese are useful. I can already separate them into two different clue families: one is the World Monochord / interval-placement family, and the other is the Templum Musicae / solmization-number family. I’m going to treat the latter as a candidate pointer system rather than as evidence that the correction itself is encoded there.\n\nInterpreting the scans\n\nI’m examining the supplied engravings for titles, captions, numerical ratios, and cosmic diagrams. I’m matching those visual clues against first-edition copies while keeping later reproductions separate from primary evidence.\n\nInterpreted the scans\n\nSearched 18 websites\n\nInspecting Uploaded Image Files\n\nInspected uploaded image files\n\nSearched 23 websites\n\nInspecting archive contents for relevant scans\n\nInspected archive contents for relevant scans\n\nInspecting medical work images and archive contents\n\nInspected medical work images and contact sheet thumbnails\n\nWorked for 3m 9s",
+        "content_sha256": "529954de717bb88cfe0e5ab0004bd110f31307cfec302044640708dbb9514e81",
+        "node_hash": "6ecbc658b4e2500476cd8506da23b24a87ee07cc190aeba82ef7cd68a9a90ee8"
+      }
+    ],
+    "citations": [
+      {
+        "id": "f468f49a-ae49-5292-97cb-9328e30a5443",
+        "source_node_hash": "2dc212f7b5c67ea3dae3bed83249178ddd5d0ea423dc91c319c82bc59ba5be26",
+        "chunk_node_hashes": [
+          "6ecbc658b4e2500476cd8506da23b24a87ee07cc190aeba82ef7cd68a9a90ee8"
+        ],
+        "source_id": "9845c89a-0211-5777-bf5d-42528f256218",
+        "source_version_id": "daafaa0b-d447-580e-9b88-6d09ecadf80a",
+        "start_offset": 0,
+        "end_offset": 963,
+        "start_line": 1,
+        "end_line": 27,
+        "quote": "9/12/2026, 12:21:54 AM\n\nThese are useful. I can already separate them into two different clue families: one is the World Monochord / interval-placement family, and the other is the Templum Musicae / solmization-number family. I’m going to treat the latter as a candidate pointer system rather than as evidence that the correction itself is encoded there.\n\nInterpreting the scans\n\nI’m examining the supplied engravings for titles, captions, numerical ratios, and cosmic diagrams. I’m matching those visual clues against first-edition copies while keeping later reproductions separate from primary evidence.\n\nInterpreted the scans\n\nSearched 18 websites\n\nInspecting Uploaded Image Files\n\nInspected uploaded image files\n\nSearched 23 websites\n\nInspecting archive contents for relevant scans\n\nInspected archive contents for relevant scans\n\nInspecting medical work images and archive contents\n\nInspected medical work images and contact sheet thumbnails\n\nWorked for 3m 9s",
+        "quote_sha256": "529954de717bb88cfe0e5ab0004bd110f31307cfec302044640708dbb9514e81",
+        "node_hash": "7daed2e5a6d9b7466e004236f246a725714acfb27dedc98a792e3b8bb3b5278d"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "2dc212f7b5c67ea3dae3bed83249178ddd5d0ea423dc91c319c82bc59ba5be26",
+        "6ecbc658b4e2500476cd8506da23b24a87ee07cc190aeba82ef7cd68a9a90ee8",
+        "7daed2e5a6d9b7466e004236f246a725714acfb27dedc98a792e3b8bb3b5278d"
+      ],
+      "node_hash": "9ce279f55428ea5f2ed8bb619f5bcce0f12b3943a21ae2eab47486879cf7031f"
+    },
+    "artifact": {
+      "id": "90108956-aafc-54a4-b52b-73851e79943d",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/529954de717bb88cfe0e5ab0004bd110f31307cfec302044640708dbb9514e81/text.txt; original SHA256 529954de717bb88cfe0e5ab0004bd110f31307cfec302044640708dbb9514e81; physical source lines 1..27. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "9ce279f55428ea5f2ed8bb619f5bcce0f12b3943a21ae2eab47486879cf7031f",
+      "citation_node_hashes": [
+        "7daed2e5a6d9b7466e004236f246a725714acfb27dedc98a792e3b8bb3b5278d"
+      ],
+      "node_hash": "4803b499fc762888f89a3639de1da2bf4a03f92828aefc32ad33a807f5fc19ce"
+    },
+    "review": {
+      "artifact_node_hash": "4803b499fc762888f89a3639de1da2bf4a03f92828aefc32ad33a807f5fc19ce",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:42.302293+00:00",
+      "updated_at": "2026-11-02T01:57:42.302293+00:00",
+      "node_hash": "002c8ca99a63299bf8e849636e860925380a672df28f638bd36efd8b9397de22"
+    }
+  }
+}

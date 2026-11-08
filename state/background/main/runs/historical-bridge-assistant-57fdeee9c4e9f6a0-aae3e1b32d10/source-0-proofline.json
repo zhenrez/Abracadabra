@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:44.331936+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "aaf3747ac1746ffc6b595c4227ab7905fc35020035262b526d77790ebd1ef538"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "722bd159-ec24-5da2-8066-0472f376e713",
+      "source_identity_sha256": "d1bef7e5d380c67bd37f2444e16fe5961f5e9022c406a301b781d953b6155fab",
+      "source_version_id": "be79ed68-ed35-502c-b46b-2198cae6f082",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"06b46193-f9e6-41cb-95b3-4523e3ec4d6a\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m examining the fifth generator alongside Fludd and Kepler, focusing on whether their musical cosmologies clarify mediation, centrality, and scale transitions rather than merely supplying symbolic parallels.\",\"finished\":true,\"summary\":\"Comparing cosmological models\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Compared cosmological models\"}]}",
+      "content_sha256": "57fdeee9c4e9f6a07839e0ecca6e8f53e3ddd5201d22ade695ae0f4f8ce7d737",
+      "content_length": 482,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "94bbd89a79d0a20f21ee2bbf211536dafa90932f25fef8b453b2d5e7d192d205"
+    },
+    "chunks": [
+      {
+        "id": "402cc901-8d69-5b67-b02b-2717fca39630",
+        "source_node_hash": "94bbd89a79d0a20f21ee2bbf211536dafa90932f25fef8b453b2d5e7d192d205",
+        "source_id": "722bd159-ec24-5da2-8066-0472f376e713",
+        "source_version_id": "be79ed68-ed35-502c-b46b-2198cae6f082",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 482,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"06b46193-f9e6-41cb-95b3-4523e3ec4d6a\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m examining the fifth generator alongside Fludd and Kepler, focusing on whether their musical cosmologies clarify mediation, centrality, and scale transitions rather than merely supplying symbolic parallels.\",\"finished\":true,\"summary\":\"Comparing cosmological models\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Compared cosmological models\"}]}",
+        "content_sha256": "57fdeee9c4e9f6a07839e0ecca6e8f53e3ddd5201d22ade695ae0f4f8ce7d737",
+        "node_hash": "3cff2066144e7fad066fdb6a3a4cea764fec3363b3704d6b539f31eca95e0b92"
+      }
+    ],
+    "citations": [
+      {
+        "id": "cbb826a0-d596-55b3-a9d4-d6b947842c33",
+        "source_node_hash": "94bbd89a79d0a20f21ee2bbf211536dafa90932f25fef8b453b2d5e7d192d205",
+        "chunk_node_hashes": [
+          "3cff2066144e7fad066fdb6a3a4cea764fec3363b3704d6b539f31eca95e0b92"
+        ],
+        "source_id": "722bd159-ec24-5da2-8066-0472f376e713",
+        "source_version_id": "be79ed68-ed35-502c-b46b-2198cae6f082",
+        "start_offset": 0,
+        "end_offset": 482,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"06b46193-f9e6-41cb-95b3-4523e3ec4d6a\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m examining the fifth generator alongside Fludd and Kepler, focusing on whether their musical cosmologies clarify mediation, centrality, and scale transitions rather than merely supplying symbolic parallels.\",\"finished\":true,\"summary\":\"Comparing cosmological models\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Compared cosmological models\"}]}",
+        "quote_sha256": "57fdeee9c4e9f6a07839e0ecca6e8f53e3ddd5201d22ade695ae0f4f8ce7d737",
+        "node_hash": "aa525a215fc9dea1aa8cab3a3a1ea2555ce188f9875a657c6cf3d0b0904e7569"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "94bbd89a79d0a20f21ee2bbf211536dafa90932f25fef8b453b2d5e7d192d205",
+        "3cff2066144e7fad066fdb6a3a4cea764fec3363b3704d6b539f31eca95e0b92",
+        "aa525a215fc9dea1aa8cab3a3a1ea2555ce188f9875a657c6cf3d0b0904e7569"
+      ],
+      "node_hash": "8424cc1b087b3046cd06e6c63b153e60015e4cec7078b147706f09ee128c9a29"
+    },
+    "artifact": {
+      "id": "85b09dc8-7ae6-57df-a522-a7f8bc93f823",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/57fdeee9c4e9f6a07839e0ecca6e8f53e3ddd5201d22ade695ae0f4f8ce7d737/text.txt; original SHA256 57fdeee9c4e9f6a07839e0ecca6e8f53e3ddd5201d22ade695ae0f4f8ce7d737; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "8424cc1b087b3046cd06e6c63b153e60015e4cec7078b147706f09ee128c9a29",
+      "citation_node_hashes": [
+        "aa525a215fc9dea1aa8cab3a3a1ea2555ce188f9875a657c6cf3d0b0904e7569"
+      ],
+      "node_hash": "301e83fb4f692ff0d6c483788334c5b5ef8e3e40f99517dd14540ecdff369c13"
+    },
+    "review": {
+      "artifact_node_hash": "301e83fb4f692ff0d6c483788334c5b5ef8e3e40f99517dd14540ecdff369c13",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:44.331936+00:00",
+      "updated_at": "2026-11-02T01:57:44.331936+00:00",
+      "node_hash": "56311228552679e6c660429cf4b5afc49114f965ecdc6763baaaadd0cb8d644e"
+    }
+  }
+}

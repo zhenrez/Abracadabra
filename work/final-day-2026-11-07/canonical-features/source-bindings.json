@@ -1,0 +1,26 @@
+{
+  "schema": "ariadne.canonical-feature-source-bindings.v1",
+  "canonical_source": {
+    "path": "work/unit001/frozen/source/matrix-message.txt",
+    "sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+    "role": "Exact available user-message table text, not original external-document bytes"
+  },
+  "imports": [
+    {
+      "path": "work/unit001/evidence.py",
+      "sha256": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec",
+      "role": "Accepted lossless G0 importer and typed source records"
+    },
+    {
+      "path": "work/ariadne-inverse/features.py",
+      "sha256": "35541b1cb29ac49b68098ba19313b3f8360e0ff91a0a96b7da23b3410186063b",
+      "role": "Existing dictionary, literal IPA parser and atomic15D articulatory features"
+    },
+    {
+      "path": "work/ariadne-inverse/numpy_pipeline.py",
+      "sha256": "4dd474a74536409ea85f8a49915f4027d5d531d9b53619e4973c40a44deb15cc",
+      "role": "Existing normalization checks and optional explicit modern-font topology"
+    }
+  ],
+  "policy": "No original file is edited. Reused source hashes must match before import and before writing derived output. Geometry defaults to unavailable, never inferred from Unicode alone."
+}

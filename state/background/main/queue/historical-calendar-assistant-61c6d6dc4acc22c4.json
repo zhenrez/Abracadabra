@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-61c6d6dc4acc22c4",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/61c6d6dc4acc22c4daaafa18f4f8d6912b75fed6b03146d27c4c6ab78f004fcb/text.txt",
+      "sha256": "61c6d6dc4acc22c4daaafa18f4f8d6912b75fed6b03146d27c4c6ab78f004fcb",
+      "start_line": 1,
+      "end_line": 64,
+      "source_role": "assistant",
+      "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+      "message_id": "a4a1c944b7e4acadb00d3e51cfea175926ef514acd0b80384693e70c0f771794",
+      "timestamp": "1750683468.398625",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "a4a1c944b7e4acadb00d3e51cfea175926ef514acd0b80384693e70c0f771794",
+        "native_id": "a2f340e2-72d7-439d-9ebe-20cfaafcd635",
+        "conversation_id": "90bd1be1f26058e5c02a3c385c0652b7f7a1cc0bc07173339cd7325796722fed",
+        "role": "assistant",
+        "content_sha256": "61c6d6dc4acc22c4daaafa18f4f8d6912b75fed6b03146d27c4c6ab78f004fcb",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "locator": "/10/mapping/a2f340e2-72d7-439d-9ebe-20cfaafcd635/message",
+        "create_time": "1750683468.398625",
+        "branch_status": "current",
+        "title": "AI Criminal Enterprise Investigation",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+        "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/61c6d6dc4acc22c4daaafa18f4f8d6912b75fed6b03146d27c4c6ab78f004fcb/occurrences-0490f598e6fc30d9d6a834497ffb3ace83895dc18712f11431e0e59786e956f8.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

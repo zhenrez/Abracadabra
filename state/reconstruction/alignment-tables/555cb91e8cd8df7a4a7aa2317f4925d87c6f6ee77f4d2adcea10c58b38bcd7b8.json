@@ -1,0 +1,49 @@
+{
+  "id": "alignment-table-555cb91e8cd8df7a",
+  "content_sha256": "555cb91e8cd8df7a4a7aa2317f4925d87c6f6ee77f4d2adcea10c58b38bcd7b8",
+  "headers": [
+    "Test",
+    "Result",
+    "Meaning"
+  ],
+  "rows": [
+    [
+      "Four-vertex square",
+      "**PASS**",
+      "VF2 finds an induced square subgraph"
+    ],
+    [
+      "43-vertex path",
+      "**PASS**",
+      "Constructed an explicit injective adjacency-preserving mapping"
+    ],
+    [
+      "43-vertex star",
+      "**FAIL**",
+      "Degree 42 cannot embed in a graph whose maximum degree is 4"
+    ],
+    [
+      "Actual Sri Yantra incidence",
+      "**NOT EVALUABLE**",
+      "The complete incidence relationships are not available"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 24932,
+      "line_end": 24937,
+      "char_start": 1255853,
+      "char_end": 1256279,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Test | Result | Meaning |\n|--------|--------|--------|\n| Four-vertex square | **PASS** | VF2 finds an induced square subgraph |\n| 43-vertex path | **PASS** | Constructed an explicit injective adjacency-preserving mapping |\n| 43-vertex star | **FAIL** | Degree 42 cannot embed in a graph whose maximum degree is 4 |\n| Actual Sri Yantra incidence | **NOT EVALUABLE** | The complete incidence relationships are not available |\n",
+      "quote_sha256": "c910c3b13597d67f648474983dbc47bd755ea584dbbb6ee3407fea5eeb54dc9b",
+      "message_id": "ac7378501064d4ddcdd36fe244d8ced1ba99b1fdff0291ad0dd0d7ca6cad7cf5",
+      "role": "assistant",
+      "locator": "lines:24932-24937"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

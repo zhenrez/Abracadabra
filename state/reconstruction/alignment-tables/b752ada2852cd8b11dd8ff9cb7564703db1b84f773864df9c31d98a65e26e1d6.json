@@ -1,0 +1,80 @@
+{
+  "id": "alignment-table-b752ada2852cd8b1",
+  "content_sha256": "b752ada2852cd8b11dd8ff9cb7564703db1b84f773864df9c31d98a65e26e1d6",
+  "headers": [
+    "**Item**",
+    "**Result**"
+  ],
+  "rows": [
+    [
+      "Arithmetic (A1–A28)",
+      "**28/28 PASS**"
+    ],
+    [
+      "Hard constraints (H1–H25) encoded as SMT",
+      "**SAT**"
+    ],
+    [
+      "C1 (half×role) alone",
+      "SAT — compatible"
+    ],
+    [
+      "C2 (mod-4) alone",
+      "SAT — compatible"
+    ],
+    [
+      "C1 ∧ C2",
+      "**UNSAT** — unsat core identifies both"
+    ],
+    [
+      "C1 forced by hard constraints?",
+      "**No**"
+    ],
+    [
+      "C9 Euler-mismatch rejection rule",
+      "**Falsified** — the rule was wrong, not C9"
+    ],
+    [
+      "Kepler Saturn–Jupiter interval arrays",
+      "Range data, not fixed pitch; does not confirm F→C"
+    ],
+    [
+      "Kepler note frequencies",
+      "Modern sonification choice, not historical"
+    ],
+    [
+      "Hurst on 8 Fibonacci terms",
+      "**NOT_EVALUABLE** — insufficient sample"
+    ],
+    [
+      "Poisson on 72/288/144,000",
+      "**NOT_EVALUABLE** — aggregate counts only"
+    ],
+    [
+      "W72 topology forced by SOL",
+      "**NO**"
+    ],
+    [
+      "SUN/W72 mutation",
+      "**NONE**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 6375,
+      "line_end": 6389,
+      "char_start": 329458,
+      "char_end": 330913,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| **Item**                                 | **Result**                                        |\n| :--------------------------------------- | :------------------------------------------------ |\n| Arithmetic (A1–A28)                      | **28/28 PASS**                                    |\n| Hard constraints (H1–H25) encoded as SMT | **SAT**                                           |\n| C1 (half×role) alone                     | SAT — compatible                                  |\n| C2 (mod-4) alone                         | SAT — compatible                                  |\n| C1 ∧ C2                                  | **UNSAT** — unsat core identifies both            |\n| C1 forced by hard constraints?           | **No**                                            |\n| C9 Euler-mismatch rejection rule         | **Falsified** — the rule was wrong, not C9        |\n| Kepler Saturn–Jupiter interval arrays    | Range data, not fixed pitch; does not confirm F→C |\n| Kepler note frequencies                  | Modern sonification choice, not historical        |\n| Hurst on 8 Fibonacci terms               | **NOT_EVALUABLE** — insufficient sample           |\n| Poisson on 72/288/144,000                | **NOT_EVALUABLE** — aggregate counts only         |\n| W72 topology forced by SOL               | **NO**                                            |\n| SUN/W72 mutation                         | **NONE**                                          |\n",
+      "quote_sha256": "3ed786e373fc2fd3f4683c9eb4f7033fb57eb1f5173e8d72eac448181b161980",
+      "message_id": "7ddf18693e09cfb0972e190a34b2f374b839ed2025e197f48b4bf53ffe950d5f",
+      "role": "user",
+      "locator": "lines:6375-6389"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

@@ -1,0 +1,27 @@
+{
+  "state": {
+    "goal": "Implement live Jev decision workbench in SUNNY using the already selected interactive_gate route. Source data stays read-only; only explicit submitted decision assessments write hashed receipts through fixed scripts/jev_tool.py stdin bridge. State, question and at least two meaningful candidates must be visible/editable; full distributions/model identity/receipts displayed; no automatic canonical promotion.",
+    "facts": "Root-provided wrapper accepts {state,questions:[{id,type:'choice',question,options}]} and emits actual answer/receipt SHA/model identity; max48000 UTF8 bytes and32questions. Read-only local source UI exists; server binds127.0.0.1. Existing driver choice and type declaration choice have real model receipts.",
+    "constraints": "No source mutation, no arbitrary command paths/args, no scientific calibration claims, no silent fallback on model outage."
+  },
+  "questions": [
+    {
+      "id": "input_surface",
+      "type": "choice",
+      "question": "Which input surface should be implemented now for the authorized browser Jev decision workbench?",
+      "options": {
+        "structured_form": "Provide editable state/context, one question and two or more explicit candidate ID/meaning rows; submit exactly the visible state and options with the fixed native choice contract; show request JSON before sending.",
+        "raw_json": "Provide one editable native request JSON textarea supporting up to32questions with validation; no separate state/question/candidate controls; show the exact JSON before sending."
+      }
+    },
+    {
+      "id": "bridge_concurrency",
+      "type": "choice",
+      "question": "How should the local browser bridge handle concurrent live decision submissions?",
+      "options": {
+        "single_inflight": "Permit one browser decision subprocess at a time and return a clear busy response to a concurrent submission; never queue hidden requests.",
+        "bounded_parallel": "Permit up to two simultaneous browser decision subprocesses; reject further requests as busy; retain SQLite receipt transaction protection."
+      }
+    }
+  ]
+}

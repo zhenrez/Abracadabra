@@ -1,0 +1,72 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "glyph-user-d743179bfe6ec315",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+              "message_id": "d03dd1e3a2f53eba05b59d54f76b7ef4aabb4d937fe4e70e31b0fc13a7f6da1c",
+              "exact_preview": "[i put the widow in the rillo, \nkush got me mellow, \nPutt the Ganja in the swisher, \nlike a Ninja in The Shell goe\n\n\nSmoke fill my chest got me wheezin like weirdo \nWant somethin crunchy \nso I'm munchin on these Cheetos \nI'm a cool cat, like I'm Chester the cheetah, \nBut it ain't easy being cheesy, when you tryna get your bread up \nSo never let a breezy\nmess with any of your cheddar, \n I stay chiefin reefer, \ncoppin bricks of cheeba\nOne hit off the Doobie \nget knocked the fuck out\nLike Craig did deebo\n\n\n\nTokin that old Toby like I'm Tolkien, \nmy eyes can barely focus when I smoke this,\n\n\nJordan on the Bulls, tongue to the side and I'm soarin / Flu game in effect, from smokin two blunts every mornin\n\nI'm so high, not even NASA reach my altitude / rotation to the left side, or you gon see my",
+              "preview_characters": 800,
+              "full_passage_characters": 11499,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "glyph-user-d743179bfe6ec315: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "d9a737584a36e42b057ce35f0d7af8bc8fa859064eb138498ca24c6b0005ad41",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.36,
+          "defer": 0.64
+        },
+        "winner": "defer",
+        "top_probability": 0.64,
+        "margin": 0.28
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 1002,
+      "output_tokens": 34
+    },
+    "network_calls": 1,
+    "latency_ms": 352
+  }
+}

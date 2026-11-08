@@ -1,0 +1,12 @@
+{
+  "schema": "sunny.hierarchy-source-parser-correction.v1",
+  "observed_failure": "First name-parser patch expected quoted lowercase-style HTML attributes and found0names rather than72; source build stopped before replacing the atlas. The new native-name regression still failed against the preserved older atlas.",
+  "actual_source_inspection": {
+    "first_tags": ["<P id=baal>", "<P id=agares>", "<P id=vassago>"],
+    "encoding": "Source bytes are not valid UTF-8. An unsuccessful patch assumed Windows-1252; the reused BeautifulSoup DOM extraction instead reported detected encodingWindows-1250. Detection is an observed parser choice, not proof of an original manuscript encoding. Raw bytes are unchanged."
+  },
+  "second_observed_failure": "Requiring explicit closing paragraph tags still extracted19instead of72because the legacy HTML uses optional end tags. Both builders stopped before replacing the older atlas, and the native-name regression remained failing.",
+  "actual_Jev_recovery": "jev-1.14.0 selected the already-demonstrated DOM extraction artifact0.67 versus another hand-written segmentation parser0.33; full receipt retained.",
+  "correction": "Use the existing BeautifulSoup DOM parser to extract all72explicit strong-name labels into a source-hash-bound artifact, with anchors kept separately. The Nodebuilder consumes/verifies that artifact rather than reimplementing HTML parsing. Raw source bytes/hash remain unchanged.",
+  "boundary": "Parser failure and failing before-check retained. No source spelling is silently replaced by a URL anchor or imported comparison name."
+}

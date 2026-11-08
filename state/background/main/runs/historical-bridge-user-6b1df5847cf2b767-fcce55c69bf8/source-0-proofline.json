@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:50.782418+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "705d10809fa02f17af10cf5388103c5dda048db0ee453dc64cecebe85adf811c"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "49b78026-9fd8-5f82-b6ae-dfb7a22d0b8c",
+      "source_identity_sha256": "fcba73c239360a29eba602de35a747f0b5321b0abb0e79c18d297b0bade1e089",
+      "source_version_id": "88d56004-fbd6-57df-9be1-b0e6d2c5e336",
+      "version_number": 1,
+      "content": "10/18/2026, 8:44:00 AM\n\nremember our topology discussion surrounding cubehedrons. \n\nfano = on af(off)? emet lol\n\nokay, so what is the new corrected sefer, and what is every change it forces everywhere in sun and sol? in shem? in tol? in chinese and western? in the monochord?\n\nalso remember, it's actually 20 then that would be the target in a way, if the move from 20 to 21 or 18 to 21 or 13 to 21 is the operation at a lift .... or nah?",
+      "content_sha256": "6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a",
+      "content_length": 438,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "23f7ed54fe6ffa8b7fb508d7638a57e35ef0424ad95585f4c4241f88921f54a9"
+    },
+    "chunks": [
+      {
+        "id": "3bc13f64-c651-5737-80a7-af5dceae4be8",
+        "source_node_hash": "23f7ed54fe6ffa8b7fb508d7638a57e35ef0424ad95585f4c4241f88921f54a9",
+        "source_id": "49b78026-9fd8-5f82-b6ae-dfb7a22d0b8c",
+        "source_version_id": "88d56004-fbd6-57df-9be1-b0e6d2c5e336",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 438,
+        "start_line": 1,
+        "end_line": 9,
+        "content": "10/18/2026, 8:44:00 AM\n\nremember our topology discussion surrounding cubehedrons. \n\nfano = on af(off)? emet lol\n\nokay, so what is the new corrected sefer, and what is every change it forces everywhere in sun and sol? in shem? in tol? in chinese and western? in the monochord?\n\nalso remember, it's actually 20 then that would be the target in a way, if the move from 20 to 21 or 18 to 21 or 13 to 21 is the operation at a lift .... or nah?",
+        "content_sha256": "6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a",
+        "node_hash": "f06e02cef5f9dcba5f51e4f2258494a3ea2af9d63380822230ff525b95113edf"
+      }
+    ],
+    "citations": [
+      {
+        "id": "c3eafd1d-8845-5540-a951-9314beeaec62",
+        "source_node_hash": "23f7ed54fe6ffa8b7fb508d7638a57e35ef0424ad95585f4c4241f88921f54a9",
+        "chunk_node_hashes": [
+          "f06e02cef5f9dcba5f51e4f2258494a3ea2af9d63380822230ff525b95113edf"
+        ],
+        "source_id": "49b78026-9fd8-5f82-b6ae-dfb7a22d0b8c",
+        "source_version_id": "88d56004-fbd6-57df-9be1-b0e6d2c5e336",
+        "start_offset": 0,
+        "end_offset": 438,
+        "start_line": 1,
+        "end_line": 9,
+        "quote": "10/18/2026, 8:44:00 AM\n\nremember our topology discussion surrounding cubehedrons. \n\nfano = on af(off)? emet lol\n\nokay, so what is the new corrected sefer, and what is every change it forces everywhere in sun and sol? in shem? in tol? in chinese and western? in the monochord?\n\nalso remember, it's actually 20 then that would be the target in a way, if the move from 20 to 21 or 18 to 21 or 13 to 21 is the operation at a lift .... or nah?",
+        "quote_sha256": "6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a",
+        "node_hash": "f85d22e45e56ccf30cad4eba179f35c62ca029afad36cd1c2e6a107630aad3d1"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "23f7ed54fe6ffa8b7fb508d7638a57e35ef0424ad95585f4c4241f88921f54a9",
+        "f06e02cef5f9dcba5f51e4f2258494a3ea2af9d63380822230ff525b95113edf",
+        "f85d22e45e56ccf30cad4eba179f35c62ca029afad36cd1c2e6a107630aad3d1"
+      ],
+      "node_hash": "d307ceb313c966bd6c5c740a0cab3ab680814965f5f0c09b9e64bf85790611de"
+    },
+    "artifact": {
+      "id": "68b2b7cc-d73e-5950-8365-846db4c2d954",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a/text.txt; original SHA256 6b1df5847cf2b7672751bfae7f511500daebb227d386051ffed7be05a3a9178a; physical source lines 1..9. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "d307ceb313c966bd6c5c740a0cab3ab680814965f5f0c09b9e64bf85790611de",
+      "citation_node_hashes": [
+        "f85d22e45e56ccf30cad4eba179f35c62ca029afad36cd1c2e6a107630aad3d1"
+      ],
+      "node_hash": "07815f0e948229dd1e6a313b2a4e3eab9a720eb393d5823d9907d91e97ffda4d"
+    },
+    "review": {
+      "artifact_node_hash": "07815f0e948229dd1e6a313b2a4e3eab9a720eb393d5823d9907d91e97ffda4d",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:50.782418+00:00",
+      "updated_at": "2026-11-02T01:57:50.782418+00:00",
+      "node_hash": "ded23f4a145f5dfc8b41eeaef73f75b1491c71aec275310e6371a3a3029f54ae"
+    }
+  }
+}

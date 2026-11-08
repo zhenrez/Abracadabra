@@ -1,0 +1,199 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Getting Started with the Comprehensive Aramaic Lexicon (CAL)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { --max: 920px; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; color: #111; background-color:beige }
+    header { background: #f4f4f4; border-bottom: 1px solid #ddd; }
+    header .wrap { max-width: var(--max); margin: 0 auto; padding: 1.25rem; }
+    main { max-width: var(--max); margin: 0 auto; padding: 1.5rem; }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: clamp(1.6rem, 2.6vw, 2.2rem); margin: 0; }
+    h2 { margin-top: 2rem; }
+    nav { margin: .5rem 0 0; font-size: .95rem; }
+    nav a { margin-right: .9rem; }
+    .card { border: 1px solid #e8e8e8; border-radius: 8px; padding: 1rem; margin: 1rem 0; background: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+    code, kbd { background: #f0f2f5; padding: .15rem .35rem; border-radius: 4px; }
+    .muted { color: #666; }
+    footer { border-top: 1px solid #eee; padding: 1rem; text-align: center; color: #666; }
+    a { color: #0645ad; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul.tight > li { margin-bottom: .35rem; }
+    .steps ol { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Getting Started with the Comprehensive Aramaic Lexicon (CAL)</h1>
+      <nav>
+        <a href="#overview">Overview</a>
+        <a href="#quick-start">Quick Start</a>
+        <a href="#workflows">Common Workflows</a>
+        <a href="#texts">Browse Texts</a>
+        <a href="#bibliography">Bibliography</a>
+        <a href="#abbrev">Abbreviations</a>
+        <a href="#tips">Tips & Conventions</a>
+        <a href="#cite">How to Cite CAL</a>
+        <a href="#help">Help & Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="overview" class="card">
+      <h2>What is CAL?</h2>
+      <p>
+        The <strong>Comprehensive Aramaic Lexicon</strong> (CAL) is a long‑running scholarly project that provides a 
+        searchable <em>lexicon</em>, <em>text corpora</em>, and <em>bibliographic resources</em> for Aramaic dialects spanning more than two millennia.
+      </p>
+      <ul class="tight">
+        <li>About the project: <a href="https://cal.huc.edu/info.html">info.html</a></li>
+        <li>Frequently Asked Questions: <a href="https://cal.huc.edu/faq.html">faq.html</a></li>
+      </ul>
+      <p class="muted">Note: CAL is continually updated; page designs are intentionally simple and fast.</p>
+    </section>
+
+    <section id="quick-start" class="card">
+      <h2>Quick Start</h2>
+      <h3>We strongly recommend the use of split view to see multiple pages simultaneously (e.g., texts and lexicon entries) if your browser allows it.</h3>
+      <div class="grid">
+        <div>
+          <h3>Look up a word</h3>
+          <ol class="tight">
+            <li>Open the Lexicon Browser: <a href="https://cal.huc.edu/browseSKEYheaders.php">Lexicon</a>.</li>
+            <li>Use the alphabet bar or search box to jump to a lemma.</li>
+            <li>Click a headword to view definition, morphology, and citations.</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Search by English gloss</h3>
+          <ol class="tight">
+            <li>Open English gloss search: <a href="https://cal.huc.edu/searching/englishnew.html">englishnew.html</a>.</li>
+            <li>Enter an English gloss (e.g., <code>water</code>) to find matching Aramaic lemmas.</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Find a textual citation</h3>
+          <ol class="tight">
+            <li>Open the <em>Citation Finder</em>: <a href="https://cal.huc.edu/citfinder.html">citfinder.html</a>.</li>
+            <li>Choose a dialect and browse lexical citations from texts not yet fully digitized.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflows" class="card steps">
+      <h2>Common Workflows</h2>
+      <h3>1) From English → Aramaic lemma → attestations</h3>
+      <ol>
+        <li>Start at <a href="https://cal.huc.edu/searching/englishnew.html">English Gloss Search</a>.</li>
+        <li>Open candidate lemmas in the <a href="https://cal.huc.edu/browseSKEYheaders.php">Lexicon</a>.</li>
+        <li>Within a lemma, scroll to citations and note <a href="#abbrev">abbreviations</a> for sources.</li>
+        <li>Follow links to text passages, where available.</li>
+      </ol>
+
+      <h3>2) Browse a text collection → navigate to passages → check lemmas</h3>
+      <ol>
+        <li><a href="newtextmenu.html">Choose a corpus</a>, or use one of the special browsers, e.g., <a href="https://cal.huc.edu/peshitta.list.html">Peshitta (OT & Apocrypha)</a> or the <a href="https://cal.huc.edu/targumbrowse.html">Targum browser</a>.</li>
+        <li>Drill down to book → chapter → verse (where applicable).</li>
+        <li>Click on words to open corresponding lexical entries or on text coordinate to see relevent comments and citations.</li>
+      </ol>
+
+      <h3>3) Build a bibliography around a lemma or text</h3>
+      <ol>
+        <li>Open <a href="https://cal.huc.edu/bibliography/index.html">CAL Bibliographic Resources</a>.</li>
+        <li>Search by author, text, subject, or lexical item.</li>
+        <li>Use the <a href="https://cal.huc.edu/bibliography/biblioabbrevs.html">Bibliographic Abbreviations</a> page to decode entries.</li>
+      </ol>
+    </section>
+
+    <section id="texts" class="card">
+      <h2>Browse Texts</h2>
+      <div class="grid">
+        <div>
+          <h3>Peshitta (OT & Apocrypha)</h3>
+          <p>Canonical books and apocrypha in multiple views.</p>
+          <p><a href="https://cal.huc.edu/peshitta.list.html">Peshitta Texts</a></p>
+        </div>
+        <div>
+          <h3>Targum Collections</h3>
+          <p>Onqelos, Pseudo‑Jonathan, Neofiti, Fragment Targums, and more.</p>
+          <p><a href="https://cal.huc.edu/targumbrowse.html">Targum Browser</a></p>
+        </div>
+        <div>
+          <h3>Direct Lexicon Browsing</h3>
+          <p>Alphabetical headword navigation across dialects.</p>
+          <p><a href="https://cal.huc.edu/browseSKEYheaders.php">Lexicon Browser</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bibliography" class="card">
+      <h2>Bibliography</h2>
+      <p>
+        CAL maintains curated bibliographic files. Start here:
+        <a href="https://cal.huc.edu/bibliography/index.html">Bibliographic Resources</a>.
+      </p>
+      <ul class="tight">
+        <li>Search by <strong>author</strong>, <strong>text</strong>/<strong>subject</strong>, or <strong>lexical item</strong>.</li>
+        <li>Recent-year snapshots and legacy addenda are provided on the same page.</li>
+        <li>When reading entries, consult <a href="https://cal.huc.edu/bibliography/biblioabbrevs.html">Bibliographic Abbreviations</a>.</li>
+      </ul>
+    </section>
+
+    <section id="abbrev" class="card">
+      <h2>Abbreviations & Morphology Conventions</h2>
+      <div class="grid">
+        <div>
+          <h3>Bibliographic Abbreviations</h3>
+          <p>Decode journal and series abbreviations used throughout CAL:</p>
+          <p><a href="https://cal.huc.edu/bibliography/biblioabbrevs.html">biblioabbrevs.html</a></p>
+        </div>
+        <div>
+          <h3>Lexical Analysis Codes</h3>
+          <p>Part‑of‑speech tags and stems (e.g., <code>V01</code>=peal/G, <code>N03</code>=plural absolute):</p>
+          <p><a href="https://cal.huc.edu/lexical.help.html">lexical.help.html</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips" class="card">
+      <h2>Practical Tips</h2>
+      <ul class="tight">
+        <li><strong>Fonts:</strong>All modern browsers on both desktop and mobile devices should display all our fonts without difficulty.  Let us know if you encounter a problem. Note that many pages offer options to change the way Semitic fonts are displayed.</li>
+        <li><strong>Views:</strong> Pages for choosing texts from various dialects  offer a toggle (e.g., Roman, Syriac scripts, Hebrew) near the top left of the page.</li>
+        <li><strong>Navigation:</strong> Use the "JUMP TO" alphabet bar in the <a href="https://cal.huc.edu/browseSKEYheaders.php">Lexicon Browser</a> for faster jumps to headword ranges.</li>
+        <li><a href="citfinder.html"><strong>Citation Finder:</strong></a> Useful for locating attestations in texts not yet fully digitized into the main corpora.</li>
+        <li><strong>Scope:</strong> CAL is broad and evolving; consult the <a href="https://cal.huc.edu/info.html">project overview</a> for coverage and status.</li>
+      </ul>
+    </section>
+
+    <section id="cite" class="card">
+      <h2>How to Cite CAL</h2>
+      <p>When citing CAL entries or passages, include the project name, URL, the specific page or lemma consulted, and the access date. Example:</p>
+      <blockquote>
+        Comprehensive Aramaic Lexicon (CAL), <a href="https://cal.huc.edu/">https://cal.huc.edu/</a>, 
+        accessed 22 Aug 2025. Lexicon entry for &lt;lemma&gt;: &lt;direct URL to entry&gt;.
+      </blockquote>
+      <p class="muted">For grant reports or institutional documentation, also acknowledge Hebrew Union College (HUC).</p>
+    </section>
+
+    <section id="help" class="card">
+      <h2>Help & Support</h2>
+      <ul class="tight">
+        <li>FAQs and project background: <a href="https://cal.huc.edu/faq.html">FAQ</a> · <a href="https://cal.huc.edu/info.html">About</a></li>
+        <li>Email staff: to skaufman@huc.edu</li>
+        <li>Volunteer & support notes (historical): <a href="https://cal.huc.edu/newsletter.html">CAL Newsletter</a></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

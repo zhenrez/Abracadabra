@@ -1,0 +1,61 @@
+{
+  "command": "scoped census structure, syntax, source-snapshot comparison and documentation validation",
+  "exit_code": 0,
+  "requirements": 106,
+  "all_ids_unique": true,
+  "native_goals": 16,
+  "mathematical_outputs": 8,
+  "inverse_requirements": 6,
+  "Better_Plans_tools": 17,
+  "source_checks": [
+    {
+      "path": "data/raw/mandate-inputs/99dabf2083b9a04c7f7302546651726548a29f5c10a5c7f7a934f983a6e58f63/Pasted text.txt",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "work/unit001/frozen/source/orientation-context.txt",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "state/mission.json",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "state/task.json",
+      "matches_audit_snapshot": false
+    },
+    {
+      "path": "docs/reconstruction/SUNNY_GOALS.md",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "state/reconstruction/model.json",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "docs/evidence/mission-semantics-source-review.json",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "work/unit001/list-completion/requirements-closeout.json",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "work/unit001/list-completion/completion-receipt.json",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "work/four-orientations/native_models.py",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "work/unit002/western.py",
+      "matches_audit_snapshot": true
+    },
+    {
+      "path": "state/delivery-2026-11-07/acceptance.json",
+      "matches_audit_snapshot": false
+    }
+  ],
+  "scope": "Static audit evidence; source drift is reported independently rather than silently rebinding the original audit"
+}

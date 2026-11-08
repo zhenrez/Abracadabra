@@ -1,0 +1,110 @@
+{
+  "status": "judged",
+  "sha256": "807db4173776923145ca9d8d9688f38589ca5328806f6f4950b7aa4457d28850",
+  "sequence": 25,
+  "previous_sha256": "925db0fc4e440320040267a1074d67beb47e45bfeea4fb2899f8e015ff4c8683",
+  "purpose": "Recovered originalAtlas exactsnapshot import and12record finitecheck approach",
+  "completed_at": "2026-10-31T01:16:23.464873+00:00",
+  "request_sha256": "fd180905a8004ea87e11d13117797069903c5deb1d7cd0e5ade927b1da7462d7",
+  "request": {
+    "state": {
+      "goal": "Continue receipt12 native-source audit and actual12completion recovery without imposing an orientation.",
+      "observed": "New actual file C:/Users/Brend/Downloads/SUN_SOL_Orientation_Atlas.md SHA f07f6e78ad08c09559939d044f382c5fb15a88ca56d10f2a6f5d060475e908fb contains section4.2 complete table: b0..5, dforO1=[1,0,5,4,3,2], dforO5=[5,4,3,2,1,0]; R=(5,b),L=(7,d), b+d=1or5mod6. Phase-preserving R=(5,0),L=(7,0) remains separate. Actual previous report is recovered, not new canonicaluserdecision. Root authorizes exactsnapshot import viaexisting Importer source/document only; otherDBwriterwaiting.",
+      "constraints": "Preserve sourcehash/line/role and all12actualrecords; no forcedwinner or mergingfamily; execute only own bounded checks, not archivecode. Source and user scope cannot be changed by model."
+    },
+    "questions": [
+      {
+        "id": "atlas_capture",
+        "type": "choice",
+        "question": "How should the recovered originalAtlas enter the source-preserving build?",
+        "options": {
+          "exact_snapshot_import": "Copy exactbytes to data/raw/recovered under SHA, verifyhash, and use existing Importer source/document transaction with originalpath; do not adopt its report as canonicalontology.",
+          "summary_only": "Keep a paraphrase and skip preserving the filebytes and originalsourcepath.",
+          "canonical_override": "Import its12table as finalcanonicalorientation and replace the separate phase-preservingprofile."
+        }
+      },
+      {
+        "id": "completion_check",
+        "type": "choice",
+        "question": "Which exact finitecheck should independently test the12literalcompletionrecords?",
+        "options": {
+          "table_and_enumeration": "Parse the6table rows exactly with line_refs into12records; independently enumerate all36phasechoices and subgroupclosure over72addresses, compare transitive subset and actionorders; preserve reportvsfreshcheck labels.",
+          "formula_only": "Generate12records onlyfrom memory of theformula without checkingtablebytes.",
+          "pick_one": "Choose oneof12as correct using scalarcoherence alone without independenthistoricalconstraints."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "atlas_capture",
+            "type": "choice",
+            "distribution": {
+              "canonical_override": 0.2161605954170227,
+              "exact_snapshot_import": 0.5382746458053589,
+              "summary_only": 0.245564803481102
+            },
+            "value": "exact_snapshot_import",
+            "description": "Copy exactbytes to data/raw/recovered under SHA, verifyhash, and use existing Importer source/document transaction with originalpath; do not adopt its report as canonicalontology.",
+            "top_probability": 0.5382746458053589,
+            "margin": 0.2927098423242569
+          },
+          {
+            "id": "completion_check",
+            "type": "choice",
+            "distribution": {
+              "formula_only": 0.30285558104515076,
+              "pick_one": 0.3145947754383087,
+              "table_and_enumeration": 0.3825496435165405
+            },
+            "value": "table_and_enumeration",
+            "description": "Parse the6table rows exactly with line_refs into12records; independently enumerate all36phasechoices and subgroupclosure over72addresses, compare transitive subset and actionorders; preserve reportvsfreshcheck labels.",
+            "top_probability": 0.3825496435165405,
+            "margin": 0.06795486807823181
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 2,
+      "candidate_paths": 6,
+      "input_path_tokens": 1888,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 455,
+      "shared_prefix_questions": 2,
+      "shared_prefix_states": 1,
+      "wall_ms": 1111.19
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

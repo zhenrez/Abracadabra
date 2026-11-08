@@ -1,0 +1,72 @@
+{
+  "id": "alignment-table-74475397f7324f09",
+  "content_sha256": "74475397f7324f09bfe8a3a407802ca4c581999b2bbf6716e02c11a23319b7a8",
+  "headers": [
+    "Structure",
+    "Test",
+    "Result",
+    "Status"
+  ],
+  "rows": [
+    [
+      "Sierpinski tetrahedron (dyadic construction)",
+      "Box-counting $D=\\log N_k/\\log 2^k$",
+      "$D=2$",
+      "**PASS**"
+    ],
+    [
+      "W72 as $12\\times6$ toroidal cell complex",
+      "$\\chi=V-E+F$, Betti over $\\mathbb F_2$",
+      "$\\chi=0,\\ \\beta=(1,2,1)$",
+      "**PASS** for that construction"
+    ],
+    [
+      "W72 as unfilled 12×6 graph (same V, E; no faces)",
+      "Graph homology",
+      "$\\beta=(1,73)$",
+      "**Different valid topology**"
+    ],
+    [
+      "Primordial $0,1,1,2,3,5,8,13$",
+      "Fibonacci recurrence",
+      "6/6",
+      "**PASS as finite recurrence**"
+    ],
+    [
+      "Primordial axis",
+      "Hurst",
+      "$n=8$",
+      "**NOT EVALUABLE**"
+    ],
+    [
+      "Śrī Yantra",
+      "$\\chi$, $D$",
+      "incidence geometry missing",
+      "**NOT EVALUABLE**"
+    ],
+    [
+      "72 / 288 / 144,000",
+      "Poisson clustering",
+      "only aggregates supplied",
+      "**NOT EVALUABLE**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 6183,
+      "line_end": 6191,
+      "char_start": 320857,
+      "char_end": 321603,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Structure | Test | Result | Status |\n|---|---|---|---|\n| Sierpinski tetrahedron (dyadic construction) | Box-counting $D=\\log N_k/\\log 2^k$ | $D=2$ | **PASS** |\n| W72 as $12\\times6$ toroidal cell complex | $\\chi=V-E+F$, Betti over $\\mathbb F_2$ | $\\chi=0,\\ \\beta=(1,2,1)$ | **PASS** for that construction |\n| W72 as unfilled 12×6 graph (same V, E; no faces) | Graph homology | $\\beta=(1,73)$ | **Different valid topology** |\n| Primordial $0,1,1,2,3,5,8,13$ | Fibonacci recurrence | 6/6 | **PASS as finite recurrence** |\n| Primordial axis | Hurst | $n=8$ | **NOT EVALUABLE** |\n| Śrī Yantra | $\\chi$, $D$ | incidence geometry missing | **NOT EVALUABLE** |\n| 72 / 288 / 144,000 | Poisson clustering | only aggregates supplied | **NOT EVALUABLE** |\n",
+      "quote_sha256": "1b1464a189885859dba41e4fd4bb4c2090634f033197fb7bdb43aa79eda259fc",
+      "message_id": "a2ff41fd827776d35fd276cc370679d9001dd7cee5b121ec0ab21990d174f65c",
+      "role": "user",
+      "locator": "lines:6183-6191"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

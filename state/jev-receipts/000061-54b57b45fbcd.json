@@ -1,0 +1,89 @@
+{
+  "status": "judged",
+  "sha256": "54b57b45fbcd5c753464233b84e612b4fb785b3cc275232b4aba9ba9d7040134",
+  "sequence": 61,
+  "previous_sha256": "a1b30f75db7d59bfdaa80b9d3e773f8eab28115c9f2da2b16e7775fea794c52e",
+  "purpose": "Choose substantive complementary symbol-sound reconstruction while original witness acquisition continues",
+  "completed_at": "2026-11-07T22:17:09.330993+00:00",
+  "request_sha256": "97d368c6f13619158bd0f5054b63fc022227cf21f0f689fa4011345e253076bd",
+  "request": {
+    "state": {
+      "mission": "SUNNY retains sixteen goals and eight outputs. Recover original symbol/sound intentions and operational language before changed readings, hierarchies, calendar or zodiac conclusions. Native Western/Chinese music and bridge applicability remain simultaneous constraints. Model preference is not proof.",
+      "current": "Local receipt60 selected phonological chronology/contact. We preserved Howard's primary paper and six reported Secunda forms, three edition-reading branches, and two conditional process orders. Original manuscript collation and licensing transcription to actual historical phones remain unresolved. The older five-tradition coarse feature model is preserved but contextual diffusion prevents treating its tree counts as a unique history.",
+      "parallel": "Two live source researchers are pursuing the bowl publication and original Secunda edition/image respectively. Their acquisition checkpoints exist; primary collation has not returned. Do not duplicate their exact retrieval work or wait idle for it.",
+      "available": "Existing source registers, native music execution, binary feature examples, conditional chronology, exact symbolic tools and current workbench. Archive ingestion and interface validation are already done at their bounded scopes; repeating them does not advance original sound recovery.",
+      "constraints": "Use primary prior art and source-native distinctions. Preserve rival explanations and every unknown, no imposed glyph-frequency correspondence, no arbitrary weights or forced unique solution. Choose a substantive step that can change what is constrained or what evidence is required."
+    },
+    "questions": [
+      {
+        "id": "next_symbol_followthrough",
+        "type": "choice",
+        "question": "Which ready complementary investigation should now lead the symbol-sound reconstruction while the two original-witness acquisitions continue?",
+        "options": {
+          "native_alphabet_operator_inventory": "Recover primary-source Hebrew/Aramaic/English sign inventories and documented sound/orthographic operations, beginning with exact distinctions between glyph, letter name, contextual pronunciation and grammatical use; build explicit source-qualified comparison constraints instead of inferring sound from equal alphabet positions.",
+          "transcription_to_phone_licensing": "Investigate the evidence licensing Greek transcription letters to historical Hebrew phonetic alternatives, with original scholarly methods and diagnostic contexts; derive exactly which competing sounds a written contrast can or cannot distinguish.",
+          "contextual_history_discriminator": "Refine the five-tradition coarse comparison into source-conditioned event and contact constraints, execute competing inheritance/contact/local-change explanations, and derive the smallest additional attested relationships needed to distinguish the surviving histories without inventing a unique genealogy."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "next_symbol_followthrough",
+            "type": "choice",
+            "distribution": {
+              "contextual_history_discriminator": 0.3657674491405487,
+              "native_alphabet_operator_inventory": 0.34329941868782043,
+              "transcription_to_phone_licensing": 0.29093316197395325
+            },
+            "value": "contextual_history_discriminator",
+            "description": "Refine the five-tradition coarse comparison into source-conditioned event and contact constraints, execute competing inheritance/contact/local-change explanations, and derive the smallest additional attested relationships needed to distinguish the surviving histories without inventing a unique genealogy.",
+            "top_probability": 0.3657674491405487,
+            "margin": 0.02246803045272827
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 1056,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 444,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 1133.58
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

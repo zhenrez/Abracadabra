@@ -1,0 +1,739 @@
+{
+  "result": {
+    "contract": "Run the recovered frozen SUN mechanism unchanged over all 36 fibers and locate earliest divergence.",
+    "arithmetic": "fractions.Fraction exact rational arithmetic; F normalized to 1 as a coefficient carrier only",
+    "source_file": "SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+    "source_sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+    "input_audit_file": "SUN_36_Fiber_Signature_Automorphism_Audit_v0.1.md",
+    "input_audit_sha256": "3b89fb9497c50f081dd00c1c661f525604678aabea84461cd01488df5439e07b",
+    "fiber_count": 36,
+    "mechanism_consumes_fiber_coordinates": false,
+    "all_36_traces_identical": true,
+    "first_divergence": null,
+    "operation_partitions": [
+      {
+        "step": 0,
+        "op": "C0",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 1,
+        "op": "R0",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 2,
+        "op": "L0",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 3,
+        "op": "R0*L0",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 4,
+        "op": "C1=(R0L0)/C0",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 5,
+        "op": "R1",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 6,
+        "op": "L1",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 7,
+        "op": "R1*L1",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 8,
+        "op": "C2=(R1L1)/C1",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 9,
+        "op": "R2",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 10,
+        "op": "L2",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 11,
+        "op": "R2*L2",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 12,
+        "op": "C3=(R2L2)/C2",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 13,
+        "op": "comma:T",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 14,
+        "op": "comma:lambda",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 15,
+        "op": "comma:kappa",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 16,
+        "op": "comma:C_kappa[0]",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 17,
+        "op": "comma:C_kappa[1]",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 18,
+        "op": "comma:C_kappa[2]",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 19,
+        "op": "comma:T^2*lambda",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 20,
+        "op": "FK:left_scale",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 21,
+        "op": "FK:right_scale",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 22,
+        "op": "FK:star_scale",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 23,
+        "op": "FK:star_grade",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 24,
+        "op": "FK:Phi",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 25,
+        "op": "FK:C3",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 26,
+        "op": "FK:mid",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      },
+      {
+        "step": 27,
+        "op": "FK:C4",
+        "num_classes": 1,
+        "class_sizes": [
+          36
+        ]
+      }
+    ],
+    "verdict": "CLEAN_NEGATIVE_NO_SELECTOR_IN_FROZEN_MECHANISM",
+    "ablation_run": false,
+    "ablation_reason": "Per contract, ablation runs only if a 35+1 divergence appears."
+  },
+  "fibers": [
+    {
+      "fiber": "F-00-0",
+      "p": 0,
+      "tau": 0,
+      "addresses": [
+        "ADDR-00-0",
+        "ADDR-00-3"
+      ]
+    },
+    {
+      "fiber": "F-00-1",
+      "p": 0,
+      "tau": 1,
+      "addresses": [
+        "ADDR-00-1",
+        "ADDR-00-4"
+      ]
+    },
+    {
+      "fiber": "F-00-2",
+      "p": 0,
+      "tau": 2,
+      "addresses": [
+        "ADDR-00-2",
+        "ADDR-00-5"
+      ]
+    },
+    {
+      "fiber": "F-01-0",
+      "p": 1,
+      "tau": 0,
+      "addresses": [
+        "ADDR-01-0",
+        "ADDR-01-3"
+      ]
+    },
+    {
+      "fiber": "F-01-1",
+      "p": 1,
+      "tau": 1,
+      "addresses": [
+        "ADDR-01-1",
+        "ADDR-01-4"
+      ]
+    },
+    {
+      "fiber": "F-01-2",
+      "p": 1,
+      "tau": 2,
+      "addresses": [
+        "ADDR-01-2",
+        "ADDR-01-5"
+      ]
+    },
+    {
+      "fiber": "F-02-0",
+      "p": 2,
+      "tau": 0,
+      "addresses": [
+        "ADDR-02-0",
+        "ADDR-02-3"
+      ]
+    },
+    {
+      "fiber": "F-02-1",
+      "p": 2,
+      "tau": 1,
+      "addresses": [
+        "ADDR-02-1",
+        "ADDR-02-4"
+      ]
+    },
+    {
+      "fiber": "F-02-2",
+      "p": 2,
+      "tau": 2,
+      "addresses": [
+        "ADDR-02-2",
+        "ADDR-02-5"
+      ]
+    },
+    {
+      "fiber": "F-03-0",
+      "p": 3,
+      "tau": 0,
+      "addresses": [
+        "ADDR-03-0",
+        "ADDR-03-3"
+      ]
+    },
+    {
+      "fiber": "F-03-1",
+      "p": 3,
+      "tau": 1,
+      "addresses": [
+        "ADDR-03-1",
+        "ADDR-03-4"
+      ]
+    },
+    {
+      "fiber": "F-03-2",
+      "p": 3,
+      "tau": 2,
+      "addresses": [
+        "ADDR-03-2",
+        "ADDR-03-5"
+      ]
+    },
+    {
+      "fiber": "F-04-0",
+      "p": 4,
+      "tau": 0,
+      "addresses": [
+        "ADDR-04-0",
+        "ADDR-04-3"
+      ]
+    },
+    {
+      "fiber": "F-04-1",
+      "p": 4,
+      "tau": 1,
+      "addresses": [
+        "ADDR-04-1",
+        "ADDR-04-4"
+      ]
+    },
+    {
+      "fiber": "F-04-2",
+      "p": 4,
+      "tau": 2,
+      "addresses": [
+        "ADDR-04-2",
+        "ADDR-04-5"
+      ]
+    },
+    {
+      "fiber": "F-05-0",
+      "p": 5,
+      "tau": 0,
+      "addresses": [
+        "ADDR-05-0",
+        "ADDR-05-3"
+      ]
+    },
+    {
+      "fiber": "F-05-1",
+      "p": 5,
+      "tau": 1,
+      "addresses": [
+        "ADDR-05-1",
+        "ADDR-05-4"
+      ]
+    },
+    {
+      "fiber": "F-05-2",
+      "p": 5,
+      "tau": 2,
+      "addresses": [
+        "ADDR-05-2",
+        "ADDR-05-5"
+      ]
+    },
+    {
+      "fiber": "F-06-0",
+      "p": 6,
+      "tau": 0,
+      "addresses": [
+        "ADDR-06-0",
+        "ADDR-06-3"
+      ]
+    },
+    {
+      "fiber": "F-06-1",
+      "p": 6,
+      "tau": 1,
+      "addresses": [
+        "ADDR-06-1",
+        "ADDR-06-4"
+      ]
+    },
+    {
+      "fiber": "F-06-2",
+      "p": 6,
+      "tau": 2,
+      "addresses": [
+        "ADDR-06-2",
+        "ADDR-06-5"
+      ]
+    },
+    {
+      "fiber": "F-07-0",
+      "p": 7,
+      "tau": 0,
+      "addresses": [
+        "ADDR-07-0",
+        "ADDR-07-3"
+      ]
+    },
+    {
+      "fiber": "F-07-1",
+      "p": 7,
+      "tau": 1,
+      "addresses": [
+        "ADDR-07-1",
+        "ADDR-07-4"
+      ]
+    },
+    {
+      "fiber": "F-07-2",
+      "p": 7,
+      "tau": 2,
+      "addresses": [
+        "ADDR-07-2",
+        "ADDR-07-5"
+      ]
+    },
+    {
+      "fiber": "F-08-0",
+      "p": 8,
+      "tau": 0,
+      "addresses": [
+        "ADDR-08-0",
+        "ADDR-08-3"
+      ]
+    },
+    {
+      "fiber": "F-08-1",
+      "p": 8,
+      "tau": 1,
+      "addresses": [
+        "ADDR-08-1",
+        "ADDR-08-4"
+      ]
+    },
+    {
+      "fiber": "F-08-2",
+      "p": 8,
+      "tau": 2,
+      "addresses": [
+        "ADDR-08-2",
+        "ADDR-08-5"
+      ]
+    },
+    {
+      "fiber": "F-09-0",
+      "p": 9,
+      "tau": 0,
+      "addresses": [
+        "ADDR-09-0",
+        "ADDR-09-3"
+      ]
+    },
+    {
+      "fiber": "F-09-1",
+      "p": 9,
+      "tau": 1,
+      "addresses": [
+        "ADDR-09-1",
+        "ADDR-09-4"
+      ]
+    },
+    {
+      "fiber": "F-09-2",
+      "p": 9,
+      "tau": 2,
+      "addresses": [
+        "ADDR-09-2",
+        "ADDR-09-5"
+      ]
+    },
+    {
+      "fiber": "F-10-0",
+      "p": 10,
+      "tau": 0,
+      "addresses": [
+        "ADDR-10-0",
+        "ADDR-10-3"
+      ]
+    },
+    {
+      "fiber": "F-10-1",
+      "p": 10,
+      "tau": 1,
+      "addresses": [
+        "ADDR-10-1",
+        "ADDR-10-4"
+      ]
+    },
+    {
+      "fiber": "F-10-2",
+      "p": 10,
+      "tau": 2,
+      "addresses": [
+        "ADDR-10-2",
+        "ADDR-10-5"
+      ]
+    },
+    {
+      "fiber": "F-11-0",
+      "p": 11,
+      "tau": 0,
+      "addresses": [
+        "ADDR-11-0",
+        "ADDR-11-3"
+      ]
+    },
+    {
+      "fiber": "F-11-1",
+      "p": 11,
+      "tau": 1,
+      "addresses": [
+        "ADDR-11-1",
+        "ADDR-11-4"
+      ]
+    },
+    {
+      "fiber": "F-11-2",
+      "p": 11,
+      "tau": 2,
+      "addresses": [
+        "ADDR-11-2",
+        "ADDR-11-5"
+      ]
+    }
+  ],
+  "trace_template": [
+    {
+      "op": "C0",
+      "value_num": 1,
+      "value_den": 1,
+      "value": "1"
+    },
+    {
+      "op": "R0",
+      "value_num": 2,
+      "value_den": 3,
+      "value": "2/3"
+    },
+    {
+      "op": "L0",
+      "value_num": 3,
+      "value_den": 4,
+      "value": "3/4"
+    },
+    {
+      "op": "R0*L0",
+      "value_num": 1,
+      "value_den": 2,
+      "value": "1/2"
+    },
+    {
+      "op": "C1=(R0L0)/C0",
+      "value_num": 1,
+      "value_den": 2,
+      "value": "1/2"
+    },
+    {
+      "op": "R1",
+      "value_num": 1,
+      "value_den": 3,
+      "value": "1/3"
+    },
+    {
+      "op": "L1",
+      "value_num": 3,
+      "value_den": 8,
+      "value": "3/8"
+    },
+    {
+      "op": "R1*L1",
+      "value_num": 1,
+      "value_den": 8,
+      "value": "1/8"
+    },
+    {
+      "op": "C2=(R1L1)/C1",
+      "value_num": 1,
+      "value_den": 4,
+      "value": "1/4"
+    },
+    {
+      "op": "R2",
+      "value_num": 1,
+      "value_den": 6,
+      "value": "1/6"
+    },
+    {
+      "op": "L2",
+      "value_num": 3,
+      "value_den": 16,
+      "value": "3/16"
+    },
+    {
+      "op": "R2*L2",
+      "value_num": 1,
+      "value_den": 32,
+      "value": "1/32"
+    },
+    {
+      "op": "C3=(R2L2)/C2",
+      "value_num": 1,
+      "value_den": 8,
+      "value": "1/8"
+    },
+    {
+      "op": "comma:T",
+      "value_num": 9,
+      "value_den": 8,
+      "value": "9/8"
+    },
+    {
+      "op": "comma:lambda",
+      "value_num": 256,
+      "value_den": 243,
+      "value": "256/243"
+    },
+    {
+      "op": "comma:kappa",
+      "value_num": 81,
+      "value_den": 80,
+      "value": "81/80"
+    },
+    {
+      "op": "comma:C_kappa[0]",
+      "value_num": 10,
+      "value_den": 9,
+      "value": "10/9"
+    },
+    {
+      "op": "comma:C_kappa[1]",
+      "value_num": 9,
+      "value_den": 8,
+      "value": "9/8"
+    },
+    {
+      "op": "comma:C_kappa[2]",
+      "value_num": 16,
+      "value_den": 15,
+      "value": "16/15"
+    },
+    {
+      "op": "comma:T^2*lambda",
+      "value_num": 4,
+      "value_den": 3,
+      "value": "4/3"
+    },
+    {
+      "op": "FK:left_scale",
+      "value_num": 16,
+      "value_den": 15,
+      "value": "16/15"
+    },
+    {
+      "op": "FK:right_scale",
+      "value_num": 15,
+      "value_den": 16,
+      "value": "15/16"
+    },
+    {
+      "op": "FK:star_scale",
+      "value_num": 1,
+      "value_den": 1,
+      "value": "1"
+    },
+    {
+      "op": "FK:star_grade",
+      "value_num": 1,
+      "value_den": 1,
+      "value": "1"
+    },
+    {
+      "op": "FK:Phi",
+      "value_num": 1,
+      "value_den": 2,
+      "value": "1/2"
+    },
+    {
+      "op": "FK:C3",
+      "value_num": 1,
+      "value_den": 8,
+      "value": "1/8"
+    },
+    {
+      "op": "FK:mid",
+      "value_num": 2,
+      "value_den": 15,
+      "value": "2/15"
+    },
+    {
+      "op": "FK:C4",
+      "value_num": 1,
+      "value_den": 16,
+      "value": "1/16"
+    }
+  ]
+}

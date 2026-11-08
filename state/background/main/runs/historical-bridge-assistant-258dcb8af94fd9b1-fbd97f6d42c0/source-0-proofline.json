@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:55:28.764166+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "a21590b3a87e445c7688cca83466d52c27ec45a93e720c52bf9e1db1742ecc3a"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "319965e7-a813-587a-86cf-dc3aa7b519a6",
+      "source_identity_sha256": "5725e2a92ee68cacb229f31618d2af3164ec0e18107051ef028e210250701092",
+      "source_version_id": "57b74518-d7c0-50b4-a666-1d74e8d78da2",
+      "version_number": 1,
+      "content": "I’m testing the combined system against the exact operator basis we already recovered in \\(Z_{12}\\), rather than just comparing pictures. The key question is whether Kepler’s *measured ranges* supply the dynamic versions of the same \\(+1,+3,+4,+7\\) transformations that appear in our musical/Dee architecture—and what residuals remain when those physical ratios are forced to close on Fludd’s fixed lattice.",
+      "content_sha256": "258dcb8af94fd9b18fad57037552bf00473d1ceb1347dd03a2bcaac2cf364947",
+      "content_length": 407,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "9153832979bd059b4aaa9ed9cdd68d6714c6cd0f70191aaaed7aa35099a47fd4"
+    },
+    "chunks": [
+      {
+        "id": "8b8c6b17-1efb-5548-8249-797828a32318",
+        "source_node_hash": "9153832979bd059b4aaa9ed9cdd68d6714c6cd0f70191aaaed7aa35099a47fd4",
+        "source_id": "319965e7-a813-587a-86cf-dc3aa7b519a6",
+        "source_version_id": "57b74518-d7c0-50b4-a666-1d74e8d78da2",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 407,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "I’m testing the combined system against the exact operator basis we already recovered in \\(Z_{12}\\), rather than just comparing pictures. The key question is whether Kepler’s *measured ranges* supply the dynamic versions of the same \\(+1,+3,+4,+7\\) transformations that appear in our musical/Dee architecture—and what residuals remain when those physical ratios are forced to close on Fludd’s fixed lattice.",
+        "content_sha256": "258dcb8af94fd9b18fad57037552bf00473d1ceb1347dd03a2bcaac2cf364947",
+        "node_hash": "c8626a266999da853fc619fcf5d82b731446e45672cd794372db4a8f2863b3dd"
+      }
+    ],
+    "citations": [
+      {
+        "id": "b0247b39-9f78-5aef-aca9-81945bed71dc",
+        "source_node_hash": "9153832979bd059b4aaa9ed9cdd68d6714c6cd0f70191aaaed7aa35099a47fd4",
+        "chunk_node_hashes": [
+          "c8626a266999da853fc619fcf5d82b731446e45672cd794372db4a8f2863b3dd"
+        ],
+        "source_id": "319965e7-a813-587a-86cf-dc3aa7b519a6",
+        "source_version_id": "57b74518-d7c0-50b4-a666-1d74e8d78da2",
+        "start_offset": 0,
+        "end_offset": 407,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "I’m testing the combined system against the exact operator basis we already recovered in \\(Z_{12}\\), rather than just comparing pictures. The key question is whether Kepler’s *measured ranges* supply the dynamic versions of the same \\(+1,+3,+4,+7\\) transformations that appear in our musical/Dee architecture—and what residuals remain when those physical ratios are forced to close on Fludd’s fixed lattice.",
+        "quote_sha256": "258dcb8af94fd9b18fad57037552bf00473d1ceb1347dd03a2bcaac2cf364947",
+        "node_hash": "4445426cc048208a9dde1aa4b463ecd416eee3c4ce1de460fd49baba6dbd41a9"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "9153832979bd059b4aaa9ed9cdd68d6714c6cd0f70191aaaed7aa35099a47fd4",
+        "c8626a266999da853fc619fcf5d82b731446e45672cd794372db4a8f2863b3dd",
+        "4445426cc048208a9dde1aa4b463ecd416eee3c4ce1de460fd49baba6dbd41a9"
+      ],
+      "node_hash": "abb392607b6d11a3500a47707d778daf21904d8e7c5fc488f080568becd4c1c1"
+    },
+    "artifact": {
+      "id": "94e3c99c-3323-5dfd-b707-4a8cbcaf18cc",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/258dcb8af94fd9b18fad57037552bf00473d1ceb1347dd03a2bcaac2cf364947/text.txt; original SHA256 258dcb8af94fd9b18fad57037552bf00473d1ceb1347dd03a2bcaac2cf364947; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "abb392607b6d11a3500a47707d778daf21904d8e7c5fc488f080568becd4c1c1",
+      "citation_node_hashes": [
+        "4445426cc048208a9dde1aa4b463ecd416eee3c4ce1de460fd49baba6dbd41a9"
+      ],
+      "node_hash": "626eed5b2a48f40dc0f11ccaf0ed5b2294540a8011089da64ae97078478cc7ff"
+    },
+    "review": {
+      "artifact_node_hash": "626eed5b2a48f40dc0f11ccaf0ed5b2294540a8011089da64ae97078478cc7ff",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:55:28.764166+00:00",
+      "updated_at": "2026-11-02T01:55:28.764166+00:00",
+      "node_hash": "2c4f075d77e10fbbb6f4fc4bc45232a048e3df4fc7d75f29b5fe2e53a8522de3"
+    }
+  }
+}

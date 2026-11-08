@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-57e20fc2280b8076",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/57e20fc2280b8076aabd2f30e9e49bea0d6af5d21973c2660c05a0b8782c8d47/text.txt",
+      "sha256": "57e20fc2280b8076aabd2f30e9e49bea0d6af5d21973c2660c05a0b8782c8d47",
+      "start_line": 1,
+      "end_line": 303,
+      "source_role": "assistant",
+      "source_id": "7aa1545e3516d11f8fa43dd914172fb16bb790c4e9592d413f2f88681cfd2c79",
+      "message_id": "3c3b409f223003402d5fc444cf8bea9bb92c11e3c55090f01a905a2ec9a26d2d",
+      "timestamp": null,
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "3c3b409f223003402d5fc444cf8bea9bb92c11e3c55090f01a905a2ec9a26d2d",
+        "native_id": "45",
+        "conversation_id": "732dcf353c6a42ba190302bd5c2685147aee3e4bf8e09676d07d00c2e052ca27",
+        "role": "assistant",
+        "content_sha256": "57e20fc2280b8076aabd2f30e9e49bea0d6af5d21973c2660c05a0b8782c8d47",
+        "source_id": "7aa1545e3516d11f8fa43dd914172fb16bb790c4e9592d413f2f88681cfd2c79",
+        "locator": "lines:14660-14965",
+        "create_time": null,
+        "branch_status": "exported_sequence",
+        "title": "Mapping Zodiacal Music Structure",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\HISTORICAL_MUSIC\\ChatGPT-Mapping Zodiacal Music Structure-20260908-1356(1).txt",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Mapping Zodiacal Music Structure-20260908-1356(1).txt",
+        "source_sha256": "f933806c079b81bc7e02c743a5e3d01c4f72cf1202e66b1ebeddfd2fd955c93d",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "f933806c079b81bc7e02c743a5e3d01c4f72cf1202e66b1ebeddfd2fd955c93d",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/57e20fc2280b8076aabd2f30e9e49bea0d6af5d21973c2660c05a0b8782c8d47/occurrences-8c2ef8eb7997747635d25bc54784c45fd27ef01d5d9623c40cbb6c0b5b7d7993.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

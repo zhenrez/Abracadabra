@@ -1,0 +1,550 @@
+{
+  "source": "docs\\reconstruction\\symbol-sound-census\\phyla-waves-assessment.json",
+  "sourceSha256": "c64301e3db491f1978b490e0cfefaf7a4d6fd8ac484be58a031f79a49ff43bd3",
+  "feature": "PW-C1",
+  "assumptions": [
+    "Five labelled terminal traditions; rooted fully bifurcating unordered trees",
+    "Author-reported binary states accepted conditionally; ancestral state unrounded",
+    "One irreversible gain, no losses, no contact, no transcription error"
+  ],
+  "counts": {
+    "allRootedBinaryTrees": 105,
+    "singleGainNoLoss": 15,
+    "atMostTwoGainsNoLoss": 105
+  },
+  "derivation": "Five-leaf rooted binary trees: 7!!=105. Contract the two derived leaves to one clade: four-leaf trees, 5!!=15. Two terminal gains fit every tree.",
+  "consequence": "The single-innovation assumption forces only the Babylonian/Tiberian clade. It leaves 15 full topologies; allowing independent terminal innovations restores all 105.",
+  "discriminatingEvidenceNeeded": [
+    "Independent relative chronology supporting one shared change",
+    "Additional independently justified shared innovations",
+    "Evidence distinguishing contact and scribal normalization from inheritance"
+  ],
+  "limits": "Conditional combinatorics, not a probability distribution, proof of historical ancestry, original pronunciation, or exhaustive network search. Polytomies and reticulation are outside this tree universe.",
+  "candidates": [
+    {
+      "tree": "(Babylonian,(Jerome,(Palestinian,(Secunda,Tiberian))));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(Jerome,((Palestinian,Secunda),Tiberian)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(Jerome,((Palestinian,Tiberian),Secunda)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,((Jerome,Palestinian),(Secunda,Tiberian)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,((Jerome,Secunda),(Palestinian,Tiberian)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,((Jerome,Tiberian),(Palestinian,Secunda)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,((Jerome,(Palestinian,Secunda)),Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(((Jerome,Palestinian),Secunda),Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(((Jerome,Secunda),Palestinian),Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,((Jerome,(Palestinian,Tiberian)),Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(((Jerome,Palestinian),Tiberian),Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(((Jerome,Tiberian),Palestinian),Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,((Jerome,(Secunda,Tiberian)),Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(((Jerome,Secunda),Tiberian),Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(Babylonian,(((Jerome,Tiberian),Secunda),Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Jerome),(Palestinian,(Secunda,Tiberian)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Jerome),((Palestinian,Secunda),Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Jerome),((Palestinian,Tiberian),Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Palestinian),(Jerome,(Secunda,Tiberian)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Palestinian),((Jerome,Secunda),Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Palestinian),((Jerome,Tiberian),Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Secunda),(Jerome,(Palestinian,Tiberian)));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Secunda),((Jerome,Palestinian),Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Secunda),((Jerome,Tiberian),Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,Tiberian),(Jerome,(Palestinian,Secunda)));",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,Tiberian),((Jerome,Palestinian),Secunda));",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,Tiberian),((Jerome,Secunda),Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,(Jerome,Palestinian)),(Secunda,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Jerome),Palestinian),(Secunda,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Palestinian),Jerome),(Secunda,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,(Jerome,Secunda)),(Palestinian,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Jerome),Secunda),(Palestinian,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Secunda),Jerome),(Palestinian,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,(Jerome,Tiberian)),(Palestinian,Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Jerome),Tiberian),(Palestinian,Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Tiberian),Jerome),(Palestinian,Secunda));",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,(Palestinian,Secunda)),(Jerome,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Palestinian),Secunda),(Jerome,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Secunda),Palestinian),(Jerome,Tiberian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,(Palestinian,Tiberian)),(Jerome,Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Palestinian),Tiberian),(Jerome,Secunda));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Tiberian),Palestinian),(Jerome,Secunda));",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,(Secunda,Tiberian)),(Jerome,Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Secunda),Tiberian),(Jerome,Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Tiberian),Secunda),(Jerome,Palestinian));",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,(Jerome,(Palestinian,Secunda))),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Jerome,Palestinian),Secunda)),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Jerome,Secunda),Palestinian)),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Jerome),(Palestinian,Secunda)),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Palestinian),(Jerome,Secunda)),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Secunda),(Jerome,Palestinian)),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,(Jerome,Palestinian)),Secunda),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Jerome),Palestinian),Secunda),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Palestinian),Jerome),Secunda),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,(Jerome,Secunda)),Palestinian),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Jerome),Secunda),Palestinian),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Secunda),Jerome),Palestinian),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,(Palestinian,Secunda)),Jerome),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Palestinian),Secunda),Jerome),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Secunda),Palestinian),Jerome),Tiberian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,(Jerome,(Palestinian,Tiberian))),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Jerome,Palestinian),Tiberian)),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Jerome,Tiberian),Palestinian)),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Jerome),(Palestinian,Tiberian)),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Palestinian),(Jerome,Tiberian)),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Tiberian),(Jerome,Palestinian)),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "(((Babylonian,(Jerome,Palestinian)),Tiberian),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Jerome),Palestinian),Tiberian),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Palestinian),Jerome),Tiberian),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,(Jerome,Tiberian)),Palestinian),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Jerome),Tiberian),Palestinian),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Tiberian),Jerome),Palestinian),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "(((Babylonian,(Palestinian,Tiberian)),Jerome),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Palestinian),Tiberian),Jerome),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Tiberian),Palestinian),Jerome),Secunda);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,(Jerome,(Secunda,Tiberian))),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Jerome,Secunda),Tiberian)),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Jerome,Tiberian),Secunda)),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Jerome),(Secunda,Tiberian)),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Secunda),(Jerome,Tiberian)),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Tiberian),(Jerome,Secunda)),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "(((Babylonian,(Jerome,Secunda)),Tiberian),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Jerome),Secunda),Tiberian),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Secunda),Jerome),Tiberian),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,(Jerome,Tiberian)),Secunda),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Jerome),Tiberian),Secunda),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Tiberian),Jerome),Secunda),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "(((Babylonian,(Secunda,Tiberian)),Jerome),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Secunda),Tiberian),Jerome),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Tiberian),Secunda),Jerome),Palestinian);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "((Babylonian,(Palestinian,(Secunda,Tiberian))),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Palestinian,Secunda),Tiberian)),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((Babylonian,((Palestinian,Tiberian),Secunda)),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Palestinian),(Secunda,Tiberian)),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Secunda),(Palestinian,Tiberian)),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,Tiberian),(Palestinian,Secunda)),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "(((Babylonian,(Palestinian,Secunda)),Tiberian),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Palestinian),Secunda),Tiberian),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Secunda),Palestinian),Tiberian),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "(((Babylonian,(Palestinian,Tiberian)),Secunda),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Palestinian),Tiberian),Secunda),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Tiberian),Palestinian),Secunda),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    },
+    {
+      "tree": "(((Babylonian,(Secunda,Tiberian)),Palestinian),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Secunda),Tiberian),Palestinian),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 2,
+      "singleInnovationNoLossCompatible": false
+    },
+    {
+      "tree": "((((Babylonian,Tiberian),Secunda),Palestinian),Jerome);",
+      "minimumIndependentGainsWithoutLoss": 1,
+      "singleInnovationNoLossCompatible": true
+    }
+  ]
+}

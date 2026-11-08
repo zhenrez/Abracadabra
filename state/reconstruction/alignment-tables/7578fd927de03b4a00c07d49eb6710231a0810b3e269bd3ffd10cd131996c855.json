@@ -1,0 +1,56 @@
+{
+  "id": "alignment-table-7578fd927de03b4a",
+  "content_sha256": "7578fd927de03b4a00c07d49eb6710231a0810b3e269bd3ffd10cd131996c855",
+  "headers": [
+    "Claim",
+    "Status"
+  ],
+  "rows": [
+    [
+      "$N(12) = 233 = F_{13}$",
+      "**Exact**"
+    ],
+    [
+      "$N(13) = 377 = F_{14}$",
+      "**Exact**"
+    ],
+    [
+      "Closed cycle $= 322$",
+      "**Exact**"
+    ],
+    [
+      "$322 - 233 = 89 = F_{11}$",
+      "**Exact** (the wrap-around contribution)"
+    ],
+    [
+      "233 is lawfully derivable without 231",
+      "**Established**"
+    ],
+    [
+      "233 is the correct count *for Sefer's operation*",
+      "**Conditional on interpretation**"
+    ],
+    [
+      "231 is the correct count for Sefer's operation",
+      "**Conditional on a different interpretation**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 16255,
+      "line_end": 16263,
+      "char_start": 775564,
+      "char_end": 776029,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Claim | Status |\n|---|---|\n| $N(12) = 233 = F_{13}$ | **Exact** |\n| $N(13) = 377 = F_{14}$ | **Exact** |\n| Closed cycle $= 322$ | **Exact** |\n| $322 - 233 = 89 = F_{11}$ | **Exact** (the wrap-around contribution) |\n| 233 is lawfully derivable without 231 | **Established** |\n| 233 is the correct count *for Sefer's operation* | **Conditional on interpretation** |\n| 231 is the correct count for Sefer's operation | **Conditional on a different interpretation** |\n",
+      "quote_sha256": "6f20c28b842807825922e53f719f55d60d22baa6cdb26c5f7032612d7b9a4eb1",
+      "message_id": "1894fcf6ee2f7f53a048486b7ff45e700e54de204689aec4bb1668d061545ca8",
+      "role": "user",
+      "locator": "lines:16255-16263"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

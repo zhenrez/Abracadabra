@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Finish exact post-repair integrity verification without weakening source or search coverage.",
+    "observed": "The source-preserving repair is committed and a complete pre-mutation database backup exists. Source_positions has2366rows, oldlocatorhistory2359rows and7recoveredrecords. The read-only verification process remains running after over100CPU-seconds. EXPLAINQUERYPLAN shows a correlated NOTEXISTS query scanning the FTS virtual table for each message because the FTS id column is unindexed; around59901messages make this unnecessarily quadratic. No further repair write is needed.",
+    "constraints": "Only the known scoped read-only verification process may be stopped, never the Jev services or source processes. Preserve the first execution log and full database backup. An exact set difference over all messageIDs and all FTSIDs has the same missing-ID semantics; duplicateIDs are separately checked. No sampling, reduced acceptance criterion or dropped source check is permitted."
+  },
+  "questions": [
+    {
+      "id": "verification_strategy",
+      "type": "choice",
+      "question": "How should the still-running exact integrity verification be completed?",
+      "options": {
+        "exact_set_check": "If the read-only verification is still running, stop only that scoped process after confirming commit, replace the correlated FTS lookup with exact all-ID sets, and recompute the full source/payload/integrity report using the existing backup. Preserve the interrupted log.",
+        "wait_current": "Let the current correlated verification finish unchanged and preserve its eventual result, leaving the performance improvement for a separate later task."
+      }
+    }
+  ]
+}

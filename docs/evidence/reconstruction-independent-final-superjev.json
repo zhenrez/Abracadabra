@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "request_sha256": "64fe3b118bb46bc0b376d420dd01eed0ed3b4c174433ca323b4a506d412545f6",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "next": {
+      "type": "choice",
+      "probabilities": {
+        "abstain": 0.0,
+        "clarify": 0.0,
+        "continue": 0.02,
+        "finish": 0.98,
+        "investigate": 0.0,
+        "repair": 0.0,
+        "verify": 0.0
+      },
+      "winner": "finish",
+      "top_probability": 0.98,
+      "margin": 0.96
+    },
+    "off_track": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.07,
+        "false": 0.9299999999999999
+      },
+      "value": false
+    },
+    "stuck": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.04,
+        "false": 0.96
+      },
+      "value": false
+    },
+    "requirements_met": {
+      "type": "noul",
+      "probabilities": {
+        "true": 0.96,
+        "false": 0.040000000000000036
+      },
+      "value": true
+    },
+    "risk": {
+      "type": "score",
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "winner": "0",
+      "top_probability": 0.97,
+      "margin": 0.94,
+      "expected_score": 0.03,
+      "levels": [
+        "Read-only observation",
+        "Reversible scoped local change",
+        "External mutation or sensitive data exposure",
+        "Irreversible or broad change"
+      ]
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 1342,
+    "output_tokens": 137
+  },
+  "network_calls": 1,
+  "latency_ms": 266,
+  "completion_evidence": {
+    "supported_by_supplied_records": true,
+    "reasons": [],
+    "independently_verified": false
+  },
+  "action": "finish",
+  "threshold_note": "Uncalibrated starting thresholds for advisory routing only; measure on held-out examples."
+}

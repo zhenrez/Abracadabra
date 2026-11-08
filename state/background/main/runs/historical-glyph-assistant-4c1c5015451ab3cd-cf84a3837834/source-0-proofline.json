@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:56.988678+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "c7b2d5255b9cb328ec67c2b64f0dd28856cbe75796c476910d9d9098c4439d9e"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "f4475f04-9867-530e-8142-010f7a02b614",
+      "source_identity_sha256": "d50c8ad87163d2099aa9f8c51fea623113b909fbb934c32f02960c503b1bb61c",
+      "source_version_id": "9db956ab-d5dc-5afd-ab33-6c72d3002075",
+      "version_number": 1,
+      "content": "The revised structure is settled. Each entry will remain one readable unit rather than a cramped four-column table: the original **Sahidic Coptic**, its Romanized reading guide, the **extant Greek papyrus text and Greek transliteration where preserved**, the Syriac-Aramaic retroversion and its reading guide, then English. Missing Greek will be stated plainly instead of silently reconstructed.",
+      "content_sha256": "4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94",
+      "content_length": 395,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "8c254fd3cc738fee8e93de44e1d6bc0bf87e66064bd3750c49b64d9bb9d30fa6"
+    },
+    "chunks": [
+      {
+        "id": "4a018e71-6254-53b1-9411-f24f0b4d1fcd",
+        "source_node_hash": "8c254fd3cc738fee8e93de44e1d6bc0bf87e66064bd3750c49b64d9bb9d30fa6",
+        "source_id": "f4475f04-9867-530e-8142-010f7a02b614",
+        "source_version_id": "9db956ab-d5dc-5afd-ab33-6c72d3002075",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 395,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "The revised structure is settled. Each entry will remain one readable unit rather than a cramped four-column table: the original **Sahidic Coptic**, its Romanized reading guide, the **extant Greek papyrus text and Greek transliteration where preserved**, the Syriac-Aramaic retroversion and its reading guide, then English. Missing Greek will be stated plainly instead of silently reconstructed.",
+        "content_sha256": "4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94",
+        "node_hash": "4037decff2634a4c8409c1d59b16c1388225035549a37cf9ccfb63ef781b38a5"
+      }
+    ],
+    "citations": [
+      {
+        "id": "311f9f3d-2f38-5ea5-9d24-89b11b6886b8",
+        "source_node_hash": "8c254fd3cc738fee8e93de44e1d6bc0bf87e66064bd3750c49b64d9bb9d30fa6",
+        "chunk_node_hashes": [
+          "4037decff2634a4c8409c1d59b16c1388225035549a37cf9ccfb63ef781b38a5"
+        ],
+        "source_id": "f4475f04-9867-530e-8142-010f7a02b614",
+        "source_version_id": "9db956ab-d5dc-5afd-ab33-6c72d3002075",
+        "start_offset": 0,
+        "end_offset": 395,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "The revised structure is settled. Each entry will remain one readable unit rather than a cramped four-column table: the original **Sahidic Coptic**, its Romanized reading guide, the **extant Greek papyrus text and Greek transliteration where preserved**, the Syriac-Aramaic retroversion and its reading guide, then English. Missing Greek will be stated plainly instead of silently reconstructed.",
+        "quote_sha256": "4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94",
+        "node_hash": "a821dbfcb109f1e8bac046deeaff4dff4928c7e5c421f1fc0d2c2dcc8852064c"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "8c254fd3cc738fee8e93de44e1d6bc0bf87e66064bd3750c49b64d9bb9d30fa6",
+        "4037decff2634a4c8409c1d59b16c1388225035549a37cf9ccfb63ef781b38a5",
+        "a821dbfcb109f1e8bac046deeaff4dff4928c7e5c421f1fc0d2c2dcc8852064c"
+      ],
+      "node_hash": "8a172cb567fb798aca73e9f89c785804f039f706d4ad688df029376bb999f318"
+    },
+    "artifact": {
+      "id": "886b0721-23c7-5deb-95fa-f38d0d19de85",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94/text.txt; original SHA256 4c1c5015451ab3cd954c69b3e444fd8c4d2f6982d788bcf26c64f2472e04ab94; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "8a172cb567fb798aca73e9f89c785804f039f706d4ad688df029376bb999f318",
+      "citation_node_hashes": [
+        "a821dbfcb109f1e8bac046deeaff4dff4928c7e5c421f1fc0d2c2dcc8852064c"
+      ],
+      "node_hash": "3f822db43f7c944185e07f37db9264f7fa54d433465b566d337cd6ab73ab4fbc"
+    },
+    "review": {
+      "artifact_node_hash": "3f822db43f7c944185e07f37db9264f7fa54d433465b566d337cd6ab73ab4fbc",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:56.988678+00:00",
+      "updated_at": "2026-11-02T01:57:56.988678+00:00",
+      "node_hash": "0998da3583144a2cc55846ebd92f9022c7acda86467bedb3863b988445d045b6"
+    }
+  }
+}

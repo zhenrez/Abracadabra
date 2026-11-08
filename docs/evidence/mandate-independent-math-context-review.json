@@ -1,0 +1,179 @@
+{
+  "schema": "sunny.independent-math-context-review.v1",
+  "reviewer": "reconstruct_decisions, independent of root prediction/continuity implementation; own TOL unit excluded",
+  "primary_verdict": "conditional on the named recovered optional transitive family with fixed coordinate labels and origin; proved within those written conditions",
+  "required_findings": [],
+  "skills_applied": [
+    "Mathbox proof-audit",
+    "Mathbox computation-audit",
+    "AgentSkills code-review-and-quality"
+  ],
+  "independent_computation": {
+    "run_status": "completed",
+    "exact_arithmetic": true,
+    "phase_pairs_enumerated": 36,
+    "transitive_pairs_found": 12,
+    "native_pair_set_exactly_matches": true,
+    "source_candidate_word_addresses_compared": 1728,
+    "common_words": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        9
+      ]
+    ],
+    "common_addresses": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "two_probes_distinguish": 12,
+    "unknown_selector_retained_candidates": 12,
+    "finite_pitch_obstruction_example": "524288/531441"
+  },
+  "domain_counterexamples": {
+    "whole_family_overreach": "R^3L^3 gives (0,3) in all twelve optional transitive candidates but (0,0) in the retained phase-preserving profile. Current artifact explicitly restricts its claim and retains that profile.",
+    "one_probe": "Any one word-address phase has at most six values across twelve candidates; R and O phases together yield twelve distinct pairs.",
+    "vacuous_agreement": "Existing test rejects no-survivor unanimity; actual five prediction tests passed."
+  },
+  "continuity_checks": {
+    "preserve_user_context_tests": {
+      "run": 3,
+      "passed": 3
+    },
+    "prediction_tests": {
+      "run": 5,
+      "passed": 5
+    },
+    "current_overwrite_reproduction": "0 direct priority/context assignments; before and after selected fields identical",
+    "old_overwrite_reproduction_limit": "The prior report records four overwrites and its source hash. This review independently reproduced the corrected source, not the unavailable old source revision.",
+    "prior_task_plan_hashes_match": true,
+    "mandate_witness_hash_matches": true,
+    "superseded_Q6_retained_outside_active_questions": true,
+    "tamper_check": "Current corrected adopter rejects wrong bytes placed at the expected witness path before adoption; isolated temporary copy only. See mandate-adoption-tamper-review.json."
+  },
+  "dependency_graph": [
+    "Native Atlas supplies R=(5,b),L=(7,d),b+d in{1,5} and optional transitivity; input hash/source checks bind the explicit family.",
+    "Finite abelian addition gives phase(r-l)b+ls and angular5r+7l. Independence in b and s gives exact congruence conditions; residue12 grid covers integer exponents.",
+    "Fixed angular coordinates make a single phase observation at most six-valued; pair(Rphase,Ophase) recovers(b,s).",
+    "Unique prime factorization distinguishes exact3-exponents modulooctaves; finiteR order12 cannot carry its infinite scalar pitch order.",
+    "Root adoption retains oldtask/plan source hashes; context refresh only fills absent fields and updates evidence."
+  ],
+  "nonclaims": [
+    "No complete SUNNY family classification, external historical selector or blind prediction proved.",
+    "No independent review of own TOL derivation.",
+    "No full source authenticity audit from syntactically present source references.",
+    "No live production refresh/adoption rerun or database mutation by this reviewer."
+  ],
+  "inputs_before": {
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "src/law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+    "scripts/reconstruct_orientation_predictions.mjs": "620cceec09c8eb6454c774f45e00114c72f79cf8b1f5a7b327266acbc6c3ea26",
+    "state/reconstruction/orientation-predictions.json": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+    "state/native-comparison.json": "cf58b8a06ad35cde3c6beb0ddb96eaf4e762b4e6c9c9519df40b4b98fed89aea",
+    "scripts/refresh_reconstruction_checkpoint.py": "2066828a4c26c77b6a02eec2cc55a0595b144647ea9c54f62fde344db6528c2b",
+    "scripts/adopt_current_mandate.py": "fae8e8c59f2c9c62c99c200b860e7f935a1c61794435eb89a57ccf83b4d34da4",
+    "tests/checkpoint_context_test.py": "9bc7799a2bc2f73c1208938e630708bdf6929b03356ff11b63f8820c329ae723",
+    "docs/evidence/mandate-adoption.json": "12540af10b64fda65637f081f6812c6c18fc82394694b2a2bcbb4580d40ee3dd"
+  },
+  "inputs_after": {
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "src/law.ts": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f",
+    "scripts/reconstruct_orientation_predictions.mjs": "620cceec09c8eb6454c774f45e00114c72f79cf8b1f5a7b327266acbc6c3ea26",
+    "state/reconstruction/orientation-predictions.json": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+    "state/native-comparison.json": "cf58b8a06ad35cde3c6beb0ddb96eaf4e762b4e6c9c9519df40b4b98fed89aea",
+    "scripts/refresh_reconstruction_checkpoint.py": "2066828a4c26c77b6a02eec2cc55a0595b144647ea9c54f62fde344db6528c2b",
+    "scripts/adopt_current_mandate.py": "fae8e8c59f2c9c62c99c200b860e7f935a1c61794435eb89a57ccf83b4d34da4",
+    "tests/checkpoint_context_test.py": "9bc7799a2bc2f73c1208938e630708bdf6929b03356ff11b63f8820c329ae723",
+    "docs/evidence/mandate-adoption.json": "12540af10b64fda65637f081f6812c6c18fc82394694b2a2bcbb4580d40ee3dd"
+  },
+  "inputs_changed_during_check": [],
+  "software": {
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26340-SP0"
+  },
+  "runtime_seconds": 0.13873744010925293,
+  "commands_observed": [
+    {
+      "argv": [
+        "node",
+        "--test",
+        "tests/prediction.test.mjs"
+      ],
+      "exit_code": 0,
+      "tests_passed": 5
+    },
+    {
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "tests/checkpoint_context_test.py"
+      ],
+      "exit_code": 0,
+      "tests_passed": 3
+    },
+    {
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "scripts/reproduce_checkpoint_overwrite.py"
+      ],
+      "exit_code": 0,
+      "overwritten_fields": []
+    },
+    {
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-"
+      ],
+      "purpose": "Independent exact BFS/arithmetic enumeration and hash checks; inline source preserved in this tool-call history, not claimed as an installed reusable command.",
+      "exit_code": 0
+    }
+  ]
+}

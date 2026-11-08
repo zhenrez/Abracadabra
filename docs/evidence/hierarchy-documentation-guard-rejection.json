@@ -1,0 +1,8 @@
+{
+  "action": "Combined shell documentation append, current task update and checkpoint refresh",
+  "result": "Blocked before execution by CompText Guard",
+  "stated_reason": "credential or secret-file reads are not allowed",
+  "observed_intent": "The proposed command contained documentation stating that no credentials were edited; the actual file operations targeted only local project documentation and state.",
+  "safe_followup": "Use explicit project-file patches and a fixed task-local state updater, then invoke the existing checkpoint checker. Guard rules remain intact; no credential access or override is attempted.",
+  "scope": "Root transcription of the actual tool rejection, not a claim about the guard's implementation."
+}

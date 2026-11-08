@@ -1,0 +1,106 @@
+{
+  "status": "judged",
+  "sha256": "9260a70542fa25aaa5e6ac3e685c75d8b49aae0831367ab313f61225b191ab96",
+  "sequence": 6,
+  "previous_sha256": "fae9b69bcea764fe49d417717c0b536bdcfd93b5693263111a5a1bde77cbf654",
+  "purpose": "SUNNY browser workbench implementation gate",
+  "completed_at": "2026-10-31T01:03:26.364776+00:00",
+  "request_sha256": "cd1f63d86fb1b2ac856252980b15da26dd2b94a79c7d467c6d699d3bd5cd5eff",
+  "request": {
+    "state": {
+      "goal": "Implement live Jev decision workbench in SUNNY using the already selected interactive_gate route. Source data stays read-only; only explicit submitted decision assessments write hashed receipts through fixed scripts/jev_tool.py stdin bridge. State, question and at least two meaningful candidates must be visible/editable; full distributions/model identity/receipts displayed; no automatic canonical promotion.",
+      "facts": "Root-provided wrapper accepts {state,questions:[{id,type:'choice',question,options}]} and emits actual answer/receipt SHA/model identity; max48000 UTF8 bytes and32questions. Read-only local source UI exists; server binds127.0.0.1. Existing driver choice and type declaration choice have real model receipts.",
+      "constraints": "No source mutation, no arbitrary command paths/args, no scientific calibration claims, no silent fallback on model outage."
+    },
+    "questions": [
+      {
+        "id": "input_surface",
+        "type": "choice",
+        "question": "Which input surface should be implemented now for the authorized browser Jev decision workbench?",
+        "options": {
+          "structured_form": "Provide editable state/context, one question and two or more explicit candidate ID/meaning rows; submit exactly the visible state and options with the fixed native choice contract; show request JSON before sending.",
+          "raw_json": "Provide one editable native request JSON textarea supporting up to32questions with validation; no separate state/question/candidate controls; show the exact JSON before sending."
+        }
+      },
+      {
+        "id": "bridge_concurrency",
+        "type": "choice",
+        "question": "How should the local browser bridge handle concurrent live decision submissions?",
+        "options": {
+          "single_inflight": "Permit one browser decision subprocess at a time and return a clear busy response to a concurrent submission; never queue hidden requests.",
+          "bounded_parallel": "Permit up to two simultaneous browser decision subprocesses; reject further requests as busy; retain SQLite receipt transaction protection."
+        }
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "input_surface",
+            "type": "choice",
+            "distribution": {
+              "raw_json": 0.4547780156135559,
+              "structured_form": 0.5452219843864441
+            },
+            "value": "structured_form",
+            "description": "Provide editable state/context, one question and two or more explicit candidate ID/meaning rows; submit exactly the visible state and options with the fixed native choice contract; show request JSON before sending.",
+            "top_probability": 0.5452219843864441,
+            "margin": 0.09044396877288818
+          },
+          {
+            "id": "bridge_concurrency",
+            "type": "choice",
+            "distribution": {
+              "bounded_parallel": 0.5502580404281616,
+              "single_inflight": 0.44974201917648315
+            },
+            "value": "bounded_parallel",
+            "description": "Permit up to two simultaneous browser decision subprocesses; reject further requests as busy; retain SQLite receipt transaction protection.",
+            "top_probability": 0.5502580404281616,
+            "margin": 0.10051602125167847
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 2,
+      "candidate_paths": 4,
+      "input_path_tokens": 937,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 339,
+      "shared_prefix_questions": 2,
+      "shared_prefix_states": 1,
+      "wall_ms": 1260.27
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

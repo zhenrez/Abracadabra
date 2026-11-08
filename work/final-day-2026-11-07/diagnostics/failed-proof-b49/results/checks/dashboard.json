@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\dashboard",
+    "-p",
+    "test_dashboard.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_builder_preserves_original_source_bytes (test_dashboard.DashboardTests.test_builder_preserves_original_source_bytes) ... ok\ntest_count_mismatch_is_rejected (test_dashboard.DashboardTests.test_count_mismatch_is_rejected) ... ok\ntest_current_assessment_is_separate_from_original_audit (test_dashboard.DashboardTests.test_current_assessment_is_separate_from_original_audit) ... ok\ntest_every_requested_surface_is_available (test_dashboard.DashboardTests.test_every_requested_surface_is_available) ... ok\ntest_exact_payload_roundtrip_and_script_escaping (test_dashboard.DashboardTests.test_exact_payload_roundtrip_and_script_escaping) ... ok\ntest_missing_data_is_explicit_without_invented_counts (test_dashboard.DashboardTests.test_missing_data_is_explicit_without_invented_counts) ... ok\ntest_source_bound_sefer_view_is_available (test_dashboard.DashboardTests.test_source_bound_sefer_view_is_available) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.254s\n\nOK\n"
+}

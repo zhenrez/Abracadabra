@@ -1,0 +1,426 @@
+{
+  "schema": "sunny.native-system-independent-audit.v1",
+  "status": "failed",
+  "checkedAt": "2026-11-08T03:33:42.008493+00:00",
+  "inputGraphPath": "state/reconstruction/hierarchy-atlas-combined.json",
+  "inputGraphSha256": "c553cb2274b0a9b4f3d26efef67be9dcf846dcbd97f6c80cd072892749ce4b82",
+  "inputBindings": [
+    {
+      "path": "state/reconstruction/indian-hierarchy.json",
+      "sha256": "7c2c78af1c6c474701deaff75c9c8662ee94095d4ec16b6f71c264c3424eaf0c",
+      "bytes": 12407143
+    },
+    {
+      "path": "state/reconstruction/western-expanded.json",
+      "sha256": "915917ab4ba7509d173686d29714de8ed2e2b5205edb6e5c2a1e2d0743923ba1",
+      "bytes": 8796888
+    },
+    {
+      "path": "state/reconstruction/chinese-expanded.json",
+      "sha256": "df2cddfe83fbaf2d58cfb72036ee34de033c21e8489c22a97f11848c310f0897",
+      "bytes": 1945622
+    },
+    {
+      "path": "state/reconstruction/native-class-constructors.json",
+      "sha256": "5eaf822a07d87c2d676d3b96a3a2af5144446963005ca4d3d17a999a553301ca",
+      "bytes": 43323311
+    },
+    {
+      "path": "state/reconstruction/biblical-genealogies.json",
+      "sha256": "fb65aeb95353d33b8dd768b3c008fceb243793dbdcb66ef45508f38cfb356258",
+      "bytes": 10168849
+    },
+    {
+      "path": "state/reconstruction/upper-legion-color-constraints.json",
+      "sha256": "0ebc6510a9c41297ff9f216020ef314e7fc91a7b09eba92f4381eec035328ea5",
+      "bytes": 5062875
+    }
+  ],
+  "baselineBinding": {
+    "path": "state/research/native-class/atlas-before-native-expansion.json",
+    "sha256": "a2f2bfae2eb61611f73fb64147b2b96f976f47818f1514a3173118adda89c497"
+  },
+  "actualCounts": {
+    "entities": 33862,
+    "relationships": 88696,
+    "sources": 57,
+    "views": 37
+  },
+  "checks": [
+    {
+      "name": "All six integration module bindings and baseline hash match current files",
+      "status": "passed",
+      "details": {
+        "mismatched": []
+      }
+    },
+    {
+      "name": "Every baseline source/entity/relation/view survives exactly",
+      "status": "passed",
+      "details": {
+        "sources": {
+          "records": 38,
+          "missing": [],
+          "changed": []
+        },
+        "entities": {
+          "records": 9512,
+          "missing": [],
+          "changed": []
+        },
+        "relationships": {
+          "records": 10251,
+          "missing": [],
+          "changed": []
+        },
+        "views": {
+          "records": 23,
+          "missing": [],
+          "changed": []
+        }
+      }
+    },
+    {
+      "name": "All four native graph modules preserve exact source/entity/relation/view semantics",
+      "status": "passed",
+      "details": {
+        "indian-hierarchy": {
+          "sources": {
+            "records": 2,
+            "missing": [],
+            "changed": []
+          },
+          "entities": {
+            "records": 5339,
+            "missing": [],
+            "changed": []
+          },
+          "relationships": {
+            "records": 8681,
+            "missing": [],
+            "changed": []
+          },
+          "views": {
+            "records": 2,
+            "missing": [],
+            "changed": []
+          }
+        },
+        "western-expanded": {
+          "sources": {
+            "records": 18,
+            "missing": [],
+            "changed": []
+          },
+          "entities": {
+            "records": 4059,
+            "missing": [],
+            "changed": []
+          },
+          "relationships": {
+            "records": 6755,
+            "missing": [],
+            "changed": []
+          },
+          "views": {
+            "records": 4,
+            "missing": [],
+            "changed": []
+          }
+        },
+        "chinese-expanded": {
+          "sources": {
+            "records": 12,
+            "missing": [],
+            "changed": []
+          },
+          "entities": {
+            "records": 1030,
+            "missing": [],
+            "changed": []
+          },
+          "relationships": {
+            "records": 1897,
+            "missing": [],
+            "changed": []
+          },
+          "views": {
+            "records": 4,
+            "missing": [],
+            "changed": []
+          }
+        },
+        "native-class-constructors": {
+          "sources": {
+            "records": 1,
+            "missing": [],
+            "changed": []
+          },
+          "entities": {
+            "records": 11644,
+            "missing": [],
+            "changed": []
+          },
+          "relationships": {
+            "records": 54483,
+            "missing": [],
+            "changed": []
+          },
+          "views": {
+            "records": 1,
+            "missing": [],
+            "changed": []
+          }
+        }
+      }
+    },
+    {
+      "name": "IDs are unique and every source, endpoint, view, parent and root resolves",
+      "status": "passed",
+      "details": {
+        "missingSources": [],
+        "badEndpoints": [],
+        "badViews": [],
+        "badParents": [],
+        "badRoots": []
+      }
+    },
+    {
+      "name": "Indian 2520 note addresses keep degree/mela ancestry and all 210 direct Aditya conditions",
+      "status": "passed",
+      "details": {
+        "registeredAddresses": 2520,
+        "directConditionalAddresses": 210,
+        "lowerCensus": {
+          "registeredMelaSvaraOccurrences": 2520,
+          "sourceNamedInstrumentTypes": 36,
+          "unresolvedNameFormsExcludedFromTypeCount": 2,
+          "sumOfDeclaredLowerUnits": 2556,
+          "targetRange": [
+            2500,
+            2700
+          ],
+          "withinRequestedRange": true,
+          "unitsAreHeterogeneous": true,
+          "scope": "Bounded Carnatic registered-note occurrences plus SCERT instrument types; not 2556 distinct frequencies or physical instruments, and not the complete Indian musical universe"
+        }
+      }
+    },
+    {
+      "name": "Western note, key, range-profile and GM sound-address units remain distinct",
+      "status": "passed",
+      "details": {
+        "registeredNotes": 2464,
+        "GMPrograms": 128,
+        "GMPercussion": 47,
+        "rangeProfiles": 31,
+        "declaredLowerSum": 2670
+      }
+    },
+    {
+      "name": "Chinese 563 lower contextual units are not relabelled as 1030 physical notes or target completion",
+      "status": "passed",
+      "details": {
+        "sourceRecords": 1030,
+        "lowerUnitBreakdown": {
+          "source-explicit-context-tone-membership": 174,
+          "mode-qualified-tone-membership-occurrence": 300,
+          "source-bounded-instrument-sound-address": 89
+        },
+        "lowerSum": 563,
+        "targetMet": false
+      }
+    },
+    {
+      "name": "Bible source fields and primary/curated/received relationship qualifications survive integration",
+      "status": "passed",
+      "details": {
+        "entities": 3279,
+        "sourceRelations": 4735,
+        "primaryEditionAssertions": 49,
+        "receivedConditionalGenealogicalEdges": 89,
+        "ancientInkAssertionsPromoted": 0
+      }
+    },
+    {
+      "name": "Every explicitly admitted primary/received Bible edge is tagged to its declared family view",
+      "status": "failed",
+      "details": {
+        "families": [
+          {
+            "viewId": "bible:witness-family:MT",
+            "declaredPrimaryEdges": 16,
+            "receivedEdgesIncludingClock": 34,
+            "missingViewTags": []
+          },
+          {
+            "viewId": "bible:witness-family:Greek",
+            "declaredPrimaryEdges": 17,
+            "receivedEdgesIncludingClock": 37,
+            "missingViewTags": [
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.3",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.6",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.9",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.12",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.15",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.18",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.21",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.25",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.28",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.12",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.14",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.16",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.18",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.20",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.22",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.24",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.13:Cainan"
+            ]
+          },
+          {
+            "viewId": "bible:witness-family:SP",
+            "declaredPrimaryEdges": 16,
+            "receivedEdgesIncludingClock": 26,
+            "missingViewTags": []
+          }
+        ],
+        "rootCauseIfMissing": "Final integrator relationship tagging infers primary edition membership from an ID prefix instead of using originalEditionParentageAssertions. Greek edition-qualified IDs fail that prefix."
+      }
+    },
+    {
+      "name": "SP family stays within its declared Pentateuch comparison scope",
+      "status": "passed",
+      "details": {
+        "SPReceivedLineageEdges": 24,
+        "outsidePentateuchVerseRefs": []
+      }
+    },
+    {
+      "name": "All 12 frozen color states preserve five carrier coordinates without wavelength/note/global identity promotion",
+      "status": "passed",
+      "details": {
+        "states": 12,
+        "carriersPerState": 5,
+        "globalIdentityAssigned": false
+      }
+    },
+    {
+      "name": "Known construction depths remain native frames; no universal GEN or alignment elected",
+      "status": "passed",
+      "details": {
+        "newRecords": 24350,
+        "nativeFrameGenerationPositions": 11643,
+        "newUniversalGenerationAssignments": 0
+      }
+    },
+    {
+      "name": "Census separates 7911 generated slots from 25951 other records and 33862 total records",
+      "status": "passed",
+      "details": {
+        "totalRecords": 33862,
+        "nonSlotEntityRecords": 25951,
+        "generatedSlots": 7911,
+        "entityRecordsFieldMeansNonSlots": true
+      }
+    },
+    {
+      "name": "Upper graph extension records and normalized-text coordinate metadata remain recoverable in integrated source variants",
+      "status": "failed",
+      "details": {
+        "extensionEntitiesPreserved": 19,
+        "extensionRelationsPreserved": 98,
+        "sameRawSourceHashes": true,
+        "missingSourceMetadataFields": [
+          "decoding",
+          "derivedTextPath",
+          "textTransformation"
+        ],
+        "affectedSourceIds": [
+          "public:goetia_peterson_sloane3825",
+          "public:goetia_de_laurence_1916"
+        ],
+        "upstreamModuleBindingRetained": true
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "AUDIT-1",
+      "severity": "error",
+      "finding": "Every explicitly admitted primary/received Bible edge is tagged to its declared family view",
+      "details": {
+        "families": [
+          {
+            "viewId": "bible:witness-family:MT",
+            "declaredPrimaryEdges": 16,
+            "receivedEdgesIncludingClock": 34,
+            "missingViewTags": []
+          },
+          {
+            "viewId": "bible:witness-family:Greek",
+            "declaredPrimaryEdges": 17,
+            "receivedEdgesIncludingClock": 37,
+            "missingViewTags": [
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.3",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.6",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.9",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.12",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.15",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.18",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.21",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.25",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.5.28",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.12",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.14",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.16",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.18",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.20",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.22",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.24",
+              "bible:primary-begetting:Greek_Swete1887_main:Gen.11.13:Cainan"
+            ]
+          },
+          {
+            "viewId": "bible:witness-family:SP",
+            "declaredPrimaryEdges": 16,
+            "receivedEdgesIncludingClock": 26,
+            "missingViewTags": []
+          }
+        ],
+        "rootCauseIfMissing": "Final integrator relationship tagging infers primary edition membership from an ID prefix instead of using originalEditionParentageAssertions. Greek edition-qualified IDs fail that prefix."
+      }
+    },
+    {
+      "id": "AUDIT-2",
+      "severity": "provenance-gap",
+      "finding": "Same-ID source collision handling drops new normalized-text coordinate metadata",
+      "details": {
+        "affectedSourceIds": [
+          "public:goetia_peterson_sloane3825",
+          "public:goetia_de_laurence_1916"
+        ],
+        "fields": [
+          "decoding",
+          "derivedTextPath",
+          "textTransformation"
+        ],
+        "impact": "Raw path/hash survives and the bound upper module still contains the metadata; graph citations alone omit the declared normalized-text offset target.",
+        "requestedRepair": "Preserve baseline source records unchanged and retain the added source metadata in an explicit bound variant/overlay."
+      }
+    }
+  ],
+  "retainedEarlierAudits": [],
+  "execution": {
+    "command": "runtime/.venv/Scripts/python.exe -X utf8 -",
+    "exitCodeCapture": "Observed exec_command exit_code=1: 12 checks passed and one Greek family view-tag check failed",
+    "actualProcessExitCode": 1,
+    "additionalReadOnlyCheck": "Separate read-only comparison exited 0 and identified the provenance gap; initial full verifier exit code 1 remains retained."
+  },
+  "scope": "Independent integration/semantic-preservation audit, not a mathematical rerun or fresh manuscript/source collation",
+  "pluginUse": {
+    "Supermemory": "Actual continuity retrieval succeeded during this audit; historical memory counts were not used as current evidence.",
+    "researchGuard": "Installed source-role/evidence-audit workflow applied; actual local Jev64 receipt remains the parent substantive direction.",
+    "SuperJevHook": "Unavailable status reported; no execution success inferred."
+  },
+  "sourceMathOrIntegrationCodeEdited": false
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "request_sha256": "8143a5c05bc77ee5663a8be3e891f3eda02df79516bf51973dd94a2a0ae7a980",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "explicit-sound-symbol-map": {
+      "type": "choice",
+      "probabilities": {
+        "contradicts": 0.01,
+        "insufficient": 0.92,
+        "refines": 0.06,
+        "supports": 0.01
+      },
+      "winner": "insufficient",
+      "top_probability": 0.92,
+      "margin": 0.8600000000000001
+    },
+    "glyph-sound-distinction": {
+      "type": "choice",
+      "probabilities": {
+        "contradicts": 0.0,
+        "insufficient": 0.66,
+        "refines": 0.21,
+        "supports": 0.13
+      },
+      "winner": "insufficient",
+      "top_probability": 0.66,
+      "margin": 0.45000000000000007
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 2802,
+    "output_tokens": 114
+  },
+  "network_calls": 1,
+  "latency_ms": 272
+}

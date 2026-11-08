@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-1347f751bc7a4dc0b17e4da637118600.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-glyph-assistant-44636076394ce513",
+    "kind": "source_forensics",
+    "track": "glyph",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/44636076394ce5134e5435ae02a910199a52c609bdb2df872b56d27bbfc32ec6/text.txt",
+        "sha256": "44636076394ce5134e5435ae02a910199a52c609bdb2df872b56d27bbfc32ec6",
+        "start_line": 1,
+        "end_line": 291,
+        "source_role": "assistant",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "message_id": "4a585b4a604ad0125e958d5be7df9fc3dce41ce95a4958ac7cd21d79abe61d0a",
+        "timestamp": "1764214113.8405",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "4a585b4a604ad0125e958d5be7df9fc3dce41ce95a4958ac7cd21d79abe61d0a",
+          "native_id": "e77d726f-442c-41a9-ba23-bbeb8f9beeb1",
+          "conversation_id": "803fcba8d16594d3d9337b7c9b014a36c1b922752aa00b97d262c0083af9c6b8",
+          "role": "assistant",
+          "content_sha256": "44636076394ce5134e5435ae02a910199a52c609bdb2df872b56d27bbfc32ec6",
+          "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+          "locator": "/78/mapping/e77d726f-442c-41a9-ba23-bbeb8f9beeb1/message",
+          "create_time": "1764214113.8405",
+          "branch_status": "current",
+          "title": "Workflow clarification request",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+          "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/44636076394ce5134e5435ae02a910199a52c609bdb2df872b56d27bbfc32ec6/occurrences-675a2146b183d920bebe1ff6c1a45eb53c16b21dc1ba29e3d3b6baf30c5294b4.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-sound-symbol-map",
+        "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+      },
+      {
+        "id": "glyph-sound-distinction",
+        "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:57.433287+00:00"
+}

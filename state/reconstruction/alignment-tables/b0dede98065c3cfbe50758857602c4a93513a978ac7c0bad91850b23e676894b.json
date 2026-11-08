@@ -1,0 +1,49 @@
+{
+  "id": "alignment-table-b0dede98065c3cfb",
+  "content_sha256": "b0dede98065c3cfbe50758857602c4a93513a978ac7c0bad91850b23e676894b",
+  "headers": [
+    "Existing approach",
+    "What it already provides",
+    "What we would use it for"
+  ],
+  "rows": [
+    [
+      "**Frame semantics and semantic-role labeling**",
+      "Events and relationships described through their participants: giver, recipient, transferred object, requester, addressee, and so forth",
+      "Identify the human relationship before assigning a mathematical interpretation"
+    ],
+    [
+      "**Uniform Meaning Representation and discourse semantics**",
+      "Meaning graphs, reference resolution, temporal relationships, and distinctions involving modality across sentences",
+      "Preserve who is being discussed, when an event occurs, and whether it happened, was requested, or was merely contemplated"
+    ],
+    [
+      "**Event Calculus**",
+      "Formal reasoning about events and the states they initiate or terminate over time",
+      "Make changes in location, activity, role, possession, and affiliation computationally inspectable"
+    ],
+    [
+      "**Action-effect models such as ProComp**",
+      "Rules connecting actions with preconditions and effects",
+      "Translate an action into an explicit account of what it changes"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 5290,
+      "line_end": 5295,
+      "char_start": 248892,
+      "char_end": 249932,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Existing approach | What it already provides | What we would use it for |\n|---|---|---|\n| **Frame semantics and semantic-role labeling** | Events and relationships described through their participants: giver, recipient, transferred object, requester, addressee, and so forth | Identify the human relationship before assigning a mathematical interpretation |\n| **Uniform Meaning Representation and discourse semantics** | Meaning graphs, reference resolution, temporal relationships, and distinctions involving modality across sentences | Preserve who is being discussed, when an event occurs, and whether it happened, was requested, or was merely contemplated |\n| **Event Calculus** | Formal reasoning about events and the states they initiate or terminate over time | Make changes in location, activity, role, possession, and affiliation computationally inspectable |\n| **Action-effect models such as ProComp** | Rules connecting actions with preconditions and effects | Translate an action into an explicit account of what it changes |\n",
+      "quote_sha256": "a6b9bd8a7a899026c3e454b126c8a070a749c7e36487a61d9eb82bfa0bcd1836",
+      "message_id": "407f87e3785b34499f86158be7b157ac50be4e71d9d06542abfeb27a88b0b7ba",
+      "role": "assistant",
+      "locator": "lines:5290-5295"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

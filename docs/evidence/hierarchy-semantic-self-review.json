@@ -1,0 +1,61 @@
+{
+  "schema": "sunny.hierarchy-semantic-self-review.v1",
+  "checkedAt": "2026-11-01T04:14:29.019Z",
+  "reviewer": "/root/continuation_guard",
+  "independence": "SELF-REVIEW: this worker authored the core. Separate independent review requested from root; no independence claim.",
+  "verdict": "Correct as typed upstream traversal; unrestricted results must not be labeled genealogical ancestry.",
+  "reproduction": {
+    "targetName": "Aletheia",
+    "coGeneratedPeerName": "Nous",
+    "targetId": "i1:I1-Ogdoad:4",
+    "peerId": "i1:I1-Ogdoad:3",
+    "defaultTrace": {
+      "status": "traced",
+      "ancestorIds": [
+        "i1:I1-Ogdoad:1",
+        "i1:I1-Ogdoad:2",
+        "i1:I1-Ogdoad:3",
+        "i1:event:first",
+        "i1:group:I1-Ogdoad"
+      ],
+      "cycles": [],
+      "relationTypes": [
+        "has-source-member",
+        "source-syzygy",
+        "production-input",
+        "production-output"
+      ],
+      "boundary": "Traversal follows selected directed relation types. Production, appointment, membership and command remain distinguishable edge labels."
+    },
+    "productionOnlyTrace": {
+      "status": "traced",
+      "ancestorIds": [
+        "i1:I1-Ogdoad:1",
+        "i1:I1-Ogdoad:2",
+        "i1:event:first"
+      ],
+      "cycles": [],
+      "relationTypes": [
+        "production-input",
+        "production-output"
+      ],
+      "boundary": "Traversal follows selected directed relation types. Production, appointment, membership and command remain distinguishable edge labels."
+    },
+    "defaultIncludesCoequalPeer": true,
+    "productionOnlyExcludesPeer": true
+  },
+  "meaning": "Default traversal includes all declared relation types, including source-syzygy and group membership. Such upstream reachability is distinct from parentage. The existing result boundary retains relation labels; callers must show the selected meaning and scope.",
+  "censusBoundary": "entityRecords count contextual source records, including classifications/events/collectives. They are not a unique-person census. Generated legion slots are separately counted; cross-witness unique entities, unique legions and personnel remain null.",
+  "requiredCallerBehavior": [
+    "Label the unrestricted operation upstream relation trace and expose relation types.",
+    "For an origin/production query supply explicit production-input and production-output relationTypes, and retain joint-event arity.",
+    "Do not treat illumination, classification, rank membership, appointment or source-column order as birth.",
+    "Do not infer79persons from79rank memberships or7911distinctlegions from7911command-occurrence slots."
+  ],
+  "codeMutated": false,
+  "baselineMutated": false,
+  "sourceCoreSha256": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+  "compiledCoreSha256": "f66d234685f8dc34c607d40cb46550a38ccecde7a49c3ea3458713c3ecec7f7d",
+  "atlasSha256AtReview": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312",
+  "independentReviewPending": true
+}

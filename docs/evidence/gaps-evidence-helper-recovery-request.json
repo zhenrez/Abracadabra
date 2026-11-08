@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Run the installed Prumo+Jev evidence-audit helper on an exact recovered JSON record containing U+2028.",
+    "observed_failure": "The init-source CLI exited1 before producing JSON. Its preserved stderr is UnicodeEncodeError in Python Windows cp1252 stdout when json.dumps ensure_ascii=False writes the original U+2028. Source data and helper logic were not changed. The helper reads stdin.buffer as UTF8 and otherwise supports the exact text and UTF16 coordinates.",
+    "constraints": "Preserve the initial failure and exact source bytes. Do not patch installed plugin files or normalize/delete the Unicode separator. Both available recovery routes execute the same inspected packaged helper, with no network requests."
+  },
+  "questions": [
+    {
+      "id": "evidence_transport",
+      "type": "choice",
+      "question": "Which minimal transport recovery should execute the exact evidence audit?",
+      "options": {
+        "utf8_cli": "Run the same packaged CLI in a subprocess with PYTHONIOENCODING=utf-8 scoped to that subprocess, capture its UTF8 JSON, then execute init-source,locate andvalidate on the unchanged record slice.",
+        "module_interface": "Import the same inspected helper module and call its init_source,locate andvalidate functions directly, writing full returned objects to a UTF8 task evidence file instead of Windowsstdout."
+      }
+    }
+  ]
+}

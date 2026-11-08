@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:56.491962+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "48b10e53091ac0a4d695340b0c5b20091b8abe2b7380bafd37ba0b18c74f0aaa"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "1943401c-7de0-5a75-baa3-151b19ce4a58",
+      "source_identity_sha256": "c86ef1f1b5d82ed9d4fc48b0119dcad70719d4001ff426a9c6e2aaafe8762745",
+      "source_version_id": "2ce49e3e-5fbb-5df4-a456-9f377d86733e",
+      "version_number": 1,
+      "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"4748654f-485e-450b-aec2-0fbd0b4eb02d\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m separating textual witnesses, scripts, and interpretive layers. Square versus Paleo-Hebrew changes glyph appearance, not consonant identity; reconstructed readings remain synthetic, and matres lectionis require explicit normalization rules.\",\"finished\":true,\"summary\":\"Refining variable sets\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Refined variable sets\"}]}",
+      "content_sha256": "453f3668b152c235f0cadc7561789172458eecafb2508878388286d6c90f1dd7",
+      "content_length": 503,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "8067eb5986760b0fdc18ecda0ad24349029fc10cfd441a1db29d7f0c58ce1c5a"
+    },
+    "chunks": [
+      {
+        "id": "9616671a-efa6-5e08-868c-393e7cdb59ad",
+        "source_node_hash": "8067eb5986760b0fdc18ecda0ad24349029fc10cfd441a1db29d7f0c58ce1c5a",
+        "source_id": "1943401c-7de0-5a75-baa3-151b19ce4a58",
+        "source_version_id": "2ce49e3e-5fbb-5df4-a456-9f377d86733e",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 503,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"4748654f-485e-450b-aec2-0fbd0b4eb02d\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m separating textual witnesses, scripts, and interpretive layers. Square versus Paleo-Hebrew changes glyph appearance, not consonant identity; reconstructed readings remain synthetic, and matres lectionis require explicit normalization rules.\",\"finished\":true,\"summary\":\"Refining variable sets\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Refined variable sets\"}]}",
+        "content_sha256": "453f3668b152c235f0cadc7561789172458eecafb2508878388286d6c90f1dd7",
+        "node_hash": "2f9012857cb1690cfecb3ca1c48ffe3414d89b396d7546c3e309f8725bfc8675"
+      }
+    ],
+    "citations": [
+      {
+        "id": "57ce897e-0b80-5abb-9ec6-387f4d73e2bf",
+        "source_node_hash": "8067eb5986760b0fdc18ecda0ad24349029fc10cfd441a1db29d7f0c58ce1c5a",
+        "chunk_node_hashes": [
+          "2f9012857cb1690cfecb3ca1c48ffe3414d89b396d7546c3e309f8725bfc8675"
+        ],
+        "source_id": "1943401c-7de0-5a75-baa3-151b19ce4a58",
+        "source_version_id": "2ce49e3e-5fbb-5df4-a456-9f377d86733e",
+        "start_offset": 0,
+        "end_offset": 503,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"4748654f-485e-450b-aec2-0fbd0b4eb02d\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m separating textual witnesses, scripts, and interpretive layers. Square versus Paleo-Hebrew changes glyph appearance, not consonant identity; reconstructed readings remain synthetic, and matres lectionis require explicit normalization rules.\",\"finished\":true,\"summary\":\"Refining variable sets\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Refined variable sets\"}]}",
+        "quote_sha256": "453f3668b152c235f0cadc7561789172458eecafb2508878388286d6c90f1dd7",
+        "node_hash": "9e932923b3aede6ecf7c834721ccf988c73c7d70145f4c25858ba3c9fdcc6906"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "8067eb5986760b0fdc18ecda0ad24349029fc10cfd441a1db29d7f0c58ce1c5a",
+        "2f9012857cb1690cfecb3ca1c48ffe3414d89b396d7546c3e309f8725bfc8675",
+        "9e932923b3aede6ecf7c834721ccf988c73c7d70145f4c25858ba3c9fdcc6906"
+      ],
+      "node_hash": "b90584c423e09c95da982c33573c2b983c6458aa7783087bcf32e9d8cd95a50e"
+    },
+    "artifact": {
+      "id": "29bb39f8-b203-5db6-bb2c-d4c860bcfa87",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/453f3668b152c235f0cadc7561789172458eecafb2508878388286d6c90f1dd7/text.txt; original SHA256 453f3668b152c235f0cadc7561789172458eecafb2508878388286d6c90f1dd7; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "b90584c423e09c95da982c33573c2b983c6458aa7783087bcf32e9d8cd95a50e",
+      "citation_node_hashes": [
+        "9e932923b3aede6ecf7c834721ccf988c73c7d70145f4c25858ba3c9fdcc6906"
+      ],
+      "node_hash": "1a3130a87178b4e442f8c342cb998b3546cce03b76569fe1bf4e5892f945da21"
+    },
+    "review": {
+      "artifact_node_hash": "1a3130a87178b4e442f8c342cb998b3546cce03b76569fe1bf4e5892f945da21",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:56.491962+00:00",
+      "updated_at": "2026-11-02T01:57:56.491962+00:00",
+      "node_hash": "04b1f369393e3a5390e993e679da79e87bb66c4dd6e6a01980e68b419147b701"
+    }
+  }
+}

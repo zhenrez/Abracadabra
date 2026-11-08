@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "request_sha256": "b8a469f3dd1f0c4519b0631d5c8c8efc8b23731f8c69a8cb3711b7a92e0e0d2f",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "preview",
+  "payload": {
+    "model": "jev-latest",
+    "state": {
+      "goal": "Repair the existing SUNNY bounded background worker under a new explicit finite allocation, then demonstrate one real owned start/status/result lifecycle.",
+      "scope": "Only existing worker/manager,background tests and new reactivation-20261102 state/evidence files; no canonical science or old budget mutation.",
+      "observed": [
+        "Native status currently shows no owned worker for newinstance.",
+        "Manager currently reaps its exact live worker after10second readinesspoll timeout, conflating slowreadiness withprocessdeath.",
+        "Existing cadence forecast uses result filemtime as completiontime, so touching an oldresult can reset apparentprogress; explicit durableemptyqueue/blocker/cadence state is missing unlesspacefileexists.",
+        "Existing inprocess actualSuperJev andProofline guardedsource handlers, exclusiveworkspace lock, persistentmodel cap and lease minimum should be reused.",
+        "No chatwakeup can be claimed from an alertfile; notificationdeliverycapabilitymuststayexplicit."
+      ],
+      "constraints": [
+        "Recover evidence/rootcause and redchecks beforeimplementation.",
+        "No service/globalconfig/trust changes,parallelworkers,blanketkillsor arbitraryhandler.",
+        "Do not count heartbeat/deferral/genericrepeat asmeaningfulscientificwork; no classifier-as-full-agentclaim.",
+        "Finiteforwardprogress,explicitblockers,identityverifiedsafe reuse."
+      ],
+      "acceptance": [
+        "Fresh redthenfocusedgreenchecks.",
+        "Identity-safe readiness timeout leaves confirmedliveprocessintact.",
+        "Durable cadence tiedactualcompletedguardedartifacts or newlyraisedexactblocker;emptyqueue,budget,leasefailures explicit.",
+        "Actualnewownedworker codehash/PIDidentity/budget/lease/resultcountobserved."
+      ],
+      "finite_allocation": "state/background/reactivation-20261102/authorization.json:256additional actualJevrequests,one worker,24hlease,no automaticrenewal;oldmain255/256untouched."
+    },
+    "questions": {
+      "repair_route": {
+        "type": "choice",
+        "instructions": "Select the bounded engineering route supported by the demonstrated code paths. The host will verify source and tests; model preference is not proof.",
+        "criteria": {
+          "minimal_existing_repair": "Retain current guardedworker/ownership/queuearchitecture; addfocusedcadence/blocker/authorizationaccounting and preserve-live-readiness-timeoutbehavior, testthenlaunchauthorizedinstance.",
+          "launch_unchanged": "Launch the current worker without repairing cadence/readiness behavior; rely on interactive monitoring.",
+          "rebuild_framework": "Replace worker/control architecture with a new scheduler or generic autonomous agent."
+        }
+      }
+    }
+  },
+  "network_calls": 0
+}

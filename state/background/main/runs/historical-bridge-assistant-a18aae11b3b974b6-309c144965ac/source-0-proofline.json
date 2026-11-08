@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T21:33:00.187120+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "7a68f2f24cdf9560eba3f50081d1cfa3de011c9337083f342eeb0f271354cada"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "43b51441-2d24-5bb1-b49c-73aaeace5300",
+      "source_identity_sha256": "441971c5855a5d2b7e8c4f1ed7d2093e1bf57f28b83df341197c1c457b695bc5",
+      "source_version_id": "80be3fc8-1865-5bb9-bee6-75c94aea5ce2",
+      "version_number": 1,
+      "content": "10/13/2026, 2:01:35 AM · gpt-6\n\n> **Searched AYLI for solver, native operations, references, and verification**\n>\n> \n>\n> Worked for 13s\n\n**Goal: Determine precisely where SUN starts and preserve lawful pre-12 representations, without altering SUN or imposing historical correspondences.**\n\nThe remaining operational problems have **one common dependency: identifying and executing the authoritative AYLI runtime**\\.\n\nWe should resolve them through a single **Runtime Discovery → Acceptance → Evidence** workflow, rather than continuing to design tests in isolation.\n\nThe key improvement is to make runtime discovery an executable gate within that workflow. We already have a candidate repository, `AlkaiDynamics/AYLI`, and a frozen September 12 specification. We should not ask you to manually reconstruct module names, commands, or dependencies until available repository evidence has been exhausted.\n\nThe workflow must distinguish two outcomes\\:\n\n- **VERIFIED\\:** The actual AYLI implementation executes the frozen SUN specification, passes the native regressions and negative controls, and produces a revision-bound receipt.\n- **BLOCKED\\:** No authoritative executable runtime can be established. The workflow produces a discovery report identifying what was inspected and what remains missing.\n\nNeither outcome requires changing SUN or reopening the primordial investigation.\n\n## Discovery checkpoint\n\nI searched the connected `AlkaiDynamics/AYLI` repository for the expected evaluator and runtime identifiers.\n\n| Search target | Result |\n|--------|--------|\n| `general_solver` | No result |\n| `AYLI-NATIVE-OPERATIONS` | No result |\n| `runtime verify` | No result |\n| `Fludd Kepler` | Found in `data/00_corpus_coverage.csv` |\n\nThese results support the earlier assessment that the repository contains research material, but they do **not** establish the presence of an executable evaluator. This search covered the repository's indexed default-branch content; it was not an exhaustive inspection of every branch or private working tree.\n\n(BLOCKED — Runtime authority unverified)\n\n## The single workflow that resolves the remaining gates\n\n1. **Locate the authoritative implementation**\n   \n   Inspect the candidate repository's branches and historical revisions, then other relevant authorized repositories or connected workspaces. Identify the executable runtime, not merely its specification.\n2. **Pin and inspect the implementation**\n   \n   Record the commit SHA, actual operator entrypoints, dependency manifests, native test commands, and source hashes.\n3. **Execute the frozen-spec acceptance tests**\n   \n   Import the real operators and test exact comma transfer, prime-5 cancellation, MI–FA–MI, independent grade assignment, ordinary SUN descent, residuals, and negative controls.\n4. **Run the complete native regression suite**\n   \n   Confirm no changes to SUN's scalar kernel, coordinate semantics, or frozen primordial boundary.\n5. **Emit the authoritative receipt**\n   \n   Save JSON, stdout, revision and file hashes, per-gate results, and a final receipt digest.\n\nThe critical rule is **fail closed at the authority gate**\\. If the runtime is absent, produce a machine-readable `BLOCKED_RUNTIME_NOT_FOUND` discovery receipt. Do not substitute a standalone implementation or infer that integration succeeded.\n\n### What can be closed together\n\n| Gate | One authoritative run |\n|--------|--------|\n| Comma-transfer integration | Yes |\n| FK intermediate trajectory | Yes |\n| Grade and prime-exponent integrity | Yes |\n| Ordinary SUN regressions | Yes |\n| Runtime integration | Yes |\n| Full regression acceptance | Yes, if the native suite is included |\n| Original pre-12 genealogy | No — remains frozen |\n\n**My recommendation\\:** The next execution unit should be a bounded, read-only search across authorized AYLI runtime locations, followed immediately by the acceptance job if an executable implementation is found.\n\nThis is the shortest evidence-producing path. The mathematical specification does not need another revision; what remains is to establish the authority of the code being tested and obtain its actual execution results.",
+      "content_sha256": "a18aae11b3b974b61c0e72b38665c7305a84e5dd71cfe71098d7daf66aa0cac4",
+      "content_length": 4149,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "8ebe015c86c9041f7ee727636bd9a3f0a04ecd176e80cfd8fa1cdfb00ad969b3"
+    },
+    "chunks": [
+      {
+        "id": "08f8f705-b90b-513a-9aac-3b211f64d9fd",
+        "source_node_hash": "8ebe015c86c9041f7ee727636bd9a3f0a04ecd176e80cfd8fa1cdfb00ad969b3",
+        "source_id": "43b51441-2d24-5bb1-b49c-73aaeace5300",
+        "source_version_id": "80be3fc8-1865-5bb9-bee6-75c94aea5ce2",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 4149,
+        "start_line": 1,
+        "end_line": 73,
+        "content": "10/13/2026, 2:01:35 AM · gpt-6\n\n> **Searched AYLI for solver, native operations, references, and verification**\n>\n> \n>\n> Worked for 13s\n\n**Goal: Determine precisely where SUN starts and preserve lawful pre-12 representations, without altering SUN or imposing historical correspondences.**\n\nThe remaining operational problems have **one common dependency: identifying and executing the authoritative AYLI runtime**\\.\n\nWe should resolve them through a single **Runtime Discovery → Acceptance → Evidence** workflow, rather than continuing to design tests in isolation.\n\nThe key improvement is to make runtime discovery an executable gate within that workflow. We already have a candidate repository, `AlkaiDynamics/AYLI`, and a frozen September 12 specification. We should not ask you to manually reconstruct module names, commands, or dependencies until available repository evidence has been exhausted.\n\nThe workflow must distinguish two outcomes\\:\n\n- **VERIFIED\\:** The actual AYLI implementation executes the frozen SUN specification, passes the native regressions and negative controls, and produces a revision-bound receipt.\n- **BLOCKED\\:** No authoritative executable runtime can be established. The workflow produces a discovery report identifying what was inspected and what remains missing.\n\nNeither outcome requires changing SUN or reopening the primordial investigation.\n\n## Discovery checkpoint\n\nI searched the connected `AlkaiDynamics/AYLI` repository for the expected evaluator and runtime identifiers.\n\n| Search target | Result |\n|--------|--------|\n| `general_solver` | No result |\n| `AYLI-NATIVE-OPERATIONS` | No result |\n| `runtime verify` | No result |\n| `Fludd Kepler` | Found in `data/00_corpus_coverage.csv` |\n\nThese results support the earlier assessment that the repository contains research material, but they do **not** establish the presence of an executable evaluator. This search covered the repository's indexed default-branch content; it was not an exhaustive inspection of every branch or private working tree.\n\n(BLOCKED — Runtime authority unverified)\n\n## The single workflow that resolves the remaining gates\n\n1. **Locate the authoritative implementation**\n   \n   Inspect the candidate repository's branches and historical revisions, then other relevant authorized repositories or connected workspaces. Identify the executable runtime, not merely its specification.\n2. **Pin and inspect the implementation**\n   \n   Record the commit SHA, actual operator entrypoints, dependency manifests, native test commands, and source hashes.\n3. **Execute the frozen-spec acceptance tests**\n   \n   Import the real operators and test exact comma transfer, prime-5 cancellation, MI–FA–MI, independent grade assignment, ordinary SUN descent, residuals, and negative controls.\n4. **Run the complete native regression suite**\n   \n   Confirm no changes to SUN's scalar kernel, coordinate semantics, or frozen primordial boundary.\n5. **Emit the authoritative receipt**\n   \n   Save JSON, stdout, revision and file hashes, per-gate results, and a final receipt digest.\n\nThe critical rule is **fail closed at the authority gate**\\. If the runtime is absent, produce a machine-readable `BLOCKED_RUNTIME_NOT_FOUND` discovery receipt. Do not substitute a standalone implementation or infer that integration succeeded.\n\n### What can be closed together\n\n| Gate | One authoritative run |\n|--------|--------|\n| Comma-transfer integration | Yes |\n| FK intermediate trajectory | Yes |\n| Grade and prime-exponent integrity | Yes |\n| Ordinary SUN regressions | Yes |\n| Runtime integration | Yes |\n| Full regression acceptance | Yes, if the native suite is included |\n| Original pre-12 genealogy | No — remains frozen |\n\n**My recommendation\\:** The next execution unit should be a bounded, read-only search across authorized AYLI runtime locations, followed immediately by the acceptance job if an executable implementation is found.\n\nThis is the shortest evidence-producing path. The mathematical specification does not need another revision; what remains is to establish the authority of the code being tested and obtain its actual execution results.",
+        "content_sha256": "a18aae11b3b974b61c0e72b38665c7305a84e5dd71cfe71098d7daf66aa0cac4",
+        "node_hash": "f0b641653e5c70bb376b1cd7dc072e06a4d1d86003acc0324ba9a2bc0ecf5262"
+      }
+    ],
+    "citations": [
+      {
+        "id": "adcbfe57-55fb-560f-a5b7-6472973aff01",
+        "source_node_hash": "8ebe015c86c9041f7ee727636bd9a3f0a04ecd176e80cfd8fa1cdfb00ad969b3",
+        "chunk_node_hashes": [
+          "f0b641653e5c70bb376b1cd7dc072e06a4d1d86003acc0324ba9a2bc0ecf5262"
+        ],
+        "source_id": "43b51441-2d24-5bb1-b49c-73aaeace5300",
+        "source_version_id": "80be3fc8-1865-5bb9-bee6-75c94aea5ce2",
+        "start_offset": 0,
+        "end_offset": 4149,
+        "start_line": 1,
+        "end_line": 73,
+        "quote": "10/13/2026, 2:01:35 AM · gpt-6\n\n> **Searched AYLI for solver, native operations, references, and verification**\n>\n> \n>\n> Worked for 13s\n\n**Goal: Determine precisely where SUN starts and preserve lawful pre-12 representations, without altering SUN or imposing historical correspondences.**\n\nThe remaining operational problems have **one common dependency: identifying and executing the authoritative AYLI runtime**\\.\n\nWe should resolve them through a single **Runtime Discovery → Acceptance → Evidence** workflow, rather than continuing to design tests in isolation.\n\nThe key improvement is to make runtime discovery an executable gate within that workflow. We already have a candidate repository, `AlkaiDynamics/AYLI`, and a frozen September 12 specification. We should not ask you to manually reconstruct module names, commands, or dependencies until available repository evidence has been exhausted.\n\nThe workflow must distinguish two outcomes\\:\n\n- **VERIFIED\\:** The actual AYLI implementation executes the frozen SUN specification, passes the native regressions and negative controls, and produces a revision-bound receipt.\n- **BLOCKED\\:** No authoritative executable runtime can be established. The workflow produces a discovery report identifying what was inspected and what remains missing.\n\nNeither outcome requires changing SUN or reopening the primordial investigation.\n\n## Discovery checkpoint\n\nI searched the connected `AlkaiDynamics/AYLI` repository for the expected evaluator and runtime identifiers.\n\n| Search target | Result |\n|--------|--------|\n| `general_solver` | No result |\n| `AYLI-NATIVE-OPERATIONS` | No result |\n| `runtime verify` | No result |\n| `Fludd Kepler` | Found in `data/00_corpus_coverage.csv` |\n\nThese results support the earlier assessment that the repository contains research material, but they do **not** establish the presence of an executable evaluator. This search covered the repository's indexed default-branch content; it was not an exhaustive inspection of every branch or private working tree.\n\n(BLOCKED — Runtime authority unverified)\n\n## The single workflow that resolves the remaining gates\n\n1. **Locate the authoritative implementation**\n   \n   Inspect the candidate repository's branches and historical revisions, then other relevant authorized repositories or connected workspaces. Identify the executable runtime, not merely its specification.\n2. **Pin and inspect the implementation**\n   \n   Record the commit SHA, actual operator entrypoints, dependency manifests, native test commands, and source hashes.\n3. **Execute the frozen-spec acceptance tests**\n   \n   Import the real operators and test exact comma transfer, prime-5 cancellation, MI–FA–MI, independent grade assignment, ordinary SUN descent, residuals, and negative controls.\n4. **Run the complete native regression suite**\n   \n   Confirm no changes to SUN's scalar kernel, coordinate semantics, or frozen primordial boundary.\n5. **Emit the authoritative receipt**\n   \n   Save JSON, stdout, revision and file hashes, per-gate results, and a final receipt digest.\n\nThe critical rule is **fail closed at the authority gate**\\. If the runtime is absent, produce a machine-readable `BLOCKED_RUNTIME_NOT_FOUND` discovery receipt. Do not substitute a standalone implementation or infer that integration succeeded.\n\n### What can be closed together\n\n| Gate | One authoritative run |\n|--------|--------|\n| Comma-transfer integration | Yes |\n| FK intermediate trajectory | Yes |\n| Grade and prime-exponent integrity | Yes |\n| Ordinary SUN regressions | Yes |\n| Runtime integration | Yes |\n| Full regression acceptance | Yes, if the native suite is included |\n| Original pre-12 genealogy | No — remains frozen |\n\n**My recommendation\\:** The next execution unit should be a bounded, read-only search across authorized AYLI runtime locations, followed immediately by the acceptance job if an executable implementation is found.\n\nThis is the shortest evidence-producing path. The mathematical specification does not need another revision; what remains is to establish the authority of the code being tested and obtain its actual execution results.",
+        "quote_sha256": "a18aae11b3b974b61c0e72b38665c7305a84e5dd71cfe71098d7daf66aa0cac4",
+        "node_hash": "638e483fbcb148a105d2293b1d328b7ddae9c288ba6708fd5bb2a0de07602827"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "8ebe015c86c9041f7ee727636bd9a3f0a04ecd176e80cfd8fa1cdfb00ad969b3",
+        "f0b641653e5c70bb376b1cd7dc072e06a4d1d86003acc0324ba9a2bc0ecf5262",
+        "638e483fbcb148a105d2293b1d328b7ddae9c288ba6708fd5bb2a0de07602827"
+      ],
+      "node_hash": "7af18e87919921b4ca70397c2265854f47f38f07840b2645c54ca153afcdb969"
+    },
+    "artifact": {
+      "id": "edb06222-5cb9-5ebd-8a7a-58feff3cf43d",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/a18aae11b3b974b61c0e72b38665c7305a84e5dd71cfe71098d7daf66aa0cac4/text.txt; original SHA256 a18aae11b3b974b61c0e72b38665c7305a84e5dd71cfe71098d7daf66aa0cac4; physical source lines 1..73. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "7af18e87919921b4ca70397c2265854f47f38f07840b2645c54ca153afcdb969",
+      "citation_node_hashes": [
+        "638e483fbcb148a105d2293b1d328b7ddae9c288ba6708fd5bb2a0de07602827"
+      ],
+      "node_hash": "fb008d7637255e8ab303a0738d2437cc4400c95175e196cdac152af0a5f20fa0"
+    },
+    "review": {
+      "artifact_node_hash": "fb008d7637255e8ab303a0738d2437cc4400c95175e196cdac152af0a5f20fa0",
+      "status": "candidate",
+      "created_at": "2026-11-02T21:33:00.187120+00:00",
+      "updated_at": "2026-11-02T21:33:00.187120+00:00",
+      "node_hash": "dd4941d8fc17e05fd364d0117c2229eaf541dfadd63505ebeca386e49d30cfcc"
+    }
+  }
+}

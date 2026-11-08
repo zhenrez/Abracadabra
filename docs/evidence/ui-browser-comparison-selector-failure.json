@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-31T01:56:23.809Z",
+  "url": "http://127.0.0.1:4317",
+  "runtime": "Isolated native Microsoft Edge via CDP",
+  "checks": [
+    {
+      "name": "Actual source summary matches independent live DB count",
+      "observed_messages": "59,901",
+      "independent_db_messages": 59901
+    },
+    {
+      "name": "Second source page loads without duplicate records",
+      "shown": 80
+    },
+    {
+      "name": "Real search and full-source inspector",
+      "observed_text_characters": 10796,
+      "source_locator_visible": true
+    },
+    {
+      "name": "Conversation context opens",
+      "messages_shown": 18
+    },
+    {
+      "name": "All three finite geometry modes switch",
+      "canonical_assignments": "No inferred placements loaded"
+    }
+  ],
+  "console_errors": [],
+  "exceptions": [],
+  "limitations": [
+    "No human screen-reader session or formal WCAG audit.",
+    "Visual screenshots require separate inspection.",
+    "Native source import completeness and mathematical truth are outside this UI check."
+  ],
+  "browser_ownership": {
+    "status": "captured",
+    "profile": "C:\\Users\\Brend\\AppData\\Local\\Temp\\sunny-edge-check-ur8XgK",
+    "identities": 15
+  },
+  "status": "failed",
+  "error": "Error: Uncaught\n    at evaluate (file:///C:/Users/Brend/Documents/ChatGPT/SUN/tests/ui-browser.mjs:41:174)\n    at async file:///C:/Users/Brend/Documents/ChatGPT/SUN/tests/ui-browser.mjs:87:24",
+  "browser_cleanup": {
+    "exit_code": 0,
+    "stdout": "{\"status\":\"reaped\",\"profile\":\"C:\\\\Users\\\\Brend\\\\AppData\\\\Local\\\\Temp\\\\sunny-edge-check-ur8XgK\",\"captured_identities\":15,\"stopped_pids\":[],\"remaining_known_processes\":0,\"remaining_profile_processes\":0}",
+    "stderr": ""
+  }
+}

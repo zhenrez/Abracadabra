@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-2be8e99e57389f52",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:21.073119+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf/text.txt",
+        "sha256": "2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "99d8a52cfa3eeb7d3525bc4321d0d245d90d2a6accee6980d3c242cf48b2e3fa",
+        "timestamp": "1788391813.933246",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "99d8a52cfa3eeb7d3525bc4321d0d245d90d2a6accee6980d3c242cf48b2e3fa",
+          "native_id": "043820ea-049e-42f3-ab13-6cd5b7992e67",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/043820ea-049e-42f3-ab13-6cd5b7992e67/message",
+          "create_time": "1788391813.933246",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf/occurrences-9bb62e6afa0438bcff40d5c881a0f75a89bb15638d45ae2416decc8db40f6615.json",
+        "quote": "The historical relationship is turning out to be almost exactly the useful version of your hypothesis: **Kepler accused Fludd of lacking measured motion; Fludd replied that Kepler had captured only the material/quantifiable half of harmony.** So “Fludd finished Kepler’s math” is too strong historically, but **Kepler supplies the metric that Fludd’s symbolic architecture lacks**—and that may be precisely the missing bridge for our Dee/music model.",
+        "quote_sha256": "2be8e99e57389f526e209a72949acdbde2dd0838d0e196799447e71c859b8ccf",
+        "original_bytes": 460,
+        "start_offset": 0,
+        "end_offset": 450
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "d108a7ffc404ef4d0b4abd213bd12838dabd179fc0b909ba5cfdda0ea21548f6",
+        "artifact_id": "416d6b45-55b5-5d8c-9337-922ac859518d",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.2,
+            "refines": 0.6,
+            "supports": 0.19
+          },
+          "winner": "refines",
+          "top_probability": 0.6,
+          "margin": 0.39999999999999997
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 1.0,
+            "refines": 0.0,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 1.0,
+          "margin": 1.0
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.192,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "exact_assertions_passed",
+  "output": "docs\\evidence\\native-derivations-run-001\\result.json",
+  "source_files_checked": 6,
+  "E_over_K": {
+    "numerator": 256,
+    "denominator": 243,
+    "exact": "256/243"
+  },
+  "forward7": {
+    "numerator": 2187,
+    "denominator": 2048,
+    "exact": "2187/2048"
+  },
+  "cycle_residual": {
+    "numerator": 531441,
+    "denominator": 524288,
+    "exact": "531441/524288"
+  },
+  "required_forward_bridge": {
+    "numerator": 32768,
+    "denominator": 32805,
+    "exact": "32768/32805"
+  },
+  "jev_errors_retained": [
+    {
+      "question": "group_membership",
+      "jev_predicted": false,
+      "exact_result": true,
+      "agrees": false
+    }
+  ]
+}

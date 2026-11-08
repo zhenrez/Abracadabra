@@ -1,0 +1,10 @@
+{
+  "schema": "sunny.reading-integration-review-history.v1",
+  "initialCommand": "node --test tests/reading-integration.test.mjs",
+  "initialExit": 1,
+  "initialObservation": "Expected original9493entity baseline in immediate prior snapshot, but replay's immediate prior snapshot contained9512entities.",
+  "correction": "Traverse immutable priorGraph/priorScore snapshot references, verify every hash, then compare against original9493entity/11score-view baselines.",
+  "sourceOrIntegrationRepairRequired": false,
+  "finalCommand": "node --test tests/reading-integration.test.mjs",
+  "finalResult": "See result.json and current command output; the earlier failed assertion remains classified as a review baseline-assumption error."
+}

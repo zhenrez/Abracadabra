@@ -1,0 +1,57 @@
+{
+  "schema": "sunny.background-job.v1",
+  "id": "historical-calendar-assistant-205ae36883c2530d",
+  "kind": "source_forensics",
+  "track": "calendar",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/205ae36883c2530d609fd54642594aee71f1bd7a1d8dcb75424d18c839568b77/text.txt",
+      "sha256": "205ae36883c2530d609fd54642594aee71f1bd7a1d8dcb75424d18c839568b77",
+      "start_line": 1,
+      "end_line": 109,
+      "source_role": "assistant",
+      "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+      "message_id": "048d47a93dc9db2dec6372f46db41b28e375bfdba27b567ea5e40b4ce5ee3cfb",
+      "timestamp": "1752154417.881173",
+      "timestamp_precision": "stored message metadata; literal display date retained in full text",
+      "origin": {
+        "id": "048d47a93dc9db2dec6372f46db41b28e375bfdba27b567ea5e40b4ce5ee3cfb",
+        "native_id": "2b9356ca-7a47-48ed-82e3-8dbfd397e44f",
+        "conversation_id": "00f0a66fefc3f95e4d2cac0b798a478dbb36c23ac9cc4c00e7b57474b783a593",
+        "role": "assistant",
+        "content_sha256": "205ae36883c2530d609fd54642594aee71f1bd7a1d8dcb75424d18c839568b77",
+        "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+        "locator": "/62/mapping/2b9356ca-7a47-48ed-82e3-8dbfd397e44f/message",
+        "create_time": "1752154417.881173",
+        "branch_status": "current",
+        "title": "Hierarchical AI System Design",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-004.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-004.json",
+        "source_sha256": "6a32a0e3c88edc619410bce02b42adf03033652cc00fc705fa50cba388d9d0de",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "6a32a0e3c88edc619410bce02b42adf03033652cc00fc705fa50cba388d9d0de",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/205ae36883c2530d609fd54642594aee71f1bd7a1d8dcb75424d18c839568b77/occurrences-f33d8ca8d39e3c1403d5848585c38fc95a6b07cb6182e81fac5e10d13b3bf205.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "declared-time-frame",
+      "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+    },
+    {
+      "id": "calendar-counterfactual",
+      "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  },
+  "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "sunny.chinese-conditional-pipe-profile.v1",
+  "generated_utc": "2026-11-03T04:02:46.876996+00:00",
+  "source": {
+    "id": "music:source:zhouli_zhushu23",
+    "name": "zhouli_zhushu23",
+    "url": "https://zh.wikisource.org/wiki/%E5%91%A8%E7%A6%AE%E6%B3%A8%E7%96%8F_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B723",
+    "resolved_url": "https://zh.wikisource.org/wiki/%E5%91%A8%E7%A6%AE%E6%B3%A8%E7%96%8F_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B723",
+    "path": "data/raw/musical-hierarchy-sources/83356e85c0b5bc906fa3198b2868a0e545519cc8143f5a20bc684fcc68055ada/source.html",
+    "sha256": "83356e85c0b5bc906fa3198b2868a0e545519cc8143f5a20bc684fcc68055ada",
+    "bytes": 133722,
+    "retrieved_utc": "2026-11-01T04:03:36.772722+00:00",
+    "status": "retrieved",
+    "source_role": "public source transcription or original analytical article; not current instructions",
+    "title": "zhouli_zhushu23",
+    "kind": "public_primary_text_transcription"
+  },
+  "normalization": "HTMLParser data joined by spaces, whitespace collapsed; sourceglyphs retained",
+  "rows": [
+    {
+      "label_used_in_adapter": "黃鍾",
+      "quote": "黄鍾長九寸",
+      "start_offset": 15497,
+      "end_offset": 15502,
+      "quote_sha256": "53a578afd4a2b84e41b5db4074d72de57edf6fff0b9b8ab29eb08187ebcd349d",
+      "declared_pipe_length_cun": "9",
+      "ideal_relative_frequency": "1"
+    },
+    {
+      "label_used_in_adapter": "大呂",
+      "quote": "大呂長八寸二百四十三分寸之一百四",
+      "start_offset": 15528,
+      "end_offset": 15544,
+      "quote_sha256": "869788645ad5d355e34d48969a43e959a57df7efac42499e35d1e26b4ab73ce8",
+      "declared_pipe_length_cun": "2048/243",
+      "ideal_relative_frequency": "2187/2048"
+    },
+    {
+      "label_used_in_adapter": "太簇",
+      "quote": "大蔟長八寸",
+      "start_offset": 15544,
+      "end_offset": 15549,
+      "quote_sha256": "62c2140945103012bc558b5afbbccfc2915fe02b4a8cdf6396ab45f840d1047d",
+      "declared_pipe_length_cun": "8",
+      "ideal_relative_frequency": "9/8"
+    },
+    {
+      "label_used_in_adapter": "林鍾",
+      "quote": "林鍾長六寸",
+      "start_offset": 15616,
+      "end_offset": 15621,
+      "quote_sha256": "45945aa6a185dee731842ed19521505631dca41620a400eeac66c782b09a7b03",
+      "declared_pipe_length_cun": "6",
+      "ideal_relative_frequency": "3/2"
+    },
+    {
+      "label_used_in_adapter": "南呂",
+      "quote": "南呂長五寸三分寸之一",
+      "start_offset": 15639,
+      "end_offset": 15649,
+      "quote_sha256": "9ef570586219a7ac823f0dcbab3fe4e20d7e8964f9d63201ee30ab7cc8c2fbfb",
+      "declared_pipe_length_cun": "16/3",
+      "ideal_relative_frequency": "27/16"
+    },
+    {
+      "label_used_in_adapter": "應鍾",
+      "quote": "應鍾長四寸二十七分寸之二十",
+      "start_offset": 15671,
+      "end_offset": 15684,
+      "quote_sha256": "3189472553ba969dc871cf9d68f7cc211d352dbbcd00b9583193c2792c6bd47d",
+      "declared_pipe_length_cun": "128/27",
+      "ideal_relative_frequency": "243/128"
+    },
+    {
+      "label_used_in_adapter": "姑洗",
+      "quote": "姑洗長七寸九分寸之一",
+      "start_offset": 15568,
+      "end_offset": 15578,
+      "quote_sha256": "d7b0507184abab377e054b4b20b85594b4cf59dfcd7ac9d66a4ae92f9516569b",
+      "declared_pipe_length_cun": "64/9",
+      "ideal_relative_frequency": "81/64"
+    }
+  ],
+  "carrier_and_units": "Lengths are declared in the received sourceunit寸(cun); no conversion tomodernmeters. Relativefrequency isdimensionless underoneideal proportionalityconstant andinverse-length model.",
+  "assumptions": [
+    "Use source-stated lengths inthisboundedreceivedtable.",
+    "Foroptionalacoustic lift only, positcommonideal f*length constant; realpipe endcorrection,temperature,bore,etc.are notclaimed measured oridentical."
+  ],
+  "label_concordance": "The optional test identifies received大蔟 withthe太簇 naming used inZhu/Lam andpreservesbothforms; thisdoesnotproveoriginalglyphphonology orallcross-witnessidentities."
+}

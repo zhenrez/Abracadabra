@@ -1,0 +1,41 @@
+test_all_original_rows_preserved_verbatim (test_packaging.PackagingTests.test_all_original_rows_preserved_verbatim) ... FAIL
+test_verifier_rejects_changed_output_and_path_escape (test_packaging.PackagingTests.test_verifier_rejects_changed_output_and_path_escape) ... FAIL
+test_verifier_rejects_reclassified_original_requirement (test_packaging.PackagingTests.test_verifier_rejects_reclassified_original_requirement) ... FAIL
+
+======================================================================
+FAIL: test_all_original_rows_preserved_verbatim (test_packaging.PackagingTests.test_all_original_rows_preserved_verbatim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_packaging.py", line 18, in test_all_original_rows_preserved_verbatim
+    p=self.module('package_delivery')
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_packaging.py", line 14, in module
+    self.assertIsNotNone(importlib.util.find_spec(name),'Packaging/verification implementation is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : Packaging/verification implementation is absent
+
+======================================================================
+FAIL: test_verifier_rejects_changed_output_and_path_escape (test_packaging.PackagingTests.test_verifier_rejects_changed_output_and_path_escape)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_packaging.py", line 27, in test_verifier_rejects_changed_output_and_path_escape
+    v=self.module('verify_delivery')
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_packaging.py", line 14, in module
+    self.assertIsNotNone(importlib.util.find_spec(name),'Packaging/verification implementation is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : Packaging/verification implementation is absent
+
+======================================================================
+FAIL: test_verifier_rejects_reclassified_original_requirement (test_packaging.PackagingTests.test_verifier_rejects_reclassified_original_requirement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_packaging.py", line 34, in test_verifier_rejects_reclassified_original_requirement
+    p=self.module('package_delivery');v=self.module('verify_delivery')
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_packaging.py", line 14, in module
+    self.assertIsNotNone(importlib.util.find_spec(name),'Packaging/verification implementation is absent')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : Packaging/verification implementation is absent
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.011s
+
+FAILED (failures=3)

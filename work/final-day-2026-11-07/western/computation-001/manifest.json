@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "claim_id": "G2_WESTERN_NATIVE_CORE",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-B",
+    "work\\final-day-2026-11-07\\western\\run_native.py",
+    "--output",
+    "work\\final-day-2026-11-07\\western\\computation-001\\native-results.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.13.0"
+      },
+      {
+        "name": "computation Python",
+        "version": "3.13.0"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26340-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "All seven configured Pythagorean modes validate from actual source-bound degree observations; inverse exact transport, pitch-class/register recovery and rational nonclosure benchmarks hold on stated finite grid",
+    "coefficient_domain": "positive rational relative frequencies, rational time, integer diatonic/chromatic coordinates",
+    "conventions": "Ratios are relative frequency unless explicitly typed as string lengths; modern chromatic labels are not equal-tempered frequency values",
+    "inputs": [
+      "seven explicit Pythagorean mode fixtures",
+      "17 registers times5 within-octave ratios times3exactintervals"
+    ],
+    "bounds": {
+      "register_min": -8,
+      "register_max": 8,
+      "within_octave_ratios": 5,
+      "intervals": 3,
+      "finite_inverse_cases": 255,
+      "modes": 7
+    },
+    "non_claims": [
+      "Does not establish every historical Western tuning, Fludd/Kepler or manuscript interpretation",
+      "Does not infer cross-orientation mappings or a historical root",
+      "MDL not evaluated without actual coding scheme"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-11-07T15:38:39.061005+00:00",
+    "runtime_seconds": 4.009829,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 90.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "work/final-day-2026-11-07/western/western_model.py",
+    "work/final-day-2026-11-07/western/test_western_model.py",
+    "work/final-day-2026-11-07/western/run_native.py",
+    "work/final-day-2026-11-07/western/source-profiles.json",
+    "work/final-day-2026-11-07/western/reuse-manifest.json",
+    "work/unit002/western.py",
+    "work/unit002/test_western.py",
+    "work/unit001/contracts.py",
+    "work/unit001/evidence.py",
+    "work/four-orientations/native_models.py",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Sherer_The_Completed_Harmony.pdf",
+    "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Robert Fludd Philosophia Moyasaica 1638.jpg",
+    "work/final-day-2026-11-07/western/sources/ratio-mode-extraction.json",
+    "work/final-day-2026-11-07/western/sources/web-source-check.json"
+  ],
+  "input_artifacts": [
+    {
+      "path": "work/final-day-2026-11-07/western/western_model.py",
+      "sha256": "e6f21237630566a24153a66d0ad7fb63b123d8353b074ff011f45604150923cb",
+      "sha256_after": "e6f21237630566a24153a66d0ad7fb63b123d8353b074ff011f45604150923cb"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/test_western_model.py",
+      "sha256": "43281d41a7ef88819eaeb6c50fa056e0ebaf7f3e7d93f8f4442b83c6e3cb4000",
+      "sha256_after": "43281d41a7ef88819eaeb6c50fa056e0ebaf7f3e7d93f8f4442b83c6e3cb4000"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/run_native.py",
+      "sha256": "42806fb3cc1bd970b4b6cd91ac990142881547114b12927d55bae29559bf420a",
+      "sha256_after": "42806fb3cc1bd970b4b6cd91ac990142881547114b12927d55bae29559bf420a"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/source-profiles.json",
+      "sha256": "9a01738fb91f9d9cb97870372cd97168abe5a30d94ba478fbe2685f9b0f2f707",
+      "sha256_after": "9a01738fb91f9d9cb97870372cd97168abe5a30d94ba478fbe2685f9b0f2f707"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/reuse-manifest.json",
+      "sha256": "4d59b157d43cb19f136e749df96dbf0859cc7b86d03f940f85478661811617bb",
+      "sha256_after": "4d59b157d43cb19f136e749df96dbf0859cc7b86d03f940f85478661811617bb"
+    },
+    {
+      "path": "work/unit002/western.py",
+      "sha256": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571",
+      "sha256_after": "bf72703c24450675b53047b0fe3da6c5f87788c29bd279fcf788cd36df0fd571"
+    },
+    {
+      "path": "work/unit002/test_western.py",
+      "sha256": "87955fc76f36f38bfbcc1629552fa4d4912b47a8e258575e1f1e5a285813f5e4",
+      "sha256_after": "87955fc76f36f38bfbcc1629552fa4d4912b47a8e258575e1f1e5a285813f5e4"
+    },
+    {
+      "path": "work/unit001/contracts.py",
+      "sha256": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c",
+      "sha256_after": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c"
+    },
+    {
+      "path": "work/unit001/evidence.py",
+      "sha256": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec",
+      "sha256_after": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec"
+    },
+    {
+      "path": "work/four-orientations/native_models.py",
+      "sha256": "e9085c55d560ce92a5c7afd1e9ac20a7efcbdff0506ca4cf10de4245289da217",
+      "sha256_after": "e9085c55d560ce92a5c7afd1e9ac20a7efcbdff0506ca4cf10de4245289da217"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.json",
+      "sha256": "d58a98283f6a38e48c663a216dbde289aa63c35b0d138413ec06225c4f238403",
+      "sha256_after": "d58a98283f6a38e48c663a216dbde289aa63c35b0d138413ec06225c4f238403"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Sherer_The_Completed_Harmony.pdf",
+      "sha256": "e020023a658e485f54a1baf7eebfc0ec3abf70e864d0c7ccac3396ea4099c11a",
+      "sha256_after": "e020023a658e485f54a1baf7eebfc0ec3abf70e864d0c7ccac3396ea4099c11a"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SOL_SATURN_ROSETTAS/Robert Fludd Philosophia Moyasaica 1638.jpg",
+      "sha256": "cf31f6220b417f7674269b3306f9e580a40de137a9e68628e82191c37e39dec1",
+      "sha256_after": "cf31f6220b417f7674269b3306f9e580a40de137a9e68628e82191c37e39dec1"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/sources/ratio-mode-extraction.json",
+      "sha256": "463073b4552a63b98ae72299d552b8ee6bb332674675494e1563e6e29157d8d9",
+      "sha256_after": "463073b4552a63b98ae72299d552b8ee6bb332674675494e1563e6e29157d8d9"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/sources/web-source-check.json",
+      "sha256": "cfb240962cd5e4672b65068fe0373f44fd3faa7b24a15efc37447b59cf50021d",
+      "sha256_after": "cfb240962cd5e4672b65068fe0373f44fd3faa7b24a15efc37447b59cf50021d"
+    }
+  ],
+  "output_directory": "work/final-day-2026-11-07/western/computation-001",
+  "declared_results": [
+    "work/final-day-2026-11-07/western/computation-001/native-results.json"
+  ],
+  "outputs": [
+    {
+      "path": "work/final-day-2026-11-07/western/computation-001/stdout.txt",
+      "sha256": "e03597408790aee82a0382ec4e31bd05425eef7f29e4bee71aa382eded757dfc",
+      "kind": "log"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/computation-001/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "work/final-day-2026-11-07/western/computation-001/native-results.json",
+      "sha256": "02f832eb7d619d00264e7cc1c1d27584b2706feebabe454af484bf86b0bd97ba",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

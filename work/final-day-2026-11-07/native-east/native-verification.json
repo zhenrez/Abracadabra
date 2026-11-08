@@ -1,0 +1,182 @@
+{
+  "created_utc": "2026-11-08T02:46:34.553499+00:00",
+  "run": {
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 0.22563179999997374,
+    "command": [
+      "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east",
+      "-p",
+      "test_native_east.py",
+      "-v"
+    ]
+  },
+  "observed_tests": 19,
+  "software": {
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26340-SP0",
+    "new_dependencies": []
+  },
+  "assertion_tested": "Exact native computations on the declared finite source profiles",
+  "domain": {
+    "chinese_generation_indices": "0..12",
+    "formal_contexts": 60,
+    "grama_murchanas": 14,
+    "melakarta_scales": 72,
+    "madhyama_pairs": 36
+  },
+  "validations": {
+    "chinese": {
+      "__type__": "NativeValidation",
+      "checks": [
+        [
+          "model_namespace",
+          true
+        ],
+        [
+          "profile_id",
+          true
+        ],
+        [
+          "profile_hash",
+          true
+        ],
+        [
+          "native_assignments",
+          true
+        ],
+        [
+          "source_profile",
+          true
+        ]
+      ],
+      "receipt": null,
+      "status": "VALID"
+    },
+    "grama": {
+      "__type__": "NativeValidation",
+      "checks": [
+        [
+          "model_namespace",
+          true
+        ],
+        [
+          "profile_id",
+          true
+        ],
+        [
+          "profile_hash",
+          true
+        ],
+        [
+          "native_assignments",
+          true
+        ],
+        [
+          "source_profile",
+          true
+        ]
+      ],
+      "receipt": null,
+      "status": "VALID"
+    },
+    "melakarta": {
+      "__type__": "NativeValidation",
+      "checks": [
+        [
+          "model_namespace",
+          true
+        ],
+        [
+          "profile_id",
+          true
+        ],
+        [
+          "profile_hash",
+          true
+        ],
+        [
+          "native_assignments",
+          true
+        ],
+        [
+          "source_profile",
+          true
+        ]
+      ],
+      "receipt": null,
+      "status": "VALID"
+    }
+  },
+  "inputs_before": {
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\east_models.py": "cd9eedce0efa35fc1913fc9aedf23404ebd45840eed86ce60905aeb89369ceca",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\test_native_east.py": "5005dcb07eb5ef99169a43e6b9b3c17f790ac8dfb85e1560189427f6843e40a2",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\verify_native_east.py": "b44d0092067b4bce919c29acfdf77dc0f905078f076d971d264f24e45353788b",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\source-profiles.json": "e6c857e4ef4636b83483df1f456c18f30abf95708ae53f917ee8bc3854c44e0c",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\chinese-primary-web-extraction.json": "dc36f2ffa17a38d24e44500b98aaae994d7534870d928d1932507f10fcae4171",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\institutional-source-search-extraction.json": "773273e1d515240ebf1fcca5519437fb7e067a20c95fb9fede1cd8e9a0d1a278",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\natya-primary-translation-web-extraction.json": "f4364b044cd5abc210c15284e9f77b409ea1868aca265722260d45eb181f5858",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\four-orientations\\native_models.py": "e9085c55d560ce92a5c7afd1e9ac20a7efcbdff0506ca4cf10de4245289da217",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\contracts.py": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\evidence.py": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec"
+  },
+  "inputs_after": {
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\east_models.py": "cd9eedce0efa35fc1913fc9aedf23404ebd45840eed86ce60905aeb89369ceca",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\test_native_east.py": "5005dcb07eb5ef99169a43e6b9b3c17f790ac8dfb85e1560189427f6843e40a2",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\verify_native_east.py": "b44d0092067b4bce919c29acfdf77dc0f905078f076d971d264f24e45353788b",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\source-profiles.json": "e6c857e4ef4636b83483df1f456c18f30abf95708ae53f917ee8bc3854c44e0c",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\chinese-primary-web-extraction.json": "dc36f2ffa17a38d24e44500b98aaae994d7534870d928d1932507f10fcae4171",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\institutional-source-search-extraction.json": "773273e1d515240ebf1fcca5519437fb7e067a20c95fb9fede1cd8e9a0d1a278",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\final-day-2026-11-07\\native-east\\natya-primary-translation-web-extraction.json": "f4364b044cd5abc210c15284e9f77b409ea1868aca265722260d45eb181f5858",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\four-orientations\\native_models.py": "e9085c55d560ce92a5c7afd1e9ac20a7efcbdff0506ca4cf10de4245289da217",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\contracts.py": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c",
+    "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\evidence.py": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec"
+  },
+  "outputs": {
+    "chinese-encoding.json": "dbd2f27d88d9498988655f95198bd4a9a6435f96c9946e04f29b51a3da502c7b",
+    "grama-encoding.json": "60565353d64fcaeb544fb53fb2bbbb3ddc78d349ff06e281b2c71b99e87b7688",
+    "melakarta-encoding.json": "ee1904a0e4d837c8eac83d296b3e9a6559a301214d43baf5f2ca6788bac696d5",
+    "native-results.json": "cdd3e8df12e885c35d08fc25056962dbcd577218c8cfa7a756416b49e54e47f3",
+    "native-reconstruction-receipts.json": "85b718304c782a6f9f3b36eb5342be0bf8dab9b7a5388bd3cb4cecafdeefcb9f",
+    "native-tests.log": "eead5fa57704d3d3a5698c79db0f7ae9688c664e5509e819caa0a812627e9081"
+  },
+  "legacy_reuse": {
+    "path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\four-orientations\\native_models.py",
+    "sha256": "e9085c55d560ce92a5c7afd1e9ac20a7efcbdff0506ca4cf10de4245289da217",
+    "extracted_definitions": [
+      "positive",
+      "Chinese",
+      "Indian"
+    ],
+    "module_top_level_executed": false,
+    "sefer_import_executed": false
+  },
+  "source_manifest": "source-profiles.json",
+  "source_capture_kind": "native web-tool extractions; not original HTTP/PDF/manuscript bytes",
+  "red_evidence": [
+    "red-tests.log",
+    "red-profile-immutability.log",
+    "red-numeric-type.log"
+  ],
+  "historical_claims": "NOT_VERIFIED",
+  "cross_orientation_reconstruction": "NOT_ACTIVATED",
+  "scope_verdict": {
+    "G3": "PASSED_BOUNDED_NATIVE_PROFILE",
+    "G4": "PASSED_BOUNDED_NATIVE_PROFILES"
+  },
+  "limitations": [
+    "Earliest surviving manuscript not certified",
+    "Modern sampurna grammar kept distinct from older asampurna variants",
+    "No measured22shruti intonation or inferred correspondence",
+    "Formal60contexts are not60attested instruments",
+    "No global MDL score emitted",
+    "Native model uniqueness is not historical identification",
+    "No new manual Jev inference by this worker; root strategy receipt retained separately"
+  ]
+}

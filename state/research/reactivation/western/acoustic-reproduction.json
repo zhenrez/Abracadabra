@@ -1,0 +1,48 @@
+{
+  "schema": "sunny.western-acoustic-reproduction.v1",
+  "generated_utc": "2026-11-02T22:03:35.143940+00:00",
+  "provenance": "RESEARCH_SUPPORTED_INFERENCE",
+  "case": "synthetic exposed known harmonic-sum construction; not a perception or historical test",
+  "definitions": {
+    "x": "sin(2*pi*f0*t)+0.5*sin(4*pi*f0*t)",
+    "y": "sin(2*pi*f0*t)+0.5*cos(4*pi*f0*t)",
+    "f0_hz": 440.0,
+    "sample_rate_hz": 7040.0,
+    "samples_per_period": 16,
+    "normalization": "arbitrary linear amplitude; no equal perceived loudness claim"
+  },
+  "exact": {
+    "period_seconds": "1/f0",
+    "mean_square_x": "5/8",
+    "mean_square_y": "5/8",
+    "rms_both": "sqrt(5/8)",
+    "sine_phase_delta2_x": "0 mod2pi",
+    "sine_phase_delta2_y": "pi/2 mod2pi",
+    "time_translation_rule": "phi_h -> phi_h + 2*pi*h*f0*tau; delta_h=phi_h-h*phi_1 is invariant",
+    "nontranslation_proof": "The nonzero first harmonic forces f0*tau integer when its phase agrees; then the second-harmonic phase cannot differ by pi/2.",
+    "difference_at_t0": "x(0)=0; y(0)=1/2"
+  },
+  "numeric": {
+    "mean_square_x": 0.625,
+    "mean_square_y": 0.6249999999999999,
+    "rms_x": 0.7905694150420949,
+    "rms_y": 0.7905694150420948,
+    "max_dft_magnitude_difference": 7.993605777301127e-15,
+    "max_sample_difference": 0.7071067811865476,
+    "x0": 0.0,
+    "y0": 0.5,
+    "positive_dft_magnitudes_x": {
+      "1": 7.999999999999999,
+      "2": 4.000000000000002
+    },
+    "positive_dft_magnitudes_y": {
+      "1": 7.999999999999999,
+      "2": 3.9999999999999973
+    }
+  },
+  "checks": {
+    "count": 4,
+    "passed": 4,
+    "tolerances": "mean squares1e-12; DFT-magnitude equality1e-11"
+  }
+}

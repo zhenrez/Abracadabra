@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-6b25a95cf50142b78e130d3043cd5c5f.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-calendar-assistant-2add5270af520612",
+    "kind": "source_forensics",
+    "track": "calendar",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/2add5270af520612f21eca37d32cea19580eb10e754905a751b332e369cbeb45/text.txt",
+        "sha256": "2add5270af520612f21eca37d32cea19580eb10e754905a751b332e369cbeb45",
+        "start_line": 1,
+        "end_line": 74,
+        "source_role": "assistant",
+        "source_id": "48980a19eb1b3fe9ee9380b3534cceb19da2198d3e2349d1db1f7761eab0790d",
+        "message_id": "91ef0b3a7203377890663dccd7c24657bffb17fc08965a13268da5b93ef74fd7",
+        "timestamp": "1731997475.882201",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "91ef0b3a7203377890663dccd7c24657bffb17fc08965a13268da5b93ef74fd7",
+          "native_id": "1eb7c002-13f7-4603-b934-3108c421e0c0",
+          "conversation_id": "b5c9307e6762856f74478f25efc853d8c32364f2cc3bce1769039bdfab6a232d",
+          "role": "assistant",
+          "content_sha256": "2add5270af520612f21eca37d32cea19580eb10e754905a751b332e369cbeb45",
+          "source_id": "48980a19eb1b3fe9ee9380b3534cceb19da2198d3e2349d1db1f7761eab0790d",
+          "locator": "/99/mapping/1eb7c002-13f7-4603-b934-3108c421e0c0/message",
+          "create_time": "1731997475.882201",
+          "branch_status": "current",
+          "title": "Poop Adventure Chapter Planning",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-002.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-002.json",
+          "source_sha256": "dce482bf36b1b9081a5ad914a7eee5b824d4faabb25a812303cb2cd585efc87f",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dce482bf36b1b9081a5ad914a7eee5b824d4faabb25a812303cb2cd585efc87f",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/2add5270af520612f21eca37d32cea19580eb10e754905a751b332e369cbeb45/occurrences-d4ed3a87e5d0e7be02da6397d6e46a16ce724c0074d962f41f1a730a869f6905.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "declared-time-frame",
+        "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+      },
+      {
+        "id": "calendar-counterfactual",
+        "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:31.649416+00:00"
+}

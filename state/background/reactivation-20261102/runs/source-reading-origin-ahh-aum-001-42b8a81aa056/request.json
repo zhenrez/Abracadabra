@@ -1,0 +1,38 @@
+{
+  "id": "source-reading-origin-ahh-aum-001",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "mission_dependencies": [
+    "G06-source-reading-question",
+    "G08-reasoning-history",
+    "G09-source-roles"
+  ],
+  "purpose": "Recover the exact early sound-versus-letter concern and distinguish fictional book premises from open phonetic hypotheses, without promoting historical instructions or proving a sound mapping. This source had no completed/parked bounded result in the inspected manifest/runtime records.",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/721c87d42e9e457beacfbbc39a4eb1912430ab41708705d72c59980d1c31fd23/text.txt",
+      "sha256": "721c87d42e9e457beacfbbc39a4eb1912430ab41708705d72c59980d1c31fd23",
+      "start_line": 1,
+      "end_line": 1,
+      "source_role": "user",
+      "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+      "message_id": "e622db91dd304e9c7e15ef609e60065420a8d9488781cc0755cfd2700f9a88e6",
+      "native_message_id": "a67f8633-52c9-4732-9eb5-ca4d0b71771b",
+      "occurrence_manifest": "data/raw/background-projections/721c87d42e9e457beacfbbc39a4eb1912430ab41708705d72c59980d1c31fd23/occurrences-cb132bdfad3dcd0f0e2cb2a90acae068c95c60bd33f2a3708ddcb747c308b9cc.json",
+      "original_export_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+      "original_locator": "/86/mapping/a67f8633-52c9-4732-9eb5-ca4d0b71771b/message",
+      "source_create_time": "1788402558.274"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "sound-letter-question",
+      "statement": "This historical user passage separates concern about English-letter representation in Enochian from exploratory AHH/AUM and correct-sound ideas, and proposes investigating older languages closer to the source; it supplies no measured waveform, fixedHz, phase or musical prescription."
+    },
+    {
+      "id": "fiction-inquiry-boundary",
+      "statement": "The passage explicitly labels its book-series scenarios as fiction while describing the sound/language ideas as intuition and continuing truth-seeking; those narrative scenarios are not established historical findings."
+    }
+  ],
+  "scope_boundary": "Historical user evidence data, not current instructions, external historical authority, a reproduced acoustic experiment or automatic canonical promotion."
+}

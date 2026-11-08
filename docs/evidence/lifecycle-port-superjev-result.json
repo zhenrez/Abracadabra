@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "request_sha256": "347fe0cd7341a16561a4f7fc094da3c3f2f77e994ab4c639969df3782770dd35",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "port_guard": {
+      "type": "choice",
+      "probabilities": {
+        "ownership_query_plus_tcp": 0.21,
+        "tcp_probe_fail_closed": 0.79
+      },
+      "winner": "tcp_probe_fail_closed",
+      "top_probability": 0.79,
+      "margin": 0.5800000000000001
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 546,
+    "output_tokens": 41
+  },
+  "network_calls": 1,
+  "latency_ms": 335
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "publication-exporter-verification-v1",
+  "status": "FOCUSED_TESTS_PASSED",
+  "scope": "Exporter implementation and synthetic fixtures only; no production snapshot copy or remote publication performed by this agent",
+  "test_selector": "-B -m unittest discover -s work/github-delivery-2026-11-07/export -p test_snapshot_copy.py -v",
+  "runtime_reported": "Python 3.13 on Windows",
+  "execution_provenance": {
+    "executor": "coordinating root agent",
+    "receipt_basis": "Direct collaboration messages reporting observed commands and outcomes",
+    "raw_test_output_captured_in_this_receipt": false,
+    "reason_for_parent_execution": "Child Python execution was access denied during the earlier restricted execution context"
+  },
+  "red_green_history": [
+    {
+      "stage": "RED_13",
+      "tests": 13,
+      "passed": 0,
+      "failed": 13,
+      "errors": 0,
+      "exit_code": 1,
+      "observed_reason": "All test setup checks failed because snapshot_copy.py did not exist"
+    },
+    {
+      "stage": "RED_16",
+      "tests": 16,
+      "passed": 13,
+      "failed": 2,
+      "errors": 1,
+      "exit_code": 1,
+      "observed_reasons": [
+        "Custom manifest path inside .git was accepted",
+        "A private exclusion receipt under destination was rejected only after source copying",
+        "An existing destination parent file caused FileExistsError after earlier writes"
+      ]
+    },
+    {
+      "stage": "RED_17",
+      "tests": 17,
+      "passed": 16,
+      "failed": 0,
+      "errors": 1,
+      "exit_code": 1,
+      "observed_reason": "A planned parent-file collision separated by another sorted filename reached manifest writing and raised FileExistsError"
+    },
+    {
+      "stage": "GREEN_17",
+      "tests": 17,
+      "passed": 17,
+      "failed": 0,
+      "errors": 0,
+      "exit_code": 0,
+      "elapsed_seconds_reported": 0.741,
+      "observed_result": "All focused tests passed after complete ancestor-membership prevalidation"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "work/github-delivery-2026-11-07/export/snapshot_copy.py",
+      "sha256": "04e7bdad42d729c104a4604a46089b5cd9acf9430ea4ba9d54f3af09183cd24f"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/test_snapshot_copy.py",
+      "sha256": "0c14cc0e4e90ca53db363e0b4a0cb65ef76f8e506c53c56a9ad609386e996c82"
+    },
+    {
+      "path": "work/github-delivery-2026-11-07/export/README.md",
+      "sha256": "1bc5f0f9f74fe535d3fa0f4797beae9e470fc24149cf133cd96c5804b095ca2e"
+    }
+  ],
+  "documentation_check": {
+    "executor": "signal_coverage child agent",
+    "check": "Read all three source/documentation files; reject NUL bytes and trailing whitespace",
+    "exit_code": 0,
+    "files_checked": 3,
+    "problems": 0
+  },
+  "not_verified": [
+    "No production snapshot copy executed by this agent",
+    "No physical Windows junction created; reparse guard tested by injected predicate",
+    "No concurrent writer stress test; caller must prevent simultaneous tree changes",
+    "No independent privacy, licensing, historical, or remote publication certification",
+    "No Git commit, push, pull request, or remote operation performed"
+  ]
+}

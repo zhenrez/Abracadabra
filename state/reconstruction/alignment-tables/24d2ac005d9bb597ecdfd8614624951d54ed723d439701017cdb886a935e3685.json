@@ -1,0 +1,56 @@
+{
+  "id": "alignment-table-24d2ac005d9bb597",
+  "content_sha256": "24d2ac005d9bb597ecdfd8614624951d54ed723d439701017cdb886a935e3685",
+  "headers": [
+    "Component",
+    "Effort"
+  ],
+  "rows": [
+    [
+      "YAML assertion store",
+      "4–6 hours (curation from Build Candidate 1)"
+    ],
+    [
+      "Z3 harness",
+      "2–3 hours"
+    ],
+    [
+      "sympy checks",
+      "1 hour"
+    ],
+    [
+      "math-to-alpha protocol",
+      "2–3 hours (numpy/scipy)"
+    ],
+    [
+      "Kepler extraction",
+      "1 hour"
+    ],
+    [
+      "Certificate generator",
+      "2 hours"
+    ],
+    [
+      "**Total**",
+      "**~2 working days**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 6055,
+      "line_end": 6063,
+      "char_start": 316704,
+      "char_end": 317017,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Component | Effort |\n|---|---|\n| YAML assertion store | 4–6 hours (curation from Build Candidate 1) |\n| Z3 harness | 2–3 hours |\n| sympy checks | 1 hour |\n| math-to-alpha protocol | 2–3 hours (numpy/scipy) |\n| Kepler extraction | 1 hour |\n| Certificate generator | 2 hours |\n| **Total** | **~2 working days** |\n",
+      "quote_sha256": "d5cbb67d2fe677681626711eb649a7b36899d18672854e9cce3830f82dff42e0",
+      "message_id": "586d226b24b67710db504b484d31e938bd419e76e9097d9677cfc38b21a6df57",
+      "role": "user",
+      "locator": "lines:6055-6063"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

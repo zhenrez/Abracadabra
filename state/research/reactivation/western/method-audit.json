@@ -1,0 +1,81 @@
+{
+  "schema": "sunny.western-official-method-audit.v1",
+  "created_utc": "2026-11-03T02:50:23.941961+00:00",
+  "source": {
+    "id": "W07",
+    "path": "sources/praat_bada.html",
+    "sha256": "71cfcf437c48ebfc00555806d66d9b60b8a2303fe6c16b5678bc5e6fd0dce3df"
+  },
+  "provenance": "RESEARCH_SUPPORTED_INFERENCE",
+  "execution": "Original official code inspected and its arithmetic reproduced locally with exact rational numbers. Praat was not installed or executed.",
+  "observed_discrepancies": [
+    {
+      "id": "PRAAT-BADA-COUNT",
+      "source_prose": "six-step description",
+      "source_code": "loop1through10",
+      "finding": "Inconsistent count; no inferred intended revision."
+    },
+    {
+      "id": "PRAAT-BADA-ENDPOINT",
+      "source_prose": "F2 endpoints500Hz and2500Hz",
+      "source_code_formula": "500+(2500/9)*(i-1)",
+      "exact_first_hz": "500",
+      "exact_last_hz": "3000",
+      "finding": "Code formula ends3000Hz,500Hz above prose endpoint."
+    },
+    {
+      "id": "PRAAT-BADA-DUPLICATE-TIME",
+      "points": [
+        {
+          "kind": "formant",
+          "time_seconds": "0.05",
+          "value_expression": "f2_locus"
+        },
+        {
+          "kind": "bandwidth",
+          "time_seconds": "0.05",
+          "value_expression": "100"
+        },
+        {
+          "kind": "formant",
+          "time_seconds": "0.05",
+          "value_expression": "1800"
+        },
+        {
+          "kind": "bandwidth",
+          "time_seconds": "0.05",
+          "value_expression": "140"
+        }
+      ],
+      "finding": "Second-formant frequency and bandwidth each receive two points at0.05s. Effective point-insertion behavior remains unchecked; no overwritten-point claim."
+    }
+  ],
+  "analyst_defined_variant": {
+    "purpose": "Optional exact endpoint-conforming parameter list only; not attributed to original source intention and not executed synthesis.",
+    "formula": "500+(2000/9)*(i-1),i=1..10",
+    "exact_endpoints_hz": [
+      "500",
+      "2500"
+    ],
+    "retained": "Original source bytes remain unchanged; ten-step variant does not resolve source's six-step wording or duplicate times."
+  },
+  "window_contract": {
+    "source": "W05,W06",
+    "gaussian_bandwidth_formula": "B(T)=2*sqrt(6*ln(2))/(pi*T)Hz,T in seconds",
+    "bandwidth_hz": {
+      "0.005": 259.6560668688016,
+      "0.025": 51.931213373760315,
+      "0.03": 43.276011144800265
+    },
+    "effective_formant_window_s": 0.025,
+    "actual_gaussian_duration_s": 0.05,
+    "automatic_formant_step_s": 0.00625,
+    "limit": "Step/bin density is not independent temporal samples or resolving bandwidth. Actual returned sampling can differ; no audio measured."
+  },
+  "pulse_unit_contract": {
+    "source": "W08 pp88–89",
+    "conditional_translation": "For a declared stable adjacent localperiodP, two-pulse duration=2Pseconds. If adjacentF0=1/P is defined,2P=2/F0seconds;F0 during closure may be undefined.",
+    "limit": "Corpus-specific coding convention; not a universal cutoff or phonemic/historical test."
+  },
+  "status": "source discrepancies retained; conceptual method adopted conditionally"
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"api_version\": \"agentjev.decision.v1\", \"model\": \"agentjev-v1\", \"results\": [{\"id\": \"0\", \"answers\": [{\"id\": \"wrapper_fix\", \"type\": \"choice\", \"distribution\": {\"correct_encoding\": 0.5167034864425659, \"replace_parser\": 0.32347989082336426, \"keep_failure\": 0.15981659293174744}, \"value\": \"correct_encoding\", \"description\": \"Change only the invalid encoding alias utf8-sig to supported utf-8-sig, then rerun the original real request and tests.\", \"top_probability\": 0.5167034864425659, \"margin\": 0.19322359561920166}, {\"id\": \"search_runtime\", \"type\": \"choice\", \"distribution\": {\"python_search\": 0.19890418648719788, \"new_node\": 0.3377526104450226, \"different_driver\": 0.46334320306777954}, \"value\": \"different_driver\", \"description\": \"Install a separate SQLite Node driver with verified FTS5 and retest.\", \"top_probability\": 0.46334320306777954, \"margin\": 0.12559059262275696}, {\"id\": \"runtime_route\", \"type\": \"choice\", \"distribution\": {\"local_cpu\": 0.5304200649261475, \"local_gpu\": 0.26114991307258606, \"cloud_key\": 0.20843005180358887}, \"value\": \"local_cpu\", \"description\": \"Use the verified pinned local CPU Jev now with full decision receipts; measure before acceleration.\", \"top_probability\": 0.5304200649261475, \"margin\": 0.2692701518535614}]}], \"usage\": {\"questions\": 3, \"candidate_paths\": 9, \"input_path_tokens\": 2289, \"generated_tokens\": 0, \"truncated_inputs\": 0, \"backbone_input_tokens\": 443, \"shared_prefix_questions\": 3, \"shared_prefix_states\": 1, \"wall_ms\": 1323.9}}"
+    }
+  ],
+  "isError": false
+}

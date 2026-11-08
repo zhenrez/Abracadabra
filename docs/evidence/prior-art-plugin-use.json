@@ -1,0 +1,38 @@
+{
+  "schema": "sunny.prior-art-plugin-use.v1",
+  "superjev": {
+    "status": "judged",
+    "request": "docs/evidence/prior-art-goal-jev-request.json",
+    "receipt": "docs/evidence/prior-art-goal-superjev.json",
+    "model": "jev-1.14.0",
+    "scope": "Goal/process coverage review, not validation of prior art or a research hypothesis."
+  },
+  "web_research_assistant": {
+    "version": "0.1.0",
+    "use": "Installed skill read; primary-source, source-comparison, direct-citation and uncertainty guidance applied to the prospective research contract.",
+    "runtime": "No literature search performed in this goal-correction turn."
+  },
+  "scholar_research": {
+    "version": "1.1.0",
+    "skill": "find-sources",
+    "use": "Installed skill read; concept blocks, synonyms, Boolean searches, databases, citation chaining and search logs applied to the prospective research contract.",
+    "runtime": "No scholarly search service or Paperpal service invoked."
+  },
+  "agent_reach": {
+    "version": "1.5.0",
+    "use": "Installed skill read; native-host/connected-source-first routing included in the prospective contract.",
+    "runtime": "No CLI invocation, platform setup, installation or public-source retrieval performed."
+  },
+  "dotspark": {
+    "tool": "save_dot",
+    "id": "PcNExmkMRLHEq1bd3ypY",
+    "purpose": "User's explicit prior-art and independent-formulation principle."
+  },
+  "supermemory": {
+    "id": "jT4bcHjGBmSEKavNKSXBmS",
+    "status": "done",
+    "dreamingStatus": "dreaming",
+    "normalizedContentMatches": true,
+    "contentTruncated": false
+  }
+}

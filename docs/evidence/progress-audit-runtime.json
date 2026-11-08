@@ -1,0 +1,78 @@
+{
+  "worker": {
+    "instance": "main",
+    "owned_running": false,
+    "ownership": {
+      "schema": "sunny.background-ownership.v1",
+      "instance": "main",
+      "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+      "script": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\scripts\\background_reconstruction.py",
+      "base": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\background\\main",
+      "status": "started_owned",
+      "root_identity": {
+        "pid": 38300,
+        "parent_pid": 38256,
+        "creation_utc": "2026-11-02T21:32:48.9058950Z",
+        "executable_path": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+        "command_sha256": "84507e042158adb89d8ceb93a2fe635506ec14a0582a36efd03a51de3b115b9e"
+      },
+      "processes": [
+        {
+          "pid": 38300,
+          "parent_pid": 38256,
+          "creation_utc": "2026-11-02T21:32:48.9058950Z",
+          "executable_path": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+          "command_sha256": "84507e042158adb89d8ceb93a2fe635506ec14a0582a36efd03a51de3b115b9e"
+        }
+      ],
+      "created_utc": "2026-11-02T21:32:49.3106193Z",
+      "stopped_utc": null
+    },
+    "worker": {
+      "schema": "sunny.background-worker.v1",
+      "pid": 38300,
+      "started_utc": "2026-11-02T21:32:49.594375+00:00",
+      "status": "stopped",
+      "current_job": null,
+      "completed_this_run": 17,
+      "attempted_this_run": 17,
+      "failed_this_run": 0,
+      "lease_seconds": 86400,
+      "lease_deadline_utc": "2026-11-03T01:55:21.362737+00:00",
+      "code_sha256": "68db8fe7cd7b39036fb7f53060278934b4b425c87350e947a5ba5f966746e8c1",
+      "children_started": 0,
+      "guards": {
+        "superjev_sha256": "67fb4b348be367a62213febd45bff8b5f6bd0192203ad272a91dac24a2ee23c4",
+        "proofline_sha256": "6969274e69ef803f431bdd67f3c9d372a50a93f97c1a050b8c1c3f2464e5a2b6"
+      },
+      "scope": "One process, in-process bounded Jev/Proofline. Queue-driven source forensics and exact declared operator probes; no shell, browser, or arbitrary code handler.",
+      "updated_utc": "2026-11-02T21:33:05.399404+00:00",
+      "stopped_utc": "2026-11-02T21:33:05.441250+00:00",
+      "stop_reason": "model_budget_exhausted_for_next_complete_unit",
+      "model_budget": {
+        "schema": "sunny.background-model-budget.v1",
+        "maximum_requests": 256,
+        "reserved_or_completed_requests": 255,
+        "confirmed_network_calls": 255,
+        "legacy_confirmed_requests": 10,
+        "initialized_utc": "2026-11-02T01:55:21.376797+00:00",
+        "authorization": "Root explicitly authorized initial ceiling of256 actual Jev requests for current finite unattended24h lease. Operational bound, not a scientific score. No automatic reset.",
+        "updated_utc": "2026-11-02T21:33:05.203559+00:00"
+      }
+    }
+  },
+  "agents": [
+    {
+      "name": "/root",
+      "status": "running"
+    },
+    {
+      "name": "/root/symbol_sound",
+      "status": "pending_init"
+    }
+  ],
+  "initial_checked_utc": "2026-11-03T02:08:05+00:00",
+  "reactivation_utc": "2026-11-02T21:52:39.945739+00:00",
+  "latest_research_utc": "2026-11-02T22:05:54.256546+00:00",
+  "native_plan_available": false
+}

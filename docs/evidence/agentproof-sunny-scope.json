@@ -1,0 +1,14 @@
+{
+  "action": "new_read_only_child_capture_then_verify",
+  "selected_by_jev_receipt": "state/jev-receipts/000004-e9e767cab464.json",
+  "repository": "runtime/agent-jev",
+  "base_commit": "fbe1bc97c76873d08f0820adf0dead55e95d5fc6",
+  "receipt": "runtime/agent-jev/.agentproof/agent-session.json",
+  "session_id": "01a18f7b-6fa4-7521-b185-5dc73d7208b3",
+  "capture_result": "RECEIPT_CREATED",
+  "event_count": 2,
+  "observed_command_exit_codes": [1, 1],
+  "chain_head_sha256": "aab9757e76a2a76c17bf92737e668e97d025fb67f1ec73fadd2f60e8a5840469",
+  "verification": {"receipt_valid":true,"repository_result":"MATCH","checked_file_count":0,"mismatches":[]},
+  "limits": ["Separate child, not parent-chat capture", "Both observed commands failed; no runtime check success is inferred", "Zero changed-file commitments checked; MATCH does not establish source integrity", "Receipt ordering/integrity only, no truth, quality, completeness, identity or independent timestamp"]
+}

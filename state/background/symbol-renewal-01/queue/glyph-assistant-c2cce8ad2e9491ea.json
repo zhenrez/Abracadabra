@@ -1,0 +1,54 @@
+{
+  "id": "glyph-assistant-c2cce8ad2e9491ea",
+  "kind": "source_forensics",
+  "track": "glyph",
+  "schema": "sunny.background-job.v1",
+  "sources": [
+    {
+      "path": "data/raw/background-projections/c2cce8ad2e9491ea06ee4934f99ea844734b0df1747ad1dd06826de4da3dae22/text.txt",
+      "sha256": "c2cce8ad2e9491ea06ee4934f99ea844734b0df1747ad1dd06826de4da3dae22",
+      "start_line": 1,
+      "end_line": 17,
+      "source_role": "assistant",
+      "source_id": "aa97e163b1d020a82c3a1b96680dd86c9167942d959c80c298593f2a73cd92dc",
+      "message_id": "6cf227cbbf1ad3e994fdcafdcba973b8523eec5ed6911b92b9943da2cae96389",
+      "origin": {
+        "id": "6cf227cbbf1ad3e994fdcafdcba973b8523eec5ed6911b92b9943da2cae96389",
+        "native_id": "f0a83ff6-c94a-4465-93e1-36cb71fd3671",
+        "conversation_id": "ba12f9f1f202494c6e36810bba90532834c3ea41c70bc60b5e3dad14c4980e51",
+        "role": "assistant",
+        "content_sha256": "c2cce8ad2e9491ea06ee4934f99ea844734b0df1747ad1dd06826de4da3dae22",
+        "source_id": "aa97e163b1d020a82c3a1b96680dd86c9167942d959c80c298593f2a73cd92dc",
+        "locator": "/3/mapping/f0a83ff6-c94a-4465-93e1-36cb71fd3671/message",
+        "create_time": "1719759169.963854",
+        "branch_status": "alternate",
+        "title": "Rhyming Words: America and Others",
+        "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-009.json",
+        "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-009.json",
+        "source_sha256": "1dc517525a8e54ddef5960d64111406a2d31da7a473f0700568a4c4f64c0a2c0",
+        "source_kind": "supplied_archive_member",
+        "original_source_integrity": {
+          "path_exists": true,
+          "actual_sha256": "1dc517525a8e54ddef5960d64111406a2d31da7a473f0700568a4c4f64c0a2c0",
+          "matches_recorded_source_hash": true
+        }
+      },
+      "all_duplicate_occurrences_manifest": "data/raw/background-projections/c2cce8ad2e9491ea06ee4934f99ea844734b0df1747ad1dd06826de4da3dae22/occurrences-eb2e9b3b262434c91ef5d71142014c1043af31af7fb368c0f6c6d8092b2c981d.json"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "explicit-sound-symbol-map",
+      "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+    },
+    {
+      "id": "glyph-sound-distinction",
+      "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+    }
+  ],
+  "compare_sources": false,
+  "bounds": {
+    "max_source_characters": 16000,
+    "max_sources": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "sunny.hierarchy-ui-visual-inspection.v2",
+  "html_sha256": "5e90ad1d419b059cec991e4d49a4923e24967d6f7fe0b10c37ad1bbad168ebf4",
+  "actual_images_inspected": true,
+  "images": [
+    {
+      "path": "docs/evidence/hierarchy-atlas-desktop.png",
+      "sha256": "99ee879c3802a4a407167d6d269d8e2731e10f9e838f5f7f50f433231fb568ef"
+    },
+    {
+      "path": "docs/evidence/hierarchy-atlas-mobile.png",
+      "sha256": "2ae8b130e9a30337bbd04b772f3d3a31302dbf58894b6b546c2a79aa185b1183"
+    }
+  ],
+  "observations": [
+    "Desktop1440px: warm light split hierarchy/source layout is readable; independent controls, unit-aware census, I.1/angelic/archonic witness roots and selected Chinese record remain distinct.",
+    "The recorded screenshot is a post-test state: Chinese detail is explicitly marked outside the current upper/legion filters; no cross-system join is asserted.",
+    "Mobile390px: witness uses full row, selectors and long native labels wrap without horizontal overflow, hierarchy remains independently scrollable."
+  ],
+  "limits": [
+    "No human screen-reader session or formal WCAG certification.",
+    "Not a visual or source-truth audit of every entity."
+  ]
+}

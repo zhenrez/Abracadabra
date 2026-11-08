@@ -1,0 +1,52 @@
+{
+  "id": "alignment-table-aa900f7aec75df6a",
+  "content_sha256": "aa900f7aec75df6a21daa9f90f47d8a4acfb55c12dbe3e45a666d92df73c23ee",
+  "headers": [
+    "Involution",
+    "Preserves even-vertex triads?"
+  ],
+  "rows": [
+    [
+      "Identity",
+      "Yes (trivially)"
+    ],
+    [
+      "Flip coordinates 1,2",
+      "**Yes**"
+    ],
+    [
+      "Flip coordinates 1,3",
+      "**Yes**"
+    ],
+    [
+      "Flip coordinates 2,3",
+      "**Yes**"
+    ],
+    [
+      "Central inversion (flip 1,2,3)",
+      "**No** — changes parity"
+    ],
+    [
+      "Flip one coordinate",
+      "**No** — changes parity"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 14982,
+      "line_end": 14989,
+      "char_start": 716654,
+      "char_end": 716958,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Involution | Preserves even-vertex triads? |\n|---|---|\n| Identity | Yes (trivially) |\n| Flip coordinates 1,2 | **Yes** |\n| Flip coordinates 1,3 | **Yes** |\n| Flip coordinates 2,3 | **Yes** |\n| Central inversion (flip 1,2,3) | **No** — changes parity |\n| Flip one coordinate | **No** — changes parity |\n",
+      "quote_sha256": "a0de7ea0adf84cc1e43c05c4ffe1af978afb34d313631433fc746a21a7d55106",
+      "message_id": "ed5b3a4d4c603aae5759d2c2c6d8ea8a49cc1e5e9a92c6b0ed52eb2c16e89bfb",
+      "role": "user",
+      "locator": "lines:14982-14989"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

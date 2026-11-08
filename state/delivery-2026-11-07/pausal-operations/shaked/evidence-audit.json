@@ -1,0 +1,123 @@
+{
+  "records": [
+    {
+      "schema_version": 1,
+      "record_type": "source_inspection",
+      "source_id": "shaked-two-URL-Exa-delivered-text",
+      "source_locator": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\delivery-2026-11-07\\pausal-operations\\shaked\\known-url-fetches.json#/content/0/text",
+      "source_sha256_utf8": "3bd4c5b54cff2de29824f2199e03d20450916fb479750dbc7a38af0f16513ea9",
+      "index_unit": "utf16",
+      "objective": {
+        "objective_id": "SHAKED-684.14",
+        "question": "Is the exact literal present in this delivered connector text?"
+      },
+      "status": "not_located",
+      "assessment_kind": "literal_quote_search",
+      "assessed_ranges_utf16": [
+        [
+          0,
+          12748
+        ]
+      ],
+      "unassessed_ranges_utf16": [],
+      "passages": [],
+      "searched_quote": "684.14",
+      "factual_support": "not_assessed"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "source_inspection",
+      "source_id": "shaked-two-URL-Exa-delivered-text",
+      "source_locator": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\delivery-2026-11-07\\pausal-operations\\shaked\\known-url-fetches.json#/content/0/text",
+      "source_sha256_utf8": "3bd4c5b54cff2de29824f2199e03d20450916fb479750dbc7a38af0f16513ea9",
+      "index_unit": "utf16",
+      "objective": {
+        "objective_id": "SHAKED-שומורו",
+        "question": "Is the exact literal present in this delivered connector text?"
+      },
+      "status": "not_located",
+      "assessment_kind": "literal_quote_search",
+      "assessed_ranges_utf16": [
+        [
+          0,
+          12748
+        ]
+      ],
+      "unassessed_ranges_utf16": [],
+      "passages": [],
+      "searched_quote": "שומורו",
+      "factual_support": "not_assessed"
+    },
+    {
+      "schema_version": 1,
+      "record_type": "source_inspection",
+      "source_id": "shaked-two-URL-Exa-delivered-text",
+      "source_locator": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\delivery-2026-11-07\\pausal-operations\\shaked\\known-url-fetches.json#/content/0/text",
+      "source_sha256_utf8": "3bd4c5b54cff2de29824f2199e03d20450916fb479750dbc7a38af0f16513ea9",
+      "index_unit": "utf16",
+      "objective": {
+        "objective_id": "SHAKED-213",
+        "question": "Is the exact literal present in this delivered connector text?"
+      },
+      "status": "not_located",
+      "assessment_kind": "literal_quote_search",
+      "assessed_ranges_utf16": [
+        [
+          0,
+          12748
+        ]
+      ],
+      "unassessed_ranges_utf16": [],
+      "passages": [],
+      "searched_quote": "213",
+      "factual_support": "not_assessed"
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "source_id": "shaked-two-URL-Exa-delivered-text",
+    "source_sha256_utf8": "3bd4c5b54cff2de29824f2199e03d20450916fb479750dbc7a38af0f16513ea9",
+    "validated_records": 3,
+    "records": [
+      {
+        "status": "not_located",
+        "assessment_kind": "literal_quote_search",
+        "coverage": {
+          "assessed_utf16_units": 12748,
+          "source_utf16_units": 12748,
+          "source_fraction": 1.0,
+          "interpretation": "Text coverage only; this is not factual support or research completeness."
+        },
+        "factual_support": "not_assessed"
+      },
+      {
+        "status": "not_located",
+        "assessment_kind": "literal_quote_search",
+        "coverage": {
+          "assessed_utf16_units": 12748,
+          "source_utf16_units": 12748,
+          "source_fraction": 1.0,
+          "interpretation": "Text coverage only; this is not factual support or research completeness."
+        },
+        "factual_support": "not_assessed"
+      },
+      {
+        "status": "not_located",
+        "assessment_kind": "literal_quote_search",
+        "coverage": {
+          "assessed_utf16_units": 12748,
+          "source_utf16_units": 12748,
+          "source_fraction": 1.0,
+          "interpretation": "Text coverage only; this is not factual support or research completeness."
+        },
+        "factual_support": "not_assessed"
+      }
+    ],
+    "factual_support": "not_assessed",
+    "interpretation": "Validation checks snapshot consistency and original text coordinates. A literal match does not establish factual support; not_located, failed, skipped, deferred, and unassessed source do not establish factual absence. Inspection-record coverage is supplied by the caller, not independently observed."
+  },
+  "helper_path": "C:\\Users\\Brend\\.codex\\plugins\\cache\\created-by-me-remote\\prumo-jev-research\\0.1.1\\skills\\evidence-audit\\scripts\\evidence_ledger.py",
+  "helper_sha256": "fa173426ff42088d7a37de6efc4a12f7afc49c7d51e6d7f8475862cbba9ed956",
+  "boundary": "Literal search and snapshot consistency only; not_located applies to delivered text, not original article."
+}

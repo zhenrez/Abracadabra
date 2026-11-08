@@ -1,0 +1,63 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "selection-c079c98c6bd841de839d0ef2a71a1fb5.json",
+  "reason": "The actual earlier gate chose defer0.53 rather than this case0.47. Preserve that decision; do not retry it automatically with the new backlog.",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "bridge-scope-literal-claims-003",
+    "kind": "source_forensics",
+    "authority": "User explicit background instruction; root delegated bounded native source case.",
+    "sources": [
+      {
+        "path": "data/raw/archive/SUN_Universal_Archive/Library/HISTORICAL_MUSIC/ChatGPT-Mapping Primordials to Music-20261018-0133.md",
+        "start_line": 1622,
+        "end_line": 1629,
+        "source_role": "user",
+        "message_id": "36a500349db9ac3ea2eb25c560c38585b1dacdde211d0b0e1a28c44456b89181",
+        "timestamp": "2026-10-11 18:06:38",
+        "timestamp_precision": "literal display second; timezone unknown",
+        "sha256": "e580b2273a14581f3f940799becac774fc99e1ffa72fd82f160c51712b742faf"
+      },
+      {
+        "path": "data/raw/reconstruction-recovered/11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707/ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+        "start_line": 25544,
+        "end_line": 25549,
+        "source_role": "user",
+        "message_id": "b880b5e85e31204ec81f0c5cd266b1705e1f201cc07a6ff207503edeb49f5929",
+        "timestamp": "2026-10-18 11:18:12",
+        "timestamp_precision": "literal display second; timezone unknown",
+        "sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707"
+      },
+      {
+        "path": "data/raw/directions/semantics-2026-11-01/a1436d7d36068893d7f2825f7937d9a313a39cee830a8ef9c3946ddd928385b4/user-message.txt",
+        "start_line": 5,
+        "end_line": 25,
+        "source_role": "current native user",
+        "native_record_sha256": "a1436d7d36068893d7f2825f7937d9a313a39cee830a8ef9c3946ddd928385b4",
+        "timestamp": "2026-11-02T01:31:01.038Z",
+        "timestamp_precision": "native UTC millisecond",
+        "sha256": "092bdca107bbbdd19ea5c5121ec145c5bf76fbb1604331e772e37f0cb2e67c91"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "oct11-control-request",
+        "statement": "In the October 11, 2026 18:06:38 user turn, the user reports using musical structure without Completed Harmony/TOL and asks for a math/music-only rebuilding pass with attributions set aside."
+      },
+      {
+        "id": "oct18-bridge-request",
+        "statement": "In the October 18, 2026 11:18:12 user turn, the user explicitly requests applying the Kepler/Fludd monochord logic from the Completed Harmony paper."
+      },
+      {
+        "id": "latest-context-distinction",
+        "statement": "The latest native user correction says prior models repeatedly lost the distinction between considering/utilizing the Western-and-Chinese music plus Completed Harmony/TOL bridge and holding the bridge aside while testing a new theory."
+      }
+    ],
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 3
+    },
+    "review_boundary": "Narrow literal-claim follow-up, not a retry of the broader previous hypotheses. Earlier individual and joint insufficient/refines results stay preserved. These quotations do not define the full mathematical bridge or prove a permanent deletion/mandatory application rule.",
+    "followup_of": "bridge-scope-joint-comparison-002"
+  }
+}

@@ -1,0 +1,19 @@
+{
+ "state":{
+  "goal":"Apply actual AgentProof, Proofline and MightShape guardrails to SUNNY, with Jev directing choices.",
+  "facts":"AgentProof can capture only a NEW Codex CLI child session. It requires a trusted Git root, read-only or workspace-write scope, max20MiBfile/100MiBtotal, and cannot prove truth/completeness or capture this chat. SUNNYworkspace has generated2GBdatabase and1.2GBmodel; upstream pinnedruntime is a separateGit repo. Root source files small. Real user instruction and live Jev receipts exist. Proofline schema requires confidence numeric; no research confidence should be invented.",
+  "constraints":"No private logs uploaded to external model, no signing/anchoring, no bypassing profile checks, no retroactive Jev authorship claim. Capture's CLI model is writer/executor only; Jev remains decision authority."
+ },
+ "questions":[
+  {"id":"agentproof_scope","type":"choice","question":"Which concrete AgentProof guardrail scope should execute now?","options":{
+   "source_review_repo":"Create a clearly scoped local review Git repository containing exact copies+hashes of SUNNY source/tool files, then capture a new read-only child that verifies those hashes and runs predetermined checks without making domain decisions.",
+   "upstream_runtime":"Capture a new read-only child in the pinned upstream runtimeGit repository, verifying runtime source/hash manifests only; keep its narrow scope explicit.",
+   "defer_capture":"Leave capture unexecuted and only document the current-session limitation until full SUNNY integration is finished."
+  }},
+  {"id":"proofline_scope","type":"choice","question":"What project-specific claim can Proofline verify without inventing mathematical confidence?","options":{
+   "integrity_only":"Package the concrete engineering decision to require actual live Jev gates, citing exact user instruction bytes and actual tool/model/receipt versions; state deterministic source-integrity confidence separately from unknown research correctness.",
+   "domain_confidence":"Assign a numeric confidence to the complete SUNNY musical law despite no held-out results.",
+   "fixture_only":"Execute only the packaged synthetic fixture and leave project provenance unverified."
+  }}
+ ]
+}

@@ -1,0 +1,848 @@
+--- PDF page 3; printed None ---
+Abstract of the Dissertation
+Production and perception of glottal stops
+by
+Marc Garellek
+Doctor of Philosophy in Linguistics
+University of California, Los Angeles, 2013
+Professor Patricia A. Keating, Chair
+This dissertation investigates how glottal stops are produced and perceived, and why they
+occur so frequently before word-initial vowels in languages of the world. Specifically, the
+goal of the production chapter was to determine whether glottal stops are truly glottal
+sounds. High-speed imaging of glottal stops uttered by five phonetically-trained English
+speakers was obtained using trans-oral videoendoscopy. When produced as plosives, glottal
+stops always had some form of vocal fold incursion, though full glottal closure is not always
+observed. Moreover, glottalstopswereusually–butnotalways–accompaniedbyventricular
+incursion. Glottal stops are thus necessarily glottal but not necessarily ventricular sounds.
+The timing of ventricular incursion suggests that it may be used to sustain, rather than
+produce, glottal closure.
+The specific goal of the perception study was to determine whether glottal stops are per-
+ceived distinctly from phrase-final creak, which shares similar acoustic features to glottaliza-
+tion. Sixteen English listeners were asked to identify words with glottal stops as allophones
+of /t/, e.g. button, atlas, and dent. They were also presented with near-minimal pairs with
+no glottal stop, e.g. bun, Alice, and den. The target words either had creak or no creak.
+The results indicate that words with glottal stop allophones are more accurately and more
+confidently identified when no creak is present, when the glottal stop is acoustically longer,
+and/or when the glottal stop is word-medial. Moreover, glottal stops are more accurately
+identified in creak when they occur in button-type words, compared with worse identification
+ii
+--- PDF page 4; printed None ---
+in atlas- and dent-type words. For words with no glottal stops (e.g., bun, Alice, and den),
+the presence of creak does not render them confusable with words with glottal allophones,
+except for den-type words where word-final creak is sometimes mistaken for a glottal stop.
+Thus, glottal stops are generally harder to detect in creak, but are mutually confusable with
+creak only word-finally after nasals.
+To determine why and when glottal stops occur word-initially, the occurrence of word-
+initial full glottal stops in an English corpus was analyzed using logistic mixed-effects regres-
+sion modeling. Prominence and phrasing are overwhelmingly the most important factors in
+predicting full glottal stop occurrence in English. Moreover, prominent word-initial vowels
+that are not preceded by full glottal stops show acoustic correlates of glottal constriction,
+whereas non-prominent phrase-initial vowels do not. Rather, phrase-initial voicing (even
+for sonorants) is less regular, but in a manner inconsistent with glottal constriction. These
+findings were subsequently confirmed using articulatory measures from electroglottography,
+and extended to Spanish. Based on the results, a prominence-driven theory of word-initial
+glottalization is proposed and motivated, with higher phrasal domains responsible only for
+the relative strength of the glottal stop gesture. Glottalization before word-initial vowels
+is thus a marker of prominence and is used amplify cues to prominence when they would
+otherwise be weakened.
+iii
+--- PDF page 25; printed 4 ---
+why word-initial glottal stops occur. Chapter 6 contains a general discussion and conclusions
+on the production and perception of glottal stops, with ideas for subsequent research.
+1.3 Definitions of terms used in the dissertation
+Before I proceed to a survey of relevant literature on glottal stops (Chapter 2), some termi-
+nological clarifications should be made.
+1.3.1 Glottal stop
+A glottal stop generally refers to a stop made in the larynx by the abrupt and sustained
+closure of the vocal folds. The closure is called ‘sustained’ to distinguish the glottal stop
+gesture from the periodic closing of the vocal folds during phonation (see Section 2.2.3). In
+this dissertation, a glottal stop refers to an abstract articulatory target (either phonemic or
+allophonic). Glottal stops may be phonetically realized in different ways, as will be discussed
+in detail below, and so in this work a glottal stop does not represent a single articulation (i.e.
+a phone) but rather a set of articulations ranging from laryngealized phonation, to sustained
+glottal closure (with or without additional supraglottal constriction). On the other hand,
+when referring to actual phones, I will make use of the following terms:
+• ‘Full glottal stop’ = a glottal stop produced with full, sustained vocal fold closure: [P]
+• ‘Incomplete glottal stop’ = a glottal stop realized with incomplete vocal fold closure
+(i.e., as laryngealized voice): [P]
+fl
+• ‘Laryngealization’ = either [P], or the kind of voice quality which involves increased
+fl
+vocal fold constriction usually (though not in this work) transcribed with [ ] (see Sec-
+˜
+tion 2.1.2)
+• ‘Creak’ = irregular voice quality that does not necessarily involve increased vocal fold
+constriction,suchasphrase-finalcreak(Slifka,2000,2006): [ ]. Notethatthisdefinition
+˜
+4
+--- PDF page 26; printed 5 ---
+differs from that given by Laver (1980) and Ladefoged & Maddieson (1996), for whom
+‘creak’ and laryngealization are largely synonymous, with both characterized by an
+increase in glottal closure (see Laver (1980, p. 126)).
+Note that I make a distinction between two types of irregular voicing: laryngealization
+and creak. This is because they differ articulatorily (Slifka, 2006), and because incomplete
+glottal stops are expected to have voicing that is similar articulatorily and acoustically to
+laryngealization, but not necessarily to creak.
+1.3.2 Glottalization
+Another source of confusion in the literature lies with the definition of glottalization. From
+an articulatory point of view, glottalization refers strictly to the addition of an articulatory
+glottal stop (i.e., full and sustained vocal fold adduction or [P]). The addition of a glottal
+articulation to oral stops is also known as ‘glottal reinforcement’ (Higginbottom, 1964; Esling
+et al., 2005), especially for English. However, these sounds are also referred to simply as
+‘glottalized.’ Othersoundscanalsohaveasecondaryglottalarticulation, includingsonorants
+(Esling et al., 2005; Bird, Caldecott, Campbell, Gick & Shaw, 2008) and clicks (Miller,
+2007). Strictly speaking, glottalization refers only to complete vocal fold adduction that
+may accompany a sound as a secondary articulation, and thus makes no reference to the
+phonation of voiced segments adjacent to the glottal stop, which are often laryngealized as
+the vocal folds prepare for glottal closure. However, such laryngealized phonation is also
+often called glottalization, especially when referring to its acoustic output (Huffman, 2005).
+Certain researchers have found it useful to have a term that covers phonetic effects seen for
+both glottal closure and laryngealized phonation, regardless of the target gesture for which
+the speaker aims (Henton, Ladefoged & Maddieson, 1992; Michaud, 2004; Brunelle, Nguyễn
+& Nguyễn, 2010). In this dissertation, I too use the term ‘glottalization’ when referring to
+the articulatory or acoustic effects on targets of either glottal stop or laryngealization.
+5
+--- PDF page 27; printed 6 ---
+1.3.3 Glottal stop vs. glottal attack
+Researchers, especially those who investigate the effects of different singing styles on the
+voice, have studied different methods of voicing initiation, which is often termed glottal or
+vocal attack (Moore, 1938; Gay, Hirose, Strome & Sawashima, 1972; Hirose & Gay, 1973;
+Cooke, Ludlow, Hallett & Selbie, 1997; Baken & Orlikoff, 2000; Orlikoff, Deliyski, Baken &
+Watson, 2009; Freeman, Woo, Saxman & Murry, 2012). In these works, voicing initiation
+that is preceded by complete adduction of the vocal folds (and typically ventricular adduc-
+tion) is often referred to as a hard glottal attack. Thus, a hard glottal attack can be thought
+of as an articulatorily equivalent to a glottal stop, though the latter term is more common
+in linguistics than in singing or speech science. Note also that by definition a hard glottal
+attack is a form of voicing initiation, whereas a glottal stop is often used as a form of voicing
+cessation, and is not always tied to the beginning of an utterance.1
+In sum, the main definitions to keep in mind are the following:
+1. glottal stop = target articulation, may be ‘full’ [P] or ‘incomplete’ [P]
+fl
+2. laryngealized phonation (or laryngealization) = in this dissertation, either the voicing
+during [P] or when referring to certain contrastive/allophonic voice qualities in other
+fl
+languages
+3. glottalization = glottal stop or laryngealization from a nearby glottal stop
+4. glottal attack = phonation onset (will only be used when citing sources which use the
+term)
+1Other common forms of glottal attack include the breathy attack (articulatory equivalent to [h]), and
+a normal (sometimes called a soft or simultaneous) attack, which is articulatorily equivalent to a state of
+prephonation where the vocal folds are approximated and stiffened slightly (Harris, 2001), as is common for
+an unaspirated stop. Other types of attack in singing include the staccato and German gestures (Freeman
+et al., 2012).
+6
+--- PDF page 30; printed 9 ---
+Further,apharyngealizedglottalplosive/PQ/isattestedintwolanguagesinthedatabase,
+Rutul (East Caucasian, Caucasus) and Tseshaht (also known as Nuuchahnulth). A glottal
+stop may also be labialized (/Pw/), as is found in only one language in UPSID, Kabardian
+(West Caucasian, Caucasus). The presence of one of these rare glottal plosives (either of
+/P, PQ, Pw/) implies the presence of a plain /P/, at least for the languages included in that
+database.
+Phonologically, glottalstopsandotherformsofglottalizationhavebeengroupedtogether
+using the feature [+constricted glottis] (Halle & Stevens, 1971) or [glottalization] (Lombardi,
+1991), though for a more recent proposal based on visual observation, see Moisik & Esling
+(2011). Additionally, the glottal stop (and the epiglottal stop) need not be specified for
+nasality (unlike other stops), since the airstream meets the glottal closure before the velo-
+pharyngeal port. Thus, in the case of Nenets, although the ‘nasalized’ glottal stop might be
+so called because phonologically it patterns with nasals, during glottal closure there is no air
+flowing through the nose. The fact that glottal stops are unspecified for nasality is evident in
+some language alternations, e.g. in the Maipuran language Terena of Brazil (Bendor-Samuel,
+1970; see also discussion by Laver, 1994, p. 212).
+Glottal stops are also often considered placeless phonologically, because they involve
+little or no constriction in the vocal tract. However, in some Semitic languages they pattern
+with the class of pharyngeals (McCarthy, 1994). Possible phonetic motivation for this is
+discussed in Section 2.2.4. For further information regarding the phonological patterning of
+glottal stops, see Lombardi (2002) and Borroff (2007).
+2.1.1 Glottal stop vs. zero
+Perhaps because of the difficulty in producing regular phonation phrase-initially, it is quite
+rare for languages to have a contrast between /P/ (which is likely to be realized with irregular
+voicing) and ∅ in onsets. Languages in which /#PV/ contrasts with /#V/ include some
+Malayo-Polynesian languages, e.g. Tongan, Tahitian, and Samoan, and Harris (2001) cites
+9
+--- PDF page 31; printed 10 ---
+two other such languages, both also Malayo-Polynesian: Nga’da and Mungaba Rennellese.
+Additionally,thiscontrastissaidtobemarginalinsomeMayanlanguages: e.g.seeLichtman,
+Chang, Cramer, del Rio, Hallett, Huensch & Morales (2010) for Q’anjob’al.
+Thus, many but not all languages allow for glottal stops to be inserted at the onset
+of vowel-initial words. The fact that glottal stop insertion before vowels is so widespread
+suggests that a common feature of language or speech is responsible for its occurrence.
+Phonologically, glottal stop insertion can be motivated by the cross-linguistic tendency for a
+syllable to begin with an onset (see, e.g., Lombardi (2002)), though such accounts normally
+do not model the optionality of glottal stop insertion.
+2.1.2 Glottal stop vs. laryngealization
+Phonemic laryngealized phonation is often thought to be derived historically from glottal
+stop lenition, e.g. in the Popolocan language Mazatec, spoken in Mexico (Silverman, 1995).
+Checked syllables are those ending in a glottal stop or a glottalized coda, and these often
+develop into glottalized phonation, as seems to have occurred with the ‘tense’ phonation
+in Yi languages (Kuang, 2011, 2012). White Hmong (Hmongic, East Asia) is known to
+have a lexical tone (the -m tone) that is variably described as checked or as creaky, which
+suggests that its pronunciation may vary between the two (see discussion by Ratliff, 1992, p.
+12 and references therein). Because laryngealization is often derived historically from glottal
+stops, it is rare for glottal stops to contrast synchronically with other forms of glottalization.
+Exceptions are found, however, notably in the linguistic convergence areas of Mesoamerica,
+mainland southeast Asia, and southwestern Africa, where glottal stops are licit codas and
+where some tones and/or vowels can be laryngealized. In some of these languages, such
+as Tlacolulita Zapotec and Yucatec Maya, a phonemically laryngealized vowel may even be
+followed by a glottal stop (For Tlacolulita Zapotec, see the UCLA Phonetics Lab Archive.1
+For Yucatec Maya, see Frazier (2009)). Other languages with both laryngealized vowels and
+codaglottalstopsdonotallowthetwotocooccur, e.g. intheMon-KhmerlanguageKrathing
+1http://archive.phonetics.ucla.edu/Language/ZPK/zpk.html. (Last visited April 21, 2013).
+10
+--- PDF page 32; printed 11 ---
+Chong, spoken in Thailand (Silverman, 1995, §3.1.2). The fact that laryngealization and
+glottal stops can occur even in the same syllable in some languages suggests that the two
+are produced differently, though the extent to which they differ is unknown.
+As already mentioned, laryngealized phonation can be associated with lexical tone in a
+variety of languages (see overview by Silverman (1995)). Some examples of tones with glot-
+talization include Mandarin Tone 3 (low or dipping) and sometimes Tones 2 and 4 (rising
+and falling) (Davison, 1991; Belotel-Grenié & Grenié, 1997), Hanoi Vietnamese Tones B2
+(falling with glottalization throughout), C1 (falling with slight laryngealization and breathi-
+ness)andC2(falling-risingwithglottalizationinthemiddle)(Michaud,2004;Brunelle,2009;
+Brunelle et al., 2010), Cantonese Tone 4 (mid falling) (Vance, 1977; Yu, 2010), Latvian Tone
+3 (Lehiste, 1972), and there is anecdotal evidence of laryngealization associated with the
+lowest tones in Yoruba (Yu, 2010, citing Welmers, 1973). It is not surprising that tone and
+laryngealized phonation may interact, given that both involve the intrinsic muscles of the
+larynx (see Section 2.2.2). The physiological mechanisms that are used to produce a very
+low F0 are likely to cause some laryngealization (Gerratt & Kreiman, 2001), and a very low
+F0 has similar acoustic characteristics to vocal fry (creak), a form of irregular voicing with
+a very low frequency (see Section 2.3.3).
+Besides the cases for which laryngealization is derived from a glottal stop, the converse
+is also known to occur. That is, there are known diachronic cases where a laryngealized
+tone in a language comes to be realized with full glottal adduction, a glottal stop. For the
+Hanoi Vietnamese Tones B2 and C2 as well as Latvian’s Tone 3, the laryngealization can
+be realized with complete vocal fold closure (as [P]), which suggests that those tones are
+developing glottal stop targets from laryngealization (Lehiste, 1972; Nguyen & Edmondson,
+1998; Brunelle, 2009). Indeed, Mandarin tone 3 is now often produced with full glottal
+closure in the Beijing variety, resulting in a [vPv] sequence. The Mandarin case is clearly one
+where laryngealization developed into a glottal stop, and could explain how some languages
+(e.g. Santa Ana del Valle Zapotec (Esposito, 2010)) have ‘rearticulated’ vowels produced as a
+[vPv] sequence. There is some work on Cantonese and Mandarin showing that glottalization
+11
+--- PDF page 46; printed 25 ---
+In contrast to the perception of glottal stops, the perception of creaky or laryngealized
+phonation has received more attention in the literature (Pham, 2003; Gerfen & Baker, 2005;
+Brunelle,2009;Frazier,2009;Kuang,2011;Yu&Lam,2011;Kuang,2012;Kuang&Keating,
+2012; Garellek et al., 2013). Importantly, many of these show that manipulation of the cues
+shared by glottal stops and laryngealized phonation (notably F0) improves identification
+of laryngealized phonation. For example, Gerfen & Baker (2005) replicated some of the
+methods in Hillenbrand & Houde 1996 for laryngealized vs. modal vowels in Coatzospan
+Mixtec. The authors found that, in the absence of spectral or durational differences between
+modal and laryngealized vowels, F0 and/or amplitude dips are used by listeners to perceive
+a laryngealized vowel.
+Therefore, it appears that manipulations of cues shared by both glottal stops and laryn-
+gealized phonation (dips in F0 and/or amplitude) result in similar changes in identification,
+regardless of whether participants are asked to detect glottal stops (Hillenbrand & Houde,
+1996) or laryngealized phonation (Gerfen & Baker, 2005). This suggests that glottal stops
+might be hard to detect in creaky conditions. In Chapter 4, I test this in an English word
+identification task.
+2.3.3 Acoustic studies of glottalization
+A major question I will address in this dissertation is what factors are most important in pre-
+dicting pre-vocalic ‘inserted’ glottal stop occurrence in English. In many studies, researchers
+have looked at the ‘optionality’ of glottal stop occurrence by noting the presence of irregu-
+lar pitch periods (i.e., visual evidence of laryngealized voicing), because laryngealization is
+known to be a common outcome of a glottal stop gesture. Studies looking at the occurrence
+of laryngealization derived from segmental glottal stops, glottal reinforcement, and/or creak
+include (among others) Pierrehumbert & Talkin (1992); Pierrehumbert (1995); Dilley et al.
+(1996); Hagen (1997); Docherty & Foulkes (1999); Huffman (2005) for English, Batliner,
+Burger, Johne & Kießling (1993); Kohler (1994); Hagen (1997); Pompino-Marschall & Żygis
+(2011) for German, Malécot (1975) for French, Blankenship (1997) for Navajo and Tagalog,
+25
+--- PDF page 47; printed 26 ---
+Jongenburger & van Heuven (1991) for Dutch, Huber (1988) for Swedish, Priestly (1976)
+for Slovene, and Frazier (2009) for Yucatec Maya. These studies have found that glottal
+stop realization is very variable (ranging from full stops to laryngealization), and that a
+variety of factors can predict when (non-phonemic ‘optional’) glottal stops occur. In what
+follows, I summarize some of these findings, focusing on the prevocalic, optional glottal stops
+in English, but occasionally making reference to similar findings for coda glottal stops and
+glottalization in other languages.
+2.3.3.1 Predicting non-contrastive glottalization in the acoustic signal
+Although glottalization is known to be highly variable even within-speaker, many acoustic
+studies (mostly on English) have found that the phenomenon is likelier to occur in certain
+conditions. The factors that affect the rate of occurrence of glottal stops and other forms
+of glottalization may be segmental, lexical, prosodic, or sociolinguistic in nature. Predicting
+glottal stops using quantitative measures (to assess degree instead of rate of glottalization)
+is still rarely undertaken (cf. Seid, Yegnanarayana & Rajendran (2012) for glottal stops in
+Amharic).
+Segmental factors. Glottal stops in vowel-initial words in English were found to be more
+common (when phrase-internal) after a word ending in a vowel (Dilley et al., 1996),
+consistent with studies showing increased rates of glottalization at a vowel-vowel hia-
+tus (Umeda, 1978; Pierrehumbert & Frisch, 1997). Umeda (1978) found that glottal
+stops were more likely to occur before back vowels than before front ones. Similarly,
+glottal stop insertion is also said to be more common before lower vowels in German,
+perhaps due to perceptual reasons and/or pharyngeal involvement (Brunner & Żygis,
+2011; Pompino-Marschall & Żygis, 2011). Glottal reinforcement of coda stops in En-
+glish is known to occur after vowels and approximants, though its occurrence is said
+to be optional in such environments (Cohn, 1993; Huffman, 2005). In British English,
+coda-/p/ has been found to be glottalized more often than /t/ or /k/ (Watt & Milroy,
+26
+--- PDF page 48; printed 27 ---
+1999), but this apparently differs across dialect (Wells, 1982). For American English,
+Pierrehumbert (1995) and Huffman (2005) found that glottal reinforcement was rare
+for coda-/t/ when it was followed by a stop, but it was common before sonorants.
+Coda-/p/ could be glottalized before nasals, and coda-/k/ did not undergo glottaliza-
+tion.
+Lexical factors. It has been noted that in English, less frequent vowel-initial words are
+more likely to be produced with a glottal stop (Umeda, 1978). The same study also
+found glottalization to be rare on vowel-initial function words, presumably due to the
+close juncture between such words and the lexical items they modify, though possibly
+alsoduetotheirhighfrequency. Vowel-initialcontentwordsinGermanwerealsofound
+to glottalize more frequently than function words (Pompino-Marschall & Żygis, 2011).
+Similarly, English words with a low relative frequency (frequency of the word/sum of
+the frequencies of that word and its phonological neighbors) showed increased temporal
+and spatial coarticulation of glottalized coda-stops (Garellek, 2011).
+Prosodic factors. Prosodic factors are now known to be strong predictors of glottalization,
+especially in English, as this topic has been given substantial study since the Tones
+and Break Indices (ToBI) framework for labeling prosody was established (Silverman,
+Beckman, Pitrelli, Ostendorf, Wightman, Price, Pierrehumbert & Hirschberg, 1992).
+For example, vowel-initial words are found to have increased glottalization rates un-
+der nuclear stress in English (Pierrehumbert, 1995; Dilley et al., 1996) and in German
+(Pompino-Marschall & Żygis, 2011), which could explain why content words glottalize
+more than function words. Vowel-initial glottalization in English is known to be more
+common after larger phrasal boundaries (Pierrehumbert & Talkin, 1992; Dilley et al.,
+1996). Rate of speech (possibly due to changes in phrasing) has also been shown to
+affect glottalization rates for German vowel-initial words, with less frequent glottaliza-
+tion at faster speech rates (Pompino-Marschall & Żygis, 2011).
+27
+--- PDF page 49; printed 28 ---
+In her dissertation, Epstein (2002) included quantitative measures for determining the
+degree of ‘tense’ phonation in a phrase. Her results showed that both prominent (ac-
+cented) and phrase-initial words displayed tenser phonation, though the precise timing
+of the initial tense phonation was not explored.
+Sociolinguistic factors. Likepresumablyall‘optional’phoneticevents,glottalizationrates
+areknowntovaryaccordingtocertainsociolinguisticfactors. Forexample, higherrates
+of glottalization and/or creak in American English have been found for women (Byrd,
+1994; Dilley et al., 1996; Podesva & Lee, 2010; Yuasa, 2010), though the opposite was
+found for male speakers of two varieties of British English, suggesting that there is
+probably variability in glottalization rates across sex and dialects (Henton & Bladon,
+1988). FrenchandSwedishwomenwerealsofoundtohavehigherratesofglottalization
+than men (Malécot, 1975; Huber, 1988). Social ambition and class effects have been
+reported for glottalization of coda-stops in British English (Mathisen, 1999; Mees &
+Collins, 1999). Age is also known to affect glottalization rates in Newcastle English
+(Docherty & Foulkes, 1999).
+In sum, a variety of factors have been shown to favor glottalization, but these factors
+are rarely compared one to the other, in order to determine which of them are the best
+predictors.
+2.3.3.2 Descriptive assessments of glottalization from the acoustic signal
+Early studies of glottal stop insertion rates were more phonological in nature, focusing on
+where glottal stops may occur (based on the authors’ impressions) and what grammatical
+rules could be used to account for their insertion (Higginbottom, 1964; Roach, 1973). Since
+then, most work on glottal stop insertion rates has relied on acoustic cues to the segment.
+But because glottal stops are commonly realized with incomplete closure, various studies
+have devised visual landmarks for concluding that a sound is laryngealized, and then count
+28
+--- PDF page 50; printed 29 ---
+this as a form of glottal stop (Huber, 1988; Batliner et al., 1993; Redi & Shattuck-Hufnagel,
+2001). Some studies created automated algorithms for correct classification of glottaliza-
+tion (Batliner et al., 1993; Surana, 2006; Seid et al., 2012). The classification schema called
+Münchner Schema für Laryngalisierungs-Identification (MÜSLI) by Batliner et al. (1993)
+coded glottalization/creak along six acoustic dimensions, specifying the degree of damp-
+ing and number of pitch periods in the signal, and amplitude and F0 excursions. Redi &
+Shattuck-Hufnagel (2001) narrowed down the acoustic dimensions to four distinct cases:
+1. Aperiodicity: ”successive pitch periods for which incremental changes in duration were
+discontinuous. For example, a region might display a jump from a relatively shorter
+pitch period to a longer one, then back to a short period, or it might exhibit the
+converse– a sequence of long-short-long periods.”
+2. Creak: “gradualwideninginpitchperiod,resultinginaverylowfundamentalfrequency
+with associated strong damping of pitch periods.” Also frequently called vocal fry.
+3. Diplophonia: “regions of alternation of pitch periods (in a simple repeating pattern or
+a more complex pattern) which had different amplitudes, shapes, or period lengths.”
+Also called period doubling.
+4. Glottal squeak: “an instantaneous increase in fundamental frequency which was subse-
+quently sustained for multiple periods,” usually accompanied by low amplitude.
+These four types of irregular pitch periods appear to be sufficient for describing glottalization
+as it occurs in non-pathological voice (cf. van Rossum, van As-Brooks, Hilgers & Roozen
+(2009) for pathological voice). Note that none of these criteria above identifies glottal stops
+made with complete vocal fold adduction except if they cause coarticulatory laryngealized
+voicing (though the frequency with which [P] is accompanied by laryngealized voicing is
+unknown).
+29
+--- PDF page 51; printed 30 ---
+2.3.3.3 Quantitative assessments of glottalization from the acoustic signal
+Several studies have used acoustic measures to quantify laryngealized phonation and how its
+acoustic signal might differ from normal, modal phonation. These studies are a useful ac-
+companimenttoqualitativeworkonglottalization, becauselaryngealizationvariessomewhat
+continuouslyindegree(cf.Ladefoged’scontinuummodelofphonationtypesinSection2.2.5),
+and therefore it is possible that qualitative studies overlook subtler forms of laryngealization
+within modal voice. This point is made explicitly by Epstein (2002) as motivation for using
+quantitative measures of laryngealization (in her case, via inverse filtering and LF-model
+fitting), though she still had to disregard the more extreme laryngealized tokens that were
+not fittable.
+Common measures of laryngealized phonation include spectral measures, e.g. the ampli-
+tude difference in the first and second harmonics (H1-H2, or when corrected for formants,
+H1*-H2*), the amplitude difference in the first harmonic and the harmonic nearest the first,
+second, or third formants (H1-A1 or H1*-A1*, H1-A2 or H1*-A2*, and H1-A3 or H1*-A3*),
+noise/aperiodicity measures like cepstral peak prominence (CPP) or harmonics-to-noise ra-
+tios specified over the entire spectral domain or ranges of frequencies (HNR), measures of the
+first formant bandwidth (B1), and measures of variability (e.g. measures of jitter/shimmer).
+Thespectralmeasuresarethoughttocorrelatewithvariousarticulatoryfeaturesoflaryngeal-
+ization: H1-H2 with open quotient (OQ) or contact quotient from EGG (Holmberg, Hillman,
+Perkell, Guiod & Goldman, 1995); H1-A1/2/3 with a posterior opening of the glottis and/or
+the simultaneity of ligamental closure (Stevens, 1977; Hanson, Stevens, Kuo, Chen & Slifka,
+2001); and H1-A1 or B1 in particular with posterior glottal opening (Hanson et al., 2001).
+For more details of acoustic measures of laryngealized voice quality and discussion of their
+presumedarticulatorybases, seeGordon&Ladefoged(2001);Shue, Shattuck-Hufnagel, Iseli,
+Jun, Veilleux & Alwan (2010b), and Garellek & Keating (2011). Some recent studies that
+have used such measures to describe laryngealized phonation include Blankenship (2002) for
+Mazatec, Chong, and Mpi, DiCanio (2009) for Chong, Miller (2007) for Ju|’hoansi, Wayland
+& Jongman (2003) for Khmer, Garellek & Keating (2011) for Mazatec, Andruski (2006) for
+30
+--- PDF page 52; printed 31 ---
+Green Mong, Garellek (2010) for English, Korean, and White Hmong, Kuang (2011, 2012)
+for Yi, and Esposito (2010) for Zapotec, among others. Generally, it has been found that
+laryngealized phonation shows lower values of the spectral measures (H1-H2, H1-A1/2/3)
+than modal phonation due to an increase in higher frequency energy during laryngealization
+(presumably due to abrupt closure of the vocal folds), lower values of B1, and lower values
+of CPP/HNR due to increased aperiodicity. In addition, laryngealized phonation has often
+been found to have lower overall energy, likely because the vocal folds are held close together
+and remain closed for a large portion of the glottal cycle (Fischer-Jørgensen, 1987; Gordon
+& Ladefoged, 2001). However, not all the studies have found significant differences between
+modal and laryngealized voice, or in the expected directions, which suggests that different
+types or degrees of laryngealization exist across languages and/or speakers, or that the dif-
+ferent ways of calculating these measures yield different results. Because these are measures
+of voicing, they do not provide any information on glottal stops produced with sustained
+vocal fold adduction, but they are useful for studying the effects that a glottal stop has on
+the surrounding voicing and how long such effects might last.
+In sum, there exist many studies of the acoustics of laryngealized phonation and laryn-
+gealization thought to derive from glottal stops, and such studies have found many factors
+that influence where glottal stops (usually incomplete ones) may occur. However, there is
+stilllittleunderstandingofwhenglottalstopsarerealizedwithfullclosure, andwhethertheir
+predictors differ in a systematic way from those that predict other forms of glottalization.
+This is relevant for understanding whether complete glottal stops inserted vowel-initially are
+extreme forms of glottalization, or whether they are predicted by different (lexical, segmen-
+tal) factors.
+2.4 Summary of background
+In the previous sections, I surveyed the literature on glottal stops and glottal-stop-like ges-
+tures in languages of the world, provided an overview of the relevant anatomy involved in
+31
+--- PDF page 78; printed 57 ---
+To test this, in this study English listeners were asked to identify words like ‘button’ and
+‘bun’ when (1) the former was pronounced with a [t] vs. short/long [P], and (2) when both
+words were produced with creaky vs. non-creaky phonation.
+4.2 Method
+4.2.1 Stimuli
+The stimuli consisted of naturally-produced English (near-)minimal word pairs, for which
+one of the pairs contained a glottal stop allophone of /t/. There were three groups (each
+containing seven word pairs), and the groups differed in terms of where the glottal stop
+allophone of /t/ occurs in one of the words in each pair. In the first group of word pairs,
+which I call the button-bun group, one of the words of the pair had a glottal stop before a
+syllabic nasal (e.g. button [b2.Pn]), whereas the other had the same vowel, followed by no
+"
+glottalstop, justa(non-syllabic)nasal, e.g.bun [b2n]. Inthesecondgroupofwordpairs(the
+atlas-Alice group), the word with a glottal stop had [P] in coda position before a sonorant
+onset [l, n], e.g. atlas [æP.l@s], whereas the non-glottalized word only differed by the absence
+of [P], e.g. Alice [æ.l@s]. Of course, there are other cues to the contrast in the atlas-Alice
+group. For example, for the word with [P] we expect a lighter [l] and less anticipatory lateral
+coarticulationontheprecedingvowel, whosedurationwillalsobeshorterduetothefactthat
+it is in a closed syllable. In both groups, the medial /t/ in the button- and atlas-type words
+are almost always realized as [P] in conversational speech. In the third group of word pairs
+(the dent-den group), one of the words in the pair ended with orthographic –nt, which is
+>
+commonly glottalized as [nP] or [nPt^] (Huffman, 2005; Sumner & Samuel, 2005). (Note that,
+because [n] and [t] have the same place of articulation, it is unclear what the articulatory
+>
+difference between [nP] and [nPt^] is, assuming a consonantal [n] is produced). The other
+word in the pair differed only in that the coda contained only /n/, with no following /t/. A
+complete list of the stimuli can be found in Table 4.1.
+57
+--- PDF page 79; printed 58 ---
+The stimuli were produced by a phonetically-trained female speaker, who was instructed
+to say each word in the carrier phrase ‘STEVEN was the one who said the word X’, with
+focus on the first word. Therefore, no words following the initial word ‘Steven’ bore a pitch
+accent. The focus early in the phrase also facilitated creak at the end (thus, on the target
+word), due to pitch lowering and deaccenting after the focused, nuclear-pitch-accented word.
+Words with allophonic glottal stops were said once with an unaspirated or lightly aspirated
+[t] and once with a full glottal stop [P], in order to create two lexical conditions: [t] vs.
+[P]. Tokens with [t] were included to establish a baseline for the effect of phrase-final creak
+on word identification. All words were uttered in the carrier with and without phrase-final
+creak. Because in English it is quite natural to produce phrase-final creak, especially at a
+low pitch range, the phonetician was instructed to end in slight breathy voice for the non-
+creaky condition. The glottal stops in the creaky condition were still produced as full [P]. In
+general, full [P]s were produced with a closure duration of about 40-50 ms. For Groups 1 and
+2 (whose allophonic glottal stops occur word-medially), an additional lexical condition was
+then created by shortening the closure of the glottal stops to 20-25 ms in duration, effectively
+making the glottal stop ambiguous between full [P] and incomplete [P] (which I denote as
+fl
+˘
+short [P]). Therefore, in the shortened glottal stop condition the glottal stops were about
+half as long. A summary of the experimental conditions with sample transcriptions is shown
+in Table 4.2.
+The stimuli were recorded at a sampling rate of 22,050 Hz using PCquirer in a sound-
+attenuatedroomatUCLA,usingaShureSM10Ahead-mountedmicrophonewhosesignalran
+through an XAudioBox pre-amplifier and A-D device. The target words were then extracted
+from the carrier phrase in Praat (Boersma & Weenink, 2011). Prior to presentation to
+listeners, all stimuli were equalized for peak amplitude and multiplied by 20-ms ramps to
+eliminate onset and offset click artifacts. Sample waveforms for the button stimuli are shown
+in Figure 4.1 (p. 60).
+58
+--- PDF page 80; printed 59 ---
+Group 1: ‘button-bun’ Group 2: ‘atlas-Alice’ Group 3: ‘dent-den’
+/CV.tn/ vs. /CVn/ /(C)Vt.SV(C)/ vs. (C)V.SV(C)/ /CVnt/ vs. /CVn/
+"
+button-bun atlas-Alice dent-den
+rotten-Ron motley-Molly jaunt-John
+gotten-gone Whitney-whinny tint-tin
+beaten-bean witless-Willis lint-Lynn
+Keaton-keen settler-seller font-fawn
+satan-sane greatness-grayness paint-pain
+Dayton-dane curtly-curly faint-feign
+Table 4.1: Stimulus word pairs
+Condition Group 1: ‘button-bun’ Group 2: ‘atlas-Alice’ Group 3: ‘dent-den’
+Non-creaky + [t] [b2tn]-[b2n] [ætl@s]-[æl@s] [dEnt]-[dEn]
+"
+Non-creaky + [P] [b2Pn]-[b2n] [æPl@s]-[æl@s] [dEnP]-[dEn]
+"
+˘ ˘ ˘
+Non-creaky + [P] [b2Pn]-[b2n] [æPl@s]-[æl@s]
+"
+Creaky + [t] [b2tn]-[b2n] [ætl@s]-[æl@s] [dEnt]-[dEn]
+˜˜ ˜ ˜˜˜ ˜ ˜˜ ˜˜˜ ˜˜ ˜˜
+"
+Creaky + [P] [b2Pn]-[b2n] [æPl@s]-[æl@s] [dEnP]-[dEn]
+˜˜ ˜ ˜˜˜ ˜ ˜˜ ˜˜˜ ˜˜ ˜˜
+˘ ˘" ˘
+Creaky + [P] [b2Pn]-[b2n] [æPl@s]-[æl@s]
+˜˜ ˜ ˜˜˜ ˜ ˜˜ ˜˜˜
+"
+Table 4.2: Summary of experimental conditions with sample IPA transcriptions.
+59
+--- PDF page 81; printed 60 ---
+̩n
+̞ʔ
+ʌ
+b
+̩n
+ʔ
+ʌ
+b
+n
+ə
+t
+ʌ
+b
+]˘P[
++
+ykaerc-noN
+)c(
+]P[
++
+ykaerc-noN
+)b(
+]t[
++
+ykaerc-noN
+)a(
+̰n
+̞ʔ
+̰ʌ
+b
+n̰
+ʔ
+̰ʌ
+b
+n̰
+̰ə
+t
+̰ʌ
+b
+]˘P[
++
+ykaerC
+)f(
+]P[
++
+ykaerC
+)e(
+]t[
++
+ykaerC
+)d(
+wor
+mottob
+eht
+;noitanohp
+ykaerc-non
+htiw
+decudorp
+esoht
+era
+wor
+pot
+ehT
+.ilumits
+nottub
+eht
+rof
+smrofevaW
+:1.4
+erugiF
+eht
+taht
+etoN
+.edutilpma
+dna
+emit
+htob
+ni
+ralugerri
+era
+ilumits
+ykaerc
+eht
+rof
+seslup
+lattolg
+ehT
+.noitanohp
+ykaerc
+htiw
+˘
+.ilumits
+]P[
+eht
+fo
+erusolc
+lattolg
+eht
+fo
+noitarud
+eht
+gninetrohs
+yb
+detaerc
+erew
+]P[
+spots
+lattolg
+trohs
+htiw
+ilumits
+60
+--- PDF page 82; printed 61 ---
+4.2.1.1 Stimuli acoustics
+To verify that the creaky and non-creaky stimuli differed acoustically in the manner ex-
+pected, I analyzed the target stimuli for several common measures of voice quality using
+VoiceSauce (Shue, Keating, Vicenik & Yu, 2011). Because the non-creaky stimuli were
+somewhat breathy (which is characterized by higher H1*-H2* values than modal voice (Gor-
+don & Ladefoged, 2001; Garellek & Keating, 2011)), and because phrase-final creak is also
+expected to have slightly higher H1*-H2* values than modal voice, I expected little differ-
+ence in spectral slope between the creaky vs. non-creaky stimuli. However, the phonation
+difference should translate to lower harmonics-to-noise ratio (HNR) for creaky compared to
+non-creaky stimuli. The breathiness in the non-creaky stimuli could lower HNR due to the
+higher level of aspiration noise in the signal, but such noise should in theory also be found for
+voicing during phrase-final creak, which is characterized by increased airflow (Slifka, 2000,
+2006). Aspiration noise aside, creaky stimuli should have even lower values of HNR because
+they are also characterized by signal aperiodicity (increased ‘jitter’ and ‘shimmer’), which is
+weaker in breathy or modal voice.
+The acoustic differences between creaky and non-creaky stimuli were assessed using a
+logistic mixed-effects regression model, which modeled creaky (vs. non-creaky) stimuli as a
+function of the average value for 13 measures. Each acoustic measure included as a fixed
+effect was centered to reduce collinearity, and the model also had a random intercept for
+word. The results, shown in Table 4.3, indicate that several measures were in fact significant
+predictors of creakiness in the stimuli. Three spectral tilt measures emerged as significant
+predictors: H1*-A1*,H1*-A2*,andH1*-A3*. H1*-A1*washigherundercreakiness,whereas
+theothertwospectralmeasureswerelowerundercreakiness. Theseresultscanbeinterpreted
+physiologically as the result of a more abducted – but more abruptly closing – glottis during
+phrase-final creak (Hanson et al., 2001).
+The other measures to emerge as significant in the model were noise measures: HNR
+below 500 Hz, below 2500 Hz, below 3500 Hz, and CPP. Interestingly, the HNR measures
+61
+--- PDF page 83; printed 62 ---
+Coef β SE(β) z p
+Intercept 0.31 0.54 0.6 >0.6
+H1*-H2* −0.22 0.32 −0.7 >0.5
+H2*-H4* 0.18 0.21 0.8 >0.4
+H1*-A1* 0.56 0.23 2.4 <.05
+H1*-A2* −0.74 0.23 −3.3 <.01
+H1*-A3* −0.44 0.18 −2.5 <.05
+F0 0.00 0.03 −0.1 >0.9
+Duration 0.00 0.01 −0.1 >0.9
+HNR < 500Hz −0.66 0.28 −2.3 <.05
+HNR < 1500Hz −0.02 0.46 −0.1 >1
+HNR < 2500Hz −2.11 0.74 −2.9 <.01
+HNR < 3500Hz 2.73 0.73 3.7 <.001
+CPP 0.98 0.48 2.0 <.05
+Energy −0.20 0.16 −1.3 >0.2
+Table 4.3: Results of the logistic model predicting creaky stimuli as a function of 13 acoustic
+measures.
+below 2500 Hz showed a decrease in relative harmonic energy (i.e., lower values) under
+creakiness, whereas the noise measures calculated over larger frequency ranges (HNR below
+3500 Hz and CPP) show a decrease in noise. This may be due to the decrease in periodicity
+under creak (resulting in more noise in the lower frequencies), but also to the increase in
+higher-frequency energy caused by more abrupt closure.
+These results indicate that there are consistent and expected acoustic differences between
+the creaky and non-creak conditions. Therefore, if there is indeed an effect of creak on word
+identification, it is likely to come from its changes to the harmonic and noise components
+during voicing.
+4.2.2 Participants
+Sixteen monolingual native English listeners (mean age = 20.5, eight women and eight men)
+were recruited at UCLA. None reported any history of hearing impairment. Listeners re-
+ceived course credit for their participation.
+62
+--- PDF page 106; printed 85 ---
+fold closure) when no glottal stop is present. In Section 5.3, I use a combination of acoustic
+and articulatory analyses to confirm the acoustic results from the first study. In Section 5.4,
+I synthesize the findings from these two studies, and propose a revised prosodic account of
+word-initial glottalization.
+5.2 Corpus analysis of word-initial glottal stops
+In this study, I investigate which factors best predict word-initial glottal stops, to determine
+whether the phenomenon is truly prosodic. I also use acoustic analyses to determine if voice
+quality is generally strengthened in prosodically-strong conditions.
+5.2.1 Method
+5.2.1.1 The Boston University radio news corpus
+The corpus analyzed here is the Boston University (BU) Radio News Corpus (Ostendorf,
+Price & Shattuck-Hufnagel, 1995). The main motivation for using the BU radio news corpus
+was the fact that it is labeled for prosody. Another reason was that it has been analyzed for
+glottalization, both vowel-initial and in all word positions, by Dilley et al. (1996) and Redi
+& Shattuck-Hufnagel (2001). Thus, comparison with previous work is facilitated by using
+the same corpus. The section of the corpus used in the present work is from the Labnews
+corpus, consisting of radio news read in the laboratory. The four speakers analyzed in this
+study form a subset of the newscasters analyzed by Dilley et al. (1996); one of their speakers
+(f3) was not analyzed here due to time constraints. All speakers read the same news reports.
+The speakers analyzed below – two female (f1a, f2b) and two male (m1b, m2b) – were adults
+aged 25 to 40 years old, and with no perceived regional accent.
+The speech was digitized using a 16 kHz sampling rate (16 bits). Other corpus details
+can be found in Dilley et al. (1996). The corpus had already been labeled for prosody using
+85
+--- PDF page 107; printed 86 ---
+the Tones and Break Indices (ToBI) system by one or two transcribers. For the cases of two
+transcribers, the inter-transcriber reliability was generally high (Ostendorf et al., 1995).
+In the ToBI labeling system the tone and break index tiers provide the core prosodic
+analysis. The tone tier in Mainstream American English (MAE)-ToBI (Beckman & Ayers
+Elam,1997)consistsoflabelsforhigh(H)andlow(L)tonesmarkedwithdiacriticsindicating
+their intonational function as parts of pitch accents (indicated by an asterisk, e.g. H*),
+as phrase boundary tones, which indicate the edges of intonation phrases (indicated by a
+following %, e.g. H%) or as intermediate phrase accents, which indicate smaller prosodic
+phrasal tones (indicated by a following dash, e.g. H-).
+The break index tier is used to mark the prosodic grouping of words in an utterance.
+The end of each word is coded for the perceived strength of its association with the next
+word, on a scale from 0 (for the strongest perceived juncture) to 4 (for the most disjoint). A
+break index of 3 usually corresponds to the end of an intermediate phrase (iP) in English,
+whereas a break index of 4 typically corresponds to the end of an intonation phrase (IP).
+In MAE-ToBI, a break index of 0 is normally used for the ends of proclitics and function
+words closely conjoined to the following word, and a break index of 1 for words within
+the same intermediate phrase. A break index of 2 is used when the perceived tone/break
+mismatches the perceived grouping, either because a phrase boundary is perceived in the
+absence of a phrase accent, or because there is a phrase accent in the absence of a perceived
+phrasal boundary. Because in this corpus the presence of a breath or pause following a break
+index of 4 was transcribed, I will refer to this as the end of an utterance within a breath
+group, labeled as break index 5 (cf. Price, Ostendorf, Shattuck-Hufnagel & Fong, 1991). The
+utterance domain above the phrasal one has sometimes been shown to exhibit greater levels
+of prosodic strengthening (Fougeron & Keating, 1997; Keating, Cho, Fougeron & Hsu, 2003),
+and thus could be relevant for the present study.
+86
+--- PDF page 108; printed 87 ---
+5.2.1.2 Coding of the BU news radio corpus for the present study
+In the present study, all vowel-initial words were extracted from the corpus. A total of
+2010 vowel-initial words were extracted for the four speakers, as shown in Table 5.1. This
+number is smaller than that analyzed by Dilley et al. (1996) because, due to time constraints,
+not all the paragraphs from the Labnews corpus were analyzed. In addition to word-initial
+vowels, 1298 word-initial sonorants (/j, w, l, ô, m, n/) were extracted, as well as the following
+vowels. For example, for a word like Massachusetts, the initial /m/ and following /æ/ were
+extracted from the corpus. Sonorant-initial words will be used to determine whether word-
+initialglottalizationisfoundforallvoicedsounds. Intotal, 1291vowelsfollowingword-initial
+sonorants were extracted. This means that seven post-sonorant vowels were not extracted
+from the total of 1298 sonorant-initial words. These were all cases of a sonorant followed by
+a syllabic [l] (e.g. will pronounced as [wl]), where the boundary between vowel and coda
+& &
+" "
+was hard to determine or did not exist.
+Table 5.1: Distribution of tokens across the four speakers. Tokens with a full glottal stop
+[P] vs. forms of voicing irregularity ([P, ]) are indicated in parentheses.
+fl
+˜
+Speaker Total number of Word-initial Word-initial Vowels after
+tokens vowels sonorants word-initial
+sonorants
+f1a 944 (126; 148) 395 (125; 89) 283 (1; 23) 266 (0; 36)
+f2b 1281 (82; 421) 568 (81; 285) 356 (1; 60) 357 (0; 76)
+m1b 1128 (30; 263) 512 (30; 199) 309 (0; 14) 307 (0; 48)
+m2b 1246 (65; 316) 535 (64; 185) 350 (1; 37) 361 (0; 94)
+Total 4599 (303; 1149) 2010(300; 760) 1298 (3; 391) 1291 (0; 254)
+The corpus was then coded by two undergraduate research assistants trained at labeling
+acoustic irregularity. The coders were unaware of the purpose of the study, and thus were
+unbiased in their coding. In addition to coding for presence and type of irregularity (to
+be described below), the coders also transcribed the presence of a variety of other factors,
+87
+--- PDF page 109; printed 88 ---
+described in further detail below. I then reviewed the corpus data and arbitrated between-
+coder differences. The agreement rate for codings of irregularity was over 90%.
+Generally, the coding of voicing irregularity followed that described by Dilley et al. (1996)
+and Redi & Shattuck-Hufnagel (2001). First, the coders rated whether there was a percept
+of ‘glottalization’, regardless of whether the percept was due to a glottal stop. Tokens with
+weak percepts of glottalization with no clear acoustic evidence for voicing irregularity were
+labeled as glottalized, unlike in Dilley et al. (1996), where such tokens were excluded from
+the analysis. I included these tokens for the purposes of the voice quality analysis (described
+below). Such tokens represented only 2% of total words in the corpus, and therefore were
+unlikely to have a significant influence on the subsequent analysis.
+Second, if there was a percept of glottalization, the coders labeled the type of aperi-
+odicity found, based on inspection of the waveform. This labeling provides visual support
+for the percept of glottalization, but the individual types of aperiodicity will not be an-
+alyzed. Four types were identified, three of which (aperiodicity, diplophonia, and creak)
+followed the description by Redi & Shattuck-Hufnagel (2001). Aperiodicity is defined as
+pulse-to-pulse irregularity, either as jitter or as visible noise. Diplophonia refers to irregular-
+ity characterized by regular alternation in shape, duration, or amplitude of glottal periods.
+Thus, for diplophonia the pulse-to-pulse alternation is sustained, in contrast to the sudden,
+unpredictable changes to pulse shape found for ‘aperiodicity.’ Creak refers to low F0 ac-
+companied by near-total damping of glottal pulses, commonly (but not exclusively) found
+phrase-finally. Redi & Shattuck-Hufnagel (2001) identify another type of irregularity which
+they term glottal squeak, but such cases were not found in this corpus, probably because in
+that study the authors identified cases of irregularity occurring anywhere in a word, not just
+word-initially. Together, aperiodicity, diplophonia, creak (and squeak) represent the cases of
+voicing irregularity.
+In this study, a full glottal stop was also identified. In the corpus, [P] only occurred word-
+initially; no cases of [P] as an allophone of /t/ were extracted. Thus, [P] was characterized
+by a period of silence of at least two pulses, followed by a burst and subsequent onset of
+88
+--- PDF page 110; printed 89 ---
+phonation (due to the following vowel) which becomes increasingly modal. If preceded by
+a voiced sound, the glottal stop often showed an impulse (visually distinct from the pulses
+belonging to the preceding voiced sound) right before the glottal closure (evidenced by the
+absence of a signal in the waveform). This likely corresponds to the energy produced by the
+abrupt closure of the vocal folds. An example of [P] is shown in Figure 5.1.
+0 0.467219046
+ʔ ɑ ɫ w eɪ z
+always
+0 0.4672
+Time (s)
+Figure 5.1: Example of a glottal stop at the onset of ‘always,’ uttered by speaker f1a.
+For a vowel-vowel sequence with creak between the two vowels, it can be difficult in
+principle to determine whether any of the creaky pulses are in fact the burst of a glottal
+stop. However, in practice such difficulty differentiating creak from full glottal stops rarely
+arose. Pulses during creak, though irregular in period, were not separated by more than
+a two-pulse period of silence. Thus, there was rarely a debate whether a sequence of two
+vowels corresponded to [v#v] vs. [v#Pv]. There were only ten such problematic cases, which
+˜ ˜
+were labeled conservatively as just having creak.
+Differenttypesofirregularityweresometimesfoundforthesamesegment,andsomultiple
+types could be coded per token. For example, diplophonia was sometimes found during
+intervals of creak. Additionally, aperiodic and/or creak-like phonation was sometimes found
+after a glottal stop. For example, in Figure 5.1, the vowel following the glottal stop begins
+with aperiodicity.
+89
+--- PDF page 111; printed 90 ---
+5.2.1.3 Other factors in the analysis
+In addition to coding for presence and type of glottalization, the coders also recorded
+prosodic, lexical, and segmental information. The prosodic factors are summarized in Ta-
+ble 5.2. The factor ‘prominence’ refers to a syllable with prosodic prominence, either due
+to the presence of a pitch accent, or if the syllable belonged to a function word, but had an
+unreduced vowel (e.g. [ænd] for and), or both. Thus, prominence represents a superset of
+pitch-accented syllables, and is more like the traditional ‘stress,’ where full vowels are said
+to bear secondary stress. The reason for including this factor was that some vowels had
+perceived prominence, but no pitch accent was marked in the BU Corpus. Further inspec-
+tion sometimes revealed a pitch excursion indicative of a potential pitch accent despite none
+being coded, but usually the vowel was unreduced, which is unexpected for function words.
+The absence of expected vowel reduction is not typically used as a cue for vowel prominence,
+but the coders agreed that these words were more prominent than expected. Often these
+words occurred phrase-initially, suggesting that the absence of vowel reduction is related to
+phrase-initial strengthening (Cho & Keating, 2009). Thus, in phrase-initial position, vowels
+– even when not pitch-accented – are nonetheless more strongly articulated and thus more
+perceptually prominent than they would be phrase-medially.
+Aside from prosodic factors, lexical and segmental factors were also included, and they
+are summarized in Table 5.3. Lexical frequencies were taken from the SUBTLEX -US
+WF
+corpus, whose lexical frequencies are thought to be more representative of currently-spoken
+English than are those from older corpora (Brysbaert & New, 2009).
+5.2.1.4 Acoustic measures
+Beyond the presence of a full [P], I also obtained quantitative data from acoustic measures
+to provide a gradient analysis of the strength of glottalization. These measures can also help
+90

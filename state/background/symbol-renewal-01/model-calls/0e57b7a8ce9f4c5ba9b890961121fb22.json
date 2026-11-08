@@ -1,0 +1,129 @@
+{
+  "request": {
+    "state": {
+      "goal": "Advance actual SUNNY source reconstruction; source forensics is one parallel stream, not the whole mission.",
+      "candidates": [
+        {
+          "id": "glyph-user-f0163b7492474021",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+              "message_id": "0714284afe3de05ebe9e2a1d147feea2051b2e5089fdc29b21aa5ce6746c14b5",
+              "exact_preview": "This blueprint deconstructs the masterful lyrical interplay in the provided Eminem snippet, translating its complex mechanisms into actionable strategies for achieving similar depth in any writing, particularly in rap. This level of craft is rarely accidental; it's the result of deliberate layering across multiple linguistic and conceptual dimensions.\nThe Veracity Blueprint: Mastering Multi-Dimensional Word Interplay\nExcerpt for Analysis: \"...I'm going in like a tampon in this b**** it's a manslaughter. you choir boys can't be no rap gods, in fact you're exact opposite, priests taking your pants off, and you can't hold a candle but even Daniel-san whacks off, you jack offs, you need to come to grips like a handjob....\"\nThis excerpt exemplifies a highly dense, multi-layered approach to lyri",
+              "preview_characters": 800,
+              "full_passage_characters": 14130,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-f0ad9f94fec5551a",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "48168a043cdaef9acd4fb5361f9e8478075b21445b1ddfffae904416a3d89fd8",
+              "message_id": "1d483862705367f17dcb802ee3bc9ccbfac6deed04ab26c675118cb4279e6023",
+              "exact_preview": "not quite. this is how I chose the first time for this animation:\n\nWord Cloud Generation Logic\r\nThe vocabulary was built through a systematic three-phase expansion process:\r\n\r\nPhase 1: Seed Selection\r\n12 foundational terms were chosen as anchors, emphasizing:\r\n\r\nAction-oriented verbs (Prompt, Swap, Morph)\r\n\r\nStructural concepts (Node, Network, Hub)\r\n\r\nTransformation states (Alter, Convert, Merge)\r\n\r\nTechnology anchors (AI, Neural, Algorithm)\r\n\r\nPhase 2: Lexical Expansion\r\nEach seed word underwent three-dimensional branching:\r\n\r\nSynonym Layer\r\n\r\nDirect meaning equivalents (e.g., \"Create\" → Generate, Fabricate)\r\n\r\nThesaurus-derived with preference for active verbs\r\n\r\nContextual Layer\r\n\r\nAssociated tools/objects (e.g., \"Node\" → Router, Server)\r\n\r\nProcess-related terms (e.g., \"Modify\" → Adjust",
+              "preview_characters": 800,
+              "full_passage_characters": 2591,
+              "preview_limited": true
+            }
+          ]
+        },
+        {
+          "id": "glyph-user-f944ce309f4949f8",
+          "kind": "source_forensics",
+          "track": "glyph",
+          "hypotheses": [
+            {
+              "id": "explicit-sound-symbol-map",
+              "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+            },
+            {
+              "id": "glyph-sound-distinction",
+              "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+            }
+          ],
+          "source_previews": [
+            {
+              "source_role": "user",
+              "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+              "message_id": "29d4c2ead8569058aa1062e271434914e455792f27782fef978f1edcedf532ee",
+              "exact_preview": "10/18/2026, 6:39:22 AM\n\nMoving SOL forward. No new architecture, no return to the root debate, and no reopening the frozen mathematics.\n\nThe Sanskrit pass has narrowed the sacred-symbol problem. The next useful move is to distinguish three kinds of evidence that have repeatedly been mixed together: historical sound change, formal linguistic operations, and cosmological correspondence.\n\nThe first two can be tested independently. The third must survive those tests rather than determine their answers.\n\nOne immediate correction matters: the claimed 305 theoretical pratyāhāras counts start positions against later markers, but it does not establish 305 distinct, valid grammatical classes. Repeated marker names and repeated sound values complicate that interpretation. We should preserve 305 as a ",
+              "preview_characters": 800,
+              "full_passage_characters": 4204,
+              "preview_limited": true
+            }
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "next_job": {
+        "type": "choice",
+        "instructions": "Choose the next supplied bounded source/math reconstruction job from its explicitly bounded source previews. Full source passages are used in assessment. Preserve literal source roles and existing findings; prioritize informative discriminators rather than repeated counts/tests.",
+        "criteria": {
+          "0": "glyph-user-f0163b7492474021: source_forensics",
+          "1": "glyph-user-f0ad9f94fec5551a: source_forensics",
+          "2": "glyph-user-f944ce309f4949f8: source_forensics",
+          "defer": "Park this supplied preview batch for review; none presently offers an informative safe source-reconstruction unit. This is not a mission stop or a mathematical refutation."
+        }
+      }
+    }
+  },
+  "result": {
+    "schema_version": 1,
+    "request_sha256": "bcf852fd945a9b72a633d614e7a9deec4b9bfd9f288260c49b2f104452e08fe0",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "next_job": {
+        "type": "choice",
+        "probabilities": {
+          "0": 0.03,
+          "1": 0.09,
+          "2": 0.68,
+          "defer": 0.2
+        },
+        "winner": "2",
+        "top_probability": 0.68,
+        "margin": 0.48000000000000004
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 2062,
+      "output_tokens": 47
+    },
+    "network_calls": 1,
+    "latency_ms": 184
+  },
+  "budget_ordinal": 39
+}

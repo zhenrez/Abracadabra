@@ -1,0 +1,18 @@
+{
+  "tool": "mcp__codex_apps__wolfram_wolframlanguageevaluator",
+  "request": {
+    "code": "<|\"SourceControlPitchClassEquality\"->(Mod[{-2,0},12]===Mod[{10,0},12]),\"DirectedIntervals\"-> {2-0,0-10}|>",
+    "timeConstraint": 10
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Out[1]= <|\"SourceControlPitchClassEquality\" -> True, \"DirectedIntervals\" -> {2, -10}|>"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "scope": "Actual external mathematical evaluation of this constructed control; not historical acoustic validation."
+}

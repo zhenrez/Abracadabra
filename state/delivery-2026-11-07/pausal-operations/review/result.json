@@ -1,0 +1,284 @@
+{
+  "schema": "sunny.independent-pausal-operation-review.v1",
+  "checkedAt": "2026-11-07T22:53:30.517105+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "inputHashes": {
+    "state/delivery-2026-11-07/history-discriminator/exa-loc-fetch.json": "9460acbac92c678bf0b4bfbc7fc73a6b99f679e6a8e349e4b378f8a13ac59f96",
+    "state/jev-receipts/000062-5fcc72f3ccd7.json": "3142b00d2df4cc873504fc55a40436855905c0784b2f9c4952395825fa6a6588"
+  },
+  "sourceLayer": "Exa retrieved text of original Molin publication; not PDF-page collation, original bowl ink or an ancient recording.",
+  "sourceUrl": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/39/45/70/2019394570/2019394570.pdf",
+  "sectionSpan": {
+    "text": "2.4. Evidence for the Prominence of Orality",
+    "startCodePoint": 274099,
+    "endCodePointExclusive": 274142
+  },
+  "wordCases": [
+    {
+      "example": 7,
+      "word": "שומורו",
+      "normalizedBhsComparator": "שמרו",
+      "reference": "Num9:23",
+      "citation": "HLIB213;684.14",
+      "pausal": "ʃɔːˈmɔːruː",
+      "contextual": "ʃɔːmaˈruː",
+      "contextualMedialNucleus": "a",
+      "pausalMedialNucleus": "ɔː",
+      "comparativeFootnote": "47;Yeivin1985p427",
+      "wordSpan": {
+        "text": "שומורו",
+        "startCodePoint": 274601,
+        "endCodePointExclusive": 274607
+      },
+      "ipaSpans": {
+        "pausal": {
+          "text": "ʃɔːˈmɔːruː",
+          "startCodePoint": 275124,
+          "endCodePointExclusive": 275134
+        },
+        "contextual": {
+          "text": "ʃɔːmaˈruː",
+          "startCodePoint": 275357,
+          "endCodePointExclusive": 275366
+        }
+      }
+    },
+    {
+      "example": 8,
+      "word": "תוכילו",
+      "normalizedBhsComparator": "תאכלו",
+      "reference": "Lev26:29",
+      "citation": "AMB176;9.9",
+      "pausal": "toːˈχeːluː",
+      "contextual": "toːχaˈluː",
+      "contextualMedialNucleus": "a",
+      "pausalMedialNucleus": "eː",
+      "comparativeFootnote": "48;Yeivin1985p585",
+      "wordSpan": {
+        "text": "תוכילו",
+        "startCodePoint": 275474,
+        "endCodePointExclusive": 275480
+      },
+      "ipaSpans": {
+        "pausal": {
+          "text": "toːˈχeːluː",
+          "startCodePoint": 275684,
+          "endCodePointExclusive": 275694
+        },
+        "contextual": {
+          "text": "toːχaˈluː",
+          "startCodePoint": 275798,
+          "endCodePointExclusive": 275807
+        }
+      }
+    }
+  ],
+  "exactExampleLines": {
+    "7": {
+      "rawLine": "ש מ ֶ֔ רּו BHS) || 684.14; 213 ,HLIB (שומורו (7) ",
+      "normalizedConsonantsOnly": "שמרו",
+      "vocalizationNormalizationClaimed": false
+    },
+    "8": {
+      "rawLine": "תּ ֹאכֵ ֹֽלּו BHS) || 9.9; 176 ,AMB (תוכילו (8) ",
+      "normalizedConsonantsOnly": "תאכלו",
+      "vocalizationNormalizationClaimed": false
+    }
+  },
+  "ipaAnalysis": [
+    {
+      "example": 7,
+      "role": "contextual",
+      "ipa": "ʃɔːmaˈruː",
+      "stressSyllableOneBased": 3,
+      "syllableNuclei": [
+        "ɔ",
+        "a",
+        "u"
+      ],
+      "lengthMarkCount": 2,
+      "notationNotMeasuredDuration": true
+    },
+    {
+      "example": 7,
+      "role": "pausal",
+      "ipa": "ʃɔːˈmɔːruː",
+      "stressSyllableOneBased": 2,
+      "syllableNuclei": [
+        "ɔ",
+        "ɔ",
+        "u"
+      ],
+      "lengthMarkCount": 3,
+      "notationNotMeasuredDuration": true
+    },
+    {
+      "example": 8,
+      "role": "contextual",
+      "ipa": "toːχaˈluː",
+      "stressSyllableOneBased": 3,
+      "syllableNuclei": [
+        "o",
+        "a",
+        "u"
+      ],
+      "lengthMarkCount": 2,
+      "notationNotMeasuredDuration": true
+    },
+    {
+      "example": 8,
+      "role": "pausal",
+      "ipa": "toːˈχeːluː",
+      "stressSyllableOneBased": 2,
+      "syllableNuclei": [
+        "o",
+        "e",
+        "u"
+      ],
+      "lengthMarkCount": 3,
+      "notationNotMeasuredDuration": true
+    }
+  ],
+  "primarySourceCitations": {
+    "HLIB": {
+      "text": "(HLIB) Shaked, Shaul. 1995.",
+      "startCodePoint": 278582,
+      "endCodePointExclusive": 278609
+    },
+    "AMB": {
+      "text": "(AMB) Naveh, Joseph and Shaul Shaked. 1985.",
+      "startCodePoint": 278269,
+      "endCodePointExclusive": 278312
+    },
+    "Yeivin47": {
+      "text": "47 Yeivin (1985, 427). Again, [a] here indicates shewa.",
+      "startCodePoint": 276316,
+      "endCodePointExclusive": 276371
+    },
+    "Yeivin48": {
+      "text": "48 Yeivin (1985, 585).",
+      "startCodePoint": 276373,
+      "endCodePointExclusive": 276395
+    }
+  },
+  "counterexample": {
+    "assumption": "Both exposed examples belong to a shared deterministic operator family whose only inputs are current medial nucleus and pauseFlag.",
+    "inputsEqual": [
+      [
+        "a",
+        true
+      ],
+      [
+        "a",
+        true
+      ]
+    ],
+    "requiredOutputs": [
+      "ɔː",
+      "eː"
+    ],
+    "functionsEnumerated": 9,
+    "functionsSatisfyingBoth": 0,
+    "minimumDistinctAdditionalStates": 2,
+    "twoStateRealizationsUpToLabelSwap": [
+      {
+        "stateByExample": {
+          "7": 0,
+          "8": 1
+        },
+        "rows": [
+          {
+            "additionalState": 0,
+            "pause": false,
+            "output": "a"
+          },
+          {
+            "additionalState": 0,
+            "pause": true,
+            "output": "ɔː"
+          },
+          {
+            "additionalState": 1,
+            "pause": false,
+            "output": "a"
+          },
+          {
+            "additionalState": 1,
+            "pause": true,
+            "output": "eː"
+          }
+        ]
+      },
+      {
+        "stateByExample": {
+          "7": 1,
+          "8": 0
+        },
+        "rows": [
+          {
+            "additionalState": 0,
+            "pause": false,
+            "output": "a"
+          },
+          {
+            "additionalState": 0,
+            "pause": true,
+            "output": "eː"
+          },
+          {
+            "additionalState": 1,
+            "pause": false,
+            "output": "a"
+          },
+          {
+            "additionalState": 1,
+            "pause": true,
+            "output": "ɔː"
+          }
+        ]
+      }
+    ],
+    "scope": "Necessity of some distinguishing state under the assumption, not proof of a particular historical sound rule."
+  },
+  "retainedParameterCandidates": [
+    "Lexeme/root or learned lexical association",
+    "Consonantal/segmental environment",
+    "Morphological or inflectional class",
+    "Historical vowel derivation",
+    "Witness/reading tradition or performance register",
+    "Operator-family selection"
+  ],
+  "roles": {
+    "bowlSpellings": "Published forms attributed to the cited bowl evidence.",
+    "BhsComparators": "Received biblical comparators; no claim that BHS reproduces the bowl vowels.",
+    "PausalIpa": "Author conditional historical pronunciation interpretation.",
+    "ContextualIpa": "Corresponding Babylonian-manuscript comparandum, not a contextual token on the same bowl.",
+    "Stress": "Stress location inferred within the printed three-nucleus IPA strings; no measured onset time.",
+    "Length": "IPA length notation only, without milliseconds, waveform, frequency, pitch or a forced2:1ratio."
+  },
+  "guardUse": {
+    "plugin": "Supermemory",
+    "operation": "search_memory",
+    "success": true,
+    "conversationId": "01a1b80f-2cb4-76ab-95f2-655427aa87a8",
+    "scope": "Continuity retrieval; not source certification."
+  },
+  "checks": [
+    "Exact4IPAstrings and2wordspans found",
+    "Both BHSconsonantcomparators recovered without vowel reconstruction",
+    "Both stresses shift syllable3to2 onebased",
+    "9unaryfunctions yield0solutions",
+    "Atleast2additionalstates suffice without selecting their identity",
+    "Contextual comparanda and phonetic/duration limits retained"
+  ],
+  "originalPhonesRecovered": false,
+  "specificHistoricalOperatorSelected": false,
+  "unverified": [
+    "Bowl ink and specimen chronology",
+    "Expansion of684.14 and9.9beyond printed citation",
+    "Manuscript originals underlying Yeivin comparisons",
+    "Acoustic durations/waveforms",
+    "Which distinguishing state the historical operation used"
+  ]
+}

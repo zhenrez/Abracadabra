@@ -1,0 +1,66 @@
+{
+  "protocol_binding": {
+    "graph_sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "alphabet_sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738"
+  },
+  "batch": "INDEPENDENT_SYSTEMS_BATCH_1",
+  "date": "2026-09-30",
+  "systems": [
+    {
+      "system": "Sethian 4 luminaries \u00d7 3 aeonic realms",
+      "source_basis": "project frozen external-domain workbook",
+      "native_structure": "4 groups \u00d7 3 = 12; native source order groups realms contiguously",
+      "SUN_prediction_tested": "12-position / 4\u00d73 music partition",
+      "result": "CARDINALITY_AND_PARTITION_SHAPE_ONLY",
+      "reason": "No native Z12 coordinate maps the four source groups onto music's augmented-triad cosets; exact music topology requires a substantial free permutation.",
+      "residual": "mapping freedom / missing native coordinate",
+      "confidence": "SOURCE_DERIVED"
+    },
+    {
+      "system": "Valentinian Dodecad",
+      "source_basis": "project frozen external-domain workbook",
+      "native_structure": "6 syzygies \u00d7 2 aeons = 12",
+      "SUN_prediction_tested": "six-pair / 6\u00d72 music partition",
+      "result": "PARTIAL_CLIP",
+      "reason": "Native pair structure is real, but no source-native 12-cycle places partners at i\u2194i+6; tritone topology is not established.",
+      "residual": "pair topology matches; cyclic address relation missing",
+      "confidence": "SOURCE_DERIVED"
+    },
+    {
+      "system": "Norse V\u00f6lusp\u00e1 Ask/Embla donor triad",
+      "source_basis": "project frozen external-domain workbook",
+      "native_structure": "Odin, H\u00f6nir, L\u00f3\u00f0urr contribute differentiated functions to shared human realization",
+      "SUN_prediction_tested": "MEC-09 joint-constitution hyperedge",
+      "result": "SCOPED_ISOMORPHISM",
+      "reason": "Three specialized contributors jointly constitute a higher-order realization; source variants preserve structure while changing actor identity.",
+      "residual": "No claim that the contributors are musical tones or that their trait labels map to chord functions.",
+      "confidence": "SOURCE_DERIVED"
+    },
+    {
+      "system": "Numbers 2 tribal camp",
+      "source_basis": "project frozen external-domain workbook",
+      "native_structure": "4 directional triads around a center; source-order transpose yields 3 groups \u00d74 standards/positions",
+      "SUN_prediction_tested": "music intrinsic 3\u00d74 partition",
+      "result": "PARTIAL_CLIP",
+      "reason": "Strong independent 3\u00d74 structural organization, but no native chromatic/semitone coordinate establishes identity with diminished-seventh cosets.",
+      "residual": "coordinate semantics differ",
+      "confidence": "SOURCE_DERIVED"
+    },
+    {
+      "system": "Welsh Celtic control",
+      "source_basis": "project frozen external-domain workbook",
+      "native_structure": "tested threefolds, seven+remnant structures, carrier transformations",
+      "SUN_prediction_tested": "3\u00d74 and 6+1 candidate topologies",
+      "result": "COUNTEREXAMPLE",
+      "reason": "Project test explicitly found no homogeneous Welsh 12-state 3\u00d74 topology and no independent reproduction of the targeted 6+1 structure.",
+      "residual": "nonconfirmation retained as evidence",
+      "confidence": "SOURCE_DERIVED"
+    }
+  ],
+  "counts": {
+    "CARDINALITY_AND_PARTITION_SHAPE_ONLY": 1,
+    "COUNTEREXAMPLE": 1,
+    "PARTIAL_CLIP": 2,
+    "SCOPED_ISOMORPHISM": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "state": {
+    "goal": "Build SUNNY with actual Jev dictating construction choices; preserve all sources and decision receipts.",
+    "facts": "Pinned AgentJev0.6B live service now works at127.0.0.1:8149 on CPU. Model hash8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215. TorchCPU works, RTX3060 has12GB, no cloud key. Native plugin reaches real inference. New wrapper failed reading request with LookupError unknown encoding:utf8-sig. Python supports utf-8-sig. Node22.14 SQLite lacks FTS5, Python3.13 SQLite has FTS5 and actual SUNNY query returns92 matches. Existing Node source-table reads work. No canonical orientation or domain law has been approved."
+  },
+  "questions": [
+    {
+      "id": "wrapper_fix",
+      "type": "choice",
+      "question": "Which repair should be applied to the exact reproduced wrapper encoding error?",
+      "options": {
+        "correct_encoding": "Change only the invalid encoding alias utf8-sig to supported utf-8-sig, then rerun the original real request and tests.",
+        "replace_parser": "Replace Python request parsing with another language and rewrite the decision receipt system.",
+        "keep_failure": "Keep the invalid alias and stop using the working Jev service."
+      }
+    },
+    {
+      "id": "search_runtime",
+      "type": "choice",
+      "question": "Which implementation route should repair the missing Node FTS5 capability?",
+      "options": {
+        "python_search": "Retain existing read-only Node service and use a fixed local Python helper only for parameterized FTS5 search in the same database; verify the original failure and app.",
+        "new_node": "Install a newer isolated Node runtime, verify FTS5 and adapt the app.",
+        "different_driver": "Install a separate SQLite Node driver with verified FTS5 and retest."
+      }
+    },
+    {
+      "id": "runtime_route",
+      "type": "choice",
+      "question": "Which working inference route should direct the next SUNNY build stage?",
+      "options": {
+        "local_cpu": "Use the verified pinned local CPU Jev now with full decision receipts; measure before acceleration.",
+        "local_gpu": "Install isolated CUDA torch and verify the same model on RTX3060 before any further build step.",
+        "cloud_key": "Wait for securely supplied TypeSafe key despite the now-working local service."
+      }
+    }
+  ]
+}

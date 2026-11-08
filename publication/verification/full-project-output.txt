@@ -1,0 +1,642 @@
+
+> sunny-research-workbench@0.1.0 test
+> npm run build && node --test tests/*.test.mjs
+
+
+> sunny-research-workbench@0.1.0 build
+> tsc -p tsconfig.json
+
+TAP version 13
+# Subtest: source q is exact and q^12=2 although q is not in G
+ok 1 - source q is exact and q^12=2 although q is not in G
+  ---
+  duration_ms: 2.6003
+  ...
+# Subtest: prime normal form combines/cancels exponents and preserves exact inverses
+ok 2 - prime normal form combines/cancels exponents and preserves exact inverses
+  ---
+  duration_ms: 1.7899
+  ...
+# Subtest: G generator lattice reconstructs2,3, sanfen and retained bridge inputs
+ok 3 - G generator lattice reconstructs2,3, sanfen and retained bridge inputs
+  ---
+  duration_ms: 0.8103
+  ...
+# Subtest: H/G has exactly12 cosets and keeps arbitrary integer3powers within G
+ok 4 - H/G has exactly12 cosets and keeps arbitrary integer3powers within G
+  ---
+  duration_ms: 1.2513
+  ...
+# Subtest: integer-octave quotient retains fractional2powers and unbounded3coordinate
+ok 5 - integer-octave quotient retains fractional2powers and unbounded3coordinate
+  ---
+  duration_ms: 6.2925
+  ...
+# Subtest: root-fifth discriminator gives the inverse twelve-fifths comma exactly
+ok 6 - root-fifth discriminator gives the inverse twelve-fifths comma exactly
+  ---
+  duration_ms: 0.6953
+  ...
+# Subtest: bounded exact output never coerces irrational expressions to floats
+ok 7 - bounded exact output never coerces irrational expressions to floats
+  ---
+  duration_ms: 0.5623
+  ...
+# Subtest: comparison refuses malformed, duplicate and executable predicate shapes
+ok 8 - comparison refuses malformed, duplicate and executable predicate shapes
+  ---
+  duration_ms: 1.4364
+  ...
+# Subtest: source identity and actual kernel hash must resolve before definite evaluation
+ok 9 - source identity and actual kernel hash must resolve before definite evaluation
+  ---
+  duration_ms: 1.2691
+  ...
+# Subtest: conditional calculation retains witnesses and model deferral never promotes law
+ok 10 - conditional calculation retains witnesses and model deferral never promotes law
+  ---
+  duration_ms: 1.3158
+  ...
+# Subtest: undeclared operators and missing values stay unknown with real source references
+ok 11 - undeclared operators and missing values stay unknown with real source references
+  ---
+  duration_ms: 0.3693
+  ...
+# Subtest: source-conditioned three-equation adapter has a nonzero closed-cycle certificate
+ok 12 - source-conditioned three-equation adapter has a nonzero closed-cycle certificate
+  ---
+  duration_ms: 2.3409
+  ...
+# Subtest: each proper two-equation subset has twelve complete origin alternatives
+ok 13 - each proper two-equation subset has twelve complete origin alternatives
+  ---
+  duration_ms: 5.9744
+  ...
+# Subtest: a missing relation is predicted conditionally without electing absolute pitches
+ok 14 - a missing relation is predicted conditionally without electing absolute pitches
+  ---
+  duration_ms: 0.9197
+  ...
+# Subtest: global reversal and integral register changes do not repair the inconsistent cycle
+ok 15 - global reversal and integral register changes do not repair the inconsistent cycle
+  ---
+  duration_ms: 0.4083
+  ...
+# Subtest: separate-modal ancestral interpretation has twelve admissible origin frames
+ok 16 - separate-modal ancestral interpretation has twelve admissible origin frames
+  ---
+  duration_ms: 1.1377
+  ...
+# Subtest: large disconnected families remain symbolic rather than truncated to one answer
+ok 17 - large disconnected families remain symbolic rather than truncated to one answer
+  ---
+  duration_ms: 0.2521
+  ...
+# Subtest: redundant equations do not inflate the inclusion-minimal conflict
+ok 18 - redundant equations do not inflate the inclusion-minimal conflict
+  ---
+  duration_ms: 0.2604
+  ...
+# Subtest: missing source bindings and malformed domains fail explicitly
+ok 19 - missing source bindings and malformed domains fail explicitly
+  ---
+  duration_ms: 0.7279
+  ...
+# Subtest: compressed offline dataset hydrates every canonical value and shares only identical graph records
+ok 20 - compressed offline dataset hydrates every canonical value and shares only identical graph records
+  ---
+  duration_ms: 2653.2458
+  ...
+# Subtest: complete source-defined classes retain counts and their genuine predecessors
+ok 21 - complete source-defined classes retain counts and their genuine predecessors
+  ---
+  duration_ms: 34.5095
+  ...
+# Subtest: five rotations preserve native depth and exact algebraic endpoint action
+ok 22 - five rotations preserve native depth and exact algebraic endpoint action
+  ---
+  duration_ms: 6.5675
+  ...
+# Subtest: balanced inheritance preserves raw endpoint and changes history and normalized observable
+ok 23 - balanced inheritance preserves raw endpoint and changes history and normalized observable
+  ---
+  duration_ms: 0.3792
+  ...
+# Subtest: a finite display budget cannot masquerade as a complete unbounded class enumeration
+ok 24 - a finite display budget cannot masquerade as a complete unbounded class enumeration
+  ---
+  duration_ms: 0.7209
+  ...
+# Subtest: source-bound atlas has resolving references and preserves universal gaps
+ok 25 - source-bound atlas has resolving references and preserves universal gaps
+  ---
+  duration_ms: 39.7593
+  ...
+# Subtest: all three complete chief vectors reconcile their own declared primary extents
+ok 26 - all three complete chief vectors reconcile their own declared primary extents
+  ---
+  duration_ms: 44.8974
+  ...
+# Subtest: native Peterson names come from catalogue paragraphs, separately from URL anchor spellings
+ok 27 - native Peterson names come from catalogue paragraphs, separately from URL anchor spellings
+  ---
+  duration_ms: 1.8392
+  ...
+# Subtest: addressable slots remain generated membership occurrences with exact commander/source binding
+ok 28 - addressable slots remain generated membership occurrences with exact commander/source binding
+  ---
+  duration_ms: 15.5786
+  ...
+# Subtest: native multiple ranks count79 memberships of72 chiefs, separately from imported primary ranks
+ok 29 - native multiple ranks count79 memberships of72 chiefs, separately from imported primary ranks
+  ---
+  duration_ms: 15.7688
+  ...
+# Subtest: all nine origin and witness combinations remain selectable without forced pairing
+ok 30 - all nine origin and witness combinations remain selectable without forced pairing
+  ---
+  duration_ms: 40.6482
+  ...
+# Subtest: native production events preserve source-specific joint arity and contextual aeon identities
+ok 31 - native production events preserve source-specific joint arity and contextual aeon identities
+  ---
+  duration_ms: 3.4558
+  ...
+# Subtest: Chinese functions and imported angel names retain their distinct source roles
+ok 32 - Chinese functions and imported angel names retain their distinct source roles
+  ---
+  duration_ms: 5.5189
+  ...
+# Subtest: typed ancestry follows a slot commander without inventing rank or generation equivalence
+ok 33 - typed ancestry follows a slot commander without inventing rank or generation equivalence
+  ---
+  duration_ms: 11.3963
+  ...
+# Subtest: cycles terminate and remain visible instead of silently flattening relation paths
+ok 34 - cycles terminate and remain visible instead of silently flattening relation paths
+  ---
+  duration_ms: 0.8049
+  ...
+# Subtest: negative controls reject dangling provenance, duplicate identities and unmarked generated slots
+ok 35 - negative controls reject dangling provenance, duplicate identities and unmarked generated slots
+  ---
+  duration_ms: 0.3714
+  ...
+# Subtest: count reconciliation fails on lost slots, duplicate command and source/witness changes
+ok 36 - count reconciliation fails on lost slots, duplicate command and source/witness changes
+  ---
+  duration_ms: 0.3937
+  ...
+# Subtest: finite explicit filter retains tied candidates without canonical promotion
+ok 37 - finite explicit filter retains tied candidates without canonical promotion
+  ---
+  duration_ms: 3.371
+  ...
+# Subtest: missing evidence, missing values, mismatched kernels and custom operators stay unknown
+ok 38 - missing evidence, missing values, mismatched kernels and custom operators stay unknown
+  ---
+  duration_ms: 0.6603
+  ...
+# Subtest: an explicit failure remains a failure alongside unresolved constraints
+ok 39 - an explicit failure remains a failure alongside unresolved constraints
+  ---
+  duration_ms: 0.361
+  ...
+# Subtest: empty constraints provide no lawful promotion; duplicate IDs cannot disappear
+ok 40 - empty constraints provide no lawful promotion; duplicate IDs cannot disappear
+  ---
+  duration_ms: 0.7059
+  ...
+# Subtest: exact rational arithmetic preserves units and large integers without float tolerance
+ok 41 - exact rational arithmetic preserves units and large integers without float tolerance
+  ---
+  duration_ms: 1.0456
+  ...
+# Subtest: JSON object key order does not create false distinctions; null differs from absent
+ok 42 - JSON object key order does not create false distinctions; null differs from absent
+  ---
+  duration_ms: 0.4825
+  ...
+# Subtest: three-valued operators do not discard unknown children or count repeats as votes
+ok 43 - three-valued operators do not discard unknown children or count repeats as votes
+  ---
+  duration_ms: 0.6608
+  ...
+# Subtest: invalid nonfinite, cyclic and inherited assignment values cannot enter definite evaluation
+ok 44 - invalid nonfinite, cyclic and inherited assignment values cannot enter definite evaluation
+  ---
+  duration_ms: 0.3587
+  ...
+# Subtest: composition checks declared source and target types; multiple inputs stay unresolved
+ok 45 - composition checks declared source and target types; multiple inputs stay unresolved
+  ---
+  duration_ms: 1.6296
+  ...
+# Subtest: shared signatures never establish dynamics or invariant preservation
+ok 46 - shared signatures never establish dynamics or invariant preservation
+  ---
+  duration_ms: 1.5008
+  ...
+# Subtest: typed correspondence checks explicit witnesses without claiming independent proof
+ok 47 - typed correspondence checks explicit witnesses without claiming independent proof
+  ---
+  duration_ms: 0.9477
+  ...
+# Subtest: 720-degree address preserves both turns and generation boundaries, including negative phase
+ok 48 - 720-degree address preserves both turns and generation boundaries, including negative phase
+  ---
+  duration_ms: 0.8453
+  ...
+# Subtest: torus parameterization satisfies its ring equation and periodicity on a finite grid
+ok 49 - torus parameterization satisfies its ring equation and periodicity on a finite grid
+  ---
+  duration_ms: 1.789
+  ...
+# Subtest: finite Sierpinski construction has exactly 4^depth half-scale cells with no infinite claim
+ok 50 - finite Sierpinski construction has exactly 4^depth half-scale cells with no infinite claim
+  ---
+  duration_ms: 2.1046
+  ...
+# Subtest: derived type-law revisions retain missing dependencies, cycles and superseded records
+ok 51 - derived type-law revisions retain missing dependencies, cycles and superseded records
+  ---
+  duration_ms: 1.2419
+  ...
+# Subtest: prediction scoring excludes declared leakage, late freezes and invalid probabilities
+ok 52 - prediction scoring excludes declared leakage, late freezes and invalid probabilities
+  ---
+  duration_ms: 0.6296
+  ...
+# Subtest: zero valid predictions produces unknown metrics and dependent groups do not become confidence
+ok 53 - zero valid predictions produces unknown metrics and dependent groups do not become confidence
+  ---
+  duration_ms: 0.3602
+  ...
+# Subtest: actual source hashes, typed references and pixel panels bind the supplied witness supplement
+not ok 54 - actual source hashes, typed references and pixel panels bind the supplied witness supplement
+  ---
+  duration_ms: 28.1741
+  location: 'C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout\\tests\\musical-hierarchies.test.mjs:14:1'
+  failureType: 'testCodeFailure'
+  error: "ENOENT: no such file or directory, open 'C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout\\data\\raw\\musical-hierarchy-sources\\329a79c26d0dfff12ea48cddcf445dcd2dda37055cde4844e054ab2731a80662\\source.html'"
+  code: 'ENOENT'
+  stack: |-
+    Object.openSync (node:fs:562:18)
+    Object.readFileSync (node:fs:446:35)
+    TestContext.<anonymous> (file:///C:/Users/Brend/Documents/ChatGPT/SUN/work/github-delivery-2026-11-07/checkout/tests/musical-hierarchies.test.mjs:17:18)
+    Test.runInAsyncScope (node:async_hooks:211:14)
+    Test.run (node:internal/test_runner/test:979:25)
+    Test.start (node:internal/test_runner/test:877:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: Chinese generation, seasons and7/5versus6/6partitions retain different relation frames
+ok 55 - Chinese generation, seasons and7/5versus6/6partitions retain different relation frames
+  ---
+  duration_ms: 3.1137
+  ...
+# Subtest: all60Lamcontexts execute distinct native actions with inverseb/q and exact60return
+ok 56 - all60Lamcontexts execute distinct native actions with inverseb/q and exact60return
+  ---
+  duration_ms: 65.504
+  ...
+# Subtest: key-degree-chord-tone ancestry is real contextual structure rather than unrelated pitch counts
+ok 57 - key-degree-chord-tone ancestry is real contextual structure rather than unrelated pitch counts
+  ---
+  duration_ms: 10.5702
+  ...
+# Subtest: instrument types/cells and rhythmic values do not become invented physical populations
+ok 58 - instrument types/cells and rhythmic values do not become invented physical populations
+  ---
+  duration_ms: 1.0141
+  ...
+# Subtest: incomplete source coverage remains explicit and broken parent references fail validation
+ok 59 - incomplete source coverage remains explicit and broken parent references fail validation
+  ---
+  duration_ms: 14.3259
+  ...
+# Subtest: exact original registry preserves all 10 mechanisms and 19 native members
+ok 60 - exact original registry preserves all 10 mechanisms and 19 native members
+  ---
+  duration_ms: 5.8637
+  ...
+# Subtest: MEC-01 source R,L compose to O exactly; inverse and carrier/unit persist
+ok 61 - MEC-01 source R,L compose to O exactly; inverse and carrier/unit persist
+  ---
+  duration_ms: 2.1987
+  ...
+# Subtest: MEC-02 D12 defining relations hold; abstract identity does not supply PLR realization
+ok 62 - MEC-02 D12 defining relations hold; abstract identity does not supply PLR realization
+  ---
+  duration_ms: 1.417
+  ...
+# Subtest: MEC-03 reversal is involutive, and nonretrogradability stays a predicate
+ok 63 - MEC-03 reversal is involutive, and nonretrogradability stays a predicate
+  ---
+  duration_ms: 0.6249
+  ...
+# Subtest: MEC-04 mutation executes only on a declared pitch-preserving overlap
+ok 64 - MEC-04 mutation executes only on a declared pitch-preserving overlap
+  ---
+  duration_ms: 0.9877
+  ...
+# Subtest: MEC-05 seven index starts compose and invert without choosing an origin
+ok 65 - MEC-05 seven index starts compose and invert without choosing an origin
+  ---
+  duration_ms: 1.0377
+  ...
+# Subtest: MEC-03/05 interacting identity J rho(k) J = rho(-k)
+ok 66 - MEC-03/05 interacting identity J rho(k) J = rho(-k)
+  ---
+  duration_ms: 80.2733
+  ...
+# Subtest: MEC-02 pitch-value action commutes with MEC-03 position reversal
+ok 67 - MEC-02 pitch-value action commutes with MEC-03 position reversal
+  ---
+  duration_ms: 1.24
+  ...
+# Subtest: MEC-06 E(5,13) retains all 13 phases with five onsets and gaps 2 or 3
+ok 68 - MEC-06 E(5,13) retains all 13 phases with five onsets and gaps 2 or 3
+  ---
+  duration_ms: 1.052
+  ...
+# Subtest: MEC-07 De Morgan sieve identity handles negative integers and explicit complement
+ok 69 - MEC-07 De Morgan sieve identity handles negative integers and explicit complement
+  ---
+  duration_ms: 1.1378
+  ...
+# Subtest: MEC-08 added duration and dot affect the selected event; insertion keeps exact unit
+ok 70 - MEC-08 added duration and dot affect the selected event; insertion keeps exact unit
+  ---
+  duration_ms: 0.6185
+  ...
+# Subtest: MEC-09 no pair of a three-antecedent rule constitutes its composite
+ok 71 - MEC-09 no pair of a three-antecedent rule constitutes its composite
+  ---
+  duration_ms: 0.4022
+  ...
+# Subtest: MEC-10 preserves the actual exact distribution and never replaces it with a winner
+ok 72 - MEC-10 preserves the actual exact distribution and never replaces it with a winner
+  ---
+  duration_ms: 0.5489
+  ...
+# Subtest: bounded API rejects non-JSON, cyclic, unsafe rational input and oversized requests
+ok 73 - bounded API rejects non-JSON, cyclic, unsafe rational input and oversized requests
+  ---
+  duration_ms: 0.3396
+  ...
+# {"status":"failed","groups":14,"failures":[{"name":"Every registered source digest binds the actual source bytes","error":"ENOENT: no such file or directory, open 'C:\\\\Users\\\\Brend\\\\Documents\\\\ChatGPT\\\\SUN\\\\work\\\\github-delivery-2026-11-07\\\\checkout\\\\data\\\\raw\\\\hierarchy-primary\\\\769e4eea060b19db382e2ae7c870ebaba1261aa024046d2e35a2231e72aab66f\\\\irenaeus_i_1.html'"}],"graphSha256":"a89ac6b2e327f2b9038d105c2d3625a15cf96c6f495704a901dbc61e29949e28"}
+# Subtest: all integrated native systems preserve their source records, declared units and unresolved global assignments
+not ok 74 - all integrated native systems preserve their source records, declared units and unresolved global assignments
+  ---
+  duration_ms: 2001.7155
+  location: 'C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout\\tests\\native-system-integration.test.mjs:5:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    [{"name":"Every registered source digest binds the actual source bytes","error":"ENOENT: no such file or directory, open 'C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\github-delivery-2026-11-07\\checkout\\data\\raw\\hierarchy-primary\\769e4eea060b19db382e2ae7c870ebaba1261aa024046d2e35a2231e72aab66f\\irenaeus_i_1.html'"}]
+    
+    'failed' !== 'passed'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'passed'
+  actual: 'failed'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/Users/Brend/Documents/ChatGPT/SUN/work/github-delivery-2026-11-07/checkout/tests/native-system-integration.test.mjs:88:226)
+    Test.runInAsyncScope (node:async_hooks:211:14)
+    Test.run (node:internal/test_runner/test:979:25)
+    Test.start (node:internal/test_runner/test:877:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: every one- and two-word design is accounted for, with explicit failed-design witnesses
+ok 75 - every one- and two-word design is accounted for, with explicit failed-design witnesses
+  ---
+  duration_ms: 17.9141
+  ...
+# Subtest: candidate values match repeated native translations and retain shared source frames
+ok 76 - candidate values match repeated native translations and retain shared source frames
+  ---
+  duration_ms: 3.0122
+  ...
+# Subtest: extension preserves all earlier orientation fields and its immutable source/code bindings
+ok 77 - extension preserves all earlier orientation fields and its immutable source/code bindings
+  ---
+  duration_ms: 34.3189
+  ...
+# Subtest: identification within a fixed family does not become historical or global selection
+ok 78 - identification within a fixed family does not become historical or global selection
+  ---
+  duration_ms: 0.2132
+  ...
+# Subtest: positive attestations alone do not select contact direction
+ok 79 - positive attestations alone do not select contact direction
+  ---
+  duration_ms: 3.1212
+  ...
+# Subtest: each incompatible additional-bound pair is inclusion-minimal
+ok 80 - each incompatible additional-bound pair is inclusion-minimal
+  ---
+  duration_ms: 1.0158
+  ...
+# Subtest: strict, weak and open endpoint equality are distinguished
+ok 81 - strict, weak and open endpoint equality are distinguished
+  ---
+  duration_ms: 0.472
+  ...
+# Subtest: narrow rational windows remain exact beyond floating-point precision
+ok 82 - narrow rational windows remain exact beyond floating-point precision
+  ---
+  duration_ms: 0.2706
+  ...
+# Subtest: empty event windows and malformed rational values do not produce histories
+ok 83 - empty event windows and malformed rational values do not produce histories
+  ---
+  duration_ms: 0.5362
+  ...
+# Subtest: exact derived witnesses may exceed the input endpoint digit budget
+ok 84 - exact derived witnesses may exceed the input endpoint digit budget
+  ---
+  duration_ms: 0.7664
+  ...
+# Subtest: actual twelve completions give a shared binary flip despite unresolved selector
+ok 85 - actual twelve completions give a shared binary flip despite unresolved selector
+  ---
+  duration_ms: 3.7169
+  ...
+# Subtest: source-native ordered phase observations distinguish all twelve without electing one
+ok 86 - source-native ordered phase observations distinguish all twelve without electing one
+  ---
+  duration_ms: 0.7633
+  ...
+# Subtest: a missing value or unbound target prevents a false unanimous prediction
+ok 87 - a missing value or unbound target prevents a false unanimous prediction
+  ---
+  duration_ms: 0.4984
+  ...
+# Subtest: contradiction yields no survivors, not vacuous agreement
+ok 88 - contradiction yields no survivors, not vacuous agreement
+  ---
+  duration_ms: 1.4451
+  ...
+# Subtest: duplicate targets and repeated keys fail explicitly
+ok 89 - duplicate targets and repeated keys fail explicitly
+  ---
+  duration_ms: 0.8109
+  ...
+# {"status":"passed","exit_code":0,"preserved":{"entities":9493,"relationships":10233,"hierarchyViews":22,"scoreViews":11,"priorScoreExecutions":11},"added":{"entities":19,"relationships":18,"hierarchyViews":1,"untimedReadingViews":4,"individuallyAddressedSyllables":12},"unknownAcousticsAndTimingPreserved":true}
+# Subtest: reading extension preserves all prior graph and score records and source-qualified unknowns
+ok 90 - reading extension preserves all prior graph and score records and source-qualified unknowns
+  ---
+  duration_ms: 938.1293
+  ...
+# Subtest: a coarse shared input has an explicit two-row contradiction
+ok 91 - a coarse shared input has an explicit two-row contradiction
+  ---
+  duration_ms: 3.6492
+  ...
+# Subtest: every inclusion-minimal finite refinement is retained
+ok 92 - every inclusion-minimal finite refinement is retained
+  ---
+  duration_ms: 0.5197
+  ...
+# Subtest: unknown input and output remain unresolved instead of selecting a rule
+ok 93 - unknown input and output remain unresolved instead of selecting a rule
+  ---
+  duration_ms: 0.5955
+  ...
+# Subtest: empty strings can carry a known unmarked or silent value
+ok 94 - empty strings can carry a known unmarked or silent value
+  ---
+  duration_ms: 0.2089
+  ...
+# Subtest: dropping lexical context creates exactly two excess sample pairings
+ok 95 - dropping lexical context creates exactly two excess sample pairings
+  ---
+  duration_ms: 0.6497
+  ...
+# Subtest: duplicate occurrences retain IDs without inflating distinct relation tuples
+ok 96 - duplicate occurrences retain IDs without inflating distinct relation tuples
+  ---
+  duration_ms: 0.445
+  ...
+# Subtest: Unicode and inherited object properties do not fabricate equality or evidence
+ok 97 - Unicode and inherited object properties do not fabricate equality or evidence
+  ---
+  duration_ms: 0.2744
+  ...
+# Subtest: empty samples, malformed rows and target-field refinements cannot certify rules
+ok 98 - empty samples, malformed rows and target-field refinements cannot certify rules
+  ---
+  duration_ms: 0.687
+  ...
+# Subtest: source Chinese construction preserves81→54→72 /8→12→9 and unassigned timing
+ok 99 - source Chinese construction preserves81→54→72 /8→12→9 and unassigned timing
+  ---
+  duration_ms: 3.3344
+  ...
+# Subtest: all five source witness chronologies reproduce their five overlap stages without claiming audio sustain
+ok 100 - all five source witness chronologies reproduce their five overlap stages without claiming audio sustain
+  ---
+  duration_ms: 1.6869
+  ...
+# Subtest: clock, dimension, unit, reference and genealogy/succession carrier conflations fail explicitly
+ok 101 - clock, dimension, unit, reference and genealogy/succession carrier conflations fail explicitly
+  ---
+  duration_ms: 3.2276
+  ...
+# Subtest: cyclic source order and a known reversed chronological order are rejected
+ok 102 - cyclic source order and a known reversed chronological order are rejected
+  ---
+  duration_ms: 1.2531
+  ...
+# Subtest: Sophia working labels execute relative octave/fifth with no inventedHz, time or instrument
+ok 103 - Sophia working labels execute relative octave/fifth with no inventedHz, time or instrument
+  ---
+  duration_ms: 0.7351
+  ...
+# Subtest: explicit cross-system links preserve ordered ratios and reject reordered or invalid quantities
+ok 104 - explicit cross-system links preserve ordered ratios and reject reordered or invalid quantities
+  ---
+  duration_ms: 17.265
+  ...
+# Subtest: known negative/zero/wrong-dimension pitches fail, while unknown evidence cannot become a completed score
+ok 105 - known negative/zero/wrong-dimension pitches fail, while unknown evidence cannot become a completed score
+  ---
+  duration_ms: 3.5318
+  ...
+# (node:23780) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: selected SQLite driver provides required FTS5 independently of the built-in runtime
+ok 106 - selected SQLite driver provides required FTS5 independently of the built-in runtime
+  ---
+  duration_ms: 7.7517
+  ...
+# Subtest: read-only source service preserves actual role, text, branches and source locators
+ok 107 - read-only source service preserves actual role, text, branches and source locators
+  ---
+  duration_ms: 232.549
+  ...
+# Subtest: source-qualified final cases refute universal dotted-consonant interpretation
+ok 108 - source-qualified final cases refute universal dotted-consonant interpretation
+  ---
+  duration_ms: 6.3081
+  ...
+# Subtest: both retained grammatical interpretations agree on all seven presence targets
+ok 109 - both retained grammatical interpretations agree on all seven presence targets
+  ---
+  duration_ms: 0.6297
+  ...
+# Subtest: neither original duration, fixedHz nor strengthening factor is manufactured
+ok 110 - neither original duration, fixedHz nor strengthening factor is manufactured
+  ---
+  duration_ms: 0.4006
+  ...
+# Subtest: wrong canonical loci or missing source bindings fail explicitly
+ok 111 - wrong canonical loci or missing source bindings fail explicitly
+  ---
+  duration_ms: 1.4159
+  ...
+# Subtest: published execution binds actual compiled files and every exported score source
+ok 112 - published execution binds actual compiled files and every exported score source
+  ---
+  duration_ms: 2.9837
+  ...
+# Subtest: fixed worker completion verifies launcher/interpreter exit and preserves fixture output
+ok 113 - fixed worker completion verifies launcher/interpreter exit and preserves fixture output
+  ---
+  duration_ms: 2449.3225
+  ...
+# Subtest: timeout reaps the venv launcher, interpreter and sleeping descendant
+ok 114 - timeout reaps the venv launcher, interpreter and sleeping descendant
+  ---
+  duration_ms: 4294.8164
+  ...
+# Subtest: output overflow reaps all owned worker processes
+ok 115 - output overflow reaps all owned worker processes
+  ---
+  duration_ms: 4939.6488
+  ...
+# Subtest: explicit shutdown reaps an active fixed worker before resolving
+ok 116 - explicit shutdown reaps an active fixed worker before resolving
+  ---
+  duration_ms: 5701.0246
+  ...
+# Subtest: HTTP two-worker limit stays reserved during timeout cleanup, then accepts work again
+ok 117 - HTTP two-worker limit stays reserved during timeout cleanup, then accepts work again
+  ---
+  duration_ms: 6830.5439
+  ...
+# Subtest: HTTP server close waits for active request-worker cleanup
+ok 118 - HTTP server close waits for active request-worker cleanup
+  ---
+  duration_ms: 6512.5153
+  ...
+1..118
+# tests 118
+# suites 0
+# pass 116
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 30994.9075

@@ -1,0 +1,4 @@
+{
+  "code": "s[v_] := Mod[v + 1, 12]; t[v_] := Mod[-v, 12]; v = Range[0,11]; d12 = {Nest[s,v,12] == v, t[t[v]] == v, t[s[t[v]]] == Mod[v-1,12]}; conjugacy = And @@ Flatten[Table[Reverse[RotateLeft[Reverse[Range[n]], k]] == RotateLeft[Range[n],-k], {n,1,32},{k,-n,n}]]; valuePosition = And @@ Flatten[Table[Reverse[Mod[sign {0,7,2,9,4,11}+offset,12]] == Mod[sign Reverse[{0,7,2,9,4,11}]+offset,12],{sign,{-1,1}},{offset,0,11}]]; w = Table[Floor[(i+1)5/13]-Floor[i 5/13],{i,0,12}]; orbit = DeleteDuplicates[Table[RotateLeft[w,k],{k,0,12}]]; gaps = Table[With[{p=Flatten[Position[a,1]]}, Differences[Append[p,First[p]+13]]], {a,orbit}]; <|\"D12Relations\"->d12,\"ReversalRotationConjugacy\"->conjugacy,\"ValuePositionCommutes\"->valuePosition,\"E5_13MechanicalWord\"->w,\"DistinctRotations\"->Length[orbit],\"OnsetCounts\"->DeleteDuplicates[Total /@ orbit],\"CyclicGapValues\"->Union[Flatten[gaps]]|>",
+  "timeConstraint": 20
+}

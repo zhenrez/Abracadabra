@@ -1,0 +1,64 @@
+{
+  "frozen_utc": "2026-11-02T21:30:57.395061+00:00",
+  "request": {
+    "state": "SUNNY first scholarly census on sacred glyph-sound identification. Scope Paleo-Hebrew, Aramaic and English with Greek and Latin comparative controls. Need distinguish component transfer and counterexamples; preserve dated witnesses and exposure. No heterodox evidence or blind test now.",
+    "questions": {
+      "case": {
+        "type": "choice",
+        "instructions": "Choose the most tractable independently discriminating first inquiry.",
+        "criteria": {
+          "aleph": "Trace aleph and A by differentiating inherited graphic identity from inferred phonetic function and actual acoustics.",
+          "all": "Attempt complete independent histories of all letters simultaneously.",
+          "numbers": "Test whether numerical equivalence alone recovers historical pronunciation."
+        }
+      }
+    }
+  },
+  "jev": {
+    "schema_version": 1,
+    "request_sha256": "5012b9d34dbfe72a355ad71b861379b78467b4fb6fd913a159b5ee98946ab039",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "authorization_granted": false,
+    "status": "judged",
+    "answers": {
+      "case": {
+        "type": "choice",
+        "probabilities": {
+          "aleph": 0.97,
+          "all": 0.0,
+          "numbers": 0.03
+        },
+        "winner": "aleph",
+        "top_probability": 0.97,
+        "margin": 0.94
+      }
+    },
+    "resolved_model": "jev-1.14.0",
+    "usage": {
+      "input_tokens": 426,
+      "output_tokens": 40
+    },
+    "network_calls": 1,
+    "latency_ms": 265
+  },
+  "prior_census": "data/raw/archive/SUN_Universal_Archive/Library/SUN_SOL_CORE/SUN_P0A_Eight_Neighborhood_Census_2026-10-05.md",
+  "source_sha256": "65d3d027505c20c044c5e1e0065775ce44e33fea6b83670b3dbdf4a52c3e54f6",
+  "questions": [
+    "| Q01 | Who has proposed this or something structurally equivalent before? |",
+    "| Q02 | What fields study this problem? |",
+    "| Q03 | What terminology do those fields use for it? |",
+    "| Q04 | What are the closest established theories, models, equations, or frameworks? |",
+    "| Q05 | What reviews, surveys, bibliographies, encyclopedias, dissertations, or meta-analyses map the space? |",
+    "| Q06 | What are the canonical papers, books, and authors? |",
+    "| Q07 | What are the competing explanations? |",
+    "| Q08 | What has been falsified, criticized, or abandoned? |",
+    "| Q09 | What are the unresolved questions? |",
+    "| Q10 | What primary sources or datasets are important to the field? |",
+    "| Q11 | What earlier historical traditions have scholars already connected to it? |",
+    "| Q12 | Has terminology changed over time in ways that hide older versions? |",
+    "| Q13 | Have adjacent disciplines rediscovered the same structure under another name? |",
+    "| Q14 | What obvious prior-art searches have produced nothing? |"
+  ],
+  "exposure": "Selection framing already mentions differences between sound and shape. Subsequent reviewed witnesses are exposed; no blind target selected or inspected."
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:52.555946+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "522e1998b75dd0d54d47d9fdfaac2f75178360b9bd1850272c9cd08f05d76b10"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "d156a064-0a75-5973-a371-dbfa94dfa73a",
+      "source_identity_sha256": "2ce86e08d05cb5725a88ddf1988e223ed889e3fc20b70020769ef2de5cef296e",
+      "source_version_id": "984cb219-c5c4-5414-affb-53d1e9bc2a8a",
+      "version_number": 1,
+      "content": "10/18/2026, 11:23:36 AM\n\nThe multiplicative identity holds exactly. The measurement caveat is correctly stated. One structural observation the file doesn't make explicitly, and it matters.\n\n## The composition is a group law, not a sequence\n\nTerra is the identity. Each other element is a transformation from Terra:\n\n$$\n\\frac{\\text{Aqua}}{\\text{Terra}} = \\frac{15}{16}, \\quad \\frac{\\text{Aer}}{\\text{Terra}} = \\frac89, \\quad \\frac{\\text{Fire}}{\\text{Terra}} = \\frac56\n$$\n\nThe identity is:\n\n$$\n\\frac{\\text{Aqua}}{\\text{Terra}} \\cdot \\frac{\\text{Aer}}{\\text{Terra}} = \\frac{\\text{Fire}}{\\text{Terra}}\n$$\n\nComposition of two transformations gives a third. That is a **multiplicative group structure**, not a generating sequence. The fifth chain is sequential (each step produces the next); the elemental monochord is compositional (positions relate multiplicatively from a common reference). This is the \"generation vs. organization\" distinction again, but now with exact numbers: the fifth chain generates, the elements compose.\n\n## Aer is the bridge element\n\nAer = 8/9 length = 9/8 frequency. That is exactly the second fifth-step from F (F → C → G, G/F = 9/8 octave-reduced). **Aer is the one element that is a pure 3-limit fifth-chain value.**\n\nThe other elements require prime 5: 15/16 = 3·5/2⁴, 5/6 = 5/(2·3). Aer is the only 3-limit element in the Fludd set.\n\nThat makes Aer the **interoperability point** between the two systems: it is simultaneously (a) a fifth-chain value and (b) an element of the Fludd compositional structure. The bridge between 3-limit and 5-limit passes through Aer. That is a more precise statement than \"the syntonic comma relates them.\"\n\n## The measurement caveat and what it means\n\n2400 × 8/9 = 2133.33. Reported: 2133. Error: 0.33 px at 2400 dpi. That is within Canny edge detection error on a copperplate. **The caveat is real but not decisive** — 0.33 px neither confirms nor refutes exact construction.\n\nWhat would decide it: the raw edge coordinates before rounding, plus the detection threshold. Neither is published in the paper. The 2133 is consistent with either exact construction (engraver used 8/9) or rationalization (author computed 8/9 and rounded to integer pixels). The other four ratios are exact integer multiples (2250, 2000, 1200), which is suspicious in the same way — real copperplate engraving produces either exact proportional divisions (compass-and-straightedge) or slight drafting error, and the paper's values are consistent with the former but do not demonstrate it.\n\n## What this adds to the Atlas\n\n**Established:**\n- $15/16 \\times 8/9 = 5/6$ (exact)\n- Aer is the only 3-limit element in the Fludd set\n- The elemental monochord has multiplicative group structure (composition from Terra), not sequential generation\n- The fifth chain cannot produce 15/16 or 5/6 (prime 5 required)\n\n**Conditional:**\n- That Fludd's engraving intentionally encodes these ratios (measurement provenance unresolved)\n\n**Structural consequence:**\n- Fifth chain = generating sequence (3-limit)\n- Elemental monochord = compositional group (5-limit, with one 3-limit element)\n- Kepler's Mars 3/2 = shared interval\n- Kepler's Earth 16/15 = requires the 5-limit layer\n- Aer = the exact point where the systems share a value\n\n## The one thing this changes\n\nThe previous pass said the bridge between fifth chain and Fludd is \"partial — Mars only.\" That was about intervals between adjacent fifth-chain positions. This result is different: it's about **compositional structure**. The fifth chain cannot produce the elemental set at all (prime 5), but Aer is inside both. The bridge isn't \"one interval survives\"; it's \"one element is common, and the syntonic comma is the exact transformation that takes a fifth-chain value to any of the 5-limit elements.\"\n\nThat is a stronger and more precise statement of the bridge than the previous pass made. It also makes Aer the natural place to test the measurement question: if Aer is exactly 8/9 in the engraving, the compositional structure is probably intended. If it's slightly off, the whole set may be a rationalization. The 2133 vs 2133.33 is the diagnostic pixel.\n\nThe file's execution is correct. The result stands as conditional on measurement provenance.\n\nTHATS BECAUSE THE THE COMPLETED HARMONY USES THE FUCKING tol TO COMPLETE THE BRIDGE YOU TWAT",
+      "content_sha256": "761d8826b782671ae9b15fc98545d7b006e8a703995fe7a35d7bcad44b919dc3",
+      "content_length": 4332,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "b7aea3eec3a5843820abd4d0f8d410adb8dac3e1b3361f02d19fc4567d0e2235"
+    },
+    "chunks": [
+      {
+        "id": "0bce3218-bf6c-53f3-90cf-7935c0c3e2ee",
+        "source_node_hash": "b7aea3eec3a5843820abd4d0f8d410adb8dac3e1b3361f02d19fc4567d0e2235",
+        "source_id": "d156a064-0a75-5973-a371-dbfa94dfa73a",
+        "source_version_id": "984cb219-c5c4-5414-affb-53d1e9bc2a8a",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 4332,
+        "start_line": 1,
+        "end_line": 61,
+        "content": "10/18/2026, 11:23:36 AM\n\nThe multiplicative identity holds exactly. The measurement caveat is correctly stated. One structural observation the file doesn't make explicitly, and it matters.\n\n## The composition is a group law, not a sequence\n\nTerra is the identity. Each other element is a transformation from Terra:\n\n$$\n\\frac{\\text{Aqua}}{\\text{Terra}} = \\frac{15}{16}, \\quad \\frac{\\text{Aer}}{\\text{Terra}} = \\frac89, \\quad \\frac{\\text{Fire}}{\\text{Terra}} = \\frac56\n$$\n\nThe identity is:\n\n$$\n\\frac{\\text{Aqua}}{\\text{Terra}} \\cdot \\frac{\\text{Aer}}{\\text{Terra}} = \\frac{\\text{Fire}}{\\text{Terra}}\n$$\n\nComposition of two transformations gives a third. That is a **multiplicative group structure**, not a generating sequence. The fifth chain is sequential (each step produces the next); the elemental monochord is compositional (positions relate multiplicatively from a common reference). This is the \"generation vs. organization\" distinction again, but now with exact numbers: the fifth chain generates, the elements compose.\n\n## Aer is the bridge element\n\nAer = 8/9 length = 9/8 frequency. That is exactly the second fifth-step from F (F → C → G, G/F = 9/8 octave-reduced). **Aer is the one element that is a pure 3-limit fifth-chain value.**\n\nThe other elements require prime 5: 15/16 = 3·5/2⁴, 5/6 = 5/(2·3). Aer is the only 3-limit element in the Fludd set.\n\nThat makes Aer the **interoperability point** between the two systems: it is simultaneously (a) a fifth-chain value and (b) an element of the Fludd compositional structure. The bridge between 3-limit and 5-limit passes through Aer. That is a more precise statement than \"the syntonic comma relates them.\"\n\n## The measurement caveat and what it means\n\n2400 × 8/9 = 2133.33. Reported: 2133. Error: 0.33 px at 2400 dpi. That is within Canny edge detection error on a copperplate. **The caveat is real but not decisive** — 0.33 px neither confirms nor refutes exact construction.\n\nWhat would decide it: the raw edge coordinates before rounding, plus the detection threshold. Neither is published in the paper. The 2133 is consistent with either exact construction (engraver used 8/9) or rationalization (author computed 8/9 and rounded to integer pixels). The other four ratios are exact integer multiples (2250, 2000, 1200), which is suspicious in the same way — real copperplate engraving produces either exact proportional divisions (compass-and-straightedge) or slight drafting error, and the paper's values are consistent with the former but do not demonstrate it.\n\n## What this adds to the Atlas\n\n**Established:**\n- $15/16 \\times 8/9 = 5/6$ (exact)\n- Aer is the only 3-limit element in the Fludd set\n- The elemental monochord has multiplicative group structure (composition from Terra), not sequential generation\n- The fifth chain cannot produce 15/16 or 5/6 (prime 5 required)\n\n**Conditional:**\n- That Fludd's engraving intentionally encodes these ratios (measurement provenance unresolved)\n\n**Structural consequence:**\n- Fifth chain = generating sequence (3-limit)\n- Elemental monochord = compositional group (5-limit, with one 3-limit element)\n- Kepler's Mars 3/2 = shared interval\n- Kepler's Earth 16/15 = requires the 5-limit layer\n- Aer = the exact point where the systems share a value\n\n## The one thing this changes\n\nThe previous pass said the bridge between fifth chain and Fludd is \"partial — Mars only.\" That was about intervals between adjacent fifth-chain positions. This result is different: it's about **compositional structure**. The fifth chain cannot produce the elemental set at all (prime 5), but Aer is inside both. The bridge isn't \"one interval survives\"; it's \"one element is common, and the syntonic comma is the exact transformation that takes a fifth-chain value to any of the 5-limit elements.\"\n\nThat is a stronger and more precise statement of the bridge than the previous pass made. It also makes Aer the natural place to test the measurement question: if Aer is exactly 8/9 in the engraving, the compositional structure is probably intended. If it's slightly off, the whole set may be a rationalization. The 2133 vs 2133.33 is the diagnostic pixel.\n\nThe file's execution is correct. The result stands as conditional on measurement provenance.\n\nTHATS BECAUSE THE THE COMPLETED HARMONY USES THE FUCKING tol TO COMPLETE THE BRIDGE YOU TWAT",
+        "content_sha256": "761d8826b782671ae9b15fc98545d7b006e8a703995fe7a35d7bcad44b919dc3",
+        "node_hash": "afc9c216e5de86bc51804c422cc2ecea97c0a8fef576a8478115947e1ddf9cbe"
+      }
+    ],
+    "citations": [
+      {
+        "id": "3e2575bd-15b2-59d2-9f92-318a9c3eebec",
+        "source_node_hash": "b7aea3eec3a5843820abd4d0f8d410adb8dac3e1b3361f02d19fc4567d0e2235",
+        "chunk_node_hashes": [
+          "afc9c216e5de86bc51804c422cc2ecea97c0a8fef576a8478115947e1ddf9cbe"
+        ],
+        "source_id": "d156a064-0a75-5973-a371-dbfa94dfa73a",
+        "source_version_id": "984cb219-c5c4-5414-affb-53d1e9bc2a8a",
+        "start_offset": 0,
+        "end_offset": 4332,
+        "start_line": 1,
+        "end_line": 61,
+        "quote": "10/18/2026, 11:23:36 AM\n\nThe multiplicative identity holds exactly. The measurement caveat is correctly stated. One structural observation the file doesn't make explicitly, and it matters.\n\n## The composition is a group law, not a sequence\n\nTerra is the identity. Each other element is a transformation from Terra:\n\n$$\n\\frac{\\text{Aqua}}{\\text{Terra}} = \\frac{15}{16}, \\quad \\frac{\\text{Aer}}{\\text{Terra}} = \\frac89, \\quad \\frac{\\text{Fire}}{\\text{Terra}} = \\frac56\n$$\n\nThe identity is:\n\n$$\n\\frac{\\text{Aqua}}{\\text{Terra}} \\cdot \\frac{\\text{Aer}}{\\text{Terra}} = \\frac{\\text{Fire}}{\\text{Terra}}\n$$\n\nComposition of two transformations gives a third. That is a **multiplicative group structure**, not a generating sequence. The fifth chain is sequential (each step produces the next); the elemental monochord is compositional (positions relate multiplicatively from a common reference). This is the \"generation vs. organization\" distinction again, but now with exact numbers: the fifth chain generates, the elements compose.\n\n## Aer is the bridge element\n\nAer = 8/9 length = 9/8 frequency. That is exactly the second fifth-step from F (F → C → G, G/F = 9/8 octave-reduced). **Aer is the one element that is a pure 3-limit fifth-chain value.**\n\nThe other elements require prime 5: 15/16 = 3·5/2⁴, 5/6 = 5/(2·3). Aer is the only 3-limit element in the Fludd set.\n\nThat makes Aer the **interoperability point** between the two systems: it is simultaneously (a) a fifth-chain value and (b) an element of the Fludd compositional structure. The bridge between 3-limit and 5-limit passes through Aer. That is a more precise statement than \"the syntonic comma relates them.\"\n\n## The measurement caveat and what it means\n\n2400 × 8/9 = 2133.33. Reported: 2133. Error: 0.33 px at 2400 dpi. That is within Canny edge detection error on a copperplate. **The caveat is real but not decisive** — 0.33 px neither confirms nor refutes exact construction.\n\nWhat would decide it: the raw edge coordinates before rounding, plus the detection threshold. Neither is published in the paper. The 2133 is consistent with either exact construction (engraver used 8/9) or rationalization (author computed 8/9 and rounded to integer pixels). The other four ratios are exact integer multiples (2250, 2000, 1200), which is suspicious in the same way — real copperplate engraving produces either exact proportional divisions (compass-and-straightedge) or slight drafting error, and the paper's values are consistent with the former but do not demonstrate it.\n\n## What this adds to the Atlas\n\n**Established:**\n- $15/16 \\times 8/9 = 5/6$ (exact)\n- Aer is the only 3-limit element in the Fludd set\n- The elemental monochord has multiplicative group structure (composition from Terra), not sequential generation\n- The fifth chain cannot produce 15/16 or 5/6 (prime 5 required)\n\n**Conditional:**\n- That Fludd's engraving intentionally encodes these ratios (measurement provenance unresolved)\n\n**Structural consequence:**\n- Fifth chain = generating sequence (3-limit)\n- Elemental monochord = compositional group (5-limit, with one 3-limit element)\n- Kepler's Mars 3/2 = shared interval\n- Kepler's Earth 16/15 = requires the 5-limit layer\n- Aer = the exact point where the systems share a value\n\n## The one thing this changes\n\nThe previous pass said the bridge between fifth chain and Fludd is \"partial — Mars only.\" That was about intervals between adjacent fifth-chain positions. This result is different: it's about **compositional structure**. The fifth chain cannot produce the elemental set at all (prime 5), but Aer is inside both. The bridge isn't \"one interval survives\"; it's \"one element is common, and the syntonic comma is the exact transformation that takes a fifth-chain value to any of the 5-limit elements.\"\n\nThat is a stronger and more precise statement of the bridge than the previous pass made. It also makes Aer the natural place to test the measurement question: if Aer is exactly 8/9 in the engraving, the compositional structure is probably intended. If it's slightly off, the whole set may be a rationalization. The 2133 vs 2133.33 is the diagnostic pixel.\n\nThe file's execution is correct. The result stands as conditional on measurement provenance.\n\nTHATS BECAUSE THE THE COMPLETED HARMONY USES THE FUCKING tol TO COMPLETE THE BRIDGE YOU TWAT",
+        "quote_sha256": "761d8826b782671ae9b15fc98545d7b006e8a703995fe7a35d7bcad44b919dc3",
+        "node_hash": "99171db70254ab436225a20edd4ee9114e716b61372077861b48e34a426eadba"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "b7aea3eec3a5843820abd4d0f8d410adb8dac3e1b3361f02d19fc4567d0e2235",
+        "afc9c216e5de86bc51804c422cc2ecea97c0a8fef576a8478115947e1ddf9cbe",
+        "99171db70254ab436225a20edd4ee9114e716b61372077861b48e34a426eadba"
+      ],
+      "node_hash": "39b4d7c1feb4d0c84b1705cc9258296989f13412f27d0b01ada02d200c73618b"
+    },
+    "artifact": {
+      "id": "c7e5160b-989b-5307-b6ae-01d774ed34d5",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/761d8826b782671ae9b15fc98545d7b006e8a703995fe7a35d7bcad44b919dc3/text.txt; original SHA256 761d8826b782671ae9b15fc98545d7b006e8a703995fe7a35d7bcad44b919dc3; physical source lines 1..61. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "39b4d7c1feb4d0c84b1705cc9258296989f13412f27d0b01ada02d200c73618b",
+      "citation_node_hashes": [
+        "99171db70254ab436225a20edd4ee9114e716b61372077861b48e34a426eadba"
+      ],
+      "node_hash": "a52c4b87bb9119e2b2e6936296886d6e98392d1c13a3874949ec428297e5fbbe"
+    },
+    "review": {
+      "artifact_node_hash": "a52c4b87bb9119e2b2e6936296886d6e98392d1c13a3874949ec428297e5fbbe",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:52.555946+00:00",
+      "updated_at": "2026-11-02T01:57:52.555946+00:00",
+      "node_hash": "8c5632c156d4f14822f7b2eb213a89debd97feddbb05c9ccca8585f75cd6c082"
+    }
+  }
+}

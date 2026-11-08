@@ -1,0 +1,108 @@
+{
+  "schema": "sunny.mandate-independent-review.v1",
+  "checked_utc": "2026-10-31T21:53:27.480994+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "id": "actual-native-computation",
+      "passed": true,
+      "source_files": 6,
+      "scope": "Re-execution of actual source-bound exact arithmetic without replacing author output."
+    },
+    {
+      "id": "TOL-span-primitive_scalar_operations",
+      "passed": true,
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "scope": "Read-only indexed document span and original source byte hash."
+    },
+    {
+      "id": "TOL-span-history_and_observable_projection",
+      "passed": true,
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "scope": "Read-only indexed document span and original source byte hash."
+    },
+    {
+      "id": "TOL-span-prime_coordinates_and_evaluation",
+      "passed": true,
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "scope": "Read-only indexed document span and original source byte hash."
+    },
+    {
+      "id": "TOL-span-faithfulness_protected_distinctions",
+      "passed": true,
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "scope": "Read-only indexed document span and original source byte hash."
+    },
+    {
+      "id": "TOL-span-registered_partial_adapter",
+      "passed": true,
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "scope": "Read-only indexed document span and original source byte hash."
+    },
+    {
+      "id": "TOL-span-unfinished_domains_and_type_system",
+      "passed": true,
+      "document_id": "266d779908f5dadee900884fae6c6d6d69e07cf7372dd61f4c686319b3436e6e",
+      "source_id": "6d0e6405bba76f693e8810327a39c0a663813316222c64fc4cc179a54f377fe9",
+      "scope": "Read-only indexed document span and original source byte hash."
+    },
+    {
+      "id": "orientation-residue-grid",
+      "passed": true,
+      "candidates": 12,
+      "words": 144,
+      "common_words": 8,
+      "shared_addresses": 4,
+      "scope": "Optional source family only; no global orientation election."
+    },
+    {
+      "id": "history-projection-no-left-inverse",
+      "passed": true,
+      "scope": "Protected RL and LR histories differ but scalar endpoints coincide. Any scalar-only reconstruction cannot left-invert both histories. Full history ontology is not assumed."
+    }
+  ],
+  "artifact_hashes": {
+    "src/prediction.ts": "0c9ed4889d3d1dd88e83eec63d7339fd316bb694b03c68948cc2620270c43959",
+    "tests/prediction.test.mjs": "f6c5efb8078dcab4691b129fab345ef3decaa2b79e368b6f3407bbac2268c0f7",
+    "scripts/reconstruct_native_derivations.py": "41f14388d97e78eb9d184c9ed39c022dc29f93f637fbd1122f33cad2d5866bd3",
+    "scripts/reconstruct_orientation_predictions.mjs": "620cceec09c8eb6454c774f45e00114c72f79cf8b1f5a7b327266acbc6c3ea26",
+    "state/reconstruction/native-derivations.json": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+    "state/reconstruction/orientation-predictions.json": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+    "state/reconstruction/tol-history-math.json": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+    "docs/evidence/mandate-input-preservation.json": "72a1194c37fba00bda534ebd12274ca08f681a6e5c24fbede991dc07853399a7"
+  },
+  "focused_node_test": {
+    "observed_exit_code": 0,
+    "tests": 5,
+    "passed": 5,
+    "failed": 0,
+    "tool_result_chunk": "bb13d8",
+    "scope": "Actual tests/prediction.test.mjs, directly executed independently; not AgentProof capture."
+  },
+  "code_review": {
+    "skill": "agent-skills:code-review-and-quality",
+    "axes": [
+      "correctness",
+      "readability",
+      "architecture",
+      "security",
+      "performance"
+    ],
+    "material_defects_in_scoped_prediction_module": [],
+    "findings": [
+      "Unknown selectors remain possible; absent bindings/values prevent false unanimity.",
+      "Empty survivor sets explicitly report no-surviving-candidates.",
+      "Source references are syntactically checked; source authenticity correctly remains an external binding audit.",
+      "Finite residue families and exact rational carriers retain distinct scopes.",
+      "History minimality is restricted to fixed intermediate sample positions in the declared ten-word algebraic budget."
+    ]
+  },
+  "global_orientation_selected": false,
+  "blind_prediction_validated": false,
+  "account_completeness_certified": false
+}

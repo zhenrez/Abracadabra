@@ -1,0 +1,21 @@
+{
+  "state": "User asks whyinputsdeleted and requiresJev/reconstruction/plugins. Fiveattachmentsstillpresent; rawmessageIDs604? actual60398 vs59894backup+504, removed0, changedcontenthash0. Concretecodeflowfound scripts/refresh_reconstruction_checkpoint.py main unconditionallyreplaces current_priority, latest_user_priority_exact and next_actions witholderOct31text andnarrow20imagerecovery; overwritescompletiontoo. ExistingtaskQ6unanswered contradictslatestinlineprogressivetypelawmandate. Need preserveactiveusercontext andimmutablepriorstates, supersedestalequestionintohistory ratherthanerase. Mathematicalmodulesbeingimplemented. AgentProofinstalledbutexistingtrustedruntime/agent-jev containsfixedpriorreceiptwithbothfailedchildchecks; mustnotoverwriteit. CanisolatelocalGit snapshotofactualnewmathfiles forfreshboundedverification, retainingexacthashbindingtorealworkspace. RootnotGit, nohosttrustsettingchange.",
+  "questions": {
+    "continuity": {
+      "type":"choice",
+      "instructions":"Direct correction of the demonstrated context overwrite path.",
+      "criteria":{
+        "preserve_and_test":"Reproduceolderfieldoverwritefromactualcode, replacehardcodedcontextwriteswithpreservingdefaults, addregressionchecks, preservebeforestateandexplicitlysupersedestaleQ6/Favoriteswaitingcontextusingcurrentuserauthority.",
+        "leave_refresh":"Leaveunconditionaloldcontextwritesunchangedandonlyaddanothernarrativesummary."
+      }
+    },
+    "guard_capture":{
+      "type":"choice",
+      "instructions":"Choose meaningful AgentProof scope without overwriting historical receipt.",
+      "criteria":{
+        "isolated_actual_snapshot":"UseanisolatedlocalGit snapshotofactualnewmathsourcefiles, exacthashbindthem, runboundedmeaningfulcheckunderAgentProofandkeepnewreceiptsseparate; nosafetysettingchanges.",
+        "verify_old_only":"Readverifytheoldreceiptbutdonotclaimfreshpassingmathcapture."
+      }
+    }
+  }
+}

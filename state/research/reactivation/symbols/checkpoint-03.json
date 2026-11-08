@@ -1,0 +1,42 @@
+{
+  "schema": "sunny.symbol-research.checkpoint.v2",
+  "created_utc": "2026-11-03T02:44:19.122Z",
+  "resumption_after_audit": "state/progress-audit.json checked against live clock and corrected CONTINUE.md. Prior22:05Z source/context records are retained as prior work; no continuous execution claimed during the documented gap.",
+  "new_source_result": "Original published facsimile retrieved: Sachau1911, volume2 plate13, P12 Vorderseite/Rückseite, verified visible caption. DEAPS official source crosswalk identifies CairoJdE43473=TADA3.7=Cowley39=Sachaupap12/plate13.",
+  "evidence": [
+    "context-discrepancy.json",
+    "sachau-facsimile-receipt.json",
+    "sources/sachau1911-plate13.jp2",
+    "sources/sachau1911-plate13-reading.png"
+  ],
+  "original_member_sha256": "b5fcad1af24774b9364b0df0e54a13e4f0f4906439c88c224696ac123baa0e88",
+  "integrity": "654950 exact ZIP-member bytes; CRC32matches3413843809. Public archive member retrieved by four checked206 ranges; original bytes preserved; lossless format/orientation renditions for document reading.",
+  "source_discrepancy": "MuseumTEIrecto עברכי(resh U+05E8) versusCALrecto andTEIverso עבדכי(dalet U+05D3); normalized editorial disagreement reproduced, original disputed sign now accessible but no final specialist reading yet.",
+  "deduction_changed": "Graphic evidence has been recovered and pinned. The sound/lexical inference must use sign-position collation and same-hand controls. Do not promote an editorial codepoint mismatch to ancient substitution, changed identity or acoustic operator.",
+  "phonetic_boundary": "No original ancient phonetic realization, vowel values, waveforms or specific musical operation established. A3.7 exact date remains absent inTEI; DEAPS broaddateGregorian-525..-399 is a source report, not rectified chronology.",
+  "actual_jev": {
+    "local": "fresh info connection-refused; no service started",
+    "cloud": "jev-1.14.0 judged original_facsimile0.97, dated_control0.02, corpus_lexeme0.01; requestSHA33726e36d4529847b12b1400ae7a00a11d6bfefb0dc693b30342a25c221869ac, one network call; full request/preview/receipt retained",
+    "budget": "No background budget reset or worker launch."
+  },
+  "p0a": "Existing14-question frozen account unchanged:7bounded-covered,6partial,1open. Deliberate power/Mcensus not begun; worker already exposed.",
+  "next_action": "Record exact disputed-word crop coordinates, compare a documented dalet/resh control from the same hand, and inspect original edition entry/Cowley39 for its stated reading/dating. Submit narrow unresolved alternatives to independent source review.",
+  "plan": [
+    {
+      "step": "[100%] Recover the existing question, source roles, prior census and Jev direction",
+      "status": "completed"
+    },
+    {
+      "step": "[70%] Repair dated early-script witness gaps and inspect acoustic transfer methods",
+      "status": "in_progress"
+    },
+    {
+      "step": "[100%] Freeze14-question scope accounting and propose a discriminating control",
+      "status": "completed"
+    },
+    {
+      "step": "[0%] Verify source bindings and obtain Jev applicability review",
+      "status": "pending"
+    }
+  ]
+}

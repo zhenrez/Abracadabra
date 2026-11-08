@@ -1,0 +1,52 @@
+{
+  "id": "alignment-table-83252a1450c36905",
+  "content_sha256": "83252a1450c3690593029f54a49bd69754347de222190d08e20940c4628206fa",
+  "headers": [
+    "Approach",
+    "Failure"
+  ],
+  "rows": [
+    [
+      "4/5 → 5/6 telescoping",
+      "No 6-fold shell found in reconstruction"
+    ],
+    [
+      "Chiodo nine-triangle reconstruction",
+      "User determined Chiodo is wrong; all downstream results quarantined"
+    ],
+    [
+      "Fibonacci from four counts $4,8,12,16$",
+      "Arithmetic progression, characteristic root 1, not φ"
+    ],
+    [
+      "Persistence alone ($s_{n+1} = a s_n + b s_{n-1}$)",
+      "Only $a=b=1$ gives φ; persistence alone is insufficient"
+    ],
+    [
+      "Direct yantra counts as generative sequence",
+      "Traditional order is bindu-outward or outward-inward; not 4→8→12→16"
+    ],
+    [
+      "5-fold cyclic extension",
+      "Yantra shows no $C_5$ symmetry"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 998,
+      "line_end": 1005,
+      "char_start": 60025,
+      "char_end": 60633,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Approach | Failure |\r\n|---|---|\r\n| 4/5 → 5/6 telescoping | No 6-fold shell found in reconstruction |\r\n| Chiodo nine-triangle reconstruction | User determined Chiodo is wrong; all downstream results quarantined |\r\n| Fibonacci from four counts $4,8,12,16$ | Arithmetic progression, characteristic root 1, not φ |\r\n| Persistence alone ($s_{n+1} = a s_n + b s_{n-1}$) | Only $a=b=1$ gives φ; persistence alone is insufficient |\r\n| Direct yantra counts as generative sequence | Traditional order is bindu-outward or outward-inward; not 4→8→12→16 |\r\n| 5-fold cyclic extension | Yantra shows no $C_5$ symmetry |\r\n",
+      "quote_sha256": "e811af9a71d31ba92a33353aab2c840b5e79ec4c7f95367e62e9f844e95d0117",
+      "message_id": "40b22ea3af4e84e5543b59180b576816394c7f50956ac337e948d470f7bf5a91",
+      "role": "user",
+      "locator": "lines:998-1005"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-c10883459c6aa309",
+  "content_sha256": "c10883459c6aa309e443187ed83a6ded982d9fc1cd1daa282bf957296454485e",
+  "headers": [
+    "Constraint",
+    "Central inversion $I(x)=x\\oplus111$",
+    "Flip-two $P(x)=x\\oplus110$"
+  ],
+  "rows": [
+    [
+      "Maps cube edges to edges",
+      "✓",
+      "✓"
+    ],
+    [
+      "Produces 6 edge pairs",
+      "✓",
+      "✓"
+    ],
+    [
+      "Gives 4 disjoint triads",
+      "✓",
+      "✓"
+    ],
+    [
+      "**All 4 triads vertex-centered on even-parity vertices**",
+      "✗",
+      "✓"
+    ],
+    [
+      "Preserves the even-vertex-star partition",
+      "✗",
+      "✓"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 15190,
+      "line_end": 15196,
+      "char_start": 726651,
+      "char_end": 726976,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Constraint | Central inversion $I(x)=x\\oplus111$ | Flip-two $P(x)=x\\oplus110$ |\n|---|---|---|\n| Maps cube edges to edges | ✓ | ✓ |\n| Produces 6 edge pairs | ✓ | ✓ |\n| Gives 4 disjoint triads | ✓ | ✓ |\n| **All 4 triads vertex-centered on even-parity vertices** | ✗ | ✓ |\n| Preserves the even-vertex-star partition | ✗ | ✓ |\n",
+      "quote_sha256": "7ea566f91b79e77077e91ab36d053e017c4f60e15738224372ab62308429b73c",
+      "message_id": "8b8965d9867a096c54b715cf7e3357050fee4f3b2e83f70bd75703ef7fcf2642",
+      "role": "user",
+      "locator": "lines:15190-15196"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

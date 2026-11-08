@@ -1,0 +1,37 @@
+{
+  "check": "Independent artifact hash/size readback after coordinator CLI",
+  "exit_code": 0,
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "7807dc4f4f95e758a65779aa8d069d53ee49357e48d6b582170e9fffa7453c69",
+      "bytes": 1011,
+      "verified": true
+    },
+    {
+      "file": "matrix.npz",
+      "sha256": "d8fa272ecb5697c46fa7d0c2710d7062e63731bbb5b7dd36b4afc699efbba602",
+      "bytes": 6269,
+      "verified": true
+    },
+    {
+      "file": "source.tsv",
+      "sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+      "bytes": 4866,
+      "verified": true
+    },
+    {
+      "file": "summary.json",
+      "sha256": "fb86562cefcc3d37ca407eecb6be74970122f07c3de837d1417426c8507a19c3",
+      "bytes": 697,
+      "verified": true
+    },
+    {
+      "file": "vectors.json",
+      "sha256": "b8e06e323d727a2ef104fee26006ae4f8bd0a3530dc666edf52ee852ee5b5a64",
+      "bytes": 1377563,
+      "verified": true
+    }
+  ],
+  "scope": "Byte bindings only; root Python tests establish numerical/mask behavior"
+}

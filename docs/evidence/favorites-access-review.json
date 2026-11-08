@@ -1,0 +1,101 @@
+{
+  "schema": "sunny.favorites-access-review.v1",
+  "scope": "Independent access-path review for every file in the user-designated ChatGPT/Spaces Favorites folder. No filename eligibility filter and no20-image scope limit.",
+  "review_status": "bounded_UIA_read_only_observation_is_available_as_a_candidate; full_collection_retrieval_not_verified",
+  "skills_applied": [
+    "SuperJev GUI: observed application identity, bounded candidates, no invented screen coordinates, one action followed by fresh observation",
+    "SuperJev host-workspace-operator: use actual native capabilities, read-only first, preserve source/coverage boundaries",
+    "Research Evidence Finder source-verification: verify the provider/method sources, preserve unavailable sources rather than infer absence"
+  ],
+  "observed_by_this_reviewer": {
+    "existing_process": {
+      "pid": 15856,
+      "process_name": "ChatGPT",
+      "process_start_local": "2026-10-31T11:35:28.7820882-07:00",
+      "main_window_title": "ChatGPT",
+      "main_window_handle": 196834,
+      "observation_kind": "Read-only Get-Process properties; no UI provider tree or content was read"
+    },
+    "loaded_native_assemblies": ["UIAutomationClient", "UIAutomationTypes", "WindowsBase"],
+    "local_gui_tool_discovery": "No native local computer/browser/screenshot namespace was exposed in this child tool catalog. BrowserStack/remote browser services and Page-reference tools are different capabilities and do not grant this child an authenticated local Favorites session.",
+    "pages_tool_metadata": "Available Page read/list/reference tools are Page- and authorized-reference-scoped. Their existence does not establish an all-Favorites file-list endpoint.",
+    "services_started": 0,
+    "browsers_started": 0,
+    "background_workers_started": 0,
+    "mouse_or_keyboard_control": false,
+    "credential_or_cookie_access": false,
+    "tinyfish_automation_called": false
+  },
+  "parent_reported_context_not_independently_rerun": {
+    "favorites_screenshot_lists": 12,
+    "native_pages_result": "Fully paginated zero Drive Spaces; three Pages, of which two empty and one guide; no Favorites file listing exposed.",
+    "tinyfish_defaults": "signed_in_sites=[]; no Tinyfish automation authorized by this review.",
+    "boundary": "These are parent-reported acquisition results, not new API calls or screenshot inspections performed by this child. Zero Page/Space results do not mean the Favorites folder is empty."
+  },
+  "actual_jev_selection": {
+    "request": "docs/evidence/favorites-access-review-request.json",
+    "result": "docs/evidence/favorites-access-review-superjev.json",
+    "provider": "typesafe",
+    "requested_model": "jev-latest",
+    "resolved_model": "jev-1.14.0",
+    "selected": "capability_report_only",
+    "distribution": {"capability_report_only": 0.59, "shallow_root_observation": 0.41},
+    "effect": "This child performed no additional GUI/provider call. The result ranks the two supplied observation options; it is not authorization or proof of Favorites accessibility."
+  },
+  "recommended_parent_read_only_contract": [
+    {
+      "step": 1,
+      "operation": "Confirm current target identity and visible collection before collection",
+      "details": "Recheck PID, process creation time and window handle; use a fresh screenshot or accessibility observation to confirm the user-designated Favorites collection. If the current window is a chat, login page or another folder, this child's read-only scope does not authorize navigation. Return that exact state to the parent rather than inspect unrelated chat content."
+    },
+    {
+      "step": 2,
+      "operation": "Bind UIA to the verified application/window or file-list container",
+      "details": "Use AutomationElement.FromHandle for the verified existing window. Traverse immediate children toward the observed file-list container; do not request desktop-root Descendants or unbounded Subtree. Start with a small depth/node budget, for example depth4/400nodes, and mark truncation explicitly. Names, ControlType, AutomationId, IsOffscreen, BoundingRectangle, supported read patterns and available set-position/count metadata are sufficient for initial inventory. Do not read password controls, generic ValuePattern values, unrelated chat bodies or account credentials. Budgets are observation bounds, not an eligibility filter on source files."
+    },
+    {
+      "step": 3,
+      "operation": "Bound provider calls and reap only the helper",
+      "details": "If the parent uses a shell helper, run a single short-lived hidden helper with an external wall-clock deadline, exact PID/birth/executable identity and finally cleanup. A node/depth cap alone does not guarantee an individual cross-process provider call returns. On timeout, terminate only the verified helper tree; leave the ChatGPT app, its WebView/session and other chats intact. Do not start a service, new authenticated browser or persistent polling loop."
+    },
+    {
+      "step": 4,
+      "operation": "Treat visible list enumeration as a partial inventory until pagination/virtualization is reconciled",
+      "details": "Collect every observed file occurrence regardless of name, extension or relation to the earlier20images. Preserve exact displayed names, folder/breadcrumb, visible order, any stable native file/reference ID, timestamps, type/size metadata and screenshot/UIA provenance. Virtualized items may be absent from the tree. Do not invoke Realize, ScrollIntoView, scroll, expand, select or open a file in this read-only review; these can alter the view. The parent must separately execute any authorized navigation through a suitable observed control and check the resulting state. Never infer all-folder coverage from the last realized UIA node."
+    },
+    {
+      "step": 5,
+      "operation": "Separate manifest coverage from acquisition of original bytes",
+      "details": "A filename, thumbnail, UIA text or screenshot is not the original file. For each folder item, retain distinct states such as observed_in_favorites, original_bytes_acquired, extracted, unsupported_format, inaccessible and content_not_yet_read. Prefer an available native authenticated file/reference capability for exact observed IDs. Do not fabricate Page IDs/library-file references or reuse an unrelated Page as permission. Where only the existing app can expose/download a file, the parent must use its separately authorized navigation route; this child performed none. Record why any item remains inaccessible."
+    },
+    {
+      "step": 6,
+      "operation": "Preserve geometry-bearing source detail after actual acquisition",
+      "details": "Hash original bytes and preserve format, dimensions/pages, filenames and collection provenance. Route extraction by actual format/content, not keyword relevance: PDFs retain page order, diagrams, tables and vector/raster distinctions; images retain original pixels, dimensions, orientation and diagram/text relationships; spreadsheets retain sheet/cell/formula identities; documents retain headings, tables and embedded figures. OCR is a derived layer and cannot substitute for pixels, adjacency, overlap, arrows, axes, handedness, layers or color. Preserve unreadable symbols and ambiguous geometry as unresolved rather than inventing points, equations or new orientations."
+    },
+    {
+      "step": 7,
+      "operation": "Reconcile all source occurrences before completion",
+      "details": "Preserve duplicate names and byte-identical occurrences with native IDs or source-qualified occurrence IDs; never overwrite by filename. Reconcile known folder count, screenshot/UIA inventory, pagination boundaries and every item's retrieval/extraction status. If a total count or virtualized tail cannot be established, report that exact gap. All Favorites items remain intended sources; none may be excluded because it lacks SUN/SOL/music keywords or because its name differs from an earlier artifact."
+    }
+  ],
+  "prohibited_in_this_review": [
+    "Mouse/keyboard input, focus manipulation, InvokePattern.Invoke, selection, scrolling, VirtualizedItemPattern.Realize, ScrollIntoView or other navigation",
+    "Cookies, tokens, password fields, browser profiles/session stores, injected page scripts or remote-debugging attachment to obtain authentication",
+    "A new browser, persistent helper/service, Tinyfish automation or unverified signed-in-site route",
+    "Rewriting the current research model, reducing the collection to matching filenames, treating20images as the full folder, or declaring Favorites empty from Page/Space API results"
+  ],
+  "official_method_sources": [
+    {
+      "title": "AutomationElement.FindAll method — Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/dotnet/api/system.windows.automation.automationelement.findall?view=windowsdesktop-10.0",
+      "supports": "Searching desktop descendants can enumerate thousands of elements; scope searches to the application/window/container and immediate children before descending."
+    },
+    {
+      "title": "Working with Virtualized Items — Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-workingwithvirtualizeditems",
+      "supports": "Only realized virtualized items may appear in the UIA tree; Realize can cause scrolling. A visible-node inventory cannot prove full collection coverage and Realize is not a guaranteed observation-only operation."
+    }
+  ],
+  "verification_boundary": "Window identity and local UIA assembly loading were actually observed. Native tool metadata and the cited Microsoft method documentation were inspected. Favorites visibility, full enumeration, original file bytes, extracted geometry/content and authenticated file-reference access were not verified by this child. No main reconstruction artifact was modified."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-610a2c9c92750c34",
+  "content_sha256": "610a2c9c92750c34096efa6dd22e856c8c9812bb749e567fc70412a81d69e987",
+  "headers": [
+    "Constraint",
+    "Central inversion",
+    "Flip two coordinates"
+  ],
+  "rows": [
+    [
+      "Maps cube edges to edges",
+      "Pass",
+      "Pass"
+    ],
+    [
+      "Produces six edge pairs",
+      "Pass",
+      "Pass"
+    ],
+    [
+      "Can realize four disjoint triads",
+      "Pass",
+      "Pass"
+    ],
+    [
+      "Preserves the partition into four even-vertex stars",
+      "**Fails**",
+      "**Passes**"
+    ],
+    [
+      "Requires vertex/diagonal asymmetry",
+      "Yes, for the stated construction",
+      "No"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 15111,
+      "line_end": 15117,
+      "char_start": 723736,
+      "char_end": 724119,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Constraint | Central inversion | Flip two coordinates |\n|--------|--------|--------|\n| Maps cube edges to edges | Pass | Pass |\n| Produces six edge pairs | Pass | Pass |\n| Can realize four disjoint triads | Pass | Pass |\n| Preserves the partition into four even-vertex stars | **Fails** | **Passes** |\n| Requires vertex/diagonal asymmetry | Yes, for the stated construction | No |\n",
+      "quote_sha256": "0b3f10d7cb502a74c90e5df612c67d9f71a2be2949dcfb626250b05dc95e64a3",
+      "message_id": "dec3a8d32fc9ebec242009d52e1246ec8249beab9393f82310e684be48fba9c5",
+      "role": "assistant",
+      "locator": "lines:15111-15117"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

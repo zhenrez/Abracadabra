@@ -1,0 +1,172 @@
+{
+  "schema": "sunny.musical-hierarchy-verification.v1",
+  "status": "passed_with_bounded_source_scope",
+  "files": [
+    {
+      "path": "scripts/reconstruct_musical_hierarchies.py",
+      "sha256": "221d8f6820f025e50c350668987bba8c4f8ce92add5d64f994c64057acd5cd49",
+      "bytes": 49415
+    },
+    {
+      "path": "tests/musical-hierarchies.test.mjs",
+      "sha256": "662652afab73fb35f3af8577dcfa75eef114880b1809a62ac3b59b98e26bd093",
+      "bytes": 6958
+    },
+    {
+      "path": "state/reconstruction/musical-hierarchies.json",
+      "sha256": "3d5ed567f5c473787f4e61a658fd15310aab3b59c87d70f519fa771f54376cf6",
+      "bytes": 1796240
+    },
+    {
+      "path": "docs/reconstruction/MUSICAL_HIERARCHIES.md",
+      "sha256": "f6ac90aa97265f1bf8686999692ea9c76d077406284569677e4c6aba71796549",
+      "bytes": 3006
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-image-processing.json",
+      "sha256": "4776d608b47eacbeec587a0f59de6510c23e078ee714003912761e65472b452d",
+      "bytes": 5943
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-design-jev-request.json",
+      "sha256": "04b22160b405265aa3b01f77395fe0ef3a638efc0bf1c040b1f82d5bca0f7820",
+      "bytes": 2227
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-design-superjev.json",
+      "sha256": "04914b6ea64c387459294f89d81f9c3cbd20474eaa28ab7c3a5e9ab606085afc",
+      "bytes": 979
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-primary-retrieval.json",
+      "sha256": "f036aa13157dd406b2242102bc4a38bd984105325077005a92300b4be16a7335",
+      "bytes": 2439
+    },
+    {
+      "path": "docs/evidence/musical-hierarchy-wolfram-unavailable.json",
+      "sha256": "7bf18e610b890a8f536328c74145ce80739cbb756ae13c721660b0ace26a56eb",
+      "bytes": 404
+    }
+  ],
+  "commands": [
+    {
+      "command": "python -X utf8 scripts/reconstruct_musical_hierarchies.py",
+      "exit_code": 0
+    },
+    {
+      "command": "node --test tests/musical-hierarchies.test.mjs",
+      "exit_code": 0,
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "command": "PythonAST + exactnormalizedHTMLspan/hash validation",
+      "exit_code": 0,
+      "unique_source_passages": 4
+    }
+  ],
+  "graph_counts": {
+    "sources": 15,
+    "entities": 1141,
+    "relationships": 1608,
+    "views": 5,
+    "byUnit": {
+      "source-scoped-musical-family": 2,
+      "illustrated-table": 1,
+      "image-native-organological-category": 9,
+      "illustrated-instrument-table-cell": 63,
+      "triad-quality-family": 1,
+      "transposition-root-context": 12,
+      "root-qualified-triad-occurrence": 48,
+      "chord-tone-membership-occurrence": 144,
+      "major-key-family": 1,
+      "major-key-context": 12,
+      "key-qualified-scale-degree": 84,
+      "key-degree-triad-occurrence": 84,
+      "key-degree-chord-tone-occurrence": 252,
+      "seventh-chord-family": 1,
+      "source-rooted-seventh-chord": 8,
+      "source-seventh-tone-membership": 32,
+      "source-inversion-bass-context": 32,
+      "notation-role-family": 1,
+      "source-comparison-family": 1,
+      "major-scale-syllable-position": 7,
+      "image-compared-swara-syllable": 7,
+      "image-attributed-syllable-quality": 28,
+      "octave-return-syllable-occurrence": 2,
+      "source-intermediary-tone-variant": 10,
+      "musical-form-family": 1,
+      "source-musical-form": 8,
+      "form-section-occurrence": 40,
+      "source-rhythmic-family": 1,
+      "duration-value-family": 2,
+      "relative-duration-value": 16,
+      "source-pattern-family": 1,
+      "source-long-short-pattern": 12,
+      "source-meter-example": 6,
+      "source-correspondence-family": 2,
+      "image-element-category": 4,
+      "image-five-element-category": 5,
+      "native-text-musical-system": 2,
+      "witness-named-lu-standard": 12,
+      "source-up-down-lu-category": 2,
+      "native-seasonal-period-position": 12,
+      "source-yin-yang-lu-category": 2,
+      "witness-named-lu-category-member": 12,
+      "native-tone-function-family": 1,
+      "native-tone-function": 5,
+      "native-material-classification": 1,
+      "bayin-material-category": 8,
+      "source-instrument-kind": 13,
+      "dated-native-analytical-model": 1,
+      "Lam-pentatonic-set-context": 12,
+      "Lam-pentatonic-note-context": 60,
+      "bounded-source-concept-family": 4,
+      "source-concept-subfamily": 11,
+      "printed-concept-or-example-occurrence": 42,
+      "source-plotted-mathematical-relation": 1
+    }
+  },
+  "assertion_layer_counts": {
+    "source-assertion": 455,
+    "source-rule-derived": 686
+  },
+  "actual_inspected_images": 12,
+  "source_hashes_verified": 15,
+  "guards": {
+    "SuperJev": {
+      "status": "judged",
+      "model": "jev-1.14.0",
+      "route": "native_parented_graph",
+      "frame_policy": "preserve_witness_frames",
+      "receipt": "docs/evidence/musical-hierarchy-design-superjev.json"
+    },
+    "Mathbox": "proof-audit method applied to modular orbit/quotient/domain/source-conditioned generation; exact checks do not prove whole source correctness.",
+    "ResearchMethodology": "Source-ranked bounded descriptive extraction; images are literal witnesses, publictranscriptions editionbounded, Lam is originalmodernanalyticalmodel.",
+    "ResearchEvidenceFinder": "Source-verification method: publisher title/author/year/DOI checked against actualMTOpage; primarytexts separately identified; no systematicreviewclaim.",
+    "AgentSkills": "Five-axis source/code review with exactreferencechecks; source-rule generation separately tagged.",
+    "Wolfram": "Actual evaluator unavailable; no solverresultclaimed; exactlocal modular/fraction/Decimalchecks used."
+  },
+  "negative_controls": [
+    "A nonexistent relationship endpoint makes existing HierarchyAtlas validator fail.",
+    "Chineseview excludesWesternkey/triadcontexts.",
+    "Lü sourcegeneration has11openchainlinks and no forcedlast-to-firstexactclosure.",
+    "7/5upperlower and6/6yinyang remain differentwitness/typepartitions.",
+    "All60Lamcontexts tested for nativeb/qinverse and60step firstreturn;Tpreservespositionandtpreservesgongkey.",
+    "NoMIDI/powersetpopulation is introduced orcalledcompletemusic.",
+    "Restvalues strictlypositive;durationvalues notcountedasperformednotes.",
+    "Instrumentchartcells and13Chineseinstrumentkinds notcalledphysicalpeopleoruniqueplayers."
+  ],
+  "not_verified": [
+    "Everyprintedclaim,word,symbolandscore-note in the12images.",
+    "All36imageoccurrences orotherrootreviewedpages bythisworker.",
+    "Everyhistoricaldateandperceptualqualityassertioninthesourcepages.",
+    "EntireWestern/Chinese/Indianmusicalsystems,fullglobalalignmentorMissionIcompletion.",
+    "Someinstrumentcaptionnamesuncertainandexplicitlymarked.",
+    "Completearrowdirectionsinimagefiveelementcycle;nonefabricated.",
+    "Allcross-witnesslünamealiases;eachwitnessretainsliterals."
+  ],
+  "parentage_boundary": "Sourceclassification, orderedcontext, mathematicalprojection and nativegeneration use distinct edge labels. Derivedcontext/toneoccurrences are not independentlyattesteduniquechords.",
+  "input_ledger_modified_by_builder": false,
+  "persistent_processes_started": false
+}

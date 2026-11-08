@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T21:33:03.243785+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "f4f78b42cf190db3297a76e38298356acb8beeccdd1f6c1857e39668846f9287"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "7e5d08f1-bf82-5f09-a019-a80335198822",
+      "source_identity_sha256": "c2028b5b0f88876a67fb8a2331e1d5b9024bda4e137619818d690c72511af3f0",
+      "source_version_id": "1c3539df-9c27-5e66-8fbb-54b3db17308f",
+      "version_number": 1,
+      "content": "9/12/2026, 2:32:01 AM\n\n@Mathbox All three controls behave exactly as predicted. The mathematical boundary gap is closed enough to resume cross-tradition testing.\n\nExact control results\n\nControlLoop value (r,\\delta)Physical gainProjected trajectory\nChannel collapse\n(1,0)\n1\nF/8\\rightarrow2F/15\\rightarrow F/8\nZero voltage\n(1,0)\n1\nF/8\\rightarrow2F/15\\rightarrow F/8\nCurrent order (0,1)\n(1,1)\n1/2\nF/8\\rightarrow2F/15\\rightarrow F/16\nPremature lift (1,0)\n(1,1)\n1/2\nF/8\\rightarrow F/15\\rightarrow F/16\n\nA. Channel collapse\n\nIdentifying the return edge with the formal inverse requires:\n\n\\delta(\\bar e_{\\rm out})=-\\delta(e_{\\rm out})=0.\n\nTherefore:\n\n\\left(\\frac{16}{15},0\\right) \\left(\\frac{15}{16},0\\right) =(1,0),\n\nand:\n\n\\Phi(1,0)=1.\n\nNo Malkuth transition occurs.\n\nB. Zero voltage\n\nKeeping two distinct edges but setting both voltages to zero also gives:\n\n\\gamma\\mapsto(1,0).\n\nThe excursion closes at the original Yesod state:\n\n\\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F8.\n\nDistinct channels make nontrivial monodromy possible, but do not produce it without the voltage.\n\nC. Voltage order\n\nBoth arrangements have total value:\n\n\\gamma\\mapsto(1,1)\n\nand endpoint:\n\n\\Phi(1,1)=\\frac12.\n\nBut the intermediate states discriminate their ordering:\n\n(0,1): \\quad \\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F{16},\n\n(1,0): \\quad \\frac F8\\rightarrow\\frac F{15}\\rightarrow\\frac F{16}.\n\nThus endpoint-only testing cannot distinguish them. Any cross-tradition test must score the intermediate state or operational ordering, not merely the final F/16 landing.\n\nFinal frozen boundary object\n\n\\boxed{B_{FK}=(Q_{FK},r,\\delta,\\Phi)}\n\nwhere:\n\nQ_{FK}= \\left( \\{\\mathrm{MI},\\mathrm{FA}\\}, \\{e_{\\rm out},e_{\\rm return}\\} \\right),\n\ne_{\\rm out}: \\left(\\frac{16}{15},0\\right), \\qquad e_{\\rm return}: \\left(\\frac{15}{16},1\\right),\n\ne_{\\rm return}\\neq\\bar e_{\\rm out},\n\nand the composition law is:\n\n(r_1,\\delta_1)(r_2,\\delta_2) = (r_1r_2,\\delta_1+\\delta_2).\n\nPhysical realization is:\n\n\\Phi(r,\\delta)=r\\,2^{-\\delta}.\n\nTherefore:\n\n\\boxed{ \\gamma_{FK} =e_{\\rm out}e_{\\rm return} \\mapsto \\left( \\frac{16}{15}\\frac{15}{16}, 0+1 \\right) =(1,1) \\mapsto \\frac12. }\n\nAt the Tree boundary:\n\n\\boxed{ (\\mathrm{MI},3) \\xrightarrow{(16/15,0)} (\\mathrm{FA},3) \\xrightarrow{(15/16,1)} (\\mathrm{MI},4) }\n\nwith:\n\n\\boxed{ \\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F{16}. }\n\nOne evidentiary boundary remains explicit:\n\n\\boxed{\\delta(e_{\\rm return})=1}\n\nis a frozen hypothesis supported by the assembled historical/structural evidence, not derived from the ratios. Everything downstream can now test that hypothesis without hidden octave multiplication or unconstrained ratio substitution.",
+      "content_sha256": "943bce2eadd35953cb02b92e3ab394627cbf16eec5eba859532b7dc3fecbc244",
+      "content_length": 2656,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "aac4794f28d3bfdd8aeb114c852f2aac156680caa923e628323c8b96527fac7f"
+    },
+    "chunks": [
+      {
+        "id": "53af3b56-fce0-5644-b4e4-1f76e4442daa",
+        "source_node_hash": "aac4794f28d3bfdd8aeb114c852f2aac156680caa923e628323c8b96527fac7f",
+        "source_id": "7e5d08f1-bf82-5f09-a019-a80335198822",
+        "source_version_id": "1c3539df-9c27-5e66-8fbb-54b3db17308f",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 2656,
+        "start_line": 1,
+        "end_line": 107,
+        "content": "9/12/2026, 2:32:01 AM\n\n@Mathbox All three controls behave exactly as predicted. The mathematical boundary gap is closed enough to resume cross-tradition testing.\n\nExact control results\n\nControlLoop value (r,\\delta)Physical gainProjected trajectory\nChannel collapse\n(1,0)\n1\nF/8\\rightarrow2F/15\\rightarrow F/8\nZero voltage\n(1,0)\n1\nF/8\\rightarrow2F/15\\rightarrow F/8\nCurrent order (0,1)\n(1,1)\n1/2\nF/8\\rightarrow2F/15\\rightarrow F/16\nPremature lift (1,0)\n(1,1)\n1/2\nF/8\\rightarrow F/15\\rightarrow F/16\n\nA. Channel collapse\n\nIdentifying the return edge with the formal inverse requires:\n\n\\delta(\\bar e_{\\rm out})=-\\delta(e_{\\rm out})=0.\n\nTherefore:\n\n\\left(\\frac{16}{15},0\\right) \\left(\\frac{15}{16},0\\right) =(1,0),\n\nand:\n\n\\Phi(1,0)=1.\n\nNo Malkuth transition occurs.\n\nB. Zero voltage\n\nKeeping two distinct edges but setting both voltages to zero also gives:\n\n\\gamma\\mapsto(1,0).\n\nThe excursion closes at the original Yesod state:\n\n\\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F8.\n\nDistinct channels make nontrivial monodromy possible, but do not produce it without the voltage.\n\nC. Voltage order\n\nBoth arrangements have total value:\n\n\\gamma\\mapsto(1,1)\n\nand endpoint:\n\n\\Phi(1,1)=\\frac12.\n\nBut the intermediate states discriminate their ordering:\n\n(0,1): \\quad \\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F{16},\n\n(1,0): \\quad \\frac F8\\rightarrow\\frac F{15}\\rightarrow\\frac F{16}.\n\nThus endpoint-only testing cannot distinguish them. Any cross-tradition test must score the intermediate state or operational ordering, not merely the final F/16 landing.\n\nFinal frozen boundary object\n\n\\boxed{B_{FK}=(Q_{FK},r,\\delta,\\Phi)}\n\nwhere:\n\nQ_{FK}= \\left( \\{\\mathrm{MI},\\mathrm{FA}\\}, \\{e_{\\rm out},e_{\\rm return}\\} \\right),\n\ne_{\\rm out}: \\left(\\frac{16}{15},0\\right), \\qquad e_{\\rm return}: \\left(\\frac{15}{16},1\\right),\n\ne_{\\rm return}\\neq\\bar e_{\\rm out},\n\nand the composition law is:\n\n(r_1,\\delta_1)(r_2,\\delta_2) = (r_1r_2,\\delta_1+\\delta_2).\n\nPhysical realization is:\n\n\\Phi(r,\\delta)=r\\,2^{-\\delta}.\n\nTherefore:\n\n\\boxed{ \\gamma_{FK} =e_{\\rm out}e_{\\rm return} \\mapsto \\left( \\frac{16}{15}\\frac{15}{16}, 0+1 \\right) =(1,1) \\mapsto \\frac12. }\n\nAt the Tree boundary:\n\n\\boxed{ (\\mathrm{MI},3) \\xrightarrow{(16/15,0)} (\\mathrm{FA},3) \\xrightarrow{(15/16,1)} (\\mathrm{MI},4) }\n\nwith:\n\n\\boxed{ \\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F{16}. }\n\nOne evidentiary boundary remains explicit:\n\n\\boxed{\\delta(e_{\\rm return})=1}\n\nis a frozen hypothesis supported by the assembled historical/structural evidence, not derived from the ratios. Everything downstream can now test that hypothesis without hidden octave multiplication or unconstrained ratio substitution.",
+        "content_sha256": "943bce2eadd35953cb02b92e3ab394627cbf16eec5eba859532b7dc3fecbc244",
+        "node_hash": "dcd5f81a4da7a5737e1da800bcf27abe66334984b7ee287ee7a02d7328094eff"
+      }
+    ],
+    "citations": [
+      {
+        "id": "7e0f1676-cc56-5491-9582-0eef44077dee",
+        "source_node_hash": "aac4794f28d3bfdd8aeb114c852f2aac156680caa923e628323c8b96527fac7f",
+        "chunk_node_hashes": [
+          "dcd5f81a4da7a5737e1da800bcf27abe66334984b7ee287ee7a02d7328094eff"
+        ],
+        "source_id": "7e5d08f1-bf82-5f09-a019-a80335198822",
+        "source_version_id": "1c3539df-9c27-5e66-8fbb-54b3db17308f",
+        "start_offset": 0,
+        "end_offset": 2656,
+        "start_line": 1,
+        "end_line": 107,
+        "quote": "9/12/2026, 2:32:01 AM\n\n@Mathbox All three controls behave exactly as predicted. The mathematical boundary gap is closed enough to resume cross-tradition testing.\n\nExact control results\n\nControlLoop value (r,\\delta)Physical gainProjected trajectory\nChannel collapse\n(1,0)\n1\nF/8\\rightarrow2F/15\\rightarrow F/8\nZero voltage\n(1,0)\n1\nF/8\\rightarrow2F/15\\rightarrow F/8\nCurrent order (0,1)\n(1,1)\n1/2\nF/8\\rightarrow2F/15\\rightarrow F/16\nPremature lift (1,0)\n(1,1)\n1/2\nF/8\\rightarrow F/15\\rightarrow F/16\n\nA. Channel collapse\n\nIdentifying the return edge with the formal inverse requires:\n\n\\delta(\\bar e_{\\rm out})=-\\delta(e_{\\rm out})=0.\n\nTherefore:\n\n\\left(\\frac{16}{15},0\\right) \\left(\\frac{15}{16},0\\right) =(1,0),\n\nand:\n\n\\Phi(1,0)=1.\n\nNo Malkuth transition occurs.\n\nB. Zero voltage\n\nKeeping two distinct edges but setting both voltages to zero also gives:\n\n\\gamma\\mapsto(1,0).\n\nThe excursion closes at the original Yesod state:\n\n\\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F8.\n\nDistinct channels make nontrivial monodromy possible, but do not produce it without the voltage.\n\nC. Voltage order\n\nBoth arrangements have total value:\n\n\\gamma\\mapsto(1,1)\n\nand endpoint:\n\n\\Phi(1,1)=\\frac12.\n\nBut the intermediate states discriminate their ordering:\n\n(0,1): \\quad \\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F{16},\n\n(1,0): \\quad \\frac F8\\rightarrow\\frac F{15}\\rightarrow\\frac F{16}.\n\nThus endpoint-only testing cannot distinguish them. Any cross-tradition test must score the intermediate state or operational ordering, not merely the final F/16 landing.\n\nFinal frozen boundary object\n\n\\boxed{B_{FK}=(Q_{FK},r,\\delta,\\Phi)}\n\nwhere:\n\nQ_{FK}= \\left( \\{\\mathrm{MI},\\mathrm{FA}\\}, \\{e_{\\rm out},e_{\\rm return}\\} \\right),\n\ne_{\\rm out}: \\left(\\frac{16}{15},0\\right), \\qquad e_{\\rm return}: \\left(\\frac{15}{16},1\\right),\n\ne_{\\rm return}\\neq\\bar e_{\\rm out},\n\nand the composition law is:\n\n(r_1,\\delta_1)(r_2,\\delta_2) = (r_1r_2,\\delta_1+\\delta_2).\n\nPhysical realization is:\n\n\\Phi(r,\\delta)=r\\,2^{-\\delta}.\n\nTherefore:\n\n\\boxed{ \\gamma_{FK} =e_{\\rm out}e_{\\rm return} \\mapsto \\left( \\frac{16}{15}\\frac{15}{16}, 0+1 \\right) =(1,1) \\mapsto \\frac12. }\n\nAt the Tree boundary:\n\n\\boxed{ (\\mathrm{MI},3) \\xrightarrow{(16/15,0)} (\\mathrm{FA},3) \\xrightarrow{(15/16,1)} (\\mathrm{MI},4) }\n\nwith:\n\n\\boxed{ \\frac F8\\rightarrow\\frac{2F}{15}\\rightarrow\\frac F{16}. }\n\nOne evidentiary boundary remains explicit:\n\n\\boxed{\\delta(e_{\\rm return})=1}\n\nis a frozen hypothesis supported by the assembled historical/structural evidence, not derived from the ratios. Everything downstream can now test that hypothesis without hidden octave multiplication or unconstrained ratio substitution.",
+        "quote_sha256": "943bce2eadd35953cb02b92e3ab394627cbf16eec5eba859532b7dc3fecbc244",
+        "node_hash": "cb744f90608552689dd77b1af2d7f00d547c6413571ccfade1f27529a8e0422b"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "aac4794f28d3bfdd8aeb114c852f2aac156680caa923e628323c8b96527fac7f",
+        "dcd5f81a4da7a5737e1da800bcf27abe66334984b7ee287ee7a02d7328094eff",
+        "cb744f90608552689dd77b1af2d7f00d547c6413571ccfade1f27529a8e0422b"
+      ],
+      "node_hash": "e833e4e09c251a8cf8bacacc0ffb1513bd49ef44e52ce2eb0b1749378537b64e"
+    },
+    "artifact": {
+      "id": "d0ea45f8-2be9-5eb7-a642-5df073dedd11",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/943bce2eadd35953cb02b92e3ab394627cbf16eec5eba859532b7dc3fecbc244/text.txt; original SHA256 943bce2eadd35953cb02b92e3ab394627cbf16eec5eba859532b7dc3fecbc244; physical source lines 1..107. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "e833e4e09c251a8cf8bacacc0ffb1513bd49ef44e52ce2eb0b1749378537b64e",
+      "citation_node_hashes": [
+        "cb744f90608552689dd77b1af2d7f00d547c6413571ccfade1f27529a8e0422b"
+      ],
+      "node_hash": "65ddf78c53fad79b38656ae16a2f0bc7ff05ee250f1b2b78bcca951efae0e060"
+    },
+    "review": {
+      "artifact_node_hash": "65ddf78c53fad79b38656ae16a2f0bc7ff05ee250f1b2b78bcca951efae0e060",
+      "status": "candidate",
+      "created_at": "2026-11-02T21:33:03.243785+00:00",
+      "updated_at": "2026-11-02T21:33:03.243785+00:00",
+      "node_hash": "2518eea7f1048a41c99e38c336bce1dd7b22790ef2f0cc70fb582c8a8adfee64"
+    }
+  }
+}

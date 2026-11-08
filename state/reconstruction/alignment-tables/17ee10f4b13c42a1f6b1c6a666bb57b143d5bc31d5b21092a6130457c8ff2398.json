@@ -1,0 +1,52 @@
+{
+  "id": "alignment-table-17ee10f4b13c42a1",
+  "content_sha256": "17ee10f4b13c42a1f6b1c6a666bb57b143d5bc31d5b21092a6130457c8ff2398",
+  "headers": [
+    "Claim",
+    "Status"
+  ],
+  "rows": [
+    [
+      "10 Decad members can be assigned to 10 TOL positions in $10!$ ways without further constraint",
+      "**Correct**"
+    ],
+    [
+      "Pillar-group constraint alone does not reduce the count",
+      "**Correct** — any bijection places exactly 3 in the right pillar, 3 in the left, 4 in the middle"
+    ],
+    [
+      "Fixing Keter and Malkhut as specific members leaves $8! = 40{,}320$",
+      "**Correct** if the specific members are fixed"
+    ],
+    [
+      "My \"560\" figure was wrong",
+      "**Correct**"
+    ],
+    [
+      "Syzygy preservation is the constraint that does the work",
+      "**Correct** — this is the missing constraint I omitted"
+    ],
+    [
+      "Under syzygy preservation (directional), count is **120**",
+      "**Established**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 7185,
+      "line_end": 7192,
+      "char_start": 367694,
+      "char_end": 368356,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Claim | Status |\n|---|---|\n| 10 Decad members can be assigned to 10 TOL positions in $10!$ ways without further constraint | **Correct** |\n| Pillar-group constraint alone does not reduce the count | **Correct** — any bijection places exactly 3 in the right pillar, 3 in the left, 4 in the middle |\n| Fixing Keter and Malkhut as specific members leaves $8! = 40{,}320$ | **Correct** if the specific members are fixed |\n| My \"560\" figure was wrong | **Correct** |\n| Syzygy preservation is the constraint that does the work | **Correct** — this is the missing constraint I omitted |\n| Under syzygy preservation (directional), count is **120** | **Established** |\n",
+      "quote_sha256": "6ac1e2be28248643b6967100cae743a7ac26bf57ee117ea0ec11dee14e0ade4f",
+      "message_id": "40e71663f162578e3fc4daa126c2e4d35d3847aca8443588783afb52ff918cb1",
+      "role": "user",
+      "locator": "lines:7185-7192"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

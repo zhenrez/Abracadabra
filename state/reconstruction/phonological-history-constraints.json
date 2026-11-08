@@ -1,0 +1,1008 @@
+{
+  "schema": "sunny.phonological-history-constraints.v1",
+  "jevReceipt": "state/jev-receipts/000061-54b57b45fbcd.json",
+  "problem": "Derive which source-qualified constraints can discriminate inheritance, contact, parallel change and observation-channel explanations.",
+  "nativeConditions": [
+    "Same lexical item or justified correspondence, historical vowel, morphology, syllable environment, performance register and feature identity are required before joining observations.",
+    "Distinct community-specific events remain distinct: the reported T v and B w do not license a common consonantal-change event.",
+    "Innovation onset, earliest surviving positive attestation, copy date and first community acquisition are distinct addresses.",
+    "A dated positive attestation gives an onset upper bound under persistence; it does not date the innovation exactly or supply its lower bound.",
+    "Monotonicity/no loss and direct feature-causing contact are explicit model conditions, not universal historical rules."
+  ],
+  "sourceCases": {
+    "coarseFeature": {
+      "id": "PW-C1",
+      "sourceLocator": "Chapter4 §2.1.1, pp77-79, Table9 on printed77/PDF90",
+      "sourceClaimStatus": "Author's proposed innovation and supporting argument inspected; underlying manuscript and external chronology claims not independently reproduced",
+      "feature": "Rounding/raising of historically long a into the rounded qameṣ vowel",
+      "proposedEarlierState": "*/aː/",
+      "proposedDerivedState": "*/ɔː/",
+      "authorReportedDerivedTraditions": [
+        "Tiberian",
+        "Babylonian"
+      ],
+      "authorReportedUnroundedComparanda": [
+        "Secunda",
+        "Jerome",
+        "Palestinian"
+      ],
+      "table9ExampleAddresses": {
+        "Babylonian": "1Sam14:32",
+        "Tiberian": "Exod18:17",
+        "Secunda": "Ps18:28",
+        "Jerome": "Gen2:23",
+        "Palestinian": "Ps37:28"
+      },
+      "qualification": "These are contextual examples of a reconstructed feature, not the same lexical token across all traditions. The author discusses ambiguous transcription and change chronology before proposing a shared innovation.",
+      "missingIndependentPremises": [
+        "Original witness collation behind cited editions",
+        "Transcription-to-phone licensing",
+        "The external relative/absolute chronology argument"
+      ],
+      "sunnyUse": "A feature record can carry the proposed change, its environment, date constraints, counterexamples and uncertainty. The written vowel does not prescribe an acoustic frequency or musical pitch."
+    },
+    "copyingAlternative": {
+      "id": "PW-C3",
+      "sourceLocator": "Chapter5 §2.3, pp178-179, Table66 on p178",
+      "sourceClaimStatus": "Same-reading manuscript contrast and author's interpretation inspected; manuscript-by-manuscript collation remains external",
+      "feature": "Changes in medieval Secunda spellings toward Tiberian/standard conventions",
+      "concreteLocality": "Ps49:6 as numbered in the source table: short-o transcription is changed toward u; other listed changes include epenthesis and vowel substitutions",
+      "observationLevel": "Manuscript transcription/spelling variants; proposed corresponding sounds are the author's interpretation",
+      "relationTypeForInvestigation": "scribal_normalization_toward_standard",
+      "sunnyUse": "A copying/standardization edge can explain a shared form without creating a new ancestry edge or asserting that a community changed its living pronunciation.",
+      "boundary": "Table66 contrasts best/other manuscript groups and refers to a critical edition; this task has not recovered every manuscript identifier or recollated the physical ink."
+    },
+    "contextualReadingBranches": [
+      {
+        "reading": {
+          "editionReport": "Yuditsky / Carrera Companioni2022p190 as cited by Howard",
+          "theme": "ο"
+        },
+        "transcriptionGrades": [
+          "O-grade",
+          "O-grade",
+          "O-grade",
+          "A-grade",
+          "A-grade",
+          "A-grade"
+        ],
+        "checkedContexts": 6,
+        "simpleSuffixConditionConflicts": [],
+        "scope": "Compatibility of this explicit transcription-grade rule only; no broad phonological or morphological account eliminated"
+      },
+      {
+        "reading": {
+          "editionReport": "Sperber1938p159 as cited by Howard",
+          "theme": "α"
+        },
+        "transcriptionGrades": [
+          "O-grade",
+          "O-grade",
+          "A-grade",
+          "A-grade",
+          "A-grade",
+          "A-grade"
+        ],
+        "checkedContexts": 6,
+        "simpleSuffixConditionConflicts": [
+          "Ps18:36"
+        ],
+        "scope": "Compatibility of this explicit transcription-grade rule only; no broad phonological or morphological account eliminated"
+      },
+      {
+        "reading": {
+          "editionReport": "Mercati unread theme vowel as reported by Howard",
+          "theme": null
+        },
+        "transcriptionGrades": [
+          "O-grade",
+          "O-grade",
+          null,
+          "A-grade",
+          "A-grade",
+          "A-grade"
+        ],
+        "checkedContexts": 5,
+        "simpleSuffixConditionConflicts": [],
+        "scope": "Compatibility of this explicit transcription-grade rule only; no broad phonological or morphological account eliminated"
+      }
+    ],
+    "sourceGradeIsNotPhone": true,
+    "refinement": "The older105/15treecount experiment remains intact within its declared binary character and no-contact assumptions. It does not adjudicate the richer contexts or networks."
+  },
+  "operator": {
+    "implementation": "src/phonological-history.ts",
+    "domain": "Three real-valued event windows with exact rational or unbounded endpoints; endpoint inclusion retained.",
+    "relation": "donorOnset < contact <= recipientOnset; weak-donor equality is an explicit alternative parameter.",
+    "projection": "admissibleContact = K intersect (inf(D), sup(R)), with the recipient upper endpoint included exactly when R includes it; all input windows must be nonempty.",
+    "proof": "A feasible contact must exceed the donor infimum and not exceed an available recipient supremum. Conversely choose any point in that intersection, choose an earlier donor in D, and a recipient at or after it in R. Strict/open endpoints determine equality cases. The weak-donor case admits the donor lower endpoint only if D contains it.",
+    "exactWitnessReturned": true,
+    "inputEndpointIntegerDigitBudget": 128,
+    "derivedRationalDigitsUnbounded": true,
+    "resourceBoundary": "The endpoint input budget is computational only; it does not choose a historical time scale."
+  },
+  "conditionalControls": [
+    {
+      "id": "positive_attestations_B_then_T",
+      "inputs": [
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "6",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "9",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        }
+      ],
+      "expected": true,
+      "proper": [],
+      "result": {
+        "feasible": true,
+        "admissibleContact": {
+          "lower": null,
+          "upper": {
+            "numerator": "9",
+            "denominator": "1"
+          },
+          "lowerClosed": false,
+          "upperClosed": true
+        },
+        "witness": {
+          "donorOnset": {
+            "numerator": "5",
+            "denominator": "1"
+          },
+          "contact": {
+            "numerator": "8",
+            "denominator": "1"
+          },
+          "recipientOnset": {
+            "numerator": "17",
+            "denominator": "2"
+          }
+        },
+        "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+      },
+      "scope": "Synthetic arbitrary order coordinates, not attested dates or extracted historical bounds"
+    },
+    {
+      "id": "same_attestations_reverse_direction",
+      "inputs": [
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "9",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "6",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        }
+      ],
+      "expected": true,
+      "proper": [],
+      "result": {
+        "feasible": true,
+        "admissibleContact": {
+          "lower": null,
+          "upper": {
+            "numerator": "6",
+            "denominator": "1"
+          },
+          "lowerClosed": false,
+          "upperClosed": true
+        },
+        "witness": {
+          "donorOnset": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "contact": {
+            "numerator": "5",
+            "denominator": "1"
+          },
+          "recipientOnset": {
+            "numerator": "11",
+            "denominator": "2"
+          }
+        },
+        "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+      },
+      "scope": "Synthetic arbitrary order coordinates, not attested dates or extracted historical bounds"
+    },
+    {
+      "id": "donor_lower_after_recipient_upper",
+      "inputs": [
+        {
+          "lower": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        }
+      ],
+      "expected": false,
+      "proper": [
+        {
+          "inputs": [
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "lowerClosed": true,
+              "upperClosed": true
+            }
+          ],
+          "result": {
+            "feasible": true,
+            "admissibleContact": {
+              "lower": null,
+              "upper": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "lowerClosed": false,
+              "upperClosed": true
+            },
+            "witness": {
+              "donorOnset": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "contact": {
+                "numerator": "2",
+                "denominator": "1"
+              },
+              "recipientOnset": {
+                "numerator": "5",
+                "denominator": "2"
+              }
+            },
+            "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+          }
+        },
+        {
+          "inputs": [
+            {
+              "lower": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            }
+          ],
+          "result": {
+            "feasible": true,
+            "admissibleContact": {
+              "lower": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "upper": null,
+              "lowerClosed": false,
+              "upperClosed": false
+            },
+            "witness": {
+              "donorOnset": {
+                "numerator": "9",
+                "denominator": "2"
+              },
+              "contact": {
+                "numerator": "5",
+                "denominator": "1"
+              },
+              "recipientOnset": {
+                "numerator": "6",
+                "denominator": "1"
+              }
+            },
+            "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+          }
+        }
+      ],
+      "result": {
+        "feasible": false,
+        "admissibleContact": {
+          "lower": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "upper": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "lowerClosed": false,
+          "upperClosed": true
+        },
+        "witness": null,
+        "reason": "No contact time is after an available donor onset and no later than an available recipient acquisition."
+      },
+      "scope": "Synthetic arbitrary order coordinates, not attested dates or extracted historical bounds"
+    },
+    {
+      "id": "contact_lower_after_recipient_upper",
+      "inputs": [
+        {
+          "lower": null,
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        }
+      ],
+      "expected": false,
+      "proper": [
+        {
+          "inputs": [
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "lowerClosed": true,
+              "upperClosed": true
+            }
+          ],
+          "result": {
+            "feasible": true,
+            "admissibleContact": {
+              "lower": null,
+              "upper": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "lowerClosed": false,
+              "upperClosed": true
+            },
+            "witness": {
+              "donorOnset": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "contact": {
+                "numerator": "2",
+                "denominator": "1"
+              },
+              "recipientOnset": {
+                "numerator": "5",
+                "denominator": "2"
+              }
+            },
+            "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+          }
+        },
+        {
+          "inputs": [
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            }
+          ],
+          "result": {
+            "feasible": true,
+            "admissibleContact": {
+              "lower": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": false
+            },
+            "witness": {
+              "donorOnset": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "contact": {
+                "numerator": "5",
+                "denominator": "1"
+              },
+              "recipientOnset": {
+                "numerator": "6",
+                "denominator": "1"
+              }
+            },
+            "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+          }
+        }
+      ],
+      "result": {
+        "feasible": false,
+        "admissibleContact": {
+          "lower": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "upper": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        "witness": null,
+        "reason": "No contact time is after an available donor onset and no later than an available recipient acquisition."
+      },
+      "scope": "Synthetic arbitrary order coordinates, not attested dates or extracted historical bounds"
+    },
+    {
+      "id": "donor_lower_after_contact_upper",
+      "inputs": [
+        {
+          "lower": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "lowerClosed": true,
+          "upperClosed": true
+        },
+        {
+          "lower": null,
+          "upper": null,
+          "lowerClosed": true,
+          "upperClosed": true
+        }
+      ],
+      "expected": false,
+      "proper": [
+        {
+          "inputs": [
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            }
+          ],
+          "result": {
+            "feasible": true,
+            "admissibleContact": {
+              "lower": null,
+              "upper": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "lowerClosed": false,
+              "upperClosed": true
+            },
+            "witness": {
+              "donorOnset": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "contact": {
+                "numerator": "2",
+                "denominator": "1"
+              },
+              "recipientOnset": {
+                "numerator": "3",
+                "denominator": "1"
+              }
+            },
+            "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+          }
+        },
+        {
+          "inputs": [
+            {
+              "lower": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            },
+            {
+              "lower": null,
+              "upper": null,
+              "lowerClosed": true,
+              "upperClosed": true
+            }
+          ],
+          "result": {
+            "feasible": true,
+            "admissibleContact": {
+              "lower": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "upper": null,
+              "lowerClosed": false,
+              "upperClosed": false
+            },
+            "witness": {
+              "donorOnset": {
+                "numerator": "9",
+                "denominator": "2"
+              },
+              "contact": {
+                "numerator": "5",
+                "denominator": "1"
+              },
+              "recipientOnset": {
+                "numerator": "6",
+                "denominator": "1"
+              }
+            },
+            "reason": "A real-valued timing assignment exists within the declared intervals; historical transmission is not established."
+          }
+        }
+      ],
+      "result": {
+        "feasible": false,
+        "admissibleContact": {
+          "lower": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "upper": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "lowerClosed": false,
+          "upperClosed": true
+        },
+        "witness": null,
+        "reason": "No contact time is after an available donor onset and no later than an available recipient acquisition."
+      },
+      "scope": "Synthetic arbitrary order coordinates, not attested dates or extracted historical bounds"
+    }
+  ],
+  "allTimeCounterexample": {
+    "coordinates": "Arbitrary real order coordinates, no historical dating.",
+    "contactHistory": {
+      "donorOnset": 2,
+      "recipientOnset": 4,
+      "contactTime": 3,
+      "causalEdge": "donor-to-recipient"
+    },
+    "parallelHistory": {
+      "donorOnset": 2,
+      "recipientOnset": 4,
+      "contactTime": null,
+      "causalEdge": null
+    },
+    "cells": [
+      {
+        "id": "before2",
+        "representative": 1,
+        "contactModel": [
+          0,
+          0
+        ],
+        "parallelModel": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "at2",
+        "representative": 2,
+        "contactModel": [
+          1,
+          0
+        ],
+        "parallelModel": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "between2and4",
+        "representative": 3,
+        "contactModel": [
+          1,
+          0
+        ],
+        "parallelModel": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "at4",
+        "representative": 4,
+        "contactModel": [
+          1,
+          1
+        ],
+        "parallelModel": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": "after4",
+        "representative": 5,
+        "contactModel": [
+          1,
+          1
+        ],
+        "parallelModel": [
+          1,
+          1
+        ]
+      }
+    ],
+    "proof": "Both realizations use exactly the same two step functions. They are constant on each open cell and equal at both discontinuities, which partitions the entire real line. No query of these phonetic states can identify which causal realization generated them.",
+    "consequence": "Sound-state agreement alone does not establish a transmission edge, even when the complete trajectories are known. Additional musical or relational constraints could discriminate only through a justified adapter.",
+    "scope": "Existence of an observationally equivalent pair within these declared models; not a proof that all possible histories or every inheritance model are equivalent."
+  },
+  "queryRegister": [
+    {
+      "id": "HD-Q1",
+      "need": "Context-matched independently licensed donor negative state plus recipient positive state, with their relative date bounds.",
+      "consequence": "Can exclude the specified donor-to-recipient edge if the donor onset lower bound is later than the recipient acquisition upper bound.",
+      "missing": "Both phonetic licenses, exact witness contexts and independently justified bounds; an absent transcription is not a negative phone observation."
+    },
+    {
+      "id": "HD-Q2",
+      "need": "Independently bounded period when this transmission could occur, plus recipient acquisition upper bound.",
+      "consequence": "Can exclude this proposed contact if its earliest possible date follows recipient acquisition.",
+      "missing": "Contact opportunity bounds cannot be inferred merely from failing to find a contact record; third-party and other episodes remain separate."
+    },
+    {
+      "id": "HD-Q3",
+      "need": "Independently justified transcription-to-phone mapping in the exact source context.",
+      "consequence": "Can separate a pure written-normalization explanation from a changed-pronunciation explanation.",
+      "missing": "Received vowel letters and current scholarly reconstructed phones are not independent ancient acoustic observations; hybrid explanations survive."
+    },
+    {
+      "id": "HD-Q4",
+      "need": "Evidence constraining transmission, copying or lineage independently of the sound-state trajectories.",
+      "consequence": "Required to distinguish contact from an observationally identical independent-change realization when their full trajectories coincide.",
+      "missing": "More sound-state samples, even perfect all-time phone trajectories in the counterexample, do not identify the causal edge."
+    }
+  ],
+  "priorArt": {
+    "standingProtocol": "G16: recurring original-source prior art, P0-A baseline, controlled First &3/4 Order exposure and exact transfer/reuse conditions.",
+    "inheritedBaseline": "state/research/reactivation/symbols/p0a-14-baseline.json",
+    "currentCensusStatus": "Bounded mainstream method extension; complete updated14question census and ten-question/M1-M12 heterodox phase remain open. No exhaustive novelty claim.",
+    "sources": [
+      {
+        "id": "erdem-2005",
+        "title": "Temporal Phylogenetic Networks and Logic Programming",
+        "authors": "Esra Erdem; Vladimir Lifschitz; Don Ringe",
+        "url": "https://arxiv.org/pdf/cs/0508129",
+        "path": "state/delivery-2026-11-07/history-discriminator/primary/erdem-2005.pdf",
+        "sha256": "b34aee06b3485aa231e1f14474f571f41aca66bb9600113c897340130a1ce7a7",
+        "bytes": 263006,
+        "status": "preserved-existing",
+        "httpStatus": null,
+        "retrievedAt": "2026-11-07T22:23:39.644584+00:00",
+        "scope": "Primary-method paper bytes, not evidence of a Hebrew historical event"
+      },
+      {
+        "id": "angluin-1988",
+        "title": "Queries and Concept Learning",
+        "authors": "Dana Angluin",
+        "url": "https://homepages.math.uic.edu/~lreyzin/papers/angluin88.pdf",
+        "path": "state/delivery-2026-11-07/history-discriminator/primary/angluin-1988.pdf",
+        "sha256": "2662d43f8a34689886a3e2f2b266e5c0f1059a66b30759a3c8366a6f37d2dd8c",
+        "bytes": 1445221,
+        "status": "preserved-existing",
+        "httpStatus": null,
+        "retrievedAt": "2026-11-07T22:23:39.645839+00:00",
+        "scope": "Primary-method paper bytes, not evidence of a Hebrew historical event"
+      },
+      {
+        "id": "dechter-1991",
+        "title": "Temporal constraint networks",
+        "authors": "Rina Dechter; Itay Meiri; Judea Pearl",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r113-L-reprint.pdf",
+        "path": "state/delivery-2026-11-07/history-discriminator/primary/dechter-1991.pdf",
+        "sha256": "b89a1f705a89be8a1bc140f90ad0d3eadba5c1507da7475521df05effc24f732",
+        "bytes": 3061457,
+        "status": "retrieved",
+        "httpStatus": 200,
+        "retrievedAt": "2026-11-07T22:23:41.579080+00:00",
+        "scope": "Primary-method paper bytes, not evidence of a Hebrew historical event"
+      }
+    ],
+    "inspected": [
+      {
+        "id": "erdem-2005",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "reuse": "Model transmission separately from tree ancestry; contact requires contemporary communities.",
+        "limit": "The paper models linguistic networks, not sacred original phonetics or a musical geometry."
+      },
+      {
+        "id": "angluin-1988",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "reuse": "Specify allowed observation queries and retain equivalence when their answers cannot separate models.",
+        "limit": "Historical sources are not a reliable answer oracle; exact-learning guarantees do not transfer."
+      },
+      {
+        "id": "dechter-1991",
+        "pages": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "reuse": "Represent event intervals explicitly and derive conditional temporal consistency.",
+        "limit": "This adapter solves only the stated three-window relation; no complete temporal-network/ASP implementation or theorem re-proof claimed."
+      }
+    ],
+    "searchTerms": [
+      "Temporal Phylogenetic Networks and Logic Programming",
+      "Queries and Concept Learning",
+      "Dechter Meiri Pearl temporal constraint networks shortest paths"
+    ],
+    "contributionBeyondPriorArt": "Source-bound observation-query register, explicit qames/context transfer limits, exact interval adapter, all-time contact/parallel countermodel and three inclusion-minimal contradictory bound pairs.",
+    "novelty": "A conditional SUNNY application of established methods; no new general theorem, historical innovation or exhaustive literature coverage claimed."
+  },
+  "independentChecks": {
+    "review": "state/delivery-2026-11-07/history-discriminator/review/adapter-review.json",
+    "cases": 490,
+    "witnesses": 260,
+    "projections": 350,
+    "sourceStable": true
+  },
+  "currentHistoricalBoundsAdmitted": 0,
+  "remaining": [
+    "Original witness collation",
+    "Independent phonetic licensing",
+    "Context-matched dated attestations and admissible negative evidence",
+    "Independent causal/transmission constraints",
+    "Hybrid, loss and third-party histories"
+  ],
+  "originalSoundRecovered": false,
+  "historicalMechanismSelected": false,
+  "blindPrediction": false,
+  "fullMissionComplete": false,
+  "inputSnapshots": [
+    {
+      "sourcePath": "docs/reconstruction/symbol-sound-census/phyla-waves-assessment.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/c64301e3db491f1978b490e0cfefaf7a4d6fd8ac484be58a031f79a49ff43bd3/phyla-waves-assessment.json",
+      "sha256": "c64301e3db491f1978b490e0cfefaf7a4d6fd8ac484be58a031f79a49ff43bd3",
+      "bytes": 13769
+    },
+    {
+      "sourcePath": "docs/reconstruction/symbol-sound-census/qames-topology-discrimination.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/5935028848501a7c66fa41ec700307a9b58fdbf7c26bd20243e2eaca22c85c40/qames-topology-discrimination.json",
+      "sha256": "5935028848501a7c66fa41ec700307a9b58fdbf7c26bd20243e2eaca22c85c40",
+      "bytes": 20960
+    },
+    {
+      "sourcePath": "state/reconstruction/phonological-context-constraints.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0/phonological-context-constraints.json",
+      "sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+      "bytes": 9895
+    },
+    {
+      "sourcePath": "state/jev-receipts/000061-54b57b45fbcd.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/670d3becc18b61f812eb640971287d377df140d4396a46294ee9994187aba0ca/000061-54b57b45fbcd.json",
+      "sha256": "670d3becc18b61f812eb640971287d377df140d4396a46294ee9994187aba0ca",
+      "bytes": 5848
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/history-discriminator/review/result.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/a71e8844df780162c5107db4542be30dc3ef78190bc8aefdb55443ec23afdf31/result.json",
+      "sha256": "a71e8844df780162c5107db4542be30dc3ef78190bc8aefdb55443ec23afdf31",
+      "bytes": 9397
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/history-discriminator/review/adapter-review.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/0c70e4b1d4996555df18e59ae93cf5b6227019b64a1d37695eac503ab3c0e775/adapter-review.json",
+      "sha256": "0c70e4b1d4996555df18e59ae93cf5b6227019b64a1d37695eac503ab3c0e775",
+      "bytes": 869
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/history-discriminator/primary/erdem-2005.pdf",
+      "snapshotPath": "data/raw/reconstruction-integrations/b34aee06b3485aa231e1f14474f571f41aca66bb9600113c897340130a1ce7a7/erdem-2005.pdf",
+      "sha256": "b34aee06b3485aa231e1f14474f571f41aca66bb9600113c897340130a1ce7a7",
+      "bytes": 263006
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/history-discriminator/primary/angluin-1988.pdf",
+      "snapshotPath": "data/raw/reconstruction-integrations/2662d43f8a34689886a3e2f2b266e5c0f1059a66b30759a3c8366a6f37d2dd8c/angluin-1988.pdf",
+      "sha256": "2662d43f8a34689886a3e2f2b266e5c0f1059a66b30759a3c8366a6f37d2dd8c",
+      "bytes": 1445221
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/history-discriminator/primary/dechter-1991.pdf",
+      "snapshotPath": "data/raw/reconstruction-integrations/b89a1f705a89be8a1bc140f90ad0d3eadba5c1507da7475521df05effc24f732/dechter-1991.pdf",
+      "sha256": "b89a1f705a89be8a1bc140f90ad0d3eadba5c1507da7475521df05effc24f732",
+      "bytes": 3061457
+    }
+  ],
+  "codeBindings": [
+    {
+      "path": "src/phonological-history.ts",
+      "sha256": "8534ff2dee3874c13e2e87b4936ff6598d79a5341e6ca8e22373e9cf949303ef"
+    },
+    {
+      "path": "dist/phonological-history.js",
+      "sha256": "8594c85e069d3b588ce8af9c722044c5345811c5003f32f0f8b82df904d2df21"
+    },
+    {
+      "path": "src/law.ts",
+      "sha256": "33cbed139b32da8c08c46715ebe09470e6aa1e08e4142f8359a417ddd515201f"
+    },
+    {
+      "path": "dist/law.js",
+      "sha256": "82a70029affd342fcef458f9d5a7dbb408566602cb2dfe4cad26b7539cdd7474"
+    },
+    {
+      "path": "scripts/derive_phonological_history.mjs",
+      "sha256": "e3c08c58d15ce9392e7c8d9567517e20af314c0cced982adc7c461e333743f0d"
+    },
+    {
+      "path": "tests/phonological-history.test.mjs",
+      "sha256": "fd2433277b38288e15cfaadf67df243dd5031a529d5b6a697f4a3e31adefd819"
+    },
+    {
+      "path": "state/delivery-2026-11-07/history-discriminator/review/check_adapter.py",
+      "sha256": "a0a6a30cc77e42b6a6d87cc3dd8730f94543d26a4cf930afe3a71df3241f7113"
+    },
+    {
+      "path": "state/delivery-2026-11-07/history-discriminator/review/run_adapter_cases.mjs",
+      "sha256": "56a67afa0a0fc856b265bc191b9da66adf391f92bd656705fb097bed07939e48"
+    }
+  ]
+}

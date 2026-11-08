@@ -1,0 +1,117 @@
+{
+  "task": "Read-only exact prior mathematical artifact recovery",
+  "date": "2026-11-07",
+  "timezone": "America/Phoenix",
+  "initial_census": "work/final-day-2026-11-07/audit/deliverables.json",
+  "M_requirements_checked": 8,
+  "unique_artifacts_checked": 12,
+  "live_hashes_unchanged": 10,
+  "drifted": 2,
+  "exact_prior_versions": [
+    {
+      "status": "FOUND_EXACT_BYTES_HASH_VERIFIED",
+      "original_live_path": "state/reconstruction/orientation-predictions.json",
+      "preserved_snapshot": "data\\raw\\reconstruction-integrations\\7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc\\orientation-predictions.json",
+      "initial_census_sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "snapshot_sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "current_live_sha256": "6ce9ee6dd2b2caff239b3e78582216afed9038b63adaa9d5610919efcae721d8",
+      "bytes": 219041,
+      "reconstructed_from_summary": false
+    },
+    {
+      "status": "FOUND_EXACT_BYTES_HASH_VERIFIED",
+      "original_live_path": "state/reconstruction/master-score.json",
+      "preserved_snapshot": "data\\raw\\reconstruction-integrations\\d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59\\master-score.json",
+      "initial_census_sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59",
+      "snapshot_sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59",
+      "current_live_sha256": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c",
+      "bytes": 620218,
+      "reconstructed_from_summary": false
+    }
+  ],
+  "all_checks": [
+    {
+      "original_live_path": "state/reconstruction/native-execution.json",
+      "initial_census_sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+      "current_live_sha256": "d34b7eb6216ab222134a4c268a23e998e3868bab77efb5afe1cc91257b2256b7",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/native-derivations.json",
+      "initial_census_sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "current_live_sha256": "3c9ba8f2a059fa3982d2fd5086dfe0426042964b9d0f370cd2f6fe4026c8673b",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/algebraic-extension.json",
+      "initial_census_sha256": "636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e",
+      "current_live_sha256": "636e5f641e2dc812b28e91890ca574005c71fb07b7866dbf5d932164207a233e",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/tol-history-math.json",
+      "initial_census_sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+      "current_live_sha256": "14e15111b7483c6e081933ee6aaf40c3e772baf22e422c9faf417398a8203126",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/contextual-alignment.json",
+      "initial_census_sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c",
+      "current_live_sha256": "b16823dc52d120b5cce59279f974def3600d11516c267fab6d152f582e7a617c",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/symbol-sound-constraints.json",
+      "initial_census_sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940",
+      "current_live_sha256": "ee8a9c2d11eb2fbb85a1ef1ff3f9174c5b30ca9df737c8446173b2c85efaa940",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/phonological-context-constraints.json",
+      "initial_census_sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+      "current_live_sha256": "d3d29ed7b3ee20da839cbdbf75d47b166e8471e2dd8d3fa94860c5f52eb89ff0",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/score-anchor-constraints.json",
+      "initial_census_sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+      "current_live_sha256": "96674be91fd7045ef346cb2473f8e16585ecc4d2992d14444450b4216256a4ab",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/generational-constraints.json",
+      "initial_census_sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "current_live_sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/orientation-predictions.json",
+      "initial_census_sha256": "7aa2eb793523ed3a763260f049bd7d5a392c7867ef382adfbfb49df7d46b4bcc",
+      "current_live_sha256": "6ce9ee6dd2b2caff239b3e78582216afed9038b63adaa9d5610919efcae721d8",
+      "drifted": true
+    },
+    {
+      "original_live_path": "state/reconstruction/derived-laws.json",
+      "initial_census_sha256": "fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1",
+      "current_live_sha256": "fd11ce47880df5f8cbac742fdef60e3f55a64c6a1827b54f0945429a38903fd1",
+      "drifted": false
+    },
+    {
+      "original_live_path": "state/reconstruction/master-score.json",
+      "initial_census_sha256": "d000bb7abb6c1afc11fd32e79b32cff9d4378bcc49720649905c0277bce95e59",
+      "current_live_sha256": "84f4d947b30b938edfa6effd9fb442e7ce543f277ff520df527d58404b3cf05c",
+      "drifted": true
+    }
+  ],
+  "search_scope": [
+    "Known SUN state/reconstruction and checkpoint-history",
+    "Known data/raw/reconstruction-integrations content-addressed snapshots",
+    "Known workspace data/docs/work/deliverables filename census; no broader account or Downloads scan needed"
+  ],
+  "search_limits": [
+    "One unrelated state/background temporary directory denied rg enumeration; no absence inferred"
+  ],
+  "original_files_modified": [],
+  "reconstructed_old_JSON": false,
+  "recommendation": "Bind final-day claims to these exact initial versions using an explicit new version registry; retain live current versions separately. Do not overwrite the original census or live state, and do not silently promote metadata differences to new scientific results."
+}

@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-61752d7ee177490584a4e364f8fd0863.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-glyph-assistant-59ce9bae84744c69",
+    "kind": "source_forensics",
+    "track": "glyph",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/59ce9bae84744c696292c9bbed70695d2d0a0640c8b80a84c55a56ed69cd5559/text.txt",
+        "sha256": "59ce9bae84744c696292c9bbed70695d2d0a0640c8b80a84c55a56ed69cd5559",
+        "start_line": 1,
+        "end_line": 230,
+        "source_role": "assistant",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "message_id": "49a2edaa9109ad3677ae597f3a443869e054879f1815d2bf7ce8d2e1f46695c9",
+        "timestamp": "1761456821.826362",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "49a2edaa9109ad3677ae597f3a443869e054879f1815d2bf7ce8d2e1f46695c9",
+          "native_id": "bd8ace04-d229-4b87-b9d2-291a0138bddc",
+          "conversation_id": "4e9b9007c7e63c957354705e5dc56eebb212826a4dcb63f4ec11bac55db5631c",
+          "role": "assistant",
+          "content_sha256": "59ce9bae84744c696292c9bbed70695d2d0a0640c8b80a84c55a56ed69cd5559",
+          "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+          "locator": "/60/mapping/bd8ace04-d229-4b87-b9d2-291a0138bddc/message",
+          "create_time": "1761456821.826362",
+          "branch_status": "current",
+          "title": "Reworking Unda Pressha",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+          "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/59ce9bae84744c696292c9bbed70695d2d0a0640c8b80a84c55a56ed69cd5559/occurrences-77c5143d95325d5a1b085a7d70962ecf4b3bd278cd16b34f144bb8417e49265e.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-sound-symbol-map",
+        "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+      },
+      {
+        "id": "glyph-sound-distinction",
+        "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:58.013098+00:00"
+}

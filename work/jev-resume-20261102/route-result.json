@@ -1,0 +1,56 @@
+{
+  "status": "judged",
+  "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000055-7e888363daa7.json",
+  "sha256": "7e888363daa70a7fd6e0621d7044404343bd125fcc5df6c9902f4b139c17823b",
+  "answers": [
+    {
+      "id": "next_packet",
+      "type": "choice",
+      "distribution": {
+        "dependency_repair": 0.27138999104499817,
+        "native_music_interface": 0.3753024637699127,
+        "source_anchored_symbol_case": 0.3533075749874115
+      },
+      "value": "native_music_interface",
+      "description": "First formalize the existing Western/Chinese operational interfaces needed to constrain symbol/sound candidates; retain unresolved acoustic/linguistic joins and defer symbol-case research until this bounded interface is explicit.",
+      "top_probability": 0.3753024637699127,
+      "margin": 0.02199488878250122
+    },
+    {
+      "id": "team_division",
+      "type": "choice",
+      "distribution": {
+        "independent_symbol_paths": 0.2785782814025879,
+        "sound_western_chinese": 0.3902844488620758,
+        "witness_music_forensics": 0.3311372399330139
+      },
+      "value": "sound_western_chinese",
+      "description": "Worker1 symbol/linguistic primary witnesses and prior art; Worker2 Western music constraints; Worker3 Chinese music constraints. Coordinator integrates and assigns an independent review after authoring.",
+      "top_probability": 0.3902844488620758,
+      "margin": 0.05914720892906189
+    }
+  ],
+  "model_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  }
+}

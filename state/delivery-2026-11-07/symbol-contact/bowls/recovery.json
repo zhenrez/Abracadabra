@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "objective_id": "BOWL-001",
+  "status": "BOUNDED_ACQUISITION_ENDED_INCOMPLETE",
+  "question": "Verify Molin 2020 pp. 163-164: Num 9:23 bowl spellings, edition IDs, dates and conditions on phonetic inference.",
+  "primary_publication": {
+    "author": "Dorota Molin",
+    "title": "Biblical Quotations in the Aramaic Incantation Bowls and Their Contribution to the Study of the Babylonian Reading Tradition",
+    "doi": "10.11647/OBP.0207.04",
+    "publication_date": "2020-06-01",
+    "printed_pages": "147-170",
+    "license": "CC BY 4.0",
+    "source_sha256": null,
+    "source_sha256_status": "ORIGINAL_BYTES_NOT_RETRIEVED"
+  },
+  "inspected_primary_content": [
+    {"url": "https://www.openbookpublishers.com/books/10.11647/obp.0207/chapters/10.11647/obp.0207.04", "representation": "web-tool text rendering", "delivered_line_count": 105, "relevant_rendering_lines": [20, 58], "scope": "chapter metadata and publisher abstract", "original_bytes_saved": false},
+    {"url": "https://www.openbookpublishers.com/books/10.11647/obp.0207", "representation": "web-tool text rendering", "delivered_line_count": 277, "scope": "volume metadata and chapter placement", "original_bytes_saved": false}
+  ],
+  "primary_pdf_pages_inspected": [],
+  "confirmed_bowl_spellings": [],
+  "confirmed_edition_ids": [],
+  "confirmed_specimen_dates": [],
+  "discovery_lead_only": {
+    "publication": "The Linguistic Classification of the Reading Traditions of Biblical Hebrew",
+    "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/22/36/14/30/2022361430/2022361430.pdf",
+    "indexed_candidate_spelling": "שומרו",
+    "indexed_comparison_spelling": "שׁמרו",
+    "verse": "Num 9:23",
+    "indexed_citation": "Molin 2020, 163-64",
+    "status": "SECONDARY_SEARCH_RESULT_NOT_VERIFIED_AGAINST_MOLIN_OR_ARTEFACT"
+  },
+  "attempts": [
+    {"url": "https://books.openbookpublishers.com/10.11647/obp.0207.04.pdf", "method": "web open", "status": "RETURNED_ACCESS_CHECK_NOT_PDF", "delivered_lines": 3},
+    {"url": "https://books.openbookpublishers.com/10.11647/obp.0207.04.pdf", "method": "local Invoke-WebRequest", "status": "FAILED_DNS", "error": "No such host is known.", "file_created": false},
+    {"url": "https://books.openbookpublishers.com/10.11647/obp.0207.04.pdf", "method": "escalated retry", "status": "INTERRUPTED_DURING_APPROVAL_WAIT_NO_RESULT", "execution_success_inferred": false},
+    {"url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/39/45/70/2019394570/2019394570.pdf", "method": "web open", "status": "FAILED_TOOL_CONTENT_SIZE_LIMIT", "reported_content_bytes": 43770523},
+    {"url": "https://books.openedition.org/obp/16806?lang=en", "method": "web open", "status": "INACCESSIBLE_AND_IDENTITY_UNVERIFIED"},
+    {"url": "https://books.openbookpublishers.com/10.11647/obp.0207.04.pdf?download=1", "method": "combined call", "status": "ABORTED_NO_RESULT", "request_execution_inferred": false}
+  ],
+  "unresolved_dependencies": [
+    "Original chapter printed pp. 163-164 and relevant dating/method context",
+    "Exact Num 9:23 readings and edition/line identifiers",
+    "Photographs or editorial apparatus sufficient to evaluate letter ambiguity",
+    "Specimen-specific independent dating evidence",
+    "Explicit conditions and controls for interpreting the written letter as vowel quality",
+    "Independent chronology and contact evidence to distinguish inheritance from contact or parallel change"
+  ],
+  "safe_next_route": "Authorized public LOC original-volume PDF download or accessible publisher chapter copy, then local target-page inspection; no access-check bypass.",
+  "remaining_discriminator": "Confirm dated editions/lines and letter readings, then compare qames-corresponding vowel-letter use across possible vernacular/orthographic conditioning and independent traditions. A single waw and broad corpus date cannot decide ancestry or a precise phoneme.",
+  "guarded_continuity": {
+    "local_jev_receipt": "state/jev-receipts/000060-a1b30f75db7d.json",
+    "receipt_selected_option": "qames_chronology_contact",
+    "new_jev_inference": false,
+    "supermemory_search_executed": true,
+    "supermemory_conversation_id": "01a1b7f0-40fa-745f-8cc0-d131f329e18b",
+    "supermemory_result_file": "supermemory-retrieval.json",
+    "new_supermemory_save": false,
+    "superjev_success_claimed": false,
+    "prumo_research_workflow_applied": true,
+    "evidence_audit_workflow_applied": true,
+    "prumo_solver_executed": false,
+    "evidence_coordinate_helper_executed": false,
+    "native_plan_tool_available": false
+  },
+  "truth_limits": [
+    "Source metadata and publisher argument description are distinct from inspected ancient objects.",
+    "No exact target spelling or edition ID is confirmed by this acquisition.",
+    "A transcribed waw is not automatically a precise phoneme, vowel length or waveform.",
+    "No inherited-rounding, contact or parallel-change verdict is established.",
+    "Local artifact hashes do not replace missing original-source hashes."
+  ]
+}

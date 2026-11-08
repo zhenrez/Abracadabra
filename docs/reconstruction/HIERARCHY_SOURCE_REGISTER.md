@@ -1,0 +1,60 @@
+# Hierarchy source register — recovered origins, witnesses and counting units
+
+This is a source-bound starting register for the current full hierarchy atlas. It recovers the exact A/B/C alternatives and three separate legion witnesses. It does not elect an origin, pair those axes, or declare the complete hierarchy reconstructed.
+
+## Recovered A/B/C definitions
+
+| Alternative | Exact structural distinction retained | Status |
+|---|---|---|
+| A — source-identity | Fewer source principles appear under several names/roles. Four proposed pairings need not be four independently generated beings. | Retained alternative; local I.1 alias convention is not a global election. |
+| B — functional-unfolding | Proarche0 → AionTeleios first1 → Bythos second1 → Sige2; successive functional boundaries. | Direct user candidate; numbering is not an attested birth census. |
+| C — four relational units | AionTeleos–Propator; Proarche–Bythos; Ennoea–Sige; Charis–Thelesis as four proposed configurations jointly conditioning the next layer. | Joint causation remains an explicit hypothesis per witness. |
+
+The direct user pairing/candidate message is `47c97755…`, the assistant definition table `4cdbd1f7…`, and the later user-supplied analytical correction `28af9b9e…`. Full IDs, exact quotes, roles, occurrence histories and original-byte hashes are in the [JSON register](../evidence/hierarchy-origin-witness-recovery.json). A pasted analytical passage retains outer user provenance without inventing its inner authorship.
+
+**Counting correction:** thirty aeons plus four functional primordial bundles is a mixed accounting convention. All three alternatives meet34; that total does not select an alternative or establish four additional people. TOL A/B and experimental three-voice A/B/C remain separate namespaces.
+
+## Witness-specific upper production
+
+The current [Irenaeus I.1 translation](https://www.newadvent.org/fathers/0103101.htm) distinguishes Bythos–Sige, Nous–Aletheia, Logos–Zoe and Anthropos–Ecclesia. Logos–Zoe produce the Decad; Anthropos–Ecclesia produce the Dodecad. Keep those branches separate. Its eight/ten/twelve member positions give thirty, with fifteen syzygies and three collective groups as different units. Repeated names retain their contextual identities.
+
+[I.11](https://www.newadvent.org/fathers/0103111.htm) reports several other arrangements, including Monotes/Henotes, Monas and coexisting Hen; its Monad occurrence is not silently merged with the Sethian Monad. [I.12](https://www.newadvent.org/fathers/0103112.htm) distinguishes Ennoea/Thelesis and reports a simultaneous-Ogdoad account with changed internal ordering. These are reported historical witnesses with a polemical narrator, not interchangeable canonical judgments. Raw digital source bytes and exact extraction contexts are preserved.
+
+## The three legion witnesses are a separate axis
+
+| Complete72-row vector | Primary legion-command sum | Recovery |
+|---|---:|---|
+| Uploaded repository CSV | 2648 | All72original rows read and source-hash checked. |
+| [deLaurence1916 digital edition](https://www.gutenberg.org/files/72679/72679-h/72679-h.htm) | 2645 | All72current main readings independently extracted. |
+| [Peterson Sloane3825 transcription](https://www.esotericarchives.com/solomon/goetia.htm) | 2618 | All72current main readings independently extracted. |
+
+The first comparison changes Ose3→30 and Belial80→50. The second changes Morax30→36, Focalor30→3, Vine36→35 and Valac38→30. All remaining primary counts agree with the uploaded vector. Superscript note numbers and bracketed editorial alternatives are excluded from the selected main reading but retained in source context. Paimon’s200primary and25accompanying legions remain separate. The2675one-edit hybrid is not another complete witness. These readings share textual ancestry; they are not independent empirical confirmations. No total here determines disjoint personnel.
+
+## Native ranks: entities versus membership
+
+| deLaurence classified group | Membership occurrences |
+|---|---:|
+| Kings | 9 |
+| Dukes | 23 |
+| Princes and Prelates | 7 |
+| Marquises | 15 |
+| Presidents | 14 |
+| Earls or Counts | 10 |
+| Knights | 1 |
+
+**72unique chiefs,79rank memberships.** Seven chiefs occupy two rank groups: Vine, Zagan, Gaap, Ronove, Botis, Marax, Glasya-Labolas. The uploaded single-primary-rank column collapses those multiple memberships. Keep both representations and their source conventions; do not infer a total ordering of ranks from this table.
+
+## Chinese enumeration stays native
+
+The recovered Chinese source-locked documents retain Dao/void → space-time → primordialqi → clearHeaven/turbidEarth → combinedessences/yin–yang → seasons → wanwu. Wuxing, sheng/ke, twelve lü and ganying include horizontal operators, standards and distributed relations, rather than additional births. Human/sage regulation occurs within wanwu. Twelve analytic outer addresses and a center are a separate adapter projection. The early-source calibration excludes later pantheons; those remain additional source work.
+
+## Next source gates
+
+- Recover the complete selected-recension Sethian named graph, retaining parentage, association, appointments and jurisdiction separately. The existing primordial atlas is starting material rather than a completed upper hierarchy.
+- Build membership/production/rank/command edges from the recovered native rows; preserve all A/B/C alternatives and the three independent witness vectors.
+- Inspect the newly supplied36original files under root’s preserved inventory. Their availability supersedes the earlier acquisition gap for those particular inputs.
+- Add exact source coverage for remaining angelic/demonic and Western/Chinese structures before any complete-census claim.
+
+Actual SuperJev `jev-1.14.0` selected separate native source gates. Supermemory retrieval was attempted once and returned unavailable; that is not absent history. Relevant Sacred Timeline and research source methods guard provenance and native units. No service, browser, account-access loop, database write or orientation election occurred.
+
+Reproduce this bounded recovery with `python -X utf8 scripts/recover_hierarchy_sources.py`. Current public source bytes are already pinned in `docs/evidence/hierarchy-primary-retrieval.json`; this command itself performs no network requests.

@@ -1,0 +1,75 @@
+{
+  "status": "PASS_1_COMPLETE",
+  "scope": "stripped carrier-independent SUN core only",
+  "roles": [
+    {
+      "role": "G",
+      "sun_role": "generation / differentiation",
+      "weakest_formalism": "typed labelled transition system (equivalently, a directed multigraph/quiver with operation labels)",
+      "fit": "EXACT",
+      "preserves": "state identity; source/target typing; branching; direction; multiple distinct transitions between the same endpoints; operation labels",
+      "loses_or_does_not_assert": "no composition law by itself; no linearity; no invertibility; no metric; no claim that every transition is deterministic",
+      "first_consequence": "Distinct transitions and paths can remain distinct even when they share endpoints. Passing to the path category makes histories first-class without identifying them.",
+      "anti_overclaim": "Do not promote the transition graph itself to a universal ontology."
+    },
+    {
+      "role": "C",
+      "sun_role": "composition / closure",
+      "weakest_formalism": "many-sorted partial algebra of admissible n-ary operations; use a multicategory only when composition of such n-ary operations is itself needed",
+      "fit": "EXACT",
+      "preserves": "typed multi-input closure; explicit domain of admissibility; outputs; distinction between undefined composition and a defined composition with a particular result",
+      "loses_or_does_not_assert": "does not assume multiplication, commutativity, associativity, binary arity, or total closure universally",
+      "first_consequence": "SUN can state closure rules as partial operations c:D\u2286X1\u00d7\u2026\u00d7Xn\u2192Y. This cleanly separates 'not an admissible composition' from 'admissible and evaluates to y'.",
+      "anti_overclaim": "Multiplication in the music realization is one implementation of C, not the carrier-independent definition."
+    },
+    {
+      "role": "I",
+      "sun_role": "preserved relational invariant",
+      "weakest_formalism": "invariant map / conserved observable on the subcollection of transformations claimed to preserve it",
+      "fit": "EXACT",
+      "preserves": "the declared aggregate or relation; level sets/fibers of equal invariant value; distinction between preserved aggregate and changed internal allocation",
+      "loses_or_does_not_assert": "does not identify states inside one invariant fiber; does not say which transformations ought to preserve I",
+      "first_consequence": "If I\u2218f=I and I\u2218g=I wherever defined, then I\u2218(g\u2218f)=I wherever the composite is defined. Invariance is closed under lawful composition.",
+      "anti_overclaim": "An invariant does not determine the mechanism that preserves it."
+    },
+    {
+      "role": "K",
+      "sun_role": "representation adequacy / admissibility criterion",
+      "weakest_formalism": "typed admissibility predicate or constraint relation K(R,q)\u2208{0,1} on a representation R relative to a requirement q",
+      "fit": "EXACT for the earned conditional claim",
+      "preserves": "separation of numerical/algebraic validity from structural admissibility; explicit scope of the current representation class",
+      "loses_or_does_not_assert": "does not choose a repair; does not imply minimality; does not guarantee that a richer representation exists",
+      "first_consequence": "A state/transition may satisfy the numerical equations while failing K. Therefore numerical success is not sufficient for representational admissibility.",
+      "anti_overclaim": "K=0 licenses 'current representation insufficient'; it does not license any specific lift."
+    },
+    {
+      "role": "L",
+      "sun_role": "richer-state lift",
+      "weakest_formalism": "state-space extension/refinement with lifted dynamics and a commuting projection (semiconjugate extension); covering/fibration only as special cases",
+      "fit": "EXACT at the abstract level; COVERING/FIBRATION = PARTIAL/SPECIAL",
+      "preserves": "the old observable behavior through projection while allowing extra hidden state/history coordinates",
+      "loses_or_does_not_assert": "does not require local triviality, topology, deck groups, minimal dimension, unique lift, or a particular hidden coordinate",
+      "first_consequence": "For \u03c0\u2218T~=T\u2218\u03c0, every lifted trajectory projects to a valid base trajectory. Different lifted trajectories may project to the same observable trajectory.",
+      "anti_overclaim": "Do not promote FK monodromy or any specific covering-space model into L."
+    },
+    {
+      "role": "\u03c0",
+      "sun_role": "realization / projection",
+      "weakest_formalism": "observation map \u03c0:X~\u2192Y together with its kernel equivalence x~\u03c0y iff \u03c0(x)=\u03c0(y)",
+      "fit": "EXACT",
+      "preserves": "the exposed/realized value and whatever structure is explicitly required of \u03c0",
+      "loses_or_does_not_assert": "all distinctions inside a fiber unless separately encoded; no homomorphism/functor claim unless verified per carrier",
+      "first_consequence": "Every map factors through the quotient X~/~\u03c0 onto im(\u03c0). Thus \u03c0(x)=\u03c0(y) implies observational equivalence, not state identity; identity follows only if \u03c0 is injective.",
+      "anti_overclaim": "The quotient is set-theoretic by default; algebraic/topological quotient structure must be earned separately."
+    }
+  ],
+  "non_promotions": [
+    "universal binary complementarity",
+    "universal multiplication",
+    "universal minimal extension",
+    "universal covering-space or monodromy structure",
+    "universal integer grading",
+    "unique repair after inadequacy",
+    "single formalism subsuming all six roles"
+  ]
+}

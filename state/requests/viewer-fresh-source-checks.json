@@ -1,0 +1,27 @@
+{
+  "state": {
+    "goal": "Finish source-faithful SUNNY UI checks and decision display while retaining actual Jev gates and exact source roles. Root has fixed Unicode stdin by real receipt000022. Source importer is adding7records, so old browser assertion59894is about to be stale.",
+    "facts": "tests/ui-browser.mjs currently hardcodes59,894messages although imported DB can grow; browser search/summary should reflect actual current data. /api/decisions returns conversation title and exact extracted user excerpt as statement; current item heading picks title first, so quote is hidden until opening conversation. No canonical law is inferred from an extracted candidate.",
+    "constraints": "Source bytes remain untouched; no fabricated counts or probabilities; no redesign; native/source authority distinctions stay visible."
+  },
+  "questions": [
+    {
+      "id": "browser_count_reference",
+      "type": "choice",
+      "question": "Which count reference should the actual browser integration check use after a known source import mutation?",
+      "options": {
+        "live_db_reference": "Read the current imported source database count independently at check start; assert browser-rendered count matches it, and record the observed count and time.",
+        "frozen_snapshot": "Update the hardcoded expected count to the latest observed import total and require manual revision after each later import; record that it is a frozen-snapshot check."
+      }
+    },
+    {
+      "id": "decision_excerpt_display",
+      "type": "choice",
+      "question": "How should the source decision candidate list expose its actual user excerpt?",
+      "options": {
+        "visible_excerpt": "Show the source conversation title as context and the exact extracted user statement below it, retaining status/source locator and original-conversation access.",
+        "title_and_link": "Keep the compact conversation-title list with status/locator and require opening the original conversation to read the candidate statement."
+      }
+    }
+  ]
+}

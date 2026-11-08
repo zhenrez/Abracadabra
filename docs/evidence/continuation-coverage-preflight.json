@@ -1,0 +1,43 @@
+{
+  "schema": "sunny.coverage-reconciler-preflight.v1",
+  "created_utc": "2026-11-01T00:05:59.890861+00:00",
+  "changed_files": [
+    "scripts/reconcile_current_coverage.py",
+    "tests/coverage_reconciliation_test.py"
+  ],
+  "file_hashes": {
+    "scripts/reconcile_current_coverage.py": "358c27fb0cc85610f7a8e6a2d89a54e9a3ab6fc84d2c77709804d89ac2db1301",
+    "tests/coverage_reconciliation_test.py": "77b4e9d2193d68d06c6ff0e80bdbe79d3eb1fb8d79f388ec784f2ed27e71350e"
+  },
+  "validation": {
+    "command": "python -X utf8 tests/coverage_reconciliation_test.py",
+    "exit_code": 0,
+    "tests": 5,
+    "passed": 5,
+    "failed": 0,
+    "scope": "isolated temporary SQLite fixture only; actual SUNNY database and coverage not opened by this test command"
+  },
+  "actual_project_reconciliation_executed": false,
+  "actual_input_preservation_receipt_sha256": "72a1194c37fba00bda534ebd12274ca08f681a6e5c24fbede991dc07853399a7",
+  "guard_methods": [
+    {
+      "name": "SuperJev",
+      "actual_runtime": "jev-1.14.0",
+      "receipt": "docs/evidence/continuation-coverage-design-jev-result.json",
+      "selected": "read_only_dynamic_explicit_scope",
+      "probability": 1.0,
+      "boundary": "Operational design choice, not proof of coverage."
+    },
+    {
+      "name": "Agent Skills code-review-and-quality0.6.10",
+      "kind": "five-axis skill applied",
+      "observed": "Read-only database URI, fixed SQL table names, hash snapshots, no source/instruction promotion, linear exact-ID collector, explicit preflight checks against input/module/coverage drift and pending-module arrival."
+    }
+  ],
+  "not_verified": [
+    "Full live-project execution awaits root after publication.",
+    "Full semantic processing or full account census."
+  ],
+  "command_after_root_publication": "python -X utf8 scripts/reconcile_current_coverage.py --apply",
+  "persistent_processes_started": false
+}

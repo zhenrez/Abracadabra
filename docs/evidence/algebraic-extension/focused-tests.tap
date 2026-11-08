@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: source q is exact and q^12=2 although q is not in G
+ok 1 - source q is exact and q^12=2 although q is not in G
+  ---
+  duration_ms: 3.0832
+  ...
+# Subtest: prime normal form combines/cancels exponents and preserves exact inverses
+ok 2 - prime normal form combines/cancels exponents and preserves exact inverses
+  ---
+  duration_ms: 0.928
+  ...
+# Subtest: G generator lattice reconstructs2,3, sanfen and retained bridge inputs
+ok 3 - G generator lattice reconstructs2,3, sanfen and retained bridge inputs
+  ---
+  duration_ms: 0.5441
+  ...
+# Subtest: H/G has exactly12 cosets and keeps arbitrary integer3powers within G
+ok 4 - H/G has exactly12 cosets and keeps arbitrary integer3powers within G
+  ---
+  duration_ms: 0.7993
+  ...
+# Subtest: integer-octave quotient retains fractional2powers and unbounded3coordinate
+ok 5 - integer-octave quotient retains fractional2powers and unbounded3coordinate
+  ---
+  duration_ms: 3.8853
+  ...
+# Subtest: root-fifth discriminator gives the inverse twelve-fifths comma exactly
+ok 6 - root-fifth discriminator gives the inverse twelve-fifths comma exactly
+  ---
+  duration_ms: 0.5127
+  ...
+# Subtest: bounded exact output never coerces irrational expressions to floats
+ok 7 - bounded exact output never coerces irrational expressions to floats
+  ---
+  duration_ms: 0.2835
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 84.8116

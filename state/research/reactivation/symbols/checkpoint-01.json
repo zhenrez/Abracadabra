@@ -1,0 +1,50 @@
+{
+  "schema": "sunny.symbol-research.checkpoint.v1",
+  "created_utc": "2026-11-02T21:55:33.543Z",
+  "question": "What existing source-grounded evidence and reproducible methods constrain proposed glyph -> phonetic value -> acoustic/musical operation relationships across Paleo-Hebrew, Aramaic and English, without presupposing the recovered system?",
+  "current_case": "Previously selected Aleph/A; preserve previous Jev1.14.0 selection and current local selection separately.",
+  "verified_recovery": [
+    "AGENTS.md",
+    "state/reactivation.json",
+    "state/task.json",
+    "docs/HUMMBL_PLAN.md",
+    "docs/reconstruction/SUNNY_GOALS.md",
+    "docs/reconstruction/MISSION_SEMANTICS.md",
+    "docs/reconstruction/symbol-sound-census/question-freeze.json",
+    "docs/reconstruction/symbol-sound-census/scholarly-first-pass.md",
+    "docs/reconstruction/symbol-sound-history/historical-receipt.json",
+    "docs/evidence/symbol-sound-identifiability-control.json",
+    "state/mission.json prior_art_research"
+  ],
+  "source_linked_constraint": "Existing scholarly-first-pass.md explicitly leaves baseline OPEN pending dated early Hebrew, Aramaic and Latin witness work. Unicode encoding, later Tiberian reading and modern English word pronunciations have different evidential domains. Transfer cannot silently turn any of them into an original glyph-specific acoustic prescription.",
+  "precise_missing_premise": "A dated sign token and source-native reading plus independently attested rule connecting its contextual phonetic function to the candidate musical operation. Uniqueness of an abstract sound label would still not specify an acoustic waveform.",
+  "exposure": "This worker has inspected current SUN/SUNNY mission wording, Aleph/A first pass and historical receipt including earlier object identification; NOT blind. No new power/heterodox search opened.",
+  "supermemory": {
+    "attempted": true,
+    "status": "unavailable",
+    "error": "MCP tool `codex_apps/supermemory.search_memory` is not available to the model",
+    "blocks_all_work": false
+  },
+  "native_plan": {
+    "status": "unavailable_in_tools",
+    "attempt": "ALL_TOOLS name searches for update_plan and plan/update returned no native plan tool",
+    "local_steps": [
+      {
+        "step": "[100%] Recover the existing question, source roles, prior census and Jev direction",
+        "status": "completed"
+      },
+      {
+        "step": "[25%] Repair dated early-script witness gaps and inspect acoustic transfer methods",
+        "status": "in_progress"
+      },
+      {
+        "step": "[0%] Freeze14-question scope accounting and propose a discriminating control",
+        "status": "pending"
+      },
+      {
+        "step": "[0%] Verify source bindings and obtain Jev applicability review",
+        "status": "pending"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+TAP version 13
+# Subtest: exact original registry preserves all 10 mechanisms and 19 native members
+ok 1 - exact original registry preserves all 10 mechanisms and 19 native members
+  ---
+  duration_ms: 3.0123
+  ...
+# Subtest: MEC-01 source R,L compose to O exactly; inverse and carrier/unit persist
+ok 2 - MEC-01 source R,L compose to O exactly; inverse and carrier/unit persist
+  ---
+  duration_ms: 1.0594
+  ...
+# Subtest: MEC-02 D12 defining relations hold; abstract identity does not supply PLR realization
+ok 3 - MEC-02 D12 defining relations hold; abstract identity does not supply PLR realization
+  ---
+  duration_ms: 0.6181
+  ...
+# Subtest: MEC-03 reversal is involutive, and nonretrogradability stays a predicate
+ok 4 - MEC-03 reversal is involutive, and nonretrogradability stays a predicate
+  ---
+  duration_ms: 0.2981
+  ...
+# Subtest: MEC-04 mutation executes only on a declared pitch-preserving overlap
+ok 5 - MEC-04 mutation executes only on a declared pitch-preserving overlap
+  ---
+  duration_ms: 0.4521
+  ...
+# Subtest: MEC-05 seven index starts compose and invert without choosing an origin
+ok 6 - MEC-05 seven index starts compose and invert without choosing an origin
+  ---
+  duration_ms: 0.4614
+  ...
+# Subtest: MEC-03/05 interacting identity J rho(k) J = rho(-k)
+ok 7 - MEC-03/05 interacting identity J rho(k) J = rho(-k)
+  ---
+  duration_ms: 47.5428
+  ...
+# Subtest: MEC-02 pitch-value action commutes with MEC-03 position reversal
+ok 8 - MEC-02 pitch-value action commutes with MEC-03 position reversal
+  ---
+  duration_ms: 0.9331
+  ...
+# Subtest: MEC-06 E(5,13) retains all 13 phases with five onsets and gaps 2 or 3
+ok 9 - MEC-06 E(5,13) retains all 13 phases with five onsets and gaps 2 or 3
+  ---
+  duration_ms: 0.6611
+  ...
+# Subtest: MEC-07 De Morgan sieve identity handles negative integers and explicit complement
+ok 10 - MEC-07 De Morgan sieve identity handles negative integers and explicit complement
+  ---
+  duration_ms: 0.6744
+  ...
+# Subtest: MEC-08 added duration and dot affect the selected event; insertion keeps exact unit
+ok 11 - MEC-08 added duration and dot affect the selected event; insertion keeps exact unit
+  ---
+  duration_ms: 0.3638
+  ...
+# Subtest: MEC-09 no pair of a three-antecedent rule constitutes its composite
+ok 12 - MEC-09 no pair of a three-antecedent rule constitutes its composite
+  ---
+  duration_ms: 0.2367
+  ...
+# Subtest: MEC-10 preserves the actual exact distribution and never replaces it with a winner
+ok 13 - MEC-10 preserves the actual exact distribution and never replaces it with a winner
+  ---
+  duration_ms: 0.3628
+  ...
+# Subtest: bounded API rejects non-JSON, cyclic, unsafe rational input and oversized requests
+ok 14 - bounded API rejects non-JSON, cyclic, unsafe rational input and oversized requests
+  ---
+  duration_ms: 0.2104
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 126.2028

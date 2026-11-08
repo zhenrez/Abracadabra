@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-c2ddb03b8bb00c81",
+  "content_sha256": "c2ddb03b8bb00c814e7f8b08a1985b8864653a058658fbf07719b0d853f6ba47",
+  "headers": [
+    "Cycle type",
+    "Count",
+    "Angular positions"
+  ],
+  "rows": [
+    [
+      "Contains a pentagon vertex ray",
+      "5",
+      "Even-indexed cycles"
+    ],
+    [
+      "Contains no pentagon vertex ray",
+      "5",
+      "Odd-indexed cycles"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+      "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "line_start": 3494,
+      "line_end": 3497,
+      "char_start": 158317,
+      "char_end": 158585,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Cycle type                      | Count | Angular positions   |\r\n| ------------------------------- | ----- | ------------------- |\r\n| Contains a pentagon vertex ray  | 5     | Even-indexed cycles |\r\n| Contains no pentagon vertex ray | 5     | Odd-indexed cycles  |\r\n",
+      "quote_sha256": "563d9ee142cfd64f227a97b4a9ea32cdc5190fab1b99a71be2eff9a290769dc0",
+      "message_id": "5a41acd21643387085d2ae0c666d5f1d5d365a5dcbf3973d91ea0164a0e0d720",
+      "role": "user",
+      "locator": "lines:3494-3497"
+    },
+    {
+      "source_id": "6031887ade535990ea3e282114f6183fad43d33c5425e46f6022d5f558b38d20",
+      "source_sha256": "64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\64c963d502be0af28ae1da5cf763eb9d376890ceca635d755b2eb4b11ced20d3\\ChatGPT-Branch · Comparative Research Protocol-20261023-2306.md",
+      "line_start": 4030,
+      "line_end": 4033,
+      "char_start": 180877,
+      "char_end": 181071,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Cycle type | Count | Angular positions |\n|--------|--------|--------|\n| Contains a pentagon vertex ray | 5 | Even-indexed cycles |\n| Contains no pentagon vertex ray | 5 | Odd-indexed cycles |\n",
+      "quote_sha256": "2fc0120d94ae7b98ec2419c4822945a5b0887ff3652d30691a051a2b2d12ed42",
+      "message_id": "171612ffbbf72a9dd82c6684321e4874973585c076b2955563fdcd7163f3f3c8",
+      "role": "assistant",
+      "locator": "lines:4030-4033"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

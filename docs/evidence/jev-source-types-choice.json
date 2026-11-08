@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-31T01:02:07.374Z",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\": \"decision\", \"type\": \"choice\", \"distribution\": {\"pinned_types\": 0.5240761637687683, \"local_declaration\": 0.47592389583587646}, \"value\": \"pinned_types\", \"description\": \"Install exact @types/better-sqlite3@9.6.0 as a development-only dependency and compile the existing read-only service with its maintained declarations.\", \"top_probability\": 0.5240761637687683, \"margin\": 0.048152267932891846, \"usage\": {\"questions\": 1, \"candidate_paths\": 2, \"input_path_tokens\": 364, \"generated_tokens\": 0, \"truncated_inputs\": 0, \"backbone_input_tokens\": 210, \"shared_prefix_questions\": 1, \"shared_prefix_states\": 1, \"wall_ms\": 924.21}}"
+      }
+    ],
+    "isError": false
+  },
+  "context": "Type declarations for selected better-sqlite3 driver; request visible in tool record.",
+  "request": {
+    "question": "How should SUNNY supply TypeScript declarations for the live-Jev-selected better-sqlite3@13.0.3 driver, which is installed without bundled declarations?",
+    "options": {
+      "pinned_types": "Install exact @types/better-sqlite3@9.6.0 as a development-only dependency and compile the existing read-only service with its maintained declarations.",
+      "local_declaration": "Write and maintain a local minimal ambient declaration for only the synchronous database APIs SUNNY calls; avoid the development dependency."
+    },
+    "state": {
+      "goal": "Complete the selected read-only source-driver plumbing with passing TypeScript checks; no research ontology changes.",
+      "observed": "npm registry reports @types/better-sqlite3 version9.6.0; existing project pins TypeScript5.9.3 and @types/node22.14.0. Preserve those versions.",
+      "constraint": "All available implementation forks require actual Jev choice receipts.",
+      "acceptance": "Use selected route, preserve original built-in FTS failure, rerun FTS fixture and endpoint/read-only tests."
+    }
+  }
+}

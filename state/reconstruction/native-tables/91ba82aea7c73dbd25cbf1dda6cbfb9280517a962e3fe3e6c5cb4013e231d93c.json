@@ -1,0 +1,3921 @@
+{
+  "sheet": "Schema_Index",
+  "part": "xl/worksheets/sheet32.xml",
+  "content_sha256": "91ba82aea7c73dbd25cbf1dda6cbfb9280517a962e3fe3e6c5cb4013e231d93c",
+  "rows": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "ref": "A1",
+          "type": "str",
+          "value": "Layer",
+          "raw_value": "Layer",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "75"
+        },
+        {
+          "ref": "B1",
+          "type": "str",
+          "value": "Sheet",
+          "raw_value": "Sheet",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "75"
+        },
+        {
+          "ref": "C1",
+          "type": "str",
+          "value": "Purpose",
+          "raw_value": "Purpose",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "75"
+        },
+        {
+          "ref": "D1",
+          "type": "str",
+          "value": "Status",
+          "raw_value": "Status",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "75"
+        },
+        {
+          "ref": "E1",
+          "type": "str",
+          "value": "Migrated_From",
+          "raw_value": "Migrated_From",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "75"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "ref": "A2",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B2",
+          "type": "str",
+          "value": "Relational_States",
+          "raw_value": "Relational_States",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C2",
+          "type": "str",
+          "value": "Complete class/state at a sequence point; members/relations/rules attach here.",
+          "raw_value": "Complete class/state at a sequence point; members/relations/rules attach here.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D2",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E2",
+          "type": "str",
+          "value": "Scale_States",
+          "raw_value": "Scale_States",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "ref": "A3",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B3",
+          "type": "str",
+          "value": "State_Members",
+          "raw_value": "State_Members",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C3",
+          "type": "str",
+          "value": "State-specific object membership; same object may appear in multiple states/roles.",
+          "raw_value": "State-specific object membership; same object may appear in multiple states/roles.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D3",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E3",
+          "type": "str",
+          "value": "Entities",
+          "raw_value": "Entities",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "ref": "A4",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B4",
+          "type": "str",
+          "value": "Objects",
+          "raw_value": "Objects",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C4",
+          "type": "str",
+          "value": "Stable identities only; ontological role is not permanent.",
+          "raw_value": "Stable identities only; ontological role is not permanent.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D4",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E4",
+          "type": "str",
+          "value": "Entities",
+          "raw_value": "Entities",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "ref": "A5",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B5",
+          "type": "str",
+          "value": "Object_Roles",
+          "raw_value": "Object_Roles",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C5",
+          "type": "str",
+          "value": "State/source-dependent roles: entity, operator, boundary, aggregate, etc.",
+          "raw_value": "State/source-dependent roles: entity, operator, boundary, aggregate, etc.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D5",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E5",
+          "type": "str",
+          "value": "Entities.Entity_Type",
+          "raw_value": "Entities.Entity_Type",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "ref": "A6",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B6",
+          "type": "str",
+          "value": "State_Relations",
+          "raw_value": "State_Relations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C6",
+          "type": "str",
+          "value": "State-dependent n-ary relations.",
+          "raw_value": "State-dependent n-ary relations.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D6",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E6",
+          "type": "str",
+          "value": "Relations",
+          "raw_value": "Relations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "ref": "A7",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B7",
+          "type": "str",
+          "value": "Relation_Participants",
+          "raw_value": "Relation_Participants",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C7",
+          "type": "str",
+          "value": "Participants/roles for n-ary relations.",
+          "raw_value": "Participants/roles for n-ary relations.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D7",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E7",
+          "type": "str",
+          "value": "Relations",
+          "raw_value": "Relations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "ref": "A8",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B8",
+          "type": "str",
+          "value": "Configuration_Rules",
+          "raw_value": "Configuration_Rules",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C8",
+          "type": "str",
+          "value": "Rules generating admissible configurations; avoids blind enumeration.",
+          "raw_value": "Rules generating admissible configurations; avoids blind enumeration.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D8",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E8",
+          "type": "str",
+          "value": "Scale_States + Generation_Events",
+          "raw_value": "Scale_States + Generation_Events",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "cells": [
+        {
+          "ref": "A9",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B9",
+          "type": "str",
+          "value": "Rule_Eligibility",
+          "raw_value": "Rule_Eligibility",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C9",
+          "type": "str",
+          "value": "Objects/states eligible under a configuration rule.",
+          "raw_value": "Objects/states eligible under a configuration rule.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D9",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E9",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "cells": [
+        {
+          "ref": "A10",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B10",
+          "type": "str",
+          "value": "Rule_Constraints",
+          "raw_value": "Rule_Constraints",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C10",
+          "type": "str",
+          "value": "Hard/soft constraints and exclusions on configuration rules.",
+          "raw_value": "Hard/soft constraints and exclusions on configuration rules.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D10",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E10",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "cells": [
+        {
+          "ref": "A11",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B11",
+          "type": "str",
+          "value": "Realizations",
+          "raw_value": "Realizations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C11",
+          "type": "str",
+          "value": "Observed realization of a rule/event, distinct from possibility-space.",
+          "raw_value": "Observed realization of a rule/event, distinct from possibility-space.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D11",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E11",
+          "type": "str",
+          "value": "Generation_Events",
+          "raw_value": "Generation_Events",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "cells": [
+        {
+          "ref": "A12",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B12",
+          "type": "str",
+          "value": "State_Transitions",
+          "raw_value": "State_Transitions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C12",
+          "type": "str",
+          "value": "From-state → to-state with transition type, preserved/new/lost structure.",
+          "raw_value": "From-state → to-state with transition type, preserved/new/lost structure.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D12",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E12",
+          "type": "str",
+          "value": "Generation_Events",
+          "raw_value": "Generation_Events",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "cells": [
+        {
+          "ref": "A13",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B13",
+          "type": "str",
+          "value": "State_Ancestry",
+          "raw_value": "State_Ancestry",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C13",
+          "type": "str",
+          "value": "Normalized state ancestry rather than set-valued cells.",
+          "raw_value": "Normalized state ancestry rather than set-valued cells.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D13",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E13",
+          "type": "str",
+          "value": "Scale_States",
+          "raw_value": "Scale_States",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "cells": [
+        {
+          "ref": "A14",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B14",
+          "type": "str",
+          "value": "Closure_Criteria",
+          "raw_value": "Closure_Criteria",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C14",
+          "type": "str",
+          "value": "Defines what 'closed' means for each state.",
+          "raw_value": "Defines what 'closed' means for each state.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D14",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E14",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "cells": [
+        {
+          "ref": "A15",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B15",
+          "type": "str",
+          "value": "Scale_Maps",
+          "raw_value": "Scale_Maps",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C15",
+          "type": "str",
+          "value": "Embedding/coarse-graining/aggregation maps across scales.",
+          "raw_value": "Embedding/coarse-graining/aggregation maps across scales.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D15",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E15",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "cells": [
+        {
+          "ref": "A16",
+          "type": "str",
+          "value": "Active ontology hub",
+          "raw_value": "Active ontology hub",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B16",
+          "type": "str",
+          "value": "State_Signatures",
+          "raw_value": "State_Signatures",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C16",
+          "type": "str",
+          "value": "Derived shape-first signature for each relational state.",
+          "raw_value": "Derived shape-first signature for each relational state.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D16",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E16",
+          "type": "str",
+          "value": "Derived",
+          "raw_value": "Derived",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "cells": [
+        {
+          "ref": "A17",
+          "type": "str",
+          "value": "Evidence substrate",
+          "raw_value": "Evidence substrate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B17",
+          "type": "str",
+          "value": "Claims",
+          "raw_value": "Claims",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C17",
+          "type": "str",
+          "value": "Atomic model claims migrated from current normalized records; exact passages still to extract.",
+          "raw_value": "Atomic model claims migrated from current normalized records; exact passages still to extract.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D17",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E17",
+          "type": "str",
+          "value": "Entities/Features/Relations/Events",
+          "raw_value": "Entities/Features/Relations/Events",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "cells": [
+        {
+          "ref": "A18",
+          "type": "str",
+          "value": "Evidence substrate",
+          "raw_value": "Evidence substrate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B18",
+          "type": "str",
+          "value": "Evidence_Ledger",
+          "raw_value": "Evidence_Ledger",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C18",
+          "type": "str",
+          "value": "Claim→source support links.",
+          "raw_value": "Claim→source support links.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D18",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E18",
+          "type": "str",
+          "value": "Sources",
+          "raw_value": "Sources",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "cells": [
+        {
+          "ref": "A19",
+          "type": "str",
+          "value": "Evidence substrate",
+          "raw_value": "Evidence substrate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B19",
+          "type": "str",
+          "value": "Object_Feature_Assertions",
+          "raw_value": "Object_Feature_Assertions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C19",
+          "type": "str",
+          "value": "State-dependent feature assertions.",
+          "raw_value": "State-dependent feature assertions.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D19",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E19",
+          "type": "str",
+          "value": "Entity_Features",
+          "raw_value": "Entity_Features",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "cells": [
+        {
+          "ref": "A20",
+          "type": "str",
+          "value": "Evidence substrate",
+          "raw_value": "Evidence substrate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B20",
+          "type": "str",
+          "value": "Exclusions",
+          "raw_value": "Exclusions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C20",
+          "type": "str",
+          "value": "Explicit/inferred negative evidence and methodological prohibitions.",
+          "raw_value": "Explicit/inferred negative evidence and methodological prohibitions.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D20",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E20",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "cells": [
+        {
+          "ref": "A21",
+          "type": "str",
+          "value": "Evidence substrate",
+          "raw_value": "Evidence substrate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B21",
+          "type": "str",
+          "value": "Transmission_Nodes",
+          "raw_value": "Transmission_Nodes",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C21",
+          "type": "str",
+          "value": "Historical people/texts/institutions/traditions.",
+          "raw_value": "Historical people/texts/institutions/traditions.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D21",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E21",
+          "type": "str",
+          "value": "Journey of Wisdom + Kepler/Fludd",
+          "raw_value": "Journey of Wisdom + Kepler/Fludd",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "cells": [
+        {
+          "ref": "A22",
+          "type": "str",
+          "value": "Evidence substrate",
+          "raw_value": "Evidence substrate",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B22",
+          "type": "str",
+          "value": "Transmission_Edges",
+          "raw_value": "Transmission_Edges",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C22",
+          "type": "str",
+          "value": "Path-based historical transmission/contact evidence.",
+          "raw_value": "Path-based historical transmission/contact evidence.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D22",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E22",
+          "type": "str",
+          "value": "Journey of Wisdom + Kepler/Fludd",
+          "raw_value": "Journey of Wisdom + Kepler/Fludd",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "cells": [
+        {
+          "ref": "A23",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B23",
+          "type": "str",
+          "value": "Correspondences_v2",
+          "raw_value": "Correspondences_v2",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C23",
+          "type": "str",
+          "value": "Harsher correspondence matrix with fit, independence, freedom, null prevalence and use-type.",
+          "raw_value": "Harsher correspondence matrix with fit, independence, freedom, null prevalence and use-type.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D23",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E23",
+          "type": "str",
+          "value": "Correspondences",
+          "raw_value": "Correspondences",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "cells": [
+        {
+          "ref": "A24",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B24",
+          "type": "str",
+          "value": "Number_Ledger",
+          "raw_value": "Number_Ledger",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C24",
+          "type": "str",
+          "value": "Every number paired with counting operator and counted object-type.",
+          "raw_value": "Every number paired with counting operator and counted object-type.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D24",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E24",
+          "type": "str",
+          "value": "Number_Index + source data",
+          "raw_value": "Number_Index + source data",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "cells": [
+        {
+          "ref": "A25",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B25",
+          "type": "str",
+          "value": "Hypotheses",
+          "raw_value": "Hypotheses",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C25",
+          "type": "str",
+          "value": "Versioned hypotheses with assumptions, predictions and falsifiers.",
+          "raw_value": "Versioned hypotheses with assumptions, predictions and falsifiers.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D25",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E25",
+          "type": "str",
+          "value": "Research history",
+          "raw_value": "Research history",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "cells": [
+        {
+          "ref": "A26",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B26",
+          "type": "str",
+          "value": "Hypothesis_Tests",
+          "raw_value": "Hypothesis_Tests",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C26",
+          "type": "str",
+          "value": "Frozen/holdout/post-hoc tests; failures preserved.",
+          "raw_value": "Frozen/holdout/post-hoc tests; failures preserved.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D26",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E26",
+          "type": "str",
+          "value": "Research history",
+          "raw_value": "Research history",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "cells": [
+        {
+          "ref": "A27",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B27",
+          "type": "str",
+          "value": "Expectations",
+          "raw_value": "Expectations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C27",
+          "type": "str",
+          "value": "Model-relative expectations used to define residuals.",
+          "raw_value": "Model-relative expectations used to define residuals.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D27",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E27",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "cells": [
+        {
+          "ref": "A28",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B28",
+          "type": "str",
+          "value": "Residual_Ledger",
+          "raw_value": "Residual_Ledger",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C28",
+          "type": "str",
+          "value": "Expected vs observed mismatches; never treated as source facts.",
+          "raw_value": "Expected vs observed mismatches; never treated as source facts.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D28",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E28",
+          "type": "str",
+          "value": "Research history",
+          "raw_value": "Research history",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 29,
+      "cells": [
+        {
+          "ref": "A29",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B29",
+          "type": "str",
+          "value": "Residual_Relations",
+          "raw_value": "Residual_Relations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C29",
+          "type": "str",
+          "value": "Dependency/collapse graph among residuals.",
+          "raw_value": "Dependency/collapse graph among residuals.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D29",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E29",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "cells": [
+        {
+          "ref": "A30",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B30",
+          "type": "str",
+          "value": "Missing_Variables",
+          "raw_value": "Missing_Variables",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C30",
+          "type": "str",
+          "value": "Candidate variables that may compress several residuals.",
+          "raw_value": "Candidate variables that may compress several residuals.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D30",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E30",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "cells": [
+        {
+          "ref": "A31",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B31",
+          "type": "str",
+          "value": "Mapping_Transforms",
+          "raw_value": "Mapping_Transforms",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C31",
+          "type": "str",
+          "value": "Rotation/reflection/permutation freedom ledger.",
+          "raw_value": "Rotation/reflection/permutation freedom ledger.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D31",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E31",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "cells": [
+        {
+          "ref": "A32",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B32",
+          "type": "str",
+          "value": "Null_Models",
+          "raw_value": "Null_Models",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C32",
+          "type": "str",
+          "value": "Randomization/negative-control specifications.",
+          "raw_value": "Randomization/negative-control specifications.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D32",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E32",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "cells": [
+        {
+          "ref": "A33",
+          "type": "str",
+          "value": "Meta",
+          "raw_value": "Meta",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B33",
+          "type": "str",
+          "value": "Model_Versions",
+          "raw_value": "Model_Versions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C33",
+          "type": "str",
+          "value": "Research-model genealogy; failed/revised hypotheses are not overwritten.",
+          "raw_value": "Research-model genealogy; failed/revised hypotheses are not overwritten.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D33",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E33",
+          "type": "str",
+          "value": "New",
+          "raw_value": "New",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 34,
+      "cells": [
+        {
+          "ref": "A34",
+          "type": "str",
+          "value": "Meta",
+          "raw_value": "Meta",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B34",
+          "type": "str",
+          "value": "Schema_Lookups",
+          "raw_value": "Schema_Lookups",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C34",
+          "type": "str",
+          "value": "Controlled vocabularies for core categorical fields.",
+          "raw_value": "Controlled vocabularies for core categorical fields.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D34",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "E34",
+          "type": "str",
+          "value": "Lookups",
+          "raw_value": "Lookups",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 35,
+      "cells": [
+        {
+          "ref": "A35",
+          "type": "str",
+          "value": "Legacy/source view",
+          "raw_value": "Legacy/source view",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B35",
+          "type": "str",
+          "value": "Scale_States",
+          "raw_value": "Scale_States",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C35",
+          "type": "str",
+          "value": "Preserved original state table for traceability.",
+          "raw_value": "Preserved original state table for traceability.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D35",
+          "type": "str",
+          "value": "Legacy",
+          "raw_value": "Legacy",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 36,
+      "cells": [
+        {
+          "ref": "A36",
+          "type": "str",
+          "value": "Legacy/source view",
+          "raw_value": "Legacy/source view",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B36",
+          "type": "str",
+          "value": "Entities",
+          "raw_value": "Entities",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C36",
+          "type": "str",
+          "value": "Preserved original entity-centric table for traceability.",
+          "raw_value": "Preserved original entity-centric table for traceability.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D36",
+          "type": "str",
+          "value": "Legacy",
+          "raw_value": "Legacy",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 37,
+      "cells": [
+        {
+          "ref": "A37",
+          "type": "str",
+          "value": "Legacy/source view",
+          "raw_value": "Legacy/source view",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B37",
+          "type": "str",
+          "value": "Entity_Features",
+          "raw_value": "Entity_Features",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C37",
+          "type": "str",
+          "value": "Preserved original feature-link table for traceability.",
+          "raw_value": "Preserved original feature-link table for traceability.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D37",
+          "type": "str",
+          "value": "Legacy",
+          "raw_value": "Legacy",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 38,
+      "cells": [
+        {
+          "ref": "A38",
+          "type": "str",
+          "value": "Legacy/source view",
+          "raw_value": "Legacy/source view",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B38",
+          "type": "str",
+          "value": "Relations",
+          "raw_value": "Relations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C38",
+          "type": "str",
+          "value": "Preserved binary relation table for traceability.",
+          "raw_value": "Preserved binary relation table for traceability.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D38",
+          "type": "str",
+          "value": "Legacy",
+          "raw_value": "Legacy",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 39,
+      "cells": [
+        {
+          "ref": "A39",
+          "type": "str",
+          "value": "Legacy/source view",
+          "raw_value": "Legacy/source view",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B39",
+          "type": "str",
+          "value": "Correspondences",
+          "raw_value": "Correspondences",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C39",
+          "type": "str",
+          "value": "Preserved original correspondence table for traceability.",
+          "raw_value": "Preserved original correspondence table for traceability.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D39",
+          "type": "str",
+          "value": "Legacy",
+          "raw_value": "Legacy",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 40,
+      "cells": [
+        {
+          "ref": "A40",
+          "type": "str",
+          "value": "Legacy/source view",
+          "raw_value": "Legacy/source view",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "B40",
+          "type": "str",
+          "value": "Number_Index",
+          "raw_value": "Number_Index",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "C40",
+          "type": "str",
+          "value": "Preserved aggregate number index for traceability.",
+          "raw_value": "Preserved aggregate number index for traceability.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        },
+        {
+          "ref": "D40",
+          "type": "str",
+          "value": "Legacy",
+          "raw_value": "Legacy",
+          "formula": null,
+          "formula_attributes": null,
+          "style": "19"
+        }
+      ]
+    },
+    {
+      "row": 41,
+      "cells": [
+        {
+          "ref": "A41",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B41",
+          "type": "str",
+          "value": "Closure_Role_Test",
+          "raw_value": "Closure_Role_Test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C41",
+          "type": "str",
+          "value": "Exploratory test of whether closed ordered classes reuse/promote terminal members as transition interfaces; includes internal and external controls.",
+          "raw_value": "Exploratory test of whether closed ordered classes reuse/promote terminal members as transition interfaces; includes internal and external controls.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D41",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E41",
+          "type": "str",
+          "value": "v0.4 experiment",
+          "raw_value": "v0.4 experiment",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 42,
+      "cells": [
+        {
+          "ref": "A42",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B42",
+          "type": "str",
+          "value": "Holdout_Egypt_Ennead",
+          "raw_value": "Holdout_Egypt_Ennead",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C42",
+          "type": "str",
+          "value": "First phase-separated holdout: freezes the Heliopolitan Ennead and terminal generation before downstream role coding; tests unique-terminal vs boundary-subset hypotheses and exposes recency confound.",
+          "raw_value": "First phase-separated holdout: freezes the Heliopolitan Ennead and terminal generation before downstream role coding; tests unique-terminal vs boundary-subset hypotheses and exposes recency confound.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D42",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E42",
+          "type": "str",
+          "value": "v0.5 holdout",
+          "raw_value": "v0.5 holdout",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 43,
+      "cells": [
+        {
+          "ref": "A43",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B43",
+          "type": "str",
+          "value": "Holdout_Vasus_Bhishma",
+          "raw_value": "Holdout_Vasus_Bhishma",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C43",
+          "type": "str",
+          "value": "Opportunity-matched within-class holdout: freezes Dyu against seven same-generation Vasu peers, then tests persistence/transition role and explicit whole-class compression.",
+          "raw_value": "Opportunity-matched within-class holdout: freezes Dyu against seven same-generation Vasu peers, then tests persistence/transition role and explicit whole-class compression.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D43",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E43",
+          "type": "str",
+          "value": "v0.6 holdout",
+          "raw_value": "v0.6 holdout",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 44,
+      "cells": [
+        {
+          "ref": "A44",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B44",
+          "type": "str",
+          "value": "Holdout_Kojiki_Susanoo",
+          "raw_value": "Holdout_Kojiki_Susanoo",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C44",
+          "type": "str",
+          "value": "Same-generation, no-prophecy holdout: freezes Susanoo as a constraint-violating peer before downstream coding; tests cross-regime reassignment and productive transition.",
+          "raw_value": "Same-generation, no-prophecy holdout: freezes Susanoo as a constraint-violating peer before downstream coding; tests cross-regime reassignment and productive transition.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D44",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E44",
+          "type": "str",
+          "value": "v0.7 holdout",
+          "raw_value": "v0.7 holdout",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 45,
+      "cells": [
+        {
+          "ref": "A45",
+          "type": "str",
+          "value": "Bridge staging",
+          "raw_value": "Bridge staging",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B45",
+          "type": "str",
+          "value": "Architecture_Bridge_Seeds",
+          "raw_value": "Architecture_Bridge_Seeds",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C45",
+          "type": "str",
+          "value": "Parking lot translating recurrent ontology mechanics into candidate software/architecture primitives. Provisional only; intended for the upcoming ARGO technical bridge phase.",
+          "raw_value": "Parking lot translating recurrent ontology mechanics into candidate software/architecture primitives. Provisional only; intended for the upcoming ARGO technical bridge phase.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D45",
+          "type": "str",
+          "value": "Active / provisional",
+          "raw_value": "Active / provisional",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E45",
+          "type": "str",
+          "value": "v0.7 bridge staging",
+          "raw_value": "v0.7 bridge staging",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 46,
+      "cells": [
+        {
+          "ref": "A46",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B46",
+          "type": "str",
+          "value": "Holdout_Norse_Transitions",
+          "raw_value": "Holdout_Norse_Transitions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C46",
+          "type": "str",
+          "value": "Three-part Norse test: whole-class Ymir transition, differentiated Ask/Embla trait synthesis, and prophecy-contaminated Loki-child control.",
+          "raw_value": "Three-part Norse test: whole-class Ymir transition, differentiated Ask/Embla trait synthesis, and prophecy-contaminated Loki-child control.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D46",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E46",
+          "type": "str",
+          "value": "v0.8 holdout",
+          "raw_value": "v0.8 holdout",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 47,
+      "cells": [
+        {
+          "ref": "A47",
+          "type": "str",
+          "value": "Analysis/test",
+          "raw_value": "Analysis/test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B47",
+          "type": "str",
+          "value": "Return_Greece_Technical",
+          "raw_value": "Return_Greece_Technical",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C47",
+          "type": "str",
+          "value": "Greek return focused on architecture-relevant mechanics: Protagoras capability allocation/audit/repair/governance distribution and Hesiod Pandora specialist composition/trust-boundary failure.",
+          "raw_value": "Greek return focused on architecture-relevant mechanics: Protagoras capability allocation/audit/repair/governance distribution and Hesiod Pandora specialist composition/trust-boundary failure.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D47",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E47",
+          "type": "str",
+          "value": "v0.9 Greek technical return",
+          "raw_value": "v0.9 Greek technical return",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 48,
+      "cells": [
+        {
+          "ref": "A48",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B48",
+          "type": "str",
+          "value": "Music_Anchor_Definitions",
+          "raw_value": "Music_Anchor_Definitions",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C48",
+          "type": "str",
+          "value": "Formal note/pitch-class structures used as alignment targets; orientation remains unfrozen.",
+          "raw_value": "Formal note/pitch-class structures used as alignment targets; orientation remains unfrozen.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D48",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E48",
+          "type": "str",
+          "value": "v0.10 stocktake",
+          "raw_value": "v0.10 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 49,
+      "cells": [
+        {
+          "ref": "A49",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B49",
+          "type": "str",
+          "value": "Tradition_Music_Alignments",
+          "raw_value": "Tradition_Music_Alignments",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C49",
+          "type": "str",
+          "value": "Major tradition cases scored against musical-note structures with mapping/count/basis penalties and independence weighting.",
+          "raw_value": "Major tradition cases scored against musical-note structures with mapping/count/basis penalties and independence weighting.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D49",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E49",
+          "type": "str",
+          "value": "v0.10 stocktake",
+          "raw_value": "v0.10 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 50,
+      "cells": [
+        {
+          "ref": "A50",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B50",
+          "type": "str",
+          "value": "Persistent_Anchor_Stocktake",
+          "raw_value": "Persistent_Anchor_Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C50",
+          "type": "str",
+          "value": "Anchors that persist across ontology, transition and musical layers; includes explicit missing-shape anchors.",
+          "raw_value": "Anchors that persist across ontology, transition and musical layers; includes explicit missing-shape anchors.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D50",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E50",
+          "type": "str",
+          "value": "v0.10 stocktake",
+          "raw_value": "v0.10 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 51,
+      "cells": [
+        {
+          "ref": "A51",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B51",
+          "type": "str",
+          "value": "Strongest_Music_Correlations",
+          "raw_value": "Strongest_Music_Correlations",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C51",
+          "type": "str",
+          "value": "Ranked strongest current correlations plus negative/no-match controls.",
+          "raw_value": "Ranked strongest current correlations plus negative/no-match controls.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D51",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E51",
+          "type": "str",
+          "value": "v0.10 stocktake",
+          "raw_value": "v0.10 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 52,
+      "cells": [
+        {
+          "ref": "A52",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B52",
+          "type": "str",
+          "value": "Music_FineTune_Freeze",
+          "raw_value": "Music_FineTune_Freeze",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C52",
+          "type": "str",
+          "value": "Rules fixed before any entity→specific-note orientation tuning.",
+          "raw_value": "Rules fixed before any entity→specific-note orientation tuning.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D52",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E52",
+          "type": "str",
+          "value": "v0.10 stocktake",
+          "raw_value": "v0.10 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 53,
+      "cells": [
+        {
+          "ref": "A53",
+          "type": "str",
+          "value": "China test",
+          "raw_value": "China test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B53",
+          "type": "str",
+          "value": "China_Z12_Decoder",
+          "raw_value": "China_Z12_Decoder",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C53",
+          "type": "str",
+          "value": "Twelve Earthly Branch/month/pitch-pipe mapping normalized to Huangzhong=0, including Yin/Yang, Six-Qi pairs, seasons and fifth-generation step.",
+          "raw_value": "Twelve Earthly Branch/month/pitch-pipe mapping normalized to Huangzhong=0, including Yin/Yang, Six-Qi pairs, seasons and fifth-generation step.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D53",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E53",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 54,
+      "cells": [
+        {
+          "ref": "A54",
+          "type": "str",
+          "value": "China test",
+          "raw_value": "China test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B54",
+          "type": "str",
+          "value": "China_Partition_Test",
+          "raw_value": "China_Partition_Test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C54",
+          "type": "str",
+          "value": "Tests 12, 2×6, 6×2, 4×3 and fifth-generation structures against musical Z12 topology.",
+          "raw_value": "Tests 12, 2×6, 6×2, 4×3 and fifth-generation structures against musical Z12 topology.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D54",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E54",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 55,
+      "cells": [
+        {
+          "ref": "A55",
+          "type": "str",
+          "value": "China test",
+          "raw_value": "China test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B55",
+          "type": "str",
+          "value": "China_Order_Layers",
+          "raw_value": "China_Order_Layers",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C55",
+          "type": "str",
+          "value": "Separates calendar order, pitch-generation order, Yin/Yang membership, pair axes and seasonal partitions on the same 12 members.",
+          "raw_value": "Separates calendar order, pitch-generation order, Yin/Yang membership, pair axes and seasonal partitions on the same 12 members.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D55",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E55",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 56,
+      "cells": [
+        {
+          "ref": "A56",
+          "type": "str",
+          "value": "China test",
+          "raw_value": "China test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B56",
+          "type": "str",
+          "value": "China_Test_Results",
+          "raw_value": "China_Test_Results",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C56",
+          "type": "str",
+          "value": "Frozen predictions and pass/fail results; records factorization-only failure and 2×6 success.",
+          "raw_value": "Frozen predictions and pass/fail results; records factorization-only failure and 2×6 success.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D56",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E56",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 57,
+      "cells": [
+        {
+          "ref": "A57",
+          "type": "str",
+          "value": "China test",
+          "raw_value": "China test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B57",
+          "type": "str",
+          "value": "China_Sources",
+          "raw_value": "China_Sources",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C57",
+          "type": "str",
+          "value": "Source ledger for Chinese pitch-pipe, calendar, branch and correlative structures.",
+          "raw_value": "Source ledger for Chinese pitch-pipe, calendar, branch and correlative structures.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D57",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E57",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 58,
+      "cells": [
+        {
+          "ref": "A58",
+          "type": "str",
+          "value": "China test",
+          "raw_value": "China test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B58",
+          "type": "str",
+          "value": "China_Impact_Stocktake",
+          "raw_value": "China_Impact_Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C58",
+          "type": "str",
+          "value": "Compact effect of the China test on the musical-anchor theory.",
+          "raw_value": "Compact effect of the China test on the musical-anchor theory.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D58",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E58",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 59,
+      "cells": [
+        {
+          "ref": "A59",
+          "type": "str",
+          "value": "Method",
+          "raw_value": "Method",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B59",
+          "type": "str",
+          "value": "Music_Partition_Topology",
+          "raw_value": "Music_Partition_Topology",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C59",
+          "type": "str",
+          "value": "Explicit membership/interval topology for Z12 partitions and Chinese seasonal 4×3 counterexample.",
+          "raw_value": "Explicit membership/interval topology for Z12 partitions and Chinese seasonal 4×3 counterexample.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D59",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E59",
+          "type": "str",
+          "value": "v0.11 China",
+          "raw_value": "v0.11 China",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 60,
+      "cells": [
+        {
+          "ref": "A60",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B60",
+          "type": "str",
+          "value": "Mesopotamia_Sources",
+          "raw_value": "Mesopotamia_Sources",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C60",
+          "type": "str",
+          "value": "Source ledger for Babylonian triplicity, tuning, Ishtar, zodiac, calendar and Three-Stars-Each evidence.",
+          "raw_value": "Source ledger for Babylonian triplicity, tuning, Ishtar, zodiac, calendar and Three-Stars-Each evidence.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D60",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E60",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 61,
+      "cells": [
+        {
+          "ref": "A61",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B61",
+          "type": "str",
+          "value": "Mesopotamia_Triplicities",
+          "raw_value": "Mesopotamia_Triplicities",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C61",
+          "type": "str",
+          "value": "Direct month/region triplicity groups mapped to exact +4 mod12 pitch-class cosets.",
+          "raw_value": "Direct month/region triplicity groups mapped to exact +4 mod12 pitch-class cosets.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D61",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E61",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 62,
+      "cells": [
+        {
+          "ref": "A62",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B62",
+          "type": "str",
+          "value": "Mesopotamia_Music_Core",
+          "raw_value": "Mesopotamia_Music_Core",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C62",
+          "type": "str",
+          "value": "Seven tunings, fourteen dichords, one residual per tuning, forward/reverse one-string retuning cycle.",
+          "raw_value": "Seven tunings, fourteen dichords, one residual per tuning, forward/reverse one-string retuning cycle.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D62",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E62",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 63,
+      "cells": [
+        {
+          "ref": "A63",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B63",
+          "type": "str",
+          "value": "Mesopotamia_Seven_Gates",
+          "raw_value": "Mesopotamia_Seven_Gates",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C63",
+          "type": "str",
+          "value": "Seven-step Ishtar trait/regalia removal and inverse restoration path.",
+          "raw_value": "Seven-step Ishtar trait/regalia removal and inverse restoration path.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D63",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E63",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 64,
+      "cells": [
+        {
+          "ref": "A64",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B64",
+          "type": "str",
+          "value": "Mesopotamia_Astro_Z12",
+          "raw_value": "Mesopotamia_Astro_Z12",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C64",
+          "type": "str",
+          "value": "12×30 calendar/zodiac coordinate, triplicities, opposition, Three-Stars-Each and celestial paths.",
+          "raw_value": "12×30 calendar/zodiac coordinate, triplicities, opposition, Three-Stars-Each and celestial paths.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D64",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E64",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 65,
+      "cells": [
+        {
+          "ref": "A65",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B65",
+          "type": "str",
+          "value": "Mesopotamia_Test_Results",
+          "raw_value": "Mesopotamia_Test_Results",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C65",
+          "type": "str",
+          "value": "Frozen predictions and results, including exact 4×3, still-missing 3×4, seven-state music and residual transitions.",
+          "raw_value": "Frozen predictions and results, including exact 4×3, still-missing 3×4, seven-state music and residual transitions.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D65",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E65",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 66,
+      "cells": [
+        {
+          "ref": "A66",
+          "type": "str",
+          "value": "Mesopotamia test",
+          "raw_value": "Mesopotamia test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B66",
+          "type": "str",
+          "value": "Mesopotamia_Impact_Stocktake",
+          "raw_value": "Mesopotamia_Impact_Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C66",
+          "type": "str",
+          "value": "Compact impact of Mesopotamia on rankings, independence, residual theory and musical carrier model.",
+          "raw_value": "Compact impact of Mesopotamia on rankings, independence, residual theory and musical carrier model.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D66",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E66",
+          "type": "str",
+          "value": "v0.12 Mesopotamia",
+          "raw_value": "v0.12 Mesopotamia",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 67,
+      "cells": [
+        {
+          "ref": "A67",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B67",
+          "type": "str",
+          "value": "PostMeso_Stocktake",
+          "raw_value": "PostMeso_Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C67",
+          "type": "str",
+          "value": "Dashboard separating exact native topology, inherited structure, candidate mapping, dynamic anchors and fine-tune readiness.",
+          "raw_value": "Dashboard separating exact native topology, inherited structure, candidate mapping, dynamic anchors and fine-tune readiness.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D67",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E67",
+          "type": "str",
+          "value": "v0.13 stocktake",
+          "raw_value": "v0.13 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 68,
+      "cells": [
+        {
+          "ref": "A68",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B68",
+          "type": "str",
+          "value": "PostMeso_Evidence_Classes",
+          "raw_value": "PostMeso_Evidence_Classes",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C68",
+          "type": "str",
+          "value": "Reclassifies each major tradition case by evidence layer, independence and musical-match status.",
+          "raw_value": "Reclassifies each major tradition case by evidence layer, independence and musical-match status.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D68",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E68",
+          "type": "str",
+          "value": "v0.13 stocktake",
+          "raw_value": "v0.13 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 69,
+      "cells": [
+        {
+          "ref": "A69",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B69",
+          "type": "str",
+          "value": "Music_Orientation_Readiness",
+          "raw_value": "Music_Orientation_Readiness",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C69",
+          "type": "str",
+          "value": "Quantifies native order/topology, raw mapping freedom and readiness for exact note orientation.",
+          "raw_value": "Quantifies native order/topology, raw mapping freedom and readiness for exact note orientation.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D69",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E69",
+          "type": "str",
+          "value": "v0.13 stocktake",
+          "raw_value": "v0.13 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 70,
+      "cells": [
+        {
+          "ref": "A70",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B70",
+          "type": "str",
+          "value": "Anchor_Transmission_Stocktake",
+          "raw_value": "Anchor_Transmission_Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C70",
+          "type": "str",
+          "value": "Separates historically inherited lineages from integrated native decoders and convergent functional families.",
+          "raw_value": "Separates historically inherited lineages from integrated native decoders and convergent functional families.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D70",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E70",
+          "type": "str",
+          "value": "v0.13 stocktake",
+          "raw_value": "v0.13 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 71,
+      "cells": [
+        {
+          "ref": "A71",
+          "type": "str",
+          "value": "Stocktake",
+          "raw_value": "Stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B71",
+          "type": "str",
+          "value": "PostMeso_Persistent_Layers",
+          "raw_value": "PostMeso_Persistent_Layers",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C71",
+          "type": "str",
+          "value": "Persistent anchors across musical, mythic, historical and negative-control layers.",
+          "raw_value": "Persistent anchors across musical, mythic, historical and negative-control layers.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D71",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E71",
+          "type": "str",
+          "value": "v0.13 stocktake",
+          "raw_value": "v0.13 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 72,
+      "cells": [
+        {
+          "ref": "A72",
+          "type": "str",
+          "value": "Method",
+          "raw_value": "Method",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B72",
+          "type": "str",
+          "value": "Music_FineTune_Entry_Gates",
+          "raw_value": "Music_FineTune_Entry_Gates",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C72",
+          "type": "str",
+          "value": "Hard gates that must be satisfied before member-to-note orientation is accepted.",
+          "raw_value": "Hard gates that must be satisfied before member-to-note orientation is accepted.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D72",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E72",
+          "type": "str",
+          "value": "v0.13 stocktake",
+          "raw_value": "v0.13 stocktake",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 73,
+      "cells": [
+        {
+          "ref": "A73",
+          "type": "str",
+          "value": "Deep dive",
+          "raw_value": "Deep dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B73",
+          "type": "str",
+          "value": "Gnostic_Order_Preserving",
+          "raw_value": "Gnostic_Order_Preserving",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C73",
+          "type": "str",
+          "value": "Sethian and Valentinian source-order matrices with Z12 coset/parity/tritone coordinates under the parsimonious order-preserving hypothesis.",
+          "raw_value": "Sethian and Valentinian source-order matrices with Z12 coset/parity/tritone coordinates under the parsimonious order-preserving hypothesis.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D73",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E73",
+          "type": "str",
+          "value": "v0.14 Gnostic dive",
+          "raw_value": "v0.14 Gnostic dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 74,
+      "cells": [
+        {
+          "ref": "A74",
+          "type": "str",
+          "value": "Deep dive",
+          "raw_value": "Deep dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B74",
+          "type": "str",
+          "value": "Factor_Transpose_Test",
+          "raw_value": "Factor_Transpose_Test",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C74",
+          "type": "str",
+          "value": "Tests source-declared row factorizations against order-derived transpose partitions and exact musical cosets.",
+          "raw_value": "Tests source-declared row factorizations against order-derived transpose partitions and exact musical cosets.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D74",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E74",
+          "type": "str",
+          "value": "v0.14 Gnostic dive",
+          "raw_value": "v0.14 Gnostic dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 75,
+      "cells": [
+        {
+          "ref": "A75",
+          "type": "str",
+          "value": "Deep dive",
+          "raw_value": "Deep dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B75",
+          "type": "str",
+          "value": "Gnostic_Encoding_Contest",
+          "raw_value": "Gnostic_Encoding_Contest",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C75",
+          "type": "str",
+          "value": "Compares order-preserving low-freedom encodings against augmented/tritone high-freedom reorderings.",
+          "raw_value": "Compares order-preserving low-freedom encodings against augmented/tritone high-freedom reorderings.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D75",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E75",
+          "type": "str",
+          "value": "v0.14 Gnostic dive",
+          "raw_value": "v0.14 Gnostic dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 76,
+      "cells": [
+        {
+          "ref": "A76",
+          "type": "str",
+          "value": "Deep dive",
+          "raw_value": "Deep dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B76",
+          "type": "str",
+          "value": "Gnostic_CrossAxis_Review",
+          "raw_value": "Gnostic_CrossAxis_Review",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C76",
+          "type": "str",
+          "value": "Exploratory semantic review of order-preserving tritone axes; explicitly excluded from evidence scoring.",
+          "raw_value": "Exploratory semantic review of order-preserving tritone axes; explicitly excluded from evidence scoring.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D76",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E76",
+          "type": "str",
+          "value": "v0.14 Gnostic dive",
+          "raw_value": "v0.14 Gnostic dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 77,
+      "cells": [
+        {
+          "ref": "A77",
+          "type": "str",
+          "value": "Deep dive",
+          "raw_value": "Deep dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B77",
+          "type": "str",
+          "value": "Gnostic_Deep_Sources",
+          "raw_value": "Gnostic_Deep_Sources",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C77",
+          "type": "str",
+          "value": "Primary/ancient/scholarly sources supporting the deep dive.",
+          "raw_value": "Primary/ancient/scholarly sources supporting the deep dive.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D77",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E77",
+          "type": "str",
+          "value": "v0.14 Gnostic dive",
+          "raw_value": "v0.14 Gnostic dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 78,
+      "cells": [
+        {
+          "ref": "A78",
+          "type": "str",
+          "value": "Planning",
+          "raw_value": "Planning",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B78",
+          "type": "str",
+          "value": "Tradition_Expansion_Queue",
+          "raw_value": "Tradition_Expansion_Queue",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C78",
+          "type": "str",
+          "value": "Ordered later-tradition program with source-strata cautions and reduced anti-confirmation weights.",
+          "raw_value": "Ordered later-tradition program with source-strata cautions and reduced anti-confirmation weights.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D78",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E78",
+          "type": "str",
+          "value": "v0.14 expansion queue",
+          "raw_value": "v0.14 expansion queue",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    },
+    {
+      "row": 79,
+      "cells": [
+        {
+          "ref": "A79",
+          "type": "str",
+          "value": "Deep dive",
+          "raw_value": "Deep dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "B79",
+          "type": "str",
+          "value": "Gnostic_Deep_Dive_Result",
+          "raw_value": "Gnostic_Deep_Dive_Result",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "C79",
+          "type": "str",
+          "value": "Dashboard of the current Gnostic encoding contest and factor-transpose hypothesis.",
+          "raw_value": "Dashboard of the current Gnostic encoding contest and factor-transpose hypothesis.",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "D79",
+          "type": "str",
+          "value": "Active",
+          "raw_value": "Active",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        },
+        {
+          "ref": "E79",
+          "type": "str",
+          "value": "v0.14 Gnostic dive",
+          "raw_value": "v0.14 Gnostic dive",
+          "formula": null,
+          "formula_attributes": null,
+          "style": null
+        }
+      ]
+    }
+  ],
+  "row_count": 79,
+  "cell_count": 389,
+  "source_id": "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67",
+  "source_sha256": "84c78732a98e84cb134fa5a27c48d40d4bedb0bedf16689a126ef7883dc3eade",
+  "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Library\\DEEP_INVENTORY\\Generative_Ontology_Stack_v0.14_Gnostic_Deep_Dive_Expansion_Queue.xlsx",
+  "semantics": "Literal native workbook witness. Existing statuses/formulas are retained, not executed or independently validated.",
+  "occurrences": [
+    {
+      "source_id": "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67",
+      "source_sha256": "84c78732a98e84cb134fa5a27c48d40d4bedb0bedf16689a126ef7883dc3eade",
+      "workbook": "Generative_Ontology_Stack_v0.14_Gnostic_Deep_Dive_Expansion_Queue.xlsx",
+      "sheet": "Schema_Index",
+      "part": "xl/worksheets/sheet32.xml",
+      "alias_source_ids": [
+        "db160994cc2b0420c8abc71dbe32da15a16647ba9c77f7f01c5f73587f2acd67"
+      ]
+    }
+  ]
+}

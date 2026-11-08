@@ -1,0 +1,19 @@
+{
+  "tool": "Wolfram Language evaluator",
+  "request": {
+    "code": "pairs=Tuples[{Range[0,2],Range[0,1]}]; perms=Permutations[pairs]; ishom[p_]:=And@@Flatten[Table[p[[Mod[a+b,6]+1]]==Mod[p[[a+1]]+p[[b+1]],{3,2}],{a,0,5},{b,0,5}]]; good=Select[perms,ishom]; <|\"allBijections\"->Length[perms],\"isomorphisms\"->Length[good],\"identityFixedBijections\"->5!,\"conditionalRatio\"->Length[good]/(5!),\"perfectMatchingsSixLabeledPoints\"->Factorial2[5],\"binaryFibersIn72Addresses\"->Length[Union[Sort /@ Table[{{q,p},{q,Mod[p+3,6]}},{q,0,11},{p,0,5}]//Flatten[#,1]&]]|>",
+    "timeConstraint": 30
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Out[1]= <|\"allBijections\" -> 720, \"isomorphisms\" -> 2, \"identityFixedBijections\" -> 120, \"conditionalRatio\" -> 1/60, \"perfectMatchingsSixLabeledPoints\" -> 15, \"binaryFibersIn72Addresses\" -> 72|>"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "status": "wrong_expression_for_unordered_B_orbits",
+  "scope": "Observed returned72 counts retained order because pair sorting occurred before flattening. This is a host expression defect, not a counterexample to36unorderedB-orbits or an accepted new domain result. Corrected independent check pending."
+}

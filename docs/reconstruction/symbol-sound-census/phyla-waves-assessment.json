@@ -1,0 +1,130 @@
+{
+  "schema": "sunny.phyla-waves-method-assessment.v1",
+  "reviewedLocalDate": "2026-11-03",
+  "outcome": "Original book recovered from an institutional preservation copy. Selected chapter2/4/5 pages were inspected and yield a usable source-qualified feature/relationship criterion. No new historical ancestry or universal sound mapping is established by this task.",
+  "book": {
+    "author": "Benjamin Paul Kantor",
+    "title": "The Linguistic Classification of the Reading Traditions of Biblical Hebrew: A Phyla-and-Waves Model",
+    "publisher": "Open Book Publishers, Cambridge Semitic Languages and Cultures19",
+    "publicationDate": "2023-08-30 per publisher; copyright2023 checked in PDF page5",
+    "doi": "10.11647/OBP.0210",
+    "pdfIsbn": "978-1-78374-955-3",
+    "license": "CC BY-NC4.0; checked on PDF page5 and institutional record",
+    "institutionalCopy": "https://zenodo.org/records/19849982",
+    "institutionalCommunity": "thoth",
+    "repositoryDate": "2026-04-28; this is distinct from book publication",
+    "pdfPath": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/kantor-2023.pdf",
+    "pdfBytes": 10074294,
+    "pdfSha256": "9f1c5acc42bfcb1f6a6682e3b4e2868c57c71b44a17d93d79e5a3e04e2822c70",
+    "repositoryMd5Verified": "d67ca12fe0737e82103c3c391370f1f3",
+    "actualPdfPages": 230,
+    "pageMapping": "Printed Arabic page p corresponds to one-based PDF page p+13; confirmed against page headers and rendered pages8,77,178",
+    "recoveryReceipt": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/pdf-recovery.json"
+  },
+  "charter": {
+    "scope": "Kantor's classification method for Biblical Hebrew reading traditions",
+    "object": "Inherited innovations versus retention, parallel development, contact and scribal convergence",
+    "subject": "Concrete features and counterexamples in chapters2,4,5",
+    "type": "Bounded descriptive source assessment and proposed reuse criterion",
+    "canon": ["Original book PDF in institutional Thoth-community archive", "Publisher chapter metadata and original DOI registration", "Author's selected arguments/examples, with their cited external premises not independently reproduced", "SUNNY's existing source-qualified symbol/sound controls as the consumer"],
+    "scopeFilter": "No complete reconstruction of the book's family tree or all of its cited manuscript witnesses",
+    "objectFilter": "Inspectable linguistic feature and transmission distinctions are reused; geometric, acoustic and biological identities do not follow automatically"
+  },
+  "coverage": {
+    "fullPdfRecovered": true,
+    "wholeBookSemanticallyProcessed": false,
+    "chapters": [
+      {"chapter": 2, "doi": "10.11647/OBP.0210.02", "printedRange": [5, 19], "pagesTextExtracted": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "pagesActuallyInspected": [5, 6, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 19], "sourceExtraction": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/methodology-pages.json"},
+      {"chapter": 4, "doi": "10.11647/OBP.0210.04", "printedRange": [60, 144], "pagesTextExtracted": [60, 61, 62, 63, 64, 65, 66, 67, 68, 76, 77, 78, 79, 80, 81, 82], "pagesActuallyInspected": [60, 61, 62, 63, 64, 76, 77, 78, 79, 80], "sourceExtraction": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/phyla-pages.json"},
+      {"chapter": 5, "doi": "10.11647/OBP.0210.05", "printedRange": [145, 180], "pagesTextExtracted": [145, 146, 147, 148, 149, 150, 151, 152, 174, 175, 176, 177, 178, 179, 180], "pagesActuallyInspected": [145, 146, 147, 148, 149, 150, 174, 175, 176, 177, 178, 179, 180], "sourceExtraction": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/waves-pages.json"}
+    ],
+    "targetPagesTextExtracted": 46,
+    "targetPagesActuallyInspected": 36,
+    "renderedPagesVisuallyInspected": [
+      {"printed": 8, "pdfOneBased": 21, "path": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/printed8.png"},
+      {"printed": 77, "pdfOneBased": 90, "path": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/printed77.png"},
+      {"printed": 178, "pdfOneBased": 191, "path": "docs/reconstruction/symbol-sound-census/phyla-waves-sources/printed178.png"}
+    ],
+    "extractionControl": "PDF text extraction duplicates some coloured/bold Greek letters in Table66. The rendered page was inspected; repeated extraction characters are not counted as source innovations. Full Greek/Hebrew diplomatic re-edition is not claimed."
+  },
+  "inspectedMethod": [
+    {"id": "PW-M1", "source": "Chapter2 pp6-10, especially p8", "result": "Subgrouping distinguishes derived shared innovations from shared retentions. Matching features also require consideration of independent development and diffusion.", "condition": "The direction of change and comparison domain must be justified; similarity alone does not determine genealogy."},
+    {"id": "PW-M2", "source": "Chapter2 pp8-10", "result": "Genealogy and contact remain separate parts of the account. Vernacular susceptibility can help distinguish reading traditions, but Kantor also asks for innovations supporting genetic relations.", "condition": "Do not replace one arbitrary ancestry tree with an undifferentiated similarity network."},
+    {"id": "PW-M3", "source": "Chapter2 pp15-19; chapter4 p76", "result": "The proposed proto-reading background allows internal diversity; some community reading differences can arise from applying a vernacular dialect to a text.", "condition": "A uniform ancestral recital or a parent reading tradition for every branch is not automatically established."},
+    {"id": "PW-M4", "source": "Chapter4 pp60-61; chapter5 pp174-179", "result": "Notation may imitate a prestigious tradition. Same-reading manuscript comparisons can expose normalization, including scribal alteration distinct from living recitation change.", "condition": "Script, copying layer, vocalization system and spoken realization remain distinct evidence levels."}
+  ],
+  "concreteCharacters": [
+    {
+      "id": "PW-C1",
+      "sourceLocator": "Chapter4 §2.1.1, pp77-79, Table9 on printed77/PDF90",
+      "sourceClaimStatus": "Author's proposed innovation and supporting argument inspected; underlying manuscript and external chronology claims not independently reproduced",
+      "feature": "Rounding/raising of historically long a into the rounded qameṣ vowel",
+      "proposedEarlierState": "*/aː/",
+      "proposedDerivedState": "*/ɔː/",
+      "authorReportedDerivedTraditions": ["Tiberian", "Babylonian"],
+      "authorReportedUnroundedComparanda": ["Secunda", "Jerome", "Palestinian"],
+      "table9ExampleAddresses": {"Babylonian": "1Sam14:32", "Tiberian": "Exod18:17", "Secunda": "Ps18:28", "Jerome": "Gen2:23", "Palestinian": "Ps37:28"},
+      "qualification": "These are contextual examples of a reconstructed feature, not the same lexical token across all traditions. The author discusses ambiguous transcription and change chronology before proposing a shared innovation.",
+      "missingIndependentPremises": ["Original witness collation behind cited editions", "Transcription-to-phone licensing", "The external relative/absolute chronology argument"],
+      "sunnyUse": "A feature record can carry the proposed change, its environment, date constraints, counterexamples and uncertainty. The written vowel does not prescribe an acoustic frequency or musical pitch."
+    },
+    {
+      "id": "PW-C2",
+      "sourceLocator": "Chapter4 §1.2.1, pp62-64, Table7 on p63",
+      "sourceClaimStatus": "Author's contextual morphological/reading innovation inspected",
+      "feature": "Gemination associated with past-narrative w-yiqṭol in the compared Jewish traditions",
+      "comparison": "The author contrasts that realization with Samaritan constructions and examines an alternative loss/redevelopment account.",
+      "sunnyUse": "The feature's grammatical function and environment matter; a global letter-name match cannot replace them.",
+      "boundary": "This review does not independently prove the historical dating or every form in the table."
+    },
+    {
+      "id": "PW-C3",
+      "sourceLocator": "Chapter5 §2.3, pp178-179, Table66 on p178",
+      "sourceClaimStatus": "Same-reading manuscript contrast and author's interpretation inspected; manuscript-by-manuscript collation remains external",
+      "feature": "Changes in medieval Secunda spellings toward Tiberian/standard conventions",
+      "concreteLocality": "Ps49:6 as numbered in the source table: short-o transcription is changed toward u; other listed changes include epenthesis and vowel substitutions",
+      "observationLevel": "Manuscript transcription/spelling variants; proposed corresponding sounds are the author's interpretation",
+      "relationTypeForInvestigation": "scribal_normalization_toward_standard",
+      "sunnyUse": "A copying/standardization edge can explain a shared form without creating a new ancestry edge or asserting that a community changed its living pronunciation.",
+      "boundary": "Table66 contrasts best/other manuscript groups and refers to a critical edition; this task has not recovered every manuscript identifier or recollated the physical ink."
+    }
+  ],
+  "proposedSunnyReuse": {
+    "status": "Source-informed investigative criterion, selected by actual Jev; no central ontology or ancestry relation changed",
+    "characterMeaning": "Here a character is a defined comparative linguistic feature, not simply a Unicode codepoint or an alphabet member.",
+    "minimumRecord": ["Source witness and copying/recitation layer", "Date/place/community and register where available", "Grammatical/phonological environment and observable level", "Observed, reconstructed and restored components separately", "Proposed earlier and derived states plus direction-of-change evidence", "Distribution and explicit unknown/contradictory states", "Retention, parallel-development and contact alternatives", "Predicted separating observation and dependencies"],
+    "relationCriterion": "Treat a grouping as a linguistic inheritance candidate only after a source-qualified derived feature, rather than mere resemblance/retention, is argued to characterize the compared members; assess its outgroup distribution and plausible alternatives. Missing observations remain unknown. A matching matrix does not prove the historical process.",
+    "separateRelations": ["linguistic_inheritance_candidate", "contact_or_diffusion_candidate", "scribal_normalization_candidate", "parallel_development_candidate"],
+    "noWeights": "Do not turn source repetition, feature count or Jev preference into a numerical historical authority score.",
+    "finiteNextApplication": "For one existing Secunda/Aramaic/Hebrew comparison, define a contextual feature and test the required direction, witnesses and contact alternatives. In the existing -αυεω case, the four edited surviving letters alone do not establish a shared innovation, an inheritance edge or a unique ancient phone.",
+    "geometryBoundary": "Only an independently specified adapter could carry these feature relations into SUNNY's musical/geometric representation. This method alone supplies no torus address, pitch ratio or biological genealogy."
+  },
+  "negativeControls": [
+    "An unchanged inherited feature does not isolate a daughter subgroup.",
+    "Shared new-looking forms can still arise through contact or independent development.",
+    "Unknown outgroup state is not evidence of absence.",
+    "Prestigious Tiberian-looking spelling in a Palestinian notation system need not identify a Tiberian spoken tradition.",
+    "A later manuscript's normalized Greek vowels do not alone demonstrate a change in living recitation.",
+    "Duplicated letters from PDF extraction are not linguistic innovations."
+  ],
+  "guardrails": {
+    "recoveryDecisionRequest": "docs/reconstruction/symbol-sound-census/phyla-waves-jev-request.json",
+    "recoveryDecisionReceipt": "docs/reconstruction/symbol-sound-census/phyla-waves-superjev.json",
+    "reuseDecisionRequest": "docs/reconstruction/symbol-sound-census/phyla-waves-assessment-jev-request.json",
+    "reuseDecisionReceipt": "docs/reconstruction/symbol-sound-census/phyla-waves-assessment-superjev.json",
+    "actualModel": "jev-1.14.0",
+    "selectedReuse": "source_qualified_character_and_relation_gate",
+    "supermemorySearch": "docs/reconstruction/symbol-sound-census/phyla-waves-supermemory.json",
+    "methodsApplied": ["SuperJev current installed runtime and full live receipts", "Research Methodology bounded descriptive/source assessment", "Evidence Review source/claim/layer and extraction controls"],
+    "runtimeBoundary": "Specialist skill methods are applied; no new external proof certificate, solver result or original-manuscript collation is claimed."
+  },
+  "retrievalAndExecutionLimits": [
+    "Publisher metadata was readable through the web index; direct publisher requests returned405/429. Parent-reported LOC403 was not treated as a fresh successful retrieval.",
+    "The indexed Cambridge Thoth host failed DNS resolution. Institutional identifiers discovered via metadata led to the accessible Thoth-community Zenodo copy instead.",
+    "OAPEN handle returned403; one nominal API request returned non-JSON HTML, retained as oapen-api-nonjson-response.html.",
+    "An old installed SuperJev0.1.2 path had been replaced. Those two failed commands produced no inference. Current0.1.3 helper was discovered dynamically and live requests succeeded; no plugin configuration changed."
+  ],
+  "unchangedInputs": ["docs/reconstruction/symbol-sound-census/reading-tradition-prior-art.json", "Central model/task/mission and existing source histories"],
+  "persistentProcessesStarted": 0,
+  "protectedCodexPathWrites": 0
+}

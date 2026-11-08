@@ -1,0 +1,80 @@
+{
+  "schema": "abracadabra.portable-browser-smoke.v1",
+  "status": "PASSED",
+  "checks": 6,
+  "results": [
+    {
+      "name": "ARIADNE",
+      "relative": "work/final-day-2026-11-07/dashboard/SUN_ARIADNE_Workbench.html",
+      "width": 1440,
+      "height": 1000,
+      "title": "SUN / ARIADNE — Evidence Workbench",
+      "horizontalOverflow": false,
+      "controls": 20,
+      "ariadneReady": true,
+      "javascriptErrors": []
+    },
+    {
+      "name": "ARIADNE",
+      "relative": "work/final-day-2026-11-07/dashboard/SUN_ARIADNE_Workbench.html",
+      "width": 390,
+      "height": 844,
+      "title": "SUN / ARIADNE — Evidence Workbench",
+      "horizontalOverflow": false,
+      "controls": 20,
+      "ariadneReady": true,
+      "javascriptErrors": []
+    },
+    {
+      "name": "SUNNY_GUIDE",
+      "relative": "web/delivery-2026-11-07/system-guide.html",
+      "width": 1440,
+      "height": 1000,
+      "title": "SUNNY · A guide to the systems",
+      "horizontalOverflow": false,
+      "controls": 61,
+      "ariadneReady": false,
+      "javascriptErrors": []
+    },
+    {
+      "name": "SUNNY_GUIDE",
+      "relative": "web/delivery-2026-11-07/system-guide.html",
+      "width": 390,
+      "height": 844,
+      "title": "SUNNY · A guide to the systems",
+      "horizontalOverflow": false,
+      "controls": 61,
+      "ariadneReady": false,
+      "javascriptErrors": []
+    },
+    {
+      "name": "SUNNY_WORKBENCH",
+      "relative": "web/delivery-2026-11-07/index.html",
+      "width": 1440,
+      "height": 1000,
+      "title": "SUNNY — Connected Reconstruction",
+      "horizontalOverflow": false,
+      "controls": 43,
+      "ariadneReady": false,
+      "javascriptErrors": []
+    },
+    {
+      "name": "SUNNY_WORKBENCH",
+      "relative": "web/delivery-2026-11-07/index.html",
+      "width": 390,
+      "height": 844,
+      "title": "SUNNY — Connected Reconstruction",
+      "horizontalOverflow": false,
+      "controls": 43,
+      "ariadneReady": false,
+      "javascriptErrors": []
+    }
+  ],
+  "inputSha256": {
+    "work/final-day-2026-11-07/dashboard/SUN_ARIADNE_Workbench.html": "c09f302b165c1734535e92a1458a00a29bea1d1fb6fc2b0eacc5cc2eabbf0ced",
+    "web/delivery-2026-11-07/system-guide.html": "8914fc5cbac37ec0043ebdafb7ff3898dc57c027d1fdb56d2070d86a5feb45a1",
+    "web/delivery-2026-11-07/index.html": "5b80067e283510f2bd83ac7295a94a5116597da450eabadb1817a42bfda51821"
+  },
+  "inputsUnchanged": true,
+  "scope": "Fresh page startup at two sizes, visible content, controls and JavaScript errors. No complete interaction, source-rights, audio, plugin or scientific certification."
+}

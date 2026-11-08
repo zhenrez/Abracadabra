@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "path": "state\\background\\reactivation-20261102\\runs\\source-reading-origin-ahh-aum-001-42b8a81aa056\\result.json",
+      "status": "candidate_source_reconstruction",
+      "source_records": 1,
+      "completed_utc": "2026-11-03T04:06:09.535803+00:00",
+      "source_jev_models": [
+        "jev-1.14.0"
+      ],
+      "all_actual_jev": true,
+      "proofline_valid": true,
+      "relations": [
+        {
+          "sound-letter-question": {
+            "type": "choice",
+            "probabilities": {
+              "contradicts": 0.0,
+              "insufficient": 0.01,
+              "refines": 0.02,
+              "supports": 0.97
+            },
+            "winner": "supports",
+            "top_probability": 0.97,
+            "margin": 0.95
+          },
+          "fiction-inquiry-boundary": {
+            "type": "choice",
+            "probabilities": {
+              "contradicts": 0.0,
+              "insufficient": 0.0,
+              "refines": 0.0,
+              "supports": 1.0
+            },
+            "winner": "supports",
+            "top_probability": 1.0,
+            "margin": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Actual bounded source reading/history support; no automatic canonical promotion or scientific truth claim."
+}

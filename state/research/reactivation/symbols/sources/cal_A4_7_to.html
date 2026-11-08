@@ -1,0 +1,111 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Comprehensive Aramaic Lexicon</title>
+<link rel="stylesheet" href="/cal.css">
+<script src="/toggletips.js"></script>
+<script src="/tooltips2.js"></script>
+<style>
+:root {
+    --parchment: #f5edda;
+    --accent:    #7a4a2b;
+}
+body {
+    background: var(--parchment);
+    font-family: 'EB Garamond', Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+.cal-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em 1em;
+    background: var(--parchment);
+    border-bottom: 1px solid var(--accent);
+    position: relative;
+}
+.cal-nav-back {
+    position: absolute;
+    left: 1em;
+}
+.cal-nav-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 0.85em;
+}
+.cal-nav-link:hover { text-decoration: underline; }
+.cal-banner img { max-width: 120px; height: auto; }
+.page-body-wrap {
+    max-width: 860px;
+    margin: 0.5em auto;
+    padding: 0 1em;
+}
+.subsense-toggle {
+    cursor: pointer;
+    font-size: 0.8em;
+    color: #7a4a2b;
+    margin-left: 6px;
+    user-select: none;
+    white-space: nowrap;
+}
+.subsense-block {
+    display: none;
+    margin-left: 1em;
+}
+.sense-line {
+    margin-top: 0.15em;
+    padding-left: 1.5em;
+}
+.dial-tag {
+    color: #7a2b3d;
+    font-style: italic;
+    font-weight: 500;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+}
+</style>
+</head>
+<body>
+<div class="cal-banner">
+  <div class="cal-nav-back">
+    <a class="cal-nav-link" href="javascript:history.back()">&larr; Back</a>
+  </div>
+  <a href="/">
+    <img src="/gifs/cal1.gif" width="120" height="37" alt="The Comprehensive Aramaic Lexicon">
+  </a>
+</div>
+<div class="page-body-wrap"><script>
+function toggleSub(id) {
+    var el = document.getElementById(id);
+    var btn = document.getElementById('btn_' + id);
+    if (el.style.display === 'none' || el.style.display === '') {
+        el.style.display = 'block';
+        el.style.height = 'auto';
+        btn.textContent = '▼ less';
+    } else {
+        el.style.display = 'none';
+        el.style.height = '0';
+        btn.textContent = '▶ more';
+    }
+}
+</script><h2>Click on a headword to see a complete lexicon entry</h2><br>)l p <table border="1"><tr><td><a class="lexlink" href="oneentry.php?lemma=%29l+p&cits=all"><span class="lem"><font color="#0000A0">ˀl</font></span>
+(<span class="rom">ˀil, əl</span>)
+<pos>prep.</pos>
+<span class="mgP">to</a></span><br>
+</td></tr></table><div class="sense-line"><span class="sense-indent"></span><span class="mg1">1 </span> <span class="mg1">to : direction</span><span class="dial-tag"> <dial dnumber="11" title="Old Aramaic of Mesopotamia">OA-Mesop</dial>, <dial dnumber="13" title="Old Aramaic">OA</dial>, <dial dnumber="51" title="Jewish Literary Aramaic targumim">JLAtg</dial>, <dial dnumber="56" title="Samaritan">Sam</dial>, <dial dnumber="81" title="Late Jewish Literary Aramaic">LJLA</dial></span>. <span class="subsense-toggle" id="btn_sub_1" onclick="toggleSub('sub_1')">▶ more</span><div class="subsense-block" id="sub_1"><br><span class="mg2" style="margin-left:1em">--(a) </span> <span class="mg2">in OfA, only marking the addressee of a letter</span><span class="dial-tag"> <dial dnumber="20" title="Official Aramaic General">OfAGen</dial>, <dial dnumber="21" title="Official Aramaic Mesopotamia">OfA-Mes</dial>, <dial dnumber="22" title="Official Aramaic">OfA</dial></span>. </div></div><div class="sense-line"><span class="sense-indent"></span><span class="mg1">2 </span> <span class="mg1">for : of an obligation</span><span class="dial-tag"> <dial dnumber="14" title="Old Aramaic-East">OA-East</dial></span>. </div><br></small><hr><div class="cal-footer">
+  <a href="/newtextmenu.html">&larr; Return to the Text Browser</a>
+  &nbsp;&middot;&nbsp;
+</div>
+</body>
+</html>

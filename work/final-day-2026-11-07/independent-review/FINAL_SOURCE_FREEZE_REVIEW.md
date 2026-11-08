@@ -1,0 +1,17 @@
+# Final independent source review
+
+The bounded source changes are approved and ready for the integrated proof. A fresh actual project run recorded112/112passes, exit0, with unchanged declared inputs. A direct read-only check confirmed that all34 pinned inputs still match. This is fresh execution evidence, distinct from the earlier107/107 result.
+
+The earlier stale-binding finding remains recorded: tests/delivery-browser.mjs changed after the107/107 run. That original receipt is preserved byte-for-byte as project-final-initial-checks.json. The new snapshot explicitly enumerates npm's actual *.test.mjs entrypoints and imported worker-identity assertion before and after execution, alongside TypeScript sources, ownership helpers and build configuration. The separate browser program is not an npm test entrypoint or import. This declares a bounded input scope rather than pretending to bind every transitive data file. The newly present related tests contribute to112 but are not attributed to this unit.
+
+Canonical-v2 resolves the sidecar integrity defect by independently deriving and comparing every raw field, source coordinate, classification and numerical array. The final read-only verifier checks payload hashes, safe NumPy loading and this source derivation. The parent executed the seven test methods with thirteen tamper cases; this review does not claim an additional execution.
+
+Packaging preserves every original106-row dictionary and status while showing current assessments separately. Its deterministic ledger excludes the later browser receipt, avoiding the former hash cycle. All project execution variants remain visible. The browser runner checks current sources against snapshots, and its final verifier binds current source, HTML, template, receipts, script and screenshots.
+
+The twelve-check contract declares concrete source files, source bindings, immutable evidence and canonical payloads, and includes focused static lint. The installed proof runner is responsible for before/after input hashes. No separate freeze mechanism, external publication or scientific certification is claimed.
+
+The full mission remains incomplete, historical cross-orientation reconstruction remains locked, and prior runtime failures retain their original evidence. The earlier PID26416 failure has an unresolved cause; PID reuse was not observed. The test-only birth-identity correction does not establish that a production orphan was fixed.
+
+Exact reviewed hashes, fresh runtime evidence and the resolved stale-binding finding are in final-source-freeze-review.json. The parent must complete the integrated proof before reporting final execution acceptance.
+
+The first actual integrated proof recorded ten passes and two failures after live mathematical evidence drifted from its older audit digest. That failure is retained. The bounded repair now resolves the eight mathematical requirements through a complete immutable version registry:53references,12source paths and14verified content versions. All initial versions were recovered as exact bytes. Direct read-only verification confirmed every captured length and digest. Runtime and verifier preserve each original requirement alongside separately labeled initial/current versions; they reject changed snapshots, missing mappings and paths outside the project without falling back to live state. The proof now binds those snapshots. This source-version repair is approved; a fresh integrated proof retry is still required.

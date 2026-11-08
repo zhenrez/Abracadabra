@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:29.745760+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "7064617d17ca3e7122052d3838b8af85a21e03dd78fd41b38ddfcb2655b1a2c8"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "f03ae002-4be8-50a9-8602-df0189b87027",
+      "source_identity_sha256": "c6f4f7350a5292a40aad6d45467dc462550a7aee9cc0f2ebf14efcac60b429bb",
+      "source_version_id": "5aefb020-7fe3-5398-84fc-b698efc25ff2",
+      "version_number": 1,
+      "content": "9/12/2026, 12:21:42 AM\n\n[Attachment: the-divine-vina-and-the-world-monochord-musical-cosmology-from-the-rg-veda-to-robert-fludd_compress.pdf]\n\n[Attachment: pdfcoffee.com_harmonies-of-the-world-pdf-free.pdf]\n\nheres the follow up plus jo",
+      "content_sha256": "30385922db4d5fa7789a21096784067804e0026f62bc43f84231987fc2062dda",
+      "content_length": 235,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "7f51bd151e63539043dfe26596730850c615bc6f90d24458dbd07bd0f8b29f56"
+    },
+    "chunks": [
+      {
+        "id": "783aaf91-4577-5312-b0fe-9bd796ac8291",
+        "source_node_hash": "7f51bd151e63539043dfe26596730850c615bc6f90d24458dbd07bd0f8b29f56",
+        "source_id": "f03ae002-4be8-50a9-8602-df0189b87027",
+        "source_version_id": "5aefb020-7fe3-5398-84fc-b698efc25ff2",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 235,
+        "start_line": 1,
+        "end_line": 7,
+        "content": "9/12/2026, 12:21:42 AM\n\n[Attachment: the-divine-vina-and-the-world-monochord-musical-cosmology-from-the-rg-veda-to-robert-fludd_compress.pdf]\n\n[Attachment: pdfcoffee.com_harmonies-of-the-world-pdf-free.pdf]\n\nheres the follow up plus jo",
+        "content_sha256": "30385922db4d5fa7789a21096784067804e0026f62bc43f84231987fc2062dda",
+        "node_hash": "96b6c0070675bc3ac95ae0236dad9943dc668af06357a61d2d545efa7058c5c2"
+      }
+    ],
+    "citations": [
+      {
+        "id": "eb941bba-066c-5fbd-b88e-6e8127f79f12",
+        "source_node_hash": "7f51bd151e63539043dfe26596730850c615bc6f90d24458dbd07bd0f8b29f56",
+        "chunk_node_hashes": [
+          "96b6c0070675bc3ac95ae0236dad9943dc668af06357a61d2d545efa7058c5c2"
+        ],
+        "source_id": "f03ae002-4be8-50a9-8602-df0189b87027",
+        "source_version_id": "5aefb020-7fe3-5398-84fc-b698efc25ff2",
+        "start_offset": 0,
+        "end_offset": 235,
+        "start_line": 1,
+        "end_line": 7,
+        "quote": "9/12/2026, 12:21:42 AM\n\n[Attachment: the-divine-vina-and-the-world-monochord-musical-cosmology-from-the-rg-veda-to-robert-fludd_compress.pdf]\n\n[Attachment: pdfcoffee.com_harmonies-of-the-world-pdf-free.pdf]\n\nheres the follow up plus jo",
+        "quote_sha256": "30385922db4d5fa7789a21096784067804e0026f62bc43f84231987fc2062dda",
+        "node_hash": "26c4cabca861c4cc70b96d2540654853b4c669f0c04bfd6d4708a9fdd0c2fa3d"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "7f51bd151e63539043dfe26596730850c615bc6f90d24458dbd07bd0f8b29f56",
+        "96b6c0070675bc3ac95ae0236dad9943dc668af06357a61d2d545efa7058c5c2",
+        "26c4cabca861c4cc70b96d2540654853b4c669f0c04bfd6d4708a9fdd0c2fa3d"
+      ],
+      "node_hash": "ffe64cfa986b6739ed344f5d5e0bdc715199f4d35d3b037e2f0f8bbefeb2344a"
+    },
+    "artifact": {
+      "id": "3fd19be4-4fc9-5ec1-bd94-7f8541907d4b",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/30385922db4d5fa7789a21096784067804e0026f62bc43f84231987fc2062dda/text.txt; original SHA256 30385922db4d5fa7789a21096784067804e0026f62bc43f84231987fc2062dda; physical source lines 1..7. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "ffe64cfa986b6739ed344f5d5e0bdc715199f4d35d3b037e2f0f8bbefeb2344a",
+      "citation_node_hashes": [
+        "26c4cabca861c4cc70b96d2540654853b4c669f0c04bfd6d4708a9fdd0c2fa3d"
+      ],
+      "node_hash": "ec6cbb2c7b1f4f7ec4582bc1ff48a5956ff51f2d26b11bc8804118f451ccc98c"
+    },
+    "review": {
+      "artifact_node_hash": "ec6cbb2c7b1f4f7ec4582bc1ff48a5956ff51f2d26b11bc8804118f451ccc98c",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:29.745760+00:00",
+      "updated_at": "2026-11-02T01:57:29.745760+00:00",
+      "node_hash": "4477309327dcc131e702e70021027ba2c460c0b167e7f0ad7ec3dd4427784229"
+    }
+  }
+}

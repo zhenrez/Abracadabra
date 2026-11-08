@@ -1,0 +1,151 @@
+{
+  "schema": "sunny.symbol-p0a.v1",
+  "frozen_utc": "2026-11-02T22:03:42.693Z",
+  "question": "What existing source-grounded evidence and reproducible methods constrain proposed glyph -> phonetic value -> acoustic/musical operation relationships across Paleo-Hebrew, Aramaic and English, without presupposing the recovered system?",
+  "case": "Existing Aleph/A question reused, not a new all-letter reconstruction.",
+  "status": "dated bounded scholarly baseline; instrument14/14 accounted; domain completeness OPEN",
+  "prior_art_reused": [
+    {
+      "path": "docs/reconstruction/symbol-sound-census/question-freeze.json",
+      "scope": "Actual prior Jev1.14.0 Aleph/A selection and independent question wording"
+    },
+    {
+      "path": "docs/reconstruction/symbol-sound-census/scholarly-first-pass.md",
+      "scope": "Reuse actual inspected sources/queries with their recorded limits"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_SOL_CORE/SUN_P0A_Eight_Neighborhood_Census_2026-10-05.md",
+      "sha256": "65d3d027505c20c044c5e1e0065775ce44e33fea6b83670b3dbdf4a52c3e54f6",
+      "scope": "Reuse14-question instrument and P3 observation/decoding, P5 medium/context and P8 provenance/verification transfer limits; earlier different-domain subject matter does not establish ancient phonetics."
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "Who has proposed this or something structurally equivalent before?",
+      "status": "covered_in_bounded_scope",
+      "answer": "Davies edits inscribed Hebrew; Hanson and the Elephantine project edit Aramaic; Khan reconstructs a pronunciation tradition; CMUdict and Praat supply modern lexical/acoustic methods. Their component problems are prior art. No inspected source solves SUNNY's complete cross-tradition coupling.",
+      "evidence": "S02,S03,S05,S06,S08,S09,S10",
+      "gap": "A systematic historical census of explicit glyph-to-musical-operation proposals remains open."
+    },
+    {
+      "id": "Q02",
+      "question": "What fields study this problem?",
+      "status": "covered_in_bounded_scope",
+      "answer": "Epigraphy, palaeography, historical phonology, textual criticism, grammatical morphology, pronunciation lexicography, acoustic phonetics and computational speech analysis address distinct links.",
+      "evidence": "S01–S11",
+      "gap": "Ethnomusicology and source-native chant/ritual instruction need dedicated source work; sibling musical research remains separate."
+    },
+    {
+      "id": "Q03",
+      "question": "What terminology do those fields use for it?",
+      "status": "covered_in_bounded_scope",
+      "answer": "ʾalef/aleph/ʾalaph, grapheme, sign token, transliteration, transcription, qere/ketiv, phoneme, allophone, orthoepy, non-consonantal, matres lectionis, phonation,F0,formant,spectral envelope,prosody and chant.",
+      "evidence": "S01,S02,S05,S06,S09,S10",
+      "gap": "Terminological equivalence is not historical identity."
+    },
+    {
+      "id": "Q04",
+      "question": "What are the closest established theories, models, equations, or frameworks?",
+      "status": "covered_in_bounded_scope",
+      "answer": "Edition-based reading constrained by manuscript/context; oral versus written transmission; one-to-many pronunciation lexicons; separate periodic-source and spectral-envelope measurements. Existing P0-A P3 distinction between latent state, observation and decoder transfers as method only.",
+      "evidence": "S02,S05,S08,S09,S10; archived P0-A P3",
+      "gap": "Neither formal decoder vocabulary nor equal codepoint establishes a historical sound or musical operation."
+    },
+    {
+      "id": "Q05",
+      "question": "What reviews, surveys, bibliographies, encyclopedias, dissertations, or meta-analyses map the space?",
+      "status": "partial",
+      "answer": "Khan2020 and CAL bibliography workflows provide scoped routes; Davies and Hanson bibliographies identify primary editions. The earlier first-pass Cambridge Greek-alphabet summary remains a summary-only lead.",
+      "evidence": "S02,S03,S06,S11; recovered first pass",
+      "gap": "No systematic all-language review completed; current Neo-Aramaic/phonetics review coverage absent."
+    },
+    {
+      "id": "Q06",
+      "question": "What are the canonical papers, books, and authors?",
+      "status": "partial",
+      "answer": "Inspected work: Khan; Davies excerpt; museum TEI edited by VerenaLepper and collaborators; Hanson primary-text adaptation. Backward leads: Torczyner1938, Diringer1953, Sachau1911, Cowley1923, Porten/Yardeni1986.",
+      "evidence": "S02,S03,S05,S06",
+      "gap": "The earlier cited editions were not all retrieved/collated, and canonical status across whole fields is not inferred from one bibliography."
+    },
+    {
+      "id": "Q07",
+      "question": "What are the competing explanations?",
+      "status": "covered_in_bounded_scope",
+      "answer": "(A)Graphic inheritance with contextual phonetic reassignment; (B)bounded ritual/reading convention preserving specified pronunciation; (C)an operation acting on articulated gestures/phonological contrasts; (D)an operation on measured spectrum or relative pitch. Each requires different evidence and can coexist in separate contexts.",
+      "evidence": "S01,S02,S05,S09,S10; project hypotheses",
+      "gap": "C/D are candidate formulations, not source-established ancient mechanisms. No arbitrary source weights select among them."
+    },
+    {
+      "id": "Q08",
+      "question": "What has been falsified, criticized, or abandoned?",
+      "status": "partial",
+      "answer": "The claim that every Alef in the inspected Tiberian tradition must be consonantal conflicts with Khan's explicit non-consonantal cases. A unique dictionary pronunciation for the English worda conflicts with two inspected entries. Treating every displayed Hebrew codepoint as the original ancient script confuses encoded transcription with artefact.",
+      "evidence": "S02,S05,S08",
+      "gap": "These are scoped counterexamples only; they neither refute a bounded ritual prescription nor SUNNY's adopted geometry."
+    },
+    {
+      "id": "Q09",
+      "question": "What are the unresolved questions?",
+      "status": "open",
+      "answer": "Original intended symbol/sound coupling; the context-qualified ancient phonetic realizations; grammar and segmentation of selected target texts; operational units and native musical role; historical transmission bridges; applicable full-geometry realization and an independent distinguishing consequence.",
+      "evidence": "S02–S10; current source-linked hypotheses",
+      "gap": "No original ancient waveform or universal glyph-specific frequency identified in this inspected corpus."
+    },
+    {
+      "id": "Q10",
+      "question": "What primary sources or datasets are important to the field?",
+      "status": "covered_in_bounded_scope",
+      "answer": "Lachish Letter2(edition1.002, museum1959,0711.2); Elephantine Pap.Cairo EM JdE43473/TAD A3.7; P13495/TAD A4.7 and its native date formula; Khan's cited Masoretic manuscripts/treatises; CMUdict; publisher's paired reconstructed readings; Praat methods.",
+      "evidence": "S02–S10",
+      "gap": "Original inscription/papyrus facsimile collation, audio listening/measurement and full Latin witness remain unperformed."
+    },
+    {
+      "id": "Q11",
+      "question": "What earlier historical traditions have scholars already connected to it?",
+      "status": "partial",
+      "answer": "Unicode describes historic-script relationships; Khan links later reading reconstruction to particular medieval witnesses. Earlier project record retained Greek alphabet descent as a summary-only lead.",
+      "evidence": "S01,S02; recovered first pass",
+      "gap": "A scholarly historical connection between ancestry of letter forms and specific shared musical operation is not yet established."
+    },
+    {
+      "id": "Q12",
+      "question": "Has terminology changed over time in ways that hide older versions?",
+      "status": "covered_in_bounded_scope",
+      "answer": "Search Paleo/Palaeo/OldHebrew, Phoenician/WestSemitic, Early/Imperial/OfficialAramaic, ʾalef/aleph/alaph, qere/ketiv, pronunciation/recitation/orthoepy, pitch versus formant. Modern normalized Hebrew display can hide a source's original script.",
+      "evidence": "S01,S02,S05,S06",
+      "gap": "Aliases expand search coverage; they do not collapse traditions or times."
+    },
+    {
+      "id": "Q13",
+      "question": "Have adjacent disciplines rediscovered the same structure under another name?",
+      "status": "partial",
+      "answer": "A conditional mapping from visible sequence to possible latent readings resembles a decoder/inverse problem; dictionaries and acoustic estimation offer explicit alternatives and measurements. Reuse the formal distinction from archived P3/P5/P8.",
+      "evidence": "S08–S10; archived P0-A",
+      "gap": "This is a methodological analogy; independent historical rediscovery of SUNNY's full structure has not been shown."
+    },
+    {
+      "id": "Q14",
+      "question": "What obvious prior-art searches have produced nothing?",
+      "status": "partial",
+      "answer": "Targeted official-domain queries found no single direct BM page accessible through web tool(403), and no immediate exact-datedA3.7 entry. Those are access/query limits, not negative evidence. XML fallback successfully recoveredA3.7; direct official Aramaic date query led toP13495.",
+      "evidence": "search log and retrieval manifests",
+      "gap": "No adequate bounded negative search of ancient glyph-specific acoustic prescriptions completed; no novelty or absence claim follows."
+    }
+  ],
+  "exposure": {
+    "clean_or_blind": false,
+    "previously_seen": [
+      "SUNNY musical/geometric premises and source-reviewed current hypotheses",
+      "Existing Aleph/A first pass, source register and Jev decisions",
+      "Historical glyph object/interpretation receipt"
+    ],
+    "current_seen": [
+      "Scholarly witnesses listedS01–S11",
+      "Museum page14 includes religious object names and neighboring calendar-related museum labels; incidental viewing is recorded without launching calendar rectification",
+      "General searches returned excluded uninspected fringe/alternative snippets; no clean comparative exposure claimed"
+    ],
+    "controlled_heterodox_census": "Not begun. Power triage10 andM1–M12 remain required downstream protocol, not silently replaced by this packet."
+  },
+  "novelty": "No novelty claim. Component prior art is reused. The packet adds source/date/grammar/encoding constraint reconciliation and a bounded modern control proposal."
+}

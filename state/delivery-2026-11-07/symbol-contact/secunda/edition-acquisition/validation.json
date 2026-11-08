@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "one_attempt": true,
+    "timeout25": true,
+    "explicit_failure": true,
+    "no_pdf_claimed": true,
+    "no_image_collation_claimed": true,
+    "no_pdf_file_created": true,
+    "prior_recovery_hash_unchanged": true
+  },
+  "all_passed": true,
+  "scope": "Acquisition/failure accounting only; original title/page/image inspection unrun"
+}

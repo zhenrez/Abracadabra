@@ -1,0 +1,72 @@
+{
+  "dryRun": true,
+  "input": {
+    "kind": "image",
+    "value": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\sunny-overview.png"
+  },
+  "from": "capture",
+  "to": "plan",
+  "candidates": 4,
+  "retain": {
+    "include": [
+      "assets",
+      "content"
+    ],
+    "exclude": [
+      "layout",
+      "style"
+    ],
+    "source": "subject"
+  },
+  "conversionModel": "standard",
+  "responsiveQuality": "standard",
+  "stages": [
+    {
+      "stage": "capture",
+      "paid": false,
+      "wouldBuy": "nothing — one local source-image normalization",
+      "priceCeilingUsd": 0
+    },
+    {
+      "stage": "draft",
+      "paid": true,
+      "wouldBuy": "1 hosted create plan and 4 draft image(s); corpus retrieval is free",
+      "priceCeilingUsd": 0.121
+    },
+    {
+      "stage": "pick",
+      "paid": false,
+      "wouldBuy": "nothing — copies one already-materialized candidate",
+      "priceCeilingUsd": 0
+    },
+    {
+      "stage": "branch",
+      "paid": false,
+      "wouldBuy": "nothing — skipped for --scope page",
+      "priceCeilingUsd": 0
+    },
+    {
+      "stage": "convert",
+      "paid": true,
+      "wouldBuy": "1 standard conversion and 1 standard responsive export",
+      "priceCeilingUsd": 0.55
+    },
+    {
+      "stage": "plan",
+      "paid": false,
+      "wouldBuy": "nothing — an unanchored local target plan",
+      "priceCeilingUsd": 0
+    },
+    {
+      "stage": "site",
+      "paid": false,
+      "wouldBuy": "nothing — skipped for --scope page",
+      "priceCeilingUsd": 0
+    }
+  ],
+  "priceCeilingUsdTotal": 0.671,
+  "pricingBasis": "Active billing catalog unit prices; each value is a pre-dispatch ceiling.",
+  "scope": "page",
+  "pages": [],
+  "note": "Nothing was captured in a browser, claimed, dispatched, or bought."
+}

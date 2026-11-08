@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Second start reuses exact process identity",
+      "passed": true
+    },
+    {
+      "check": "Exactly one windowless owned process; no console or child",
+      "passed": true
+    },
+    {
+      "check": "Alternate queue cannot start another worker",
+      "passed": true
+    },
+    {
+      "check": "Explicit shutdown leaves zero owned survivors",
+      "passed": true
+    },
+    {
+      "check": "Lease expiry closes worker without supervisor restarts",
+      "passed": true
+    }
+  ],
+  "last_identity": {
+    "pid": 33992,
+    "parent_pid": 29480,
+    "creation_utc": "2026-11-02T01:54:47.3620560Z",
+    "executable_path": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+    "command_sha256": "0ce57e8135c8bc9fce992bda407252a5f23e5aa12ea046321251e50263c321e4"
+  },
+  "scope": "Actual detached idle-worker start/reuse/global-exclusion/shutdown/lease. Synthetic lifecycle scope; scientific outputs checked separately.",
+  "final_status": {
+    "instance": "lifecycle-24000",
+    "owned_running": false,
+    "ownership": {
+      "schema": "sunny.background-ownership.v1",
+      "instance": "lifecycle-24000",
+      "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+      "script": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\scripts\\background_reconstruction.py",
+      "base": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\background\\lifecycle-24000",
+      "status": "started_owned",
+      "root_identity": {
+        "pid": 33992,
+        "parent_pid": 29480,
+        "creation_utc": "2026-11-02T01:54:47.3620560Z",
+        "executable_path": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+        "command_sha256": "0ce57e8135c8bc9fce992bda407252a5f23e5aa12ea046321251e50263c321e4"
+      },
+      "processes": [
+        {
+          "pid": 33992,
+          "parent_pid": 29480,
+          "creation_utc": "2026-11-02T01:54:47.3620560Z",
+          "executable_path": "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+          "command_sha256": "0ce57e8135c8bc9fce992bda407252a5f23e5aa12ea046321251e50263c321e4"
+        }
+      ],
+      "created_utc": "2026-11-02T01:54:47.6885037Z",
+      "stopped_utc": null
+    },
+    "worker": {
+      "schema": "sunny.background-worker.v1",
+      "pid": 33992,
+      "started_utc": "2026-11-02T01:54:47.487722+00:00",
+      "status": "stopped",
+      "current_job": null,
+      "completed_this_run": 0,
+      "attempted_this_run": 0,
+      "failed_this_run": 0,
+      "lease_seconds": 2,
+      "lease_deadline_utc": "2026-11-02T01:54:49.446124+00:00",
+      "code_sha256": "e873851f1b0a6a7272bf905edbc9183ad4985e28a549c9f0ac120bb9cd3e36b4",
+      "children_started": 0,
+      "guards": {
+        "superjev_sha256": "67fb4b348be367a62213febd45bff8b5f6bd0192203ad272a91dac24a2ee23c4",
+        "proofline_sha256": "6969274e69ef803f431bdd67f3c9d372a50a93f97c1a050b8c1c3f2464e5a2b6"
+      },
+      "scope": "One process, in-process bounded Jev/Proofline. Queue-driven source forensics and exact declared operator probes; no shell, browser, or arbitrary code handler.",
+      "updated_utc": "2026-11-02T01:54:47.489602+00:00",
+      "stopped_utc": "2026-11-02T01:55:02.491211+00:00",
+      "stop_reason": "lease_or_job_limit",
+      "model_budget": {
+        "schema": "sunny.background-model-budget.v1",
+        "maximum_requests": 256,
+        "reserved_or_completed_requests": 0,
+        "confirmed_network_calls": 0,
+        "legacy_confirmed_requests": 0,
+        "initialized_utc": "2026-11-02T01:54:30.653295+00:00",
+        "authorization": "Root explicitly authorized initial ceiling of256 actual Jev requests for current finite unattended24h lease. Operational bound, not a scientific score. No automatic reset."
+      }
+    }
+  }
+}

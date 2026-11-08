@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "request_sha256": "3611cb2da769ae831048217a5d354810b0ea4600cc7040976d6c07cd68c1ca8a",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "next_source_question": {
+      "type": "choice",
+      "probabilities": {
+        "latin_phonetic": 0.03,
+        "recitation_duration": 0.36,
+        "tiberian_context": 0.61
+      },
+      "winner": "tiberian_context",
+      "top_probability": 0.61,
+      "margin": 0.25
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 709,
+    "output_tokens": 52
+  },
+  "network_calls": 1,
+  "latency_ms": 247
+}

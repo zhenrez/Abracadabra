@@ -1,0 +1,88 @@
+{
+  "status": "judged",
+  "sha256": "3dc096e7d57a9a794c828cb7ebc6a485fed44d55f2878d6077ace82b729875c1",
+  "sequence": 36,
+  "previous_sha256": "6e14dfd7309f23c1f5decc7660c07ce95289f909949fcbcc98b7c94b0d426da9",
+  "purpose": "SUNNY source probe hash_binding/isolated",
+  "completed_at": "2026-10-31T01:18:14.363022+00:00",
+  "request_sha256": "914c3c71efe26d179519ec70db7e0c21ab6719a4b2b7574235ae0958da67ac02",
+  "request": {
+    "state": {
+      "probe": "Already-inspected source/integrity engineering diagnostic; no canonical domain action is authorized by this result.",
+      "observed": "Preserved file SHA256 exactly matches the hash named in an inherited W72 report.",
+      "source_role": "machine byte-hash observation; inherited report is a separate source",
+      "unverified": "Historical truth, scientific law and live-account completeness have not been established."
+    },
+    "questions": [
+      {
+        "id": "classification",
+        "type": "choice",
+        "question": "What does this exact file-hash match establish within the supplied evidence?",
+        "options": [
+          "Byte identity relative to the named hash",
+          "Every historical claim is true",
+          "All live-account material is complete"
+        ]
+      }
+    ]
+  },
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "classification",
+            "type": "choice",
+            "distribution": {
+              "0": 0.5060209631919861,
+              "1": 0.24881494045257568,
+              "2": 0.24516411125659943
+            },
+            "value": "0",
+            "description": "Byte identity relative to the named hash",
+            "top_probability": 0.5060209631919861,
+            "margin": 0.2572060227394104
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 3,
+      "input_path_tokens": 333,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 123,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 866.04
+    }
+  },
+  "server_info": {
+    "status": "ready",
+    "api_version": "agentjev.decision.v1",
+    "model": "AgentJev-0.6B",
+    "checkpoint": "agentjev-v1",
+    "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+    "types": [
+      "boolean",
+      "choice",
+      "score"
+    ],
+    "max_path_tokens": 2048,
+    "max_choice_candidates": 255,
+    "output_token_decoding": false,
+    "shared_prefix_compute": true,
+    "encoder": "auto",
+    "temperatures": {
+      "boolean": 1.0717734625362931,
+      "choice": 1.0352649238413776,
+      "score": 1.0717734625362931
+    },
+    "probability_semantics": "model distribution; domain calibration is not guaranteed"
+  },
+  "semantics": "Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible."
+}

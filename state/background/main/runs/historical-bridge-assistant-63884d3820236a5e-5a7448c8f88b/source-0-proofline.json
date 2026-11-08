@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:57:43.306568+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "54e37941dd0063c44b766bea0fc475497251732201a6048ae1cb360d0970af75"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "5d2f9659-311f-52ab-bbff-0b83a1911324",
+      "source_identity_sha256": "0e39eb45854a47962ee912adfc748b34c528d71cba4e419ab8effd0e3c83b370",
+      "source_version_id": "4d36fa02-eb5f-5020-8805-c36dabb6c7ea",
+      "version_number": 1,
+      "content": "I’ll try the primary workbook first and make only the new delta additions from the China–Vedic–Fludd music work. If that workbook chokes again, I’ll stop immediately and apply the same compact update to the secondary workbook instead—no repeated retries.",
+      "content_sha256": "63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba",
+      "content_length": 254,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "6f691f3ef16d72365bf987ec8bab5b41cd34166bf36a451cca0a904d7b87d994"
+    },
+    "chunks": [
+      {
+        "id": "737990d8-b8d7-5c27-b02d-da47538e7a39",
+        "source_node_hash": "6f691f3ef16d72365bf987ec8bab5b41cd34166bf36a451cca0a904d7b87d994",
+        "source_id": "5d2f9659-311f-52ab-bbff-0b83a1911324",
+        "source_version_id": "4d36fa02-eb5f-5020-8805-c36dabb6c7ea",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 254,
+        "start_line": 1,
+        "end_line": 1,
+        "content": "I’ll try the primary workbook first and make only the new delta additions from the China–Vedic–Fludd music work. If that workbook chokes again, I’ll stop immediately and apply the same compact update to the secondary workbook instead—no repeated retries.",
+        "content_sha256": "63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba",
+        "node_hash": "fb142b4fcf534099f33a33c4f3f51d32d2132276bcc241982347c88d4ae49c64"
+      }
+    ],
+    "citations": [
+      {
+        "id": "776f6f99-cc9c-57bf-8237-df3442dad4a1",
+        "source_node_hash": "6f691f3ef16d72365bf987ec8bab5b41cd34166bf36a451cca0a904d7b87d994",
+        "chunk_node_hashes": [
+          "fb142b4fcf534099f33a33c4f3f51d32d2132276bcc241982347c88d4ae49c64"
+        ],
+        "source_id": "5d2f9659-311f-52ab-bbff-0b83a1911324",
+        "source_version_id": "4d36fa02-eb5f-5020-8805-c36dabb6c7ea",
+        "start_offset": 0,
+        "end_offset": 254,
+        "start_line": 1,
+        "end_line": 1,
+        "quote": "I’ll try the primary workbook first and make only the new delta additions from the China–Vedic–Fludd music work. If that workbook chokes again, I’ll stop immediately and apply the same compact update to the secondary workbook instead—no repeated retries.",
+        "quote_sha256": "63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba",
+        "node_hash": "03b8e923ebc9b5a3c5d783a5ca4160499e25d86385147eb94ca7f0fef4c5aef4"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "6f691f3ef16d72365bf987ec8bab5b41cd34166bf36a451cca0a904d7b87d994",
+        "fb142b4fcf534099f33a33c4f3f51d32d2132276bcc241982347c88d4ae49c64",
+        "03b8e923ebc9b5a3c5d783a5ca4160499e25d86385147eb94ca7f0fef4c5aef4"
+      ],
+      "node_hash": "e8f4c69f88a9a016cc109d288fe184a47ced737cf9ce9a50f0555bdca75d62e3"
+    },
+    "artifact": {
+      "id": "47a15df4-bdf8-503a-a831-208d289bf804",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba/text.txt; original SHA256 63884d3820236a5edf0b693b726967b75dd3753adb2675937297dc21ac6263ba; physical source lines 1..1. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "e8f4c69f88a9a016cc109d288fe184a47ced737cf9ce9a50f0555bdca75d62e3",
+      "citation_node_hashes": [
+        "03b8e923ebc9b5a3c5d783a5ca4160499e25d86385147eb94ca7f0fef4c5aef4"
+      ],
+      "node_hash": "40e97287e93eb66a9ef4655c7f008fced4fce6b8c846fa9450c929e2a6687141"
+    },
+    "review": {
+      "artifact_node_hash": "40e97287e93eb66a9ef4655c7f008fced4fce6b8c846fa9450c929e2a6687141",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:57:43.306568+00:00",
+      "updated_at": "2026-11-02T01:57:43.306568+00:00",
+      "node_hash": "5cd9b34a72b01dd9623a403de6b59db3bbf385d710c394e98ebfbdc01a6e2f61"
+    }
+  }
+}

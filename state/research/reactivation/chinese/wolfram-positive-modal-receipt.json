@@ -1,0 +1,18 @@
+{
+  "tool": "mcp__codex_apps__wolfram_wolframlanguageevaluator",
+  "request": {
+    "code": "Module[{f={1,2187/2048,9/8,243/128},r={1,81/64,3/2,27/16},g={1,27/16,3/2,9/8},k={0,-1,-1,0},a},<|\"TonicRatiosBeforeOctaveSection\"->Together[f/r],\"ExactReconstruction\"->(Together[f-g*r*2^k]==={0,0,0,0}),\"AllTwelveOriginsSatisfy\"->And@@Flatten[Table[Mod[({a,a+9,a+7,a+2}+{0,4,7,9})-{a,a+1,a+2,a+11},12]==={0,0,0,0},{a,0,11}]],\"TwoOptionalLiftResiduals\"->{Together[(128/81)/(6561/4096)],Together[(16/9)/(59049/32768)]}|>]",
+    "timeConstraint": 15
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Out[1]= <|\"TonicRatiosBeforeOctaveSection\" -> {1, 27/32, 3/4, 9/8}, \"ExactReconstruction\" -> True, \"AllTwelveOriginsSatisfy\" -> True, \"TwoOptionalLiftResiduals\" -> {524288/531441, 524288/531441}|>"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "scope": "Exact conditional separate-mode family and ideal rational lift checks; expected source proposal already exposed."
+}

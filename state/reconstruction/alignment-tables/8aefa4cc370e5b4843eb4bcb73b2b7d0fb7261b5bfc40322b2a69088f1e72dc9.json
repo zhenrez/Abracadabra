@@ -1,0 +1,72 @@
+{
+  "id": "alignment-table-8aefa4cc370e5b48",
+  "content_sha256": "8aefa4cc370e5b4843eb4bcb73b2b7d0fb7261b5bfc40322b2a69088f1e72dc9",
+  "headers": [
+    "SOL structure",
+    "Test",
+    "Result",
+    "Disposition"
+  ],
+  "rows": [
+    [
+      "Sierpinski tetrahedron",
+      "Dyadic box-counting",
+      "$D=2$",
+      "**PASS** for the defined fractal construction"
+    ],
+    [
+      "W72 represented as a 12×6 toroidal cell complex",
+      "Euler characteristic and homology",
+      "$\\chi=0,\\ \\beta=(1,2,1)$",
+      "**PASS** for this particular topology"
+    ],
+    [
+      "W72 represented as an unfilled graph",
+      "Graph homology",
+      "$\\beta=(1,73)$",
+      "**Different valid topology**"
+    ],
+    [
+      "Primordial $0,1,1,2,3,5,8,13$",
+      "Fibonacci recurrence",
+      "6/6",
+      "**PASS** as a finite recurrence"
+    ],
+    [
+      "Primordial axis",
+      "Hurst exponent",
+      "Insufficient valid sample",
+      "**NOT EVALUABLE**"
+    ],
+    [
+      "Śrī Yantra",
+      "Euler characteristic and fractal dimension",
+      "Missing incidence geometry",
+      "**NOT EVALUABLE**"
+    ],
+    [
+      "72 / 288 / 144,000",
+      "Poisson clustering",
+      "Only aggregate counts supplied",
+      "**NOT EVALUABLE**"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 5750,
+      "line_end": 5758,
+      "char_start": 304444,
+      "char_end": 305284,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| SOL structure | Test | Result | Disposition |\n|--------|--------|--------|--------|\n| Sierpinski tetrahedron | Dyadic box-counting | $D=2$ | **PASS** for the defined fractal construction |\n| W72 represented as a 12×6 toroidal cell complex | Euler characteristic and homology | $\\chi=0,\\ \\beta=(1,2,1)$ | **PASS** for this particular topology |\n| W72 represented as an unfilled graph | Graph homology | $\\beta=(1,73)$ | **Different valid topology** |\n| Primordial $0,1,1,2,3,5,8,13$ | Fibonacci recurrence | 6/6 | **PASS** as a finite recurrence |\n| Primordial axis | Hurst exponent | Insufficient valid sample | **NOT EVALUABLE** |\n| Śrī Yantra | Euler characteristic and fractal dimension | Missing incidence geometry | **NOT EVALUABLE** |\n| 72 / 288 / 144,000 | Poisson clustering | Only aggregate counts supplied | **NOT EVALUABLE** |\n",
+      "quote_sha256": "a41e5c681610d4048d387d7faea239f17fb5190f0cfbd74ce8c89c8669a5461f",
+      "message_id": "a6378d006b9ce3f059b986663403464a22f0933a5480aa7d86170b94f7ab152e",
+      "role": "assistant",
+      "locator": "lines:5750-5758"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-0d904f2dc6e30881",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:55:22.994825+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f/text.txt",
+        "sha256": "0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "2f9276f247a72a74b968bfb6905e84067ebf608810acb9ffbb8cde3c87a5e1b8",
+        "timestamp": "1788391997.491882",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "2f9276f247a72a74b968bfb6905e84067ebf608810acb9ffbb8cde3c87a5e1b8",
+          "native_id": "71ecd6bf-542c-448b-9732-b5951e9face1",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/71ecd6bf-542c-448b-9732-b5951e9face1/message",
+          "create_time": "1788391997.491882",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f/occurrences-2f82a83777835928f071d1fd4e70d302158be8a2034e46b30f2b77f0fbcc9691.json",
+        "quote": "I pulled the actual *Completed Harmony* paper. You’re right about what we had established **inside this research program**: the proposed completion is not metaphorical. Kepler supplies the moving extrema/continuous planetary “melody”; Fludd supplies the fixed frequency/tuning scaffold—the paper literally summarizes it as **Kepler = Time/Motion, Fludd = State/Frequency**.  ",
+        "quote_sha256": "0d904f2dc6e30881ddc518b60840414fcb4945920410eb5d3dcec67e228d634f",
+        "original_bytes": 383,
+        "start_offset": 0,
+        "end_offset": 375
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "caf243bddd0bd4aff96374ff112a439dcdd64b05c03394a2d30373cd3ef670d5",
+        "artifact_id": "a45b6b45-2828-53f7-801c-810f4a2c18e6",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.07,
+            "refines": 0.16,
+            "supports": 0.76
+          },
+          "winner": "supports",
+          "top_probability": 0.76,
+          "margin": 0.6
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 1.0,
+            "refines": 0.0,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 1.0,
+          "margin": 1.0
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.262,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

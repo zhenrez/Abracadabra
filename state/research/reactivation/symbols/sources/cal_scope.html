@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What is CAL? — The Comprehensive Aramaic Lexicon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cream:       #f5f0e8;
+    --cream-dark:  #ece5d5;
+    --ink:         #1c1610;
+    --ink-mid:     #3d3020;
+    --ink-light:   #6b5840;
+    --gold:        #8b6914;
+    --gold-light:  #b8960e;
+    --gold-pale:   #e8d8a0;
+    --rule-strong: #8b691466;
+    --link:        #2a4a7f;
+    --link-hover:  #1a3060;
+  }
+
+  body {
+    background-color: var(--cream);
+    color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+      0deg, transparent, transparent 3px,
+      rgba(139,105,20,0.018) 3px, rgba(139,105,20,0.018) 4px
+    );
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .page-wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  /* ─── SITE HEADER ─── */
+  .site-header {
+    text-align: center;
+    border-bottom: 1px solid var(--rule-strong);
+    padding-bottom: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+  .site-header::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    margin-top: 0.4rem;
+  }
+  .site-header a { text-decoration: none; }
+  .site-header img {
+    max-height: 72px;
+    width: auto;
+    margin-bottom: 0.6rem;
+  }
+  .site-name {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(0.85rem, 2.5vw, 1rem);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--ink-mid);
+    text-decoration: none;
+    display: block;
+  }
+
+  /* ─── PAGE TITLE ─── */
+  .page-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    color: var(--ink);
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+
+  /* ─── PROSE ─── */
+  .prose h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    letter-spacing: 0.06em;
+    color: var(--ink-mid);
+    margin-top: 2.2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+
+  .prose p {
+    margin-bottom: 1.1rem;
+    font-size: clamp(16px, 2.5vw, 18px);
+  }
+
+  .prose a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--link);
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .prose a:hover {
+    color: var(--link-hover);
+    border-bottom-style: solid;
+  }
+
+  .prose em { font-style: italic; }
+
+  /* inline pub-link card */
+  .pub-link {
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--ink-mid);
+    border: 1px solid var(--rule-strong);
+    padding: 0.3rem 0.75rem;
+    margin-bottom: 0.8rem;
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .pub-link:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  /* citation block */
+  .cite-block {
+    border-left: 3px solid var(--gold-pale);
+    background: rgba(232, 216, 160, 0.15);
+    padding: 0.8rem 1.1rem;
+    margin: 1rem 0 1.1rem;
+    font-size: clamp(15px, 2.2vw, 16px);
+    color: var(--ink-mid);
+    font-style: italic;
+  }
+  .cite-block em { font-style: normal; }
+
+  /* ─── FOOTER NAV ─── */
+  .page-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule-strong);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .back-link {
+    font-family: 'Cinzel', serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .back-link:hover { border-bottom-color: var(--link); }
+
+  .contact-line {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.82rem;
+    color: var(--ink-light);
+  }
+  .contact-line a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--link);
+  }
+  .contact-line a:hover { border-bottom-style: solid; }
+
+  .ornament {
+    text-align: center;
+    color: var(--gold);
+    font-size: 1rem;
+    letter-spacing: 0.5em;
+    margin: 2rem 0 0;
+    user-select: none;
+    width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    .page-wrap { padding: 1.8rem 1.1rem 3rem; }
+    .page-footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <header class="site-header">
+    <a href="main_index.html">
+      <img src="gifs/Cal0001.GIF" alt="CAL Logo">
+      <span class="site-name">The Comprehensive Aramaic Lexicon</span>
+    </a>
+  </header>
+
+  <h1 class="page-title">What is CAL?</h1>
+
+  <article class="prose">
+
+    <p>A new dictionary of the Aramaic language, entitled
+    <a href="http://cal.huc.edu"><em>The Comprehensive Aramaic Lexicon</em></a>,
+    is currently in preparation by an international team of scholars,
+    with headquarters at the <a href="http://www.huc.edu">Hebrew Union College</a>
+    in Cincinnati, Ohio USA. This major scholarly reference work covers all dialects
+    and periods of two millennia of ancient Aramaic, one of the principal languages of
+    antiquity, with a literature of central importance for history and civilization,
+    and especially for the Jewish and Christian religions.</p>
+
+    <h2>Why a New Lexicon?</h2>
+
+    <p>Many dictionaries of some part of Aramaic exist, but individually and as a whole
+    they are inadequate in important ways. Lexical treatment of Aramaic has been
+    fragmented. Existing dictionaries treat one dialect, or one body of literature,
+    but not the whole language. It is as though we had a dictionary of Shakespeare,
+    and one of Hemingway, without having a dictionary of English! An additional hurdle
+    in the path of users is that Aramaic dictionaries are written in an imposing variety
+    of living and dead languages: not only English but also German, French, Russian, and
+    Latin! Many of the existing dictionaries do not come up to modern standards of
+    accuracy, and practically all are seriously incomplete and out-of-date. Practically
+    every area of Aramaic studies has been enriched by recent discoveries: new
+    inscriptions, new papyri, new scrolls and codices. Such recently discovered
+    materials demand inclusion in a lexicon.</p>
+
+    <h2>A <em>Comprehensive</em> Lexicon</h2>
+
+    <p>The new lexicon is <em>comprehensive</em> in the following ways: 1)&nbsp;it
+    includes all of ancient Aramaic, not just selected portions; 2)&nbsp;it is based
+    on a new and thorough compilation of all Aramaic literature, not just on existing
+    dictionaries; 3)&nbsp;it takes into account modern scholarly discussion of the
+    Aramaic language.</p>
+
+    <h2>Publication</h2>
+
+    <a href="cal_publications.html" class="pub-link">View current list of publications</a>
+
+    <p>When the project was conceived in the mid-1980s, we hoped to publish the Lexicon
+    in book form as a multi-volume set. In addition, the work of the project has led to
+    the compilation of textual, lexical, and bibliographic databases. Leading up to the
+    lexicon volumes there have been and will continue to be a series of preparatory
+    monographs, consisting of dialect dictionaries, manuals of procedure for the project,
+    editions of texts with concordances, bibliographies, and the like. Our primary
+    publishers have been the
+    <a href="http://www.press.jhu.edu/press/index.html">Johns Hopkins University Press</a>
+    and Eisenbrauns.</p>
+
+    <p>With the rapid development of Web technology since the onset of the project, and
+    limited funds, it soon became clear that development of a WWW site was a greater
+    contribution to scholarship than a printed volume would be at this stage. The many
+    advantages of the online site over a printed dictionary are detailed
+    <a href="/advantages.htm">elsewhere</a>.</p>
+
+    <h2>Project Support</h2>
+
+    <p>The Comprehensive Aramaic Lexicon originally received substantial support in the
+    form of outright grants and federal matching funds from the
+    <a href="https://www.neh.gov/">National Endowment for the Humanities</a>,
+    and has also been supported in part by private contributions. Outside support is
+    particularly needed at this crucial stage of citation collection. Regular donations can be submitted via PayPal to skaufman@huc.edu; for major donations to HUC in support of the project with a receipt for tax purposes please contact us via email.</p>
+
+    <h2>The Online Web Site</h2>
+
+    <p>The current web site is a tool for scholarly research. It presumes that users are
+    already familiar with the materials they are researching, and should not be
+    misinterpreted as being a complete lexicon at this stage. Any scholarly citations of
+    data from the CAL should include the date of the search results and cite the CAL as:</p>
+
+    <div class="cite-block">
+      Stephen A. Kaufman, et al., <em>The Comprehensive Aramaic Lexicon</em>
+      (https://cal.huc.edu)
+    </div>
+
+  </article>
+
+  <footer class="page-footer">
+    <a href="main_index.html" class="back-link">← Back to CAL Home</a>
+    <p class="contact-line">
+      Further information: <a href="mailto:skaufman@huc.edu">Prof. S. Kaufman</a>
+    </p>
+    <div class="ornament">· · ✦ · ·</div>
+  </footer>
+
+</div>
+</body>
+</html>

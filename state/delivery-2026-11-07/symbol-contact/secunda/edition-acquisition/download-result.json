@@ -1,0 +1,21 @@
+{
+  "started_at_utc": "2026-11-07T22:27:28.748548+00:00",
+  "attempt_limit": 2,
+  "attempts": [
+    {
+      "attempt": 1,
+      "url": "https://repository.sbts.edu/bitstream/handle/10392/6977/CarreraCompanioni_sbts_0207D_10773.pdf?isAllowed=y&sequence=1",
+      "timeout_seconds": 25,
+      "allow_redirects": false,
+      "status": "REQUEST_FAILED",
+      "exception_type": "ConnectionError",
+      "exception": "HTTPSConnectionPool(host='repository.sbts.edu', port=443): Max retries exceeded with url: /bitstream/handle/10392/6977/CarreraCompanioni_sbts_0207D_10773.pdf?isAllowed=y&sequence=1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001E6F94041A0>: Failed to resolve 'repository.sbts.edu' ([Errno 11001] getaddrinfo failed)\"))",
+      "elapsed_seconds": 0.005
+    }
+  ],
+  "original_pdf_acquired": false,
+  "manuscript_image_collated": false,
+  "prior_recovery_overwritten": false,
+  "finished_at_utc": "2026-11-07T22:27:28.753976+00:00",
+  "remaining_attempt_policy": "Second attempt permitted only if an actual redirect or metadata supplies an exact current server/api/core/bitstreams identifier; no identifier inferred."
+}

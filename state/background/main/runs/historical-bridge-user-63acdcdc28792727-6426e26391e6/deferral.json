@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-f05e375ae52a41f38ee416d9014cc62a.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-bridge-user-63acdcdc28792727",
+    "kind": "source_forensics",
+    "track": "bridge",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/63acdcdc2879272729fe00cc5d4cf59d0bfa3187c08d31e458daaaa0cbb6a87a/text.txt",
+        "sha256": "63acdcdc2879272729fe00cc5d4cf59d0bfa3187c08d31e458daaaa0cbb6a87a",
+        "start_line": 1,
+        "end_line": 8,
+        "source_role": "user",
+        "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+        "message_id": "0c708eb5963e25f529dbb948bb4523b0c34efa26a71707f6264fe9a8339745b8",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "0c708eb5963e25f529dbb948bb4523b0c34efa26a71707f6264fe9a8339745b8",
+          "native_id": "76",
+          "conversation_id": "510a06ebaaf4efe9ae86b45fd9a7ef26913482681ec8c92f19f0895056ad1e2a",
+          "role": "user",
+          "content_sha256": "63acdcdc2879272729fe00cc5d4cf59d0bfa3187c08d31e458daaaa0cbb6a87a",
+          "source_id": "7d5a026c9df7d3fdf06382c966729a7cf3da22dbc4a1276c9f809f7a139ce965",
+          "locator": "lines:13150-13160",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Comparative Research Protocol",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Comparative Research Protocol-20261030-1502.md",
+          "source_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+          "source_kind": "recovered_current_research",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/63acdcdc2879272729fe00cc5d4cf59d0bfa3187c08d31e458daaaa0cbb6a87a/occurrences-fd8111b6939aeb2582aec4ab8f576361b55592194da2c83d964b8bb1b04e6621.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-bridge-operation",
+        "statement": "This passage explicitly specifies whether or how Completed Harmony, Kepler/Fludd monochord logic, or a Tree-of-Life adapter is used, withheld, or compared in its stated musical experiment."
+      },
+      {
+        "id": "native-carrier-relation",
+        "statement": "This passage explicitly relates distinct Western and Chinese musical constructions at a named comparison or adapter level, while retaining their source-native distinctions."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:52.254638+00:00"
+}

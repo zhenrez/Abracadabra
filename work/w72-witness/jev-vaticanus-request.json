@@ -1,0 +1,18 @@
+{
+  "state": {
+    "goal": "Transcribe Vaticanus Exodus14:19-21 from actual image and run native Greek count; compare only surviving DSS letters. User rejected repository/Git framing.",
+    "observed": "Masoretica locator points to page64, sequence0068 and labels displayed text as Rahlfs reference, not Vaticanus transcription. Official manifest identifies p0068 label64. Official viewer screenshot displays passage. Need avoid modern text substitution and distinguish first hand/corrections.",
+    "acceptance": "Exact image/page/column/line; no invented letters; declared abbreviation policy; frozen W72 unchanged; blind test unrun."
+  },
+  "questions": {
+    "next": {
+      "type": "choice",
+      "instructions": "Choose the bounded evidence route to satisfy the current explicit next research unit.",
+      "criteria": {
+        "image_then_edition": "Read target from official image, cross-check an explicitly Vaticanus-based printed edition/apparatus; record unresolved hand distinctions and count only declared layers.",
+        "edition_then_image": "Locate Vaticanus-based edition and apparatus first, then independently collate the official image before accepting manuscript readings.",
+        "dss_then_greek": "First collate securely surviving DSS letters; resume Vaticanus counts after that bounded comparator."
+      }
+    }
+  }
+}

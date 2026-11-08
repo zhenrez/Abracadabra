@@ -1,0 +1,6631 @@
+{
+  "start": {
+    "source": "2adcbb267221487e5b1ab2d322d3ef73bc1ea6b8f24f9306b85a37c1554bf943",
+    "dist": "2b916898d6b6fac14beda45b0cd3faa064411ca90e2eaa3adfcbfaf1ab47fe8e"
+  },
+  "finish": {
+    "source": "2adcbb267221487e5b1ab2d322d3ef73bc1ea6b8f24f9306b85a37c1554bf943",
+    "dist": "2b916898d6b6fac14beda45b0cd3faa064411ca90e2eaa3adfcbfaf1ab47fe8e"
+  },
+  "output": [
+    {
+      "id": "Molin-admitted-two-row",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input",
+          "mode"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a",
+              "pausal"
+            ],
+            "outputs": [
+              "ɔː",
+              "eː"
+            ],
+            "rowIds": [
+              "keep",
+              "eat"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [
+          {
+            "left": "keep",
+            "right": "eat",
+            "input": [
+              "a",
+              "pausal"
+            ],
+            "outputs": [
+              "ɔː",
+              "eː"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        [
+          "lexeme"
+        ],
+        [
+          "onset"
+        ],
+        [
+          "comparandum"
+        ]
+      ],
+      "query": {
+        "rowIds": [
+          "keep"
+        ],
+        "outputs": [
+          "ɔː"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "keep",
+              "input": "a",
+              "output": "eː"
+            },
+            "leftRowIds": [
+              "keep"
+            ],
+            "rightRowIds": [
+              "eat"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "eat",
+              "input": "a",
+              "output": "ɔː"
+            },
+            "leftRowIds": [
+              "eat"
+            ],
+            "rightRowIds": [
+              "keep"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "duplicate-occurrences",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "ɔː",
+              "eː"
+            ],
+            "rowIds": [
+              "keep",
+              "eat",
+              "keep-again"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [
+          {
+            "left": "keep",
+            "right": "eat",
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "ɔː",
+              "eː"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        [
+          "lexeme"
+        ],
+        [
+          "onset"
+        ],
+        [
+          "comparandum"
+        ]
+      ],
+      "query": {
+        "rowIds": [
+          "keep",
+          "keep-again"
+        ],
+        "outputs": [
+          "ɔː"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "keep",
+              "input": "a",
+              "output": "eː"
+            },
+            "leftRowIds": [
+              "keep",
+              "keep-again"
+            ],
+            "rightRowIds": [
+              "eat"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "eat",
+              "input": "a",
+              "output": "ɔː"
+            },
+            "leftRowIds": [
+              "eat"
+            ],
+            "rightRowIds": [
+              "keep",
+              "keep-again"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "null-and-missing",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "ɔː",
+              "eː"
+            ],
+            "rowIds": [
+              "keep",
+              "eat"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "null",
+          "missing"
+        ],
+        "counterexamples": [
+          {
+            "left": "keep",
+            "right": "eat",
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "ɔː",
+              "eː"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "keep",
+          "null",
+          "missing"
+        ],
+        "outputs": [
+          "ɔː"
+        ],
+        "unresolvedRows": [
+          "null",
+          "missing"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "keep",
+              "input": "a",
+              "output": "eː"
+            },
+            "leftRowIds": [
+              "keep"
+            ],
+            "rightRowIds": [
+              "eat"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "eat",
+              "input": "a",
+              "output": "ɔː"
+            },
+            "leftRowIds": [
+              "eat"
+            ],
+            "rightRowIds": [
+              "keep"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "null",
+          "missing"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "empty-string-known",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "empty"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [
+          "empty"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "unicode-exact",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "one"
+            ],
+            "rowIds": [
+              "greek"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "two"
+            ],
+            "rowIds": [
+              "latin"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [
+          "greek"
+        ],
+        "outputs": [
+          "one"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "prototype-keys",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "constructor"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "ctor"
+            ],
+            "outputs": [
+              "yes",
+              "no"
+            ],
+            "rowIds": [
+              "one",
+              "two"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [
+          {
+            "left": "one",
+            "right": "two",
+            "input": [
+              "ctor"
+            ],
+            "outputs": [
+              "yes",
+              "no"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        [
+          "__proto__"
+        ]
+      ],
+      "query": {
+        "rowIds": [
+          "one"
+        ],
+        "outputs": [
+          "yes"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "constructor",
+          "__proto__",
+          "output"
+        ],
+        "common": [
+          "constructor"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "constructor": "ctor",
+              "__proto__": "literal",
+              "output": "no"
+            },
+            "leftRowIds": [
+              "one"
+            ],
+            "rightRowIds": [
+              "two"
+            ]
+          },
+          {
+            "values": {
+              "constructor": "ctor",
+              "__proto__": "other",
+              "output": "yes"
+            },
+            "leftRowIds": [
+              "two"
+            ],
+            "rightRowIds": [
+              "one"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "empty-relation",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-0",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "0-0",
+          "0-1",
+          "0-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "0-0",
+          "0-1"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "0-0",
+          "0-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "0-0",
+          "0-1",
+          "0-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-1",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x",
+              ""
+            ],
+            "rowIds": [
+              "1-0",
+              "1-5"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "1-1"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "1-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "1-2",
+          "1-3"
+        ],
+        "counterexamples": [
+          {
+            "left": "1-0",
+            "right": "1-5",
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x",
+              ""
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "1-0"
+        ],
+        "outputs": [
+          "x"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 4,
+        "rejoinedDistinctTuples": 6,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "χ",
+              "input": "",
+              "output": ""
+            },
+            "leftRowIds": [
+              "1-0"
+            ],
+            "rightRowIds": [
+              "1-5"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "x",
+              "input": "",
+              "output": "x"
+            },
+            "leftRowIds": [
+              "1-5"
+            ],
+            "rightRowIds": [
+              "1-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "1-2",
+          "1-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-2",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "2-0",
+              "2-2"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "2-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "2-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "2-0",
+          "2-1",
+          "2-2",
+          "2-3"
+        ],
+        "outputs": [
+          "x",
+          "a",
+          "χ"
+        ],
+        "unresolvedRows": [
+          "2-0",
+          "2-1",
+          "2-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "2-0",
+          "2-1",
+          "2-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-3",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "3-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "3-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "3-0"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "3-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "3-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-4",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "4-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "4-0"
+        ],
+        "outputs": [
+          "b"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "4-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-5",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "5-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "5-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "5-0",
+          "5-1"
+        ],
+        "outputs": [
+          "b",
+          ""
+        ],
+        "unresolvedRows": [
+          "5-0",
+          "5-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "5-0",
+          "5-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-6",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "6-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "6-0",
+          "6-1",
+          "6-2",
+          "6-4",
+          "6-5"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "6-1",
+          "6-2"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "6-1",
+          "6-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "6-0",
+          "6-1",
+          "6-2",
+          "6-4",
+          "6-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-7",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "7-0",
+          "7-1",
+          "7-2",
+          "7-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "7-1"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "7-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "7-0",
+          "7-1",
+          "7-2",
+          "7-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-8",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "8-1"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "8-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "8-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "8-0"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "8-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-9",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "9-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-10",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "10-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-11",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "11-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "11-0",
+          "11-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "11-0",
+          "11-2"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "11-0",
+          "11-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "11-0",
+          "11-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-12",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "12-1"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "12-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "12-0",
+          "12-2",
+          "12-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "12-0",
+          "12-2",
+          "12-3",
+          "12-4"
+        ],
+        "outputs": [
+          "x",
+          "a"
+        ],
+        "unresolvedRows": [
+          "12-0",
+          "12-3",
+          "12-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "12-0",
+          "12-2",
+          "12-3",
+          "12-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-13",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "13-1"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "13-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "13-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "13-0",
+          "13-1"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "13-0",
+          "13-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "13-0",
+          "13-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-14",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "14-0"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "14-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "14-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "14-1"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "14-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "14-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-15",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "15-0"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "15-2"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "15-4"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "15-5"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "15-1",
+          "15-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "15-2"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [
+          "15-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "15-1",
+          "15-2",
+          "15-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-16",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "16-0",
+          "16-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "16-0",
+          "16-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-17",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "17-1"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "17-3"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "17-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "17-0",
+          "17-2",
+          "17-5",
+          "17-6"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "17-3",
+          "17-4",
+          "17-5"
+        ],
+        "outputs": [
+          "x",
+          "χ"
+        ],
+        "unresolvedRows": [
+          "17-4",
+          "17-5"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "17-0",
+          "17-2",
+          "17-4",
+          "17-5",
+          "17-6"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-18",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "18-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [
+          "18-0"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-19",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "19-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-20",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "a",
+              "χ"
+            ],
+            "rowIds": [
+              "20-0",
+              "20-3"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "20-1"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "20-6"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "20-2",
+          "20-4",
+          "20-5"
+        ],
+        "counterexamples": [
+          {
+            "left": "20-0",
+            "right": "20-3",
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "a",
+              "χ"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "20-3",
+          "20-5",
+          "20-6"
+        ],
+        "outputs": [
+          "χ",
+          "x"
+        ],
+        "unresolvedRows": [
+          "20-3",
+          "20-5",
+          "20-6"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "20-2",
+          "20-3",
+          "20-4",
+          "20-5",
+          "20-6"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-21",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "21-0"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "21-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "21-1",
+          "21-2",
+          "21-4"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "21-2",
+          "21-3",
+          "21-4"
+        ],
+        "outputs": [
+          "a",
+          "x"
+        ],
+        "unresolvedRows": [
+          "21-3",
+          "21-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "21-1",
+          "21-2",
+          "21-3",
+          "21-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-22",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a",
+              "χ"
+            ],
+            "rowIds": [
+              "22-0",
+              "22-1",
+              "22-4"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "22-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "22-3"
+        ],
+        "counterexamples": [
+          {
+            "left": "22-0",
+            "right": "22-1",
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a",
+              "χ"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "22-1",
+          "22-2",
+          "22-4"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "22-2",
+          "22-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "a",
+              "input": "χ",
+              "output": "χ"
+            },
+            "leftRowIds": [
+              "22-0"
+            ],
+            "rightRowIds": [
+              "22-1"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "",
+              "input": "χ",
+              "output": "a"
+            },
+            "leftRowIds": [
+              "22-1"
+            ],
+            "rightRowIds": [
+              "22-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "22-2",
+          "22-3",
+          "22-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-23",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "23-0"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "23-3"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "23-5"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "23-1",
+          "23-2",
+          "23-4"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "23-5"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "23-5"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "23-1",
+          "23-2",
+          "23-4",
+          "23-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-24",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "24-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "24-0"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "24-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "24-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-25",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "25-1"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "25-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "25-0",
+          "25-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "25-1",
+          "25-2",
+          "25-3"
+        ],
+        "outputs": [
+          "b",
+          "x"
+        ],
+        "unresolvedRows": [
+          "25-1",
+          "25-2",
+          "25-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "25-0",
+          "25-1",
+          "25-2",
+          "25-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-26",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "",
+              "b"
+            ],
+            "rowIds": [
+              "26-0",
+              "26-2"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "26-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "26-3"
+        ],
+        "counterexamples": [
+          {
+            "left": "26-0",
+            "right": "26-2",
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "",
+              "b"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "26-1"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [
+          "26-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "x",
+              "input": "",
+              "output": "b"
+            },
+            "leftRowIds": [
+              "26-0"
+            ],
+            "rightRowIds": [
+              "26-2"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "χ",
+              "input": "",
+              "output": ""
+            },
+            "leftRowIds": [
+              "26-2"
+            ],
+            "rightRowIds": [
+              "26-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "26-1",
+          "26-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-27",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a",
+              "b"
+            ],
+            "rowIds": [
+              "27-1",
+              "27-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "27-0",
+          "27-2",
+          "27-4"
+        ],
+        "counterexamples": [
+          {
+            "left": "27-1",
+            "right": "27-3",
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a",
+              "b"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "27-1",
+          "27-4"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [
+          "27-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "",
+              "input": "a",
+              "output": "b"
+            },
+            "leftRowIds": [
+              "27-1"
+            ],
+            "rightRowIds": [
+              "27-3"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "x",
+              "input": "a",
+              "output": "a"
+            },
+            "leftRowIds": [
+              "27-3"
+            ],
+            "rightRowIds": [
+              "27-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "27-0",
+          "27-2",
+          "27-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-28",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "28-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "28-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-29",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "29-0"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "29-1"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "29-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "29-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "29-3"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "29-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "29-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-30",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "30-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-31",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "31-0"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "31-1"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "31-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "31-2",
+          "31-4"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "31-0",
+          "31-4"
+        ],
+        "outputs": [
+          "b"
+        ],
+        "unresolvedRows": [
+          "31-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "31-2",
+          "31-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-32",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "32-2"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "32-5"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "32-0",
+          "32-1",
+          "32-3",
+          "32-4",
+          "32-6"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "32-1"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "32-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "32-0",
+          "32-1",
+          "32-3",
+          "32-4",
+          "32-6"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-33",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "33-1"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "33-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "33-0",
+          "33-2",
+          "33-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "33-2",
+          "33-4"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "33-2",
+          "33-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "33-0",
+          "33-2",
+          "33-3",
+          "33-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-34",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ",
+              "a"
+            ],
+            "rowIds": [
+              "34-1",
+              "34-2"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "34-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "34-0",
+          "34-4"
+        ],
+        "counterexamples": [
+          {
+            "left": "34-1",
+            "right": "34-2",
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ",
+              "a"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "34-3",
+          "34-4"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "34-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 5,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "χ",
+              "input": "a",
+              "output": "a"
+            },
+            "leftRowIds": [
+              "34-1"
+            ],
+            "rightRowIds": [
+              "34-2"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "x",
+              "input": "a",
+              "output": "χ"
+            },
+            "leftRowIds": [
+              "34-2"
+            ],
+            "rightRowIds": [
+              "34-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "34-0",
+          "34-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-35",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "35-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "35-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "35-1"
+        ],
+        "outputs": [
+          "b"
+        ],
+        "unresolvedRows": [
+          "35-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "35-0",
+          "35-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-36",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "36-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-37",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x",
+              "χ"
+            ],
+            "rowIds": [
+              "37-0",
+              "37-4"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "χ",
+              "a"
+            ],
+            "rowIds": [
+              "37-2",
+              "37-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "37-1"
+        ],
+        "counterexamples": [
+          {
+            "left": "37-0",
+            "right": "37-4",
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x",
+              "χ"
+            ]
+          },
+          {
+            "left": "37-2",
+            "right": "37-3",
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "χ",
+              "a"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 4,
+        "rejoinedDistinctTuples": 6,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "x",
+              "input": "",
+              "output": "a"
+            },
+            "leftRowIds": [
+              "37-2"
+            ],
+            "rightRowIds": [
+              "37-3"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "b",
+              "input": "",
+              "output": "χ"
+            },
+            "leftRowIds": [
+              "37-3"
+            ],
+            "rightRowIds": [
+              "37-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "37-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-38",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "38-0"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "38-2"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "38-3"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "38-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "38-1",
+          "38-5",
+          "38-6"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "38-1",
+          "38-6"
+        ],
+        "outputs": [
+          "",
+          "a"
+        ],
+        "unresolvedRows": [
+          "38-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 4,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "38-1",
+          "38-5",
+          "38-6"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-39",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "39-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "39-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "39-0"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "39-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-40",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "40-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-41",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "41-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "41-0"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "41-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "41-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-42",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "42-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "42-0",
+          "42-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "42-0",
+          "42-1",
+          "42-2"
+        ],
+        "outputs": [
+          "x"
+        ],
+        "unresolvedRows": [
+          "42-0",
+          "42-1",
+          "42-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "42-0",
+          "42-1",
+          "42-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-43",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "43-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "43-0",
+          "43-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "43-1",
+          "43-2"
+        ],
+        "outputs": [
+          "",
+          "a"
+        ],
+        "unresolvedRows": [
+          "43-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "43-0",
+          "43-1",
+          "43-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-44",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "44-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "44-0"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "44-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-45",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b",
+              "χ"
+            ],
+            "rowIds": [
+              "45-0",
+              "45-4"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "45-6"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "45-1",
+          "45-2",
+          "45-3",
+          "45-5"
+        ],
+        "counterexamples": [
+          {
+            "left": "45-0",
+            "right": "45-4",
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b",
+              "χ"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "45-1",
+          "45-4"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "45-1",
+          "45-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "45-1",
+          "45-2",
+          "45-3",
+          "45-4",
+          "45-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-46",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "46-1"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "46-6"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "46-0",
+          "46-2",
+          "46-3",
+          "46-4",
+          "46-5"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "46-0",
+          "46-4",
+          "46-5",
+          "46-6"
+        ],
+        "outputs": [
+          "x",
+          "a"
+        ],
+        "unresolvedRows": [
+          "46-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "46-0",
+          "46-2",
+          "46-3",
+          "46-4",
+          "46-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-47",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b",
+              "x"
+            ],
+            "rowIds": [
+              "47-0",
+              "47-2"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "47-5"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "47-1",
+          "47-3",
+          "47-4",
+          "47-6"
+        ],
+        "counterexamples": [
+          {
+            "left": "47-0",
+            "right": "47-2",
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b",
+              "x"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "47-0"
+        ],
+        "outputs": [
+          "b"
+        ],
+        "unresolvedRows": [
+          "47-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "47-0",
+          "47-1",
+          "47-3",
+          "47-4",
+          "47-6"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-48",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "48-0"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "48-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [
+          "48-0",
+          "48-1"
+        ],
+        "outputs": [
+          "",
+          "χ"
+        ],
+        "unresolvedRows": [
+          "48-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "48-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-49",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "49-0"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "49-2"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "49-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "49-1",
+          "49-4",
+          "49-5",
+          "49-6"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "49-4",
+          "49-5"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "49-4",
+          "49-5"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "49-1",
+          "49-4",
+          "49-5",
+          "49-6"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-50",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "50-0"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "50-1"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "50-2"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "50-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "50-4"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "50-1",
+          "50-2"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [
+          "50-1",
+          "50-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "50-1",
+          "50-2",
+          "50-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-51",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "51-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "51-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "51-0"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [
+          "51-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "51-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-52",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "52-0",
+              "52-5"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "52-3"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "52-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "52-1",
+          "52-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "52-0",
+          "52-2",
+          "52-3"
+        ],
+        "outputs": [
+          "χ",
+          "b"
+        ],
+        "unresolvedRows": [
+          "52-0",
+          "52-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "52-0",
+          "52-1",
+          "52-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-53",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "53-0"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ",
+              "a"
+            ],
+            "rowIds": [
+              "53-3",
+              "53-5"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "53-1",
+          "53-2",
+          "53-4"
+        ],
+        "counterexamples": [
+          {
+            "left": "53-3",
+            "right": "53-5",
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ",
+              "a"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "53-4",
+          "53-5"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [
+          "53-4",
+          "53-5"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "53-1",
+          "53-2",
+          "53-4",
+          "53-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-54",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "54-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "54-1",
+          "54-2",
+          "54-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "54-0",
+          "54-2",
+          "54-3"
+        ],
+        "outputs": [
+          "b",
+          ""
+        ],
+        "unresolvedRows": [
+          "54-0",
+          "54-2",
+          "54-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "54-0",
+          "54-1",
+          "54-2",
+          "54-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-55",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "55-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "55-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "55-1"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "55-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-56",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "56-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "56-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "56-1"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "56-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "56-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-57",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "57-0"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "57-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "57-2",
+          "57-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "57-0"
+        ],
+        "outputs": [
+          "x"
+        ],
+        "unresolvedRows": [
+          "57-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "57-0",
+          "57-2",
+          "57-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-58",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "58-0",
+          "58-1",
+          "58-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "58-1"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "58-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "58-0",
+          "58-1",
+          "58-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-59",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "59-3"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "",
+              "x"
+            ],
+            "rowIds": [
+              "59-4",
+              "59-6"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "59-0",
+          "59-1",
+          "59-2",
+          "59-5"
+        ],
+        "counterexamples": [
+          {
+            "left": "59-4",
+            "right": "59-6",
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "",
+              "x"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "59-0",
+          "59-2"
+        ],
+        "outputs": [
+          "b"
+        ],
+        "unresolvedRows": [
+          "59-0",
+          "59-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "59-0",
+          "59-1",
+          "59-2",
+          "59-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-60",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "60-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "60-1",
+          "60-2"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "60-2"
+        ],
+        "outputs": [
+          "x"
+        ],
+        "unresolvedRows": [
+          "60-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "60-1",
+          "60-2"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-61",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "61-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [
+          "61-0"
+        ],
+        "outputs": [
+          "a"
+        ],
+        "unresolvedRows": [
+          "61-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "61-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-62",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "b",
+              "a"
+            ],
+            "rowIds": [
+              "62-1",
+              "62-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "62-0"
+        ],
+        "counterexamples": [
+          {
+            "left": "62-1",
+            "right": "62-2",
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "b",
+              "a"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "62-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-63",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "63-2"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "63-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "63-0",
+          "63-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "63-0",
+          "63-1",
+          "63-3"
+        ],
+        "outputs": [
+          "a",
+          ""
+        ],
+        "unresolvedRows": [
+          "63-0",
+          "63-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "63-0",
+          "63-1",
+          "63-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-64",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x",
+              "χ"
+            ],
+            "rowIds": [
+              "64-0",
+              "64-1"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "64-2"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "64-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [
+          {
+            "left": "64-0",
+            "right": "64-1",
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x",
+              "χ"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        [
+          "comparandum"
+        ]
+      ],
+      "query": {
+        "rowIds": [
+          "64-0"
+        ],
+        "outputs": [
+          "x"
+        ],
+        "unresolvedRows": [
+          "64-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 3,
+        "rejoinedDistinctTuples": 3,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "64-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-65",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "65-0"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "65-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "65-1",
+          "65-2",
+          "65-4"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "65-1",
+          "65-2",
+          "65-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-66",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "66-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "66-0",
+          "66-2",
+          "66-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "66-0",
+          "66-1",
+          "66-3"
+        ],
+        "outputs": [
+          "x",
+          "b"
+        ],
+        "unresolvedRows": [
+          "66-0",
+          "66-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "66-0",
+          "66-2",
+          "66-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-67",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "67-1"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "67-2"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "x",
+              "a"
+            ],
+            "rowIds": [
+              "67-4",
+              "67-6"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "67-5"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "67-0",
+          "67-3"
+        ],
+        "counterexamples": [
+          {
+            "left": "67-4",
+            "right": "67-6",
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "x",
+              "a"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "67-0",
+          "67-1"
+        ],
+        "outputs": [
+          ""
+        ],
+        "unresolvedRows": [
+          "67-0",
+          "67-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 4,
+        "rejoinedDistinctTuples": 6,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "x",
+              "input": "a",
+              "output": "a"
+            },
+            "leftRowIds": [
+              "67-4"
+            ],
+            "rightRowIds": [
+              "67-6"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "",
+              "input": "a",
+              "output": "x"
+            },
+            "leftRowIds": [
+              "67-6"
+            ],
+            "rightRowIds": [
+              "67-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "67-0",
+          "67-1",
+          "67-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-68",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "a",
+              "b"
+            ],
+            "rowIds": [
+              "68-0",
+              "68-2"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "68-1"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [
+          {
+            "left": "68-0",
+            "right": "68-2",
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "a",
+              "b"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        [
+          "onset"
+        ]
+      ],
+      "query": {
+        "rowIds": [
+          "68-0",
+          "68-1"
+        ],
+        "outputs": [
+          "a",
+          "x"
+        ],
+        "unresolvedRows": [
+          "68-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [
+          {
+            "values": {
+              "lexeme": "a",
+              "input": "x",
+              "output": "b"
+            },
+            "leftRowIds": [
+              "68-0"
+            ],
+            "rightRowIds": [
+              "68-2"
+            ]
+          },
+          {
+            "values": {
+              "lexeme": "b",
+              "input": "x",
+              "output": "a"
+            },
+            "leftRowIds": [
+              "68-2"
+            ],
+            "rightRowIds": [
+              "68-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "68-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-69",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "69-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "69-0"
+        ],
+        "outputs": [
+          "b"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "69-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-70",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "χ",
+              ""
+            ],
+            "rowIds": [
+              "70-1",
+              "70-3"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "χ",
+              ""
+            ],
+            "rowIds": [
+              "70-2",
+              "70-4"
+            ]
+          },
+          {
+            "input": [
+              ""
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "70-5"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "70-6"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "70-0"
+        ],
+        "counterexamples": [
+          {
+            "left": "70-1",
+            "right": "70-3",
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "χ",
+              ""
+            ]
+          },
+          {
+            "left": "70-2",
+            "right": "70-4",
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "χ",
+              ""
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "70-0",
+          "70-3",
+          "70-4",
+          "70-6"
+        ],
+        "outputs": [
+          "x",
+          "",
+          "b"
+        ],
+        "unresolvedRows": [
+          "70-0",
+          "70-3",
+          "70-4"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 4,
+        "rejoinedDistinctTuples": 4,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "70-0",
+          "70-3",
+          "70-4"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-71",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "71-1"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "71-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "71-0"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "71-0"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-72",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "72-0"
+            ]
+          }
+        ],
+        "unresolvedRows": [],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [
+        []
+      ],
+      "query": {
+        "rowIds": [],
+        "outputs": [],
+        "unresolvedRows": [],
+        "status": "no-admitted-match",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-73",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "73-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "73-0",
+          "73-1",
+          "73-2",
+          "73-4",
+          "73-5"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "73-3"
+        ],
+        "outputs": [
+          "x"
+        ],
+        "unresolvedRows": [
+          "73-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "73-0",
+          "73-1",
+          "73-2",
+          "73-3",
+          "73-4",
+          "73-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-74",
+      "fd": {
+        "status": "no-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [],
+        "unresolvedRows": [
+          "74-0",
+          "74-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "74-0"
+        ],
+        "outputs": [],
+        "unresolvedRows": [
+          "74-0"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 0,
+        "rejoinedDistinctTuples": 0,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "74-0",
+          "74-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-75",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "b"
+            ],
+            "rowIds": [
+              "75-1"
+            ]
+          },
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "75-2"
+            ]
+          },
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "75-3"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "75-0",
+          "75-4",
+          "75-5"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "75-1",
+          "75-2",
+          "75-4"
+        ],
+        "outputs": [
+          "b",
+          "χ"
+        ],
+        "unresolvedRows": [
+          "75-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 2,
+        "rejoinedDistinctTuples": 2,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "75-0",
+          "75-1",
+          "75-4",
+          "75-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-76",
+      "fd": {
+        "status": "contradicted",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a",
+              "b"
+            ],
+            "rowIds": [
+              "76-1",
+              "76-3"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              ""
+            ],
+            "rowIds": [
+              "76-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "76-0"
+        ],
+        "counterexamples": [
+          {
+            "left": "76-1",
+            "right": "76-3",
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a",
+              "b"
+            ]
+          }
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "76-0",
+          "76-2",
+          "76-3"
+        ],
+        "outputs": [
+          "x",
+          "",
+          "b"
+        ],
+        "unresolvedRows": [
+          "76-2",
+          "76-3"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "76-0",
+          "76-2",
+          "76-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-77",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "77-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "77-0",
+          "77-1"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "77-1"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [],
+        "status": "single-output-in-admitted-sample",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "77-0",
+          "77-1"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-78",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "a"
+            ],
+            "outputs": [
+              "χ"
+            ],
+            "rowIds": [
+              "78-0"
+            ]
+          },
+          {
+            "input": [
+              "x"
+            ],
+            "outputs": [
+              "x"
+            ],
+            "rowIds": [
+              "78-2"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "78-1",
+          "78-3"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "78-0",
+          "78-1"
+        ],
+        "outputs": [
+          "χ"
+        ],
+        "unresolvedRows": [
+          "78-0",
+          "78-1"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "78-0",
+          "78-1",
+          "78-3"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    },
+    {
+      "id": "sample-79",
+      "fd": {
+        "status": "no-counterexample-on-complete-rows",
+        "inputs": [
+          "input"
+        ],
+        "output": "output",
+        "cells": [
+          {
+            "input": [
+              "χ"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "79-2"
+            ]
+          },
+          {
+            "input": [
+              "b"
+            ],
+            "outputs": [
+              "a"
+            ],
+            "rowIds": [
+              "79-4"
+            ]
+          }
+        ],
+        "unresolvedRows": [
+          "79-0",
+          "79-1",
+          "79-3",
+          "79-5"
+        ],
+        "counterexamples": [],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "refinements": [],
+      "query": {
+        "rowIds": [
+          "79-0",
+          "79-2"
+        ],
+        "outputs": [
+          "x",
+          "a"
+        ],
+        "unresolvedRows": [
+          "79-0",
+          "79-2"
+        ],
+        "status": "unresolved-source-values",
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred"
+      },
+      "join": {
+        "fields": [
+          "lexeme",
+          "input",
+          "output"
+        ],
+        "common": [
+          "input"
+        ],
+        "knownOriginalDistinctTuples": 1,
+        "rejoinedDistinctTuples": 1,
+        "excessCombinations": [],
+        "unresolvedRows": [
+          "79-0",
+          "79-1",
+          "79-2",
+          "79-3",
+          "79-5"
+        ],
+        "scope": "Exact admitted finite relation only; no universal linguistic law inferred",
+        "boundary": "Excess is relative to the admitted finite relation. Missing corpus cases remain unknown; a cross-pair is not a newly proved historical entity."
+      }
+    }
+  ],
+  "malformed": [
+    {
+      "conditions": [],
+      "error": "TypeError: query conditions must be an object map"
+    },
+    {
+      "conditions": [
+        "a"
+      ],
+      "error": "TypeError: query conditions must be an object map"
+    },
+    {
+      "conditions": "a",
+      "error": "TypeError: query conditions must be an object map"
+    },
+    {
+      "conditions": null,
+      "error": "TypeError: query conditions must be an object map"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+ "state":{
+  "goal":"Preserve SUNNY research names and exact request bytes through the live Jev browser gate.",
+  "failure":"Observed WindowsPythonstdinencoding iscp1252. Node sendsUTF8JSONpipe. Current sys.stdin.read() silentlymojibakes Greek/Sanskritnames beforeJSONparse while exit0; browserASCIItestpassed butUnicodeexactreceiptfails. Fileinput explicitlyUTF8isalreadycorrect. Importedrawsourcesareunchanged.",
+  "constraints":"EveryJeVreceiptmustpreservetheexactsubmittedstate. Sourceidentityandunknownsremainintact. Thisisatransportbug, notpermissiontonormalizenames. UserrequiresJeVdictaterepair."
+ },
+ "questions":[{
+  "id":"unicode_transport","type":"choice","question":"Which concrete fix should repair the reproduced UTF8stdin mismatch?",
+  "options":{
+   "explicit_bytes":"Make the ownedJevwrapper read stdin bytes via sys.stdin.buffer.read() and decodeUTF8-sig explicitly beforeJSONparse; retainUTF8fileinput. Add a CP1252environment regression and liveUnicodebrowserreceiptcomparison.",
+   "python_utf8_flag":"Have the Nodebridge always invokePythonwith-Xutf8, leave wrapperstdintextreading unchanged, and testthefixedinvocationplusliveUnicodebrowserreceiptcomparison."
+  }
+ }]
+}

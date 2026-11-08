@@ -1,0 +1,1165 @@
+{
+  "generated_at": "2026-10-31T01:27:58.097889+00:00",
+  "backup": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\backups\\gaps-before-20261031T012033098903Z.sqlite",
+  "previous_report_snapshot": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\docs\\evidence\\gaps-recovery-report-before.json",
+  "previous_report_sha256": "7e469405093dbf8fc53cf0f7bfd7b82bfc318590fd3f2097442dccc646613c79",
+  "method_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000020-30d9b71a1c6b.json",
+  "position_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000021-240a80f66923.json",
+  "verification_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000042-2748d7256a2d.json",
+  "before_counts": {
+    "sources": 2042,
+    "conversations": 1032,
+    "messages": 59894,
+    "documents": 1931,
+    "search_index": 61825
+  },
+  "after_counts": {
+    "sources": 2042,
+    "conversations": 1032,
+    "messages": 59901,
+    "documents": 1934,
+    "search_index": 61835
+  },
+  "source_hash_mismatches": [],
+  "changed_existing_message_payloads": [],
+  "invalid_exact_positions": [],
+  "integrity": "ok",
+  "foreign_key_violations": [],
+  "search_duplicate_ids": 0,
+  "messages_missing_search": 0,
+  "documents_missing_search": 0,
+  "orphan_search_ids": 0,
+  "position_rows": 2366,
+  "locator_history_rows": 2359,
+  "jsonl_repairs": [
+    {
+      "added_records": [
+        {
+          "message_id": "362f7e4b940513ace6eead7666da5fcb3a1b5d174ec80148ea3c8f7318e4051e",
+          "native_id": "physicalLF:940",
+          "native_ordinal": 939,
+          "physical_lf_line": 940,
+          "record_type": "event_msg"
+        },
+        {
+          "message_id": "bed261135578a316a6a3260952c4e12c6dd6eeb51c49f180788790a60e25d2f1",
+          "native_id": "physicalLF:941",
+          "native_ordinal": 940,
+          "physical_lf_line": 941,
+          "record_type": "response_item"
+        },
+        {
+          "message_id": "d20127f20802c67b3af5165f31069a535347f42850e96c4b3deac19dfe3be1a6",
+          "native_id": "physicalLF:1057",
+          "native_ordinal": 1056,
+          "physical_lf_line": 1057,
+          "record_type": "event_msg"
+        },
+        {
+          "message_id": "5dfa1416470714034d46a739b2cb1d55a846ba66d566accbe554e907fe7faf52",
+          "native_id": "physicalLF:1242",
+          "native_ordinal": 1241,
+          "physical_lf_line": 1242,
+          "record_type": "event_msg"
+        },
+        {
+          "message_id": "28a0e1cf17a746a94ab138e976a318c9043cffbc8b2c80773f73a24cc4ad8049",
+          "native_id": "physicalLF:1245",
+          "native_ordinal": 1244,
+          "physical_lf_line": 1245,
+          "record_type": "response_item"
+        },
+        {
+          "message_id": "edf8c7800585fdd1dc27aa0106dfaaf4218c4721b1720c6f73cc2fc3e4f5ece4",
+          "native_id": "physicalLF:1408",
+          "native_ordinal": 1407,
+          "physical_lf_line": 1408,
+          "record_type": "event_msg"
+        }
+      ],
+      "causal_parentage": "not inferred for newly recovered records",
+      "decision_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000021-240a80f66923.json",
+      "mapped_records": 1927,
+      "method": "physical_lf_utf8_byte_positions",
+      "new_coordinate_basis": "one-based physical LF line and half-open UTF8byte range",
+      "old_coordinate_basis": "Python str.splitlines, including Unicode separators",
+      "revised_existing_locators": 1921,
+      "source_id": "be3da8f853e21866168ce67047fbdc37359ae3372e988d3614703c0108c1cd49"
+    },
+    {
+      "added_records": [
+        {
+          "message_id": "f24518d26554f51f68aeefb4d077c15a04e05660c821c56f7a2eb76e63846803",
+          "native_id": "physicalLF:86",
+          "native_ordinal": 85,
+          "physical_lf_line": 86,
+          "record_type": "response_item"
+        }
+      ],
+      "causal_parentage": "not inferred for newly recovered records",
+      "decision_receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000021-240a80f66923.json",
+      "mapped_records": 439,
+      "method": "physical_lf_utf8_byte_positions",
+      "new_coordinate_basis": "one-based physical LF line and half-open UTF8byte range",
+      "old_coordinate_basis": "Python str.splitlines, including Unicode separators",
+      "revised_existing_locators": 438,
+      "source_id": "3eed02709578db31b1df69d50b03a5699dbf799a5192a770e8cccdb6c4ab61aa"
+    }
+  ],
+  "metadata_documents": [
+    {
+      "source_id": "1bf427a3695d99792ec14efa7f6db2c51f78b20aaaa8836559f5a2f2d53f5292",
+      "document_id": "64a82fbe265f6c2d69eb640a22b18419ab86c05f5a539c93dead534255b892d6",
+      "status": "metadata_only",
+      "metadata": {
+        "format": "zip_member_inventory",
+        "member_count": 57,
+        "members": [
+          {
+            "bytes": 323408,
+            "compressed_bytes": 109937,
+            "content_indexed": false,
+            "crc32": 2078143457,
+            "directory": false,
+            "member": "SUN_Recovered_Material_Compendium_2026-10-02.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "SUN_Recovered_Material_Compendium_2026-10-02.md",
+            "sha256": "25f46c00184d0971a37a2c0208d57c54ba007026ccdd0a4737f248978aacabd0"
+          },
+          {
+            "bytes": 24648,
+            "compressed_bytes": 9927,
+            "content_indexed": false,
+            "crc32": 1138946597,
+            "directory": false,
+            "member": "supporting_records/SUN_Source_Recovery_Checkpoint_2026-10-02.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/SUN_Source_Recovery_Checkpoint_2026-10-02.md",
+            "sha256": "3d4c2ee6c20e36da41237c5f7d0c641184d751e4d6064522ec4dc31e57f64228"
+          },
+          {
+            "bytes": 39859,
+            "compressed_bytes": 12711,
+            "content_indexed": false,
+            "crc32": 2618911643,
+            "directory": false,
+            "member": "supporting_records/extracted/1eb76d50_Egypt_HAYLI_Calibration_Round1.pdf.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/1eb76d50_Egypt_HAYLI_Calibration_Round1.pdf.txt",
+            "sha256": "5f72afdbe0cd1c8e02a4398985464b10d66601ca6032c931af816ba951d6f74a"
+          },
+          {
+            "bytes": 80064,
+            "compressed_bytes": 30818,
+            "content_indexed": false,
+            "crc32": 2701228988,
+            "directory": false,
+            "member": "supporting_records/extracted/61039668_Sound_and_Music_Theory_Equation_Ledger.xlsx.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/61039668_Sound_and_Music_Theory_Equation_Ledger.xlsx.txt",
+            "sha256": "4f52de781ae4c6a21d60749f1d0e9b99ccdebc4fbc523578bfe01c2738464396"
+          },
+          {
+            "bytes": 14841,
+            "compressed_bytes": 5917,
+            "content_indexed": false,
+            "crc32": 3266601289,
+            "directory": false,
+            "member": "supporting_records/extracted/9a5bb54d_SUN_Seed_Contract_v0.1.docx.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/9a5bb54d_SUN_Seed_Contract_v0.1.docx.txt",
+            "sha256": "e0a590fc9cc612999e183b9b27c24633bd4c4a745e913c49a654f10d3806abaa"
+          },
+          {
+            "bytes": 11164,
+            "compressed_bytes": 4474,
+            "content_indexed": false,
+            "crc32": 2034160121,
+            "directory": false,
+            "member": "supporting_records/extracted/Equation_Locks_report_text.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/Equation_Locks_report_text.md",
+            "sha256": "f85db96561d9c5fbfb808b6bb6310a3bd3582c2777030822df129663ba35f009"
+          },
+          {
+            "bytes": 14104,
+            "compressed_bytes": 5447,
+            "content_indexed": false,
+            "crc32": 518096858,
+            "directory": false,
+            "member": "supporting_records/extracted/MANIFEST.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/MANIFEST.json",
+            "sha256": "979617a5294bfbeffa406e47bb984106652de9bdc9a19dd21b1e17b6eb756cc9"
+          },
+          {
+            "bytes": 18147,
+            "compressed_bytes": 7250,
+            "content_indexed": false,
+            "crc32": 1189573591,
+            "directory": false,
+            "member": "supporting_records/extracted/a6f4d3fc_Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked.pdf.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/a6f4d3fc_Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked.pdf.txt",
+            "sha256": "395c2547cfa39a47b27dd633d0519db925d98b20989a6a9c94a20b5ff5de0faa"
+          },
+          {
+            "bytes": 20705,
+            "compressed_bytes": 8286,
+            "content_indexed": false,
+            "crc32": 3251740702,
+            "directory": false,
+            "member": "supporting_records/extracted/a998c177_checkpoint.md.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/a998c177_checkpoint.md.txt",
+            "sha256": "6c1b64dae1e5e303b9056566929203819436926c561f46ae96bcf56045405ca6"
+          },
+          {
+            "bytes": 25201,
+            "compressed_bytes": 10067,
+            "content_indexed": false,
+            "crc32": 3493423626,
+            "directory": false,
+            "member": "supporting_records/extracted/c20b51fb_SUN_Mathematical_and_Structural_Audit.docx.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/c20b51fb_SUN_Mathematical_and_Structural_Audit.docx.txt",
+            "sha256": "3c1d1982d935aeb2a1a5d2a1846350e48ce2ab4d29c2e69b60579ef62b340549"
+          },
+          {
+            "bytes": 6181,
+            "compressed_bytes": 2169,
+            "content_indexed": false,
+            "crc32": 126246122,
+            "directory": false,
+            "member": "supporting_records/extracted/test_sun_boundary.py",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/extracted/test_sun_boundary.py",
+            "sha256": "e2f4f396f67a3157178863e3a88e9ec124f6badcbeed82a8d8957c60d091d3a5"
+          },
+          {
+            "bytes": 2989,
+            "compressed_bytes": 1463,
+            "content_indexed": false,
+            "crc32": 3555629677,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/ARIADNE/research-state/MIGRATION_INVENTORY.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/ARIADNE/research-state/MIGRATION_INVENTORY.md",
+            "sha256": "643a67be1556924d6b47d43db0f27fc334f6d8e3ddfbb3625574f59fe07475bd"
+          },
+          {
+            "bytes": 2828,
+            "compressed_bytes": 1382,
+            "content_indexed": false,
+            "crc32": 123319784,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/README.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/README.md",
+            "sha256": "5870fdb5a6363341604d9583b72f9ac3cae77efca5883ed6668a605e5aa53f5d"
+          },
+          {
+            "bytes": 4596,
+            "compressed_bytes": 2023,
+            "content_indexed": false,
+            "crc32": 3789893338,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/atlas/transform_index.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/atlas/transform_index.csv",
+            "sha256": "68f0e49359521e27484e9a1e23ee8e48a9da28fb29002789b3698fc107aab435"
+          },
+          {
+            "bytes": 8110,
+            "compressed_bytes": 3696,
+            "content_indexed": false,
+            "crc32": 3541644832,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/02_research_events.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/02_research_events.csv",
+            "sha256": "fa582b5d06e7dfa114bff62c730a483f6647f8712e0da0e9b77d75c42e00d9a5"
+          },
+          {
+            "bytes": 5059,
+            "compressed_bytes": 2416,
+            "content_indexed": false,
+            "crc32": 2765192757,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/03_experiments.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/03_experiments.csv",
+            "sha256": "b37c4d8e0319bce125b7a1e5d29b79b32a6cbac9e58a8c6ef5849de30e3d15c5"
+          },
+          {
+            "bytes": 2760,
+            "compressed_bytes": 1346,
+            "content_indexed": false,
+            "crc32": 2963298656,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/04_predictions.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/04_predictions.csv",
+            "sha256": "d83f4e6280b9cd512e7432d4d6a22647ca11feefcbde573c29c01b28c0c4e43d"
+          },
+          {
+            "bytes": 3938,
+            "compressed_bytes": 1522,
+            "content_indexed": false,
+            "crc32": 1132587698,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/05_evidence.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/05_evidence.csv",
+            "sha256": "3119b451de9d084332f7f2e520f901b44f585e79d361b6e43bba49cfb63ad133"
+          },
+          {
+            "bytes": 3184,
+            "compressed_bytes": 1559,
+            "content_indexed": false,
+            "crc32": 2766880303,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/06_claim_revisions.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/06_claim_revisions.csv",
+            "sha256": "3bb8cae2d6eab72964b4495f1eefe0894bf754e0d142516867e0bae1e0b25a12"
+          },
+          {
+            "bytes": 1814,
+            "compressed_bytes": 959,
+            "content_indexed": false,
+            "crc32": 189322145,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/07_residuals.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/data/07_residuals.csv",
+            "sha256": "a86690bb625a442e7b11439904a44c3d5a1f97dc4e90edf3d43e1ae0b3dbf200"
+          },
+          {
+            "bytes": 2508,
+            "compressed_bytes": 1289,
+            "content_indexed": false,
+            "crc32": 781101410,
+            "directory": false,
+            "member": "supporting_records/repo_sources/AlkaiDynamics/AYLI/docs/RESEARCH_ARCHITECTURE.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/AlkaiDynamics/AYLI/docs/RESEARCH_ARCHITECTURE.md",
+            "sha256": "7ae4a926101ec395d2eba858dffce68bba12624bb637dab0de41c0c40dfd0320"
+          },
+          {
+            "bytes": 2589,
+            "compressed_bytes": 1353,
+            "content_indexed": false,
+            "crc32": 939529589,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-13/CP-20260913-0000.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-13/CP-20260913-0000.md",
+            "sha256": "9b638c216de70b38342bafd57b53e1f57f39f064c5d378c57385d869e7782fd4"
+          },
+          {
+            "bytes": 16801,
+            "compressed_bytes": 7435,
+            "content_indexed": false,
+            "crc32": 3135256419,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-18/CP-20260918-ANTI-RECTA-70-72-ABRUPT-CATCHUP.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-18/CP-20260918-ANTI-RECTA-70-72-ABRUPT-CATCHUP.md",
+            "sha256": "4be63a090dd539fe565482dde76673a64512a1fb7311588de1a84f9f9009a086"
+          },
+          {
+            "bytes": 76230,
+            "compressed_bytes": 28897,
+            "content_indexed": false,
+            "crc32": 607305597,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-18/CP-20260918-HERMONICITI-666-616-PREDICTION.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-18/CP-20260918-HERMONICITI-666-616-PREDICTION.md",
+            "sha256": "03bd3869ff25083b65e714798ff602aeef3402736924c73a0415010873e2fd5e"
+          },
+          {
+            "bytes": 6002,
+            "compressed_bytes": 2787,
+            "content_indexed": false,
+            "crc32": 982114606,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/ARIADNE/docs/CLEAN_ROOM_CARRIER_WAVE.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/ARIADNE/docs/CLEAN_ROOM_CARRIER_WAVE.md",
+            "sha256": "587dde402c1962b2ba643a491d84e02bf6129fbca344a6dce89d895b7b24a2d6"
+          },
+          {
+            "bytes": 9841,
+            "compressed_bytes": 4627,
+            "content_indexed": false,
+            "crc32": 3167694226,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/ARIADNE/docs/RESEARCH_INBOX.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/ARIADNE/docs/RESEARCH_INBOX.md",
+            "sha256": "d52eb01ed6f073d32faa3c9925b941580b4fd7f49a4119410cc3ef47d8a11d66"
+          },
+          {
+            "bytes": 43874,
+            "compressed_bytes": 17038,
+            "content_indexed": false,
+            "crc32": 3049746301,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/ARIADNE/seed/AYLI_to_ARIADNE_Research_Timeline_v0.1.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/ARIADNE/seed/AYLI_to_ARIADNE_Research_Timeline_v0.1.md",
+            "sha256": "b1837752dacd6d74df5018ed7bf722e37c2a06a75c444c5eb0863e48184ffd42"
+          },
+          {
+            "bytes": 3643,
+            "compressed_bytes": 1779,
+            "content_indexed": false,
+            "crc32": 492622874,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/BEANS/README.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/BEANS/README.md",
+            "sha256": "d9123b380cc62dc84be2d35f02fd7313fa9191140efaf53e22a91915bcefae19"
+          },
+          {
+            "bytes": 2588,
+            "compressed_bytes": 1244,
+            "content_indexed": false,
+            "crc32": 3936361026,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/Sri-Yantra/native/provenance-map.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/Sri-Yantra/native/provenance-map.json",
+            "sha256": "33fb3d1411d84e0a1d18425ce4a1544749cc9a8828f50d200adab3ddc24a72f9"
+          },
+          {
+            "bytes": 1529,
+            "compressed_bytes": 768,
+            "content_indexed": false,
+            "crc32": 784668286,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/Sri-Yantra/preregistration/research-architecture-v1.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/Sri-Yantra/preregistration/research-architecture-v1.json",
+            "sha256": "99b586b0ce96b05d7a84922de240c5f69376e950fbcdfda9db58a27c1b5e76d6"
+          },
+          {
+            "bytes": 3716,
+            "compressed_bytes": 1787,
+            "content_indexed": false,
+            "crc32": 2939503770,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/Sri-Yantra/preregistration/sri-native-protocol-v1.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/Sri-Yantra/preregistration/sri-native-protocol-v1.json",
+            "sha256": "a47874eb8ee70682e9c784e8343cf87f18d0aff271318a195f7514a19ead197f"
+          },
+          {
+            "bytes": 49738,
+            "compressed_bytes": 19039,
+            "content_indexed": false,
+            "crc32": 2143544134,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/chat-docs-versions-histories/current/uncategorized/argo-music-first-theorem/Argo_Music_First_Theorem(2).md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/chat-docs-versions-histories/current/uncategorized/argo-music-first-theorem/Argo_Music_First_Theorem(2).md",
+            "sha256": "9c09ce44af776905d13755aa028714cd2439c39369da7e3550118e25525d2d74"
+          },
+          {
+            "bytes": 1577,
+            "compressed_bytes": 767,
+            "content_indexed": false,
+            "crc32": 2811240964,
+            "directory": false,
+            "member": "supporting_records/repo_sources/zhenrez/chat-docs-versions-histories/docs/TREE.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/repo_sources/zhenrez/chat-docs-versions-histories/docs/TREE.md",
+            "sha256": "f3bb0f169f78fa93ee4abd5699c71958672f460d727a488a16f05be6a9897e3e"
+          },
+          {
+            "bytes": 956340,
+            "compressed_bytes": 322434,
+            "content_indexed": false,
+            "crc32": 961406687,
+            "directory": false,
+            "member": "supporting_records/source_files/Branch-·-full--COMPARATIVE-COSMOLOGICAL-ADDRESS-ATLAS_.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/Branch-·-full--COMPARATIVE-COSMOLOGICAL-ADDRESS-ATLAS_.md",
+            "sha256": "183043cd16ee2bb2c7fb7cfe9e322b4d192777471bbfda67ef3405016f99f98f"
+          },
+          {
+            "bytes": 422563,
+            "compressed_bytes": 278451,
+            "content_indexed": false,
+            "crc32": 3884202169,
+            "directory": false,
+            "member": "supporting_records/source_files/Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked.pdf",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked.pdf",
+            "sha256": "28c5e34b11de2bc3b78ea7e56d2fd759270b7a5828c2020c33aedb312cae038c"
+          },
+          {
+            "bytes": 375056,
+            "compressed_bytes": 303219,
+            "content_indexed": false,
+            "crc32": 4224514101,
+            "directory": false,
+            "member": "supporting_records/source_files/Egypt_HAYLI_Calibration_Round1.pdf",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/Egypt_HAYLI_Calibration_Round1.pdf",
+            "sha256": "863dc6a8ae5125007f5db906b05490c052a172b57cd0fb259483144ba584fedc"
+          },
+          {
+            "bytes": 10708,
+            "compressed_bytes": 4362,
+            "content_indexed": false,
+            "crc32": 4122286754,
+            "directory": false,
+            "member": "supporting_records/source_files/Pasted markdown(20260912-101444).md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/Pasted markdown(20260912-101444).md",
+            "sha256": "4f6ab27a79dc6ec2ae75bb856458d318d7ee0f41e5aac4712b763984fcf957bc"
+          },
+          {
+            "bytes": 26794,
+            "compressed_bytes": 8819,
+            "content_indexed": false,
+            "crc32": 2800600670,
+            "directory": false,
+            "member": "supporting_records/source_files/Pasted markdown(20260919-041032).md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/Pasted markdown(20260919-041032).md",
+            "sha256": "79ea4cf216e1134f24ff13b92b275bfa3fcbe4a5c690a4aba7cac02a37396860"
+          },
+          {
+            "bytes": 1729,
+            "compressed_bytes": 962,
+            "content_indexed": false,
+            "crc32": 393078904,
+            "directory": false,
+            "member": "supporting_records/source_files/SRI-YANTRA/SUN_CURRENT_FROZEN.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SRI-YANTRA/SUN_CURRENT_FROZEN.md",
+            "sha256": "3a8c5312c66930f10fc0abcf0eb0b3f9018e6abbc1f28754ba243c57c7a19c0d"
+          },
+          {
+            "bytes": 6206,
+            "compressed_bytes": 2971,
+            "content_indexed": false,
+            "crc32": 3430760157,
+            "directory": false,
+            "member": "supporting_records/source_files/SRI-YANTRA/SUN_PROGRESS_BRANCH.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SRI-YANTRA/SUN_PROGRESS_BRANCH.md",
+            "sha256": "afb65678179f74468d1d81a9d50c4f5c8d1ec4cffc0d8ecb4236480954f654d1"
+          },
+          {
+            "bytes": 17057,
+            "compressed_bytes": 6402,
+            "content_indexed": false,
+            "crc32": 1761098312,
+            "directory": false,
+            "member": "supporting_records/source_files/SRI-YANTRA/SUN_PROSPECTIVE_TRIAL_0_CANDIDATE_ELECTION.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SRI-YANTRA/SUN_PROSPECTIVE_TRIAL_0_CANDIDATE_ELECTION.md",
+            "sha256": "e6ca19c334699e19a88072843ad3254d66bd78e05316787890bb9dcdf77f8ddf"
+          },
+          {
+            "bytes": 10781,
+            "compressed_bytes": 4266,
+            "content_indexed": false,
+            "crc32": 2656114522,
+            "directory": false,
+            "member": "supporting_records/source_files/SRI-YANTRA/SUN_PROSPECTIVE_TRIAL_0_PREREGISTRATION_DRAFT.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SRI-YANTRA/SUN_PROSPECTIVE_TRIAL_0_PREREGISTRATION_DRAFT.md",
+            "sha256": "d876038f7e584b855788162a3788da82b6fe734bf518ebed5cddcaa630f2661a"
+          },
+          {
+            "bytes": 17321,
+            "compressed_bytes": 7050,
+            "content_indexed": false,
+            "crc32": 2470248297,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN/Pasted text (2).txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN/Pasted text (2).txt",
+            "sha256": "d00a7f45163b851664921338c879b57d6ddbe9a05da9a090c4b1d37e3b357a3e"
+          },
+          {
+            "bytes": 31043,
+            "compressed_bytes": 10417,
+            "content_indexed": false,
+            "crc32": 1956673383,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN/Pasted text.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN/Pasted text.txt",
+            "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94"
+          },
+          {
+            "bytes": 24288,
+            "compressed_bytes": 10152,
+            "content_indexed": false,
+            "crc32": 3117582872,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN_Chronology_Rectification_2026-10-01.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN_Chronology_Rectification_2026-10-01.md",
+            "sha256": "65ad27cf36a1c4d2455d6904298e6a5135e0ef4631ffc5649f219961ee5c8e8b"
+          },
+          {
+            "bytes": 23152,
+            "compressed_bytes": 22127,
+            "content_indexed": false,
+            "crc32": 955157458,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN_Equation_and_Research_Plan_v1.docx",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN_Equation_and_Research_Plan_v1.docx",
+            "sha256": "d96f7123f1a41d78d1c0f6e0ace9d5f99e037cbb7ae4948da02aeda4b081ca7a"
+          },
+          {
+            "bytes": 283247,
+            "compressed_bytes": 167591,
+            "content_indexed": false,
+            "crc32": 2295819977,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN_Equation_and_Research_Plan_v1.pdf",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN_Equation_and_Research_Plan_v1.pdf",
+            "sha256": "bcdb54b43498c87076da99f3071b1ce0a37411de5a983300cee9b4c3e31c74c7"
+          },
+          {
+            "bytes": 254490,
+            "compressed_bytes": 251690,
+            "content_indexed": false,
+            "crc32": 1858243252,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN_Mathematical_and_Structural_Audit.docx",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN_Mathematical_and_Structural_Audit.docx",
+            "sha256": "84c66e960ff7e55f94f85aa8d80a03a9584374f276d97b923ce3a9a959be1216"
+          },
+          {
+            "bytes": 269729,
+            "compressed_bytes": 266904,
+            "content_indexed": false,
+            "crc32": 3537905827,
+            "directory": false,
+            "member": "supporting_records/source_files/SUN_Seed_Contract_v0.1.docx",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/SUN_Seed_Contract_v0.1.docx",
+            "sha256": "7588f177ea5863234ac5f1eee2cb1d86d46b8c3cb4ecceee56c3b79e89565d8c"
+          },
+          {
+            "bytes": 43199,
+            "compressed_bytes": 42038,
+            "content_indexed": false,
+            "crc32": 347109740,
+            "directory": false,
+            "member": "supporting_records/source_files/Sound_and_Music_Theory_Equation_Ledger.xlsx",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/Sound_and_Music_Theory_Equation_Ledger.xlsx",
+            "sha256": "67661b333d0e99d8b91b37653c8f5252abd4789c0482e5bb8af4ef29757a3cc4"
+          },
+          {
+            "bytes": 33675,
+            "compressed_bytes": 11762,
+            "content_indexed": false,
+            "crc32": 2867028746,
+            "directory": false,
+            "member": "supporting_records/source_files/TOL_COMPLETE_WORK_ARCHIVE_2026-09-29.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/source_files/TOL_COMPLETE_WORK_ARCHIVE_2026-09-29.md",
+            "sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065"
+          },
+          {
+            "bytes": 682576,
+            "compressed_bytes": 178099,
+            "content_indexed": false,
+            "crc32": 2335925673,
+            "directory": false,
+            "member": "supporting_records/upload/ChatGPT-Compare Ophiuchus SUN V4-20261002-1318.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/upload/ChatGPT-Compare Ophiuchus SUN V4-20261002-1318.md",
+            "sha256": "9bec8d7d5b1ef510b1bb0730fc974989a450e72387816082dda3384ba6c4723d"
+          },
+          {
+            "bytes": 34572,
+            "compressed_bytes": 11481,
+            "content_indexed": false,
+            "crc32": 1233528694,
+            "directory": false,
+            "member": "supporting_records/upload/Pasted text (2)(20261002-205728).txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/upload/Pasted text (2)(20261002-205728).txt",
+            "sha256": "1ded94ea703cab690b6df9d9c24d95c3ff9f636532db945be1bfc51a40efb08b"
+          },
+          {
+            "bytes": 52971,
+            "compressed_bytes": 15467,
+            "content_indexed": false,
+            "crc32": 4066834744,
+            "directory": false,
+            "member": "supporting_records/upload/Pasted text(20261002-205705).txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "supporting_records/upload/Pasted text(20261002-205705).txt",
+            "sha256": "978a36ee431e961049fa820a07d2e3550f3ff85fad8edbeaf871836fde70f7b1"
+          },
+          {
+            "bytes": 25055,
+            "compressed_bytes": 8209,
+            "content_indexed": false,
+            "crc32": 3392731614,
+            "directory": false,
+            "member": "recovered_manuscripts/W72_ARCHITECTURE_FOUNDATIONAL_WHITEPAPER.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "recovered_manuscripts/W72_ARCHITECTURE_FOUNDATIONAL_WHITEPAPER.md",
+            "sha256": "3772e63acf52eadadb270694177fee3ad2915b678f92f68fe6e39ea0b8d02505"
+          },
+          {
+            "bytes": 17581,
+            "compressed_bytes": 4352,
+            "content_indexed": false,
+            "crc32": 3327887337,
+            "directory": false,
+            "member": "SOURCE_MANIFEST.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "SOURCE_MANIFEST.json",
+            "sha256": "32ac4cd942a87e10426f17ef964ee562c24f5b51ec1756de1a4ca07a6f61e268"
+          },
+          {
+            "bytes": 660,
+            "compressed_bytes": 397,
+            "content_indexed": false,
+            "crc32": 2746967788,
+            "directory": false,
+            "member": "START_HERE.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "START_HERE.md",
+            "sha256": "a5d819dadafb93aa52079312ac6e70a34b2652ab81189f0623a765e20b326389"
+          }
+        ],
+        "scope": "immediate member metadata and hashes only; no filesystem expansion, recursive content indexing or embedded code execution",
+        "uncompressed_bytes": 4455029
+      }
+    },
+    {
+      "source_id": "7d238ce055467ea882309255187115ec9800af7c16c7ec6884cee3cb2abcd4b8",
+      "document_id": "f78148448e6fdc7f3c239e3dd6daf2e487ccfa2b9cb16e8790b7fdc1ca99c0c5",
+      "status": "metadata_only",
+      "metadata": {
+        "allow_pickle": false,
+        "arrays": [
+          {
+            "dtype": "uint8",
+            "elements": 512,
+            "name": "vertices_edges",
+            "numeric_values_indexed": false,
+            "shape": [
+              16,
+              32
+            ]
+          },
+          {
+            "dtype": "uint8",
+            "elements": 768,
+            "name": "edges_faces",
+            "numeric_values_indexed": false,
+            "shape": [
+              32,
+              24
+            ]
+          },
+          {
+            "dtype": "uint8",
+            "elements": 192,
+            "name": "faces_cells",
+            "numeric_values_indexed": false,
+            "shape": [
+              24,
+              8
+            ]
+          }
+        ],
+        "format": "numpy_npz",
+        "numpy_version": "2.2.5",
+        "scope": "typed metadata only; values remain in unchanged original NPZ and prior read-only inspection evidence"
+      }
+    },
+    {
+      "source_id": "bd6e143dade95252bfe372ca835593f418adc57d8dfe113fd792a92e7437a6c2",
+      "document_id": "0e11ee5d4fd4ae2bbe0ebf0993c463fec24f8ea0024631a216c0d14577201e55",
+      "status": "metadata_only",
+      "metadata": {
+        "format": "zip_member_inventory",
+        "member_count": 32,
+        "members": [
+          {
+            "bytes": 23405,
+            "compressed_bytes": 10021,
+            "content_indexed": false,
+            "crc32": 997804805,
+            "directory": false,
+            "member": "SUN_72_Architecture_Audit_2026-10-02.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "SUN_72_Architecture_Audit_2026-10-02.md",
+            "sha256": "b26203b2b9ec40e1dcb1ed26ce0ea9e284c2835879ad4f104ba4920b1c3a5565"
+          },
+          {
+            "bytes": 14621,
+            "compressed_bytes": 6669,
+            "content_indexed": false,
+            "crc32": 669256688,
+            "directory": false,
+            "member": "SUN_Workbook_AYLI_Audit_Notes_2026-10-02.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "SUN_Workbook_AYLI_Audit_Notes_2026-10-02.md",
+            "sha256": "f3039d5747dea61b20a6bdb0931af90b5a135a6e51eb17a4ff123ed59ccc9883"
+          },
+          {
+            "bytes": 13620,
+            "compressed_bytes": 5269,
+            "content_indexed": false,
+            "crc32": 2176923818,
+            "directory": false,
+            "member": "ariadne_audit_helpers/commits.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_helpers/commits.json",
+            "sha256": "9323147f01e3ba5082dcb96bace449ab632b63c0d7a9703ddf652d28df6d693c"
+          },
+          {
+            "bytes": 14130,
+            "compressed_bytes": 6273,
+            "content_indexed": false,
+            "crc32": 709102900,
+            "directory": false,
+            "member": "ariadne_audit_sources/ARIADNE_72_Source_Audit_2026-10-02.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_sources/ARIADNE_72_Source_Audit_2026-10-02.md",
+            "sha256": "f4a274b1e0daa4fe9a9be1bfb1f99ff80d29015e13c8f85970b456bfc0277dd8"
+          },
+          {
+            "bytes": 3462,
+            "compressed_bytes": 1651,
+            "content_indexed": false,
+            "crc32": 540088880,
+            "directory": false,
+            "member": "ariadne_audit_sources/CP-20260914-ANTI-RECTA-NAMING.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_sources/CP-20260914-ANTI-RECTA-NAMING.md",
+            "sha256": "e1b2bb6734ca902efc4ed415cc36ef02db02784cfee3ab46dc4b584998fc1482"
+          },
+          {
+            "bytes": 5226,
+            "compressed_bytes": 2478,
+            "content_indexed": false,
+            "crc32": 2464410251,
+            "directory": false,
+            "member": "ariadne_audit_sources/CP-20260915-CANONICAL-RESEARCH-INSTRUMENT.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_sources/CP-20260915-CANONICAL-RESEARCH-INSTRUMENT.md",
+            "sha256": "5d6727b4a76a1834f39ee8c4b22f189c1187310e3ce1af63f1a2523c64ec7dad"
+          },
+          {
+            "bytes": 12002,
+            "compressed_bytes": 3731,
+            "content_indexed": false,
+            "crc32": 384434503,
+            "directory": false,
+            "member": "ariadne_audit_sources/torches-20260918.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_sources/torches-20260918.json",
+            "sha256": "387e9592472780f267f2cc54b2ad8fcea90856bace2f41f1b8de549479481b75"
+          },
+          {
+            "bytes": 19911,
+            "compressed_bytes": 4439,
+            "content_indexed": false,
+            "crc32": 427484491,
+            "directory": false,
+            "member": "ariadne_audit_sources/upload_archive_manifest.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_sources/upload_archive_manifest.json",
+            "sha256": "93e7831a7365b2282325459058b5a497908ba16e565f3a6e6648d78027a70158"
+          },
+          {
+            "bytes": 3919,
+            "compressed_bytes": 1081,
+            "content_indexed": false,
+            "crc32": 1083660131,
+            "directory": false,
+            "member": "ariadne_audit_sources/upload_archive_search_hits.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "ariadne_audit_sources/upload_archive_search_hits.json",
+            "sha256": "07c4fefc14456413843e6f5009522fcd977aa5ed61e524261f187de0bc347a4c"
+          },
+          {
+            "bytes": 8105,
+            "compressed_bytes": 3402,
+            "content_indexed": false,
+            "crc32": 1066326740,
+            "directory": false,
+            "member": "audit_hypergraph_address_certification.txt",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "audit_hypergraph_address_certification.txt",
+            "sha256": "047e062f80a03b7dceda34cb67fb02e13fb04712ca320fcaf91ab42bf2a95530"
+          },
+          {
+            "bytes": 28802,
+            "compressed_bytes": 6110,
+            "content_indexed": false,
+            "crc32": 2639897953,
+            "directory": false,
+            "member": "audit_hypergraph_final_scoped_reads.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "audit_hypergraph_final_scoped_reads.json",
+            "sha256": "f7c3b706e98b08f6789d83f84a12242251e5e51706bb7c3c8c63d4a8c7d6f2f3"
+          },
+          {
+            "bytes": 184298,
+            "compressed_bytes": 22263,
+            "content_indexed": false,
+            "crc32": 763202159,
+            "directory": false,
+            "member": "audit_hypergraph_scoped_evidence.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "audit_hypergraph_scoped_evidence.json",
+            "sha256": "a62161d37b85471f9b8c39795cec5e19ab1df080fffa24f4aca81b11e91eac03"
+          },
+          {
+            "bytes": 6114,
+            "compressed_bytes": 2603,
+            "content_indexed": false,
+            "crc32": 2883239144,
+            "directory": false,
+            "member": "melakarta_audit.py",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "melakarta_audit.py",
+            "sha256": "7a957b1cd3f8fcfe6b0b118036a092c41d7aa6ef18ecef6a7de55eb6c9d7d74b"
+          },
+          {
+            "bytes": 1563,
+            "compressed_bytes": 474,
+            "content_indexed": false,
+            "crc32": 2661664111,
+            "directory": false,
+            "member": "melakarta_audit_outputs/all_36_M_pairs.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "melakarta_audit_outputs/all_36_M_pairs.csv",
+            "sha256": "d59fc1554782d9f17e124e7c253df2f2a815c2d42978744f9e41ce4a0eba0f35"
+          },
+          {
+            "bytes": 4454,
+            "compressed_bytes": 1053,
+            "content_indexed": false,
+            "crc32": 1996746970,
+            "directory": false,
+            "member": "melakarta_audit_outputs/all_72_scales.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "melakarta_audit_outputs/all_72_scales.csv",
+            "sha256": "1879150e3fa6cf5fda758cb18aa739e5245115deab88aba074d180ea4358fd7d"
+          },
+          {
+            "bytes": 1410,
+            "compressed_bytes": 702,
+            "content_indexed": false,
+            "crc32": 4143750498,
+            "directory": false,
+            "member": "melakarta_audit_outputs/verification_results.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "melakarta_audit_outputs/verification_results.json",
+            "sha256": "a4fb0bd691414f2751fae88c1fca67ec86aa95bb404205a893dc75442cb3e13d"
+          },
+          {
+            "bytes": 4596,
+            "compressed_bytes": 2023,
+            "content_indexed": false,
+            "crc32": 3789893338,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transform_index.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transform_index.csv",
+            "sha256": "68f0e49359521e27484e9a1e23ee8e48a9da28fb29002789b3698fc107aab435"
+          },
+          {
+            "bytes": 1873,
+            "compressed_bytes": 927,
+            "content_indexed": false,
+            "crc32": 57352853,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-05.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-05.csv",
+            "sha256": "329ba3259c0ba78d203b6e9f02489776a86d19b1f3eea4c5a4305741e2468c02"
+          },
+          {
+            "bytes": 1600,
+            "compressed_bytes": 785,
+            "content_indexed": false,
+            "crc32": 2388078670,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-06.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-06.csv",
+            "sha256": "37ad59d43082e60a95376d2c3f42d3657244f82a59dbb1b19fca5faa2b5fbeb8"
+          },
+          {
+            "bytes": 1306,
+            "compressed_bytes": 674,
+            "content_indexed": false,
+            "crc32": 3128740636,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-07.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-07.csv",
+            "sha256": "11a30141580990851e9297777380b95da30fdb85c46aa35cc393113884b84607"
+          },
+          {
+            "bytes": 638,
+            "compressed_bytes": 375,
+            "content_indexed": false,
+            "crc32": 1149037674,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-08.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-08.csv",
+            "sha256": "220a137e1c3fc8607a8d7e9003212d6478a22aeb42e634e656ea42f7f0bb94c7"
+          },
+          {
+            "bytes": 842,
+            "compressed_bytes": 472,
+            "content_indexed": false,
+            "crc32": 2543822110,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-09.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-09.csv",
+            "sha256": "9116b07184d19e8e506a6fa2a7711a0dc59f06b286a59eba7fa25d79561e36b7"
+          },
+          {
+            "bytes": 812,
+            "compressed_bytes": 440,
+            "content_indexed": false,
+            "crc32": 1226975230,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-10.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-10.csv",
+            "sha256": "6ce194b8e05d4ec9ff4c9c06c59af4305af5b04c6f12d491e3cf6143838fd7a2"
+          },
+          {
+            "bytes": 1210,
+            "compressed_bytes": 656,
+            "content_indexed": false,
+            "crc32": 1088100066,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-13.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-13.csv",
+            "sha256": "e08ce02b8d64b3f6f8f5822034d05ff3f45a16c1ede1369928cc637dc4be8df3"
+          },
+          {
+            "bytes": 674,
+            "compressed_bytes": 396,
+            "content_indexed": false,
+            "crc32": 299404542,
+            "directory": false,
+            "member": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-16.csv",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/AlkaiDynamics/AYLI/atlas/transforms/ST-16.csv",
+            "sha256": "90ae772e97106202a2b71d6ad284d793648a4fa29a4e70cccd8d3b80d2e1d3e7"
+          },
+          {
+            "bytes": 16801,
+            "compressed_bytes": 7435,
+            "content_indexed": false,
+            "crc32": 3135256419,
+            "directory": false,
+            "member": "repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-18/CP-20260918-ANTI-RECTA-70-72-ABRUPT-CATCHUP.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/zhenrez/ARIADNE/checkpoints/2026-09-18/CP-20260918-ANTI-RECTA-70-72-ABRUPT-CATCHUP.md",
+            "sha256": "4be63a090dd539fe565482dde76673a64512a1fb7311588de1a84f9f9009a086"
+          },
+          {
+            "bytes": 6002,
+            "compressed_bytes": 2787,
+            "content_indexed": false,
+            "crc32": 982114606,
+            "directory": false,
+            "member": "repo_sources/zhenrez/ARIADNE/docs/CLEAN_ROOM_CARRIER_WAVE.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "repo_sources/zhenrez/ARIADNE/docs/CLEAN_ROOM_CARRIER_WAVE.md",
+            "sha256": "587dde402c1962b2ba643a491d84e02bf6129fbca344a6dce89d895b7b24a2d6"
+          },
+          {
+            "bytes": 25218,
+            "compressed_bytes": 22468,
+            "content_indexed": false,
+            "crc32": 4080332945,
+            "directory": false,
+            "member": "source_files/ARIADNE/ARIADNE_Decoder_Workbook_v0.1.xlsx",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "source_files/ARIADNE/ARIADNE_Decoder_Workbook_v0.1.xlsx",
+            "sha256": "59b19caf6ec2525f03ff2785bc2e7816a69841405a19cbb4c66d5c7ee9d9cfcb"
+          },
+          {
+            "bytes": 43199,
+            "compressed_bytes": 42038,
+            "content_indexed": false,
+            "crc32": 347109740,
+            "directory": false,
+            "member": "source_files/Sound_and_Music_Theory_Equation_Ledger.xlsx",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "source_files/Sound_and_Music_Theory_Equation_Ledger.xlsx",
+            "sha256": "67661b333d0e99d8b91b37653c8f5252abd4789c0482e5bb8af4ef29757a3cc4"
+          },
+          {
+            "bytes": 244706,
+            "compressed_bytes": 234982,
+            "content_indexed": false,
+            "crc32": 845252846,
+            "directory": false,
+            "member": "upload/ARIADNE-main(1).zip",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "upload/ARIADNE-main(1).zip",
+            "sha256": "e0048de3f1b82e0520757aa0e1749fe5560ffb3c086a66442c3943b66efb6cbd"
+          },
+          {
+            "bytes": 541,
+            "compressed_bytes": 364,
+            "content_indexed": false,
+            "crc32": 4104950751,
+            "directory": false,
+            "member": "START_HERE.md",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "START_HERE.md",
+            "sha256": "b53b72064ddae341aee6dcd87baeaefaf47f3950afdb82a27485687629ba8809"
+          },
+          {
+            "bytes": 5288,
+            "compressed_bytes": 2018,
+            "content_indexed": false,
+            "crc32": 2413843167,
+            "directory": false,
+            "member": "SOURCE_MANIFEST.json",
+            "path_status": "safe_if_extraction_later_authorized",
+            "safe_local_path": "SOURCE_MANIFEST.json",
+            "sha256": "e24c84a84225f8b2edb6e9e60e5d7247334659b67feabe51e434c41e84b45322"
+          }
+        ],
+        "scope": "immediate member metadata and hashes only; no filesystem expansion, recursive content indexing or embedded code execution",
+        "uncompressed_bytes": 700348
+      }
+    }
+  ],
+  "remaining_boundaries": [
+    "NPZ values are not indexed under the actual selected metadata-only policy; exact bytes and inspection values are preserved.",
+    "ZIP member contents remain unindexed under the selected inventory-only policy.",
+    "Original legacy native_id values remain splitline indices, not native upstream ordinals.",
+    "External references, hidden/deleted/unexported data and live-account completeness are not resolved by this repair."
+  ]
+}

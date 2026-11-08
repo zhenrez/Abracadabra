@@ -1,0 +1,73 @@
+{
+  "freeze_order": {
+    "alphabet_sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738",
+    "graph_sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "performed_after_freeze": true
+  },
+  "yetzirah": {
+    "tested_against_alphabet_sha256": "07f849ec545a55675acc9b7c134f333a90950ed752a4edb732cc93f08df4e738",
+    "T-YET-01": {
+      "result": "EXACT_TYPED_CARDINAL_PARTITION_MATCH",
+      "music": [
+        3,
+        7,
+        12
+      ],
+      "template": [
+        3,
+        7,
+        12
+      ]
+    },
+    "T-YET-02": {
+      "result": "EXACT_CONFIGURATION_SPACE_CARDINALITY_MATCH",
+      "music_pair_space": 231,
+      "template_pair_space": 231
+    },
+    "T-YET-03": {
+      "result": "PARTIAL_CLIP_NOT_NESTED_ISOMORPHISM",
+      "reason": "music classes are parallel role partitions; no native proof of 3 governing 7 governing 12"
+    },
+    "overall": "STRONG_TYPED_PARTITION_AND_PAIRSPACE_MATCH; NESTED_HIERARCHY_UNRESOLVED"
+  },
+  "shem": {
+    "tested_against_graph_sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+    "T-72-01": {
+      "result": "EXACT_MUSIC_ADDRESS_COUNT",
+      "music": 72
+    },
+    "T-72-02": {
+      "result": "EXACT_ARRAY_SHAPE_MATCH",
+      "music_shape": [
+        72,
+        3
+      ],
+      "cells": 216
+    },
+    "T-SHEM-01": {
+      "result": "PARTIAL_STRUCTURAL_MATCH",
+      "input_shape": [
+        3,
+        72
+      ],
+      "output_shape": [
+        72,
+        3
+      ],
+      "forward_reverse_forward_music_rule": "NOT_PRESENT"
+    },
+    "T-SHEM-02": {
+      "result": "EXACT_SEMANTIC_PARTITION_MATCH_ON_ADDRESS_LAYER",
+      "music_partition": [
+        3,
+        4,
+        6
+      ],
+      "derived_3x24": [
+        3,
+        24
+      ]
+    },
+    "overall": "STRONG_ADDRESS_PARTITION_MATCH + EXACT_72x3_SHAPE; ORIENTATION_OPERATOR_NOT_MATCHED"
+  }
+}

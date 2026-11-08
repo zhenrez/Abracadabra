@@ -1,0 +1,26 @@
+{
+  "attempts": [
+    {
+      "attempt": "cached Playwright default browser",
+      "status": "FAILED",
+      "observed": "Executable missing: expectedchromium_headless_shell-1217; installed1161"
+    },
+    {
+      "attempt": "explicit installedChromium1161 inside managedsandbox",
+      "status": "FAILED",
+      "observed": "browserType.launch closed; process exit3221225506; taskkill reported username/password error"
+    },
+    {
+      "attempt": "worker escalatedbrowser request",
+      "status": "ABORTED_BY_USER",
+      "observed": "Tool returned aborted by user after796.8seconds; no execution result or pass inferred"
+    },
+    {
+      "attempt": "root escalatedbrowser execution",
+      "status": "PASSED",
+      "evidence": "browser-verification.json",
+      "observed": "Seveninteractiongroups,zeropageerrors,fouractualscreenshots"
+    }
+  ],
+  "boundary": "Earlier failures remain evidence; successful root check is the current browser outcome. No browser installation or security bypass."
+}

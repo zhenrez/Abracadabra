@@ -1,0 +1,135 @@
+{
+  "schema": "sunny.hierarchy-core-checks.v1",
+  "recorded_utc": "2026-11-01T03:47:58.974368+00:00",
+  "scope": "Standalone source-bound hierarchy core/data before root musical-view integration. Exact observed checks transcribed from structured tool output; no merged/global-completion claim.",
+  "commands": [
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "result": "TypeScript compilation passed with the current hierarchy module"
+    },
+    {
+      "command": "python -X utf8 scripts/extract_hierarchy_native_names.py",
+      "exit_code": 0,
+      "names": 72,
+      "detected_encoding": "windows-1250"
+    },
+    {
+      "command": "node scripts/reconstruct_hierarchy_atlas.mjs",
+      "exit_code": 0,
+      "views": 11,
+      "non_slot_entity_records": 389,
+      "generated_membership_slots": 7911,
+      "primary_command_sums": [
+        2648,
+        2645,
+        2618
+      ],
+      "native_rank_memberships": 79
+    },
+    {
+      "command": "node --test tests/hierarchy.test.mjs",
+      "exit_code": 0,
+      "tests": 12,
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    }
+  ],
+  "tested_atlas_sha256": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312",
+  "current_atlas_sha256_at_receipt": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312",
+  "current_atlas_matches_tested_standalone": true,
+  "source_native_name_regression": {
+    "before": "FAIL: baal differs from sourceBael",
+    "after": "PASS:72source names from existing DOM extraction; anchor separate",
+    "failed_parser_attempts": [
+      "0names due quoted-attribute assumption",
+      "19names due optional closingparagraph assumption"
+    ],
+    "failure_receipts": [
+      "docs/evidence/hierarchy-source-name-before.json",
+      "docs/evidence/hierarchy-source-name-parser-failure.json"
+    ],
+    "actual_Jev_recovery": "existing_dom_extraction_artifact0.67; full provider receipt retained"
+  },
+  "negative_controls": [
+    "dangling source and entity references",
+    "duplicate entity records",
+    "generated slot falsely labeled source asserted",
+    "lost/duplicated command links",
+    "wrong source/witness/index/count",
+    "cycle-safe typed ancestry",
+    "all9independentABC×legionwitness combinations"
+  ],
+  "evidence": [
+    {
+      "path": "src/hierarchy.ts",
+      "sha256": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd"
+    },
+    {
+      "path": "dist/hierarchy.js",
+      "sha256": "f66d234685f8dc34c607d40cb46550a38ccecde7a49c3ea3458713c3ecec7f7d"
+    },
+    {
+      "path": "tests/hierarchy.test.mjs",
+      "sha256": "6066074ff3b0b2d5673632aa718d9e603ac517d8eb87504567b7b0a81235fd23"
+    },
+    {
+      "path": "scripts/reconstruct_hierarchy_atlas.mjs",
+      "sha256": "130a65682b04f9c1f7f7354c94d357aa926f21782c1ae9b6641e96b86b6718e4"
+    },
+    {
+      "path": "scripts/extract_hierarchy_native_names.py",
+      "sha256": "1dfe266428c2301d26486f4841bbdd29581addc2ab9ea77a078b3df98e6f0a7e"
+    },
+    {
+      "path": "docs/evidence/hierarchy-native-name-extraction.json",
+      "sha256": "ce8ba04ab9f36cbb84b9e83f8afaea8760c35d2cb596ce47a5e469e3385f419a"
+    },
+    {
+      "path": "docs/evidence/hierarchy-implementation-jev-request.json",
+      "sha256": "5bc5dd5a73b235af3ef97b46a6f9ce3f17eed56b07817085f25da1089825ff96"
+    },
+    {
+      "path": "docs/evidence/hierarchy-implementation-superjev.json",
+      "sha256": "4aa39dbfd72952a5712e768f4f157c43ce516728229170c866cf527268eb6ce9"
+    },
+    {
+      "path": "docs/evidence/hierarchy-name-parser-recovery-jev-request.json",
+      "sha256": "c236e51855479319b51a7a58f9450b5da810e375a91ab012998025ab2531734c"
+    },
+    {
+      "path": "docs/evidence/hierarchy-name-parser-recovery-superjev.json",
+      "sha256": "4ccd2d570fdc9ca4faec52eb2c27ee719a256f7146d8bbfa4d5d9149371d115c"
+    },
+    {
+      "path": "docs/evidence/hierarchy-source-name-before.json",
+      "sha256": "13b23720f99e8967d20412cfb694c072d6c32f5fdb071e6d3ebdd278dbc69741"
+    },
+    {
+      "path": "docs/evidence/hierarchy-source-name-parser-failure.json",
+      "sha256": "ef9cb1b3b251e234ff71dff9c64d0701ec307c0dd3639c74b1117792397279ff"
+    },
+    {
+      "path": "docs/evidence/hierarchy-supermemory-checkpoint-save.json",
+      "sha256": "0cb4e40db591cc7ec9e5b0e935c83347d32504e95865fe5b65ffe97500d526bd"
+    },
+    {
+      "path": "docs/evidence/hierarchy-supermemory-checkpoint-readback.json",
+      "sha256": "e2427be4f9618f17f0818c7daab63ebd358ae48bcd62d6d4994f74c8a805e8a7"
+    }
+  ],
+  "supermemory": {
+    "document_id": "48giz72Gx9ABtjw8ju6SxL",
+    "save_success": true,
+    "readback_success": true,
+    "boundary": "Earlier hierarchy search endpoint unavailable does not imply save/readback outage or absent memory. Check recorded readback for document/extraction state."
+  },
+  "remaining": [
+    "Root final musical-view merge and fresh merged evidence gate",
+    "Independent review of core and source-conditioned construction",
+    "Complete named archon/angel/nativehierarchy/sourcecoverage",
+    "Global orientation, crosswitness unique identities and legions/personnel"
+  ],
+  "processes": "Bounded generation/test commands completed; no persistent service, browser or instrumented child started."
+}

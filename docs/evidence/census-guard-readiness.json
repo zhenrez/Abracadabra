@@ -1,0 +1,101 @@
+{
+  "status": "OPEN",
+  "decision": "Hold scholarly-to-heterodox transition. Question freeze occurred; baseline freeze remains a separate action.",
+  "inputs": {
+    "docs/reconstruction/symbol-sound-census/scholarly-first-pass.md": "deeb5f63eae0d6c4f2776fd6bb6019dabae86e219f9d271790a018a2b4591191",
+    "docs/reconstruction/symbol-sound-census/dated-witnesses.json": "55e0edb1b15f2c86367b88e932636bb650c678413d815f8707ea775d422fbd97",
+    "docs/reconstruction/symbol-sound-census/question-freeze.json": "8e78e45f127f47d1c39c9576a5664b5894e91b38e0469b18a64af96ccad5073e"
+  },
+  "criteria": [
+    {
+      "id": "Q01",
+      "question": "Who has proposed this or something structurally equivalent before?",
+      "assessment": "open",
+      "basis_or_next_action": "Identify competing authors by individual claim, especially the bounded ritual hypothesis."
+    },
+    {
+      "id": "Q02",
+      "question": "What fields study this problem?",
+      "assessment": "pass_bounded",
+      "basis_or_next_action": "Documented fields suitable for the bounded inquiry."
+    },
+    {
+      "id": "Q03",
+      "question": "What terminology do those fields use for it?",
+      "assessment": "pass_bounded",
+      "basis_or_next_action": "Search aliases named and initial searches logged."
+    },
+    {
+      "id": "Q04",
+      "question": "What are the closest established theories, models, equations, or frameworks?",
+      "assessment": "open",
+      "basis_or_next_action": "Source each candidate mechanism and its domain; distinguish inherited form from sound."
+    },
+    {
+      "id": "Q05",
+      "question": "What reviews, surveys, bibliographies, encyclopedias, dissertations, or meta-analyses map the space?",
+      "assessment": "open",
+      "basis_or_next_action": "Bibliography and counterliterature coverage explicitly incomplete."
+    },
+    {
+      "id": "Q06",
+      "question": "What are the canonical papers, books, and authors?",
+      "assessment": "open",
+      "basis_or_next_action": "Dated editions supplied by follow-up; reconstruct scope and disagreement for early sound testimony."
+    },
+    {
+      "id": "Q07",
+      "question": "What are the competing explanations?",
+      "assessment": "open",
+      "basis_or_next_action": "Describe which scholars actually proposed each explanation versus SUNNY-generated tests."
+    },
+    {
+      "id": "Q08",
+      "question": "What has been falsified, criticized, or abandoned?",
+      "assessment": "pass_bounded",
+      "basis_or_next_action": "English dictionary counterexample suffices for the bounded uniqueness claim."
+    },
+    {
+      "id": "Q09",
+      "question": "What are the unresolved questions?",
+      "assessment": "pass_bounded",
+      "basis_or_next_action": "Unresolved acoustic referent and historical transfer explicitly localized."
+    },
+    {
+      "id": "Q10",
+      "question": "What primary sources or datasets are important to the field?",
+      "assessment": "open",
+      "basis_or_next_action": "Dated graphic witnesses supplied; comparable phonetic testimony still missing."
+    },
+    {
+      "id": "Q11",
+      "question": "What earlier historical traditions have scholars already connected to it?",
+      "assessment": "open",
+      "basis_or_next_action": "Cambridge public summary is a lead; inspect relevant primary Greek witness and transfer rule."
+    },
+    {
+      "id": "Q12",
+      "question": "Has terminology changed over time in ways that hide older versions?",
+      "assessment": "open",
+      "basis_or_next_action": "Test expanded synonyms and log retrieval differences where they change coverage."
+    },
+    {
+      "id": "Q13",
+      "question": "Have adjacent disciplines rediscovered the same structure under another name?",
+      "assessment": "pass_bounded",
+      "basis_or_next_action": "Lexical versus encoding levels explicitly scoped as analogy."
+    },
+    {
+      "id": "Q14",
+      "question": "What obvious prior-art searches have produced nothing?",
+      "assessment": "open",
+      "basis_or_next_action": "Record bounded searches for acoustic prescriptions with languages, targets, dates and outcomes."
+    }
+  ],
+  "additional_requirements": {
+    "exposure": "Keep all census witnesses in the exposed set; separate discovery/evaluation copies and retain dates.",
+    "source_map": "When coverage is reviewed, freeze an immutable snapshot with explicit dependencies, alias/copy provenance and counterarguments. Record Jev reuse/adapt/investigate receipt after source map.",
+    "receipt_limits": "Earlier Proofline package binds earlier file version; follow-up text changes its file hash. Preserve that receipt as historical and bind current inputs by the hashes in this audit.",
+    "scope": "No independent historical sound verified by this audit; absence of original phonetics is an open scientific question, not a requirement to solve it to complete the census."
+  }
+}

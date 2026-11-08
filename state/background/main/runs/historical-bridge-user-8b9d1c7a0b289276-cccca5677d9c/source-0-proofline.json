@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T21:33:05.201078+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "93873d93c0028e117eac53ca1c37b604f3b25fd8608eb9149b67d3a619587dc4"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "dab1cfee-5160-5e91-bd1f-d3a3b5df4ce5",
+      "source_identity_sha256": "afce676e767b3ca22b549d926defba141721f0a8012d8e6d98a40ebcdb408b2e",
+      "source_version_id": "a7dbc97f-ba05-5c55-9c69-2b0f4fb599af",
+      "version_number": 1,
+      "content": "9/9/2026, 4:24:53 PM\n\nwhat do western music/harmonic/resonance/relational theories do that china doesn't? and do those aspects solve anything we're still missing? like fludd, and thimius, and all the new recent universal harmony theories",
+      "content_sha256": "8b9d1c7a0b2892761f7271f642b4c3189b47f6431d7f86e00a9cd84d030fcd95",
+      "content_length": 237,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "45e2eebaa47e21150cafe58e8c5dd6ac2df9bed5fbdc6e0a265462af8dde7cfc"
+    },
+    "chunks": [
+      {
+        "id": "e0f271a4-1e6c-5bfe-8cea-c4a5578be820",
+        "source_node_hash": "45e2eebaa47e21150cafe58e8c5dd6ac2df9bed5fbdc6e0a265462af8dde7cfc",
+        "source_id": "dab1cfee-5160-5e91-bd1f-d3a3b5df4ce5",
+        "source_version_id": "a7dbc97f-ba05-5c55-9c69-2b0f4fb599af",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 237,
+        "start_line": 1,
+        "end_line": 3,
+        "content": "9/9/2026, 4:24:53 PM\n\nwhat do western music/harmonic/resonance/relational theories do that china doesn't? and do those aspects solve anything we're still missing? like fludd, and thimius, and all the new recent universal harmony theories",
+        "content_sha256": "8b9d1c7a0b2892761f7271f642b4c3189b47f6431d7f86e00a9cd84d030fcd95",
+        "node_hash": "692542e4dab5db49d113b5057d8be59860d9f064e30b59a640cfa588d01ace54"
+      }
+    ],
+    "citations": [
+      {
+        "id": "d2a930c6-f2ff-56e7-9b1d-47f6b62ddb0c",
+        "source_node_hash": "45e2eebaa47e21150cafe58e8c5dd6ac2df9bed5fbdc6e0a265462af8dde7cfc",
+        "chunk_node_hashes": [
+          "692542e4dab5db49d113b5057d8be59860d9f064e30b59a640cfa588d01ace54"
+        ],
+        "source_id": "dab1cfee-5160-5e91-bd1f-d3a3b5df4ce5",
+        "source_version_id": "a7dbc97f-ba05-5c55-9c69-2b0f4fb599af",
+        "start_offset": 0,
+        "end_offset": 237,
+        "start_line": 1,
+        "end_line": 3,
+        "quote": "9/9/2026, 4:24:53 PM\n\nwhat do western music/harmonic/resonance/relational theories do that china doesn't? and do those aspects solve anything we're still missing? like fludd, and thimius, and all the new recent universal harmony theories",
+        "quote_sha256": "8b9d1c7a0b2892761f7271f642b4c3189b47f6431d7f86e00a9cd84d030fcd95",
+        "node_hash": "dbf810637674a771329c2b64827b45960ffc54c7a9cf296a09d97310e44c2e94"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "45e2eebaa47e21150cafe58e8c5dd6ac2df9bed5fbdc6e0a265462af8dde7cfc",
+        "692542e4dab5db49d113b5057d8be59860d9f064e30b59a640cfa588d01ace54",
+        "dbf810637674a771329c2b64827b45960ffc54c7a9cf296a09d97310e44c2e94"
+      ],
+      "node_hash": "7c582e0a659c8ea9d8f69f2f0e7c519d83ecaefce95e5f0ca710cd0e1ea30e2e"
+    },
+    "artifact": {
+      "id": "60fe9468-fd7f-5f70-b0b8-df05aabee22d",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/8b9d1c7a0b2892761f7271f642b4c3189b47f6431d7f86e00a9cd84d030fcd95/text.txt; original SHA256 8b9d1c7a0b2892761f7271f642b4c3189b47f6431d7f86e00a9cd84d030fcd95; physical source lines 1..3. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "7c582e0a659c8ea9d8f69f2f0e7c519d83ecaefce95e5f0ca710cd0e1ea30e2e",
+      "citation_node_hashes": [
+        "dbf810637674a771329c2b64827b45960ffc54c7a9cf296a09d97310e44c2e94"
+      ],
+      "node_hash": "2d1e7f083e3f3ef84df84392b51e99bd56b3c8b553e0fd55f53b5f842b68e55b"
+    },
+    "review": {
+      "artifact_node_hash": "2d1e7f083e3f3ef84df84392b51e99bd56b3c8b553e0fd55f53b5f842b68e55b",
+      "status": "candidate",
+      "created_at": "2026-11-02T21:33:05.201078+00:00",
+      "updated_at": "2026-11-02T21:33:05.201078+00:00",
+      "node_hash": "7362bc5734660640249a8bfd0a858dec5095c83f20833be32cee9fd2bb5d1f56"
+    }
+  }
+}

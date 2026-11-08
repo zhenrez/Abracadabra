@@ -1,0 +1,97 @@
+{
+  "schema": "sunny.systems-copy-review.v1",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "# Comprehension check: SUNNY native musical census\n\nRevise before presenting. 0 critical, 4 serious, 0 minor.\n\n## Mom test: would someone outside the team understand this?\n\n- Passed.\n\n## 15 second test: can you explain the screen in 15 seconds?\n\n- **serious** A newcomer needs about 34 seconds to understand this screen; aim for 15 or less.\n  - Found: 76 words, 4 actions\n  - Fix: Cut to one idea and one next step. Move the rest behind a link or a later screen.\n- **serious** The screen shows 76 words, so people read it like a page of text instead of scanning it.\n  - Found: 76 words of visible copy\n  - Fix: Keep the screen under about 60 words and let the interface carry the rest.\n- **serious** The screen offers 4 actions, so there is no obvious next step.\n  - Found: Inspect exact accounting | Inspect complete source record | Previous | Next\n  - Fix: Keep one primary action and at most 2 secondary ones.\n\n## Screenshot test: with zero context, is it clear what this does?\n\n- **serious** An action does not say what happens when you press it.\n  - Found: Next\n  - Fix: Name the outcome, for example Save changes, Start the lesson, Delete this project.\n\n## What the check measured\n\n- Visible copy: 76 words across 4 actions.\n- Insider words found: none.\n- Rough explain time: about 34 seconds. This is a heuristic budget from word count, insider words and choices, not a measurement of real users.\n- It read text only: the copy passed in, or the text in the markup. It cannot see screenshots, text inside images, or visual hierarchy.\n\n## Next step\n\nRewrite the copy so it survives every test, then call check-comprehension again on the new copy. Do not present the screen while a critical or serious finding stands.\n\nBefore you finish this review, call `find-design-system` with the product's description and list its top matches in your report, so the person can pick a style. Restyle the screen only with the one they pick."
+          }
+        ],
+        "structuredContent": {
+          "verdict": "revise",
+          "findingCount": 4,
+          "findings": [
+            {
+              "test": "fifteen-second",
+              "severity": "serious",
+              "problem": "A newcomer needs about 34 seconds to understand this screen; aim for 15 or less.",
+              "evidence": "76 words, 4 actions",
+              "fix": "Cut to one idea and one next step. Move the rest behind a link or a later screen."
+            },
+            {
+              "test": "fifteen-second",
+              "severity": "serious",
+              "problem": "The screen shows 76 words, so people read it like a page of text instead of scanning it.",
+              "evidence": "76 words of visible copy",
+              "fix": "Keep the screen under about 60 words and let the interface carry the rest."
+            },
+            {
+              "test": "fifteen-second",
+              "severity": "serious",
+              "problem": "The screen offers 4 actions, so there is no obvious next step.",
+              "evidence": "Inspect exact accounting | Inspect complete source record | Previous | Next",
+              "fix": "Keep one primary action and at most 2 secondary ones."
+            },
+            {
+              "test": "screenshot",
+              "severity": "serious",
+              "problem": "An action does not say what happens when you press it.",
+              "evidence": "Next",
+              "fix": "Name the outcome, for example Save changes, Start the lesson, Delete this project."
+            }
+          ],
+          "words": 76,
+          "estimatedExplainSeconds": 34,
+          "nextStep": "Before you finish this review, call `find-design-system` with the product's description and list its top matches in your report, so the person can pick a style. Restyle the screen only with the one they pick."
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "# Comprehension check: SUNNY source-native construction classes\n\nRevise before presenting. 0 critical, 2 serious, 1 minor.\n\n## Mom test: would someone outside the team understand this?\n\n- **minor** The copy uses words that only make sense inside the team.\n  - Found: endpoint\n  - Fix: Say what the thing does in everyday words, or explain the term on the screen the first time it appears.\n\n## 15 second test: can you explain the screen in 15 seconds?\n\n- **serious** A newcomer needs about 35 seconds to understand this screen; aim for 15 or less.\n  - Found: 73 words, 3 actions\n  - Fix: Cut to one idea and one next step. Move the rest behind a link or a later screen.\n- **serious** The screen shows 73 words, so people read it like a page of text instead of scanning it.\n  - Found: 73 words of visible copy\n  - Fix: Keep the screen under about 60 words and let the interface carry the rest.\n\n## Screenshot test: with zero context, is it clear what this does?\n\n- Passed.\n\n## What the check measured\n\n- Visible copy: 73 words across 3 actions.\n- Insider words found: endpoint.\n- Rough explain time: about 35 seconds. This is a heuristic budget from word count, insider words and choices, not a measurement of real users.\n- It read text only: the copy passed in, or the text in the markup. It cannot see screenshots, text inside images, or visual hierarchy.\n\n## Next step\n\nRewrite the copy so it survives every test, then call check-comprehension again on the new copy. Do not present the screen while a critical or serious finding stands.\n\nBefore you finish this review, call `find-design-system` with the product's description and list its top matches in your report, so the person can pick a style. Restyle the screen only with the one they pick."
+          }
+        ],
+        "structuredContent": {
+          "verdict": "revise",
+          "findingCount": 3,
+          "findings": [
+            {
+              "test": "mom",
+              "severity": "minor",
+              "problem": "The copy uses words that only make sense inside the team.",
+              "evidence": "endpoint",
+              "fix": "Say what the thing does in everyday words, or explain the term on the screen the first time it appears."
+            },
+            {
+              "test": "fifteen-second",
+              "severity": "serious",
+              "problem": "A newcomer needs about 35 seconds to understand this screen; aim for 15 or less.",
+              "evidence": "73 words, 3 actions",
+              "fix": "Cut to one idea and one next step. Move the rest behind a link or a later screen."
+            },
+            {
+              "test": "fifteen-second",
+              "severity": "serious",
+              "problem": "The screen shows 73 words, so people read it like a page of text instead of scanning it.",
+              "evidence": "73 words of visible copy",
+              "fix": "Keep the screen under about 60 words and let the interface carry the rest."
+            }
+          ],
+          "words": 73,
+          "estimatedExplainSeconds": 35,
+          "nextStep": "Before you finish this review, call `find-design-system` with the product's description and list its top matches in your report, so the person can pick a style. Restyle the screen only with the one they pick."
+        },
+        "isError": false
+      }
+    }
+  ],
+  "scope": "Actual Better Design text-only comprehension checks; not visual approval. Actual desktop/mobile screenshots were separately inspected by the implementation agent. 12ui CLI installation failed EXDEV; no hosted 12ui design run claimed."
+}

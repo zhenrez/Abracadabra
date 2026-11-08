@@ -1,0 +1,25 @@
+{
+  "schema": "sunny.clean-research-bootstrap-summary.v1",
+  "status": "passed",
+  "command": "./scripts/bootstrap-research.ps1 -CheckJevSource -ReportPath docs/publication/bootstrap-clean-environment.json",
+  "bootstrapProcessExitCode": 0,
+  "pipCheckObservedOutput": "No broken requirements found.",
+  "checks": {
+    "sixPinnedPackageChecksPassed": true,
+    "sixPublicJevFileChecksPassed": true,
+    "gitPinPassed": true,
+    "independentPhaseOraclePassed": true,
+    "userSiteDisabled": true,
+    "initialDependencyGapReportUnchanged": true,
+    "coreModelUnchanged": true,
+    "deliveryDataUnchanged": true
+  },
+  "passed": 8,
+  "initialReportSha256": "c393c06e1636c1ce71ad29ac08bf6d982126ecd12885b827292d360fea0c40c5",
+  "modelSha256": "d627b122605112c715343b85006e6e59b46f247e8a9577fedb1c53cdec8ec5ee",
+  "deliveryDataSha256": "84e234dea5185a10e953b12248dfbf01dd093666bfbdff4dce03bf1071c085a7",
+  "isolatedEnvironmentExcludedFromPublication": ".venv-research",
+  "newEnvironmentFullSuiteRun": false,
+  "modelDownloadedOrLoaded": false,
+  "boundary": "Actual isolated six-package setup and scoped independent phase oracle; not full-project or scientific completion."
+}

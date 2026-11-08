@@ -1,0 +1,6 @@
+{
+  "command": "python -B -m unittest discover -s work/final-day-2026-11-07 -p test_inverse_controls.py -v",
+  "observed_exit_code": 1,
+  "observed_failure": "ModuleNotFoundError: No module named 'inverse_controls'",
+  "stage": "Tests created before implementation; expected missing behavior"
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "mcp__codex_apps__wolfram_wolframlanguageevaluator",
+  "request": {
+    "code": "With[{sol=Select[Tuples[Range[0,11],3],Function[v,With[{c=v[[1]],h=v[[2]],t=v[[3]]},And[Mod[h-c-4,12]==0,Mod[t-c-7,12]==0,Mod[t-h-7,12]==0]]]]},<|\"AssignmentsSatisfyingAllThree\"->Length[sol],\"CycleResidue\"->Mod[Expand[(t-c-7)-(t-h-7)-(h-c-4)],12],\"ReversedCycleResidue\"->Mod[-4,12]|>]",
+    "timeConstraint": 15
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Out[1]= <|\"AssignmentsSatisfyingAllThree\" -> 0, \"CycleResidue\" -> 4, \"ReversedCycleResidue\" -> 8|>"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "scope": "Exact conditional three-equation incompatibility; no historical or phonetic verdict."
+}

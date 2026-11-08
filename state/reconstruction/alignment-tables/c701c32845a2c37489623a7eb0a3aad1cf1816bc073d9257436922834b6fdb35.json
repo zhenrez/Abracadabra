@@ -1,0 +1,54 @@
+{
+  "id": "alignment-table-c701c32845a2c374",
+  "content_sha256": "c701c32845a2c37489623a7eb0a3aad1cf1816bc073d9257436922834b6fdb35",
+  "headers": [
+    "System",
+    "Transformation",
+    "Order",
+    "Type"
+  ],
+  "rows": [
+    [
+      "Mother order (Gra vs Sefer vs GD)",
+      "3-cycle",
+      "3",
+      "Cyclic"
+    ],
+    [
+      "Shem row reading",
+      "Middle reflection",
+      "2",
+      "Involution"
+    ],
+    [
+      "SUN kernel",
+      "$R \\circ L = 1/2$",
+      "—",
+      "Composition to closure"
+    ],
+    [
+      "Chinese branch",
+      "$2/3 \\cdot 4/3 = 8/9$",
+      "—",
+      "Shared first, divergent second"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 18497,
+      "line_end": 18502,
+      "char_start": 893031,
+      "char_end": 893355,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| System | Transformation | Order | Type |\n|---|---|---|---|\n| Mother order (Gra vs Sefer vs GD) | 3-cycle | 3 | Cyclic |\n| Shem row reading | Middle reflection | 2 | Involution |\n| SUN kernel | $R \\circ L = 1/2$ | — | Composition to closure |\n| Chinese branch | $2/3 \\cdot 4/3 = 8/9$ | — | Shared first, divergent second |\n",
+      "quote_sha256": "c5f30dd74d7215dcf841628fed57bbc6abfcb810e796ceabad471989124aa073",
+      "message_id": "9fd9e9db3001b86ba87d8626204e762ec849f739e8af19e1925dd76691386cf3",
+      "role": "user",
+      "locator": "lines:18497-18502"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

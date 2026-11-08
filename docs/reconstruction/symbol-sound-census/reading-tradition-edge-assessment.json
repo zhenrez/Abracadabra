@@ -1,0 +1,33 @@
+{
+  "source": "Benjamin Kantor 2023, chapter2 pp7-9",
+  "sourceFile": "docs\\reconstruction\\symbol-sound-census\\phyla-waves-sources\\methodology-pages.json",
+  "sourceSha256": "c445d296b81662a3c989c740ed0c416f40d7fe978ad0ae781b97b47957385b86",
+  "operation": "Evaluate a proposed genealogy edge using changes shared by the candidate descendants, with retention, parallel development and contact as alternative explanations.",
+  "applications": [
+    {
+      "observation": "Arad and Elephantine editions both identify initial aleph.",
+      "evidence": "dated-witnesses.json",
+      "genealogicalDiscriminator": "No shared derived phonetic innovation yet identified in these two tokens.",
+      "status": "insufficient for a newly inferred shared subgroup"
+    },
+    {
+      "observation": "Two Ruth alephs are dotted in L beyond the canonical four-locus list.",
+      "evidence": "wlc-dotted-alef-census.json",
+      "genealogicalDiscriminator": "A manuscript-specific orthographic feature needs comparative witnesses and a history of the practice before it diagnoses phonetic descent.",
+      "status": "distribution established in one digital edition; ancestry unresolved"
+    },
+    {
+      "observation": "BL Or2552 reports shadda at the same Job33:21 locus as a marked Hebrew aleph.",
+      "evidence": "job33-alef-gemination-control.json",
+      "genealogicalDiscriminator": "Determine whether this preserves a reading, represents a transcription convention, or follows a copied model; matching function alone supplies no parent-child relation.",
+      "status": "candidate phonetic testimony via scholarly collation"
+    }
+  ],
+  "neededForTest": [
+    "dated comparative character states",
+    "candidate ancestral state and change direction",
+    "distribution beyond the selected examples",
+    "independent evidence for or against copying and contact"
+  ],
+  "boundary": "This is a source-derived research criterion applied to three recorded observations. No genealogy edge or original sound is established by this artifact."
+}

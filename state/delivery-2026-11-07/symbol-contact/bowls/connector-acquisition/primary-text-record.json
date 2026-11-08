@@ -1,0 +1,102 @@
+{
+  "status": "PRIMARY_PUBLICATION_TEXT_ACQUIRED_AND_SPAN_VERIFIED",
+  "source_layer": "Exa connector text rendering of LOC-hosted original publication, not original PDF bytes or independently inspected ink",
+  "upstream_url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/39/45/70/2019394570/2019394570.pdf",
+  "transport_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\delivery-2026-11-07\\history-discriminator\\exa-loc-fetch.json",
+  "transport_sha256": "9460acbac92c678bf0b4bfbc7fc73a6b99f679e6a8e349e4b378f8a13ac59f96",
+  "transport_bytes": 853595,
+  "text_json_pointer": "/content/0/text",
+  "text_sha256_utf8": "bc5c28a6247e0ed254d0ad55ad68cbdf160c76692fcbab34674352e1e1fd67c2",
+  "text_utf8_bytes": 842781,
+  "text_codepoints": 800209,
+  "text_utf16_code_units": 800209,
+  "normalization_applied_to_source_text": "none",
+  "source_pdf_sha256": null,
+  "pdf_render_inspected": false,
+  "chapter_codepoint_span_half_open": [
+    249024,
+    284209
+  ],
+  "target_spelling_span": [
+    274601,
+    274607
+  ],
+  "raw_num_9_23_row": "ש מ ֶ֔ רּו BHS) || 684.14; 213 ,HLIB (שומורו (7) ",
+  "BHS_raw_extracted_segment": "ש מ ֶ֔ רּו",
+  "BHS_normalization_rule": "retain only U+05D0..U+05EA Hebrew letters, dropping extraction spaces/combining signs; retain raw source separately",
+  "counts": {
+    "published_connector_reading": {
+      "text": "שומורו",
+      "waw_count": 3,
+      "waw_codepoint_indices_zero_based": [
+        1,
+        3,
+        5
+      ]
+    },
+    "earlier_secondary_discovery_lead": {
+      "text": "שומרו",
+      "waw_count": 2,
+      "waw_codepoint_indices_zero_based": [
+        1,
+        4
+      ]
+    },
+    "BHS_comparator_letters_normalized_from_fragmented_row": {
+      "text": "שמרו",
+      "waw_count": 1,
+      "waw_codepoint_indices_zero_based": [
+        3
+      ]
+    }
+  },
+  "two_additions_relative_to_BHS": {
+    "inserted_character": "ו",
+    "indices_in_published_reading_zero_based": [
+      1,
+      3
+    ],
+    "after_base_letters": [
+      "ש",
+      "מ"
+    ],
+    "final_waw_retained_from_BHS": true
+  },
+  "HLIB": {
+    "author": "Shaul Shaked",
+    "year": 1995,
+    "title": "Peace be Upon You, Exalted Angels: On Hekhalot Liturgy and Incantation Bowls",
+    "journal": "Jewish Studies Quarterly",
+    "volume_issue": "2/3",
+    "pages": "197-219",
+    "citation_as_editorially_reordered_from_connector_row": "HLIB, 213; 684.14",
+    "page_213_verified_as_cited": true,
+    "meaning_of_684_14": "UNRESOLVED: Molin chapter text supplies the locator but does not explicitly define its components; likely edition/bowl and line must be checked against the edition, not asserted as verified"
+  },
+  "published_inference": {
+    "pausal_IPA_literal": "[ʃɔːˈmɔːruː]",
+    "contextual_IPA_literal": "[ʃɔːmaˈruː]",
+    "scope": "Molin interprets the two qames-corresponding vowel letters as a pausal reading and evidence for oral/liturgical transmission; these are published reconstructions, not acoustic observations.",
+    "footnote_46": "Refers to use of waw parallel to Tiberian qames in Hebrew and Aramaic bowls; overview/evaluation in Juusola1999 and Molin2017 pp17-22.",
+    "footnote_47": "Yeivin1985 p427; [a] denotes shewa."
+  },
+  "dating": "Chapter reports positive evidence for bowl production in sixth/seventh centuries and proposes possible earlier beginning; no independently established date for this cited specimen acquired.",
+  "source_page_mapping": "Target section identified by chapter and subsection; printed pp163-164 are the known citation target, but original PDF pagination/render was not independently checked.",
+  "definition_search_scope": {
+    "chapter_codepoint_span": [
+      249024,
+      284209
+    ],
+    "684_14_occurrences": 1,
+    "HLIB_occurrences": 2,
+    "explicit_numbering_definition_located": false
+  },
+  "guard_execution": {
+    "evidence_audit_helper": "C:\\Users\\Brend\\.codex\\plugins\\cache\\created-by-me-remote\\prumo-jev-research\\0.1.1\\skills\\evidence-audit\\scripts\\evidence_ledger.py",
+    "evidence_audit_helper_sha256": "fa173426ff42088d7a37de6efc4a12f7afc49c7d51e6d7f8475862cbba9ed956",
+    "validated_records": 7,
+    "new_network_requests": 0,
+    "new_jev_inference": false
+  },
+  "remaining_discriminator": "Verify the edition locator and original letter readings/date, then test whether the qames-corresponding use belongs to broader chronology/phonology rather than a context-specific pausal, vernacular, or writing convention. This text alone cannot choose inheritance over contact/parallel change."
+}

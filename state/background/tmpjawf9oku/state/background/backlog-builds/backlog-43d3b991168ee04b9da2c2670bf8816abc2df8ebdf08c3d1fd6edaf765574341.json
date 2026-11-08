@@ -1,0 +1,85 @@
+{
+  "schema": "sunny.background-source-backlog.v1",
+  "built_utc": "2026-11-02T01:57:49.700451+00:00",
+  "source_database": "data/sunny.sqlite",
+  "database_access": "read-only + query_only",
+  "profiles": {
+    "bridge": {
+      "matched_message_occurrences": 3,
+      "eligible_occurrences": 2
+    },
+    "calendar": {
+      "matched_message_occurrences": 1,
+      "eligible_occurrences": 1
+    },
+    "glyph": {
+      "matched_message_occurrences": 1,
+      "eligible_occurrences": 0
+    }
+  },
+  "eligible_source_kinds": [
+    "supplied_archive_member",
+    "nested_library",
+    "recovered_current_research"
+  ],
+  "excluded_record_reasons": {
+    "not_historical_native_source_kind": 2
+  },
+  "unique_text_role_groups": 3,
+  "message_occurrences": 4,
+  "unique_text_hashes": 2,
+  "eligible_bounded_groups": 2,
+  "pending_status_counts": {
+    "pending_oversized_full_message_no_truncation": 1
+  },
+  "queue_limit": 0,
+  "queued_jobs": [],
+  "records": [
+    {
+      "content_sha256": "16f981e73ee945df3efb1e5669874e9cf6d41322d0b90fbd569978e73c1059f5",
+      "source_role": "assistant",
+      "tracks": [
+        "calendar"
+      ],
+      "characters": 20009,
+      "bytes": 20009,
+      "projection_path": "data/raw/background-projections/16f981e73ee945df3efb1e5669874e9cf6d41322d0b90fbd569978e73c1059f5/text.txt",
+      "occurrence_manifest": "data/raw/background-projections/16f981e73ee945df3efb1e5669874e9cf6d41322d0b90fbd569978e73c1059f5/occurrences-f1fcf3a0eec2a85d97d3f35be1f5e4cfae0c836c712994f9b66cdc78d772427e.json",
+      "occurrence_count": 1,
+      "status": "pending_oversized_full_message_no_truncation"
+    },
+    {
+      "content_sha256": "233e6ef1219704b843b06f4b30c151cd9802e32d52faf0e6444a552cc7d4811e",
+      "source_role": "assistant",
+      "tracks": [
+        "bridge"
+      ],
+      "characters": 65,
+      "bytes": 65,
+      "projection_path": "data/raw/background-projections/233e6ef1219704b843b06f4b30c151cd9802e32d52faf0e6444a552cc7d4811e/text.txt",
+      "occurrence_manifest": "data/raw/background-projections/233e6ef1219704b843b06f4b30c151cd9802e32d52faf0e6444a552cc7d4811e/occurrences-6b945db493c2bde49a0c27b64a84a5cf743556d8959655ca3984d6bb2337ccfd.json",
+      "occurrence_count": 1,
+      "status": "eligible_unprocessed"
+    },
+    {
+      "content_sha256": "233e6ef1219704b843b06f4b30c151cd9802e32d52faf0e6444a552cc7d4811e",
+      "source_role": "user",
+      "tracks": [
+        "bridge"
+      ],
+      "characters": 65,
+      "bytes": 65,
+      "projection_path": "data/raw/background-projections/233e6ef1219704b843b06f4b30c151cd9802e32d52faf0e6444a552cc7d4811e/text.txt",
+      "occurrence_manifest": "data/raw/background-projections/233e6ef1219704b843b06f4b30c151cd9802e32d52faf0e6444a552cc7d4811e/occurrences-f3e95fcb5edb8a71dcb378f25d0a29c0c6a41cb9248423f732d371c74fb5ed65.json",
+      "occurrence_count": 2,
+      "status": "eligible_unprocessed"
+    }
+  ],
+  "limits": [
+    "Lexical eligibility does not prove semantic relevance, processing or completeness.",
+    "Current local Codex/tool/hook/task records excluded from this finite native-source intake; exclusion is not loss or absence from full SUNNY scope.",
+    "Oversized full messages are preserved and pending; no silent truncation.",
+    "Identical text with different roles remains separately processable; all duplicate occurrence metadata retained.",
+    "No source age is treated as truth; deterministic processing order is hash order within balanced tracks."
+  ]
+}

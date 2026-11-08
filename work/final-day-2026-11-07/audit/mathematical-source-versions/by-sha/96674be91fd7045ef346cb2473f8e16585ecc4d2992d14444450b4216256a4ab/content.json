@@ -1,0 +1,1153 @@
+{
+  "schema": "sunny.score-anchor-observability.v1",
+  "source": {
+    "path": "state/reconstruction/generational-constraints.json",
+    "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+    "constraint": "GT-TIME-OVERLAP",
+    "sourceSpans": [
+      "cainan_stage_witnesses",
+      "cainan_macro_transport",
+      "age_year_time_limit"
+    ]
+  },
+  "jevReceipt": "state/jev-receipts/000058-bbb3ab44bbf5.json",
+  "domain": {
+    "equations": "A*d=l; five ordered positive stages in the declared birth-entrance/death-exit experiment",
+    "units": "Witness-relative reported years; no year-to-beat conversion",
+    "scope": "Exact linear relations in this source-conditioned domain, not a complete universal ontology or original sound recovery"
+  },
+  "matrix": [
+    [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  ],
+  "retainedNullspaceBasis": [
+    [
+      "1",
+      "0",
+      "-1",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "-1",
+      "0",
+      "1"
+    ]
+  ],
+  "minimumAdditionalIndependentObservations": 2,
+  "anchorPairs": [
+    {
+      "stageIndices": [
+        1,
+        2
+      ],
+      "labels": [
+        "solo A",
+        "A+B"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "determinant": "1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        1,
+        3
+      ],
+      "labels": [
+        "solo A",
+        "A+B+C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "-1"
+        ]
+      ],
+      "determinant": "-1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        1,
+        4
+      ],
+      "labels": [
+        "solo A",
+        "B+C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "determinant": "0",
+      "sufficient": false
+    },
+    {
+      "stageIndices": [
+        1,
+        5
+      ],
+      "labels": [
+        "solo A",
+        "solo C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "determinant": "1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        2,
+        3
+      ],
+      "labels": [
+        "A+B",
+        "A+B+C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "-1"
+        ]
+      ],
+      "determinant": "1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        2,
+        4
+      ],
+      "labels": [
+        "A+B",
+        "B+C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "determinant": "-1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        2,
+        5
+      ],
+      "labels": [
+        "A+B",
+        "solo C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "determinant": "0",
+      "sufficient": false
+    },
+    {
+      "stageIndices": [
+        3,
+        4
+      ],
+      "labels": [
+        "A+B+C",
+        "B+C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "determinant": "1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        3,
+        5
+      ],
+      "labels": [
+        "A+B+C",
+        "solo C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "determinant": "-1",
+      "sufficient": true
+    },
+    {
+      "stageIndices": [
+        4,
+        5
+      ],
+      "labels": [
+        "B+C",
+        "solo C"
+      ],
+      "restrictionOnTimingFreedoms": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "determinant": "1",
+      "sufficient": true
+    }
+  ],
+  "sufficientPairs": 8,
+  "redundantPairs": 2,
+  "witnessReplays": [
+    {
+      "witness": "MT",
+      "anchors": [
+        1,
+        2
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        1,
+        2
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        1,
+        2
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        1,
+        2
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        1,
+        2
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        1,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        1,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        1,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        1,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        1,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        1,
+        4
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        1,
+        4
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        1,
+        4
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        1,
+        4
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        1,
+        4
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        1,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        1,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        1,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        1,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        1,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        2,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        2,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        2,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        2,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        2,
+        3
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        2,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        2,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        2,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        2,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        2,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        2,
+        5
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        2,
+        5
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        2,
+        5
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        2,
+        5
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        2,
+        5
+      ],
+      "remainingTimingFreedoms": 1,
+      "exactReconstruction": false,
+      "basisChangedReplay": false,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        3,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        3,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        3,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        3,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        3,
+        4
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        3,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        3,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        3,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        3,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        3,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "MT",
+      "anchors": [
+        4,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "SP",
+      "anchors": [
+        4,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_430",
+      "anchors": [
+        4,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Greek_400",
+      "anchors": [
+        4,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    },
+    {
+      "witness": "Clementine_Latin",
+      "anchors": [
+        4,
+        5
+      ],
+      "remainingTimingFreedoms": 0,
+      "exactReconstruction": true,
+      "basisChangedReplay": true,
+      "sourceExposure": "already exposed; not a blind prediction"
+    }
+  ],
+  "singleAnchorPredictions": [
+    {
+      "anchorStage": 1,
+      "anchorValue": 35,
+      "remainingTimingFreedoms": 1,
+      "stagePredictions": [
+        {
+          "stage": 1,
+          "status": "determined",
+          "value": "35"
+        },
+        {
+          "stage": 2,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 3,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 4,
+          "status": "determined",
+          "value": "30"
+        },
+        {
+          "stage": 5,
+          "status": "underdetermined"
+        }
+      ]
+    },
+    {
+      "anchorStage": 2,
+      "anchorValue": 30,
+      "remainingTimingFreedoms": 1,
+      "stagePredictions": [
+        {
+          "stage": 1,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 2,
+          "status": "determined",
+          "value": "30"
+        },
+        {
+          "stage": 3,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 4,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 5,
+          "status": "determined",
+          "value": "61"
+        }
+      ]
+    },
+    {
+      "anchorStage": 3,
+      "anchorValue": 373,
+      "remainingTimingFreedoms": 1,
+      "stagePredictions": [
+        {
+          "stage": 1,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 2,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 3,
+          "status": "determined",
+          "value": "373"
+        },
+        {
+          "stage": 4,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 5,
+          "status": "underdetermined"
+        }
+      ]
+    },
+    {
+      "anchorStage": 4,
+      "anchorValue": 30,
+      "remainingTimingFreedoms": 1,
+      "stagePredictions": [
+        {
+          "stage": 1,
+          "status": "determined",
+          "value": "35"
+        },
+        {
+          "stage": 2,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 3,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 4,
+          "status": "determined",
+          "value": "30"
+        },
+        {
+          "stage": 5,
+          "status": "underdetermined"
+        }
+      ]
+    },
+    {
+      "anchorStage": 5,
+      "anchorValue": 61,
+      "remainingTimingFreedoms": 1,
+      "stagePredictions": [
+        {
+          "stage": 1,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 2,
+          "status": "determined",
+          "value": "30"
+        },
+        {
+          "stage": 3,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 4,
+          "status": "underdetermined"
+        },
+        {
+          "stage": 5,
+          "status": "determined",
+          "value": "61"
+        }
+      ]
+    }
+  ],
+  "symbolicConsequences": {
+    "d4": "lB-lA+d1",
+    "d5": "lC-lB+d2",
+    "d3": "lA-d1-d2",
+    "positiveDomain": "d1>max(0,lA-lB), d2>max(0,lB-lC), d1+d2<lA",
+    "MT_positiveDomain": "d1>5, d2>0, d1+d2<438"
+  },
+  "contradictionControl": {
+    "status": "synthetic deliberately incompatible anchors; not an observed witness error",
+    "anchorValues": {
+      "d1": 35,
+      "d4": 31
+    },
+    "minimalConflicts": [
+      [
+        "lifespan_A",
+        "lifespan_B",
+        "d1=35",
+        "d4=31"
+      ]
+    ],
+    "irrelevantToThisConflict": [
+      "lifespan_C"
+    ],
+    "requiredIdentity": "d4-d1=lB-lA=-5; the two supplied anchors instead give -4"
+  },
+  "orderControl": {
+    "anchors": {
+      "d1": 1,
+      "d2": 30
+    },
+    "uniqueAlgebraicSolution": [
+      "1",
+      "30",
+      "407",
+      "-4",
+      "61"
+    ],
+    "positiveOrderedStageModelAdmissible": false,
+    "consequence": "Recompute event order or reject these anchors in the fixed ordering; do not report a negative duration as a physical performance"
+  },
+  "representationChange": {
+    "from": "ordered stage durations d",
+    "to": "cumulative event offsets z=T*d",
+    "matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "inverse": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        1
+      ]
+    ],
+    "equationTransform": "A -> A*T^-1; every anchor covector transforms the same way",
+    "proof": "For invertible T the solution sets correspond bijectively. A target is fixed exactly when its covector annihilates every null vector; this criterion is unchanged by simultaneous inverse transformation.",
+    "checkedReplays": 40,
+    "transferBoundary": "Nonlinear, unit-changing, temporal-origin or source-witness identifications require their own adapters"
+  },
+  "priorArt": [
+    {
+      "title": "Gilbert Strang, Six Great Theorems / Linear Algebra in a Nutshell",
+      "url": "https://math.mit.edu/~gs/linearalgebra/ila5/linearalgebra5_6Great.pdf",
+      "reuse": "Row-space/nullspace duality supplies the identifiability criterion; this is reused mathematics, not a claimed new theorem"
+    },
+    {
+      "title": "SymPy matrices documentation",
+      "url": "https://docs.sympy.org/latest/modules/matrices/matrices.html",
+      "reuse": "Exact Gauss-Jordan solution/nullspace methods; independent verification may use the installed library"
+    }
+  ],
+  "derivation": [
+    "A*(d-dprime)=0 for the difference of two score realizations, so every ambiguity lies in ker(A).",
+    "A target c*d is unique iff c annihilates ker(A). Extra anchor rows resolve all ambiguity iff their restrictions to ker(A) have full rank2.",
+    "Stage1and4 restrictions are equal; Stage2and5 restrictions are equal. Their paired determinants vanish. All other pairs have determinant+1or-1.",
+    "Hence eight of the ten supplied duration pairs reconstruct every stage; the other two leave one degree of freedom.",
+    "Strict positivity is an additional domain constraint, checked after algebraic consistency; no integer-year prior is imposed."
+  ],
+  "newInferenceScope": "A concrete extension of the retained overlap ambiguity: the exact measurement pairs and their surviving consequences. Not a novel general linear-algebra method.",
+  "historicalOrientationSelected": false,
+  "blindPrediction": false,
+  "fullMissionComplete": false,
+  "inputSnapshots": [
+    {
+      "sourcePath": "state/reconstruction/generational-constraints.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0/generational-constraints.json",
+      "sha256": "a35f1a5621e650e0c0fa1f6623f5491c37333a26f1bb01305dd10e577e5584e0",
+      "bytes": 118364,
+      "role": "retained source-conditioned calculation"
+    },
+    {
+      "sourcePath": "state/jev-receipts/000058-bbb3ab44bbf5.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/75e16a54e41749d4cd5f3a6b2b66ac8fafc04992dba38c4a9641451b196807f5/000058-bbb3ab44bbf5.json",
+      "sha256": "75e16a54e41749d4cd5f3a6b2b66ac8fafc04992dba38c4a9641451b196807f5",
+      "bytes": 5243,
+      "role": "actual model-directed investigation choice"
+    }
+  ],
+  "codeBindings": [
+    {
+      "path": "scripts/derive_score_anchors.py",
+      "sha256": "dff667931a28fce7192c347c28f96814a4b62e7114c81315113ef829f8c321be"
+    },
+    {
+      "path": "tests/score_anchors_independent.py",
+      "sha256": "fc3fce1fba82ba26cee78c392e770582d9571f1345288f14cd7c0fd8027b16e2"
+    }
+  ]
+}

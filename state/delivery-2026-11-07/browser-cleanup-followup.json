@@ -1,0 +1,8 @@
+{
+  "scope": "Follow-up to browser-check at2026-11-07T21:52:50.852Z",
+  "originalOutcome": "Visual and integration groups passed; overall command exited1 because one owned browser process did not exit within the cleanup wait.",
+  "followupObservation": {"old_pid":14112,"old_pid_present":false,"exact_dedicated_profile_processes":0,"ownership_file_present":false},
+  "limitation": "The old ownership file was removed by the prior harness even though cleanup failed; the full old identity list cannot be reconstructed from that file. The old report remains failed.",
+  "correction": "Keep ownership records on cleanup failure. Retry only the same captured browser identities, at most three bounded attempts; success still requires zero captured and exact-profile processes.",
+  "noUnrelatedBrowserAction": true
+}

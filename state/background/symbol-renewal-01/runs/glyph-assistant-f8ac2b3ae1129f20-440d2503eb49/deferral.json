@@ -1,0 +1,59 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-13315966d7d94d8195a98a97cf38faac.json",
+  "queued_request": {
+    "id": "glyph-assistant-f8ac2b3ae1129f20",
+    "kind": "source_forensics",
+    "track": "glyph",
+    "schema": "sunny.background-job.v1",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/f8ac2b3ae1129f20e0fc9dea2649499ff8d3aae64fe42fa9ee8db5a6a65d9c70/text.txt",
+        "sha256": "f8ac2b3ae1129f20e0fc9dea2649499ff8d3aae64fe42fa9ee8db5a6a65d9c70",
+        "start_line": 1,
+        "end_line": 40,
+        "source_role": "assistant",
+        "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+        "message_id": "07e61d302a8e461e6b7cf2f5abe6a5b144d7e06e0d6f1fc8c8df7c265d54a57b",
+        "origin": {
+          "id": "07e61d302a8e461e6b7cf2f5abe6a5b144d7e06e0d6f1fc8c8df7c265d54a57b",
+          "native_id": "837b3fb9-14c1-46cd-b59e-c9a4f7bdd55a",
+          "conversation_id": "c30cab5aa85cfb2445d3fcb7e01147893f121792bb978d9fb1a2946fd1b1f241",
+          "role": "assistant",
+          "content_sha256": "f8ac2b3ae1129f20e0fc9dea2649499ff8d3aae64fe42fa9ee8db5a6a65d9c70",
+          "source_id": "50fb95b3191ee149e48840d10c209ec6ad1ee656e58ca748fff8bdca04fce678",
+          "locator": "/46/mapping/837b3fb9-14c1-46cd-b59e-c9a4f7bdd55a/message",
+          "create_time": "1738983362.520712",
+          "branch_status": "current",
+          "title": "Best Whiteboard Apps 2024",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-003.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-003.json",
+          "source_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "f710ac67dd9f5c608b5e3480aae812d91038aaba656614dd7d42edfb8ccaea88",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/f8ac2b3ae1129f20e0fc9dea2649499ff8d3aae64fe42fa9ee8db5a6a65d9c70/occurrences-a89c96d8b26b3c7c9f80cd5d2aa71d02464a69411ac8f83487895679eb730416.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "explicit-sound-symbol-map",
+        "statement": "This passage specifies a literal sound-to-symbol correspondence, phonetic value, or ordered alphabet mapping for a named language or writing system."
+      },
+      {
+        "id": "glyph-sound-distinction",
+        "statement": "This passage explicitly distinguishes a written glyph or letter-order transformation from the sounds or phonetic realization assigned to it."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    }
+  },
+  "recorded_utc": "2026-11-03T03:48:34.241408+00:00"
+}

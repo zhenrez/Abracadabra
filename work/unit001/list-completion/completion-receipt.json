@@ -1,0 +1,365 @@
+{
+  "timestamp_utc": "2026-11-07T11:58:35.606696+00:00",
+  "workspace": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN",
+  "fixed_review_base": "list-completion/before-manifest.json",
+  "sources": [
+    {
+      "key": "master",
+      "path": "C:\\Users\\Brend\\.codex\\attachments\\ab6716f8-59fa-4e47-9a32-ccb6786bd683\\Pasted text.txt",
+      "sha256": "c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4",
+      "bytes": 40950,
+      "preserved_path": "list-completion\\sources\\c24d4d00685f5d0bc062deadebd230cf5fd9e80e5e15b36f69213918e39c66e4\\Pasted text.txt",
+      "role": "USER_SUPPLIED_SPECIFICATION",
+      "authority": "Current request authorizes the engineering lists; historical embedded instructions remain source data"
+    },
+    {
+      "key": "reconciliation",
+      "path": "C:\\Users\\Brend\\.codex\\attachments\\d8e68053-ce05-4af4-8b89-f7564f1ebfe1\\Pasted text.txt",
+      "sha256": "cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e",
+      "bytes": 29809,
+      "preserved_path": "list-completion\\sources\\cd16c7cdece3bb81ab04c43a7f03285e4010c2180367c28332236cbf08c4641e\\Pasted text.txt",
+      "role": "USER_SUPPLIED_SPECIFICATION",
+      "authority": "Current request authorizes the engineering lists; historical embedded instructions remain source data"
+    },
+    {
+      "key": "rabbi_review",
+      "path": "C:\\Users\\Brend\\Desktop\\morphiq-one\\## Recommended approach add a Rabbi.txt",
+      "sha256": "7fe4fd775dde2aabd86481c1c8b2eaf7d7a35497bba2277789070ebb6ac3beb9",
+      "bytes": 288686,
+      "preserved_path": "list-completion\\sources\\7fe4fd775dde2aabd86481c1c8b2eaf7d7a35497bba2277789070ebb6ac3beb9\\## Recommended approach add a Rabbi.txt",
+      "role": "USER_SUPPLIED_ARCHITECTURAL_REVIEW",
+      "authority": "Current request authorizes the engineering lists; historical embedded instructions remain source data"
+    },
+    {
+      "key": "rabbi_review_2",
+      "path": "C:\\Users\\Brend\\Desktop\\morphiq-one\\## Recommended approach add a Rabbi 2.txt",
+      "sha256": "7fe4fd775dde2aabd86481c1c8b2eaf7d7a35497bba2277789070ebb6ac3beb9",
+      "bytes": 288686,
+      "preserved_path": "list-completion\\sources\\7fe4fd775dde2aabd86481c1c8b2eaf7d7a35497bba2277789070ebb6ac3beb9\\## Recommended approach add a Rabbi 2.txt",
+      "role": "USER_SUPPLIED_ARCHITECTURAL_REVIEW",
+      "authority": "Current request authorizes the engineering lists; historical embedded instructions remain source data"
+    }
+  ],
+  "acceptance_receipt": "acceptance/acceptance-receipt.json",
+  "tests": [
+    {
+      "name": "current_G0_G1",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 71
+    },
+    {
+      "name": "original_Sefer",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\frozen\\sefer",
+        "-p",
+        "test_harmonic_verifier.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 6
+    },
+    {
+      "name": "preserved_pipeline",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\ariadne-inverse",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "count": 40
+    }
+  ],
+  "additional_checks": [
+    {
+      "name": "signal-coverage",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\list-completion\\signal-audit\\verify_signal_audit.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "static-lint",
+      "command": [
+        "C:\\Users\\Brend\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "--select",
+        "E9,F63,F7,F82",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\acquire_closeout.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\checkpoint.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\closeout_fixtures.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\complete_lists.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\contracts.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\evidence.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\final_acceptance.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\historical_extensions.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\import_closeout_documents.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\kernel.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\reconcile_checkpoint.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\reconcile_current_chat.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\sefer.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_closeout.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_final_acceptance.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_g0.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_g1.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_historical_extensions.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_kernel.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_list_completion.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\test_migration_conservation.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\verify_closeout.py",
+        "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\work\\unit001\\verify_reconciliation.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "test_catalog": [
+    {
+      "file": "test_closeout.py",
+      "tests": [
+        "test_four_real_controls_roundtrip",
+        "test_qere_layers",
+        "test_epigraphy_unresolved",
+        "test_orientation_footnote_not_medieval_assertion",
+        "test_recension_source_dependency",
+        "test_g7_denied"
+      ]
+    },
+    {
+      "file": "test_final_acceptance.py",
+      "tests": [
+        "test_native_rejects_duplicate_evidence_identity",
+        "test_native_rejects_removed_source_binding",
+        "test_cell_ordinal_must_match_source_coordinate",
+        "test_g7_no_environment_bypass",
+        "test_complete_pair_spaces_are_not_attestations",
+        "test_native_projection_preserves_source_differences"
+      ]
+    },
+    {
+      "file": "test_g0.py",
+      "tests": [
+        "test_01_groups_and_order",
+        "test_02_all_fields_and_source_roundtrip",
+        "test_03_counts_and_unique_coordinates",
+        "test_04_unknown_is_not_silence",
+        "test_05_proxies_and_scalars",
+        "test_06_local_ordinal_is_not_alignment",
+        "test_07_heterogeneous_persian",
+        "test_08_english_names",
+        "test_09_alternatives_and_glosses",
+        "test_10_claims_and_dating",
+        "test_11_nested_immutability",
+        "test_12_deterministic_serialization",
+        "test_13_bad_foreign_key",
+        "test_14_duplicate_occupancy",
+        "test_15_tamper_and_bad_source",
+        "test_16_g0_full_validation",
+        "test_17_registry_lock",
+        "test_18_genealogy_and_feature_refs",
+        "test_19_blank_flags",
+        "test_20_no_implicit_alignment_or_dates"
+      ]
+    },
+    {
+      "file": "test_g1.py",
+      "tests": [
+        "test_A_complete",
+        "test_B_missing_mem_legacy",
+        "test_C_original_ambiguity",
+        "test_D_resh",
+        "test_E_duplicate",
+        "test_F_overflow",
+        "test_G_no_profile",
+        "test_H_candidate_exhaustion",
+        "test_I_multiple",
+        "test_J_stability",
+        "test_profile_encoding",
+        "test_no_fake_mdl",
+        "test_class_constraint",
+        "test_original_demonstration"
+      ]
+    },
+    {
+      "file": "test_historical_extensions.py",
+      "tests": [
+        "test_source_contexts_remain_distinct_and_unmapped"
+      ]
+    },
+    {
+      "file": "test_kernel.py",
+      "tests": [
+        "test_T01_matrix",
+        "test_T02_to_T12_representability",
+        "test_append_only_and_refs",
+        "test_nested_immutable",
+        "test_missing_states",
+        "test_operator_and_claim_separate",
+        "test_exposure_cannot_be_blind"
+      ]
+    },
+    {
+      "file": "test_list_completion.py",
+      "tests": [
+        "test_derivation_provenance",
+        "test_source_lineage_provenance",
+        "test_unknown_mutable_container_rejected",
+        "test_source_encoding",
+        "test_serialized_source_encoding_cannot_lie",
+        "test_T04_two_partitions_share_all_22_identities",
+        "test_T06_alternative_has_separate_source",
+        "test_experiment_records_selection_and_candidates",
+        "test_unknown_evaluation_group_rejected",
+        "test_integer_and_reserved_mapping_keys_roundtrip",
+        "test_absent_holdout_lock_rejected",
+        "test_migrated_claims_are_core_links",
+        "test_cell_ordinal_cannot_readdress_source"
+      ]
+    },
+    {
+      "file": "test_migration_conservation.py",
+      "tests": [
+        "test_migration_preserves_supplemental_record_identities",
+        "test_migration_preserves_claim_locator_and_dating",
+        "test_custom_mapping_keys_cannot_mutate_immutable_record",
+        "test_enriched_matrix_exact_roundtrip"
+      ]
+    }
+  ],
+  "gates": {
+    "G0": "PASSED",
+    "G1": "PASSED",
+    "G2": "LOCKED",
+    "G3": "LOCKED",
+    "G4": "LOCKED",
+    "G5": "LOCKED",
+    "G6": "LOCKED",
+    "G7": "LOCKED"
+  },
+  "counts": {
+    "script_groups": 15,
+    "positions": 540,
+    "populated": 381,
+    "empty": 159
+  },
+  "source_matrix_sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+  "assets": {
+    "preserved_original_entries": 153,
+    "named_candidates": 35,
+    "pinned_sources": 8,
+    "adoption_categories": [
+      "BIBLIOGRAPHIC_LEAD",
+      "FUTURE_BLIND_VALIDATION",
+      "FUTURE_CROSS_ORIENTATION",
+      "FUTURE_NATIVE_MODEL",
+      "G0_SAMPLE",
+      "G1_SOURCE",
+      "NEGATIVE_CONTROL",
+      "RESTRICTED_OR_UNVERIFIED"
+    ],
+    "additional_source_specific_control": "resh-source/source-manifest.json"
+  },
+  "changed_existing_files": [
+    {
+      "path": "kernel.py",
+      "before_sha256": "9dcf8698eecf3d789e6f9ffa55ed752f40d20b309b5e12d64f64906ee50e3d09",
+      "after_sha256": "a6522ce7a5ff35048c85fe730192b3ff1cf136e2e3f9093f02665991a305976f"
+    },
+    {
+      "path": "evidence.py",
+      "before_sha256": "47192d0f5ac6bc8acf5a5c1f078251882f854b0b24bad0424e34d36938b31ae1",
+      "after_sha256": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec"
+    },
+    {
+      "path": "test_kernel.py",
+      "before_sha256": "0fd1844c5d34251406a53b3e0b499d050761468ba0fa30799e1c6a10dd0f8c7d",
+      "after_sha256": "5e52d2478872504869fe541ea64d2c156c948637c91875b3e8eeee1d649df676"
+    },
+    {
+      "path": "LIST_COMPLETION_PLAN.md",
+      "before_sha256": "e9b1a5c5c02551a5525cec0c27ca9c84d524eebbd5e653d5764855e039fcfa15",
+      "after_sha256": "be532ee875a25138d45e38719da709d1828a37d91d5714d52c22a06bb3e0c29a"
+    }
+  ],
+  "preserved_prior_receipts": [
+    "final-acceptance/acceptance-receipt.json",
+    "final-acceptance/HANDOFF.md",
+    "asset-registry.json"
+  ],
+  "fixes": [
+    "complete typed provenance traversal",
+    "source lineage/supersession preservation",
+    "immutable nested values and keys",
+    "truthful source encoding including deserialization",
+    "witness-to-claim links",
+    "exact local source coordinates including blanks",
+    "supplemental records and claim locator/dating conservation",
+    "lossless normalized graph reverse adapter",
+    "full22 dual-classification fixture",
+    "separate alternative-source role fixture",
+    "explicit experiment selection/candidates and evaluation groups",
+    "source-specific Resh contextual claims without inferred IPA or Sefer state assignment"
+  ],
+  "review": "Independent host specification, code and context reviewers; focused regressions reproduced before fixes",
+  "signals_policy": "Every supplied signal retained; implementation gates do not exclude evidence",
+  "remaining_limits": [
+    "Full parent ChatGPT transcript NOT_RETRIEVED; exact preview and current-chat snapshots preserved",
+    "Historical root, genealogy and cross-musical correspondences are unverified",
+    "Earliest surviving manuscript priority not established for existing digital-edition controls",
+    "No standalone static typechecker installed; focused Ruff lint and AST syntax checks executed",
+    "No new manual Jev inference; automatic observations do not certify completion",
+    "Earlier four-orientation and Unit002 prototypes retained; no downstream gate activated by this unit"
+  ],
+  "files": {
+    "acquire_closeout.py": "6038167971d115966a99c8a8a19e42ceb5ecb8e12d235b5482f5439c2295ece1",
+    "checkpoint.py": "2c226540e82f2e0d13049d64afe6e032fd556c0cf95051935b7bd0fb7f173246",
+    "closeout_fixtures.py": "2aa7042096c792309891553986df7a49d2120c030ddf53cff80855f71919c81d",
+    "complete_lists.py": "6bc7fa99e27ead3784bb0a86d41432aecfec1e0b8ce46620c5b651f3aaf8f6b4",
+    "contracts.py": "b3794a11d0a08edb2fee8a34712cef9795324151511c416354d23c5ff0131f6c",
+    "evidence.py": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec",
+    "final_acceptance.py": "95def9475d4debc4a74d7db8bf46822c34a07189522909409806183e656fb247",
+    "historical_extensions.py": "582a7725f790cd8523f532c8a58f765237abd7cbc2c6a80eba138385be936043",
+    "import_closeout_documents.py": "57b61ded1ae30b255aba016bd19c76d3c75b53dd3d10bd8460a45e1890ff9600",
+    "kernel.py": "a6522ce7a5ff35048c85fe730192b3ff1cf136e2e3f9093f02665991a305976f",
+    "reconcile_checkpoint.py": "bd9b0b4e80a4cf531eb01354fe8c760533c8dc3adb6ad6ca8b323d80eed6845a",
+    "reconcile_current_chat.py": "938a5620be2479a1238a0c8104983a6f24692479132b4083bdb297224194b4f2",
+    "sefer.py": "c3936a9f25835faaa59a75445255f70f735eba7a9d20fb77c503c6c528b928c7",
+    "test_closeout.py": "4eb12cab16f89aa3121ecffa2b28eeb8693d8faf24a9cf3e23fba1f782af50ac",
+    "test_final_acceptance.py": "e97ce867cdbcde66194d9135e1f2f96b7e448879365e945310fd75133a333d95",
+    "test_g0.py": "a9783776ea5e3843b8fd3ceae549775a8f8830fb05366261eaefdad2d4582637",
+    "test_g1.py": "348556f62e142b992ea4091b3516b8173411f6ad08ed6f4ff40e5e0774ce2322",
+    "test_historical_extensions.py": "9c3bfa8252314e6002e4a627a59edeb1f2722cb11ed1ee8a4291ac1825a1640a",
+    "test_kernel.py": "5e52d2478872504869fe541ea64d2c156c948637c91875b3e8eeee1d649df676",
+    "test_list_completion.py": "7cb9bc83d67bd56c65e86096d80621f0650ae7acfc87e1b0bcba33c7118b11ea",
+    "test_migration_conservation.py": "9540bf91171da059825caa0a55a5014bf44ce75e9216925a3143b093b647c842",
+    "verify_closeout.py": "144caca78ca6931d953eccba856be3f4756cb5abdf0e92ef4261fbb59e151a0d",
+    "verify_reconciliation.py": "ba18e047a0f2ed2237937bf38ada930ede2c90a6562faa6d13c39010a6d15a0e"
+  }
+}

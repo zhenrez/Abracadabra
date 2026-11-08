@@ -1,0 +1,72 @@
+[
+  {
+    "status": "PRESERVED_UNDER_DECLARED_ADAPTER",
+    "cases": [
+      {
+        "input": "7/11",
+        "source_then_adapter": "33/14",
+        "adapter_then_target": "33/14",
+        "residual": "0"
+      },
+      {
+        "input": "13/17",
+        "source_then_adapter": "51/26",
+        "adapter_then_target": "51/26",
+        "residual": "0"
+      }
+    ],
+    "tolerance": {
+      "kind": "EXACT_RATIONAL",
+      "value": "0"
+    },
+    "uniform_residual_coefficient": "0",
+    "uniform_argument": "residual=c/x on positive rationals",
+    "source_operator": "Chinese D",
+    "target_operator": "frequency fifth",
+    "adapter": {
+      "kind": "reciprocal",
+      "scale": "1",
+      "source_type": "length_ratio",
+      "target_type": "frequency_ratio"
+    },
+    "source_evidence_role": "DECLARED_MATHEMATICAL_CONTROL",
+    "historical_support": "NOT_VERIFIED",
+    "historical_holdout": false,
+    "model_preference": "NOT_EVALUATED"
+  },
+  {
+    "status": "COUNTEREXAMPLE",
+    "cases": [
+      {
+        "input": "7/11",
+        "source_then_adapter": "7/22",
+        "adapter_then_target": "56/99",
+        "residual": "-49/198"
+      },
+      {
+        "input": "13/17",
+        "source_then_adapter": "13/34",
+        "adapter_then_target": "104/153",
+        "residual": "-91/306"
+      }
+    ],
+    "tolerance": {
+      "kind": "EXACT_RATIONAL",
+      "value": "0"
+    },
+    "uniform_residual_coefficient": "-7/18",
+    "uniform_argument": "residual=c*x on positive rationals",
+    "source_operator": "SUN RL",
+    "target_operator": "Chinese DU",
+    "adapter": {
+      "kind": "identity",
+      "scale": "1",
+      "source_type": "length_ratio",
+      "target_type": "length_ratio"
+    },
+    "source_evidence_role": "DECLARED_MATHEMATICAL_CONTROL",
+    "historical_support": "NOT_VERIFIED",
+    "historical_holdout": false,
+    "model_preference": "NOT_EVALUATED"
+  }
+]

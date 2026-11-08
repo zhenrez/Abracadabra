@@ -1,0 +1,217 @@
+{
+  "schema": "sunny.native-system-independent-audit.v2",
+  "status": "failed",
+  "checkedAt": "2026-11-08T21:38:30.219Z",
+  "inputGraphPath": "state/reconstruction/hierarchy-atlas-combined.json",
+  "inputGraphSha256": "256b011db9ef0d4cee1b33ce40d9c721df42f5d60b1804a2a9e46024b97bedae",
+  "inputBindings": [
+    {
+      "path": "state/reconstruction/indian-hierarchy.json",
+      "sha256": "7c2c78af1c6c474701deaff75c9c8662ee94095d4ec16b6f71c264c3424eaf0c",
+      "bytes": 12407143
+    },
+    {
+      "path": "state/reconstruction/western-expanded.json",
+      "sha256": "915917ab4ba7509d173686d29714de8ed2e2b5205edb6e5c2a1e2d0743923ba1",
+      "bytes": 8796888
+    },
+    {
+      "path": "state/reconstruction/chinese-expanded.json",
+      "sha256": "df2cddfe83fbaf2d58cfb72036ee34de033c21e8489c22a97f11848c310f0897",
+      "bytes": 1945622
+    },
+    {
+      "path": "state/reconstruction/native-class-constructors.json",
+      "sha256": "5eaf822a07d87c2d676d3b96a3a2af5144446963005ca4d3d17a999a553301ca",
+      "bytes": 43323311
+    },
+    {
+      "path": "state/reconstruction/biblical-genealogies.json",
+      "sha256": "fb65aeb95353d33b8dd768b3c008fceb243793dbdcb66ef45508f38cfb356258",
+      "bytes": 10168849
+    },
+    {
+      "path": "state/reconstruction/upper-legion-color-constraints.json",
+      "sha256": "0ebc6510a9c41297ff9f216020ef314e7fc91a7b09eba92f4381eec035328ea5",
+      "bytes": 5062875
+    }
+  ],
+  "baselineBinding": {
+    "path": "state/research/native-class/atlas-before-native-expansion.json",
+    "sha256": "a2f2bfae2eb61611f73fb64147b2b96f976f47818f1514a3173118adda89c497"
+  },
+  "actualCounts": {
+    "sources": 57,
+    "entities": 33862,
+    "relationships": 88696,
+    "views": 37
+  },
+  "checks": [
+    {
+      "name": "All six integration module bindings, baseline and integration code match current bytes",
+      "status": "failed",
+      "details": {
+        "error": "state/reconstruction/chinese-expanded.json\n+ actual - expected\n\n+ '992ed8b325b42c35bd248d3a24525bd5838a15cb2376dc6e38a2801b6462f884'\n- 'df2cddfe83fbaf2d58cfb72036ee34de033c21e8489c22a97f11848c310f0897'\n"
+      }
+    },
+    {
+      "name": "Every baseline source/entity/relation/view survives exactly",
+      "status": "passed",
+      "details": {
+        "sources": 38,
+        "entities": 9512,
+        "relationships": 10251,
+        "views": 23
+      }
+    },
+    {
+      "name": "All four native graph modules preserve exact source/entity/relation/view semantics",
+      "status": "failed",
+      "details": {
+        "error": "chinese-expanded: chinese-expanded:hkco:range:soprano-sheng\n+ actual - expected\n\n+ undefined\n- {\n-   aliases: [],\n-   assertionLayer: 'source-assertion',\n-   exceptions: [\n-     'A source range profile is not a physical instrument, player, unique historical tuning or global SUNNY generational class.'\n-   ],\n-   id: 'chinese-expanded:hkco:range:soprano-sheng',\n-   nativeAddress: {\n-     frame: 'HKCO2025-range-chart',\n-     profile: 'soprano-sheng'\n-   },\n-   nativeName: 'Soprano Sheng',\n-   parent: 'chinese-expanded:hkco:family:wind',\n-   physicalFrequencyHz: null,\n-   physicalInstrumentCount: null,\n-   position: {\n-     cyclicCoordinate: null,\n-     generation: null,\n-     orientation: null,\n-     sequence: null\n-   },\n-   rangePacket: {\n-     path: 'state/research/chinese-expanded/hkco-source-ranges.json',\n-     sha256: '5549eeba2ecf701d8edf79dcca317f22202cb0c4fd39f5621183eab182619445'\n-   },\n-   sourceRange: {\n-     boundary: 'Source-qualified chromatic staff-note capability addresses. No measuredHz, physical instrument/performer multiplicity, execution or ancient tuning inferred.',\n-     excludedSoundingChromaticIndices: [],\n-     family: 'wind',\n-     id: 'soprano-sheng',\n-     members: [\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 55\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 56\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 57\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 58\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 59\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 60\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 61\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 62\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 63\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 64\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 65\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 66\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 67\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 68\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 69\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 70\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 71\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 72\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 73\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 74\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 75\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 76\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 77\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 78\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 79\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 80\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 81\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 82\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 83\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 84\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 85\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 86\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 87\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 88\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 89\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 90\n-       }\n-     ],\n-     nativeName: 'Soprano Sheng',\n-     sourceSoundingMaximum: 90,\n-     sourceSoundingMinimum: 55,\n-     sourceSoundingNormalMaximum: 90,\n-     sourceSoundingNoteAddressCount: 36,\n-     sourceWrittenToSoundingSemitones: 0,\n-     writtenExtremeHigh: null,\n-     writtenLow: {\n-       name: 'G3',\n-       sourcePoint: {\n-         additionalOctaveAnnotation: 0,\n-         clefFont: 'JJJKHG+Maestro',\n-         clefGlyph: '&',\n-         clefPoint: [\n-           105.06,\n-           114.77932799999996\n-         ],\n-         diatonicRoundingError: 0.00867438016528066,\n-         glyph: 'w',\n-         interpretedClefAnchor: 114.77932799999996,\n-         localAccidental: null,\n-         staffHalfSpace: 0.9074999999999989,\n-         staffIndexZeroBased: 3,\n-         x: 122.28,\n-         yFromTop: 121.13969999999995\n-       },\n-       writtenChromaticIndex: 55\n-     },\n-     writtenNormalHigh: {\n-       name: 'F#6',\n-       sourcePoint: {\n-         additionalOctaveAnnotation: 0,\n-         clefFont: 'JJJKHG+Maestro',\n-         clefGlyph: '&',\n-         clefPoint: [\n-           105.06,\n-           114.77932799999996\n-         ],\n-         diatonicRoundingError: 0.024383471074358454,\n-         glyph: 'w',\n-         interpretedClefAnchor: 114.77932799999996,\n-         localAccidental: '#',\n-         staffHalfSpace: 0.9074999999999989,\n-         staffIndexZeroBased: 3,\n-         x: 150.36,\n-         yFromTop: 102.9597\n-       },\n-       writtenChromaticIndex: 90\n-     }\n-   },\n-   sourceRefs: [\n-     'chinese-expanded:hkco-range2025'\n-   ],\n-   tradition: 'Chinese',\n-   unit: 'HKCO-source-range-profile',\n-   witnessId: 'HKCO2025'\n- }\n"
+      }
+    },
+    {
+      "name": "IDs are unique and every source, endpoint, view, parent and root resolves",
+      "status": "passed",
+      "details": {
+        "entities": 33862,
+        "relationships": 88696,
+        "views": 37
+      }
+    },
+    {
+      "name": "Every registered source digest binds the actual source bytes",
+      "status": "passed",
+      "details": {
+        "sourceFilesChecked": 57
+      }
+    },
+    {
+      "name": "Indian2520 note addresses retain degree/mela ancestry and all210 direct Aditya conditions",
+      "status": "passed",
+      "details": {
+        "registeredNotes": 2520,
+        "instrumentTypes": 36,
+        "conditionalAdityaNotes": 210
+      }
+    },
+    {
+      "name": "Western registered degrees, range profiles and MIDI sound addresses remain distinct",
+      "status": "passed",
+      "details": {
+        "registeredDegrees": 2464,
+        "profiles": 31,
+        "programs": 128,
+        "percussionAddresses": 47
+      }
+    },
+    {
+      "name": "Chinese source-context units reconcile independently from total structural records",
+      "status": "passed",
+      "details": {
+        "totalRecords": 2240,
+        "declaredLowerContextUnits": 1671,
+        "targetMet": false,
+        "nativeClassExceptionsRetained": true
+      }
+    },
+    {
+      "name": "Bible source fields and primary/curated/received qualifications survive integration",
+      "status": "passed",
+      "details": {
+        "entities": 3279,
+        "relations": 4735
+      }
+    },
+    {
+      "name": "All49 primary and every declared received Bible edge belong to the declared family view",
+      "status": "passed",
+      "details": {
+        "families": [
+          {
+            "viewId": "bible:witness-family:MT",
+            "primaryAssertions": 16
+          },
+          {
+            "viewId": "bible:witness-family:Greek",
+            "primaryAssertions": 17
+          },
+          {
+            "viewId": "bible:witness-family:SP",
+            "primaryAssertions": 16
+          }
+        ],
+        "totalPrimaryAssertions": 49
+      }
+    },
+    {
+      "name": "SP remains a Pentateuch comparison without invented New Testament witness scope",
+      "status": "passed",
+      "details": {
+        "SPNewTestamentWitness": false
+      }
+    },
+    {
+      "name": "All12 frozen colors retain five carriers without wavelength/note/global identity promotion",
+      "status": "passed",
+      "details": {
+        "states": 12,
+        "carriersEach": 5
+      }
+    },
+    {
+      "name": "Known construction depths remain native frames and no global alignment is elected",
+      "status": "passed",
+      "details": {
+        "qualifiedConstructionDepthRecords": 11643
+      }
+    },
+    {
+      "name": "Upper records and normalized-text coordinates remain recoverable without changing baseline sources",
+      "status": "passed",
+      "details": {
+        "upperEntities": 19,
+        "upperRelationships": 98,
+        "normalizationPackets": 2,
+        "anonymousMembershipSlots": 7911
+      }
+    }
+  ],
+  "findings": [
+    {
+      "name": "All six integration module bindings, baseline and integration code match current bytes",
+      "status": "failed",
+      "details": {
+        "error": "state/reconstruction/chinese-expanded.json\n+ actual - expected\n\n+ '992ed8b325b42c35bd248d3a24525bd5838a15cb2376dc6e38a2801b6462f884'\n- 'df2cddfe83fbaf2d58cfb72036ee34de033c21e8489c22a97f11848c310f0897'\n"
+      }
+    },
+    {
+      "name": "All four native graph modules preserve exact source/entity/relation/view semantics",
+      "status": "failed",
+      "details": {
+        "error": "chinese-expanded: chinese-expanded:hkco:range:soprano-sheng\n+ actual - expected\n\n+ undefined\n- {\n-   aliases: [],\n-   assertionLayer: 'source-assertion',\n-   exceptions: [\n-     'A source range profile is not a physical instrument, player, unique historical tuning or global SUNNY generational class.'\n-   ],\n-   id: 'chinese-expanded:hkco:range:soprano-sheng',\n-   nativeAddress: {\n-     frame: 'HKCO2025-range-chart',\n-     profile: 'soprano-sheng'\n-   },\n-   nativeName: 'Soprano Sheng',\n-   parent: 'chinese-expanded:hkco:family:wind',\n-   physicalFrequencyHz: null,\n-   physicalInstrumentCount: null,\n-   position: {\n-     cyclicCoordinate: null,\n-     generation: null,\n-     orientation: null,\n-     sequence: null\n-   },\n-   rangePacket: {\n-     path: 'state/research/chinese-expanded/hkco-source-ranges.json',\n-     sha256: '5549eeba2ecf701d8edf79dcca317f22202cb0c4fd39f5621183eab182619445'\n-   },\n-   sourceRange: {\n-     boundary: 'Source-qualified chromatic staff-note capability addresses. No measuredHz, physical instrument/performer multiplicity, execution or ancient tuning inferred.',\n-     excludedSoundingChromaticIndices: [],\n-     family: 'wind',\n-     id: 'soprano-sheng',\n-     members: [\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 55\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 56\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 57\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 58\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 59\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 60\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 61\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 62\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 63\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 64\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 65\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 66\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 67\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 68\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 69\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 70\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 71\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 72\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 73\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 74\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 75\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 76\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 77\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 78\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 79\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 80\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 81\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 82\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 83\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 84\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 85\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 86\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 87\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 88\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 89\n-       },\n-       {\n-         capability: 'normal',\n-         physicalFrequencyHz: null,\n-         sourceSoundingChromaticIndex: 90\n-       }\n-     ],\n-     nativeName: 'Soprano Sheng',\n-     sourceSoundingMaximum: 90,\n-     sourceSoundingMinimum: 55,\n-     sourceSoundingNormalMaximum: 90,\n-     sourceSoundingNoteAddressCount: 36,\n-     sourceWrittenToSoundingSemitones: 0,\n-     writtenExtremeHigh: null,\n-     writtenLow: {\n-       name: 'G3',\n-       sourcePoint: {\n-         additionalOctaveAnnotation: 0,\n-         clefFont: 'JJJKHG+Maestro',\n-         clefGlyph: '&',\n-         clefPoint: [\n-           105.06,\n-           114.77932799999996\n-         ],\n-         diatonicRoundingError: 0.00867438016528066,\n-         glyph: 'w',\n-         interpretedClefAnchor: 114.77932799999996,\n-         localAccidental: null,\n-         staffHalfSpace: 0.9074999999999989,\n-         staffIndexZeroBased: 3,\n-         x: 122.28,\n-         yFromTop: 121.13969999999995\n-       },\n-       writtenChromaticIndex: 55\n-     },\n-     writtenNormalHigh: {\n-       name: 'F#6',\n-       sourcePoint: {\n-         additionalOctaveAnnotation: 0,\n-         clefFont: 'JJJKHG+Maestro',\n-         clefGlyph: '&',\n-         clefPoint: [\n-           105.06,\n-           114.77932799999996\n-         ],\n-         diatonicRoundingError: 0.024383471074358454,\n-         glyph: 'w',\n-         interpretedClefAnchor: 114.77932799999996,\n-         localAccidental: '#',\n-         staffHalfSpace: 0.9074999999999989,\n-         staffIndexZeroBased: 3,\n-         x: 150.36,\n-         yFromTop: 102.9597\n-       },\n-       writtenChromaticIndex: 90\n-     }\n-   },\n-   sourceRefs: [\n-     'chinese-expanded:hkco-range2025'\n-   ],\n-   tradition: 'Chinese',\n-   unit: 'HKCO-source-range-profile',\n-   witnessId: 'HKCO2025'\n- }\n"
+      }
+    }
+  ],
+  "retainedEarlierAudits": [
+    {
+      "path": "docs/evidence/native-system-independent-audit.previous-55da71703d92cc4d2c903afc6074c20ba5222547610b390f2b9565bf552bfbe9.json",
+      "sha256": "55da71703d92cc4d2c903afc6074c20ba5222547610b390f2b9565bf552bfbe9",
+      "status": "failed",
+      "graphSha256": "c553cb2274b0a9b4f3d26efef67be9dcf846dcbd97f6c80cd072892749ce4b82"
+    }
+  ],
+  "execution": {
+    "command": "node --test tests/native-system-integration.test.mjs",
+    "expectedExitCode": 1,
+    "actualExitVerifiedByToolResult": true
+  },
+  "scope": "Independent source/record/typing preservation audit. No mathematical rerun, source-authenticity claim, ancient-ink collation, physical law or full SUNNY completion.",
+  "pluginUse": {
+    "Supermemory": "Actual continuity search succeeded before audit; current checks use actual files, not historical memory counts.",
+    "Jev": "Preserved actual local receipt64 directs the parent source-class task; this deterministic audit is not a fresh model inference.",
+    "SuperJevHook": "Unavailable status reported; no hook execution success inferred."
+  },
+  "sourceMathOrIntegrationCodeEdited": false
+}

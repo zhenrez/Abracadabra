@@ -1,0 +1,200 @@
+{
+  "schema": "sunny.hierarchy-independent-review.v1",
+  "created_utc": "2026-11-01T04:34:05.345182+00:00",
+  "reviewer": "/root/math_verification",
+  "primary_verdict": "passed_with_explicit_source_scope",
+  "independence": "Separate reviewer did not author src/hierarchy.ts, baseline hierarchy-atlas, merger, or angelic supplement. The reviewer authored the separate musical supplement; its current bytes/component preservation are checked here, but this is not called an independent re-audit of that musical authorship. Shared project context, not a blinded external critical-edition review.",
+  "normalized_claim": "The declared source-scoped graph preserves catalogue vectors and occurrence units, separate orientation/witness selection, typed collective/partnership/joint-production relations, and exact component identity through merging. Typed upstream reachability is not genealogical ancestry or Boolean production activation.",
+  "audited_revisions": [
+    {
+      "path": "src/hierarchy.ts",
+      "sha256": "09d12afa3268a9a60160ce15a53fe4a1ad73b64ccf48e6df78a49b56eeecf0bd",
+      "bytes": 13734
+    },
+    {
+      "path": "dist/hierarchy.js",
+      "sha256": "f66d234685f8dc34c607d40cb46550a38ccecde7a49c3ea3458713c3ecec7f7d",
+      "bytes": 13035
+    },
+    {
+      "path": "tests/hierarchy.test.mjs",
+      "sha256": "6066074ff3b0b2d5673632aa718d9e603ac517d8eb87504567b7b0a81235fd23",
+      "bytes": 9454
+    },
+    {
+      "path": "scripts/reconstruct_hierarchy_atlas.mjs",
+      "sha256": "130a65682b04f9c1f7f7354c94d357aa926f21782c1ae9b6641e96b86b6718e4",
+      "bytes": 25673
+    },
+    {
+      "path": "scripts/combine_hierarchy_atlas.mjs",
+      "sha256": "2b9550a9afc75129e4f7d8a872ef81afc2ba561ff4827249a1cc752993418933",
+      "bytes": 5160
+    },
+    {
+      "path": "public/hierarchy-atlas-client.js",
+      "sha256": "aa84260b0f71c58eda09c433597ea9c1ee0266c7aca1bf99d02fa4715224a012",
+      "bytes": 16240
+    },
+    {
+      "path": "state/reconstruction/hierarchy-atlas.json",
+      "sha256": "570ccd802f571d851992da649920aca4540e869f56df228c583376092adb7312",
+      "bytes": 10006172
+    },
+    {
+      "path": "state/reconstruction/hierarchy-atlas-combined.json",
+      "sha256": "715ba3a5d3c2b6779418dcb2ba6b5cc8924f173898a5d70153f264f132d970c7",
+      "bytes": 11879664
+    },
+    {
+      "path": "state/reconstruction/angelic-hierarchy-supplement.json",
+      "sha256": "1862651b24d362158de5b0d0d36637675e0cd87f2db8793cc9720469c6140c5f",
+      "bytes": 133934
+    },
+    {
+      "path": "state/reconstruction/musical-hierarchies.json",
+      "sha256": "3d5ed567f5c473787f4e61a658fd15310aab3b59c87d70f519fa771f54376cf6",
+      "bytes": 1796240
+    },
+    {
+      "path": "docs/evidence/hierarchy-origin-witness-recovery.json",
+      "sha256": "1aad03a03439c4a1f557360dbb1e10b1f7a21e379451aa6837d5ea535008fc0b",
+      "bytes": 305602
+    },
+    {
+      "path": "docs/evidence/hierarchy-independent-review-jev-request.json",
+      "sha256": "42e5a487d321bfb2ad0ecfdbf39bb3daed4014303dd749a428030438dd9eb0b8",
+      "bytes": 1459
+    },
+    {
+      "path": "docs/evidence/hierarchy-independent-review-superjev.json",
+      "sha256": "98e9a96ce23b2a8d931fbcee375c72df06b1e948749d0966fe1cdc7d05ccfa01",
+      "bytes": 740
+    },
+    {
+      "path": "docs/evidence/hierarchy-independent-node-checks.json",
+      "sha256": "ea9f7ab3d5c01354363dfd1144699b75d876ba6a619afe8259fd6506d3ea5d0c",
+      "bytes": 2696
+    },
+    {
+      "path": "docs/evidence/hierarchy-independent-source-checks.json",
+      "sha256": "28ce76951369abc9c5ff5dd59b12ac53382f605d4a637ddaeab9b30193865b84",
+      "bytes": 63904
+    }
+  ],
+  "checks": [
+    {
+      "command": "node --test tests/hierarchy.test.mjs",
+      "exit_code": 0,
+      "tests": 12,
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "independent node merged-record, nine-axis-combination and adversarial typed-ancestry checks",
+      "exit_code": 0,
+      "receipt": "docs/evidence/hierarchy-independent-node-checks.json"
+    },
+    {
+      "command": "independent Python rawsource/hash/CSV/HTML vector/rank/span checks",
+      "exit_code": 0,
+      "receipt": "docs/evidence/hierarchy-independent-source-checks.json",
+      "raw_source_files": 37,
+      "direct_HTML_chief_rows": 144,
+      "direct_CSV_chief_rows": 72,
+      "exact_recovery_spans": 8,
+      "supplemental_primary_extracts": 43
+    }
+  ],
+  "findings": [
+    {
+      "id": "COUNT-UNITS",
+      "verdict": "passed",
+      "evidence": "Three separately re-extracted72entry readings sum2648,2645,2618. Their7911generatedcommand-membershipslots are addressable occurrences; uniquephysicallegions, personnel and disjointness remain unknown/null."
+    },
+    {
+      "id": "NATIVE-MULTIRANK",
+      "verdict": "passed",
+      "evidence": "RawdeLaurenceclassifiedparagraphs contain79memberships across72positions; sevenpositions are dualranked:17,21,25,27,33,45,61. Importedprimaryrankprojection remains72memberships."
+    },
+    {
+      "id": "ABC-WITNESS-INDEPENDENCE",
+      "verdict": "passed",
+      "evidence": "All9A/B/C×cataloguewitnesscombinations independently selected. OriginB0,1,1,2labels remainfunctionalboundaryhypotheses with unknowngeneration; noforcedlegionpairing."
+    },
+    {
+      "id": "JOINT-EVENT-TYPES",
+      "verdict": "passed",
+      "evidence": "Firstsourceproduction retains2inputs/2outputs. PrimordialC4inputevent remains researchhypothesis. Collective membership, source-syzygy, productioninput/output and command relation types remain distinct. LaterDecadMonogenes remains a differentcontextID from earlierNousalias."
+    },
+    {
+      "id": "ADVERSARIAL-ALETHEIA",
+      "verdict": "passed",
+      "evidence": "Defaultalltypedupstreamincludesco-generatedNous via source-syzygy. The actualUIproductionwhitelist and nativeproduction-onlyscope excludeNous and includeBythos+Sige. UIexplicitlywarnsalltypedupstream is notgenealogicalancestry; no falseparenthoodclaim observed."
+    },
+    {
+      "id": "MERGE-PRESERVATION",
+      "verdict": "passed",
+      "evidence": "Each3componentSHA matches; everyoriginalentity,relationshipandview deep-equals its mergedrecord. Combinedtotal9493=1582nonslot+7911slots,22views. Oneextraexternalcomparisonview andedge remains researchhypothesis, not entitymerge."
+    },
+    {
+      "id": "SOURCE-ACCOUNTING",
+      "verdict": "passed",
+      "evidence": "All37recordedsourcepaths exist and matchSHA. Eightquotedrecoveryspans matchcurrentread-onlyDBrole/source/charspan. All43feasiblesupplementalDOM/originaltoolresponseextracts reproduce. Main-readingcountpolicy retains rawbrackets and keepsPaimon200primary versus25accompanying separate."
+    }
+  ],
+  "guardrails": [
+    {
+      "name": "SuperJev",
+      "kind": "actualcloudinference",
+      "model": "jev-1.14.0",
+      "receipt": "docs/evidence/hierarchy-independent-review-superjev.json",
+      "selected": "actual_sources_and_adversarial_scopes",
+      "boundary": "Operationalauditroutechoice, notmathematical/historicaltruthauthority."
+    },
+    {
+      "name": "Mathbox proof-audit4.0.0",
+      "kind": "skillapplied",
+      "scope": "Typedrelations, exactarity/quantifiers, finitecoverage, cycletermination and counterexamples."
+    },
+    {
+      "name": "Agent Skills code-review-and-quality0.6.10",
+      "kind": "skillapplied",
+      "scope": "Correctness/sourceintegrity/countunits/scopingandmergeboundaries."
+    },
+    {
+      "name": "ResearchMethodology / ResearchEvidenceFinder",
+      "kind": "source-verificationmethodapplied",
+      "scope": "Currentpinnedtranscriptions and exactsource-extractidentity; no freshcritical-edition or systematicreviewclaim."
+    }
+  ],
+  "negative_controls": [
+    "Defaulttypedreachability and production-only intentionallyyielddifferentNousmembership forAletheia.",
+    "Missing/multiplycommanded/wrongsource/witness/sequence slots fail count reconciliation.",
+    "Unknown source/entity references and duplicateidentity fail existing graph validation.",
+    "Unmarkedgeneratedslots failvalidation.",
+    "Typedcycle traversalterminatesandreportscycle.",
+    "OriginA/B/C selectionneverforcesacataloguewitness.",
+    "Importedangelnameorder remainseditorial;9angelicorderclasses are not9individualangels."
+  ],
+  "not_verified": [
+    "Historicalauthenticityorautographfidelityofthedigitaltranscriptions.",
+    "Independentcritical-editioncomparisonofallmanuscriptvariants.",
+    "Physicalexistence, disjointness orpersonnelofsourcelegioncounts.",
+    "Everyunrecoveredarchon/angel/demon/primordialrelationship, uniqueglobalorientationoruniversalhierarchycompletion.",
+    "BooleanAND-tailactivation or causalproductiondynamics; thiscore is a typedrecord/traversal/countengine.",
+    "Production-onlyusesanexplicitUIwhitelist anddoesnotautomaticallyclassifyeverynewcreationpredicate.",
+    "Anewinteractivebrowserrun inthisreview; UIcodeandspecifiedancestryscope inspected, producerbrowserreceiptsremainseparate."
+  ],
+  "central_graph_or_core_mutated": false,
+  "persistent_processes_started": false,
+  "wholeHierarchyComplete": false,
+  "semanticCorpusComplete": false,
+  "changed_files": [
+    "docs/evidence/hierarchy-independent-review-jev-request.json",
+    "docs/evidence/hierarchy-independent-review-superjev.json",
+    "docs/evidence/hierarchy-independent-node-checks.json",
+    "docs/evidence/hierarchy-independent-source-checks.json",
+    "docs/evidence/hierarchy-independent-review.json"
+  ]
+}

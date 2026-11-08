@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-07T12:53:49.843982+00:00",
+    "app_version": "SUNNY-delivery-2026-11-07",
+    "root_hash": "8a4f32aed3d3af48b34c4c56dad8d473eb17584d071c1a215507573265d6570a"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "d99a9242-df9b-5658-8571-34bdfa7c3f14",
+      "source_identity_sha256": "8017ad949f1334bed15c60e3cb229fe30bc623c0c7e1b3be1f46ef7bc6f3b756",
+      "source_version_id": "19331209-a7e2-5c8b-8918-dbea9df9d8cb",
+      "version_number": 1,
+      "content": "{\r\n  \"status\": \"judged\",\r\n  \"sha256\": \"bbb3ab44bbf53d3deb4af6d20e0a7622490c17c4a02559a7a81c2ec77aaa7766\",\r\n  \"sequence\": 58,\r\n  \"previous_sha256\": \"95bc223acd849454d01c96cf9a8ff80a26c40f80b2f2e7431b05cbf4df38d1e3\",\r\n  \"purpose\": \"SUNNY connected workbench: explicit local AgentJev decision\",\r\n  \"completed_at\": \"2026-11-07T12:36:48.729562+00:00\",\r\n  \"request_sha256\": \"da265fa4f3e6cd84ece556dd9ac510f4b10f45dd103fdd7083fd18754bc41d68\",\r\n  \"request\": {\r\n    \"state\": {\r\n      \"mission\": \"SUNNY full16goals and8outputs remain active; original symbol/sound/grammar precede changed historical readings and calendar/zodiac rectification. Native Western/Chinese music remains separate and simultaneous.\",\r\n      \"current_model\": \"The source-conditioned three-voice overlap score has five ordered positive stage durations d and three lifespan equations A*d=l. A rows are [1,1,1,0,0], [0,1,1,1,0], [0,0,1,1,1]. Its retained nullspace basis is [1,0,-1,1,0], [0,1,-1,0,1]. Lifespans do not define audible sustain; these are witness-relative year clocks in a declared experiment.\",\r\n      \"ready_question\": \"Which additional observations actually resolve the two timing freedoms? Two observations can still be redundant. Derive minimal sufficient anchors and contradictions; preserve all alternatives and source scope. This extends the score and anchor-prediction mechanism without choosing a historical calendar or sound.\",\r\n      \"existing_prior_art\": \"Exact rank/nullspace methods already retained. Existing native Chinese common-context obstruction and separate-modal alternative already executed; no need to repeat them. Original phonetic recovery remains open, so do not invent a waveform or universally assign biological time to beats.\",\r\n      \"evidence_boundary\": \"Model choice determines the next investigation, not mathematical truth, source authenticity or mission completion. All results must be proved/reproduced separately. No target evidence has been withheld for a blind historical prediction.\"\r\n    },\r\n    \"questions\": [\r\n      {\r\n        \"id\": \"next_connected_derivation\",\r\n        \"type\": \"choice\",\r\n        \"question\": \"Which ready extension should now advance the connected reconstruction?\",\r\n        \"options\": {\r\n          \"minimal_source_bound_score_anchors\": \"Compute exactly which duration-anchor pairs suffice, which do not, invariant predictions from partial anchors, and minimal incompatible subsets; connect to the existing score and interactive views.\",\r\n          \"joint_lattice_and_musical_lift\": \"Extend the retained time/generation lattice with exact fifth-register history, identify the minimal state lost under finite phase quotients, and derive missing-observable consequences without claiming a universal class count.\",\r\n          \"symbol_sound_contact_discrimination\": \"Follow the recovered qames shared-innovation versus contact ambiguity to the next original chronology/contact witness; test whether that additional source separates inherited change from independent convergence.\"\r\n        }\r\n      }\r\n    ]\r\n  },\r\n  \"response\": {\r\n    \"api_version\": \"agentjev.decision.v1\",\r\n    \"model\": \"agentjev-v1\",\r\n    \"results\": [\r\n      {\r\n        \"id\": \"0\",\r\n        \"answers\": [\r\n          {\r\n            \"id\": \"next_connected_derivation\",\r\n            \"type\": \"choice\",\r\n            \"distribution\": {\r\n              \"joint_lattice_and_musical_lift\": 0.3116070330142975,\r\n              \"minimal_source_bound_score_anchors\": 0.40825051069259644,\r\n              \"symbol_sound_contact_discrimination\": 0.28014251589775085\r\n            },\r\n            \"value\": \"minimal_source_bound_score_anchors\",\r\n            \"description\": \"Compute exactly which duration-anchor pairs suffice, which do not, invariant predictions from partial anchors, and minimal incompatible subsets; connect to the existing score and interactive views.\",\r\n            \"top_probability\": 0.40825051069259644,\r\n            \"margin\": 0.09664347767829895\r\n          }\r\n        ]\r\n      }\r\n    ],\r\n    \"usage\": {\r\n      \"questions\": 1,\r\n      \"candidate_paths\": 3,\r\n      \"input_path_tokens\": 1082,\r\n      \"generated_tokens\": 0,\r\n      \"truncated_inputs\": 0,\r\n      \"backbone_input_tokens\": 428,\r\n      \"shared_prefix_questions\": 1,\r\n      \"shared_prefix_states\": 1,\r\n      \"wall_ms\": 999.13\r\n    }\r\n  },\r\n  \"server_info\": {\r\n    \"status\": \"ready\",\r\n    \"api_version\": \"agentjev.decision.v1\",\r\n    \"model\": \"AgentJev-0.6B\",\r\n    \"checkpoint\": \"agentjev-v1\",\r\n    \"checkpoint_sha256\": \"8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215\",\r\n    \"types\": [\r\n      \"boolean\",\r\n      \"choice\",\r\n      \"score\"\r\n    ],\r\n    \"max_path_tokens\": 2048,\r\n    \"max_choice_candidates\": 255,\r\n    \"output_token_decoding\": false,\r\n    \"shared_prefix_compute\": true,\r\n    \"encoder\": \"auto\",\r\n    \"temperatures\": {\r\n      \"boolean\": 1.0717734625362931,\r\n      \"choice\": 1.0352649238413776,\r\n      \"score\": 1.0717734625362931\r\n    },\r\n    \"probability_semantics\": \"model distribution; domain calibration is not guaranteed\"\r\n  },\r\n  \"semantics\": \"Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible.\"\r\n}",
+      "content_sha256": "75e16a54e41749d4cd5f3a6b2b66ac8fafc04992dba38c4a9641451b196807f5",
+      "content_length": 5243,
+      "parser_version": "sunny-exact-delivery-span-v1",
+      "node_hash": "0cd8c599eea8ee666730a170821cbaeec34d2c9a7d391882667b6ce6fc51979e"
+    },
+    "chunks": [
+      {
+        "id": "48594404-24f4-589d-933e-366add42f914",
+        "source_node_hash": "0cd8c599eea8ee666730a170821cbaeec34d2c9a7d391882667b6ce6fc51979e",
+        "source_id": "d99a9242-df9b-5658-8571-34bdfa7c3f14",
+        "source_version_id": "19331209-a7e2-5c8b-8918-dbea9df9d8cb",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 5243,
+        "start_line": 1,
+        "end_line": 89,
+        "content": "{\r\n  \"status\": \"judged\",\r\n  \"sha256\": \"bbb3ab44bbf53d3deb4af6d20e0a7622490c17c4a02559a7a81c2ec77aaa7766\",\r\n  \"sequence\": 58,\r\n  \"previous_sha256\": \"95bc223acd849454d01c96cf9a8ff80a26c40f80b2f2e7431b05cbf4df38d1e3\",\r\n  \"purpose\": \"SUNNY connected workbench: explicit local AgentJev decision\",\r\n  \"completed_at\": \"2026-11-07T12:36:48.729562+00:00\",\r\n  \"request_sha256\": \"da265fa4f3e6cd84ece556dd9ac510f4b10f45dd103fdd7083fd18754bc41d68\",\r\n  \"request\": {\r\n    \"state\": {\r\n      \"mission\": \"SUNNY full16goals and8outputs remain active; original symbol/sound/grammar precede changed historical readings and calendar/zodiac rectification. Native Western/Chinese music remains separate and simultaneous.\",\r\n      \"current_model\": \"The source-conditioned three-voice overlap score has five ordered positive stage durations d and three lifespan equations A*d=l. A rows are [1,1,1,0,0], [0,1,1,1,0], [0,0,1,1,1]. Its retained nullspace basis is [1,0,-1,1,0], [0,1,-1,0,1]. Lifespans do not define audible sustain; these are witness-relative year clocks in a declared experiment.\",\r\n      \"ready_question\": \"Which additional observations actually resolve the two timing freedoms? Two observations can still be redundant. Derive minimal sufficient anchors and contradictions; preserve all alternatives and source scope. This extends the score and anchor-prediction mechanism without choosing a historical calendar or sound.\",\r\n      \"existing_prior_art\": \"Exact rank/nullspace methods already retained. Existing native Chinese common-context obstruction and separate-modal alternative already executed; no need to repeat them. Original phonetic recovery remains open, so do not invent a waveform or universally assign biological time to beats.\",\r\n      \"evidence_boundary\": \"Model choice determines the next investigation, not mathematical truth, source authenticity or mission completion. All results must be proved/reproduced separately. No target evidence has been withheld for a blind historical prediction.\"\r\n    },\r\n    \"questions\": [\r\n      {\r\n        \"id\": \"next_connected_derivation\",\r\n        \"type\": \"choice\",\r\n        \"question\": \"Which ready extension should now advance the connected reconstruction?\",\r\n        \"options\": {\r\n          \"minimal_source_bound_score_anchors\": \"Compute exactly which duration-anchor pairs suffice, which do not, invariant predictions from partial anchors, and minimal incompatible subsets; connect to the existing score and interactive views.\",\r\n          \"joint_lattice_and_musical_lift\": \"Extend the retained time/generation lattice with exact fifth-register history, identify the minimal state lost under finite phase quotients, and derive missing-observable consequences without claiming a universal class count.\",\r\n          \"symbol_sound_contact_discrimination\": \"Follow the recovered qames shared-innovation versus contact ambiguity to the next original chronology/contact witness; test whether that additional source separates inherited change from independent convergence.\"\r\n        }\r\n      }\r\n    ]\r\n  },\r\n  \"response\": {\r\n    \"api_version\": \"agentjev.decision.v1\",\r\n    \"model\": \"agentjev-v1\",\r\n    \"results\": [\r\n      {\r\n        \"id\": \"0\",\r\n        \"answers\": [\r\n          {\r\n            \"id\": \"next_connected_derivation\",\r\n            \"type\": \"choice\",\r\n            \"distribution\": {\r\n              \"joint_lattice_and_musical_lift\": 0.3116070330142975,\r\n              \"minimal_source_bound_score_anchors\": 0.40825051069259644,\r\n              \"symbol_sound_contact_discrimination\": 0.28014251589775085\r\n            },\r\n            \"value\": \"minimal_source_bound_score_anchors\",\r\n            \"description\": \"Compute exactly which duration-anchor pairs suffice, which do not, invariant predictions from partial anchors, and minimal incompatible subsets; connect to the existing score and interactive views.\",\r\n            \"top_probability\": 0.40825051069259644,\r\n            \"margin\": 0.09664347767829895\r\n          }\r\n        ]\r\n      }\r\n    ],\r\n    \"usage\": {\r\n      \"questions\": 1,\r\n      \"candidate_paths\": 3,\r\n      \"input_path_tokens\": 1082,\r\n      \"generated_tokens\": 0,\r\n      \"truncated_inputs\": 0,\r\n      \"backbone_input_tokens\": 428,\r\n      \"shared_prefix_questions\": 1,\r\n      \"shared_prefix_states\": 1,\r\n      \"wall_ms\": 999.13\r\n    }\r\n  },\r\n  \"server_info\": {\r\n    \"status\": \"ready\",\r\n    \"api_version\": \"agentjev.decision.v1\",\r\n    \"model\": \"AgentJev-0.6B\",\r\n    \"checkpoint\": \"agentjev-v1\",\r\n    \"checkpoint_sha256\": \"8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215\",\r\n    \"types\": [\r\n      \"boolean\",\r\n      \"choice\",\r\n      \"score\"\r\n    ],\r\n    \"max_path_tokens\": 2048,\r\n    \"max_choice_candidates\": 255,\r\n    \"output_token_decoding\": false,\r\n    \"shared_prefix_compute\": true,\r\n    \"encoder\": \"auto\",\r\n    \"temperatures\": {\r\n      \"boolean\": 1.0717734625362931,\r\n      \"choice\": 1.0352649238413776,\r\n      \"score\": 1.0717734625362931\r\n    },\r\n    \"probability_semantics\": \"model distribution; domain calibration is not guaranteed\"\r\n  },\r\n  \"semantics\": \"Real local model inference over exactly the supplied state and options. Conditional model distribution, not empirical law or calibrated SUNNY correctness. Host-authored candidate descriptions remain visible.\"\r\n}",
+        "content_sha256": "75e16a54e41749d4cd5f3a6b2b66ac8fafc04992dba38c4a9641451b196807f5",
+        "node_hash": "0e995b0c676c5883b3cd88838a7028d53e1915963069286e5062f4251045fcae"
+      }
+    ],
+    "citations": [
+      {
+        "id": "6d673142-83bb-55b1-b971-7a79eb899035",
+        "source_node_hash": "0cd8c599eea8ee666730a170821cbaeec34d2c9a7d391882667b6ce6fc51979e",
+        "chunk_node_hashes": [
+          "0e995b0c676c5883b3cd88838a7028d53e1915963069286e5062f4251045fcae"
+        ],
+        "source_id": "d99a9242-df9b-5658-8571-34bdfa7c3f14",
+        "source_version_id": "19331209-a7e2-5c8b-8918-dbea9df9d8cb",
+        "start_offset": 3575,
+        "end_offset": 3620,
+        "start_line": 45,
+        "end_line": 45,
+        "quote": "\"value\": \"minimal_source_bound_score_anchors\"",
+        "quote_sha256": "8eac599df06959b6f8f42484d6db53a9960ff0353ec5df5bb79b232a36dd28db",
+        "node_hash": "0dbf39fd746aeebdba33656ca5a6e5b9836fe742a8cb8615bda55176dfd75d2d"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-exact-delivery-span-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "0cd8c599eea8ee666730a170821cbaeec34d2c9a7d391882667b6ce6fc51979e",
+        "0e995b0c676c5883b3cd88838a7028d53e1915963069286e5062f4251045fcae",
+        "0dbf39fd746aeebdba33656ca5a6e5b9836fe742a8cb8615bda55176dfd75d2d"
+      ],
+      "node_hash": "095cbe0411e1808df0996c072794d30d5184e41d71246e9b51e8a02feed4b67d"
+    },
+    "artifact": {
+      "id": "b99cf311-ed6a-50e0-8255-aa60bf1b1894",
+      "kind": "constraint",
+      "title": "actual-jev-frontier",
+      "statement": "The preserved local model result selects the named score-anchor investigation; this package checks its exact span, not provider billing or decision correctness.",
+      "rationale": "Confidence1means exact quoted-span fidelity only. No calibrated research confidence, signature, source authenticity, model authority or complete SUNNY claim.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "095cbe0411e1808df0996c072794d30d5184e41d71246e9b51e8a02feed4b67d",
+      "citation_node_hashes": [
+        "0dbf39fd746aeebdba33656ca5a6e5b9836fe742a8cb8615bda55176dfd75d2d"
+      ],
+      "node_hash": "d3225954a522bed21ac2a327deb87227a364804d6b42d79e4e282ae812671663"
+    },
+    "review": {
+      "artifact_node_hash": "d3225954a522bed21ac2a327deb87227a364804d6b42d79e4e282ae812671663",
+      "status": "candidate",
+      "created_at": "2026-11-07T12:53:49.843982+00:00",
+      "updated_at": "2026-11-07T12:53:49.843982+00:00",
+      "node_hash": "f9213965c16c104f2ea9d0d69209d1b06f6c95c90f9709cc43f5c21e1ef5861d"
+    }
+  }
+}

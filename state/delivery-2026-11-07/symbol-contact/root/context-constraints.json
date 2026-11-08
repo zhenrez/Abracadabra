@@ -1,0 +1,277 @@
+{
+  "schema": "sunny.phonological-context-constraints.v1",
+  "jevReceipt": "state/jev-receipts/000060-a1b30f75db7d.json",
+  "source": {
+    "author": "Jonathan Howard",
+    "doi": "10.1017/S0041977X25100992",
+    "onlineDate": "2025-12-22",
+    "issueDate": "2026",
+    "url": "https://doi.org/10.1017/S0041977X25100992",
+    "pdfSha256": "a7d1fe74dd7025bf31fbbcaf704104df1b796e5728d4c326172507ba150c0335",
+    "license": "CC BY-NC-SA4.0"
+  },
+  "sourceCases": [
+    {
+      "locus": "Ps18:39",
+      "publishedGreekForm": "εμωσημ",
+      "themeIndexZeroBased": 2,
+      "publishedThemeLetter": "ω",
+      "transcriptionGrade": "O-grade",
+      "pronominalSuffix": true,
+      "readingLayer": "Howard reported edition reading; not independently collated manuscript ink",
+      "source": {
+        "printedPage": 233,
+        "pdfPageOneBased": 5,
+        "textStart": 1993,
+        "textEnd": 1999
+      }
+    },
+    {
+      "locus": "Ps18:43",
+      "publishedGreekForm": "ουεσοκημ",
+      "themeIndexZeroBased": 4,
+      "publishedThemeLetter": "ο",
+      "transcriptionGrade": "O-grade",
+      "pronominalSuffix": true,
+      "readingLayer": "Howard reported edition reading; not independently collated manuscript ink",
+      "source": {
+        "printedPage": 233,
+        "pdfPageOneBased": 5,
+        "textStart": 2017,
+        "textEnd": 2025
+      }
+    },
+    {
+      "locus": "Ps18:36",
+      "publishedGreekForm": "θεσοδηνι",
+      "themeIndexZeroBased": 3,
+      "publishedThemeLetter": "ο",
+      "transcriptionGrade": "O-grade",
+      "pronominalSuffix": true,
+      "readingLayer": "Howard reported edition reading; not independently collated manuscript ink",
+      "source": {
+        "printedPage": 233,
+        "pdfPageOneBased": 5,
+        "textStart": 2048,
+        "textEnd": 2056
+      }
+    },
+    {
+      "locus": "Ps89:39",
+      "publishedGreekForm": "ὀυαθθεμας",
+      "themeIndexZeroBased": 7,
+      "publishedThemeLetter": "α",
+      "transcriptionGrade": "A-grade",
+      "pronominalSuffix": false,
+      "readingLayer": "Howard reported edition reading; not independently collated manuscript ink",
+      "source": {
+        "printedPage": 233,
+        "pdfPageOneBased": 5,
+        "textStart": 2106,
+        "textEnd": 2115
+      }
+    },
+    {
+      "locus": "Ps89:47",
+      "publishedGreekForm": "θεβαρ",
+      "themeIndexZeroBased": 3,
+      "publishedThemeLetter": "α",
+      "transcriptionGrade": "A-grade",
+      "pronominalSuffix": false,
+      "readingLayer": "Howard reported edition reading; not independently collated manuscript ink",
+      "source": {
+        "printedPage": 233,
+        "pdfPageOneBased": 5,
+        "textStart": 2136,
+        "textEnd": 2141
+      }
+    },
+    {
+      "locus": "Ps35:22",
+      "publishedGreekForm": "ελθαρακ",
+      "themeIndexZeroBased": 5,
+      "publishedThemeLetter": "α",
+      "transcriptionGrade": "A-grade",
+      "pronominalSuffix": false,
+      "readingLayer": "Howard reported edition reading; not independently collated manuscript ink",
+      "source": {
+        "printedPage": 233,
+        "pdfPageOneBased": 5,
+        "textStart": 2159,
+        "textEnd": 2166
+      }
+    }
+  ],
+  "disputedThemeVowel": {
+    "locus": "Ps18:36",
+    "variants": [
+      {
+        "editionReport": "Yuditsky / Carrera Companioni2022p190 as cited by Howard",
+        "theme": "ο"
+      },
+      {
+        "editionReport": "Sperber1938p159 as cited by Howard",
+        "theme": "α"
+      },
+      {
+        "editionReport": "Mercati unread theme vowel as reported by Howard",
+        "theme": null
+      }
+    ],
+    "locator": "printed233footnote25",
+    "primaryCollationPending": true
+  },
+  "conditionalExecutions": [
+    {
+      "reading": {
+        "editionReport": "Yuditsky / Carrera Companioni2022p190 as cited by Howard",
+        "theme": "ο"
+      },
+      "transcriptionGrades": [
+        "O-grade",
+        "O-grade",
+        "O-grade",
+        "A-grade",
+        "A-grade",
+        "A-grade"
+      ],
+      "checkedContexts": 6,
+      "simpleSuffixConditionConflicts": [],
+      "scope": "Compatibility of this explicit transcription-grade rule only; no broad phonological or morphological account eliminated"
+    },
+    {
+      "reading": {
+        "editionReport": "Sperber1938p159 as cited by Howard",
+        "theme": "α"
+      },
+      "transcriptionGrades": [
+        "O-grade",
+        "O-grade",
+        "A-grade",
+        "A-grade",
+        "A-grade",
+        "A-grade"
+      ],
+      "checkedContexts": 6,
+      "simpleSuffixConditionConflicts": [
+        "Ps18:36"
+      ],
+      "scope": "Compatibility of this explicit transcription-grade rule only; no broad phonological or morphological account eliminated"
+    },
+    {
+      "reading": {
+        "editionReport": "Mercati unread theme vowel as reported by Howard",
+        "theme": null
+      },
+      "transcriptionGrades": [
+        "O-grade",
+        "O-grade",
+        null,
+        "A-grade",
+        "A-grade",
+        "A-grade"
+      ],
+      "checkedContexts": 5,
+      "simpleSuffixConditionConflicts": [],
+      "scope": "Compatibility of this explicit transcription-grade rule only; no broad phonological or morphological account eliminated"
+    }
+  ],
+  "retainedExplanations": [
+    {
+      "id": "syllable_conditioned_rounding",
+      "source": "Howard2026pp232–237",
+      "status": "source-proposed; conditional"
+    },
+    {
+      "id": "morphological_stem_or_analogy",
+      "source": "Alternative scholarship discussed by Howardpp231–233",
+      "status": "retained competing explanation; not eliminated by the same grade pattern"
+    }
+  ],
+  "provisionalComparisonArguments": [
+    "source-qualified sign",
+    "historical vowel class",
+    "syllable environment",
+    "morphology",
+    "stress/pause",
+    "tradition and source date",
+    "edition reading"
+  ],
+  "typeBoundary": "These arguments are required by this source comparison; they are not asserted complete or irreducible universal types.",
+  "chronology": {
+    "source": "Howardp235 critiques transfer of a local assimilation date to the broader shift; Kantor2023pp78–79 retains the earlier argument.",
+    "events": [
+      "L_local_pre_waw_rounding",
+      "V_w_to_v",
+      "G_general_syllable_shift"
+    ],
+    "conditionalPrecedenceEdges": [
+      [
+        "L_local_pre_waw_rounding",
+        "V_w_to_v"
+      ],
+      [
+        "L_local_pre_waw_rounding",
+        "G_general_syllable_shift"
+      ]
+    ],
+    "allStrictLinearExtensions": [
+      [
+        "L_local_pre_waw_rounding",
+        "V_w_to_v",
+        "G_general_syllable_shift"
+      ],
+      [
+        "L_local_pre_waw_rounding",
+        "G_general_syllable_shift",
+        "V_w_to_v"
+      ]
+    ],
+    "newConsequence": "L<V and L<G do not entail G<V. An upper bound on V does not supply an upper bound on G without an additional bridge premise.",
+    "proof": "Both listed total orders satisfy every supplied edge, but they place G on opposite sides of V. One is a countermodel to each purported forced order.",
+    "missingPremise": "An independently justified relation between local assimilation and the broader shift sufficient to transfer the claimed date bound.",
+    "scope": "Conditional relative chronology of phonological processes; no ancient calendar date or institutional rectification selected"
+  },
+  "coarseFeatureBoundary": "The old five-tradition binary example remains preserved within its assumptions. Contextual/lexical diffusion and disputed forms require explicit refinement before transferring its topology counts to historical genealogy.",
+  "independence": "Howard reassesses earlier editions and arguments; this is not an independent newly discovered manuscript. Six published forms are not six independent historical witnesses.",
+  "open": [
+    "Independent collation of Ps18:36 theme vowel",
+    "Original chronology/contact witnesses",
+    "Licensing Greek transcription grade to a historical phone",
+    "Discrimination of phonological and morphological explanations"
+  ],
+  "originalSoundRecovered": false,
+  "historicalGenealogySelected": false,
+  "blindPrediction": false,
+  "fullMissionComplete": false,
+  "inputSnapshots": [
+    {
+      "sourcePath": "state/delivery-2026-11-07/symbol-contact/root/howard-2026-qames.pdf",
+      "snapshotPath": "data/raw/reconstruction-integrations/a7d1fe74dd7025bf31fbbcaf704104df1b796e5728d4c326172507ba150c0335/howard-2026-qames.pdf",
+      "sha256": "a7d1fe74dd7025bf31fbbcaf704104df1b796e5728d4c326172507ba150c0335",
+      "bytes": 657366
+    },
+    {
+      "sourcePath": "state/delivery-2026-11-07/symbol-contact/root/howard-pages.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/8703444e47873513a965426be09efb636205eb19a2bac96b7984432ed845cfb3/howard-pages.json",
+      "sha256": "8703444e47873513a965426be09efb636205eb19a2bac96b7984432ed845cfb3",
+      "bytes": 46786
+    },
+    {
+      "sourcePath": "state/jev-receipts/000060-a1b30f75db7d.json",
+      "snapshotPath": "data/raw/reconstruction-integrations/1ecf36869c3bbee45cf23c877d70b27bf9a102e53e667d06ec58d6f25b44fbf9/000060-a1b30f75db7d.json",
+      "sha256": "1ecf36869c3bbee45cf23c877d70b27bf9a102e53e667d06ec58d6f25b44fbf9",
+      "bytes": 5513
+    }
+  ],
+  "codeBindings": [
+    {
+      "path": "scripts/derive_phonological_context.py",
+      "sha256": "2197ccd062f80db06ca6ce9ca621ed54afbb9ff9954d9e9e646bca2e8b91bf5b"
+    },
+    {
+      "path": "tests/phonological_context_independent.py",
+      "sha256": "ba4c1f93c8259dca5462721426c6e506fa30b5feefc96ae2521f8f71536cdbda"
+    }
+  ]
+}

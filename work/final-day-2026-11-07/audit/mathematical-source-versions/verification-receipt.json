@@ -1,0 +1,13 @@
+{
+  "command": "& 'work/final-day-2026-11-07/audit/mathematical-source-versions/capture_versions.ps1' -VerifyOnly",
+  "exit_code": 0,
+  "observed_result": {
+    "initial_versions": 12,
+    "unique_sources": 12,
+    "live_sources_required": false,
+    "status": "PASSED",
+    "current_versions": 12,
+    "drifted": 2
+  },
+  "scope": "Exact original-census bindings and initial/current immutable snapshot hashes; no live source fallback or historical/scientific inference"
+}

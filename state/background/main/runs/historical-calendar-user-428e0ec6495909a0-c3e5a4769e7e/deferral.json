@@ -1,0 +1,62 @@
+{
+  "status": "parked_by_jev_not_semantically_processed",
+  "selection_receipt": "runs/selection-c87208e653004ec0be79b1941c59ce48.json",
+  "queued_request": {
+    "schema": "sunny.background-job.v1",
+    "id": "historical-calendar-user-428e0ec6495909a0",
+    "kind": "source_forensics",
+    "track": "calendar",
+    "sources": [
+      {
+        "path": "data/raw/background-projections/428e0ec6495909a0788be998e68ba947e92c385c680e58575ad862f2646597ac/text.txt",
+        "sha256": "428e0ec6495909a0788be998e68ba947e92c385c680e58575ad862f2646597ac",
+        "start_line": 1,
+        "end_line": 206,
+        "source_role": "user",
+        "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+        "message_id": "69b794f86e0b6df948a9a8b546e000dcbe94779685548d3bcb75df8009a0c752",
+        "timestamp": "1752154668.194",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "69b794f86e0b6df948a9a8b546e000dcbe94779685548d3bcb75df8009a0c752",
+          "native_id": "146e6f0e-524d-4c71-b805-f8b99607b713",
+          "conversation_id": "63a1583d8f17d6e1d44c57199f50b7c2413574f9bda47dbc9480b8753a22c595",
+          "role": "user",
+          "content_sha256": "428e0ec6495909a0788be998e68ba947e92c385c680e58575ad862f2646597ac",
+          "source_id": "0350b30f08d4c0c359fa4e4c2c9a147969c4cb7908cd339ada4bec9538344c39",
+          "locator": "/21/mapping/146e6f0e-524d-4c71-b805-f8b99607b713/message",
+          "create_time": "1752154668.194",
+          "branch_status": "alternate",
+          "title": "Self-assembling AI Life System",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-005.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-005.json",
+          "source_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "3e2c332593f83a2658dd0db339dc37a17feaed29083b1caabddd116a48c67eb9",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/428e0ec6495909a0788be998e68ba947e92c385c680e58575ad862f2646597ac/occurrences-ec7de81895e8ba43d775b874a7e6aab3460bacd281a2b3f0821882adfa20edbd.json"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "declared-time-frame",
+        "statement": "This passage specifies a named calendar, epoch, reference event, timekeeping institution, or reform rule within its own proposed historical timing model."
+      },
+      {
+        "id": "calendar-counterfactual",
+        "statement": "This passage explicitly defines or tests an unbroken institutional calendar or a counterfactual combination of selected calendar reforms, rather than merely mentioning dates."
+      }
+    ],
+    "compare_sources": false,
+    "bounds": {
+      "max_source_characters": 16000,
+      "max_sources": 1
+    },
+    "review_boundary": "Historical source candidate classification only; assistant content is not user approval; projection bytes are not native source bytes or historical truth."
+  },
+  "recorded_utc": "2026-11-02T01:57:56.212702+00:00"
+}

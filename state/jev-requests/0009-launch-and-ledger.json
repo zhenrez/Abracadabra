@@ -1,0 +1,18 @@
+{
+ "state":{
+  "goal":"Make SUNNY usable and continuity recoverable with actual Jev and all named plugins guarding applicable work.",
+  "facts":"Local app4317 is running with actual source data and integratedJeVbridge tests underway. CPUmodel8149selecteddefault, GPU8150retained. All24requestedplugins have an auditedMarkdowncapabilityledger, but browserJSONcapabilityfile is absent. Existing README/startscript notyetcompleted. No paidclouddeployment or publicpublication requested. User wants plugins actually used, not falsely claimed."
+ },
+ "questions":[
+  {"id":"capability_ledger","type":"choice","question":"How should the app expose current plugin evidence?","options":{
+   "structured_ledger":"Create a structured24plugin ledger from existing audited rows, retain historical outages and append current actualresults/sourcepaths; expose it in the app.",
+   "markdown_link":"Keep only the existingMarkdownledger and add a link in the app rather than structuredstatus.",
+   "defer_ledger":"Leave browsercapabilitiesempty until everyexternalconnectorisworking."
+  }},
+  {"id":"local_launch","type":"choice","question":"Which launch delivery should the local SUNNYbuild provide?","options":{
+   "launcher":"Add a workspace launchscript that verifies/starts the pinnedlocalJev and SUNNYservices using hiddenbackgroundprocesses and prints the localappURL; retainnpmstart fordevelopers.",
+   "npm_only":"Document the existingnpmstart and separateJevstartup commands without anotherlauncher.",
+   "cloud":"Publish the private sourcearchive and app to a publiccloudsite now."
+  }}
+ ]
+}

@@ -1,0 +1,9 @@
+# Pinned direct dependencies for the documented scoped research checks.
+# Pillow/SymPy/pdfplumber/pypdfium2 were observed locally; the final two pins
+# retain the repository requirements.txt declarations and were locally missing.
+Pillow==11.3.0
+sympy==1.14.0
+pdfplumber==0.11.7
+pypdfium2==4.30.0
+openpyxl==3.1.5
+pypdf==6.1.1

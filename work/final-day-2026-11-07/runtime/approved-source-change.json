@@ -1,0 +1,33 @@
+{
+  "path": "src/worker.ts",
+  "before_sha256": "2f88a867497e610e1e86d650ad373e5d8d9fd233bd995d9fc7e2db56a9114ca6",
+  "after_sha256": "f73861293c98a9855680b44bc48c650d0021f396cda65f318cd2300ff5ef47b9",
+  "preserved_before": "work/final-day-2026-11-07/runtime/preimage/worker.ts",
+  "reason": "Execution deadline ends at worker completion. Cleanup has a separate bounded30second allowance after an observed15second helper timeout; ownership checks remain unchanged.",
+  "authorization": "Current full-delivery repair request and live Jev sequencing choice; not a mathematical kernel edit.",
+  "test_delta": {
+    "path": "tests/worker-lifecycle.test.mjs",
+    "preserved_before": "work/final-day-2026-11-07/runtime/preimage/worker-lifecycle.test.mjs",
+    "before_sha256": "26e635721d4e379387935873b9b658ea76e2738a39257d48becaa911194d08ed",
+    "after_sha256": "6289c2a729dcf7e5f1c87738d162ff2adc1d8886a39db2a191042899ff1d1ace",
+    "change": "Prior outer test deadlines retained; raw integer-PID absence assertion replaced by exact creation-FILETIME ownership/exit assertion. This corrects a test contract and does not establish the cause of prior PID26416 failure.",
+    "prior_stage": {
+      "path": "tests/worker-lifecycle.test.mjs",
+      "preserved_before": "work/final-day-2026-11-07/runtime/preimage/worker-lifecycle.test.mjs",
+      "before_sha256": "26e635721d4e379387935873b9b658ea76e2738a39257d48becaa911194d08ed",
+      "after_sha256": "6acd79fe06723e26b67255788484096a30d77a5b0131678c481333e49764dbb0",
+      "change": "Only outer test deadlines30/45seconds to60seconds; all6tests and assertions preserved"
+    },
+    "identity_stage": {
+      "preserved_before": "work/final-day-2026-11-07/runtime/preimage/worker-lifecycle-before-identity.test.mjs",
+      "before_sha256": "6acd79fe06723e26b67255788484096a30d77a5b0131678c481333e49764dbb0",
+      "after_sha256": "6289c2a729dcf7e5f1c87738d162ff2adc1d8886a39db2a191042899ff1d1ace",
+      "helper_path": "tests/worker-identity.mjs",
+      "helper_sha256": "c51dc3fce0405024f9771243095fe1f4c669958a9b5b5eb020d997b0afc8dcd0",
+      "policy": "Absent identity, different birth, or verified exited original accepted; original still running or unverifiable query rejected. Read-only PID probe; no command-line reads and no termination.",
+      "historical_failure_cause": "UNRESOLVED",
+      "production_orphan_fix_claimed": false,
+      "exact_diff": "work/final-day-2026-11-07/runtime/worker-birth-identity-test.diff"
+    }
+  }
+}

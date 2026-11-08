@@ -1,0 +1,64 @@
+{
+  "request": {
+    "state": "SUNNY browser submission verification. Observed source database has 59901 messages. Unicode fidelity marker: Σοφία — Śrī ??? ䷀. Evidence: docs/evidence/ui-browser-check.json records actual source search, full-source retrieval and native conversation context. This is an engineering assessment, with no canonical musical placements or domain-law adjudication. Preserve source bytes and all exact input/output receipts.",
+    "questions": [
+      {
+        "id": "decision",
+        "type": "choice",
+        "question": "Which read-only check should immediately follow this actual Unicode browser submission?",
+        "options": {
+          "verify_chain": "Run the actual receipt-chain integrity checker and compare the exact Unicode browser request with its stored payload.",
+          "inspect_distribution": "Inspect all returned distribution labels, normalization and checkpoint SHA in this browser and its source-linked receipt."
+        }
+      }
+    ]
+  },
+  "result": {
+    "status": "judged",
+    "receipt": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\state\\jev-receipts\\000054-462cfb5e9cae.json",
+    "sha256": "462cfb5e9caecf5f5e99b6c82147d60b19706c578d261266308334665e29ede8",
+    "answers": [
+      {
+        "id": "decision",
+        "type": "choice",
+        "distribution": {
+          "inspect_distribution": 0.3964168131351471,
+          "verify_chain": 0.6035832166671753
+        },
+        "value": "verify_chain",
+        "description": "Run the actual receipt-chain integrity checker and compare the exact Unicode browser request with its stored payload.",
+        "top_probability": 0.6035832166671753,
+        "margin": 0.2071664035320282
+      }
+    ],
+    "model_info": {
+      "status": "ready",
+      "api_version": "agentjev.decision.v1",
+      "model": "AgentJev-0.6B",
+      "checkpoint": "agentjev-v1",
+      "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+      "types": [
+        "boolean",
+        "choice",
+        "score"
+      ],
+      "max_path_tokens": 2048,
+      "max_choice_candidates": 255,
+      "output_token_decoding": false,
+      "shared_prefix_compute": true,
+      "encoder": "auto",
+      "temperatures": {
+        "boolean": 1.0717734625362931,
+        "choice": 1.0352649238413776,
+        "score": 1.0717734625362931
+      },
+      "probability_semantics": "model distribution; domain calibration is not guaranteed"
+    }
+  },
+  "receipt_request_matches": true,
+  "receipt_chain": {
+    "status": "intact",
+    "count": 54,
+    "head": "462cfb5e9caecf5f5e99b6c82147d60b19706c578d261266308334665e29ede8"
+  }
+}

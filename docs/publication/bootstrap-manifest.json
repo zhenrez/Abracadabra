@@ -1,0 +1,51 @@
+{
+  "schema": "sunny.research-bootstrap-manifest.v1",
+  "testedPython": "3.13.0 Windows AMD64; existing environments only, no clean environment created",
+  "researchDependencies": [
+    {"distribution":"Pillow","version":"11.3.0","importModule":"PIL.Image","observedVersion":"11.3.0","pinBasis":"installed distribution metadata"},
+    {"distribution":"sympy","version":"1.14.0","importModule":"sympy","observedVersion":"1.14.0","pinBasis":"installed distribution metadata"},
+    {"distribution":"pdfplumber","version":"0.11.7","importModule":"pdfplumber","observedVersion":"0.11.7","pinBasis":"installed distribution metadata"},
+    {"distribution":"pypdfium2","version":"4.30.0","importModule":"pypdfium2","observedVersion":"4.30.0","pinBasis":"installed distribution metadata"},
+    {"distribution":"openpyxl","version":"3.1.5","importModule":"openpyxl","observedVersion":null,"pinBasis":"existing requirements.txt declaration; missing in inspected environments"},
+    {"distribution":"pypdf","version":"6.1.1","importModule":"pypdf","observedVersion":null,"pinBasis":"existing requirements.txt declaration; missing in inspected environments"}
+  ],
+  "jevSource": {
+    "repository": "https://github.com/malevrigns/agent-jev",
+    "commit": "fbe1bc97c76873d08f0820adf0dead55e95d5fc6",
+    "localGitHeadVerified": true,
+    "license": "Apache-2.0",
+    "licensePath": "runtime/agent-jev/LICENSE",
+    "criticalFiles": [
+      {"path":"runtime/agent-jev/LICENSE","sha256":"23b959c1487827616d071b8c4b0c6cfd97f23046664da0ae9293eef769785bda"},
+      {"path":"runtime/agent-jev/pyproject.toml","sha256":"e526300bda0bf9964204c26e77e76d15d3cdf86fed5d9c4bde27005c1f6b1615"},
+      {"path":"runtime/agent-jev/requirements.txt","sha256":"d4800b939a9a7a8a10faad61b4ca349439f1b2de8e1b47be84c0858b0337643a"},
+      {"path":"runtime/agent-jev/fetch_v1_weights.py","sha256":"c6141fd09fb9eeefe5dc53ca1121c029a02261a6dd1ef5703fdb40a4a4fb842b"},
+      {"path":"runtime/agent-jev/agentjev/model.py","sha256":"77ea12223d49ef0d10251eeac4fdf4aa13737d62ebd2399560cb225626f00a0a"},
+      {"path":"runtime/agent-jev/jev_service/server.py","sha256":"e5d0fd497737e02f25b051b0065045c99b9c8b84943c290ed08df062d4d7b029"}
+    ],
+    "scope": "Selected public source files hashed now; local Git HEAD verified. Critical-file hashes are not a complete vendored-tree certificate."
+  },
+  "jevRelease": {
+    "repository": "https://huggingface.co/aimeigaoshou/agent-jev",
+    "revision": "7d433994fbde17a3f0993c2f2b02fe8ca1370db1",
+    "variant": "v1",
+    "licenseDeclaration": "apache-2.0",
+    "licenseSource": "https://huggingface.co/aimeigaoshou/agent-jev/blob/7d433994fbde17a3f0993c2f2b02fe8ca1370db1/README.md",
+    "licenseCapturePath": "docs/publication/jev-model-card-license-fetch.json",
+    "licenseCaptureSha256": "2d68dabf6b7068c0d9b608c9b2c10343bdf351ef496e417984386c17688e086d",
+    "licenseScope": "Pinned official card declaration retrieved through Exa, not a compatibility opinion or endorsement of performance claims.",
+    "configuration": {"model_type":"qwen3","architectures":["Qwen3ForCausalLM"],"torch_dtype":"bfloat16","tokenizerIdentity":"The six pinned configuration/tokenizer/temperature files below; the upstream fetcher identifies their source as Qwen3-0.6B-Base."},
+    "files": [
+      {"path":"runtime/agent-jev/models/agentjev-v1/model.safetensors","bytes":1196881242,"sha256":"8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215","normalGitPublication":false,"rehashNow":false,"digestBasis":"Previously verified docs/evidence/jev-runtime-manifest.json and inspected pinned upstream fetcher; present size observed, weights not loaded or rehashed now."},
+      {"path":"runtime/agent-jev/models/agentjev-v1/temperatures.json","bytes":389,"sha256":"5e5032896d77c72feb86b4725abe418488b8a1c7476014c706bd8215eb43c86c","rehashNow":true},
+      {"path":"runtime/agent-jev/models/agentjev-v1/config.json","bytes":727,"sha256":"504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59","rehashNow":true},
+      {"path":"runtime/agent-jev/models/agentjev-v1/tokenizer.json","bytes":7031645,"sha256":"c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539","rehashNow":true},
+      {"path":"runtime/agent-jev/models/agentjev-v1/tokenizer_config.json","bytes":9678,"sha256":"3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5","rehashNow":true},
+      {"path":"runtime/agent-jev/models/agentjev-v1/vocab.json","bytes":2776833,"sha256":"ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910","rehashNow":true},
+      {"path":"runtime/agent-jev/models/agentjev-v1/merges.txt","bytes":1671853,"sha256":"8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5","rehashNow":true}
+    ]
+  },
+  "observedOptionalJevPackages": {"torch":"2.9.1+cu128","transformers":"4.57.3","safetensors":"0.7.0","huggingface_hub":"0.34.4","tokenizers":"0.22.1","numpy":"2.2.5","requests":"2.31.0","tqdm":"4.67.1","pyyaml":"6.0.2"},
+  "optionalJevNotes": ["The global interpreter had CPU torch2.9.1; the workspace virtual environment had CUDA12.8 torch2.9.1+cu128. GPU hardware is not imposed on a clone.","Virtual environments and model weights are reproducible dependencies. Original large research evidence must instead be restored from the publication archive manifest.","No package installation, model download, model load, weight rehash or fresh-environment full suite occurred in publication preparation."],
+  "fullMissionComplete": false
+}

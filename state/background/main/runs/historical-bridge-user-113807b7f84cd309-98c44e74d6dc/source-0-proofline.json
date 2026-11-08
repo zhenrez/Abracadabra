@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:55:32.532213+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "4158cdc89d32ee7a626424535e6b7523bfae61982713ac1114dcb5f4efad69e7"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "ba200e48-77ed-547d-bf30-2456eebf31b4",
+      "source_identity_sha256": "a72090009bd9cf34f2b48aa92a890ba782166006afaebacd7bc1518bf6de191f",
+      "source_version_id": "20476f44-9135-5495-a27f-c4290305cca3",
+      "version_number": 1,
+      "content": "10/18/2026, 8:16:11 AM\n\n221 is 12 away from 233? maybe chinese western and monochord are mothers?",
+      "content_sha256": "113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995",
+      "content_length": 97,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "83e31ec5ee53dfd8560e1a281e781d9fdbe2adef1fca05cc86bf1cdc52141b34"
+    },
+    "chunks": [
+      {
+        "id": "3d66eeb6-b749-598e-a381-19e41a0d2910",
+        "source_node_hash": "83e31ec5ee53dfd8560e1a281e781d9fdbe2adef1fca05cc86bf1cdc52141b34",
+        "source_id": "ba200e48-77ed-547d-bf30-2456eebf31b4",
+        "source_version_id": "20476f44-9135-5495-a27f-c4290305cca3",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 97,
+        "start_line": 1,
+        "end_line": 3,
+        "content": "10/18/2026, 8:16:11 AM\n\n221 is 12 away from 233? maybe chinese western and monochord are mothers?",
+        "content_sha256": "113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995",
+        "node_hash": "9bca4ebc7571d38442c37893f29c9782df7bbaaeef90924b01930ac61d8109f6"
+      }
+    ],
+    "citations": [
+      {
+        "id": "c3bfae6c-c64e-522c-8bba-95cee09fd05d",
+        "source_node_hash": "83e31ec5ee53dfd8560e1a281e781d9fdbe2adef1fca05cc86bf1cdc52141b34",
+        "chunk_node_hashes": [
+          "9bca4ebc7571d38442c37893f29c9782df7bbaaeef90924b01930ac61d8109f6"
+        ],
+        "source_id": "ba200e48-77ed-547d-bf30-2456eebf31b4",
+        "source_version_id": "20476f44-9135-5495-a27f-c4290305cca3",
+        "start_offset": 0,
+        "end_offset": 97,
+        "start_line": 1,
+        "end_line": 3,
+        "quote": "10/18/2026, 8:16:11 AM\n\n221 is 12 away from 233? maybe chinese western and monochord are mothers?",
+        "quote_sha256": "113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995",
+        "node_hash": "17737714b445a21346192358844dd22da1951d1b0bc4005239b7afed2d8115d7"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "83e31ec5ee53dfd8560e1a281e781d9fdbe2adef1fca05cc86bf1cdc52141b34",
+        "9bca4ebc7571d38442c37893f29c9782df7bbaaeef90924b01930ac61d8109f6",
+        "17737714b445a21346192358844dd22da1951d1b0bc4005239b7afed2d8115d7"
+      ],
+      "node_hash": "e75e791ff223d84da7d3942837041307d874698b16dceb994b1f06094025b22d"
+    },
+    "artifact": {
+      "id": "5127a86b-e359-5724-a911-c8e1232f04e9",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995/text.txt; original SHA256 113807b7f84cd3094899668af66d09997ce6994db8b0d28bba3f743ed7180995; physical source lines 1..3. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "e75e791ff223d84da7d3942837041307d874698b16dceb994b1f06094025b22d",
+      "citation_node_hashes": [
+        "17737714b445a21346192358844dd22da1951d1b0bc4005239b7afed2d8115d7"
+      ],
+      "node_hash": "9b04645252b1335d6d9f62cdab9a5931e8e5fcbc530fc6bb977e21ea969db153"
+    },
+    "review": {
+      "artifact_node_hash": "9b04645252b1335d6d9f62cdab9a5931e8e5fcbc530fc6bb977e21ea969db153",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:55:32.532213+00:00",
+      "updated_at": "2026-11-02T01:55:32.532213+00:00",
+      "node_hash": "51d18de5da25a4a7df2ab50cf3e1ff0dac1e32220a7974a48ec2a027be838c00"
+    }
+  }
+}

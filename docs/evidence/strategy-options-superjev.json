@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "request_sha256": "d397e4f0f90f84229408da922756073035f905a175bae992eabe13ecbda71edf",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "first_finite_unit": {
+      "type": "choice",
+      "probabilities": {
+        "bridge_residual_packet_then_priority_packets": 0.03,
+        "calendar_packet_then_sound": 0.03,
+        "paired_calendar_sound_packets": 0.94,
+        "sound_packet_then_calendar": 0.0
+      },
+      "winner": "paired_calendar_sound_packets",
+      "top_probability": 0.94,
+      "margin": 0.9099999999999999
+    },
+    "observation_selection": {
+      "type": "choice",
+      "probabilities": {
+        "one_exact_invariant_at_a_time": 0.05,
+        "parallel_complementary_observations": 0.3,
+        "partition_refinement_and_pareto": 0.65
+      },
+      "winner": "partition_refinement_and_pareto",
+      "top_probability": 0.65,
+      "margin": 0.35000000000000003
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 1434,
+    "output_tokens": 133
+  },
+  "network_calls": 1,
+  "latency_ms": 223
+}

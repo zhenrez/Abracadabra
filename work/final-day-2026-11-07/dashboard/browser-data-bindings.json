@@ -1,0 +1,43 @@
+{
+  "verified_utc": "2026-11-08T02:46:43.960Z",
+  "status": "PASSED",
+  "source_sha256": "7dd882115d6d937e9c55d5dc453ab34527268916a6bb7e04bba7cf27ef0dfa62",
+  "html_sha256": "c09f302b165c1734535e92a1458a00a29bea1d1fb6fc2b0eacc5cc2eabbf0ced",
+  "template_sha256": "f877352824f74620cb023a36adc908d078b2b6ee45a7214d135c5a46bb83a03f",
+  "build_receipt_sha256": "a44809d20cc133101e9dd2bd05e623bcae63ecdc32597bb1ecdd94438ede4e72",
+  "browser_receipt_sha256": "32509e2ea84c40c42046b951e8c792424b5472f9dcc28c3b54685dd5ce3b4bbe",
+  "current_delivery_sha256": "5daa8f5f168442851b25daa76d354a910620014f1f9cd5ff6c06ea4a4e27c46e",
+  "current_delivery_snapshot_sha256": "5daa8f5f168442851b25daa76d354a910620014f1f9cd5ff6c06ea4a4e27c46e",
+  "sefer_baseline_sha256": "c8a0790974ef2b867428c51909cbb8041474ada36526ef58edb65bff7d40a04d",
+  "sefer_snapshot_sha256": "c8a0790974ef2b867428c51909cbb8041474ada36526ef58edb65bff7d40a04d",
+  "source_snapshot_sha256": "7dd882115d6d937e9c55d5dc453ab34527268916a6bb7e04bba7cf27ef0dfa62",
+  "browser_script_sha256": "4af56604b13070dcd9f097b4723ed7df6ccfe9251d5a9e5e4faae4f71a214fca",
+  "source_roundtrip": "EXACT",
+  "current_delivery_roundtrip": "EXACT",
+  "sefer_baseline_roundtrip": "EXACT",
+  "binding_evidence": "Actual browser loaded exact original fields plus separately hash-bound current assessments and Sefer source; every checked input remained unchanged throughout this run",
+  "screenshots": {
+    "evidence-desktop.png": {
+      "sha256": "8e69539a68c630d9059daf7adaabc721283b6240499dc8e4d12be19b3445b8cc",
+      "bytes": 102366,
+      "modified_utc": "2026-11-08T02:46:42.566Z"
+    },
+    "models-desktop.png": {
+      "sha256": "cc2267cd776a64989c1f318bfa8f8ffd012bbea8d509343608cb858607d04c5d",
+      "bytes": 52233,
+      "modified_utc": "2026-11-08T02:46:42.847Z"
+    },
+    "delivery-desktop.png": {
+      "sha256": "f29a9a51c9defdf3c7565f20d10a116ca32d703cb9bdaa616b6a324912ad530b",
+      "bytes": 597312,
+      "modified_utc": "2026-11-08T02:46:43.781Z"
+    },
+    "evidence-mobile.png": {
+      "sha256": "b3c70ffe361dd05a2cd5f11a65b9686bb6ffa9b426a67f2e56dd8aac5d17bd53",
+      "bytes": 59429,
+      "modified_utc": "2026-11-08T02:46:43.951Z"
+    }
+  },
+  "visual_inspection": "Programmatic browser interaction and screenshot capture; separate human/model visual inspection is not inferred",
+  "new_hosted_design_runtime": "NOT_PERFORMED"
+}

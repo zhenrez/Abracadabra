@@ -1,0 +1,177 @@
+{
+  "schema_version": 2,
+  "claim_id": "SUN_NATIVE_BRIDGE_DIRECTION_DISCRIMINATOR",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "python",
+    "scripts/reconstruct_native_derivations.py",
+    "--output",
+    "docs/evidence/native-derivations-run-002/result.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.13.0"
+      },
+      {
+        "name": "Python",
+        "version": "3.13.0"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26340-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "E/K equals normalized reversefive fifths; normalized forwardseven differs by3^12/2^19 and requires K divided by thatresidual. The10 inverseD/Uword permutations share anentire normalized pitchpath but requireall4rawinteriorsamples to distinguishunder thedeclaredbudget.",
+    "coefficient_domain": "Positive rational ratios using exact fractions.Fraction and integer prime valuations",
+    "conventions": "D_L=2/3,U_L=4/3; D_f=3/2,U_f=3/4; E=16/15,K=81/80; normalize x*2^k into[1,2),retaink; sourcePhiusesm=-k.",
+    "inputs": [
+      "Six hash-bound native sources, retainedmodel definitions and actualJev hypotheses"
+    ],
+    "bounds": {
+      "forward_semigroup_sanity_m": [
+        0,
+        12
+      ],
+      "forward_semigroup_sanity_n": [
+        0,
+        12
+      ],
+      "octave_sanity_z": [
+        -20,
+        20
+      ],
+      "inverse_word_count": 10,
+      "interior_sampling_subsets": 16
+    },
+    "non_claims": [
+      "Not a blind prediction or claim of global mathematical novelty.",
+      "No unique global orientation selected.",
+      "Inverseword budget is algebraic, not asserted historicalChinese procedure.",
+      "Universal nonnegativeword obstruction follows from valuationproof, not finite sanity search.",
+      "NamedTOLAB/BA definitions were not recovered; no matrices invented."
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-10-31T21:44:00.578371+00:00",
+    "runtime_seconds": 0.245711,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 30.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "scripts/reconstruct_native_derivations.py",
+    "docs/evidence/native-derivations-source-bindings.json",
+    "docs/evidence/native-derivations-jev-result.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Chinese_Lu_Depth_Pilot_2026-09-28.md",
+    "data/raw/reconstruction-recovered/73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc/ChatGPT-Comparative Research Protocol-20261030-1502.md",
+    "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+    "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+    "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.md"
+  ],
+  "input_artifacts": [
+    {
+      "path": "scripts/reconstruct_native_derivations.py",
+      "sha256": "41f14388d97e78eb9d184c9ed39c022dc29f93f637fbd1122f33cad2d5866bd3",
+      "sha256_after": "41f14388d97e78eb9d184c9ed39c022dc29f93f637fbd1122f33cad2d5866bd3"
+    },
+    {
+      "path": "docs/evidence/native-derivations-source-bindings.json",
+      "sha256": "8b8dcf7274acae0f5225cbcc24b54fa92a1a56770b25802a3765c52a2588dfc7",
+      "sha256_after": "8b8dcf7274acae0f5225cbcc24b54fa92a1a56770b25802a3765c52a2588dfc7"
+    },
+    {
+      "path": "docs/evidence/native-derivations-jev-result.json",
+      "sha256": "b30903095c0fa8b9ced1964aae252c2eccc7d1f2081d6d43785ab6bedfd8b727",
+      "sha256_after": "b30903095c0fa8b9ced1964aae252c2eccc7d1f2081d6d43785ab6bedfd8b727"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_GG_v1_final.json",
+      "sha256": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d",
+      "sha256_after": "6a92f9710fa6cd2937b9b07c42315b7d9c80644bd453c659f17318f95c55f95d"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Chinese_Lu_Depth_Pilot_2026-09-28.md",
+      "sha256": "66e5d2d763e55411993bfcf4ad07ca4cc0a708f624264e226abf51b90531e9dd",
+      "sha256_after": "66e5d2d763e55411993bfcf4ad07ca4cc0a708f624264e226abf51b90531e9dd"
+    },
+    {
+      "path": "data/raw/reconstruction-recovered/73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc/ChatGPT-Comparative Research Protocol-20261030-1502.md",
+      "sha256": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc",
+      "sha256_after": "73b3171aa010c78121f2d7798011ce36f6e4891f4ef1409d25ed98aaca16fcfc"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/SUN_AUTHORITATIVE_MUTATION_CHRONOLOGY_2026-10-01.txt",
+      "sha256": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94",
+      "sha256_after": "def5acfb2239f58fe91efbdab0096feba38a6d3e0a18a9ca20bf1e0e950dff94"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/RELATED_LINEAGES/TOL_COMPLETE_WORK_ARCHIVE_2026-09-29 (1).md",
+      "sha256": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065",
+      "sha256_after": "1e471374598497383adaf7d6ab21af2dfb2a6999a0a41ae1f253072ddaf4f065"
+    },
+    {
+      "path": "data/raw/archive/SUN_Universal_Archive/Library/SUN_DEEP_RECOVERY/SUN_Fludd_Kepler_Bridge_Registration_FREEZE_v0.1.md",
+      "sha256": "f1c0e211ca729997638b5b53b19159147f4f8b3d71be6dc28293e73897c7114d",
+      "sha256_after": "f1c0e211ca729997638b5b53b19159147f4f8b3d71be6dc28293e73897c7114d"
+    }
+  ],
+  "output_directory": "docs/evidence/native-derivations-run-002",
+  "declared_results": [
+    "docs/evidence/native-derivations-run-002/result.json"
+  ],
+  "outputs": [
+    {
+      "path": "docs/evidence/native-derivations-run-002/stdout.txt",
+      "sha256": "389568b306c56511ab90ff4eac3a278d359c09befe413d42c41d2afc0757b418",
+      "kind": "log"
+    },
+    {
+      "path": "docs/evidence/native-derivations-run-002/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "docs/evidence/native-derivations-run-002/result.json",
+      "sha256": "4c0ab1917bd8aa6e7027e766bbc51904264b5941dff47750884470e826c08d53",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions."
+  ]
+}

@@ -1,0 +1,42 @@
+test_dictionary_encoder_respects_its_decoder_budget (test_adversarial_controls.AdversarialControlTests.test_dictionary_encoder_respects_its_decoder_budget) ... FAIL
+test_identical_adapters_do_not_create_distinguishable_solutions (test_adversarial_controls.AdversarialControlTests.test_identical_adapters_do_not_create_distinguishable_solutions) ... FAIL
+test_literal_encoder_respects_its_decoder_budget (test_adversarial_controls.AdversarialControlTests.test_literal_encoder_respects_its_decoder_budget) ... FAIL
+
+======================================================================
+FAIL: test_dictionary_encoder_respects_its_decoder_budget (test_adversarial_controls.AdversarialControlTests.test_dictionary_encoder_respects_its_decoder_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_adversarial_controls.py", line 26, in test_dictionary_encoder_respects_its_decoder_budget
+    self.assertLessEqual(len(encoded['bits']),8000000,
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         'Accepted dictionary produces an undecodable over-budget stream')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 8389371 not less than or equal to 8000000 : Accepted dictionary produces an undecodable over-budget stream
+
+======================================================================
+FAIL: test_identical_adapters_do_not_create_distinguishable_solutions (test_adversarial_controls.AdversarialControlTests.test_identical_adapters_do_not_create_distinguishable_solutions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_adversarial_controls.py", line 36, in test_identical_adapters_do_not_create_distinguishable_solutions
+    self.assertEqual(result['identifiability'],'UNIQUE_UNDER_DECLARED_FINITE_MODEL')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'MULTIPLE_DISTINGUISHABLE' != 'UNIQUE_UNDER_DECLARED_FINITE_MODEL'
+- MULTIPLE_DISTINGUISHABLE
++ UNIQUE_UNDER_DECLARED_FINITE_MODEL
+
+
+======================================================================
+FAIL: test_literal_encoder_respects_its_decoder_budget (test_adversarial_controls.AdversarialControlTests.test_literal_encoder_respects_its_decoder_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_adversarial_controls.py", line 18, in test_literal_encoder_respects_its_decoder_budget
+    self.assertLessEqual(len(encoded['bits']),8000000,
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         'Accepted encoder input produces an undecodable over-budget stream')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 8390922 not less than or equal to 8000000 : Accepted encoder input produces an undecodable over-budget stream
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.641s
+
+FAILED (failures=3)

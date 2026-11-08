@@ -1,0 +1,162 @@
+{
+  "schema": "sunny.western-packet-verification.v1",
+  "checked_utc": "2026-11-03T02:50:24.022312+00:00",
+  "status": "passed",
+  "passed": 13,
+  "total": 13,
+  "checks": [
+    {
+      "check": "original_script_formula_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_script_ten_steps_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_endpoint_mismatch_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_count_mismatch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "same_time_second_formant_points",
+      "passed": true,
+      "detail": [
+        {
+          "kind": "formant",
+          "time_seconds": "0.05",
+          "value_expression": "f2_locus"
+        },
+        {
+          "kind": "bandwidth",
+          "time_seconds": "0.05",
+          "value_expression": "100"
+        },
+        {
+          "kind": "formant",
+          "time_seconds": "0.05",
+          "value_expression": "1800"
+        },
+        {
+          "kind": "bandwidth",
+          "time_seconds": "0.05",
+          "value_expression": "140"
+        }
+      ]
+    },
+    {
+      "check": "gaussian_bandwidth_rounding",
+      "passed": true,
+      "detail": {
+        "0.005": 259.6560668688016,
+        "0.025": 51.931213373760315,
+        "0.03": 43.276011144800265
+      }
+    },
+    {
+      "check": "reused_formant_source_conditions_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "p0a14_ids_wording_counts",
+      "passed": true,
+      "detail": {
+        "covered_in_bounded_scope": 7,
+        "partial": 6,
+        "open": 1
+      }
+    },
+    {
+      "check": "original_source_body_hashes",
+      "passed": true,
+      "detail": [
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\smyth2020.html",
+          "expected": "e4044efb809acd76d8a5e9015cb329e19f665cc6645579aecfb495548b8a0669",
+          "actual": "e4044efb809acd76d8a5e9015cb329e19f665cc6645579aecfb495548b8a0669",
+          "passed": true
+        },
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\fmp-timbre.html",
+          "expected": "d80bdf36b532b4fe7bace5ec612bf15479ccb322168fc9b48e1b9e5c1f3d9f6d",
+          "actual": "d80bdf36b532b4fe7bace5ec612bf15479ccb322168fc9b48e1b9e5c1f3d9f6d",
+          "passed": true
+        },
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\mcaulay-quatieri1986.pdf",
+          "expected": "c550ea603f5dad0ab3c58a09c3902e19334a603c53d931822e60f0927d85cc3a",
+          "actual": "c550ea603f5dad0ab3c58a09c3902e19334a603c53d931822e60f0927d85cc3a",
+          "passed": true
+        },
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\praat_source_filter.html",
+          "expected": "4207959910f70bf26d49bbae9af9002b41630b096d82066371a7a8c42a1d8c5b",
+          "actual": "4207959910f70bf26d49bbae9af9002b41630b096d82066371a7a8c42a1d8c5b",
+          "passed": true
+        },
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\praat_spectrogram.html",
+          "expected": "5bacf6d05d724cc7c269bbc0fb705d7bc5d12ea1b492afba87cffdd90dd1e139",
+          "actual": "5bacf6d05d724cc7c269bbc0fb705d7bc5d12ea1b492afba87cffdd90dd1e139",
+          "passed": true
+        },
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\praat_bada.html",
+          "expected": "71cfcf437c48ebfc00555806d66d9b60b8a2303fe6c16b5678bc5e6fd0dce3df",
+          "actual": "71cfcf437c48ebfc00555806d66d9b60b8a2303fe6c16b5678bc5e6fd0dce3df",
+          "passed": true
+        },
+        {
+          "path": "state\\research\\reactivation\\western\\sources\\garellek2013.pdf",
+          "expected": "8b339fa453a0508d80d55f0b14b0184c29d796c487b91686fcbc9222446b2bb5",
+          "actual": "8b339fa453a0508d80d55f0b14b0184c29d796c487b91686fcbc9222446b2bb5",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "check": "jev_operational-method_canonical_request_binding",
+      "passed": true,
+      "detail": "39e6bec124872b3f798dcdb46904663938c716358490f69f07fb6c503e8738e0"
+    },
+    {
+      "check": "jev_operational-method_actual_model_receipt",
+      "passed": true,
+      "detail": {
+        "request_sha256": "39e6bec124872b3f798dcdb46904663938c716358490f69f07fb6c503e8738e0",
+        "resolved_model": "jev-1.14.0",
+        "network_calls": 1
+      }
+    },
+    {
+      "check": "jev_observation-route_canonical_request_binding",
+      "passed": true,
+      "detail": "9734ad7ce9b9976943edbb9c36bb23e2184cc8784647a8a72f607b91b444c844"
+    },
+    {
+      "check": "jev_observation-route_actual_model_receipt",
+      "passed": true,
+      "detail": {
+        "request_sha256": "9734ad7ce9b9976943edbb9c36bb23e2184cc8784647a8a72f607b91b444c844",
+        "resolved_model": "jev-1.14.0",
+        "network_calls": 1
+      }
+    }
+  ],
+  "packet_hashes": {
+    "source-register-02.json": "3cf25fab28ff21ff080c453460f747477fa0703e19f760dd3b90870c71b9b0e5",
+    "operational-constraint.json": "f3f2a211701228b6456cf0f9c52c0a4a470b651306722bec4eae4273abd6c93b",
+    "p0a-14-western.json": "62ef457cfbde94e43bb2c8a9829c41b24fbe6126539b78301993abb233538dd0",
+    "method-audit.json": "6c971840875ba5f8031ec2acefd85f741f0ecc5046792bee56269573be8da42d",
+    "paired-reading-access.json": "98cecd29088b54df8cca338e7dd88ab099870db8e404d4c9c57bcc7dd2d4ca65"
+  },
+  "boundary": "Literal source/hash, exposed exact parameter arithmetic and bounded instrument/accounting checks. No measured audio, ancient sound, perceptual replication, full native musical completion, calibrated model truth or blind prediction."
+}

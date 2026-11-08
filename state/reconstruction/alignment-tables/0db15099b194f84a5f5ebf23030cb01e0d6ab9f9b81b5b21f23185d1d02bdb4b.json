@@ -1,0 +1,44 @@
+{
+  "id": "alignment-table-0db15099b194f84a",
+  "content_sha256": "0db15099b194f84a5f5ebf23030cb01e0d6ab9f9b81b5b21f23185d1d02bdb4b",
+  "headers": [
+    "Function",
+    "Expression",
+    "Result"
+  ],
+  "rows": [
+    [
+      "**Composition**",
+      "$5+7$",
+      "12"
+    ],
+    [
+      "**Interaction**",
+      "$5\\times7$",
+      "35"
+    ],
+    [
+      "**Balancing / rectification**",
+      "$6^2-5\\times7$",
+      "1"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 11837,
+      "line_end": 11841,
+      "char_start": 592992,
+      "char_end": 593182,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| Function | Expression | Result |\n|--------|--------|--------|\n| **Composition** | $5+7$ | 12 |\n| **Interaction** | $5\\times7$ | 35 |\n| **Balancing / rectification** | $6^2-5\\times7$ | 1 |\n",
+      "quote_sha256": "543523b16afe92be86a390bc342ce86f55de53c13e4a182a13a479032e84b745",
+      "message_id": "d2aedcf2ce718e93bdbd0f923724109b7d7bbd4dc3cffb4face507b77780d9af",
+      "role": "assistant",
+      "locator": "lines:11837-11841"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

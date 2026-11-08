@@ -1,0 +1,15 @@
+test_zero_collected_suite_cannot_count_as_passed_acceptance (test_delivery_acceptance.DeliveryAcceptanceTests.test_zero_collected_suite_cannot_count_as_passed_acceptance) ... FAIL
+
+======================================================================
+FAIL: test_zero_collected_suite_cannot_count_as_passed_acceptance (test_delivery_acceptance.DeliveryAcceptanceTests.test_zero_collected_suite_cannot_count_as_passed_acceptance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Brend\Documents\ChatGPT\SUN\work\final-day-2026-11-07\independent-review\test_delivery_acceptance.py", line 18, in test_zero_collected_suite_cannot_count_as_passed_acceptance
+    with self.assertRaises(RuntimeError):run_delivery.command('required-unit-suite',argv)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

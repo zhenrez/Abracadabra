@@ -1,0 +1,21 @@
+{
+  "schema": "sunny.background-authorization.v1",
+  "authorized_utc": "2026-11-03T03:46:59.444895+00:00",
+  "authorization_source": "Latest explicit user request to reactivate SUNNY with continuous bounded background execution and multiple agents; root operational allocation under that request.",
+  "scope": "Supporting source-qualified reconstruction jobs and useful exact/record-fidelity checks tied to current scientific dependencies; all16SUNNY goals remain active. No automatic canonical promotion.",
+  "instance": "reactivation-20261102",
+  "maximum_new_model_requests": 256,
+  "maximum_owned_worker_processes": 1,
+  "lease_seconds": 86400,
+  "maximum_meaningful_action_gap_seconds": 600,
+  "old_budget": "Preserve state/background/main/model-budget.json unchanged; old255/256 is not reset or silently extended.",
+  "renewal": "No automatic budget or lease renewal. Stop and expose a blocker when a bound prevents the next complete unit.",
+  "progress_rule": "Completed relevant result artifacts or a newly raised exact blocker qualify. Heartbeats, repeated completed work, parked generic cases and bare process existence do not establish scientific progress.",
+  "constraints": [
+    "Use existing guarded worker/control patterns and real Jev/Proofline.",
+    "No global configuration, trust, security or system-service changes.",
+    "No arbitrary shell or code handler added.",
+    "Verify process identity before start/reuse/stop and preserve other projects.",
+    "No assertion that a bounded classifier independently completes creative research or that an alert file guarantees chat notification."
+  ]
+}

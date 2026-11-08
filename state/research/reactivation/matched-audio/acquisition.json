@@ -1,0 +1,89 @@
+{
+  "schema": "sunny.matched-audio.acquisition.v1",
+  "created_utc": "2026-11-04T03:27:31.754807+00:00",
+  "method_sha256": "d86bc218ad22d293b954fa3cb3efb7e181a5fd69d00e632e0d55c94715d2d04c",
+  "method_frozen_utc": "2026-11-04T03:26:12.3994423Z",
+  "sources": [
+    {
+      "id": "publisher-book",
+      "requested_url": "https://www.openbookpublishers.com/books/10.11647/obp.0163",
+      "start_utc": "2026-11-04T03:27:04.506704+00:00",
+      "attempts": [
+        {
+          "url": "https://www.openbookpublishers.com/books/10.11647/obp.0163",
+          "status": "failed",
+          "error": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "OBP.0163.06",
+      "requested_url": "https://doi.org/10.11647/OBP.0163.06",
+      "start_utc": "2026-11-04T03:27:04.507401+00:00",
+      "attempts": [
+        {
+          "url": "https://doi.org/10.11647/OBP.0163.06",
+          "status": "acquired"
+        }
+      ],
+      "status": "acquired",
+      "final_url": "https://cdn.openbookpublishers.com/resources/10.11647/obp.0163/OBP.0163.06_Gen_1-13_forte_lene.mp3",
+      "http_status": 200,
+      "headers": {
+        "Content-Type": "audio/mpeg",
+        "Content-Length": "3295259",
+        "Connection": "close",
+        "Accept-Ranges": "bytes",
+        "Server": "AmazonS3",
+        "Last-Modified": "Fri, 03 Jun 2022 13:38:46 GMT",
+        "Date": "Wed, 04 Nov 2026 03:27:06 GMT",
+        "ETag": "\"d3a7b31a32e6a310cf5c551f151bc117\"",
+        "X-Cache": "RefreshHit from cloudfront",
+        "Via": "1.1 a2eb08d83c216edb471d369425d11dd8.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "SFO5-P3",
+        "X-Amz-Cf-Id": "le5GPqq2IfnsV5LuDcBSTMTHCo4VcUpJ7yKG9P1Ij-GOtoOedHfpFw=="
+      },
+      "bytes": 3295259,
+      "sha256": "de4732cf81c83a98329207f414eba384d7ea8bfdc778505ead37dcafb258a17c",
+      "path": "state/research/reactivation/matched-audio/sources/OBP.0163.06.mp3",
+      "completed_utc": "2026-11-04T03:27:14.585949+00:00"
+    },
+    {
+      "id": "OBP.0163.07",
+      "requested_url": "https://doi.org/10.11647/OBP.0163.07",
+      "start_utc": "2026-11-04T03:27:04.589027+00:00",
+      "attempts": [
+        {
+          "url": "https://doi.org/10.11647/OBP.0163.07",
+          "status": "acquired"
+        }
+      ],
+      "status": "acquired",
+      "final_url": "https://cdn.openbookpublishers.com/resources/10.11647/obp.0163/OBP.0163.07_Gen_1-13_forte_lene_melodic.mp3",
+      "http_status": 200,
+      "headers": {
+        "Content-Type": "audio/mpeg",
+        "Content-Length": "11989494",
+        "Connection": "close",
+        "Accept-Ranges": "bytes",
+        "Date": "Wed, 04 Nov 2026 03:27:05 GMT",
+        "Server": "AmazonS3",
+        "Last-Modified": "Fri, 03 Jun 2022 13:38:46 GMT",
+        "ETag": "\"5a51cf5d2c468c615089172c55600cf5-2\"",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 faf980cb4a759b6ba4ede233ebb27e96.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "SFO5-P3",
+        "X-Amz-Cf-Id": "IgKFGESupGSJH2A-jPPdG1jgGwq7pVHNdix2xh0Pfx84tSX-DvOgDw=="
+      },
+      "bytes": 11989494,
+      "sha256": "1d9667de1cf1bf242028c1d403994ce1f3899869ccd515de6c98ae4600731475",
+      "path": "state/research/reactivation/matched-audio/sources/OBP.0163.07.mp3",
+      "completed_utc": "2026-11-04T03:27:31.754143+00:00"
+    }
+  ],
+  "decoding_or_listening_performed": false,
+  "new_model_requests": 0,
+  "persistent_processes_started": 0,
+  "protected_configuration_writes": 0
+}

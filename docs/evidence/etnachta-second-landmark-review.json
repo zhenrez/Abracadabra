@@ -1,0 +1,104 @@
+{
+  "schema": "sunny.etnachta-second-landmark-review.v1",
+  "reviewedLocalDate": "2026-11-02",
+  "reviewerScope": "Independent review of the existing paired-notation and pitch-test artifacts; no new audio transcription or pitch extraction.",
+  "question": "Does the paired Torah/Haftarah notation support an independently identified second landmark for the Etnachta transposition test?",
+  "answer": {
+    "secondNamedStructuralCandidate": "supported",
+    "candidate": "Tipcha in row4, immediately preceding Etnachta in right-to-left reading order",
+    "secondTimeAlignedAcousticAnchor": "not_yet_established",
+    "secondMeasuredPitchPair": "not_available_in_this_audit",
+    "uniformTranspositionRejected": false,
+    "reason": "The diagram independently identifies a corresponding accent-name event without consulting pitch values. It does not identify that event's audio interval, syllable nucleus, fundamental-frequency contour or octave. The existing endpoint estimate alone cannot supply a second pair."
+  },
+  "charter": {
+    "knowledgeDepth": "working: paired source records and the uniform-transposition condition recovered; original diagram visually inspected; no audio-event alignment established",
+    "scope": "Contemporary source-specific Torah/Haftarah teaching examples",
+    "object": "Landmark identifiability for a two-anchor transposition comparison",
+    "subject": "The same four-row Etnachta teaching diagram linked with the two recordings",
+    "type": "bounded descriptive protocol and source-evidence review",
+    "acceptance": "Identify a literal source landmark, distinguish structural identity from acoustic correspondence, reproduce source identity and state the exact outstanding measurement."
+  },
+  "canon": [
+    {"rank": 1, "source": "docs/evidence/etnachta-landmark-sources/torah-sheet.pdf", "use": "Primary notation; page1 visually represented by the preserved paired render"},
+    {"rank": 1, "source": "docs/evidence/etnachta-landmark-sources/haftarah-sheet.pdf", "use": "Paired source notation; same bytes, not an independent second witness"},
+    {"rank": 1, "source": "docs/evidence/etnachta-landmark-sources/torah-publisher.html", "use": "Publisher binds the Torah teaching page to its recording and diagram"},
+    {"rank": 1, "source": "docs/evidence/etnachta-landmark-sources/haftarah-publisher.html", "use": "Publisher binds the Haftarah teaching page to its recording and diagram"},
+    {"rank": 2, "source": "https://www.kolamivirginia.org/worship/services/shabbat-morning-melodies/", "use": "Separate Torah/Haftarah link grouping, Sinai Temple attribution and right-to-left row instruction"},
+    {"rank": 3, "source": "docs/evidence/etnachta-transposition-test.json", "use": "Existing conditional model and outstanding second-anchor obligation"}
+  ],
+  "visualFindings": {
+    "title": "Etnachta Phrases - 1",
+    "readingOrder": "Right-to-left within each numbered row, rows1 through4 top-to-bottom",
+    "rows": [
+      {"row": 1, "events": ["Mercha", "Tipcha", "Munach", "Etnachta"]},
+      {"row": 2, "events": ["Tipcha", "Munach", "Etnachta"]},
+      {"row": 3, "events": ["Mercha", "Tipcha", "Etnachta"]},
+      {"row": 4, "events": ["Tipcha", "Etnachta"]}
+    ],
+    "tipchaOccurrencesPerSheet": 4,
+    "etnachtaOccurrencesPerSheet": 4,
+    "namedEventOccurrencesPerSheet": 12,
+    "matchedRowDesign": "Optional earlier Mercha and optional intervening Munach form four teaching contexts; these are repeated within-source contexts, not four independent traditions or performers.",
+    "absentFromSheet": ["Staff pitch coordinates", "Numeric frequency assignments", "Audio timestamps", "Syllable-to-time alignment", "A specified pitch-window statistic", "Legend licensing box geometry as measured duration or frequency"],
+    "pixelCitation": {
+      "path": "docs/evidence/etnachta-landmark-sources/paired-review.png",
+      "size": [1584, 612],
+      "coordinateConvention": "Pixels from top-left; rectangles are x0,y0,x1,y1 and deliberately include label, box and sign",
+      "leftPanelRow4Tipcha": [435, 415, 555, 520],
+      "leftPanelRow4Etnachta": [75, 415, 210, 520],
+      "rightPanelRow4Tipcha": [1227, 415, 1347, 520],
+      "rightPanelRow4Etnachta": [867, 415, 1002, 520]
+    }
+  },
+  "sourceIndependence": {
+    "notationPdfSha256": "5b0b0c12fde13c88def1aeb56809e8d65d1eef459aa98c4cacbe6dbb8d3b9df4",
+    "twoUrlsOneDistinctPdfContent": true,
+    "diagramRole": "Shared event-name order can support a proposed cross-context match; identical diagrams do not prove identical melodies.",
+    "independentMeaning": "The candidate landmark is specified by the source structure before looking for a favorable pitch residual. This is different from independent performer, tradition or historical witness."
+  },
+  "existingAudioEvidenceLimits": [
+    "The endpoint artifact explicitly states no syllable alignment and permits octave error. Its last periodic window is not yet independently verified as the same Etnachta syllable/state in both recordings.",
+    "Four RMS groups were imposed from the sheet. Haftarah grouping changes at the higher threshold; group index alone cannot certify row4 correspondence.",
+    "Whole-phrase duration and different MP3 bytes are not terminal-accent melody measurements.",
+    "No new listening/transcription or f0 estimate was performed in this audit."
+  ],
+  "conditionalPitchTest": {
+    "model": "For correctly corresponding positive-frequency anchors, Haftarah y_i = k * Torah x_i with one k>0",
+    "oneAnchor": "Given x1,y1>0, k=y1/x1 fits exactly; one pair cannot reject unrestricted uniform transposition.",
+    "secondAnchorStatistic": "delta = 1200 * log2((y2/x2)/(y1/x1)) cents",
+    "interpretation": "A residual supported away from zero after alignment, octave and estimation-uncertainty checks excludes one uniform factor at these landmarks only. Zero residual leaves the rest of both melodies untested.",
+    "noNewMeasuredResidual": true,
+    "landmarkType": "An accent may carry a motif or contour. Do not assume one accent equals one stationary note. The chosen comparable subevent or contour statistic must be declared before inspecting f0 results."
+  },
+  "nextFiniteAction": {
+    "selectedBy": "Actual SuperJev resolved model jev-1.14.0; complete receipt retained separately",
+    "candidateFrozen": "row4 Tipcha, followed by row4 Etnachta",
+    "steps": [
+      "Verify the spoken/sung accent-name sequence and actual row boundaries separately in each recording; annotate the Tipcha and Etnachta intervals without displaying pitch estimates.",
+      "If corresponding syllables can be identified, freeze a comparable vocal subevent or contour measurement and all exclusions before inspecting f0. Preserve uncertainty rather than moving the window to make the residual small or large.",
+      "Check octave assignment, voiced/unvoiced transitions and within-window pitch variation. Use an estimator and uncertainty assessment appropriate to the actual recording, not rounded endpoint values as exact frequencies.",
+      "Evaluate both candidate anchors and their residual under the declared rule. This extends already exposed data and is not automatically a blind prediction.",
+      "If alignment remains ambiguous, return the possible intervals or obtain a source-qualified timed/staff transcription; do not convert row labels into assumed timestamps."
+    ]
+  },
+  "adverseControls": [
+    {"control": "Count the duplicate PDF as two independent witnesses", "result": "rejected by equal content hashes"},
+    {"control": "Assign a pitch from the colored box's location or width", "result": "unsupported: no pitch/time scale or licensing legend"},
+    {"control": "Use an acoustic peak selected to fit the existing endpoint ratio", "result": "not an independently chosen landmark measurement"},
+    {"control": "Treat the four RMS groups as verified teaching-row boundaries", "result": "unsupported by the existing candidate-only, threshold-sensitive segmentation"},
+    {"control": "Infer identical melodies from the same sign names", "result": "not entailed by shared notation"}
+  ],
+  "scopeFilter": "No broad historical survey or ancient-phonetic claim. Only the supplied contemporary teaching pair and its published diagram are assessed.",
+  "objectFilter": "A source-identified second structural event is admitted; unverified timestamps, pitch assignments and performer/tradition independence are withheld.",
+  "guardrails": {
+    "actualJev": "docs/evidence/etnachta-second-landmark-superjev.json",
+    "actualSupermemorySearch": "docs/evidence/etnachta-second-landmark-supermemory.json",
+    "sourceRetrieval": "docs/evidence/etnachta-landmark-retrieval.json",
+    "methodsApplied": ["SuperJev coordination and retained full model receipt", "Research Methodology descriptive/source strategy", "Evidence Review source/claim matching and duplicate-witness control", "Previously loaded Mathbox proof-audit distinction between a conditional identifiability proof and measured acoustic evidence"],
+    "runtimeBoundary": "Installed skill methods are not claims that separate Research Methodology or Mathbox services ran. No new Proofline/AgentProof/MightShape runtime certification is claimed."
+  },
+  "persistentProcessesStarted": 0,
+  "centralArtifactsMutated": false,
+  "conclusion": "The paired notation supports a clean prospective Tipcha landmark identity, especially row4, but it does not complete the second aligned frequency-pair requirement. Uniform transposition remains untested at a second verified landmark."
+}

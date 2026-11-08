@@ -1,0 +1,52 @@
+{
+  "request": {
+    "state": "Local Jev pinned runtime is ready. Health and an actual request with boolean and choice outputs succeeded. Required task: provide evidence of runtime contract behavior, including a model-quality failure if one is observed. Upstream jev_service/verify_http.py was inspected; it checks completion counterfactuals, option permutations, question isolation, score output,255 choices and long-input rejection. No software test is a SUNNY research completion certificate.",
+    "questions": [
+      {
+        "id": "verification_route",
+        "type": "choice",
+        "question": "Which verification action best supports a reviewable local Jev runtime handoff?",
+        "options": {
+          "run_upstream": "Execute the inspected upstream HTTP verification script on loopback and preserve its real output, including any failed assertion.",
+          "handoff_now": "Hand off only the existing health and first-inference evidence without additional contract checks."
+        }
+      }
+    ]
+  },
+  "request_sha256": "2bd731a604e07ea14a3b6c307b3f393ac0a3356c70f452c1dfc7c9798864218e",
+  "response": {
+    "api_version": "agentjev.decision.v1",
+    "model": "agentjev-v1",
+    "results": [
+      {
+        "id": "0",
+        "answers": [
+          {
+            "id": "verification_route",
+            "type": "choice",
+            "distribution": {
+              "run_upstream": 0.559741199016571,
+              "handoff_now": 0.44025880098342896
+            },
+            "value": "run_upstream",
+            "description": "Execute the inspected upstream HTTP verification script on loopback and preserve its real output, including any failed assertion.",
+            "top_probability": 0.559741199016571,
+            "margin": 0.11948239803314209
+          }
+        ]
+      }
+    ],
+    "usage": {
+      "questions": 1,
+      "candidate_paths": 2,
+      "input_path_tokens": 271,
+      "generated_tokens": 0,
+      "truncated_inputs": 0,
+      "backbone_input_tokens": 154,
+      "shared_prefix_questions": 1,
+      "shared_prefix_states": 1,
+      "wall_ms": 543.18
+    }
+  },
+  "elapsed_seconds": 0.5526442000409588
+}

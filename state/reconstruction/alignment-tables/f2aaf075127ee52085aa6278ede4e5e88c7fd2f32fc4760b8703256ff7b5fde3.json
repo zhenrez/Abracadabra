@@ -1,0 +1,88 @@
+{
+  "id": "alignment-table-f2aaf075127ee520",
+  "content_sha256": "f2aaf075127ee52085aa6278ede4e5e88c7fd2f32fc4760b8703256ff7b5fde3",
+  "headers": [
+    "ID",
+    "Original assertion",
+    "Corrected assertion",
+    "Supporting witness / record",
+    "Status",
+    "Changes admissible orientation?"
+  ],
+  "rows": [
+    [
+      "**O1**",
+      "Four-triad partition = mod-4 columns: $U_9{=}\\{1,5,9\\}, U_{10}{=}\\{2,6,10\\}, U_{11}{=}\\{3,7,11\\}, U_{12}{=}\\{4,8,12\\}$",
+      "**Half × role partition:** $U_9{=}\\{1,3,5\\}, U_{10}{=}\\{2,4,6\\}, U_{11}{=}\\{7,9,11\\}, U_{12}{=}\\{8,10,12\\}$",
+      "Recovered project record's explicit triad memberships + syzygy-by-syzygy enumeration placing Theletos at 11, Sophia at 12",
+      "**Conditionally supported**; forced *given* memberships; memberships need primary-witness verification",
+      "**Yes** — mod-4 removed from admissible set; half×role conditionally admissible"
+    ],
+    [
+      "**O1-cross**",
+      "Sethian $4\\times3$ and Valentinian half×role are transposes of one grid",
+      "**No transpose.** Fails at position 6: Sethian (2,3) = Memory; Valentinian position 6 = Agape. Also fails at (2,1): Sethian first member of Oroiael is **Pronoia** in Waldstein–Wisse, **Epinoia/Afterthought** in other translations — variant-labeled, not collated",
+      "Apocryphon of John long recension (Waldstein–Wisse; Meyer); falsification register §\"Sethian coordinate / witness differentiation\"",
+      "**Unresolved**",
+      "**Yes** — no crosswalk admitted; Sethian and Valentinian remain independent 12-grids"
+    ],
+    [
+      "**GR1**",
+      "\"Chaos → Gaia, Tartarus, Eros\"",
+      "**Split:** GR1a Chaos first appears; GR1b Chaos → Erebus, Nyx (explicit); GR1c Gaia, Tartarus, Eros follow but are **not explicitly children of Chaos** in *Theogony* 116–138",
+      "Hesiod *Theogony* 116–138; falsification register",
+      "**Fixed source correction**",
+      "**No** — removes an invalid genealogical edge; adds no orientation constraint"
+    ],
+    [
+      "**O7**",
+      "Sophia at (4,3) generates Cronus at (4,3)",
+      "**Address match only:** Sophia 12th aeon (Sethian, under stated ordering); Cronus 12th Titan (Hesiodic enumeration). Generation withdrawn",
+      "Apocryphon long rec.; Hesiod *Theogony* 453–458, 137–138",
+      "**Candidate positional overlap; generative edge unresolved**",
+      "**Yes** — generative edge removed; positional overlap remains candidate"
+    ],
+    [
+      "**Aether**",
+      "Aether = Logos–Zoe boundary = Decad generator",
+      "**Candidate functional correspondence only.** Logos–Zoe → Decad is fixed (I.1). Aether → Logos–Zoe crosswalk requires independent constraint. Nut ≠ Aether by identity",
+      "Irenaeus I.1 (hostile, court-required); Hesiod *Theogony* 124–125; Aristotle *De Caelo*",
+      "**Candidate**",
+      "**No** — downgraded; not a hard constraint"
+    ],
+    [
+      "**O9**",
+      "23 = functional count; 24 = represented forms; seam doubling",
+      "**Conditional.** $22+1=24-1=23$ arithmetic holds. No manuscript yields a unique 23rd functional class. Marcosian 9+8+7=24 **and** analogical double letters to 30 must both be preserved",
+      "Irenaeus I.14.5 (reported); Sefer; falsification register §\"Distinct 22/23/24/30 constructions\"",
+      "**Unresolved hypothesis**",
+      "**Yes** — 23/24 removed from hard constraints; 30 added as required count to preserve"
+    ],
+    [
+      "**O8**",
+      "W72 must include per-row orientation bit for Shem reversal",
+      "**Withdrawn.** Forward–backward–forward is applied before column extraction. W72 unchanged; existing $\\mathbb{Z}_2$ factor retains its defined role",
+      "Exodus 14:19–21 tradition; Shem construction",
+      "**Fixed source transformation; W72 unchanged**",
+      "**No** — W72 unchanged"
+    ]
+  ],
+  "occurrences": [
+    {
+      "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+      "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+      "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+      "line_start": 2993,
+      "line_end": 3001,
+      "char_start": 158307,
+      "char_end": 161576,
+      "position_basis": "UTF8-sig decoded Unicode code points and physical LF lines; raw source bytes retained",
+      "exact_quote": "| ID | Original assertion | Corrected assertion | Supporting witness / record | Status | Changes admissible orientation? |\n|---|---|---|---|---|---|\n| **O1** | Four-triad partition = mod-4 columns: $U_9{=}\\{1,5,9\\}, U_{10}{=}\\{2,6,10\\}, U_{11}{=}\\{3,7,11\\}, U_{12}{=}\\{4,8,12\\}$ | **Half × role partition:** $U_9{=}\\{1,3,5\\}, U_{10}{=}\\{2,4,6\\}, U_{11}{=}\\{7,9,11\\}, U_{12}{=}\\{8,10,12\\}$ | Recovered project record's explicit triad memberships + syzygy-by-syzygy enumeration placing Theletos at 11, Sophia at 12 | **Conditionally supported**; forced *given* memberships; memberships need primary-witness verification | **Yes** — mod-4 removed from admissible set; half×role conditionally admissible |\n| **O1-cross** | Sethian $4\\times3$ and Valentinian half×role are transposes of one grid | **No transpose.** Fails at position 6: Sethian (2,3) = Memory; Valentinian position 6 = Agape. Also fails at (2,1): Sethian first member of Oroiael is **Pronoia** in Waldstein–Wisse, **Epinoia/Afterthought** in other translations — variant-labeled, not collated | Apocryphon of John long recension (Waldstein–Wisse; Meyer); falsification register §\"Sethian coordinate / witness differentiation\" | **Unresolved** | **Yes** — no crosswalk admitted; Sethian and Valentinian remain independent 12-grids |\n| **GR1** | \"Chaos → Gaia, Tartarus, Eros\" | **Split:** GR1a Chaos first appears; GR1b Chaos → Erebus, Nyx (explicit); GR1c Gaia, Tartarus, Eros follow but are **not explicitly children of Chaos** in *Theogony* 116–138 | Hesiod *Theogony* 116–138; falsification register | **Fixed source correction** | **No** — removes an invalid genealogical edge; adds no orientation constraint |\n| **O7** | Sophia at (4,3) generates Cronus at (4,3) | **Address match only:** Sophia 12th aeon (Sethian, under stated ordering); Cronus 12th Titan (Hesiodic enumeration). Generation withdrawn | Apocryphon long rec.; Hesiod *Theogony* 453–458, 137–138 | **Candidate positional overlap; generative edge unresolved** | **Yes** — generative edge removed; positional overlap remains candidate |\n| **Aether** | Aether = Logos–Zoe boundary = Decad generator | **Candidate functional correspondence only.** Logos–Zoe → Decad is fixed (I.1). Aether → Logos–Zoe crosswalk requires independent constraint. Nut ≠ Aether by identity | Irenaeus I.1 (hostile, court-required); Hesiod *Theogony* 124–125; Aristotle *De Caelo* | **Candidate** | **No** — downgraded; not a hard constraint |\n| **O9** | 23 = functional count; 24 = represented forms; seam doubling | **Conditional.** $22+1=24-1=23$ arithmetic holds. No manuscript yields a unique 23rd functional class. Marcosian 9+8+7=24 **and** analogical double letters to 30 must both be preserved | Irenaeus I.14.5 (reported); Sefer; falsification register §\"Distinct 22/23/24/30 constructions\" | **Unresolved hypothesis** | **Yes** — 23/24 removed from hard constraints; 30 added as required count to preserve |\n| **O8** | W72 must include per-row orientation bit for Shem reversal | **Withdrawn.** Forward–backward–forward is applied before column extraction. W72 unchanged; existing $\\mathbb{Z}_2$ factor retains its defined role | Exodus 14:19–21 tradition; Shem construction | **Fixed source transformation; W72 unchanged** | **No** — W72 unchanged |\n",
+      "quote_sha256": "fd66c4c283538790c745048932814badcc833484a3b988d6660e2e8c8d69c507",
+      "message_id": "0aeebb978ff081871815f6efb1d154c96ce6441448ed595e9c806da7f1955883",
+      "role": "user",
+      "locator": "lines:2993-3001"
+    }
+  ],
+  "status": "retained_source_table_not_automatically_current_or_approved"
+}

@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "proofline-decision-evidence-package-v1",
+    "created_at": "2026-11-02T01:55:31.664805+00:00",
+    "app_version": "sunny-background-1",
+    "root_hash": "2321b456fb1eb68c0428a58ef20593b8e9738d35cef1f3ae8555231495e59554"
+  },
+  "payload": {
+    "source_version": {
+      "workspace_id": "3c224154-44ef-59de-852a-13eed3371c8f",
+      "source_id": "f265fbad-45e6-535d-8123-fc3e34ab8010",
+      "source_identity_sha256": "a1099cdd030cf9658f2732d60c7fcba4c6d5d746401436f29d7ac07020b2ded9",
+      "source_version_id": "7aecdd4c-4e34-5dd5-a029-f1690559bcce",
+      "version_number": 1,
+      "content": "9/12/2026, 12:18:53 AM\n\nThe missing “filler” is very likely the syntonic comma 81:80.\n\nThe first-edition texts jointly produce an exact operation:\n\n\\underbrace{\\frac{256}{243}}_{\\text{Fludd's limma}}\n\\times\n\\underbrace{\\frac{81}{80}}_{\\text{Kepler's comma}}\n=\n\\underbrace{\\frac{16}{15}}_{\\text{MI–FA semitone}}\n\nEquivalently:\n\n\\frac{16}{15}\\div\\frac{81}{80}=\\frac{256}{243}.\n\nThis is not a numerical coincidence assembled from modern theory. Kepler states the operation in the 1619 first edition of Harmonices Mundi: remove the comma 81:80 from the semitone 16:15, and the remainder is the Platonic limma 256:243. Elsewhere in that same first edition he gives Earth’s motion as:\n\n\\text{MI–FA–MI}.\n\nFludd, meanwhile, prints the 256:243 limma explicitly as the E–F space in the 1622 first edition of Monochordum Mundi. Therefore each author visibly holds one side of the same decomposition:\n\nSource systemPrinted quantityFunction\nFludd\n256:243\nlimma\nKepler\n81:80\ncomma/correction\nKepler’s Earth song\n16:15\nMI–FA\nCombined\n(256/243)(81/80)=16/15\ncompleted semitone\n\nThat gives “misplaced comma” a technically precise meaning: the comma is absent from—or concealed beside—Fludd’s limma. Restoring it converts Fludd’s E–F interval into Kepler’s MI–FA interval.\n\nThe debate itself supplies the pointer. In Kepler’s 1622 first-edition Apologia:\n\nOn printed page 14, Kepler says Fludd has confused the Platonic 243:256 semitone with the Ptolemaic tonal system.\n\nOn printed page 41, Kepler directly challenges Fludd: effectively, “Where do you place the semitone?”\n\nThat challenge appears to be the instruction we had been seeking:\n\nFind where Fludd placed his semitone, identify it as the limma 256:243, then restore Kepler’s comma 81:80 to obtain the MI–FA 16:15.\n\nSo the probable clue chain is:\n\n\\text{“Where is Fludd’s semitone?”}\n\\rightarrow\nE\\!-\\!F=\\frac{256}{243}\n\\rightarrow\n+\\text{comma }\\frac{81}{80}\n\\rightarrow\n\\frac{16}{15}\n\\rightarrow\n\\text{MI–FA–MI}.\n\nA second genuinely useful result is that the return and octave must be separate operations:\n\nC_3\n\\xrightarrow{\\;16/15\\;}\nFA\n\\xrightarrow{\\;15/16\\;}\nC_3\n\\xrightarrow{\\text{Fluddian bisection}}\nC_4=\\frac{C_3}{2}\n\nin monochord-length coordinates. MI–FA–MI returns to its starting pitch; it cannot itself produce the octave. Fludd’s printed same-letter bisection supplies the register change afterward. Thus the bridge landing is provisionally:\n\n\\boxed{\nB_{FK}(\\ell)\n=\nO_\\ell\\!\\left(\nR^\\ell_{(81/80)(256/243)}(\\ell)\n\\right)\n=\n\\frac{\\ell}{2}\n}\n\nwhere R is the complete MI–FA–MI excursion and O_\\ell is Fludd’s halving into the next register.\n\nOther actual findings—not confirmations:\n\nThe “Ex Fama” marginal note in Otreb means “from the Fama,” not fames/famine. It should not be used as evidence for Kepler’s “miseriam et famem.”\n\nThe proposed “same German publisher” connection does not survive bibliographic checking. Fludd/Otreb use the de Bry circle; Kepler’s Harmonices uses Tampach and Planck. There is a Frankfurt production-network overlap, but not yet a shared publisher.\n\nYour Temple-of-Music plate is the strongest new graphical lead because it places solmization syllables and numbers including 81 within the same visual apparatus. I have not yet established that the plate deliberately pairs 81 with MI–FA, so that remains a target—not a finding.\n\nSo the honest answer is: one substantial new result. The Fludd–Kepler bridge is not merely “a semitone at the boundary.” It is a semitone deliberately distributed between their systems:\n\n\\boxed{\\text{Fludd limma}+\\text{Kepler comma}=\\text{Kepler MI–FA}.}\n\nThat is the first result I would call a genuine reverse-engineered correspondence rather than verification of your research.\n\n[Attachment: Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked(1).pdf]",
+      "content_sha256": "09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8",
+      "content_length": 3773,
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "node_hash": "90a61acd489a395399cbe8bb059fbb6daeb1a7ef64fa03711faf1ea206bdb3f7"
+    },
+    "chunks": [
+      {
+        "id": "6dd58b13-2dac-543f-ab57-a51d2318b908",
+        "source_node_hash": "90a61acd489a395399cbe8bb059fbb6daeb1a7ef64fa03711faf1ea206bdb3f7",
+        "source_id": "f265fbad-45e6-535d-8123-fc3e34ab8010",
+        "source_version_id": "7aecdd4c-4e34-5dd5-a029-f1690559bcce",
+        "ordinal": 0,
+        "start_offset": 0,
+        "end_offset": 3773,
+        "start_line": 1,
+        "end_line": 99,
+        "content": "9/12/2026, 12:18:53 AM\n\nThe missing “filler” is very likely the syntonic comma 81:80.\n\nThe first-edition texts jointly produce an exact operation:\n\n\\underbrace{\\frac{256}{243}}_{\\text{Fludd's limma}}\n\\times\n\\underbrace{\\frac{81}{80}}_{\\text{Kepler's comma}}\n=\n\\underbrace{\\frac{16}{15}}_{\\text{MI–FA semitone}}\n\nEquivalently:\n\n\\frac{16}{15}\\div\\frac{81}{80}=\\frac{256}{243}.\n\nThis is not a numerical coincidence assembled from modern theory. Kepler states the operation in the 1619 first edition of Harmonices Mundi: remove the comma 81:80 from the semitone 16:15, and the remainder is the Platonic limma 256:243. Elsewhere in that same first edition he gives Earth’s motion as:\n\n\\text{MI–FA–MI}.\n\nFludd, meanwhile, prints the 256:243 limma explicitly as the E–F space in the 1622 first edition of Monochordum Mundi. Therefore each author visibly holds one side of the same decomposition:\n\nSource systemPrinted quantityFunction\nFludd\n256:243\nlimma\nKepler\n81:80\ncomma/correction\nKepler’s Earth song\n16:15\nMI–FA\nCombined\n(256/243)(81/80)=16/15\ncompleted semitone\n\nThat gives “misplaced comma” a technically precise meaning: the comma is absent from—or concealed beside—Fludd’s limma. Restoring it converts Fludd’s E–F interval into Kepler’s MI–FA interval.\n\nThe debate itself supplies the pointer. In Kepler’s 1622 first-edition Apologia:\n\nOn printed page 14, Kepler says Fludd has confused the Platonic 243:256 semitone with the Ptolemaic tonal system.\n\nOn printed page 41, Kepler directly challenges Fludd: effectively, “Where do you place the semitone?”\n\nThat challenge appears to be the instruction we had been seeking:\n\nFind where Fludd placed his semitone, identify it as the limma 256:243, then restore Kepler’s comma 81:80 to obtain the MI–FA 16:15.\n\nSo the probable clue chain is:\n\n\\text{“Where is Fludd’s semitone?”}\n\\rightarrow\nE\\!-\\!F=\\frac{256}{243}\n\\rightarrow\n+\\text{comma }\\frac{81}{80}\n\\rightarrow\n\\frac{16}{15}\n\\rightarrow\n\\text{MI–FA–MI}.\n\nA second genuinely useful result is that the return and octave must be separate operations:\n\nC_3\n\\xrightarrow{\\;16/15\\;}\nFA\n\\xrightarrow{\\;15/16\\;}\nC_3\n\\xrightarrow{\\text{Fluddian bisection}}\nC_4=\\frac{C_3}{2}\n\nin monochord-length coordinates. MI–FA–MI returns to its starting pitch; it cannot itself produce the octave. Fludd’s printed same-letter bisection supplies the register change afterward. Thus the bridge landing is provisionally:\n\n\\boxed{\nB_{FK}(\\ell)\n=\nO_\\ell\\!\\left(\nR^\\ell_{(81/80)(256/243)}(\\ell)\n\\right)\n=\n\\frac{\\ell}{2}\n}\n\nwhere R is the complete MI–FA–MI excursion and O_\\ell is Fludd’s halving into the next register.\n\nOther actual findings—not confirmations:\n\nThe “Ex Fama” marginal note in Otreb means “from the Fama,” not fames/famine. It should not be used as evidence for Kepler’s “miseriam et famem.”\n\nThe proposed “same German publisher” connection does not survive bibliographic checking. Fludd/Otreb use the de Bry circle; Kepler’s Harmonices uses Tampach and Planck. There is a Frankfurt production-network overlap, but not yet a shared publisher.\n\nYour Temple-of-Music plate is the strongest new graphical lead because it places solmization syllables and numbers including 81 within the same visual apparatus. I have not yet established that the plate deliberately pairs 81 with MI–FA, so that remains a target—not a finding.\n\nSo the honest answer is: one substantial new result. The Fludd–Kepler bridge is not merely “a semitone at the boundary.” It is a semitone deliberately distributed between their systems:\n\n\\boxed{\\text{Fludd limma}+\\text{Kepler comma}=\\text{Kepler MI–FA}.}\n\nThat is the first result I would call a genuine reverse-engineered correspondence rather than verification of your research.\n\n[Attachment: Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked(1).pdf]",
+        "content_sha256": "09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8",
+        "node_hash": "db8e421d0b7161e87990b896fb511251ba2fd32e767bdd6d123a7a8d9c7ba8b4"
+      }
+    ],
+    "citations": [
+      {
+        "id": "e8aadedb-bb72-5336-83b2-843c77c029e0",
+        "source_node_hash": "90a61acd489a395399cbe8bb059fbb6daeb1a7ef64fa03711faf1ea206bdb3f7",
+        "chunk_node_hashes": [
+          "db8e421d0b7161e87990b896fb511251ba2fd32e767bdd6d123a7a8d9c7ba8b4"
+        ],
+        "source_id": "f265fbad-45e6-535d-8123-fc3e34ab8010",
+        "source_version_id": "7aecdd4c-4e34-5dd5-a029-f1690559bcce",
+        "start_offset": 0,
+        "end_offset": 3773,
+        "start_line": 1,
+        "end_line": 99,
+        "quote": "9/12/2026, 12:18:53 AM\n\nThe missing “filler” is very likely the syntonic comma 81:80.\n\nThe first-edition texts jointly produce an exact operation:\n\n\\underbrace{\\frac{256}{243}}_{\\text{Fludd's limma}}\n\\times\n\\underbrace{\\frac{81}{80}}_{\\text{Kepler's comma}}\n=\n\\underbrace{\\frac{16}{15}}_{\\text{MI–FA semitone}}\n\nEquivalently:\n\n\\frac{16}{15}\\div\\frac{81}{80}=\\frac{256}{243}.\n\nThis is not a numerical coincidence assembled from modern theory. Kepler states the operation in the 1619 first edition of Harmonices Mundi: remove the comma 81:80 from the semitone 16:15, and the remainder is the Platonic limma 256:243. Elsewhere in that same first edition he gives Earth’s motion as:\n\n\\text{MI–FA–MI}.\n\nFludd, meanwhile, prints the 256:243 limma explicitly as the E–F space in the 1622 first edition of Monochordum Mundi. Therefore each author visibly holds one side of the same decomposition:\n\nSource systemPrinted quantityFunction\nFludd\n256:243\nlimma\nKepler\n81:80\ncomma/correction\nKepler’s Earth song\n16:15\nMI–FA\nCombined\n(256/243)(81/80)=16/15\ncompleted semitone\n\nThat gives “misplaced comma” a technically precise meaning: the comma is absent from—or concealed beside—Fludd’s limma. Restoring it converts Fludd’s E–F interval into Kepler’s MI–FA interval.\n\nThe debate itself supplies the pointer. In Kepler’s 1622 first-edition Apologia:\n\nOn printed page 14, Kepler says Fludd has confused the Platonic 243:256 semitone with the Ptolemaic tonal system.\n\nOn printed page 41, Kepler directly challenges Fludd: effectively, “Where do you place the semitone?”\n\nThat challenge appears to be the instruction we had been seeking:\n\nFind where Fludd placed his semitone, identify it as the limma 256:243, then restore Kepler’s comma 81:80 to obtain the MI–FA 16:15.\n\nSo the probable clue chain is:\n\n\\text{“Where is Fludd’s semitone?”}\n\\rightarrow\nE\\!-\\!F=\\frac{256}{243}\n\\rightarrow\n+\\text{comma }\\frac{81}{80}\n\\rightarrow\n\\frac{16}{15}\n\\rightarrow\n\\text{MI–FA–MI}.\n\nA second genuinely useful result is that the return and octave must be separate operations:\n\nC_3\n\\xrightarrow{\\;16/15\\;}\nFA\n\\xrightarrow{\\;15/16\\;}\nC_3\n\\xrightarrow{\\text{Fluddian bisection}}\nC_4=\\frac{C_3}{2}\n\nin monochord-length coordinates. MI–FA–MI returns to its starting pitch; it cannot itself produce the octave. Fludd’s printed same-letter bisection supplies the register change afterward. Thus the bridge landing is provisionally:\n\n\\boxed{\nB_{FK}(\\ell)\n=\nO_\\ell\\!\\left(\nR^\\ell_{(81/80)(256/243)}(\\ell)\n\\right)\n=\n\\frac{\\ell}{2}\n}\n\nwhere R is the complete MI–FA–MI excursion and O_\\ell is Fludd’s halving into the next register.\n\nOther actual findings—not confirmations:\n\nThe “Ex Fama” marginal note in Otreb means “from the Fama,” not fames/famine. It should not be used as evidence for Kepler’s “miseriam et famem.”\n\nThe proposed “same German publisher” connection does not survive bibliographic checking. Fludd/Otreb use the de Bry circle; Kepler’s Harmonices uses Tampach and Planck. There is a Frankfurt production-network overlap, but not yet a shared publisher.\n\nYour Temple-of-Music plate is the strongest new graphical lead because it places solmization syllables and numbers including 81 within the same visual apparatus. I have not yet established that the plate deliberately pairs 81 with MI–FA, so that remains a target—not a finding.\n\nSo the honest answer is: one substantial new result. The Fludd–Kepler bridge is not merely “a semitone at the boundary.” It is a semitone deliberately distributed between their systems:\n\n\\boxed{\\text{Fludd limma}+\\text{Kepler comma}=\\text{Kepler MI–FA}.}\n\nThat is the first result I would call a genuine reverse-engineered correspondence rather than verification of your research.\n\n[Attachment: Chinese_Tree_of_Life_Calibration_Humanized_Source_Locked(1).pdf]",
+        "quote_sha256": "09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8",
+        "node_hash": "55f1ab20d65d90816f3b3fad4ce568493ff3e84a79f433e00eef5a651c42fbf1"
+      }
+    ],
+    "transformation": {
+      "method": "deterministic",
+      "parser_version": "sunny-bounded-lines-projection-v1",
+      "model_runs": [],
+      "input_node_hashes": [
+        "90a61acd489a395399cbe8bb059fbb6daeb1a7ef64fa03711faf1ea206bdb3f7",
+        "db8e421d0b7161e87990b896fb511251ba2fd32e767bdd6d123a7a8d9c7ba8b4",
+        "55f1ab20d65d90816f3b3fad4ce568493ff3e84a79f433e00eef5a651c42fbf1"
+      ],
+      "node_hash": "83852708bf1e2b24935fbe7ad796a48d9c4e7429171481624558331e5e363144"
+    },
+    "artifact": {
+      "id": "b553d7c1-716f-5dda-98c8-eb0b689f1837",
+      "kind": "constraint",
+      "title": "Exact bounded source projection",
+      "statement": "This projected passage is retained exactly as decoded from the hash-bound source.",
+      "rationale": "Original project-relative source data/raw/background-projections/09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8/text.txt; original SHA256 09f3ce27202fc52681cc41cf16f5278c58defbd4b4b806c1583bba7fe9e8a6d8; physical source lines 1..99. Package offsets refer to projection. Confidence is source-span fidelity only, not historical/scientific truth or approval.",
+      "confidence": 1.0,
+      "valid_from": null,
+      "valid_to": null,
+      "transformation_node_hash": "83852708bf1e2b24935fbe7ad796a48d9c4e7429171481624558331e5e363144",
+      "citation_node_hashes": [
+        "55f1ab20d65d90816f3b3fad4ce568493ff3e84a79f433e00eef5a651c42fbf1"
+      ],
+      "node_hash": "009aac54538ec975c3738b01e9f68e1e95c429a93e369c784af9584fa4cd5626"
+    },
+    "review": {
+      "artifact_node_hash": "009aac54538ec975c3738b01e9f68e1e95c429a93e369c784af9584fa4cd5626",
+      "status": "candidate",
+      "created_at": "2026-11-02T01:55:31.664805+00:00",
+      "updated_at": "2026-11-02T01:55:31.664805+00:00",
+      "node_hash": "d7181986b1cb6223fa7f3696289bf22033b0cfa41728221715aca28d4edacb15"
+    }
+  }
+}

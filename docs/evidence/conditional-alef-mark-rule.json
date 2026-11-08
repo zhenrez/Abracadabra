@@ -1,0 +1,17 @@
+{
+  "candidate": "Every dotted alef requires consonantal closure.",
+  "domain": "Across all manuscript conventions in the examined Tiberian evidence",
+  "result": "incompatible with the three word-final cases under Khan's reconstruction",
+  "counterexample_passages": [
+    "Genesis 13:9",
+    "Genesis 13:10",
+    "Genesis 15:1"
+  ],
+  "alternative": "Index the rule by witness, word position and reading tradition. Preserve an unknown realization whenever those conditions fail to determine a reading.",
+  "downstream": "In the score, keep consonantal occurrence, articulation class and acoustic duration/frequency/phase separate. Enter no silent interval merely because a letter has no separately reconstructed consonant.",
+  "next_test": "Seek a matched word-position contrast across independently collated witnesses. Freeze expected outcomes before consulting an unexposed locus.",
+  "source_dependencies": {
+    "docs\\reconstruction\\symbol-sound-census\\tiberian-alef-testimony.json": "1937363d0a96a3ff9b598cbe5b5606aba92a2cbf5a008f47dfc8c6fec5b79c4c",
+    "docs\\evidence\\census-guard-q14-ritual.json": "737749b21ee3b992635c7c802037082d8cfbdf3a7204a5562e6956771e925a10"
+  }
+}

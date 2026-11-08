@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-0c2d111c80bc2e48",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:55:25.262268+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03/text.txt",
+        "sha256": "0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03",
+        "start_line": 1,
+        "end_line": 1,
+        "source_role": "assistant",
+        "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+        "message_id": "f94d41a5819ff956fa8d470b6e7a173dbba150a22a66caf3e0c3b2728500b8e0",
+        "timestamp": "1788391878.008145",
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "f94d41a5819ff956fa8d470b6e7a173dbba150a22a66caf3e0c3b2728500b8e0",
+          "native_id": "31aa29ff-130b-4c16-8f43-f739d8899b93",
+          "conversation_id": "0f6611617fd9dc98e51bb2b47031cbaf6f0e1f41e72d33b9d74c42611d694997",
+          "role": "assistant",
+          "content_sha256": "0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03",
+          "source_id": "40143bd96ce83df932b4070bcb46da801750fb605d58b12e57b526f1d6822bc8",
+          "locator": "/86/mapping/31aa29ff-130b-4c16-8f43-f739d8899b93/message",
+          "create_time": "1788391878.008145",
+          "branch_status": "current",
+          "title": "Correct Zodiac Mapping",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\archive\\SUN_Universal_Archive\\Original_Export_Segments\\conversations-006.json",
+          "original_path": "C:\\Users\\Brend\\Downloads\\SUN_Universal_Archive_2026-10-30.zip!/SUN_Universal_Archive/Original_Export_Segments/conversations-006.json",
+          "source_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+          "source_kind": "supplied_archive_member",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "dccabde1de7231dc398a97d81e6af7cfaf6c4c31e99dfcefd9e5d2bc5743ceba",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03/occurrences-f2dddd27a53516acb2be3d40f627b7b0090717a3a737dab92e978f463d15d41e.json",
+        "quote": "{\"content_type\":\"thoughts\",\"source_analysis_msg_id\":\"0f8ccc84-7b4c-497e-a9c6-6ebb4ef9343b\",\"thoughts\":[{\"chunks\":[],\"content\":\"I’m organizing the synthesis around roles: Kepler contributes measurable motion, interval, and direction; Fludd contributes symbolic vertical order; Dee supplies structure; China supplies a twelve-tone carrier. I’m treating the resulting chirality as a testable interpretation, not a historical fact.\",\"finished\":true,\"summary\":\"Integrating the frameworks\"},{\"chunks\":[],\"content\":\"\",\"finished\":true,\"summary\":\"Integrated the frameworks\"}]}",
+        "quote_sha256": "0c2d111c80bc2e48a182c0a9471447fbf1f25a9b27672365b6413643de0b8c03",
+        "original_bytes": 571,
+        "start_offset": 0,
+        "end_offset": 567
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "c2894c6b97c40e6a4e13da24e0c52cd6f5476880434b7080dc6d98fae75a0718",
+        "artifact_id": "62fcb134-ef46-5ce4-bee9-44157fb9335c",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.43,
+            "refines": 0.37,
+            "supports": 0.2
+          },
+          "winner": "insufficient",
+          "top_probability": 0.43,
+          "margin": 0.06
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 0.4,
+            "refines": 0.35,
+            "supports": 0.25
+          },
+          "winner": "insufficient",
+          "top_probability": 0.4,
+          "margin": 0.050000000000000044
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.214,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

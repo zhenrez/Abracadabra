@@ -1,0 +1,93 @@
+{
+  "state": {
+    "goal": "Derive a joint TIME/GEN invariant from the actual reported sharedShelah–Terah witness transformations; do not select historicalcalendar or winningwitness.",
+    "source_vectors": {
+      "MT_to_SP": [
+        [
+          100,
+          0
+        ],
+        [
+          200,
+          0
+        ],
+        [
+          300,
+          0
+        ],
+        [
+          400,
+          0
+        ],
+        [
+          500,
+          0
+        ],
+        [
+          600,
+          0
+        ],
+        [
+          650,
+          0
+        ]
+      ],
+      "SP_to_Greek": [
+        [
+          130,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          130,
+          1
+        ]
+      ]
+    },
+    "known": [
+      "Allcoordinatesareintegersinreportedyear/genealogicalstepunits,withfixedcommonoriginandAdam0convention.",
+      "Puretimeprojectionhasmaxcommonmodulus10.",
+      "gcdofzero-generationshiftstimesis50;insertionvectoris(130,1)."
+    ],
+    "hypotheses": [
+      "H generatedbytheseactualshiftvectorsequals<(50,0),(130,1)>;Z2/H cyclicoforder50.",
+      "I=t-130g mod50 is a primitivejointcharacterwithcoefficient1ontime; puretmod10 isitsreduction,notuniquepreferredmusicalmeter.",
+      "Thisisacross-witnesscoordinateinvariance;notIconstantthroughsuccessivegenerations."
+    ],
+    "constraints": [
+      "Preservegenealogy/sourceconventionsandwitnessbranches.",
+      "No1year=1beat,mapradiusorheightbyconvenience,arbitraryweights,empiricalblindness,oruniquewitnessbyfitting.",
+      "Unknowncriticaleditionstatusstaysunknown;exactconditionalmathematicscanbeproved."
+    ]
+  },
+  "questions": {
+    "joint_invariant_test": {
+      "type": "choice",
+      "instructions": "Select the next test that best reconstructs the connected TIME/GEN constraints from these exact source transformations.",
+      "criteria": {
+        "joint_lattice_character": "Compute exact shift lattice, Smith/determinant invariants, kernel/equality proof and all14rowchecks; testwhetherjointIstrictlyrefinespurephaseandidentifyvaliditylimits/counterexamples.",
+        "pure_time_only": "Keep onlythealreadycomputedpuretimegcd10; deferGENjointcharacteruntilfurtherinput.",
+        "witness_election": "Usejointcharacteragreementtoelectionamongthehistoricalwitnesses."
+      }
+    }
+  }
+}

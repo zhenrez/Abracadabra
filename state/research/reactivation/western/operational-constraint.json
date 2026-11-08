@@ -1,0 +1,217 @@
+{
+  "schema": "sunny.western-operational-constraint.v1",
+  "created_utc": "2026-11-03T02:47:31.970Z",
+  "id": "WEST-SOURCE-READING-01",
+  "classification": "RESEARCH_SUPPORTED_INFERENCE",
+  "status": "source-linked conditional rule and prospective measurement contract; acoustic measurement not executed",
+  "problem": "What observation could constrain a source-token's phonetic realization while preserving its musical and geometric relationships?",
+  "result": "Condition source-reading predictions on token, witness, tradition/subtradition, context and performance. Use a time-resolved glottal-event observation with retained ambiguity, rather than a glyph-to-fundamental lookup.",
+  "premise_boundary": "The intended common geometry remains an adopted working premise; this local source/measurement dependency does not reject it. Full native Western and Chinese music remain required.",
+  "source_target": {
+    "source": "W09",
+    "printed_pages": [
+      614,
+      615
+    ],
+    "pdf_pages": [
+      631,
+      632
+    ],
+    "passage": "Genesis1.1",
+    "labels": "Modern base-letter labels for source-token addressing, not original epigraphic glyphs.",
+    "profile": "First displayed dagesh forte–dagesh lene reading; second extended profile preserved separately.",
+    "tokens": [
+      {
+        "id": "Gen1.1-w1-alef",
+        "word_base_letters": "בראשית",
+        "alef_position_in_base_letters": 3,
+        "source_observation": "No [ʔ] marker at this Alef's corresponding position in the displayed sample transcription.",
+        "interpretation_limit": "Source-profile observation; not measured acoustics or original inventor intention."
+      },
+      {
+        "id": "Gen1.1-w2-alef",
+        "word_base_letters": "ברא",
+        "alef_position_in_base_letters": 3,
+        "source_observation": "No [ʔ] marker at the final Alef's corresponding position in the displayed sample transcription.",
+        "interpretation_limit": "Source-profile observation; no ancient or universal zero-phone rule."
+      },
+      {
+        "id": "Gen1.1-w3-alef",
+        "word_base_letters": "אלהים",
+        "alef_position_in_base_letters": 1,
+        "source_observation": "Initial [ʔ] explicitly marked in both displayed sample transcriptions.",
+        "interpretation_limit": "Reconstructed Tiberian phonetic prescription, not a fixed frequency or one unique waveform."
+      }
+    ],
+    "performance_pair": [
+      {
+        "id": "OBP.0163.06",
+        "doi": "https://doi.org/10.11647/OBP.0163.06",
+        "condition": "without melody",
+        "profile": "dagesh forte–dagesh lene",
+        "reader": "Alex Foreman",
+        "observed_access": "HTTP HEAD200, audio/mpeg,3295259bytes"
+      },
+      {
+        "id": "OBP.0163.07",
+        "doi": "https://doi.org/10.11647/OBP.0163.07",
+        "condition": "with Sefardi melody",
+        "profile": "dagesh forte–dagesh lene",
+        "reader": "Alex Foreman",
+        "observed_access": "HTTP HEAD200, audio/mpeg,11989494bytes"
+      }
+    ],
+    "domain": "Explicitly modern reconstructed Tiberian reading/Sefardi melodic comparison; not asserted Western-native repertoire, ancient sound, or instrumental music."
+  },
+  "observation": {
+    "id": "OBS-WEST-ALEF-01",
+    "status": "prospective",
+    "contrast": "A source-prescribed glottal target versus a non-[ʔ]-marked Alef role, with melody recorded as a separate performance factor.",
+    "unit": "One aligned token in one identified performance; token occurrences and participants are not interchangeable counts.",
+    "acquisition": [
+      "Preserve original encoded audio bytes/hash and publisher/DOI/version metadata.",
+      "Use already available decoder; record decoder/version/channel/sample rate, lossy encoding and any resampling.",
+      "Align the three token occurrences to the inspected transcription, preserving uncertainty and independent reviewer exposure.",
+      "Compare token-local waveform/periodicity with nearby voiced context and a spectrogram using documented settings. Observe phonetic category before any musical absolute-pitch mapping."
+    ],
+    "observable_fields": [
+      {
+        "field": "token_onset/end/low-energy-interval",
+        "unit": "seconds or milliseconds",
+        "limit": "Boundary uncertainty and recording floor must be retained; avoid calling uncalibrated ADC silence exactzero."
+      },
+      {
+        "field": "adjacent periodic pulse intervals",
+        "unit": "seconds",
+        "limit": "Estimate outside the stop; no positiveF0 is forced during an unvoiced interval."
+      },
+      {
+        "field": "low-energy interval divided by adjacent local period",
+        "unit": "dimensionless local-pulse count",
+        "limit": "Garellek's at-least-two-period convention belongs to a specific corpus/rubric; it is not a universal phoneme threshold."
+      },
+      {
+        "field": "release transient and return to voicing; irregularity",
+        "unit": "observed event/category plus timing",
+        "limit": "Retain full-stop-compatible, incomplete/irregular-compatible, no distinct event and indeterminate outcomes."
+      },
+      {
+        "field": "F0/pitch candidates",
+        "unit": "Hz with unvoiced option",
+        "limit": "Periodicity is not glottal target, vowel identity, musical note spelling or fixed octave/register."
+      },
+      {
+        "field": "vowel formant tracks/bandwidth",
+        "unit": "Hz, with analysis window/time step in seconds",
+        "limit": "Settings/speaker-sensitive spectral resonances; not a unique speech sound."
+      },
+      {
+        "field": "relative harmonic phase",
+        "unit": "radians modulo2pi against declared time reference",
+        "limit": "Earlier phase distinction is retained. Do not infer perceptual difference or compare lossy decoded phase as ancient phase."
+      }
+    ],
+    "outcome_rules": [
+      {
+        "if": "Sustained low-energy gap spanning at least two adjacent local periods plus release/resumption is identified",
+        "then": "Code full-stop-compatible under the explicitly adapted corpus rubric; contextual/prosodic explanations remain possible."
+      },
+      {
+        "if": "Irregular voicing occurs without a clear sustained closure",
+        "then": "Code incomplete/irregular-compatible or indeterminate; do not eliminate the source's glottal target merely because full silence is absent."
+      },
+      {
+        "if": "Target and controls match the profile's [ʔ]-marked versus nonmarked roles in both performances while melodic contours differ",
+        "then": "This supports a factorized reading-role/performance description for these exposed modern tokens; it does not recover ancient origin or a universal glyph sound."
+      },
+      {
+        "if": "Reading roles change with condition or alignment/measurement is equivocal",
+        "then": "Record a performance/source-prescription discrepancy or unresolved observation; preserve alternatives and check context/decoder before new source-reading changes."
+      }
+    ],
+    "discriminates": "Source-qualified phonetic-role stability versus melody-dependent or indeterminate realization in this modern pair. Does not distinguish all ancient-language hypotheses.",
+    "cannot_establish": [
+      "Ancient waveform or original intention",
+      "Phonemic status solely from a glottal event",
+      "Universal absolute-Hz assignment",
+      "Full native musical prescription",
+      "Blind predictive success"
+    ]
+  },
+  "dimension_contract": [
+    {
+      "dimension": "symbol/address",
+      "native_variable": "witness/token/graphic form and reading profile",
+      "unit": "categorical/source address",
+      "do_not_identify_with": "frequency, phoneme or waveform"
+    },
+    {
+      "dimension": "phonetic/phonological",
+      "native_variable": "contextual segment/gesture versus phonemic analysis",
+      "unit": "IPA/category plus source conditions",
+      "do_not_identify_with": "note spelling or fundamental alone"
+    },
+    {
+      "dimension": "pitch/register",
+      "native_variable": "measuredF0, native note spelling, octave/register, tuning/reference",
+      "unit": "Hz or explicitly defined native musical coordinates",
+      "do_not_identify_with": "pitch class, MIDI integer, alphabetA or calendar position"
+    },
+    {
+      "dimension": "phase",
+      "native_variable": "partial phase track and invariant relative phase",
+      "unit": "radians with declared origin",
+      "do_not_identify_with": "octave, generation, cumulative time or phonetic identity"
+    },
+    {
+      "dimension": "time",
+      "native_variable": "event duration, beat/meter/tempo, cumulative history",
+      "unit": "seconds/ms versus native musical units; calendar units separate",
+      "do_not_identify_with": "years, lifetime, sustain or generational address"
+    },
+    {
+      "dimension": "timbre/filter",
+      "native_variable": "spectral envelope, formants, phonation, instrument and vocal-tract conditions",
+      "unit": "Hz/bandwidth plus declared amplitude reference",
+      "do_not_identify_with": "oneF0 or one oscillator"
+    },
+    {
+      "dimension": "amplitude",
+      "native_variable": "ADC values/relative levels or calibrated pressure",
+      "unit": "declared digital reference;Pa/dBSPL only when calibrated",
+      "do_not_identify_with": "equal perceived loudness or arbitrary source confidence"
+    },
+    {
+      "dimension": "music operation",
+      "native_variable": "source-native voice/rhythm/ordering/harmony/tuning/timbre/realization",
+      "unit": "source-defined",
+      "do_not_identify_with": "a scalar kernel or finite pitch carrier"
+    }
+  ],
+  "transfer_decision": {
+    "adopt": [
+      "Measured-waveform premise and amplitude/frequency/phase tracks fromW03.",
+      "Source/filter separation and parameter logging fromW04–W06.",
+      "Contextual target/ambiguity rubric fromW08 and exact reading profile/target fromW09–W10."
+    ],
+    "adapt": [
+      "Two-local-pulse coding convention only as a declared modern comparison rubric; validate its suitability before applying outside its corpus."
+    ],
+    "defer": [
+      "Praat ba-da script verbatim reproduction until its source discrepancies are resolved.",
+      "Audio decoding/alignment/measurement until an existing suitable decoder and documented alignment are available.",
+      "Source-native Western historical prescription and full repertoire reconstruction.",
+      "Chronological projection into Paleo-Hebrew/Imperial Aramaic."
+    ],
+    "preserve": [
+      "Completed Harmony, Fludd-Kepler, monochord and TOL AB/BA adapters remain in place. This packet neither deletes nor permanently disables them; applicability requires source-native input/output and unit conditions."
+    ],
+    "no_source_weights": true
+  },
+  "blocker": {
+    "id": "audio-decode-alignment-unconfirmed",
+    "scope": "No supported MP3 decoder confirmed by bounded native PATH/module probe; audio bodies not acquired/decoded. This does not establish system-wide absence or source absence.",
+    "does_not_block": "Documentary token constraints, source-method reuse, exact parameter audit and conditional observation design."
+  },
+  "dependency_to_root": "Add source-qualified reading-profile/performance fields and these conditional constraints to an appropriate root register only after independent review; do not promote a global phonetic or historical assignment."
+}

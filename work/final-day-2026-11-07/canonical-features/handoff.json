@@ -1,0 +1,69 @@
+{
+  "scope": "Canonical G0 source to legacy15DIPA+5Dgeometry bridge",
+  "status": "V2_IMPLEMENTED_AND_VERIFIED_FOR_BOUNDED_SCOPE",
+  "method": "canonical-v2",
+  "code_sha256": "8767f99ca5999ddd18708708dce6538d2afc78317a07cfb9186cf0870b89f911",
+  "current_output": "work/final-day-2026-11-07/results/canonical-features-v2",
+  "initial_v1_evidence": {
+    "handoff": "preimage/handoff.v1.json",
+    "source": "preimage/canonical_features.v1.py",
+    "output": "work/final-day-2026-11-07/results/canonical-features",
+    "observed_data_corrupt": false
+  },
+  "repair_red": {
+    "tests": 7,
+    "failing_tamper_subtests": 13,
+    "exit_code": 1,
+    "attribution": "Coordinator actual execution before correction"
+  },
+  "repair_green": {
+    "tests": 7,
+    "passed": 7,
+    "exit_code": 0,
+    "tamper_subtests_rejected": 13,
+    "CLI_exit": 0,
+    "attribution": "Coordinator actual execution"
+  },
+  "independent_readback": {
+    "receipt": "artifact-readback-v2.json",
+    "exit_code": 0,
+    "payloads": 5,
+    "current_code_bound": true,
+    "matrix_source_byte_identical_to_v1": true
+  },
+  "validation": "Fresh trusted source derivation compared to all sidecar fields and exact numerical arrays; no public bypass flag",
+  "numerical_summary": {
+    "atomic_sound_cells": 282,
+    "distance_policy": "Compare only jointly available features of compatible phonetic types; no name-to-phoneme projection",
+    "geometry_cells": 0,
+    "geometry_scope": "STRICT_UNAVAILABLE",
+    "missing_policy": "Zero plus false mask; all-zero cosine is undefined, not evidence of similarity",
+    "populated": 381,
+    "positions": 540,
+    "shape": [
+      15,
+      36,
+      20
+    ],
+    "source_sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+    "value_states": {
+      "ALTERNATIVE_VALUES": 22,
+      "ATOMIC_VALUE": 282,
+      "BLANK": 159,
+      "LETTER_NAME_EXCLUDED": 26,
+      "SEQUENCE_VALUE": 46,
+      "UNKNOWN_VALUE": 4,
+      "UNRESOLVED_LABEL": 1
+    }
+  },
+  "original_inputs_changed": [],
+  "limits": [
+    "No historical topology/root/genealogy certification",
+    "Strict geometry unavailable",
+    "Original coarseIPA losses and literal segmentation retained",
+    "Optional font proxy not executed by this acceptance",
+    "Child did not run Python under current policy"
+  ],
+  "documentation_check_exit": 0,
+  "final_project_proof": "Owned by coordinator; this bounded bridge handoff does not replace full delivery acceptance"
+}

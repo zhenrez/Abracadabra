@@ -1,0 +1,28 @@
+{
+  "check": "Pinned reuse inputs and scoped documentation",
+  "exit_code": 0,
+  "inputs": [
+    {
+      "path": "work/unit001/frozen/source/matrix-message.txt",
+      "sha256": "d76bee36607f67a72aad404dc98682f0ec647a9cbb0fb3f89df30230f58ca24c",
+      "matches": true
+    },
+    {
+      "path": "work/unit001/evidence.py",
+      "sha256": "22e1882a8ba964e1c2b5173626c89c467e43423c2a9788985ceb2bdf8f0298ec",
+      "matches": true
+    },
+    {
+      "path": "work/ariadne-inverse/features.py",
+      "sha256": "35541b1cb29ac49b68098ba19313b3f8360e0ff91a0a96b7da23b3410186063b",
+      "matches": true
+    },
+    {
+      "path": "work/ariadne-inverse/numpy_pipeline.py",
+      "sha256": "4dd474a74536409ea85f8a49915f4027d5d531d9b53619e4973c40a44deb15cc",
+      "matches": true
+    }
+  ],
+  "python_execution": "NOT_RUN_BY_CHILD; root owns approved red-green and CLI",
+  "original_files_edited": []
+}

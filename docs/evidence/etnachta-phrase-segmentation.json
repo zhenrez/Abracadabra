@@ -1,0 +1,165 @@
+{
+  "method": "Three longest internal quiet runs in 20ms RMS windows, three thresholds relative to peak RMS. Four groups imposed from teaching sheets; these are candidate alignments, not verified words or syllables.",
+  "results": {
+    "Torah": {
+      "0.025": {
+        "candidate_group_bounds_s": [
+          [
+            0.48,
+            1.72
+          ],
+          [
+            2.4,
+            7.82
+          ],
+          [
+            8.34,
+            16.98
+          ],
+          [
+            17.48,
+            20.56
+          ]
+        ],
+        "four_largest_internal_gaps_s": [
+          0.68,
+          0.52,
+          0.5,
+          0.5
+        ]
+      },
+      "0.05": {
+        "candidate_group_bounds_s": [
+          [
+            0.48,
+            1.58
+          ],
+          [
+            2.4,
+            7.78
+          ],
+          [
+            8.4,
+            16.94
+          ],
+          [
+            17.52,
+            20.52
+          ]
+        ],
+        "four_largest_internal_gaps_s": [
+          0.82,
+          0.62,
+          0.58,
+          0.54
+        ]
+      },
+      "0.075": {
+        "candidate_group_bounds_s": [
+          [
+            0.48,
+            1.54
+          ],
+          [
+            2.4,
+            7.78
+          ],
+          [
+            8.4,
+            16.92
+          ],
+          [
+            17.52,
+            20.5
+          ]
+        ],
+        "four_largest_internal_gaps_s": [
+          0.86,
+          0.62,
+          0.6,
+          0.56
+        ]
+      }
+    },
+    "Haftarah": {
+      "0.025": {
+        "candidate_group_bounds_s": [
+          [
+            0.48,
+            1.9
+          ],
+          [
+            2.64,
+            14.44
+          ],
+          [
+            15.12,
+            20.24
+          ],
+          [
+            20.68,
+            24.58
+          ]
+        ],
+        "four_largest_internal_gaps_s": [
+          0.74,
+          0.68,
+          0.44,
+          0.36
+        ]
+      },
+      "0.05": {
+        "candidate_group_bounds_s": [
+          [
+            0.48,
+            1.74
+          ],
+          [
+            2.66,
+            14.4
+          ],
+          [
+            15.12,
+            20.2
+          ],
+          [
+            20.74,
+            24.56
+          ]
+        ],
+        "four_largest_internal_gaps_s": [
+          0.92,
+          0.72,
+          0.54,
+          0.4
+        ]
+      },
+      "0.075": {
+        "candidate_group_bounds_s": [
+          [
+            0.48,
+            1.7
+          ],
+          [
+            2.66,
+            8.62
+          ],
+          [
+            9.3,
+            14.4
+          ],
+          [
+            15.12,
+            24.56
+          ]
+        ],
+        "four_largest_internal_gaps_s": [
+          0.96,
+          0.72,
+          0.68,
+          0.54
+        ]
+      }
+    }
+  }
+}

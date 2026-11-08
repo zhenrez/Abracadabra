@@ -1,0 +1,210 @@
+{
+  "protocol_receipt": "state/jev-receipts/000008-3a5d06507e59.json",
+  "frozen_request": {
+    "frozen_at_utc": "2026-10-31T01:04:26.994088+00:00",
+    "protocol_receipt": "state/jev-receipts/000008-3a5d06507e59.json",
+    "protocol": "single_request",
+    "request_sha256_bytes": "60248fef12fe16a0cbebb99479cfe430a880faf33ddf5dde1c4085a6935900cd",
+    "request": {
+      "state": {
+        "task": "Bootstrap local Jev for SUNNY and then let Jev direct subsequent research and architecture decisions.",
+        "observed": "AgentJev pinned weights verified; CPU service ready, warmup 553.5ms. Existing CPU torch is installed and works. RTX3060 12GB is available but CUDA PyTorch is not installed. No real SUNNY research judgments have yet been made by this runtime.",
+        "user_constraint": "Use actual Jev outputs for every substantive decision; no host substitution or simulated model votes.",
+        "next_actions": "Choose how to proceed with runtime capacity while preserving working service."
+      },
+      "questions": [
+        {
+          "id": "runtime_path",
+          "type": "choice",
+          "question": "Which next runtime action best enables the requested Jev-directed work now?",
+          "options": {
+            "use_live_cpu": "Keep the verified working CPU service, begin logged Jev-directed decisions now, and measure actual workloads before any GPU change.",
+            "replace_now": "Stop the working CPU service now and install a CUDA build before doing any SUNNY decisions.",
+            "claim_done": "Declare full SUNNY research and lawful orientations complete because Jev health passed."
+          }
+        },
+        {
+          "id": "completion",
+          "type": "boolean",
+          "question": "Does a ready Jev runtime alone establish that SUNNY reconstruction and research alignment are complete?",
+          "criteria": {
+            "true": "Actual recovered-source investigation, constraints and predictions were all independently checked.",
+            "false": "Only the runtime was bootstrapped; SUNNY reconstruction and research remain separate work."
+          }
+        }
+      ]
+    },
+    "source": "docs/evidence/jev-runtime-first-request.json",
+    "comparisons": [
+      "same request CPU8149",
+      "same request GPU8150"
+    ],
+    "scope": "One fixed request with two questions, selected by actual Jev. Not a general performance or quality benchmark."
+  },
+  "observations": {
+    "cpu": {
+      "base_url": "http://127.0.0.1:8149",
+      "server_info": {
+        "status": "ready",
+        "api_version": "agentjev.decision.v1",
+        "model": "AgentJev-0.6B",
+        "checkpoint": "agentjev-v1",
+        "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+        "types": [
+          "boolean",
+          "choice",
+          "score"
+        ],
+        "max_path_tokens": 2048,
+        "max_choice_candidates": 255,
+        "output_token_decoding": false,
+        "shared_prefix_compute": true,
+        "encoder": "auto",
+        "temperatures": {
+          "boolean": 1.0717734625362931,
+          "choice": 1.0352649238413776,
+          "score": 1.0717734625362931
+        },
+        "probability_semantics": "model distribution; domain calibration is not guaranteed"
+      },
+      "response": {
+        "api_version": "agentjev.decision.v1",
+        "model": "agentjev-v1",
+        "results": [
+          {
+            "id": "0",
+            "answers": [
+              {
+                "id": "runtime_path",
+                "type": "choice",
+                "distribution": {
+                  "use_live_cpu": 0.5059213042259216,
+                  "replace_now": 0.14758655428886414,
+                  "claim_done": 0.346492201089859
+                },
+                "value": "use_live_cpu",
+                "description": "Keep the verified working CPU service, begin logged Jev-directed decisions now, and measure actual workloads before any GPU change.",
+                "top_probability": 0.5059213042259216,
+                "margin": 0.15942910313606262
+              },
+              {
+                "id": "completion",
+                "type": "boolean",
+                "distribution": {
+                  "true": 0.4142236113548279,
+                  "false": 0.5857763290405273
+                },
+                "probability": 0.4142236113548279,
+                "value": false
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "questions": 2,
+          "candidate_paths": 5,
+          "input_path_tokens": 861,
+          "generated_tokens": 0,
+          "truncated_inputs": 0,
+          "backbone_input_tokens": 265,
+          "shared_prefix_questions": 2,
+          "shared_prefix_states": 1,
+          "wall_ms": 1161.19
+        }
+      },
+      "elapsed_seconds": 1.1657419999828562
+    },
+    "gpu": {
+      "base_url": "http://127.0.0.1:8150",
+      "server_info": {
+        "status": "ready",
+        "api_version": "agentjev.decision.v1",
+        "model": "AgentJev-0.6B",
+        "checkpoint": "agentjev-v1",
+        "checkpoint_sha256": "8166e46dc6019ae13f0d8fc97d603cdbcc2d20eb1882c7350c8deb9fc6bae215",
+        "types": [
+          "boolean",
+          "choice",
+          "score"
+        ],
+        "max_path_tokens": 2048,
+        "max_choice_candidates": 255,
+        "output_token_decoding": false,
+        "shared_prefix_compute": true,
+        "encoder": "auto",
+        "temperatures": {
+          "boolean": 1.0717734625362931,
+          "choice": 1.0352649238413776,
+          "score": 1.0717734625362931
+        },
+        "probability_semantics": "model distribution; domain calibration is not guaranteed"
+      },
+      "response": {
+        "api_version": "agentjev.decision.v1",
+        "model": "agentjev-v1",
+        "results": [
+          {
+            "id": "0",
+            "answers": [
+              {
+                "id": "runtime_path",
+                "type": "choice",
+                "distribution": {
+                  "use_live_cpu": 0.5078250765800476,
+                  "replace_now": 0.14592580497264862,
+                  "claim_done": 0.3462490737438202
+                },
+                "value": "use_live_cpu",
+                "description": "Keep the verified working CPU service, begin logged Jev-directed decisions now, and measure actual workloads before any GPU change.",
+                "top_probability": 0.5078250765800476,
+                "margin": 0.16157600283622742
+              },
+              {
+                "id": "completion",
+                "type": "boolean",
+                "distribution": {
+                  "true": 0.4125261902809143,
+                  "false": 0.5874738097190857
+                },
+                "probability": 0.4125261902809143,
+                "value": false
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "questions": 2,
+          "candidate_paths": 5,
+          "input_path_tokens": 861,
+          "generated_tokens": 0,
+          "truncated_inputs": 0,
+          "backbone_input_tokens": 265,
+          "shared_prefix_questions": 2,
+          "shared_prefix_states": 1,
+          "wall_ms": 327.18
+        }
+      },
+      "elapsed_seconds": 0.35656909993849695
+    }
+  },
+  "comparisons": [
+    {
+      "question_id": "runtime_path",
+      "type": "choice",
+      "max_absolute_probability_difference": 0.0019037723541259766,
+      "cpu_value": "use_live_cpu",
+      "gpu_value": "use_live_cpu",
+      "same_selected_value": true
+    },
+    {
+      "question_id": "completion",
+      "type": "boolean",
+      "max_absolute_probability_difference": 0.0016974806785583496,
+      "cpu_value": false,
+      "gpu_value": false,
+      "same_selected_value": true
+    }
+  ],
+  "cpu_elapsed_over_gpu_elapsed": 3.269329844296463,
+  "scope": "One pre-frozen request, two questions, one measured call per device after normal upstream warmup. CPU service also serves other SUNNY requests; no exclusive benchmark isolation. This is not a general speed, quality or bitwise-equivalence claim. No route switch is performed by this script."
+}

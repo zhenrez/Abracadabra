@@ -1,0 +1,51 @@
+{
+  "schema": "sunny.master-score-focused-verification.v1",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "npm run build",
+      "exit_code": 0
+    },
+    {
+      "command": "node scripts/reconstruct_master_score.mjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node --test tests/score.test.mjs",
+      "exit_code": 0,
+      "passed": 7,
+      "failed": 0
+    }
+  ],
+  "files": [
+    {
+      "path": "src/score.ts",
+      "sha256": "786317263afc08cd254f80220e3f57dd30c04f01fd3531c2fd353e673ac71029",
+      "bytes": 16018
+    },
+    {
+      "path": "tests/score.test.mjs",
+      "sha256": "90f85fc918b54f21744271101a841e036582f85a18f69d14310d3c1551150d83",
+      "bytes": 6539
+    },
+    {
+      "path": "scripts/reconstruct_master_score.mjs",
+      "sha256": "e379e84ccd5d80f2493542f71e72ef1dc996594fb537075f069795e80a5c5848",
+      "bytes": 14231
+    },
+    {
+      "path": "state/reconstruction/master-score.json",
+      "sha256": "f6fcb3a8c3ab6bff94fcd2adacfce250e2b0bb7f90809eda4f92d00a66f34033",
+      "bytes": 295012
+    },
+    {
+      "path": "docs/reconstruction/MASTER_SCORE.md",
+      "sha256": "f52024d9066a999fc001df216262b72d98b8e7e5b7cd1c1995d1f559777c4d5b",
+      "bytes": 2217
+    }
+  ],
+  "scope": "Seven conditional source-backed score views; no universal or MissionI completion claim.",
+  "prior_build_failure_retained": "Initial src/score.ts output boundary cast failed TypeScript2352; replaced with an explicitly validated exact-rational boundary. Current build passes.",
+  "owned_processes": "All bounded build/runner/test commands finished; no service/browser started.",
+  "adverse_input_domains": "Known pitch positivity/frequency dimension, event-clock time dimension, interval time dimension, carrier/unit/reference compatibility, cycles, reversed order, malformed rationals, missing source binding, explicit ratio order."
+}

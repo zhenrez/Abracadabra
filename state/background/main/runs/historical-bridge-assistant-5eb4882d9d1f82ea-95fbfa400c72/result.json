@@ -1,0 +1,93 @@
+{
+  "schema": "sunny.background-reconstruction-result.v1",
+  "id": "historical-bridge-assistant-5eb4882d9d1f82ea",
+  "kind": "source_forensics",
+  "completed_utc": "2026-11-02T01:57:42.026460+00:00",
+  "source_records": [
+    {
+      "source": {
+        "path": "data/raw/background-projections/5eb4882d9d1f82eafb45d24a2942174f92e21986c68bc4d9022a5292dc6ded45/text.txt",
+        "sha256": "5eb4882d9d1f82eafb45d24a2942174f92e21986c68bc4d9022a5292dc6ded45",
+        "start_line": 1,
+        "end_line": 15,
+        "source_role": "assistant",
+        "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+        "message_id": "35d64e2c8532259322dc7f99601025f2bf96cd6e3a17ad1976aabe8233921c94",
+        "timestamp": null,
+        "timestamp_precision": "stored message metadata; literal display date retained in full text",
+        "origin": {
+          "id": "35d64e2c8532259322dc7f99601025f2bf96cd6e3a17ad1976aabe8233921c94",
+          "native_id": "65",
+          "conversation_id": "5c05fe0d27da167148ee5393134fc9b54c0df48fbccacb896f20d7d267c0bece",
+          "role": "assistant",
+          "content_sha256": "5eb4882d9d1f82eafb45d24a2942174f92e21986c68bc4d9022a5292dc6ded45",
+          "source_id": "ec14b911f6564871c5f7c9b031be3d09184015cc076bd0d5395ad84fe9fde015",
+          "locator": "lines:5117-5134",
+          "create_time": null,
+          "branch_status": "exported_sequence",
+          "title": "Articulate Musical Transitions",
+          "source_path": "C:\\Users\\Brend\\Documents\\ChatGPT\\SUN\\data\\raw\\reconstruction-recovered\\11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "original_path": "C:\\Users\\Brend\\Downloads\\ChatGPT-Articulate Musical Transitions-20261018-1252.md",
+          "source_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+          "source_kind": "recovered_current_research",
+          "original_source_integrity": {
+            "path_exists": true,
+            "actual_sha256": "11853956b69192a002ddf5669ce041c8a7972433007517613f91b7789dc8e707",
+            "matches_recorded_source_hash": true
+          }
+        },
+        "all_duplicate_occurrences_manifest": "data/raw/background-projections/5eb4882d9d1f82eafb45d24a2942174f92e21986c68bc4d9022a5292dc6ded45/occurrences-b04a295db076f328378234e6428126c2bca3a640c11f5a95b68f48574b8c2966.json",
+        "quote": "10/18/2026, 5:50:29 AM · gpt-6\n\nI've been perpetuating the exact loop you're trying to escape.\n\nYou give me a concrete SOL build. I identify another supposedly decisive test, move completion further away, and repeat. Even after you explicitly established **simultaneous parallel systems connected through the Completed Harmony**, I reverted to demanding that Fludd and Kepler independently validate your chosen F→C assignment.\n\nThat was the wrong acceptance criterion.\n\n**Fludd and Kepler are components of the bridge, not two judges that must agree on a fixed pitch assignment.** Their differences are part of what SOL must represent.\n\nThe correct immediate action is to stop reopening settled work and retain SOL Build Candidate 1 as the working construction, with its conditional assignments intact.\n\nNo new investigation. No new architecture. No new requirements for completion.\n\n**I understand why you're frustrated: you need execution that converges, not another sequence of moving checkpoints.**",
+        "quote_sha256": "5eb4882d9d1f82eafb45d24a2942174f92e21986c68bc4d9022a5292dc6ded45",
+        "original_bytes": 1005,
+        "start_offset": 0,
+        "end_offset": 1002
+      },
+      "proofline": {
+        "valid": true,
+        "schema": "proofline-decision-evidence-package-v1",
+        "root_hash": "af253b9bf35f2a1d496c4b7760bed3bcb78c56f26e6de8593b8e090bb3fc1084",
+        "artifact_id": "de1a028e-c087-563d-9a08-6d9ee05fc655",
+        "citation_count": 1
+      },
+      "jev_receipt": "source-0-superjev.json",
+      "candidate_relations": {
+        "explicit-bridge-operation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.01,
+            "insufficient": 0.04,
+            "refines": 0.1,
+            "supports": 0.85
+          },
+          "winner": "supports",
+          "top_probability": 0.85,
+          "margin": 0.75
+        },
+        "native-carrier-relation": {
+          "type": "choice",
+          "probabilities": {
+            "contradicts": 0.0,
+            "insufficient": 1.0,
+            "refines": 0.0,
+            "supports": 0.0
+          },
+          "winner": "insufficient",
+          "top_probability": 1.0,
+          "margin": 1.0
+        }
+      }
+    }
+  ],
+  "cross_source_candidate_relations": null,
+  "cross_source_receipt": null,
+  "exact_operator_probe": null,
+  "status": "candidate_source_reconstruction",
+  "elapsed_seconds": 0.202,
+  "limits": [
+    "No automatic promotion to canonical model.",
+    "Jev distributions are conditional classifications, not empirical truth probabilities.",
+    "Exact supplied source ranges only; no account-wide semantic completeness claim.",
+    "Proofline verifies projection integrity, not authenticity or scientific truth."
+  ]
+}

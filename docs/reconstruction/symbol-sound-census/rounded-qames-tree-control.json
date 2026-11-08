@@ -1,0 +1,300 @@
+{
+  "schema": "sunny.rounded-qames-conditional-tree-control.v1",
+  "createdUtc": "2026-11-04T02:06:49.203838+00:00",
+  "status": "passed",
+  "exitCode": 0,
+  "checksPassed": 13,
+  "checks": [
+    {
+      "name": "Complete topology sets from two independent enumerators agree",
+      "status": "passed"
+    },
+    {
+      "name": "Five-leaf count equals insertion-recurrence105",
+      "status": "passed"
+    },
+    {
+      "name": "Independent labelled-planar Catalan quotient gives105",
+      "status": "passed"
+    },
+    {
+      "name": "All105 topologies: exact internal-state test equals two-leaf-clade criterion",
+      "status": "passed"
+    },
+    {
+      "name": "Exactly15 topologies remain under one gain/no loss",
+      "status": "passed"
+    },
+    {
+      "name": "Full clade-collapse/expansion bijection independently gives15",
+      "status": "passed"
+    },
+    {
+      "name": "Ninety of105 topologies are excluded conditionally",
+      "status": "passed"
+    },
+    {
+      "name": "Only nontrivial consensus clade is Tiberian+Babylonian",
+      "status": "passed"
+    },
+    {
+      "name": "Forcing unrounded trio to be a clade would wrongly discard12 of15",
+      "status": "passed"
+    },
+    {
+      "name": "Allowing up to two origins/no loss admits all105",
+      "status": "passed"
+    },
+    {
+      "name": "Optional unknown-polarity one-change control admits21, not the primary15",
+      "status": "passed"
+    },
+    {
+      "name": "Original source assessments unchanged throughout calculation",
+      "status": "passed"
+    },
+    {
+      "name": "Executed method follows actual Jev decision",
+      "status": "passed"
+    }
+  ],
+  "verdict": "proved as written for the stated mathematical model; linguistic application remains conditional on the source-qualified character states and evolutionary assumptions",
+  "labels": [
+    "Babylonian",
+    "Jerome",
+    "Palestinian",
+    "Secunda",
+    "Tiberian"
+  ],
+  "states": {
+    "derived1": [
+      "Babylonian",
+      "Tiberian"
+    ],
+    "ancestral0": [
+      "Jerome",
+      "Palestinian",
+      "Secunda"
+    ]
+  },
+  "sourceFeature": {
+    "id": "PW-C1",
+    "sourceLocator": "Chapter4 \u00a72.1.1, pp77-79, Table9 on printed77/PDF90",
+    "sourceClaimStatus": "Author's proposed innovation and supporting argument inspected; underlying manuscript and external chronology claims not independently reproduced"
+  },
+  "sourceBindings": {
+    "docs/reconstruction/symbol-sound-census/phyla-waves-assessment.json": "c64301e3db491f1978b490e0cfefaf7a4d6fd8ac484be58a031f79a49ff43bd3",
+    "docs/reconstruction/symbol-sound-census/reading-tradition-edge-assessment.json": "8e2968a1fd90071e65eaddc31f7bd3004914658094fac0ea83e67d25eb99a25a"
+  },
+  "treeConvention": "Fully resolved rooted non-plane binary trees; five distinct leaf labels; unlabelled internal nodes; no branch lengths, internal rankings, dates, contact edges or sampled ancestors.",
+  "primaryAssumptions": [
+    "Root/ancestral state0",
+    "Exactly one0-to1 innovation",
+    "No1-to0 loss",
+    "No contact, parallel origin or scribal mixing in this character",
+    "The five leaf states are treated as specified for this calculation, not independently proven historical observations"
+  ],
+  "counts": {
+    "unconstrained": 105,
+    "compatible": 15,
+    "excluded": 90
+  },
+  "compatibleFractionOfSuppliedFamily": "1/7",
+  "fractionBoundary": "A combinatorial fraction, not a prior, posterior, calibrated confidence or probability of actual genealogy.",
+  "enumerators": {
+    "rootBipartitions": 105,
+    "independentFixedLabelInsertion": 105,
+    "insertionStages": [
+      {
+        "leaves": 1,
+        "count": 1
+      },
+      {
+        "leaves": 2,
+        "count": 1
+      },
+      {
+        "leaves": 3,
+        "count": 3
+      },
+      {
+        "leaves": 4,
+        "count": 15
+      },
+      {
+        "leaves": 5,
+        "count": 105
+      }
+    ],
+    "stateSolver": "All binary internal-node assignments with root0 tested for each topology; no-loss exactly-one-gain condition compared to explicit clade membership.",
+    "cladeCollapse": 15
+  },
+  "proof": {
+    "unconstrained": "A rooted binary tree on n-1 leaves has2n-4 edges plus one root-stem insertion position. Insert labelled leaf n at one of2n-3 positions. Deletion of that leaf and suppression of its parent is the unique inverse, so T1=1 and Tn=(2n-3)T(n-1). Therefore T5=1*3*5*7=105.",
+    "oneFeature": "With root0, one0-to1 gain and no loss, exactly the descendants below the gain are1. Hence the two1leaves must form a clade. Conversely any tree with that clade admits the gain on its entering edge, with all other states0.",
+    "compatible": "Collapse the fixed two-leaf clade to one label X. This bijects compatible five-leaf trees with arbitrary rooted binary trees on X and the other three labels. T4=1*3*5=15; the two-leaf expansion is unique.",
+    "independentFormula": "Fully labelled planar trees count C(n-1)*n!; exchanging the two children of each of n-1 internal nodes acts freely with distinct leaf labels. Quotient by2^(n-1). For n=5 this is14*120/16=105."
+  },
+  "onlyNontrivialCommonClade": [
+    "Babylonian",
+    "Tiberian"
+  ],
+  "allCompatibleTreesNewick": [
+    "((((Babylonian,Tiberian),Jerome),Palestinian),Secunda);",
+    "((((Babylonian,Tiberian),Jerome),Secunda),Palestinian);",
+    "((((Babylonian,Tiberian),Palestinian),Jerome),Secunda);",
+    "((((Babylonian,Tiberian),Palestinian),Secunda),Jerome);",
+    "((((Babylonian,Tiberian),Secunda),Jerome),Palestinian);",
+    "((((Babylonian,Tiberian),Secunda),Palestinian),Jerome);",
+    "(((Babylonian,Tiberian),(Jerome,Palestinian)),Secunda);",
+    "(((Babylonian,Tiberian),(Jerome,Secunda)),Palestinian);",
+    "(((Babylonian,Tiberian),(Palestinian,Secunda)),Jerome);",
+    "(((Babylonian,Tiberian),Jerome),(Palestinian,Secunda));",
+    "(((Babylonian,Tiberian),Palestinian),(Jerome,Secunda));",
+    "(((Babylonian,Tiberian),Secunda),(Jerome,Palestinian));",
+    "(((Jerome,Palestinian),Secunda),(Babylonian,Tiberian));",
+    "(((Jerome,Secunda),Palestinian),(Babylonian,Tiberian));",
+    "(((Palestinian,Secunda),Jerome),(Babylonian,Tiberian));"
+  ],
+  "allUnconstrainedTreesNewick": [
+    "((((Babylonian,Jerome),Palestinian),Secunda),Tiberian);",
+    "((((Babylonian,Jerome),Palestinian),Tiberian),Secunda);",
+    "((((Babylonian,Jerome),Secunda),Palestinian),Tiberian);",
+    "((((Babylonian,Jerome),Secunda),Tiberian),Palestinian);",
+    "((((Babylonian,Jerome),Tiberian),Palestinian),Secunda);",
+    "((((Babylonian,Jerome),Tiberian),Secunda),Palestinian);",
+    "((((Babylonian,Palestinian),Jerome),Secunda),Tiberian);",
+    "((((Babylonian,Palestinian),Jerome),Tiberian),Secunda);",
+    "((((Babylonian,Palestinian),Secunda),Jerome),Tiberian);",
+    "((((Babylonian,Palestinian),Secunda),Tiberian),Jerome);",
+    "((((Babylonian,Palestinian),Tiberian),Jerome),Secunda);",
+    "((((Babylonian,Palestinian),Tiberian),Secunda),Jerome);",
+    "((((Babylonian,Secunda),Jerome),Palestinian),Tiberian);",
+    "((((Babylonian,Secunda),Jerome),Tiberian),Palestinian);",
+    "((((Babylonian,Secunda),Palestinian),Jerome),Tiberian);",
+    "((((Babylonian,Secunda),Palestinian),Tiberian),Jerome);",
+    "((((Babylonian,Secunda),Tiberian),Jerome),Palestinian);",
+    "((((Babylonian,Secunda),Tiberian),Palestinian),Jerome);",
+    "((((Babylonian,Tiberian),Jerome),Palestinian),Secunda);",
+    "((((Babylonian,Tiberian),Jerome),Secunda),Palestinian);",
+    "((((Babylonian,Tiberian),Palestinian),Jerome),Secunda);",
+    "((((Babylonian,Tiberian),Palestinian),Secunda),Jerome);",
+    "((((Babylonian,Tiberian),Secunda),Jerome),Palestinian);",
+    "((((Babylonian,Tiberian),Secunda),Palestinian),Jerome);",
+    "((((Jerome,Palestinian),Babylonian),Secunda),Tiberian);",
+    "((((Jerome,Palestinian),Babylonian),Tiberian),Secunda);",
+    "((((Jerome,Palestinian),Secunda),Babylonian),Tiberian);",
+    "((((Jerome,Palestinian),Secunda),Tiberian),Babylonian);",
+    "((((Jerome,Palestinian),Tiberian),Babylonian),Secunda);",
+    "((((Jerome,Palestinian),Tiberian),Secunda),Babylonian);",
+    "((((Jerome,Secunda),Babylonian),Palestinian),Tiberian);",
+    "((((Jerome,Secunda),Babylonian),Tiberian),Palestinian);",
+    "((((Jerome,Secunda),Palestinian),Babylonian),Tiberian);",
+    "((((Jerome,Secunda),Palestinian),Tiberian),Babylonian);",
+    "((((Jerome,Secunda),Tiberian),Babylonian),Palestinian);",
+    "((((Jerome,Secunda),Tiberian),Palestinian),Babylonian);",
+    "((((Jerome,Tiberian),Babylonian),Palestinian),Secunda);",
+    "((((Jerome,Tiberian),Babylonian),Secunda),Palestinian);",
+    "((((Jerome,Tiberian),Palestinian),Babylonian),Secunda);",
+    "((((Jerome,Tiberian),Palestinian),Secunda),Babylonian);",
+    "((((Jerome,Tiberian),Secunda),Babylonian),Palestinian);",
+    "((((Jerome,Tiberian),Secunda),Palestinian),Babylonian);",
+    "((((Palestinian,Secunda),Babylonian),Jerome),Tiberian);",
+    "((((Palestinian,Secunda),Babylonian),Tiberian),Jerome);",
+    "((((Palestinian,Secunda),Jerome),Babylonian),Tiberian);",
+    "((((Palestinian,Secunda),Jerome),Tiberian),Babylonian);",
+    "((((Palestinian,Secunda),Tiberian),Babylonian),Jerome);",
+    "((((Palestinian,Secunda),Tiberian),Jerome),Babylonian);",
+    "((((Palestinian,Tiberian),Babylonian),Jerome),Secunda);",
+    "((((Palestinian,Tiberian),Babylonian),Secunda),Jerome);",
+    "((((Palestinian,Tiberian),Jerome),Babylonian),Secunda);",
+    "((((Palestinian,Tiberian),Jerome),Secunda),Babylonian);",
+    "((((Palestinian,Tiberian),Secunda),Babylonian),Jerome);",
+    "((((Palestinian,Tiberian),Secunda),Jerome),Babylonian);",
+    "((((Secunda,Tiberian),Babylonian),Jerome),Palestinian);",
+    "((((Secunda,Tiberian),Babylonian),Palestinian),Jerome);",
+    "((((Secunda,Tiberian),Jerome),Babylonian),Palestinian);",
+    "((((Secunda,Tiberian),Jerome),Palestinian),Babylonian);",
+    "((((Secunda,Tiberian),Palestinian),Babylonian),Jerome);",
+    "((((Secunda,Tiberian),Palestinian),Jerome),Babylonian);",
+    "(((Babylonian,Jerome),(Palestinian,Secunda)),Tiberian);",
+    "(((Babylonian,Jerome),(Palestinian,Tiberian)),Secunda);",
+    "(((Babylonian,Jerome),(Secunda,Tiberian)),Palestinian);",
+    "(((Babylonian,Jerome),Palestinian),(Secunda,Tiberian));",
+    "(((Babylonian,Jerome),Secunda),(Palestinian,Tiberian));",
+    "(((Babylonian,Jerome),Tiberian),(Palestinian,Secunda));",
+    "(((Babylonian,Palestinian),(Jerome,Secunda)),Tiberian);",
+    "(((Babylonian,Palestinian),(Jerome,Tiberian)),Secunda);",
+    "(((Babylonian,Palestinian),(Secunda,Tiberian)),Jerome);",
+    "(((Babylonian,Palestinian),Jerome),(Secunda,Tiberian));",
+    "(((Babylonian,Palestinian),Secunda),(Jerome,Tiberian));",
+    "(((Babylonian,Palestinian),Tiberian),(Jerome,Secunda));",
+    "(((Babylonian,Secunda),(Jerome,Palestinian)),Tiberian);",
+    "(((Babylonian,Secunda),(Jerome,Tiberian)),Palestinian);",
+    "(((Babylonian,Secunda),(Palestinian,Tiberian)),Jerome);",
+    "(((Babylonian,Secunda),Jerome),(Palestinian,Tiberian));",
+    "(((Babylonian,Secunda),Palestinian),(Jerome,Tiberian));",
+    "(((Babylonian,Secunda),Tiberian),(Jerome,Palestinian));",
+    "(((Babylonian,Tiberian),(Jerome,Palestinian)),Secunda);",
+    "(((Babylonian,Tiberian),(Jerome,Secunda)),Palestinian);",
+    "(((Babylonian,Tiberian),(Palestinian,Secunda)),Jerome);",
+    "(((Babylonian,Tiberian),Jerome),(Palestinian,Secunda));",
+    "(((Babylonian,Tiberian),Palestinian),(Jerome,Secunda));",
+    "(((Babylonian,Tiberian),Secunda),(Jerome,Palestinian));",
+    "(((Jerome,Palestinian),(Secunda,Tiberian)),Babylonian);",
+    "(((Jerome,Palestinian),Babylonian),(Secunda,Tiberian));",
+    "(((Jerome,Palestinian),Secunda),(Babylonian,Tiberian));",
+    "(((Jerome,Palestinian),Tiberian),(Babylonian,Secunda));",
+    "(((Jerome,Secunda),(Palestinian,Tiberian)),Babylonian);",
+    "(((Jerome,Secunda),Babylonian),(Palestinian,Tiberian));",
+    "(((Jerome,Secunda),Palestinian),(Babylonian,Tiberian));",
+    "(((Jerome,Secunda),Tiberian),(Babylonian,Palestinian));",
+    "(((Jerome,Tiberian),(Palestinian,Secunda)),Babylonian);",
+    "(((Jerome,Tiberian),Babylonian),(Palestinian,Secunda));",
+    "(((Jerome,Tiberian),Palestinian),(Babylonian,Secunda));",
+    "(((Jerome,Tiberian),Secunda),(Babylonian,Palestinian));",
+    "(((Palestinian,Secunda),Babylonian),(Jerome,Tiberian));",
+    "(((Palestinian,Secunda),Jerome),(Babylonian,Tiberian));",
+    "(((Palestinian,Secunda),Tiberian),(Babylonian,Jerome));",
+    "(((Palestinian,Tiberian),Babylonian),(Jerome,Secunda));",
+    "(((Palestinian,Tiberian),Jerome),(Babylonian,Secunda));",
+    "(((Palestinian,Tiberian),Secunda),(Babylonian,Jerome));",
+    "(((Secunda,Tiberian),Babylonian),(Jerome,Palestinian));",
+    "(((Secunda,Tiberian),Jerome),(Babylonian,Palestinian));",
+    "(((Secunda,Tiberian),Palestinian),(Babylonian,Jerome));"
+  ],
+  "negativeAndSensitivityControls": {
+    "unroundedTrioAlsoMonophyletic": {
+      "compatibleWithBothGroups": 3,
+      "otherwiseCompatibleWronglyExcluded": 12,
+      "boundary": "The three ancestral-state leaves need not form a clade."
+    },
+    "upToTwoOriginsNoLoss": {
+      "compatible": 105,
+      "boundary": "Every topology can assign an independent gain to each1leaf; this relaxes the primary single-innovation assumption."
+    },
+    "unknownPolaritySingleChange": {
+      "compatible": 21,
+      "zeroTrioCladeCount": 9,
+      "intersectionBothClades": 3,
+      "boundary": "If which state is ancestral is not fixed, either state block can be the derived clade. This optional control is not the primary rooted0 model."
+    }
+  },
+  "limitations": [
+    "The feature leaves15 topologies and identifies no unique actual genealogy, historical ancestor, branch time or direction of community contact.",
+    "Rounded/unrounded coding and its historical polarity come from the existing conditional linguistic assessment; original witness phonetics/chronology were not newly verified.",
+    "Reticulate contact, multiple origins, reversals, uncertain states, polytomies and non-binary trees are outside the primary105-tree family.",
+    "No hierarchy edge, musical/geometric adapter or central ontology is changed by this control."
+  ],
+  "guardrails": {
+    "actualJev": "docs/reconstruction/symbol-sound-census/rounded-qames-tree-superjev.json",
+    "methodsApplied": [
+      "Mathbox proof-audit: exact objects, hypotheses, boundary cases, exhaustive enumerator and independent criterion check",
+      "SuperJev actual operational choice; probabilities do not prove the count"
+    ],
+    "runtimeBoundary": "Local exact Python enumeration/state solving is executed. A specialist skill is not itself a separate external solver result."
+  },
+  "programSha256": "f750f2713131d298fce8b4b92a380649bc5b1f31cf0cce391754df6ae6a25e83",
+  "persistentProcessesStarted": 0,
+  "centralInputsChanged": false
+}

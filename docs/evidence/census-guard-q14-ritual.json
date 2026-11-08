@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-03T03:19:34.183447+00:00",
+  "stage": "scholarly search only; exposed search-index snippets; no withheld targets evaluated",
+  "queries": [
+    "site:openbookpublishers.com Tiberian Hidāyat reader alef articulation glottis",
+    "site:sefaria.org Megillah 24b alef ayin priestly blessing",
+    "\"aleph\" \"frequency\" \"Hertz\" ancient Hebrew recitation manuscript pitch standard",
+    "Hebrew aleph ritual recitation letter aleph fixed Hertz frequency phase inscription primary acoustic measurements Jewish chant aleph"
+  ],
+  "positive": [
+    {
+      "source": "https://www.sefaria.org/Megillah.24b.10",
+      "locator": "Megillah 24b:10, bilingual William Davidson edition; publication is not date of composition",
+      "finding": "The cited baraita describes communities interchanging alef and ayin and excludes those readers from leading the service. This supplies a source-specific required distinction. No physical magnitude or unique acoustic rendering is stated in the passage."
+    },
+    {
+      "source": "https://books.openbookpublishers.com/10.11647/obp.0163.pdf",
+      "locator": "Khan 2020 vol. 1 p.194 n.83, citing Hidayat al-Qari long version II.L.1.3.2",
+      "finding": "Alef and ayin share a broad anatomical grouping there. Khan distinguishes that testimony from his interpretation of finer articulatory differences. Broad place-class membership does not equate the letters."
+    }
+  ],
+  "negative": "In the English/romanized public indexed results inspected for the last two strings, no primary ancient source prescribing an absolute frequency in Hz or phase for aleph was identified. Modern compositional assignments and secondary discussions do not qualify. This is a retrieval boundary, not proof of historical absence.",
+  "limits": "No folio-level collation of a Talmud manuscript, exhaustive Hebrew/Aramaic lexical searches, premodern ratio-only prescription search or acoustic corpus analysis in this pass. Search result snippets with unrelated speculative assertions were incidentally visible; none used as corroboration.",
+  "next": "Test relative pitch and duration terminology independently of modern units, and disambiguate cantillation marks, word position, dialect, letter and singer reference frame."
+}

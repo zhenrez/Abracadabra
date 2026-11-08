@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "request_sha256": "0254823ba8eaf69f39a412fa5bf4f1e961883a38ea4227d2a09a61f959eb0cfc",
+  "provider": "typesafe",
+  "requested_model": "jev-latest",
+  "authorization_granted": false,
+  "status": "judged",
+  "answers": {
+    "handoff": {
+      "type": "choice",
+      "probabilities": {
+        "bounded_checkpoint_then_greek": 1.0,
+        "declare_program_complete": 0.0,
+        "withhold_any_checkpoint": 0.0
+      },
+      "winner": "bounded_checkpoint_then_greek",
+      "top_probability": 1.0,
+      "margin": 1.0
+    }
+  },
+  "resolved_model": "jev-1.14.0",
+  "usage": {
+    "input_tokens": 606,
+    "output_tokens": 52
+  },
+  "network_calls": 1,
+  "latency_ms": 254
+}
