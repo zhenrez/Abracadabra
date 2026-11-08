@@ -1,0 +1,53 @@
+{
+  "schema": "sun.github-independent-readback.v1",
+  "status": "PASSED",
+  "checked_at_utc": "2026-11-08T22:36:10.500Z",
+  "reviewer": "Independent child /root/change_review",
+  "repository": "zhenrez/Abracadabra",
+  "exact_commit": "21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8",
+  "actual_remote_tool": "mcp__codex_apps__github_fetch_file",
+  "remote_calls": 3,
+  "local_read_only_command": "git rev-parse exact_commit:path for each requested path",
+  "local_command_exit_code": 0,
+  "comparison": "Exact Git blob SHA equality; returned base64 content was not decoded or normalized",
+  "files": [
+    {
+      "path": "README.md",
+      "ref": "21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8",
+      "remote_git_blob_sha": "2681170d9a317f5615f7845f5dac35b7146d0a01",
+      "local_git_blob_sha": "2681170d9a317f5615f7845f5dac35b7146d0a01",
+      "match": true,
+      "remote_url": "https://github.com/zhenrez/Abracadabra/blob/21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8/README.md",
+      "response_encoding": "base64",
+      "content_decoded_or_unicode_normalized": false
+    },
+    {
+      "path": "publication/HANDOFF.md",
+      "ref": "21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8",
+      "remote_git_blob_sha": "6a4b57b769aaca38352371ca0d4b465786e271e3",
+      "local_git_blob_sha": "6a4b57b769aaca38352371ca0d4b465786e271e3",
+      "match": true,
+      "remote_url": "https://github.com/zhenrez/Abracadabra/blob/21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8/publication/HANDOFF.md",
+      "response_encoding": "base64",
+      "content_decoded_or_unicode_normalized": false
+    },
+    {
+      "path": "work/unit001/frozen/source/matrix-message.txt",
+      "ref": "21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8",
+      "remote_git_blob_sha": "cbe2c235c6deae4ee3f43fb906e8918ecd4b8081",
+      "local_git_blob_sha": "cbe2c235c6deae4ee3f43fb906e8918ecd4b8081",
+      "match": true,
+      "remote_url": "https://github.com/zhenrez/Abracadabra/blob/21bfe537d52430bf1f182d8b2a9aeaba69bc1cb8/work/unit001/frozen/source/matrix-message.txt",
+      "response_encoding": "base64",
+      "content_decoded_or_unicode_normalized": false
+    }
+  ],
+  "github_writes_performed": false,
+  "local_git_mutations_performed": false,
+  "payloads_printed": false,
+  "not_claimed": [
+    "Entire remote repository integrity",
+    "Remote CI pass",
+    "Historical or scientific completion"
+  ]
+}
